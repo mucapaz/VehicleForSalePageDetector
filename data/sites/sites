@@ -185,3 +185,33 @@ litoralcar
 
 	formato div
 
+autoshoppingcuritiba
+	http://www.autoshoppingcuritiba.com.br/search.php?tipoveiculo=&id_marca=&id_modelo=&ano_ini=&ano_fim=&preco_ini=&preco_fim=&cor=&combustivel=&cambio=&carroceria=&uf=&cidade=&loja=&bt_buscar.x=45&bt_buscar.y=2&texto_pesquisa=	
+
+	links estáticos
+
+	local
+		curitiba
+
+	formato dl/dt/di
+
+
+vivalocal
+	http://www.vivalocal.com/auto-veiculo-usado/br
+
+	links estáticos
+
+	nacional
+
+	formato tr/td
+
+primeiramao
+	http://primeiramao.band.com.br/b/categoria/Carros/
+
+	links estáticos
+
+	local
+		sp
+
+	formato ul/li
+

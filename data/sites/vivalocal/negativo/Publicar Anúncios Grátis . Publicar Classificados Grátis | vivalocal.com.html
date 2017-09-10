@@ -1,0 +1,2214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><!-- Generated September 10, 2017, 10:44 pm on web46 --><title>Publicar Anúncios Grátis . Publicar Classificados Grátis | vivalocal.com</title><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcCVFBWGwECUlRTAggD"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1044.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script><meta name="description" content="Publicar Anúncios Grátis . Publicar Classificados Gratis . Classificados GRÁTIS. Publicar Anúncios . Publicar Classificados Online " /><meta name="keywords" content="Publicar Anúncios Grátis . Publicar Classificados Grátis . Classificados GRÁTIS. Publicar Anúncios . Publicar Classificados Online " /><meta name="robots" content="noodp" /><meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" /><link rel="shortcut icon" href="http://media-sa.viva-images.com/vivastreet_mx/home/favicon.ico" /><script type="text/javascript" src="http://static.viva-images.com/bundle/aglFJ/viwii3/scripts/prepend_b.js?cache=aglFJ"></script><script src="http://post.vivalocal.com/script/captions.php?cache=aglFJ"></script><link rel="stylesheet" type="text/css" href="http://static.viva-images.com/templates/viwii3/styles/bundle_br_latam.css?cache=aglFJ"/></head><body id="kiwii" page_mode="f" page_type="post" class="post" style='background-position: top center;background-repeat:no-repeat;' ><a name="top" id="jump_top"></a><div class="kiwii-span-20 kiwii-center-hor vs-width-1000 kiwii-bg-xxxlighter-blue kiwii-padding-tiny"><div class="kiwii-margin-top-xxsmall"><div class="kiwii-position-relative kiwii-margin-bottom-small" id="vs_header"><div class="inner"><a class="kiwii-float-left kiwii-logo" title="Classificados" alt="Classificados" href="http://www.vivalocal.com"></a><span class="" id="header-tag"><h1 class="kiwii-h1">Publicar Anúncios Grátis  / Publicar Classificados Grátis </h1></span><div class="kiwii-font-tiny kiwii-clear-left kiwii-padding-left-xxxsmall" id="vs_static_header"><span style="letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;">Anúncios classificados grátis</span></div><div class="kiwii-clear-both"></div><div class="kiwii-position-absolute kiwii-position-right kiwii-position-bottom kiwii-layer-top kiwii-margin-bottom-xxxsmall"><div class="vs-user-menu kiwii-no-link-decoration "><a href="http://www.vivalocal.com/account_classifieds.php" id="vs_account_menu_link" class="kiwii-no-link-decoration kiwii-font-weight-bold" rel="nofollow">Minha Conta</a><a id="vs_help_link" class="vivasafe kiwii-margin-left-xxsmall kiwii-no-link-decoration kiwii-font-weight-bold" href="http://www.vivalocal.com/s/help" rel="nofollow">Ajuda</a></div></div></div></div></div><div id="vs_content" class="clear kiwii-box-white">
+                            <div id="content">
+
+    
+    
+    <form id="postform" name="postform" action="http://post.vivalocal.com" enctype="multipart/form-data" method="post" formAnalysis="true">
+        <input type="hidden" name="incorrect_username" id="incorrect_username" value="0" />
+        <input type="hidden" name="pic_hash" id="pic_hash" value="1987847156" />
+        
+                <div id="step_one" class="">
+                            <div class="kiwii-border-bottom-xxlight-gray">
+                    <h5 class="kiwii-input-group-title kiwii-margin-xxsmall">
+                        <span class="vs-step-title">Publicar Anuncio...</span>
+                        <div class="kiwii-clear-both"></div>
+                    </h5>
+                </div>
+                        <div class="steps_wrap kiwii-bg-xxxlight-gray" style="padding-top: 30px;">
+            <input type="hidden" name="postingsubcategory" id="postingsubcategory" autocomplete="off" />
+<input type="hidden" name="jobs_cat_selected" id="jobs_cat_selected" autocomplete="off" value=""/>
+<table class="steps" width="100%">
+    <col width="155px" />
+    <col width="*%" />
+    <tr style="display:none;">
+        <td id="posting_repick_cat_cell" colspan="3">
+            <span class="vs-step-two-category"></span>
+            <br />
+            <a href="javascript:void(0);" id="posting_repick_cat" /></a>
+        </td>
+    </tr>
+    <tr id="posting_cat_select_row_new">
+        <td class="title kiwii-input-label">
+            Categoria
+        </td>
+        <td class="middle">
+                            <select id="posting_category_select" name="posting_category_select" autocomplete="off" class="widened kiwii-input kiwii-flat-input kiwii-input-large">
+                    <option class="title" disabled="disabled" value="" selected="selected">Nossas categorias</option>
+                                                                                                                                            <option class="title" disabled="disabled">-- VEÍCULOS USADOS --</option>
+                                                                                                                                                                                <option value="__posting_vehicle_group">Carros-Motos-Caminhonetes-Barcos</option>
+                                                                                                                                                                                <option value="vehicle_accessories">Acessórios e serviços</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- IMÓVEIS --</option>
+                                                                                                                                                                                <option value="housing_for_sale">Venda Imóveis </option>
+                                                                                                                                                                                <option value="housing_for_rent">Aluguel Imóveis</option>
+                                                                                                                                                                                <option value="sublets_short_term">Aluguel Temporada</option>
+                                                                                                                                                                                <option value="new_developments">Empreendimentos - Obras na Planta</option>
+                                                                                                                                                                                <option value="rooms_roommates">Dividir Apartamento</option>
+                                                                                                                                                                                <option value="land_for_sale">Terrenos e Lotes a Venda</option>
+                                                                                                                                                                                <option value="housing_exchange">Troca de casas - Apartamentos</option>
+                                                                                                                                                                                <option value="parking">Estacionamento e Garagem a Venda</option>
+                                                                                                                                                                                <option value="overseas_realestate">Imóveis exterior</option>
+                                                                                                                                                                                <option value="real_estate">Imóveis comerciais</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- EMPREGOS & SERVIÇOS --</option>
+                                                                                                                                                                                <option value="jobs">Empregos</option>
+                                                                                                                                                                                <option value="services">Serviços</option>
+                                                                                                                                                                                <option value="classes">Cursos</option>
+                                                                                                                                                                                <option value="community">Comunidade</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- ANIMAIS ESTIMAÇÃO --</option>
+                                                                                                                                                                                <option value="pet_sale">Animais estimação à venda</option>
+                                                                                                                                                                                <option value="pet_adoption">Adoção animais de estimação</option>
+                                                                                                                                                                                <option value="pet_services">Veterinários - Serviços - Acessórios</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- AGRONEGÓCIOS --</option>
+                                                                                                                                                                                <option value="__agriculture_group">Máquinas Agrícolas-Sítios-Insumos</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- ARTIGOS PARA CASA --</option>
+                                                                                                                                                                                <option value="furniture">Móveis a Venda</option>
+                                                                                                                                                                                <option value="house_and_garden">Artigos de Decoração</option>
+                                                                                                                                                                                <option value="appliances_furniture">Eletrodomésticos usados</option>
+                                                                                                                                                                                <option value="collectibles_books">Artigos de coleção</option>
+                                                                                                                                                                                <option value="pro_equipment">Equipamentos a venda</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- ARTIGOS ELETRÔNICOS --</option>
+                                                                                                                                                                                <option value="computers_elec">Computadores e Notebooks</option>
+                                                                                                                                                                                <option value="art_music">DVD - Games - Livros </option>
+                                                                                                                                                                                <option value="photo_hifi_tv">TV-Som-Foto</option>
+                                                                                                                                                                                <option value="phones_pdas">Celulares, iPods e MP3</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- ROUPAS E ACESSÓRIOS --</option>
+                                                                                                                                                                                <option value="furniture_household">Joias, Relogios, Antiguidades</option>
+                                                                                                                                                                                <option value="children">Brinquedos e artigos infantis</option>
+                                                                                                                                                                                <option value="clothes_accessories">Roupas e Acessórios </option>
+                                                                                                                                                                                <option value="beauty_products">Beleza e Saúde</option>
+                                                                                                                                                                                <option value="general">Artigos Diversos</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- LAZER E ENTRETENIMENTO --</option>
+                                                                                                                                                                                <option value="sportswear">Artigos Esportivos</option>
+                                                                                                                                                                                <option value="hand_made">Artesanato</option>
+                                                                                                                                                                                <option value="gift_ideas">Presentes e Lembrancinhas</option>
+                                                                                                                                                                                <option value="music_instruments">Instrumentos musicais</option>
+                                                                                                                                                                                <option value="food_and_wine">Bebidas e Comidas</option>
+                                                                                                                                                                                                                                 <option class="title" disabled="disabled">-- RELACIONAMENTO --</option>
+                                                                                                                                                                                <option value="missed-connections">Procurar Amigos</option>
+                                                                                                                                                                                <option value="serious_relationships">Procurar Amor</option>
+                                                                                                                                                                                <option value="gay_relationships">Relações Gays - Lésbicas</option>
+                                                                                                                                                                                <option value="open_minds">Encontros Casuais</option>
+                                                                                                                                                                                <option value="adult_services">Acompanhantes & Massagem</option>
+                                                                                                                                                                                <option value="gay_adult_services">Acompanhantes Masculinos</option>
+                                                                                                                          </select>
+                <span class="caption"></span>
+                     </td>
+        <td class="caption" style="width:7px;">
+            <div class="bubble_container kiwii-bubble-container">
+                <div class="bubble info kiwii-bubble kiwii-info-bubble" >
+                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                    <span class="bubble_text info">Selecionar a categoria correta é essencial. Veja a lista completa de opções antes de escolher.<BR><br />1) Selecione a categoria principal no menu<BR><br />2) A lista de sub-categorias aparecerá abaixo. Escolha a sua.</span>
+                </div>
+                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                    <span class="bubble_text error"></span>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr id="posting_cat_radio_row">
+        <td class="title">
+        </td>
+        <td class="middle">
+                            <div class="select-page kiwii-display-none" category="__posting_vehicle_group">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="cars_trucks" field="" spec_name="" select_type="category"  options="">Carros Usados</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="bikes_motorcycles" field="" spec_name="" select_type="category"  options="">Motos Usadas</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="trucks" field="" spec_name="" select_type="category"  options="">Caminhões Usados</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="busses" field="" spec_name="" select_type="category"  options="">Ônibus Usados</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="caravans_rv" field="" spec_name="" select_type="category"  options="">Trailer Usado</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="boats" field="" spec_name="" select_type="category"  options="">Barcos Usados</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="boats_rental" field="" spec_name="" select_type="category"  options="">Aluguel de Veículos</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="vehicle_accessories">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="car_parts" field="" spec_name="" select_type="category"  options="">Autopeças - Acessórios - Serviços</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="bikes_accessories" field="" spec_name="" select_type="category"  options="">Peças e Acessórios Motos</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="boat_accessories" field="" spec_name="" select_type="category"  options="">Peças e Acessórios Barcos</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="rv_accessories" field="" spec_name="" select_type="category"  options="">Acessórios Motorhome</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="truck_accessories" field="" spec_name="" select_type="category"  options="">Peças e Acessórios Caminhões</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="overseas_realestate">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="overseas_for_sale" field="" spec_name="" select_type="category"  options="">Casas venda exterior</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="overseas_for_rent" field="" spec_name="" select_type="category"  options="">Aluguel Temporada no Exterior</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="overseas_land_for_sale" field="" spec_name="" select_type="category"  options="">Terrenos a Venda no Exterior</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="real_estate">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="storage_parking" field="" spec_name="" select_type="category"  options="">Venda Imóveis Comerciais</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="office_commercial" field="" spec_name="" select_type="category"  options="">Aluguel Imóveis Comerciais</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="jobs">
+                                            <div class="select-column
+                            ">
+                                                            <div class="column-header kiwii-font-weight-bold kiwii-padding-bottom-xxsmall">Empregos</div>
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="job_offers" field="" spec_name="" select_type="category"  options="">Vagas de Emprego</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="internships" field="" spec_name="" select_type="category"  options="">Programas de Estagio e Trainee</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="job_seekers" field="" spec_name="" select_type="category"  options="">Anuncie seu Currículo</label>
+                                                    </div>
+                                            <div class="select-column
+                            ">
+                                                            <div class="column-header kiwii-font-weight-bold kiwii-padding-bottom-xxsmall">Trabalhos domésticos</div>
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="babysitting" field="" spec_name="" select_type="category"  options="">Babás</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="cleaning" field="" spec_name="" select_type="category"  options="">Empregada doméstica - Diarista</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="senior_citizens" field="" spec_name="" select_type="category"  options="">Acompanhante idosos - Enfermeira</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="mlm_commission" field="" spec_name="" select_type="category"  options="">Trabalhar em casa</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="services">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="tickets_travel" field="" spec_name="" select_type="category"  options="">Serviços turismo - Agência turismo</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="translation" field="" spec_name="" select_type="category"  options="">Traduções - Serviços de traduções </label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="computer_services" field="" spec_name="" select_type="category"  options="">Serviços de informática</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="computer" field="" spec_name="" select_type="category"  options="">Mudanças - Frete</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="small_businesses" field="" spec_name="" select_type="category"  options="">Profissionais liberais</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="labor_moving" field="" spec_name="" select_type="category"  options="">Reparo - Conserto - Reforma</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="health_and_well_being" field="" spec_name="" select_type="category"  options="">Bem-Estar - Saúde - Beleza</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_learning" field="" spec_name="" select_type="category"  options="">Astrologia - Serv. espirituais</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="other_services" field="" spec_name="" select_type="category"  options="">Outros serviços</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="classes">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_language" field="" spec_name="" select_type="category"  options="">Cursos de idiomas</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_computers" field="" spec_name="" select_type="category"  options="">Cursos de informática</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_professional_training" field="" spec_name="" select_type="category"  options="">Capacitação profissional</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_private" field="" spec_name="" select_type="category"  options="">Professores particulares</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="aerobics" field="" spec_name="" select_type="category"  options="">Aulas de ginástica</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_music_theater" field="" spec_name="" select_type="category"  options="">Aulas música - Teatro - Dança</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="classes_other" field="" spec_name="" select_type="category"  options="">Outros cursos</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="community">
+                                            <div class="select-column
+                            ">
+                                                            <div class="column-header kiwii-font-weight-bold kiwii-padding-bottom-xxsmall">Comunidade</div>
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="artists_musicians" field="" spec_name="" select_type="category"  options="">Artistas - Músicos</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="restaurants_bars" field="" spec_name="" select_type="category"  options="">Guia restaurantes - Bares</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="recipes" field="" spec_name="" select_type="category"  options="">Receitas culinárias</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="missing" field="" spec_name="" select_type="category"  options="">Contatos perdidos</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="other_activities" field="" spec_name="" select_type="category"  options="">Atividades locais</label>
+                                                    </div>
+                                            <div class="select-column
+                            ">
+                                                            <div class="column-header kiwii-font-weight-bold kiwii-padding-bottom-xxsmall">Eventos</div>
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="events_planning" field="" spec_name="" select_type="category"  options="">Serviços para eventos</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="__agriculture_group">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="farm_animals" field="" spec_name="" select_type="category"  options="">Animais do campo</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="animal_nutrition" field="" spec_name="" select_type="category"  options="">Alimentação pecuária - Grãos</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="agro_supplies" field="" spec_name="" select_type="category"  options="">Produtos rurais</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="agro_machinery" field="" spec_name="" select_type="category"  options="">Maquinária agrícola</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="agro_services" field="" spec_name="" select_type="category"  options="">Serviços agropecuários</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="agro_land" field="" spec_name="" select_type="category"  options="">Fazendas - Sitios à venda</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="serious_relationships">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="women_for_men" field="" spec_name="" select_type="category"  options="">Mulher procura homem</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="men_for_women" field="" spec_name="" select_type="category"  options="">Homem procura mulher</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="gay_relationships">
+                                            <div class="select-column
+                            ">
+                                                                                        <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="women_for_women" field="" spec_name="" select_type="category"  options="">Mullher procura mulher</label>
+                                                            <label class="kiwii-display-block kiwii-margin-bottom-xxsmall"><input type="radio" class="subcat-radio kiwii-margin-right-xxxsmall" name="subcat_select" value="men_for_men" field="" spec_name="" select_type="category"  options="">Homem procura homem</label>
+                                                    </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                            <div class="select-page kiwii-display-none" category="services / small_jobs">
+                                            <div class="select-column
+                            ">
+                                                                                </div>
+                                            <div class="select-column
+                            ">
+                                                                                </div>
+                                        <div style="clear:left;"></div>
+                </div>
+                    </td>
+        <td class="caption" style="width:7px;">
+            <div class="bubble_container kiwii-bubble-container">
+                <div class="bubble info kiwii-bubble kiwii-info-bubble" >
+                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                    <span class="bubble_text info">Selecione a melhor categoria para seu anúncio.</span>
+                </div>
+                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                    <span class="bubble_text error"></span>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<script>
+var POSTCATEGORY = {
+    $last_radio_page: null,
+    last_subcat: null,
+    category_locked: false,
+    foreign_switch_new: false};
+POSTCATEGORY.selectCategory = function( meta_code ) {
+    if( !POSTCATEGORY.category_locked ) {
+        $J('#postingsubcategory').attr( 'value', meta_code );
+        if( meta_code.length == 0 ) {
+            $J('#step_beware').hide();
+        }
+        else if( POSTCATEGORY.last_subcat == null || POSTCATEGORY.last_subcat != meta_code ) {
+            POSTFORM.updateSubCat();
+            POSTFORM.failed_validation = false;
+            $J('.bubble.error:visible').css('display','none');
+        }
+        POSTCATEGORY.last_subcat = meta_code;
+        //#5176
+
+        if( typeof POSTCATEGORY.foreign_switch_new != 'undefined'
+            && POSTCATEGORY.foreign_switch_new
+            && POSTFORM.isCurrentlyForeignSwitchable() ) {
+            $J( '#foreign_toggle_container' ).show();
+        }
+        else {
+            POSTFORM.abroadOnly('no');
+            $J( '#foreign_toggle_container' ).hide();
+            $J( 'input#is_foreign_country' ).attr( 'checked', '' );
+        }
+    }
+};
+POSTCATEGORY.selectSpecialization = function( key, value ) {
+    var $controls = $J( '#id_' + key );
+    if( $controls.length > 0 ) {
+        $controls.val( value );
+        $controls.closest( '.vs_altrows' ).hide();
+    }
+};
+POSTCATEGORY.resetCategory = function() {
+    if( POSTCATEGORY.$last_radio_page != null ) {
+        POSTCATEGORY.$last_radio_page.hide();
+    }
+
+    // this will cause the blank post form to show again if the user was viewing a disclaimer
+    if( $J( '#disclaimer_no:visible' ).length > 0 ) {
+        $J( '#disclaimer_no:visible' ).click();
+    }
+
+    POSTCATEGORY.selectCategory( '' );
+    POSTCATEGORY.selectSpecialization( '', '' );
+};
+
+POSTCATEGORY.init = function() {
+    //dropdown
+    var event = 'change';
+    var selector = 'select#posting_category_select';
+    $J( selector ).bind( event, function() {
+        if( $J( this ).hasClass( 'title' ) ) {
+             return false;
+        }
+        var cat_meta = $J( this ).val();
+        /* the following is a trick for when the user clicks away from the dropdown
+        *  while the dropdown has been expanded.
+        *  it ends up triggering a 'change' on the 'select' element without updating
+        *  the rendering of the text in the dropdown
+        */
+        $J( this ).children(':selected').removeAttr( 'selected' ).attr( 'selected','selected' );
+        if( typeof subcats['personals'] != 'undefined' &&
+            typeof subcats['personals'][cat_meta] != 'undefined' ) {
+            $J( 'div#habla_beta_container_do_not_rely_on_div_classes_or_names' ).hide();
+        }
+        else {
+            $J( 'div#habla_beta_container_do_not_rely_on_div_classes_or_names' ).show();
+        }
+
+        var $radio_page = $J( '.select-page[category="' + cat_meta + '"]' );
+        if( $radio_page.length > 0 && $radio_page != POSTCATEGORY.$last_radio_page ) {
+            POSTCATEGORY.resetCategory();
+            $radio_page.show();
+            POSTCATEGORY.$last_radio_page = $radio_page;
+            $J( '#spec .vs_altrows' ).hide();
+            $J( '#upper_plans_container' ).hide();
+            POSTCATEGORY.$last_radio_page.find( '.subcat-radio:checked' ).attr( 'checked', false );
+            POSTFORM.cur_subcat = 0;
+            if( POSTFORM.posting_bubbles ) {
+                POSTFORM.failed_validation = false;
+                //check the title caption. don't do anything if it's the generic_other one already.
+                var generic_title = __('form_post_title_generic_other');
+                var generic_caption = __('form_post_title_generic_other_caption');
+
+                var $title_element = $J('input[name=title]').parent().prev().children('strong');
+                var $caption_element = $J('input[name=title]').parent().next().find('.info.bubble_text');
+                var current_caption = $J.trim( $caption_element.html() );
+                var current_title = $J.trim( $title_element.html() );
+                if( generic_title != current_title ) {
+                    $title_element.html( generic_title );
+                }
+                if( generic_caption != current_caption ) {
+                    $caption_element.html( generic_caption );
+                }
+            }
+        }
+        else {
+            POSTCATEGORY.resetCategory();
+            POSTCATEGORY.selectCategory( cat_meta );
+        }
+        if( $J( 'input[name=subcat_select]:visible:checked' ).length == 0 ) {
+            $J( 'input[name=subcat_select]:hidden:checked' ).removeAttr('checked');
+        }
+        $J('.bubble.error:visible').css('display','none');
+
+    } );
+
+    //radios
+    $J( 'input.subcat-radio' ).click( function() {
+        $J('.bubble.error:visible').css('display','none');
+        var field = $J(this).attr('field');
+        var spec_name = $J(this).attr('spec_name');
+        var value = $J(this).val();
+        if( field.length == 0 ) {
+            // a category was selected
+            var cat_meta = value;
+            POSTCATEGORY.selectSpecialization( '', '' );
+        }
+        else {
+            // a specialization was selected
+            var cat_meta = $J(this).closest('.select-page').attr('category');
+            if( $J( this ).attr( 'subcat_spec' ) != undefined )
+                cat_meta = $J( this ).attr( 'subcat_spec' );
+            POSTCATEGORY.selectSpecialization( spec_name, value );
+        }
+        if( typeof POSTCATEGORY.from_foreign_cat != 'undefined'
+            && POSTCATEGORY.from_foreign_cat == cat_meta ) {
+            $J( 'tr#foreign_toggle_container' ).hide();
+        }
+
+         POSTCATEGORY.selectCategory( cat_meta );
+
+    } );
+
+    // special disclaimer deny behavior
+    $J( '#disclaimer_no' ).live( 'click', function() {
+        POSTFORM.showSpecFields();
+        $J( 'select#posting_category_select' ).change();
+    } );
+
+    if( $J( '.select-page:visible' ).length > 0 ) {
+        POSTCATEGORY.$last_radio_page = $J( '.select-page:visible' );
+    }
+
+/* #5176
+ * Set behaviors for spec values mapped to categories...only jobs so far.
+ */
+};
+
+POSTCATEGORY.init();
+</script>
+
+            <table class="steps" width="100%">
+                <tr id="step_beware" style="display: none;">
+                    <td class="kiwii-display-none"></td>
+                    <td class="middle" colspan="2">
+                        <table id="category_step_beware" class="steps" cellpadding="3" border="0"
+                            cellspacing="0" width="100%">
+                            <tr>
+                                <td class="kiwii-padding-large">
+                                    <div id="idisclaimer" style="overflow: auto"
+                                    class=
+                                        "
+                                                                                    kiwii-border-xxlight-gray
+                                            kiwii-padding-top-xxsmall
+                                            kiwii-padding-bottom-xxsmall
+                                            kiwii-padding-right-tiny
+                                            kiwii-padding-left-tiny
+                                            kiwii-bg-white
+                                                                                "
+                                    >
+                                    </div>
+                                                                    </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            </div>
+        </div>
+                <span style="display: none;" class="vs-postform-spec-loading" id="postingForm-loading">
+            Carregando Informações...
+        </span>
+                <div id="step_two" class="">
+            <div class="steps_wrap kiwii-bg-xxxlight-gray" style="margin-bottom: 0px!important; padding-bottom: 0px;">
+                <input type="hidden" value="0" name="selectedGeo" id="selectedGeo" />
+                <input type="hidden" value="" name="originalGeo" id="originalGeo" />
+                <input type="hidden" value="0" name="original_p2p_id" id="original_p2p_id" />
+                <input type="hidden" value="1" name="featuredAd" id="featuredAd" />
+                <input type="hidden" value="0" name="featuredPlan" id="featuredPlan" />
+                <input type="hidden" value="0" name="premiumPlan" id="premiumPlan" />
+                <table id="category_step_two" class="steps" cellpadding="3" border="0"
+                    cellspacing="0" width="100%">
+                                        <tr>
+                        <td id="postingGeo_1_title" class="title kiwii-input-label">
+                            <strong>
+                                Estado
+                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select id="postingGeo_1" name="postingGeo_1" class="state postingGeo kiwii-input kiwii-flat-input kiwii-input-small"
+                                onchange="POSTFORM.highlightField(this);" disabled="disabled">
+                                                                    <option value=""></option>
+                                                            </select>
+                        </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container  kiwii-bubble-container">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info">Selecionar o Estado onde está publicando.</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="display:none;">
+                        <td id="postingGeo_2_title" class="title kiwii-input-label">
+                            <strong class="">
+                                Cidade
+                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select id="postingGeo_2" name="postingGeo_2" class="city postingGeo kiwii-input kiwii-flat-input kiwii-input-small"  onchange="POSTFORM.highlightField(this);" disabled="disabled">
+                                                                    <option value="">Selecionar opção acima</option>
+                                                            </select>
+
+                        </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info">Selecione a Cidade onde está publicando</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="display:none;">
+                        <td  id="postingGeo_3_title" class="title kiwii-input-label">
+                            <strong class="">
+                                                                    Bairro
+                                                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select id="postingGeo_3" name="postingGeo_3" class="city postingGeo kiwii-input kiwii-flat-input kiwii-input-small"   onchange="POSTFORM.highlightField(this);" disabled="disabled">
+                                <option value="">Selecionar opção acima</option>
+                            </select>
+                        </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info">Selecione o seu Bairro</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="display:none;">
+                        <td  id="postingGeo_4_title" class="title kiwii-input-label">
+                            <strong class="">
+                                                                    posting_geo_level_4
+                                                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select id="postingGeo_4" name="postingGeo_4" class="city postingGeo"  onchange="POSTFORM.highlightField(this);" disabled="disabled">
+                                <option value="">Selecionar opção acima</option>
+                            </select>
+                        </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr style="display:none;">
+                        <td  id="postingGeo_5_title" class="title kiwii-input-label">
+                            <strong class="">
+                                                                    posting_geo_level_5
+                                                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select id="postingGeo_5" name="postingGeo_5" class="city postingGeo"
+                                onchange="POSTFORM.highlightField(this);" disabled="disabled">
+                                <option value="">Selecionar opção acima</option>
+                            </select>
+                            <img align="absmiddle" class="caption-info" src="http://static.viva-images.com/bundle/aglFJ/viwii3/images/icons/information.png" />
+                            <div class="caption-text">posting_geo_level_5_caption</div>
+                        </td>
+                        <td id="geo_level_5" class="caption nobg"><div></div></td>
+                    </tr>
+                    
+                                        <tr style="display:none;">
+                        <td class="title kiwii-input-label">
+                            <strong>
+                                País
+                            </strong>
+                        </td>
+                        <td class="middle">
+                            <div style="display: none;" id="foreignCountry-loading">
+                                <img align="absmiddle" src="http://static.viva-images.com/bundle/aglFJ/viwii3/images/posting/forgot-password-loader.gif" alt="Loading" />
+                                Carregando Informações...
+                            </div>
+                                                        <input type="hidden" id="foreignCountryModify" name="foreignCountryModify" value = "" />
+                            <select id="foreignCountry" name="foreignCountry" disabled="disabled"class="city {validate:{required: true}} kiwii-input kiwii-flat-input kiwii-input-small">
+                                <option value="">Selecionar uma opção</option>
+                                                                <option value="AF">
+                                    Afganistan
+                                </option>
+                                                                <option value="ZA">
+                                    África do Sul
+                                </option>
+                                                                <option value="AL">
+                                    Albânia
+                                </option>
+                                                                <option value="DE">
+                                    Alemanha
+                                </option>
+                                                                <option value="AN">
+                                    Andorra
+                                </option>
+                                                                <option value="AO">
+                                    Angola
+                                </option>
+                                                                <option value="AG">
+                                    Antigua
+                                </option>
+                                                                <option value="AI">
+                                    Antilhas
+                                </option>
+                                                                <option value="SA">
+                                    Arábia Saudita
+                                </option>
+                                                                <option value="DZ">
+                                    Argélia
+                                </option>
+                                                                <option value="AR">
+                                    Argentina
+                                </option>
+                                                                <option value="AM">
+                                    Armênia
+                                </option>
+                                                                <option value="AW">
+                                    Aruba
+                                </option>
+                                                                <option value="AU">
+                                    Austrália
+                                </option>
+                                                                <option value="AT">
+                                    Áustria
+                                </option>
+                                                                <option value="AZ">
+                                    Azerbaijão
+                                </option>
+                                                                <option value="BS">
+                                    Bahamas
+                                </option>
+                                                                <option value="BH">
+                                    Bahrain
+                                </option>
+                                                                <option value="BD">
+                                    Bangladesh
+                                </option>
+                                                                <option value="BB">
+                                    Barbados
+                                </option>
+                                                                <option value="BE">
+                                    Bélgica
+                                </option>
+                                                                <option value="BZ">
+                                    Belize
+                                </option>
+                                                                <option value="BJ">
+                                    Benin
+                                </option>
+                                                                <option value="BM">
+                                    Bermuda
+                                </option>
+                                                                <option value="BY">
+                                    Bielorússia
+                                </option>
+                                                                <option value="BO">
+                                    Bolívia
+                                </option>
+                                                                <option value="BL">
+                                    Bonaire
+                                </option>
+                                                                <option value="BA">
+                                    Bosnia Herzegovina
+                                </option>
+                                                                <option value="BW">
+                                    Botsuana
+                                </option>
+                                                                <option value="BR">
+                                    Brasil
+                                </option>
+                                                                <option value="BN">
+                                    Brunei
+                                </option>
+                                                                <option value="BG">
+                                    Bulgária
+                                </option>
+                                                                <option value="BF">
+                                    Burkina Faso
+                                </option>
+                                                                <option value="BI">
+                                    Burundi
+                                </option>
+                                                                <option value="BT">
+                                    Butão
+                                </option>
+                                                                <option value="CV">
+                                    Cabo Verde
+                                </option>
+                                                                <option value="CM">
+                                    Camarões
+                                </option>
+                                                                <option value="KH">
+                                    Camboja
+                                </option>
+                                                                <option value="CA">
+                                    Canadá
+                                </option>
+                                                                <option value="KY">
+                                    Cayman Ilhas
+                                </option>
+                                                                <option value="KZ">
+                                    Cazaquistão
+                                </option>
+                                                                <option value="TD">
+                                    Chade
+                                </option>
+                                                                <option value="CL">
+                                    Chile
+                                </option>
+                                                                <option value="CH">
+                                    China
+                                </option>
+                                                                <option value="CY">
+                                    Chipre
+                                </option>
+                                                                <option value="SG">
+                                    Cingapura
+                                </option>
+                                                                <option value="CO">
+                                    Colômbia
+                                </option>
+                                                                <option value="CG">
+                                    Congo
+                                </option>
+                                                                <option value="CK">
+                                    Cook Islands
+                                </option>
+                                                                <option value="KR">
+                                    Coréia do Sul
+                                </option>
+                                                                <option value="CI">
+                                    Costa do Marfim
+                                </option>
+                                                                <option value="CR">
+                                    Costa Rica
+                                </option>
+                                                                <option value="HR">
+                                    Croácia
+                                </option>
+                                                                <option value="CU">
+                                    Cuba
+                                </option>
+                                                                <option value="CB">
+                                    Curacao
+                                </option>
+                                                                <option value="DK">
+                                    Dinamarca
+                                </option>
+                                                                <option value="DJ">
+                                    Djibouti
+                                </option>
+                                                                <option value="DM">
+                                    Dominica
+                                </option>
+                                                                <option value="EG">
+                                    Egito
+                                </option>
+                                                                <option value="SV">
+                                    El Salvador
+                                </option>
+                                                                <option value="AE">
+                                    Emirados Árabes Unidos
+                                </option>
+                                                                <option value="EC">
+                                    Equador
+                                </option>
+                                                                <option value="SK">
+                                    Eslováquia
+                                </option>
+                                                                <option value="SI">
+                                    Eslovênia
+                                </option>
+                                                                <option value="ES">
+                                    Espanha
+                                </option>
+                                                                <option value="US">
+                                    Estados Unidos
+                                </option>
+                                                                <option value="EE">
+                                    Estônia
+                                </option>
+                                                                <option value="ET">
+                                    Etiópia
+                                </option>
+                                                                <option value="FJ">
+                                    Fiji
+                                </option>
+                                                                <option value="PH">
+                                    Filipinas
+                                </option>
+                                                                <option value="FI">
+                                    Finlândia
+                                </option>
+                                                                <option value="FR">
+                                    França
+                                </option>
+                                                                <option value="GA">
+                                    Gabão
+                                </option>
+                                                                <option value="GM">
+                                    Gâmbia
+                                </option>
+                                                                <option value="GH">
+                                    Gana
+                                </option>
+                                                                <option value="GE">
+                                    Georgia
+                                </option>
+                                                                <option value="GI">
+                                    Gibraltar
+                                </option>
+                                                                <option value="GR">
+                                    Grécia
+                                </option>
+                                                                <option value="GD">
+                                    Grenada
+                                </option>
+                                                                <option value="GU">
+                                    Guam
+                                </option>
+                                                                <option value="GT">
+                                    Guatemala
+                                </option>
+                                                                <option value="GY">
+                                    Guiana
+                                </option>
+                                                                <option value="GN">
+                                    Guinea
+                                </option>
+                                                                <option value="GW">
+                                    Guinea Bissau
+                                </option>
+                                                                <option value="HT">
+                                    Haiti
+                                </option>
+                                                                <option value="NL">
+                                    Holanda
+                                </option>
+                                                                <option value="HN">
+                                    Honduras
+                                </option>
+                                                                <option value="HK">
+                                    Hong Kong
+                                </option>
+                                                                <option value="HU">
+                                    Hungria
+                                </option>
+                                                                <option value="YE">
+                                    Iêmen
+                                </option>
+                                                                <option value="VI">
+                                    Ilhas Virgens
+                                </option>
+                                                                <option value="IN">
+                                    Índia
+                                </option>
+                                                                <option value="ID">
+                                    Indonésia
+                                </option>
+                                                                <option value="IR">
+                                    Irã
+                                </option>
+                                                                <option value="IQ">
+                                    Iraque
+                                </option>
+                                                                <option value="IE">
+                                    Irlanda
+                                </option>
+                                                                <option value="IS">
+                                    Islândia
+                                </option>
+                                                                <option value="IL">
+                                    Israel
+                                </option>
+                                                                <option value="IT">
+                                    Itália
+                                </option>
+                                                                <option value="JM">
+                                    Jamaica
+                                </option>
+                                                                <option value="JP">
+                                    Japão
+                                </option>
+                                                                <option value="JO">
+                                    Jordânia
+                                </option>
+                                                                <option value="KI">
+                                    Kiribati
+                                </option>
+                                                                <option value="XK">
+                                    Kosovo
+                                </option>
+                                                                <option value="XE">
+                                    Kosrae Island
+                                </option>
+                                                                <option value="KW">
+                                    Kuwait
+                                </option>
+                                                                <option value="LA">
+                                    Laos
+                                </option>
+                                                                <option value="LS">
+                                    Lesoto
+                                </option>
+                                                                <option value="LV">
+                                    Letônia
+                                </option>
+                                                                <option value="LB">
+                                    Líbano
+                                </option>
+                                                                <option value="LR">
+                                    Libéria
+                                </option>
+                                                                <option value="LY">
+                                    Líbia
+                                </option>
+                                                                <option value="LT">
+                                    Lituânia
+                                </option>
+                                                                <option value="LU">
+                                    Luxemburgo
+                                </option>
+                                                                <option value="MK">
+                                    Macedônia
+                                </option>
+                                                                <option value="MG">
+                                    Madagascar
+                                </option>
+                                                                <option value="MY">
+                                    Malásia
+                                </option>
+                                                                <option value="MW">
+                                    Malauí
+                                </option>
+                                                                <option value="MV">
+                                    Maldivas
+                                </option>
+                                                                <option value="ML">
+                                    Mali
+                                </option>
+                                                                <option value="MT">
+                                    Malta
+                                </option>
+                                                                <option value="MA">
+                                    Marrocos
+                                </option>
+                                                                <option value="MH">
+                                    Marshall Ilhas
+                                </option>
+                                                                <option value="MU">
+                                    Maurício, Ilhas
+                                </option>
+                                                                <option value="MR">
+                                    Mauritânia
+                                </option>
+                                                                <option value="MX">
+                                    México
+                                </option>
+                                                                <option value="MZ">
+                                    Moçambique
+                                </option>
+                                                                <option value="MD">
+                                    Moldávia
+                                </option>
+                                                                <option value="MO">
+                                    Mônaco
+                                </option>
+                                                                <option value="MN">
+                                    Mongólia
+                                </option>
+                                                                <option value="MS">
+                                    Montserrat
+                                </option>
+                                                                <option value="NP">
+                                    Nepal
+                                </option>
+                                                                <option value="NI">
+                                    Nicarágua
+                                </option>
+                                                                <option value="NE">
+                                    Níger
+                                </option>
+                                                                <option value="NG">
+                                    Nigéria
+                                </option>
+                                                                <option value="MP">
+                                    Northern Mariana Islands
+                                </option>
+                                                                <option value="NO">
+                                    Noruega
+                                </option>
+                                                                <option value="NZ">
+                                    Nova Zelândia
+                                </option>
+                                                                <option value="OM">
+                                    Omã
+                                </option>
+                                                                <option value="PW">
+                                    Palau
+                                </option>
+                                                                <option value="PA">
+                                    Panamá
+                                </option>
+                                                                <option value="PG">
+                                    Papua Nova Guiné
+                                </option>
+                                                                <option value="PK">
+                                    Paquistão
+                                </option>
+                                                                <option value="PY">
+                                    Paraguai
+                                </option>
+                                                                <option value="PE">
+                                    Peru
+                                </option>
+                                                                <option value="PL">
+                                    Polônia
+                                </option>
+                                                                <option value="XP">
+                                    Ponape
+                                </option>
+                                                                <option value="PR">
+                                    Porto Rico
+                                </option>
+                                                                <option value="PT">
+                                    Portugal
+                                </option>
+                                                                <option value="QA">
+                                    Qatar
+                                </option>
+                                                                <option value="KE">
+                                    Quênia
+                                </option>
+                                                                <option value="KG">
+                                    Quirguistão
+                                </option>
+                                                                <option value="GB">
+                                    Reino Unido
+                                </option>
+                                                                <option value="CZ">
+                                    República Checa
+                                </option>
+                                                                <option value="DO">
+                                    República Dominicana
+                                </option>
+                                                                <option value="RO">
+                                    Romênia
+                                </option>
+                                                                <option value="XC">
+                                    Rota
+                                </option>
+                                                                <option value="RW">
+                                    Ruanda
+                                </option>
+                                                                <option value="RU">
+                                    Rússia
+                                </option>
+                                                                <option value="XS">
+                                    Saipan
+                                </option>
+                                                                <option value="SB">
+                                    Salomão Ilhas
+                                </option>
+                                                                <option value="AS">
+                                    Samoa Americana
+                                </option>
+                                                                <option value="WS">
+                                    Samoa Ocidental
+                                </option>
+                                                                <option value="SN">
+                                    Senegal
+                                </option>
+                                                                <option value="CS">
+                                    Sérvia e Montenegro
+                                </option>
+                                                                <option value="SC">
+                                    Seychelles
+                                </option>
+                                                                <option value="SY">
+                                    Síria
+                                </option>
+                                                                <option value="LK">
+                                    Sri Lanka
+                                </option>
+                                                                <option value="SZ">
+                                    Suazilândia
+                                </option>
+                                                                <option value="SE">
+                                    Suécia
+                                </option>
+                                                                <option value="SW">
+                                    Suíça
+                                </option>
+                                                                <option value="SR">
+                                    Suriname
+                                </option>
+                                                                <option value="TJ">
+                                    Tadjiquistão
+                                </option>
+                                                                <option value="TH">
+                                    Tailândia
+                                </option>
+                                                                <option value="TW">
+                                    Taiwan
+                                </option>
+                                                                <option value="TZ">
+                                    Tanzânia
+                                </option>
+                                                                <option value="XN">
+                                    Tinian
+                                </option>
+                                                                <option value="TG">
+                                    Togo
+                                </option>
+                                                                <option value="TO">
+                                    Tonga
+                                </option>
+                                                                <option value="TT">
+                                    Trinidade e Tobago
+                                </option>
+                                                                <option value="XA">
+                                    Truk
+                                </option>
+                                                                <option value="TN">
+                                    Tunísia
+                                </option>
+                                                                <option value="TM">
+                                    Turcomenistão
+                                </option>
+                                                                <option value="TC">
+                                    Turks e Caicos
+                                </option>
+                                                                <option value="TR">
+                                    Turquia
+                                </option>
+                                                                <option value="TV">
+                                    Tuvalú
+                                </option>
+                                                                <option value="UA">
+                                    Ucrânia
+                                </option>
+                                                                <option value="UG">
+                                    Uganda
+                                </option>
+                                                                <option value="VC">
+                                    Union Ilhas
+                                </option>
+                                                                <option value="UY">
+                                    Uruguai
+                                </option>
+                                                                <option value="UZ">
+                                    Uzbequistão
+                                </option>
+                                                                <option value="VU">
+                                    Vanuatú
+                                </option>
+                                                                <option value="VE">
+                                    Venezuela
+                                </option>
+                                                                <option value="VN">
+                                    Vietnã
+                                </option>
+                                                                <option value="VG">
+                                    Virgin Gorda
+                                </option>
+                                                                <option value="XY">
+                                    Yap
+                                </option>
+                                                                <option value="ZM">
+                                    Zâmbia
+                                </option>
+                                                                <option value="ZW">
+                                    Zimbábue
+                                </option>
+                                                            </select>
+                            &nbsp;
+                        </td>
+                        <td id="foreign_country_caption" class="caption nobg" style="width: 5px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info">Escolha País</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                                        <tr style="display:none;">
+                        <td id="postingGeo_2_title" class="title kiwii-input-label">
+                            <strong>
+                                País
+                            </strong>
+                        </td>
+                        <td class="middle">
+                            <select onchange="POSTFORM.highlightField(this);" class="city postingGeo kiwii-input kiwii-flat-input kiwii-input-small" name="postingGeo_2" id="postingGeo_2" disabled="disabled">
+                                <option value="">Selecionar uma opção</option>
+                                                            </select>
+                        </td>
+                        <td id="postingGeo_2_caption" class="caption nobg" style="width: 5px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info kiwii-bubble kiwii-info-bubble" style="display:none;">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text info">Escolha País</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                                        <tr id="foreign_toggle_container" style="display:none;">
+                        <td class="title kiwii-input-label "></td>
+                        <td class="middle">
+                            <div class="kiwii-margin-top-xsmall-negative">
+                                <input type="checkbox" name="is_foreign_country" id="is_foreign_country" >
+                                is_foreign_country
+                            </div>
+                        </td>
+                        <td style="width:8px;" class="caption"></td>
+                    </tr>
+                    
+                                        <tr style="display:none;">
+                        <td class="title kiwii-input-label">
+                            <span id="transport_posting_geo">Mais infos (Bairro)</span>
+                            <span id="transport_posting_abroad">
+                                <strong>
+                                    Cidade
+                                </strong>
+                            </span>
+                        </td>
+                        <td class="middle">
+                            <input type="text" id="transport_posting" name="transport_posting"
+                                class="vs-posting-text {validate:{required: true, minlength: 0, maxlength: 30, title: true}} kiwii-input kiwii-flat-input kiwii-input-small"
+                                onchange="POSTFORM.highlightField(this);"value="" title="" />
+                        </td>
+                        <td id="transport_caption" class="caption nobg" style="width: 5px;">
+                            <div class="bubble_container kiwii-bubble-container" style="width:8px">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info">Estação de trem, ponto de ônibus, referências…para ajudar a visualizar a área</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </div>        </div>
+        
+                <div id="step_three"  class="">
+            <div class="steps_wrap kiwii-bg-xxxlight-gray">
+
+                                      
+                <div id="spec">
+                                        <table class="steps" cellpadding="3" border="0" cellspacing="0" width="100%">
+                                            
+        
+                <tr id="clad_title">
+            <td class="title kiwii-input-label">
+                Título do seu Anúncio
+            </td>
+            <td class="middle">
+                <input class="vs-posting-text vs-posting-text-title kiwii-input kiwii-flat-input kiwii-input-large" type="text" value="" maxlength="60" name="title" id="title"/>
+            </td>
+            <td class="caption" style="width:8px;">
+                <div class="bubble_container kiwii-bubble-container">
+                    <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                        <div class="bubble_arrow info  kiwii-bubble-arrow"></div>
+                        <span class="bubble_text info">Seu título deve ser claro e relevante para atrair mais pessoas.</span>
+                    </div>
+                    <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                        <div class="bubble_arrow error kiwii-bubble-arrow"></div>
+                        <span class="bubble_text error"></span>
+                    </div>
+                </div>
+            </td>
+        </tr>
+                                                 
+        
+                <tr id="upper_plans_container" class="upper-plans">
+            <td id ="upper_plans_title" class="title kiwii-input-label"></td>
+            <td class="middle">  </td>
+            <td class="caption" style="width:8px;"></td>
+        </tr>
+                                                 
+        
+                <tr id="description_row">
+            <td class="title kiwii-input-label">
+                Descrição
+            </td>
+            <td class="middle">
+                <div id="vs-element-disclaimer" class="kiwii-box-white kiwii-padding-medium kiwii-span-8 kiwii-margin-bottom-small kiwii-display-none"></div>
+                <textarea title=""
+                    name="detail" id="detail" cols="100" rows="8" onchange=""
+                    class="widened kiwii-input kiwii-flat-input kiwii-input-large"
+                    onblur="this.onchange();"></textarea>
+            </td>
+            <td class="caption">
+                <div class="bubble_container kiwii-bubble-container">
+                    <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                        <div class="bubble_arrow info  kiwii-bubble-arrow"></div>
+                        <span class="bubble_text info">Explique ao máximo o seu produto ou serviço, de maneira clara e fácil de entender. Tanto para quem oferece quanto para quem procura, anúncios detalhados sempre geram mais resultados.</span>
+                    </div>
+                    <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                        <div class="bubble_arrow error kiwii-bubble-arrow"></div>
+                        <span class="bubble_text error"></span>
+                    </div>
+                </div>
+            </td>
+        <tr>
+                                                 
+        
+                <tr class="vs_altrows widened"><td class="title price change-for-look kiwii-input-label" spec="price" caption="Pre&#x00E7;o&#x20;&#x28;Sem&#x20;Pontua&#x00E7;&#x00E3;o&#x29;" seek_caption="Pre&#x00E7;o&#x20;M&#x00E1;x"><span class="wrap">Preço (Sem Pontuação)</span></td><td class="middle"><span class="kiwii-input-endcap prepend">R$</span><input type="text" name="price[price]" class="{validate:{minlength: 0, maxlength: 15, number: true}} vs-posting-text kiwii-input kiwii-flat-input kiwii-input-small vs-posting-text-small" onchange="" id="id_price[price]"maxlength="15"  value="" /> &nbsp;<i>Opcional.</i></td><td class="caption"><div class="bubble_container kiwii-bubble-container"><div class="bubble info  kiwii-bubble kiwii-info-bubble"><div class="bubble_arrow info  kiwii-bubble-arrow"></div><span class="bubble_text info">Não coloque pontos ou vírgulas nos números. Exemplo: para R$ 15.000,00, coloque 15000.</span></div><div class="bubble error kiwii-bubble kiwii-error-bubble" ><div class="bubble_arrow error kiwii-bubble-arrow"></div><span class="bubble_text error"></span></div></div></td></tr>              </table>
+    <input type="hidden" name="individual_type" value="individual"/>
+
+ <script type="text/javascript">
+$J( document ).ready( function() {
+    POSTFORM.initSectionSelects(); 
+    if( $J( '#posting_logo_step' ).length > 0 ) {
+                $J('#posting_logo_step').hide();
+            }
+
+    if( $J( '#posting_photos_step' ).length > 0 ) {
+
+                    $J('#posting_photos_step').hide();
+            $J('#posting_photos_header').hide();
+            $J('#posting_photos_plan').hide();
+
+            if (
+                !App.Config.get('classifieds', 'photo_verified') ||
+                !(App.Config.get('classifieds', 'photo_verified', 'enable_by_plan') > 0)
+            ) {
+                $J('#upper_plans_title').show();
+            }
+            }
+
+    if( $J( '#posting_resume_step' ).length > 0 ) {
+                $J('#posting_resume_step').hide();
+            }
+
+    if ($J('.posting_video_step').length > 0) {
+                $J('.posting_video_step').hide();
+        $J('#posting_video_header').hide();
+            }
+
+    if( $J( '#detail' ).attr( 'title' ) === $J( '#detail' ).val() ) {
+        $J( '#detail' ).css( { color : '#888888'} )
+        $J( '#detail' ).click( function() {
+            $J( '#detail' ).html( '' );
+            $J( '#detail' ).css( { color : '#000000' } );
+            $J( '#detail' ).unbind( 'click' );
+        });
+    }
+    POSTFORM.toggleStepTwoCategory( true, '' );
+    
+            POSTFORM.disclaimer_active = false;
+    
+    
+    POSTFORM.abroadOnly( '' );
+        POSTFORM.setDescript( 'Seja o mais claro possível para que seu anúncio seja destacado (mínimo de 15 caracteres).' );
+
+    if( typeof( previous_geo ) != 'undefined' && App.Config.geosearch_settings.free_text ) {
+        POSTFORM.initGeo( previous_geo );
+    }
+                //hide in case the user switched categories
+        $J( 'tr#foreign_toggle_container' ).hide();
+        if( !POSTFORM.isCurrentlyForeignSwitchable() ){
+            if( POSTCATEGORY.foreign_switch_new ){
+                POSTFORM.abroadOnly('no');
+            }
+        }
+                            $J( 'input#external_url_checkbox:checked' ).click();
+        $J( 'div#external_url_step:visible' ).hide();
+                $J( '#topannonce-optin' ).hide();
+    
+    POST.checkPartnerPosting( 'generic_other' )
+
+        $J('#id_phone_nbr').val(function(i, v) {
+        return v.replace(/[av]/,'');
+    });
+
+            $J('div.vs-posting-hide-phone').each( function() {
+            var $this = $J( this );
+            $this.hide();
+            if( $this.children().length > 0) {
+                $this.children( 'input[type=checkbox], input[type=radio]' ).each( function() {
+                    this.checked=false;
+                } );
+            }
+        } );
+    
+            $J( '#vivaphone_explanation' ).hide();
+        $J( '#vivaphone_explanation2_personals' ).hide();
+        $J( '#anonymize_phone1' ).hide();
+        $J( '#anonymize_phone' ).removeAttr( 'checked' );
+        $J( '#anonymize_phone' ).hide();
+        $J( '#vs-posting-show-phone' ).show();
+        POSTFORM.setBubbleIds();
+
+
+            var is_personal = false;
+    
+            var spec_has_company_name = false;
+    
+    App.UI.Post.setUserBlockParams({
+        company_name_flag: spec_has_company_name,
+        show_pro_inputs: !is_personal
+    });
+} );
+
+</script>
+
+                </div>
+
+                                    <div id="posting_photos_header" style="display: none" class="info_step kiwii-border-top-xxlight-gray kiwii-border-bottom-xxlight-gray kiwii-bg-white">
+                        <h5 class="kiwii-input-group-title kiwii-margin-ver-xxsmall">
+                            <span class="vs-step-title">&nbsp;</span>
+                            <span class="vs-step-subtitle"> Adicionar Fotos</span>
+                            <div class="kiwii-clear-both"></div>
+                        </h5>
+                    </div>
+                
+
+                <table id="spec_values" class="steps steps_alt" cellpadding="3" border="0" cellspacing="0" width="100%">
+                    <input type="hidden" name="image_modify" id="image_modify" value="0"/>
+                    <input type="hidden" name="image_total" id="image_total" value="0"/>
+                                        <tr class="vs_altrows vs-upload" id="posting_photos_step">
+                        <td class="title kiwii-input-label" valign="top">
+                                                    </td>
+                        <td class="middle">
+                                                        <script>
+                                var uploadOptions = {
+                                    url: "/ajax/script/upload_file.php",
+                                    type: "photo", //photo|logo|resume
+                                    pic_hash: "1987847156",
+                                    classified_id: "0"
+                                };
+                            </script>
+                                <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                                    <symbol id="ico-zoomin" viewBox="0 0 512 512">
+                                        <path d="m179 390c-89 0-160-70-160-160 0-89 71-160 160-160 88 0 160 72 160 160 0 90-70 160-160 160z m0-288c-73 0-128 55-128 128 0 74 55 128 128 128 74 0 128-54 128-128 0-70-57-128-128-128z m290 367c-3 0-5 0-7-2l-182-133c-5-3-6-11-3-16l11-16c2-3 5-4 8-4 3 0 6 0 10 1l182 131c5 4 6 12 3 16l-11 18c-2 3-5 5-8 5-2 0-3 0-3 0z m-288-157c-7 0-13-5-13-13l0-128c0-6 5-13 13-13 8 0 13 5 13 13l0 128c-2 7-7 13-13 13z m64-64l-128 0c-7 0-13-5-13-13 0-8 5-13 13-13l128 0c6 0 13 5 13 13 0 8-7 13-13 13z"></path>
+                                    </symbol>
+
+                                    <symbol id="ico-rotateccw" viewBox="0 0 512 512">
+                                        <path d="m164 157c-2 0-4 0-5-2l-79-27c-8-3-12-10-12-19l16-94c1-8 10-15 18-13 9 1 16 10 14 18l-14 81 65 22c9 3 14 14 10 22 0 7-6 12-13 12z m63 317c-56 0-113-23-154-64-6-7-6-17 0-24 7-7 17-7 24 0 34 34 82 54 130 54 101 0 183-82 183-182 0-103-82-183-185-185-42 0-85 17-119 48-7 7-19 5-24-2-7-6-5-18 2-23 41-36 92-55 143-55 121 0 217 96 217 217 0 119-98 216-217 216z"></path>
+                                    </symbol>
+
+                                    <symbol id="ico-rotatecw" viewBox="0 0 512 512">
+                                        <path d="m348 157c-7 0-13-5-15-12-4-8 2-19 10-22l65-22-14-81c-1-8 5-18 14-18 8-2 19 5 19 13l15 94c2 9-3 16-12 19l-78 27c0 2-2 2-4 2z m-63 319c-121 0-217-95-217-218 0-121 96-217 217-217 55 0 106 20 143 56 7 7 7 17 0 24-6 7-17 7-24 0-30-31-73-46-119-46-102 0-183 80-183 183 0 104 81 184 183 184 48 0 94-19 130-55 7-6 17-6 24 0 6 7 6 17 0 24-41 43-96 65-154 65z"></path>
+                                    </symbol>
+
+                                    <symbol id="ico-zoomout" viewBox="0 0 512 512">
+                                        <path d="m190 364c-82 0-146-64-146-146 0-82 64-146 146-146 81 0 146 66 146 146 0 82-64 146-146 146z m0-263c-67 0-117 50-117 117 0 67 50 117 117 117 67 0 117-50 117-117 0-64-52-117-117-117z m265 335c-3 0-4 0-6-2l-167-121c-4-3-6-10-3-15l11-14c1-3 4-5 7-5 3 0 6 0 9 2l167 120c4 3 5 10 2 14l-10 17c-1 2-4 4-7 4-2 0-3 0-3 0z m-205-202l-117 0c-6 0-12-4-12-12 0-7 5-11 12-11l117 0c6 0 12 4 12 11 0 8-6 12-12 12z"></path>
+                                    </symbol>
+
+                                    <symbol id="ico-upload" viewBox="0 0 61 60">
+                                        <g id="photo-library" transform="translate(0.000000, 6.000000)">
+                                            <path d="M53,5.88888889 C53,2.65 50.35,0 47.1111111,0 L5.88888889,0 C2.65,0 0,2.65 0,5.88888889 L0,47.1111111 C0,50.35 2.65,53 5.88888889,53 L47.1111111,53 C50.35,53 53,50.35 53,47.1111111 L53,5.88888889 L53,5.88888889 Z" fill="#ccc"></path>
+                                            <path d="M34.1099704,22.5926038 L31.7670208,15 L12,20.9508255 L16.5479391,35.6888368 L19.3352848,34.8496893 L19.3352848,38 L40,38 L40,22.5926038 L34.1099704,22.5926038 L34.1099704,22.5926038 Z M17.8819423,33.2154292 L14.5040849,22.2687188 L30.4328133,17.4732063 L32.012631,22.592671 L19.3352848,22.592671 L19.3352848,32.7778991 L17.8819423,33.2154292 L17.8819423,33.2154292 Z M37.9936603,36.0182936 L21.3414207,36.0182936 L21.3414207,24.5742433 L37.9936603,24.5742433 L37.9936603,36.0182936 L37.9936603,36.0182936 Z M23.9920292,27.6503121 C23.9920292,26.8150579 24.6776182,26.1377522 25.5233907,26.1377522 C26.3688913,26.1377522 27.0544803,26.8150579 27.0544803,27.6503121 C27.0544803,28.4856335 26.3688913,29.1627378 25.5233907,29.1627378 C24.6776182,29.1627378 23.9920292,28.4856335 23.9920292,27.6503121 L23.9920292,27.6503121 L23.9920292,27.6503121 Z M31.7589333,27.6986431 L29.2205961,31.2609087 L27.8410591,29.8564896 L23.9486022,34.2248091 L36.1156986,34.2248091 L31.7589333,27.6986431 L31.7589333,27.6986431 Z" fill="#FAF9F5"></path>
+                                        </g>
+                                        <g id="cross_add" transform="translate(35.000000, 0.000000)">
+                                            <circle stroke="#FAF9F5" stroke-width="1" fill="#ccc" cx="12.5" cy="12.5" r="12.5"></circle>
+                                            <path d="M18.0639875,11.0088 C17.9524375,10.8918 17.8489375,10.8 17.675,10.8 L13.65,10.8 L13.65,6.6 C13.65,6.4182 13.5258,6.3105 13.4139625,6.1938 C13.302125,6.0771 13.2489375,6 13.075,6 L11.925,6 C11.7502,6 11.6619375,6.0771 11.5501,6.1938 C11.4382625,6.3105 11.35,6.4182 11.35,6.6 L11.35,10.8 L7.325,10.8 C7.150775,10.8 7.0475625,10.9293 6.935725,11.0463 C6.824175,11.163 6.75,11.2182 6.75,11.4 L6.75,12.6 C6.75,12.7821 6.824175,12.8745 6.935725,12.9909 C7.0475625,13.1079 7.150775,13.2 7.325,13.2 L11.35,13.2 L11.35,17.415 C11.35,17.4474 11.4359625,17.652 11.5478,17.769 C11.6596375,17.8857 11.7502,18 11.925,18 L13.075,18 C13.2489375,18 13.302125,17.8857 13.4139625,17.769 C13.5258,17.652 13.65,17.5821 13.65,17.4 L13.65,13.2 L17.675,13.2 C17.8489375,13.2 17.9524375,13.0704 18.0639875,12.9534 C18.175825,12.837 18.25,12.7818 18.25,12.6 L18.25,11.4 C18.25,11.2176 18.175825,11.1255 18.0639875,11.0088" fill="#FAF9F5"></path>
+                                        </g>
+                                    </symbol>
+
+                                    <symbol id="ico-doc" viewBox="0 0 512 512">
+                                        <path d="m333 486l-186 0c-77 0-96-19-96-96l0-268c0-74 23-96 96-96l138 0 144 144 0 220c0 74-23 96-96 96z m-186-428c-57 0-64 6-64 64l0 268c0 61 3 64 64 64l186 0c54 0 64-3 64-64l0-188-87 0c-19 0-35 0-48-10-9-10-12-26-12-38l0-93-103 0z m135 12l0 80c0 13 3 16 3 16 3 4 16 4 25 4l71 0z m41 301l-185 0 0-32 185 0z m0-86l-185 0 0-32 185 0z m-134-83l-51 0 0-32 51 0z"></path>
+                                    </symbol>
+                                    <symbol id="ico-reset" viewBox="0 0 512 512">
+                                        <path d="m154 333l-128 128 0-77-26 0 0 128 128 0 0-26-77 0 128-128z m332 128l-128-128-25 25 128 128-77 0 0 26 128 0 0-128-26 0z m-358-435l0-26-128 0 0 128 26 0 0-77 128 128 25-25-128-128z m358-26l-102 0 0 26 77 0-128 128 25 25 128-128 0 77 26 0 0-128z"></path>
+                                    </symbol>
+                                </svg>
+                                <div id="hidden" class="hiddenContainer"></div>
+                                <p class="kiwii-margin-bottom-xxsmall">Muito importante! A maioria dos usuários dão prioridade aos anúncios com fotos (max 10Mb)</p>
+                                <p class="vs-error vs-crop_error" id="errorMsg" style="display: none;"></p>
+                                <input id="new_upload_image" name="upload_data" accept="image/*" type="file" style="display:none"/>
+                                <label for="new_upload_image" id="trigger-file-input">
+                                    <span class="vs-crop_contain visible">
+                                        <svg class="vs-crop_new_add"><use xlink:href="#ico-upload"></use></svg>
+                                    </span>
+                                </label>
+
+                                <div id="newloader" class="vs-crop_item" style="display:none">
+                                    <span class="vs-crop_loader"></span>
+                                </div>
+                                <div class="full-crop-container" id="full-crop-container" style="display:none">
+                                    <div class="container" id="container">
+                                    </div>
+                                    <div id="closeBtn" class="vs-crop_close vs-crop_close--sml" style="right:5px; top:5px">
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                <div class="vs-crop_ctrls" style="display:none">
+                                    <button id="rotCW" type="button" class="vs-crop_btn">
+                                        <svg><use xlink:href="#ico-rotatecw"></use></svg>
+                                    </button>
+                                    <button id="rotCCW" type="button" class="vs-crop_btn">
+                                        <svg><use xlink:href="#ico-rotateccw"></use></svg>
+                                    </button>
+                                    <button id="zoomIn" type="button" class="vs-crop_btn vs-crop_btn--lrg">
+                                        <svg><use xlink:href="#ico-zoomin"></use></svg>
+                                    </button>
+                                    <button id="zoomOut" type="button" class="vs-crop_btn vs-crop_btn--lrg">
+                                        <svg><use xlink:href="#ico-zoomout"></use></svg>
+                                    </button>
+                                    <button id="crop_reset" type="button" class="vs-crop_btn vs-crop_btn--lrg vs-crop_btn--pad">
+                                        <svg><use xlink:href="#ico-reset"></use></svg>
+                                    </button>
+                                    <div class="clear"></div>
+                                    <button class="kiwii-btn kiwii-btn-primary kiwii-btn-large kiwii-margin-top-xxsmall kiwii-span-5" type="button" id="done" href="#new_upload_image">
+                                        Carregar
+                                    </button>
+                                </div>
+
+                                <ul id="gallery">
+                                </ul>
+                                <span class="loader" id="loader">Loading...</span>
+
+                                                        <div class="caption" id="vs_image_upload_caption">
+                            </div>
+                            <div style="clear: both;"></div>
+                            <div id="vs_uploaded_pictures">
+
+                                                            <input id="thumbnail_index" type="hidden" name="thumbnail_index" value="" />
+                                                        </div>
+                            <div style="clear:both;"></div>
+                            <div class="vs-upload-status" id="vs_upload_status"></div>
+                            <br>
+                            <div id="posting_photos_plan"></div>
+                        </td>
+                        <td class="caption nobg" style="width:8px;">
+                            <div id="bubble_container_upload_frame" class="bubble_container kiwii-bubble-container">
+                                <div id="info_bubble_upload_frame" class="bubble info kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div id="error_bubble_upload_frame" class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                            <script>
+                                var caption = "Muito importante! A maioria dos usuários dão prioridade aos anúncios com fotos (max 10Mb)";
+                                $J('#upload_frame').mouseenter(function(){
+                                    POSTFORM.displayBubble( $J(this), caption, 'info' );
+                                    if( navigator.appName == 'Microsoft Internet Explorer' &&
+                                        navigator.appVersion.search( 'MSIE 7' ) )
+                                    {
+                                        $J('.bubble:visible').hide().show();
+                                    }
+                                }).mouseout( function(){
+                                    POSTFORM.hideBubble( $J(this), 'info' );
+                                });
+                            </script>
+                        </td>
+                    </tr>
+                    
+                                        <tr class="vs_altrows vs-upload" id="posting_resume_step" style="display:none;">
+                        <input type="hidden" id="is_upload_required" value="0" name="is_upload_required"></input>
+                        <td class="title kiwii-input-label">
+                            <strong>Seu currículo</strong>
+                        </td>
+                        <td class="middle" colspan="2">
+                            <div class="caption nobg">Somente aceitamos .doc, .pdf, .docx .rtf e .odt</div>
+                            <div id="vs_uploaded_files">
+                                                            </div>
+                            <div id="vs_resume_upload_status"></div>
+
+                            <input type="hidden" name="resume_attached" id="posting_resume_attached"
+                                value="no"/>
+                            <script>
+                                function reloadResumeUpload() { //#5902
+                                    iframe = document.getElementById('upload_resume_frame');
+                                    iframe.src = iframe.src;
+                                }
+                                function getResumeUploadErrorCode() {
+                                    var content = document.getElementById('upload_resume_frame').contentWindow.document.body.innerHTML;
+                                    content      = content.replace(/(<([^>]+)>)/ig,"");
+                                    var content_code = content.replace(/\D/g,'');
+                                    if (content_code && content_code.length === 3) {
+                                        reloadResumeUpload();
+                                        if( content_code == 413 ) {
+                                            document.getElementById('vs_resume_upload_status').innerHTML = __('resume_upload_file_size');
+                                        }
+                                    }
+                                }
+                            </script>
+                            <iframe name="upload_resume_frame" onload="getResumeUploadErrorCode()"
+                                id="upload_resume_frame"
+                                frameborder="0" height="35" width="300px" scrolling="no"
+                                src="http://post.vivalocal.com/ajax/script/upload.php?form=resumeUpload"
+                                allowtransparency="true" style="margin-top: 8px">
+                            </iframe>
+                        </td>
+                        <td class="caption nobg" style="width:8px;">
+                            <div id="bubble_container_upload_resume_frame" class="bubble_container kiwii-bubble-container">
+                                <div id="info_bubble_upload_resume_frame" class="bubble info kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div id="error_bubble_upload_resume_frame" class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                                        <tr class="vs_altrows vs-upload" id="posting_logo_step" style="display:none; vertical-align:top;">
+                        <td class="title kiwii-input-label" style="padding-top:15px;">
+                            <strong>Adicione sua logomarca</strong>
+                        </td>
+                        <td class="middle" colspan="2">
+                            <div id="vs_uploaded_logos" style="clear:both;">
+                                                            </div>
+                            <div class="vs-upload-status" id="vs_logo_upload_status" style="clear:both;"></div>
+
+                            <input type="hidden" name="logo_attached" value="no" id="posting_logo_attached"/>
+                            <iframe name="upload_logo_frame"
+                                onload="POSTFORM.getErrorCode();"
+                                id="upload_logo_frame"
+                                frameborder="0"
+                                height="35"
+                                width="300px"
+                                scrolling="no"
+                                allowtransparency="true"
+                                src="http://post.vivalocal.com/ajax/script/upload.php?form=logoUpload"
+                                style="margin-top: 8px">
+                            </iframe>
+                        </td>
+                        <td class="caption nobg">
+                        </td>
+                    </tr>
+                                    </table>
+                                    <script>
+    var uploadVideoOptions = {
+        'pics_url' : "http://static.viva-images.com/bundle/aglFJ/viwii3/images"
+    };
+</script>
+<div id="posting_video_header" class="info_step kiwii-border-top-xxlight-gray kiwii-border-bottom-xxlight-gray kiwii-bg-white kiwii-display-none">
+    <h5 class="kiwii-input-group-title kiwii-margin-ver-xxsmall">
+        <span class="vs-step-title">&nbsp;</span>
+        <span class="vs-step-subtitle"> Publique um video de 1 min.</span>
+        <div class="kiwii-clear-both"></div>
+    </h5>
+</div>
+<table id="spec_values" class="steps steps_alt" cellpadding="3" border="0" cellspacing="0" width="100%">
+    <tr class="vs_altrows posting_video_step">
+    <td class="title kiwii-input-label" valign="bottom"></td>
+        <td>
+            <p class="kiwii-margin-top-xxsmall">Publique um video de 1 min. Torne seu anúncio mais pessoal.</p>
+        </td>
+    </tr>
+    <tr class="vs_altrows posting_video_step">
+    <td class="title kiwii-input-label" valign="top">
+    </td>
+        <td class="video kiwii-margin-right-medium">
+            <div id="video">
+                <input type="hidden" name="guid" value="" />
+                <input type="hidden" name="video_uploaded" value="0" />
+                <input type="hidden" name="video_id" value="0" />
+                <input id="new_upload_video" name="upload_data_video" accept="video/mp4,video/x-m4v,video/*,video/x-flv" type="file" class="kiwii-display-none" />
+                                            <label for="new_upload_video" id="trigger-video-input">
+                        <span class="vs-crop_contain visible" id="upload_video">
+                            <img src="http://static.viva-images.com/bundle/aglFJ/viwii3/images/global/video.svg" />
+                        </span>
+                                    </label>
+            </div>
+            <div id="newvideoloader" class="vs-crop_item video" style="display:none">
+                <span class="vs-crop_loader"></span>
+            </div>
+        </td>
+        <td class="video" id="video_upload_success"  style="display:none;" >
+            <p id="video_success" class="kiwii-margin-bottom-xxxsmall" >Video carregado com sucesso.</p>
+            <p id="video_delete" class="link">Eliminar video.</p>
+        </td>
+        <td class="caption">
+            <div class="bubble_container kiwii-bubble-container" id="bubble_container_video_text" style="display:none;">
+                <div class="bubble error kiwii-bubble kiwii-error-bubble" id="error_bubble_video_text" style="display: block; top: -17.5px;">
+                    <div class="bubble_arrow error kiwii-bubble-arrow" style="top: 7px;"> </div>
+                    <span class="bubble_text error"></span>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>                            </div>        </div>        
+        <div class="kiwii-bg-xxxlight-gray kiwii-padding-top-xxsmall">
+            <div class="info_step kiwii-border-top-xxlight-gray kiwii-border-bottom-xxlight-gray kiwii-bg-white">
+                <h5 class="kiwii-input-group-title kiwii-margin-ver-xxsmall">
+                    <span class="vs-step-title">&nbsp;</span>
+                    <span class="vs-step-subtitle">Suas informações</span>
+                    <div class="kiwii-clear-both"></div>
+                </h5>
+            </div>
+            <div class="kiwii-padding-top-xxxsmall">
+                <table class="steps" width="100%" border="0" cellpadding="3" cellspacing="0"><tbody><tr class="kiwii-pro-input-container"><td class="title kiwii-input-label">Nome da Empresa</td><td class="middle"><input class="{validate:{visible_required:true,maxlength:125}} kiwii-input kiwii-flat-input kiwii-input-large company_name"
+                    name="raison_sociale" id="id_raison_sociale"
+                                        value="" type="text"></td><td class="caption" style="width:8px;"><div class="bubble_container kiwii-bubble-container"><div class="bubble info  kiwii-bubble kiwii-info-bubble"><div class="bubble_arrow info  kiwii-bubble-arrow"></div><span class="bubble_text info">Este campo é obrigatório</span></div><div class="bubble error kiwii-bubble kiwii-error-bubble" ><div class="bubble_arrow error kiwii-bubble-arrow"></div><span class="bubble_text error"></span></div></div></td></tr><tr class="no_company_display_controller kiwii-display-none"><td class="kiwii-padding-none"></td><td class="kiwii-padding-none"><input type="checkbox" value="do_not_display_company"
+                name="no_company_display" id="no_company_display"><label for="no_company_display">Não mostre no meu anúncio</label></td><td class="kiwii-padding-none"></td></tr><tr class="kiwii-pro-input-container"><td class="title kiwii-input-label">Seu endereço completo</td><td class="middle"><textarea name="company_address" id="id_company_address"
+                    cols="100" rows="8" value=""
+                    class="{validate:{maxlength:80,visible_required:true}} widened kiwii-input kiwii-flat-input kiwii-input-large "></textarea></td><td class="caption" style="width:8px;"><div class="bubble_container kiwii-bubble-container"><div class="bubble info  kiwii-bubble kiwii-info-bubble"><div class="bubble_arrow info  kiwii-bubble-arrow"></div><span class="bubble_text info">Número e nome da rua</span></div><div class="bubble error kiwii-bubble kiwii-error-bubble" ><div class="bubble_arrow error kiwii-bubble-arrow"></div><span class="bubble_text error"></span></div></div></td></tr><tr class=""><td class="title kiwii-input-label">Telefone: <span style="font-weight: normal;"><em> Inclua DDD e o número.</span></em></td><td class="middle"><input class="{validate:{maxlength:20}} kiwii-input kiwii-flat-input kiwii-input-small phone"
+                    name="phone_nbr" id="id_phone_nbr"
+                                        value="" type="text">
+                                                &nbsp;<i>Opcional.</i></td><td class="caption" style="width:8px;"><div class="bubble_container kiwii-bubble-container"><div class="bubble info  kiwii-bubble kiwii-info-bubble"><div class="bubble_arrow info  kiwii-bubble-arrow"></div><span class="bubble_text info">Inclua DDD e o número.</span></div><div class="bubble error kiwii-bubble kiwii-error-bubble" ><div class="bubble_arrow error kiwii-bubble-arrow"></div><span class="bubble_text error"></span></div></div></td></tr><tr class="posting-auth-row-phone-nbr" id="anonymize_phone"><td class="title kiwii-input-label">&nbsp;</td><td class="middle kiwii-padding-top-none kiwii-padding-bottom-tiny" style="font-weight:normal;"><input id="anonymize_phone" type="checkbox" name="anonymize_phone"  checked="checked" /><span class="anonymize_phone11" style="margin-top:3px;"id="anonymize_phone1"></span>&nbsp;
+                <a href="javascript:void(0);" class="noul" id="vivaphone_explanation"></a><a href="javascript:void(0);" class="noul kiwii-no-text-decoration" id="vivaphone_explanation2_personals"></a></td></tr></tbody></table>
+            </div>
+        </div>
+
+                        <div id="step_four" class="step_four" style="">
+            <div class="steps_wrap kiwii-bg-xxxlight-gray">
+
+                <input type="hidden" id="trusted_proxy" name="trusted_proxy" value="" />
+                <input type="hidden" id="trusted_email" name="trusted_email" value=""/>
+
+                <table id="category_step_four" width="100%" class="steps" cellpadding="3" border="0" cellspacing="0">
+
+
+                 
+                    <input type="hidden" name="posting_auth_type" id="posting_auth_type" value="no_account"/>
+                    <tr id="posting_logged_in_row" style="display:none;">
+                        <td class="title kiwii-input-label">&nbsp;</td>
+                        <td class="middle" class="kiwii-font-small" style="font-size:0.8em;" colspan="3">
+                            <span class="kiwii-font-small" id="posting_logged_in_as">Você está logado como</span>
+                            <strong class="kiwii-font-small" id="posting_logged_in_username"></strong>
+                            <br/>
+                                                            <a class="kiwii-font-small" id="change_user" href="javascript:void(0)">
+                                    Gostaria de logar com uma conta diferente
+                                </a>
+                                                    </td>
+                    </tr>
+
+                    
+                    
+                    <tr class="posting-auth-row">
+                        <td class="title kiwii-input-label">
+                                Email
+                        </td>
+                        <td class="middle" style="background-color:transparent;" colspan="2">
+                            <input type="text" class="vs-posting-text kiwii-input kiwii-flat-input kiwii-input-small sessioncamexclude" id="user_email" name="user_email"/>
+                                                        <div style="display:none;">
+                                <a id="switch_account" href="javascript:void(0);">
+                                    Usar uma conta diferente
+                                </a>
+                            </div>
+                                                    </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info">Por favor insira seu email para criar uma conta. Ele não será exibido em seu anúncio.</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="posting-auth-row always_show_password" >
+                        <td class="title kiwii-input-label">
+                                Senha
+                        </td>
+                        <td class="middle" colspan="2">
+                            <input type="password" class="vs-posting-text kiwii-input kiwii-flat-input kiwii-input-small sessioncamexclude" id="user_password" name="user_password" />
+                            <div id="forgot_password_link" style="display:none;">
+                                <a href="#" onclick="POSTFORM.requestPassword('postform', 'user_email'); return false;">
+                                    Esqueci minha senha
+                                </a>
+                                <img align="absmiddle" id="password_image" style="display:none;"
+                                    src="http://static.viva-images.com/bundle/aglFJ/viwii3/images/posting/forgot-password-loader.gif" alt="Loading"/>
+                            </div>
+                        </td>
+                                                                                                    <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container" style="display:none;">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"> Se você já possui uma conta no Vivalocal, por favor digite sua senha. <br />Se você é novo por aqui, por favor escolha uma senha.</span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                                            
+                    
+                </table> 
+            </div>
+        </div>
+                        <div id="external_url_step" class="kiwii-display-none">
+            <div class="steps_wrap kiwii-bg-xxxlight-gray kiwii-padding-bottom-xxxsmall">
+            <table id="spec_values" class="steps steps_alt" cellpadding="3" border="0"
+                    cellspacing="0" width="100%">
+                    <tr class="posting-auth-row-external-url-checkbox">
+                        <td class="title kiwii-input-label"></td>
+                        <td class="middle kiwii-padding-none">
+                            <input value="" type="checkbox" class="vs-posting-checkbox kiwii-float-left" id="external_url_checkbox" name="external_url_checkbox" />
+                            <div class="caption nobg kiwii-float-left kiwii-margin-top-tiny">Check this box if you want candidates to apply directly on your site</div>
+                        </td>
+                        <td class="caption" style="width:8px;">
+                        </td>
+                    </tr>
+                    <tr class="posting-auth-row-external-url kiwii-display-none">
+                        <td class="title kiwii-input-label"></td>
+                        <td class="middle">
+                            <input value=""
+                                type="text" class="vs-posting-text kiwii-flat-input kiwii-input-small"
+                                id="external_url" name="external_url"
+                                onchange="POSTFORM.highlightField(this);"
+                                onkeyup="POSTFORM.updateUrlCharsRemaining(this);"
+                                onpaste="POSTFORM.updateUrlCharsRemaining(this);"
+                            />
+                            <span id="url_characters_remaining_label" class="kiwii-margin-left-small"></span>
+                        </td>
+                        <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container" style="display:none;">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+              </table>
+            </div>
+        </div>
+                        <div id="step_featured" style="display: none;">
+            <div class="steps_wrap kiwii-bg-xxxlight-gray" id="step_featured_plans">
+            </div>
+        </div>
+        
+                <a name="captcha"></a>
+        <div id="step_captcha" class="step_captcha ">
+            <div id="publication_section_title" class="info_step kiwii-border-top-xxlight-gray kiwii-border-bottom-xxlight-gray">
+                <h5 class="kiwii-input-group-title kiwii-margin-xxsmall">
+                    <span class="vs-step-title">
+                        Publique seu anúncio
+                    </span>
+                    <div class="clear"></div>
+                </h5>
+            </div>
+            <div class="steps_wrap kiwii-bg-xxxlight-gray kiwii-padding-bottom-small">
+                <table id="category_step_captcha" class="steps" cellpadding="3" border="0" cellspacing="0" width="100%">
+
+                                        <tr class="captcha captcha_error copy_security_code_from posting_grey" style="display:none;">
+                        <td class="title kiwii-input-label">
+                            <strong class="">Código de Segurança</strong>
+                        </td>
+                        <td class="middle">
+                            <img align="absmiddle" style="height:30px;width:167px;" id="captcha_image" />
+                            <br />
+                            <a id="reset_captcha_link" href="#" >Novo código de segurança</a>
+                        </td>
+                        <td class="caption nobg"><div></div></td>
+                    </tr>
+                    <tr class="captcha copy_security_code captcha_error posting_grey" style="display:none;">
+                        <td class="title kiwii-input-label">
+                            <strong>
+                                Copiar Código de Segurança
+                            </strong>
+                        </td>
+                        <td class="middle">
+                            <input type="hidden" id="captcha_loaded" name="captcha_loaded" value="false" />
+                            <input type="text" class="vs-posting-text" id="captcha" name="captcha" value="na" />
+                                                    </td>
+                        <td class="caption nobg">
+                            <div class="bubble_container kiwii-bubble-container" style="display:none;">
+                                <div id="info_bubble_captcha" class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div id="error_bubble_captcha" class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text error"></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                     
+                                                            <tr class="posting-partner-posting resized" id="partner_post_erm" categories="tickets" show_on_modify="false" partner_code="erm" style="display:none;">
+                        <td class="title kiwii-input-label">&nbsp;</td>
+                        <td class="middle">
+                            <span style="color:#339933; font-weight:bold;">FREE</span> - Publicar este anúncio também no<span style="color:#FF9900;"> Easy</span><span style="color:#0066CC;">Quarto.com.br</span> O melhor lugar para encontrar um apartamento para dividir!
+                            <br />
+                            <input class="check optin" type="radio" name="partner_posting_erm"
+                                id="partner_posting_yes_erm" value="true" />
+                            <label for="partner_posting_yes_erm" class="optinLabel">
+                                SIM
+                            </label>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                            <input class="check optin" type="radio" name="partner_posting_erm"
+                                id="partner_posting_no_erm" value="false" />
+                            <label for="partner_posting_no_erm" class="optinLabel">
+                                NÃO
+                            </label>
+                        </td>
+                        <td></td>
+                    </tr>
+                                        
+                    
+                    
+                     
+                                        <tr id="action_buttons" class="step_continue captcha">
+                        <td class="title kiwii-input-label"></td>
+                        <td class="middle" colspan="2">
+                                                        <input type="hidden" name="target" id="target" value="publish"/>
+                            <input type="hidden" id="publish" name="publish" value="0" />
+                                                                                        <input id="publish_button" type="submit" name="publish"
+                                    class="kiwii-btn kiwii-btn-primary kiwii-btn-large kiwii-float-left kiwii-margin-bottom-xxxsmall"
+                                    onclick="POSTFORM.setPreview(false); return true;"
+                                    value="Publicar classificado" />
+                                                        <input id="preview_button" type="submit" style="display:none;"
+                                class="vs-input-button-dark vs-button ui-button ui-widget ui-state-default ui-corner-all"
+                                onclick="POSTFORM.setPreview(true); return true;"
+                                value="Eu quero ver primeiro" />
+                                                                                                <div id="action_buttons_caption" class="kiwii-float-left kiwii-clear-left">
+                                                                                <div class="kiwii-float-left kiwii-form-terms kiwii-no-link-decoration ">
+                                            Clicando em Publicar
+                                        </div>
+                                    </div>
+                                                                                    </td>
+                                                <td class="caption" style="width:8px;">
+                            <div class="bubble_container kiwii-bubble-container">
+                                <div class="bubble info  kiwii-bubble kiwii-info-bubble">
+                                    <div class="bubble_arrow info  kiwii-bubble-arrow"> </div>
+                                    <span class="bubble_text info"></span>
+                                </div>
+                                <div class="bubble error kiwii-bubble kiwii-error-bubble" >
+                                    <div class="bubble_arrow error kiwii-bubble-arrow"></div>
+                                    <span class="bubble_text error">Você precisa concordar com nossa Política de Privacidade e Termos de Uso para publicar.</span>
+                                </div>
+                            </div>
+                        </td>
+                                            </tr>
+                    
+                </table>             </div>         </div>             </form>
+</div>
+<script type="text/javascript">
+var mess = {"company_name":"Nome da Empresa","company_number":"posting_company_number","post_display_company":"N\u00e3o mostre no meu an\u00fancio","select_first_option":"Selecionar uma op\u00e7\u00e3o","error_mess":"posting_post_error","error_zipcode":"posting_postal_error","error_password":"A senha enviada n\u00e3o confere","post_preview":"Eu quero ver primeiro","post_payment":"Confirmar compra","post_publish":"Publicar classificado"};
+var POST_SETTINGS = { post: {}, postuser: {}, postform: {} };
+var disclaimers={"adult_services":true,"gay_adult_services":true,"men_for_men":true,"open_minds":true,"phone_services":true};
+var cats={'vehicules':"Veículos usados",'agriculture':"Agronegócios",'pets':"Animais estimação",'housing':"Imóveis",'personals':"Relacionamento",'services':"Serviços",'jobs':"Empregos",'community':"Comunidade",'for_sale':"Compra venda",'classes':"Cursos"};var subcats={'vehicules':{'cars_trucks':"Carros usados",'bikes_motorcycles':"Motos usadas",'trucks':"Caminhões usados",'busses':"Ônibus usados",'caravans_rv':"Motor home - Motor trailer",'boats':"Lanchas - Barcos - Veleiros",'boats_rental':"Aluguel carros - Barcos - Motos",'vehicle_accessories':"Acessórios e serviços"},'agriculture':{'farm_animals':"Animais do campo",'animal_nutrition':"Alimentação pecuária - Grãos",'agro_supplies':"Produtos rurais",'agro_machinery':"Maquinária agrícola",'agro_services':"Serviços agropecuários",'agro_land':"Fazendas - Sitios à venda"},'pets':{'pet_sale':"Animais estimação à venda",'pet_adoption':"Adoção animais de estimação",'pet_services':"Veterinários - Serviços - Acessórios"},'housing':{'housing_for_sale':"Apartamentos - Casas venda",'housing_for_rent':"Alugar casas - Apartamentos",'sublets_short_term':"Aluguel temporada",'new_developments':"Empreendimentos imóveis",'rooms_roommates':"Dividir apartamento - Quartos",'land_for_sale':"Terrenos - Lotes",'housing_exchange':"Troca de casas - Apartamentos",'parking':"Estacionamentos - Garagens",'overseas_realestate':"Imóveis exterior",'real_estate':"Imóveis comerciais"},'personals':{'missed-connections':"Procurar Amigos",'serious_relationships':"Procurar Amor",'gay_relationships':"Relações Gays - Lésbicas",'open_minds':"Encontros Casuais",'adult_services':"Acompanhantes & Massagem",'gay_adult_services':"Acompanhantes Masculinos"},'services':{'tickets_travel':"Serviços turismo - Agência turismo",'translation':"Traduções - Serviços de traduções ",'computer_services':"Serviços de informática",'computer':"Mudanças - Frete",'small_businesses':"Profissionais liberais",'labor_moving':"Reparo - Conserto - Reforma",'health_and_well_being':"Bem-Estar - Saúde - Beleza",'classes_learning':"Astrologia - Serv. espirituais",'other_services':"Outros serviços"},'jobs':{'job_offers':"Ofertas de emprego",'internships':"Estágios - Trainee",'job_seekers':"Anunciar currículo - Procurar emprego",'small_jobs':"Trabalhos domésticos"},'community':{'artists_musicians':"Artistas - Músicos",'restaurants_bars':"Guia restaurantes - Bares",'recipes':"Receitas culinárias",'missing':"Contatos perdidos",'other_activities':"Atividades locais",'events':"Eventos"},'for_sale':{'for_sale_home':"Artigos para casa",'for_sale_leisure':"Lazer e entretenimento",'for_sale_media':"Artigos eletrônicos",'for_sale_fashion':"Moda e acessórios",'general':"Diversos"},'classes':{'classes_language':"Cursos de idiomas",'classes_computers':"Cursos de informática",'classes_professional_training':"Capacitação profissional",'classes_private':"Professores particulares",'aerobics':"Aulas de ginástica",'classes_music_theater':"Aulas música - Teatro - Dança",'classes_other':"Outros cursos"}};var ssubcats={'cars_trucks':{},'bikes_motorcycles':{},'trucks':{},'busses':{},'caravans_rv':{},'boats':{},'boats_rental':{},'vehicle_accessories':{'car_parts':"Autopeças - Acessórios - Serviços",'bikes_accessories':"Peças reposição motos",'boat_accessories':"Peças reposição náuticos",'rv_accessories':"Acessórios motorhome",'truck_accessories':"Peças - Acessórios caminhões"},'farm_animals':{},'animal_nutrition':{},'agro_supplies':{},'agro_machinery':{},'agro_services':{},'agro_land':{},'pet_sale':{},'pet_adoption':{},'pet_services':{},'housing_for_sale':{},'housing_for_rent':{},'sublets_short_term':{},'new_developments':{},'rooms_roommates':{},'land_for_sale':{},'housing_exchange':{},'parking':{},'overseas_realestate':{'overseas_for_sale':"Casas venda exterior",'overseas_for_rent':"Aluguel temporada exterior",'overseas_land_for_sale':"Terrenos venda exterior"},'real_estate':{'storage_parking':"Venda imóveis comerciais",'office_commercial':"Aluguel imóveis comerciais"},'missed-connections':{},'serious_relationships':{'women_for_men':"Mulher procura homem",'men_for_women':"Homem procura mulher"},'gay_relationships':{'women_for_women':"Mullher procura mulher",'men_for_men':"Homem procura homem"},'open_minds':{},'adult_services':{},'gay_adult_services':{},'tickets_travel':{},'translation':{},'computer_services':{},'computer':{},'small_businesses':{},'labor_moving':{},'health_and_well_being':{},'classes_learning':{},'other_services':{},'job_offers':{},'internships':{},'job_seekers':{},'small_jobs':{'babysitting':"Babás",'cleaning':"Empregada doméstica - Diarista",'senior_citizens':"Acompanhante idosos - Enfermeira",'mlm_commission':"Trabalhar em casa"},'artists_musicians':{},'restaurants_bars':{},'recipes':{},'missing':{},'other_activities':{},'events':{'events_planning':"Serviços para eventos"},'for_sale_home':{'furniture':"Móveis - Camas - Cadeiras",'house_and_garden':"Decoração Casa",'appliances_furniture':"Eletrodomésticos usados",'collectibles_books':"Artigos de coleção",'pro_equipment':"Equipamentos profissionais"},'for_sale_leisure':{'sportswear':"Artigos esportivos - Bicicletas",'hand_made':"Artesanato - Feito à mão",'gift_ideas':"Idéias para presentes",'music_instruments':"Instrumentos musicais",'food_and_wine':"Bebidas - Comidas"},'for_sale_media':{'computers_elec':"Notebooks - Computadores usados",'art_music':"DVD - Video Games - Livros - CD",'photo_hifi_tv':"TV - Som - Fotografia",'phones_pdas':"MP3 - Ipod - Celulares"},'for_sale_fashion':{'furniture_household':"Antiguidades - Jóias",'children':"Brinquedos - Artigos infantis ",'clothes_accessories':"Roupas e Acessórios ",'beauty_products':"Produtos Beleza - Saúde"},'general':{},'classes_language':{},'classes_computers':{},'classes_professional_training':{},'classes_private':{},'aerobics':{},'classes_music_theater':{},'classes_other':{}};
+var previous_subcat="";
+var paramvalues=[];
+var partner_validation = ['erm',];
+var previous_cat=0, revious_location=0, previous_prov=0, previous_city=0;
+var validate=true, submit_form = true, validated = false;
+var agree_disclaimer=false;
+POST_SETTINGS.postuser.shadow_user=false;
+POST_SETTINGS.post.clad_is_new=true;
+POST_SETTINGS.post.clad_is_dirty=false;
+POST_SETTINGS.post.transform_seek_posting=true;
+POST_SETTINGS.postform.ind_type_plans=true;
+POST_SETTINGS.postform.checkpostingvalidation = false;
+POST_SETTINGS.postform.valid_character_set='';
+(function () {var lb_params={modal:true,width:675,resizable:false};$J('.partner-explain').click(function (e) {e.preventDefault();var tmp = $J(this).attr('id');var partner_code = tmp.substring( tmp.lastIndexOf( '_' )+1);if (partner_code) {LIGHTBOX.open('partner_explain_'+partner_code,KIWII._ajax_dir+'lightbox/partner_explain.php?partner_code='+partner_code,null,lb_params );}});}());
+POST_SETTINGS.postform.currency_position = 'front';
+//#5419 (Implement Posting and Payment Events)
+//Event21 - landing on posting page
+$J( document ).ready( function(){
+    POSTFORM.clad_affiliate_id = 0;
+    POSTFORM.setBubbleIds();
+    POSTFORM.getSpecFieldsComplete();} );
+</script>
+<script type='text/javascript'>
+    $J( document ).ready( function(){
+        
+                                    POSTUSER.config.unlock_login = 1;
+                            POSTFORM.updateUrlCharsRemaining(document.getElementById('external_url'));
+    } );
+</script>
+
+
+                
+            </div></div><div class="kiwii-span-20 kiwii-center-hor"></div><div class="kiwii-span-20 kiwii-center-hor kiwii-box-white kiwii-position-relative kiwii-margin-top-xxxsmall-negative" style="width:998px;z-index:-1;"><div id="vs_footer"><div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div><div class="kiwii-box kiwii-box-padding kiwii-box-clear"><td class="vs-footer-seo"><div id="vs-seo-text"><p>Publique seus anúncios grátis no vivalocal. É Fácil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e faça negócio rapidamente!</p></div></td></div><div class="kiwii-box kiwii-box-padding kiwii-box-clear"><div class="kiwii-font-tiny">Copyright © 2017 Vivalocal - Part of W3 LTD</div><div class="kiwii-font-tiny"> A maior parte das categorias no Vivalocal são gratuitas. No entanto, a fim de assegurar um serviço de qualidade e segurança, algumas categorias exigem uma taxa mínima para postar. Estas taxas vão aparecer claramente antes de você concluir o seu anúncio.</div></div></div></div><div id="vs_lb_disclaimer" class="vs-lightbox-content" style="display:none;"><div id="vs_lb_disclaimer_content"></div></div><script type="text/javascript"></script><script type="text/javascript">
+                if( typeof current_data != 'undefined' ) {
+                        current_data.website_options = {"id":"13","domain":"vivalocal.com","name":"Vivastreet Brasil","template":"viwii3","country":"BR","status":"enable","homepage_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - vivalocal","homepage_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","homepage_keywords":"classificados #location#, an\u00fancios classificados Locais #location#, classificados gr\u00e1tis #location#, an\u00fancios #location#, an\u00fancios de venda #location#, classificados de carros #location#, classificados de im\u00f3veis, onde vender, empregos, an\u00fancios pes","homepage_h1":"Classificados #location# \/ An\u00fancios Gr\u00e1tis #location#","homepage_spec":"{\"footer_spec\":{\"text\":[{\"text\":\"O vivalocal Brasil \\u00e9 um site de Classificados Gr\\u00e1tis com mais de 1 000 000 an\\u00fancios e centenas de novos an\\u00fancios publicados diariamente. Aqui, mais gente procura e mais gente acha o que quer, todos os dias. \\r\"},{\"text\":\"Comprar e vender pelo vivalocal \\u00e9 muito r\\u00e1pido e totalmente gr\\u00e1tis. Quer mudar de casa, vender seu carro, achar um emprego ou at\\u00e9 um amor? Clique no mapa e comece a navegar agora!\"}],\"choices\":[],\"defaults\":{\"type1\":\"\",\"location\":\"\",\"display\":\"\"}}}","posting_title":"Publicar An\u00fancios Gr\u00e1tis . Publicar Classificados Gr\u00e1tis | vivalocal.com","posting_desc":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gratis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_keywords":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gr\u00e1tis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_h1":"Publicar An\u00fancios Gr\u00e1tis  \/ Publicar Classificados Gr\u00e1tis ","nocat_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - Vivalocal","nocat_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","nocat_keywords":"","nocat_h1":"An\u00fancios Classificados Gr\u00e1tis #location#","nocat_footer":"","specialzation_type_code":"mais-opcoes","all_results":"classificados","adsense_keywords":"#keyword# #location#","afs_keywords":"Classificados #location#","header_div":"<span style=\"letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;\">An\u00fancios classificados gr\u00e1tis<\/span>","posting_seo_footer":"Publique seus an\u00fancios gr\u00e1tis no vivalocal. \u00c9 F\u00e1cil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e fa\u00e7a neg\u00f3cio rapidamente!","subtemplate":null};            current_data.country_options = {"id":"BR","label":"Brasil","default_language":"pt","timezone":"America\/Sao_Paulo","currency_code":"BRL"};            current_data.is_mobile = false;            current_data.is_search = false;            current_data.page = {"type":"post","mode":"f"};            current_data.category = {"id":"","parent":"","meta_code":"","code":"","label":"","premium_ads":"","foreign_only":""};            current_data.url = {"protocol":"http","fulldomain":"post.vivalocal.com","path":"\/","query":"","fulldomain_stack":["post","vivalocal","com"],"path_stack":[],"query_array":[],"domain":"vivalocal.com","domain_stack":{"prefix":"","site":"vivalocal.com"},"subdomains":"post","subdomain_stack":["post"],"subdomain":"post","root":"http:\/\/www.vivalocal.com\/","pics":"http:\/\/static.viva-images.com\/bundle\/aglFJ\/viwii3\/images","js":"http:\/\/static.viva-images.com\/templates\/viwii3\/scripts","css":"http:\/\/static.viva-images.com\/templates\/viwii3\/styles","ajax":"http:\/\/post.vivalocal.com\/ajax\/"};        }
+                if( typeof current_config != 'undefined' ) {
+                        current_config.geosearch_settings = {"free_text":false,"multi_drop":true,"drop_max":3,"country_drop":false,"search_type":"B","outer_code_search":"","always_radius":false,"max_geo_depth":3,"separate_main_locations":true};
+                    }
+            </script><script type="text/javascript" src="http://static.viva-images.com/bundle/aglFJ/viwii3/scripts/app_b.js?cache=aglFJ"></script><script type="text/javascript" src="http://static.viva-images.com/bundle/aglFJ/viwii3/scripts/compatibility_b.js?cache=aglFJ"></script><script type="text/javascript" src="http://static.viva-images.com/templates/viwii3/scripts/ga_post_events.js?cache=aglFJ"></script><script type="text/javascript">
+    if( typeof $J != 'undefined' ) {
+        $J(document).ready( function() {
+            if( typeof App != 'undefined' ) {
+                App.load();
+            }
+        });
+    }
+    else {
+        if( typeof App != 'undefined'  ) {
+            App.load();
+        }
+    }
+    </script><!-- Ecommerce tags --><script>
+var dataLayer=dataLayer||[];
+dataLayer.push({
+	"transactionId": 0,
+	"transactionTotal":  "0",
+	"transactionCurrency": "",
+	"transacFrom": "",
+	"geo1": "",
+	"geo2": "",
+	"geo3": "",
+	"geo4": "",
+	"geo5": "",
+	"metaCategory": "", 
+	"metaSubCategory": "",
+	"metaSubSubCategory": "",
+	"transactionProducts": [{
+		"sku":  0,
+		"autorenew":0,
+		"duration": 0,
+		"name": "p2post",
+		"price": "0",
+		"quantity": 1
+	},{
+		"sku":  0,
+		"autorenew":0,
+		"name": "featured",
+		"duration": 0,
+		"price": "0",
+		"quantity": 1
+	},{
+		"sku":  0,
+		"autorenew":0,
+		"name": "highlight",
+		"duration": 0,
+		"price":  "0",
+		"quantity": 1
+	},{
+		"sku":   0,
+		"autorenew":0,
+		"name": "p2label",
+		"duration": 0,
+		"price": "0",
+		"quantity": 1
+	},{
+		"sku": 0,
+		"autorenew":0,
+		"name": "p2vip",
+		"duration": 0,
+		"price": "0",
+		"quantity": 1
+	},{
+		"sku": 0,
+		"autorenew":0,
+		"name": "p2visit",
+		"duration": 0,
+		"price": "0",
+		"quantity": 1
+	},{
+		"sku": 0,
+		"autorenew":0,
+		"name": "repost",
+		"duration":0,
+		"price": "0",
+		"quantity": 1
+	}]
+})
+</script><!-- GTM start --><script>
+var dataLayer=dataLayer||[];
+dataLayer.push({
+"GAtoGTM":false,
+"pageCat":"posting",
+"userId":( typeof App != 'undefined' && App !== null ) ? App.Session.data.user_id : 0,
+"userType":( typeof App != 'undefined' && App !== null ) ? App.Session.data.web_usertype : "",
+"userLogged":( ( typeof App != 'undefined' && App !== null ) && App.Session.data.logged_in ) ? 1 : 0
+})
+</script><script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M7ZFTZ');
+</script><!-- GTM end --><!--CC Icons start--><script>
+var cardslogo = document.querySelector(".vs-payment-ccform > td");
+if(cardslogo !== undefined){
+cardslogo.style.display="none";
+var mytd=document.createElement("td");
+document.querySelector(".vs-payment-ccform > th").parentNode.appendChild(mytd);
+mytd.innerHTML="<img src='https://s3-eu-west-1.amazonaws.com/medias3-viva-eu/vivastreet_br/CC+icons/visa.jpg' style='padding-right:10px'/><img src='https://s3-eu-west-1.amazonaws.com/medias3-viva-eu/vivastreet_br/CC+icons/mastercard.jpg' style='padding-right:10px'/>";
+}
+//card_saved_caption_replace
+var card_total = document.querySelectorAll(".vs-stored-payment-field > a").length;
+if(card_total !== undefined){
+for (var i=0; i < card_total; i++){
+document.querySelectorAll(".vs-stored-payment-field > a")[i].previousSibling.nodeValue="Cartão cadastrado (";
+ };
+}
+</script><!--CC Icons end--><!--Boleto caption start--><style>
+.tooltip{display:inline;position:relative}.tooltip:hover:after{background:#333;background:rgba(0,0,0,.7);border-radius:5px;bottom:26px;color:#fff;content:attr(title);left:5%;padding:5px 15px;position:absolute;z-index:98;width:400px}.tooltip:hover:before{border:solid;border-color:#333 transparent;border-width:6px 6px 0;bottom:20px;content:"";left:50%;position:absolute;z-index:99}
+</style><script>
+var x = document.querySelector(".kiwii-icon-card-boleto");
+var y = document.createElement("div");
+x.appendChild(y);
+y.innerHTML="<div style='width:400px;height:60px;padding-left:125px;font-weight:bold;'><div class='tooltip' title='Quando comprar planos, nós recomendamos que eles sejam sempre pagos juntamente com a Taxa de publicação. Assim, o seu anúncio tem a mesma data de vencimento que os seus planos.'><a title='More' href='javascript:void(0)'> Vai pagar com boleto? Leia esta informação. É importante.</a></div></div>";
+</script><!--Boleto caption end--><!-- Validate Brazillian phone number --><script>
+        function alignNums(num){
+            switch(num){
+                case 1:
+                    if((inputNums[0] == 0)){
+                        phoneField.value = '(';
+                        return;
+                    }
+                    phoneField.value = '(' + inputNums;
+                    break;
+                case 2:
+                    if (validateCodes()){return};
+                    phoneField.value = '(' + inputNums + ') ';
+                    break;
+                case 6:
+                    phoneField.value = '(' + inputNums[0] + inputNums[1] + ') ' + inputNums[2] + inputNums[3] + inputNums[4] + inputNums[5] + '-';
+                    break;
+                case 7:
+                    phoneField.value = '(' + inputNums[0] + inputNums[1] + ') ' + inputNums[2] + inputNums[3] + inputNums[4] + inputNums[5] + '-' + inputNums[6];
+                    break;
+                case 10:
+                    phoneField.value = '(' + inputNums[0] + inputNums[1] + ') ' + inputNums[2] + inputNums[3] + inputNums[4] + inputNums[5] + '-' + inputNums[6] + inputNums[7] + inputNums[8] + inputNums[9];
+                    break;
+                case 11:
+                    phoneField.value = '(' + inputNums[0] + inputNums[1] + ') ' + inputNums[2] + inputNums[3] + inputNums[4] + inputNums[5] + inputNums[6] + '-' + inputNums[7] + inputNums[8] + inputNums[9] + inputNums[10];
+                    break;
+                default:
+                    return;
+            }
+        }
+        var phoneField = document.getElementById('id_phone_nbr');
+        var phoneInput;
+        var inputNums;
+        var validateCodes = function(){
+            var codeCheck = phoneField.value[1] + phoneField.value[2];
+            var nonCodes = [20,23,25,26,29,30,36,39,40,50,52,56,57,58,59,60,70, 72,76,78,80,90];
+            for(var i=0;i<nonCodes.length;i++){
+                if(codeCheck == nonCodes[i]) {
+                    phoneField.value = '(' + inputNums[0];
+                    return true;
+                }
+            }
+            return false;
+        }
+        window.keypressed = {};
+        
+        phoneField.addEventListener('keydown', function(e){
+            if ( window.keypressed[e.which] ) {
+                e.preventDefault();
+            } else {
+                window.keypressed[e.which] = true;
+            }
+        });
+        phoneField.addEventListener('keyup', function(e){
+                window.keypressed[e.which] = false;
+            if(validateCodes()){return;}
+            phoneInput = this.value;
+            inputNums = phoneInput.replace(/\D/g,'');
+            if(inputNums.length > 11){
+                inputNums = inputNums.substring(0,11);
+            };
+            var key = event.keyCode || event.charCode;
+            if( key == 8 || key == 46 || key == 37 || key == 65|| key == 17 ) {
+                var keyValue = String.fromCharCode(e.keyCode);
+                if(keyValue == 'A'){this.value = phoneInput.substring(0, phoneInput.length - 1);}
+                if(inputNums.length == 10){
+                    alignNums(inputNums.length);
+                }
+                return false;
+            }
+            function isNumber(o) {
+                return o == '' || !isNaN(o - 0);
+            }
+            var keyCode = e.keyCode || e.which;
+            if (keyCode >= 96 && keyCode <= 105) {
+                keyCode -= 48;
+            }
+            if(isNumber(String.fromCharCode(keyCode)) === false){
+                this.value = phoneInput.substring(0, phoneInput.length - 1);
+            };
+            if(inputNums.length > 11){
+                this.value = phoneInput.substring(0,15);
+            };
+            alignNums(inputNums.length);
+        });
+        // Validate Brazillian phone number
+</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cf5e25fd38","applicationID":"22651594","transactionName":"ZwZRZhEDWhdWUBAKDF5McEcQFlsJGEMLEBdvBVxADg==","queueTime":0,"applicationTime":62,"atts":"S0FSEFkZSRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body></html>
