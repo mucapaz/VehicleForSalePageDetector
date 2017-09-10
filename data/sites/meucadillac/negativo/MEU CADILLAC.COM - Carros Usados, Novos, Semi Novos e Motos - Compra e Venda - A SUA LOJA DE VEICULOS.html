@@ -1,0 +1,3934 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+	<!-- Facebook APP ID -->
+	<meta property="fb:app_id" content="12345"/>
+
+	<meta name="keywords" content="carro novo, carro usado, financiamento de carros, motos, caminhao, barcos, " />
+	<meta name="description" content="A melhor forma para comprar, vender, financiar, fazer seguro e saber tudo sobre veículos. Meu Cadillac.com o melhor site de vendas de Autos do Brasil" />
+
+	<!-- Open Graph -->
+	<meta property="og:site_name" content="Auto Dealer HTML"/>
+	<meta property="og:title" content="Home" />
+	<meta property="og:url" content="http://localhost/index.php" />
+	<meta property="og:image" content="http://cdn.winterjuice.com/example/autodealer/image.jpg" />
+	<meta property="og:description" content="Meu Cadillac.com o melhor site de vendas de Autos do Brasil" />
+
+	<!-- Page Title -->
+	<title>MEU CADILLAC.COM - Carros Usados, Novos, Semi Novos e Motos - Compra e Venda - A SUA LOJA DE VEICULOS</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style980.css" />
+	<link rel="stylesheet" type="text/css" href="css/style800.css" />
+	<link rel="stylesheet" type="text/css" href="css/style700.css" />
+	<link rel="stylesheet" type="text/css" href="css/style600.css" />
+	<link rel="stylesheet" type="text/css" href="css/style500.css" />
+	<link rel="stylesheet" type="text/css" href="css/style400.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox-1.3.4.css" media="screen" />
+	<!--[if IE]>
+	<link href="css/style_ie.css" rel="stylesheet" type="text/css">
+	<![endif]-->
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/jquery.selectik.js"></script>
+	<script type="text/javascript" src="js/jquery.fancybox-1.3.4.pack.js"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js"></script>
+	<script type="text/javascript" src="js/jquery.checkbox.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<style>
+	.imobBoxTipo{
+	   width: 100%;
+	   height: 34px;
+	   overflow: hidden;
+	   background: url(images/select_marker.gif) no-repeat right #ddd;
+	   border: 1px solid #D1D5DC;
+	   border-radius: 3px;
+	   background: #FFFFFF;
+	   display: block;
+	   color: #798FA1;
+	   font-size: 13px;
+	   line-height: 28px;
+       font-family: 'PTSansRegular',Arial,sans-serif;
+       padding: 1px 0 0 11px;
+       box-shadow: 0 1px 0 0 #FFFFFF;
+	   }
+	.imobBoxTipo select option{
+		width: 100%;
+		background-color: #f2f2f2;
+		height: 34px;
+		line-height: 28px;
+		font-family: 'PTSansRegular',Arial,sans-serif;
+		color: #798FA1;
+		font-size: 13px;
+		background: #FFFFFF;
+	}
+	.hide {
+	  display: none;
+	}
+	.seta ol{
+
+		list-style: square url("http://meucadillac.com/admin/admin/assets/img/sqpurple.gif");
+		margin-left:0px;
+
+	} 
+	.seta ol li{
+		border-bottom: 1px solid #E8EAED;
+		background:none;
+		padding: 7px 0 10px 3px;
+	} 
+	</style>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-81681922-1', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Arial:300italic,300,400,400italic,600,600italic,700,700italic|Open+Sans:300italic,300,400,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bitter:400,400italic,700|Copse' rel='stylesheet' type='text/css'>
+
+<!-- Favicon -->
+<link href="images/ico.png" rel="shortcut icon" />
+</head>
+<body class="page">
+	<!--BEGIN HEADER-->
+		<div id="header">
+			<div class="top_info">
+				<div class="logo">
+					<a href="http://www.meucadillac.com/"><img src="images/logo.png" width="265" height="81"></a>
+			  </div>
+				<div class="header_contacts">
+					<div class="phone"><a target="blank" href="https://goo.gl/pLJVxL"><img  width="500" height="90" src="banneranuncios/meucadillac_1820449258.gif"  /></a></div>
+				</div>
+				<div class="socials">
+					<a href="https://www.facebook.com/MeuCadillac/?fref=ts" target="blank"><img src="images/facebook.png" alt=""></a>&nbsp;&nbsp;
+					<a href="https://www.instagram.com/meucadillac/" target="blank"><img src="images/instagram.png" alt=""></a>&nbsp;&nbsp;
+					<a href="https://www.youtube.com/channel/UCp7wn0rphGsSYjK77xBgi7A" target="blank"><img src="images/youtube_icon.png" alt=""></a>
+				</div>
+			</div>
+			<div class="bg_navigation">
+				<div class="navigation_wrapper">
+					<div id="navigation">
+						<span>Home</span>
+						<ul>
+							<li class="current"><a href="index.php">Home</a></li>
+							<li><a href="acesso.php">Acesse sua conta</a></li>
+							<li><a href="consulta.php">Consultar Placa</a></li>
+							<li><a href="nossos-planos.php">Nossos Planos</a></li>
+							<li><a href="lojas.php">Lojas</a></li>
+							<li><a href="ajuda.php">Ajuda</a></li>
+							<li><a href="fale-conosco.php">Fale Conosco</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!--EOF HEADER-->	<script type="text/javascript" src="js/easypaginate.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/paginate.css">
+	<!--BEGIN CONTENT-->
+
+		<div id="content">
+
+			<div class="content">
+
+				<div class="wrapper_1">
+
+					<div class="slider_wrapper">
+
+						<div class="home_slider">
+
+							<div class="slider slider_1">
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande2232_558515422.jpg" 
+
+											alt="2000 Toyota Corolla 1.8"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												2000 Toyota Corolla 1.8
+											</h2>
+
+											<p class="desc">
+												<span>
+													 
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													1.8
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 14.500,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande2210_1292634607.jpg" 
+
+											alt="1986 Nissan 300 3.0"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												1986 Nissan 300 3.0
+											</h2>
+
+											<p class="desc">
+												<span>
+													 													<strong>Km: </strong>
+													105046
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													3.0
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 59.900,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande2037_1755107355.jpg" 
+
+											alt="2012 Jac Motors J2 1.4"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												2012 Jac Motors J2 1.4
+											</h2>
+
+											<p class="desc">
+												<span>
+													 													<strong>Km: </strong>
+													25000
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													1.4
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 20.900,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande1951_1420543537.jpg" 
+
+											alt="2017 Honda. XRE  300"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												2017 Honda. XRE  300
+											</h2>
+
+											<p class="desc">
+												<span>
+													 
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													300
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 16.500,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande1829_1423179021.jpg" 
+
+											alt="2011 Chevrolet S10 2.8"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												2011 Chevrolet S10 2.8
+											</h2>
+
+											<p class="desc">
+												<span>
+													 
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													2.8
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 45.990,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+								
+
+									<div class="slide">
+
+										
+										
+											<img src="http://meucadillac.com/admin/loja/uploads/grande1588_600969281.jpg" 
+
+											alt="2015 Land Rover Range Rover Evoque 2.0"/>
+
+												
+
+										<div class="description">
+
+											<h2 class="title">
+
+												2015 Land Rover Range Rover Evoque 2.0
+											</h2>
+
+											<p class="desc">
+												<span>
+													 													<strong>Km: </strong>
+													6700
+												</span>
+
+												<span>
+
+													<strong>Motor: </strong>
+
+													2.0
+												</span>
+
+											</p>
+
+											<div class="price">
+											 R$ 149.500,00
+
+											</div>
+
+										</div>
+
+									</div>
+
+								
+
+								
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="search_auto_wrapper">
+
+						<form method="post" action="buscaRapida.php">
+
+							<div class="search_auto">
+
+								<h3><strong>Pesquisa</strong> </h3>
+
+								<div class="categories">
+
+									<input  type="radio" id="search_radio_1" checked="checked" name="category" value="1"/>
+
+									<label for="search_radio_1" class="search_radio_1"></label>
+
+									<input  type="radio" id="search_radio_2" name="category" value="2"/>
+
+									<label for="search_radio_2" class="search_radio_2"></label>
+
+									<input   type="radio" id="search_radio_3" name="category" value="3"/>
+
+									<label for="search_radio_3" class="search_radio_3"></label>
+
+									<input   type="radio" id="search_radio_4" name="category" value="4"/>
+
+									<label for="search_radio_4" class="search_radio_4"></label>
+
+								</div>
+
+								<div class="clear"></div>
+
+								<label><strong>Marca:</strong></label>
+
+								<div class="select_box_1">
+
+									<select id="cod_marca" class="imobBoxTipo" name="marca">
+
+										<option value="todos">Todos</option>
+
+										<option value=286 >Agrale</option>
+<option value=287 >Aston Martin</option>
+<option value=288 >Audi</option>
+<option value=289 >Bentley</option>
+<option value=290 >BMW</option>
+<option value=361 >Bora</option>
+<option value=373 >BRM</option>
+<option value=291 >Changan</option>
+<option value=292 >Chery</option>
+<option value=293 >Chevrolet</option>
+<option value=294 >Chrysler</option>
+<option value=295 >Citroën</option>
+<option value=296 >Dodge</option>
+<option value=297 >Effa</option>
+<option value=298 >Ferrari</option>
+<option value=299 >Fiat</option>
+<option value=378 >Fibrav</option>
+<option value=300 >Ford</option>
+<option value=301 >Geely</option>
+<option value=302 >Hafei</option>
+<option value=337 >Honda</option>
+<option value=304 >Hyundai</option>
+<option value=305 >Iveco</option>
+<option value=306 >Jac Motors</option>
+<option value=307 >Jaguar</option>
+<option value=308 >Jeep</option>
+<option value=309 >Jinbei</option>
+<option value=310 >Kia</option>
+<option value=311 >Lamborghini</option>
+<option value=312 >Land Rover</option>
+<option value=313 >Lexus</option>
+<option value=314 >Lifan</option>
+<option value=315 >Mahindra</option>
+<option value=316 >Maserati</option>
+<option value=317 >Mercedes-Benz</option>
+<option value=318 >MG Motors</option>
+<option value=319 >Mini</option>
+<option value=320 >Mitsubishi</option>
+<option value=321 >Nissan</option>
+<option value=322 >Peugeot</option>
+<option value=323 >Porsche</option>
+<option value=324 >Ram</option>
+<option value=325 >Renault</option>
+<option value=326 >Smart</option>
+<option value=327 >Ssangyong</option>
+<option value=377 >Subaru</option>
+<option value=329 >Suzuki</option>
+<option value=330 >Toyota</option>
+<option value=331 >Troller</option>
+<option value=332 >Volkswagen</option>
+<option value=333 >Volvo</option>
+
+									</select>
+
+								</div>
+
+								
+
+								
+
+								<label><strong>Modelo:</strong></label>
+
+								<span class="carregando2 hide">Aguarde, carregando...</span>
+
+								<div class="select_box_1">              
+
+									<select id="cod_modelo" class="imobBoxTipo" name="modelo"> 
+
+										<option value="todos">Todos</option>                
+
+									</select>            
+
+								</div>
+
+								
+
+								<div class="clear"></div>
+
+							
+
+								<label><strong>Ano:</strong></label>
+
+								<div class="select_box_2">
+
+									<select class="select_2" name="ano_fabricacao1">
+
+										<option value="0">De</option>
+
+										<option value=1973 >1973</option>
+<option value=1975 >1975</option>
+<option value=1976 >1976</option>
+<option value=1979 >1979</option>
+<option value=1981 >1981</option>
+<option value=1982 >1982</option>
+<option value=1986 >1986</option>
+<option value=1988 >1988</option>
+<option value=1991 >1991</option>
+<option value=1992 >1992</option>
+<option value=1993 >1993</option>
+<option value=1994 >1994</option>
+<option value=1995 >1995</option>
+<option value=1996 >1996</option>
+<option value=1997 >1997</option>
+<option value=1998 >1998</option>
+<option value=1999 >1999</option>
+<option value=2000 >2000</option>
+<option value=2001 >2001</option>
+<option value=2002 >2002</option>
+<option value=2003 >2003</option>
+<option value=2004 >2004</option>
+<option value=2005 >2005</option>
+<option value=2006 >2006</option>
+<option value=2007 >2007</option>
+<option value=2008 >2008</option>
+<option value=2009 >2009</option>
+<option value=2010 >2010</option>
+<option value=2011 >2011</option>
+<option value=2012 >2012</option>
+<option value=2013 >2013</option>
+<option value=2014 >2014</option>
+<option value=2015 >2015</option>
+<option value=2016 >2016</option>
+<option value=2017 >2017</option>
+
+									</select>
+
+									<select class="select_2" name="ano_fabricacao2">
+
+										<option value="0">At&eacute;</option>
+
+										<option value=1973 >1973</option>
+<option value=1975 >1975</option>
+<option value=1976 >1976</option>
+<option value=1979 >1979</option>
+<option value=1981 >1981</option>
+<option value=1982 >1982</option>
+<option value=1986 >1986</option>
+<option value=1988 >1988</option>
+<option value=1991 >1991</option>
+<option value=1992 >1992</option>
+<option value=1993 >1993</option>
+<option value=1994 >1994</option>
+<option value=1995 >1995</option>
+<option value=1996 >1996</option>
+<option value=1997 >1997</option>
+<option value=1998 >1998</option>
+<option value=1999 >1999</option>
+<option value=2000 >2000</option>
+<option value=2001 >2001</option>
+<option value=2002 >2002</option>
+<option value=2003 >2003</option>
+<option value=2004 >2004</option>
+<option value=2005 >2005</option>
+<option value=2006 >2006</option>
+<option value=2007 >2007</option>
+<option value=2008 >2008</option>
+<option value=2009 >2009</option>
+<option value=2010 >2010</option>
+<option value=2011 >2011</option>
+<option value=2012 >2012</option>
+<option value=2013 >2013</option>
+<option value=2014 >2014</option>
+<option value=2015 >2015</option>
+<option value=2016 >2016</option>
+<option value=2017 >2017</option>
+
+									</select>
+
+									<div class="clear"></div>
+
+								</div>
+
+								<label><strong>Pre&ccedil;o:</strong></label>
+
+								<div class="select_box_2">
+
+									<select class="select_2" name="preco_1">
+
+										<option value="0">De</option>
+										<option value="1.000,00">1.000,00</option>
+										<option value="2.000,00">2.000,00</option>
+										<option value="3.000,00">3.000,00</option>
+										<option value="4.000,00">4.000,00</option>
+										<option value="5.000,00">5.000,00</option>
+										<option value="6.000,00">6.000,00</option>
+										<option value="7.000,00">7.000,00</option>
+										<option value="8.000,00">8.000,00</option>
+										<option value="9.000,00">9.000,00</option>
+										<option value="10.000,00">10.000,00</option>
+										<option value="11.000,00">11.000,00</option>
+										<option value="12.000,00">12.000,00</option>
+										<option value="13.000,00">13.000,00</option>
+										<option value="14.000,00">14.000,00</option>
+										<option value="15.000,00">15.000,00</option>
+										<option value="16.000,00">16.000,00</option>
+										<option value="17.000,00">17.000,00</option>
+										<option value="18.000,00">18.000,00</option>
+										<option value="19.000,00">19.000,00</option>
+										<option value="20.000,00">20.000,00</option>
+										<option value="21.000,00">21.000,00</option>
+										<option value="22.000,00">22.000,00</option>
+										<option value="23.000,00">23.000,00</option>
+										<option value="24.000,00">24.000,00</option>
+										<option value="25.000,00">25.000,00</option>
+										<option value="26.000,00">26.000,00</option>
+										<option value="27.000,00">27.000,00</option>
+										<option value="28.000,00">28.000,00</option>
+										<option value="29.000,00">29.000,00</option>
+										<option value="30.000,00">30.000,00</option>
+									</select>
+
+									<select class="select_2" name="preco_2">
+
+										<option value="0">At&eacute;</option>
+										<option value="1.000,00">1.000,00</option>
+										<option value="2.000,00">2.000,00</option>
+										<option value="3.000,00">3.000,00</option>
+										<option value="4.000,00">4.000,00</option>
+										<option value="5.000,00">5.000,00</option>
+										<option value="6.000,00">6.000,00</option>
+										<option value="7.000,00">7.000,00</option>
+										<option value="8.000,00">8.000,00</option>
+										<option value="9.000,00">9.000,00</option>
+										<option value="10.000,00">10.000,00</option>
+										<option value="11.000,00">11.000,00</option>
+										<option value="12.000,00">12.000,00</option>
+										<option value="13.000,00">13.000,00</option>
+										<option value="14.000,00">14.000,00</option>
+										<option value="15.000,00">15.000,00</option>
+										<option value="16.000,00">16.000,00</option>
+										<option value="17.000,00">17.000,00</option>
+										<option value="18.000,00">18.000,00</option>
+										<option value="19.000,00">19.000,00</option>
+										<option value="20.000,00">20.000,00</option>
+										<option value="21.000,00">21.000,00</option>
+										<option value="22.000,00">22.000,00</option>
+										<option value="23.000,00">23.000,00</option>
+										<option value="24.000,00">24.000,00</option>
+										<option value="25.000,00">25.000,00</option>
+										<option value="26.000,00">26.000,00</option>
+										<option value="27.000,00">27.000,00</option>
+										<option value="28.000,00">28.000,00</option>
+										<option value="29.000,00">29.000,00</option>
+										<option value="30.000,00">30.000,00</option>
+										<option value="31.000,00">31.000,00</option>
+										<option value="32.000,00">32.000,00</option>
+										<option value="33.000,00">33.000,00</option>
+										<option value="34.000,00">34.000,00</option>
+										<option value="35.000,00">35.000,00</option>
+										<option value="36.000,00">36.000,00</option>
+										<option value="37.000,00">37.000,00</option>
+										<option value="38.000,00">38.000,00</option>
+										<option value="39.000,00">39.000,00</option>
+										<option value="40.000,00">40.000,00</option>
+										<option value="41.000,00">41.000,00</option>
+										<option value="42.000,00">42.000,00</option>
+										<option value="43.000,00">43.000,00</option>
+										<option value="44.000,00">44.000,00</option>
+										<option value="45.000,00">45.000,00</option>
+										<option value="46.000,00">46.000,00</option>
+										<option value="47.000,00">47.000,00</option>
+										<option value="48.000,00">48.000,00</option>
+										<option value="49.000,00">49.000,00</option>
+										<option value="50.000,00">50.000,00</option>
+									</select>
+
+									<div class="clear"></div>
+
+								</div>
+
+								<!--
+
+								<label><strong>Rodagem:</strong></label>
+
+								<div class="select_box_2">
+
+									<select class="select_2">
+
+										<option value="0">De</option>
+
+										<option value="1">1000</option>
+
+										<option value="2">2000</option>
+
+										<option value="3">3000</option>
+
+										<option value="4">4000</option>
+
+										<option value="5">5000</option>
+
+										<option value="6">6000</option>
+
+										<option value="7">7000</option>
+
+										<option value="8">8000</option>
+
+									</select>
+
+									<select class="select_2">
+
+										<option value="0">At�</option>
+
+										<option value="1">1000</option>
+
+										<option value="2">2000</option>
+
+										<option value="3">3000</option>
+
+										<option value="4">4000</option>
+
+										<option value="5">5000</option>
+
+										<option value="6">6000</option>
+
+										<option value="7">7000</option>
+
+										<option value="8">8000</option>
+
+									</select>
+
+									<div class="clear"></div>
+
+								</div>
+
+								-->
+
+								<div class="chb_wrapper">
+
+									<input type="checkbox" name="novo" value="zero"/>
+
+									<label class="check_label">Somente carro novo</label>
+
+								</div>
+
+								<input type="submit" value="Pesquisar" class="btn_search"/>
+
+								<div class="clear"></div>
+
+							</div>
+
+						</form>
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+				<div class="recent">
+
+					<h2><strong>Vitrine </strong> 01</h2>
+
+					<ul id="items" class="catalog_list">
+
+					
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=2210">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande2210_1292634607.jpg" 
+
+											alt="1986 Nissan 300 3.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 1986<br>Ano Mod.: 1986
+										<br/>
+
+										3.0 Gasolina<br/>
+
+										Nissan - 300<br/>
+
+2 Portas<br/>
+			
+
+										 										105046Km 
+
+									</div>
+
+									<div class="title">
+
+										Nissan 
+
+										<span class="price">
+											 R$59.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1951">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1951_1420543537.jpg" 
+
+											alt="2017 Honda. XRE  300"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2017<br>Ano Mod.: 2017
+										<br/>
+
+										300 Alco/Gasol<br/>
+
+										Honda. - XRE <br/>
+
+
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Honda. 
+
+										<span class="price">
+											 R$16.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1848">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1848_1307811871.jpg" 
+
+											alt="2014 Renault Sandero 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2014<br>Ano Mod.: 2015
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Renault - Sandero<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Renault 
+
+										<span class="price">
+											 R$48.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1846">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1846_922537661.jpg" 
+
+											alt="2010 Hyundai IX 35 2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br>Ano Mod.: 2011
+										<br/>
+
+										2.0 Gasolina<br/>
+
+										Hyundai - IX 35<br/>
+
+4 Portas<br/>
+			
+
+										 										68040Km 
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+											 R$58.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1845">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1845_1145260499.jpg" 
+
+											alt="2011 Renault Sandero 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br>Ano Mod.: 2012
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Renault - Sandero<br/>
+
+4 Portas<br/>
+			
+
+										 										115490Km 
+
+									</div>
+
+									<div class="title">
+
+										Renault 
+
+										<span class="price">
+											 R$25.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1829">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1829_1423179021.jpg" 
+
+											alt="2011 Chevrolet S10 2.8"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br>Ano Mod.: 2011
+										<br/>
+
+										2.8 Diesel<br/>
+
+										Chevrolet - S10<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$45.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1828">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1828_1479822435.jpg" 
+
+											alt="2013 Chevrolet S10 2.8"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br>Ano Mod.: 2013
+										<br/>
+
+										2.8 Diesel<br/>
+
+										Chevrolet - S10<br/>
+
+4 Portas<br/>
+			
+
+										 										76296Km 
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$79.800,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1762">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1762_86013263.jpg" 
+
+											alt="2010 Honda City 1.5"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br>Ano Mod.: 2011
+										<br/>
+
+										1.5 Alco/Gasol<br/>
+
+										Honda - City<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Honda 
+
+										<span class="price">
+											 R$36.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1722">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1722_462245234.jpg" 
+
+											alt="2009 Toyota Hilux 3.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2009<br>Ano Mod.: 2010
+										<br/>
+
+										3.0 Diesel<br/>
+
+										Toyota - Hilux<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Toyota 
+
+										<span class="price">
+											 R$78.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1718">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1718_1468482805.jpg" 
+
+											alt="2012 Ford Fiesta  1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br>Ano Mod.: 2013
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Ford - Fiesta <br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+											 R$32.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1717">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1717_867923727.jpg" 
+
+											alt="1992 Volkswagen Gol 1.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 1992<br>Ano Mod.: 1992
+										<br/>
+
+										1.0 Gasolina<br/>
+
+										Volkswagen - Gol<br/>
+
+2 Portas<br/>
+			
+
+										 										146130Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+											 R$8.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1716">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1716_1496384239.jpg" 
+
+											alt="2007 Ford Ranger  2.3"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2007<br>Ano Mod.: 2007
+										<br/>
+
+										2.3 Gasolina<br/>
+
+										Ford - Ranger <br/>
+
+5 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+											 R$33.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1715">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1715_532833803.jpg" 
+
+											alt="2015 Fiat Punto 1.4"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2015<br>Ano Mod.: 2015
+										<br/>
+
+										1.4 Alco/Gasol<br/>
+
+										Fiat - Punto<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Fiat 
+
+										<span class="price">
+											 R$39.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1671">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1671_1751536785.jpg" 
+
+											alt="2002 Volkswagen Santana 2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2002<br>Ano Mod.: 2003
+										<br/>
+
+										2.0 Gasolina<br/>
+
+										Volkswagen - Santana<br/>
+
+4 Portas<br/>
+			
+
+										 										147000Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+											 R$15.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1634">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1634_2099816328.jpg" 
+
+											alt="2015 Chevrolet Cobalt 1.8"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2015<br>Ano Mod.: 2015
+										<br/>
+
+										1.8 Alco/Gasol<br/>
+
+										Chevrolet - Cobalt<br/>
+
+4 Portas<br/>
+			
+
+										 										41892Km 
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$43.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1588">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1588_600969281.jpg" 
+
+											alt="2015 Land Rover Range Rover Evoque 2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2015<br>Ano Mod.: 2015
+										<br/>
+
+										2.0 Gasolina<br/>
+
+										Land Rover - Range Rover Evoque<br/>
+
+4 Portas<br/>
+			
+
+										 										6700Km 
+
+									</div>
+
+									<div class="title">
+
+										Land Rover 
+
+										<span class="price">
+											 R$149.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1580">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1580_445094918.jpg" 
+
+											alt="2010 Hyundai IX 35 2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br>Ano Mod.: 2011
+										<br/>
+
+										2.0 Gasolina<br/>
+
+										Hyundai - IX 35<br/>
+
+4 Portas<br/>
+			
+
+										 										65477Km 
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+											 R$56.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1568">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1568_1805047514.jpg" 
+
+											alt="2014 Honda. XRE  300"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2014<br>Ano Mod.: 2015
+										<br/>
+
+										300 Alco/Gasol<br/>
+
+										Honda. - XRE <br/>
+
+
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Honda. 
+
+										<span class="price">
+											 R$13.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1551">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1551_1670787101.jpg" 
+
+											alt="2012 Hyundai Sonata  2.4"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br>Ano Mod.: 2012
+										<br/>
+
+										2.4 Alco/Gasol<br/>
+
+										Hyundai - Sonata <br/>
+
+4 Portas<br/>
+			
+
+										 										57177Km 
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+											 R$56.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1546">
+
+									
+										<img src="http://meucadillac.com/admin/particular/uploads/grande1546_34288444.jpeg" 
+
+											alt="2005 Yamaha. NEO AT 115 115"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2005<br>Ano Mod.: 2005
+										<br/>
+
+										115 Gasolina<br/>
+
+										Yamaha. - NEO AT 115<br/>
+
+
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Yamaha. 
+
+										<span class="price">
+											 R$2.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1507">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1507_603786301.jpg" 
+
+											alt="2009 Renault Sandero 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2009<br>Ano Mod.: 2009
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Renault - Sandero<br/>
+
+4 Portas<br/>
+			
+
+										 										33327Km 
+
+									</div>
+
+									<div class="title">
+
+										Renault 
+
+										<span class="price">
+											 R$19.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1446">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1446_1984474202.jpg" 
+
+											alt="2014 Chevrolet Onix 1.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2014<br>Ano Mod.: 2015
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Chevrolet - Onix<br/>
+
+4 Portas<br/>
+			
+
+										 										56900Km 
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$35.950,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1445">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1445_167469353.jpg" 
+
+											alt="2014 Chevrolet Spin 1.8"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2014<br>Ano Mod.: 2015
+										<br/>
+
+										1.8 Alco/Gasol<br/>
+
+										Chevrolet - Spin<br/>
+
+4 Portas<br/>
+			
+
+										 										48065Km 
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 A Negociar										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1444">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1444_702786730.jpg" 
+
+											alt="2011 Peugeot 207 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br>Ano Mod.: 2012
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Peugeot - 207<br/>
+
+4 Portas<br/>
+			
+
+										 										52814Km 
+
+									</div>
+
+									<div class="title">
+
+										Peugeot 
+
+										<span class="price">
+											 R$24.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1375">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1375_925494812.jpg" 
+
+											alt="2008 Chevrolet Astra  2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2008<br>Ano Mod.: 2009
+										<br/>
+
+										2.0 Alco/Gasol<br/>
+
+										Chevrolet - Astra <br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$18.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1367">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1367_2110947205.jpg" 
+
+											alt="2013 Volkswagen Gol 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br>Ano Mod.: 2014
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Volkswagen - Gol<br/>
+
+4 Portas<br/>
+			
+
+										 										44295Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+											 R$32.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1365">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1365_692686534.jpg" 
+
+											alt="2012 Toyota Etios 1.5"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br>Ano Mod.: 2013
+										<br/>
+
+										1.5 Alco/Gasol<br/>
+
+										Toyota - Etios<br/>
+
+4 Portas<br/>
+			
+
+										 										85074Km 
+
+									</div>
+
+									<div class="title">
+
+										Toyota 
+
+										<span class="price">
+											 R$31.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1312">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1312_1569923286.jpg" 
+
+											alt="2010 Honda City 1.5"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br>Ano Mod.: 2011
+										<br/>
+
+										1.5 Alco/Gasol<br/>
+
+										Honda - City<br/>
+
+4 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Honda 
+
+										<span class="price">
+											 R$35.800,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1261">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1261_1350600372.jpg" 
+
+											alt="2009 Subaru Tribeca 2.4"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2009<br>Ano Mod.: 2010
+										<br/>
+
+										2.4 Gasolina<br/>
+
+										Subaru - Tribeca<br/>
+
+4 Portas<br/>
+			
+
+										 										54657Km 
+
+									</div>
+
+									<div class="title">
+
+										Subaru 
+
+										<span class="price">
+											 R$65.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1257">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1257_865002634.jpg" 
+
+											alt="2007 Volkswagen Parati 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2007<br>Ano Mod.: 2007
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Volkswagen - Parati<br/>
+
+4 Portas<br/>
+			
+
+										 										70716Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+											 R$18.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1251">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1251_1967658909.jpg" 
+
+											alt="2009 Ford Fiesta  1.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2009<br>Ano Mod.: 2010
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Ford - Fiesta <br/>
+
+4 Portas<br/>
+			
+
+										 										48263Km 
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+											 R$21.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1195">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1195_387592313.jpg" 
+
+											alt="2012 Ford Ecosport 2.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br>Ano Mod.: 2012
+										<br/>
+
+										2.0 Alco/Gasol<br/>
+
+										Ford - Ecosport<br/>
+
+4 Portas<br/>
+			
+
+										 										70000Km 
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+											 R$36.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=871">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande871_1401255852.jpg" 
+
+											alt="2010 Ford Ecosport 1.6"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br>Ano Mod.: 2011
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Ford - Ecosport<br/>
+
+4 Portas<br/>
+			
+
+										 										11185Km 
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+											 R$30.950,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=839">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande839_1865171881.jpg" 
+
+											alt="2012 Chevrolet Celta 1.0"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br>Ano Mod.: 2013
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Chevrolet - Celta<br/>
+
+4 Portas<br/>
+			
+
+										 										45780Km 
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+											 R$23.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=838">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande838_314996928.jpg" 
+
+											alt="2013 Volkswagen Kombi 1.4"/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br>Ano Mod.: 2014
+										<br/>
+
+										1.4 Alco/Gasol<br/>
+
+										Volkswagen - Kombi<br/>
+
+3 Portas<br/>
+			
+
+										 										48700Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+											 R$39.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=785">
+
+										
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande785_140762333.jpg" 
+
+											alt="2005 Volkswagen.. 18.310 "/>
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2005<br>Ano Mod.: 2005
+										<br/>
+
+										 Diesel<br/>
+
+										Volkswagen.. - 18.310<br/>
+
+2 Portas<br/>
+			
+
+										  
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen.. 
+
+										<span class="price">
+											 R$40.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+					</ul>
+
+				</div>
+
+				<div class="banners">
+					<a href="https://goo.gl/Yj1lAr"><img  width="460" height="108" src="banneranuncios/meucadillac_252381540.gif"  /></a>
+					<a href="http://meucadillac.com/loja.php?loja=42"><img  width="460" height="108" src="banneranuncios/meucadillac_683152730.gif"  />	</a>			
+				</div>
+
+				<div class="wrapper_2">
+
+					<div class="left">
+
+                    	<h2><strong>Vitrine </strong> 02</h2>
+
+						<ul id="items2" class="catalog_list">
+
+							
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=440">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande440_363851357.jpg" 
+
+											alt="2013 Hyundai HB 20 1.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br> Ano Mod.: 2014
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Hyundai - HB 20<br/>
+
+4 Portas<br/>
+			
+										 										29000 Km 
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+
+											 R$34.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=454">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande454_2081548672.jpg" 
+
+											alt="2002 Chevrolet Astra  2.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2002<br> Ano Mod.: 2002
+										<br/>
+
+										2.0 Alco/Gasol<br/>
+
+										Chevrolet - Astra <br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+
+											 R$12.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1175">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1175_102303376.jpg" 
+
+											alt="1986 Chevrolet Monza 1.8"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 1986<br> Ano Mod.: 1986
+										<br/>
+
+										1.8 Álcool<br/>
+
+										Chevrolet - Monza<br/>
+
+2 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Chevrolet 
+
+										<span class="price">
+
+											 R$11.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1181">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1181_1019235005.jpg" 
+
+											alt="2012 Hyundai Tucson 2.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br> Ano Mod.: 2013
+										<br/>
+
+										2.0 Gasolina<br/>
+
+										Hyundai - Tucson<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+
+											 R$45.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1182">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1182_1841140429.jpg" 
+
+											alt="2010 Volkswagen Gol 1.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2010<br> Ano Mod.: 2011
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Volkswagen - Gol<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+
+											 R$15.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1440">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1440_1111700449.jpg" 
+
+											alt="2012 Volkswagen Gol 1.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br> Ano Mod.: 2013
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Volkswagen - Gol<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+
+											 R$26.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1494">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1494_1474957328.jpg" 
+
+											alt="2014 Nissan Frontier 2.5"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2014<br> Ano Mod.: 2015
+										<br/>
+
+										2.5 Diesel<br/>
+
+										Nissan - Frontier<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Nissan 
+
+										<span class="price">
+
+											 R$80.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1520">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1520_1722466856.jpg" 
+
+											alt="2016 Jeep Renegade 2.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2016<br> Ano Mod.: 2016
+										<br/>
+
+										2.0 Alco/Gasol<br/>
+
+										Jeep - Renegade<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Jeep 
+
+										<span class="price">
+
+											 R$79.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1641">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1641_1720064335.jpg" 
+
+											alt="2011 Kia Sorento  2.4"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br> Ano Mod.: 2012
+										<br/>
+
+										2.4 Alco/Gasol<br/>
+
+										Kia - Sorento <br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Kia 
+
+										<span class="price">
+
+											 R$68.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1725">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1725_1186424805.jpg" 
+
+											alt="2015 Mitsubishi L 200 Triton 3.2"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2015<br> Ano Mod.: 2016
+										<br/>
+
+										3.2 Diesel<br/>
+
+										Mitsubishi - L 200 Triton<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Mitsubishi 
+
+										<span class="price">
+
+											 R$115.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1769">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1769_1839447100.jpg" 
+
+											alt="2011 Volkswagen Voyage 1.6"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br> Ano Mod.: 2012
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Volkswagen - Voyage<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+
+											 R$31.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1793">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1793_1573495431.jpg" 
+
+											alt="1991 Ford Verona 1.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 1991<br> Ano Mod.: 1991
+										<br/>
+
+										1.0 Álcool<br/>
+
+										Ford - Verona<br/>
+
+2 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+
+											 R$4.000,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1821">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1821_511111626.jpg" 
+
+											alt="1986 Volkswagen Fusca 1.6"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 1986<br> Ano Mod.: 1986
+										<br/>
+
+										1.6 Gasolina<br/>
+
+										Volkswagen - Fusca<br/>
+
+2 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+
+											 R$17.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1822">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1822_1589721549.jpg" 
+
+											alt="2013 Ford Ka 1.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br> Ano Mod.: 2013
+										<br/>
+
+										1.0 Alco/Gasol<br/>
+
+										Ford - Ka<br/>
+
+2 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Ford 
+
+										<span class="price">
+
+											 R$19.990,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1863">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1863_256295739.jpg" 
+
+											alt="2003 Toyota Corolla 1.6"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2003<br> Ano Mod.: 2004
+										<br/>
+
+										1.6 Gasolina<br/>
+
+										Toyota - Corolla<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Toyota 
+
+										<span class="price">
+
+											 R$19.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1867">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1867_1233864746.jpg" 
+
+											alt="2011 Volkswagen Saveiro  1.6"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2011<br> Ano Mod.: 2012
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Volkswagen - Saveiro <br/>
+
+2 Portas<br/>
+			
+										 										65000 Km 
+
+									</div>
+
+									<div class="title">
+
+										Volkswagen 
+
+										<span class="price">
+
+											 R$29.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1868">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1868_2087086759.jpg" 
+
+											alt="2009 Peugeot 207 1.4"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2009<br> Ano Mod.: 2010
+										<br/>
+
+										1.4 Alco/Gasol<br/>
+
+										Peugeot - 207<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Peugeot 
+
+										<span class="price">
+
+											 R$18.500,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1874">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1874_193923066.jpg" 
+
+											alt="2013 Hyundai HB 20S 1.6"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br> Ano Mod.: 2014
+										<br/>
+
+										1.6 Alco/Gasol<br/>
+
+										Hyundai - HB 20S<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+
+											 A Negociar										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=1875">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande1875_2120629213.jpg" 
+
+											alt="2013 Hyundai Tucson 2.0"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2013<br> Ano Mod.: 2014
+										<br/>
+
+										2.0 Alco/Gasol<br/>
+
+										Hyundai - Tucson<br/>
+
+4 Portas<br/>
+			
+										  
+
+									</div>
+
+									<div class="title">
+
+										Hyundai 
+
+										<span class="price">
+
+											 A Negociar										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						
+
+							
+					
+
+							<li>
+
+								<a href="produto.php?id_anuncio=2037">
+
+									
+									
+
+										<img src="http://meucadillac.com/admin/loja/uploads/grande2037_1755107355.jpg" 
+
+											alt="2012 Jac Motors J2 1.4"/>
+
+
+
+										
+
+									<div class="description">
+
+										Ano Fab.: 2012<br> Ano Mod.: 2013
+										<br/>
+
+										1.4 Alco/Gasol<br/>
+
+										Jac Motors - J2<br/>
+
+4 Portas<br/>
+			
+										 										25000 Km 
+
+									</div>
+
+									<div class="title">
+
+										Jac Motors 
+
+										<span class="price">
+
+											 R$20.900,00										</span>
+
+									</div>
+
+								</a>
+
+							</li>
+
+						
+
+						
+						</ul>
+						<a href="http://www.brsolucaoti.com.br/"><img  width="700" height="130" src="banneranuncios/meucadillac_1040423487.gif"  /></a>
+						<div class="video_box">
+
+						<h2><strong>Galeria</strong> de Video</h2>
+          	<ul class="catalog_list">							<li>
+							<div class="post_block">
+								<iframe width="180" height="115" src="https://www.youtube.com/embed/TaCPUy2EX1c" frameborder="0" allowfullscreen></iframe>
+								<h5>Novo Honda WR-V - Meucadillac.com</h5>
+								<div class="post"><p>2 min 02 sec </p></div>
+
+							</div></li>
+							<li>
+							<div class="post_block">
+								<iframe width="180" height="115" src="https://www.youtube.com/embed/pvEAdHgvOfE" frameborder="0" allowfullscreen></iframe>
+								<h5>Portal de Anúncios Automotivo do Nordeste</h5>
+								<div class="post"><p></p></div>
+
+							</div></li>
+							<li>
+							<div class="post_block">
+								<iframe width="180" height="115" src="https://www.youtube.com/embed/CbPLOUCMB_Q" frameborder="0" allowfullscreen></iframe>
+								<h5>Clube do Chevette de Vitória de Santo Antão - Meucadillac.com</h5>
+								<div class="post"><p>5 min 53 sec.</p></div>
+
+							</div></li>
+</ul>
+
+
+
+
+							<div class="clear"></div>
+
+					  </div>
+
+					</div>
+
+					<div class="right">
+
+						<div class="news_wrapper">
+
+							<div class="news">
+
+								<h2><strong>Anuncio</strong> </h2>
+
+								<div class="news_box">
+								<a href="http://www.meucadillac.com/loja.php?loja=47"><img  width="160" height="600" src="banneranuncios/meucadillac_224181028.gif"  /></a>
+								<a href="#"><img  width="160" height="600" src="banneranuncios/meucadillac_361998638.gif"  /></a>
+							  </div>
+
+							</div>
+
+						</div>
+
+				  </div>
+
+					</div>
+
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	<!--EOF CONTENT-->
+
+	
+
+	<!-- script ajax-->
+
+	
+
+	<script type="text/javascript">
+
+		$(function(){
+
+			$('#cod_marca').change(function(){
+
+				if( $(this).val() ) {
+
+					$('#cod_modelo').hide();
+
+					$('.carregando2').show();
+
+					$.getJSON('consultacarro.ajax.php?search=',{cod_marca: $(this).val(), ajax: 'true'}, function(j){
+
+						var options = '<option value="todos">Todos</option>';	
+
+						for (var i = 0; i < j.length; i++) {
+
+							options += '<option value="' + j[i].cod_modelo + '">' + j[i].nome + '</option>';
+
+						}	
+
+						$('#cod_modelo').html(options).show();
+
+						$('.carregando2').hide();
+
+					});
+
+				} else {
+
+					$('#cod_modelo').html('<option value="">Selecione</option>');
+
+				}
+
+			});
+
+		});
+
+	</script>
+	
+	<script type="text/javascript">
+
+		$(function(){
+
+			$("input[name='category']").change(function(){
+
+				if( $(this).val() ) {
+
+					$('#cod_marca').hide();
+
+					$('.carregando').show();
+
+					$.getJSON('consultamarca.ajax.php?search=',{cod_categoria: $(this).val(), ajax: 'true'}, function(j){
+
+						var options = '<option value="todos">Todos</option>';	
+
+						for (var i = 0; i < j.length; i++) {
+
+							options += '<option value="' + j[i].cod_marca + '">' + j[i].nome + '</option>';
+
+						}	
+
+						$('#cod_marca').html(options).show();
+
+						$('.carregando').hide();
+
+					});
+
+				} else {
+
+					$('#cod_marca').html('<option value="">Selecione</option>');
+
+				}
+
+			});
+
+		});
+
+	</script>
+
+	
+	<!--BEGIN FOOTER-->
+
+		
+<!--BEGIN FOOTER-->
+
+		<div id="footer">
+
+			<div class="bg_top_footer">
+
+				<div class="top_footer">
+
+					<div class="f_widget first">
+
+						<h3><strong>Quem</strong> Somos</h3>
+
+						<a href="#" class="footer_logo">Meucadillac.com</a>
+
+						<p>Somos um portal de Anúncios Automotivo e de Náutico com o intuito de facilitar a pesquisa, a compra e venda de veículos. Para anunciar conosco entre em contato pelos telefones ou email.</p>
+
+					</div>
+
+					<div class="f_widget divide second">
+
+                    	<h3><strong>Fale</strong> Conosco</h3>
+
+						<div class="f_contact f_contact_1"><strong>Escritório:<br/></strong>Rua Caturite nº 62 San Martin Recife PE, San Martins, Recife/PE</div>
+						
+						<div class="f_contact f_contact_2">(81) 3097.6940 <br/>(81) 98253.8237 <br/>(81) 98308.0398</div>
+
+						<div class="f_contact f_contact_3"><strong>Email:</strong> <a href="mailto:portaldeanuncios@meucadillac.com">portaldeanuncios@meucadillac.com</a></div>
+
+                        
+
+
+
+					</div>
+
+					<div class="fwidget_separator"></div>
+
+					<div class="f_widget third">
+
+						<h3><strong>Ligue</strong> Hoje</h3>
+
+						<ul class="schedule">
+
+							<li>
+
+								<strong>Segunda</strong>
+
+								<span>08h - 18h </span>
+
+							</li>
+
+							<li>
+
+								<strong>Terça</strong>
+
+								<span>08h - 18h </span>
+
+							</li>
+
+							<li>
+
+								<strong>Quarta</strong>
+
+								<span>08h - 18h </span>
+
+							</li>
+
+							<li>
+
+								<strong>Quinta</strong>
+
+								<span>08h - 18h </span>
+
+							</li>
+
+							<li>
+
+								<strong>Sexta</strong>
+
+								<span>08h - 18h </span>
+
+							</li>
+
+							<li>
+
+								<strong>Sábado</strong>
+
+								<span>fechado</span>
+
+							</li>
+
+							<li>
+
+								<strong>Domingo</strong>
+
+								<span>fechado</span>
+
+							</li>
+
+						</ul>
+
+					</div>
+
+					<div class="f_widget divide last frame_wrapper">
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMeuCadillac%2F%3Ffref%3Dts&tabs&width=218&height=234&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=247165172158229" width="218" height="234" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="bottom_footer">
+
+			  <div align="justify">O site MEUCADILAC.COM não realiza qualquer tipo de intermediação ou participação nas negociações entre os usuários, seja com relação a compra, venda, troca ou qualquer outra forma de transação realizada entre as partes envolvidas. Os anunciantes são responsáveis pela venda e entrega, aos usuários e/ou terceiros, de produtos anunciados no site e pelas informações publicadas. Cabe ao usuário se certificar da idoneidade do anunciante, da existência, propriedade, preço e estado de conservação do veículo pretendido, não podendo responsabilizar o site pela veracidade e/ou autenticidade das mesmas. O MEUCADILAC.COM não se responsabiliza por qualquer dano, direto ou indireto, sofrido por usuários ou terceiros, advindos da exibição e conteúdo divulgados por anunciantes, incluindo a divulgação de dados e imagens.
+
+			    © 2016 MEUCADILAC.COM | Todos os direitos reservados </div>
+
+		  </div>
+
+			<div class="copyright_wrapper">
+
+				<div class="copyright">&copy; 2016 Meu Cadilac.com. Todos os direitos reservados.</div>
+
+			</div>
+
+		</div>
+
+	<!--EOF FOOTER-->
+
+</body>
+
+</html>

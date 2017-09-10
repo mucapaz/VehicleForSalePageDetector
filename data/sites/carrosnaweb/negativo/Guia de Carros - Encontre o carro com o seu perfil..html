@@ -1,0 +1,1908 @@
+
+
+<html>
+<head>
+<title>Guia de Carros - Encontre o carro com o seu perfil.</title>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<style type="text/css">
+
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style>
+
+</head>
+
+<body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5">
+	
+<table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center">
+
+<!-- barra superior -->
+
+
+<style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style>  
+
+<tr>
+
+<map name="principal">
+<area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil">
+</map>
+<td width="5"></td>
+<td height="90" width="280" colspan="1" bgcolor="darkred">
+<img src="imgsite\logobarratop.png" border="0" usemap="#principal"> 
+</td>
+
+<td align="right" valign="center">
+<br>
+<form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;">
+<input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);">
+<input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros">
+</form>
+</td>
+
+<td width="30"></td>
+</tr>
+
+<script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script>
+
+</table>
+
+<form action="catalogo.asp" method="get" id="form1" name="form1" onsubmit="var result=checa(); return result;">
+
+<table width="980" cellspacing="0" cellpadding="0" border="0" align=center bgcolor=White>
+<tr>
+<td bgcolor="darkkhaki" colspan="10" height=25><font style="font-size: 14px; font-family: arial">&nbsp;&nbsp;<a href="default.asp"><font color="white">Página Principal</a>
+&nbsp;|&nbsp;&nbsp;<a href="catalogo.asp"><font color="white">Catálogo</a>
+&nbsp;|&nbsp;&nbsp;<a href="compara.asp"><font color="white">Comparar</a>
+&nbsp;|&nbsp;&nbsp;<a href="analiseindice.asp"><font color="white">Avaliação</a>
+&nbsp;|&nbsp;&nbsp;<a href="noticiaslista.asp"><font color="white">Notícias</a>
+&nbsp;|&nbsp;&nbsp;<a href="opiniao.asp"><font color="white">Opinião do Dono</a>
+&nbsp;|&nbsp;&nbsp;<a href="classificados.asp"><font color="white">Classificados</a>
+&nbsp;|&nbsp;&nbsp;<a href="concessionarias.asp"><font color="white">Concessionárias</a>
+&nbsp;|&nbsp;&nbsp;<a href="ranking.asp"><font color="white">Rankings</a>
+</td>
+</tr>	
+<tr>
+<td align="center" height="150" colspan="10" bgcolor="White" valign="center">
+
+<!-- Catalogo-banner-topo -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 321630,
+    "async": false});
+</script>
+
+<td>
+</tr>
+</table>
+<table width="980" cellspacing="1" cellpadding="5" border="0" align=center bgcolor=White>
+<tr>
+<td colspan="4" align="left" BGCOLOR="#ffffff" height=35>
+<font style="font-size: 12px;" face=arial>
+&nbsp;&nbsp;<a href="default.asp"><u><font color="gray">Página Principal</u></a> > <a href="catalogo.asp"><u><font color="gray">Catálogo</u></a> > Busca detalhada
+</td>
+</tr>
+<tr>
+<td colspan=10 height=50 align=center valign=top>
+<font color="Brown" size="5" face="arial">&nbsp;Catálogo <font size=4>- Busca detalhada <font size=3>- &nbsp;Fichas técnicas, equipamentos e fotos de carros</font></font>
+</td>
+</tr>
+<tr>
+<td width=40></td>
+<td BGCOLOR="#ffffff" valign="top"><font face="arial" size="2">
+<font color="800000">Fabricante
+	
+	<select name="fabricante" id="fabricante" onchange="EnviaID(document.form1.fabricante.value,'exibe_modelo','varnome','','no')">
+		<option value="Todos">Todos</option>
+			
+					<option value="Adamo">Adamo</option>
+				
+					<option value="Agrale">Agrale</option>
+				
+					<option value="Alfa Romeo">Alfa Romeo</option>
+				
+					<option value="Ariel">Ariel</option>
+				
+					<option value="Asia">Asia</option>
+				
+					<option value="Aston Martin">Aston Martin</option>
+				
+					<option value="Audi">Audi</option>
+				
+					<option value="Bentley">Bentley</option>
+				
+					<option value="Bianco">Bianco</option>
+				
+					<option value="BMW">BMW</option>
+				
+					<option value="BRM">BRM</option>
+				
+					<option value="Bugatti">Bugatti</option>
+				
+					<option value="Cadillac">Cadillac</option>
+				
+					<option value="Caterham">Caterham</option>
+				
+					<option value="CBT">CBT</option>
+				
+					<option value="Chamonix">Chamonix</option>
+				
+					<option value="Chana">Chana</option>
+				
+					<option value="Changan">Changan</option>
+				
+					<option value="Chery">Chery</option>
+				
+					<option value="Chevrolet">Chevrolet</option>
+				
+					<option value="Chrysler">Chrysler</option>
+				
+					<option value="Citroen">Citroen</option>
+				
+					<option value="Cross Lander">Cross Lander</option>
+				
+					<option value="Daewoo">Daewoo</option>
+				
+					<option value="Daihatsu">Daihatsu</option>
+				
+					<option value="DeLorean">DeLorean</option>
+				
+					<option value="Dodge">Dodge</option>
+				
+					<option value="Effa">Effa</option>
+				
+					<option value="Engesa">Engesa</option>
+				
+					<option value="Envemo">Envemo</option>
+				
+					<option value="Farus">Farus</option>
+				
+					<option value="Ferrari">Ferrari</option>
+				
+					<option value="Fiat">Fiat</option>
+				
+					<option value="Ford">Ford</option>
+				
+					<option value="Geely">Geely</option>
+				
+					<option value="Gurgel">Gurgel</option>
+				
+					<option value="Hafei">Hafei</option>
+				
+					<option value="Hennessey">Hennessey</option>
+				
+					<option value="Honda">Honda</option>
+				
+					<option value="Hummer">Hummer</option>
+				
+					<option value="Hyundai">Hyundai</option>
+				
+					<option value="Infiniti">Infiniti</option>
+				
+					<option value="Iveco">Iveco</option>
+				
+					<option value="JAC">JAC</option>
+				
+					<option value="Jaguar">Jaguar</option>
+				
+					<option value="Jeep">Jeep</option>
+				
+					<option value="Jinbei">Jinbei</option>
+				
+					<option value="JPX">JPX</option>
+				
+					<option value="Kia">Kia</option>
+				
+					<option value="Koenigsegg">Koenigsegg</option>
+				
+					<option value="KTM">KTM</option>
+				
+					<option value="Lada">Lada</option>
+				
+					<option value="Lamborghini">Lamborghini</option>
+				
+					<option value="Land Rover">Land Rover</option>
+				
+					<option value="Lexus">Lexus</option>
+				
+					<option value="Lifan">Lifan</option>
+				
+					<option value="Lobini">Lobini</option>
+				
+					<option value="Lotus">Lotus</option>
+				
+					<option value="Mahindra">Mahindra</option>
+				
+					<option value="Maserati">Maserati</option>
+				
+					<option value="Mazda">Mazda</option>
+				
+					<option value="McLaren">McLaren</option>
+				
+					<option value="Mercedes-Benz">Mercedes-Benz</option>
+				
+					<option value="MG">MG</option>
+				
+					<option value="Mini">Mini</option>
+				
+					<option value="Mitsubishi">Mitsubishi</option>
+				
+					<option value="Miura">Miura</option>
+				
+					<option value="MP Lafer">MP Lafer</option>
+				
+					<option value="Nissan">Nissan</option>
+				
+					<option value="Pagani">Pagani</option>
+				
+					<option value="Peugeot">Peugeot</option>
+				
+					<option value="Pontiac">Pontiac</option>
+				
+					<option value="Porsche">Porsche</option>
+				
+					<option value="Puma">Puma</option>
+				
+					<option value="Rely">Rely</option>
+				
+					<option value="Renault">Renault</option>
+				
+					<option value="Rolls-Royce">Rolls-Royce</option>
+				
+					<option value="Saab">Saab</option>
+				
+					<option value="Saleen">Saleen</option>
+				
+					<option value="Santa Matilde">Santa Matilde</option>
+				
+					<option value="Santana">Santana</option>
+				
+					<option value="Seat">Seat</option>
+				
+					<option value="Shineray">Shineray</option>
+				
+					<option value="Smart">Smart</option>
+				
+					<option value="Ssangyong">Ssangyong</option>
+				
+					<option value="Subaru">Subaru</option>
+				
+					<option value="Suzuki">Suzuki</option>
+				
+					<option value="TAC">TAC</option>
+				
+					<option value="Tesla">Tesla</option>
+				
+					<option value="Toyota">Toyota</option>
+				
+					<option value="Troller">Troller</option>
+				
+					<option value="Volkswagen">Volkswagen</option>
+				
+					<option value="Volvo">Volvo</option>
+				
+	</select>
+
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+Modelo
+	<span id="exibe_modelo">
+			<select name="varnome" id="varnome"></select>
+	</span>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Ano modelo de 
+	<select id="anoini" name="anoini">
+				<option value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+				<option value="1984">1984</option>
+				<option value="1983">1983</option>
+				<option value="1982">1982</option>
+				<option value="1981">1981</option>
+				<option value="1980">1980</option>
+				<option value="1979">1979</option>
+				<option value="1978">1978</option>
+				<option value="1977">1977</option>
+				<option value="1976">1976</option>
+				<option value="1975">1975</option>
+				<option value="1974">1974</option>
+				<option value="1973">1973</option>
+				<option value="1972">1972</option>
+				<option value="1971">1971</option>
+				<option value="1970">1970</option>
+				<option value="1969">1969</option>
+				<option value="1968">1968</option>
+				<option value="1967">1967</option>
+				<option value="1966">1966</option>
+				<option value="1965">1965</option>
+				<option value="1964">1964</option>
+				<option value="1963">1963</option>
+				<option value="1962">1962</option>				
+				<option value="1961">1961</option>				
+				<option value="1960">1960</option>				
+				<option value="1959">1959</option>				
+				<option value="1958">1958</option>				
+				<option value="1957">1957</option>				
+				<option value="1956">1956</option>				
+				<option value="1955">1955</option>				
+				<option value="1954">1954</option>				
+				<option value="1953">1953</option>				
+				<option selected value="1952">1952</option>				
+			</select>	
+	a 
+		<select id="anofim" name="anofim">
+				<option selected value="2018">2018</option>
+				<option value="2017">2017</option>
+				<option value="2016">2016</option>
+				<option value="2015">2015</option>
+				<option value="2014">2014</option>
+				<option value="2013">2013</option>
+				<option value="2012">2012</option>
+				<option value="2011">2011</option>
+				<option value="2010">2010</option>
+				<option value="2009">2009</option>
+				<option value="2008">2008</option>
+				<option value="2007">2007</option>
+				<option value="2006">2006</option>
+				<option value="2005">2005</option>
+				<option value="2004">2004</option>
+				<option value="2003">2003</option>
+				<option value="2002">2002</option>
+				<option value="2001">2001</option>
+				<option value="2000">2000</option>
+				<option value="1999">1999</option>
+				<option value="1998">1998</option>
+				<option value="1997">1997</option>
+				<option value="1996">1996</option>
+				<option value="1995">1995</option>
+				<option value="1994">1994</option>
+				<option value="1993">1993</option>
+				<option value="1992">1992</option>
+				<option value="1991">1991</option>
+				<option value="1990">1990</option>
+				<option value="1989">1989</option>
+				<option value="1988">1988</option>
+				<option value="1987">1987</option>
+				<option value="1986">1986</option>
+				<option value="1985">1985</option>
+				<option value="1984">1984</option>
+				<option value="1983">1983</option>
+				<option value="1982">1982</option>
+				<option value="1981">1981</option>
+				<option value="1980">1980</option>
+				<option value="1979">1979</option>
+				<option value="1978">1978</option>
+				<option value="1977">1977</option>
+				<option value="1976">1976</option>
+				<option value="1975">1975</option>
+				<option value="1974">1974</option>
+				<option value="1973">1973</option>
+				<option value="1972">1972</option>
+				<option value="1971">1971</option>
+				<option value="1970">1970</option>
+				<option value="1969">1969</option>
+				<option value="1968">1968</option>
+				<option value="1967">1967</option>
+				<option value="1966">1966</option>
+				<option value="1965">1965</option>
+				<option value="1964">1964</option>
+				<option value="1963">1963</option>
+				<option value="1962">1962</option>				
+				<option value="1961">1961</option>				
+				<option value="1960">1960</option>				
+				<option value="1959">1959</option>				
+				<option value="1958">1958</option>				
+				<option value="1957">1957</option>				
+				<option value="1956">1956</option>				
+				<option value="1955">1955</option>				
+				<option value="1954">1954</option>				
+				<option value="1953">1953</option>				
+				<option value="1952">1952</option>				
+			</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+Preço de R$ 	
+	<select id="valini" name="valini">
+		<option value="0" selected>0</option>
+		<option value="5000" >5000</option>
+		<option value="7500" >7500</option>
+		<option value="10000" >10000</option>
+		<option value="15000" >15000</option>
+		<option value="20000" >20000</option>
+		<option value="25000" >25000</option>
+		<option value="30000" >30000</option>
+		<option value="35000" >35000</option>
+		<option value="40000" >40000</option>
+		<option value="45000" >45000</option>
+		<option value="50000" >50000</option>
+		<option value="60000" >60000</option>
+		<option value="75000" >75000</option>
+		<option value="90000" >90000</option>
+		<option value="100000" >100000</option>
+		<option value="150000" >150000</option>		
+		<option value="200000" >200000</option>		
+		<option value="500000" >500000</option>		
+		<option value="1000000" >1000000</option>		
+		<option value="3000000" >3000000</option>		
+	</select>
+a R$ 	<select id="valfim" name="valfim">
+		<option value="5000">5000</option>
+		<option value="7500">7500</option>
+		<option value="10000">10000</option>
+		<option value="15000">15000</option>
+		<option value="20000">20000</option>
+		<option value="25000">25000</option>
+		<option value="30000">30000</option>
+		<option value="35000">35000</option>
+		<option value="40000">40000</option>
+		<option value="45000">45000</option>
+		<option value="50000">50000</option>
+		<option value="60000">60000</option>
+		<option value="75000">75000</option>
+		<option value="90000">90000</option>
+		<option value="100000">100000</option>
+		<option value="150000">150000</option>		
+		<option value="200000">200000</option>		
+		<option value="500000">500000</option>
+		<option value="1000000">1000000</option>		
+		<option value="2000000">2000000</option>		
+		<option value="5000000">5000000</option>		
+		<option value="100000000" selected>100000000</option>		
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Configuração
+	<select id="config" name="config">
+		<option value="0" selected>Todos</option>
+		<option value="1">Hatch</option>
+		<option value="2">Sedan</option>
+		<option value="3">Perua</option>
+		<option value="5">Minivan</option>
+		<option value="6">Van</option>
+		<option value="7">SUV</option>
+		<option value="8">Jipe</option>
+		<option value="9">Picape</option>
+		<option value="10">Cupê</option>
+		<option value="11">Conversível</option>
+		<option value="12">Furgão</option>
+		<option value="13">Chassi-cabine</option>		
+		<option value="14">Buggy</option>		
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Procedência
+	<select id="proced" name="proced">
+		<option value="0" selected>Todos</option>
+		<option value="1">Nacional</option>
+		<option value="2">Importado</option>
+	</select>	
+<div id="mecanica" style="display:none;">
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Combustível
+	<select id="combustivel" name="combustivel">
+		<option value="0" selected>Todos</option>
+		<option value="G">Gasolina</option>
+		<option value="A">Álcool</option>
+		<option value="F">Flex</option>
+		<option value="D">Diesel</option>
+		<option value="H">Híbrido</option>
+		<option value="E">Elétrico</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Porte
+	<select id="porte" name="porte">
+		<option value="0" selected>Todos</option>
+		<option value="4">Subcompacto</option>
+		<option value="1">Compacto</option>
+		<option value="2">Médio</option>
+		<option value="3">Grande</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Portas
+	<select id="portas" name="portas">
+		<option value=""></option>
+		<option value="0">0</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Ocupantes (mín.)
+	<select id="passageiros" name="passageiros">
+		<option value=""></option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Preço médio de seguro até R$
+	<select id="seguromax" name="seguromax">
+		<option value=""></option>
+		<option value="1000">1000</option>
+		<option value="1500">1500</option>
+		<option value="2000">2000</option>
+		<option value="2500">2500</option>
+		<option value="3000">3000</option>
+		<option value="3500">3500</option>
+		<option value="4000">4000</option>
+		<option value="5000">5000</option>
+		<option value="10000">10000</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Capacidade do tanque de combustível (mín.)
+	<select id="tanque" name="tanque">
+		<option value=""></option>
+		<option value="45">45</option>
+		<option value="50">50</option>
+		<option value="60">60</option>
+		<option value="70">70</option>
+		<option value="80">80</option>
+		<option value="90">90</option>
+		<option value="100">100</option>
+	</select>&nbsp;litros
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Capacidade do porta-malas (mín.)
+	<select id="portamalas" name="portamalas">
+		<option value=""></option>
+		<option value="50">50</option>
+		<option value="100">100</option>
+		<option value="150">150</option>
+		<option value="200">200</option>
+		<option value="250">250</option>
+		<option value="300">300</option>
+		<option value="350">350</option>
+		<option value="400">400</option>
+		<option value="450">450</option>
+		<option value="500">500</option>
+		<option value="550">550</option>
+		<option value="600">600</option>
+	</select>&nbsp;litros
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Peso (máx.)
+	<select id="pesomax" name="pesomax">
+		<option value=""></option>
+		<option value="800">800</option>
+		<option value="900">900</option>
+		<option value="1000">1000</option>
+		<option value="1100">1100</option>
+		<option value="1200">1200</option>
+		<option value="1300">1300</option>
+		<option value="1400">1400</option>
+		<option value="1500">1500</option>
+		<option value="1800">1800</option>
+		<option value="2000">2000</option>
+		<option value="2200">2200</option>
+		<option value="2500">2500</option>
+	</select>&nbsp;kg
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Cilindrada de 	
+	<select id="cilini" name="cilini">
+		<option value=""></option>
+		<option value="800">800</option>
+		<option value="900">900</option>
+		<option value="1000">1000</option>
+		<option value="1200">1200</option>
+		<option value="1300">1300</option>
+		<option value="1400">1400</option>
+		<option value="1500">1500</option>
+		<option value="1600">1600</option>
+		<option value="1800">1800</option>
+		<option value="2000">2000</option>
+		<option value="2500">2500</option>
+		<option value="3000">3000</option>
+		<option value="4000">4000</option>
+		<option value="5000">5000</option>
+	<select>
+	a <select id="cilfim" name="cilfim">
+		<option value=""></option>
+		<option value="900">900</option>
+		<option value="1000">1000</option>
+		<option value="1200">1200</option>
+		<option value="1300">1300</option>
+		<option value="1400">1400</option>
+		<option value="1500">1500</option>
+		<option value="1600">1600</option>
+		<option value="1800">1800</option>
+		<option value="2000">2000</option>
+		<option value="2500">2500</option>
+		<option value="3000">3000</option>
+		<option value="4000">4000</option>
+		<option value="5000">5000</option>
+		<option value="8000">8000</option>
+		<option value="10000">10000</option>
+	<select>
+	&nbsp;cm³
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Potência (mín.)
+	<select id="potenciamin" name="potenciamin">
+		<option value=""></option>
+		<option value="75">75</option>
+		<option value="100">100</option>
+		<option value="125">125</option>
+		<option value="150">150</option>
+		<option value="175">175</option>
+		<option value="200">200</option>
+		<option value="250">250</option>
+		<option value="300">300</option>
+		<option value="400">400</option>
+		<option value="500">500</option>
+	</select>&nbsp;cv
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Torque (mín.)
+	<select id="torquemin" name="torquemin">
+		<option value=""></option>
+		<option value="10">10</option>
+		<option value="15">15</option>
+		<option value="20">20</option>
+		<option value="25">25</option>
+		<option value="30">30</option>
+		<option value="35">35</option>
+		<option value="40">40</option>
+		<option value="50">50</option>
+		<option value="75">75</option>
+		<option value="100">100</option>
+	</select>&nbsp;kgfm
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Peso/potência (máx.)
+	<select id="pesopotmax" name="pesopotmax">
+		<option value=""></option>
+		<option value="2">2</option>
+		<option value="4">4</option>
+		<option value="6">6</option>
+		<option value="8">8</option>
+		<option value="10">10</option>
+		<option value="12">12</option>
+		<option value="14">14</option>
+		<option value="16">16</option>
+		<option value="18">18</option>
+		<option value="20">20</option>
+	</select>&nbsp;kg/cv
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Peso/torque (máx.)
+	<select id="pesotorqmax" name="pesotorqmax">
+		<option value=""></option>
+		<option value="20">20</option>
+		<option value="30">30</option>
+		<option value="40">40</option>
+		<option value="50">50</option>
+		<option value="60">60</option>
+		<option value="70">70</option>
+		<option value="80">80</option>
+		<option value="90">90</option>
+		<option value="100">100</option>
+	</select>&nbsp;kg/kgfm
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Câmbio
+	<select id="cambio" name="cambio">
+		<option value="0" selected>Todos</option>
+		<option value="1">Manual</option>
+		<option value="2">Automático</option>
+<!--	<option value="3">Automatizado</option>-->
+		<option value="4">Semi-Automático</option>
+<!--	<option value="5">CVT</option>-->
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Marchas (mín.)
+	<select id="marchas" name="marchas">
+		<option value=""></option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Embreagem
+	<select id="embreagem" name="embreagem">
+		<option value="0" selected>Todos</option>
+		<option value="Monodisco a seco">Monodisco a seco</option>
+		<option value="Dupla a seco">Dupla a seco</option>
+		<option value="Dupla banhada a óleo">Dupla banhada a óleo</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Tração
+	<select id="tracao" name="tracao">
+		<option value="0" selected>Todos</option>
+		<option value="1">Dianteira</option>
+		<option value="2">Traseira</option>
+		<option value="3">Integral</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Suspensão dianteira
+	<select id="suspensaodianteira" name="suspensaodianteira">
+		<option value="" selected>Todos</option>
+		<option value="Independente, McPherson">Independente, McPherson</option>
+		<option value="Independente, braços sobrepostos">Independente, braços sobrepostos</option>
+		<option value="Independente, multibraço">Independente, multibraço</option>
+		<option value="Independente, McPherson, hidroativa">Independente, McPherson, hidroativa</option>
+		<option value="Independente, braços sobrepostos, hidroativa">Independente, braços sobrepostos, hidroativa</option>
+		<option value="Independente, braços sobrepostos, molas pneumáticas">Independente, braços sobrepostos, molas pneumáticas</option>
+		<option value="Independente, braço arrastado">Independente, braço arrastado</option>
+		<option value="Eixo rígido">Eixo rígido</option>
+		<option value="Independente, semi-eixo oscilante">Independente, semi-eixo oscilante</option>
+		<option value="Independente, duplo eixo em I">Independente, duplo eixo em I</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Suspensão traseira
+	<select id="suspensaotraseira" name="suspensaotraseira">
+		<option value="" selected>Todos</option>
+		<option value="Eixo de torção">Eixo de torção</option>
+		<option value="Eixo de torção com braços arrastados">Eixo de torção com braços arrastados</option>
+		<option value="Independente, multibraço">Independente, multibraço</option>
+		<option value="Independente, braços sobrepostos">Independente, braços sobrepostos</option>
+		<option value="Independente, braços sobrepostos, molas pneumáticas">Independente, braços sobrepostos, molas pneumáticas</option>
+		<option value="Independente, multibraço, molas pneumáticas">Independente, multibraço, molas pneumáticas</option>
+		<option value="Independente, multibraço, hidroativa">Independente, multibraço, hidroativa</option>
+		<option value="Independente, McPherson">Independente, McPherson</option>
+		<option value="Eixo rígido">Eixo rígido</option>
+		<option value="Eixo rígido, barra Panhard">Eixo rígido, barra Panhard</option>
+		<option value="Independente, braço arrastado">Independente, braço arrastado</option>
+		<option value="Independente, braço arrastado, hidroativa">Independente, braço arrastado, hidroativa</option>
+		<option value="Independente, braço semi-arrastado">Independente, braço semi-arrastado</option>
+		<option value="Independente, semi-eixo oscilante">Independente, semi-eixo oscilante</option>
+		<option value="Independente, duplo eixo em I">Independente, duplo eixo em I</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Freios dianteiros
+	<select id="freiosdianteiros" name="freiosdianteiros">
+		<option value="0" selected>Todos</option>
+		<option value="Disco sólido">Disco sólido</option>
+		<option value="Disco ventilado">Disco ventilado</option>
+		<option value="Disco de carbono">Disco de carbono</option>
+		<option value="Tambor">Tambor</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Freios traseiros
+	<select id="freiostraseiros" name="freiostraseiros">
+		<option value="0" selected>Todos</option>
+		<option value="Disco sólido">Disco sólido</option>
+		<option value="Disco ventilado">Disco ventilado</option>
+		<option value="Disco de carbono">Disco de carbono</option>
+		<option value="Tambor">Tambor</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Direção
+	<select id="direcao" name="direcao">
+		<option value="0" selected>Todos</option>
+		<option value="Elétrica">Elétrica</option>
+		<option value="Eletro-hidráulica">Eletro-hidráulica</option>
+		<option value="Hidráulica">Hidráulica</option>
+		<option value="Não assistida">Não assistida</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Alimentação
+	<select id="alimentacao" name="alimentacao">
+		<option value="0" selected>Todos</option>
+		<option value="Injeção direta">Injeção direta</option>
+		<option value="Injeção indireta">Injeção indireta</option>
+		<option value="Injeção multiponto">Injeção multiponto</option>
+		<option value="Injeção direta e indireta multiponto">Injeção direta e indireta multiponto</option>
+		<option value="Injeção monoponto">Injeção monoponto</option>
+		<option value="Carburador">Carburador</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Cilindros
+	<select id="cilindrosquantidade" name="cilindrosquantidade">
+		<option value="0" selected>Todos</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="8">8</option>
+		<option value="10">10</option>
+		<option value="12">12</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Disposição dos cilindros
+	<select id="cilindrosdisposicao" name="cilindrosdisposicao">
+		<option value="0" selected>Todos</option>
+		<option value="linha">Linha</option>
+		<option value="V">V</option>
+		<option value="W">W</option>
+		<option value="opostos">Opostos</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Válvulas por cilindro
+	<select id="valvulascilindro" name="valvulascilindro">
+		<option value="0" selected>Todos</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Aspiração
+	<select id="aspiracao" name="aspiracao">
+		<option value="0" selected>Todos</option>
+		<option value="Natural">Natural</option>
+		<option value="Turbocompressor">Turbocompressor</option>
+		<option value="Compressor">Compressor</option>
+		<option value="Turbocompressor e compressor">Turbocompressor e compressor</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Acionamento do comando de válvulas
+	<select id="acionamentocomando" name="acionamentocomando">
+		<option value="0" selected>Todos</option>
+		<option value="Corrente">Corrente</option>
+		<option value="Correia dentada">Correia dentada</option>
+		<option value="Engrenagens">Engrenagens</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Variação do comando de válvulas
+	<select id="variadorfase" name="variadorfase">
+		<option value="0" selected>Todos</option>
+		<option value="Admissão">Admissão</option>
+		<option value="Escape">Escape</option>
+		<option value="Admissão e escape">Admissão e escape</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Tuchos
+	<select id="tucho" name="tucho">
+		<option value="0" selected>Todos</option>
+		<option value="Mecânicos">Mecânicos</option>
+		<option value="Hidráulicos">Hidráulicos</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000">Coeficiente aerodinâmico (máx.)
+	<select id="cx" name="cx">
+		<option value=""></option>
+		<option value="0.26">0,26</option>
+		<option value="0.28">0,28</option>
+		<option value="0.30">0,30</option>
+		<option value="0.32">0,32</option>
+		<option value="0.34">0,34</option>
+		<option value="0.36">0,36</option>
+		<option value="0.38">0,38</option>
+		<option value="0.40">0,40</option>
+	</select>
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(1);"><u>Mostrar menos filtros</u></a><br>
+</div>
+<div id="mostrarmecanica" style="display:block;">
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(2);"><u>Mostrar mais filtros</u></a>
+</div>
+	
+	
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+	<font color="800000"><b>Ordenar por</b>
+	<select id="ordem" name="ordem">
+		<option value="1" selected>Maior índice CNW</option>
+		<option value="71">Menor índice CNW</option>
+		<option value="2">Mais potentes</option>
+		<option value="35">Menos potentes</option>
+		<option value="3">Melhor relação peso/potência</option>
+		<option value="36">Pior relação peso/potência</option>
+		<option value="4">Maior potência específica</option>
+		<option value="37">Menor potência específica</option>
+		<option value="24">Melhor relação peso/torque</option>
+		<option value="38">Pior relação peso/torque</option>
+		<option value="25">Maior torque específico</option>
+		<option value="39">Menor torque específico</option>
+		<option value="26">Melhor relação preço/potência</option>
+		<option value="40">Pior relação preço/potência</option>
+		<option value="27">Melhor relação preço/torque</option>
+		<option value="41">Pior relação preço/torque</option>
+		<option value="5">Maior aceleração</option>
+		<option value="33">Menor aceleração</option>
+		<option value="6">Maior velocidade máxima</option>
+		<option value="34">Menor velocidade máxima</option>
+		<option value="7">Maior torque</option>
+		<option value="67">Menor torque</option>
+		<option value="8">Melhor consumo rodoviário</option>
+		<option value="9">Melhor consumo urbano</option>
+		<option value="56">Pior consumo rodoviário</option>
+		<option value="57">Pior consumo urbano</option>
+		<option value="21">Carros com mais equipamentos</option>
+		<option value="72">Carros com menos equipamentos</option>
+		<option value="12">Carros mais baratos</option>
+		<option value="20">Carros mais caros</option>
+		<option value="31">Seguro mais caro</option>
+		<option value="22">Seguro mais barato</option>
+		<option value="23">Melhor relação preço carro/preço seguro</option>
+		<option value="32">Pior relação preço carro/preço seguro</option>
+		<option value="13">Ano-modelo</option>
+		<option value="14">Maior cilindrada</option>
+		<option value="70">Menor cilindrada</option>
+		<option value="15">Modelo</option>
+		<option value="16">Maior desvalorização no ano</option>
+		<option value="18">Menor desvalorização no ano</option>
+		<option value="17">Maior desvalorização em três anos</option>
+		<option value="19">Menor desvalorização em três anos</option>
+		<option value="42">Carros mais compridos</option>
+		<option value="43">Carros mais curtos</option>
+		<option value="44">Carros mais largos</option>
+		<option value="45">Carros mais estreitos</option>
+		<option value="46">Carros mais altos</option>
+		<option value="47">Carros mais baixos</option>
+		<option value="48">Maior entre-eixos</option>
+		<option value="49">Menor entre-eixos</option>
+		<option value="50">Carros mais pesados</option>
+		<option value="51">Carros mais leves</option>
+		<option value="52">Maior porta-malas</option>
+		<option value="53">Menor porta-malas</option>
+		<option value="54">Maior tanque de combustível</option>
+		<option value="55">Menor tanque de combustível</option>
+		<option value="58">Melhor coeficiente aerodinâmico</option>
+		<option value="59">Pior coeficiente aerodinâmico</option>
+		<option value="60">Maior ângulo de entrada</option>
+		<option value="61">Maior ângulo de saída</option>
+		<option value="62">Maior ângulo central</option>
+		<option value="63">Capacidade máxima de rampa</option>
+		<option value="64">Maior inclinação lateral</option>
+		<option value="65">Travessia de água</option>
+		<option value="66">Maior vão livre do solo</option>
+		<option value="68">Maior diametro de giro</option>
+		<option value="69">Menor diametro de giro</option>
+		<option value="73">Maior carga útil</option>
+		<option value="74">Menor carga útil</option>
+		<option value="75">Menor autonomia cidade</option>
+		<option value="76">Maior autonomia cidade</option>
+		<option value="77">Menor autonomia estrada</option>
+		<option value="78">Maior autonomia estrada</option>
+		<option value="79">Maior tração de reboque sem freio</option>
+		<option value="80">Maior tração de reboque com freio</option>
+	</select>
+</td>
+<td BGCOLOR="#ffffff" valign="top" width="400">
+<font face="arial" size="3">	
+<font color="800000"><b>Equipamentos</b>
+<br><br>
+<font color="800000" size="2"><b>Segurança</b>
+<br>
+<font face="arial" color="black" style="font-size: 13px;">
+<input type="checkbox" id="eq11" name="eq11">Airbags frontais
+<br>
+<input type="checkbox" id="eq29" name="eq29">Freios ABS
+<br>
+<div id="seguranca" style="display:none;">
+<input type="checkbox" id="eq12" name="eq12">Airbags laterais
+<br>
+<input type="checkbox" id="eq13" name="eq13">Airbags cortinas
+<br>
+<input type="checkbox" id="eq19" name="eq19">Controle de estabilidade
+<br>
+<input type="checkbox" id="eq86" name="eq86">Frenagem automática de emergência
+<br>
+<input type="checkbox" id="eq20" name="eq20">Controle de tração
+<br>
+<input type="checkbox" id="eq15" name="eq15">Cintos de três pontos para todos os ocupantes
+<br>
+<input type="checkbox" id="eq24" name="eq24">Encosto de cabeça para todos os ocupantes
+<br>
+<input type="checkbox" id="eq14" name="eq14">Câmera traseira para manobras
+<br>
+<input type="checkbox" id="eq25" name="eq25">Faróis com lâmpadas de xenônio, LED ou laser
+<br>
+<input type="checkbox" id="eq26" name="eq26">Faróis de neblina
+<br>
+<input type="checkbox" id="eq30" name="eq30">Interface Bluetooth
+<br>
+<input type="checkbox" id="eq31" name="eq31">Limpador e lavador do vidro traseiro
+<br>
+<input type="checkbox" id="eq37" name="eq37">Retrovisor interno fotocrômico
+<br>
+<input type="checkbox" id="eq39" name="eq39">Sensores de estacionamento dianteiro
+<br>
+<input type="checkbox" id="eq40" name="eq40">Sensores de estacionamento traseiro
+<br>
+<input type="checkbox" id="eq42" name="eq42">Travamento central das portas
+<br>
+<input type="checkbox" id="eq09" name="eq09">Alarme antifurto
+<br>
+<input type="checkbox" id="eq46" name="eq46">Luzes diurnas dianteiras
+<br>
+<input type="checkbox" id="eq49" name="eq49">ISOFIX
+<br>
+<input type="checkbox" id="eq79" name="eq79">Indicador de fadiga
+<br>
+<input type="checkbox" id="eq85" name="eq85">Alerta de mudança de faixa
+<br>
+<input type="checkbox" id="eq81" name="eq81">Controle de velocidade adaptativo
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(3);"><u>Ocultar filtros de segurança</u></a>
+</div>
+<div id="mostrarseguranca" style="display:block;">
+<font style="font-size: 5px;"><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(4);"><u>Mostrar mais filtros de segurança</u></a>
+</div>
+
+<br>
+<font color="800000"><b>Conforto</b>
+<br>
+<font face="arial" color="black" style="font-size: 13px;">
+<input type="checkbox" id="eq01" name="eq01">Ar-condicionado
+<br>
+<input type="checkbox" id="eq69" name="eq69">Direção assistida
+<br>
+<input type="checkbox" id="eq75" name="eq75">Câmbio automático
+<br>
+<div id="conforto" style="display:none;">
+<input type="checkbox" id="eq02" name="eq02">Ar-condicionado com controle automático
+<br>
+<input type="checkbox" id="eq04" name="eq04">Banco do motorista com ajuste de altura
+<br>
+<input type="checkbox" id="eq16" name="eq16">Computador de bordo
+<br>
+<input type="checkbox" id="eq21" name="eq21">Controle elétrico dos vidros dianteiros
+<br>
+<input type="checkbox" id="eq22" name="eq22">Controle elétrico dos vidros traseiros
+<br>
+<input type="checkbox" id="eq18" name="eq18">Controlador de velocidade
+<br>
+<input type="checkbox" id="eq81" name="eq81">Controle de velocidade adaptativo
+<br>
+<input type="checkbox" id="eq10" name="eq10">Bancos revestidos em couro
+<br>
+<input type="checkbox" id="eq27" name="eq27">Faróis com acendimento automático
+<br>
+<input type="checkbox" id="eq28" name="eq28">Limpador de para-brisa automático
+<br>
+<input type="checkbox" id="eq33" name="eq33">Navegador por GPS
+<br>
+<input type="checkbox" id="eq34" name="eq34">Rádio
+<br>
+<input type="checkbox" id="eq77" name="eq77">CD player
+<br>
+<input type="checkbox" id="eq35" name="eq35">MP3
+<br>
+<input type="checkbox" id="eq65" name="eq65">Conexão USB
+<br>
+<input type="checkbox" id="eq100" name="eq100">Espelhamento da tela do celular
+<br>
+<input type="checkbox" id="eq41" name="eq41">Teto solar elétrico
+<br>
+<input type="checkbox" id="eq59" name="eq59">Teto panorâmico
+<br>
+<input type="checkbox" id="eq38" name="eq38">Rodas de alumínio
+<br>
+<input type="checkbox" id="eq43" name="eq43">Troca de marchas no volante
+<br>
+<input type="checkbox" id="eq44" name="eq44">Banco traseiro bipartido
+<br>
+<input type="checkbox" id="eq53" name="eq53">Assistente de partida em rampa
+<br>
+<input type="checkbox" id="eq60" name="eq60">Banco traseiro rebatível
+<br>
+<input type="checkbox" id="eq68" name="eq68">Apoio de braço para o motorista
+<br>
+<input type="checkbox" id="eq78" name="eq78">Assistente de estacionamento
+<br>
+<input type="checkbox" id="eq80" name="eq80">HUD
+<font style="font-size: 5px;"><br><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(5);"><u>Ocultar filtros de conforto</u></a>
+</div>
+<div id="mostrarconforto" style="display:block;">
+<font style="font-size: 5px;"><br><font style="font-size: 13px;">
+<a href="#" onclick="javascript:OpenSel(6);"><u>Mostrar mais filtros de conforto</u></a>
+</div>
+<br>
+
+</td>
+</tr>
+<tr>	
+<td BGCOLOR="#ffffff" align=center colspan=3><font face="arial" size="2">
+<br>
+	<input type="submit" value="Buscar" id="submit1" name="submit1">
+	&nbsp;&nbsp;
+	<input type="button" value="Limpar" id="button1" name="button1" onclick="javascript:window.location.href='avancada.asp';" onMouseOver="this.style.cursor='hand';" onMouseOut="this.style.cursor='';">
+
+<br><br>
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td colspan="3">
+
+<table cellspacing=0 cellpadding=5 width=100% background=#ffffff>
+<tr>
+<td BGCOLOR="#ffffff" colspan=5>
+<font style="font-size: 18px; font-family:arial; color:darkred;">
+Buscar por fabricante
+<hr>
+</td>
+</tr>
+
+
+<tr>
+<td BGCOLOR="#ffffff">
+<table border=0 width=150 cellpadding=5 BGCOLOR="#ffffff"><tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Adamo"><font color=black>Adamo</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Agrale"><font color=black>Agrale</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Alfa Romeo"><font color=black>Alfa Romeo</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Ariel"><font color=black>Ariel</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Asia"><font color=black>Asia</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Aston Martin"><font color=black>Aston Martin</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Audi"><font color=black>Audi</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Bentley"><font color=black>Bentley</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Bianco"><font color=black>Bianco</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=BMW"><font color=black>BMW</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=BRM"><font color=black>BRM</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Bugatti"><font color=black>Bugatti</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Cadillac"><font color=black>Cadillac</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Caterham"><font color=black>Caterham</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=CBT"><font color=black>CBT</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Chamonix"><font color=black>Chamonix</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Chana"><font color=black>Chana</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Changan"><font color=black>Changan</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Chery"><font color=black>Chery</a>
+		</td></tr>
+		</td></tr></table></td><td BGCOLOR="#ffffff"><table border=0 width=150 cellpadding=5 BGCOLOR="#ffffff"><tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Chevrolet"><font color=black>Chevrolet</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Chrysler"><font color=black>Chrysler</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Citroen"><font color=black>Citroen</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Cross Lander"><font color=black>Cross Lander</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Daewoo"><font color=black>Daewoo</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Daihatsu"><font color=black>Daihatsu</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=DeLorean"><font color=black>DeLorean</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Dodge"><font color=black>Dodge</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Effa"><font color=black>Effa</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Engesa"><font color=black>Engesa</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Envemo"><font color=black>Envemo</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Farus"><font color=black>Farus</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Ferrari"><font color=black>Ferrari</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Fiat"><font color=black>Fiat</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Ford"><font color=black>Ford</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Geely"><font color=black>Geely</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Gurgel"><font color=black>Gurgel</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Hafei"><font color=black>Hafei</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Hennessey"><font color=black>Hennessey</a>
+		</td></tr>
+		</td></tr></table></td><td BGCOLOR="#ffffff"><table border=0 width=150 cellpadding=5 BGCOLOR="#ffffff"><tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Honda"><font color=black>Honda</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Hummer"><font color=black>Hummer</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Hyundai"><font color=black>Hyundai</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Infiniti"><font color=black>Infiniti</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Iveco"><font color=black>Iveco</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=JAC"><font color=black>JAC</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Jaguar"><font color=black>Jaguar</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Jeep"><font color=black>Jeep</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Jinbei"><font color=black>Jinbei</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=JPX"><font color=black>JPX</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Kia"><font color=black>Kia</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Koenigsegg"><font color=black>Koenigsegg</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=KTM"><font color=black>KTM</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lada"><font color=black>Lada</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lamborghini"><font color=black>Lamborghini</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Land Rover"><font color=black>Land Rover</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lexus"><font color=black>Lexus</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lifan"><font color=black>Lifan</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lobini"><font color=black>Lobini</a>
+		</td></tr>
+		</td></tr></table></td><td BGCOLOR="#ffffff"><table border=0 width=150 cellpadding=5 BGCOLOR="#ffffff"><tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Lotus"><font color=black>Lotus</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Mahindra"><font color=black>Mahindra</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Maserati"><font color=black>Maserati</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Mazda"><font color=black>Mazda</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=McLaren"><font color=black>McLaren</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Mercedes-Benz"><font color=black>Mercedes-Benz</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=MG"><font color=black>MG</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Mini"><font color=black>Mini</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Mitsubishi"><font color=black>Mitsubishi</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Miura"><font color=black>Miura</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=MP Lafer"><font color=black>MP Lafer</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Nissan"><font color=black>Nissan</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Pagani"><font color=black>Pagani</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Peugeot"><font color=black>Peugeot</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Pontiac"><font color=black>Pontiac</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Porsche"><font color=black>Porsche</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Puma"><font color=black>Puma</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Rely"><font color=black>Rely</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Renault"><font color=black>Renault</a>
+		</td></tr>
+		</td></tr></table></td><td BGCOLOR="#ffffff"><table border=0 width=150 cellpadding=5 BGCOLOR="#ffffff"><tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Rolls-Royce"><font color=black>Rolls-Royce</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Saab"><font color=black>Saab</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Saleen"><font color=black>Saleen</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Santa Matilde"><font color=black>Santa Matilde</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Santana"><font color=black>Santana</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Seat"><font color=black>Seat</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Shineray"><font color=black>Shineray</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Smart"><font color=black>Smart</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Ssangyong"><font color=black>Ssangyong</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Subaru"><font color=black>Subaru</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Suzuki"><font color=black>Suzuki</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=TAC"><font color=black>TAC</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Tesla"><font color=black>Tesla</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Toyota"><font color=black>Toyota</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Troller"><font color=black>Troller</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Volkswagen"><font color=black>Volkswagen</a>
+		</td></tr>
+		<tr><td width=20% BGCOLOR="#ffffff">
+		<font style="font-size: 15px; font-family:arial; color:black;">
+		<a href="catalogofabricante.asp?fabricante=Volvo"><font color=black>Volvo</a>
+		</td></tr>
+		<tr><td width=20%>&nbsp;</td></tr><tr><td width=20%>&nbsp;</td></tr>	
+</table>
+</tr>
+
+</table>
+
+<br><br>
+
+<table cellspacing=0 cellpadding=5 align=center>
+<tr>
+<td colspan="8" align="left" BGCOLOR="#ffffff">
+<font style="font-size: 18px; font-family:arial; color:darkred;">
+Buscar por configuração
+<hr>
+</td>
+</tr>
+<tr>
+<td>
+<a href="catalogo.asp?config=1">
+<img src="imgsite\hatch.jpg" title="Hatch" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=2">
+<img src="imgsite\sedan.jpg" title="Sedan" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=3">
+<img src="imgsite\perua.jpg" title="Perua" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=5">
+<img src="imgsite\comparativo-minivan.jpg" title="Minivan" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=6">
+<img src="imgsite\van.jpg" title="Van" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=7">
+<img src="imgsite\utilitario.jpg" title="SUV" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="catalogo.asp?config=1"><font color="black" size="2" face="arial">Hatch</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=2"><font color="black" size="2" face="arial">Sedan</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=3"><font color="black" size="2" face="arial">Perua</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=5"><font color="black" size="2" face="arial">Minivan</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=6"><font color="black" size="2" face="arial">Van</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=7"><font color="black" size="2" face="arial">SUV</a><br><br>
+</td>
+</tr>
+
+<tr>
+<td>
+<a href="catalogo.asp?config=10">
+<img src="imgsite\cupe.jpg" title="Cupê" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=11">
+<img src="imgsite\conversivel.jpg" title="Conversível" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=12">
+<img src="imgsite\fiorino-furgao.jpg" title="Furgão" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=8">
+<img src="imgsite\4x4.jpg" title="Jipe" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=9">
+<img src="imgsite\picape.jpg" title="Picape" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+<td>
+<a href="catalogo.asp?config=13">
+<img src="imgsite\chassi-cabine.jpg" title="Chassi-cabine" border=0 width=100 height=66 hspace=0>
+</a>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<a href="catalogo.asp?config=10"><font color="black" size="2" face="arial">Cupê</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=11"><font color="black" size="2" face="arial">Conversível</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=12"><font color="black" size="2" face="arial">Furgão</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=8"><font color="black" size="2" face="arial">Jipe</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=9"><font color="black" size="2" face="arial">Picape</a><br><br>
+</td>
+<td align="center">
+<a href="catalogo.asp?config=13"><font color="black" size="2" face="arial">Chassi-cabine</a><br><br>
+</td>
+</tr>
+
+</table>
+
+
+</td>
+</tr>
+
+
+
+
+
+
+<tr>
+<td align="center" colspan="10">
+	
+<table>
+<tr>
+<td width="340" align="center">
+
+<!-- Catalogo-quadrado-conteudo -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 321632,
+    "async": false});
+</script>
+
+</td>
+<td width=340 align=center>
+
+<!-- Catalogo-quadrado-lateral -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 727418,
+    "async": false});
+</script>
+
+</td>
+</tr>
+</table>
+
+<font face="arial" size="2"><br><br>
+
+</td>
+</tr>
+
+</table>
+
+<table width=984 align=center>
+
+<tr>
+<td bgcolor="#bc0000" colspan="80" height="25" width=100%>
+<font style="font-size: 13px; font-family: arial">
+&nbsp;&nbsp;
+<a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</a>
+&nbsp;|&nbsp;
+<a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</a>
+</td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
+
+<script language="JavaScript">
+<!--
+	function Num(tecla)
+	{
+		if ((tecla<47)||(tecla>57))
+		{
+			return false
+		}
+		else
+		{
+			return true
+		}
+	}
+function checa()
+{
+	var error_string = "";
+	var PrimeiroErro = "";
+	if(window.document.form1.valini.value=="")
+	{
+		error_string += "O preço mínimo deve ser igual ou superior a 0.\n";
+		PrimeiroErro = "ValIni";
+	}
+	if(window.document.form1.valfim.value=="")
+	{
+		error_string += "O preço máximo deve ser superior a 0.\n";
+		PrimeiroErro = "valfim";
+	}
+//	if(window.document.form1.valfim.value<window.document.form1.valini.value)
+//	{
+//		error_string += "O valor máximo deve ser superior ao valor mínimo.\n";
+//		PrimeiroErro = "valfim";
+//	}
+
+//	if(window.document.form1.cilfim.value<window.document.form1.cilini.value)
+//	{
+//		error_string += "A cilindrada máxima deve ser superior a cilindrada mínima.\n";
+//		PrimeiroErro = "cilfim";
+//	}
+
+	if(window.document.form1.anoini.value=="-1")
+	{
+		error_string += "O ano inicial deve ser superior a 0.\n";
+		PrimeiroErro = "anoini";
+	}
+	if(window.document.form1.anofim.value=="-1")
+	{
+		error_string += "O ano final deve ser superior a 0.\n";
+		PrimeiroErro = "anofim";
+	}
+//	if(window.document.form1.AnoFim.value<window.document.form1.AnoIni.value)
+	if(document.form1.anofim.options[document.form1.anofim.selectedIndex].text<document.form1.anoini.options[document.form1.anoini.selectedIndex].text)
+	{
+		error_string += "O ano final deve ser superior ao ano inicial.\n";
+		PrimeiroErro = "anofim";
+	}
+	if (error_string == "")
+	{
+		return true;
+	}
+	else
+	{
+		alert(error_string);
+		RecebeErro = 'document.form1.'+PrimeiroErro+'.focus();';
+		eval(RecebeErro);
+		return false;
+	}	
+}
+//-->
+</script>
+
+<script src="scripts/ajaxfabricanteschangecatalogo.js"></script>
+
+<script>
+function OpenSel(op) 
+{
+	if (op == 1)
+	{
+		document.getElementById('mecanica').style.display="none";
+		document.getElementById('mostrarmecanica').style.display="block";
+	}
+	if (op == 2) 
+	{
+		document.getElementById('mecanica').style.display="block";
+		document.getElementById('mostrarmecanica').style.display="none";
+	}
+	if (op == 3) 
+	{
+		document.getElementById('seguranca').style.display="none";
+		document.getElementById('mostrarseguranca').style.display="block";
+	}
+	if (op == 4) 
+	{
+		document.getElementById('seguranca').style.display="block";
+		document.getElementById('mostrarseguranca').style.display="none";
+	}
+	if (op == 5)
+	{
+		document.getElementById('conforto').style.display="none";
+		document.getElementById('mostrarconforto').style.display="block";
+	}
+	if (op == 6)
+	{
+		document.getElementById('conforto').style.display="block";
+		document.getElementById('mostrarconforto').style.display="none";
+	}
+}
+</script>

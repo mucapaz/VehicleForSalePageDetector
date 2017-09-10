@@ -1,0 +1,1724 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"de6ebc3165","applicationID":"28865107","transactionName":"IFdaTUJaCVpRQRwDQhdXG0xDUAFpWVxXB1sQF0dRX0I=","queueTime":3,"applicationTime":79,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIGV1JSDBACXFlUAgAHUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="dns-prefetch" href="//seminovositaliana.com.br">
+    <link href='//d1k8nhm9a4p2l6.cloudfront.net' rel='preconnect' crossorigin>
+    
+
+  <title>Italiana Seminovos</title>
+<meta name="charset" content="utf-8" />
+<meta name="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width" />
+<meta property="og:url" content="http://www.seminovositaliana.com.br/seminovos/q3-2-0-tfsi-ambiente-quattro-131" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Italiana Seminovos" />
+<meta property="og:description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!" />
+<meta property="og:image" content="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/logo_regular/14/avatar_fiat2.png" />
+<meta name="description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!" />
+
+
+<link rel="shortcut icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+<link rel="icon" type="image/png" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+<link rel="apple-touch-icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="i7AA/oAVy0DyFaXRlbWYrV4LMRFTREPQGYg+JlKrZYKHMY1Z4IGdJE2pF/DHvxHnA1jjYnJ4G4vmru4pdR5Abg==" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/bootstrap.min-3c489ea49217d1731e0dc838b9453f2319c8b620361eccffa17df67f02ca63f5.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/jquery-ui-a18bc04b3414017881f4e93a40353fff32fec1a923a8f5997d30c625477c74a7.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/4-ae23e6f0087a588cdf96855a9be6aa10380289a21e5bd546f8fb3c5f6f67f63d.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.transitions-e2e6aa4b314724d4d8607e81b52f2f0388bab071b20a18d3ae7ae224e701553b.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.carousel-1a47c54f3ce5470b0c78ce9fd08e2d66d99771e20e9c4417d17a48617fc0f8b5.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.theme-376246452f3cb59fbe1a7005abcfaca37db88861498243fe9cf8af6db9846771.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/jquery.fancybox-fc4f6fd32a7a3adf567072fda6112469f74359da428ae88cf08b3b5263ebb0a3.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-buttons-ea512150cfccd70afefd5faa6d8b435881d9c010d89ec65f18b915eb20d93a49.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-thumbs-1351abea269ee44a6938c3cc7b40507cc2dee4e82a793f12d06df854245200b4.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/malihu-custom-scrollbar/jquery.mCustomScrollbar-fa9d59de2182b9e695ac0b81b88060a37efea22bc99ce2316b723e22efb1d64d.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/sumoselect/sumoselect-d3eccad262bfe1d6f72619d06c7e72a2b1464ee03d8c642d8173916c27f58817.css" />
+    <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/overall/_initializers-a9ca94443d4f94add715a969ca2405c6f80fb8130df47a0cc7b8f5bf2e0689ef.js"></script>
+    
+    <link rel="shortcut icon" type="image/png" href="http://legado.autoforce.com.br/mods/italiana/img/italiana-favicon.png"/>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" defer async></script>
+    
+    <script>
+        function callConversion() {
+        }
+    </script>
+
+    <header>
+	<div id="nav_bar" class="container-fluid">
+		<div class="row">
+			<div class="col-xs-8 col-sm-3">
+				<h2 class="brand-client">
+	        <a style="background-image: url( //d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png);" href="/">Italiana</a>
+	      </h2>
+			</div>
+	      <div class="col-xs-4 col-sm-9">
+					<div id="phones-main" class="btn-dropdown-list phone-number-list">
+		        <button type="button" class="btn btn-default menu-accordion-toggle"><span class="fa fa-phone icon"></button>
+		        <ul class="accordion">
+	               <li>
+	                <a href='tel: 081 2121-1100'>
+	                	Recife Imbiribeira
+	                	<b>(81) 2121-1100</b>
+	                </a>
+	              </li>
+	               <li>
+	                <a href='tel: 081 2103-4000'>
+	                	Caruaru
+	                	<b>(81) 2103-4000</b>
+	                </a>
+	              </li>
+	               <li>
+	                <a href='tel: 081 3454-1080'>
+	                	Recife Caxangá
+	                	<b>(81) 3454-1080</b>
+	                </a>
+	              </li>
+		        </ul>
+		      </div>
+				</div>
+		</div>
+	</div>
+</header>
+
+      <section id="showcase">
+  	<div class="container-fluid">
+    	<header>
+    		<div class="pageview-products">
+  	  		<div class="return-links pageview-crumb">
+  	  			<div class="row">
+              <div class="col-xs-6 col-sm-6">
+                <ul>
+                  <li>
+                    <a href="/">Início</a>
+                  </li>
+                  <li>
+                    <a href="/seminovos">Seminovos</a>
+                  </li>
+                  <li>
+                    PUNTO 1.6 Essence 16V
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-6 col-sm-6 wrapper-right">
+                <ul>
+                  <li>
+                    <a class="crump-come-back" href="/seminovos/resultado">
+                      <i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar
+</a>                  </li>
+                  <li>
+                    <a href="/seminovos/resultado">
+                      <i class="fa fa-search" aria-hidden="true"></i> Nova Busca
+</a>                  </li>
+                </ul>
+              </div>
+  		  		</div>
+  	  		</div>
+    		</div>
+    	</header>
+    </div>
+  </section>
+
+  <section id="pageview-product">
+	<div class="container-fluid">
+	  <div class="row">
+			<div class="content-central">
+	    	<div class="col-xs-12 col-md-8 product-view">
+    			<h3>PUNTO 1.6 Essence 16V - 2013</h3>
+    			<div class="container-box">
+	    			<div class="img">
+		    				<a class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17720/comprar-punto-1-6-essence-16v-131_e15183c00c.jpg">
+			    				<picture alt="PUNTO 1.6 Essence 16V">
+									  <source srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17720/model_main_comprar-punto-1-6-essence-16v-131_e15183c00c.jpg" media="(max-width: 970px)"/>
+									  <source srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17720/model_middle_comprar-punto-1-6-essence-16v-131_e15183c00c.jpg" media="(max-width: 767px)"/>
+									  <img srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17720/used_model_comprar-punto-1-6-essence-16v-131_e15183c00c.jpg" />
+									</picture>
+</a>	    			</div>
+	    		</div>
+            <div class="product-gallery">
+              <div id="owl-gallery-large">
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921564/main_comprar-punto-1-6-essence-16v-131_fe95233745.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921564/thumb_large_comprar-punto-1-6-essence-16v-131_fe95233745.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921561/main_comprar-punto-1-6-essence-16v-131_53931318d2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921561/thumb_large_comprar-punto-1-6-essence-16v-131_53931318d2.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921558/main_comprar-punto-1-6-essence-16v-131_dccb9fbe1b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921558/thumb_large_comprar-punto-1-6-essence-16v-131_dccb9fbe1b.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921555/main_comprar-punto-1-6-essence-16v-131_0c6ee4e0d9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921555/thumb_large_comprar-punto-1-6-essence-16v-131_0c6ee4e0d9.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921551/main_comprar-punto-1-6-essence-16v-131_300ce69dd7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921551/thumb_large_comprar-punto-1-6-essence-16v-131_300ce69dd7.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892634/main_comprar-punto-1-6-essence-16v-131_514869e57a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892634/thumb_large_comprar-punto-1-6-essence-16v-131_514869e57a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892630/main_comprar-punto-1-6-essence-16v-131_9c843d9e61.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892630/thumb_large_comprar-punto-1-6-essence-16v-131_9c843d9e61.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892628/main_comprar-punto-1-6-essence-16v-131_da9964471a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892628/thumb_large_comprar-punto-1-6-essence-16v-131_da9964471a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892626/main_comprar-punto-1-6-essence-16v-131_53b5176d75.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892626/thumb_large_comprar-punto-1-6-essence-16v-131_53b5176d75.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892623/main_comprar-punto-1-6-essence-16v-131_405b1d0b49.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892623/thumb_large_comprar-punto-1-6-essence-16v-131_405b1d0b49.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874750/main_comprar-punto-1-6-essence-16v-131_c61f14fa0b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874750/thumb_large_comprar-punto-1-6-essence-16v-131_c61f14fa0b.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874748/main_comprar-punto-1-6-essence-16v-131_bf58185960.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874748/thumb_large_comprar-punto-1-6-essence-16v-131_bf58185960.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874745/main_comprar-punto-1-6-essence-16v-131_176fdfd6b8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874745/thumb_large_comprar-punto-1-6-essence-16v-131_176fdfd6b8.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874742/main_comprar-punto-1-6-essence-16v-131_787c3c5bcb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874742/thumb_large_comprar-punto-1-6-essence-16v-131_787c3c5bcb.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874740/main_comprar-punto-1-6-essence-16v-131_1b312b004b.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874740/thumb_large_comprar-punto-1-6-essence-16v-131_1b312b004b.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873305/main_comprar-punto-1-6-essence-16v-131_fd5fc5e140.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873305/thumb_large_comprar-punto-1-6-essence-16v-131_fd5fc5e140.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873304/main_comprar-punto-1-6-essence-16v-131_3afe1eb5af.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873304/thumb_large_comprar-punto-1-6-essence-16v-131_3afe1eb5af.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873296/main_comprar-punto-1-6-essence-16v-131_0f04d60a5e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873296/thumb_large_comprar-punto-1-6-essence-16v-131_0f04d60a5e.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873292/main_comprar-punto-1-6-essence-16v-131_e50a2f0475.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873292/thumb_large_comprar-punto-1-6-essence-16v-131_e50a2f0475.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873287/main_comprar-punto-1-6-essence-16v-131_250c1c76d8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873287/thumb_large_comprar-punto-1-6-essence-16v-131_250c1c76d8.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870840/main_comprar-punto-1-6-essence-16v-131_5e58323c73.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870840/thumb_large_comprar-punto-1-6-essence-16v-131_5e58323c73.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870837/main_comprar-punto-1-6-essence-16v-131_ca972e17af.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870837/thumb_large_comprar-punto-1-6-essence-16v-131_ca972e17af.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870834/main_comprar-punto-1-6-essence-16v-131_ad5607c3a1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870834/thumb_large_comprar-punto-1-6-essence-16v-131_ad5607c3a1.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870832/main_comprar-punto-1-6-essence-16v-131_ede3399d67.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870832/thumb_large_comprar-punto-1-6-essence-16v-131_ede3399d67.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870828/main_comprar-punto-1-6-essence-16v-131_f59c9877d8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870828/thumb_large_comprar-punto-1-6-essence-16v-131_f59c9877d8.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867163/main_comprar-punto-1-6-essence-16v-131_cc6044e1ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867163/thumb_large_comprar-punto-1-6-essence-16v-131_cc6044e1ac.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867161/main_comprar-punto-1-6-essence-16v-131_f5f757c564.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867161/thumb_large_comprar-punto-1-6-essence-16v-131_f5f757c564.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867159/main_comprar-punto-1-6-essence-16v-131_34cdc639e4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867159/thumb_large_comprar-punto-1-6-essence-16v-131_34cdc639e4.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867157/main_comprar-punto-1-6-essence-16v-131_48711b1d8c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867157/thumb_large_comprar-punto-1-6-essence-16v-131_48711b1d8c.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867155/main_comprar-punto-1-6-essence-16v-131_e9d1da1ac0.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867155/thumb_large_comprar-punto-1-6-essence-16v-131_e9d1da1ac0.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847907/main_comprar-punto-1-6-essence-16v-131_2a6a0fe233.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847907/thumb_large_comprar-punto-1-6-essence-16v-131_2a6a0fe233.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847904/main_comprar-punto-1-6-essence-16v-131_883cdda620.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847904/thumb_large_comprar-punto-1-6-essence-16v-131_883cdda620.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847902/main_comprar-punto-1-6-essence-16v-131_aa0cfb702c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847902/thumb_large_comprar-punto-1-6-essence-16v-131_aa0cfb702c.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847901/main_comprar-punto-1-6-essence-16v-131_f6be3d8f36.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847901/thumb_large_comprar-punto-1-6-essence-16v-131_f6be3d8f36.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847896/main_comprar-punto-1-6-essence-16v-131_3651ea8dde.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847896/thumb_large_comprar-punto-1-6-essence-16v-131_3651ea8dde.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839522/main_comprar-punto-1-6-essence-16v-131_3a87580fd7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839522/thumb_large_comprar-punto-1-6-essence-16v-131_3a87580fd7.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839519/main_comprar-punto-1-6-essence-16v-131_88ac475e9f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839519/thumb_large_comprar-punto-1-6-essence-16v-131_88ac475e9f.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839517/main_comprar-punto-1-6-essence-16v-131_c4dedc018e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839517/thumb_large_comprar-punto-1-6-essence-16v-131_c4dedc018e.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839514/main_comprar-punto-1-6-essence-16v-131_edba5c04ae.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839514/thumb_large_comprar-punto-1-6-essence-16v-131_edba5c04ae.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839510/main_comprar-punto-1-6-essence-16v-131_0614edd49c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839510/thumb_large_comprar-punto-1-6-essence-16v-131_0614edd49c.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819944/main_comprar-punto-1-6-essence-16v-131_5a9670024c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819944/thumb_large_comprar-punto-1-6-essence-16v-131_5a9670024c.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819943/main_comprar-punto-1-6-essence-16v-131_aef9c6fdac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819943/thumb_large_comprar-punto-1-6-essence-16v-131_aef9c6fdac.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819942/main_comprar-punto-1-6-essence-16v-131_313e3f7ed1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819942/thumb_large_comprar-punto-1-6-essence-16v-131_313e3f7ed1.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819941/main_comprar-punto-1-6-essence-16v-131_41ec4e9f02.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819941/thumb_large_comprar-punto-1-6-essence-16v-131_41ec4e9f02.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819940/main_comprar-punto-1-6-essence-16v-131_f755f6ecd9.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819940/thumb_large_comprar-punto-1-6-essence-16v-131_f755f6ecd9.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815354/main_comprar-punto-1-6-essence-16v-131_03bd1aea3a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815354/thumb_large_comprar-punto-1-6-essence-16v-131_03bd1aea3a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815349/main_comprar-punto-1-6-essence-16v-131_1cab77e267.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815349/thumb_large_comprar-punto-1-6-essence-16v-131_1cab77e267.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815344/main_comprar-punto-1-6-essence-16v-131_f00fe323f9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815344/thumb_large_comprar-punto-1-6-essence-16v-131_f00fe323f9.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815338/main_comprar-punto-1-6-essence-16v-131_64a4d451ab.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815338/thumb_large_comprar-punto-1-6-essence-16v-131_64a4d451ab.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815332/main_comprar-punto-1-6-essence-16v-131_762138d36d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815332/thumb_large_comprar-punto-1-6-essence-16v-131_762138d36d.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814367/main_comprar-punto-1-6-essence-16v-131_f39c12d755.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814367/thumb_large_comprar-punto-1-6-essence-16v-131_f39c12d755.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814366/main_comprar-punto-1-6-essence-16v-131_6fea8dac5d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814366/thumb_large_comprar-punto-1-6-essence-16v-131_6fea8dac5d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814365/main_comprar-punto-1-6-essence-16v-131_db704d0b1d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814365/thumb_large_comprar-punto-1-6-essence-16v-131_db704d0b1d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814364/main_comprar-punto-1-6-essence-16v-131_fb8b5b155d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814364/thumb_large_comprar-punto-1-6-essence-16v-131_fb8b5b155d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814362/main_comprar-punto-1-6-essence-16v-131_6635e7d78d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814362/thumb_large_comprar-punto-1-6-essence-16v-131_6635e7d78d.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789881/main_comprar-punto-1-6-essence-16v-131_63cbf64856.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789881/thumb_large_comprar-punto-1-6-essence-16v-131_63cbf64856.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789878/main_comprar-punto-1-6-essence-16v-131_1cd67ce49a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789878/thumb_large_comprar-punto-1-6-essence-16v-131_1cd67ce49a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789876/main_comprar-punto-1-6-essence-16v-131_54451558fe.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789876/thumb_large_comprar-punto-1-6-essence-16v-131_54451558fe.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789871/main_comprar-punto-1-6-essence-16v-131_7427a5275c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789871/thumb_large_comprar-punto-1-6-essence-16v-131_7427a5275c.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789869/main_comprar-punto-1-6-essence-16v-131_cfe74dced4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789869/thumb_large_comprar-punto-1-6-essence-16v-131_cfe74dced4.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722257/main_comprar-punto-1-6-essence-16v-131_4dd9b5c51a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722257/thumb_large_comprar-punto-1-6-essence-16v-131_4dd9b5c51a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722254/main_comprar-punto-1-6-essence-16v-131_6f2de08201.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722254/thumb_large_comprar-punto-1-6-essence-16v-131_6f2de08201.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722251/main_comprar-punto-1-6-essence-16v-131_64ec12d2fc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722251/thumb_large_comprar-punto-1-6-essence-16v-131_64ec12d2fc.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722249/main_comprar-punto-1-6-essence-16v-131_0d3f908fda.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722249/thumb_large_comprar-punto-1-6-essence-16v-131_0d3f908fda.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722246/main_comprar-punto-1-6-essence-16v-131_589968ab7a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722246/thumb_large_comprar-punto-1-6-essence-16v-131_589968ab7a.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705936/main_comprar-punto-1-6-essence-16v-131_41f03470ed.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705936/thumb_large_comprar-punto-1-6-essence-16v-131_41f03470ed.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705934/main_comprar-punto-1-6-essence-16v-131_b544579f31.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705934/thumb_large_comprar-punto-1-6-essence-16v-131_b544579f31.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705930/main_comprar-punto-1-6-essence-16v-131_a26b259a04.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705930/thumb_large_comprar-punto-1-6-essence-16v-131_a26b259a04.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705925/main_comprar-punto-1-6-essence-16v-131_b01565f5c2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705925/thumb_large_comprar-punto-1-6-essence-16v-131_b01565f5c2.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705922/main_comprar-punto-1-6-essence-16v-131_4e91b9d456.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705922/thumb_large_comprar-punto-1-6-essence-16v-131_4e91b9d456.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702815/main_comprar-punto-1-6-essence-16v-131_1cb093e392.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702815/thumb_large_comprar-punto-1-6-essence-16v-131_1cb093e392.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702812/main_comprar-punto-1-6-essence-16v-131_c00f0cb202.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702812/thumb_large_comprar-punto-1-6-essence-16v-131_c00f0cb202.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702808/main_comprar-punto-1-6-essence-16v-131_de40cd9a46.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702808/thumb_large_comprar-punto-1-6-essence-16v-131_de40cd9a46.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702800/main_comprar-punto-1-6-essence-16v-131_07f11a8d43.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702800/thumb_large_comprar-punto-1-6-essence-16v-131_07f11a8d43.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702797/main_comprar-punto-1-6-essence-16v-131_5fbc7cbec5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702797/thumb_large_comprar-punto-1-6-essence-16v-131_5fbc7cbec5.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701631/main_comprar-punto-1-6-essence-16v-131_cd46f8a7f1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701631/thumb_large_comprar-punto-1-6-essence-16v-131_cd46f8a7f1.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701629/main_comprar-punto-1-6-essence-16v-131_e88066eb73.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701629/thumb_large_comprar-punto-1-6-essence-16v-131_e88066eb73.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701626/main_comprar-punto-1-6-essence-16v-131_f2a9159a23.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701626/thumb_large_comprar-punto-1-6-essence-16v-131_f2a9159a23.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701622/main_comprar-punto-1-6-essence-16v-131_27b8e0ce35.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701622/thumb_large_comprar-punto-1-6-essence-16v-131_27b8e0ce35.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701620/main_comprar-punto-1-6-essence-16v-131_cdf945d8f2.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701620/thumb_large_comprar-punto-1-6-essence-16v-131_cdf945d8f2.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698559/main_comprar-punto-1-6-essence-16v-131_009cbdfa15.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698559/thumb_large_comprar-punto-1-6-essence-16v-131_009cbdfa15.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698555/main_comprar-punto-1-6-essence-16v-131_6598d0ada4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698555/thumb_large_comprar-punto-1-6-essence-16v-131_6598d0ada4.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698553/main_comprar-punto-1-6-essence-16v-131_53af9a4f9f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698553/thumb_large_comprar-punto-1-6-essence-16v-131_53af9a4f9f.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698550/main_comprar-punto-1-6-essence-16v-131_c90cad94cc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698550/thumb_large_comprar-punto-1-6-essence-16v-131_c90cad94cc.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698546/main_comprar-punto-1-6-essence-16v-131_391316b06a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698546/thumb_large_comprar-punto-1-6-essence-16v-131_391316b06a.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680506/main_comprar-punto-1-6-essence-16v-131_0b3825b998.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680506/thumb_large_comprar-punto-1-6-essence-16v-131_0b3825b998.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680504/main_comprar-punto-1-6-essence-16v-131_ffd55b36bf.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680504/thumb_large_comprar-punto-1-6-essence-16v-131_ffd55b36bf.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680502/main_comprar-punto-1-6-essence-16v-131_f63b7ca805.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680502/thumb_large_comprar-punto-1-6-essence-16v-131_f63b7ca805.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680500/main_comprar-punto-1-6-essence-16v-131_94e856f973.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680500/thumb_large_comprar-punto-1-6-essence-16v-131_94e856f973.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680499/main_comprar-punto-1-6-essence-16v-131_68b876a508.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680499/thumb_large_comprar-punto-1-6-essence-16v-131_68b876a508.JPG" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679322/main_comprar-punto-1-6-essence-16v-131_8a2035eab9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679322/thumb_large_comprar-punto-1-6-essence-16v-131_8a2035eab9.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679319/main_comprar-punto-1-6-essence-16v-131_e138ad47ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679319/thumb_large_comprar-punto-1-6-essence-16v-131_e138ad47ac.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679316/main_comprar-punto-1-6-essence-16v-131_5c7858a4b0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679316/thumb_large_comprar-punto-1-6-essence-16v-131_5c7858a4b0.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679315/main_comprar-punto-1-6-essence-16v-131_4a8ac886df.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679315/thumb_large_comprar-punto-1-6-essence-16v-131_4a8ac886df.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668279/main_comprar-punto-1-6-essence-16v-131_31cd13b854.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668279/thumb_large_comprar-punto-1-6-essence-16v-131_31cd13b854.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668277/main_comprar-punto-1-6-essence-16v-131_38c1c2f732.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668277/thumb_large_comprar-punto-1-6-essence-16v-131_38c1c2f732.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668273/main_comprar-punto-1-6-essence-16v-131_c411a4409b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668273/thumb_large_comprar-punto-1-6-essence-16v-131_c411a4409b.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668269/main_comprar-punto-1-6-essence-16v-131_58536cf804.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668269/thumb_large_comprar-punto-1-6-essence-16v-131_58536cf804.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664325/main_comprar-punto-1-6-essence-16v-131_a3ff7c8d5d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664325/thumb_large_comprar-punto-1-6-essence-16v-131_a3ff7c8d5d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664321/main_comprar-punto-1-6-essence-16v-131_bbafe2f6a2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664321/thumb_large_comprar-punto-1-6-essence-16v-131_bbafe2f6a2.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664319/main_comprar-punto-1-6-essence-16v-131_3a5c0e3761.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664319/thumb_large_comprar-punto-1-6-essence-16v-131_3a5c0e3761.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664315/main_comprar-punto-1-6-essence-16v-131_c717ea0cd7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664315/thumb_large_comprar-punto-1-6-essence-16v-131_c717ea0cd7.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654193/main_comprar-punto-1-6-essence-16v-131_79405e3550.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654193/thumb_large_comprar-punto-1-6-essence-16v-131_79405e3550.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654191/main_comprar-punto-1-6-essence-16v-131_e83aceff3f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654191/thumb_large_comprar-punto-1-6-essence-16v-131_e83aceff3f.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654187/main_comprar-punto-1-6-essence-16v-131_a006c92d40.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654187/thumb_large_comprar-punto-1-6-essence-16v-131_a006c92d40.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654184/main_comprar-punto-1-6-essence-16v-131_0d55143b23.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654184/thumb_large_comprar-punto-1-6-essence-16v-131_0d55143b23.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651833/main_comprar-punto-1-6-essence-16v-131_17d0c90e83.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651833/thumb_large_comprar-punto-1-6-essence-16v-131_17d0c90e83.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651829/main_comprar-punto-1-6-essence-16v-131_c79306df74.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651829/thumb_large_comprar-punto-1-6-essence-16v-131_c79306df74.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651825/main_comprar-punto-1-6-essence-16v-131_d17d2c5992.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651825/thumb_large_comprar-punto-1-6-essence-16v-131_d17d2c5992.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651822/main_comprar-punto-1-6-essence-16v-131_70dff104c2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651822/thumb_large_comprar-punto-1-6-essence-16v-131_70dff104c2.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651060/main_comprar-punto-1-6-essence-16v-131_3966933086.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651060/thumb_large_comprar-punto-1-6-essence-16v-131_3966933086.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651058/main_comprar-punto-1-6-essence-16v-131_f97c3488d0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651058/thumb_large_comprar-punto-1-6-essence-16v-131_f97c3488d0.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651055/main_comprar-punto-1-6-essence-16v-131_f65b25048f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651055/thumb_large_comprar-punto-1-6-essence-16v-131_f65b25048f.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651051/main_comprar-punto-1-6-essence-16v-131_48b8819314.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651051/thumb_large_comprar-punto-1-6-essence-16v-131_48b8819314.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645068/main_comprar-punto-1-6-essence-16v-131_5ac5e99c4d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645068/thumb_large_comprar-punto-1-6-essence-16v-131_5ac5e99c4d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645065/main_comprar-punto-1-6-essence-16v-131_d3b78a7106.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645065/thumb_large_comprar-punto-1-6-essence-16v-131_d3b78a7106.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645061/main_comprar-punto-1-6-essence-16v-131_80ca79c2e5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645061/thumb_large_comprar-punto-1-6-essence-16v-131_80ca79c2e5.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645058/main_comprar-punto-1-6-essence-16v-131_9bc8e855a0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645058/thumb_large_comprar-punto-1-6-essence-16v-131_9bc8e855a0.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642478/main_comprar-punto-1-6-essence-16v-131_08c6471a33.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642478/thumb_large_comprar-punto-1-6-essence-16v-131_08c6471a33.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642475/main_comprar-punto-1-6-essence-16v-131_2a0f590ad1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642475/thumb_large_comprar-punto-1-6-essence-16v-131_2a0f590ad1.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642470/main_comprar-punto-1-6-essence-16v-131_42124880f6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642470/thumb_large_comprar-punto-1-6-essence-16v-131_42124880f6.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642466/main_comprar-punto-1-6-essence-16v-131_eaa74f1f3a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642466/thumb_large_comprar-punto-1-6-essence-16v-131_eaa74f1f3a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641096/main_comprar-punto-1-6-essence-16v-131_0ee0f2ec1b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641096/thumb_large_comprar-punto-1-6-essence-16v-131_0ee0f2ec1b.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641093/main_comprar-punto-1-6-essence-16v-131_7dccb90d3a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641093/thumb_large_comprar-punto-1-6-essence-16v-131_7dccb90d3a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641089/main_comprar-punto-1-6-essence-16v-131_303de32791.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641089/thumb_large_comprar-punto-1-6-essence-16v-131_303de32791.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641085/main_comprar-punto-1-6-essence-16v-131_054840cdbb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641085/thumb_large_comprar-punto-1-6-essence-16v-131_054840cdbb.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637399/main_comprar-punto-1-6-essence-16v-131_4a8a5610d6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637399/thumb_large_comprar-punto-1-6-essence-16v-131_4a8a5610d6.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637395/main_comprar-punto-1-6-essence-16v-131_6795e6c3da.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637395/thumb_large_comprar-punto-1-6-essence-16v-131_6795e6c3da.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637392/main_comprar-punto-1-6-essence-16v-131_4d99e818ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637392/thumb_large_comprar-punto-1-6-essence-16v-131_4d99e818ac.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637388/main_comprar-punto-1-6-essence-16v-131_2fbccf6c9a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637388/thumb_large_comprar-punto-1-6-essence-16v-131_2fbccf6c9a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634011/main_comprar-punto-1-6-essence-16v-131_bb06f5f5f0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634011/thumb_large_comprar-punto-1-6-essence-16v-131_bb06f5f5f0.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634007/main_comprar-punto-1-6-essence-16v-131_7a3f8438bc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634007/thumb_large_comprar-punto-1-6-essence-16v-131_7a3f8438bc.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634004/main_comprar-punto-1-6-essence-16v-131_4ae68cfb92.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634004/thumb_large_comprar-punto-1-6-essence-16v-131_4ae68cfb92.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634000/main_comprar-punto-1-6-essence-16v-131_3b201eac2f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634000/thumb_large_comprar-punto-1-6-essence-16v-131_3b201eac2f.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632767/main_comprar-punto-1-6-essence-16v-131_b05d82f974.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632767/thumb_large_comprar-punto-1-6-essence-16v-131_b05d82f974.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632763/main_comprar-punto-1-6-essence-16v-131_7c10144c45.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632763/thumb_large_comprar-punto-1-6-essence-16v-131_7c10144c45.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632760/main_comprar-punto-1-6-essence-16v-131_c8eca2c5ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632760/thumb_large_comprar-punto-1-6-essence-16v-131_c8eca2c5ac.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632755/main_comprar-punto-1-6-essence-16v-131_c959918190.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632755/thumb_large_comprar-punto-1-6-essence-16v-131_c959918190.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629887/main_comprar-punto-1-6-essence-16v-131_ed6c974244.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629887/thumb_large_comprar-punto-1-6-essence-16v-131_ed6c974244.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629885/main_comprar-punto-1-6-essence-16v-131_4da9d2d482.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629885/thumb_large_comprar-punto-1-6-essence-16v-131_4da9d2d482.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629881/main_comprar-punto-1-6-essence-16v-131_d2cebca0e9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629881/thumb_large_comprar-punto-1-6-essence-16v-131_d2cebca0e9.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629877/main_comprar-punto-1-6-essence-16v-131_29661edd86.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629877/thumb_large_comprar-punto-1-6-essence-16v-131_29661edd86.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628437/main_comprar-punto-1-6-essence-16v-131_de7a760158.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628437/thumb_large_comprar-punto-1-6-essence-16v-131_de7a760158.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628434/main_comprar-punto-1-6-essence-16v-131_0268694bf5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628434/thumb_large_comprar-punto-1-6-essence-16v-131_0268694bf5.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628433/main_comprar-punto-1-6-essence-16v-131_e8248fa777.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628433/thumb_large_comprar-punto-1-6-essence-16v-131_e8248fa777.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628430/main_comprar-punto-1-6-essence-16v-131_5f1ca2b9cc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628430/thumb_large_comprar-punto-1-6-essence-16v-131_5f1ca2b9cc.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627463/main_comprar-punto-1-6-essence-16v-131_9279076a81.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627463/thumb_large_comprar-punto-1-6-essence-16v-131_9279076a81.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627459/main_comprar-punto-1-6-essence-16v-131_7438f1bec8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627459/thumb_large_comprar-punto-1-6-essence-16v-131_7438f1bec8.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627455/main_comprar-punto-1-6-essence-16v-131_064de1e636.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627455/thumb_large_comprar-punto-1-6-essence-16v-131_064de1e636.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627451/main_comprar-punto-1-6-essence-16v-131_97405eeac3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627451/thumb_large_comprar-punto-1-6-essence-16v-131_97405eeac3.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623849/main_comprar-punto-1-6-essence-16v-131_34fefcec38.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623849/thumb_large_comprar-punto-1-6-essence-16v-131_34fefcec38.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623846/main_comprar-punto-1-6-essence-16v-131_2b8c012148.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623846/thumb_large_comprar-punto-1-6-essence-16v-131_2b8c012148.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623843/main_comprar-punto-1-6-essence-16v-131_3325c998a6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623843/thumb_large_comprar-punto-1-6-essence-16v-131_3325c998a6.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623841/main_comprar-punto-1-6-essence-16v-131_24e7236516.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623841/thumb_large_comprar-punto-1-6-essence-16v-131_24e7236516.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622486/main_comprar-punto-1-6-essence-16v-131_8715d7452e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622486/thumb_large_comprar-punto-1-6-essence-16v-131_8715d7452e.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622483/main_comprar-punto-1-6-essence-16v-131_37f705d438.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622483/thumb_large_comprar-punto-1-6-essence-16v-131_37f705d438.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622479/main_comprar-punto-1-6-essence-16v-131_cfd323a738.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622479/thumb_large_comprar-punto-1-6-essence-16v-131_cfd323a738.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622476/main_comprar-punto-1-6-essence-16v-131_36d22777e5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622476/thumb_large_comprar-punto-1-6-essence-16v-131_36d22777e5.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612799/main_comprar-punto-1-6-essence-16v-131_310695e9a8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612799/thumb_large_comprar-punto-1-6-essence-16v-131_310695e9a8.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612796/main_comprar-punto-1-6-essence-16v-131_e4385a295a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612796/thumb_large_comprar-punto-1-6-essence-16v-131_e4385a295a.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612792/main_comprar-punto-1-6-essence-16v-131_6a7c6006d6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612792/thumb_large_comprar-punto-1-6-essence-16v-131_6a7c6006d6.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612788/main_comprar-punto-1-6-essence-16v-131_adcc986289.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612788/thumb_large_comprar-punto-1-6-essence-16v-131_adcc986289.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611778/main_comprar-punto-1-6-essence-16v-131_85990f8ed8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611778/thumb_large_comprar-punto-1-6-essence-16v-131_85990f8ed8.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611774/main_comprar-punto-1-6-essence-16v-131_5d83c418a5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611774/thumb_large_comprar-punto-1-6-essence-16v-131_5d83c418a5.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611771/main_comprar-punto-1-6-essence-16v-131_77fca6c4ea.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611771/thumb_large_comprar-punto-1-6-essence-16v-131_77fca6c4ea.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611769/main_comprar-punto-1-6-essence-16v-131_cdc04361e8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611769/thumb_large_comprar-punto-1-6-essence-16v-131_cdc04361e8.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610129/main_comprar-punto-1-6-essence-16v-131_13365be322.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610129/thumb_large_comprar-punto-1-6-essence-16v-131_13365be322.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610127/main_comprar-punto-1-6-essence-16v-131_30c5cd9e53.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610127/thumb_large_comprar-punto-1-6-essence-16v-131_30c5cd9e53.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610124/main_comprar-punto-1-6-essence-16v-131_f3247e5b57.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610124/thumb_large_comprar-punto-1-6-essence-16v-131_f3247e5b57.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610121/main_comprar-punto-1-6-essence-16v-131_ee89921cf1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610121/thumb_large_comprar-punto-1-6-essence-16v-131_ee89921cf1.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607438/main_comprar-punto-1-6-essence-16v-131_2f18733e74.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607438/thumb_large_comprar-punto-1-6-essence-16v-131_2f18733e74.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607434/main_comprar-punto-1-6-essence-16v-131_8491d5550e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607434/thumb_large_comprar-punto-1-6-essence-16v-131_8491d5550e.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607431/main_comprar-punto-1-6-essence-16v-131_8fa04b4c43.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607431/thumb_large_comprar-punto-1-6-essence-16v-131_8fa04b4c43.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607428/main_comprar-punto-1-6-essence-16v-131_d366134456.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607428/thumb_large_comprar-punto-1-6-essence-16v-131_d366134456.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606762/main_comprar-punto-1-6-essence-16v-131_55e9eb6e6c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606762/thumb_large_comprar-punto-1-6-essence-16v-131_55e9eb6e6c.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606758/main_comprar-punto-1-6-essence-16v-131_64c1b865a5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606758/thumb_large_comprar-punto-1-6-essence-16v-131_64c1b865a5.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606754/main_comprar-punto-1-6-essence-16v-131_46e4be8522.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606754/thumb_large_comprar-punto-1-6-essence-16v-131_46e4be8522.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606750/main_comprar-punto-1-6-essence-16v-131_665b6a6862.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606750/thumb_large_comprar-punto-1-6-essence-16v-131_665b6a6862.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605909/main_comprar-punto-1-6-essence-16v-131_cd5411eefc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605909/thumb_large_comprar-punto-1-6-essence-16v-131_cd5411eefc.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605905/main_comprar-punto-1-6-essence-16v-131_5664462e55.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605905/thumb_large_comprar-punto-1-6-essence-16v-131_5664462e55.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605902/main_comprar-punto-1-6-essence-16v-131_bedecc811b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605902/thumb_large_comprar-punto-1-6-essence-16v-131_bedecc811b.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605900/main_comprar-punto-1-6-essence-16v-131_0d7d074b5d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1605900/thumb_large_comprar-punto-1-6-essence-16v-131_0d7d074b5d.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604651/main_comprar-punto-1-6-essence-16v-131_d8c69660cd.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604651/thumb_large_comprar-punto-1-6-essence-16v-131_d8c69660cd.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604648/main_comprar-punto-1-6-essence-16v-131_5664f31207.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604648/thumb_large_comprar-punto-1-6-essence-16v-131_5664f31207.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604644/main_comprar-punto-1-6-essence-16v-131_ba2c9fac08.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604644/thumb_large_comprar-punto-1-6-essence-16v-131_ba2c9fac08.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604640/main_comprar-punto-1-6-essence-16v-131_60a5995565.jpg" class="gallery-thumb" rel="gallery-thumb" title="Fiat PUNTO 2012/2013">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1604640/thumb_large_comprar-punto-1-6-essence-16v-131_60a5995565.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+	                    </a>
+	                  </div>
+              </div>
+            </div>
+          <div class="social-sharer">
+			      <p>Gostou? Então compartilhe.</p>
+            <div class="sharethis-inline-share-buttons"></div>
+			    </div>
+	    	</div>
+	    	<div class="col-xs-12 col-md-4 product-box-action">
+	    		<div class="container-box">
+    					<div class="product-price">
+                <h6>por apenas</h6>
+                <h5><b>R$ 32.480,00</b></h5>
+              </div>
+          </div>
+            <div class="form-module">
+                <a href="#form-bait-6" class="btn-toggle active"><i class="entypo-paper-plane" aria-hidden="true"></i> ENVIAR PROPOSTA</a>
+                <a href="#form-bait-1" class="btn-toggle "><i class="af-calculator" aria-hidden="true"></i> SOLICITAR COTAÇÃO</a>
+              <div class="col-xs-12">
+	             		<div class="form-toggle active" id="form-bait-6">
+		             		<div class="container-form">
+				              <header>
+				                <h4>
+				                  <i class="entypo-paper-plane"></i>
+				                  ENVIAR PROPOSTA
+				                </h4>
+				                <p>Vamos negociar? Envie já sua proposta e garanta as melhores condições.</p>
+				              </header>
+				              <div class="content-form">
+				                <div class="row">
+				                  <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="dxuhnQ2WLiNzv81MllrmXzxo2lJuSMwnDolNMOhpr53nLl4OgjrQwPIsxP7f20tG01W9sbAZHiFsOZYEAoFM3Q==" />
+				                    <div class="form-group">
+				                      <input type="text" class="input-name" name="name" id="form-6-name" placeholder="Nome">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="email" class="input-emal" name="email" id="form-6-email" placeholder="Email">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-6-phone">
+				                    </div>
+				                    <div class="form-group">
+            <label class="form-label js-hide-label" for="modal-test-drive-message">Mensagem</label>
+            <textarea class="form-control" name="message" id="modal-test-drive-message" placeholder="Mensagem" required="" aria-required="true"></textarea>
+          </div>
+				                    <div class="form-group">
+				                      <input type="checkbox" name="mailing" id="mailing-6" value="true" checked="checked">
+				                      <label for="mailing-6">Desejo receber novidades por e-mail.</label>
+				                    </div>
+				                    <div class="form-group">
+				                      <button type="submit" class="btn btn-default">ENVIAR PROPOSTA</button>
+				                    </div>
+				                    <input type="hidden" name="utmz" value="">
+									          <input type="hidden" name="product" value="PUNTO 1.6 Essence 16V">
+									          <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0">
+									          <input type="hidden" name="channel" value="Site">
+									          <input type="hidden" name="bait" value="6">
+									          <input type="hidden" name="unit" value="mauricio-de-nassau">
+									            <input type="hidden" name="category" value="UsedModel">
+									            <input type="hidden" name="brand" value="Fiat" >
+									            <input type="hidden" name="plate" value="PFR 6132" >
+</form>				                </div>
+				              </div>
+				              <footer>
+				                <div class="row">
+				                  <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>
+				                </div>
+				              </footer>
+				            </div>
+				            <div class="result-container-form">
+				              <header>
+				                <h4>
+				                  <i class="entypo-paper-plane"></i>
+				                  Proposta enviada com sucesso!
+				                </h4>
+				                <p>Vamos analisar a sua proposta e entraremos em contato o mais rápido possível para falarmos sobre uma negociação.</p>
+				              </header>
+				              <div class="button-wrapper close-form">
+				                <button>
+				                  <div class="fill"></div>
+				                  <div class="fa fa-check"></div>
+				                </button>
+				              </div>
+				            </div>
+		             	</div>
+	             		<div class="form-toggle " id="form-bait-1">
+		             		<div class="container-form">
+				              <header>
+				                <h4>
+				                  <i class="af-calculator"></i>
+				                  SOLICITAR COTAÇÃO
+				                </h4>
+				                <p>Cliente online tem condições especiais. Escolha uma parcela que cabe no seu bolso.</p>
+				              </header>
+				              <div class="content-form">
+				                <div class="row">
+				                  <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="lp6CyN8eXpB92mlDjHumIjFqkC8cEEyeShxFdNDhkC4Gq31bULKgc/xJYPHF+gs73lf3zMJBnpgorJ5AOglzbg==" />
+				                    <div class="form-group">
+				                      <input type="text" class="input-name" name="name" id="form-1-name" placeholder="Nome">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="email" class="input-emal" name="email" id="form-1-email" placeholder="Email">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-1-phone">
+				                    </div>
+				                    <div class="form-group">
+<label>Número de parcelas</label>
+  <div class="input-checkbox-mini check-list">
+    <input type="radio" name="months" id="months-12" value="12" checked="checked">
+    <label for="months-12">12</label>
+    <input type="radio" name="months" id="months-18" value="18">
+    <label for="months-18">18</label>
+    <input type="radio" name="months" id="months-24" value="24">
+    <label for="months-24">24</label>
+    <input type="radio" name="months" id="months-36" value="36">
+    <label for="months-36">36</label>
+    <input type="radio" name="months" id="months-48" value="48">
+    <label for="months-48">48</label>
+  </div>
+</div>
+<div class="form-group">
+  <label for="bait-input-value">Valor de entrada</label>
+  <input type="tel" class="form-control input-money" name="input_value" placeholder="R$ 0,00" id="bait-input-value" autocomplete="off" required>
+</div>
+				                    <div class="form-group">
+				                      <input type="checkbox" name="mailing" id="mailing-1" value="true" checked="checked">
+				                      <label for="mailing-1">Desejo receber novidades por e-mail.</label>
+				                    </div>
+				                    <div class="form-group">
+				                      <button type="submit" class="btn btn-default">SOLICITAR COTAÇÃO</button>
+				                    </div>
+				                    <input type="hidden" name="utmz" value="">
+									          <input type="hidden" name="product" value="PUNTO 1.6 Essence 16V">
+									          <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0">
+									          <input type="hidden" name="channel" value="Site">
+									          <input type="hidden" name="bait" value="1">
+									          <input type="hidden" name="unit" value="mauricio-de-nassau">
+									            <input type="hidden" name="category" value="UsedModel">
+									            <input type="hidden" name="brand" value="Fiat" >
+									            <input type="hidden" name="plate" value="PFR 6132" >
+</form>				                </div>
+				              </div>
+				              <footer>
+				                <div class="row">
+				                  <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>
+				                </div>
+				              </footer>
+				            </div>
+				            <div class="result-container-form">
+				              <header>
+				                <h4>
+				                  <i class="af-calculator"></i>
+				                  Solicitação Realizada com Sucesso!
+				                </h4>
+				                <p>Vamos selecionar a melhor cotação para a sua necessidade. Logo mais um de nossos consultores entrará em contato.</p>
+				              </header>
+				              <div class="button-wrapper close-form">
+				                <button>
+				                  <div class="fill"></div>
+				                  <div class="fa fa-check"></div>
+				                </button>
+				              </div>
+				            </div>
+		             	</div>
+	            </div>
+	          </div>
+	    		<div class="container-box">
+		    		<div class="product-store">
+	              <h5>Maurício de Nassau</h5>
+	              <h6>Av. Agamenon Magalhães, 1395 - Maurício de Nassau - Caruaru-PE</h6>
+	            	<a href="tel:081 2103-4000">(81) 2103-4000</a>
+	          </div>
+          </div>
+	    	</div>
+	    	<div class="col-xs-12 product-specification">
+	    		<h6>Informações</h6>
+	    		<div class="container-box">
+	          <div class="info-list">
+		          <ul>
+		            <li>Marca: <b>Fiat</b></li>
+		            <li>Modelo: <b>PUNTO</b></li>
+		            <li>Versão: <b>1.6 Essence 16V</b></li>
+		            
+		            <li>Ano: <b>2012/2013</b></li>
+		            <li>Quilometragem: <b>36.961 Km</b></li>
+		            <li>Câmbio: <b>Manual</b></li>
+		              <li>Combustível: <b>Flex</b></li>
+		            <li>Portas: <b>4</b></li>
+		            <li>Cor: <b>Prata</b></li>
+		            	<li>Placa: <b>PFR 6132</b></li>
+		          </ul>
+		        </div>
+	          <div class="tags">
+		          <ul>
+		            	<li>Air bag duplo</li>
+		            	<li>Vidros elétricos</li>
+		            	<li>travas elétricas</li>
+		            	<li>Rodas de liga leve</li>
+		            	<li>Retrovisores elétricos</li>
+		            	<li>freios ABS</li>
+		            	<li>direção hidráulica</li>
+		            	<li>ar condicionado</li>
+		          </ul>
+	    			</div>
+		          <div class="note">
+		          	<h6><b>Mais sobre o veículo:</b></h6>
+		          	<p>  PLACA: PFR-6132 </p>
+		          </div>
+	    		</div>
+	    	</div>
+	    	<div class="col-xs-12">
+	    		<div class="product-rule">
+            <p>*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 31/08/2017. Os preços poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores.</p>
+          </div>
+	    	</div>
+	    </div>
+	  </div>
+		  <div class="content-other-products">
+		  	<div class="row">
+		  		<div class="col-xs-12 content-other-similar-products">
+						<h6>VOCÊ TAMBÉM PODE GOSTAR DESSAS OFERTAS</h6>
+						<div class="item-list">
+							<div class="product-carousel owl-carousel">
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2013/2014</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/palio-1-4-mpi-attractive-8v-2014-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/18584/model_middle_comprar-palio-1-4-mpi-attractive-8v-2014-131_852819e8de.jpg" alt="Fiat PALIO 1.4 MPI Attractive 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>PALIO 1.4 MPI Attractive 8V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 33.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/palio-1-4-mpi-attractive-8v-2014-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2012/2013</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/gol-1-0-mi-8v-g-vi-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/19103/model_middle_comprar-gol-1-0-mi-8v-g-vi-131_fd659d391d.jpg" alt="Volkswagen GOL 1.0 MI 8V G.VI">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>GOL 1.0 MI 8V G.VI</h3>
+		          					<h6>Volkswagen</h6>
+												<div class="content">
+													<h4><b>R$ 27.980,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/gol-1-0-mi-8v-g-vi-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2014/2015</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/palio-1-0-mpi-attractive-8v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17839/model_middle_comprar-palio-1-0-mpi-attractive-8v-131_20814eafb8.jpg" alt="Fiat PALIO 1.0 MPI Attractive 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>PALIO 1.0 MPI Attractive 8V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 32.980,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/palio-1-0-mpi-attractive-8v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2009/2010</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/500-1-4-sport-16v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/15786/model_middle_comprar-500-1-4-sport-16v-131_5aa40d2c87.jpg" alt="Fiat 500 1.4 Sport 16V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>500 1.4 Sport 16V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 28.980,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/500-1-4-sport-16v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2014/2015</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/saveiro-1-6-mi-trendline-cs-8v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/19071/model_middle_comprar-saveiro-1-6-mi-trendline-cs-8v-131_a0e8267305.jpg" alt="Volkswagen SAVEIRO 1.6 MI Trendline CS 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>SAVEIRO 1.6 MI Trendline CS 8V</h3>
+		          					<h6>Volkswagen</h6>
+												<div class="content">
+													<h4><b>R$ 34.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/saveiro-1-6-mi-trendline-cs-8v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2015/2016</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/uno-1-4-evo-way-8v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17183/model_middle_comprar-uno-1-4-evo-way-8v-131_9dd7c2deb3.JPG" alt="Fiat UNO 1.4 EVO WAY 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>UNO 1.4 EVO WAY 8V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 35.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/uno-1-4-evo-way-8v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+		  	</div>
+		  </div>
+	</div>
+</section>
+	  <div id="call-filter" class="fixed bottom">
+	    <a class="btn btn-default" data-form-fixed="true" href="/seminovos/resultado">
+	      <i class="fa fa-search" aria-hidden="true"></i> Nova Busca
+</a>	  </div>
+	  <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/overall/filter-9226b6f617be0613190b20275e9fbb22806b3fefc23df457cc7a8e6bec22719d.js"></script>
+
+
+    <footer>
+	<div class="container-fluid">
+	  	<div id="maps">
+	      	<div class="item active " >
+	          <iframe data-map="14" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.967601456451!2d-34.911515!3d-8.103131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb3a32468fba12f7!2sFiat+Italiana!5e0!3m2!1spt-BR!2sbr!4v1460494478309&quot;" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	      	<div class="item " >
+	          <iframe data-map="17" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7896.683618748614!2d-35.976746!3d-8.268736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bdcc65c3dbd%3A0x2b71acdecd45bab3!2sAv.+Agamenon+Magalh%C3%A3es%2C+1395+-+Maur%C3%ADcio+de+Nassau%2C+Caruaru+-+PE%2C+Brasil!5e0!3m2!1spt-BR!2sbr!4v1460994447256" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	      	<div class="item " >
+	          <iframe data-map="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.6292010891857!2d-34.94817528458443!3d-8.037110582480494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197c1b0fe04f%3A0xc91e16b65efa65a5!2sJeep+-+Fiat+ITALIAN!5e0!3m2!1sen!2sbr!4v1493926934659" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	  	</div>
+	  <div id="adresses">
+			<div class="row">
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="14" class="active ">
+							<h2>Recife Imbiribeira</h2>
+	            <p>
+	              Av. Mal. Mascarenhas de Morais, 
+	              2156, 
+	              <br>
+	              Imbiribeira – 
+	              Recife/PE
+	               – CEP 51180-001<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="17" class="">
+							<h2>Caruaru</h2>
+	            <p>
+	              Av. Agamenon Magalhães, 
+	              1395, 
+	              <br>
+	              Maurício de Nassau – 
+	              Caruaru/PE
+	               – CEP 55014-000<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="16" class="">
+							<h2>Recife Caxangá</h2>
+	            <p>
+	              Av. Caxanga, 
+	              4617, 
+	              <br>
+	              Caxangá – 
+	              Recife/PE
+	               – CEP 50740-000<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+			</div>
+	  </div>
+	  <div id="footer">
+	  	<div class="row">
+				<div class="col-xs-12 col-sm-6">
+			  		<div class="item active ">
+			  			<div data-map="14">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  IMBIRIBEIRA:   
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 17h
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                    <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="17">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  CARUARU:  
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 13h
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                    <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="16">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  CAXANGÁ:  
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 09h às 14h 
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/jeepitaliana/" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="https://www.instagram.com/jeepitaliana/" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  </div>
+			  <div class="col-xs-12 col-sm-6">
+			  		<div class="item active ">
+			  			<div data-map="14" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-recife-imbiribeira">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 2121-1100'>(81) 2121-1100</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="17" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-mauricio-de-nassau">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 2103-4000'>(81) 2103-4000</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="16" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-bairro-caxanga">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 3454-1080'>(81) 3454-1080</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  </div>
+	  	</div>
+	  </div>
+	</div>
+	<div class="container-fluid">
+	 	<div class="copyright-content">
+      <h2 class="brand-client">
+        <a href="/" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png)">Italiana</a>
+      </h2>
+	  </div>
+		<div id="copyright">
+	  	<div class="row">
+	      <p class="copyright">© Copyright 2017 - Italiana - Todos os direitos reservados. <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>.</p>
+	      <h2 class="developer-brand">
+	        <a href="http://www.autoforce.com.br" target="_black" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/assets/logo_dark.png); background-size: contain;">AutoForce</a>
+	      </h2>
+    	</div>
+    </div>
+	</div>
+</footer>
+
+
+    <div class="overlay">
+      <div class="loader">
+        <div class="loading-slide">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
+        </div>
+      </div>
+      <div class="dark-side"></div>
+      
+        <div id="privacy-policy" class="pop-up-info pop-up-middle">
+    <div class="btn-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+    <div class="pop-up-wrapper-content">
+      <div class="pop-up-wrapper-item">
+        <h4>Política de Privacidade</h4>
+        <p>Nós estamos comprometidos em resguardar sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site – e respectivos serviços – e de que forma esses dados são manipulados e utilizados.</p>
+        <p>Alertamos que se você não concorda com o conteúdo desta política, não é recomendável baixar nossos materiais nem utilizar quaisquer de nossos serviços.</p>
+        <h4>Sobre a coleta de dados</h4>
+        <p>Em nossos sites, as informações são coletadas das seguintes formas:</p>
+        <p>Informações fornecidas por você – Coletamos informações de identificação pessoal – como nome, telefone, email, empresa em que trabalha e cargo – via preenchimento dos formulários para download de nossos conteúdos gratuitos. Eventualmente, a solicitação algumas informações podem ser feitas por meio de contato direto da Imbiribeira com os usuários via email ou telefone.</p>
+        <p>Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas.</p>
+        <p>Histórico de contato – Aqui na Imbiribeira armazenamos informações a respeito de todos os contatos já realizados com nossos usuários, como conteúdos baixados a partir de nossas páginas e interações via email.</p>
+        <h4>Sobre o uso de suas Informações Pessoais</h4>
+        <p>O presente termo permite que a Imbiribeira use suas informações pessoais para diferentes finalidades.</p>
+        <p>O email é utilizado para a operação de envio do material ou informação por você requisitada no preenchimento do formulário. Também pode ser usado para envio de Newsletters, sempre relacionadas a temas do Direito.</p>
+        <p>Por fim, o email será utilizado ainda para comunicar o lançamento de novos materiais gratuitos ou de novos serviços da Imbiribeira e parceiros. No entanto, o usuário pode cancelar a assinatura a qualquer momento.</p>
+        <p>Os dados de download poderão ser divulgados como pesquisas e estatísticas, não sendo reveladas abertamente nenhuma informação pessoal, a menos que autorizada explicitamente.</p>
+        <p>Funcionários da Imbiribeira poderão eventualmente entrar em contato via email ou telefone para fazer pesquisas ou apresentar produtos e serviços.</p>
+        <h4>Sobre o acesso às suas informações pessoais</h4>
+        <p>Poderão ver suas informações pessoais apenas funcionários da Imbiribeira. Eventualmente, caso a inserção de suas informações se dê em ações criadas em parcerias, os parceiros explicitamente identificados também terão acesso à informação.  Nenhuma informação pessoal poderá ser divulgada </p>
+        <p>A Imbiribeira também se compromete a não vender, alugar ou repassar suas informações para terceiros. A única exceção está em casos em que essas informações forem exigidas judicialmente.</p>
+        <p>Além disso, embora trabalhemos com boas práticas de proteção e segurança, nenhum serviço web possui 100% de garantia contra invasões e não podemos nos responsabilizar caso isso ocorra.</p>
+        <h4>Sobre o compartilhamento de conteúdo nas redes sociais</h4>
+        <p>Ao clicar nos botões de compartilhamento de conteúdo nas mídias sociais disponíveis em nossas páginas, o usuário estará publicando o conteúdo por meio de seu perfil na rede selecionada. A Imbiribeira não têm acesso ao login e senha dos usuários nessas redes, nem publicará conteúdo em nome do usuário sem que ele realize esta ação.</p>
+        <h4>Mudanças na Política de Privacidade</h4>
+        <p>Essa Política de Privacidade pode passar por atualizações. Desta forma, recomendamos visitar periodicamente esta página para que você tenha conhecimento sobre as modificações.</p>
+        <p>Antes de usar informações para outros fins que não os definidos nesta Política de Privacidade, solicitaremos sua autorização.</p>
+            <h4>Contato com a Imbiribeira para esclarecimento de dúvidas</h4>
+            <p>Qualquer dúvida em relação à nossa política de privacidade pode ser esclarecida entrando em contato conosco através do email: <a href="mailto:contato@italiana.com.br">contato@italiana.com.br</a></p>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+    <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_portal-eea3ae4b165aad8371f69fca33ad819d861e09be3b7f0968b1428c478bbb54ef.js"></script>
+
+
+
+    
+    
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=597f8dc55eb3920011c7cde6&product=inline-share-buttons"></script>
+  </body>
+</html>

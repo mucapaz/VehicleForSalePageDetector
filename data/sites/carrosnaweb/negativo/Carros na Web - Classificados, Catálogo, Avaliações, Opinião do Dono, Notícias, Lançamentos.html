@@ -1,0 +1,779 @@
+
+
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="canonical" href="http://www.carrosnaweb.com.br/" />
+<title>Carros na Web - Classificados, Catálogo, Avaliações, Opinião do Dono, Notícias, Lançamentos</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.carrosnaweb.com.br/imgsite/favicon.ico">
+        
+<meta name="description" content="Encontre aqui o que você procura sobre carros. Classificados, Ficha Técnica, Avaliação, Tabela FIPE, Anúncio Grátis, Opiniões, Notícias, Próximos Lançamentos">
+<meta name="keywords" content="Carros, Carrosnaweb, Automóveis, Veículos, Novos, Usados, Seminovos, Classificados, Notícias, Motos, Compra, Venda, Tabela Fipe">
+
+<link rel="stylesheet" href="css/reset.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/home2.css" type="text/css" rel="StyleSheet">
+<link rel="stylesheet" href="css/responsive.css">
+<script src="scripts/jquery-1.11.3.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="scripts/bootstrap.min.js"></script>
+
+<link rel="alternate" type="application/rss+xml" title="Carros na Web - Notícias em RSS" href="http://www.carrosnaweb.com.br/rss/news.xml" />
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!--inicio slide-->
+<script src="slide/scripts/mootools.release.83.js" type="text/javascript"></script>
+<script src="slide/scripts/timed.slideshow.js" type="text/javascript"></script>
+<link rel="stylesheet" href="slide/css/jd.slideshow.css" type="text/css" media="screen" />
+<style>
+#mySlideshow
+ {
+    width: 100%;
+    height: 350px;
+ } 
+</style>
+<!--fim slide-->
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default">
+
+            <!-- barra superior -->
+            
+		<map name="principal">
+			<area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil">
+		</map>
+        <div class="row-fluid header">
+			<!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header dtcm">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-principal" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <!--a class="navbar-brand" href="#">Brand</!--a-->
+            </div>
+			<div class="navbar-logo">
+				<h1><img src="imgsite/logobarratop.png" border="0" usemap="#principal"></h1>
+			</div>
+			<div class="navbar-header dtcm">
+				<button type="button" id="btn-search" class="navbar-toggle search-toggle btn btn-lg collapsed" data-toggle="collapse" data-target="#search" aria-expanded="false">
+					<span class="sr-only">Pesquisar</span>
+					<span class="icon-search glyphicon glyphicon-search" aria-hidden="true"></span>
+				</button>
+			</div>
+        </div>
+		<div class="row-fluid">
+			<div class="collapse navbar-collapse" id="search">
+				<form name="formbusca" id="formbusca" onsubmit="var result=checaformbusca(); return result;" action="busca.asp" method="get">
+					<div class="input-group">
+						<input type="search" name="busca" class="form-control" id="busca" onkeypress="event.returnValue=Aspas(event.keyCode);" size="25" placeholder="Pesquisar no CarrosnaWeb"> 
+						<span class="input-group-addon">
+							<a title="Encontre carros" href="#" onclick="document.getElementById('formbusca').submit();"><span class="icon-search glyphicon glyphicon-search" aria-hidden="true"></span></a>
+						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+
+<script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script>
+            			
+            <div class="row-fluid">
+                
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                  <ul class="nav navbar-nav">
+                    <li><a title="Mapa do site Carros na Web" href="mapa.asp">Mapa do site</a></li>
+                    <li><a title="Histórico do site Carros na Web" href="sobre.asp">Sobre o site</a></li>
+					<li><a title="Entre em contato com o site Carros na Web" href="faleconosco.asp">Fale Conosco</a></li>
+				  </ul>
+                  
+				  <ul class="social-icons nav navbar-nav">
+						<li><a href="http://twitter.com/Carrosnaweb" target="_blank"><img src="css/img/icon-1.png" alt=""></a></li>
+						<li><a href="http://www.facebook.com/carrosnaweb" target="_blank"><img src="css/img/icon-2.png" alt=""></a></li>
+						<li><a href="https://plus.google.com/+carrosnaweb" target="_blank"><img src="css/img/icon-3.png" alt=""></a></li>
+						<li><a href="http://www.carrosnaweb.com.br/rss/news.xml" target="_blank"><img src="css/img/icon-4.png" alt=""></a></li>
+					</ul>
+                </div><!-- /.navbar-collapse b09b58 -->
+
+            </div>
+        </nav>
+
+        <!-- Home-banner-topo -->
+<!--        <div class="row-fluid bcwhite dtcm container-ads"> -->
+
+<table cellspacing="0" cellpadding="0" width="100%" bgcolor="#ffffff">
+<tr bgcolor="#ffffff" height="20"><td bgcolor="#ffffff"></td></tr>
+<tr>
+<td align="center" bgcolor="#ffffff">
+		
+<!-- /5216696/Home-banner-topo -->		
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322134,
+    "async": false});
+</script>
+
+</td>
+</tr>
+<tr height="18"><td bgcolor="#ffffff"></td></tr>
+</table>
+		
+<!--		</div>	-->
+    </header>
+
+    <div class="row-fluid bcwhite corpo">
+        <div class="page-content col-lg-9 col-md-12 col-sm-12">
+            <div class="content-middle">
+                <div class="row">
+                    <div class="col-md-9 col-md-push-3 col-sm-9 col-sm-push-3">
+                        <div class="inner-wrap">
+                            <section class="conteudo">
+                                <article>
+                                    <div class="a-item a-item-1">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs" role="tablist">
+                                            <li role="presentation" class="active"><a href="#comprar" aria-controls="comprar" role="tab" data-toggle="tab">COMPRAR</a></li>
+                                            <li role="presentation"><a href="#vender" aria-controls="vender" role="tab" data-toggle="tab">VENDER</a></li>
+                                        </ul>
+
+                                        <!-- Tab panes -->
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane fade in active" id="comprar">
+                                                <form name="form1" id="form1" action="listaclassif.asp" method="post">
+                                                    <fieldset>
+                                                        <div class="form-group">Encontre as melhores ofertas para comprar o seu carro.</div>
+                                                        <div class="group">
+															<div class="form-group lado">
+		
+																<select name="fabricante" id="fabricante" onchange="EnviaID(this.value,'exibe_modelo','modelo','','yes')" class="form-control">
+																	<option value="Todos">Selecione</option>
+	
+																				<option value="Alfa Romeo">Alfa Romeo</option>
+	
+																				<option value="Asia">Asia</option>
+	
+																				<option value="Audi">Audi</option>
+	
+																				<option value="BMW">BMW</option>
+	
+																				<option value="Chana">Chana</option>
+	
+																				<option value="Changan">Changan</option>
+	
+																				<option value="Chery">Chery</option>
+	
+																				<option value="Chevrolet">Chevrolet</option>
+	
+																				<option value="Chrysler">Chrysler</option>
+	
+																				<option value="Citroen">Citroen</option>
+	
+																				<option value="Dafra">Dafra</option>
+	
+																				<option value="Daihatsu">Daihatsu</option>
+	
+																				<option value="Dodge">Dodge</option>
+	
+																				<option value="Effa">Effa</option>
+	
+																				<option value="Ferrari">Ferrari</option>
+	
+																				<option value="Fiat">Fiat</option>
+	
+																				<option value="Ford">Ford</option>
+	
+																				<option value="Gurgel">Gurgel</option>
+	
+																				<option value="Hafei">Hafei</option>
+	
+																				<option value="Harley-Davidson">Harley-Davidson</option>
+	
+																				<option value="Honda">Honda</option>
+	
+																				<option value="Hyundai">Hyundai</option>
+	
+																				<option value="Iveco">Iveco</option>
+	
+																				<option value="JAC">JAC</option>
+	
+																				<option value="Jeep">Jeep</option>
+	
+																				<option value="Jinbei">Jinbei</option>
+	
+																				<option value="Kasinski">Kasinski</option>
+	
+																				<option value="Kawasaki">Kawasaki</option>
+	
+																				<option value="Kia">Kia</option>
+	
+																				<option value="Lada">Lada</option>
+	
+																				<option value="Land Rover">Land Rover</option>
+	
+																				<option value="Lexus">Lexus</option>
+	
+																				<option value="Lifan">Lifan</option>
+	
+																				<option value="Mazda">Mazda</option>
+	
+																				<option value="Mercedes-Benz">Mercedes-Benz</option>
+	
+																				<option value="Mini">Mini</option>
+	
+																				<option value="Mitsubishi">Mitsubishi</option>
+	
+																				<option value="Nissan">Nissan</option>
+	
+																				<option value="OUTROS">OUTROS</option>
+	
+																				<option value="Peugeot">Peugeot</option>
+	
+																				<option value="Renault">Renault</option>
+	
+																				<option value="Rolls-Royce">Rolls-Royce</option>
+	
+																				<option value="Scania">Scania</option>
+	
+																				<option value="Seat">Seat</option>
+	
+																				<option value="Smart">Smart</option>
+	
+																				<option value="Ssangyong">Ssangyong</option>
+	
+																				<option value="Subaru">Subaru</option>
+	
+																				<option value="Suzuki">Suzuki</option>
+	
+																				<option value="Toyota">Toyota</option>
+	
+																				<option value="Troller">Troller</option>
+	
+																				<option value="Volkswagen">Volkswagen</option>
+	
+																				<option value="Volvo">Volvo</option>
+	
+																				<option value="Willys">Willys</option>
+	
+																				<option value="Yamaha">Yamaha</option>
+	
+																</select>
+															</div>
+															<div class="form-group lado">
+																<span id="exibe_modelo">
+																	<select name="modelo" id="modelo" onchange="javascript:document.location ='listaclassif.asp?fabricante='+document.form1.fabricante.value+'&amp;modelo='+document.form1.modelo.value+'" class="form-control"></select>
+																</span>		<input name="estado" id="estado" type="hidden">
+																<input name="cidade" id="cidade" type="hidden">
+																<input name="anofab" id="anofab" type="hidden">
+																<input name="anofim" id="anofim" type="hidden">
+															</div>
+															<div class="form-group lado">
+																<a title="Encontre o carro que procura aqui" href="classificados.asp" class="btn btn-danger">
+																	Busca detalhada
+																</a>
+															</div>
+														</div>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="vender">
+                                                <fieldset>
+                                                    <div class="form-group">Anuncie no CarrosnaWeb. É rápido, fácil e grátis!</div>
+                                                    <div class="form-group center">
+                                                        <input name="button2" class="btn btn-danger" title="Seu anúncio aparecerá na mesma hora" id="button2" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';" onclick="javascript: window.location.href = 'classifpergunta.asp';" type="button" value="VENDA SEU CARRO">
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="a-item tipo-col-3">
+                                        <div class="item-info">
+                                            <div class="hf-category">CATÁLOGO</div>
+                                            <div class="hf-title">
+                                                <a title="Catálogo de carros com fichas técnicas, equipamentos e fotos" href="avancada.asp">
+                                                    Fichas técnicas, fotos, consumo, desempenho e equipamentos
+                                                </a>
+                                            </div>
+<!--                                            <div class="hf-summary">
+                                                Realize uma busca detalhada e veja o catálogo com as melhores ofertas.
+                                            </div>-->
+                                        </div>
+                                    </div>
+                                    <div class="a-item tipo-col-3">
+                                        <div class="item-info">
+                                            <div class="hf-category">AVALIAÇÕES</div>
+                                            <div class="hf-title">
+                                                <a title="Pontos positivos e negativos" href="analiseindice.asp">
+                                                    Pontos positivos e negativos, cronologia, desvalorização
+                                                    </a>
+                                            </div>
+<!--                                            <div class="hf-summary">Conheça a história, cronologia, lançamento, séries especiais, pontos positivos e negativos, desvalorização e muito mais.</div>-->
+                                        </div>
+                                    </div>
+                                    <div class="a-item tipo-col-3 nbr">
+                                        <div class="item-info">
+                                            <div class="hf-category">OPINIÃO DO DONO</div>
+                                            <div class="hf-title">
+                                                <a title="Opinião dos donos sobre seus carros" href="opiniao.asp">
+                                                    Consulte e conheça o que os donos dizem sobre seus carros
+                                                </a>
+                                            </div>
+<!--                                            <div class="hf-summary">Antes de fazer a sua escolha sobre o seu próximo carro, saiba o que os atuais proprietários podem antecipar.</div>-->
+                                        </div>
+                                    </div>
+                                </article>
+								<article>
+                                    <div class="a-item center">
+
+                                        <div class="jdSlideshow" id="mySlideshow"></div>
+                                        <script type="text/javascript">
+				                            countArticle = 0;
+				                            var mySlideData = new Array();
+				                            mySlideData[countArticle++] = new Array(
+				                            'imgNoticias007/thumb500/Ranger-Sportrac-2018-1.jpg',
+				                            'noticias.asp?codnoticia=1712',
+				                            'Ford apresenta a Ranger Sportrac 2018 na Expointer',
+				                            ''
+				                            );
+				                            mySlideData[countArticle++] = new Array(
+				                            'imgNoticias007/thumb500/e300-coupe-2018-22.jpg',
+				                            'noticias.asp?codnoticia=1711',
+				                            'Mercedes E300 Coupe chega ao Brasil por R$ 390.900',
+				                            ''
+				                            );
+				                            mySlideData[countArticle++] = new Array(
+				                            'imgNoticias007/thumb500/renagade-custom-2018-1.jpg',
+				                            'noticias.asp?codnoticia=1710',
+				                            'Renegade 2018 chega com novas versões e série especial',
+				                            ''
+				                            );
+			                            </script>
+			                            <script type="text/javascript">
+				                            function startSlideshow() {
+					                            var slideshow = new timedSlideShow($('mySlideshow'), mySlideData);
+				                            }
+				                            addLoadEvent(startSlideshow);
+			                            </script>
+                                    </div>
+                                </article>
+                                <article>
+                                    <div class="a-item tipo-col-3">
+                                        <div class="item-info">
+                                            <div class="hf-category">CONCESSIONÁRIAS</div>
+                                            <div class="hf-title">
+                                                <a title="Avaliação de concessionárias de carros" href="concessionarias.asp">
+                                                    Localização, experiência e avaliação de quem já usou
+                                                </a>
+                                            </div>
+<!--                                            <div class="hf-summary">Veja o que os clientes tem a dizer sobre concessionárias de carros, saiba onde encontrá-las e ser melhor atendido.</div>-->
+                                        </div>
+                                    </div>
+                                    <div class="a-item tipo-col-3">
+                                        <div class="item-info">
+                                            <div class="hf-category">RANKINGS</div>
+                                            <div class="hf-title">
+                                                <a title="Ranking de carros no Brasil" href="ranking.asp">
+                                                    Os carros mais vendidos, os mais velozes, os mais caros
+                                                </a>
+                                            </div>
+<!--                                            <div class="hf-summary">Através de gráficos analise o desempenho dos principais segmentos do mercado durante o ano e conheça os carros mais vendidos.</div>-->
+                                        </div>
+                                    </div>
+                                    <div class="a-item tipo-col-3 nbr">
+                                        <div class="item-info">
+                                            <div class="hf-category">ROUBADOS</div>
+                                            <div class="hf-title">
+                                                <a title="Cadastro de veículo roubados ou furtados" href="roubados.asp">
+                                                    Cadastre e aumente suas chances de recuperação
+                                                </a>
+                                            </div>
+<!--                                            <div class="hf-summary">Você também pode consultar o cadastro antes de adquirir um veículo ou partes de um, evitando assim, problemas posteriores.</div>-->
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="ads pad20 margintop12">
+
+                                    
+    <div class="a-item a-item-ads">
+        <div class="item-info">
+            <div class="hf-category">COMPARATIVO DO DIA</div>
+            <div class="hf-title center">
+                <a title="Compare Ford Fiesta vs. Fiat Argo" href="resultcompara.asp?modelos=6140-7675&cont=0">
+                    Ford Fiesta vs. Fiat Argo
+                </a>
+            </div>
+            <ul>                
+				<li>
+                    <a title="Ford Fiesta SEL 1.6 16V 2017" href="resultcompara.asp?modelos=6140-7675&cont=0">
+                        <img src="imagensbd007\thumbCompara\Fiesta-se-2014-1.jpg" width=285 border="0">
+                    </a>
+                </li>
+                <li>
+                    <a title="Fiat Argo Drive 1.3 2018" href="resultcompara.asp?modelos=6140-7675&cont=0">
+                        <img src="imagensbd007\thumbCompara\argo-drive-1300-2018-1.jpg" width=285 border="0">
+                    </a>
+                </li>
+				
+            </ul>
+
+        </div>
+
+    </div>
+
+                                    
+                                </article>
+                                <article>
+                                    <div class="a-item">
+                                        <div class="item-info">
+                                            <div class="hf-category">DICAS</div>
+                                            <div class="hf-title">
+                                                <a href="dicas.asp">
+                                                    CLIQUE E SAIBA MAIS
+                                                </a>
+                                            </div>
+                                            <div class="hf-summary">
+                                                <ul>
+                                                    <li><a title="Consulte dados sobre Recall" href="recall.asp">Recall</a></li>
+                                                    <li><a title="Veja se é vantajoso usar o Gás Natural Veicular" href="dicasgas.asp">Gás Natural</a></li>
+                                                    <li><a title="Faça a consulta de multas de carros" href="dicascompravenda.asp">Multas</a></li>
+                                                    <li><a title="Veja o que saber antes de comprar um carro" href="dicascompravenda.asp">Procedência</a></li>
+                                                    <li><a title="Faça a consulta do IPVA de carros" href="ipva.asp">IPVA</a></li>
+                                                    <li><a title="Calcule custo do km rodado, custo mensal e anual do seu carro" href="dicas3.asp">Custo do carro</a></li>
+                                                    <li><a title="Conheça mais sobre blindagem de carros" href="dicasblindados.asp">Blindagem</a></li>
+                                                    <li><a title="Veja se está na hora de trocar o carro" href="dicas2.asp">Trocar o carro?</a></li>
+                                                    <li><a title="Veja se compensa abastecer com álcool ou com gasolina" href="dicasflex.asp">Álcool ou gasolina?</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+
+                            </section>
+                        </div>
+                    </div>
+
+                    <!-- menu esquerdo -->
+                    <div class="col-md-3 col-md-pull-9 col-sm-3 col-sm-pull-9">
+                        <ul>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Avaliações de carros" href="analiseindice.asp">Avaliações</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Catálogo de carros com fichas técnicas" href="avancada.asp">Catálogo</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Classificados de carros" href="classificados.asp">Classificados</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Comparativo de Carros" href="compara.asp">Comparativo</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Concessionárias" href="concessionarias.asp">Concessionárias</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Consórcio de carros, motos e imóveis" href="consorcio.asp">Consórcio</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Dicas e Macetes para cuidar do seu automóvel" href="dicas.asp">Dicas e macetes</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Enquetes sobre carros" href="enquete.asp">Enquetes</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Eventos Automotivos" href="eventos.asp">Eventos</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Financiamento de carros, motos, caminhões e imóveis" href="financia.asp">Financiamento</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Fórum de carros" href="forum.asp">Fórum</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Fotos de carros, motos, caminhões, ônibus" href="galerias.asp">Galerias</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Livro de Visitas" href="livrovisita.asp">Livro de visitas</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Lojistas, Revendas e Concessionárias de Carros" href="lojista.asp">Lojistas</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Gráficos com os carros mais vendidos no Brasil" href="carrosmaisvendidos.asp">Mais vendidos</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Notícias sobre o mercado automotivo brasileiro" href="noticiaslista.asp">Notícias</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Opinião do Dono" href="opiniao.asp">Opinião do dono</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Peças e acessórios" href="classpeca.asp">Peças e acessórios</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Placa VENDE para o seu carro" href="placainsere.asp">Placa VENDE</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Carros Procurados para compra" href="procurados.asp">Procurados</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Qual carro comprar?" href="qualcarrocomprar.asp">Qual carro comprar</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Rankings de Carros" href="ranking.asp">Rankings</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Cadastro de Carros Roubados" href="roubados.asp">Roubados</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Seguro Auto, cotação de seguro para o seu carro" href="seguro.asp">Seguro</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Tabela de preços de carros usados FIPE" href="http://www.fipe.org.br/pt-br/indices/veiculos/" target="_blank" rel="nofollow">Tabela de preços Fipe</a></li>
+                            <li><span class="glyphicon glyphicon-chevron-right"></span> <a title="Vídeos sobre carros brasileiros" href="videos.asp">Vídeos</a></li>
+                        </ul>
+
+                        <div class="widget newsletter">
+                            <div class="widget-titulo ">
+                                <strong class="titulo">NEWSLETTER</strong>
+                            </div>
+
+                            <div class="newsletter-cad">
+                                <form name="form2" id="form2" onsubmit="var result=checaform2(); return result;" action="news.asp" method="post">
+                                    <fieldset>
+                                        Cadastre seu e-mail e receba as novidades
+                                        <div class="input-group">
+                                            <input type="email" name="email" id="email" onkeypress="event.returnValue=Aspas(event.keyCode);" size="10" class="form-control" placeholder="Seu Email">
+                                            <span class="input-group-addon">
+                                                <a title="Cadastre seu e-mail e receba a newsletter do site Carros na Web" href="#" onclick="document.getElementById('form2').submit();">OK</a>
+                                            </span>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+
+<div class="classificados center">
+                    <div class="ads pad10">
+                        <div class="links-uteis">
+                                <div class="hf-category">QUAL CARRO COMPRAR?</div>
+                                <div class="hf-summary"><a title="Qual carro comprar?" href="qualcarrocomprar.asp">Defina suas prioridades e o site indicará os modelos mais adequados para você fazer a melhor escolha</a>
+								</div></div></div>
+</div>
+<div class="classificados center">
+                            <a href="http://www.casasnaweb.com.br/" target="_blank">
+                                <img title="Classificados de imóveis, casas, apartamentos, terrenos"
+                                     src="imgsite/imoveisbotao.gif"
+                                     border="0">
+                            </a>
+                        </div>
+
+<div class="classificados center">
+						
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Home-menu-inferior -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:200px;height:200px"
+     data-ad-client="ca-pub-9891172707995683"
+     data-ad-slot="8516517257"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div>
+						
+						
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="page-right col-lg-3 col-md-12 col-sm-12">
+            <div class="bcwhite center ads">
+
+<!-- /5216696/Home-quadrado-conteudo -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322135,
+    "async": false});
+</script>
+
+            </div>
+            <div>
+                <div class="content">
+                    <div class="ads pad20">
+                        <ul>
+                            <li class="small red"><span class="glyphicon glyphicon-ok-sign"></span> LINKS UTEIS</li>
+                        </ul>
+                        <div class="links-uteis">
+                            <ul>
+                                <li>
+                                    <div class="hf-category">TABELA DE PREÇOS FIPE</div>
+                                    <div class="hf-summary">
+                                        <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" target="_blank" rel="nofollow">
+                                            Confira o preço do carro que você quer comprar ou vender
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hf-category">SEGURO AUTO</div>
+                                    <div class="hf-summary">
+                                        <a title="Seguro Auto - Faça uma cotação de seguro para o seu carro" href="segurocotacao.asp">
+                                            Faça uma cotação para o seu carro
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hf-category">SERVIÇOS</div>
+                                    <div class="hf-summary">
+                                        <a title="Oficinas e lojas de peças para carros" href="servicos.asp">
+                                            Oficinas, lojas e prestadores de serviços
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hf-category">FÓRUM</div>
+                                    <div class="hf-summary">
+                                        <a title="Fórum de discussão sobre carros" href="forum.asp">
+                                            Discuta e tire suas dúvidas automotivas
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="hf-category">PRÓXIMOS LANÇAMENTOS</div>
+                                    <div class="hf-summary">
+                                        <a title="Conheça os próximos carros a serem lançados no Brasil" href="proxlancamentos.asp">
+                                            Saiba quais serão os próximos lançamentos de carros no mercado
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Home-quadrado-lateral -->
+            <div class="bcwhite center ads">
+
+<!-- /5216696/Home-quadrado-lateral -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322136,
+    "async": false});
+</script>
+
+           </div>
+			
+<div class="bcwhite center ads">
+
+<!-- Home quadrado lateral inferior -->
+<script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script>
+<script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 300662,
+    "async": false});
+</script>
+
+</div>
+
+        </aside>
+    </div>
+
+
+    
+    <footer>
+        <div class="content">
+            <div class="footer-menu">
+                <div class="wrap clearfix">
+                    <ul class="menu">
+                        <li><a title="P�gina principal do site CarrosnaWeb" href="http://www.carrosnaweb.com.br/default.asp">P&aacute;gina Principal</a></li>
+                        <li><a title="Mapa do site CarrosnaWeb" href="http://www.carrosnaweb.com.br/mapa.asp" rel="nofollow">Mapa do site</a></li>
+                        <li><a title="Hist�rico do site CarrosnaWeb" href="http://www.carrosnaweb.com.br/sobre.asp" rel="nofollow">Sobre o site</a></li>
+                        <li><a title="Pol�tica de Privacidade" href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" rel="nofollow">Privacidade</a></li>
+                        <li><a title="Termos de uso" href="http://www.carrosnaweb.com.br/termosdeuso.asp" rel="nofollow">Termos de uso</a></li>
+                        <li><a title="Mobile" href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" rel="nofollow">Mobile</a></li>
+                        <li><a title="Entre em contato com o site CarrosnaWeb" href="http://www.carrosnaweb.com.br/faleconosco.asp" rel="nofollow">Fale Conosco</a></li>
+                        <li><a title="Avise-nos sobre problemas com o site CarrosnaWeb" href="http://www.carrosnaweb.com.br/faleconosco.asp" rel="nofollow">Comunicar erro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright"><img width="25" align="center" src="imgsite/bandeira.jpg" vspace="3">&nbsp;&nbsp;2002 - 2017 &copy; carrosnaweb</div>
+        </div>
+    </footer>
+
+    
+
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+      {lang: 'pt-BR'}
+    </script>
+
+    <script language="JavaScript">
+	    function MM_openBrWindow(theURL,winName,features) 
+	    { 
+		    window.open(theURL,winName,features);
+	    }
+	    function Aspas(Tecla)
+	    {
+		    if (Tecla==39)
+		    {
+			    return false			
+		    }
+		    else
+		    {
+			    return true
+		    }
+	    }	
+	    function checaform2()
+	    {
+		    var erro="";
+		    if (window.document.form2.email.value == "")
+		    {
+			    erro += "Favor digitar o seu e-mail.";
+		    }
+		    else
+		    {
+			    var AtSym  = window.document.form2.email.value.indexOf('@')
+			    var Period = window.document.form2.email.value.lastIndexOf('.')
+			    var Space  = window.document.form2.email.value.indexOf(' ')
+			    var Length = window.document.form2.email.value.length - 1
+			    if ( (AtSym < 1) ||       // '@' cannot be in first position
+			       (Period <= AtSym+1) || // Must be atleast one valid char btwn '@' and '.'
+			       (Period == Length ) || // Must be atleast one valid char after '.'
+		           (Space  != -1) )       // No empty spaces permitted
+			    {  
+				    erro += "Formato de e-mail incorreto.";
+			    }
+		    }		
+		    if (erro == "")
+		    {
+			    return true
+		    }
+		    else
+		    {
+			    alert (erro);
+			    window.document.form2.email.focus();
+			    return false;
+		    }
+	    }
+	
+    </script>
+
+
+
+    <script src="scripts/ajaxfabricanteschange.js"></script>
+
+</body>
+</html>

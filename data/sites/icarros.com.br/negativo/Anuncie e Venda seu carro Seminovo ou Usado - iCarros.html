@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml"><head><link type="text/css" rel="stylesheet" href="https://static.icarros.com/javax.faces.resource/theme.css?ln=primefaces-icarros&amp;rv_=58" /><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/jsf.js?ln=javax.faces&amp;rv_=58"></script><script type="text/javascript" src="https://static.icarros.com/wro/jquery.js?rv_=392"></script><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/primefaces.js?ln=primefaces&amp;rv_=58"></script><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/jquery/jquery-plugins.js?ln=primefaces&amp;rv_=58"></script><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/primefaces-extensions.js?ln=primefaces-extensions&amp;v=1.0.0"></script><link type="text/css" rel="stylesheet" href="https://static.icarros.com/javax.faces.resource/tooltip/tooltip.css?ln=primefaces-extensions&amp;v=1.0.0" /><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/tooltip/tooltip.js?ln=primefaces-extensions&amp;v=1.0.0"></script><link type="text/css" rel="stylesheet" href="https://static.icarros.com/javax.faces.resource/watermark/watermark.css?ln=primefaces&amp;rv_=58" /><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/watermark/watermark.js?ln=primefaces&amp;rv_=58"></script><script type="text/javascript" src="https://static.icarros.com/javax.faces.resource/iCarrosAuth.js?ln=js&amp;rv_=58"></script><link type="text/css" rel="stylesheet" href="https://static.icarros.com/javax.faces.resource/iCarrosAuth.css?ln=css&amp;rv_=58" /><link type="text/css" rel="stylesheet" href="https://static.icarros.com/javax.faces.resource/fonts.css?ln=fonts&amp;rv_=58" />
+
+        <title>Anuncie e Venda seu carro Seminovo ou Usado - iCarros</title>
+        <meta name="description" content="O iCarros é o maior portal automotivo do Brasil e conta com a segurança de ser uma empresa do Itaú. São mais de 15 milhões  de visitas por mês, anuncie!" />
+        <meta name="keywords" content="Vendas, venda de carro, venda de carros" />
+        <meta property="fb:pages" content="115380525178756" />
+                <link href="http://img0.icarros.com/wro/basedesktop.css?rv_=392" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="http://img2.icarros.com/wro/base.js?rv_=392"></script>
+        <script type="text/javascript">
+            $(window).on('load',function(){
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.src = "//cdn.optimizely.com/js/1387080510.js";
+                $("head").append(s);
+            });
+        </script>
+                <script type="text/javascript" src="http://img1.icarros.com/comum/js/jquery-ui-1.9.2.min.js?rv_=392"></script>
+                <link href="http://img0.icarros.com/vender/css/vendernovo.css?rv_=392" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="http://img1.icarros.com/vender/js/vender.js?rv_=392"></script>
+            <meta property="og:title" content="Anuncie e Venda seu carro Seminovo ou Usado - iCarros" />
+            <meta property="og:description" content="O iCarros é o maior portal automotivo do Brasil e conta com a segurança de ser uma empresa do Itaú. São mais de 15 milhões  de visitas por mês, anuncie!" />
+            <meta property="og:url" content="http://www.icarros.com.br/vender/indexfaces.jsf" />
+            <meta property="og:image" content="http://www.icarros.com.br/comum/vender/imagens/logo_icarros_compartilhar.jpg" />
+            <link href="http://www.icarros.com.br/comum/vender/imagens/logo_icarros_compartilhar.jpg" rel="image_src" />
+
+            <link rel="canonical" href="http://www.icarros.com.br/vender/indexfaces.jsf" />
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $('.anchor-links').icarrosAchorScroll();
+                });
+            </script>
+        <script type="text/javascript">var pageDatalayerPairs=[];</script><script>
+                pageDatalayerPairs.push({'icGsp' : 'true'});
+            
+                pageDatalayerPairs.push({'icGsprP' : 'landingvender'});
+            
+                pageDatalayerPairs.push({'icUriPub' : '/vender/landingvender'});
+            </script>
+                    <script type="text/javascript">
+                        var urchinPage = montarCaminho(["vender","landingcompleta_FLUXO_PF"], '');
+                        pageDatalayerPairs.push({'icUPg' : urchinPage});
+                        if(urchinPage.search('leadGerada') >= 0){
+                            window['optimizely'] = window['optimizely'] || [];
+                            window.optimizely.push(["trackEvent", "leadGerada"]);
+                        }
+                    </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                doLoginCheck("#infousuario");
+                $('input, textarea').placeholder();
+                $('body').on('click', function(){
+                    if($('#eScreen').length > 0){f_dialogClose();}
+                    if($('.ouibounce-modal').length > 0){$('.ouibounce-modal').hide()}
+                });
+                if($('.ouibounce-modal').length > 0){
+                    var obM = $('.ouibounce-modal');
+                    var ckN = obM.attr('icr-ckn');
+                    var ckE = obM.attr('icr-cke');
+                    $('.ouibounce-modal .modal').on('click',function(e){e.stopPropagation();});
+                    ouibounce(obM[0], {
+                        sitewide: true,
+                        cookieDomain : '.icarros.com.br',
+                        cookieExpire : (ckE > 0 ? parseInt(ckN) : 5),
+                        cookieName : ckN,
+                        delay: 200, //delay (ms) entre o cursor sair do viewport e o modal aparecer
+                        timer: 5000 //tempo (ms) depois do load que precisa passar para que o ouibounce seja ativado
+                    });
+                }
+                $("img.imglazy").lazy({
+                    threshold:0,
+                    visibleOnly: true,
+                    bind:"event"
+                });
+                $(".lazycontainer").hover( function() {
+                    var forDiv=$(this).attr('for');
+                    var searchInto=forDiv!=null ? $("#"+forDiv) : $(this);
+                    searchInto.find("img.imglazy").lazy({
+                        bind: "event",
+                        delay: 0
+                    });
+                });
+
+                reSendSMS('');
+            });
+        </script></head><body>
+                            <div class="pagecontent">
+<form id="anuncieForm" name="anuncieForm" method="post" action="/vender/indexfaces.jsf" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded;charset=UTF-8">
+<input type="hidden" name="anuncieForm" value="anuncieForm" />
+<input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-2390434368437222761:-6408442118187409301" autocomplete="off" />
+
+        <div class="primeiro sectionbackground sbDestaque sbDestaqueHero primeiro">
+            <div class="sectionlimit sfBox">
+                    <div id="div-publicidade-superbanner-vt-esq" class="publicidade-superbanner-vertical esquerdo wide" style="display:none;height:0;width:0;"><p>publicidade</p></div>
+                    <div id="div-publicidade-superbanner-vt-dir" class="publicidade-superbanner-vertical direito wide" style="display:none;height:0;width:0;"><p>publicidade</p></div>
+
+                        <div class="clearfix vender vender-icarros vender-FLUXO_PF">
+                                <h1 class="titulo">Veja como é fácil vender seu carro</h1>
+                                <h2 class="subtitulo subtitulo_landing">Seu anúncio no maior site de carros do Brasil</h2>
+
+                            <div class="clearfix conteudo-box"><div class="esquerda dados-veiculo"><table class="form" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td class="label"><label for="anuncieForm:marca" class="icr-label">Marca</label></td>
+<td class="input"><select id="anuncieForm:marca" name="anuncieForm:marca" class="icr-input icr-input-slt icr-slt" size="1" onchange="mojarra.ab(this,event,'valueChange',0,'anuncieForm:modelo anuncieForm:anoModelo anuncieForm:versao anuncieForm:panelNumBuscas')">	<option value=""></option>
+	<option value="3">Audi</option>
+	<option value="4">BMW</option>
+	<option value="5">Chevrolet</option>
+	<option value="7">Citroën</option>
+	<option value="14">Fiat</option>
+	<option value="15">Ford</option>
+	<option value="16">Honda</option>
+	<option value="17">Hyundai</option>
+	<option value="20">Kia</option>
+	<option value="26">Mercedes Benz</option>
+	<option value="27">Mitsubishi</option>
+	<option value="28">Nissan</option>
+	<option value="29">Peugeot</option>
+	<option value="31">Renault</option>
+	<option value="35">Toyota</option>
+	<option value="36">Volkswagen</option>
+	<option value=""></option>
+	<option value="103">AC Cars</option>
+	<option value="53">Acura</option>
+	<option value="1">Alfa Romeo</option>
+	<option value="2">Asia</option>
+	<option value="99">Aston Martin</option>
+	<option value="3">Audi</option>
+	<option value="104">Bentley</option>
+	<option value="4">BMW</option>
+	<option value="87">Buggy BRM</option>
+	<option value="108">Buick</option>
+	<option value="94">Cadillac</option>
+	<option value="230">Carver Concept</option>
+	<option value="54">Chamonix</option>
+	<option value="88">Changan (Chana)</option>
+	<option value="100">Chery</option>
+	<option value="5">Chevrolet</option>
+	<option value="6">Chrysler</option>
+	<option value="7">Citroën</option>
+	<option value="97">CN Auto</option>
+	<option value="66">Crosslander</option>
+	<option value="10">Daewoo</option>
+	<option value="11">Daihatsu</option>
+	<option value="12">Dodge</option>
+	<option value="254">DS</option>
+	<option value="91">Effa</option>
+	<option value="67">Engesa</option>
+	<option value="68">Envemo</option>
+	<option value="252">Fargo</option>
+	<option value="13">Ferrari</option>
+	<option value="14">Fiat</option>
+	<option value="15">Ford</option>
+	<option value="256">Fyber Buggy</option>
+	<option value="246">Geely</option>
+	<option value="69">GMC</option>
+	<option value="98">Great Wall</option>
+	<option value="50">Gurgel</option>
+	<option value="93">Hafei Towner</option>
+	<option value="244">Haima</option>
+	<option value="16">Honda</option>
+	<option value="83">Hummer</option>
+	<option value="17">Hyundai</option>
+	<option value="95">Infiniti</option>
+	<option value="102">Isuzu</option>
+	<option value="71">Iveco</option>
+	<option value="228">JAC</option>
+	<option value="18">Jaguar</option>
+	<option value="19">Jeep</option>
+	<option value="96">JIN BEI</option>
+	<option value="251">Jonway</option>
+	<option value="48">JPX</option>
+	<option value="20">Kia</option>
+	<option value="21">Lada</option>
+	<option value="52">Lamborghini</option>
+	<option value="22">Land Rover</option>
+	<option value="248">Landwind</option>
+	<option value="23">Lexus</option>
+	<option value="106">Lifan</option>
+	<option value="51">Lincoln</option>
+	<option value="105">Lobini</option>
+	<option value="89">Lotus</option>
+	<option value="86">Mahindra</option>
+	<option value="24">Maserati</option>
+	<option value="72">Matra</option>
+	<option value="25">Mazda</option>
+	<option value="237">McLaren</option>
+	<option value="26">Mercedes Benz</option>
+	<option value="229">MG</option>
+	<option value="92">MG Spayc</option>
+	<option value="56">MINI</option>
+	<option value="27">Mitsubishi</option>
+	<option value="28">Nissan</option>
+	<option value="85">Oldsmobile</option>
+	<option value="40">Outras</option>
+	<option value="90">Pagani</option>
+	<option value="29">Peugeot</option>
+	<option value="57">Plymouth</option>
+	<option value="58">Pontiac</option>
+	<option value="30">Porsche</option>
+	<option value="241">Rely</option>
+	<option value="31">Renault</option>
+	<option value="238">Rolls-Royce</option>
+	<option value="84">Saab</option>
+	<option value="60">Saturn</option>
+	<option value="32">Seat</option>
+	<option value="236">Shineray</option>
+	<option value="250">Shuanghuan</option>
+	<option value="61">Smart</option>
+	<option value="101">Spyker</option>
+	<option value="41">SsangYong</option>
+	<option value="33">Subaru</option>
+	<option value="242">Sunbeam</option>
+	<option value="34">Suzuki</option>
+	<option value="107">TAC</option>
+	<option value="259">Tesla</option>
+	<option value="35">Toyota</option>
+	<option value="47">Troller</option>
+	<option value="36">Volkswagen</option>
+	<option value="38">Volvo</option>
+</select></td>
+</tr>
+<tr>
+<td class="label"><label for="anuncieForm:modelo" class="icr-label">Modelo</label></td>
+<td class="input"><select id="anuncieForm:modelo" name="anuncieForm:modelo" class="icr-input icr-input-slt icr-slt" size="1" onchange="mojarra.ab(this,event,'valueChange','@this','anuncieForm:anoModelo anuncieForm:versao anuncieForm:panelNumBuscas')">	<option value=""></option>
+</select></td>
+</tr>
+<tr>
+<td class="label"><label for="anuncieForm:anoModelo" class="icr-label">Ano</label></td>
+<td class="input"><select id="anuncieForm:anoModelo" name="anuncieForm:anoModelo" class="icr-input icr-input-slt icr-slt" size="1" onchange="mojarra.ab(this,event,'valueChange',0,'anuncieForm:versao')">	<option value=""></option>
+</select></td>
+</tr>
+<tr>
+<td class="label"><label for="anuncieForm:versao" class="icr-label">Versão</label></td>
+<td class="input"><select id="anuncieForm:versao" name="anuncieForm:versao" class="icr-input icr-input-slt icr-slt" size="1">	<option value=""></option>
+</select></td>
+</tr>
+<tr>
+<td class="label"><label for="anuncieForm:iCarrosAuth" class="icr-label">E-mail</label></td>
+<td class="input">
+
+
+        <div class="icarros-auth">
+
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    iCarrosAuthBind('form','anuncieForm:iCarrosAuth','','',eval());
+                });
+            </script>
+
+                <script type="text/javascript">
+                    iAuthSubmitCallback = null;
+                    iAuthSegmento = 'iCarros';
+                    
+                    
+                </script><script type="text/javascript">updatePanel = function() {PrimeFaces.ab({source:'anuncieForm:iCarrosAuth:j_idt76',formId:'anuncieForm',process:'anuncieForm:iCarrosAuth:j_idt76',update:'anuncieForm:iCarrosAuth:iAuthPanelForm anuncieForm:iCarrosAuth:isAutenticadoPanel',oncomplete:function(xhr,status,args){verifyAutoSubmit();;},params:arguments[0]});}</script><script type="text/javascript">verifyEmail = function() {PrimeFaces.ab({source:'anuncieForm:iCarrosAuth:j_idt77',formId:'anuncieForm',process:'anuncieForm:iCarrosAuth:j_idt77 anuncieForm:iCarrosAuth:iAuthPanelForm',update:'anuncieForm:iCarrosAuth:iAuthPanelForm anuncieForm:iCarrosAuth:isAutenticadoPanel',oncomplete:function(xhr,status,args){handlePanelAutenticacao(xhr, status, args); ;},params:arguments[0]});}</script><script type="text/javascript">verifyUsuarioId = function() {PrimeFaces.ab({source:'anuncieForm:iCarrosAuth:j_idt78',formId:'anuncieForm',process:'anuncieForm:iCarrosAuth:j_idt78',update:'anuncieForm:iCarrosAuth:iAuthPanelForm anuncieForm:iCarrosAuth:isAutenticadoPanel',oncomplete:function(xhr,status,args){handlePanelAutenticacao(xhr, status, args); ;},params:arguments[0]});}</script><input id="anuncieForm:iCarrosAuth:usuarioValidator" type="hidden" name="anuncieForm:iCarrosAuth:usuarioValidator" value="nao permite submit sem autenticacao" /><span id="anuncieForm:iCarrosAuth:isAutenticadoPanel"><input id="anuncieForm:iCarrosAuth:isAutenticado" type="hidden" name="anuncieForm:iCarrosAuth:isAutenticado" value="false" /></span><script id="anuncieForm:iCarrosAuth:j_idt79_s" type="text/javascript">$(function() {PrimeFacesExt.cw('Tooltip', 'widget_anuncieForm_iCarrosAuth_j_idt79',{id:'anuncieForm:iCarrosAuth:j_idt79',global:false,shared:false,autoShow:false,forTarget:null,content:"",show:{event:'mouseenter',delay:0,effect:function(){$(this).fadeIn(500);}},hide:{event:'mouseleave',delay:0,fixed:false,effect:function(){$(this).fadeOut(500);}},position: {at:'bottom right',my:'top left',adjust:{x:0,y:0},viewport:$(window)}},true);});</script><div id="anuncieForm:iCarrosAuth:iAuthPanelForm" class="iCarrosAuthPanelPadrao"><div id="anuncieForm:iCarrosAuth:usuarioInput" class="clearfix user-login"><input autocorrect="off" type="email" spellcheck="false" autocapitalize="off" id="anuncieForm:iCarrosAuth:emailInputForm" type="text" name="anuncieForm:iCarrosAuth:emailInputForm" autocomplete="off" class="icr-input icr-input-l " onfocus="submitOnLogged=null;" title="" onblur="PrimeFaces.ab({source:this,event:'blur',process:'anuncieForm:iCarrosAuth:emailInputForm',update:'anuncieForm:iCarrosAuth:emailInputForm',oncomplete:function(xhr,status,args){verifyEmail();}}, arguments[1]);" /></div></div>
+
+                <div id="icauth-carregando" class="carregando">carregando...</div>
+
+        </div></td>
+</tr>
+</tbody>
+</table>
+<input id="anuncieForm:btnContinuar" type="submit" name="anuncieForm:btnContinuar" value="Anuncie agora" class="icr-btn icr-btn-redondo icr-btn-xl icr-btn-laranja" onclick="_gaq.push(['_trackEvent', 'Vender', 'Landing', 'Form']);" /></div><div class="direita dados-informativos"><div id="anuncieForm:panelNumBuscas" class="clearfix num-buscas-landing">
+                                        <h3 class="numbusca_azul">4.086.738
+                                        </h3>
+                                        <p>compradores <span></span> visitaram o iCarros nos últimos 30 dias</p></div><div class="clearfix">
+                                        <ul class="listavertical">
+                                            <li class="clearfix primeiro">
+                                                <span class="icones icone-carro-multiplo"></span>
+                                                <p><strong>+ de 50 mil carros</strong> vendidos no último mês</p>
+                                            </li>
+                                            <li class="clearfix">
+                                                <span class="icones icone-calendario"></span>
+                                                <p>Anuncie seu carro <strong>até vender</strong></p>
+                                            </li>
+                                            <li class="clearfix ultimo">
+                                                <span class="icones icone-itau"></span>
+                                                <p>Segurança de anunciar em uma empresa do Itaú</p>
+                                            </li>
+                                        </ul></div></div>
+
+                            </div><div class="btn-continuar-crm clearfix"></div>
+
+                        </div>
+            </div>
+        </div>
+        <div class="sectionbackground sbDestaque anchor-links">
+            <div class="sectionlimit ">
+
+                        <div class="clearfix">
+                            <ul class="listahorizontal">
+                                <li for="vantagens" class="primeiro anchor-link">
+                                    <span class="icones icone-like"></span>
+                                    <h4>Vantagens</h4>
+                                </li>
+                                <li for="planosPrecos" class="anchor-link">
+                                    <span class="icones icone-planos-precos"></span>
+                                    <h4>Planos e Preços</h4>
+                                </li>
+                                <li for="depoimentos" class="anchor-link">
+                                    <span class="icones icone-aspas-dupla"></span>
+                                    <h4>Depoimentos</h4>
+                                </li>
+                                <li for="perguntasFrequentes" class="ultimo anchor-link">
+                                    <span class="icones icone-interrogacao"></span>
+                                    <h4>Perguntas Frequentes</h4>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+        <div class="sectionbackground ">
+            <div class="sectionlimit ">
+
+                        <div id="vantagens" class="clearfix destaque destaque-vantagens">
+                            <h3 class="titulo_topico">Vantagens</h3>
+                            <div class="clearfix destaque-conteudo destaque-carro-tag">
+                                <span class="esquerda icones-cross icone-carro-tag"></span>
+                                <div class="direita">
+                                    <h4 class="titulo_separador">Por que anunciar seu carro?</h4>
+                                    <p class="texto_topico">Anuncie e venda pelo maior valor ao invés de receber menos na troca por outro carro. Não espere seu carro desvalorizar no mercado, faça um bom negócio</p>
+                                </div>
+                            </div>
+                            <div class="clearfix destaque-conteudo destaque-carro-internet">
+                                <div class="esquerda">
+                                    <h4 class="titulo_separador">Por que escolher a internet para vender seu carro?</h4>
+                                    <p class="texto_topico">Seu anúncio fica publicado 24 horas por dia e você pode negociar por e-mail e sem intermediários. Gerencie as informações do anúncio sem precisar sair de casa.</p>
+                                </div>
+                                <span class="direita icones-cross icone-carro-internet"></span>
+                            </div>
+                            <div class="clearfix destaque-conteudo destaque-anunciar-icarros">
+                                <span class="esquerda icone-parceiros"></span>
+                                <div class="direita">
+                                    <h4 class="titulo_separador">Por que anunciar no iCarros?</h4>
+                                    <p class="texto_topico">O iCarros é o maior portal automotivo do país com mais de 15 milhões  de potenciais compradores e seu anúncio também aparece nos portais parceiros. Faça parte dos nossos anunciantes satisfeitos.</p>
+                                </div>
+                            </div>
+                            <div class="clearfix destaque-conteudo destaque-anunciar-seguranca">
+                                <div class="esquerda">
+                                    <h4 class="titulo_separador">Por que você pode se sentir seguro no iCarros?</h4>
+                                    <p class="texto_topico">O iCarros é uma empresa do Itaú e possui todos os certificados de um site seguro. Não compartilhamos seus dados com terceiros, pois confiança é primordial.</p>
+                                </div>
+                                <span class="direita icones-cross icone-anunciar-seguranca"></span>
+                            </div>
+                            <div class="venda-rapido"><input id="anuncieForm:btnVantagensVR" type="submit" name="anuncieForm:btnVantagensVR" value="venda seu carro rápido" class="icr-btn icr-btn-redondo icr-btn-xl icr-btn-laranja" onclick="_gaq.push(['_trackEvent', 'Vender', 'Landing', 'Vantagens']);" />
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="sectionbackground sbDestaque">
+            <div class="sectionlimit ">
+                        <div id="planosPrecos" class="clearfix destaque destaque-planos-precos">
+                            <h3 class="titulo_topico">Planos e Preços</h3>
+                            <h5 class="subtitulo">Em todos os planos as propostas são enviadas gratuitamente para o seu e-mail e por SMS, negociando sem intermediários.</h5>
+                            <div class="clearfix planos">
+                                <ul class="listahorizontal">
+                                        <li class="plano plano-plano-ate-vender primeiro">
+                                            <h6 class="nome">Plano Até vender</h6>
+                                            <p class="beneficios"></p>
+                                            <div class="preco">
+                                                <div class="clearfix preco-padrao">R$
+                                                    119,90
+                                                </div>
+                                            </div><div class="plano-parcelado">
+                                                <span>ou 2 x de R$ 59,95
+                                                </span></div>
+                                        </li>
+                                        <li class="plano plano-plano-45-dias">
+                                            <h6 class="nome">Plano 45 dias</h6>
+                                            <p class="beneficios"></p>
+                                            <div class="preco">
+                                                <div class="clearfix preco-padrao">R$
+                                                    99,90
+                                                </div>
+                                            </div><div class="plano-parcelado">
+                                                <span>ou 2 x de R$ 49,95
+                                                </span></div>
+                                        </li>
+                                        <li class="plano plano-plano-30-dias ultimo">
+                                            <h6 class="nome">Plano 30 dias</h6>
+                                            <p class="beneficios"></p>
+                                            <div class="preco">
+                                                <div class="clearfix preco-padrao">R$
+                                                    49,90
+                                                </div>
+                                            </div>
+                                        </li>
+                                </ul>
+                            </div>
+                                <h4 class="titulo_separador">Como fica seu anúncio</h4>
+                                <p class="subtitulo_descritivo">Você pode incluir até 9 fotos e seu anúncio fica publicado 24 horas por dia.</p>
+                                <div class="clearfix lista_anuncios">
+                                    <div class="clearfix anuncios">
+                                        <ul class="listavertical">
+                                            <li class="anuncio anuncio_diamante_ate_vender">
+                                                <div class="anuncio_container">
+                                                    <a title="Hyundai Santa Fe GLS 2.7 V6 4x4" class="clearfix disable">
+                                                        <h2 class="esquerda titulo_anuncio">Hyundai Santa Fe GLS 2.7 V6 4x4</h2>
+                                                        <h3 class="direita preco_anuncio">R$ 51.900,00</h3>
+                                                    </a>
+                                                    <div class="clearfix dados_anuncio">
+                                                        <a class="disable" title="Hyundai Santa Fe GLS 2.7 V6 4x4">
+                                                            <img class="imglazy" src="http://img0.icarros.com/dbimg/imgadicionalanuncio/1/30849335_1" alt="" />
+                                                        </a>
+                                                        <div class="dados_veiculo">
+                                                            <a class="clearfix disable" title="Hyundai Santa Fe GLS 2.7 V6 4x4">
+                                                                <ul class="listahorizontal">
+                                                                    <li class="primeiro">
+                                                                        <span>Ano</span>
+                                                                        <p>2008</p>
+                                                                    </li>
+                                                                    <li class="usado">
+                                                                        <span>Km</span>
+                                                                        <p>50.000</p>
+                                                                    </li>
+                                                                    <li class="">
+                                                                        <span>Cor</span>
+                                                                        <p>Prata</p>
+                                                                    </li>
+                                                                    <li class="ultimo">
+                                                                        <span>Câmbio</span>
+                                                                        <p>automático</p>
+                                                                    </li>
+                                                                </ul>
+                                                                <p class="texto_padrao">Blindada, completa, cambio automático, pneus novos, som de fábrica, 50.000 km, final de placa 4</p>
+                                                            </a>
+                                                        </div>
+                                                        <div class="dados_anunciante">
+                                                            <strong>Anúncio de particular</strong>
+                                                            <p>São Paulo - SP</p>
+                                                        </div>
+                                                        <div class="dados_proposta">
+                                                            <ul class="listahorizontal">
+                                                                <li class="primeiro">
+                                                            <span id="lead_7192084">
+                                                                <a class="disable"><strong>enviar proposta</strong></a>
+                                                            </span>
+                                                                </li>
+                                                                <li>
+                                                            <span id="tel_7192084">
+                                                                <a class="disable">ver telefone</a>
+                                                            </span>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            <h4 class="titulo_separador">Formas de Pagamento</h4>
+                            <p class="subtitulo_descritivo">Cartão de Crédito, Transferência Eletrônica e Boleto Bancário</p>
+                            <div class="clearfix formas-pagamento">
+                                <ul class="listahorizontal">
+                                        <li class=" tipo-pagamento tipo-pagamento-visa primeiro">
+                                            <img class="bl-itau" src="http://img0.icarros.com/dbimg/imgtipopagamento/2/15_1" alt="Visa" title="Visa" />
+                                            <div title="Visa" class="icone-logo-itau icone-logo-itau-filtro-cross bl-no-itau"></div>
+                                        </li>
+                                        <li class=" tipo-pagamento tipo-pagamento-mastercard">
+                                            <img class="bl-itau" src="http://img1.icarros.com/dbimg/imgtipopagamento/2/7_7" alt="Mastercard" title="Mastercard" />
+                                            <div title="Mastercard" class="icone-logo-itau icone-logo-itau-filtro-cross bl-no-itau"></div>
+                                        </li>
+                                        <li class=" tipo-pagamento tipo-pagamento-diners-club">
+                                            <img class="bl-itau" src="http://img2.icarros.com/dbimg/imgtipopagamento/2/8_6" alt="Diners Club" title="Diners Club" />
+                                            <div title="Diners Club" class="icone-logo-itau icone-logo-itau-filtro-cross bl-no-itau"></div>
+                                        </li>
+                                        <li class="line-itau tipo-pagamento tipo-pagamento-transferencia-eletronica-itau">
+                                            <img class="bl-no-itau" src="http://img2.icarros.com/dbimg/imgtipopagamento/2/5_1" alt="Transferência Eletrônica Itau" title="Transferência Eletrônica Itau" />
+                                            <div title="Transferência Eletrônica Itau" class="icone-logo-itau icone-logo-itau-filtro-cross imglogo-itau"></div>
+                                        </li>
+                                        <li class=" tipo-pagamento tipo-pagamento-boleto-bancario ultimo">
+                                            <img class="bl-itau" src="http://img1.icarros.com/dbimg/imgtipopagamento/2/4_3" alt="Boleto Bancário" title="Boleto Bancário" />
+                                            <div title="Boleto Bancário" class="icone-logo-itau icone-logo-itau-filtro-cross bl-no-itau"></div>
+                                        </li>
+                                </ul>
+                            </div>
+
+                            <div class="venda-rapido"><input id="anuncieForm:btnPlanosVR" type="submit" name="anuncieForm:btnPlanosVR" value="venda seu carro rápido" class="icr-btn icr-btn-redondo icr-btn-xl icr-btn-laranja" onclick="_gaq.push(['_trackEvent', 'Vender', 'Landing', 'Planos']);" />
+                            </div>
+
+                        </div>
+            </div>
+        </div>
+        <div class="sectionbackground ">
+            <div class="sectionlimit ">
+                            <div id="depoimentos" class="clearfix destaque destaque-depoimentos">
+                                <h3 class="titulo_topico">Depoimentos</h3>
+                                <h5 class="subtitulo">São 5.746 novos anunciantes nos últimos 30 dias.</h5>
+                                <div class="clearfix destaque-conteudo destaque-depoimento-1">
+                                    <span class="esquerda icones-cross icone-depoimento-1"></span>
+                                    <div class="direita">
+                                        <p class="texto_topico">"Fiquei extremamente satisfeito com o iCarros, optei pelo plano Até Vender e vendi meu carro. Já é o segundo que vendo neste site, eu indico mesmo."</p>
+                                        <p class="anunciante"><strong>Pedro Ivo</strong></p>
+                                        <p class="veiculo">vendeu seu Fiat Punto através do iCarros</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix destaque-conteudo destaque-depoimento-2">
+                                    <span class="direita icones-cross icone-depoimento-2"></span>
+                                    <div class="direita">
+                                        <p class="texto_topico">"Com uma experiência de 5 carros vendidos na internet, anunciei no iCarros com muita facilidade, economia e segurança."</p>
+                                        <p class="anunciante"><strong>Carlos Pinelli</strong></p>
+                                        <p class="veiculo">vendeu seu Ford Fusion através do iCarros</p>
+                                    </div>
+                                </div>
+                                <div class="clearfix destaque-conteudo outros-depoimentos">
+                                    <ul class="listahorizontal">
+                                        <li class="depoimento primeiro">
+                                            <p>"Fiquei extremamente satisfeita e o que mais me deu segurança foi o vínculo com o Itaú. Eu sempre recomendo, foi extremamente rápido."</p>
+                                            <p class="anunciante"><strong>Andrea de Souza</strong></p>
+                                        </li>
+                                        <li class="depoimento">
+                                            <p>"Coloquei meu carro no iCarros e em outros sites e disparado recebi as melhores propostas pelo iCarros. Acabei fechando negócio bem rápido."</p>
+                                            <p class="anunciante"><strong>Carlos Bataglia</strong></p>
+                                        </li>
+                                        <li class="depoimento ultimo">
+                                            <p>"Cadastrei meu veículo e recebia a toda hora o contato de alguém que tinha interesse e as notificações sempre vinham no meu e-mail, foi no iCarros que consegui vender."</p>
+                                            <p class="anunciante"><strong>Marcelo Herrera</strong></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="venda-rapido"><input id="anuncieForm:btnDepoimentosVR" type="submit" name="anuncieForm:btnDepoimentosVR" value="venda seu carro rápido" class="icr-btn icr-btn-redondo icr-btn-xl icr-btn-laranja" onclick="_gaq.push(['_trackEvent', 'Vender', 'Landing', 'Depoimentos']);" />
+                                </div>
+                            </div>
+            </div>
+        </div>
+        <div class="sectionbackground ">
+            <div class="sectionlimit ">
+                        <div id="perguntasFrequentes" class="clearfix destaque destaque-faq">
+                            <h3 class="titulo_topico">Perguntas Frequentes</h3>
+                            <ul class="listavertical">
+                                <li class="primeiro pergunta">
+                                    <h6 class="titulo_separador">Como cancelar o Plano 15 dias com renovação automática?</h6>
+                                    <p class="texto_topico">Seu anúncio publicado no iCarros tem validade de 15 dias com renovação automática no Cartão de Crédito a cada 15 dias. Para cancelar a renovação siga o passo-a-passo</p>
+                                    <p class="texto_topico">Acesse o iCarros &gt; <a href="/myicarros/indexfaces.jsf" title="Login">Clique em login</a> &gt; Insira seu e-mail e senha cadastrados &gt; Clique em "Gerenciar Anúncio" &gt; Escolha a opção "Cancelar Renovação Automática.</p>
+                                </li>
+                                <li class="pergunta">
+                                    <h6 class="titulo_separador">Como posso gerenciar meu anúncio, inserir fotos e alterar os dados?</h6>
+                                    <p class="texto_topico">É simples! Para alterar seu anúncio siga o passo-a-passo</p>
+                                    <p class="texto_topico">Acesse o iCarros &gt; <a href="/myicarros/indexfaces.jsf" title="Login">Clique em login</a> &gt; Insira seu e-mail e senha cadastrados &gt; Clique em "Gerenciar Anúncio" &gt; Em "Acesso Rápido" você edita os dados do veículo dentre outras informações.</p>
+                                </li>
+                                <li class="pergunta">
+                                    <h6 class="titulo_separador">Como faço para saber quanto vale meu carro?</h6>
+                                    <p class="texto_topico">No iCarros, avaliar seu carro é muito fácil. Acesse a página principal do site e clique em <a href="/tabela-fipe/index.jsp" title="Tabela FIPE">Tabela FIPE</a> &gt; Informe os dados do veículo e clique em "Avaliar"</p>
+                                    <p class="texto_topico">Você receberá imediatamente a avaliação do veículo informado de acordo com a tabela FIPE e também o valor médio pelo qual o veículo é anunciado pelo iCarros. Além disso, receberá a quantidade de buscas por este modelo de carro.</p>
+                                </li>
+                                <li class="ultimo pergunta">
+                                    <h6 class="titulo_separador">Continua com dúvidas?</h6>
+                                    <p class="texto_topico">Acesse a seção "Fale Conosco" <a href="https://icarros.zendesk.com/hc/pt-br" target="_blank" title="Fale Conosco">clicando aqui</a></p>
+                                </li>
+                            </ul>
+                        </div>
+            </div>
+        </div>
+</form>
+
+        
+
+        <div class="header tema_icarros">
+
+            <script type="text/javascript">
+                /* <![CDATA[ */
+                    $(document).ready(function(){initMenu(0, 'https://static.icarros.com/dbimg/imgnoticia/5/');
+
+                    });
+                    $(window).on('load resize', function(){initHamburguer();});
+                /* ]]> */
+            </script>
+
+                <div class="menuresponsivo menuCARRO ">
+                        <div id="mRev" class="desktoponly">
+                            <div class="centered">
+                                <div class="esquerda">
+                                    <ul class="listahorizontal">
+                                        <li class="primeiro"><a href="/adminpj/indexfaces.jsf" rel="nofollow" title="Portal Revenda">Portal Revenda</a></li>
+                                        <li class=""><a href="/adminpj/estoque.jsf" rel="nofollow" title="Estoque">Estoque</a></li>
+                                        <li class=""><a href="/adminpj/propostas.jsf" rel="nofollow" title="Propostas">Propostas</a></li>
+                                        <li class="ultimo"><a href="/adminpj/relatorio.jsf" rel="nofollow" title="Relatórios">Relatórios</a></li>
+                                    </ul>
+                                </div>
+                                <div class="direita">
+                                    <a href="/adminpj/indexfaces.jsf" rel="nofollow" title="Portal Revenda">entrar</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    <div id="menuHeader" class="menutopo">
+                        <div class="centered">
+                            <a href="/principal/index.jsp" title="iCarros"><span class="icones icone-logo-icarros"></span></a>
+                            <div class="hamburguer phoneonly">
+                                <span class="icones icone-hamburguer" data-status="closed"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menunav ">
+
+                        <ul id="menuprincipal" class="clearfix ">
+
+                            <li class="lazycontainer primeiro">
+                                <a class="item-principal" href="/comprar" title="Comprar">Comprar</a>
+                                    <div class="clearfix desktoponly menu-secundario">
+                                        <ul class="clearfix desktoponly listavertical">
+                                            <li><a href="/comprar/usados" class="linkmenu" title="Carros usados e seminovos">Carros usados e seminovos</a></li>
+                                                <li><a href="/consultor-compra/recomendamos.jsf" class="linkmenu" title="Carro recomendado">Consultor de compra</a></li>
+                                            <li><a rel="nofollow" href="/myicarros/anunciossalvos.jsf" class="linkmenu" title="Meus anúncios gravados">Meus anúncios gravados</a></li>
+                                                <li><a href="/opiniao-carros/indexfaces.jsf" class="linkmenu" title="Opinião do dono">Opinião do dono</a></li>
+                                        </ul>
+                                        <div class="menu-cross comprar desktoponly">
+                                            <div class="clearfix">
+                                                <ul class="clearfix listahorizontal diretorio">
+                                                        <li class="primeiro">
+                                                            <a href="/comprar/honda/civic?reg=city" title="Comprar Honda Civic">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/231_18.png" alt="Civic" />
+                                                                <span>Civic</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/volkswagen/gol?reg=city" title="Comprar Volkswagen Gol">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/480_12.png" alt="Gol" />
+                                                                <span>Gol</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/toyota/corolla?reg=city" title="Comprar Toyota Corolla">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/468_7.png" alt="Corolla" />
+                                                                <span>Corolla</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/fiat/palio?reg=city" title="Comprar Fiat Palio">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/214_5.png" alt="Palio" />
+                                                                <span>Palio</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/chevrolet/celta?reg=city" title="Comprar Chevrolet Celta">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/130_12.png" alt="Celta" />
+                                                                <span>Celta</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/ford/ecosport?reg=city" title="Comprar Ford Ecosport">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/607_10.png" alt="Ecosport" />
+                                                                <span>Ecosport</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/hyundai/hb20?reg=city" title="Comprar Hyundai HB20">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/2398_8.png" alt="HB20" />
+                                                                <span>HB20</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="ultimo">
+                                                            <a href="/comprar/chevrolet/s10-cabine-dupla?reg=city" title="Comprar Chevrolet S10 Cabine Dupla">
+                                                                <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/560_22.png" alt="S10 Cabine Dupla" />
+                                                                <span>S10 Cabine Dupla</span>
+                                                            </a>
+                                                        </li>
+                                                </ul>
+                                                <ul class="clearfix listahorizontal cross-links">
+                                                    <li class="primeiro"><span>Principais Cidades:</span></li>
+                                                        <li>
+                                                            <a href="/comprar/maringa-pr" title="Ofertas de carros usados e novos em Maringá">
+                                                                <span>Maringá</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/santo-andre-sp" title="Ofertas de carros usados e novos em Santo André">
+                                                                <span>Santo André</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/guarulhos-sp" title="Ofertas de carros usados e novos em Guarulhos">
+                                                                <span>Guarulhos</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/uberlandia-mg" title="Ofertas de carros usados e novos em Uberlândia">
+                                                                <span>Uberlândia</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/sao-jose-dos-campos-sp" title="Ofertas de carros usados e novos em São José dos Campos">
+                                                                <span>São José dos Campos</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/jundiai-sp" title="Ofertas de carros usados e novos em Jundiaí">
+                                                                <span>Jundiaí</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/londrina-pr" title="Ofertas de carros usados e novos em Londrina">
+                                                                <span>Londrina</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/ribeirao-preto-sp" title="Ofertas de carros usados e novos em Ribeirão Preto">
+                                                                <span>Ribeirão Preto</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/sorocaba-sp" title="Ofertas de carros usados e novos em Sorocaba">
+                                                                <span>Sorocaba</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/sao-paulo-sp" title="Ofertas de carros usados e novos em São Paulo">
+                                                                <span class="destaque">São Paulo</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/fortaleza-ce" title="Ofertas de carros usados e novos em Fortaleza">
+                                                                <span>Fortaleza</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/salvador-ba" title="Ofertas de carros usados e novos em Salvador">
+                                                                <span>Salvador</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/sao-bernardo-do-campo-sp" title="Ofertas de carros usados e novos em São Bernardo do Campo">
+                                                                <span>São Bernardo do Campo</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/comprar/porto-alegre-rs" title="Ofertas de carros usados e novos em Porto Alegre">
+                                                                <span class="destaque">Porto Alegre</span>
+                                                            </a>
+                                                        </li>
+                                                        <li class="ultimo">
+                                                            <a href="/comprar/goiania-go" title="Ofertas de carros usados e novos em Goiânia">
+                                                                <span class="destaque">Goiânia</span>
+                                                            </a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </li>
+
+                            <li class="lazycontainer">
+                                <a class="item-principal" href="/vender/indexfaces.jsf?endo_id=73&amp;reiniciar=true" title="Venda seu carro">Vender</a>
+                                    <div class="clearfix desktoponly menu-secundario">
+                                        <ul class="clearfix desktoponly listavertical">
+                                            <li class="primeiro"><a href="/vender/indexfaces.jsf?endo_id=73&amp;reiniciar=true" title="Anuncie seu carro">Anuncie seu carro</a></li>
+                                            <li class="ultimo"><a href="/myicarros/indexfaces.jsf#gerenciar_anuncio_0" title="Gerenciar anúncio">Gerenciar anúncio</a></li>
+                                        </ul>
+                                            <div class="menu-cross vender desktoponly banner-background">
+                                                <div class="banner_destaque">
+                                                    <div class="esquerda info_destaque_vender">
+                                                        <p class="txt14-align-left">Anuncie para mais de <span class="negrito">8 milhões</span> de pessoas e venda rápido.</p>
+                                                    </div>
+                                                    <div class="clearfix itau">
+                                                        <div class="direita icr-btn-vender-inferior">
+                                                            <a href="/vender/indexfaces.jsf?endo_id=1230&amp;reiniciar=true">
+                                                                <button type="button" class="icr-btn icr-btn-m icr-btn-redondo icr-btn-laranja" title="Venda seu carro">Quero vender</button>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </li>
+                                <li class="lazycontainer"><a class="item-principal" href="/catalogo/index.jsp" title="Catálogo 0km">Catálogo 0km</a>
+                                        <div class="clearfix desktoponly menu-secundario">
+                                            <ul class="clearfix desktoponly listavertical">
+                                                <li><a href="/catalogo/index.jsp" class="linkmenu" title="Pesquise 0km">Pesquise 0km</a></li>
+                                                <li><a href="/catalogo/compare.jsp" class="linkmenu" title="Compare 0km">Compare 0km</a></li>
+                                                    <li><a href="/opiniao-carros/indexfaces.jsf" class="linkmenu" title="Opinião do dono">Opinião do dono</a></li>
+                                            </ul>
+                                            <div class="menu-cross comparar desktoponly">
+                                                <div class="clearfix">
+                                                    <ul class="clearfix listahorizontal diretorio">
+                                                            <li class="primeiro">
+                                                                <a href="/hyundai/hb20" title="Hyundai HB20">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/2398_8.png" alt="HB20" />
+                                                                    <span>HB20</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/toyota/corolla" title="Toyota Corolla">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/468_7.png" alt="Corolla" />
+                                                                    <span>Corolla</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/chevrolet/onix" title="Chevrolet Onix">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/2428_2.png" alt="Onix" />
+                                                                    <span>Onix</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/fiat/palio" title="Fiat Palio">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/214_5.png" alt="Palio" />
+                                                                    <span>Palio</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/volkswagen/gol" title="Volkswagen Gol">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/480_12.png" alt="Gol" />
+                                                                    <span>Gol</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="ultimo">
+                                                                <a href="/honda/hr-v" title="Honda HR-V">
+                                                                    <img class="imglazy" data-src="https://static.icarros.com/dbimg/imgmodelo/1/2627_1.png" alt="HR-V" />
+                                                                    <span>HR-V</span>
+                                                                </a>
+                                                            </li>
+                                                    </ul>
+                                                    <ul class="clearfix listahorizontal cross-links">
+                                                        <li class="primeiro"><span>Categorias:</span></li>
+                                                            <li>
+                                                                <a href="/hatch">Hatch</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/seda">Sedã</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/picapes">Picapes</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/utilitario-esportivo">Utilitário Esportivo</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/monovolume">Monovolume</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/wagon-perua">Wagon/Perua</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/van">Van</a>
+                                                            </li>
+                                                            <li class="ultimo">
+                                                                <a href="/conversivel-cupe">Conversível/Cupê</a>
+                                                            </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+
+                            <li>
+                                <a class="item-principal" href="/tabela-fipe/index.jsp" title="tabela FIPE">Tabela FIPE</a>
+                            </li>
+                                <li>
+                                    <a class="item-principal" href="/financiamento/indexfaces.jsf" title="Financiamento">Financiamento</a>
+                                        <div class="clearfix desktoponly menu-secundario">
+                                            <ul class="clearfix desktoponly listavertical">
+                                                <li><a href="/financiamento/indexfaces.jsf" class="linkmenu" title="Financiamento">Financiamento</a></li>
+                                                <li><a href="https://institucional.portoseguro.com.br/conteudo/seguros/seguro-de-veiculos/seguro-de-automovel/cotacao-portoseguro/index.html?utm_campaign=MID_lds_autoporto&amp;utm_source=mc_icarros&amp;utm_medium=cpc&amp;utm_content=link_cotacao&amp;ref=icarros_40086&amp;abrangencia=geral" class="linkmenu" title="Seguro" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Seguro</a></li>
+                                            </ul>
+                                            <div class="menu-cross financiamento desktoponly">
+                                                <div class="banner_destaque" style="background:url('https://static.icarros.com/comum/menu/financiamento/img_financiamento_1.jpg') no-repeat;">
+                                                    <p><a href="/financiamento/indexfaces.jsf" title="Simule o financiamento e veja o valor da parcela do seu próximo carro."><strong>Simule o financiamento</strong> e veja o valor da parcela do seu próximo carro.</a></p>
+                                                    <div class="direita">
+                                                        <button type="button" class="icr-btn icr-btn-m icr-btn-redondo icr-btn-laranja" onclick="window.location.href='/financiamento/indexfaces.jsf'" title="Quero financiar">quero financiar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                                <li id="menuRevista">
+                                    <a class="item-principal" href="/noticias/index.jsp" title="Noticias">Notícias</a>
+                                        <div class="clearfix desktoponly menu-secundario">
+                                            <ul class="clearfix desktoponly listavertical">
+                                                <li class="primeiro"><a href="/noticias/index.jsp" title="Home">Home</a></li>
+                                                    <li><a href="/editorias/geral/32.html" title="Geral">Geral</a></li>
+                                                    <li><a href="/editorias/lancamentos/27.html" title="Lançamentos">Lançamentos</a></li>
+                                                    <li><a href="/editorias/manutencao-e-servicos/50.html" title="Manutenção e Serviços">Manutenção e Serviços</a></li>
+                                                    <li><a href="/editorias/saloes/31.html" title="Salões">Salões</a></li>
+                                                    <li><a href="/editorias/testes-e-comparativos/28.html" title="Testes e Comparativos">Testes e Comparativos</a></li>
+                                                    <li><a href="/editorias/top-10/58.html" title="Top 10">Top 10</a></li>
+                                                    <li><a href="/editorias/tudo-sobre/59.html" title="Tudo Sobre">Tudo Sobre</a></li>
+                                                <li style="padding-right:10px;"><a href="/noticias/videos.jsp" title="Vídeos">Vídeos</a></li>
+                                            </ul>
+                                            <div class="menu-cross revista desktoponly">
+                                                <img class="imglazy loading" data-src="https://static.icarros.com/comum/baseimg/ajax-loader.gif" alt="" width="32" height="32" />
+                                            </div>
+                                        </div>
+                                </li>
+                                    <li class="outros_segmentos small desktoponly">
+                                        <a href="javascript:void(0);" title="+ Sites">+ sites</a>
+                                        <div class="menu-secundario">
+                                            <ul class="listavertical">
+                                                    <li>
+                                                        <a href="http://motos.icarros.com.br" title="iMotos">
+                                                            <span class="icones icone-logo-imotos" title="iMotos"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ultimo">
+                                                        <a href="http://caminhoes.icarros.com.br" title="iCaminhões">
+                                                            <span class="icones icone-logo-icaminhoes" title="iCaminhões"></span>
+                                                        </a>
+                                                    </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="small portalrevenda desktoponly"><a href="/portalrevenda/indexfaces.jsf">Portal revenda</a></li>
+                                    <li class="unlogged" style="padding-right:0;">
+                                        <div class="div_linkapp"><a class="menu_linkapps" href="/principal/mobile.jsp"><span class="icones icone_menu icone-ic_smartphone"></span>App</a>
+                                            <div class="clearfix desktoponly menu-secundario">
+                                                <ul class="clearfix desktoponly listavertical">
+                                                    <li><a href="/principal/mobile.jsp" class="linkmenu" title="Conheça o App" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Conheça o App</a></li>
+                                                </ul>
+                                                <div class="menu-cross download_app desktoponly">
+                                                    <div class="banner_destaque" style="background:url('https://static.icarros.com/comum/menu/app/img_menu_app.jpg') no-repeat;">
+                                                        <p><a href="/principal/mobile.jsp" title="Simule o financiamento e veja o valor da parcela do seu próximo carro."> </a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="small unlogged ultimo"><div id="unloggeduser"><a class="bnt_login" href="/login">login</a></div></li>
+                                    <li id="menuloggedd" style="display:none;">
+                                            <div class="div_linkapp"><a class="menu_linkapps" href="/principal/mobile.jsp"><span class="icones icone_menu icone-ic_smartphone"></span>App</a>
+                                                <div class="clearfix desktoponly menu-secundario">
+                                                    <ul class="clearfix desktoponly listavertical">
+                                                        <li><a href="/principal/mobile.jsp" class="linkmenu" title="Conheça o App" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Conheça o App</a></li>
+                                                    </ul>
+                                                    <div class="menu-cross download_app desktoponly">
+                                                        <div class="banner_destaque" style="background:url('https://static.icarros.com/comum/menu/app/img_menu_app.jpg') no-repeat;">
+                                                            <p><a href="/principal/mobile.jsp" title="Simule o financiamento e veja o valor da parcela do seu próximo carro."> </a></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    </li>
+                                    <li id="menulogged" class="ultimo" style="display:none;">
+                                        <div class="infousuario">
+                                            <span class="name"></span>
+                                            <span class="icones icone-down"></span>
+                                                <div class="clearfix desktoponly menu-secundario">
+                                                    <div class="infos">
+                                                        <span class="name"></span>
+                                                        <span class="email" style="color:#444; padding:0 10px;"></span>
+                                                    </div>
+                                                    <div id="loggeduser">
+                                                        <ul class="clearfix listavertical">
+                                                            <li class="portalrevenda linkusuario" style="display:none;"><a href="/adminpj/indexfaces.jsf"><span class="icones icone-ic_car_dealer icone_menu"></span>Portal Revenda</a></li>
+                                                            <li class="linkusuario"><a href="/myicarros/indexfaces.jsf"><span class="icones icone-ic_person icone_menu_meuicarros"></span>Meu iCarros</a></li>
+                                                            <li class="linkusuario"><a href="https://icarros.zendesk.com/hc/pt-br" target="_blank"><span class="icones icone-ic_mail icone_menu_meuicarros"></span>Fale Conosco</a></li>
+                                                            <li class="linkusuario"><a href="/logout"><span class="icones icone-ic_logout icone_menu"></span>Logout</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+            
+
+        </div>
+            <script type="text/javascript">
+                function phoneMaskHandler(event) {
+                    var target, phone, element;
+                    target = (event.currentTarget) ? event.currentTarget : event.srcElement;
+                    phone = target.value.replace(/\D/g, '');
+                    element = $(target);
+                    element.unmask();
+
+                    if(phone.length > 0 && phone.length > 10) {
+                        element.mask("(99) 99999-99999");
+                    } else {
+                        element.mask("(99) 9999-999999");
+                    }
+
+                    $('#phonesmsapp').val(phone);
+                 }
+            </script>
+        <div class="footer tema_icarros">
+                    <div class="clearfix social-apps box_sms_apps">
+                        <div class="rodape_container">
+                            <ul class="listahorizontal card_input">
+                                <li class="info_download" style="margin: 0">
+                                    <div class="input_sms_text">
+                                        <p class="titulo_snd_sms"><strong>Baixe nosso aplicativo</strong></p> <br />
+                                        Informe o número do seu celular e receba o link por SMS
+                                    </div>
+                                </li>
+
+                                <li id="sender" class="input_sms_phone_box"><input id="phonesmsapp" type="text" name="phonesmsapp" class="icr-input icr-slt card_input_mask input_sms_phone icr-phone-mask" maxlength="15" onblur="phoneMaskHandler(event);" onfocus="phoneMaskHandler(event);" /><script id="watermark_s" type="text/javascript">$(function(){PrimeFaces.cw('Watermark','widget_watermark',{id:'watermark',value:'(__) _____-____',target:'phonesmsapp'},'watermark');});</script>
+                                    <div id="awarrmsg">
+                                        <p class="input_msg_required">Por favor, digite o número do celular!</p>
+                                    </div>
+                                </li>
+                                <li id="bntsender" class="lnk_sender">
+                                    <a id="snd_sms" href="javascript:sendSMS('');" class="icr-btn icr-btn-redondo icr-btn-m icr-btn-laranja bnt_sms_sender">enviar</a>
+                                </li>
+
+                                <li id="sendermsg">
+                                    <div class="msg_success">
+                                        <p class="msg_text"><strong>SMS enviado com sucesso!</strong></p>
+                                        <p class="icon_success icon_success_jsf"><span class="icones icone-opc-disponivel icone_disponivel"></span></p>
+                                        <p class="lnk_resender">
+                                            <a href="javascript:reSendSMS('');" class="lnk_reenviar">enviar novamente</a>
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="sms_ios">
+                                    <a class="apps" href="http://itunes.apple.com/br/app/icarros/id453523774?mt=8" title="Baixe o aplicativo iCarros para o iPhone" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'IOS']);"><img class="imglazy" data-src="https://static.icarros.com/principal/imagens/mobile/botao_appstore.png" alt="" /></a>
+                                </li>
+                                <li class="sms_android">
+                                    <a class="apps" href="https://play.google.com/store/apps/details?id=br.com.icarros.androidapp&amp;referrer=utm_source%3DSite%26utm_medium%3DRodapeDesktop" title="Baixe o aplicativo iCarros para Android" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Android']);"><img class="imglazy" data-src="https://static.icarros.com/principal/imagens/mobile/botao_googleplay.png" alt="" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            <div id="rodapecontainer" class="rodape_container">
+
+                        <div class="clearfix menu_footer">
+                            <ul class="clearfix listavertical">
+                                <li class="primeiro">
+                                    <h6>Comprar:</h6>
+                                    <ul class="listahorizontal">
+                                        <li class="primeiro"><a href="/comprar/usados" title="Carros usados e seminovos">Carros usados e seminovos</a></li>
+                                            <li><a href="/consultor-compra/recomendamos.jsf" title="Consultor de compra">Consultor de compra</a></li>
+                                        <li><a href="/myicarros/anunciossalvos.jsf" title="Meus anúncios gravados">Meus anúncios gravados</a></li>
+                                            <li class="ultimo"><a href="/opiniao-carros/indexfaces.jsf" title="Opinião do dono">Opinião do dono</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6>Vender:</h6>
+                                    <ul class="listahorizontal">
+                                        <li class="primeiro"><a href="/vender/indexfaces.jsf" title="Anuncie seu carro">Anuncie seu carro</a></li>
+                                        <li><a href="/vender/indexfaces.jsf#planosPrecos" title="Planos e preços">Planos e preços</a></li>
+                                        <li><a href="/myicarros/indexfaces.jsf" title="Gerenciar anúncio">Gerenciar anúncio</a></li>
+                                        <li class="ultimo"><a href="/tabela-fipe/index.jsp" title="Tabela FIPE">Tabela FIPE</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h6>Catálogo 0km:</h6>
+                                    <ul class="listahorizontal">
+                                        <li><a href="/catalogo/index.jsp" title="Catálogo 0km">Catálogo 0km</a></li>
+                                        <li class="ultimo"><a href="/catalogo/compare.jsp" title="Compare lado a lado">Compare lado a lado</a></li>
+                                    </ul>
+                                </li>
+                                    <li>
+                                        <h6>Financeiro:</h6>
+                                        <ul class="listahorizontal">
+                                            <li class="primeiro"><a href="/financiamento/indexfaces.jsf" title="Simular financiamento">Simular financiamento</a></li>
+                                            <li class="ultimo"><a href="https://institucional.portoseguro.com.br/conteudo/seguros/seguro-de-veiculos/seguro-de-automovel/cotacao-portoseguro/index.html?utm_campaign=MID_lds_autoporto&amp;utm_source=mc_icarros&amp;utm_medium=cpc&amp;utm_content=link_cotacao&amp;ref=icarros_40086&amp;abrangencia=geral" title="Seguros" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Rodapé', 'porto_seguro']);" target="_blank" rel="nofollow">Seguros</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h6>Notícias:</h6>
+                                        <ul class="listahorizontal">
+                                                        <li class="primeiro">
+                                                            <a href="/editorias/geral/32.html" title="Geral">Geral</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/lancamentos/27.html" title="Lançamentos">Lançamentos</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/manutencao-e-servicos/50.html" title="Manutenção e Serviços">Manutenção e Serviços</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/saloes/31.html" title="Salões">Salões</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/testes-e-comparativos/28.html" title="Testes e Comparativos">Testes e Comparativos</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/top-10/58.html" title="Top 10">Top 10</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="/editorias/tudo-sobre/59.html" title="Tudo Sobre">Tudo Sobre</a>
+                                                        </li>
+                                                    <li class="ultimo"><a href="/noticias/videos.jsp" title="Vídeos">Vídeos</a></li>
+                                        </ul>
+                                    </li>
+                                <li>
+                                    <h6>Revendas:</h6>
+                                    <ul class="listahorizontal">
+                                        <li class="primeiro"><a href="/portalrevenda/indexfaces.jsf" title="Portal Revendas">Portal Revendas</a></li>
+                                        <li><a href="/adminpj/aplicativosmobile.jsf" title="Aplicativos Revendas">Aplicativos Revendas</a></li>
+                                        <li><a href="/portalrevenda/produtos.jsf" title="Produtos">Produtos</a></li>
+                                        <li class="ultimo"><a href="/portalrevenda/adesao.jsf" title="Adesão online">Adesão online</a></li>
+                                    </ul>
+                                </li>
+                                <li class="ultimo">
+                                    <h6>Institucional:</h6>
+                                    <ul class="listahorizontal">
+                                        <li class="primeiro"><a href="https://icarros.zendesk.com/hc/pt-br" target="_blank" title="Fale conosco">Fale conosco</a></li>
+                                        <li><a href="/principal/politica.jsp" title="Política de privacidade">Política de privacidade</a></li>
+                                        <li><a href="javascript:termo();" title="Termos de uso">Termos de uso</a></li>
+                                        <li><a href="javascript:publicidade();" title="Publicidade">Publicidade</a></li>
+                                        <li class="ultimo"><a href="/principal/expediente.jsp" title="Expediente">Expediente</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="clearfix termos redes_sociais">
+                            <a href="http://www.facebook.com/pages/ICarros/115380525178756" title="Facebook" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Facebook']);"><span class="icones icone-facebook"></span></a>
+                            <a href="http://www.youtube.com/user/iCarrosVideos" title="Youtube" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Youtube']);"><span class="icones icone-youtube"></span></a>
+                            <a href="http://plus.google.com/118319067601955033795" title="Google+" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Google Plus']);"><span class="icones icone-google"></span></a>
+                        </div>
+
+                        <div class="clearfix termos">
+                            <p>A iCarros Ltda. e o presente site não atuam como intermediadores  na negociação entre os usuários, seja com relação à compra, troca ou qualquer outro tipo de operação. O usuário reconhece como sendo de sua exclusiva responsabilidade os riscos assumidos nas negociações que vier a efetuar com outros usuários do site. A responsabilidade pela veracidade/autenticidade das informações veiculadas nos anúncios deste site, bem como pelas vendas e/ou entregas de produtos, é exclusiva do anunciante, não podendo o usuário responsabilizar o site ou a iCarros Ltda. por danos diretos ou indiretos causados a si ou a terceiros. <strong>Estoque e preços estão sujeitos a conferência e confirmação pelo anunciante.</strong></p>
+                            <p>As opiniões dos usuários não refletem necessariamente a opinião da iCarros. Este espaço é destinado a comentários ou críticas construtivas. Os autores de comentários ofensivos são civil e criminalmente responsáveis por conteúdos que violem a lei ou produzam lesão a direitos de terceiros e/ou da iCarros Ltda. É facultado à iCarros excluir opiniões que julgar contrárias aos princípios éticos deste site. As informações encontradas na aba "Catálogo 0km", como dados do veículo, acessórios e preço, são meramente sugestivas, com base em levantamentos periódicos de pesquisa e, devido à movimentação diária, podem não refletir a situação atual. O preço efetivamente praticado e os demais dados do veículo deverão ser confirmados na concessionária.</p>
+                                <p>Sobre as informações de modelos: Direitos Autorais JATO Dynamics Limited, 1990 - 2008. Todos os direitos reservados. JATO assegura em providenciar uma informação precisa e abrangente. Não obstante, a JATO não garante a totalidade dos dados. Solicitamos atenção no uso das informações fornecidas. O uso deste website implica na aceitação pelo usuário/empresa dos Termos e Condições da JATO Dynamics Limited.</p>
+                        </div>
+
+                        <div class="clearfix termos">
+                            <p>iCarros Ltda: Rua Tabapuã, 422 1º Andar - Itaim Bibi - São Paulo/SP - CEP 04533-001 - CNPJ: 03.991.201/0001-96</p>
+                        </div>
+            </div>
+        </div>
+        <div class="sectionbackground footer-empresa sbDestaque">
+            <div class="sectionlimit ">
+            <div class="esquerda">
+                <span class="icones icone-logo-icarros"></span>
+            </div>
+            <div class="direita">
+                <span class="empresa-itau"></span>
+            </div>
+            </div>
+        </div>
+
+        <div class="ouibounce-modal" icr-ckn="icarrosouibounce" icr-cke="0">
+            <div class="underlay"></div>
+            <div class="modal" style="width:640px;height:325px;">
+                <a class="ouibounce-modal-fechar" href="javascript:void(0);" onclick="$('.ouibounce-modal').hide();"><span class="icones icone-fechar-1"></span></a>
+                    <div class="clearfix modal-title">
+                        <h3>Quer vender seu carro?</h3>
+                    </div>
+                <div class="clearfix modal-body">
+                        <div class="clearfix bounce-vender">
+                            <form id="formBounceVender" action="/vender/indexfromform.jsf" method="POST">
+                                <input type="hidden" name="marca1" />
+                                <input type="hidden" name="modelo1" />
+                                <input type="hidden" name="versao1" />
+                                <input type="hidden" name="anomodelo" />
+                                <input type="hidden" name="anofabricacao" />
+                                <input type="hidden" name="email" />
+                                <input type="hidden" name="pg" value="1" />
+                                <input type="hidden" name="fluxo" value="CROSS" />
+                                <input type="hidden" name="endo_id" value="1178" />
+                                <input type="hidden" name="cupom" value="704N-209C-209R-JAKQ" />
+                                <div class="popup-desconto">
+                                    <p>Você acaba de ganhar</p>
+                                    <p class="desconto"><strong>20% de desconto</strong></p>
+                                    <p>para anunciar seu carro no Plano Até Vender</p>
+                                </div>
+                                <button type="submit" class="icr-btn icr-btn-ninja icr-btn-xl icr-btn-redondo icr-btn-laranja">
+                                    Anunciar com desconto
+                                </button>
+                                <div class="no-desconto">
+                                    <a href="#" onclick="$('.ouibounce-modal').hide();" title="Não quero anunciar agora">Não quero anunciar agora</a>
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+                            </div></body>
+</html>

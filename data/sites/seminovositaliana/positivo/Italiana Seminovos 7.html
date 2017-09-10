@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"de6ebc3165","applicationID":"28865107","transactionName":"IFdaTUJaCVpRQRwDQhdXG0xDUAFpWVxXB1sQF0dRX0I=","queueTime":4,"applicationTime":71,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIGV1JSDBACXFlUAgAHUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="dns-prefetch" href="//seminovositaliana.com.br">
+    <link href='//d1k8nhm9a4p2l6.cloudfront.net' rel='preconnect' crossorigin>
+    
+
+  <title>Italiana Seminovos</title>
+<meta name="charset" content="utf-8" />
+<meta name="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width" />
+<meta property="og:url" content="http://www.seminovositaliana.com.br/seminovos/q3-2-0-tfsi-ambiente-quattro-131" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Italiana Seminovos" />
+<meta property="og:description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!" />
+<meta property="og:image" content="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/logo_regular/14/avatar_fiat2.png" />
+<meta name="description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!" />
+
+
+<link rel="shortcut icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+<link rel="icon" type="image/png" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+<link rel="apple-touch-icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="KWs0/M/Fcz5ITYm2HR/d0wBnVGrdXtTjPnnCnVSrecYl6rlbr1ElWvfxO5dPFVSZXTSGGfxijLjBXxKScx5cKg==" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/bootstrap.min-3c489ea49217d1731e0dc838b9453f2319c8b620361eccffa17df67f02ca63f5.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/jquery-ui-a18bc04b3414017881f4e93a40353fff32fec1a923a8f5997d30c625477c74a7.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/4-ae23e6f0087a588cdf96855a9be6aa10380289a21e5bd546f8fb3c5f6f67f63d.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.transitions-e2e6aa4b314724d4d8607e81b52f2f0388bab071b20a18d3ae7ae224e701553b.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.carousel-1a47c54f3ce5470b0c78ce9fd08e2d66d99771e20e9c4417d17a48617fc0f8b5.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.theme-376246452f3cb59fbe1a7005abcfaca37db88861498243fe9cf8af6db9846771.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/jquery.fancybox-fc4f6fd32a7a3adf567072fda6112469f74359da428ae88cf08b3b5263ebb0a3.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-buttons-ea512150cfccd70afefd5faa6d8b435881d9c010d89ec65f18b915eb20d93a49.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-thumbs-1351abea269ee44a6938c3cc7b40507cc2dee4e82a793f12d06df854245200b4.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/malihu-custom-scrollbar/jquery.mCustomScrollbar-fa9d59de2182b9e695ac0b81b88060a37efea22bc99ce2316b723e22efb1d64d.css" />
+    <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/sumoselect/sumoselect-d3eccad262bfe1d6f72619d06c7e72a2b1464ee03d8c642d8173916c27f58817.css" />
+    <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/overall/_initializers-a9ca94443d4f94add715a969ca2405c6f80fb8130df47a0cc7b8f5bf2e0689ef.js"></script>
+    
+    <link rel="shortcut icon" type="image/png" href="http://legado.autoforce.com.br/mods/italiana/img/italiana-favicon.png"/>
+  </head>
+  <body>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" defer async></script>
+    
+    <script>
+        function callConversion() {
+        }
+    </script>
+
+    <header>
+	<div id="nav_bar" class="container-fluid">
+		<div class="row">
+			<div class="col-xs-8 col-sm-3">
+				<h2 class="brand-client">
+	        <a style="background-image: url( //d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png);" href="/">Italiana</a>
+	      </h2>
+			</div>
+	      <div class="col-xs-4 col-sm-9">
+					<div id="phones-main" class="btn-dropdown-list phone-number-list">
+		        <button type="button" class="btn btn-default menu-accordion-toggle"><span class="fa fa-phone icon"></button>
+		        <ul class="accordion">
+	               <li>
+	                <a href='tel: 081 2121-1100'>
+	                	Recife Imbiribeira
+	                	<b>(81) 2121-1100</b>
+	                </a>
+	              </li>
+	               <li>
+	                <a href='tel: 081 2103-4000'>
+	                	Caruaru
+	                	<b>(81) 2103-4000</b>
+	                </a>
+	              </li>
+	               <li>
+	                <a href='tel: 081 3454-1080'>
+	                	Recife Caxangá
+	                	<b>(81) 3454-1080</b>
+	                </a>
+	              </li>
+		        </ul>
+		      </div>
+				</div>
+		</div>
+	</div>
+</header>
+
+      <section id="showcase">
+  	<div class="container-fluid">
+    	<header>
+    		<div class="pageview-products">
+  	  		<div class="return-links pageview-crumb">
+  	  			<div class="row">
+              <div class="col-xs-6 col-sm-6">
+                <ul>
+                  <li>
+                    <a href="/">Início</a>
+                  </li>
+                  <li>
+                    <a href="/seminovos">Seminovos</a>
+                  </li>
+                  <li>
+                    UNO 1.0 Firefly Attractive
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xs-6 col-sm-6 wrapper-right">
+                <ul>
+                  <li>
+                    <a class="crump-come-back" href="/seminovos/resultado">
+                      <i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar
+</a>                  </li>
+                  <li>
+                    <a href="/seminovos/resultado">
+                      <i class="fa fa-search" aria-hidden="true"></i> Nova Busca
+</a>                  </li>
+                </ul>
+              </div>
+  		  		</div>
+  	  		</div>
+    		</div>
+    	</header>
+    </div>
+  </section>
+
+  <section id="pageview-product">
+	<div class="container-fluid">
+	  <div class="row">
+			<div class="content-central">
+	    	<div class="col-xs-12 col-md-8 product-view">
+    			<h3>UNO 1.0 Firefly Attractive - 2017</h3>
+    			<div class="container-box">
+	    			<div class="img">
+		    				<a class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17271/comprar-uno-1-0-firefly-attractive-2017-131_73962e2a31.JPG">
+			    				<picture alt="UNO 1.0 Firefly Attractive">
+									  <source srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17271/model_main_comprar-uno-1-0-firefly-attractive-2017-131_73962e2a31.JPG" media="(max-width: 970px)"/>
+									  <source srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17271/model_middle_comprar-uno-1-0-firefly-attractive-2017-131_73962e2a31.JPG" media="(max-width: 767px)"/>
+									  <img srcset="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17271/used_model_comprar-uno-1-0-firefly-attractive-2017-131_73962e2a31.JPG" />
+									</picture>
+</a>	    			</div>
+	    		</div>
+            <div class="product-gallery">
+              <div id="owl-gallery-large">
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921595/main_comprar-uno-1-0-firefly-attractive-2017-131_b5190fbc1d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921595/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_b5190fbc1d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921593/main_comprar-uno-1-0-firefly-attractive-2017-131_5928eadd07.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921593/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5928eadd07.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921589/main_comprar-uno-1-0-firefly-attractive-2017-131_17fe44d363.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921589/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_17fe44d363.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921585/main_comprar-uno-1-0-firefly-attractive-2017-131_a5faa374a8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921585/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_a5faa374a8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921583/main_comprar-uno-1-0-firefly-attractive-2017-131_19c84da8d0.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1921583/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_19c84da8d0.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892667/main_comprar-uno-1-0-firefly-attractive-2017-131_8d399b6e7d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892667/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8d399b6e7d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892665/main_comprar-uno-1-0-firefly-attractive-2017-131_f6decc4ac9.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892665/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f6decc4ac9.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892662/main_comprar-uno-1-0-firefly-attractive-2017-131_7406e72cdc.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892662/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7406e72cdc.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892659/main_comprar-uno-1-0-firefly-attractive-2017-131_379c8a8575.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892659/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_379c8a8575.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892656/main_comprar-uno-1-0-firefly-attractive-2017-131_361f53ca40.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1892656/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_361f53ca40.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874777/main_comprar-uno-1-0-firefly-attractive-2017-131_683189c49b.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874777/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_683189c49b.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874775/main_comprar-uno-1-0-firefly-attractive-2017-131_dab12ec871.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874775/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_dab12ec871.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874773/main_comprar-uno-1-0-firefly-attractive-2017-131_5abf965ffd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874773/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5abf965ffd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874770/main_comprar-uno-1-0-firefly-attractive-2017-131_dffa304229.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874770/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_dffa304229.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874767/main_comprar-uno-1-0-firefly-attractive-2017-131_13b479d89d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1874767/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_13b479d89d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873341/main_comprar-uno-1-0-firefly-attractive-2017-131_847c20f0eb.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873341/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_847c20f0eb.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873338/main_comprar-uno-1-0-firefly-attractive-2017-131_2591c0a86e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873338/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2591c0a86e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873335/main_comprar-uno-1-0-firefly-attractive-2017-131_15ab8c741c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873335/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_15ab8c741c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873331/main_comprar-uno-1-0-firefly-attractive-2017-131_4fcfa597f0.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873331/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_4fcfa597f0.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873328/main_comprar-uno-1-0-firefly-attractive-2017-131_e12af7897f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1873328/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e12af7897f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870878/main_comprar-uno-1-0-firefly-attractive-2017-131_6e87051df7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870878/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6e87051df7.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870874/main_comprar-uno-1-0-firefly-attractive-2017-131_808a95cd43.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870874/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_808a95cd43.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870871/main_comprar-uno-1-0-firefly-attractive-2017-131_30c97009b2.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870871/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_30c97009b2.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870869/main_comprar-uno-1-0-firefly-attractive-2017-131_ffcd70b3b0.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870869/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ffcd70b3b0.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870866/main_comprar-uno-1-0-firefly-attractive-2017-131_829c7c0fa8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1870866/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_829c7c0fa8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867179/main_comprar-uno-1-0-firefly-attractive-2017-131_1f54236fba.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867179/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1f54236fba.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867178/main_comprar-uno-1-0-firefly-attractive-2017-131_1c998c1773.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867178/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1c998c1773.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867177/main_comprar-uno-1-0-firefly-attractive-2017-131_53357d064f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867177/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_53357d064f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867175/main_comprar-uno-1-0-firefly-attractive-2017-131_d7b7580efe.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867175/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d7b7580efe.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867173/main_comprar-uno-1-0-firefly-attractive-2017-131_38ef45abee.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1867173/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_38ef45abee.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847944/main_comprar-uno-1-0-firefly-attractive-2017-131_f0b05ff09e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847944/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f0b05ff09e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847940/main_comprar-uno-1-0-firefly-attractive-2017-131_9a663091a6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847940/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9a663091a6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847936/main_comprar-uno-1-0-firefly-attractive-2017-131_d3b18d0ed8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847936/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d3b18d0ed8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847933/main_comprar-uno-1-0-firefly-attractive-2017-131_c6bbc5e17e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847933/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c6bbc5e17e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847932/main_comprar-uno-1-0-firefly-attractive-2017-131_06af31b843.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1847932/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_06af31b843.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839539/main_comprar-uno-1-0-firefly-attractive-2017-131_7a3ac208c9.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839539/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7a3ac208c9.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839536/main_comprar-uno-1-0-firefly-attractive-2017-131_c78709eedb.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839536/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c78709eedb.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839534/main_comprar-uno-1-0-firefly-attractive-2017-131_2e7686a04e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839534/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2e7686a04e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839532/main_comprar-uno-1-0-firefly-attractive-2017-131_5d628931bf.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839532/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5d628931bf.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839528/main_comprar-uno-1-0-firefly-attractive-2017-131_ce166e9600.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1839528/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ce166e9600.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819949/main_comprar-uno-1-0-firefly-attractive-2017-131_db01732c04.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819949/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_db01732c04.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819948/main_comprar-uno-1-0-firefly-attractive-2017-131_83c67fe9da.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819948/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_83c67fe9da.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819947/main_comprar-uno-1-0-firefly-attractive-2017-131_c623dff087.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819947/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c623dff087.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819946/main_comprar-uno-1-0-firefly-attractive-2017-131_e94bd45df5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819946/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e94bd45df5.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819945/main_comprar-uno-1-0-firefly-attractive-2017-131_57b7103b3f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1819945/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_57b7103b3f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815378/main_comprar-uno-1-0-firefly-attractive-2017-131_b6e8a44978.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815378/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_b6e8a44978.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815375/main_comprar-uno-1-0-firefly-attractive-2017-131_797e2918d7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815375/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_797e2918d7.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815374/main_comprar-uno-1-0-firefly-attractive-2017-131_5e79c8a2a2.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815374/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5e79c8a2a2.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815371/main_comprar-uno-1-0-firefly-attractive-2017-131_83fe048fca.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815371/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_83fe048fca.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815366/main_comprar-uno-1-0-firefly-attractive-2017-131_b458ea84e1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1815366/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_b458ea84e1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814372/main_comprar-uno-1-0-firefly-attractive-2017-131_17b43d1798.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814372/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_17b43d1798.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814371/main_comprar-uno-1-0-firefly-attractive-2017-131_79136915a6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814371/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_79136915a6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814370/main_comprar-uno-1-0-firefly-attractive-2017-131_81a974896e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814370/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_81a974896e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814369/main_comprar-uno-1-0-firefly-attractive-2017-131_6b2757b539.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814369/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6b2757b539.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814368/main_comprar-uno-1-0-firefly-attractive-2017-131_14d7b5c836.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1814368/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_14d7b5c836.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789901/main_comprar-uno-1-0-firefly-attractive-2017-131_34e76a21e4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789901/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_34e76a21e4.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789897/main_comprar-uno-1-0-firefly-attractive-2017-131_30d7ea4158.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789897/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_30d7ea4158.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789894/main_comprar-uno-1-0-firefly-attractive-2017-131_3e59511940.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789894/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3e59511940.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789892/main_comprar-uno-1-0-firefly-attractive-2017-131_6299b0659e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789892/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6299b0659e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789889/main_comprar-uno-1-0-firefly-attractive-2017-131_550a69ba46.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1789889/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_550a69ba46.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722298/main_comprar-uno-1-0-firefly-attractive-2017-131_96cabfb66b.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722298/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_96cabfb66b.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722295/main_comprar-uno-1-0-firefly-attractive-2017-131_063e542c3b.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722295/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_063e542c3b.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722289/main_comprar-uno-1-0-firefly-attractive-2017-131_2b158bacb4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722289/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2b158bacb4.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722285/main_comprar-uno-1-0-firefly-attractive-2017-131_c382dd84bb.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722285/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c382dd84bb.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722284/main_comprar-uno-1-0-firefly-attractive-2017-131_ce91ae17f6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1722284/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ce91ae17f6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705971/main_comprar-uno-1-0-firefly-attractive-2017-131_77c142676d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705971/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_77c142676d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705969/main_comprar-uno-1-0-firefly-attractive-2017-131_a8ecebb48e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705969/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_a8ecebb48e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705965/main_comprar-uno-1-0-firefly-attractive-2017-131_d40cf47fca.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705965/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d40cf47fca.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705962/main_comprar-uno-1-0-firefly-attractive-2017-131_046543cb77.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705962/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_046543cb77.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705959/main_comprar-uno-1-0-firefly-attractive-2017-131_f3a594a7c5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1705959/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f3a594a7c5.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702855/main_comprar-uno-1-0-firefly-attractive-2017-131_2a7c3ae229.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702855/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2a7c3ae229.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702853/main_comprar-uno-1-0-firefly-attractive-2017-131_8230a9a0ce.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702853/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8230a9a0ce.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702850/main_comprar-uno-1-0-firefly-attractive-2017-131_f409de8f3a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702850/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f409de8f3a.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702847/main_comprar-uno-1-0-firefly-attractive-2017-131_d629be9931.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702847/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d629be9931.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702845/main_comprar-uno-1-0-firefly-attractive-2017-131_08fb626b1f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1702845/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_08fb626b1f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701659/main_comprar-uno-1-0-firefly-attractive-2017-131_72a207889a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701659/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_72a207889a.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701655/main_comprar-uno-1-0-firefly-attractive-2017-131_290332a0d5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701655/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_290332a0d5.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701654/main_comprar-uno-1-0-firefly-attractive-2017-131_bf9a85f7fd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701654/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_bf9a85f7fd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701651/main_comprar-uno-1-0-firefly-attractive-2017-131_5d48efe39a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701651/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5d48efe39a.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701648/main_comprar-uno-1-0-firefly-attractive-2017-131_7482f24106.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1701648/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7482f24106.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698597/main_comprar-uno-1-0-firefly-attractive-2017-131_4f58bab6ba.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698597/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_4f58bab6ba.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698593/main_comprar-uno-1-0-firefly-attractive-2017-131_dcfddb56e1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698593/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_dcfddb56e1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698590/main_comprar-uno-1-0-firefly-attractive-2017-131_9964b4eb11.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698590/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9964b4eb11.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698588/main_comprar-uno-1-0-firefly-attractive-2017-131_20b80785d5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698588/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_20b80785d5.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698585/main_comprar-uno-1-0-firefly-attractive-2017-131_2bee78008c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1698585/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2bee78008c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680527/main_comprar-uno-1-0-firefly-attractive-2017-131_61c481e563.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680527/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_61c481e563.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680525/main_comprar-uno-1-0-firefly-attractive-2017-131_e0b630e3ec.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680525/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e0b630e3ec.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680523/main_comprar-uno-1-0-firefly-attractive-2017-131_28f20172d5.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680523/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_28f20172d5.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680521/main_comprar-uno-1-0-firefly-attractive-2017-131_d4c72e80e4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680521/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d4c72e80e4.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680519/main_comprar-uno-1-0-firefly-attractive-2017-131_7c4ccc8af4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1680519/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7c4ccc8af4.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679356/main_comprar-uno-1-0-firefly-attractive-2017-131_ec0cb2b0dc.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679356/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ec0cb2b0dc.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679354/main_comprar-uno-1-0-firefly-attractive-2017-131_9913965e3f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679354/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9913965e3f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679352/main_comprar-uno-1-0-firefly-attractive-2017-131_508347e0b1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679352/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_508347e0b1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679349/main_comprar-uno-1-0-firefly-attractive-2017-131_c793680b83.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679349/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c793680b83.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679345/main_comprar-uno-1-0-firefly-attractive-2017-131_8fb2236c06.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1679345/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8fb2236c06.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668312/main_comprar-uno-1-0-firefly-attractive-2017-131_7b668f6baf.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668312/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7b668f6baf.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668308/main_comprar-uno-1-0-firefly-attractive-2017-131_5a1670fd39.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668308/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5a1670fd39.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668306/main_comprar-uno-1-0-firefly-attractive-2017-131_9421e81ee6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668306/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9421e81ee6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668303/main_comprar-uno-1-0-firefly-attractive-2017-131_3fe8bb155d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668303/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3fe8bb155d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668299/main_comprar-uno-1-0-firefly-attractive-2017-131_afc8c3be20.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1668299/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_afc8c3be20.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664358/main_comprar-uno-1-0-firefly-attractive-2017-131_57cb08f5ff.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664358/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_57cb08f5ff.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664355/main_comprar-uno-1-0-firefly-attractive-2017-131_371ec773af.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664355/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_371ec773af.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664353/main_comprar-uno-1-0-firefly-attractive-2017-131_363abdb312.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664353/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_363abdb312.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664350/main_comprar-uno-1-0-firefly-attractive-2017-131_ce0131e563.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664350/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ce0131e563.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664346/main_comprar-uno-1-0-firefly-attractive-2017-131_3e410dc1ac.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1664346/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3e410dc1ac.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654229/main_comprar-uno-1-0-firefly-attractive-2017-131_73faaa4e05.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654229/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_73faaa4e05.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654225/main_comprar-uno-1-0-firefly-attractive-2017-131_8418244255.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654225/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8418244255.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654223/main_comprar-uno-1-0-firefly-attractive-2017-131_c081030850.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654223/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c081030850.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654220/main_comprar-uno-1-0-firefly-attractive-2017-131_1e84b32578.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654220/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1e84b32578.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654216/main_comprar-uno-1-0-firefly-attractive-2017-131_64dde7b4db.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1654216/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_64dde7b4db.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651876/main_comprar-uno-1-0-firefly-attractive-2017-131_07b688f43e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651876/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_07b688f43e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651872/main_comprar-uno-1-0-firefly-attractive-2017-131_da909fddae.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651872/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_da909fddae.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651870/main_comprar-uno-1-0-firefly-attractive-2017-131_02ab976539.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651870/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_02ab976539.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651865/main_comprar-uno-1-0-firefly-attractive-2017-131_17a9da4fe7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651865/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_17a9da4fe7.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651861/main_comprar-uno-1-0-firefly-attractive-2017-131_1ce56f060e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651861/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1ce56f060e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651094/main_comprar-uno-1-0-firefly-attractive-2017-131_55798661ec.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651094/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_55798661ec.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651093/main_comprar-uno-1-0-firefly-attractive-2017-131_81144505a3.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651093/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_81144505a3.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651091/main_comprar-uno-1-0-firefly-attractive-2017-131_e6e25f48e6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651091/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e6e25f48e6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651089/main_comprar-uno-1-0-firefly-attractive-2017-131_f193a70021.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651089/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f193a70021.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651087/main_comprar-uno-1-0-firefly-attractive-2017-131_6329224bda.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1651087/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6329224bda.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645104/main_comprar-uno-1-0-firefly-attractive-2017-131_7c37ea5f23.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645104/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7c37ea5f23.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645101/main_comprar-uno-1-0-firefly-attractive-2017-131_e3eef9163a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645101/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e3eef9163a.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645096/main_comprar-uno-1-0-firefly-attractive-2017-131_33cdcce497.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645096/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_33cdcce497.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645093/main_comprar-uno-1-0-firefly-attractive-2017-131_f744bd2caa.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645093/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f744bd2caa.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645089/main_comprar-uno-1-0-firefly-attractive-2017-131_75e42a95f8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1645089/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_75e42a95f8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642511/main_comprar-uno-1-0-firefly-attractive-2017-131_1103b2e58d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642511/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1103b2e58d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642508/main_comprar-uno-1-0-firefly-attractive-2017-131_e8c0ba5f27.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642508/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e8c0ba5f27.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642504/main_comprar-uno-1-0-firefly-attractive-2017-131_5034b7d70c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642504/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5034b7d70c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642501/main_comprar-uno-1-0-firefly-attractive-2017-131_8c56d75d3d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642501/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8c56d75d3d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642498/main_comprar-uno-1-0-firefly-attractive-2017-131_0754e9381c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1642498/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_0754e9381c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641130/main_comprar-uno-1-0-firefly-attractive-2017-131_6c3d798401.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641130/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6c3d798401.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641127/main_comprar-uno-1-0-firefly-attractive-2017-131_2591dfe4f1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641127/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2591dfe4f1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641124/main_comprar-uno-1-0-firefly-attractive-2017-131_a539cbad28.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641124/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_a539cbad28.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641120/main_comprar-uno-1-0-firefly-attractive-2017-131_c3015e3ac6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641120/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c3015e3ac6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641117/main_comprar-uno-1-0-firefly-attractive-2017-131_f4a61726de.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1641117/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_f4a61726de.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637433/main_comprar-uno-1-0-firefly-attractive-2017-131_c1fd1b8606.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637433/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c1fd1b8606.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637430/main_comprar-uno-1-0-firefly-attractive-2017-131_b3e7a9be8d.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637430/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_b3e7a9be8d.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637426/main_comprar-uno-1-0-firefly-attractive-2017-131_7142566570.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637426/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_7142566570.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637422/main_comprar-uno-1-0-firefly-attractive-2017-131_5234469278.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637422/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5234469278.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637418/main_comprar-uno-1-0-firefly-attractive-2017-131_4c3c52b04f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1637418/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_4c3c52b04f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634044/main_comprar-uno-1-0-firefly-attractive-2017-131_60bde6aa2a.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634044/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_60bde6aa2a.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634042/main_comprar-uno-1-0-firefly-attractive-2017-131_dba9293f07.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634042/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_dba9293f07.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634038/main_comprar-uno-1-0-firefly-attractive-2017-131_78440367cd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634038/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_78440367cd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634035/main_comprar-uno-1-0-firefly-attractive-2017-131_8d8108749e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634035/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8d8108749e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634031/main_comprar-uno-1-0-firefly-attractive-2017-131_1172485a16.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1634031/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1172485a16.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632800/main_comprar-uno-1-0-firefly-attractive-2017-131_27defb5d5c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632800/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_27defb5d5c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632796/main_comprar-uno-1-0-firefly-attractive-2017-131_06f5921e58.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632796/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_06f5921e58.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632792/main_comprar-uno-1-0-firefly-attractive-2017-131_189a8084d2.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632792/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_189a8084d2.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632790/main_comprar-uno-1-0-firefly-attractive-2017-131_c5ea3afdc2.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632790/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c5ea3afdc2.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632786/main_comprar-uno-1-0-firefly-attractive-2017-131_3c8271509c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1632786/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3c8271509c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629920/main_comprar-uno-1-0-firefly-attractive-2017-131_ad8b5e1903.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629920/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ad8b5e1903.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629918/main_comprar-uno-1-0-firefly-attractive-2017-131_01baac50e8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629918/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_01baac50e8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629915/main_comprar-uno-1-0-firefly-attractive-2017-131_2feedefa91.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629915/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2feedefa91.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629912/main_comprar-uno-1-0-firefly-attractive-2017-131_3061253803.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629912/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3061253803.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629909/main_comprar-uno-1-0-firefly-attractive-2017-131_ed08807edd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1629909/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ed08807edd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628706/main_comprar-uno-1-0-firefly-attractive-2017-131_86bbce3b23.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628706/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_86bbce3b23.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628701/main_comprar-uno-1-0-firefly-attractive-2017-131_b84a682e95.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628701/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_b84a682e95.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628698/main_comprar-uno-1-0-firefly-attractive-2017-131_85282ea0b6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628698/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_85282ea0b6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628696/main_comprar-uno-1-0-firefly-attractive-2017-131_3186b0b3a7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628696/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_3186b0b3a7.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628692/main_comprar-uno-1-0-firefly-attractive-2017-131_32bfb6d604.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1628692/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_32bfb6d604.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627499/main_comprar-uno-1-0-firefly-attractive-2017-131_635dffa302.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627499/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_635dffa302.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627495/main_comprar-uno-1-0-firefly-attractive-2017-131_224b33448f.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627495/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_224b33448f.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627490/main_comprar-uno-1-0-firefly-attractive-2017-131_c84f1d49fd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627490/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c84f1d49fd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627488/main_comprar-uno-1-0-firefly-attractive-2017-131_0c5abeaa60.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627488/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_0c5abeaa60.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627484/main_comprar-uno-1-0-firefly-attractive-2017-131_9c2490a7b7.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1627484/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9c2490a7b7.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623884/main_comprar-uno-1-0-firefly-attractive-2017-131_5b3e907460.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623884/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5b3e907460.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623882/main_comprar-uno-1-0-firefly-attractive-2017-131_1549a8dfe1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623882/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1549a8dfe1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623879/main_comprar-uno-1-0-firefly-attractive-2017-131_fec947f4d9.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623879/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_fec947f4d9.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623875/main_comprar-uno-1-0-firefly-attractive-2017-131_8f8b22f506.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623875/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_8f8b22f506.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623873/main_comprar-uno-1-0-firefly-attractive-2017-131_65a39d47ad.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1623873/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_65a39d47ad.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622540/main_comprar-uno-1-0-firefly-attractive-2017-131_72c65ea3ec.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622540/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_72c65ea3ec.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622538/main_comprar-uno-1-0-firefly-attractive-2017-131_65c981189c.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622538/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_65c981189c.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622536/main_comprar-uno-1-0-firefly-attractive-2017-131_9b0de68ec1.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622536/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_9b0de68ec1.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622534/main_comprar-uno-1-0-firefly-attractive-2017-131_56861a7e79.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622534/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_56861a7e79.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622530/main_comprar-uno-1-0-firefly-attractive-2017-131_d3a4530cf6.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1622530/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_d3a4530cf6.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612851/main_comprar-uno-1-0-firefly-attractive-2017-131_bf46fbd5a8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612851/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_bf46fbd5a8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612848/main_comprar-uno-1-0-firefly-attractive-2017-131_2fdef24c33.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612848/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_2fdef24c33.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612841/main_comprar-uno-1-0-firefly-attractive-2017-131_424fd9bc62.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612841/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_424fd9bc62.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612837/main_comprar-uno-1-0-firefly-attractive-2017-131_cfd6bd22e4.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612837/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_cfd6bd22e4.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612834/main_comprar-uno-1-0-firefly-attractive-2017-131_75ffa72596.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1612834/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_75ffa72596.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611829/main_comprar-uno-1-0-firefly-attractive-2017-131_91f8762eb8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611829/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_91f8762eb8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611825/main_comprar-uno-1-0-firefly-attractive-2017-131_88acf73281.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611825/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_88acf73281.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611823/main_comprar-uno-1-0-firefly-attractive-2017-131_c7530b3d51.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611823/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_c7530b3d51.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611822/main_comprar-uno-1-0-firefly-attractive-2017-131_ef5469d4c9.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611822/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_ef5469d4c9.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611818/main_comprar-uno-1-0-firefly-attractive-2017-131_6659015a40.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1611818/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_6659015a40.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610181/main_comprar-uno-1-0-firefly-attractive-2017-131_cddc8858db.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610181/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_cddc8858db.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610179/main_comprar-uno-1-0-firefly-attractive-2017-131_84b7bef315.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610179/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_84b7bef315.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610176/main_comprar-uno-1-0-firefly-attractive-2017-131_04ede56016.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610176/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_04ede56016.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610173/main_comprar-uno-1-0-firefly-attractive-2017-131_5b59fcfbd0.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610173/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_5b59fcfbd0.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610169/main_comprar-uno-1-0-firefly-attractive-2017-131_1e89141a91.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1610169/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1e89141a91.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607491/main_comprar-uno-1-0-firefly-attractive-2017-131_4e947ba40e.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607491/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_4e947ba40e.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607486/main_comprar-uno-1-0-firefly-attractive-2017-131_075f983f01.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607486/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_075f983f01.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607484/main_comprar-uno-1-0-firefly-attractive-2017-131_194cdd2a66.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607484/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_194cdd2a66.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607482/main_comprar-uno-1-0-firefly-attractive-2017-131_1a2130e9ed.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607482/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1a2130e9ed.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607479/main_comprar-uno-1-0-firefly-attractive-2017-131_1b5e42dd5b.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1607479/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_1b5e42dd5b.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606814/main_comprar-uno-1-0-firefly-attractive-2017-131_bb4f93a7a3.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606814/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_bb4f93a7a3.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606811/main_comprar-uno-1-0-firefly-attractive-2017-131_a99e8f8a04.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606811/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_a99e8f8a04.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606807/main_comprar-uno-1-0-firefly-attractive-2017-131_936dcb41d8.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606807/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_936dcb41d8.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606803/main_comprar-uno-1-0-firefly-attractive-2017-131_e3464c3346.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606803/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_e3464c3346.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+	                  <div class="item">
+	                    <a href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606800/main_comprar-uno-1-0-firefly-attractive-2017-131_a5110a99dd.JPG" class="gallery-thumb" rel="gallery-thumb" title="Fiat UNO 2016/2017">
+	                      <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/picture/image/1606800/thumb_large_comprar-uno-1-0-firefly-attractive-2017-131_a5110a99dd.JPG" alt="Fiat UNO 1.0 Firefly Attractive">
+	                    </a>
+	                  </div>
+              </div>
+            </div>
+          <div class="social-sharer">
+			      <p>Gostou? Então compartilhe.</p>
+            <div class="sharethis-inline-share-buttons"></div>
+			    </div>
+	    	</div>
+	    	<div class="col-xs-12 col-md-4 product-box-action">
+	    		<div class="container-box">
+    					<div class="product-price">
+                <h6>por apenas</h6>
+                <h5><b>R$ 40.480,00</b></h5>
+              </div>
+          </div>
+            <div class="form-module">
+                <a href="#form-bait-6" class="btn-toggle active"><i class="entypo-paper-plane" aria-hidden="true"></i> ENVIAR PROPOSTA</a>
+                <a href="#form-bait-1" class="btn-toggle "><i class="af-calculator" aria-hidden="true"></i> SOLICITAR COTAÇÃO</a>
+              <div class="col-xs-12">
+	             		<div class="form-toggle active" id="form-bait-6">
+		             		<div class="container-form">
+				              <header>
+				                <h4>
+				                  <i class="entypo-paper-plane"></i>
+				                  ENVIAR PROPOSTA
+				                </h4>
+				                <p>Vamos negociar? Envie já sua proposta e garanta as melhores condições.</p>
+				              </header>
+				              <div class="content-form">
+				                <div class="row">
+				                  <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="8s6Soyt55uYIDO3/2elNwSokPOcaMUgSDVZGWBZdO4Zl7MbrShkJe2oChe58JrqnA695dTMLLpAITxxVu2IRkg==" />
+				                    <div class="form-group">
+				                      <input type="text" class="input-name" name="name" id="form-6-name" placeholder="Nome">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="email" class="input-emal" name="email" id="form-6-email" placeholder="Email">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-6-phone">
+				                    </div>
+				                    <div class="form-group">
+            <label class="form-label js-hide-label" for="modal-test-drive-message">Mensagem</label>
+            <textarea class="form-control" name="message" id="modal-test-drive-message" placeholder="Mensagem" required="" aria-required="true"></textarea>
+          </div>
+				                    <div class="form-group">
+				                      <input type="checkbox" name="mailing" id="mailing-6" value="true" checked="checked">
+				                      <label for="mailing-6">Desejo receber novidades por e-mail.</label>
+				                    </div>
+				                    <div class="form-group">
+				                      <button type="submit" class="btn btn-default">ENVIAR PROPOSTA</button>
+				                    </div>
+				                    <input type="hidden" name="utmz" value="">
+									          <input type="hidden" name="product" value="UNO 1.0 Firefly Attractive">
+									          <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0">
+									          <input type="hidden" name="channel" value="Site">
+									          <input type="hidden" name="bait" value="6">
+									          <input type="hidden" name="unit" value="mauricio-de-nassau">
+									            <input type="hidden" name="category" value="UsedModel">
+									            <input type="hidden" name="brand" value="Fiat" >
+									            <input type="hidden" name="plate" value="PCP 5700" >
+</form>				                </div>
+				              </div>
+				              <footer>
+				                <div class="row">
+				                  <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>
+				                </div>
+				              </footer>
+				            </div>
+				            <div class="result-container-form">
+				              <header>
+				                <h4>
+				                  <i class="entypo-paper-plane"></i>
+				                  Proposta enviada com sucesso!
+				                </h4>
+				                <p>Vamos analisar a sua proposta e entraremos em contato o mais rápido possível para falarmos sobre uma negociação.</p>
+				              </header>
+				              <div class="button-wrapper close-form">
+				                <button>
+				                  <div class="fill"></div>
+				                  <div class="fa fa-check"></div>
+				                </button>
+				              </div>
+				            </div>
+		             	</div>
+	             		<div class="form-toggle " id="form-bait-1">
+		             		<div class="container-form">
+				              <header>
+				                <h4>
+				                  <i class="af-calculator"></i>
+				                  SOLICITAR COTAÇÃO
+				                </h4>
+				                <p>Cliente online tem condições especiais. Escolha uma parcela que cabe no seu bolso.</p>
+				              </header>
+				              <div class="content-form">
+				                <div class="row">
+				                  <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post"><input type="hidden" name="authenticity_token" value="ku0GD3Kcg7eLzNI5e2PRayBL3c4FgFZijSv0BDbJNHoFz1JHE/xsKunCuijerCYNCcCYXCy6MOCIMq4Jm/Yebg==" />
+				                    <div class="form-group">
+				                      <input type="text" class="input-name" name="name" id="form-1-name" placeholder="Nome">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="email" class="input-emal" name="email" id="form-1-email" placeholder="Email">
+				                    </div>
+				                    <div class="form-group">
+				                      <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-1-phone">
+				                    </div>
+				                    <div class="form-group">
+<label>Número de parcelas</label>
+  <div class="input-checkbox-mini check-list">
+    <input type="radio" name="months" id="months-12" value="12" checked="checked">
+    <label for="months-12">12</label>
+    <input type="radio" name="months" id="months-18" value="18">
+    <label for="months-18">18</label>
+    <input type="radio" name="months" id="months-24" value="24">
+    <label for="months-24">24</label>
+    <input type="radio" name="months" id="months-36" value="36">
+    <label for="months-36">36</label>
+    <input type="radio" name="months" id="months-48" value="48">
+    <label for="months-48">48</label>
+  </div>
+</div>
+<div class="form-group">
+  <label for="bait-input-value">Valor de entrada</label>
+  <input type="tel" class="form-control input-money" name="input_value" placeholder="R$ 0,00" id="bait-input-value" autocomplete="off" required>
+</div>
+				                    <div class="form-group">
+				                      <input type="checkbox" name="mailing" id="mailing-1" value="true" checked="checked">
+				                      <label for="mailing-1">Desejo receber novidades por e-mail.</label>
+				                    </div>
+				                    <div class="form-group">
+				                      <button type="submit" class="btn btn-default">SOLICITAR COTAÇÃO</button>
+				                    </div>
+				                    <input type="hidden" name="utmz" value="">
+									          <input type="hidden" name="product" value="UNO 1.0 Firefly Attractive">
+									          <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0">
+									          <input type="hidden" name="channel" value="Site">
+									          <input type="hidden" name="bait" value="1">
+									          <input type="hidden" name="unit" value="mauricio-de-nassau">
+									            <input type="hidden" name="category" value="UsedModel">
+									            <input type="hidden" name="brand" value="Fiat" >
+									            <input type="hidden" name="plate" value="PCP 5700" >
+</form>				                </div>
+				              </div>
+				              <footer>
+				                <div class="row">
+				                  <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>
+				                </div>
+				              </footer>
+				            </div>
+				            <div class="result-container-form">
+				              <header>
+				                <h4>
+				                  <i class="af-calculator"></i>
+				                  Solicitação Realizada com Sucesso!
+				                </h4>
+				                <p>Vamos selecionar a melhor cotação para a sua necessidade. Logo mais um de nossos consultores entrará em contato.</p>
+				              </header>
+				              <div class="button-wrapper close-form">
+				                <button>
+				                  <div class="fill"></div>
+				                  <div class="fa fa-check"></div>
+				                </button>
+				              </div>
+				            </div>
+		             	</div>
+	            </div>
+	          </div>
+	    		<div class="container-box">
+		    		<div class="product-store">
+	              <h5>Maurício de Nassau</h5>
+	              <h6>Av. Agamenon Magalhães, 1395 - Maurício de Nassau - Caruaru-PE</h6>
+	            	<a href="tel:081 2103-4000">(81) 2103-4000</a>
+	          </div>
+          </div>
+	    	</div>
+	    	<div class="col-xs-12 product-specification">
+	    		<h6>Informações</h6>
+	    		<div class="container-box">
+	          <div class="info-list">
+		          <ul>
+		            <li>Marca: <b>Fiat</b></li>
+		            <li>Modelo: <b>UNO</b></li>
+		            <li>Versão: <b>1.0 Firefly Attractive</b></li>
+		            
+		            <li>Ano: <b>2016/2017</b></li>
+		            <li>Quilometragem: <b>329 Km</b></li>
+		            <li>Câmbio: <b>Manual</b></li>
+		              <li>Combustível: <b>Flex</b></li>
+		            <li>Portas: <b>4</b></li>
+		            <li>Cor: <b>Cinza</b></li>
+		            	<li>Placa: <b>PCP 5700</b></li>
+		          </ul>
+		        </div>
+	          <div class="tags">
+		          <ul>
+		            	<li>Faróis de milha</li>
+		            	<li>Vidros elétricos</li>
+		            	<li>travas elétricas</li>
+		            	<li>direção hidráulica</li>
+		            	<li>ar condicionado</li>
+		            	<li>Air bag</li>
+		          </ul>
+	    			</div>
+		          <div class="note">
+		          	<h6><b>Mais sobre o veículo:</b></h6>
+		          	<p>  PLACA: PCP-5700 </p>
+		          </div>
+	    		</div>
+	    	</div>
+	    	<div class="col-xs-12">
+	    		<div class="product-rule">
+            <p>*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 31/08/2017. Os preços poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores.</p>
+          </div>
+	    	</div>
+	    </div>
+	  </div>
+		  <div class="content-other-products">
+		  	<div class="row">
+		  		<div class="col-xs-12 content-other-similar-products">
+						<h6>VOCÊ TAMBÉM PODE GOSTAR DESSAS OFERTAS</h6>
+						<div class="item-list">
+							<div class="product-carousel owl-carousel">
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2015/2016</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/grand-siena-1-6-mpi-essence-16v-2016-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/18965/model_middle_comprar-grand-siena-1-6-mpi-essence-16v-2016-131_fd4f2d5ec7.jpg" alt="Fiat GRAND SIENA 1.6 MPI Essence 16V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>GRAND SIENA 1.6 MPI Essence 16V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 42.980,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/grand-siena-1-6-mpi-essence-16v-2016-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2013/2014</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/punto-1-6-essence-16v-131-d5f748b3-b257-4208-919c-8f2b19aa88cb">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/18870/model_middle_comprar-punto-1-6-essence-16v-131-d5f748b3-b257-4208-919c-8f2b19aa88cb_e343de3b84.jpg" alt="Fiat PUNTO 1.6 Essence 16V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>PUNTO 1.6 Essence 16V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 37.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/punto-1-6-essence-16v-131-d5f748b3-b257-4208-919c-8f2b19aa88cb">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2014/2015</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/saveiro-1-6-mi-trendline-cs-8v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/19071/model_middle_comprar-saveiro-1-6-mi-trendline-cs-8v-131_a0e8267305.jpg" alt="Volkswagen SAVEIRO 1.6 MI Trendline CS 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>SAVEIRO 1.6 MI Trendline CS 8V</h3>
+		          					<h6>Volkswagen</h6>
+												<div class="content">
+													<h4><b>R$ 34.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/saveiro-1-6-mi-trendline-cs-8v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2015/2016</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/uno-1-4-evo-way-8v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/17183/model_middle_comprar-uno-1-4-evo-way-8v-131_9dd7c2deb3.JPG" alt="Fiat UNO 1.4 EVO WAY 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>UNO 1.4 EVO WAY 8V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 35.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/uno-1-4-evo-way-8v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2015/2016</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/palio-1-0-mpi-attractive-8v-2016-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/19041/model_middle_comprar-palio-1-0-mpi-attractive-8v-2016-131_73d0a0a65d.jpg" alt="Fiat PALIO 1.0 MPI Attractive 8V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>PALIO 1.0 MPI Attractive 8V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 34.980,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/palio-1-0-mpi-attractive-8v-2016-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+									<div class="item">
+										<div class="container">
+											<header>
+												<div class="tags">
+													<ul>
+														<li>2014/2015</li>
+													</ul>
+												</div>
+												<div class="img">
+													<a href="/seminovos/punto-1-8-blackmotion-16v-131">
+															<img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/13361/model_middle_comprar-punto-1-8-blackmotion-16v-131_724d936a30.jpg" alt="Fiat PUNTO 1.8 Blackmotion 16V">
+</a>												</div>
+											</header>
+											<footer>
+												<h3>PUNTO 1.8 Blackmotion 16V</h3>
+		          					<h6>Fiat</h6>
+												<div class="content">
+													<h4><b>R$ 41.480,00</b></h4>
+												</div>
+												<div class="action">
+													<a class="btn btn-default" href="/seminovos/punto-1-8-blackmotion-16v-131">Quero essa oferta</a>
+												</div>
+											</footer>
+										</div>
+									</div>
+							</div>
+						</div>
+					</div>
+		  	</div>
+		  </div>
+	</div>
+</section>
+	  <div id="call-filter" class="fixed bottom">
+	    <a class="btn btn-default" data-form-fixed="true" href="/seminovos/resultado">
+	      <i class="fa fa-search" aria-hidden="true"></i> Nova Busca
+</a>	  </div>
+	  <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/overall/filter-9226b6f617be0613190b20275e9fbb22806b3fefc23df457cc7a8e6bec22719d.js"></script>
+
+
+    <footer>
+	<div class="container-fluid">
+	  	<div id="maps">
+	      	<div class="item active " >
+	          <iframe data-map="14" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.967601456451!2d-34.911515!3d-8.103131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb3a32468fba12f7!2sFiat+Italiana!5e0!3m2!1spt-BR!2sbr!4v1460494478309&quot;" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	      	<div class="item " >
+	          <iframe data-map="17" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7896.683618748614!2d-35.976746!3d-8.268736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bdcc65c3dbd%3A0x2b71acdecd45bab3!2sAv.+Agamenon+Magalh%C3%A3es%2C+1395+-+Maur%C3%ADcio+de+Nassau%2C+Caruaru+-+PE%2C+Brasil!5e0!3m2!1spt-BR!2sbr!4v1460994447256" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	      	<div class="item " >
+	          <iframe data-map="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.6292010891857!2d-34.94817528458443!3d-8.037110582480494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197c1b0fe04f%3A0xc91e16b65efa65a5!2sJeep+-+Fiat+ITALIAN!5e0!3m2!1sen!2sbr!4v1493926934659" frameborder="0" style="border:0" allowfullscreen></iframe>
+	        </div>
+	  	</div>
+	  <div id="adresses">
+			<div class="row">
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="14" class="active ">
+							<h2>Recife Imbiribeira</h2>
+	            <p>
+	              Av. Mal. Mascarenhas de Morais, 
+	              2156, 
+	              <br>
+	              Imbiribeira – 
+	              Recife/PE
+	               – CEP 51180-001<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="17" class="">
+							<h2>Caruaru</h2>
+	            <p>
+	              Av. Agamenon Magalhães, 
+	              1395, 
+	              <br>
+	              Maurício de Nassau – 
+	              Caruaru/PE
+	               – CEP 55014-000<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+					<div class="item col-xs-12 col-sm-4">
+						<address data-map="16" class="">
+							<h2>Recife Caxangá</h2>
+	            <p>
+	              Av. Caxanga, 
+	              4617, 
+	              <br>
+	              Caxangá – 
+	              Recife/PE
+	               – CEP 50740-000<br>
+	            </p>
+	              <span class="pin top"></span>
+	              <span class="pin bottom"></span>
+						</address>
+					</div>
+			</div>
+	  </div>
+	  <div id="footer">
+	  	<div class="row">
+				<div class="col-xs-12 col-sm-6">
+			  		<div class="item active ">
+			  			<div data-map="14">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  IMBIRIBEIRA:   
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 17h
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                    <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="17">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  CARUARU:  
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 13h
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		                    <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="16">
+				 				<h5>Horários de Funcionamento</h5>
+				 				<div class="schedules">
+				  				<ul>
+			                <li>
+			                  <span>ITALIANA</span>
+			                  CAXANGÁ:  
+			                </li>
+			                <li>
+			                  <span>Showroom:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 09h às 14h 
+			                </li>
+			                <li>
+			                  <span>Oficina:</span>
+			                  Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h
+			                </li>
+			            </ul>
+				 				</div>
+			  				<h5>Siga-nos</h5>
+			  				<div class="social-midia">
+				  				<ul>
+		                    <li><a href="https://www.facebook.com/jeepitaliana/" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+		                    <li><a href="https://www.instagram.com/jeepitaliana/" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+		              </ul>
+		            </div>
+			  			</div>
+			  		</div>
+			  </div>
+			  <div class="col-xs-12 col-sm-6">
+			  		<div class="item active ">
+			  			<div data-map="14" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-recife-imbiribeira">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 2121-1100'>(81) 2121-1100</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="17" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-mauricio-de-nassau">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 2103-4000'>(81) 2103-4000</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  		<div class="item ">
+			  			<div data-map="16" class="phones">
+				 				<h5>Ligue Agora</h5>
+			  				<ul data-footer-info="#map-bairro-caxanga">
+		                <li>
+		                  <span>Central de Atendimento</span>
+		                  <a href='tel: 081 3454-1080'>(81) 3454-1080</a>
+		                </li>
+		            </ul>
+			  			</div>
+			  		</div>
+			  </div>
+	  	</div>
+	  </div>
+	</div>
+	<div class="container-fluid">
+	 	<div class="copyright-content">
+      <h2 class="brand-client">
+        <a href="/" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png)">Italiana</a>
+      </h2>
+	  </div>
+		<div id="copyright">
+	  	<div class="row">
+	      <p class="copyright">© Copyright 2017 - Italiana - Todos os direitos reservados. <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>.</p>
+	      <h2 class="developer-brand">
+	        <a href="http://www.autoforce.com.br" target="_black" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/assets/logo_dark.png); background-size: contain;">AutoForce</a>
+	      </h2>
+    	</div>
+    </div>
+	</div>
+</footer>
+
+
+    <div class="overlay">
+      <div class="loader">
+        <div class="loading-slide">
+          <div class="slide"></div>
+          <div class="slide"></div>
+          <div class="slide"></div>
+        </div>
+      </div>
+      <div class="dark-side"></div>
+      
+        <div id="privacy-policy" class="pop-up-info pop-up-middle">
+    <div class="btn-close"><i class="fa fa-times" aria-hidden="true"></i></div>
+    <div class="pop-up-wrapper-content">
+      <div class="pop-up-wrapper-item">
+        <h4>Política de Privacidade</h4>
+        <p>Nós estamos comprometidos em resguardar sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site – e respectivos serviços – e de que forma esses dados são manipulados e utilizados.</p>
+        <p>Alertamos que se você não concorda com o conteúdo desta política, não é recomendável baixar nossos materiais nem utilizar quaisquer de nossos serviços.</p>
+        <h4>Sobre a coleta de dados</h4>
+        <p>Em nossos sites, as informações são coletadas das seguintes formas:</p>
+        <p>Informações fornecidas por você – Coletamos informações de identificação pessoal – como nome, telefone, email, empresa em que trabalha e cargo – via preenchimento dos formulários para download de nossos conteúdos gratuitos. Eventualmente, a solicitação algumas informações podem ser feitas por meio de contato direto da Imbiribeira com os usuários via email ou telefone.</p>
+        <p>Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas.</p>
+        <p>Histórico de contato – Aqui na Imbiribeira armazenamos informações a respeito de todos os contatos já realizados com nossos usuários, como conteúdos baixados a partir de nossas páginas e interações via email.</p>
+        <h4>Sobre o uso de suas Informações Pessoais</h4>
+        <p>O presente termo permite que a Imbiribeira use suas informações pessoais para diferentes finalidades.</p>
+        <p>O email é utilizado para a operação de envio do material ou informação por você requisitada no preenchimento do formulário. Também pode ser usado para envio de Newsletters, sempre relacionadas a temas do Direito.</p>
+        <p>Por fim, o email será utilizado ainda para comunicar o lançamento de novos materiais gratuitos ou de novos serviços da Imbiribeira e parceiros. No entanto, o usuário pode cancelar a assinatura a qualquer momento.</p>
+        <p>Os dados de download poderão ser divulgados como pesquisas e estatísticas, não sendo reveladas abertamente nenhuma informação pessoal, a menos que autorizada explicitamente.</p>
+        <p>Funcionários da Imbiribeira poderão eventualmente entrar em contato via email ou telefone para fazer pesquisas ou apresentar produtos e serviços.</p>
+        <h4>Sobre o acesso às suas informações pessoais</h4>
+        <p>Poderão ver suas informações pessoais apenas funcionários da Imbiribeira. Eventualmente, caso a inserção de suas informações se dê em ações criadas em parcerias, os parceiros explicitamente identificados também terão acesso à informação.  Nenhuma informação pessoal poderá ser divulgada </p>
+        <p>A Imbiribeira também se compromete a não vender, alugar ou repassar suas informações para terceiros. A única exceção está em casos em que essas informações forem exigidas judicialmente.</p>
+        <p>Além disso, embora trabalhemos com boas práticas de proteção e segurança, nenhum serviço web possui 100% de garantia contra invasões e não podemos nos responsabilizar caso isso ocorra.</p>
+        <h4>Sobre o compartilhamento de conteúdo nas redes sociais</h4>
+        <p>Ao clicar nos botões de compartilhamento de conteúdo nas mídias sociais disponíveis em nossas páginas, o usuário estará publicando o conteúdo por meio de seu perfil na rede selecionada. A Imbiribeira não têm acesso ao login e senha dos usuários nessas redes, nem publicará conteúdo em nome do usuário sem que ele realize esta ação.</p>
+        <h4>Mudanças na Política de Privacidade</h4>
+        <p>Essa Política de Privacidade pode passar por atualizações. Desta forma, recomendamos visitar periodicamente esta página para que você tenha conhecimento sobre as modificações.</p>
+        <p>Antes de usar informações para outros fins que não os definidos nesta Política de Privacidade, solicitaremos sua autorização.</p>
+            <h4>Contato com a Imbiribeira para esclarecimento de dúvidas</h4>
+            <p>Qualquer dúvida em relação à nossa política de privacidade pode ser esclarecida entrando em contato conosco através do email: <a href="mailto:contato@italiana.com.br">contato@italiana.com.br</a></p>
+      </div>
+    </div>
+  </div>
+
+    </div>
+
+    <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_portal-eea3ae4b165aad8371f69fca33ad819d861e09be3b7f0968b1428c478bbb54ef.js"></script>
+
+
+
+    
+    
+    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=597f8dc55eb3920011c7cde6&product=inline-share-buttons"></script>
+  </body>
+</html>

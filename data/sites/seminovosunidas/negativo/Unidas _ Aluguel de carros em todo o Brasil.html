@@ -1,0 +1,1836 @@
+
+    <!doctype html>
+    <html xmlns:umbraco="http://umbraco.org">
+    <head>
+        <!-- Definição dos meta dados -->
+        <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="A Unidas é a locadora de veículos presente em todos os destinos do Brasil. Escolha seu carro de forma fácil, rápida e sem problemas." /><title>
+	Unidas | Aluguel de carros em todo o Brasil
+</title>
+
+        <!-- Insere as folhas de estilo -->
+        <link href="/css/bootstrap.css" rel="stylesheet" />
+        <!--link href="/css/bootstrap-responsive.css" rel="stylesheet"-->
+        <link href="/css/styles.css" rel="stylesheet" />
+
+        <!--link href="/css/temporario.css" rel="stylesheet"-->
+        <!-- Insere as folhas de estilo -->
+        <script src="/scripts/jQuery.js" type="text/javascript"></script>
+        <script src="/scripts/bootstrap.js" type="text/javascript"></script>
+        <script src="/scripts/jquery-ui-1.10.3.min.js"></script>
+        <script src="/scripts/jquery.ui.datepicker-pt-BR.js"></script>
+        <link href="/css/themes/base/minified/jquery.ui.autocomplete.min.css" rel="stylesheet" /><link href="/Css/themes/base/jquery-ui-1.10.3.custom.css" rel="stylesheet" /><link href="/css/userControl.css" rel="stylesheet" />
+        <script src="/scripts/datepickerEx.js"></script>
+        <script src="/scripts/jquery.mask.js"></script>
+        <script src="/Scripts/jquery.cookie.js"></script>
+
+        <script src="/Scripts/CustomECommerceManager.js"></script>
+        <script type="text/javascript" src="/Scripts/Common.js"></script>
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+		    <script src="/scripts/html5shiv.js"></script>
+		<![endif]-->
+
+        <!--[if lte IE 9]>
+            <link href="/css/styles_lte_ie9.css" rel="stylesheet" /> 
+
+            <script type="text/javascript" src="/scripts/jquery.placeholder.js"></script>
+	       
+            <script type="text/javascript">
+	            $(function () {
+	                $('input[placeholder], textarea[placeholder]').placeholder();
+	            })
+	        </script>
+
+        <![endif]-->
+
+        <!--[if lte IE 8]>
+            <link href="/css/styles_lte_ie8.css" rel="stylesheet" /> 
+        <![endif]-->
+
+        <!--[if IE 7]>
+            <link href="/css/styles_lte_ie7.css" rel="stylesheet" /> 
+        <![endif]-->
+
+        <script type="text/javascript">
+            $(function () {
+                $(".dropdown-toggle").hover(
+					function () {
+					    $(this).trigger("click");
+					    $(this).bind("click");
+					}, function () { }
+				);
+
+                $(".dropdown-menu").hover(function () { },
+					function () {
+					    $(this).trigger("click");
+					    $(this).bind("click");
+					}
+				);
+            });
+
+            $().ready(function () {
+                $(".phone").mask("99999-9999");
+                $(".ddd").mask("99");
+                $(".cep").mask("99999-999");
+                $(".number").mask("99999999999999999999");
+                $(".date").mask("39/19/9999");
+                $(".passaporte").mask("AAAAAAAAAAAAAAAAAA");
+            });
+        </script>
+
+
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+        
+    <link href="/css/nivo-slider.css" rel="stylesheet">
+    <link href="/css/themes/base/minified/jquery.ui.autocomplete.min.css" rel="stylesheet" />
+    <link href="/Css/themes/base/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+    <script src="/scripts/jquery.nivo.slider.js" type="text/javascript"></script>
+    <link href="/css/MediaBanner.min.css" rel="stylesheet" />
+    <!--[if IE 10]>
+        <link href="/css/styles_ie10.css" rel="stylesheet" />
+    <![endif]-->
+    <script src="/scripts/parceiros.js"></script>
+    <script src="/scripts/guias.js"></script>
+    <script type="text/javascript">
+        function replaceAll(str, de, para) {
+            var pos = str.indexOf(de);
+            while (pos > -1) {
+                str = str.replace(de, para);
+                pos = str.indexOf(de);
+            }
+            return (str);
+        }
+    </script>
+   
+
+    <!--[if lt IE 9]>
+        <style>
+            .ui-datepicker{
+                width: 18em;
+            }
+        </style>
+    <![endif]-->
+
+    
+
+    
+</head>
+    <body>
+  
+
+        <header>
+            <div class="campoTopo">
+                <div class="container field_menu_size noPrint">
+                 
+                    <section id="topo"><div><nav class="navbar navbar-static-top"><section id="logo"><a class="brand" href="/" title="Unidas"><img src="/media/logo/unidas_logo.png" alt="Unidas" /></a></section><section id="menu-superior"><button data-target=".nav-collapse" data-toggle="collapse" class="bottonShowMenu btn btn-navbar" type="button"><span class="icon-bar"> </span><span class="icon-bar"> </span><span class="icon-bar"> </span></button><div class="nav-collapse collapse"><ul class="nav"><li class="dropdown itensMenuSup1"><a class="dropdown-toggle" data-toggle="dropdown" title="Alugue um Carro" href="#">Alugue um Carro</a><ul class="menuIten_1 dropdown-menu"><li><span class="titleMenu">Alugue um Carro</span></li><li><a href="/reserva.aspx?action=new" title="Reservas Nacionais">Reservas Nacionais</a></li><li><a href="http://www.alamobrasil.com.br/" title="Alamo Reservas Internacionais" target="_blank">Reservas Internacionais</a></li><li><a href="http://portaldereservas.unidas.com.br/" title="Reservas Coporativas" target="_blank">Reservas Corporativas</a></li><li><a href="/aluguel-de-carros/minhas-reservas.aspx" title="Minhas Reservas">Minhas Reservas</a></li><li><a href="/aluguel-de-carros/encontre-sua-loja.aspx" title="Encontre sua Loja">Pesquisa por Lojas</a></li><li><a href="/aluguel-de-carros/modelos-de-carros.aspx" title="Modelos de Carros">Grupos de Carros</a></li><li><a href="http://semprezero.unidas.com.br/" target="_blank">Unidas Sempre Zero</a></li><li><a href="/mensal" target="_blank">Unidas Mensal</a></li></ul></li><li class="barraMenu"> </li><li class="dropdown itensMenuSup2"><a class="dropdown-toggle" data-toggle="dropdown" title="Minhas Reservas" href="#">Minhas Reservas</a><ul class="menuIten_2 dropdown-menu"><li><a href="/aluguel-de-carros/minhas-reservas.aspx" title="Minhas Reservas"><span class="titleMenu">Minhas Reservas</span></a></li></ul></li><li class="barraMenu"> </li><li class="dropdown itensMenuSup3"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Tercerize sua Frota">Terceirize sua Frota</a><ul class="menuIten_3 dropdown-menu"><li><span class="titleMenu">Terceirize sua Frota
+                         
+                      </span></li><li><a href="/terceirize-unidas" title="Unidas Frotas" target="_blank">Unidas – Frota Corporativa</a></li><li><a href="/terceirize-bestfleet" title="Bestfleet Frotas" target="_blank">BestFleet - Frota Executiva</a></li></ul></li><li class="barraMenu"> </li><li class="dropdown itensMenuSup4"><a class="dropdown-toggle" data-toggle="dropdown" title="Compre um Carro" href="#">Compre um Carro</a><ul class="menuIten_4 dropdown-menu"><li><a href="http://www.unidasseminovos.com.br/" title="Compre um Carro" target="_blank"><span class="titleMenu">Compre um Carro</span></a></li></ul></li><li class="dropdown itensMenuSup5"><a class="dropdown-toggle" data-toggle="dropdown" title="Blog" href="#">Blog</a><ul class="menuIten_5 dropdown-menu"><li><a href="/blog/" title="Blog" target="_blank"><span class="titleMenu">Blog</span></a></li></ul></li></ul></div></section><section id="idiomas"><ul class="idioma_size nav pull-right"><li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" title="pt-BR" href="#"><span>Português
+                     
+                  </span><img src="/media/flag/pt-BR.png" /></a><ul class="dropdown-menu"><li><a href="/" title="Home (Português)"><span>Português
+                               
+                            </span><img src="/media/flag/pt-BR.png" /></a></li><li><a href="/en/" title="Home (English)"><span>English
+                               
+                            </span><img src="/media/flag/en-US.png" /></a></li><li><a href="/es/" title="Home (Español)"><span>Español
+                               
+                            </span><img src="/media/flag/es-ES.png" /></a></li></ul></li></ul><div class="likeFacebook"><a href="https://www.facebook.com/unidasoficial" title="Facebook" target="_blank"><img src="/media/9697/UnidasFacebook.png" alt="Facebook" /></a><a href="https://twitter.com/UnidasOficial" title="twitter" target="_blank"><img src="/media/9699/UnidasTwitter.png" alt="twitter" /></a><a href="https://plus.google.com/112739319243432694114" title="Google plus" target="_blank" rel="publisher"><img src="/media/9698/UnidasGooglePlus.png" alt="Google plus" /></a></div></section></nav></div><div class="menu-blog-mobile" style="display: none;"><ul><li><a rel-mobile="/mobile/reservapasso1mobile.aspx?action=menu" rel-desktop="/reserva.aspx" href="#">Alugue um carro</a></li><li><a rel-mobile="/mobile/minhasreservasmobile.aspx" rel-desktop="/aluguel-de-carros/minhas-reservas.aspx" href="#">Minhas reservas</a></li><li><a rel-mobile="/mobile/pesquisalojamobile.aspx" rel-desktop="/aluguel-de-carros/encontre-sua-loja.aspx" href="#">Encontre a loja</a></li><li><a rel-mobile="/mobile/fale-conosco.aspx" rel-desktop="/aluguel-de-carros/fale-conosco.aspx" href="#">Fale Conosco</a></li></ul></div></section>
+
+                </div>
+            </div>
+            <div class="degrade"></div>
+        </header>
+
+        <form method="post" action="/" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZItg9O3jPMbG7QvAoNKn2CfdH0qw6nleEfFozRT8lERCZPTquA--TKJ0e9t8crwwHw2&amp;t=635792910349294682" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready(function () {
+                var CategoriaCorrente = '';
+                var renderCategoria;
+                var tmpName = '';
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').focusout(function(){
+                    $(this).css({'background': 'none;'});
+                });
+                
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').autocomplete({
+                    minLength: 3,
+                    source: function (request, response) {
+                        $.ajax({
+                            url: '/UserControls/BuscaLojas.aspx/GetListaLojas',
+                            contentType: 'application/json; charset=utf-8',
+                            type: 'POST',
+                            data: '{\'Dados\':\'' + request.term + '\', \'Culture\':\'pt-BR\',\'CodPromocao\':\'0\'}',
+                            beforeSend: function () {
+                                // Devido a um problema no momento da seleção do item,
+                                // é necessário utilizar esse recurso.
+                                $('ul').unbind('mouseenter');
+
+                                CategoriaCorrente = '';
+                            },
+                            complete: function () {
+                                
+                            },
+                            success: function (retorno) {
+                                if(retorno.d == null || retorno.d == undefined || retorno.d == '') {
+                                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').trigger('SemLoja')
+                                            .removeClass('ui-autocomplete-loading')
+                                            .autocomplete('close');
+                                } else {
+                                    response($.map(retorno.d, function (item) {
+                                        return {
+                                            value: item.Sigla,
+                                            label: item.Nome,
+                                            Categoria: item.Categoria
+                                        }
+                                    }))
+                                }
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                //alert('Erro interno, não foi possível processar sua requisição. ' + errorThrown);
+                            }
+                        });
+                    },
+                    select: function (event, ui) {
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').trigger('OnSelectShop', [ui.item.value]);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val(ui.item.label);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val(ui.item.value);
+                        
+                        return false;
+                    },
+                    open: function () {
+                        $('ul').bind('mouseenter');
+                        $('.ui-menu-item').click(function () {
+
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val($(this).data('nome'));
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val($(this).data('sigla'));
+                            console.log($(this).class);
+                            if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').hasClass('listaRetirada')){
+                                getDadosDaLoja($(this).data('sigla'), 'retirada');
+                            } else {
+                                getDadosDaLoja($(this).data('sigla'), 'devolucao');
+                                //AtualizaDataDevolucao();
+                            }
+                        });
+                    }
+                }).focusin(function () {
+                    tmpName = $(this).val();
+                    $(this).val('')
+                    .css({
+//                      'background': 'url(\'/media/layout/local_loja.png\') no-repeat scroll 310px -1px #FFFFFF !important',
+//                      'border': 'solid 1px #FFFFFF !important'
+                    });
+                }).focusout(function () {
+//                    if ($(this).val() == '')
+//                       $(this).val(tmpName);
+
+//                    $(this).css({
+//                        'background': 'url(\'/media/layout/local_loja.png\') no-repeat scroll 310px -1px #FFDD00 !important',
+//                        'border': 'solid 1px #FFDD00 !important'
+//                    });
+                }).data('ui-autocomplete')._renderItem = function (ul, item) {
+                    var htmlCategoria = '';
+                    renderCategoria = CategoriaCorrente != item.Categoria;
+                    if (CategoriaCorrente == '' || renderCategoria) {
+                        htmlCategoria = '<div class=\'grayDiv\'>' + item.Categoria + '</div>';
+                        CategoriaCorrente = item.Categoria;
+                    }
+                    return $('<li data-sigla=\'' + item.value + '\' data-nome=\'' + item.label + '\'></li>')
+                    .data('ui-autocomplete-item', item)
+                    .append(htmlCategoria + '<a><div class=\'' + retiraAcentos(CategoriaCorrente.replace(' ', '')) + '\'>' + item.label + '</div></a>')
+                    .appendTo(ul);
+                };
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').click(function(){
+                    $(this).removeClass('placeholder');
+                });
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').keyup(function(e){
+                    if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val() != null && $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val().length <= 3 && (e.keyCode == 8 || e.keyCode == 46)){
+                        //$('#@AcronymField').val('');
+                        //$('#@ListaLojasRet').val('');
+                        //$('#errorLojaRet').show();
+                       // $('#errorCodigoPromocional').hide();
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').autocomplete({
+
+                        });
+                    }
+                });
+
+                function AtualizaDataDevolucao(){
+                    console.log('selecionou loja de retirada');
+
+                    //colocar if, se já tiver data selecionada, realiza um novo dMaisUm
+                    var origem = null;
+                    var dataRetirada = null;
+
+                    if ($('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioDe_txtData').val() != null){
+                        origem = 'ReservaNacional';
+                        dataRetirada = $('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioDe_txtData');
+                    }
+                    else{
+                        origem = 'home';
+                        dataRetirada = $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData');
+                    }
+
+                    var proximoDia = dMaisUmCalendariosDiferente(dataAberturaOriginal.retirada, dataAbertura.devolucao, dataRetirada.val());
+
+                    var myDate = new Date(dataRetirada.val());      
+                    myDate = myDate.addDays(1);                          
+                    myDate = myDate.addDays(proximoDia);
+
+                    if(origem == 'ReservaNacional')
+                        $('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioAte_txtData').datepicker('setDate', myDate);
+                    else
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').datepicker('setDate', myDate);
+
+                }
+
+            });$(document).ready(function () {
+                var CategoriaCorrente = '';
+                var renderCategoria;
+                var tmpName = '';
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').focusout(function(){
+                    $(this).css({'background': 'none;'});
+                });
+                
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').autocomplete({
+                    minLength: 3,
+                    source: function (request, response) {
+                        $.ajax({
+                            url: '/UserControls/BuscaLojas.aspx/GetListaLojas',
+                            contentType: 'application/json; charset=utf-8',
+                            type: 'POST',
+                            data: '{\'Dados\':\'' + request.term + '\', \'Culture\':\'pt-BR\',\'CodPromocao\':\'0\'}',
+                            beforeSend: function () {
+                                // Devido a um problema no momento da seleção do item,
+                                // é necessário utilizar esse recurso.
+                                $('ul').unbind('mouseenter');
+
+                                CategoriaCorrente = '';
+                            },
+                            complete: function () {
+                                
+                            },
+                            success: function (retorno) {
+                                if(retorno.d == null || retorno.d == undefined || retorno.d == '') {
+                                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').trigger('SemLoja')
+                                            .removeClass('ui-autocomplete-loading')
+                                            .autocomplete('close');
+                                } else {
+                                    response($.map(retorno.d, function (item) {
+                                        return {
+                                            value: item.Sigla,
+                                            label: item.Nome,
+                                            Categoria: item.Categoria
+                                        }
+                                    }))
+                                }
+                            },
+                            error: function (jqXHR, textStatus, errorThrown) {
+                                //alert('Erro interno, não foi possível processar sua requisição. ' + errorThrown);
+                            }
+                        });
+                    },
+                    select: function (event, ui) {
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').trigger('OnSelectShop', [ui.item.value]);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').val(ui.item.label);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfCodigoLoja').val(ui.item.value);
+                        
+                        return false;
+                    },
+                    open: function () {
+                        $('ul').bind('mouseenter');
+                        $('.ui-menu-item').click(function () {
+
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').val($(this).data('nome'));
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfCodigoLoja').val($(this).data('sigla'));
+                            console.log($(this).class);
+                            if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').hasClass('listaRetirada')){
+                                getDadosDaLoja($(this).data('sigla'), 'retirada');
+                            } else {
+                                getDadosDaLoja($(this).data('sigla'), 'devolucao');
+                                //AtualizaDataDevolucao();
+                            }
+                        });
+                    }
+                }).focusin(function () {
+                    tmpName = $(this).val();
+                    $(this).val('')
+                    .css({
+//                      'background': 'url(\'/media/layout/local_loja.png\') no-repeat scroll 310px -1px #FFFFFF !important',
+//                      'border': 'solid 1px #FFFFFF !important'
+                    });
+                }).focusout(function () {
+//                    if ($(this).val() == '')
+//                       $(this).val(tmpName);
+
+//                    $(this).css({
+//                        'background': 'url(\'/media/layout/local_loja.png\') no-repeat scroll 310px -1px #FFDD00 !important',
+//                        'border': 'solid 1px #FFDD00 !important'
+//                    });
+                }).data('ui-autocomplete')._renderItem = function (ul, item) {
+                    var htmlCategoria = '';
+                    renderCategoria = CategoriaCorrente != item.Categoria;
+                    if (CategoriaCorrente == '' || renderCategoria) {
+                        htmlCategoria = '<div class=\'grayDiv\'>' + item.Categoria + '</div>';
+                        CategoriaCorrente = item.Categoria;
+                    }
+                    return $('<li data-sigla=\'' + item.value + '\' data-nome=\'' + item.label + '\'></li>')
+                    .data('ui-autocomplete-item', item)
+                    .append(htmlCategoria + '<a><div class=\'' + retiraAcentos(CategoriaCorrente.replace(' ', '')) + '\'>' + item.label + '</div></a>')
+                    .appendTo(ul);
+                };
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').click(function(){
+                    $(this).removeClass('placeholder');
+                });
+
+                $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').keyup(function(e){
+                    if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').val() != null && $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').val().length <= 3 && (e.keyCode == 8 || e.keyCode == 46)){
+                        //$('#@AcronymField').val('');
+                        //$('#@ListaLojasRet').val('');
+                        //$('#errorLojaRet').show();
+                       // $('#errorCodigoPromocional').hide();
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').autocomplete({
+
+                        });
+                    }
+                });
+
+                function AtualizaDataDevolucao(){
+                    console.log('selecionou loja de retirada');
+
+                    //colocar if, se já tiver data selecionada, realiza um novo dMaisUm
+                    var origem = null;
+                    var dataRetirada = null;
+
+                    if ($('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioDe_txtData').val() != null){
+                        origem = 'ReservaNacional';
+                        dataRetirada = $('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioDe_txtData');
+                    }
+                    else{
+                        origem = 'home';
+                        dataRetirada = $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData');
+                    }
+
+                    var proximoDia = dMaisUmCalendariosDiferente(dataAberturaOriginal.retirada, dataAbertura.devolucao, dataRetirada.val());
+
+                    var myDate = new Date(dataRetirada.val());      
+                    myDate = myDate.addDays(1);                          
+                    myDate = myDate.addDays(proximoDia);
+
+                    if(origem == 'ReservaNacional')
+                        $('#ContentPlaceHolderDefault_ContentBody_reservaPasso1_calendarioAte_txtData').datepicker('setDate', myDate);
+                    else
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').datepicker('setDate', myDate);
+
+                }
+
+            });//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=nv7asgRUU0tRmHNR2D6t1GrP7ugNhdqnpdRk2q6J21j2kEY2uA3cnoMUGgRPklHdriMAYxXt9dBD20NmcYneLDtOHR9xrubhtIJVJi8oY8YkKg40iMvqKpPgZNQsx8gnHnvIgnwhQ-9rN8FCB52j5A2&amp;t=fffffffffa488f4d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yeSNAJTOPtPimTGCAo3LlYH6tXTLIs5tjHceaKPUS9sY7FK7xhsyUh8vOiWHqxLfWj4e0ZFd0LNUO5p6q6Q218lvtHfTS0LDiZAyQkdTNmoE_5D3PsBSuFFJReRbRIVS0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=DT3YJR8QaqV61-teuz0hgkcyWyp-GxFegRXE9p1GX61R9pZ2fdOmzTdr0UCcvELioaUZCgGV_joDI8HW58Zm2Lf7CIOLbznJMIK1tfPO3Asp3eAow85Korxdg-vHbcaHkLN79LtTKpOvycrL1U9cNQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="Scripts/Common.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HmPHS4c8DJOsyehLgTYT9HzfkqlrLlU3EfOZFcjUkEI7CnBctUMy5YO4e-7BWUqDmiuussDoS-hTHUiYK3uESiye_cBE_JNbZsyNMetnKgJ8NwavFyrpJfIeg2QIKIHC0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NoZa34-nMS7-Xc6gGOLpOpB-DF9aMEvS4SCaSTRk9rYYxuWT83m4CRbChlQ0mb8VPbhPwISKAezpgPG3X9JcVul1MlhZUVNIx0i5IVM5hnCyUH8CYGWHNbjPzrY6h82PdMPCqC3CjvXVsY5qGuvoXw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5wXllp0R9IGmTo_t5PpL_xnwywoCC8kaRddsmqCBLT2I4jKqWLtGRccwoEm2eF_s-hso7jT3d6ZWE_p68T_h3k-rMBDXAyWpL5RIxHa33aYpBd8HCLdpIYcVi6dFnlxGfAqO3SPvwaZwQS_ClznGnQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yAqRFaJKcFePa9XLjpeaubv8YGZhBcoX7_VIk-adxLSk0c1nv7lwhjBkw2nPfuKH3j0Y2s4EqiB5I0Zk-Buf7dqK5gUvEkih_KmWmjpY1t--j8LoONu9lzgqzCBuDHmZ21t1pOwS8iY5vvlfU70LAQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OFchIa8TEHI7HoGbRKmleQZRJd1K-Oo-ZQS0mpi26HLqaF2J6tW6E0c2VyAFX5OvUueKPe5HyMnJq0bMR3evwAGI-HUuc1aIFq0UXpUiR2PmgvVfWv-luWmXcMTwPjx00_6hPcHkG4AL16VB8ruyjA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Oj0COvQfsv6XifIwOQYHrpaSsG2WGOM4Y6ZK5AmkpCO5i0h4Ff854FJ1eY_97lPAoVsVsUVBr7tLicGKEw3Pgwg2nFOrI-gU61t53nVp4QliYl5BuPrJqywL8DJKF7fkcAr84arVvuMHHFCRb2K4xaHc_QH88rxgu5W3FC9sEGw1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=m9fq2ir0v1e4RLTf7kAUQgGfk6uPutDoTOifJLoYm7rDDhqWgCXbLSchcSXQfVk0muB2YFXcU4Z_UwCKLKkqwiaN0hMJFUAwk-dduUGgk_YXxD9DkMlnG3xZsxxcyUf5wItNpk68nxUtJq1_Q-LfwiSmZosCt4JvmQPYrRy2QgGaUczJ3tF6kMfell_lIpJX0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=RNvq9SNP3zlw9mIirMuN3J3t2KOs6VQWU_PJRItEscjj91zKeEhLQQEQ1z-Z7V2xW1j_8tsQ4h8-iQhd4h23bnZHEkA8lt2qUJIUTH5S987eXbFlJB01SGDxU7XF5Uep8urHFPQbRzgbI9Yi5bWAzmsfFxZ0s1MfX6QvOzNoBv41&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=AJCUe-W6Dc9Kk2DbPmcTaEUPixLHHPnevmzjLzmhFNL13kTDef4e1Fi_6ZAaUetVyWZvm_S6GoCrVJYBrqrFB8P5BYGrkN9ZZ_Cw6XJtzcIz7QFXdc0y9Cdekid8MzeZcpwTESX5Q1qBt7P5p8J4P3vMEDWKjKDxG6s-H0QpXAA1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PpzqYTuZ6NhRcBigzFRmaPTx8WNELcDmSeAPqqnMqMkRf7v-0D4tRPhlegriu3CgnyDRccSLp6VJqL8HOYN0R6qWy9e8iQYcZqp6LItAf6PErgQcSJI68oBM7foUmnpU32mwMW4iHoQOs7TMWqnDB-oxujA2zDeRi8mYoKWJvyU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HNums95SnYWFd0i1JFtHtUsm-Zo2WT_6ixLzX1HIVnC06LyAgXGaV2SoWdjQ9-TnyX2B7XGOlwv3gUbnrugRMdyzWiZUbCt1FkivYeyjG8Rk4wBTmZwVizwsJ6AnRiYavVLSFYfJvq5g2d64ONL1LjyK1A7Gokw02QLRclw7cA81&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=j7ppp1dhMJfxz9cOyLfjkPgChiG143Vd5yNtd9l3CC8eEy0f0jYzNB7TcgeUgK41_h6mK8w-J6dXuzhqFB1y7ex5V5YkpX--1D6pm7lJET8-Aj_7NJRbT-GQ3C-EdUHxWvK93XC28bbjIBI3ekW-y3d0Bk-8we2mZPbajIxXKEQ1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_9pRPex_hMDqwF7W_tsE_eWmCb70ybEhhW8zXFJtigCAP9Hz6eEG8yqrX7Maeqe5er47kD3HN4BRllKXI83BZ7eX8o76yVeyXmYRjqgnEsEsfUYKE1ERD-fM2Er20HD3zGY2SDazxgnv2t5cz6OenNcwOQeyfmF6Yyw0xGEa8Xg1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=MOUUZAHHFnmmiQ4BM9r_BEoWxrqDiIUlUwl3QNTkDdsrXXqQ69gtUTI-xu_7hDBOjBDN62JrXHJre8m5PvtzCw1gPHMHhLMNLIR6kj8HPnPzWDx880J_OXqoZku0RxMcRPqiNSClDalCbOnbCHoHdF9l18CYDZKXpXlMeiVLwv01&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GIDUvP_Wj4GjkKB3ra3W_zV_UlFqwJuEK3i4vNbcuReYvt_OdMVw2ff9MvlcKJRFDDdcrLdow5eASlOw9TO0Bt7FrLTFAS26bCbJhq-mDYXWJ-roxY0Y8aQaQmx9ulb7Dg9PUoJe4zQZo2H2Wn63FQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YcnC-dVkVVaCNWQrIpv7zq4n2Cj_78ayYjIVcJvM4SlaF4HMhPI-lebeQThpks-ltAYlKP9k7TicABRGRIlkb0dfCSz9n3FSzqQiNZS-II8qtUK6n9V6WMfHtLoT4ZZtt5LZ3lfGXAQ_yUggQEWWnw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_9qVRav8GRv0rjlzFWKQq1VQ4pXjwmz7BXh8Jwum7PZM73AJV_aOx6CM_FiCQ1MiMfI7EcCQzuk_S75axTO3rZaYdkRfbp2Akgxvx783iykTdLSQscdqPy1h-2zGr0wCZFO3L1PbmbX6o48iYOYflQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=wlT_R2DeOdZ-aZsIrpQtodGM1mfx7J6mImHEAx4ymFP4C2Oh8lbjjhjcBkV9MvawhFILYqyS7VtIDVmw08fhZEp_TN4R3duKY-EDZgT9Vl8UViTEW0pXpv_10JugVXShMrLdHqL4yhT_c62w4j3oTA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=365mroy-7dtCje25-XAS51XweBBW2dWSR-RkV941PH1C7bnTxuhfqiP_773o5FrMxPm4mcgmDBJnz4KDD7FtKDj5CRL5CzM4inSQuX23dNC8A6QI3TpfOPXo1hYq__S5HGnqo3CidV_YCQeUf7_wpw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mi2OcNv48xWANXsxQ04Xhn8adGH2dh6_jTx1ef8Qo14OoiLflJxiwLbIYq6jGrmOOxGmVPuckrpDk1oesrZbPdOwMcm4SJ-g6q6aDoF_cDK92-mjvVqykfRBo3cfX-Rx0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pm_NLmic1FzmzFbRjsvfIH_lY31nYFJzyQVBWQVlD_WHn0nsIKRtYOGaoOMApk_gVg8Snwd06fEWZWcFYr7-SHy4vZIXhimyTVP7t4GZZeiY-U9f_8rCZ4bTCWy27gT70&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VlfI4xD6HtABU5Rw0MhkIUPJkZpPH_LG-uJaJfrahHxVRFD99GGVFtNnRocpfOoHcGSV5hXz5qWliz2ptY8n2tUjkYiLCTHDEt_q54Lo9W4vURYn3k6SYc0Mm7Dx0n_N5HgEspF2hZK3sCBomdl3pw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=wGudlNUh3NXCjvyZmqc7e1I3iwsX86_bnP6MJaknUSSdSsUVsKs3Mg736-MgG8BSzC_Sci4a9jEaZuuulcikd8u6X4INzywMs9bQkCdQxLO0ZypBr9hOAoRGfTe0k0T0IYmlICHTxKBoe6wKJPxqkw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=1MUcAleZsElV5ObEl_9ZtdaqE_MjQ1DLCcd8UUQzvoXAkQc4rnOb0b0LOnY2PUVsYMouk8CfOvKvPe4G50rB_8nAfaqSoeI7542buKyvOgtOGJvrS2739JQ5r8w5RuR7fdFGWnDRR1smDgJcrgfLMw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fD5ScntIQ6xGRLqCKve7VDjiRQ2SnNh55h7Iy_jydHE6OWVG90j1Y8SwMlgb4hOxjfzZAOLNofLeRWyPjiih7sxxKhyEdb5xhMafxrddXjToj7wFSKW4sO7nCeormLLY1MmxaUCk86R2Vrei5m5HDpLwTCaSqa6jGOyC9hzAHds1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=hljD5KpYUWXNnDXj5raA-prJIhOKPKXSgZugCOe9CsGmHZ1_IS30-rSV2gzirPqSCblYkpuv--303CYUsiC3zGL_S0zMa0wb66ZZvDSn7JAnJ3K2AbougWFnpKo2Y1XqH7l-8qxLPavhTSpBYcT4bHC6tsYMSlSKuWkKHG7mISY1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=feyZ4P3XY77EwMe1z-VOohEfeSjWgmS2uW3HhoE6KL5MJ3b45RjMcBzTE4vsgveby5WwsM9diSRtOvLSkH1aOp0WU_urxnFjrrokVfbYseorpfWTNGsIXBHTGAvALic90&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=H2HQxdy6oNALQODRmlo9MIF8b7MUVR7N5xGNLHQFWL9toEWMM_mMpirC8goCwzNLku6WETyDrhpGm4fksgN2JXSgss5Gnp1GUOqBsmGlkXy12uloX_O9OYcqV3e7m3MJ5tUIm2pmqYeooiZIlg0IiA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yU8qy6lBkK3tBrsJLcY-r5j2p75pVvILY-MBFdJqyh6dOVX3rocZJsyQT3CxFg5jmnm2ghu5Bhrz8hJ1fuM5otZjZI1ZMuusw2j0qrdmerL79woqf0KHQTgx9luHNvRu0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fLmPtwBM7iAqsX1ogwShT4LH7stvf4L3jcjhR1uIwCGHOsI8PWWcoH2NxIAWMogm9RayHkGAnXmIyLyHsBjyGiRoVCXT89dt5u_nqkvRLoSdtFfqPrUvdIwioEeyO9jg0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KlVVRC4N-YzWREwWDKOK9KQX2UnZ7VCJj6bYHFdpTKt4-NLrVlwCQ2kZ2HV9TZgvSXbNtW-BxGnyzlkH8yFa6OaqfsLBea83_tM8oj0R3xNYUGUCHI9PoR8AB_5U5spE67__lyk4-iVZ0-RXdoQ2Uw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PKA4E8kVpYUZNYKYZLB3nxMzgLSsJPwRfO-BeTTh18xeRrdY-UwpICl4jopdH5BwrBFn_Xcw3a5XdYyvfYpzUFjpKHpKIYm12EANcQrK6H59DKRJCjt71jGHIeLBT75eFQEzDu29iH1SZr5Z38yfHkhBQSYjxhmFH1i5pzba1x81&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=bIonRf5y09ikKo0gXuFwr5tB0uDggFWBuecLLrf8NjKIdQ6inQMhpd8AKO5kCSL7CI3-nvsvUhPDa45LPb6ZEkvXXMOJDPsjtOTXbA42O5654tE0FWRqlI03To4G-9W7ek_-TM2MVxtERzyr1lkOfwH_vGPOmNe_lk1ab3zIgho1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mCSMpi-vI7Sze6Uu52S-I7TbimWPSt53Zdwh9Nv2-UB7K15nq2yY8j8aLzvwvhM1qU_2mZQz__aO-c7f1ltOZ1IhLDH0rN24uVJh9YofTIJnzpmwpvY_liQQTxx8VAmYOBpkgQ-Sx8BE_WCJxpjxUw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_ZYMeaQ8wQN3w2IGkuFoDjyqxoGXLQwl7l39VtZTASnM5B-CbQerrvPD-GImm---BZqLCVNmwXDHEhphpZFhDGP8yACygDlMB9rSMSDhVFTXJbbZp9W6df-hzaV4IbCf0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HMqAJCn-TLkEINqugtofaUiMjKgjEaUphvc8GEX6UwudBDnB_Tr28FW0pao6iZ1ZA827aWLbFJ7KBmtgFwMjbG3V5Qcb6kVrdc7oI5jaL8P2lB6x3gDItJR8nbf5gf1y6e8Eb2n-hEST-bd3QbdrQpVd7QUDwfFDM6yoUn3IxPw1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jEItNninvr4u22-LzR10e2GzLFVH12cgCNRWg6-CI8MonRdXFRnQHfznN9mTwf132C34uuufFbazFWqySkyOqafwPwYbVMI8csvbwJRvtmmVMKggcOJ89b5GTGZeVzRFjedY06nLcbI4LJxf53by_g2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=AnCYfyY1ZFu_laXqUokOuyu2BWEQe6k_9NsXX94IwndhwTFBP0SaHTVVh9XdZnaK_s8JnzTmwsiHk9kSTd-EnJKC8BQoTduP2w5Li7nWTTl69A9l7qjFxOAVL_pXZxuSMjXy2bv9bqSJI9HQ-QR4vw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=7R9aGwlvyZefX-PxAi7nb176tNMgiP2jHlQjrJcrbNgksckFbkBtC1JF_pdUT4gXn9rVK2LrwzisUVZL5cfMT76fH66w4ASdfmfZz5xXVcuJY82RTNowCmJ8u-7MI9AyHDOjmRjjxgXHOa6IFrppXA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=foXti54rB0Xbd9nkivV4lrMSIg5VWfcuwT3sktIK4eo607CUU9pyDzBPoFEyv9tfWTvVmexYbzBWKIoF94yon2HdF38S1D6XBvvnsCdQY8NNG3Yhhwo37c4kikity4FKCbYH4xVy1gODvuPhVWMedA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Xb7KSyiKEiKe0cQgtciu8omp9UVwy1qE548gr0q2tNvCOo41r-bnw8bGCRJk9RyjYmJjvsxagORT_txN7jExxJbkM0sTjZ7rD74_E7zOKGPhB5b8EHi86uMgGYu0yYZZEhguPv7Ktp6EePrIt-Ge3Y5T5hrjGiD0OSomlp3H0Rk1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=bVeQ_6BvdZp4dyuizlgXHTzYqWi-TnCEK2jCQ9geQk1sHwMkqnfwrEWMYez_K5GeYmw7DVK9WR-uMtpjesSZBx4JwmbjYnT2nrzxBiWwe06mbmeXw49abK6Uw2zTh-UaBklmfRTaovmlMdvnQVxg8g2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EREHMHr_2F-1pFDTczQgRHylOP4gWY7l6m4mmWsJg1rh99Wl2n1jx6b9YajWxXEwCm466v6vCH-rdlNDDd1F2pw82BszNJSo3f9pW1iOwDLJtBnSsLhmBwawG_noBnZzu5Pu6MEpq5noB841tLEWptzJ_EZPbRXm8aV2U1lQFzc1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=q53-YsXDm8W3p-ygzJrIAuvvvdPtGN8lzMRJeyu5IxgeB8p2wMbrS97E3jKMzkRFAYoafoeZ7ZOAK-haTBu0R0yAtIzX-5H4st4jJ7kWWB_y_5GEYRE73Eh0I7CK-DMs-bwoEw4GKab9a1g3P8OwBA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=adGLxrVadaliuJhLOL6Ic9KecIYxOb3-emfjTA98BXtWtl4Z6ZBNPWU-AXO2YjExq48zlRpyvE9ML6P2ftfmoCQK_E6SDZeGeuGfCUR5CFutoSACtv82ZRaOlzIDoqrAHvboQxMEJGXQzESip4-eEw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=sULfi1Fc0KbhqkblLJtwrFpcY9O9yhSEELLl0YY0vqphbROcE15XeDSciYSvgyc5XdpSXjL3Hb4-VOglyHfnptWrPQft9Mmlq4zrLEpBw3e84LH_pNLMBW91_3F-VH-SQYTd4yNl1MSYboZQZp6dBw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VaME57QHT3j7_oCeH_mnt5H5MZoGYMpafKvI2Bdi-C-BVFh0PBNwHatF5Q9gT9mjcAWsEC4k5Yhvqz2GMCA7ifhaITo4Bdr7Y8Ybo7WXUPlvO8Hm01dCBtk8ukoH3QFE6i6i-KunQPPSFI8atrLSZA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=olRvt-IbQMKqieEdxO4mDPavXMo2gIosWzSjw7hwCyxwUqwQjBoC8xy0PGW-CvwCMwJhsIIRWEDSphmMlYteRai1QewkNF5XxGqeZOttC1ObsEdHI3Pal99hwBNgYfVY0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VHmqazNqFvM3y1G-ENJ_gk3jKKmAW6sHyIjL7unSL5Lo_7fw-xos3rEcAmchg--gv7wJY9k1wk6yPbWgltTPeVnkjtnlAq3Ybf54PKD-lwOnIfqBs5rVrpQm76jPz_D90&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=B2vOEMfYgkQhpuZcJkFw9IIFka-J7JYR4b1dzGBJwnIzOPBbrmO1rtZGe_WpnnmNgcO9XGT0fcRK6vKaTNHalWd1XkJXxCtUc0VkIqqU52D8L_fGqPDgJTEI0nVarL4ou2-zyNl9M1hfDk1AtsfTGg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=znRmnsi8vHtmOXM7CJiQV39_AUI0UPoawd5VgmGf6Q_cvA-hUNNyGj4yCAj3eE8y9jNJdi-tcgo1RWaBh3_JD0hLzr2IsVVXlOpPCB_tgeyjFqXC9kSLODwd_Fm_GerVC6BNps8n0BDX6eS6ULyq8egoPlRSG08LGz_wfFRvVtM1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QnqJUlWX76vy-voPv0SOyRYlVm1FWTTPyrsVSG6nBVirES2B3SVM-vEI9i6Zpz8LXWYQKKyKsa1WtqbO-kSbF_bxDsrCocaIeAFKO54hB9llFKIcgmncDr_Z2Y4X2AEuUUZwSF6yfY_f0u9PagKEhg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=a5cITBvJu1IS-8ICtZAi_7zsAQOXnNJKye-dD3pJub_idY4iHrsMLfNnWlEdXpsSP-jbFCnMqxftx9JzyA0ITMlHAAnmDujOPPnVaOG9iJEKt2iIV4jAEvROmkWYfYcsoyrAJJb4azhrq0DaFC0rZA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QjMMwSbVZt3r8S2Q3iqJ9wtjJn_y7ggTBdhzYsn7kaKTumpoOrxQgkSu31zxkBVqWaNQGUxbPyAw6xvq_BxSaME7-v_1rTdQcxLDHzdezACsnonOmdBF0kKkYR-mark6Ed2DSvBY46tNSUbI0jOCKw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5F0Sfnc9Yh8G9aKWSJkO_uC_gPojr5CQxViJsdykZPz0hmHCl-xyaLC6elr__AQUyq5BOI18w4-uZMgg6HoqnppPFd0qnTaEyqqT5bHy1xbetabkgjJ0LrtSMqxGah1DhAym1WwdWZ2RVPW9K0uQjQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Jx-wapMl-VpFgsTtcg_m_nL5v1Tyk4IO74Fc2BJpmsqp0SwKT3XRV9qTodABxwqxbrlzmw4zwqcdFLKz5hgBAqjRqcuwMP5iTsYTO7Y6RdH_XyrrRQGTSIBYbqj2yXbnEds_O3LzLBWlSRl4t2K1-yURleIw8O7MwQl1VwJSCmY1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nj7Tuuja6DooKiD3ryAcAj2TeihNR0HqBHJlzfrA4B8PZmeVAi3Kn6AJsgUwdYJDGXwDIoDUA4tS8EawgziATQ-RXboqljlYp-C7vk-6CoWl8BBl2_-lKERnFKi-zJ9sZFCeV8tbTtrwLdKc2NQuLu5xJu7QIZy07GihZpOY_LU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eDfgc2WVjU3w2TLE_h1QkBBSavl9PlLPn_TsbRylMcFVavTRqKWxxS_FlEF1C1ojROXkxhPACYmeiS0LeKHeVzCj30mwpCmKauLc-qls8Wy8gJ5JTBsivarDRSTUqY0Im1UXDY2NU9EZcVjtxswTMUXfUQlCX1puvsnayi_UOB01&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Rc86BdjuiZmcONSimVq8r0T6MRd45QJbGypZWXOuZ9fAp8Ta-13yhZPpHgNLl_1BN4xfDr8CgoCRgkku3Ta8sD8LFPpqJc9DZBnV4wOuYEwyPL9IUU1voAayr15-lIfy9U-AaSmpUCuIWpGlInIMz1ganhwVgjT_djReHGBNfGg1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=9kKXZamwbhdvMhC7c8S7RhI9ReRbLQUhng7KxdzYc94mh8xoOLTon_h-kbEH2VMfmqxq0LTa13GAfFGxMVTwdM0O2I215ppBtCXkMWVlTLExxszbuxge7VR2qLz09_Tlg1rjrSY09BV-oh78qFvnpNgn1dcPqyqnce6riilb_-E1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=1g06DDj5wpr82QJItxBibA1P2hK1lngyZXulF4oIL7vzpb-QG6MoEL9PJ6GRSNMwrOEEMlRG_t-YYrnF0JKpUKxVb6PcCl2qTqO91t_aPHPEcFtSFuplgBfyhV2XiqWlGfHib26k7LcZou3q3_A7snQ5GbrvObeDZ8xvE9d_Wbg1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=jY3rC_GjJhB1ldy2e16GZOmkFN2OmzLVUy3hC3kEEeSc_dSaQnydO4FEuf17e-Wac3oANl6IGKaq1hempc7hXFUbAea81zPbcVK-RhC_b42yJMnBFerwACQAVSSgpDPDBoie_aycEU5eSx9q29efTg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=lKLe3f6GOEsFPKKmHhymzEIljwvhdLBB8HQcaJ84JaHQtLikvb7Mo5sIgNnhvl1Bb-0wRvDsVOR2LKFsK2G7U489e_rTWLoDMEIi0TT1ITPgARDBNQeDyqVksLqHXv5kgbrti0VwrCFQg_PyPVIkl_YHQO8TbjQFQCdLJ7On9xc1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pgkPSrPHo6-bAHqce0hcgUIk1flFMLoy7r90YrIDOoxZJHwPCU8kRgJvV0I2qRYSDgm5Mbu4pbRvGARBjfvehdGldWP7knucVdfH2t24ByQJSzj4v_DYRHkftOYZIsHoflo6N3_u0Ft2rEKrGeUaBXJ9IyBlOR1twnlXT8q7s0U1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6tiCnk4JvBRIK4YEZtRsG42PQIkTzfBN8sTPDztrEsixcLCWOKerayiBiNfI4MR3IiOnfQKYf1croj3LI-dUpfcZqNbpvL65c_hVM-cQkoHedn7JaCU1IH3qbDj1j1WeRsGazmrlWVhGvLMKKZQWc8angcuU0Q7XcXLBXZzZ_Fc1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=JDwZ-GyY2poAsek6l0eWbaB0YWzndjpnf68Dd4rzkS1hQ7i00NJl9cb25WndXuffDQ3Y4UXevBbQWkCIisrvlEcycAJhNSnzaZN1ATpTaVhwuKOTAkvbZsEHyP3x47B_Pomh9x3gP-5EjvPohZUXQKDUiiYeZw2FEpYIGMqt8oQ1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4YXBvHABR15SNxBc3eC358ImR_SYQ-CM4x1ywqC0EHs0IekXea9Ls-kS1EOIiD38Bfs0y0oJ9uc_N4rMcpIkIyuLo2QRYTkzHfhvfO7w-RN2gwwqXuExHgUP_Q-VKi6vPyL59X3aYeMgXDmtRkJ2rw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=iBce6cmxVZw7gKN1N4VXeQdMND-J1KytG2RQAW9AbiWChqSfNXv-e0Ysj_B1_TvPt0CTBzuSqJI0Qssh0nEavPwykQmKpw2hRen98-xDXqS_qarkUVBhyx7S9QmliGMReaYc84tUBjTs7EPq0buMJGf04Xqr0Cocgo1LRC0oTjY1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mnC6qLK-C9docenCTYBmI4Rd4flYZ84e2wbpotGukbBipDifUa2BQOFbPH9xE6hm_WOLHa5oBC4UmxfJa5ktN-zEJMElglKhpwJc7c6QRZa8woxq8PnaFJjYzFKXwjXo0lEK9ZuseCO2HIDJJZiE2T-AOxtkWnCJXbD15xkcYjk1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=tibdkhnqn4EZwxXpNBYUETVetoXMQz6DrHUTuR1z1bKuPtY69vVZCwN9pCx31h8CLCPV5XwQc_DtGb8JPGNkMHLdEPPQkxLfZTgmhSeTMxT44L1eK5BOwWjnpstU9CnzgRPV6rBlu73_mm3K3AiUlXwABpDdq4JVFg0lUt9nHIs1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=9rEsQg1ZGLi5J4U-aQAWpBcX1oCC2RhGKWjBH6OlbpMwqr9MvxegVxC9qd28KrRdFYAum0fhYObWnx78xswzcbR9HOvb2rSRJ54v-U1Ax8sRc2HLSknHBX97Vm-eZm_8pfms2RrwHPiuTpn4F8eBig2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SdgwpLxcxx828CfC_7tOSfHQv0N9jwASr2v6mebXr_U1BBqLEAm9UmoJ9AgCFv8KTm_cEuY57BmqaFAjFlLWLk8v86Px7xEdoW2Bc0Fh2ts4OQesCZ8jY1bFhI2T-ToddC4SO1dxbMXhdrkdoNSN0Q2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=G2AYhMkY7FjzgBQzD9mTRAkDRBtqqQspgugcSQ1xeffGznm7f0hRJoPktZXsGKKfozCc-blMEIErd0v2JR-s6oU8dps28HJS4AiJeHX8r8abC6Zo7GAndkExpfJoe0XUxrs4XkEdD-9ynEzdp4zw9WyGg4UK4gRvzxxOinfHWEo1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nngPQoAjtMnp_yICbGgb8tDOijUtt8sQ6AFfduKt6J7NyKy2RdtDcVQud8_pQK2FNKCy2dQNBa8TKiD_0eKqtDupccoHEda1qtJmoVyqNhmCmVSuh8wXQyqslXSIBiD275jO8d4K8eg62QAIz8KTIfs3Aoi6c4UgOqAmslBR8UI1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XOPwt8pj3ljZTzVbDOoveUqYrmoNGlNs9xvqLMxJ30r3ijpD6oA4bheC-vsjLB5LmA9whUoj3g-Ay9YolUhL1tI-Fm_Ao5R9EoBT1YT8aVcfft4gQrGD8mj9oHC2Q_KKmkrx9gFYqrGkssJw7rnNIA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ZhGlmfe-64DTlicNlxrM4Xt9_XKPRUE7mefb2Qjp6oY-3Y01cMOcb4ai0b72Ql1_jKWoM-JW5DJflNfnaZd1YIHJU672V9lwibKG-PkH0-5ko7DYrmFfM8FKUC77laekWR1gC1Px0SmiqRwZHrP6vg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=2t3NIYCeiqTRYqVu-TR7dmLjlM6yNzEqrC4wtBcM4_qDokKaZ79SxNe1a76HT7JYKisOlrJE3ssl1DBWXrmiPq19_S7LlYQift2rfex6K93rmki4KhPWNogWaUKZVtFvw17qItX8_yQJiCFahNNP_Xo-1hVIorKp9rpNoiCJuJo1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kkqaf_yDzR64uDvhhbIziN65q5MlvMOHF9UrjbXbjYjgpfVvauFhomiojwF6Lhr37BtXHx63Hksvw1jbDtdZ45Ivjax5uN4bzei9orQGQhO10JwIKETLA4yI9FlouGnF9vhHn13gBPYdjRFgY7az3nQOzC7_guEP0EXVy3ZTvGA1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=EXxf8zcsNDvjOuowbrfqfZbr2mWBve-3GF96ntdWu6CBUNNdVHe4tIimWzI0wZ2pIUjp0X4-t6xxaRHxdX_f_oozpbIbNm_w4RP4l1qbO512l3dDz3u60qbMXukoku0qyRclr2MSFLcgNgYM9dE9hQIz8Gwsl-3I5OTpro37lYY1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=O-KL9JrAmeasZCjoCGCfjLSEhPr_o7FX9RiiCf9NMV3Qx_j-VjN3u_dFgecj7FI5Aw4eIUZD-dtBp8Gfqpp8h4DBN4EFYABYEhcatlJmKqTi2schT6fXViygf1S3bFHOtOxSseEGrBBimkgpM3cXziGj2IhRx0hP5ZrwE_8zEyOxzVVKDvcBjbbtRwNYloOz0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XIEUCIUSoRAR4dfvVarlA-foGJT6XU-zXjp9Gc1ZoJ0I3ffsNiwD0lzoTuCzXigx1QT_8kRD8DsyiRlt8KT-1zspFjymW1gyXHeEmslW9nkTlsK2neMHcKCKkk1mQ3fmhpNlcSTOkRS9X6x-fpEP_oxTWEvwBFEhDsU0CoIgnBA1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=h0pBbrHgFJqwxetgUhZYtPyz9Eu_i-H_C3W23B56PONmeEIvRKjpluMnc_1_UGMpPSV0UcqZrXY9slorwzqOe5epHfNn4BmIfOwn0ROovejB35iWpVlr-Du4r7oLM5nvT1UtkUTH1qQoVimnWt37NMjG3jD3BaCK_cFNJQAKS501&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=AcymwB-_5ljOj5WSHSvWe1_YvgjNnR1LFJ2djCrHdC3kY4zwVg4xWS8UaSNHA-zAwNZKH5lAu1wXLRw8msvxiVg4fVRC_JCevlwKaE6BQRXFpodwxA_5ynUijhvhSsxW-L3MyDVE4AuOu62qHYurmsSUtEqh3eOLvyzK13sIV3o1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mtVL4c4OqDgkfLNrAoqTlzf7mz3We6uwnEjiAKC_sP0jC3VZafGXQ883sKloY0VQYpwHU2JCT076o7dapUxjOzITZlsogHS5gPSUpUkbI-h2ClodITWaA4tPnxIRFkb10NwFHxtXrFIBHhRlI7zEtw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PNKw95AUDKj9NFdVUn1rlXtqmZkoTi2GL5eHOMLfsZXhisJqRd0ffohSd0wsoZMQDxnpjkimmAk-gwARklUyiiepRe2xe1gJDCXjPO6Agztwf_tc7bOYNNabzrQcYUP-vGi_waGwUOKcmp5NCQSg7ypHRa5txqqcVslWVj3p9_w1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=laVV-BxJWG1Nbm6j3by-DAY9q7dz35WHvNb7A-gwrm3ChBivblyV9UWoXAPvsvRD6QM6vra2hUAARviqVnm33AkpvpQs-h726EneDZXN-e2IhSKeARpU8Ffu-6DXKwO06uI0GL8o7XdPnbWng20F1A2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=OnGqFPlfIVKwAHQ36EJqpMYsqt6Ncr4nWDMRzRDkqfCI2uI4hjONnqAok5r_ZZJ7_vvNCjX0WHgQa2m_B_ZC_D6Jt4FHwFZxdNBt7aX7NO6yfj8I12BPregYO5T9Q6pozbyaQ_5sEpG8KL1743sdaQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=XHIcOIj12_36Jff38k-7WJDnGrt2L7vobBGgCEik9ajuox8zJqONwEJQjcNQ3gHJJKZx4uuctzflQagnnmbsYwBOsMfNcek5_V6UwEkqHhpAgyEBIxTVt-LFalrI4HWcdBKMb0fReFt79WUkG58Paw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SL-W2FIQbxRyQ-MgVIfdnyqkZFyd5UYQasS37koveUDS0q2okFNgR9ZEkHXWHjFb9592STOOepnFkRNzISERlMcT1rnGdpnqYjUQi_7zBjZ96doIBR1gpy6Z__4vxVaxZeqtl7_aJiLJ5XiFYxOJVCQFFsqpF6zvRZ54-4Hpfj01&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rKUkwcubFsq04zUiwvYEc80RgKvsl789s-C6W__hcVg6D3FERD_IFNiGNNeECtZ0qycv3trIBcclnF1cRgCfCMzlWUt_J_EUX3hQTpT7YxwSSYKBZIe3eaTbeb4BOlRQI6DGjrbFQY_NStziFUo9AFQElb-Y4QE1MQCHGX02DJM1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LZ5_8P53IpxCVD9xLLCuw_iHSkrw6lpHR-edqKU3fiBeC8sk-7pLOWKC-eRxp4TuRGEe2P0UGd22nVFoN-sphAWmx8bIvq0DsSPvW0me5VBdVy1uTUz1kJMlX3J_5hu_cpYl9qCdS29CUab6qVprvx7gv9MsgcMH-vq1jp_-Vx01&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Lo1MxYJhE_HUTDt1wRCTjGlnZuPe7Tyxpu6YT-pJiQz4yFsVeFeEhO4k1FWwdPEd_Nm0CZbERpLCOp72bUg3MNTcF9QiX4zoH7ORR4f_JqEsIWQRndZMZOq6qaur5BlXaAY6DIQ3hSAMCWGHvyZrMhz3mf2u474_7Nq6CXk7TyE1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_ijYCv9lrcsl1-3f-3Wm46Vq6LGpoTpAQi9c9-2ce6aU1ymbd7INrfARBTB3XADgT9Y9tB3aoTMkVJGs6W0FruaHpSn0DDljM4NKRW9hmfEpdMfK7OpnwOWWgokkhp5k93fuhCOEevg2MQnWIXoJSYa04BPp2NxRc8-DrrO3CNQ1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HgBdvkt68g6AyPk44JjKHnQTZUYoAKuZf36jy2VUgKDit4xo5qCjipwVhHnaXGlnnLXc8PvEAYpeN_D_AKtAX8heERDn9N3Drtz7iaqWuvti0naYrfdb7lqfsdgJtUovJObhdpacpmlr_CYCHcZRQJnzdL6IYdWo1wYjX0QU2yU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YAWkuNmIo5VrXpmCFjetMUEUQ2SKte_IeJfLBA6nhjfLVN2qwSlmO4sYmFpfejqWPjKsO0Fuq1mCM2sRPKKGPu5SCGql8qQ-7bdSrKMEq26__WE-tKtcZC10bbu4Tk1sYxIxk6IxEe0Y51KOiA-twA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Bolr_A3o29K2LWpCSA4WswVApg1QNRoteZnVYVWHy28zhtyaZ3zYIxz1DF_bLHh5uHQyQutWlLPeA4W5ck5K2cMR1k0qcrdTk5dwT4sMMiytrY5o0B0iT9viXaFZBbkWmbwRHb3GcThgoeQ2pBCHjQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=opQhjuPprR04ifDnI-rbNAQJKQQ3IBepI3j_dld4O1OUkbNqHHSyHCArPBbBpoqcT_kkq4DRNyZQHOabyjYMzujJiKQfD62YRpZILJzewbiEva1YBrYd7A3HjgTdi0bps032bE6C1mRZjH55d__l25_NJogA6TEOUPvEP06IqKI1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=qcvSmm6ma0LGJLIgunE9XkoAsrQqtOP6BtR0WuwZ90se3eFttAvcip62UgmihBx48LIgXC-r9uIRaCrfKa1SmkAN3YaIWDAY4KXZnIr4tHlxpyVQk7QvfwVmtuOU2YN0igQXp_H1A3jzNI7SC5Rgy-rV8bezOh9KfrwZT0r8kpQ1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PgTDcDc69HDmoPknPnN9Tte1dyQ9olVdTIYpWgX6YkVc0CSxHW9qLDnKk6SelSUbfZKIha_iOMt3eYvwpa1bZ2_-yYzD6Vl4dKxxHkAQJSUX_hZYnCcU5O7lngBqMgSsz5KQauZCIeK5pCgMZX4KJQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8ROBcCyD-hhbxqqvkIo2lsMHIo8uIFEnsJ9s6lBQ__t4KF7DvRVC7e_Lff0ArLpx08Wp0nrQzfjttIq2EzaqSgd7igXB06xAqNXZhy0_A5xj9-0FOiXMUx7sxKGtaXlFsBUlPfY4IxxTSH2pSR_EVg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=3JAIsZ2BgMlmHaRduDShf8Dk8_qvfTfaRbFYTjKnX1mBOh9qtXnNLKECuFsDt52F54hKrwbYJTsoUMocFk0VjNQDYUrjE-ZG9BsVbrS2gZFhatSWuxA2krz-H_NJTwghZ6jXtnZG51lqFKa7WqPOSWluhfGXtx1bmJOEIO4Bx0c1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=HAL-zIWI3Y_SdvdmJ70x8uWeGMb6Zlx4Xn5D-TjUb-ZjuBBnD-F3m53fCwjoUCWPnUKGdcSDEMKpZiH54W-9diDa4eIt6Bd4NixIPBjqYGJq3P0KJD8EqkclF_Dd19EmhH8djtiKVlebuwi-KcBMva7iX4GAu9HyRMzZ-d5Oy_U1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=n8nWqIIoinv35igCprbeqQNYSUB4jen8Gwz8nRC8XKYQjBYSQDCTjF2IMic4Cty42FTopLJjIjnwuYokjEZjbO-NkvveRmF6b3be4AwLoJrrpch7miR-f0gcyNvaJDuqqoiNvWvDNGzl0opPL-QjTpFDgeIskwWGd514fMfyNhI1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pl_hKNx3GFYd_4_F3KHrW5XvEPU3vJjNXergOQ7cnHi4uHH-0ypd9dZiu4Dkmu23YP1DgWleb5i3gfKrfUMR9-FuF9q53Qjoh_OhlCon3AUCVDNUOqOycv3jNzembmNJ9KpFS4pQDSfHStzDmzz3JPhCz2kfeqnPNzWwlYnF_mU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QNZdhU_pi1cxjFgw8pVaC5iYDlTpMlAhai-szgr5nlnwHm_6EIiC9A2d71qw52wrUz75mVtFj31ieOxEomJyQySlc6N6rXahdU6bnWOqojSB8qL-6kfdWhWYd89JuA513p6dwQVslNgmQpMEMbiuCA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ocidkFjqWDU-nQl-lXr_hMdockSkt9teaDpyxjqZRzdfqWrkeodHc1WxbQ1-tRM6DibTQI0wGax1jNtvIt-2U8Yk3a7EoazA8tfHOHpZQ6zfbYegAsQ7s8vfAyAA2JXZ16-cuHUJsKXXxDV23SOzYFhQN5vCEcPTG_RbKZUkUGs1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NJfUQTg4JlMpBZSuMULJGXQ29sb8T--bwv0_EhF4GkWKFyLoDka6CJfPagUM25T0sfRGaCKX-mkda8YbpyAj30kOQmgpuFd4WmHJBJNdNgp5Q3nWi9drFdnIvxOuw-9B-Kr7t6nbi7QlN5tPdNSwCTkRiObBpU8awL4J1G-XQAA1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zIJQqnjpWg9miuB-Kp3XeS9VHBN2U1ItKR5N6-1ZsxAL2N1CGajCCLzenFYVjc4eU62tdhMrXbp00CpO1A89jqKPWlJBUbS5L96IJrhEP8IIW61Nszg5tzux90Orh9HaufNeUhRgCzv0WKAozl5LWVzX-Rkp6SxXp3HymYVl2iI1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=rv0GEof4_Ku7WEkJ7d84drtkK-JaLQKqNh2ygoUMYycz4c1Jjr-Vlo-azjXT6ZCmk4IEBcYCHemzQAmzK3B0RrY5xvaSNtEIZ2OTnKSDkMXxn0VZgot73pcr4D6hOJ5R3Wxm-h_MTe5fAYraMjYKeNUCG6zis13R-hgKzaucXWc1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=VtvzG5w2WRCPKAx5WJAI-x9u02kcKU0O8pV9336pfve6Q-TQ0PRA1bd7jZ3g97zJIHd3RVs6R-vcneO4e-Ewcs-hnv8WU2NgCREGshJIlI5S6MZ_ZlKO4chS57jETy14AKrWIN-5n4mZH-W-7bLhjDpti-4_BgzXNMGGicXVxPo1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QG-zZf-1OVIUeTglk4ZpXJo_zG9w7z8jw0yPHkCstpMJiobN0jdWZrsMAYaU-IvBxtTrQgKJQV_Say8tqCbeEqB8tZqVKCAKy-jxhwW3OWA0g8AMjY0rkmkFXMcDsxlyc_TZeg6wNIs5ejtLS4hcX3LPJJS5E7OhW0RZPYeeX1M1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Vs2tuBwTWXhhW4NtPUj6dnaq84khACFffaxoUAQZ0EmFC2ZmzuI_gFkdYAYXtl6UeTbjq5rT9s__Hut9Y4BmAb7yC7u4CPVhM-yZkeOL7H4haRnC37uWGi_XlU2GtNps0uZTXn0mT_3pjFR2rh_UejIlAfeYYX8ljwEiHWMNfA41&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=B4kOPXWYart5kGW4bwkLN3zaXtJFvti7C8KhYbWNNQElqiisg9Mc9fHJpSSFK3yXiGmyyG1LmEX_nqgCTHUbT3zWo2m4_Yjz3DOfQUxL039Ewwmz-Gg9p0hJ22WBNsXWpcJ6IhK2ZVOpB6zz3-vOQEWnZIOaUAZP6ZgG800VHbw1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kvpCZAOOeA1wY8thEEul_mhUyBnh3fEnoGkBImCyp_ivWEYcknH6dbAXHUp4SAvHIDCD-GMXcSgefpeqHmEMCROuhC0GSjHJnekktwrhtdJab_DdyTmLDd939pjkEOfudou53QG4WHYNEWSc_qu31Tt2NriW3naalaWZF828TZM1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yeLP63SMpITQ_u148vl0zyP6B2ZRTIzMcx9ARB-RESRD4-UOXwFlEckXXZUVmzfvt0VZG4vqiylhJcIiNHrNBTnqyuW_1KBUS7mJTdhwHH10Cw864BKnNDD0nCPly8ocfifejU0hv42q6CJnzffbXz4uoUV0JAw8WWDiLbalRvM1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=-At908FZcTgsxno8d0B4fLPcN50V4gxw0thRmAUbCXk_fFHhHREAQwJJCsIQOLokJd-kuKJAnOpVdoIi82xPXetH9yWco3__2QFe8je1fWLsvAv8H412OkAs7UwC_2iglWYj6h3w0urxNMq-yLOCYZB77RTIg18f84e5dOinFno1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PzkA78btm6pVL9q9fbqVBc_nva5cRIEh_1RFu_gMuknzzFglbhWr8hskZfTAzrJ42lUFxqyOGgKVU3Hy2TH9_Up5J1o1MpAaJ4qWHcU1vkGEZUqRswGGSE-cK2JNFQO4hZxjDJrT8srp5oThCYqREosF3I-mmJG8_l5bsIo7YbU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=PsSB2dY2EeAC238qcIixcsQm6VyBeR2ycuYM6VN4hEoAGDaBX3T7aCtDeLmHBnfFLiHtj87xuWyWl4f7zM8Grnt9R-OuICLRyOxFvDzw40NOgB-E2xCPTk_OePsjnxbLTqjpo_c-_waHL3HLhIxO7G2_ndYV3QAK_UDKj27wVY81&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=-OmHhdvYRX4zQxwJMKh6jIZSvhHYzmNEmSyZcPeJNq9IBfwi4EbHXRmI8m7shDCl3DXZBzHtd0OCSyHfwz4s28JTe2ZguDsM11MtfZx-NsyMjnpQ3KTRe3glPo2Bij6ITq_FkgT2XnwbEKYQRKs0spgqz-W3h0dMlskAVz2IeN81&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=NYw0NEVOKb95JxYfATmVc_diJbEu3MyATlIDH7xMisGldSH5fM8QWSn69lFQYzg4yz0jeJ4GFLMZb3g_JGrstlj5AsYEEP78b98-lb2f4vneSQS11St1dsKNaoNv3bl8qPp9fJLOXjyv39beEQpBB2iDdoTFRsFEgvPJmt2n-EE1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=GCjapyCoKjXkAmPAxw0inDI3qlGv5-KOpt-mTNIgZ9MSscchBKCQxstfr0wx8kOTmaZVwCKmaR4L-tH5uiiPNAuymnC8IB3STctQPgQri-gNnIQllT1JenD1DMyDKHM3bdwH-fAjbqOc8m73lULNyNieQNODnMMymgCTNKq6Vos1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Ua3KxNb0DeFdYGhRavYR96mUMhZUOgSupPrZfXZNQW2qjHVC_z1mJObSIx7fZBLhLCZywGyFQHCGHSQIYxrDNsZwZex-d-KD1I1wyGKV3cWK-qas53koIGzElOdPrfooSW2y2UZ9UNHJgOAPE6cpU66PWBO8YSpjrrg6Lq748LQ1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SBHBCQdqIZ5ZW8lOVnUJnMUsyBStZzJ8ONtHX_k-UBHiMdBGBB9-TpM7hpWZlIq9X0vUISzyfkegrt6hB81-GilvhgA38n94OIAqRDTGezenq8xp8wAjVM74f6wpCDYS0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=3RRsdkc0kJUq9zfHRpl5SLp-bD1Bab5aCBu3MFQlD6dEPIlzC8GFhN3lQEQnYKxJIQ7a2QPBqGnYkTjzzTVzKlQ_owHWyh9hwwy4MpOGkfpUeBdc4pg2jfRsZoElZWGF0k8gua8zDYSspI_KIpCZRLOxHfj8B_Zn0VuWiNqYE-81&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=eSiiaMQbNx44slgpjXruk6cAb0cpxOZE47anYnPldY3w5TvoiZhpjuKJLLcSdFaJ_iMjDtSVt7ajFa_0e2cpSVjK2XARAd9Yu39fAez0vMBVznTAk-aaJlhtKl1NTxD52zzAhT_e_qKgAa6WfznzEQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=8ixDPGNlZF3v1mdwd7XU1y6LFE0K0AnQUOW5_v_v4J95ist9Os1uG94bn9GRykMRnmQhVev1nM3VYuYDFlKYKaMVXvuvOX_HQzyMHBBsELancplDCaBp7mC_cogufJGMt2eVfHyf5JeKwf2aoTwNRQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=dCxEpbHev_28Udz_vQvSNKj40dR2siwTebBUSL0ab9SJ1WQa2-yi-bLCF6p33oikbTmjfuZi7tEnsea_b_ngcAkyjIpAIgR2pAEvGphbj0RXLhzzh1hACpixWN6tJhzamf754ldPkEMaYPsdMxK4lg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=htxY-tyvoztcJoSY19eTrNeBr12Oo4iF4xvk5xlnv4izDP_7o4-Gr-BToXmIr472irPfImT2V1kuFUFZH62aKwr0XyJ17EOVNizEGYC8RlJt7nAFPyYKpWhXGwzXmQjPnoiMG1Fsc-bRKSiN3YhUKA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KbCcl4LCwBXl66IytKog4_QbFjkjg1-DV-rWqqJMJYxxTrSnCEa1w_NG0Vog6d1nyNXSnVBvt_kstfJ9HdKqGLFhgts3xYUlrodGI-K1gMEwbWsGxPvfLx_QHj6JDQdKcL0ZHw6YwZUfDZ1dNgOGKg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nIvSuEKRnCvHD44ZZHjxbJwrlXnx5KrZkHBOSzJA8oYsgk_Hwz7Ryqo5ajvZLcHQp9xhPMXaID3fk6Q2bqeQA-du6xdQvS5zEEvTe5KVdYWb8b_AzQ_2BFwL7IWsfYH-zgt2VKpGSvMWipKPAbQzIQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=j5lHrLIQGvHBZtdKtdZYNtw-tTLXph0xlnTJVD2WeUFNWA_UGIK6GNMQAN0FK7tT8GF_7Vqy2Sb1Sy5ubGxSJeldh-y3WbvZgC3sW0jwUqzJ2cyU1S8WfAnVkpCiYDSbOT9t25JHrqBa7yhBjLBHxfkOxn9uIZyCsvp1QBGlxfU1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=D-QFM5nea3FOqFqwFQg_nNQD6gHhMAuHudsTzDZQNsuZuBtL1PG6xp8fp86KPxGTKnO0Y-Utem3WjGlLmiq_Pq7A5m60Td4tUTKyky_9bX_SBZI3JDOVzZ1zS8_0v3yMxBRdTeNLQskz68IShBzQ6gVJJ6xkzBT8R5G-pkNf9fTITwZDHldJXfbIW1fEngw80&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=T-DLEQ_NGLVewW7pU82BluW9-XMARuqehUe7oBiySedkrY-fB8ickF9Utx2Khuk3EBA-3TwSuvYivBg1WDLJ_l5qyRZexwmV15jouq7AKULUZaxO2eBBKWXt1trISpZ1KqmVndn-hVad_Vs64s0aWg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=B8bOU52lSorelOGt89XRyvp4bH-QgnT4hRJfMn3KVxr4hALivZQ4yxV36AsH4NjQyDwK8bRTgs-bvR7sexL5yAaagJN0yAvVryOEKRj6MsenH_rK0r67RQutqlZQSgO6nCZtT9BQI618TrJO2NK8uBIFSCKOeoTBxaOtCyXU9yA1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zcLVfOG7bUKabxQf_rnF24KBK-lbkbr7lq_1bTUAiKOlRaPOcjpV1N54xTuevYTw-G8bwVyVpZNXclh2RtWEcBJAvgfQqGzBHXzapUNlnyFikjVVuKtGcqved6BAz8-XoBEeUJs3Yo9WyMEzba3yPibeZHZFBRWFgd2yDxQwgPw1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=4kZ7Sr1Ly8EThMpWVqz_tsn3II49rZoPkqdC3WEyZVPIXtnWSos_9eyP8flKzA958bD6xHH79apAGvPdPlExSVThTWM7lgL64t1VgSDv2aC5CGs0f05Jm_c8_jEOEFcIH7ZiQNK0_ebhRdw79CjH9lfBxiJ94va3t8m6_t0bD0U1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=r3-cz269SIZtEOWYKeHK-fG-f8S5QGgKEdeOmDyG7skDcgV5YyHrhCr9ao5jUaecfJ_7F7LQvcQIfd3BL_8uQ2VFg7IpgZ00WryMW5GNzlvYcNUrZ4JueglUV0Ms7kFv0&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=yYNBsenPJY7hRQ2p0WrY77VEmKVZxQKfqL_sgTGNeGvhCKsZU8U_ITAlsBnAnvAgcliBcVPDQ-e-qz_kocOxIrHQdFVM-P9--KbtaYiqZAzSD8pHZHdECgFDndXsVKLq5EUdGLXD2fi19p8xTbtzpg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ijPyVSADrL7LtB00DGsQnvrmxzN2NRDtjC4cZibHX2MH3pmQhSF9lnX4BQdKboDy-ZZZ-NbeYvtx1mqE03BScYpMgtqPHWppSCgTDU9YMIFZ95rLyRivLwUUQ3eh4XMVqj6EUuzVkHjxR2o5xzQVHUACbQhLRkhtGrIob0_vvFk1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=W_t2HzoMZprYUeQ3KquAzHiq0xl_goDcJuOedamrRgr24496eEL_EO4EolxQQJ47R4I7-oNSOlX6FYzCOqpEsA6vJEtvNiHQBRWPaAwyVz5Z3ixN0Y75vNix8gLB1UAZEp5LNG_A-8qEt1hUGj5Epw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=0P9gvpwsEEx5XjlMHmpk4mkVPkzTzCf6tAkTBxTvuHBGLBMvTvvoQQkxgIPDMJtnonrgdT9IoFIjFu7wEmxfRb0k3jclyV-AzdqAicPhTFYB072UFKVbrGqTVIHoGp808NF1x83xUjmrfnOaz4Z8jrC2LfuBfOkaCx8FvLZse8M1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5NY-e85BCDwShMOjP2DXk4A5xwa2EH73dYYNcZZnmofVT9EZSaoLgNi1zO-ILMUMony4PyUnxS6jEQDMrV150eqQcdAvc4HNvgQ4n-7oVS0HJ1DaWwBgCSe1miP0tsrWXh4rQUhfzmsRSc1VNjsdxQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QL-ctqf0PqwyJ4V8yxzTZR1BeTJ37m1SBsUnN17kGp5v1q9hAPNi6nM-SwBqVmrarZ3rEjY8raDBeEZU4Y5BEnmQlD-mbdsg2SZ3tKqT-LvtBFJFW99j3acJkaLgOAlQreDocpACaG-2mKt3lKw5Ww2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=K3ues4AMvc4zrnxMCfTlLYPbjhjjte75PtHaFw_obu0myH2z9OV5BFVHnbq3Sd591IXmsOKvS60eDMlziUNTcRzZJgQAiluoshrHo5n1Jfn8U4GyucMrOu3rgx5lHg-4nkZGfaZEX2Tt7GY0DUsBgw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=zyUghmzupSkH5Ytt-OoO0b0TqNHW8HXMKtqyD30UlEQQTdLNr72hPpx-v6tms4vvkKkDnRwmzpxMmGAgyyl08zr8ayw7Jo0XGUglfIVKZZlCBG5jrywpFxKaVfX4q7a0FA_hCeMI-0ZtyCLrrZ5QQQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LBA09YIkjkf08z6c5ouQWiGQu7FQJWtev0QGB9AFIedp_3BDySpTRTsJPFR5-twY6Lp0nFe68AbD-HCs4vNodb1RvQ8jP2XczRkIPhz2tTkeuDRxt1dZDmTldADz1CjAADzJMvWndgjgTf89s_cnlg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=QrXdTEuEhaLjVBbUpTkkJiMsZAz__JH57JJKcNpvF2_wIbJdsQghgBCzajo77oYdqAqG4jNr42DfHsm0XElpDB6CP5fvSUr-N0TpeEsst65LAqGg-CsuusnvEV7OaxTgLf5s51-L0mp8caNjkoI93A2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=s1MhPwru_woDjzVw0lTr5n9lTjwdDOWCWP32i9kxAxMsGmBUtoT4OkJ9o5aO47bU9SQY7D-br_NuBEqRUNclFQjBcpWqRqNFP5IjMIT7_ggmkeZWMQRBvE7vPc2Paihh6Td_pGAZr1Vtnjodgmvu2Q2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=nZuDTVMBitu6wkACjhE-sFolbxJr1ODzOP9mtkVygas6Z-RUq0v25bC1XN40TmDswVit3fKNuDtbQG8yD3yykP3ZgG8jZbYBe1Ls8gU4_14AlV9Xz0yc1yqhsUTMqJf4871yImx6GC9OBY2z-YoJwA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YJTpFxaq_57DoDe5j8SXw7Al1N2YpuEaebXS1W6Lkfrna0GvbVcj9EfQFMxCg-FIems0XKhN4MLw_Im0rK-2GAWZ2FRUUTFLLKJUj9A7ytR5DKGaj22dKlJlh3zXi0kXJFSTNrNs6uoWo7sESoBfiQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=mPV6ApSD7_cUTF0rT-YvepIGVuH7ELgXGxjChBBEcDud8---Ki3-sZp-XKQtFPMM_42lAg-be8hKb5hNYA_kUug1nQTyPQ5MQqSGbIBDAamVwHh343Or08G5S9-APBeHZWiT-_A6mwFS2F7zePqj4A2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=kIXoNtvYt9pQF0_rrxy9wbbbiN4flMLPjOz-17pdiR_7romjUKXZzAea4dV4Ns_mhdHML8Sigw1gyI9sou1i407jT-N0vY74UIWaxmrmro9wmiwWvzlCOPM0tsoS_iWoUzpi-0tVR3v2KnsZqFgFtw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=WemD09FCeOIwa0hqiSpFbbBj-Z3BlErr72dYtaESfqZOlkZ4LiFTPTgtJ_pb4BZcx66TVdmmb_IDx8n4mSGFQ6XOzThPtctdxsj9O40U2Bdz_UQHw-hxkaO-tcEBuWVY4_3uu8UkEU0aCCuw1Oferw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=g9hYDpYlApHMzaJCMmG-md1_6PAMN_WwctGDGzspfhXrS1oFbDRTn1I1hO_eubVB5_9fVE9ivkTJY-FyxZ_m-xiafjDiAfkAnVmB5MTSOJelWXD7-aQcsJ9y8wMXKSKQYd03c8TlaZxE7UgePGETgQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=3FgsWXQaOug114V9spifVHKSyloE0B75XSSElBOGTMFmWi2uZusN2hXjxd6bq6MxspmM_NYFB900TzwXOg-n9FIgERyjqOVI7oFelyYQFrZcLkfK5adBMrmevBa8iccXiFp-lr6AaRBncqvdRrcPrA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=pjYdewr4Dj46yLvx90nqPuUnqAKvFn_nPqcg-wl4J4u428PRKmvWm_7CZJOvjF0yd1DZ8TegQPAXI475ni7lKM1j12EBj4PexiWvTqcfdNhupfy9adP40nhV4GNikQE10bIFsZr_AHQ3tkp0uAb6wg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=35QFVfXh1R5mu2WR2dD6K7r7SRZRIkt2pOMurZoI4SfEnBdQ2Y6qZevWGEL1gxS4gbov72sVJ8iBnVc4-7frPp9_heHdB90X-BcOxxzatCHeTP1wveHHuTIVeZGczMKjgsrrRf9SnPxDREDV-Iyxpw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ezC-qMz_MODZRkQBtBUy2lK3bbQT9VIhtdnq7iTNQWbwxfL1vPCCaAE1IjzKi9B9KHDoJZ-1u7-RFEAPq_ecpeIZ7gbSDBjeANyNYQwnwb2MYezqCgVbpujJlWYU0-RZJbR7SDnYbb7xYOwTLZOmVA2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Bw3H0m15yaaaqyYrrGUDb2HQItx82mPGcuu2kNDYhjeMcb7IYh7lDgDhYf210U0SHHgqbut6AKXhlnKIGW3LgdQC1dXB-Lo-GNh4X7E_M0pTvOS9dpNfitgWZJYKotDRfxVsVVd08B7rf1XtrFXKSQ2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=DL8FB_5uWXzIEUPFak2xSyJ9l65Cj1EE_HCw6dGXYkn5o3xqsh13WX0s3eqnNxFi317l4uUujm_iyPSNPXlperS9CrAGW4iiIsKaOsg9MF2xRj7VqO9FW1HjMrNgEB4CqaKb_YivjiQklyCytpIakw2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=u3P_3iiQjOgAZw2cYnsR4RrymIZGqGHn_22dxQ3WF1dFQlwoChuCKX89oW_LC9ujjQ8QQAk9XlDrIGhS8tQkBD29HS-839aUmz60TkeBLgmwyJfRFQuO4ufolyVb282efqLZlwIerROFErOIt4l8fg2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Uv2a5qjL7tEFD2KQPmyxjufgGAUBiRR3x9hWMdP5ekRXuvVqdl3fPMI81wBi2D6VS0R9Q0L16ggOX7gdgpk_YndaWOUjZWXHgJrU9Ke-pZRrLq56Rb1yogkSb2cplcRxri7-QQkntCvysr09O8oqog2&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=U7tVYBQ7BjMJ-t41yJi4Gxm_UAhKR_9hy-Zw8s6RN9EejIOQoDhaZfxJdLYX8QcXKP7eAikHs74e9B_xkRYyEvlD7J9lwaWDT7bHBKXAYlNelJVwfyR_QCONOiqSEQlCfFGTEs79Xs5R8uuFYmeXcX3RJTEzeqWnrFzuJB7ZYhI1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5Nr-uMYZyLm5xEuw-KjrfWJy1KAfB9KkSeglatArFZYR5rxHr0inAvTxZE8bVtA5mwWrCqew6AQSFHzP1O4gG8bo3vTmQcwebBa5DAtNtPz34XA7fHQ4m42VoQqiNN6FEjDsaZQGA57gGzT88Xmiuo5TgxeEaL1JFb71Vfywu1w1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=iQqOq-lbQOTaj-ROVRN0wrjv_JKhYG4yj_Sh5Ic87ljppgD0Geyqb8Olu4moAfsXNEuGqGECLAP3E_NqH7GgdVQJnqeELmy68HxNjVedXarmoXtSHgzh0OW-LdPxV84VA3oR1KFLm8946XLKT-Bu-yi3kjFQq2nACsOE5Cuy0Dg1&amp;t=ffffffffda74082d" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+            
+           
+            <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ctl00$ctl00$ContentPlaceHolderDefault$scrManager', 'form1', ['tctl00$ctl00$ctl00$ContentPlaceHolderDefault$updpnl','ContentPlaceHolderDefault_updpnl'], [], [], 90, 'ctl00$ctl00$ctl00');
+//]]>
+</script>
+
+            
+
+			
+            <script type="text/javascript">
+                function getDadosDaLoja(sigla, tipo) {
+                    $.ajax({
+                        url: '/UserControls/BuscaLojas.aspx/GetDadosAberturaLoja',
+                        contentType: "application/json; charset=utf-8",
+                        type: 'POST',
+                        data: "{'Sigla':'" + sigla + "'}",
+                        beforeSend: function () {
+
+                        },
+                        complete: function () {
+                        },
+                        success: function (retorno) {
+                            $(document).trigger("DayOfWeek", [retorno.d, sigla, tipo]);
+                        },
+                        error: function (jqXHR, textStatus, errorThrown) {
+                            //alert('Erro interno, não foi possível processar sua requisição. ' + errorThrown);
+                        }
+                    });
+                }
+            </script>
+            <div id="ContentPlaceHolderDefault_updpnl">
+	
+                    
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade showMessage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-body pnlShowMessageBody">
+    <div class="campo_atencao_button">
+        <button type="button" class="close atencao_button" data-dismiss="modal" aria-hidden="true">X</button>
+    </div>
+    <div class="atencao_img">
+        <img alt="Unidas" src="/media/layout/icone_alerta.png">
+    </div>
+    <p class="atencao_text"></p>
+  </div>
+</div>
+
+<div id="unidasGlosario" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+    <h3 id="H1">
+        <span>Glossário</span>
+    </h3>
+  </div>
+  <div class="modal-body">
+    
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Cobertura de Riscos
+                    </h3>
+                </div>
+                <div>
+                    São as proteções oferecidas pela Locadora, para cobertura de danos ao veículo locado, danos pessoais a seus ocupantes e danos materiais e pessoais a terceiros.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Devolução em outra loja
+                    </h3>
+                </div>
+                <div>
+                    É o valor cobrado do Locatário referente à entrega do veículo em uma loja diferente da que o veículo foi retirado.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Devolução Expressa
+                    </h3>
+                </div>
+                <div>
+                    É o serviço disponibilizado em algumas lojas, mediante prévia confirmação e agendamento, em que o Locatário poderá optar pela devolução do veículo locado fora do horário de funcionamento da loja.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Diária de locação de motorista
+                    </h3>
+                </div>
+                <div>
+                    Corresponde a 8 horas e é o período mínimo considerado para a contratação do mesmo.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Diária de locação de veículo
+                    </h3>
+                </div>
+                <div>
+                    Corresponde a 24 horas e é o período mínimo considerado para a locação de veículos.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Final da placa Dia da semana
+                    </h3>
+                </div>
+                <div>
+                    Rodízio de veículos na Cidade de São Paulo. Placas que não podem circular entre as 07h e 10h e entre as 17h e 20h em dias úteis:<br />1 e 2 : 2ª feira<br />3 e 4 : 3ª feira<br />5 e 6 : 4ª feira<br />7 e 8 : 5ª feira<br />9 e 0 : 6ª feira<br /><strong>Trafegando nos dias e horas acima indicados, o infrator está sujeito à multa de trânsito, conforme legislação em vigor.</strong>
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Grupos
+                    </h3>
+                </div>
+                <div>
+                    É composto pelos modelos de veículos de acordo com cada categoria.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Lojas com Tarifa Regional
+                    </h3>
+                </div>
+                <div>
+                    Belém, Boa Vista, Campo Grande, Cuiabá, Dourados, Ilhéus, Imperatriz, Macapá, Manaus, Marabá, Parauapebas, Porto Seguro, Porto Velho, Rondonópolis, Santa Maria, Santarém, São Luís, Teresina e Vitória da Conquista.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Motorista(s) Adicional(is)
+                    </h3>
+                </div>
+                <div>
+                    É(são) a(s) pessoa(s) física(s) assim identificada(s) no demonstrativo, a(s) qual(is), além do Locatário que também estará(ão) autorizada(s) a conduzir o veículo locado, sendo permitido o cadastramento de até 4 (quatro) Motoristas Adicionais por veículo locado
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        No-Show
+                    </h3>
+                </div>
+                <div>
+                    É o termo utilizado pela Locadora, para caracterizar o não comparecimento do cliente na loja para a retirada do veículo em até 2 horas após o horário estabelecido na reserva.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Participação Obrigatória
+                    </h3>
+                </div>
+                <div>
+                    É a participação financeira, devida pelo Locatário, para fazer jus à cobertura de riscos contratada, por cada veículo locado/substituído, se envolvido em acidente. Os valores da participação obrigatória estão discriminados nos folhetos de informações e/ou tarifas vigentes nas lojas da Rede Unidas.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Pré-autorização
+                    </h3>
+                </div>
+                <div>
+                    É o bloqueio de um determinado valor no cartão de crédito do responsável pela locação a título de caução. Este valor será subtraído do limite do cartão de crédito no ato da retirada do veículo, sem gerar cobrança, e será automaticamente restituído quando o veículo for devolvido e o pagamento da locação ser efetuado.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Proteção
+                    </h3>
+                </div>
+                <div>
+                    Corresponde ao valor diário contratado e pago pelo Locatário para fazer jus às seguintes coberturas de riscos:
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Proteção Especial (PE)
+                    </h3>
+                </div>
+                <div>
+                    Cobertura de risco parcial para o veículo locado em casos de acidente, incêndio, furto, roubo, perda total e pequenas avarias.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Proteção Júnior (JR)
+                    </h3>
+                </div>
+                <div>
+                    Cobertura de risco parcial para o veículo locado em casos de acidente, incêndio, furto, roubo, perda total e pequenas avarias e de danos corporais a ocupantes do veículo locado e de danos materiais e corporais a terceiros.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Proteção Ocupantes do veículo locado e Terceiros (POT)
+                    </h3>
+                </div>
+                <div>
+                    Cobertura de danos corporais a ocupantes do veículo locado e de danos materiais e corporais a terceiros.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Proteção Parcial (PP)
+                    </h3>
+                </div>
+                <div>
+                    Cobertura de risco parcial para o veículo locado em casos de acidente, incêndio, furto, roubo, perda total e pequenas avarias;
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Rede de lojas Unidas
+                    </h3>
+                </div>
+                <div>
+                    É composta pelos pontos de atendimento distribuídos no território nacional e discriminados em folheto próprio.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Rodízio de Veículos
+                    </h3>
+                </div>
+                <div>
+                    É a restrição para circulação de veículos no centro expandido do município de São Paulo (SP-Capital) das 7:00 às 10:00 horas e das 17:00 às 20:00 horas, de acordo com o final da placa e dia da semana, conforme abaixo.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Super Proteção (PS)
+                    </h3>
+                </div>
+                <div>
+                    Cobertura de risco parcial para o veículo locado em casos de acidente, incêndio, furto, roubo, perda total e pequenas avarias e de danos corporais a ocupantes do veículo locado e de danos materiais e corporais a terceiros.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Tarifa Nacional
+                    </h3>
+                </div>
+                <div>
+                    É a Tarifa Nacional divulgada no tarifário disponibilizada para pessoa física.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Tarifa Regional
+                    </h3>
+                </div>
+                <div>
+                    É a Tarifa Nacional acrescida de 15% sobre o valor das diárias de locação, devido às condições de tráfego local.
+                </div>
+            </div>
+        
+            <div class="dl-horizontal">
+                <div>
+                    <h3>
+                        Taxa Administrativa 
+                    </h3>
+                </div>
+                <div>
+                    Taxa percentual cobrada sobre o valor total da locação.
+                </div>
+            </div>
+        
+  </div>
+</div>
+
+<div id="unidasTermos" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+        <h3 id="H2">
+            <span id="ContentPlaceHolderDefault_msgControl_UmbracoLabel1">Termos e Condições</span>
+        </h3>
+    </div>
+    <div class="modal-body">
+        <iframe src="/popup-termos-condicoes.aspx" width="510px" height="710px" style="overflow-y: hidden; border:none" scrolling="no"></iframe>
+    </div>
+</div>
+                    
+    <section id="banner">
+        <!-- Banner -->
+        <div class="slider-wrapper">
+            <input type="hidden" name="efeitoDoBanner" value='fade' />
+            <input type="hidden" name="tempoDaAnimao" value='200' />
+            <input type="hidden" name="tempoDaPausa" value='5000' />
+
+            <div id="slider" class="nivoSlider da-slider">
+                <a class="linkBanner" data-id="Banner1"
+       data-name="Banner-Unidas-Sempre-Zero-Carro-Por-Assinatura"
+       data-creative="http://semprezero.unidas.com.br/"
+       data-position="slot1" href="http://semprezero.unidas.com.br/" title="Banner-Unidas-Sempre-Zero-Carro-Por-Assinatura" target="_blank">
+        <img src="/media/16578/Banner-Unidas-Sempre-Zero-Carro-Por-Assinatura.jpg" alt="Banner-Unidas-Sempre-Zero-Carro-Por-Assinatura" />
+    </a>
+    <a class="linkBanner" data-id="Banner2"
+       data-name="Banner-Unidas-Aluguel-de-Carros-Parceira-LATAM-Julho-2017"
+       data-creative="http://www.unidas.com.br/latam.aspx"
+       data-position="slot2" href="http://www.unidas.com.br/latam.aspx" title="Banner-Unidas-Aluguel-de-Carros-Parceira-LATAM-Julho-2017" target="_blank">
+        <img src="/media/16496/Unidas-Aluguel-de-Carros-Parceria-LATAM-Julho-2017.jpg" alt="Banner-Unidas-Aluguel-de-Carros-Parceira-LATAM-Julho-2017" />
+    </a>
+    <a class="linkBanner" data-id="Banner3"
+       data-name="Banner-Unidas-Aluguel-de-Carro-Parceria-Alamo-Exterior-Orlando-Julho-2017"
+       data-creative="http://www.alamobrasil.com.br/"
+       data-position="slot3" href="http://www.alamobrasil.com.br/" title="Banner-Unidas-Aluguel-de-Carro-Parceria-Alamo-Exterior-Orlando-Julho-2017" target="_blank">
+        <img src="/media/16495/Unidas-Aluguel-de-Carros-Parceria-Alamo-Exterior-Orlando-Julho-2017.jpg" alt="Banner-Unidas-Aluguel-de-Carro-Parceria-Alamo-Exterior-Orlando-Julho-2017" />
+    </a>
+    <a class="linkBanner" data-id="Banner4"
+       data-name="Banner-Unidas-Aluguel-de-Carro-Fiat-Toro-Agosto-2017"
+       data-creative="http://www.unidas.com.br/reserva.aspx?action=new"
+       data-position="slot4" href="http://www.unidas.com.br/reserva.aspx?action=new" title="Banner-Unidas-Aluguel-de-Carro-Fiat-Toro-Agosto-2017" target="_blank">
+        <img src="/media/16587/unidas-aluguel-de-carros-fiat-toro.jpg" alt="Banner-Unidas-Aluguel-de-Carro-Fiat-Toro-Agosto-2017" />
+    </a>
+    <a class="linkBanner"
+       data-id="Banner5"
+       data-name="Banner-Unidas-Aluguel-Premio-Epoca-ReclameAQUI"
+       data-creative="https://premio.reclameaqui.com.br/votacao"
+       data-position="slot5"
+       href="https://premio.reclameaqui.com.br/votacao" title="Banner-Unidas-Aluguel-Premio-Epoca-ReclameAQUI" target="_blank">
+        <img src="/media/16577/Unidas-Aluguel-de-Carros-Pr&#234;mio-&#201;poca-Reclame-Aqui.jpg" alt="Banner-Unidas-Aluguel-Premio-Epoca-ReclameAQUI" />
+    </a>
+
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    var promotions = [];
+       
+    promotions.push({
+        'id': 'Banner1',
+        'name': 'Banner-Unidas-Sempre-Zero-Carro-Por-Assinatura',
+        'creative': 'http://semprezero.unidas.com.br/',
+        'position': 'slot1'
+    });
+    
+             
+    promotions.push({
+        'id': 'Banner2',
+        'name': 'Banner-Unidas-Aluguel-de-Carros-Parceira-LATAM-Julho-2017',
+        'creative': 'http://www.unidas.com.br/latam.aspx',
+        'position': 'slot2'
+    });
+    
+           
+    promotions.push({
+        'id': 'Banner3',
+        'name': 'Banner-Unidas-Aluguel-de-Carro-Parceria-Alamo-Exterior-Orlando-Julho-2017',
+        'creative': 'http://www.alamobrasil.com.br/',
+        'position': 'slot3'
+    });
+    
+               
+    promotions.push({
+        'id': 'Banner4',
+        'name': 'Banner-Unidas-Aluguel-de-Carro-Fiat-Toro-Agosto-2017',
+        'creative': 'http://www.unidas.com.br/reserva.aspx?action=new',
+        'position': 'slot4'
+    });
+    
+                
+    promotions.push({
+        'id': 'Banner5',
+        'name': 'Banner-Unidas-Aluguel-Premio-Epoca-ReclameAQUI',
+        'creative': 'https://premio.reclameaqui.com.br/votacao',
+        'position': 'slot5'
+    });
+    
+
+    dataLayer.push({
+        'ecommerce': {
+            'promoView': {
+                'promotions': promotions
+            }
+        }
+    });
+    $(function () {
+        $('.linkBanner').click(function (e) {
+            dataLayer.push({
+                'event': 'promotionClick',
+                'ecommerce': {
+                    promoClick: {
+                        'promotions': [
+                        {
+                            'id': $(this).attr('data-id'),
+                            'name': $(this).attr('data-name'),
+                            'creative': $(this).attr('data-creative'),
+                            'position': $(this).attr('data-position')
+                        }
+                        ]
+                    }
+                }
+            })
+        });
+    });
+</script>
+            </div>
+            <!-- Formulário de reserva desktop-->
+            <div id="formulario-reserva">
+                <!-- Código promocional -->
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            
+
+<style>
+    .grayDiv {
+        background-color: gray;
+        color: white;
+    }
+     
+    .inputData {
+        background: transparent !important;
+        border: solid 0px #FFDD00 !important;
+        margin-top: -4px;
+        outline: 0;
+        color: #006DA5 !important;
+        width: 100px;
+    }
+    .inputBusca:focus {
+        outline: 0;
+    }
+</style>
+
+<div class="row" id="buscaLojasContent">
+    <div class="span4">
+        <h2>Alugue um Carro</h2>
+        <h5>*Campo obrigatório</h5>
+        <hr />
+        <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas" style="display:none;"></span>
+        <label class="titleFormBanner">Onde ?</label>
+        <label>Local de retirada*</label>
+        <label class="errorMessage hide" id="errorLojaRet"><i class="iconeAlerta">!</i>Por favor, informe a Cidade, Aeroporto ou Código</label>
+        <label class="errorMessage hide" id="errorSemLojaRet"><i class="iconeAlerta">!</i>Infelizmente não temos loja nesta localidade.</label>
+        
+<span>
+    <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasRet$txtListaLoja" type="text" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja" class="inputListaLojas listaRetirada" placeholder="Digite Cidade, Aeroporto ou Loja" />
+</span>
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasRet$hfCodigoLoja" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja" />
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasRet$hfAlternativeEvent" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfAlternativeEvent" />
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasRet$hfCulture" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCulture" value="pt-BR" />
+
+        <hr />
+        <div id="boxSelecionaLojaEntrega">
+            <span class="checkboxDevolucao"><input id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_cbEntregarEmOutra" type="checkbox" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$cbEntregarEmOutra" checked="checked" /><label for="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_cbEntregarEmOutra">Devolução na mesma loja</label></span>
+        </div>
+        <div id="boxLojaEntrega" style="display: none">
+            <label>Local de devolução*</label>
+            <label class="errorMessage hide" id="errorSemLojaDev"><i class="iconeAlerta">!</i>Infelizmente não temos loja nesta localidade.</label>
+            
+<span>
+    <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasDev$txtListaLoja" type="text" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja" class="opcaoentrega listaDevolucao" placeholder="Digite Cidade, Aeroporto ou Loja" />
+</span>
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasDev$hfCodigoLoja" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfCodigoLoja" />
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasDev$hfAlternativeEvent" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfAlternativeEvent" />
+<input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ListaLojasDev$hfCulture" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfCulture" value="pt-BR" />
+
+        </div>
+    </div>
+    <div class="span2">
+        <hr />
+        <label class="titleFormBanner">Quando?</label>
+        <label>Data/hora de retirada*</label>
+        <label class="errorMessage hide" id="errorDataDe"><i class="iconeAlerta">!</i>Por favor, informe a data de retirada</label>
+        
+<script type="text/javascript">
+
+    var DadosAberturaLoja;
+    var Sigla = "";
+
+    var dataAberturaOriginal = {};
+    dataAberturaOriginal.retirada = null;
+    dataAberturaOriginal.devolucao = null;
+
+    $(document).ready(function () {
+        $.datepicker.setDefaults($.datepicker.regional['pt-br']);
+
+        addDatePicker($('#calendario_calendarioDe'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData'), '+0', 'True', null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfHora'), null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfAcronymCompany').val(), '/UserControls/BuscaLojas.aspx/GetDadosAberturaLoja', 'calendarioDe');
+
+        $('#calendario_calendarioDe').on('showCalendario', function () {
+            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData', $(this)).datepicker('show');
+        }); //teste
+
+        $('#calendario_calendarioDe').on('focusout', function () {
+            //$('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData', '#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData').datepicker('refresh');
+        });
+    });
+
+    $(document).on("DayOfWeek", function (event, data, sigla, tipo) {
+        addDatePicker($("#calendario_calendarioDe"), $("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData"), '+0', 'True', sigla, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfHora'), data, $("#calendario_calendarioDe").children('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfAcronymCompany').val(), '/UserControls/BuscaLojas.aspx/GetDadosAberturaLoja', tipo);
+
+        if (tipo == 'retirada'){
+            dataAberturaOriginal.retirada = data;
+        }
+        else {
+            dataAberturaOriginal.devolucao = data;
+        }
+    });
+    function pageLoad() {
+        $(document).trigger('DayOfWeek');
+
+        $("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData").trigger("change", [$("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData").val()]);
+    }
+</script>
+<div style="width: 100%">
+    <label class="formularioReserva">
+        <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_lblTextoCalendario" style="display: inline"></span>
+        <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData" class="errorlabel" style="display:none;">*</span>
+    </label>
+</div>
+<div id="calendario_calendarioDe">
+    <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioDe$txtData" type="text" maxlength="10" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData" class="inputCalendarioData ucCalendarioDe" placeholder="dd/mm/aaaa" />
+    <select name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioDe$ddlHora" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_ddlHora" class="CalendarioHora" style="width:55px;">
+		<option value="0">00</option>
+		<option value="1">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+		<option value="9">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option selected="selected" value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+
+	</select>
+    <select name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioDe$ddlMinuto" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_ddlMinuto" class="CalendarioMinuto" style="width:55px;">
+		<option value="00">00</option>
+		<option selected="selected" value="15">15</option>
+		<option value="30">30</option>
+		<option value="45">45</option>
+
+	</select>
+    <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioDe$hfHora" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfHora" value="13:12" />
+    <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioDe$hfAcronymCompany" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfAcronymCompany" />
+</div>
+    </div>
+    <div class="span2">
+        <label class="titleFormBanner">Até quando ?</label>
+        <label>Data/hora de devolução*</label>
+        <label class="errorMessage hide" id="errorDataAte"><i class="iconeAlerta">!</i>Por favor, informe a data de devolução</label>
+        
+<script type="text/javascript">
+
+    var DadosAberturaLoja;
+    var Sigla = "";
+
+    var dataAberturaOriginal = {};
+    dataAberturaOriginal.retirada = null;
+    dataAberturaOriginal.devolucao = null;
+
+    $(document).ready(function () {
+        $.datepicker.setDefaults($.datepicker.regional['pt-br']);
+
+        addDatePicker($('#calendario_calendarioAte'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), '+1', 'True', null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfHora'), null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfAcronymCompany').val(), '/UserControls/BuscaLojas.aspx/GetDadosAberturaLoja', 'calendarioAte');
+
+        $('#calendario_calendarioAte').on('showCalendario', function () {
+            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData', $(this)).datepicker('show');
+        }); //teste
+
+        $('#calendario_calendarioAte').on('focusout', function () {
+            //$('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData', '#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').datepicker('refresh');
+        });
+    });
+
+    $(document).on("DayOfWeek", function (event, data, sigla, tipo) {
+        addDatePicker($("#calendario_calendarioAte"), $("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData"), '+1', 'True', sigla, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfHora'), data, $("#calendario_calendarioAte").children('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfAcronymCompany').val(), '/UserControls/BuscaLojas.aspx/GetDadosAberturaLoja', tipo);
+
+        if (tipo == 'retirada'){
+            dataAberturaOriginal.retirada = data;
+        }
+        else {
+            dataAberturaOriginal.devolucao = data;
+        }
+    });
+    function pageLoad() {
+        $(document).trigger('DayOfWeek');
+
+        $("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData").trigger("change", [$("#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData").val()]);
+    }
+</script>
+<div style="width: 100%">
+    <label class="formularioReserva">
+        <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_lblTextoCalendario" style="display: inline"></span>
+        <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData" class="errorlabel" style="display:none;">*</span>
+    </label>
+</div>
+<div id="calendario_calendarioAte">
+    <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioAte$txtData" type="text" maxlength="10" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData" class="inputCalendarioData ucCalendarioAte" placeholder="dd/mm/aaaa" />
+    <select name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioAte$ddlHora" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_ddlHora" class="CalendarioHora" style="width:55px;">
+		<option value="0">00</option>
+		<option value="1">01</option>
+		<option value="2">02</option>
+		<option value="3">03</option>
+		<option value="4">04</option>
+		<option value="5">05</option>
+		<option value="6">06</option>
+		<option value="7">07</option>
+		<option value="8">08</option>
+		<option value="9">09</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option selected="selected" value="13">13</option>
+		<option value="14">14</option>
+		<option value="15">15</option>
+		<option value="16">16</option>
+		<option value="17">17</option>
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20">20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+
+	</select>
+    <select name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioAte$ddlMinuto" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_ddlMinuto" class="CalendarioMinuto" style="width:55px;">
+		<option value="00">00</option>
+		<option selected="selected" value="15">15</option>
+		<option value="30">30</option>
+		<option value="45">45</option>
+
+	</select>
+    <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioAte$hfHora" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfHora" value="13:12" />
+    <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$calendarioAte$hfAcronymCompany" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfAcronymCompany" value="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_hfCodigoLoja" />
+</div>
+    </div>
+    <div class="span2">
+        <hr />
+        <div id="boxCodigoPromocionalLoja">
+            <label class="errorMessage hide" id="errorCodigoPromocional"><i class="iconeAlerta">!</i>Por favor, inclua o Código Promocional.</label>
+            <input id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_cbCodigoPromocional" type="checkbox" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ctl00$cbCodigoPromocional" /><label for="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_cbCodigoPromocional">Código Promocional</label>
+<div id="boxCodigoPromocional">
+    <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ctl00$txtCodigoPromocional" type="text" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_txtCodigoPromocional" style="width:100px;" />
+    <span id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional" style="display:none;"></span>
+    <input type="submit" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ctl00$btConfirmar" value="Confirmar" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$ctl00$btConfirmar&quot;, &quot;&quot;, true, &quot;Cupom&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_btConfirmar" />
+</div>
+        </div>
+    </div>
+    <div class="span2">
+        <hr />
+        
+        <label class="errorMessage hide" id="errorCaptcha"><i class="iconeAlerta">!</i>Por favor, preencha o captcha.</label>
+        
+        <span>
+            <input type="hidden" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$hfErrorComplemente" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_hfErrorComplemente" value="Por favor" />
+            <input type="submit" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$btnCotacao" value="Alugue Aqui" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$ContentPlaceHolderDefault$ContentBody$UcBuscaLojas$btnCotacao&quot;, &quot;&quot;, true, &quot;ValidaCotacao&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_btnCotacao" class="btnAlugueAqui" />
+        </span>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Fim do Formulário -->
+            </div>
+        </div>
+    </section>
+
+    <section id="parceiros">
+        <div class="container">
+            <hr />
+            <h3>
+                Com as nossas parcerias, alugar um carro na Unidas fica ainda mais fácil. Dá uma olhada:
+            </h3>
+            <hr />
+            <div class="row-fluid"><div class="span12 parceiro"><br /><div class="row-fluid"><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="/latam.aspx" title="Vantagens Exclusivas para passageiros LATAM" target="_self" class="white">Clientes LATAM tem vantagens exclusivas na Unidas</a></p></div></div><a href="/latam.aspx" title="Vantagens Exclusivas para passageiros LATAM" target="_self"><img src="/media/16304/Home-Banner-Aluguel-de-Carro-com-Desconto-Parceria-Latam.png" alt="Vantagens Exclusivas para passageiros LATAM" /></a></div><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="http://www.alamobrasil.com.br/" title="Vantagens Exclusivas para clientes Alamo" target="_blank" class="white">Vai viajar para fora do Brasil? Faça como a maior locadora do mundo: escolha a Unidas.</a></p></div></div><a href="http://www.alamobrasil.com.br/" title="Vantagens Exclusivas para clientes Alamo" target="_blank"><img src="/media/16314/Home-Banner-Aluguel-de-Carro-no-Exterior-Parceria-Alamo.png" alt="Vantagens Exclusivas para clientes Alamo" /></a></div></div></div><div class="span12 parceiro"><br /><div class="row-fluid"><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="/multiplus.aspx" title="Destaque Parceiro MULTIPLUS" target="_self" class="white">Use seus pontos Multiplus para alugar um carro na Unidas.</a></p></div></div><a href="/multiplus.aspx" title="Destaque Parceiro MULTIPLUS" target="_self"><img src="/media/16351/home-banner-aluguel-de-carro-com-desconto-parceria-multiplus.png" alt="Destaque Parceiro MULTIPLUS" /></a></div><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="/portoseguro.aspx" title="Destaque Parceiro PORTO SEGURO" target="_self" class="white">Clientes dos cartões de crédito Porto Seguro aproveitam descontos especiais e diversas vantagens na Unidas.</a></p></div></div><a href="/portoseguro.aspx" title="Destaque Parceiro PORTO SEGURO" target="_self"><img src="/media/16306/Home-Banner-Aluguel-de-Carro-com-Desconto-Parceria-Porto-Seguro.png" alt="Destaque Parceiro PORTO SEGURO" /></a></div></div><div class="row"><div class="barra_TopDown"><div class="carregar-mais span3 offset5"><div class="text_carregar_mais"><a href="#" title="Carregar Mais">Carregar Mais</a></div><div class="item_gas"><span class="bombaGas"> </span></div></div></div></div></div><div class="span12 parceiro"><br /><div class="row-fluid"><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="/americanexpress.aspx" title="Destaque Parceiro AMEX" target="_self" class="white">Quem tem Amex aluga carro na Unidas por condições imperdíveis. Aproveite!</a></p></div></div><a href="/americanexpress.aspx" title="Destaque Parceiro AMEX" target="_self"><img src="/media/16303/Home-Banner-Aluguel-de-Carro-com-Desconto-Parceria-Amex.png" alt="Destaque Parceiro AMEX" /></a></div><div class="span6"><div class="bar bar-blue bar-small"><div class="texto_parceiros"><p><a href="/santander.aspx" title="Destaque Parceiro SANTANDER" target="_self" class="white">Você é cliente Santander? Então aproveite os benefícios de nossa parceria.</a></p></div></div><a href="/santander.aspx" title="Destaque Parceiro SANTANDER" target="_self"><img src="/media/16307/Home-Banner-Aluguel-de-Carro-com-Desconto-Parceria-Santander.png" alt="Destaque Parceiro SANTANDER" /></a></div></div><div class="row"><div class="barra_TopDown"><div class="recolher span3 offset5"><div class="text_carregar_mais"><a href="#" title="Recolher">Carregar Mais</a></div><div class="item_gas"><span class="bombaGas"> </span></div></div></div></div></div></div>
+        </div>
+    </section>
+
+    <section id="guias">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <ul id="lista-guias"><li><a href="#tab1" data-toggle="tab" title="Encontre sua loja">Seja um Franqueado</a></li><li><a href="#tab2" data-toggle="tab" title="Encontre sua loja">Encontre sua Loja</a></li></ul><div class="row tab-content borda-vermelha"><div class="tab-pane" id="tab1"><div class="thumbnails qtd4"><div class="span3 item1"><div class="thumbnail"><a href="/institucional/negocio.aspx" title="O Negócio"><img src="/media/9681/unidas_aluguel_de_carros_seja_um_franqueado_o_negocio.png" alt="O Negócio" /><h3>O Negócio</h3></a><p>Venha crescer conosco.</p></div></div><div class="span3 item2"><div class="thumbnail"><a href="/institucional/diferenciais.aspx" title="Diferenciais"><img src="/media/9680/unidas_aluguel_de_carros_seja_um_franqueado_diferenciais.png" alt="Diferenciais" /><h3>Diferenciais</h3></a><p>A Unidas é uma das maiores locadoras de veículos do Brasil. Clique e veja o que só a Unidas oferece.</p></div></div><div class="span3 item3"><div class="thumbnail"><a href="/institucional/investidor.aspx" title="Perfil do Investidor"><img src="/media/9682/unidas_aluguel_de_carros_seja_um_franqueado_perfil_do_investidor.png" alt="Perfil do Investidor" /><h3>Perfil do Investidor</h3></a><p>Qual é o perfil do nosso investidor? Saiba se investir e locação de veículos é para você.</p></div></div><div class="span3 item4"><div class="thumbnail"><a href="/institucional/franqueado.aspx" title="Seja um Franqueado"><img src="/media/9679/unidas_aluguel_de_carros_seja_um_franqueado.png" alt="Seja um Franqueado" /><h3>Seja um Franqueado</h3></a><p>Confira as vantagens de ter uma franquia Unidas.</p></div></div></div></div><div class="tab-pane" id="tab2"><div class="thumbnails qtd1"><div class="span3 item1"><div class="thumbnail"><a href="/institucional/encontre-sua-loja.aspx" title="Busca de Lojas no Google Maps"><img src="/media/9673/unidas_aluguel_de_carros_encontre_sua_loja_google_maps.png" alt="Busca de Lojas no Google Maps" /><h3>Busca de Lojas no Google Maps</h3></a><p>De norte a sul do país, a Unidas está pronta para atendê-lo onde e quando você esteja.</p></div></div></div></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+                    <input type="submit" name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$btnHdnmodal" value="" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$ctl00$ContentPlaceHolderDefault$btnHdnmodal&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolderDefault_btnHdnmodal" style="display: none" />
+                    
+                    <div id="ContentPlaceHolderDefault_pnlMessageWait" class="pnlMessageWait" style="display: none">
+		
+                        <img id="ContentPlaceHolderDefault_imgWait" src="/media/layout/carregando.gif" />
+                        <span id="ContentPlaceHolderDefault_lblAguarde" class="lblAguarde">Aguarde</span>
+                    
+	</div>
+                
+</div>
+        
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas"), document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData"), document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData"), document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas = document.all ? document.all["ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas"] : document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas");
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas.display = "None";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas.validationGroup = "ValidaCotacao";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas.evaluationfunction = "CustomValidatorEvaluateIsValid";
+var ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData = document.all ? document.all["ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData"] : document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData");
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData.controltovalidate = "ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData.display = "Dynamic";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData.validationexpression = "^(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}$";
+var ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData = document.all ? document.all["ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData"] : document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData");
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData.controltovalidate = "ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData.display = "Dynamic";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData.validationexpression = "^(0?[1-9]|[12][0-9]|3[01])[\\/\\-](0?[1-9]|1[012])[\\/\\-]\\d{4}$";
+var ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional = document.all ? document.all["ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional"] : document.getElementById("ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional");
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional.controltovalidate = "ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_txtCodigoPromocional";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional.display = "None";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional.validationGroup = "Cupom";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional.initialvalue = "";
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+                $(window).ready(function () {
+                    $('#slider').nivoSlider({
+                        effect: $('#slider').parent().find('input:hidden[name=efeitoDoBanner]').val(),
+                        slices: 15,
+                        boxCols: 8,
+                        boxRows: 4,
+                        animSpeed: $('#slider').parent().find('input:hidden[name=tempoDaAnimao]').val(),
+                        pauseTime: $('#slider').parent().find('input:hidden[name=tempoDaPausa]').val(),
+                        startSlide: 0,
+                        pauseOnHover: false,
+                        directionNav: false,
+                        controlNav: true,
+                        controlNavThumbs: false,
+                        pauseOnHover: false,
+                        manualAdvance: false,
+                        randomStart: false
+                    });
+
+                    $('#parceiros').parceiros({
+                        hiddenNumberRows: 2,
+                        retract: 'Recolher',
+                        loadMore: 'Carregar Mais'
+                    });
+
+                    $('#lista-guias').guias();
+
+                    // Interrompe transição do slide sempre que o usuário pousa o mouse sobre o formulário vertical.
+                    $('#buscaLojasContent').hover(function() {
+                        jQuery('#slider').data('nivoslider').stop();
+                    }, function(){
+                        jQuery('#slider').data('nivoslider').start();
+                    });
+                });
+            
+                $(document).ready(function () {
+                    var LojaEntrega = true;
+                    var dataDe = '';
+                    var dataPara = '';
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_cbEntregarEmOutra').click(function () {
+                        LojaEntrega = !LojaEntrega;
+                        if (!LojaEntrega) {
+                            $('#boxLojaEntrega').show();
+
+                            if(dataAberturaOriginal.devolucao){
+                                addDatePicker($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), '+0', '@UseHour', null, null, dataAberturaOriginal.devolucao, null, null, 'devolucao');
+                            }
+                        } else {
+                            $('#boxLojaEntrega').hide();
+                            addDatePicker($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData'), '+0', '@UseHour', null, null, dataAbertura.retirada, null, null, 'retirada');
+                            addDatePicker($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), '+0', '@UseHour', null, null, dataAbertura.retirada, null, null, 'devolucao');
+                        }
+                    });
+                    
+                    if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_cbEntregarEmOutra:checked').length <= 0) {
+                        LojaEntrega = !LojaEntrega;
+                        if (!LojaEntrega) {
+                            $('#boxLojaEntrega').show();
+                        } else {
+                            $('#boxLojaEntrega').hide();
+                        }
+                    } 
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData').change(function () {
+                        myDate = $(this).datepicker('getDate');
+                        myDate.setDate(myDate.getDate() + 1);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').datepicker('setDate', myDate);
+                        
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData').bind('SelectDay', function (event, Sigla, dateText, label, proximoDia) {
+                        myDate = $(this).datepicker('getDate');
+                        dataDe = dateText;
+
+                        myDate.setDate(myDate.getDate() + proximoDia);
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').datepicker('setDate', myDate);
+                        
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').bind('SelectDay', function (e, sigla, date, label) {
+                        dataPara = date;
+                        MsgKmControlado();
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData').mask('99/99/9999', {placeholder: 'dd/mm/aaaa'});
+                   
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').mask('99/99/9999', {placeholder: 'dd/mm/aaaa'});
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_btnCotacao').click(function() {
+                        $('#errorLojaRet').hide();
+                        $('#errorDataDe').hide();
+                        $('#errorDataAte').hide();
+                        $('#errorLojaDev').hide();
+                        $('#errorCodigoPromocional').hide();
+                        $('#errorSemLojaRet').hide();
+                        
+                        if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val() == '' || $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val() == '') {
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val('');
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').val('');
+                            $('#errorLojaRet').show();
+                            $('#errorCodigoPromocional').hide();
+                            grecaptcha.reset();
+
+                            return false;
+                        } else {
+                            $('#errorLojaRet').hide();
+                        }   
+
+                        if(!validaData($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData').val())) {
+                            $('#errorDataDe').show();
+                            grecaptcha.reset();
+                            
+                            return false;
+                        } else {
+                            $('#errorDataDe').hide();
+                        }
+
+                        if(!validaData($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').val())) {
+                            $('#errorDataAte').show();
+                            grecaptcha.reset();
+
+                            return false;
+                        } else {
+                            $('#errorDataAte').hide();
+                        }
+                        
+                        if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_txtCodigoPromocional').val() == '' && $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_cbCodigoPromocional').is(':checked')) {
+                            $('#errorCodigoPromocional').show();
+                            grecaptcha.reset();
+
+                            return false;
+                        } else {
+                            $('#errorCodigoPromocional').hide();
+                        }
+
+                        return true;
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_txtListaLoja').focusout(function(){
+
+                    }).keyup(function() {
+                        if($(this).val() == '') {
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val('');
+                        }
+                        $('#errorSemLojaRet').hide();
+                    }).on('OnSelectShop', function(event, param) {
+
+
+                    }).focusin(function() {
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasRet_hfCodigoLoja').val('');
+                        $('#errorSemLojaRet').hide();
+                    }).on('SemLoja', function() {
+                        $('#errorSemLojaRet').show();
+                        $('#errorLojaRet').hide();
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData, #ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData').focusout(function() { }).click(function() {
+                        $('#errorDataDe').hide();
+                        $('#errorDataAte').hide();
+                    });
+
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ListaLojasDev_txtListaLoja').on('SemLoja', function(){
+                       $('#errorSemLojaDev').show();     
+                    }).keyup(function() {
+                        $('#errorSemLojaDev').hide();
+                        $('#errorLojaDev').hide();
+                    });
+
+                    Date.prototype.addDays = function(days)
+                    {
+                        var dat = new Date(this.valueOf());
+                        dat.setDate(dat.getDate() + days);
+                        return dat;
+                    }
+
+                    function MsgKmControlado() {
+                        if(dataDe != '' && dataPara != '') {
+                                                
+                            var explodeDe = dataDe.split('/');
+                            var explodePara = dataPara.split('/');
+
+                            var novaDataDe  = new Date(explodeDe[2], explodeDe[1], explodeDe[0]);
+                            var novaDataPara  = new Date(explodePara[2], explodePara[1], explodePara[0]);
+                            var dataControladaMenor = new Date(novaDataDe.addDays(20));
+                            var dataControladaMaior = new Date(novaDataDe.addDays(31));
+
+                            if(novaDataPara > dataControladaMenor && novaDataPara < dataControladaMaior) {
+                                $('p', '.modal-body').text('');
+                                $('p', '.modal-body').append('Para locações entre 21 e 30 dias, o limite de km rodados é de 4.500km para todo o período.');
+                                $('#myModal').modal();
+                            }
+                        }
+                    }
+
+                    function CaptchaReload() {
+                              Recaptcha.create('6LeSBgsUAAAAAKOJ5V-PCu5Qt8golqHcfs5QP_yT', 'captchaDiv', {
+                              theme: 'white',
+                              callback: grecaptcha.reset()
+
+                            });
+                          }
+
+                });
+                $(document).ready(function () {
+                    $.datepicker.setDefaults($.datepicker.regional['pt-br']);
+
+                    addDatePicker($('#calendario_calendarioDe'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData'), '+0', 'True', null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfHora'), null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_hfAcronymCompany').val(), 'calendarioDe');
+
+                    $('#calendario_calendarioDe').on('showCalendario', function () {
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_txtData', $(this)).datepicker('show');
+                    });
+                });
+            
+                $(document).ready(function () {
+                    $.datepicker.setDefaults($.datepicker.regional['pt-br']);
+
+                    addDatePicker($('#calendario_calendarioAte'), $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData'), '+1', 'True', null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfHora'), null, $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_hfAcronymCompany').val(), 'calendarioAte');
+
+                    $('#calendario_calendarioAte').on('showCalendario', function () {
+                        $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_txtData', $(this)).datepicker('show');
+                    });
+                });
+            
+             $(document).ready(function () {
+                    var temCodigoPromocional = false;
+                    if($('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_txtCodigoPromocional').val().trim() == '') {    
+                        temCodigoPromocional = false;
+                        $('#boxCodigoPromocional').hide();
+                    } else {
+                        temCodigoPromocional = true;
+                        $('#boxCodigoPromocional').show();
+                    }    
+                
+                    $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_cbCodigoPromocional').change(function () {
+                        temCodigoPromocional = !temCodigoPromocional;
+                        if (temCodigoPromocional) {
+                            $('#boxCodigoPromocional').show();
+                        } else {
+                            $('#boxCodigoPromocional').hide();
+                            $('#ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_txtCodigoPromocional').val('');
+                        }
+                    });
+                });
+            
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctmLojas'));
+}
+
+document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioDe_regTxtData'));
+}
+
+document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_calendarioAte_regTxtData'));
+}
+
+document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('ContentPlaceHolderDefault_ContentBody_UcBuscaLojas_ctl00_rqrTxtCodigoPromocional'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.ModalPopupBehavior, {"BackgroundCssClass":"modalbackground","PopupControlID":"ContentPlaceHolderDefault_pnlMessageWait","dynamicServicePath":"/","id":"modalWait"}, null, null, $get("ContentPlaceHolderDefault_pnlMessageWait"));
+});
+//]]>
+</script>
+</form>
+        
+
+
+
+        <script src="/Scripts/GoogleTagManager.js"></script>
+        <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PKB8PH"
+                height="0" width="0" style="display: none; visibility: hidden"></iframe>
+        </noscript>
+        <script>(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({
+'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-PKB8PH');</script>
+        <!-- End Google Tag Manager -->
+        <footer class="noPrint">
+            <div class="barraRodape"></div>
+            <div class="campoContato">
+                <section id="baloes">
+                    <div class="container">
+                        <div class="row-fluid">
+                            <div class="span12">
+                                <div class="row">
+                                    <div class="span2">
+                                        <a href='/aluguel-de-carros/fale-conosco.aspx'
+                                            title='Fale Conosco'>
+                                            <span class="balaoFC"></span>
+                                            <p>
+                                                <small>
+                                                    Fale Conosco
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="span2">
+                                        <a href='/aluguel-de-carros/ouvidoria.aspx'
+                                            title='Ouvidoria'>
+                                            <span class="balaoO"></span>
+                                            <p>
+                                                <small>
+                                                    Ouvidoria
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="span2">
+                                        <a href='/aluguel-de-carros/fale-com-o-presidente.aspx'
+                                            title='Fale com o Presidente'>
+                                            <span class="balaoFP"></span>
+                                            <p>
+                                                <small>
+                                                    Fale com o Presidente
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="span2">
+                                        <a href='/aluguel-de-carros/politica-de-privacidade.aspx'
+                                            title='Política de Privacidade'>
+                                            <span class="balaoPP"></span>
+                                            <p>
+                                                <small>
+                                                    Política de Privacidade
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="span2">
+                                        <a href='/unidas.aspx'
+                                            title='Unidas'>
+                                            <span class="balaoUnidas"></span>
+                                            <p>
+                                                <small>Unidas
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <div class="span2">
+                                        <a href='http://ri.unidas.com.br/unidas/web/default_pt.asp?idioma=1&conta=28'
+                                            title='Relações com Investidores' target="_blank">
+                                            <span class="balaoInvestidor"></span>
+                                            <p>
+                                                <small>
+                                                    Relações com Investidores
+                                                </small>
+                                            </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="campoMapaSite noPrint">
+                <div class="container">
+                    <section id="mapa-do-site"><div class="row-fluid menuMapa"><div class="span12"><div class="row-fluid"><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa">Alugue um Carro</li><li><a href="/reserva.aspx?action=new" title="Reservas Nacionais">Reservas Nacionais</a></li><li><a href="http://www.alamobrasil.com.br/" title="Alamo Reservas Internacionais" target="_blank">Reservas Internacionais</a></li><li><a href="http://portaldereservas.unidas.com.br/" title="Reservas Coporativas" target="_blank">Reservas Corporativas</a></li><li><a href="/aluguel-de-carros/encontre-sua-loja.aspx" title="Encontre sua Loja">Pesquisa por Lojas</a></li><li><a href="/aluguel-de-carros/modelos-de-carros.aspx" title="Modelos de Carros">Grupos de Carros</a></li><li><a href="/aluguel-de-carros/parcerias.aspx" title="Parcerias">Parcerias</a></li><li><a href="http://www.unidas.com.br/unidas-oficina" title="Orientações para Manutenção e Guia de Oficinas Credenciadas" target="_blank">Oficinas Credenciadas</a></li></ul></div><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa">Terceirize sua Frota</li><li><a href="/terceirize-unidas" title="Unidas Frotas" target="_blank">Unidas – Frota Corporativa</a></li><li><a href="/terceirize-bestfleet" title="Bestfleet Frotas" target="_blank">BestFleet - Frota Executiva</a></li></ul></div><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa">Compre um Carro</li><li><a href="http://www.unidasseminovos.com.br/" title="Seminovos Unidas" target="_blank">Seminovos Unidas</a></li></ul></div><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa">Seja um Franqueado</li><li><a href="/aluguel-de-carros/negocio.aspx" title="Negócio">Negócio</a></li><li><a href="/aluguel-de-carros/diferenciais.aspx" title="Diferenciais">Diferenciais</a></li><li><a href="/aluguel-de-carros/investidor.aspx" title="Investidor">Perfil do Investidor</a></li><li><a href="/aluguel-de-carros/franqueado.aspx" title="Seja Franqueado">Seja um Franqueado</a></li></ul></div><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa">Unidas</li><li><a href="/aluguel-de-carros.aspx" title="Institucional">Institucional</a></li><li><a href="/aluguel-de-carros/trabalhe-na-unidas.aspx" title="Trabalhe na Unidas">Trabalhe na Unidas</a></li><li><a href="/aluguel-de-carros/relacoes-publicas.aspx" title="Relações Públicas">Notícias</a></li></ul></div><div class="span2"><ul class="unstyled"><li class="titulo-coluna-mapa"><abbr title="Relações com Investidores">RI</abbr></li><li><a href="http://ri.unidas.com.br/unidas/web/default_pt.asp?idioma=1&amp;conta=28" title="Relações com Investidores" target="_blank">Relação com Investidores</a></li></ul></div></div><div id="certificados" class="row"><div class="span10 offset2" style="color:red;">Antes de efetivar a reserva, consulte no site os requisitos para alugar e conduzir veículos. Respeite os limites de velocidade.</div></div></div></div></section>
+                </div>
+            </div>
+            <div id="marcoCivil">
+                
+                  Razão Social: UNIDAS LOCADORA DE VEÍCULOS LTDA | CNPJ 01.079.210/0001-80 | R. Cincinato Braga, 388 - Bela Vista, São Paulo - SP, 01333-010 | Serviço de Atendimento ao Cliente: 0800 771 5158 | &#169; Unidas. Todos os direitos reservados
+                
+            </div>
+            <section id="rodape"><div class="navbar  navbar-fixed-bottom"><div class="campoRodape navbar-inner"><div class="container"><div class="row-fluid"><div class="span12"><div class="row-fluid widthRodape"><div class="span2 pull-left openChat"><div class="imgChat"><img src="/Media/logo/chat_icon_unidas.png" title="chat" /></div><span><a href="#" id="linkAtendimentoOnline">Atendimento Online</a></span></div><div class="span7_redesocial"><a href="/aluguel-de-carros/termos-e-condicoes.aspx" title="Termos e Condições">Termos e Condições</a><span class="separador"> | </span><a href="/aluguel-de-carros/requisitos-para-locar.aspx" title="Requisitos para Locar ">Requisitos para Locar</a><span class="separador"> | </span><a href="/aluguel-de-carros/contrato-de-locacao.aspx" title="Contrato de Locação">Contrato de Locação</a><span class="separador"> | </span><a href="" title="Tarifário" target="_blank">Tarifário</a><span class="separador"> | </span><a href="/aluguel-de-carros/perguntas-frequentes.aspx" title="Perguntas Frequentes">Perguntas Frequentes</a></div><div class="span3_redesocial"><small>Central de Reservas 0800 121 121</small></div></div></div></div></div></div></div></section>
+        </footer>
+        <script type="text/javascript">
+
+
+            $('frame[name=google_conversion_frame]').css({
+                padding: 0,
+                margin: 0
+            });
+
+
+            $(function () {
+                $('.openChat').click(function () {
+                    showChat();
+                });
+            });
+
+        </script>
+
+    </body>
+    </html>
