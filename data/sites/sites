@@ -234,4 +234,83 @@ itavema
 
 	formato ul/li
 
+icarros
+	http://www.icarros.com.br/comprar/
+
+	links estáticos
+
+	nacional
+
+	formato ul/li
+
+
+temusados
+	http://carros-saopaulo-zc.temusados.com.br/buscar/tipo.carro/
+
+	links estáticos
+
+	local
+
+	formato /br
+
+usadosbr
+	https://www.usadosbr.com/carros-e-utilitarios?zero%5B0%5D=0&zero%5B1%5D=1&yearMan=&yearMod=&styles%5B0%5D=&id=&valueMin=&valueMax=&states%5B0%5D=
+
+	links estáticos
+
+	local
+
+	formato ul/li
+
+nacionalveiculos
+	http://www.nacionalveiculos.com.br/estoque
+
+	links estáticos
+
+	local
+		brasilia
+
+	formato ul/li
+
+atarde
+	http://classificados.atarde.uol.com.br/veiculos/busca_filtro?cidade=&secao_tipo_veiculo=&marca=&modelo=
+
+	links estáticos
+
+	local
+		salvador
+
+	formato ul/li
+
+bariguiseminovos
+	http://www.bariguiseminovos.com.br/veiculos/
+
+	links estáticos
+
+	local
+		parana e sc
+
+	formato ul/li
+
+boulevardshoppingcar
+	http://www.boulevardshoppingcar.com.br/ResultadoVeiculos?marca=0&modelo=0&precoDe=0&precoAte=0&anoDe=0&anoAte=0&loja=0
+
+	links estáticos
+
+	local
+		rj
+
+	formato ul/li
+
+
+gncseminovos
+	http://www.gncseminovos.com.br/salvador-ba/seminovos?r=Salvador+-+BA&ordem=&marca=&modelo=&proprietario=&ano_de=&ano_ate=&preco_min=&preco_max=&palavra-chave=
+
+	links estáticos
+
+	local
+
+	formato div
+
+	
 

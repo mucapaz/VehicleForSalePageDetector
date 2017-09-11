@@ -1,0 +1,1362 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="pt-BR" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-BR" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-BR" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-BR" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Nacional Veículos">
+	<meta name="description" content="Nacional Veículos">
+	<meta name="author" content="VMotors">
+	<meta name="keywords" content="nacional, zero-km, seminovos, Hyundai, BMW, Chevrolet, Honda, Toyota, Kia, Nissan, LandRover, Volkswagen, Peugeot, Fiat, Renault, Ford">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	<!-- Scripts Fixos do Sistema -->
+	<script type="text/javascript" src="/system/assets/js/fcymon_scripts.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="/system/assets/js/buscavmotors.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/scripts.js"></script>
+
+	<!-- CSS's Fixos Externos -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<!-- CSS's Fixos do Sistema -->
+	<link rel="stylesheet" type="text/css" href="/system/assets/css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="/system/assets/css/jcymon_box.css" />
+
+	<!-- CSS's Fixos do Template -->
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/style.min.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/js/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/mouseover.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/flexslider.css" media="screen" />
+
+	<!-- JS's -->
+	<script type="text/javascript" src="/templates/assets/js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/jquery.carouFredSel-5.5.0-packed.js"></script>
+
+	<!-- Seta o Head Base -->
+	<title>Nacional Veículos - Encontre seu carro</title><script type="text/javascript" src="/system/assets/js/buscador/buscadordeveiculos.js"></script><script type="text/javascript" src="/system/assets/js/filtros/filtrosdebusca.js"></script>
+        <link rel="stylesheet" type="text/css" href="/system/assets/css/buscador/buscador-de-veiculos.css" />
+        <link rel="stylesheet" type="text/css" href="/system/assets/css/filtros/filtrosdebusca.css" />
+	<!-- Newsletter
+	================================================== -->
+	<script>
+		function validaEmail(email) { var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; if (!re.test(email)) { return false; } return true; }
+
+		$(document).ready(function() {
+			if ($('#telefone_newsletter').length > 0) {
+				$("#telefone_newsletter").mask("(99) 9999-9999?9");
+			}
+
+			$('#btnNewsletter').click(function() {
+				$('#btnNewsletter').attr('disabled', true);
+
+				var server = "www.nacionalveiculos.com.br";
+				var script = "/index.php";
+
+				var email = "";
+				var nome = "";
+				var telefone = "";
+
+				if ($('#email_newsletter').length > 0) { email = $('#email_newsletter').val(); }
+				if ($('#nome_newsletter').length > 0) { nome = $('#nome_newsletter').val(); }
+				if ($('#telefone_newsletter').length > 0) { telefone = $('#telefone_newsletter').val(); }
+
+				if (validaEmail(email)) {
+					$.ajax({
+						url: 'http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v1/ajax/receba_newsletter.ajax.php',
+						dataType: "json",
+						data: {
+							nome: nome,
+							email: email,
+							telefone: telefone,
+							server: server,
+							script: script
+						},
+						type: "POST",
+						success: function(retorno) {
+							var retorno_positivo = "<p><label style='width:100% !important; text-align:center;'>Agradecemos pelo seu cadastro!</label></p>";
+							var retorno_negativo = "<p><label style='width:100% !important; text-align:center;'>Desculpe, ocorreu um erro. Tente novamente mais tarde</label></p>";
+
+							if (retorno.sucesso == "1") {
+								$('#div_newsletter').html(retorno_positivo);
+							} else {
+								$('#div_newsletter').html(retorno_negativo);
+							}
+						}
+					});
+				} else {
+					$('#btnNewsletter').removeAttr('disabled');
+					alert("Informe um email valido!");
+				}
+			});
+		});
+	</script>
+
+	<!-- Fancybox
+	================================================== -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+				type: 'iframe',
+				width: 560
+			});
+
+			$("a.mapaLoja").fancybox({
+				type: 'iframe',
+				height: 450,
+				width: 560
+			});
+		});
+	</script>
+</head>
+<body>
+	<header id="header">
+		<div class="centraliza">
+			<h1 id="logoHeader">
+				<a href="/" title="Ir à página inicial">
+					<span>Nacional Veículos</span>
+				</a>
+			</h1>
+
+			<section id="telefonesHeader">
+				<article class="telHeader lest">
+					<h2>NACIONAL GAMA</h2>
+					<p>Quadra 32, Loja 20, Gama Leste – Brasília - DF</p>
+					<p class="tel">
+						<span>(61)</span> 3484-5055
+					</p>
+				</article>
+
+				<article class="telHeader samambaia">
+					<h2>NACIONAL SAMAMBAIA</h2>
+					<p>QS 518, CONJ. 01, Loja 04, Samambaia Sul – Brasília - DF</p>
+					<p class="tel">
+						<span>(61)</span> 3046-7070
+					</p>
+				</article>
+			</section>
+		</div>
+
+		<nav id="menuHeader">
+			<div class="centraliza">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/empresa">Empresa</a></li>
+					<li class="semi_menu"><a href="/estoque">Seminovos</a></li>
+					<li><a href="/financiamento">Financiamento</a></li>
+					<li><a href="/avalie">Avalie seu usado</a></li>
+					<li><a href="/contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	
+  <!-- Conteúdo Principal
+  ============================================================================== -->
+	<section id="mainInternas">
+  	<div class="centraliza">
+
+        <h1>Seminovos</h1>
+
+
+
+        <article class="encontre">
+
+            <side class="filtrosdebusca">
+
+                <div class="carros">
+
+                    <h2>118 <span>carros encontrados</span></h2>
+
+                    
+                </div>
+
+
+
+                
+
+
+                <div class="head2">Refine sua busca:</div>
+
+
+
+                <div id="wrapper">
+
+                    <ul class="menu">
+
+                        		                    <li class="item2"><a href="#">Marca<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&ima=4">FIAT</a>(31)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=2">CHEVROLET</a>(20)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=5">VOLKSWAGEN</a>(16)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=30">RENAULT</a>(15)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=3">FORD</a>(11)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=35">TOYOTA</a>(8)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=17">HYUNDAI</a>(4)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=27">NISSAN</a>(3)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=28">PEUGEOT</a>(3)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=12">CITROËN</a>(2)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=16">HONDA</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=26">MITSUBISHI</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=32">SSANGYONG</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=34">SUZUKI</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ima=270">CHERY</a>(1)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item3"><a href="#">Portas<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&np=2">2</a>(8)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&np=4">4</a>(110)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item4"><a href="#">Ano<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2017">2017</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2016">2016</a>(6)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2015">2015</a>(7)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2014">2014</a>(13)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2013">2013</a>(32)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2012">2012</a>(19)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2011">2011</a>(12)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2010">2010</a>(12)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2009">2009</a>(4)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2008">2008</a>(7)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2007">2007</a>(2)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2006">2006</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ano=2004">2004</a>(2)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item5"><a href="#">Km<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&ikm=1">1.000</a>(118)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item6"><a href="#">Cor<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30409">Prata</a>(30)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30404">Branco</a>(27)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30410">Preto</a>(25)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30405">Cinza</a>(16)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30413">Vermelho</a>(13)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30401">Amarelo</a>(2)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30402">Azul</a>(2)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30403">Bege</a>(2)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&icor=30412">Verde</a>(1)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item7"><a href="#">Preço<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=2">10.001 - 15.000</a>(1)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=3">15.001 - 20.000</a>(7)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=4">20.001 - 25.000</a>(28)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=5">25.001 - 30.000</a>(18)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=6">30.001 - 35.000</a>(15)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=7">35.001 - 40.000</a>(22)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=8">40.001 - 60.000</a>(19)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=9">60.001 - 80.000</a>(5)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&ipr=10">80.001 - 100.000</a>(3)
+							            </li>
+														            </ul>
+					        </li>
+								                    <li class="item8"><a href="#">Opcionais<span></span></a>
+					            <ul>
+																            <li class="subitem1">
+							                <a href="estoque&iopc=abs">ABS</a>(30)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&iopc=ab">Air bag</a>(31)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&iopc=al">Alarme</a>(91)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&iopc=ac">Ar condicionado</a>(85)
+							            </li>
+																            <li class="subitem1">
+							                <a href="estoque&iopc=cd">CD player</a>(48)
+							            </li>
+														            </ul>
+					        </li>
+						
+                    </ul>
+
+                </div>
+
+            </side>
+
+
+
+            <div id='resultado-busca'>
+
+                <div class="head-top"><span class="order">Ordenar por: </span><span class="view"><a href="estoque&ord=ano"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow" />Ano</a></span> <span class="view"><a href="estoque&ord=valor"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow" />Valor</a></span> <span class="view"><a href="estoque&ord=km"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow" />km</a></span> <span class="view"><a href="estoque&ord=foto"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow" />Anúncios com foto</a></span> <span class="show">Mostrar :<select id="sel_mostrar_pp"><option value="estoque" selected="selected">15</option><option value="estoque&tpp=30">30</option><option value="estoque&tpp=45">45</option></select></span><p class="view-as"><span class="text3">Ver como:</span><a href="estoque"><img src="/system/assets/img//buscador/icon1.jpg" alt="icon" /></a><a href="estoque&exb=2"><img src="/system/assets/img//buscador/icon2.jpg" alt="icon" /></a></p><br clear="all" /></div>
+
+
+                    <div class="comparar">
+
+                        
+                        <div class="comparar-ckeck-top">
+
+                            <a id="btnCompare1" href="javascript:;">Comparar</a>
+
+                        </div>
+
+                        <br clear="all" />
+
+                    </div>
+
+
+
+                    		<div class="mid-part">
+		    <ul>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11069939").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11069939").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li class="first">
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11069939_L2VzdG9xdWU=__MS0xMDYzNjQ4Mw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/8/11/11069939_636380511487685528.jpg" width="156" height="116" />
+							</a>
+							 08 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2014 VOLKSWAGEN GOLF</h3>
+							<p>1.4 TSI COMFORTLINE 16V GASOLINA 4P AUTOMÁTICO</p>
+							<p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Banco do motorista com ajuste de altura (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11069939_L2VzdG9xdWU=__MS0xMDYzNjQ4Mw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11069939" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11069939&ma=VOLKSWAGEN&mo=GOLF" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 68.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11069939&title=2014 VOLKSWAGEN GOLF VOLKSWAGEN GOLF" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11069939&ma=VOLKSWAGEN&mo=GOLF" id="form_enviar_email11069939">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11069939"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11069939" id="comp-11069939" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10636483").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10636483").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=10636483_L2VzdG9xdWU=_MC0xMTA2OTkzOQ==_Mi0xMTMxODU2NA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/8/11/10636483_636380519904414975.jpg" width="156" height="116" />
+							</a>
+							 09 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2012 HONDA CIVIC</h3>
+							<p>1.8 EXS 16V FLEX 4P AUTOMÁTICO</p>
+							<p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Bancos de couro, Computador de bordo, D (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=10636483_L2VzdG9xdWU=_MC0xMTA2OTkzOQ==_Mi0xMTMxODU2NA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo10636483" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=10636483&ma=HONDA&mo=CIVIC" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 58.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=10636483&title=2012 HONDA CIVIC HONDA CIVIC" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=10636483&ma=HONDA&mo=CIVIC" id="form_enviar_email10636483">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-10636483"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="10636483" id="comp-10636483" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318564").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318564").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318564_L2VzdG9xdWU=_MS0xMDYzNjQ4Mw==_My0xMTMxODUxMw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318564_636398953244352174.jpg" width="156" height="116" />
+							</a>
+							 09 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2009 TOYOTA HILUX SW4</h3>
+							<p>3.0 SRV 4X4 7 LUGARES 16V TURBO INTERCOOLER DIESEL 4P AUTOMÁTICO</p>
+							<p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Bancos de couro, Controle de tração,  (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318564_L2VzdG9xdWU=_MS0xMDYzNjQ4Mw==_My0xMTMxODUxMw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318564" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318564&ma=TOYOTA&mo=HILUX SW4" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 93.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318564&title=2009 TOYOTA HILUX SW4 TOYOTA HILUX SW4" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318564&ma=TOYOTA&mo=HILUX SW4" id="form_enviar_email11318564">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318564"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318564" id="comp-11318564" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318513").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318513").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318513_L2VzdG9xdWU=_Mi0xMTMxODU2NA==_NC0xMTMxODQ3Mg==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318513_636398949678770462.jpg" width="156" height="116" />
+							</a>
+							 08 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2012 TOYOTA HILUX SW4</h3>
+							<p>2.7 SR 4X2 16V FLEX 4P AUTOMÁTICO</p>
+							<p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Bancos de couro, Desembaçador traseiro (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318513_L2VzdG9xdWU=_Mi0xMTMxODU2NA==_NC0xMTMxODQ3Mg==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318513" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318513&ma=TOYOTA&mo=HILUX SW4" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 85.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318513&title=2012 TOYOTA HILUX SW4 TOYOTA HILUX SW4" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318513&ma=TOYOTA&mo=HILUX SW4" id="form_enviar_email11318513">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318513"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318513" id="comp-11318513" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318472").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318472").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318472_L2VzdG9xdWU=_My0xMTMxODUxMw==_NS0xMTMxODQyMw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318472_636398945973985840.jpg" width="156" height="116" />
+							</a>
+							 05 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 FIAT STRADA</h3>
+							<p>1.4 MPI WORKING CE 8V FLEX 2P MANUAL</p>
+							<p class="acessorios"></p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318472_L2VzdG9xdWU=_My0xMTMxODUxMw==_NS0xMTMxODQyMw==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318472" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318472&ma=FIAT&mo=STRADA" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 28.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318472&title=2013 FIAT STRADA FIAT STRADA" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318472&ma=FIAT&mo=STRADA" id="form_enviar_email11318472">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318472"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318472" id="comp-11318472" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318423").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318423").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318423_L2VzdG9xdWU=_NC0xMTMxODQ3Mg==_Ni0xMTMxODQxMA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318423_636398941869417218.jpg" width="156" height="116" />
+							</a>
+							 08 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 FIAT GRAND SIENA</h3>
+							<p>1.4 MPI ATTRACTIVE 8V FLEX 4P MANUAL</p>
+							<p class="acessorios">Air bag do motorista, Alarme, Ar condicionado, Desembaçador traseiro, Direção hidráuli (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318423_L2VzdG9xdWU=_NC0xMTMxODQ3Mg==_Ni0xMTMxODQxMA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318423" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318423&ma=FIAT&mo=GRAND SIENA" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 35.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318423&title=2013 FIAT GRAND SIENA FIAT GRAND SIENA" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318423&ma=FIAT&mo=GRAND SIENA" id="form_enviar_email11318423">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318423"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318423" id="comp-11318423" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318410").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318410").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318410_L2VzdG9xdWU=_NS0xMTMxODQyMw==_Ny0xMTMxODM5NQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318410_636398937962552256.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 VOLKSWAGEN VOYAGE</h3>
+							<p>1.0 MI 8V FLEX 4P MANUAL</p>
+							<p class="acessorios">Alarme, Ar condicionado, Ar quente, Direção hidráulica, Rádio e CD Player, Travas elé (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318410_L2VzdG9xdWU=_NS0xMTMxODQyMw==_Ny0xMTMxODM5NQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318410" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318410&ma=VOLKSWAGEN&mo=VOYAGE" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 29.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318410&title=2013 VOLKSWAGEN VOYAGE VOLKSWAGEN VOYAGE" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318410&ma=VOLKSWAGEN&mo=VOYAGE" id="form_enviar_email11318410">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318410"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318410" id="comp-11318410" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318395").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318395").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318395_L2VzdG9xdWU=_Ni0xMTMxODQxMA==_OC0xMTMxODM1NQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318395_636398929888200740.jpg" width="156" height="116" />
+							</a>
+							 08 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 FIAT GRAND SIENA</h3>
+							<p>1.6 MPI ESSENCE 16V FLEX 4P AUTOMATIZADO</p>
+							<p class="acessorios">Alarme, Ar condicionado, Direção hidráulica, Freio ABS, Rádio e CD Player, Rodas de li (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318395_L2VzdG9xdWU=_Ni0xMTMxODQxMA==_OC0xMTMxODM1NQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318395" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318395&ma=FIAT&mo=GRAND SIENA" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 35.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318395&title=2013 FIAT GRAND SIENA FIAT GRAND SIENA" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318395&ma=FIAT&mo=GRAND SIENA" id="form_enviar_email11318395">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318395"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318395" id="comp-11318395" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318355").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318355").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318355_L2VzdG9xdWU=_Ny0xMTMxODM5NQ==_OS0xMTMxODMyMQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318355_636398923547031444.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 VOLKSWAGEN POLO</h3>
+							<p>1.6 MI 8V FLEX 4P MANUAL</p>
+							<p class="acessorios">Alarme, Ar condicionado, Desembaçador traseiro, Direção hidráulica, Rádio e CD Player (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318355_L2VzdG9xdWU=_Ny0xMTMxODM5NQ==_OS0xMTMxODMyMQ==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318355" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318355&ma=VOLKSWAGEN&mo=POLO" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 36.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318355&title=2013 VOLKSWAGEN POLO VOLKSWAGEN POLO" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318355&ma=VOLKSWAGEN&mo=POLO" id="form_enviar_email11318355">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318355"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318355" id="comp-11318355" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11318321").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11318321").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11318321_L2VzdG9xdWU=_OC0xMTMxODM1NQ==_MTAtOTcyNTE1OA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/9/1/11318321_636398919799814278.jpg" width="156" height="116" />
+							</a>
+							 08 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2004 FORD ECOSPORT</h3>
+							<p>1.6 XLT 8V GASOLINA 4P MANUAL</p>
+							<p class="acessorios">Alarme, Ar condicionado, Desembaçador traseiro, Direção hidráulica, Limpador traseiro, (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11318321_L2VzdG9xdWU=_OC0xMTMxODM1NQ==_MTAtOTcyNTE1OA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11318321" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11318321&ma=FORD&mo=ECOSPORT" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 20.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11318321&title=2004 FORD ECOSPORT FORD ECOSPORT" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11318321&ma=FORD&mo=ECOSPORT" id="form_enviar_email11318321">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11318321"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11318321" id="comp-11318321" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo9725158").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email9725158").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=9725158_L2VzdG9xdWU=_OS0xMTMxODMyMQ==_MTEtOTA1NDczOA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/ID_9725158/57f458edb5cb52513793369cd206589c.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2010 VOLKSWAGEN GOL</h3>
+							<p>1.0 MI 8V FLEX 4P MANUAL G.V</p>
+							<p class="acessorios">Travas elétricas, Vidros elétricos, Alarme, Desembaçador traseiro, Limpador traseiro</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=9725158_L2VzdG9xdWU=_OS0xMTMxODMyMQ==_MTEtOTA1NDczOA==_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo9725158" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=9725158&ma=VOLKSWAGEN&mo=GOL" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 22.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=9725158&title=2010 VOLKSWAGEN GOL VOLKSWAGEN GOL" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=9725158&ma=VOLKSWAGEN&mo=GOL" id="form_enviar_email9725158">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-9725158"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="9725158" id="comp-9725158" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo9054738").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email9054738").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=9054738_L2VzdG9xdWU=_MTAtOTcyNTE1OA==_MTItMTExNTAwNjY=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/ID_9054738/46f903e5bd6e737a95076ba9afda3164.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2013 RENAULT DUSTER</h3>
+							<p>1.6 4X2 16V FLEX 4P MANUAL</p>
+							<p class="acessorios">Alarme, Ar condicionado, Bancos de couro, Desembaçador traseiro, Direção hidráulica, F (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=9054738_L2VzdG9xdWU=_MTAtOTcyNTE1OA==_MTItMTExNTAwNjY=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo9054738" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=9054738&ma=RENAULT&mo=DUSTER" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 41.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=9054738&title=2013 RENAULT DUSTER RENAULT DUSTER" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=9054738&ma=RENAULT&mo=DUSTER" id="form_enviar_email9054738">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-9054738"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="9054738" id="comp-9054738" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11150066").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11150066").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11150066_L2VzdG9xdWU=_MTEtOTA1NDczOA==_MTMtMTExNTAwNDQ=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/8/18/11150066_636386953817917144.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2011 TOYOTA HILUX</h3>
+							<p>2.5 STD 4X4 CD 16V TURBO DIESEL 4P MANUAL</p>
+							<p class="acessorios">Air bag do motorista, Alarme, Ar condicionado, Ar quente, Capota marítima, Desembaçador  (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11150066_L2VzdG9xdWU=_MTEtOTA1NDczOA==_MTMtMTExNTAwNDQ=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11150066" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11150066&ma=TOYOTA&mo=HILUX" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 72.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11150066&title=2011 TOYOTA HILUX TOYOTA HILUX" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11150066&ma=TOYOTA&mo=HILUX" id="form_enviar_email11150066">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11150066"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11150066" id="comp-11150066" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11150044").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11150044").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11150044_L2VzdG9xdWU=_MTItMTExNTAwNjY=_MTQtMTExNDk5OTg=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/8/18/11150044_636386949963453589.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2011 CHEVROLET S10</h3>
+							<p>2.4 MPFI EXECUTIVE 4X2 CD 8V FLEX 4P MANUAL</p>
+							<p class="acessorios">Air bag do motorista, Ar condicionado, Ar quente, Bancos de couro, Direção hidráulica,  (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11150044_L2VzdG9xdWU=_MTItMTExNTAwNjY=_MTQtMTExNDk5OTg=_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11150044" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11150044&ma=CHEVROLET&mo=S10" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 46.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11150044&title=2011 CHEVROLET S10 CHEVROLET S10" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11150044&ma=CHEVROLET&mo=S10" id="form_enviar_email11150044">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11150044"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11150044" id="comp-11150044" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+					    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11149998").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+			    
+	    <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11149998").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script>
+		
+					<li>
+						<div class="mid-part-left page-wrap">
+							<a href="estoque/detalhes&veiculo=11149998_L2VzdG9xdWU=_MTMtMTExNTAwNDQ=_MTUt_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" title="ver rápido">
+								<img src="http://image.vmotors.com.br/2017/8/18/11149998_636386945241585053.jpg" width="156" height="116" />
+							</a>
+							 07 Fotos 						</div>
+
+						<div class="mid-part-mid">
+							<h3>2014 RENAULT DUSTER</h3>
+							<p>2.0 DYNAMIQUE 4X4 16V FLEX 4P MANUAL</p>
+							<p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Desembaçador traseiro, Direção hidr� (...)</p>
+							<p class="btns">
+								<a href="estoque/detalhes&veiculo=11149998_L2VzdG9xdWU=_MTMtMTExNTAwNDQ=_MTUt_MTEwNjk5Mzl8MTA2MzY0ODN8MTEzMTg1NjR8MTEzMTg1MTN8MTEzMTg0NzJ8MTEzMTg0MjN8MTEzMTg0MTB8MTEzMTgzOTV8MTEzMTgzNTV8MTEzMTgzMjF8OTcyNTE1OHw5MDU0NzM4fDExMTUwMDY2fDExMTUwMDQ0fDExMTQ5OTk4" class="detalhes">
+									Ver detalhes									<span></span>
+								</a>
+								<a id="form_proposta_veiculo11149998" href="/forms/index.php?form=proposta&ti=RXN0b3UgaW50ZXJlc3NhZG8=&iv=11149998&ma=RENAULT&mo=DUSTER" class="proposta">
+									Estou interessado									<span></span>
+								</a>
+								<br clear="all" />
+							</p>
+						</div>
+						<div class="mid-part-right">
+							<p class="price">R$ 45.900,00</p>
+							<p class="name"></p>
+							
+							<p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p>
+
+							
+							<p class="compartilhar">
+								<a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&veiculo=11149998&title=2014 RENAULT DUSTER RENAULT DUSTER" title="facebook" target="_blank">Compartilhar</a>
+								&nbsp;|&nbsp;
+								<a href="/forms/index.php?form=enviar&ti=RW52aWFyIHBvciBlbWFpbA==&iv=11149998&ma=RENAULT&mo=DUSTER" id="form_enviar_email11149998">Enviar por email</a>
+							</p>
+							<div class="comparar">
+								<label for="comp-11149998"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#" /></label><br />
+								<input name="compare" type="checkbox" value="11149998" id="comp-11149998" class="check-comp" />
+							</div>
+						</div>
+						<div class="clear"></div>
+					</li>
+						    </ul>
+		</div>
+	
+
+
+                    <div class="pagination">
+
+                        <span>1</span><a href="estoque&p=2" title="Página 2">2</a><a href="estoque&p=3" title="Página 3">3</a><a href="estoque&p=4" title="Página 4">4</a><a href="estoque&p=5" title="Página 5">5</a><a href="estoque&p=6" title="Página 6">6</a><a href="estoque&p=7" title="Página 7">7</a><a href="estoque&p=8" title="Página 8">8</a>
+                        <div class="comparar-ckeck">
+
+                            <a id="btnCompare2" href="javascript:;">Comparar</a>
+
+                        </div>
+
+                    </div>
+
+                
+            </div>
+
+        </article>
+
+        <div class="clearfloat"></div>
+
+    </div><!--centraliza-->
+
+</section><!--principalInternas-->
+	<footer id="footer">
+		<ul class="abaLateral">
+			<li>
+				<a class="opcoes chat" href="javascript:void(window.open('http://nacionalveiculos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
+					Chat
+					<span><br>Online</span>
+				</a>
+			</li>
+			<li>
+				<a class="opcoes whatsapp" href="#">
+					Whatsapp
+					<span><br>(61) 9855-7191</span>
+					<span><br>(61) 9 9851-5258</span>
+					<span><br>(61) 9 9857-6842</span>
+				</a>
+			</li>
+		</ul>
+
+		<div class="centraliza">
+			<img src="/templates/assets/img/logoNacionalFooter.png" alt="Nacional Veículos" title="Nacional Veículos" class="logo_footer fleft" />
+			<div class="menuFooter">
+				<h2>Mapa do site</h2>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/empresa">Empresa</a></li>
+					<li><a href="/estoque">Seminovos</a></li>
+					<li><a href="/contato">Contato</a></li>
+					<li><a href="/avalie">Avalie seu usado</a></li>
+					<li><a href="/localizacao">Localização</a></li>
+					<li><a href="/financiamento">Financiamento</a></li>
+				</ul>
+			</div>
+
+			<div class="menuFooterLinks">
+				<h2>links úteis</h2>
+				<ul>
+					<li><a href="http://www.fipe.org.br/web/index.asp?aspx=/web/indices/veiculos/introducao.aspx" target="_blank">FIPE</a></li> <li><a href="http://www.detran.df.gov.br/" target="_blank">IPVA</a></li>
+					<li><a href="http://www.detran.df.gov.br/" target="_blank">Detran</a></li>
+					<li><a href="http://webservices.maplink2.com.br/santander/MontarTrajeto.aspx" target="_blank">Monte seu trajeto</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="copyrights">
+			<div class="centraliza">
+				<p class="fleft">Nacional Veículos 2015 | Todos os direitos reservados.</p>
+				<p class="fright"><a href="http://www.vmotors.com.br" title="Powered by VMotors" target="_blank">www.vmotors.com.br</a></p>
+				<div class="clearfloat"></div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

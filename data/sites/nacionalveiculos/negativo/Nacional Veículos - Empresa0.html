@@ -1,0 +1,256 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="pt-BR" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-BR" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-BR" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-BR" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Nacional Veículos">
+	<meta name="description" content="Nacional Veículos">
+	<meta name="author" content="VMotors">
+	<meta name="keywords" content="nacional, zero-km, seminovos, Hyundai, BMW, Chevrolet, Honda, Toyota, Kia, Nissan, LandRover, Volkswagen, Peugeot, Fiat, Renault, Ford">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+	<!-- Scripts Fixos do Sistema -->
+	<script type="text/javascript" src="/system/assets/js/fcymon_scripts.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/fancybox/jquery.fancybox.pack.js"></script>
+	<script type="text/javascript" src="/system/assets/js/buscavmotors.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/scripts.js"></script>
+
+	<!-- CSS's Fixos Externos -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<!-- CSS's Fixos do Sistema -->
+	<link rel="stylesheet" type="text/css" href="/system/assets/css/jquery-ui.css" />
+		<link rel="stylesheet" type="text/css" href="/system/assets/css/jcymon_box.css" />
+
+	<!-- CSS's Fixos do Template -->
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/style.min.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/js/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/mouseover.css" />
+	<link rel="stylesheet" type="text/css" href="/templates/assets/css/flexslider.css" media="screen" />
+
+	<!-- JS's -->
+	<script type="text/javascript" src="/templates/assets/js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="/templates/assets/js/jquery.carouFredSel-5.5.0-packed.js"></script>
+
+	<!-- Seta o Head Base -->
+	<title>Nacional Veículos - Empresa</title>
+	<!-- Newsletter
+	================================================== -->
+	<script>
+		function validaEmail(email) { var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; if (!re.test(email)) { return false; } return true; }
+
+		$(document).ready(function() {
+			if ($('#telefone_newsletter').length > 0) {
+				$("#telefone_newsletter").mask("(99) 9999-9999?9");
+			}
+
+			$('#btnNewsletter').click(function() {
+				$('#btnNewsletter').attr('disabled', true);
+
+				var server = "www.nacionalveiculos.com.br";
+				var script = "/index.php";
+
+				var email = "";
+				var nome = "";
+				var telefone = "";
+
+				if ($('#email_newsletter').length > 0) { email = $('#email_newsletter').val(); }
+				if ($('#nome_newsletter').length > 0) { nome = $('#nome_newsletter').val(); }
+				if ($('#telefone_newsletter').length > 0) { telefone = $('#telefone_newsletter').val(); }
+
+				if (validaEmail(email)) {
+					$.ajax({
+						url: 'http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v1/ajax/receba_newsletter.ajax.php',
+						dataType: "json",
+						data: {
+							nome: nome,
+							email: email,
+							telefone: telefone,
+							server: server,
+							script: script
+						},
+						type: "POST",
+						success: function(retorno) {
+							var retorno_positivo = "<p><label style='width:100% !important; text-align:center;'>Agradecemos pelo seu cadastro!</label></p>";
+							var retorno_negativo = "<p><label style='width:100% !important; text-align:center;'>Desculpe, ocorreu um erro. Tente novamente mais tarde</label></p>";
+
+							if (retorno.sucesso == "1") {
+								$('#div_newsletter').html(retorno_positivo);
+							} else {
+								$('#div_newsletter').html(retorno_negativo);
+							}
+						}
+					});
+				} else {
+					$('#btnNewsletter').removeAttr('disabled');
+					alert("Informe um email valido!");
+				}
+			});
+		});
+	</script>
+
+	<!-- Fancybox
+	================================================== -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+				type: 'iframe',
+				width: 560
+			});
+
+			$("a.mapaLoja").fancybox({
+				type: 'iframe',
+				height: 450,
+				width: 560
+			});
+		});
+	</script>
+</head>
+<body>
+	<header id="header">
+		<div class="centraliza">
+			<h1 id="logoHeader">
+				<a href="/" title="Ir à página inicial">
+					<span>Nacional Veículos</span>
+				</a>
+			</h1>
+
+			<section id="telefonesHeader">
+				<article class="telHeader lest">
+					<h2>NACIONAL GAMA</h2>
+					<p>Quadra 32, Loja 20, Gama Leste – Brasília - DF</p>
+					<p class="tel">
+						<span>(61)</span> 3484-5055
+					</p>
+				</article>
+
+				<article class="telHeader samambaia">
+					<h2>NACIONAL SAMAMBAIA</h2>
+					<p>QS 518, CONJ. 01, Loja 04, Samambaia Sul – Brasília - DF</p>
+					<p class="tel">
+						<span>(61)</span> 3046-7070
+					</p>
+				</article>
+			</section>
+		</div>
+
+		<nav id="menuHeader">
+			<div class="centraliza">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/empresa">Empresa</a></li>
+					<li class="semi_menu"><a href="/estoque">Seminovos</a></li>
+					<li><a href="/financiamento">Financiamento</a></li>
+					<li><a href="/avalie">Avalie seu usado</a></li>
+					<li><a href="/contato">Contato</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+		<section id="mainInternas">
+  	<div class="centraliza">
+    	
+      <h1>Sobre a Empresa</h1>
+      
+      <div class="colEsq">
+      	
+        <!-- <img class="destaque" src="img/destaqueGrupo.jpg" alt="Nacional Veículos"> -->
+        <p style="text-align:justify !important;">NACIONAL VEÍCULOS uma empresa tradicional, desde 2003 atuando no ramo de compra e venda de veículos seminovos, comprometida com a qualidade e excelência no atendimento e com a satisfação dos nossos clientes.</p> 
+        <p style="text-align:justify !important;">Temos um estoque com mais de 350 veículos de variadas marcas e modelos, todos com garantia e procedência.</p>
+        <h2>Missão</h2> 
+        <p style="text-align:justify !important;">Oferecer os melhores e diferenciados veículos que atendam ou excedam as expectativas dos nossos clientes, mantendo sempre o estoque atualizado e proporcionando um excelente atendimento, fidelizando assim cada dia mais clientes.</p>
+        <h2>Visão</h2> 
+        <p style="text-align:justify !important;">Ser líder e referência no mercado de venda de veículos seminovos da região.</p>
+        <h2>Valores</h2>
+        <p style="text-align:justify !important;">Respeito ao cliente;<br />
+        Ética e transparência nas negociações;<br />
+        Busca constante pela excelência;<br /></p>
+
+        <h2>Fotos em breve ...</h2>
+        
+      </div><!--colEsq-->
+      
+      <div class="colDir">
+      	<section id="sideLojas">
+
+  <article class="boxLoja">
+    <h2>NACIONAL LESTE</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1917.3056394317518!2d-48.0542653!3d-16.0337385!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1431094679675" width="264" height="200" frameborder="0" style="border:0"></iframe>
+    <p>Quadra 32, Loja 20 Leste Gama - Brasília - DF CEP: 72314-531</p>
+  </article><!--boxLoja-->
+
+  <br>  <br>
+
+  <article class="boxLoja">
+    <h2>NACIONAL SAMAMBAIA</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3837.6077353322385!2d-48.0609692!3d-15.877201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d4010317b9f%3A0x99113fab2ce51bb7!2sAv.+Leste+Qs+518+Conjunto+1%2C+1+-+Samambaia%2C+Bras%C3%ADlia+-+DF!5e0!3m2!1spt-BR!2sbr!4v1431094711339" width="264" height="200" frameborder="0" style="border:0"></iframe>
+    <p>Quadra 518, Loja 04, 4 Samambaia Sul - Brasília - DF CEP: 72460-320</p>
+  </article><!--boxLoja-->
+
+</section>
+<!--boxSide-->      </div><!--colDir-->
+      
+      <div class="clearfloat"></div>
+      
+    </div><!--centraliza-->
+  </section><!--mainInternas-->  
+	<footer id="footer">
+		<ul class="abaLateral">
+			<li>
+				<a class="opcoes chat" href="javascript:void(window.open('http://nacionalveiculos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))">
+					Chat
+					<span><br>Online</span>
+				</a>
+			</li>
+			<li>
+				<a class="opcoes whatsapp" href="#">
+					Whatsapp
+					<span><br>(61) 9855-7191</span>
+					<span><br>(61) 9 9851-5258</span>
+					<span><br>(61) 9 9857-6842</span>
+				</a>
+			</li>
+		</ul>
+
+		<div class="centraliza">
+			<img src="/templates/assets/img/logoNacionalFooter.png" alt="Nacional Veículos" title="Nacional Veículos" class="logo_footer fleft" />
+			<div class="menuFooter">
+				<h2>Mapa do site</h2>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/empresa">Empresa</a></li>
+					<li><a href="/estoque">Seminovos</a></li>
+					<li><a href="/contato">Contato</a></li>
+					<li><a href="/avalie">Avalie seu usado</a></li>
+					<li><a href="/localizacao">Localização</a></li>
+					<li><a href="/financiamento">Financiamento</a></li>
+				</ul>
+			</div>
+
+			<div class="menuFooterLinks">
+				<h2>links úteis</h2>
+				<ul>
+					<li><a href="http://www.fipe.org.br/web/index.asp?aspx=/web/indices/veiculos/introducao.aspx" target="_blank">FIPE</a></li> <li><a href="http://www.detran.df.gov.br/" target="_blank">IPVA</a></li>
+					<li><a href="http://www.detran.df.gov.br/" target="_blank">Detran</a></li>
+					<li><a href="http://webservices.maplink2.com.br/santander/MontarTrajeto.aspx" target="_blank">Monte seu trajeto</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="copyrights">
+			<div class="centraliza">
+				<p class="fleft">Nacional Veículos 2015 | Todos os direitos reservados.</p>
+				<p class="fright"><a href="http://www.vmotors.com.br" title="Powered by VMotors" target="_blank">www.vmotors.com.br</a></p>
+				<div class="clearfloat"></div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
