@@ -36,7 +36,7 @@ public class PreProcessor {
 		
 			Document doc = Jsoup.parse(v);
 			
-			stringToFile(doc.body().text(),"data/texts/" + site + "/" + type + "/" + s);		
+			stringToFile(doc.body().text().toLowerCase(),"data/texts/" + site + "/" + type + "/" + s);		
 		}
 		
 	}
