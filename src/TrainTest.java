@@ -1,0 +1,150 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.PrintWriter;
+
+
+public class TrainTest {
+
+	static String[] train = {
+			"autoline",
+			"autoshow",
+			"mercadolivre",
+			"carrosnaweb",
+			"compreauto",
+			"vrum",
+			"salaodocarro",
+			"webclassicos",
+			"webmotors",
+			"vivalocal",
+			"itavema",
+			"icarros",
+			"lugardecomprarcarro",
+			"meucadillac",
+			"seminovositaliana",
+			"classificadoscb",
+			"litoralcar",
+			"autoshoppingcuritiba",
+			"gncseminovos",
+			"boulevardshoppingcar",
+			"bariguiseminovos",
+			"atarde",
+			"nacionalveiculos",
+			"usadosbr"
+	};
+
+	static String[] test = {
+			"meucarango",
+			"meucarronovo",
+			"olx",
+			"primeiramao",
+			"compreblindados",
+			"temusados"
+	};
+
+	public static void main(String[] args) throws Exception {
+
+		String folder = "data/train_test_20";
+		
+		
+		createFolders(folder + "/train/positivo",  folder +"/train/negativo");
+		createFolders(folder + "/test/positivo", folder + "/test/negativo");
+
+
+		/*
+		 * TRAIN
+		 */
+		
+		int index = 0;
+
+		for(String tr : train) {
+			System.out.println(tr);
+			
+			String[] pos = new File("data/texts/" + tr + "/positivo").list();
+
+			for(String p : pos) {
+				File file = new File("data/texts/" + tr + "/positivo/" + p);
+				
+				String s = fileToString(file);
+				stringToFile(s, folder + "/train/positivo/" + index++);
+
+			}
+
+
+			String[] neg = new File("data/texts/" + tr + "/negativo").list();
+			
+			for(String n : neg) {
+
+				File file = new File("data/texts/" + tr + "/negativo/" + n);
+				
+				String s = fileToString(file);
+				
+				stringToFile(s, folder + "/train/negativo/" + index++);
+				
+			}
+		}
+		
+		/*
+		 * TEST
+		 */
+		
+		for(String te : test) {
+			System.out.println(te);			
+			
+			String[] pos = new File("data/texts/" + te + "/positivo").list();
+
+			for(String p : pos) {
+				File file = new File("data/texts/" + te + "/positivo/" + p);
+				
+				String s = fileToString(file);
+				stringToFile(s, folder + "/test/positivo/" + index++);
+
+			}
+
+
+			String[] neg = new File("data/texts/" + te + "/negativo").list();
+			
+			for(String n : neg) {
+
+				File file = new File("data/texts/" + te + "/negativo/" + n);
+				
+				String s = fileToString(file);
+				
+				stringToFile(s, folder + "/test/negativo/" + index++);
+				
+			}
+		}
+		
+	
+	}
+
+
+	public static void createFolders(String pos, String neg) {
+		File fpos = new File(pos);
+		fpos.mkdirs();
+
+		File fneg = new File(neg);
+		fneg.mkdirs();
+	}
+
+
+	public static String fileToString(File file) throws Exception{
+		FileInputStream fis = new FileInputStream(file);
+		byte[] data = new byte[(int) file.length()];
+		fis.read(data);
+		fis.close();
+
+		String str = new String(data, "UTF-8");
+		return str;
+	}
+
+	public static void stringToFile(String content, String destination) throws Exception{
+		File file = new File(destination);
+		//		System.out.println(destination);		
+		file.createNewFile();
+
+		PrintWriter writer = new PrintWriter(destination, "UTF-8");
+		writer.println(content);
+		writer.close();
+	}
+
+}

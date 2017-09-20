@@ -1,0 +1,47 @@
+15 nacional 
+	12 train
+	3 test
+15 local
+	12 train
+	3 test
+
+train
+	autoline
+	autoshow
+	mercadolivre
+	
+	carrosnaweb
+	compreauto
+	vrum
+	salaodocarro
+	webclassicos
+	webmotors
+	vivalocal
+	itavema
+	icarros
+
+	lugardecomprarcarro
+	meucadillac
+	seminovositaliana
+	classificadoscb
+	litoralcar
+	autoshoppingcuritiba
+	gncseminovos
+	boulevardshoppingcar
+	bariguiseminovos
+	atarde
+	nacionalveiculos
+	usadosbr
+
+
+
+test
+	meucarango
+	meucarronovo
+	olx
+
+	primeiramao
+	compreblindados
+	temusados
+
+
