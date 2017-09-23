@@ -36,7 +36,12 @@ public class PreProcessor {
 		
 			Document doc = Jsoup.parse(v);
 			
-			stringToFile(doc.body().text().toLowerCase(),"data/texts/" + site + "/" + type + "/" + s);		
+			String text = doc.body().text().toLowerCase();
+			text = text.replaceAll("[^a-zA-Z#]", " ");
+			
+			
+			
+			stringToFile(text,"data/texts/" + site + "/" + type + "/" + s);		
 		}
 		
 	}
