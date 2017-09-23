@@ -1,245 +1,220 @@
-
- | A Portuguese stop word list. Comments begin with vertical bar. Each stop
- | word is at the start of a line.
-
-
- | The following is a ranked list (commonest to rarest) of stopwords
- | deriving from a large sample of text.
-
- | Extra words have been added at the end.
-
-de             |  of, from
-a              |  the; to, at; her
-o              |  the; him
-que            |  who, that
-e              |  and
-do             |  de + o
-da             |  de + a
-em             |  in
-um             |  a
-para           |  for
-  | È          from SER
-com            |  with
-n„o            |  not, no
-uma            |  a
-os             |  the; them
-no             |  em + o
-se             |  himself etc
-na             |  em + a
-por            |  for
-mais           |  more
-as             |  the; them
-dos            |  de + os
-como           |  as, like
-mas            |  but
-  | foi        from SER
-ao             |  a + o
-ele            |  he
-das            |  de + as
-  | tem        from TER
-‡              |  a + a
-seu            |  his
-sua            |  her
-ou             |  or
-  | ser        from SER
-quando         |  when
-muito          |  much
-  | h·         from HAV
-nos            |  em + os; us
-j·             |  already, now
-  | est·       from EST
-eu             |  I
-tambÈm         |  also
-sÛ             |  only, just
-pelo           |  per + o
-pela           |  per + a
-atÈ            |  up to
-isso           |  that
-ela            |  he
-entre          |  between
-  | era        from SER
-depois         |  after
-sem            |  without
-mesmo          |  same
-aos            |  a + os
-  | ter        from TER
-seus           |  his
-quem           |  whom
-nas            |  em + as
-me             |  me
-esse           |  that
-eles           |  they
-  | est„o      from EST
-vocÍ           |  you
-  | tinha      from TER
-  | foram      from SER
-essa           |  that
-num            |  em + um
-nem            |  nor
-suas           |  her
-meu            |  my
-‡s             |  a + as
-minha          |  my
-  | tÍm        from TER
-numa           |  em + uma
-pelos          |  per + os
-elas           |  they
-  | havia      from HAV
-  | seja       from SER
-qual           |  which
-  | ser·       from SER
-nÛs            |  we
-  | tenho      from TER
-lhe            |  to him, her
-deles          |  of them
-essas          |  those
-esses          |  those
-pelas          |  per + as
-este           |  this
-  | fosse      from SER
-dele           |  of him
-
- | other words. There are many contractions such as naquele = em+aquele,
- | mo = me+o, but they are rare.
- | Indefinite article plural forms are also rare.
-
-tu             |  thou
-te             |  thee
-vocÍs          |  you (plural)
-vos            |  you
-lhes           |  to them
-meus           |  my
+de 
+a 
+o 
+que 
+e 
+do 
+da 
+em 
+um 
+para 
+√© 
+com 
+n√£o 
+uma 
+os 
+no 
+se 
+na 
+por 
+mais 
+as 
+dos 
+como 
+mas 
+foi 
+ao 
+ele 
+das 
+tem 
+√† 
+seu 
+sua 
+ou 
+ser 
+quando 
+muito 
+h√° 
+nos 
+j√° 
+est√° 
+eu 
+tamb√©m 
+s√≥ 
+pelo 
+pela 
+at√© 
+isso 
+ela 
+entre 
+era 
+depois 
+sem 
+mesmo 
+aos 
+ter 
+seus 
+quem 
+nas 
+me 
+esse 
+eles 
+est√£o 
+voc√™ 
+tinha 
+foram 
+essa 
+num 
+nem 
+suas 
+meu 
+√†s 
+minha 
+t√™m 
+numa 
+pelos 
+elas 
+havia 
+seja 
+qual 
+ser√° 
+n√≥s 
+tenho 
+lhe 
+deles 
+essas 
+esses 
+pelas 
+este 
+fosse 
+dele 
+tu 
+te 
+voc√™s 
+vos 
+lhes 
+meus 
 minhas
-teu            |  thy
+teu 
 tua
 teus
 tuas
-nosso          | our
+nosso 
 nossa
 nossos
 nossas
-
-dela           |  of her
-delas          |  of them
-
-esta           |  this
-estes          |  these
-estas          |  these
-aquele         |  that
-aquela         |  that
-aqueles        |  those
-aquelas        |  those
-isto           |  this
-aquilo         |  that
-
-               | forms of estar, to be (not including the infinitive):
+dela 
+delas 
+esta 
+estes 
+estas 
+aquele 
+aquela 
+aqueles 
+aquelas 
+isto 
+aquilo 
 estou
-est·
+est√°
 estamos
-est„o
+est√£o
 estive
 esteve
 estivemos
 estiveram
 estava
-est·vamos
+est√°vamos
 estavam
 estivera
-estivÈramos
+estiv√©ramos
 esteja
 estejamos
 estejam
 estivesse
-estivÈssemos
+estiv√©ssemos
 estivessem
 estiver
 estivermos
 estiverem
-
-               | forms of haver, to have (not including the infinitive):
 hei
-h·
+h√°
 havemos
-h„o
+h√£o
 houve
 houvemos
 houveram
 houvera
-houvÈramos
+houv√©ramos
 haja
 hajamos
 hajam
 houvesse
-houvÈssemos
+houv√©ssemos
 houvessem
 houver
 houvermos
 houverem
 houverei
-houver·
+houver√°
 houveremos
-houver„o
+houver√£o
 houveria
-houverÌamos
+houver√≠amos
 houveriam
-
-               | forms of ser, to be (not including the infinitive):
 sou
 somos
-s„o
+s√£o
 era
-Èramos
+√©ramos
 eram
 fui
 foi
 fomos
 foram
 fora
-fÙramos
+f√¥ramos
 seja
 sejamos
 sejam
 fosse
-fÙssemos
+f√¥ssemos
 fossem
 for
 formos
 forem
 serei
-ser·
+ser√°
 seremos
-ser„o
+ser√£o
 seria
-serÌamos
+ser√≠amos
 seriam
-
-               | forms of ter, to have (not including the infinitive):
 tenho
 tem
 temos
-tÈm
+t√©m
 tinha
-tÌnhamos
+t√≠nhamos
 tinham
 tive
 teve
 tivemos
 tiveram
 tivera
-tivÈramos
+tiv√©ramos
 tenha
 tenhamos
 tenham
 tivesse
-tivÈssemos
+tiv√©ssemos
 tivessem
 tiver
 tivermos
 tiverem
 terei
-ter·
+ter√°
 teremos
-ter„o
+ter√£o
 teria
-terÌamos
+ter√≠amos
 teriam
