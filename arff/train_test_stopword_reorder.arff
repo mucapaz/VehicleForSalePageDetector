@@ -1,4 +1,4 @@
-@relation '_home_pringles_Desktop_TextCategorisation_data_train_test-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-'
+@relation '_home_pringles_Desktop_TextCategorisation_data_train_test-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"-weka.filters.unsupervised.attribute.Reorder-Rlast-first'
 
 @attribute zurich numeric
 @attribute zafira numeric
