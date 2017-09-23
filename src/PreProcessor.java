@@ -36,6 +36,9 @@ public class PreProcessor {
 		
 			Document doc = Jsoup.parse(v);
 			
+			/*
+			 * Add and remove features
+			 */
 			String text = doc.body().text().toLowerCase();
 			text = text.replaceAll("[^a-zA-Z#]", " ");
 			
@@ -45,6 +48,8 @@ public class PreProcessor {
 		}
 		
 	}
+	
+	
 	
 	
 	public static String fileToString(File file) throws Exception{
