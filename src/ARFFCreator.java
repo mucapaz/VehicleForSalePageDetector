@@ -33,13 +33,13 @@ public class ARFFCreator {
     
     Instances dataRaw = loader.getDataSet();
     
-    StringToWordVector filter = new StringToWordVector();
-    filter.setInputFormat(dataRaw);
-    Instances dataFiltered = Filter.useFilter(dataRaw, filter);
+//    StringToWordVector filter = new StringToWordVector();
+//    filter.setInputFormat(dataRaw);
+//    Instances dataFiltered = Filter.useFilter(dataRaw, filter);
     
     ArffSaver saver = new ArffSaver();
-	saver.setInstances(dataFiltered);
-	saver.setFile(new File("train_test.arff"));
+	saver.setInstances(dataRaw);
+	saver.setFile(new File("train_test_noFilter.arff"));
 
 	saver.writeBatch();
 
