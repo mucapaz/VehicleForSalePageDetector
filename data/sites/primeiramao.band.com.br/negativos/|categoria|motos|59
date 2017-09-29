@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8"> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"e4a47941cc","applicationID":"3671674","transactionName":"d10NQxRWWQlUS0wKDVlXTFQHTVACXksa","queueTime":0,"applicationTime":99,"agent":""}</script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgEGUlZSGwAGU1BUAAU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+  <meta name="robots" content="index, follow"> 
+  <title>Motos para comprar e vender | Primeiramão</title> 
+  <meta name="description" content="Anuncie grátis, compre ou venda a sua moto nova, semi nova e usada de todas as marcas e modelos em todo o Brasil aqui no Primeiramão"> 
+  <meta name="keywords" content="Moto, Motors, anúncio moto, moto nova, usada, comprar moto, moto sp, moto de passeio, sport, cross, Honda, Yamaha, Suzuki, Dafra, classificado grátis, classificado"> 
+  <meta name="environment" content="production"> 
+  <meta content="authenticity_token" name="csrf-param"> 
+  <meta content="pA90etuKJNJjjP+IR5ZJgCXjw9yl6CHBsFdN5YP3b/Y=" name="csrf-token"> 
+  <base href="/" target="_self"> 
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
+  <link rel="assets" href="//static0.primeiramao.com.br"> 
+  <link rel="api" href="//primeiramao.band.com.br/v2/"> 
+  <link rel="canonical" href="//primeiramao.band.com.br/categoria/motos"> 
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"> 
+  <link href="http://static1.primeiramao.com.br/assets/category-68d2e9d5294d093600f320a774d88729.css" media="screen" rel="stylesheet"> 
+  <script defer src="http://static0.primeiramao.com.br/assets/vendor/modernizr-97d7fc87605db108613fae89f07c653c.js"></script> 
+  <meta name="gaid" content="UA-2301513-1"> 
+  <script defer>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-M2B28W" height="0" width="0" style="display:none;visibility:hidden"&gt;
+  </noscript> 
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2B28W');
+</script> 
+  <!-- End Google Tag Manager --> 
+  <script type="text/javascript" defer>
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script> 
+  <script type="text/javascript" defer>
+    googletag.cmd.push(function() {
+        var superMapping = googletag.sizeMapping().
+                addSize([320, 400], [[320, 50], [300, 50]]). // Accepts both common mobile banner formats
+                addSize([320, 700], [320, 50]).              // Same width as mapping above, more available height
+                addSize([750, 200], [468, 60]).              // Landscape tablet
+                addSize([1000, 200], [[728, 315], [728, 90]])
+                .build();
+
+        googletag.defineSlot('/3981815/super', [728, 90], 'div-gpt-ad-super').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky', [120, 600], 'div-gpt-ad-sky').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo', [120, 600], 'div-gpt-ad-sky-left').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml', [300, 250], 'div-gpt-ad-dhtml').addService(googletag.pubads());
+
+        /*para campinas e santos*/
+        googletag.defineSlot('/3981815/super-Campinas', [728, 90], 'div-gpt-ad-super-Campinas').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky-Campinas', [120, 600], 'div-gpt-ad-sky-Campinas').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo-Campinas', [120, 600], 'div-gpt-ad-sky-left-Campinas').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml-Campinas', [300, 250], 'div-gpt-ad-dhtml-Campinas').addService(googletag.pubads());
+
+        googletag.defineSlot('/3981815/super-Santos', [728, 90], 'div-gpt-ad-super-Santos').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky-Santos', [120, 600], 'div-gpt-ad-sky-Santos').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo-Santos', [120, 600], 'div-gpt-ad-sky-left-Santos').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml-Santos', [300, 250], 'div-gpt-ad-dhtml-Santos').addService(googletag.pubads());
+
+            var arrobaMapping = googletag.sizeMapping().
+    addSize([980, 690], [300, 250]).
+    addSize([768, 1024], [468, 60]).
+    addSize([320, 480], [468, 60]).
+    build();
+    googletag.defineSlot('/3981815/arroba', [300, 250], 'div-gpt-ad-arroba').defineSizeMapping(arrobaMapping).addService(googletag.pubads());
+
+    googletag.pubads().setTargeting("page", "motos");
+    googletag.pubads().setTargeting("categories", "motos");
+
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+</script> 
+ </head> 
+ <body class="antialiased"> 
+  <div class="contain-to-grid sticky"> 
+   <nav class="top-bar" data-topbar data-index> 
+    <ul class="title-area"> 
+     <li class="name"> <h1 class="hide">Motos para comprar e vender | Primeiramão</h1> <span class="logo-pm"><a href="/"><img alt="Motos para comprar e vender | Primeiramão" src="http://static0.primeiramao.com.br/assets/logo-831b3fb5e141db88b2c76c4fbe9333e8.png"></a></span> </li> 
+     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li> 
+    </ul> 
+    <section class="top-bar-section"> 
+     <ul class="right"> 
+      <li class="category-car border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/carros" target="_blank"> <i class="category-icon"></i> <span>Carros</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/fiorino/categoria/Carros" target="_blank">fiorino</a></li> 
+          <li><a href="/b/santana/categoria/Carros" target="_blank">santana</a></li> 
+          <li><a href="/b/corsa/categoria/Carros" target="_blank">corsa</a></li> 
+          <li><a href="/b/honda/categoria/Carros" target="_blank">honda</a></li> 
+          <li><a href="/b/civic/categoria/Carros" target="_blank">civic</a></li> 
+          <li><a href="/b/gol/categoria/Carros" target="_blank">gol</a></li> 
+          <li><a href="/b/uno/categoria/Carros" target="_blank">uno</a></li> 
+          <li><a href="/b/saveiro/categoria/Carros" target="_blank">saveiro</a></li> 
+          <li><a href="/b/palio/categoria/Carros" target="_blank">palio</a></li> 
+          <li><a href="/b/chevrolet/categoria/Carros" target="_blank">chevrolet</a></li> 
+          <li><a href="/b/fiat/categoria/Carros" target="_blank">fiat</a></li> 
+          <li><a href="/b/ford/categoria/Carros" target="_blank">ford</a></li> 
+          <li><a href="/b/volkswagen/categoria/Carros" target="_blank">volkswagen</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-car"> 
+           <a id="fd12f7e5" href="/carros/gol-g-5-1-ponto-6-completo/o/fd12f7e5" class="showcase-offer category-border" data-offer-code="fd12f7e5" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="         " src="http://static1.primeiramao.com.br/uploads/classifieds/photos/b0/3bd2/d241d30b25a70cda65d632afd4c34c908bd/1854906/thumb_95cc2304a9f6decb70fed6a73dc354029e91c408.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 6
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Gol G 5 - 1.6 completo ( muito barato ) ipva e dpvat pago </h5> 
+            <div class="price category-bg">
+              R$ 18.900,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+              <li><p>Quilometros <strong>117000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/david100">David</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-car"> 
+           <a id="2235c085" href="/carros/grand-livina-barra-2010/o/2235c085" class="showcase-offer category-border" data-offer-code="2235c085" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="  " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/7d/61fe/feb03e8f73203dee881ae0e06f67dd4f915/942193/thumb_0d81370cd406c13ee965859bb0c35c5fd32126f7.jpg"> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Grand Livina/2010</h5> 
+            <div class="price category-bg">
+              R$ 102.000,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2010</strong></p></li> 
+              <li><p>Quilometros <strong>76000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/veti">Ivete</a> há quase 3 anos 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-home border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/imoveis" target="_blank"> <i class="category-icon"></i> <span>Imóveis</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/apartamento/categoria/Imóveis" target="_blank">apartamento</a></li> 
+          <li><a href="/b/casa/categoria/Imóveis" target="_blank">casa</a></li> 
+          <li><a href="/b/compra/categoria/Imóveis" target="_blank">compra</a></li> 
+          <li><a href="/b/venda/categoria/Imóveis" target="_blank">venda</a></li> 
+          <li><a href="/b/aluguel/categoria/Imóveis" target="_blank">aluguel</a></li> 
+          <li><a href="/b/temporada/categoria/Imóveis" target="_blank">temporada</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-"> 
+           <a id="426eedcc" href="/sitio-chacara-e-fazenda/chacara-em-aruja-bairro-dos-canjicas-1/o/426eedcc" class="showcase-offer category-border" data-offer-code="426eedcc" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/a6/f0cf/cfeafc5d3b84c65c97c15886218a8e1b8d4/2353667/thumb_688048528ae48e6fe4abb257a24417a1ca35171e.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 7
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label secondary">DESTAQUE</span> 
+             </div> 
+            </figure> <h5>CHÁCARA EM ARUJÁ - BAIRRO DOS CANJICAS</h5> 
+            <div class="price category-bg">
+              R$ 2.000.000,00 
+            </div> 
+            <div class="specs">
+              CHACARÁ EM ARUJÁ CASA SEDE C/ 4 SUÍTES, UMA COM BANHEIRA; + 3 DORMITÓRIOS; SALA DE JANTAR CONJUGADA SALA DE ESTAR COM LAREIRA; + COZIN... 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/ce6560e38a2f95c4540e6c26ece1dce81501679521">APARICIO</a> há quase 2 meses 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-"> 
+           <a id="e19789b7" href="/casa/bertioga-alugo-casa-temporada/o/e19789b7" class="showcase-offer category-border" data-offer-code="e19789b7" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/10/282e/2ec13452e884d9d4c53ea7baf81f1039b5f/2356363/thumb_33fbff0848e61907a31c0a24488fab7cb8b75977.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 7
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label secondary">DESTAQUE</span> 
+             </div> 
+            </figure> <h5>BERTIOGA - ALUGO CASA TEMPORADA</h5> 
+            <div class="price category-bg">
+              R$ 0,00 
+            </div> 
+            <div class="specs">
+              4 dorms, piscina, 4 vagas, a 500m da praia, acomoda ate 15 pessoas. Valor a combinar. (11)2594-6065 (11)98221-3080 Tratar com Natir 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/lludovici">Primeiramão</a> há quase 1 mês 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-truck border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/caminhoes" target="_blank"> <i class="category-icon"></i> <span>Caminhões</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/ford/categoria/Caminhões" target="_blank">ford</a></li> 
+          <li><a href="/b/iveco/categoria/Caminhões" target="_blank">iveco</a></li> 
+          <li><a href="/b/mercedes/categoria/Caminhões" target="_blank">mercedes</a></li> 
+          <li><a href="/b/scania/categoria/Caminhões" target="_blank">scania</a></li> 
+          <li><a href="/b/volkswagen/categoria/Caminhões" target="_blank">volkswagen</a></li> 
+          <li><a href="/b/volvo/categoria/Caminhões" target="_blank">volvo</a></li> 
+          <li><a href="/b/MB/categoria/Caminhões" target="_blank">MB</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-truck"> 
+           <a id="2d6f55a5" href="/caminhoes/guincho-plataforma-1/o/2d6f55a5" class="showcase-offer category-border" data-offer-code="2d6f55a5" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt=" " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/e5/4e41/414bce1620969726d58176c7a6aa6c12ed4/1835651/thumb_bba409511e5abc7f1ab3707012c542d889ce9fca.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 8
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Guincho plataforma</h5> 
+            <div class="price category-bg">
+              R$ 85.000,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+              <li><p>Quilometros <strong>20</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/711cc9a4b9fcdba7d32524352b9a13241454867583">Márcio</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-truck"> 
+           <a id="d8c4ea29" href="/caminhoes/volks-17250-carroceria-bitruck-ano-2012/o/d8c4ea29" class="showcase-offer category-border" data-offer-code="d8c4ea29" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="     " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/28/7f26/2633cc50538af106f8ae3df8cdaee03a0a6/2359091/thumb_84623db1c6d3d593ee0e2db9576d35a33867ce83.jpg"> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>VOLKS 17250 CARROCERIA BITRUCK ANO 2012 </h5> 
+            <div class="price category-bg">
+              R$ 17.500,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+              <li><p>Quilometros <strong>129000</strong></p></li> 
+             </ul> 
+            </div> 
+            <div class="seller-logo"> 
+             <img alt="SINDESCAR REPRESENTACOES COMERCIAIS LTDA" src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y"> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/parceiro/sindescar">SINDESCAR REPRESENTACOES COMERCIAIS LTDA</a> há 28 dias 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-motocycle border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/motos" target="_blank"> <i class="category-icon"></i> <span>Motos</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/dafra/categoria/Motos" target="_blank">dafra</a></li> 
+          <li><a href="/b/honda/categoria/Motos" target="_blank">honda</a></li> 
+          <li><a href="/b/suzuki/categoria/Motos" target="_blank">suzuki</a></li> 
+          <li><a href="/b/yamaha/categoria/Motos" target="_blank">yamaha</a></li> 
+          <li><a href="/b/CG 125/categoria/Motos" target="_blank">CG 125</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+           <a id="f0e6d3e3" href="/motos/kawasaki-vulcan-900-custom/o/f0e6d3e3" class="showcase-offer category-border" data-offer-code="f0e6d3e3" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/3f/13c5/c5706f6a7aa67e78662105fa895ca49661c/1795941/thumb_49a643fe7bb846eed59837c4b500b489de28f522.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 3
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Kawasaki Vulcan 900 Custom</h5> 
+            <div class="price category-bg">
+              R$ 24.300,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2011</strong></p></li> 
+              <li><p>Quilometros <strong>12500</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/318f14ae2bbf101972efe38a3c702da01452369060">Natan</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+           <a id="b05eb0a1" href="/motos/xre-300-12-barra-12/o/b05eb0a1" class="showcase-offer category-border" data-offer-code="b05eb0a1" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/8f/b35c/5c31ad6953fe1543d20f664fa84cb8c0872/2354957/thumb_6c6513b95f1c4eb6bb2704882f65cd9e1452b675.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 2
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>XRE-300 12/12 </h5> 
+            <div class="price category-bg">
+              R$ 10.500,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+              <li><p>Quilometros <strong>14000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/lludovici">Primeiramão</a> há quase 2 meses 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-more border bg-hover icon-hover has-panel"> <a href="javascript:void(0);" class="category-bg-hover"> <i class="category-icon"></i> <span>Categorias</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-12 columns options"> 
+         <ul> 
+          <li><a href="/categoria/escritorio-comercio-e-industria" target="_blank">Escritório, Comércio e Indústria</a></li> 
+          <li><a href="/categoria/mix" target="_blank">Mix</a></li> 
+          <li><a href="/categoria/empregos-e-servicos" target="_blank">Empregos e Serviços</a></li> 
+          <li><a href="/categoria/informatica" target="_blank">Informática</a></li> 
+          <li><a href="/categoria/moda-esportes-e-lazer" target="_blank">Moda, Esportes e Lazer</a></li> 
+          <li><a href="/categoria/casa-jardim-e-decoracao" target="_blank">Casa, jardim e decoração</a></li> 
+          <li><a href="/categoria/eletrodomesticos" target="_blank">Eletrodomésticos</a></li> 
+          <li><a href="/categoria/pet-e-acessorios" target="_blank">Pet e acessórios</a></li> 
+          <li><a href="/categoria/agronegocio" target="_blank">Agronegócio</a></li> 
+          <li><a href="/categoria/acessorios-outros" target="_blank">Acessórios e outros</a></li> 
+          <li><a href="/categoria/som-imagem-e-hobbies" target="_blank">Som, Imagem e Hobbies</a></li> 
+          <li><a href="/categoria/negocios-e-oportunidades" target="_blank">Oportunidades de Negócio</a></li> 
+          <li><a href="/categoria/eletronicos-e-telefonia" target="_blank">Eletrônicos e telefonia</a></li> 
+         </ul> 
+        </div> 
+       </div> </li> 
+      <li class="category-support border bg-hover icon-hover show-for-large-up hide-for-touch"> <a href="javascript:openChat()" class="category-bg-hover" rel="nofollow"> <i class="category-icon"></i> <span>Atendimento</span> </a> </li> 
+      <li class="divider"></li> 
+      <li class="profile" ng-controller="UserBarController"> <a href="/login" rel="nofollow">login</a> </li> 
+     </ul> 
+    </section> 
+    <!-- end cache --> 
+   </nav> 
+  </div> 
+  <header class="classified category-motocycle" ng-controller="CategoryController as categoryCtrl" data-category="motos"> 
+   <figure class="slideshow" ng-include="'slideshow.html'"> 
+    <img alt="Motos para comprar e vender | Primeiramão" src="http://static3.primeiramao.com.br/assets/vertical/motos-973dfbf40a316b4ab46615123dc3f62e.jpg"> 
+   </figure> 
+   <div class="category-search"> 
+    <div class="row"> 
+     <div class="small-12 columns"> 
+      <h2>Motos</h2> 
+     </div> 
+     <div class="small-12 columns category-bg search-form" data-category="Motos" ng-controller="CategorySearchController as categorySearchCtrl"> 
+      <div class="row"> 
+       <form name="categoryForm" ng-submit="categorySearchCtrl.doSubmit()"> 
+        <div class="small-12 large-3 columns"> 
+         <div class="row collapse"> 
+          <div class="small-10 medium-11 large-12 columns"> 
+           <label for="modelo" class="hide-for-small-only">Digite o que você procura</label> 
+           <input type="search" name="query" placeholder="O que procura?" ng-model="search.query"> 
+          </div> 
+          <div class="small-2 medium-1 columns hide-for-large-up"> 
+           <button type="submit" class="button secondary postfix radius"> <i class="pm-icon iconLupa"></i></button> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="show-for-large-up"> 
+         <div class="large-3 columns"> 
+          <label for="modelo">ou escolha aqui</label> 
+          <div select-filter filter-name="modelo" filter-search="fields.modelo" ng-model="search.filters.modelo" data-placeholder="qual modelo?" data-prompt="qual modelo?"> 
+           <optgroup label="Adly"><option value="Jet 50">Jet 50</option> <option value="Outros">Outros</option></optgroup>
+           <optgroup label="Agrale"><option value="30.0">30.0</option> <option value="Cagiva">Cagiva</option> <option value="Cagiva roadster 200">Cagiva roadster 200</option> <option value="Dakar 30.0">Dakar 30.0</option> <option value="Elefant">Elefant</option> <option value="Elefant 900">Elefant 900</option> <option value="Elefantre">Elefantre</option> <option value="Elefantré 30.0">Elefantré 30.0</option> <option value="Husqvarna wre 125">Husqvarna wre 125</option> <option value="Legion 125">Legion 125</option> <option value="Smc">Smc</option> <option value="Sst 13.5">Sst 13.5</option> <option value="Supercity 125">Supercity 125</option> <option value="Sx 27.5 ex">Sx 27.5 ex</option> <option value="Sxt">Sxt</option> <option value="Sxt 27.5">Sxt 27.5</option> <option value="Tchau">Tchau</option> <option value="Tchau 50">Tchau 50</option> <option value="Wr">Wr</option> <option value="Wr-250">Wr-250</option> <option value="Wxt 200">Wxt 200</option> <option value="Xt">Xt</option></optgroup>
+           <optgroup label="Agusta"><option value="F4">F4</option> <option value="Outros">Outros</option></optgroup>
+           <optgroup label="Ame amazonas"></optgroup>
+           <optgroup label="Aprilia"><option value="Area 51">Area 51</option> <option value="Classic">Classic</option> <option value="Leonardo">Leonardo</option> <option value="Moto">Moto</option> <option value="Moto rsv mil">Moto rsv mil</option> <option value="Pegaso">Pegaso</option> <option value="Rally">Rally</option> <option value="Rs">Rs</option> <option value="Rs 50 racing">Rs 50 racing</option> <option value="Rsv">Rsv</option> <option value="Rx">Rx</option> <option value="Scarabeo">Scarabeo</option> <option value="Sonic 50 ac">Sonic 50 ac</option> <option value="Sr">Sr</option> <option value="Sr 50 www">Sr 50 www</option></optgroup>
+           <optgroup label="Atala"><option value="Califfone">Califfone</option> <option value="Califfone piu">Califfone piu</option> <option value="Renault master">Renault master</option> <option value="Skeggia">Skeggia</option></optgroup>
+           <optgroup label="Ava"><option value="Dma altino">Dma altino</option></optgroup>
+           <optgroup label="Beta"><option value="Ark 80">Ark 80</option> <option value="Cross mx-50">Cross mx-50</option> <option value="Enduro mx-50">Enduro mx-50</option> <option value="Mx-50">Mx-50</option></optgroup>
+           <optgroup label="Bimota"><option value="Br sb8rspecial">Br sb8rspecial</option> <option value="Db4">Db4</option> <option value="Db5r">Db5r</option> <option value="Db6 delírio">Db6 delírio</option> <option value="Db6r">Db6r</option> <option value="Db7">Db7</option> <option value="Sbr8 special">Sbr8 special</option> <option value="Tesi 3d">Tesi 3d</option></optgroup>
+           <optgroup label="Bmw"><option value="C1">C1</option> <option value="Cs">Cs</option> <option value="F 650 gs">F 650 gs</option> <option value="F 800 s top">F 800 s top</option> <option value="F650">F650</option> <option value="G 650 xchallenge top">G 650 xchallenge top</option> <option value="G 650 xmoto top">G 650 xmoto top</option> <option value="K1">K1</option> <option value="K1100">K1100</option> <option value="K1200">K1200</option> <option value="K1300">K1300</option> <option value="R 1100 s">R 1100 s</option> <option value="R 1150 gs">R 1150 gs</option> <option value="R 1200 c">R 1200 c</option> <option value="R 1200 gs adventure top">R 1200 gs adventure top</option> <option value="R 1200 gs sport">R 1200 gs sport</option> <option value="R 1200 gs standard">R 1200 gs standard</option> <option value="R1100">R1100</option> <option value="R1100 r">R1100 r</option> <option value="R1150">R1150</option> <option value="R1200">R1200</option> <option value="G 650 GS">G 650 GS</option> <option value="118 i">118 i</option></optgroup>
+           <optgroup label="Brandy"><option value="Adly jet 50">Adly jet 50</option> <option value="Elegant 50">Elegant 50</option> <option value="Fosti ft-125a">Fosti ft-125a</option> <option value="Hero ankur">Hero ankur</option> <option value="Hero puch">Hero puch</option> <option value="Hero puch 50">Hero puch 50</option> <option value="Hero stream">Hero stream</option> <option value="Hero stream 50">Hero stream 50</option> <option value="Hm ankur">Hm ankur</option> <option value="Hp">Hp</option> <option value="Jaguar">Jaguar</option> <option value="Jaguar jt-100">Jaguar jt-100</option> <option value="Ns2">Ns2</option> <option value="Pista 70">Pista 70</option></optgroup>
+           <optgroup label="Brp"></optgroup>
+           <optgroup label="Buell"><option value="City cross">City cross</option> <option value="Outros">Outros</option> <option value="Xb 125s">Xb 125s</option></optgroup>
+           <optgroup label="Cagiva"><option value="Canyon 500">Canyon 500</option> <option value="Elefant 750">Elefant 750</option> <option value="Elefant 900">Elefant 900</option> <option value="Gran canyon">Gran canyon</option> <option value="Gran canyon 900">Gran canyon 900</option> <option value="Mito">Mito</option> <option value="Mito 125">Mito 125</option> <option value="Navigator 1000">Navigator 1000</option> <option value="Planet">Planet</option> <option value="Planet 125">Planet 125</option> <option value="Roadster 200">Roadster 200</option> <option value="V raptor 1000">V raptor 1000</option> <option value="V-raptor 1000">V-raptor 1000</option> <option value="W16 600">W16 600</option></optgroup>
+           <optgroup label="Caloi"><option value="Ae100">Ae100</option> <option value="Ae50">Ae50</option> <option value="Ah 50">Ah 50</option> <option value="Mobylette">Mobylette</option> <option value="Mondo">Mondo</option> <option value="Suzuki ag100">Suzuki ag100</option></optgroup>
+           <optgroup label="Daelim"><option value="Altino">Altino</option> <option value="Altino 100">Altino 100</option> <option value="Daystar">Daystar</option> <option value="Magma">Magma</option> <option value="Message">Message</option> <option value="Vc 125 advance">Vc 125 advance</option> <option value="Vf roadsports">Vf roadsports</option> <option value="Vs 125">Vs 125</option> <option value="Vt 125">Vt 125</option> <option value="Vx 125">Vx 125</option></optgroup>
+           <optgroup label="Dafra"><option value="Apache">Apache</option> <option value="Apache 150">Apache 150</option> <option value="Citycom 300i">Citycom 300i</option> <option value="Kansas 150">Kansas 150</option> <option value="Kansas 250">Kansas 250</option> <option value="Laser 150">Laser 150</option> <option value="Riva 125">Riva 125</option> <option value="Roadwyn 250">Roadwyn 250</option> <option value="Smart 125">Smart 125</option> <option value="Speed 150">Speed 150</option> <option value="Super 100">Super 100</option> <option value="Super 50">Super 50</option> <option value="Zig 100">Zig 100</option> <option value="NEXT 250">NEXT 250</option> <option value="Next">Next</option> <option value="RIVA 150">RIVA 150</option> <option value="MAXSYM 400 ">MAXSYM 400 </option></optgroup>
+           <optgroup label="Ducati"><option value="996">996</option> <option value="Desmosedici">Desmosedici</option> <option value="M 600 b">M 600 b</option> <option value="M s 4 b">M s 4 b</option> <option value="Monster">Monster</option> <option value="Monster 600">Monster 600</option> <option value="Monster 900">Monster 900</option> <option value="Monster s4">Monster s4</option> <option value="Moster 695">Moster 695</option> <option value="S2r 1000">S2r 1000</option> <option value="Ss 900">Ss 900</option> <option value="St2">St2</option> <option value="Super sport">Super sport</option> <option value="Superbike">Superbike</option></optgroup>
+           <optgroup label="Emme"><option value="Mirage 50">Mirage 50</option> <option value="One 50">One 50</option></optgroup>
+           <optgroup label="Fapinha"><option value="Kids">Kids</option></optgroup>
+           <optgroup label="Fosti"><option value="Ft 125 a">Ft 125 a</option></optgroup>
+           <optgroup label="Fym"><option value="Fy 250">Fy 250</option> <option value="Fy">Fy</option> <option value="Fy 100-10a">Fy 100-10a</option> <option value="Fy 125-19">Fy 125-19</option> <option value="Fy 125-20 sachs">Fy 125-20 sachs</option> <option value="Fy 125ey-2">Fy 125ey-2</option> <option value="Fy 125t-18">Fy 125t-18</option> <option value="Fy 125y-3">Fy 125y-3</option> <option value="Fy 150-3">Fy 150-3</option></optgroup>
+           <optgroup label="Garini"><option value="Gr 125">Gr 125</option></optgroup>
+           <optgroup label="Gas gas"><option value="Endurocross">Endurocross</option> <option value="Endurocross ec 200">Endurocross ec 200</option> <option value="Endurocross ec 250">Endurocross ec 250</option> <option value="Endurocross ec 300">Endurocross ec 300</option> <option value="Pampera">Pampera</option> <option value="Pampera 250">Pampera 250</option></optgroup>
+           <optgroup label="Green"></optgroup>
+           <optgroup label="Haobao"><option value="HB 50Q">HB 50Q</option> <option value="HB125-9 FEARFULSPEED">HB125-9 FEARFULSPEED</option> <option value="HB150">HB150</option> <option value="HB150-T R5 FEARFULSPEED">HB150-T R5 FEARFULSPEED</option></optgroup>
+           <optgroup label="Harley-davidson"><option value="Dyna super glide fxd">Dyna super glide fxd</option> <option value="Electra glide special">Electra glide special</option> <option value="Electra ultra standard">Electra ultra standard</option> <option value="Fat boy">Fat boy</option> <option value="Flhrci">Flhrci</option> <option value="Flht">Flht</option> <option value="Flhtcu ug">Flhtcu ug</option> <option value="Flhtcui">Flhtcui</option> <option value="Flstc">Flstc</option> <option value="Flstf">Flstf</option> <option value="Flsts hs">Flsts hs</option> <option value="Fxd dsg">Fxd dsg</option> <option value="Fxdl dr">Fxdl dr</option> <option value="Fxdwg dwg">Fxdwg dwg</option> <option value="Fxst y">Fxst y</option> <option value="Fxstb">Fxstb</option> <option value="Fxstc sc">Fxstc sc</option> <option value="Fxstd deuce">Fxstd deuce</option> <option value="Fxstd y">Fxstd y</option> <option value="Fxsts ss">Fxsts ss</option> <option value="Heritage classic">Heritage classic</option> <option value="Night train">Night train</option> <option value="Outros">Outros</option> <option value="Road king">Road king</option> <option value="Softail standard">Softail standard</option> <option value="Sportster">Sportster</option> <option value="Ultra classic">Ultra classic</option> <option value="Xl 1200">Xl 1200</option> <option value="Xl 883">Xl 883</option> <option value="Xlh">Xlh</option></optgroup>
+           <optgroup label="Hartford"><option value="Legion 125">Legion 125</option></optgroup>
+           <optgroup label="Honda"><option value="Biz">Biz</option> <option value="Biz 125 +">Biz 125 +</option> <option value="Biz 125 es">Biz 125 es</option> <option value="Biz 125 ks">Biz 125 ks</option> <option value="Bros">Bros</option> <option value="C 100 biz">C 100 biz</option> <option value="C 100 biz es">C 100 biz es</option> <option value="C 100 dream">C 100 dream</option> <option value="C 125 biz">C 125 biz</option> <option value="C 90">C 90</option> <option value="C100">C100</option> <option value="Cb">Cb</option> <option value="CB 400">CB 400</option> <option value="Cb 450">Cb 450</option> <option value="Cb 500">Cb 500</option> <option value="Cb 600f hornet std">Cb 600f hornet std</option> <option value="Cb 750 four k">Cb 750 four k</option> <option value="Cbr">Cbr</option> <option value="Cbr 1000">Cbr 1000</option> <option value="Cbr 1100 xx">Cbr 1100 xx</option> <option value="Cbr 450 sr">Cbr 450 sr</option> <option value="Cbr 600 f">Cbr 600 f</option> <option value="Cbr 900 rr">Cbr 900 rr</option> <option value="Cbr repsol">Cbr repsol</option> <option value="Cbx">Cbx</option> <option value="Cbx 150 aero">Cbx 150 aero</option> <option value="Cbx 200 strada">Cbx 200 strada</option> <option value="Cbx 250 twister">Cbx 250 twister</option> <option value="Cbx 750 f">Cbx 750 f</option> <option value="Cbx 750 f indy">Cbx 750 f indy</option> <option value="Cbx twister">Cbx twister</option> <option value="Cg">Cg</option> <option value="Cg 125 cargo">Cg 125 cargo</option> <option value="Cg 125 fan">Cg 125 fan</option> <option value="Cg 125 titan">Cg 125 titan</option> <option value="Cg 125 titan es">Cg 125 titan es</option> <option value="Cg 125 titan ks">Cg 125 titan ks</option> <option value="Cg 125 today">Cg 125 today</option> <option value="Cg 150 job">Cg 150 job</option> <option value="Cg 150 ks">Cg 150 ks</option> <option value="Cg 150 sport">Cg 150 sport</option> <option value="Cg 150 titan es">Cg 150 titan es</option> <option value="Cg 150 titan esd">Cg 150 titan esd</option> <option value="Cg 150 titan ks">Cg 150 titan ks</option> <option value="Cg titan">Cg titan</option> <option value="Cg titan es">Cg titan es</option> <option value="Cg titan esd">Cg titan esd</option> <option value="Ch 125 spacy">Ch 125 spacy</option> <option value="Ch 125 spacy wagon">Ch 125 spacy wagon</option> <option value="Cr 250">Cr 250</option> <option value="Cr 250 rk">Cr 250 rk</option> <option value="Cr125">Cr125</option> <option value="Crf">Crf</option> <option value="Crf 230 f">Crf 230 f</option> <option value="Dn-01">Dn-01</option> <option value="Dream">Dream</option> <option value="Dx">Dx</option> <option value="Esteira">Esteira</option> <option value="Falcon">Falcon</option> <option value="Gold wing">Gold wing</option> <option value="Helix 250">Helix 250</option> <option value="Hornet 600">Hornet 600</option> <option value="Lead 110">Lead 110</option> <option value="Magna 750">Magna 750</option> <option value="Ml 125">Ml 125</option> <option value="Nx">Nx</option> <option value="Nx 150">Nx 150</option> <option value="Nx 200">Nx 200</option> <option value="Nx 250">Nx 250</option> <option value="Nx 4 falcon">Nx 4 falcon</option> <option value="Nx 400 falcon">Nx 400 falcon</option> <option value="Nx 650">Nx 650</option> <option value="Nxr 125 bros">Nxr 125 bros</option> <option value="Nxr 150 bros">Nxr 150 bros</option> <option value="Pacific coast">Pacific coast</option> <option value="Pop">Pop</option> <option value="Pop 100">Pop 100</option> <option value="Quadriciclo fourtrax">Quadriciclo fourtrax</option> <option value="Quadriciclo fourtrax fm">Quadriciclo fourtrax fm</option> <option value="Quadriciclo fourtrax tm">Quadriciclo fourtrax tm</option> <option value="Quadriciclo fourtrax trx">Quadriciclo fourtrax trx</option> <option value="Sahara">Sahara</option> <option value="Shadow">Shadow</option> <option value="Shadow 750">Shadow 750</option> <option value="Spacy">Spacy</option> <option value="Sport">Sport</option> <option value="St 1100">St 1100</option> <option value="Strada">Strada</option> <option value="Super hawk">Super hawk</option> <option value="Tempo">Tempo</option> <option value="Titan">Titan</option> <option value="Titan 150 ks">Titan 150 ks</option> <option value="Tornado">Tornado</option> <option value="Transalp">Transalp</option> <option value="Twister">Twister</option> <option value="Valkyrie gl 1500">Valkyrie gl 1500</option> <option value="Varadero">Varadero</option> <option value="Vt 600c shadow">Vt 600c shadow</option> <option value="Vtx">Vtx</option> <option value="Vtx 1800">Vtx 1800</option> <option value="Xl">Xl</option> <option value="Xl 125">Xl 125</option> <option value="Xl 250">Xl 250</option> <option value="Xlr">Xlr</option> <option value="Xlr 125 es">Xlr 125 es</option> <option value="Xlx">Xlx</option> <option value="Xlx 250">Xlx 250</option> <option value="Xlx 350">Xlx 350</option> <option value="Xr">Xr</option> <option value="Xr 250 tornado">Xr 250 tornado</option> <option value="Xre 300">Xre 300</option> <option value="Xrf">Xrf</option> <option value="CB 300 R">CB 300 R</option> <option value="PCX 150">PCX 150</option> <option value="TITAN 150 EX">TITAN 150 EX</option> <option value="CG 150 TITAN EX">CG 150 TITAN EX</option></optgroup>
+           <optgroup label="Husaberg"><option value="Fe">Fe</option> <option value="Fe 501">Fe 501</option></optgroup>
+           <optgroup label="Husqvarna"><option value="Cr 125">Cr 125</option> <option value="Sm 610">Sm 610</option> <option value="Te">Te</option> <option value="Te 400">Te 400</option> <option value="Te 570">Te 570</option> <option value="Te 610">Te 610</option> <option value="Wr">Wr</option> <option value="Wr 125">Wr 125</option> <option value="Wr 360">Wr 360</option></optgroup>
+           <optgroup label="Hyosung"><option value="Cab">Cab</option> <option value="Cruise">Cruise</option> <option value="Cruise 125">Cruise 125</option> <option value="Gf 125 speed">Gf 125 speed</option> <option value="Gv 250">Gv 250</option> <option value="Midas">Midas</option> <option value="Super cab">Super cab</option> <option value="Super cab 50">Super cab 50</option> <option value="Tn 125">Tn 125</option></optgroup>
+           <optgroup label="Iros"><option value="Adventure r 640">Adventure r 640</option> <option value="Outros">Outros</option></optgroup>
+           <optgroup label="Jialing"><option value="Cj - 50f">Cj - 50f</option> <option value="Cj 50f">Cj 50f</option> <option value="Jh">Jh</option> <option value="Jh - 110">Jh - 110</option> <option value="Jh - 125">Jh - 125</option> <option value="Jh - 125 l">Jh - 125 l</option> <option value="Jh - 50">Jh - 50</option> <option value="Jh-701">Jh-701</option></optgroup>
+           <optgroup label="Kahena"><option value="125 k-top">125 k-top</option> <option value="125 top">125 top</option> <option value="150 cargo">150 cargo</option> <option value="250 dual top">250 dual top</option> <option value="Custom 1600">Custom 1600</option> <option value="Lj 1600">Lj 1600</option> <option value="Ss 1600">Ss 1600</option> <option value="St 1600">St 1600</option></optgroup>
+           <optgroup label="Kasinski"><option value="Cab 100">Cab 100</option> <option value="Cab 50">Cab 50</option> <option value="Comet">Comet</option> <option value="Comet 250">Comet 250</option> <option value="Comet 650">Comet 650</option> <option value="Comet gt r 250">Comet gt r 250</option> <option value="Cruise">Cruise</option> <option value="Cruise 125">Cruise 125</option> <option value="Flash">Flash</option> <option value="Flash 150">Flash 150</option> <option value="Gf 125">Gf 125</option> <option value="Midas">Midas</option> <option value="Midas fx 110">Midas fx 110</option> <option value="Mirage">Mirage</option> <option value="Mirage 250">Mirage 250</option> <option value="Mirage 650">Mirage 650</option> <option value="Prima">Prima</option> <option value="Rx 125">Rx 125</option> <option value="Seta 125">Seta 125</option> <option value="Seta 150">Seta 150</option> <option value="Super cab 50">Super cab 50</option> <option value="Way 125">Way 125</option> <option value="Win">Win</option> <option value="Win 110">Win 110</option></optgroup>
+           <optgroup label="Kawasaki"><option value="1000 touring">1000 touring</option> <option value="Bayou 220">Bayou 220</option> <option value="Concurs 14">Concurs 14</option> <option value="En500">En500</option> <option value="Er5">Er5</option> <option value="Er6">Er6</option> <option value="Indian">Indian</option> <option value="Kdx">Kdx</option> <option value="Ke100">Ke100</option> <option value="Klr250">Klr250</option> <option value="Klx">Klx</option> <option value="Kx">Kx</option> <option value="Kx 125">Kx 125</option> <option value="Kymco zing">Kymco zing</option> <option value="Kz 1000 touring">Kz 1000 touring</option> <option value="Max ii">Max ii</option> <option value="Ninja">Ninja</option> <option value="Ninja zx-12r">Ninja zx-12r</option> <option value="Police 1000">Police 1000</option> <option value="Vn">Vn</option> <option value="Vulcan">Vulcan</option> <option value="Vulcan 1500 classic">Vulcan 1500 classic</option> <option value="Vulcan 1500 nomad">Vulcan 1500 nomad</option> <option value="Vulcan 750">Vulcan 750</option> <option value="Vulcan 800 classic">Vulcan 800 classic</option> <option value="Z1000">Z1000</option> <option value="Z750">Z750</option> <option value="Zg 1200">Zg 1200</option> <option value="Zr 1100">Zr 1100</option> <option value="Zrx 1100">Zrx 1100</option> <option value="Zx">Zx</option> <option value="Zx-11">Zx-11</option> <option value="Zx-6r">Zx-6r</option> <option value="Zx-7r">Zx-7r</option> <option value="Zx-9r">Zx-9r</option> <option value="Versys">Versys</option></optgroup>
+           <optgroup label="Ktm"><option value="620 sc">620 sc</option> <option value="640">640</option> <option value="Adventure 640r">Adventure 640r</option> <option value="Duke">Duke</option> <option value="Duke 640">Duke 640</option> <option value="Exc">Exc</option> <option value="Exc 200">Exc 200</option> <option value="Exc 250">Exc 250</option> <option value="Exc 380">Exc 380</option> <option value="Exc 520">Exc 520</option> <option value="Lc4 640">Lc4 640</option> <option value="Sx 450">Sx 450</option> <option value="Sx65">Sx65</option> <option value="Sxc 540">Sxc 540</option></optgroup>
+           <optgroup label="Kymco"><option value="Djw">Djw</option> <option value="Djw 50">Djw 50</option> <option value="Djw 50 junior">Djw 50 junior</option> <option value="M boy">M boy</option> <option value="Manboy 90">Manboy 90</option> <option value="People">People</option> <option value="Zing 150">Zing 150</option></optgroup>
+           <optgroup label="L aquila"><option value="Akros 90">Akros 90</option> <option value="Ergon 50">Ergon 50</option> <option value="Nix 50">Nix 50</option> <option value="Palio">Palio</option></optgroup>
+           <optgroup label="Lon-V"><option value="Ly 150 Classic">Ly 150 Classic</option> <option value="Ly 150 Racer">Ly 150 Racer</option> <option value="Ly 150 Retro">Ly 150 Retro</option></optgroup>
+           <optgroup label="Luojia"><option value="Easy">Easy</option></optgroup>
+           <optgroup label="Mbw motors"><option value="Quadriciclo gv 250">Quadriciclo gv 250</option> <option value="Quadriciclo gv 300">Quadriciclo gv 300</option> <option value="Quadriciclo mbw 50">Quadriciclo mbw 50</option> <option value="Quadriciclo super 150">Quadriciclo super 150</option></optgroup>
+           <optgroup label="Mguzzi"><option value="Br">Br</option></optgroup>
+           <optgroup label="Moto guzzi"><option value="California ev/especial">California ev/especial</option> <option value="California jackal">California jackal</option> <option value="Quota 1100 es">Quota 1100 es</option> <option value="V 11 sport">V 11 sport</option></optgroup>
+           <optgroup label="Mv agusta"><option value="Brutale r">Brutale r</option> <option value="F4">F4</option> <option value="F4 1000 senna">F4 1000 senna</option></optgroup>
+           <optgroup label="Mvk"><option value="Black star 150">Black star 150</option> <option value="Brx 140">Brx 140</option> <option value="Brx 250">Brx 250</option> <option value="Dual 200 motard">Dual 200 motard</option> <option value="Fenix 200">Fenix 200</option> <option value="Fenix 250 gold">Fenix 250 gold</option> <option value="Fox 110">Fox 110</option> <option value="Quadriciclo big force i">Quadriciclo big force i</option> <option value="Quadriciclo big force ii">Quadriciclo big force ii</option> <option value="Quadriciclo jurassic">Quadriciclo jurassic</option> <option value="Quadriciclo sport">Quadriciclo sport</option> <option value="Quadriciclo x-cape">Quadriciclo x-cape</option> <option value="Spyder 300">Spyder 300</option> <option value="Street 150">Street 150</option> <option value="Super x 125">Super x 125</option> <option value="Xrt 110">Xrt 110</option></optgroup>
+           <optgroup label="Outras"><option value="Consignação">Consignação</option> <option value="Outros">Outros</option> <option value="Quadriciclo">Quadriciclo</option> <option value="Triciclo">Triciclo</option> <option value="Walk machine">Walk machine</option></optgroup>
+           <optgroup label="Peugeot"><option value="Buxy">Buxy</option> <option value="Elyseo 125">Elyseo 125</option> <option value="Fight 100">Fight 100</option> <option value="Scootelec">Scootelec</option> <option value="Speedake">Speedake</option> <option value="Speedfight">Speedfight</option> <option value="Speedfight 100">Speedfight 100</option> <option value="Squab">Squab</option> <option value="Vivacity 50">Vivacity 50</option> <option value="Zenith">Zenith</option></optgroup>
+           <optgroup label="Piaggio"><option value="Beverly 250">Beverly 250</option> <option value="Beverly 500">Beverly 500</option> <option value="Lambreta">Lambreta</option> <option value="Lambreta ld">Lambreta ld</option> <option value="Lambreta li">Lambreta li</option> <option value="Pgo">Pgo</option> <option value="Runner gl 50">Runner gl 50</option> <option value="Vespa">Vespa</option> <option value="Vespa 150 originale">Vespa 150 originale</option> <option value="Zip">Zip</option> <option value="Zip 50">Zip 50</option></optgroup>
+           <optgroup label="Polaris"><option value="Quadriciclo hawkeye 4x4">Quadriciclo hawkeye 4x4</option> <option value="Quadriciclo outlaw 500">Quadriciclo outlaw 500</option> <option value="Quadriciclo predator 90">Quadriciclo predator 90</option> <option value="Quadriciclo ranger base">Quadriciclo ranger base</option> <option value="Quadriciclo sawtooth 200">Quadriciclo sawtooth 200</option> <option value="Quadriciclo sportsman 500efi">Quadriciclo sportsman 500efi</option> <option value="Quadriciclo sportsman 500x2">Quadriciclo sportsman 500x2</option> <option value="Quadriciclo sportsman 800efi">Quadriciclo sportsman 800efi</option></optgroup>
+           <optgroup label="Puch"></optgroup>
+           <optgroup label="Quadriciclo"><option value="Ame/amazonas">Ame/amazonas</option> <option value="Fapinha">Fapinha</option> <option value="Garini">Garini</option> <option value="Gas">Gas</option> <option value="Green motos">Green motos</option> <option value="Honda">Honda</option> <option value="Kymco">Kymco</option> <option value="Mbw motors">Mbw motors</option> <option value="Mvk">Mvk</option> <option value="Outras">Outras</option> <option value="Piaggio">Piaggio</option> <option value="Sundown">Sundown</option> <option value="Suzuki">Suzuki</option> <option value="Traxx">Traxx</option> <option value="Yamaha">Yamaha</option></optgroup>
+           <optgroup label="Sanyang"><option value="Enjoy">Enjoy</option> <option value="Husky">Husky</option> <option value="Passing 110 sr">Passing 110 sr</option></optgroup>
+           <optgroup label="Shineray"><option value="Outros">Outros</option> <option value="Xy 110v wave">Xy 110v wave</option> <option value="Xy 125-14">Xy 125-14</option> <option value="Xy 150-5 - speedy">Xy 150-5 - speedy</option> <option value="Xy 150-gy - cross">Xy 150-gy - cross</option> <option value="Xy 150-hz - triciclo">Xy 150-hz - triciclo</option> <option value="Xy 200 iii - indianapolis">Xy 200 iii - indianapolis</option> <option value="Xy 200-5 - speedy">Xy 200-5 - speedy</option> <option value="Xy 250-5 - custon">Xy 250-5 - custon</option> <option value="Xy 50q - mobilete">Xy 50q - mobilete</option></optgroup>
+           <optgroup label="Standard"><option value="City">City</option> <option value="Dakar">Dakar</option> <option value="Force">Force</option> <option value="Tchau">Tchau</option></optgroup>
+           <optgroup label="Sundown"><option value="Akros">Akros</option> <option value="Ergon">Ergon</option> <option value="Fifty">Fifty</option> <option value="Future">Future</option> <option value="Future 125">Future 125</option> <option value="Hunter 90">Hunter 90</option> <option value="Hunter se">Hunter se</option> <option value="Max 125 sed">Max 125 sed</option> <option value="Max se">Max se</option> <option value="Max sed">Max sed</option> <option value="Scooter">Scooter</option> <option value="Speed 90">Speed 90</option> <option value="Stx">Stx</option> <option value="Stx motard">Stx motard</option> <option value="Super">Super</option> <option value="V blade">V blade</option> <option value="Web 100cc">Web 100cc</option> <option value="Web evo">Web evo</option></optgroup>
+           <optgroup label="Suzuki"><option value="Srad 1000">Srad 1000</option> <option value="Address v 100">Address v 100</option> <option value="Adress v100">Adress v100</option> <option value="Ae50">Ae50</option> <option value="Bandit">Bandit</option> <option value="Bandit 1250">Bandit 1250</option> <option value="Bandit 1250s">Bandit 1250s</option> <option value="Bandit 650">Bandit 650</option> <option value="Bandit 650s">Bandit 650s</option> <option value="Bandit n 1200">Bandit n 1200</option> <option value="Bandit n600">Bandit n600</option> <option value="B-king">B-king</option> <option value="Boulevard 1500">Boulevard 1500</option> <option value="Boulevard m800">Boulevard m800</option> <option value="Burgman">Burgman</option> <option value="Burgman 125">Burgman 125</option> <option value="Burgman 400">Burgman 400</option> <option value="Burgman 650 executive">Burgman 650 executive</option> <option value="Dl 1000 v-strom">Dl 1000 v-strom</option> <option value="Dr">Dr</option> <option value="Dr 650 re">Dr 650 re</option> <option value="Dr 800 s">Dr 800 s</option> <option value="Dr-z400e">Dr-z400e</option> <option value="En 125 ks">En 125 ks</option> <option value="En yes">En yes</option> <option value="En125 yes">En125 yes</option> <option value="Freewind">Freewind</option> <option value="Gs 500 e">Gs 500 e</option> <option value="Gsx">Gsx</option> <option value="Gsx 1100">Gsx 1100</option> <option value="Gsx 1300r">Gsx 1300r</option> <option value="Gsx 750f">Gsx 750f</option> <option value="Gsx 750w">Gsx 750w</option> <option value="Gsxr">Gsxr</option> <option value="Gsxr 1000">Gsxr 1000</option> <option value="Gsx-r 750">Gsx-r 750</option> <option value="Hayabusa">Hayabusa</option> <option value="Intruder">Intruder</option> <option value="Intruder 125 ed">Intruder 125 ed</option> <option value="Intruder 250">Intruder 250</option> <option value="Katana">Katana</option> <option value="Katana 125">Katana 125</option> <option value="Lc 1500">Lc 1500</option> <option value="Lc 1500 intruder">Lc 1500 intruder</option> <option value="Lets ii 50">Lets ii 50</option> <option value="M-109r">M-109r</option> <option value="Marauder">Marauder</option> <option value="Quadriciclo lt 450 ax">Quadriciclo lt 450 ax</option> <option value="Quadriciclo lt a 400 f">Quadriciclo lt a 400 f</option> <option value="Quadriciclo lt a 750 x">Quadriciclo lt a 750 x</option> <option value="Quadriciclo lt- f 160">Quadriciclo lt- f 160</option> <option value="Quadriciclo lt- f 250">Quadriciclo lt- f 250</option> <option value="Rf">Rf</option> <option value="Rm 100">Rm 100</option> <option value="Rm 125">Rm 125</option> <option value="Rm 250">Rm 250</option> <option value="Rm 60">Rm 60</option> <option value="Rm 65">Rm 65</option> <option value="Rm 85">Rm 85</option> <option value="Rm 85l">Rm 85l</option> <option value="Rmx 250">Rmx 250</option> <option value="Savage ls 650">Savage ls 650</option> <option value="Srad">Srad</option> <option value="Srad 750">Srad 750</option> <option value="Tl">Tl</option> <option value="Tl 1000 s">Tl 1000 s</option> <option value="Tl 1000s">Tl 1000s</option> <option value="Vs">Vs</option> <option value="Vs 800 / marauder">Vs 800 / marauder</option> <option value="Vs 800 intruder">Vs 800 intruder</option> <option value="Vstrom">Vstrom</option> <option value="Vx 800">Vx 800</option> <option value="Xf 650 freewind">Xf 650 freewind</option> <option value="Yes">Yes</option> <option value="Yes 125 ed">Yes 125 ed</option> <option value="GSR 150">GSR 150</option></optgroup>
+           <optgroup label="Traxx"><option value="Best jh125g">Best jh125g</option> <option value="Cj 50 f">Cj 50 f</option> <option value="Fly jh125l">Fly jh125l</option> <option value="Jh 50jh 70">Jh 50jh 70</option> <option value="Jh 70 iii">Jh 70 iii</option> <option value="Joto 125">Joto 125</option> <option value="Prince jl 110-11">Prince jl 110-11</option> <option value="Shark 250">Shark 250</option> <option value="Sky jl 110-3">Sky jl 110-3</option> <option value="Sky jl 110-8">Sky jl 110-8</option> <option value="Star jl 50 q-2">Star jl 50 q-2</option></optgroup>
+           <optgroup label="Triciclo"></optgroup>
+           <optgroup label="Triumph"><option value="Adventurer">Adventurer</option> <option value="Adventurer 900">Adventurer 900</option> <option value="Bonneville">Bonneville</option> <option value="Daytona">Daytona</option> <option value="Daytona 675">Daytona 675</option> <option value="Daytona 955i">Daytona 955i</option> <option value="Legend">Legend</option> <option value="Legend tt 90">Legend tt 90</option> <option value="Rocket iii">Rocket iii</option> <option value="Speed triple">Speed triple</option> <option value="Sprint">Sprint</option> <option value="Sprint st">Sprint st</option> <option value="T509 speed t">T509 speed t</option> <option value="Thunder spor">Thunder spor</option> <option value="Thunderbird">Thunderbird</option> <option value="Thunderbird sport 900">Thunderbird sport 900</option> <option value="Tiger">Tiger</option> <option value="Tiger 900">Tiger 900</option> <option value="Trident">Trident</option> <option value="Trophy">Trophy</option> <option value="Trophy 1200">Trophy 1200</option> <option value="Tt 600">Tt 600</option></optgroup>
+           <optgroup label="Wuyang"><option value="Outros">Outros</option> <option value="Wy - 125 esd">Wy - 125 esd</option> <option value="Wy - 150 ex">Wy - 150 ex</option></optgroup>
+           <optgroup label="Yamaha"><option value="Bws">Bws</option> <option value="Crypton">Crypton</option> <option value="Cy 50 jog">Cy 50 jog</option> <option value="Drag star">Drag star</option> <option value="Dt">Dt</option> <option value="Fazer">Fazer</option> <option value="Fj">Fj</option> <option value="Fz1">Fz1</option> <option value="Fz6">Fz6</option> <option value="Fzr">Fzr</option> <option value="Jog teen">Jog teen</option> <option value="K9">K9</option> <option value="Lander">Lander</option> <option value="Majesty yp250">Majesty yp250</option> <option value="Moto yzf-r1 d">Moto yzf-r1 d</option> <option value="Mt">Mt</option> <option value="Neo">Neo</option> <option value="Neo at 115">Neo at 115</option> <option value="Outros">Outros</option> <option value="Quadriciclo yfm 125 grizzly">Quadriciclo yfm 125 grizzly</option> <option value="Quadriciclo yfm 250">Quadriciclo yfm 250</option> <option value="Quadriciclo yfm 250 big bear">Quadriciclo yfm 250 big bear</option> <option value="Quadriciclo yfm 350 grizzly">Quadriciclo yfm 350 grizzly</option> <option value="Quadriciclo yfm 350r">Quadriciclo yfm 350r</option> <option value="Quadriciclo yfm 700 grizzly">Quadriciclo yfm 700 grizzly</option> <option value="Quadriciclo yfm 700r">Quadriciclo yfm 700r</option> <option value="Quadriciclo yfm 80r">Quadriciclo yfm 80r</option> <option value="Quadriciclo yfz 450">Quadriciclo yfz 450</option> <option value="R1">R1</option> <option value="R6">R6</option> <option value="Rd">Rd</option> <option value="Rdz">Rdz</option> <option value="Road star">Road star</option> <option value="Royal star">Royal star</option> <option value="Scooter">Scooter</option> <option value="Tdm">Tdm</option> <option value="Tdm 225">Tdm 225</option> <option value="Tdr">Tdr</option> <option value="Tenere">Tenere</option> <option value="Ténéré 250">Ténéré 250</option> <option value="Trx">Trx</option> <option value="Tt">Tt</option> <option value="Tt-r 125">Tt-r 125</option> <option value="Virago">Virago</option> <option value="Vision street">Vision street</option> <option value="V-max">V-max</option> <option value="Vstar">Vstar</option> <option value="Wr 250 f">Wr 250 f</option> <option value="Xj">Xj</option> <option value="Xj6">Xj6</option> <option value="Xt">Xt</option> <option value="Xt 225">Xt 225</option> <option value="Xt 600 e">Xt 600 e</option> <option value="Xt 600 z ténéré">Xt 600 z ténéré</option> <option value="Xt 660">Xt 660</option> <option value="Xt 660r">Xt 660r</option> <option value="Xtz 125">Xtz 125</option> <option value="Xtz 125e">Xtz 125e</option> <option value="Xtz 125k">Xtz 125k</option> <option value="Xtz 250">Xtz 250</option> <option value="Xtz 750">Xtz 750</option> <option value="Xv">Xv</option> <option value="Xv 1100 virago">Xv 1100 virago</option> <option value="Xv 250 virago">Xv 250 virago</option> <option value="Xv 535 virago">Xv 535 virago</option> <option value="Xv 750 virago">Xv 750 virago</option> <option value="Xvs 650 drag star">Xvs 650 drag star</option> <option value="Xvs 950">Xvs 950</option> <option value="Y br 125 ed">Y br 125 ed</option> <option value="Ya 90 axis">Ya 90 axis</option> <option value="Ybr">Ybr</option> <option value="Ybr 125">Ybr 125</option> <option value="Ybr 125 e">Ybr 125 e</option> <option value="Ybr 125 ed">Ybr 125 ed</option> <option value="Ybr 125 k">Ybr 125 k</option> <option value="Ys 250">Ys 250</option> <option value="Ys 250 fazer">Ys 250 fazer</option> <option value="Yzf">Yzf</option> <option value="FACTOR 125">FACTOR 125</option> <option value="FAZER 150">FAZER 150</option> <option value="TENERE 250 ">TENERE 250 </option></optgroup> 
+          </div> 
+         </div> 
+         <div class="large-3 columns"> 
+          <label>Faixa de preço</label> 
+          <div class="row" range-filter filter-name="preco" filter-class="small-6 columns" ng-model="search.filters.preco"> 
+          </div> 
+         </div> 
+         <div class="large-3 columns"> 
+          <label>Ano do modelo</label> 
+          <div class="row" range-filter filter-name="ano_modelo" filter-class="small-6 columns" ng-model="search.filters['ano-modelo']"> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="buttons large-12 columns show-for-large-up"> 
+         <button type="submit" class="tiny">Pesquisar</button> 
+         <button class="tiny secondary hide" ng-click="categorySearchCtrl.openAdvancedSearch()">Pesquisa avançada </button> 
+         <button type="button" class="tiny secondary" ng-click="categorySearchCtrl.doMap()">Pesquisar no Mapa </button> 
+        </div> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div id="alerts" class="alerts"> 
+   <div class="row"></div> 
+  </div> 
+  <div class="page"> 
+   <div class="row sky-advertise show-for-xlarge-up"> 
+    <div class="left"> 
+     <div id="div-gpt-ad-sky-left"> 
+      <script type="text/javascript">
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-sky-left');
+            });
+        </script> 
+     </div> 
+    </div> 
+    <div class="right"> 
+     <div id="div-gpt-ad-sky"> 
+      <script type="text/javascript">
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-sky');
+            });
+        </script> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row section-advertise"> 
+    <div class="small-12 medium-8 large-9 columns expansible-advertise"> 
+     <div id="div-gpt-ad-super"> 
+      <script type="text/javascript">
+                googletag.cmd.push(function () {
+                    googletag.display("div-gpt-ad-super");
+                });
+            </script> 
+     </div> 
+    </div> 
+    <div class="button-advertise medium-4 large-3 columns"> 
+     <a href="/anunciar">Anuncie Grátis</a> 
+    </div> 
+   </div> 
+   <section class="row showcase showcase-small-card showcase-large-mixed"> 
+    <div class="small-12 large-3 columns"> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="f0e6d3e3" href="/motos/kawasaki-vulcan-900-custom/o/f0e6d3e3" class="showcase-offer category-border" data-offer-code="f0e6d3e3" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/3f/13c5/c5706f6a7aa67e78662105fa895ca49661c/1795941/thumb_49a643fe7bb846eed59837c4b500b489de28f522.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 3
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+         <span class="label">PREMIUM</span> 
+        </div> 
+       </figure> <h5>Kawasaki Vulcan 900 Custom</h5> 
+       <div class="price category-bg">
+         R$ 24.300,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2011</strong></p></li> 
+         <li><p>Quilometros <strong>12500</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/318f14ae2bbf101972efe38a3c702da01452369060">Natan</a> há mais de 1 ano 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="b05eb0a1" href="/motos/xre-300-12-barra-12/o/b05eb0a1" class="showcase-offer category-border" data-offer-code="b05eb0a1" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="   " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/8f/b35c/5c31ad6953fe1543d20f664fa84cb8c0872/2354957/thumb_6c6513b95f1c4eb6bb2704882f65cd9e1452b675.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 2
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+         <span class="label">PREMIUM</span> 
+        </div> 
+       </figure> <h5>XRE-300 12/12 </h5> 
+       <div class="price category-bg">
+         R$ 10.500,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+         <li><p>Quilometros <strong>14000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/lludovici">Primeiramão</a> há quase 2 meses 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="dd2bc2f9" href="/motos/honda-cb-400-em-excelente-estado-de-conservacao-84-barra-84/o/dd2bc2f9" class="showcase-offer category-border" data-offer-code="dd2bc2f9" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="       " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/e1/d87b/7b7aa7fe26aef932a3db880140c30d4bc78/2353086/thumb_95a748736363205077a50df72f5142d6dfadfd14.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 10
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>Honda CB 400 em excelente estado de conservação, 84/84</h5> 
+       <div class="price category-bg">
+         R$ 13.000,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>1984</strong></p></li> 
+         <li><p>Quilometros <strong>67000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/a48e8218a999f0b8d68783c9a08f42c21501589602">Fabio</a> há quase 2 meses 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="84e21cc9" href="/motos/honda-xlx-350r/o/84e21cc9" class="showcase-offer category-border" data-offer-code="84e21cc9" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="  " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/63/6c7c/7cf29af76d6b962fb92fc751f4e75a475b0/2342130/thumb_3bca7cc059f1980a5f350bbda5a0504db8317b5f.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 9
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>Honda XLX 350r</h5> 
+       <div class="price category-bg">
+         R$ 13.500,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>1990</strong></p></li> 
+         <li><p>Quilometros <strong>26500</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/15f004e9424f50510f8c6aad21139d491483611804">juvenal</a> há quase 2 meses 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="9abc303f" href="/motos/pronta-para-viajar/o/9abc303f" class="showcase-offer category-border" data-offer-code="9abc303f" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="  " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/a6/e9c6/c6ec2bb0de64595e5e0747e89ebd02a01f2/2353055/thumb_a8a06c5c32f4bb3dcbbdb74e38bf9f1a69bf77dd.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 7
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>Pronta para viajar</h5> 
+       <div class="price category-bg">
+         R$ 5.800,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2008</strong></p></li> 
+         <li><p>Quilometros <strong>110000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/a56c63bfdc59d730599ba5042c923e6a1501534223">sidney</a> há quase 2 meses 
+      </div> 
+     </div> 
+    </div> 
+    <div class="small-12 large-6 columns"> 
+     <ul data-orbit data-options="slide_number: false;navigation_arrows:false;"> 
+      <li> 
+       <div class="row"> 
+       </div> </li> 
+      <li> 
+       <div class="row"> 
+       </div> </li> 
+      <li> 
+       <div class="row"> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="small-12 large-3 columns"> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="9ce7a26d" href="/motos/kawasaki-versys-tourer-650-abs/o/9ce7a26d" class="showcase-offer category-border" data-offer-code="9ce7a26d" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="    " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/59/a528/2838227e6af3c641fb2f59491695fa1eaee/2359204/thumb_7d1e2dda71eb8c8eef946aef2a9c5940b8d1fa5f.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 6
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>KAWASAKI VERSYS TOURER 650 - ABS</h5> 
+       <div class="price category-bg">
+         R$ 25.000,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2013</strong></p></li> 
+         <li><p>Quilometros <strong>21000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/53cb8390679bc6bbe403ad56d41ffbd41504208626">Pedro</a> há 28 dias 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="93e98076" href="/motos/suzuki-burgman-125i-barra-2009-barra-prata/o/93e98076" class="showcase-offer category-border" data-offer-code="93e98076" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="    " src="http://static1.primeiramao.com.br/uploads/classifieds/photos/ac/f702/023f50843eca2a1a36a37f5c18885907cf5/2359931/thumb_a687ccddb1481d5be728ef4993caefc2e2b36aa1.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 6
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>Suzuki Burgman 125i / 2009 / Prata</h5> 
+       <div class="price category-bg">
+         R$ 5.150,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+         <li><p>Quilometros <strong>1263</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/dbcfb8f4a2bdafddddd77eee2e408e611504641944">Renata</a> há 23 dias 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="dd4594db" href="/motos/cb-600-f-hornet-2009-unico-dono/o/dd4594db" class="showcase-offer category-border" data-offer-code="dd4594db" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="      " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/8f/bd41/41efde70bae92c513374d6ff62e5f028c8f/2111328/thumb_a51782df13d0f4d8c31c89dda082ec45615da0a0.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 6
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>CB 600 F HORNET 2009 UNICO DONO</h5> 
+       <div class="price category-bg">
+         R$ 21.000,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+         <li><p>Quilometros <strong></strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/e630843b9b7217d26cc83c9d740c91961473766890">araci</a> há 11 dias 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="9d2d9e3b" href="/motos/cbr-1000-rr-fireblade-ano-2006/o/9d2d9e3b" class="showcase-offer category-border" data-offer-code="9d2d9e3b" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="     " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/46/d511/11aa9f91c4a96aeddbb5eb7bdeabbc4b933/2358276/thumb_a7488c5410228a1e1371d302f7113dacbaed4e81.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 6
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>CBR 1000 RR Fireblade ano 2006</h5> 
+       <div class="price category-bg">
+         R$ 29.500,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2006</strong></p></li> 
+         <li><p>Quilometros <strong>30000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/fiatuno">Rogério</a> há quase 1 mês 
+      </div> 
+     </div> 
+     <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+      <a id="2c4cdfbd" href="/motos/lander-250-branca-ano-2013/o/2c4cdfbd" class="showcase-offer category-border" data-offer-code="2c4cdfbd" ng-click="showDetails(this)"> 
+       <figure class="category-border"> 
+        <img alt="    " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/cb/17f0/f047e06fe4b5f88b1cf3618f91b364f4b8e/2356587/thumb_42c0133cac14ca59e438c47fa0007820fdf6c801.jpg"> 
+        <figcaption>
+         <i class="fi-photo"></i> 6
+        </figcaption> 
+        <div class="labels show-for-medium-up"> 
+        </div> 
+       </figure> <h5>LANDER 250 BRANCA ano 2013</h5> 
+       <div class="price category-bg">
+         R$ 10.950,00 
+       </div> 
+       <div class="specs"> 
+        <ul class="specs inline-list"> 
+         <li><p>Ano/Modelo <strong>2013</strong></p></li> 
+         <li><p>Quilometros <strong>14000</strong></p></li> 
+        </ul> 
+       </div> </a> 
+      <div class="showcase-owner">
+        por 
+       <a href="/anunciante/8da2bad3548662409aaef58a001b79341502994301">Anita</a> há quase 1 mês 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+   <div class="row content-section"> 
+    <div class="medium-12 large-4 large-push-8 columns show-for-medium-up"> 
+     <div id="div-gpt-ad-arroba"> 
+      <script type="text/javascript">
+                    googletag.cmd.push(function() {
+                        googletag.display('div-gpt-ad-arroba');
+                    });
+                </script> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer> 
+   <div class="row show-for-medium-up"> 
+    <div class="medium-4 columns"> 
+     <h5>Classificados</h5> 
+     <ul class="half"> 
+      <li><a href="/categoria/escritorio-comercio-e-industria">Escritório, Comércio e Indústria</a></li> 
+      <li><a href="/categoria/mix">Mix</a></li> 
+      <li><a href="/categoria/empregos-e-servicos">Empregos e Serviços</a></li> 
+      <li><a href="/categoria/informatica">Informática</a></li> 
+      <li><a href="/categoria/moda-esportes-e-lazer">Moda, Esportes e Lazer</a></li> 
+      <li><a href="/categoria/casa-jardim-e-decoracao">Casa, jardim e decoração</a></li> 
+      <li><a href="/categoria/eletrodomesticos">Eletrodomésticos</a></li> 
+      <li><a href="/categoria/pet-e-acessorios">Pet e acessórios</a></li> 
+      <li><a href="/categoria/agronegocio">Agronegócio</a></li> 
+      <li><a href="/categoria/acessorios-outros">Acessórios e outros</a></li> 
+      <li><a href="/categoria/som-imagem-e-hobbies">Som, Imagem e Hobbies</a></li> 
+      <li><a href="/categoria/negocios-e-oportunidades">Oportunidades de Negócio</a></li> 
+      <li><a href="/categoria/eletronicos-e-telefonia">Eletrônicos e telefonia</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-2 columns"> 
+     <h5>Usuário</h5> 
+     <ul> 
+      <li><a href="/anunciar">Quero anunciar</a></li> 
+      <li><a href="/login">Cadastre-se</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-2 columns"> 
+     <h5>Sobre</h5> 
+     <ul> 
+      <li><a href="/quem-somos">Quem Somos</a></li> 
+      <li><a href="/termos-de-uso">Regulamento</a></li> 
+      <li><a href="http://mediakit.primeiramao.com.br/" target="_blank">Mídia Kit</a></li> 
+      <li><a href="http://primeiramao.com.br/paginadigital" target="_blank">Versão Digital</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-4 columns"> 
+     <h5>Anúncie</h5> 
+     <div class="contact-phone"> 
+      <h6>Para você</h6> 
+      <span>(11) 3896-7900</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="copyright"> 
+    <div class="row"> 
+     <div class="small-12 medium-9 columns"> 
+      <p>©1995-2015 Primeiramão. Todos os direitos reservados.</p> 
+     </div> 
+     <div class="medium-3 columns text-center show-for-medium-up"> 
+      <a class="powered" href="http://www.codecraft63.com/?utm_source=primeiramao&amp;utm_medium=logo&amp;utm_content=client&amp;utm_campaign=powered"> <img alt="Powered" src="http://www.codecraft63.com/powered/codecraft.png"> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script id="user_menu.html" type="text/ng-template"><a href="/minha-conta" rel="nofollow">
+    <img ng-src="{{ profile.avatar.square }}" class="avatar" />
+    <span>{{ profile.name }}</span>
+</a>
+
+<ul class="dropdown hide-for-medium-up">
+    <li><label>{{ profile.name }}</label></li>
+    <li><a href="/minha-conta" rel="nofollow">Meu Primeiramão</a></a></li>
+    <li>
+        <a href="/minha-conta/alertas" rel="nofollow">
+            Mensagens
+</a>    </li>
+    <li class="divider"></li>
+    <li><a data-method="delete" href="/logout" rel="nofollow">Sair</a></a></li>
+</ul>
+</script> 
+  <script id="user_bar.html" type="text/ng-template"><nav class="user-bar show-for-medium-up">
+    <div class="row">
+        <div class="large-4 columns show-for-large-up left">
+            <h6>Olá <em>{{ profile.public_name }}</em><span ng-show="profile.messages.unread > 0">, <small>você tem <strong>{{ profile.messages.unread }}</strong> mensagens</small></span></h6>
+        </div>
+        <div class="small-12 large-8 columns">
+            <ul class="right">
+                <li><a href="/minha-conta" rel="nofollow">Editar meu perfil</a></li>
+                <li ng-show="profile.resales.length >= 1" data-dropdown="profile-resales-dropdown" data-options="is_hover:true"><a href="/minha-conta#resale" rel="nofollow">Minhas revendas</a></li>
+                <li><a href="/minha-conta/anuncios" rel="nofollow">Meus anúncios</a></li>
+                <li><a href="/minha-conta/favoritos" rel="nofollow">Meus favoritos</a></li>
+                <li class="divider"></li>
+                <li><a data-method="delete" href="/logout" rel="nofollow">Sair</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="profile-resales-dropdown" data-dropdown-content class="f-dropdown small">
+        <a ng-repeat="resale in profile.resales" ng-href="{{ resale.url }}">
+            <div class="row">
+                <div class="small-3 columns">
+                    <img ng-src="{{ resale.logo }}" alt="{{ resale.name }}">
+                </div>
+                <div class="small-9 columns">
+                    {{ resale.name }}
+                </div>
+            </div>
+        </a>
+    </div>
+</nav>
+</script> 
+  <script id="slideshow.html" type="text/ng-template"><img src="http://static3.primeiramao.com.br/assets/vertical/motos-973dfbf40a316b4ab46615123dc3f62e.jpg" ng-src="{{ slideshow.image.default }}" data-interchange="[{{ slideshow.image.mobile }}, (small)], [{{ slideshow.image.tablet }}, (medium)]" alt="{{ slideshow.image.title }}" />
+<figcaption class="show-for-medium-up" ng-show="slideshow.ad">
+    <a ng-href="{{ slideshow.ad.url }}">
+        <div class="avatar"><img ng-src="{{ slideshow.ad.owner.avatar }}" /></div>
+        <div class="title">{{ slideshow.image.title }}</div>
+        <div class="owner">por {{ slideshow.ad.owner.name }}</div>
+    </a>
+</figcaption>
+</script> 
+  <script src="http://static1.primeiramao.com.br/assets/vendors-04fbf9b11fdc7d745e8f46e52966a53d.js"></script> 
+  <script src="http://static0.primeiramao.com.br/assets/category-e4973965195996f297eb8ffbb7241430.js"></script> 
+  <script type="text/javascript">
+        var url = escape(location.href), title = escape(document.title);
+
+        function openChatWindow_373089(url,name,width,height,centralized,params){
+            var position="";
+            if(params==null){params="";} else {params=","+params;}
+            if(centralized!=false){
+                var top=(screen.height/2)-(height/2), left=(screen.width/2)-(width/2);
+                position="top="+top+",left="+left;
+            }
+            params=position+",width="+width+",height="+height+params;
+            return window.open(url,name,params);
+        }
+        function openChat() {
+            //openChatWindow_318224('http://www.linkws.com/chat/whois.jsp?talkerID=13909&userProductID=318224&origin=' + escape(location.href) + '&title=' + escape(document.title), "chatWindow_318224", 510, 380, true, "scrollbars=yes,resizable=yes");
+            openChatWindow_373089('http://www.linkws.com/chat/whois.jsp?userProductID=373089&origin=' + escape(location.href) + '&title=' + escape(document.title), "chatWindow_373089", 510, 380, true, "scrollbars=yes,resizable=yes");
+        }
+//        document.write('<img style=\"display:none\" height=0 width=0 border=0 src="http://www.linkws.com/webservices/chat/chatLinkImg.jsp?userProductID=318224&imageIndex=0&url='+url+'&title='+title+'&origin='+escape(document.referrer)+'">');
+    </script> 
+  <script type="text/javascript">
+      (function() {
+      var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+      hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+      })();
+    </script> 
+  <!-- script solicitado pela band --> 
+  <script>
+       var Config = window.config || {}
+
+       Config.Metricas = {
+         'parceiro'       : 'Bandparceiro-PrimeiraMao',
+         'canal'          : '',
+         'subcanal'       : ''
+       }; 
+
+       <!-- Google Tag Manager -->
+       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+       '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+       })(window,document,'script','dataLayer','GTM-CCNR');
+       <!-- End Google Tag Manager -->
+    </script>   
+ </body>
+</html>

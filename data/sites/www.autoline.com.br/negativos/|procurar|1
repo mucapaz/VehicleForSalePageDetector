@@ -1,0 +1,1796 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <script>
+        var timeInicial = new Date();
+    </script> 
+  <script id="scriptLayer"></script> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="shortcut icon" href="/images/icon-Autoline.ico"> 
+  <link rel="canonical" href="https://www.autoline.com.br/procurar"> 
+  <title>Compre seu Carro Novo, Seminovo ou Usados, Compre Moto | Autoline</title> 
+  <meta property="og:title" content="Compre seu Carro Novo, Seminovo ou Usados, Compre Moto | Autoline"> 
+  <meta name="description" content="Pesquise carros e motos novos, semi novos e usados no Autoline aqui você encontra as melhores ofertas. Entre e confira!"> 
+  <meta property="og:description" content="Pesquise carros e motos novos, semi novos e usados no Autoline aqui você encontra as melhores ofertas. Entre e confira!"> 
+  <script language="javascript">
+        function getCookie(chave) {
+            var ChaveValor = document.cookie.match('(^|;) ?' + chave + '=([^;]*)(;|$)');
+            return ChaveValor ? ChaveValor[2] : null;
+        }
+
+        function setCookie(name, value, exdays) {
+            var expires;
+            var date;
+
+            date = new Date(); //  criando o COOKIE com a data atual
+            date.setTime(date.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            expires = date.toUTCString();
+            document.cookie = name + "=" + value + "; expires=" + expires + ";domain=.autoline.com.br; path=/";
+        }
+
+        var LIP_LowPrecision = false; //false = pede permissao pelo navegador, Maior Precisao | true = nao pede permissao, Menor Precisao
+        function LocalizaIP_done(ip_data) {
+
+            if (!ip_data['error']) //esta linha eh um exemplo, deve trocá-la pelo programa que irá manipular os dados de Geolocalizacao
+            {
+                if (getCookie('GeoUF')==null){
+                    setCookie('GeoUF', ip_data['state'], 87600000);
+                    setCookie('GeoCity', ip_data['city'], 87600000);
+                    setCookie('FonteGeoLocation', "ip", 87600000);
+                }
+            }
+        }
+    </script> 
+  <script src="https://www.localizaip.com.br/api/geolocation.js.php?domain=autoline.com.br&amp;token=c2NvcHVzZ2VzdGFvQGdtYWlsLmNvbXw2MTI1NjUz"></script> 
+  <link href="/styles.css?v=xrTe9IEp-MWxTWEeBN3CCAFPVSGMnbR7B2Nq5S22Z-41" rel="stylesheet"> 
+  <script src="/jquery.js?v=Dhovu76KSiRrGV-h55JE6jtbg2-NMMVPHk7znCOHiFw1"></script> 
+  <script src="/scripts.js?v=AXZlEemJqwOETfggny_fe73Y7tb6hSAaL2cZWBr47LY1"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <meta name="google-site-verification" content="Kvjy_jK9VzZ_nZbp8t4l-eaMKd1geXaPaz03uShCu-o"> 
+  <meta name="msvalidate.01" content="7636683AEA475F9AF8CD45EA258871EE"> 
+  <meta name="google-site-verification" content="Kvjy_jK9VzZ_nZbp8t4l-eaMKd1geXaPaz03uShCu-o"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/271632123/Home1_468x60', [468, 60], 'div-gpt-ad-1477995249144-0').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/Home2_234x60', [234, 60], 'div-gpt-ad-1477995249144-1').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/Home3_300x250', [300, 250], 'div-gpt-ad-1477995249144-2').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/271632123/Autoline_Background_Fixed', 'div-gpt-ad-1477995249144-3').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/details', [297, 247], 'div-gpt-ad-1477995249144-4').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/middle2', [601, 100], 'div-gpt-ad-1477995249144-5').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca-div-1', [468, 60], 'div-gpt-ad-1477995249144-6').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca_div_1', [468, 60], 'div-gpt-ad-1477995249144-7').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca-div-2', [468, 60], 'div-gpt-ad-1477995249144-8').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca_div_2', [468, 60], 'div-gpt-ad-1477995249144-9').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/271632123/dhtm_970x250', 'div-gpt-ad-1477995249144-10').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script> 
+  <!-- DFP fim--> 
+  <style>
+    /*CSS Background*/
+    #div-gpt-ad-1477995249144-3 {
+        display: none;
+    }
+ 
+    @media screen and (min-width: 1100px) {
+        #div-gpt-ad-1477995249144-3 {
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index:-1000;
+        }
+            #div-gpt-ad-1477995249144-3 div {
+                text-align: center;
+                height: 100%;
+            }
+ 
+                #div-gpt-ad-1477995249144-3 div iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+    }
+
+ /*CSS DHTML*/
+    #div-gpt-ad-1477995249144-10 {
+        display: none;
+    }
+ 
+    @media screen and (min-width: 1100px) {
+        #div-gpt-ad-1477995249144-10 {
+            display: inline-table;
+            position: fixed;
+            left: calc(50% - 484px);
+            top: 40%;
+            right: 0;
+            z-index: 1100;
+        }
+            #div-gpt-ad-1477995249144-10 div {
+                text-align: center;
+                height: 100%;
+            }
+                #div-gpt-ad-1477995249144-10 div iframe {
+                    width: 970px;
+                    height: 250px;
+                }
+    }
+</style> 
+  <script type="text/javascript">
+        var appInsights=window.appInsights||function(config)
+        {
+            function r(config){ t[config] = function(){ var i = arguments; t.queue.push(function(){ t[config].apply(t, i)})} }
+            var t = { config:config},u=document,e=window,o='script',s=u.createElement(o),i,f;for(s.src=config.url||'//az416426.vo.msecnd.net/scripts/a/ai.0.js',u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=['Event','Exception','Metric','PageView','Trace','Ajax'];i.length;)r('track'+i.pop());return r('setAuthenticatedUserContext'),r('clearAuthenticatedUserContext'),config.disableExceptionTracking||(i='onerror',r('_'+i),f=e[i],e[i]=function(config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o),s}),t
+        }({
+            instrumentationKey:'72dd6db1-8c38-4605-a859-a39f76b12580'
+        });
+        
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script> 
+ </head> 
+ <body> 
+  <!-- /271632123/Autoline_Background_Fixed --> 
+  <div id="div-gpt-ad-1477995249144-3"> 
+   <script async type="text/javascript">
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1477995249144-3'); });
+        </script> 
+  </div> 
+  <nav class="navbar navbar-default navbar-fixed-top"> 
+   <div class="container"> 
+    <div class="navbar-header pull-left"> 
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+    </div> 
+    <div id="navbar" class="navbar-collapse collapse"> 
+     <ul class="nav navbar-nav"> 
+      <li class=" hidden-xs"><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li> 
+      <li class="active"><a href="/procurar">Comprar</a></li> 
+      <li class=" hidden-xs hidden-sm"><a href="/vender">Vender</a></li> 
+      <li class=""><a href="/fipe-tabela-de-preco">Tabela Fipe</a></li> 
+      <li class=""><a href="/simular-financiamento">Simular Financiamento</a></li> 
+      <li class=""><a href="/revista">Revista</a></li> 
+     </ul> 
+     <ul class="navbar-login hidden-xs hidden-sm"> 
+      <li><a href="/minha-pagina"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="login">Login</span></a></li> 
+      <li><p class="navbar-text">|</p></li> 
+      <li><a href="/central-da-revenda/minha-conta">Revendedor</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+  </nav> 
+  <div class="container bodycontainer"> 
+   <div class="row margintop"> 
+    <div class="col-xs-12 col-sm-4 .col-md-4 col-lg-4 logo-block"> 
+     <a class="" href="/"> <img src="/images/logoAutoline2.png" alt="Autoline logotipo image"> </a> 
+    </div> 
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg left-banner-thumb margintop center-mobile"> 
+     <!-- /271632123/Home2_234x60 --> 
+     <div id="div-gpt-ad-1477995249144-1" style="margin-bottom: 15px;padding-left: 30px;padding-right: 30px;height:60px; width:234px;"> 
+      <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477995249144-1'); });
+    </script> 
+     </div> 
+    </div> 
+    <div class="col-xs-8 col-sm-8 hidden-xs right-middle-big-banner"> 
+     <!-- /271632123/Home1_468x60 --> 
+     <div id="div-gpt-ad-1477995249144-0" style="margin-bottom: 15px;border-left-width: 20px;padding-left: 80px;padding-right: 80px;height:60px; width:468px;"> 
+      <script async type>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477995249144-0'); });
+    </script> 
+     </div> 
+    </div> 
+   </div> 
+   <!--   Busca rápida
+      <div class="row mt10 box-busca">
+            <div class="col-xs-12 col-sm-12 col-md-12 pull-right box-busca" id="box-busca">
+                <div class="input-group search-block">
+                    <input type="text" class="form-control text-center" name="txtBusca" id="txtBusca" placeholder="Encontre aqui o seu veículo">
+                    <span class="input-group-btn">
+                        <button class="btn btn-secondary btn-search btnsearch" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+         --> 
+   <input id="UserIdCh" name="UserIdCh" type="hidden" value="0"> 
+   <input id="UserNameCh" name="UserNameCh" type="hidden" value=""> 
+   <input id="UserEmailCh" name="UserEmailCh" type="hidden" value=""> 
+   <input id="UserAllowMailCh" name="UserAllowMailCh" type="hidden" value="False"> 
+   <input id="UserStateCh" name="UserStateCh" type="hidden" value=""> 
+   <input id="UserCityCh" name="UserCityCh" type="hidden" value=""> 
+   <script>
+    function getCookie(chave) {
+        var ChaveValor = document.cookie.match('(^|;) ?' + chave + '=([^;]*)(;|$)');
+        return ChaveValor ? ChaveValor[2] : null;
+    }
+
+    var userState = getCookie('GeoUF');
+    var userCity = getCookie('GeoCity');
+
+    var userId = $("#UserIdCh").val();
+    if (userId !== "0" && userId !== "") {
+        var userName = $("#UserNameCh").val();
+        var userEmail = $("#UserEmailCh").val();
+        var userAllowMail = $("#UserAllowMailCh").val().toLowerCase() === 'true';
+
+        if ($("#UserStateCh").val() != '') {
+            userState = $("#UserStateCh").val();
+            userCity = $("#UserCityCh").val();
+        }
+
+        if (userState != '' && userState != null) {
+            window.chaordic_meta = {
+                "page": "other",
+                "tags": [userCity, userState]
+            }
+        }
+        else {
+            window.chaordic_meta = {
+                "page": "other"
+            }
+        }
+
+        window.chaordic_meta.user = {
+                "id": userId,
+                "name": userName,
+                "email": userEmail,
+                "allow_mail_marketing": userAllowMail
+        }
+    } else {
+        if (userState != null) {
+            window.chaordic_meta = {
+                "page": "other",
+                "tags": [userCity, userState]
+            }
+        }
+        else {
+            window.chaordic_meta = {
+                "page": "other"
+            }
+        }
+    }
+</script> 
+   <!--
+<div class="row mt10 box-busca" >
+    <div class="col-xs-12 col-sm-12 col-md-12 pull-right box-busca" id="box-busca" style="margin:-5px 0px -19px 0px">
+        <form action="//busca.autoline.com.br/busca">
+            <input type="text" name="q" class="txt_search_chaordic" placeholder="&#xF002; Encontre aqui o seu veículo">
+        </form><br />
+    </div>
+</div>
+    --> 
+   <!-- Chaordic --> 
+   <div class="col-lg-12 col-xs-12 col-sm-12 cor-texto-cinza-escuro pl2"> 
+    <a class="breadcrumbs-cor-tamanho" href="/">Home</a> 
+    <span class="breadcrumbs-cor-tamanho">&gt; Comprar</span> 
+   </div> 
+   <script async defer src="//static.chaordicsystems.com/static/loader.js" data-apikey="autoline"></script> 
+   <div class="row advanced-search"> 
+    <div class="col-md-12"> 
+     <div chaordic="top"></div> 
+     <h1>Comprar Carros e Motos - Busca Avançada</h1> 
+     <div class="row"> 
+      <div class="col-sm-12"> 
+       <ul id="tabs" class="hidden-xs hidden-sm nav nav-tabs left-form-tabs left-form-tabs2 select-model-toggle" role="tablist"> 
+        <li role="presentation" class="active"> <a href="#marcas" role="tab" data-toggle="tab" style="padding-right: 30px !important;"><h2 class="m0 bold">Busca por Marcas</h2></a> </li> 
+        <li role="presentation"> <a href="#modelos" role="tab" data-toggle="tab" style="padding-right: 30px !important;"><h2 class="m0 bold">Mais Buscados</h2></a> </li> 
+        <li role="presentation"> <a href="#categorias" role="tab" data-toggle="tab" style="padding-right: 30px !important;"><h2 class="m0 bold">Categorias</h2></a> </li> 
+        <li role="presentation" class=""> <a href="#lojas" role="tab" data-toggle="tab" style="padding-right: 30px !important;"><h2 class="m0 bold">Lojas</h2></a> </li> 
+       </ul> 
+       <ul id="tabsMobile" class="visible-xs visible-sm nav nav-tabs left-form-tabs left-form-tabs2 select-model-toggle" role="tablist"> 
+        <li role="presentation" class="active"> <a href="#marcas" role="tab" data-toggle="tab"><h2 class="m0 bold">Busca por Marcas</h2></a> </li> 
+        <li role="presentation"> <a href="#modelos" role="tab" data-toggle="tab"><h2 class="m0 bold">Mais Buscados</h2></a> </li> 
+        <li role="presentation"> <a href="#categorias" role="tab" data-toggle="tab"><h2 class="m0 bold">Categoria</h2>s</a> </li> 
+        <li role="presentation" class=""> <a href="#lojas" role="tab" data-toggle="tab"><h2 class="m0 bold">Lojas</h2></a> </li> 
+       </ul> 
+       <div class="tab-content"> 
+        <div role="tabpanel" class="tab-pane active" id="marcas"> 
+         <div class="tab-content"> 
+          <div role="tabpanel" class="tab-pane carro active" style="padding: 0 0 0 0"> 
+           <ul class="list-inline makes"> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=101"> <img src="/images/marcas/carro/chevrolet.png" alt="Veículo Marca chevrolet"><br> Chevrolet </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=140"> <img src="/images/marcas/carro/fiat.png" alt="Veículo Marca fiat"><br> Fiat </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=83"> <img src="/images/marcas/carro/ford.png" alt="Veículo Marca ford"><br> Ford </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=84"> <img src="/images/marcas/carro/honda.png" alt="Veículo Marca honda"><br> Honda </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=1"> <img src="/images/marcas/carro/hyundai.png" alt="Veículo Marca hyundai"><br> Hyundai </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=45"> <img src="/images/marcas/carro/mitsubishi.png" alt="Veículo Marca mitsunishi"><br> Mitsubishi </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=63"> <img src="/images/marcas/carro/peugeot.png" alt="Veículo Marca peugeot"><br> Peugeot </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=65"> <img src="/images/marcas/carro/renault.png" alt="Veículo Marca renaut"><br> Renault </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=121"> <img src="/images/marcas/carro/toyota.png" alt="Veículo Marca toyota"><br> Toyota </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=122"> <img src="/images/marcas/carro/volkswagen.png" alt="Veículo Marca volkswagen"><br> Volkswagen </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=17"> <img src="/images/marcas/carro/citroen.png" alt="Veículo Marca citroen"><br> Citroen </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/carros?marca=37"> <img src="/images/marcas/carro/jeep.png" alt="Veículo Marca jeep"><br> Jeep </a> </li> 
+           </ul> 
+          </div> 
+          <div role="tabpanel" class="tab-pane moto" style="padding: 0 0 0 0"> 
+           <ul class="list-inline makes"> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=92"> <img src="/images/marcas/moto/harley_davidson.png" alt="Motorcicleta Marca harley davidson"><br> Harley-Davidson </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=14"> <img src="/images/marcas/moto/kawasaki.png" alt="Motorcicleta Marca kawasaki"><br> Kawasaki </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=131"> <img src="/images/marcas/moto/sundown.png" alt="Motorcicleta Marca sundown"><br> Sundown </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=128"> <img src="/images/marcas/moto/suzuki.png" alt="Motorcicleta Marca suzuki"><br> Suzuki </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=130"> <img src="/images/marcas/moto/yamaha.png" alt="Motorcicleta Marca yamaha"><br> Yamaha </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=29"> <img src="/images/marcas/moto/bmw.png" alt="Motorcicleta Marca bmw"><br> Bmw </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=143"> <img src="/images/marcas/moto/ducati.png" alt="Motorcicleta Marca ducati"><br> Ducati </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=93"> <img src="/images/marcas/moto/honda.png" alt="Motorcicleta Marca honda"><br> Honda </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=111"> <img src="/images/marcas/moto/dafra.png" alt="Motorcicleta Marca dafra"><br> Dafra </a> </li> 
+            <li class="text-center" style="padding: 5px 5px 25px 5px"> <a href="/procurar/motos?marca=15"> <img src="/images/marcas/moto/kasinski.png" alt="Motorcicleta Marca kasinski"><br> Kasinski </a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+        <div role="tabpanel" class="tab-pane" id="modelos" style="margin: 10px 0 0 0; padding: 0 0 10px 0;"> 
+         <ul class="nav nav-tabs left-form-tabs left-form-tabs2 select-model-toggle" role="tablist" style="background-color: white;"> 
+          <li role="presentation" class="active"> <a href="#carroRanking" role="tab" data-toggle="tab"><h2 class="m0 bold">Carros</h2></a> </li> 
+          <li role="presentation"> <a href="#motoRanking" role="tab" data-toggle="tab"><h2 class="m0 bold">Motos</h2></a> </li> 
+         </ul> 
+         <div class="tab-content"> 
+          <div role="tabpanel" id="carroRanking" class="tab-pane active"> 
+           <div class="col-sm-6 col-xs-12" style="font-size: 12px; font-family: 'Open Sans', sans-serif;"> 
+            <p style="font-size: larger;"> <b>Veja ranking dos MODELOS mais buscados no Autoline:</b> </p> 
+            <div class="col-sm-12 col-xs-12" style="background-color: white; padding: 15px;"> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 5px 0 0;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Car_Old.png" style="width: 30px;"></span> Carros <span style="font-weight: bold;">usados</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=367&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> FIAT UNO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=65&amp;modelo=850&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> RENAULT SANDERO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;modelo=3233&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> TOYOTA ETIOS </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=1&amp;modelo=469&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> HYUNDAI HB20 </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=233&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> CHEVROLET ONIX </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=122&amp;modelo=931&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> VOLKSWAGEN GOL </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;modelo=400&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> FORD KA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=353&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> FIAT PALIO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;modelo=379&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> FORD ECOSPORT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;modelo=765&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> NISSAN MARCH </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=122&amp;modelo=928&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> VOLKSWAGEN FOX </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;modelo=2788&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> TOYOTA COROLLA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=206&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> CHEVROLET CELTA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=3144&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> FIAT TORO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;modelo=3374&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> NISSAN KICKS </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=2993&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> CHEVROLET CORSA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=65&amp;modelo=832&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> RENAULT LOGAN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=84&amp;modelo=450&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> HONDA CIVIC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=235&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> CHEVROLET PRISMA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=3206&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> FIAT STRADA </a> 
+              <br> 
+             </div> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 0 0 5px;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Car_New.png" style="width: 35px;"></span> Carros <span style="font-weight: bold;">novos</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=233&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> CHEVROLET ONIX </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=44&amp;modelo=596&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> LIFAN X60 </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=3224&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> FIAT MOBI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=228&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> CHEVROLET MONTANA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=346&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> FIAT GRAND SIENA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=235&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> CHEVROLET PRISMA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=44&amp;modelo=3335&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> LIFAN 530 </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;modelo=400&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> FORD KA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;modelo=2948&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> CHEVROLET S-10 </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=353&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> FIAT PALIO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;modelo=367&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> FIAT UNO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=84&amp;modelo=450&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> HONDA CIVIC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;modelo=2778&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> TOYOTA HILUX </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=1&amp;modelo=469&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> HYUNDAI HB20 </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;modelo=765&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> NISSAN MARCH </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;modelo=379&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> FORD ECOSPORT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;modelo=3244&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> NISSAN VERSA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=122&amp;modelo=931&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> VOLKSWAGEN GOL </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=116&amp;modelo=3333&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> CHERY NEW QQ </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;modelo=2788&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> TOYOTA COROLLA </a> 
+              <br> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="col-sm-6 col-xs-12" style="font-size: 12px; font-family: 'Open Sans', sans-serif;"> 
+            <p style="font-size: larger;"> <b>Veja ranking das MARCAS mais buscadas no Autoline:</b> </p> 
+            <div class="col-sm-12 col-xs-12" style="background-color: white; padding: 15px;"> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 5px 0 0;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Car_Old.png" style="width: 30px;"></span> Carros <span style="font-weight: bold;">usados</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> FIAT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> CHEVROLET </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=65&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> RENAULT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=122&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> VOLKSWAGEN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> FORD </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=1&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> HYUNDAI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> TOYOTA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=84&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> HONDA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> NISSAN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=17&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> CITROEN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=63&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> PEUGEOT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=37&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> JEEP </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=45&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> MITSUBISHI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=3&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> KIA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=4&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> AUDI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=7&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> BMW </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=50&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> MERCEDES-BENZ </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=116&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> CHERY </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=35&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> JAC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=41&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> LAND ROVER </a> 
+              <br> 
+             </div> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 0 0 5px;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Car_New.png" style="width: 35px;"></span> Carros <span style="font-weight: bold;">novos</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=101&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> CHEVROLET </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=140&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> FIAT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=44&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> LIFAN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=83&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> FORD </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=122&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> VOLKSWAGEN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=84&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> HONDA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=121&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> TOYOTA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=54&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> NISSAN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=1&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> HYUNDAI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=65&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> RENAULT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=116&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> CHERY </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=4&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> AUDI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=37&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> JEEP </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=63&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> PEUGEOT </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=45&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> MITSUBISHI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=3&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> KIA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=50&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> MERCEDES-BENZ </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=17&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> CITROEN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=7&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> BMW </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/carros?marca=41&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> LAND ROVER </a> 
+              <br> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div role="tabpanel" id="motoRanking" class="tab-pane"> 
+           <div class="col-sm-6 col-xs-12" style="font-size: 12px; font-family: 'Open Sans', sans-serif;"> 
+            <p style="font-size: larger;"> <b>Veja ranking dos MODELOS mais buscados no Autoline:</b> </p> 
+            <div class="col-sm-12 col-xs-12" style="background-color: white; padding: 15px;"> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 5px 0 0;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Moto_Old.png" style="width: 30px;"></span> Motos <span style="font-weight: bold;">usadas</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1501&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> HONDA CG 125 FAN GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1564&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> HONDA POP 110I GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1519&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> HONDA CG 150 FAN-ESDI MIX ETA./GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=29&amp;modelo=1023&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> BMW F 800 GS STANDARD GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1444&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> HONDA CB 300 R(STD) GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=92&amp;modelo=1403&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> HARLEY-DAVIDSON SPORTSTER 883 XL-N IRON GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1431&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> HONDA BIZ 100-ES GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3095&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> HONDA CB TWISTER 250CC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1493&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> HONDA CBX 250 TWISTER GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3128&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> HONDA BIZ 125 FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1467&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> HONDA CBR 1000 RR FIREBLADE(STD) GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1428&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> HONDA BIZ 125-ES FLEX ETA./GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1503&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> HONDA CG 125 FAN-KS GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1582&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> HONDA XRE 300 (STD) GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=29&amp;modelo=1046&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> BMW G 650 GS GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1430&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> HONDA BIZ 125-EX FLEX ETA./GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;modelo=2195&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> YAMAHA YZF R-1 1000 GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;modelo=2192&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> YAMAHA YS 250 FAZER GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1460&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> HONDA CB 600 F HORNET GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=128&amp;modelo=1971&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> SUZUKI BOULEVARD M800 GAS. MEC BASICO </a> 
+              <br> 
+             </div> 
+             <div class="col-sm-6 col-xs-12" style="padding: 0 0 0 5px;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Moto_New.png" style="width: 30px;"></span> Motos <span style="font-weight: bold;">novas</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1564&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> HONDA POP 110I GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1503&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> HONDA CG 125 FAN-KS GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3615&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> HONDA POP 110I GAS. AUT BASICO 110I </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1501&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> HONDA CG 125 FAN GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3220&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> HONDA CG 160 START </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3128&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> HONDA BIZ 125 FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3132&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> HONDA BIZ 110I </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3612&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> HONDA CG 160 START 160 START </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3241&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> HONDA CG 160 CARGO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3611&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> HONDA CG 160 FAN ESDI FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=2425&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> HONDA CG 160 TITAN FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=2424&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> HONDA CG 160 FAN FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=1561&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> HONDA PCX 150 GAS. AUT BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;modelo=2191&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> YAMAHA YS 150 FAZER SED ETA./GAS. MEC BASICO </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;modelo=3102&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> YAMAHA YBR 150 FACTOR ED </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;modelo=3643&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> YAMAHA NEO AUTOMATIC 125CC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3613&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> HONDA NXR 160 BROS ESDD FLEXONE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3095&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> HONDA CB TWISTER 250CC </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3105&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> HONDA NXR 160 BROS </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;modelo=3614&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> HONDA PCX 150 GAS. AUT BASICO 150 </a> 
+              <br> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="col-sm-6 col-xs-12" style="font-size: 12px; font-family: 'Open Sans', sans-serif;"> 
+            <p style="font-size: larger;"> <b>Veja ranking das MARCAS mais buscadas no Autoline:</b> </p> 
+            <div class="col-sm-12 col-xs-12" style="background-color: white; padding: 15px;"> 
+             <div class="col-sm-6 col-xs-12" style="background-color: white; padding: 0 5px 0 0;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Moto_Old.png" style="width: 30px;"></span> Motos <span style="font-weight: bold;">usadas</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> HONDA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> YAMAHA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=92&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> HARLEY-DAVIDSON </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=29&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> BMW </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=128&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> SUZUKI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=14&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> KAWASAKI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=139&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> TRIUMPH </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=143&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> DUCATI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=111&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> DAFRA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=15&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> KASINSKI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=127&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> MV AGUSTA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=90&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">12 </span> BRP-BOMBARDIER </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=147&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">13 </span> AGRALE </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=118&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">14 </span> KTM </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=77&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">15 </span> ALANMOTORS </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=136&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">16 </span> MVK </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=161&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">17 </span> GAS GAS </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=138&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">18 </span> TRAXX </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=125&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">19 </span> MOTOCAR </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=165&amp;usados=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">20 </span> HUSABERG </a> 
+              <br> 
+             </div> 
+             <div class="col-sm-6 col-xs-12" style="background-color: white; padding: 0 0 0 5px;"> 
+              <p style="font-size: 15px; color: rgb(51, 122, 183)"> <span><img src="/images/Moto_New.png" style="width: 30px;"></span> Motos <span style="font-weight: bold;">novas</span> </p> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=93&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">1 </span> HONDA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=130&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">2 </span> YAMAHA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=143&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">3 </span> DUCATI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=14&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">4 </span> KAWASAKI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=128&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">5 </span> SUZUKI </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=92&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">6 </span> HARLEY-DAVIDSON </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=29&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">7 </span> BMW </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=139&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">8 </span> TRIUMPH </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=111&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">9 </span> DAFRA </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=201&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">10 </span> INDIAN </a> 
+              <br> 
+              <a style="line-height: 1.7;" href="/procurar/motos?marca=138&amp;zeroKm=sim"> <span style="font-weight: bold; color: rgb(51, 122, 183);">11 </span> TRAXX </a> 
+              <br> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="clearfix"></div> 
+        </div> 
+        <div role="tabpanel" class="tab-pane" id="categorias"> 
+         <div class="tab-content"> 
+          <div role="tabpanel" class="tab-pane carro active" style="padding: 0"> 
+           <ul class="list-inline"> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=1"> <img src="/images/carrocerias/conversivel.png" alt="Veículo conversivel"><br> Conversível </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=2"> <img src="/images/carrocerias/esportivo.png" alt="Veículo esportivo"><br> Esportivo </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=3"> <img src="/images/carrocerias/hatch.png" alt="Veículo hatch"><br> Hatch </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=7"> <img src="/images/carrocerias/minivan.png" alt="Veículo minivan"><br> Mini Van </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=8"> <img src="/images/carrocerias/picape.png" alt="Veículo picape"><br> Picape </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=10"> <img src="/images/carrocerias/raridade.png" alt="Veículo raridade"><br> Raridade </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=4"> <img src="/images/carrocerias/seda.png" alt="Veículo seda"><br> Sedan </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=5"> <img src="/images/carrocerias/utilitario.png" alt="Veículo utilitario"><br> Utilitário </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=6"> <img src="/images/carrocerias/van.png" alt="Veículo van"><br> Van </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=9"> <img src="/images/carrocerias/wagon.png" alt="Veículo wagon"><br> Wagon/Perua </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=25"> <img src="/images/carrocerias/categoria-suv.png" alt="Veículo SUV"><br> SUV </a> </li> 
+            <li class="text-center"> <a href="/procurar/carros?categoria=26"> <img src="/images/carrocerias/categoria-coupe.png" alt="Veículo Coupê"><br> Coupê </a> </li> 
+           </ul> 
+          </div> 
+          <div role="tabpanel" class="tab-pane moto"> 
+           <ul class="list-inline"> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=11"> <img src="/images/carrocerias/custom.png" alt="Motocicleta custom"><br> Custom </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=13"> <img src="/images/carrocerias/esportiva.png" alt="Motocicleta esportiva"><br> Esportiva </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=14"> <img src="/images/carrocerias/naked.png" alt="Motocicleta naked"><br> Naked </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=15"> <img src="/images/carrocerias/off-road.png" alt="Motocicleta off-road"><br> Off-Road </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=16"> <img src="/images/carrocerias/quadriciculo.png" alt="Motocicleta quadriciclo"><br> Quadriciclo </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=17"> <img src="/images/carrocerias/scooter.png" alt="Motocicleta scooter"><br> Scooter </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=18"> <img src="/images/carrocerias/street.png" alt="Motocicleta street"><br> Street </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=19"> <img src="/images/carrocerias/super-motard.png" alt="Motocicleta super-motard"><br> SuperMotard </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=21"> <img src="/images/carrocerias/trail.png" alt="Motocicleta treil"><br> Trail </a> </li> 
+            <li class="text-center"> <a href="/procurar/motos?categoria=23"> <img src="/images/carrocerias/triciclo.png" alt="Motocicleta triciclo"><br> Triciclo </a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+        <div role="tabpanel" class="tab-pane " id="lojas"> 
+         <form action="/procurar" method="post">
+          <input data-val="true" data-val-required="The IsSearch field is required." id="IsSearch" name="IsSearch" type="hidden" value="True">
+          <input id="NameOpcaoAcao" name="NameOpcaoAcao" type="hidden" value=""> 
+          <input type="hidden" name="GeolocationMyOut" id="GeolocationMyOut" value="true"> 
+          <input type="hidden" name="CEP" id="CEP"> 
+          <div class="tab-content"> 
+           <div role="tabpanel" class="tab-pane active"> 
+            <div class="col-xs-12 col-sm-12"> 
+             <ul class="list-inline"> 
+              <li> <input data-val="true" data-val-number="O campo SegmentLoja deve ser um número." id="SegmentLoja" name="SegmentLoja" type="hidden" value="1"> <input checked id="segLojaCarro" name="segLoja" type="radio" value="1"> Carro <input id="segLojaMoto" name="segLoja" type="radio" value="2"> Moto </li> 
+             </ul> 
+            </div> 
+            <h3> LOJA/CONCESSIONÁRIA </h3> 
+            <div> 
+             <div class="row"> 
+              <label class="control-label col-md-2">Nome da loja</label> 
+              <div class="col-xs-6" style="text-align: left;"> 
+               <input class="form-control" id="NomeLoja" name="NomeLoja" placeholder="Nome da loja" type="text" value=""> 
+               <span class="field-validation-valid text-danger" data-valmsg-for="NomeLoja" data-valmsg-replace="true"></span> 
+              </div> 
+             </div> 
+             <div class="row hidden" id="msgRetornoConsulta"> 
+              <br> 
+              <label class="control-label col-md-8">Não há revendas para a busca sugerida.</label> 
+             </div> 
+            </div> 
+            <div class="col-sm-12"> 
+             <br> 
+             <button type="submit" class="btn btn-default2 lojas-pesq" data-loja-pesq="loja" style="float: right;">Buscar</button> 
+            </div> 
+           </div> 
+           <div class="clearfix"></div> 
+          </div> 
+          <div class="clearfix"></div> 
+         </form> 
+         <form action="/procurar" method="post">
+          <input data-val="true" data-val-required="The IsSearch field is required." id="IsSearch" name="IsSearch" type="hidden" value="True">
+          <input id="NameOpcaoAcao" name="NameOpcaoAcao" type="hidden" value=""> 
+          <input type="hidden" name="GeolocationMyOut" id="GeolocationMyOut" value="true"> 
+          <input type="hidden" name="CEP" id="CEP"> 
+          <hr style="background-color: #9D081E; height: 3px;"> 
+          <div class="tab-content"> 
+           <div role="tabpanel" class="tab-pane active"> 
+            <div class="col-xs-12 col-sm-12"> 
+             <ul class="list-inline"> 
+              <li> <input data-val="true" data-val-number="O campo SegmentId deve ser um número." id="SegmentId" name="SegmentId" type="hidden" value="1"> <input checked id="segLocCarro" name="segLoc" type="radio" value="1"> Carro <input id="segLocMoto" name="segLoc" type="radio" value="2"> Moto </li> 
+             </ul> 
+            </div> 
+            <h3> POR LOCALIDADE </h3> 
+            <div> 
+             <div class="row" style="margin-bottom:20px"> 
+              <label class="control-label col-xs-2 col-sm-2" for="estado">Estado</label> 
+              <div class="col-xs-3 col-sm-3"> 
+               <select class="selectpicker estado-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith" data-val="true" data-val-number="O campo Estado deve ser um número." id="Estado" name="Estado"><option value="">Todos</option> <option value="1">AC</option> <option value="2">AL</option> <option value="3">AP</option> <option value="4">AM</option> <option value="5">BA</option> <option value="6">CE</option> <option value="7">DF</option> <option value="8">ES</option> <option value="9">GO</option> <option value="10">MA</option> <option value="11">MT</option> <option value="12">MS</option> <option value="13">MG</option> <option value="14">PA</option> <option value="15">PB</option> <option value="16">PR</option> <option value="17">PE</option> <option value="18">PI</option> <option value="19">RJ</option> <option value="20">RN</option> <option value="21">RS</option> <option value="22">RO</option> <option value="23">RR</option> <option value="24">SC</option> <option value="25">SP</option> <option value="26">SE</option> <option value="27">TO</option> </select> 
+               <span class="field-validation-valid text-danger" data-valmsg-for="Estado" data-valmsg-replace="true"></span> 
+              </div> 
+              <label class="control-label col-xs-2 col-sm-2" for="cidade">Cidade</label> 
+              <div class="col-xs-3 col-sm-3"> 
+               <select class="selectpicker cidade-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith" data-val="true" data-val-number="O campo Cidade deve ser um número." disabled id="Cidade" name="Cidade"><option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+            </div> 
+            <br> 
+            <div class="col-sm-12"> 
+             <button type="submit" class="btn btn-default2 lojas-pesq" data-loja-pesq="localidade" style="float: right;">Buscar</button> 
+            </div> 
+           </div> 
+           <div class="clearfix"></div> 
+          </div> 
+          <div class="clearfix"></div> 
+         </form> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br> 
+     <div id="divBusinessUserSearch" class="hidden" style="background-color:#e3e3e3;"> 
+      <div class="col-xs-12 col-sm-12" style="text-align: -webkit-right;"> 
+       <div class="col-xs-12 col-sm-12" style="padding: 0"> 
+        <hr style="background-color: gray; width: 100%; border-width: 0; border-top: 5px; height: 1px;"> 
+       </div> 
+      </div> 
+      <div class="clearfix"></div> 
+      <input type="hidden" id="seller-address" name="seller-address" value=""> 
+      <ul> 
+       <li> <p>Não há revendas para a busca sugerida.</p> </li> 
+      </ul> 
+      <div class="col-xs-12 col-sm-12" style="text-align: -webkit-right;"> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="modal fade map-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"> 
+       <div class="modal-dialog modal-lg"> 
+        <div class="modal-content"> 
+         <div style=" width: 100%; height: 500px; " id="map"> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDNhG_icI8mgGZyFoS6X8XRoTMgEaKXXfU"></script> 
+      <script>
+                var mapCanvas = document.getElementById('map');
+                var mapOptions = {
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                }
+                var map = new google.maps.Map(mapCanvas, mapOptions);
+                var geocoder = new google.maps.Geocoder();
+
+                $(".map-modal").on('shown.bs.modal', function () {
+                    var x = $("#seller-address").val().replace(/\s+/g, " ").trim();
+                    geocoder.geocode({ 'address': $("#seller-address").val().replace(/\s+/g, " ").trim() }, function (results, status) {
+                        if (status == google.maps.GeocoderStatus.OK) {
+                            map.setCenter(results[0].geometry.location);
+                            var marker = new google.maps.Marker({
+                                map: map,
+                                position: results[0].geometry.location
+                            });
+                        }
+                    });
+
+                    google.maps.event.trigger(map, "resize");
+                });
+
+                $(".end-google").on("click", function () {
+                    var end = $(this).attr("data-end-google");
+                    $("#seller-address").val(end);
+                });
+            </script> 
+     </div> 
+     <div class="clearfix"></div> 
+     <div chaordic="middle"></div> 
+     <div class="clearfix"></div> 
+     <div class="row" id="searchAdvanced"> 
+      <div class="col-sm-12"> 
+       <ul class="nav nav-tabs left-form-tabs left-form-tabs2 select-model-toggle" role="tablist"> 
+        <li role="presentation" class="active"> <a href="#carro" role="tab" data-toggle="tab"><h2 class="m0 bold">Carros</h2></a> </li> 
+        <li role="presentation"> <a href="#moto" role="tab" data-toggle="tab"><h2 class="m0 bold">Motos</h2></a> </li> 
+       </ul> 
+       <div class="tab-content"> 
+        <div role="tabpanel" class="tab-pane active" id="carro" style="padding: 0 20px"> 
+         <form action="/procurar/carros" class="form-inline form-horizontal" method="get"> 
+          <input type="hidden" name="GeolocationMyOut" id="GeolocationMyOut" value="true"> 
+          <input type="hidden" name="CEP" id="CEP"> 
+          <input class="lookup-segment" type="hidden" value="1"> 
+          <div class="row" style="background-color: #E3E3E3"> 
+           <div class="col-md-5"> 
+            <h3 class="fs24"> CONDIÇÃO </h3> 
+            <ul class="list-inline"> 
+             <li> <label> <input class="used-checkbox" type="checkbox" name="usados" value="sim" checked> Usado </label> </li> 
+             <li> <label> <input class="zerokm-checkbox" type="checkbox" name="zeroKm" value="sim" checked> 0 km </label> </li> 
+            </ul> 
+           </div> 
+           <div class="col-md-7"> 
+            <h3 class="fs24"> ANUNCIANTE </h3> 
+            <ul class="list-inline"> 
+             <li> <label> <input type="checkbox" name="lojas" value="sim" checked> Loja </label> </li> 
+             <li> <label> <input type="checkbox" name="concessionarias" value="sim" checked> Concessionárias </label> </li> 
+             <li> <label> <input type="checkbox" name="particulares" value="sim" checked> Particulares </label> </li> 
+            </ul> 
+           </div> 
+          </div> 
+          <div class="row" style="background-color: #DFDFDF"> 
+           <div class="col-md-12"> 
+            <h3 class="fs24"> LOCALIZAÇÃO </h3> 
+            <div class="location-search-content-car"> 
+             <div class="row" style="margin-bottom:20px"> 
+              <label class="control-label col-md-2" for="estado">Estado</label> 
+              <div class="col-md-3"> 
+               <select name="estado" class="selectpicker state-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> <option value="1">AC</option> <option value="2">AL</option> <option value="3">AP</option> <option value="4">AM</option> <option value="5">BA</option> <option value="6">CE</option> <option value="7">DF</option> <option value="8">ES</option> <option value="9">GO</option> <option value="10">MA</option> <option value="11">MT</option> <option value="12">MS</option> <option value="13">MG</option> <option value="14">PA</option> <option value="15">PB</option> <option value="16">PR</option> <option value="17">PE</option> <option value="18">PI</option> <option value="19">RJ</option> <option value="20">RN</option> <option value="21">RS</option> <option value="22">RO</option> <option value="23">RR</option> <option value="24">SC</option> <option value="25">SP</option> <option value="26">SE</option> <option value="27">TO</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="cidade">Cidade</label> 
+              <div class="col-md-3"> 
+               <select name="cidade" class="selectpicker city-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith" disabled> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="row"> 
+           <div class="col-md-12"> 
+            <h3 class="fs24"> VEÍCULO </h3> 
+            <div class="row"> 
+             <div class="form-group col-md-4"> 
+              <label class="control-label col-md-3" for="marca">Marca</label> 
+              <div class="col-md-9"> 
+               <select name="marca" class="selectpicker lookup-makeId" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+             <div class="form-group col-md-4"> 
+              <label class="control-label col-md-3" for="modelo">Modelo</label> 
+              <div class="col-md-9"> 
+               <select name="modelo" class="selectpicker lookup-modelId" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+             <div class="form-group versao-carro col-md-4"> 
+              <label class="control-label col-md-3" for="modelo">Versão</label> 
+              <div class="col-md-9"> 
+               <select name="versao" class="selectpicker lookup-modelVersionAllId" disabled data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+            </div> 
+            <h3></h3> 
+            <div class="sliders-content-car"> 
+             <div class="row"> 
+              <div class="form-group col-md-4"> 
+               <label class="control-label col-md-3" for="ano">Ano</label> 
+               <div class="col-md-9"> 
+                <div class="row"> 
+                 <div class="col-xs-6"> 
+                  <input type="text" class="form-control slider-min-year" maxlength="4" data-inputmask="'mask': '9999'"> 
+                 </div> 
+                 <div class="col-xs-offset-0 col-xs-6"> 
+                  <input type="text" class="form-control slider-max-year" maxlength="4" data-inputmask="'mask': '9999'"> 
+                 </div> 
+                </div> 
+                <div class="row"> 
+                 <div class="col-md-12"> 
+                  <input name="ano" style="width: 100%" type="text" class="slider-year" value="" data-default-min="1962" data-default-max="2018" data-slider-min="1962" data-slider-max="2018" data-slider-step="1" data-slider-tooltip="hide"> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="form-group col-md-4"> 
+               <label class="control-label col-md-3" for="km">Km</label> 
+               <div class="col-md-9"> 
+                <div class="row"> 
+                 <div class="col-xs-8"> 
+                  <input type="text" class="form-control slider-max-km" maxlength="10" data-inputmask="'alias': 'integer', 'radixPoint': ',', 'rightAlign': false, 'allowMinus': false, 'allowPlus': false, 'autoGroup': true, 'groupSeparator': '.', 'suffix': ' km', 'autoUnmask': true"> 
+                 </div> 
+                </div> 
+                <div class="row"> 
+                 <div class="col-md-12"> 
+                  <input name="km" style="width: 100%" type="text" class="slider-km" value="500000" data-slider-value="500000" data-slider-min="0" data-slider-max="500000" data-slider-step="1000" data-slider-tooltip="hide"> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+              <div class="form-group col-md-4"> 
+               <label class="control-label col-md-3" for="preco">Preço</label> 
+               <div class="col-md-9"> 
+                <div class="row"> 
+                 <div style="width: 40%; float: left;margin-left: 7%"> 
+                  <input type="text" class="form-control slider-min-price" maxlength="12" data-inputmask="'alias': 'currency', 'groupSeparator': '.', 'radixPoint': ',', 'autoGroup': true, 'digits': 0, 'digitsOptional': false, 'prefix': '', 'placeholder': '0', 'rightAlign': false, 'allowMinus': false, 'allowPlus': false, 'autoUnmask': true"> 
+                 </div> 
+                 <div style="width: 43%; float: left;margin-left: 3%"> 
+                  <input type="text" class="form-control slider-max-price" maxlength="12" data-inputmask="'alias': 'currency', 'groupSeparator': '.', 'radixPoint': ',', 'autoGroup': true, 'digits': 0, 'digitsOptional': false, 'prefix': '', 'placeholder': '0', 'rightAlign': false, 'allowMinus': false, 'allowPlus': false, 'autoUnmask': true"> 
+                 </div> 
+                </div> 
+                <div class="row"> 
+                 <div class="col-md-12"> 
+                  <input name="preco" style="width: 100%" type="text" class="slider-price" value="" data-slider-value="0" data-slider-min="0" data-slider-max="2000000" data-slider-step="50000" data-slider-tooltip="hide"> 
+                 </div> 
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="row more-details" style="background-color: #DFDFDF"> 
+             <div class="col-md-12"> 
+              <h3 class="fs24"> MAIS DETALHES </h3> 
+             </div> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="cambio">Câmbio</label> 
+              <div class="col-md-3"> 
+               <select name="cambio" class="selectpicker" multiple> <option value="1">Automática</option> <option value="2">Automática Sequencial</option> <option value="5">Automatizado</option> <option value="3">CVT</option> <option value="4">Manual</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="cor">Cor</label> 
+              <div class="col-md-3"> 
+               <select name="cor" class="selectpicker" multiple> <option value="6" data-content="<span style=&quot;color: #ffff00&quot; class='glyphicon glyphicon-stop'></span> Amarelo">Amarelo</option> <option value="1" data-content="<span style=&quot;color: #ff&quot; class='glyphicon glyphicon-stop'></span> Azul">Azul</option> <option value="9" data-content="<span style=&quot;color: #f5f5dc&quot; class='glyphicon glyphicon-stop'></span> Bege">Bege</option> <option value="3" data-content="<span style=&quot;color: #ffffff&quot; class='glyphicon glyphicon-stop'></span> Branco">Branco</option> <option value="8" data-content="<span style=&quot;color: #808080&quot; class='glyphicon glyphicon-stop'></span> Cinza">Cinza</option> <option value="12" data-content="<span style=&quot;color: #ffd700&quot; class='glyphicon glyphicon-stop'></span> Dourado">Dourado</option> <option value="13" data-content="<span style=&quot;color: #ff7f00&quot; class='glyphicon glyphicon-stop'></span> Laranja">Laranja</option> <option value="14" data-content="<span style=&quot;color: #964b00&quot; class='glyphicon glyphicon-stop'></span> Marrom">Marrom</option> <option value="16" data-content="<span style=&quot;color: #ffffff&quot; class='glyphicon glyphicon-stop'></span> Outra">Outra</option> <option value="7" data-content="<span style=&quot;color: #c0c0c0&quot; class='glyphicon glyphicon-stop'></span> Prata">Prata</option> <option value="2" data-content="<span style=&quot;color: #0&quot; class='glyphicon glyphicon-stop'></span> Preto">Preto</option> <option value="15" data-content="<span style=&quot;color: #ffc0cb&quot; class='glyphicon glyphicon-stop'></span> Rosa">Rosa</option> <option value="11" data-content="<span style=&quot;color: #800080&quot; class='glyphicon glyphicon-stop'></span> Roxo">Roxo</option> <option value="4" data-content="<span style=&quot;color: #ff00&quot; class='glyphicon glyphicon-stop'></span> Verde">Verde</option> <option value="5" data-content="<span style=&quot;color: #ff0000&quot; class='glyphicon glyphicon-stop'></span> Vermelho">Vermelho</option> <option value="10" data-content="<span style=&quot;color: #900020&quot; class='glyphicon glyphicon-stop'></span> Vinho">Vinho</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="combustivel">Combustível</label> 
+              <div class="col-md-3"> 
+               <select name="combustivel" class="selectpicker" multiple> <option value="1">Gasolina</option> <option value="10">Híbrido</option> <option value="2">Álcool</option> <option value="11">Elétrico</option> <option value="3">Diesel</option> <option value="4">Gás Natural</option> <option value="5">Gasolina e Álcool</option> <option value="6">Gasolina e Gás Natural</option> <option value="7">Álcool e Gás Natural</option> <option value="8">Gasolina, Álcool e Gás Natural</option> <option value="9">Gasolina, Álcool, Gás Natural e Benzina</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="finalPlaca">Final da placa</label> 
+              <div class="col-md-4 form-control-static" style="padding-bottom: 0"> 
+               <label> <input name="finalPlaca" value="0" type="checkbox"> 0 </label> 
+               <label> <input name="finalPlaca" value="1" type="checkbox"> 1 </label> 
+               <label> <input name="finalPlaca" value="2" type="checkbox"> 2 </label> 
+               <label> <input name="finalPlaca" value="3" type="checkbox"> 3 </label> 
+               <label> <input name="finalPlaca" value="4" type="checkbox"> 4 </label> 
+               <label> <input name="finalPlaca" value="5" type="checkbox"> 5 </label> 
+               <label> <input name="finalPlaca" value="6" type="checkbox"> 6 </label> 
+               <label> <input name="finalPlaca" value="7" type="checkbox"> 7 </label> 
+               <label> <input name="finalPlaca" value="8" type="checkbox"> 8 </label> 
+               <label> <input name="finalPlaca" value="9" type="checkbox"> 9 </label> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="portas">Portas</label> 
+              <div class="col-md-3"> 
+               <select name="portas" class="selectpicker" multiple> <option value="2">Duas</option> <option value="3">Três</option> <option value="4">Quatro</option> <option value="5">Cinco</option> <option value="6">Nenhuma</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="">Tipo de anúncio</label> 
+              <div class="col-md-10 form-control-static"> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="ComFoto" type="checkbox"> Anúncios com foto </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="UnicoDono" type="checkbox"> Veículos de único dono </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="AceitaTroca" type="checkbox"> Anúncios que aceitam troca </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Alienado" type="checkbox"> Veículos financiados </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="blindado" value="True" type="checkbox"> Veículos blindados </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Garantia" type="checkbox"> Veículos com garantia de fábrica </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Colecao" type="checkbox"> Veículos de coleção </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Licenciado" type="checkbox"> Licenciado </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="IPVAPago" type="checkbox"> IPVA Pago </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="AdaptadoParaDeficientes" type="checkbox"> Adaptado para deficientes físicos </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="RevisoesFeitas" type="checkbox"> Todas as revisões feitas em concessionária </label> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="row advanced-search-features" style="background-color: #DFDFDF"> 
+             <div class="col-md-12"> 
+              <h3 class="fs24"> OPCIONAIS </h3> 
+             </div> 
+             <div class="row"> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="1"> Air Bag </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="47"> Air Bag Duplo </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="3"> Alarme </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="5"> Ar Condicionado </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="9"> Ar Quente </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="11"> Banco com Ajuste de Altura </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="13"> Bancos com Aquecimento </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="15"> Bancos em Couro </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="17"> Capota Marítima </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="19"> CD e MP3 Player </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="7"> CD Player </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="21"> Computador de Bordo </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="23"> Controle Automático de Velocidade </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="25"> Controle de Tração </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="27"> Desembaçador Traseiro </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="2"> Direção Hidráulica </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="29"> Disqueteira </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="31"> DVD Player </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="33"> Encosto de Cabeça Traseiro </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="48"> Farol De Milha </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="49"> Farol De Neblina </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="35"> Farol Xenônio </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="4"> Freios ABS </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="10"> GPS </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="46"> Kit Multimídia </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="12"> Limpador Traseiro </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="50"> Piloto Automático </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="14"> Protetor de Caçamba </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="16"> Rádio AM/FM </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="18"> Rádio e Toca Fitas </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="22"> Retrovisor Fotocrômico </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="20"> Retrovisores Elétricos </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="24"> Rodas de Liga Leve </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="26"> Sensor de Chuva </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="28"> Sensor de Estacionamento </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="30"> Teto Solar </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="32"> Tração 4x4 </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="6"> Travas Elétricas </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="8"> Vidros Elétricos </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="34"> Volante com Regulagem de Altura </label> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </form> 
+        </div> 
+        <div role="tabpanel" class="tab-pane" id="moto" style="padding: 0 20px"> 
+         <form action="/procurar/motos" class="form-inline form-horizontal" method="get"> 
+          <input type="hidden" name="GeolocationMyOut" id="GeolocationMyOut" value="true"> 
+          <input type="hidden" name="CEP" id="CEP"> 
+          <input class="lookup-segment" type="hidden" value="2"> 
+          <div class="row" style="background-color: #E3E3E3"> 
+           <div class="col-md-5"> 
+            <h3 class="fs24"> CONDIÇÃO </h3> 
+            <ul class="list-inline"> 
+             <li> <label> <input class="used-checkbox" type="checkbox" name="usados" value="sim" checked> Usado </label> </li> 
+             <li> <label> <input class="zerokm-checkbox" type="checkbox" name="zeroKm" value="sim" checked> 0 km </label> </li> 
+            </ul> 
+           </div> 
+           <div class="col-md-7"> 
+            <h3 class="fs24"> ANUNCIANTE </h3> 
+            <ul class="list-inline"> 
+             <li> <label> <input type="checkbox" name="lojas" value="sim" checked> Loja </label> </li> 
+             <li> <label> <input type="checkbox" name="concessionarias" value="sim" checked> Concessionárias </label> </li> 
+             <li> <label> <input type="checkbox" name="particulares" value="sim" checked> Particulares </label> </li> 
+            </ul> 
+           </div> 
+          </div> 
+          <div class="row" style="background-color: #DFDFDF"> 
+           <div class="col-md-12"> 
+            <h3 class="fs24"> LOCALIZAÇÃO </h3> 
+            <div class="location-search-content-motorcycle"> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="row"> 
+           <div class="col-md-12"> 
+            <h3 class="fs24"> VEÍCULO </h3> 
+            <div class="row"> 
+             <div class="form-group col-md-4"> 
+              <label class="control-label col-md-3" for="marca">Marca</label> 
+              <div class="col-md-9"> 
+               <select name="marca" class="selectpicker lookup-makeId" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+             <div class="form-group col-md-4"> 
+              <label class="control-label col-md-3" for="modelo">Modelo</label> 
+              <div class="col-md-9"> 
+               <select name="modelo" class="selectpicker lookup-modelId" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+             <div class="form-group versao-carro col-md-4"> 
+              <label class="control-label col-md-3" for="modelo">Versão</label> 
+              <div class="col-md-9"> 
+               <select name="versao" class="selectpicker lookup-modelVersionAllId" disabled data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="">Todos</option> </select> 
+              </div> 
+             </div> 
+            </div> 
+            <h3></h3> 
+            <div class="sliders-content-motorcycle"></div> 
+            <div class="row more-details" style="background-color: #DFDFDF"> 
+             <div class="col-md-12"> 
+              <h3 class="fs24"> MAIS DETALHES </h3> 
+             </div> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="cor">Cor</label> 
+              <div class="col-md-3"> 
+               <select name="cor" class="selectpicker" multiple> <option value="6" data-content="<span style=&quot;color: #ffff00&quot; class='glyphicon glyphicon-stop'></span> Amarelo">Amarelo</option> <option value="1" data-content="<span style=&quot;color: #ff&quot; class='glyphicon glyphicon-stop'></span> Azul">Azul</option> <option value="9" data-content="<span style=&quot;color: #f5f5dc&quot; class='glyphicon glyphicon-stop'></span> Bege">Bege</option> <option value="3" data-content="<span style=&quot;color: #ffffff&quot; class='glyphicon glyphicon-stop'></span> Branco">Branco</option> <option value="8" data-content="<span style=&quot;color: #808080&quot; class='glyphicon glyphicon-stop'></span> Cinza">Cinza</option> <option value="12" data-content="<span style=&quot;color: #ffd700&quot; class='glyphicon glyphicon-stop'></span> Dourado">Dourado</option> <option value="13" data-content="<span style=&quot;color: #ff7f00&quot; class='glyphicon glyphicon-stop'></span> Laranja">Laranja</option> <option value="14" data-content="<span style=&quot;color: #964b00&quot; class='glyphicon glyphicon-stop'></span> Marrom">Marrom</option> <option value="16" data-content="<span style=&quot;color: #ffffff&quot; class='glyphicon glyphicon-stop'></span> Outra">Outra</option> <option value="7" data-content="<span style=&quot;color: #c0c0c0&quot; class='glyphicon glyphicon-stop'></span> Prata">Prata</option> <option value="2" data-content="<span style=&quot;color: #0&quot; class='glyphicon glyphicon-stop'></span> Preto">Preto</option> <option value="15" data-content="<span style=&quot;color: #ffc0cb&quot; class='glyphicon glyphicon-stop'></span> Rosa">Rosa</option> <option value="11" data-content="<span style=&quot;color: #800080&quot; class='glyphicon glyphicon-stop'></span> Roxo">Roxo</option> <option value="4" data-content="<span style=&quot;color: #ff00&quot; class='glyphicon glyphicon-stop'></span> Verde">Verde</option> <option value="5" data-content="<span style=&quot;color: #ff0000&quot; class='glyphicon glyphicon-stop'></span> Vermelho">Vermelho</option> <option value="10" data-content="<span style=&quot;color: #900020&quot; class='glyphicon glyphicon-stop'></span> Vinho">Vinho</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="cilidradas">Cilindradas</label> 
+              <div class="col-md-3"> 
+               <select name="cilindradas" class="form-control selectpicker"> <option value="">Nenhuma</option> <option value="100">até 100cc</option> <option value="200">até 200cc</option> <option value="300">até 300cc</option> <option value="400">até 400cc</option> <option value="500">até 500cc</option> <option value="600">até 600cc</option> <option value="700">até 700cc</option> <option value="800">até 800cc</option> <option value="900">até 900cc</option> <option value="1000">até 1000cc</option> <option value="1500">até 1500cc</option> <option value="2000">até 2000cc</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="estilo">Estilo</label> 
+              <div class="col-md-3"> 
+               <select name="estilo" class="selectpicker" multiple> <option value="11">Custom</option> <option value="12">Elétrica</option> <option value="13">Esportiva</option> <option value="14">Naked</option> <option value="15">Off-Road</option> <option value="16">Quadriciclo</option> <option value="17">Scooter</option> <option value="18">Street</option> <option value="19">SuperMotard</option> <option value="20">Touring</option> <option value="21">Trail</option> <option value="22">Trial</option> <option value="23">Triciclo</option> <option value="24">Ultilitária</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="marchas">Número de marchas</label> 
+              <div class="col-md-3"> 
+               <select name="marchas" class="selectpicker" multiple> <option value="1">Automático</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="refrigeracao">Tipo de refrigeração</label> 
+              <div class="col-md-3"> 
+               <select name="refrigeracao" class="selectpicker" multiple> <option value="1">Ar</option> <option value="2">Líquida</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="alimentacao">Tipo de alimentação</label> 
+              <div class="col-md-3"> 
+               <select name="alimentacao" class="selectpicker" multiple> <option value="1">Carburador</option> <option value="2">Injeção Eletrônica</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="motor">Tipo de motor</label> 
+              <div class="col-md-3"> 
+               <select name="motor" class="selectpicker" multiple> <option value="1">2 Tempos</option> <option value="2">4 Tempos</option> <option value="3">Elétrico de Corrente Contínua</option> </select> 
+              </div> 
+              <label class="control-label col-md-2" for="partida">Tipo de partida</label> 
+              <div class="col-md-3"> 
+               <select name="partida" class="selectpicker" multiple> <option value="1">Pedal</option> <option value="2">Elétrica</option> <option value="3">Pedal e Elétrica</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="freios">Sistema de freios</label> 
+              <div class="col-md-3"> 
+               <select name="freios" class="selectpicker" multiple> <option value="1">Tambor/Tambor</option> <option value="2">Disco/Tambor</option> <option value="3">Disco/Disco</option> <option value="4">Tambor/Disco</option> </select> 
+              </div> 
+             </div> 
+             <h3></h3> 
+             <div class="row"> 
+              <label class="control-label col-md-2" for="">Tipo de anúncio</label> 
+              <div class="col-md-10 form-control-static"> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="ComFoto" type="checkbox"> Anúncios com foto </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="UnicoDono" type="checkbox"> Veículos de único dono </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="AceitaTroca" type="checkbox"> Anúncios que aceitam troca </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Alienado" type="checkbox"> Veículos financiados </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Garantia" type="checkbox"> Veículos com garantia de fábrica </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="Licenciado" type="checkbox"> Licenciado </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="IPVAPago" type="checkbox"> IPVA Pago </label> 
+               </div> 
+               <div class="col-md-3"> 
+                <label> <input name="apenas" value="RevisoesFeitas" type="checkbox"> Todas as revisões feitas em concessionária </label> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="row advanced-search-features" style="background-color: #DFDFDF"> 
+             <div class="col-md-12"> 
+              <h3> OPCIONAIS </h3> 
+             </div> 
+             <div class="row"> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="36"> ABS </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="38"> Alarme </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="40"> Amortecedor de Direção </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="42"> Bolsa/Baú/Bauleto </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="44"> Computador de Bordo </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="37"> Contra Peso no Guidon </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="39"> Escapamento Esportivo </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="41"> Faróis de Neblina </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="43"> GPS </label> 
+              </div> 
+              <div class="col-md-4" style="margin-top:10px"> 
+               <label> <input type="checkbox" name="opcional" value="45"> Som </label> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </form> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="filters-placeholder"></div> 
+     <div class="row hidden-sm filtros" id="searchAdvancedButton"> 
+      <div class="hidden-xs sticky-wrapper"> 
+       <div class="col-sm-12"> 
+        <h3></h3> 
+        <div class="row"> 
+         <div class="col-sm-offset-7 col-sm-5"> 
+          <div class="row"> 
+           <div class="col-sm-6" style="margin-top: 10px"> 
+            <a href="#" class="clear-all-filters">Limpar todos os filtros</a> 
+           </div> 
+           <div class="col-sm-6"> 
+            <input type="button" value="Buscar" class="btn btn-default2 btn-search"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <h3></h3> 
+       </div> 
+      </div> 
+      <div class="sticky-wrapper visible-xs" style="width: 100%"> 
+       <div class="col-md-12"> 
+        <h3></h3> 
+        <div class="row"> 
+         <div class="col-md-offset-7 col-md-5"> 
+          <div class="row"> 
+           <div class="col-md-6" style="margin-top: 10px"> 
+            <a href="#" class="clear-all-filters">Limpar todos os filtros</a> 
+           </div> 
+           <div class="col-md-6"> 
+            <input type="button" value="Buscar" class="btn btn-default2 btn-search"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <h3></h3> 
+       </div> 
+      </div> 
+     </div> 
+     <div chaordic="bottom"></div> 
+    </div> 
+   </div> 
+   <script>
+    function DesabDivSearchAdvanced(param) {
+        if (param) {
+            $("#searchAdvanced").attr("hidden", true);
+            $("#searchAdvancedButton").attr("hidden", true);
+        }
+        else {
+            $("#searchAdvanced").attr("hidden", false);
+            $("#searchAdvancedButton").attr("hidden", false);
+        }
+    }
+
+
+    $(document).ready(function () {
+
+        var $stateLookup = $(".estado-lookup");
+        var $cityLookup = $(".cidade-lookup");
+
+        $("#segLojaCarro").change(function () {
+            $("#SegmentLoja").val("1");
+        });
+
+        $("#segLojaMoto").change(function () {
+            $("#SegmentLoja").val("2");
+        });
+
+        $("#segLocCarro").change(function () {
+            $("#SegmentId").val("1");
+        });
+
+        $("#segLocMoto").change(function () {
+            $("#SegmentId").val("2");
+
+        });
+        $stateLookup.on("change", function () {
+            var stateId = $stateLookup.val();
+            $("option:gt(0)", $cityLookup).remove();
+            if (!stateId) {
+                $cityLookup
+                    .attr("disabled", "disabled")
+                    .selectpicker("render")
+                    .selectpicker("refresh");
+
+                return;
+            }
+
+            $.ajax({
+                url: "/lookup/getCities?state=" + stateId,
+                type: "POST",
+                success: function (data) {
+                    $.each(data, function (key, item) {
+                        $("<option/>")
+                            .attr("value", item.Id)
+                            .text(item.Name)
+                            .appendTo($cityLookup);
+                    });
+
+                    $cityLookup
+                        .removeAttr("disabled")
+                        .selectpicker("render")
+                        .selectpicker("refresh");
+
+                    if ($cityLookup.attr("data-onetime-init")) {
+                        $cityLookup.val($cityLookup.attr("data-onetime-init")).removeAttr("data-onetime-init").selectpicker("refresh").change();
+                    }
+                },
+                complete: function () {
+                }
+            });
+        });
+
+        $("select.cidade-lookup").change(function () {
+            if ($(this).val()) {
+                $(".slider-radius-loja").slider("enable");
+                if ($(".slider-radius-loja").attr("data-onetime-init")) {
+                    $(".slider-radius-loja").slider("setValue", parseInt($(".slider-radius-loja").attr("data-onetime-init"), 10)).removeAttr("data-onetime-init");
+                }
+            }
+            else {
+                $(".slider-radius-loja").slider("setValue", 0).slider("disable");
+            }
+        });
+
+        $(".slider-radius-loja").each(function (i, o) {
+            var ticks = JSON.parse($(o).attr("data-slider-ticks"));
+            var ticks_snap_bounds = parseInt($(o).attr("data-slider-ticks-snap-bounds"));
+            var ticks_positions = JSON.parse($(o).attr("data-ticks-positions"));
+            var ticks_labels = JSON.parse($(o).attr("data-slider-ticks-labels"));
+            var value = parseInt($(o).val(), 10);
+
+            $(o).slider({
+                ticks: ticks,
+                ticks_labels: ticks_labels,
+                ticks_positions: ticks_positions,
+                ticks_snap_bounds: ticks_snap_bounds,
+                value: value
+            });
+        });
+
+        if ($cityLookup.val()) {
+            $(".slider-radius-loja").slider("enable");
+            if ($(".slider-radius-loja").attr("data-onetime-init")) {
+                $(".slider-radius-loja").slider("setValue", parseInt($(".slider-radius-loja").attr("data-onetime-init"), 10)).removeAttr("data-onetime-init");
+            }
+        } else {
+            $(".slider-radius-loja").slider("setValue", 0).slider("disable");
+        }
+
+        $('ul[id ="tabs"]').click(function (e) {
+            if (e) {
+                var x = e.target;
+                var tp = x.text;
+                var nameOpcaoAcao = "";
+                if (tp == "Busca por Marcas") {
+                    nameOpcaoAcao = "";
+                    DesabDivSearchAdvanced(false);
+                } else if (tp === "Modelos Mais Buscados") {
+                    nameOpcaoAcao = "";
+                    DesabDivSearchAdvanced(false);
+                } else if (tp === "Categorias") {
+                    nameOpcaoAcao = "";
+                    DesabDivSearchAdvanced(false);
+                } else if (tp === "Lojas") {
+                    DesabDivSearchAdvanced(true);
+                }
+
+                var names = document.getElementsByName("NameOpcaoAcao");
+
+                for (x = 0; x < names.length; x++) {
+                    names[x].value = nameOpcaoAcao;
+                }
+
+                $("#divBusinessUserSearch").attr("hidden", true);
+                $("#NomeLoja").val("");
+                $(".estado-lookup").val("");
+                $(".estado-lookup").selectpicker("refresh").change();
+            }
+        });
+
+        $(".lojas-pesq").click(function () {
+            var op = $(this).attr("data-loja-pesq");
+            var names = document.getElementsByName("NameOpcaoAcao");
+
+            for (var x = 0; x < names.length; x++) {
+                names[x].value = op;
+            }
+        });
+
+        if (($("#NameOpcaoAcao").val() === "loja") || ($("#NameOpcaoAcao").val() === "localidade")) {
+            DesabDivSearchAdvanced(true);
+        } else {
+            DesabDivSearchAdvanced(false);
+        }
+
+        if ($(".state-lookup").val() == "") {
+            getLocation();
+        }
+    });
+
+    var x = "";
+    function getLocation() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                // sucesso!
+                function (position) {
+                    showPosition(position.coords.latitude, position.coords.longitude);
+                },
+
+                // erro
+                function (erro) {
+                    var erroDescricao = '';
+
+                    $.getJSON("http://ip-api.com/json/?callback=?", function (data) {
+                        if (data != null) {
+                            showPosition(data.lat, data.lon);
+                        }
+                    });
+                    alteraLocation(false);
+
+                    /*
+                    switch (erro.code) {
+                        case erro.PERMISSION_DENIED:
+                            erroDescricao += 'usuário não autorizou a Geolocation.';
+                            break;
+                        case erro.POSITION_UNAVAILABLE:
+                            erroDescricao += 'localização indisponível.';
+                            break;
+                        case erro.TIMEOUT:
+                            erroDescricao += 'tempo expirado.';
+                            break;
+                        case erro.UNKNOWN_ERROR:
+                            erroDescricao += 'não sei o que foi, mas deu erro!';
+                            break;
+                    }
+                    */
+                }
+           );
+
+        }
+    }
+
+    function showPosition(vlat, vlng) {
+        //var vlat = position.coords.latitude;
+        //var vlng = position.coords.longitude;
+        var latlng = new google.maps.LatLng(vlat, vlng);
+        var geocoder = new google.maps.Geocoder();
+        geocoder.geocode({ 'latLng': latlng }, function (results, status) {
+            if (status == google.maps.GeocoderStatus.OK) {
+
+                if (results[1]) {
+                    //formatted address
+                    var resultEnd = results[4].formatted_address;
+                    //find country name
+                    for (var i = 0; i < results[0].address_components.length; i++) {
+                        for (var b = 0; b < results[0].address_components[i].types.length; b++) {
+
+                            //Get Cidade
+                            if (results[0].address_components[i].types[b] == "administrative_area_level_2") {
+                                city = results[0].address_components[i];
+                                //break;
+                            }
+                            //Get Estado
+                            if (results[0].address_components[i].types[b] == "administrative_area_level_1") {
+                                state = results[0].address_components[i];
+                                //break;
+                            }
+                            //Get Code Post
+                            if (results[0].address_components[i].types[b] == "postal_code") {
+                                postal = results[0].address_components[i];
+                                //break;
+                            }
+                        }
+                    }
+
+                    var resultCEP = postal.long_name.split("-")[0] + "999";
+                    SearchAddress(resultCEP);
+                }
+            }
+            alteraLocation(false);
+        });
+    }
+
+    function SearchAddress(cep) {
+        $.ajax({
+            url: "/lookup/Address?zipCode=" + cep,
+            type: "POST",
+            success: function (data) {
+                if (data != null && data.Cep != "") {
+                    var state = data.StateId;
+                    var city = data.CityId;
+                    $(".city-lookup").attr("data-selected", city);
+                    $(".state-lookup").val(state).selectpicker("render").selectpicker("refresh").change();
+
+                    $(".slider-radius").slider("enable");
+
+                    var myIdCEP = document.getElementsByName("CEP");
+                    $.each(myIdCEP, function (index, item) {
+                        item.value = cep;
+                    });
+                }
+            },
+            complete: function () {
+            }
+        });
+    }
+</script> 
+  </div> 
+  <footer> 
+   <div class="footer footermenu hidden-xs"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-all"> 
+       <div class="col col-30"> 
+        <p class="title">Mapa do Site</p> 
+        <ul> 
+         <li><a href="/procurar">Comprar</a></li> 
+         <li><a href="/vender">Vender</a></li> 
+         <li><a href="/fipe-tabela-de-preco">Tabela Fipe</a></li> 
+         <li><a href="/simular-financiamento">Simular Financiamento</a></li> 
+         <li><a href="/minha-pagina">Login</a></li> 
+         <li><a href="/anunciante/cadastro-pessoa-fisica">Cadastre-se</a></li> 
+         <li><a href="/central-da-revenda/entrar">Revendedor</a></li> 
+         <li><a href="/revista">Revista</a></li> 
+        </ul> 
+       </div> 
+       <div class="col col-30 left-border"> 
+        <div class="col-all"> 
+         <span style="color: #cc092f; text-transform: uppercase; font-weight: bold; font-size: 16px">Institucional</span> 
+         <ul> 
+          <li><a href="/cms/o-autoline">O Autoline</a></li> 
+          <li><a href="/politica-de-privacidade.pdf" target="”_blank”">Política de privacidade</a></li> 
+          <li><a href="/termos-de-uso-e-condicoes-de-navegacao.pdf" target="”_blank”">Termos de uso</a></li> 
+          <li><a href="/cdc.pdf" target="”_blank”">Código de Defesa do Consumidor</a></li> 
+          <span style="padding-top: 20px;color: #cc092f;text-transform: uppercase; font-weight: bold; font-size: 16px">Parceiros</span> 
+          <ul> 
+           <li><a href="https://www.shopfacil.com.br/" target="”_blank”">ShopFácil</a></li> 
+          </ul> 
+         </ul>
+        </div> 
+       </div> 
+       <div class="col col-30 left-border"> 
+        <div class="col-all"> 
+         <p class="title">Atendimento</p> 
+         <ul> 
+          <li><a href="/institucional/fale-conosco">Fale Conosco</a></li> 
+          <li><a href="/institucional/duvidas-frequentes">Perguntas frequentes</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="col col-right-social hidden-xs hidden-sm"> 
+        <div class="socialblock"> 
+         <text>
+          SIGA-NOS NAS REDES SOCIAIS
+         </text> 
+         <div class="button-app"> 
+          <a href="https://www.facebook.com/autoline.carros" target="_blank"> <img src="/images/facebook_circle.png" alt="Facebook image"> </a> 
+          <a href="https://www.instagram.com/autoline.carros/" target="_blank"> <img src="/images/instagram-circle.png" alt="Instagram image"> </a> 
+         </div> 
+        </div> 
+        <div class="app-buttton-block"> 
+         <text>
+          Tenha o Autoline sempre à mão
+         </text> 
+         <div class="button-app"> 
+          <a href="https://itunes.apple.com/br/app/autoline-app/id553525009?mt=8" target="_blank"> <img src="/images/pt-br-app-store.png" alt="App Store image"> </a> 
+          <a href="https://play.google.com/store/apps/details?id=br.com.autoline.app" target="_blank"> <img src="/images/pt-br-google-play.png" alt="Google Play image"> </a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <br> 
+      <div class="col-all" style="color:#676766;font-size: small;text-align: justify; padding:13px">
+        O AUTOLINE não garante a exatidão e\ou veracidade das informações e também não se responsabiliza pela existência, quantidade, qualidade, estado, integridade ou legitimidade dos veículos anunciados, adquiridos ou alienados pelos anunciantes, visitantes ou usuários assim como não realiza a intermediação entre anunciantes e usuários/visitantes, figurando apenas como veículo de divulgação, não tendo qualquer obrigação ou responsabilidade pela negociação ou efetivação de negócio entre as partes (anunciantes e visitantes/usuários), tampouco garante, a venda do veículo anunciado. Da mesma forma, o AUTOLINE não participa dos processos de negociação, pagamento, vistoria, entrega e suporte dos veículos, ficando a cargo do interessado comprador tomar as providências e cautelas necessárias para aumentar o grau de segurança de sua transação. Ao visitar ou utilizar este site pressupõe-se a leitura e concordância com todos os Termos de Uso. 
+      </div> 
+      <div class="col-all" style="color:#676766;font-size: small; text-align: left; padding:13px">
+        Banco Bradesco Financiamentos S.A. | CNPJ: 07.207. 996/0001-50 | www.autoline.com.br | Núcleo Cidade de Deus - Vila Yara, Osasco - SP, 06029-900 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer footerred"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="logo-rodape"> 
+       <img src="/images/logo_rodape.jpg" alt="Rodapé image"> 
+      </div> 
+      <div class="logo-bradesco"> 
+       <a href="https://banco.bradesco/html/classic/index.shtm"> <img src="/images/UmServicoBradesco.png" alt="Bradesco Serviços image"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2XQPC');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- Google Tag Manager (noscript) --> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2XQPC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <!-- End Google Tag Manager (noscript) --> 
+  <style>
+.banner-block {max-height: inherit !important;}
+</style> 
+  <script>
+        
+    </script> 
+  <!--
+        SRVAUTOWEB06
+    -->  
+ </body>
+</html>
