@@ -15,16 +15,13 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 public class Crawler {
 
 	public static void main(String[] args) throws Exception {
-		
-//		String folder = "sites_craw";
-		
 	
 //		ArrayList<String> pos = readURLs("data/positivos");
-//		craw("data/sites", "positivos", urls);
+//		craw("data/sites", "positivos", pos);
 		
 		
 		ArrayList<String> neg = readURLs("data/negativos");
-		craw("data/sites_craw", "negativos", neg);
+		craw("data/sites_neg", "negativos", neg);
 		
 	}
 
@@ -46,6 +43,8 @@ public class Crawler {
 			if(path.length() > 140) {
 				path = path.substring(0, 140);
 			}
+			
+			path += "|" + index;
 			
 			String folder = baseFolder + "/" + host + "/" + type;
 			
