@@ -9,15 +9,21 @@ import org.jsoup.nodes.Element;
 public class PreProcessor {
 	public static void main(String[] args) throws Exception {
 
+//		String[] posHtml = new File("data/sites/"+ "olx.com.br" + "/" + "negativos").list(); 
+//		
+//		System.out.println(posHtml);
+//		
+//		
+		
 		String[] sites = new File("data/sites").list();
-
+		
 		for(int x=0;x<sites.length;x++) {
 
 			System.out.println(sites[x]);
 
 			
-			createTexts(sites[x], "positivo");
-			createTexts(sites[x], "negativo");	
+			createTexts(sites[x], "positivos");
+			createTexts(sites[x], "negativos");	
 			
 			
 		}
@@ -30,19 +36,13 @@ public class PreProcessor {
 		posText.mkdirs();
 		
 		String[] posHtml = new File("data/sites/" + site + "/" + type).list(); 
-					
+		
 		for(String s : posHtml) {
 			String v = fileToString(new File("data/sites/" + site + "/" + type + "/" + s ));
 		
 			Document doc = Jsoup.parse(v);
-			
-			/*
-			 * Add and remove features
-			 */
-			String text = doc.body().text().toLowerCase();
-			text = text.replaceAll("[^a-zA-Z#]", " ");
-			
-			
+		
+			String text = doc.text().toLowerCase();
 			
 			stringToFile(text,"data/texts/" + site + "/" + type + "/" + s);		
 		}
