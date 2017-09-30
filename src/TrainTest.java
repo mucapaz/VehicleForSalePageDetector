@@ -6,44 +6,44 @@ import java.io.PrintWriter;
 public class TrainTest {
 
 	static String[] train = {
-			"autoline",
-			"autoshow",
-			"mercadolivre",
-			"carrosnaweb",
-			"compreauto",
-			"vrum",
-			"salaodocarro",
-			"webclassicos",
-			"webmotors",
-			"vivalocal",
-			"itavema",
-			"icarros",
-			"lugardecomprarcarro",
-			"meucadillac",
-			"seminovositaliana",
-			"classificadoscb",
-			"litoralcar",
-			"autoshoppingcuritiba",
-			"gncseminovos",
-			"boulevardshoppingcar",
-			"bariguiseminovos",
-			"atarde",
-			"nacionalveiculos",
-			"usadosbr"
+			"www.autoline.com.br",
+			"www.autoshow.com.br",
+			"carro.mercadolivre.com.br",
+			"www.carrosnaweb.com.br",
+			"www.compreauto.com.br",
+			"www.vrum.com.br",
+			"salaodocarro.com.br",
+			"www.webclassicos.com.br",
+			"www.webmotors.com.br",
+			"www.vivalocal.com",
+			"www.itavema.com.br",
+			"www.icarros.com.br",
+			"www.lugardecomprarcarro.com.br",
+			"www.meucadillac.com",
+			"seminovositaliana.com.br",
+			"www.classificadoscb.com.br",
+			"www.litoralcar.com.br",
+			"www.autoshoppingcuritiba.com.br",
+			"www.gncseminovos.com.br",
+			"www.boulevardshoppingcar.com.br",
+			"www.bariguiseminovos.com.br",
+			"classificados.atarde.uol.com.br",
+			"www.nacionalveiculos.com.br",
+			"www.usadosbr.com"
 	};
 
 	static String[] test = {
-			"meucarango",
-			"meucarronovo",
-			"olx",
-			"primeiramao",
-			"compreblindados",
-			"temusados"
+			"www.meucarango.com.br",
+			"www.meucarronovo.com.br",
+			"olx.com.br",
+			"primeiramao.band.com.br",
+			"www.compreblindados.com.br",
+			"carros-saopaulo-zc.temusados.com.br"
 	};
 
 	public static void main(String[] args) throws Exception {
 
-		String folder = "data/train_test_20";
+		String folder = "data/train80_test20";
 		
 		
 		createFolders(folder + "/train/positivo",  folder +"/train/negativo");
@@ -59,10 +59,10 @@ public class TrainTest {
 		for(String tr : train) {
 			System.out.println(tr);
 			
-			String[] pos = new File("data/texts/" + tr + "/positivo").list();
+			String[] pos = new File("data/texts/" + tr + "/positivos").list();
 
 			for(String p : pos) {
-				File file = new File("data/texts/" + tr + "/positivo/" + p);
+				File file = new File("data/texts/" + tr + "/positivos/" + p);
 				
 				String s = fileToString(file);
 				stringToFile(s, folder + "/train/positivo/" + index++);
@@ -70,11 +70,11 @@ public class TrainTest {
 			}
 
 
-			String[] neg = new File("data/texts/" + tr + "/negativo").list();
+			String[] neg = new File("data/texts/" + tr + "/negativos").list();
 			
 			for(String n : neg) {
 
-				File file = new File("data/texts/" + tr + "/negativo/" + n);
+				File file = new File("data/texts/" + tr + "/negativos/" + n);
 				
 				String s = fileToString(file);
 				
@@ -90,10 +90,10 @@ public class TrainTest {
 		for(String te : test) {
 			System.out.println(te);			
 			
-			String[] pos = new File("data/texts/" + te + "/positivo").list();
+			String[] pos = new File("data/texts/" + te + "/positivos").list();
 
 			for(String p : pos) {
-				File file = new File("data/texts/" + te + "/positivo/" + p);
+				File file = new File("data/texts/" + te + "/positivos/" + p);
 				
 				String s = fileToString(file);
 				stringToFile(s, folder + "/test/positivo/" + index++);
@@ -101,11 +101,11 @@ public class TrainTest {
 			}
 
 
-			String[] neg = new File("data/texts/" + te + "/negativo").list();
+			String[] neg = new File("data/texts/" + te + "/negativos").list();
 			
 			for(String n : neg) {
 
-				File file = new File("data/texts/" + te + "/negativo/" + n);
+				File file = new File("data/texts/" + te + "/negativos/" + n);
 				
 				String s = fileToString(file);
 				
