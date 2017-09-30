@@ -1,0 +1,35 @@
+String[] train = {
+			"www.autoline.com.br",
+			"www.autoshow.com.br",
+			"carro.mercadolivre.com.br",
+			"www.carrosnaweb.com.br",
+			"www.compreauto.com.br",
+			"www.vrum.com.br",
+			"salaodocarro.com.br",
+			"www.webclassicos.com.br",
+			"www.webmotors.com.br",
+			"www.vivalocal.com",
+			"www.itavema.com.br",
+			"www.icarros.com.br",
+			"www.lugardecomprarcarro.com.br",
+			"www.meucadillac.com",
+			"seminovositaliana.com.br",
+			"www.classificadoscb.com.br",
+			"www.litoralcar.com.br",
+			"www.autoshoppingcuritiba.com.br",
+			"www.gncseminovos.com.br",
+			"www.boulevardshoppingcar.com.br",
+			"www.bariguiseminovos.com.br",
+			"classificados.atarde.uol.com.br",
+			"www.nacionalveiculos.com.br",
+			"www.usadosbr.com"
+	};
+
+static String[] test = {
+			"www.meucarango.com.br",
+			"www.meucarronovo.com.br",
+			"olx.com.br",
+			"primeiramao.band.com.br",
+			"www.compreblindados.com.br",
+			"carros-saopaulo-zc.temusados.com.br"
+};
