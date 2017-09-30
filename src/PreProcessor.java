@@ -9,30 +9,26 @@ import org.jsoup.nodes.Element;
 public class PreProcessor {
 	public static void main(String[] args) throws Exception {
 
-//		String[] posHtml = new File("data/sites/"+ "olx.com.br" + "/" + "negativos").list(); 
-//		
-//		System.out.println(posHtml);
-//		
-//		
 		
 		String[] sites = new File("data/sites").list();
+		
+		String location = "texts_url_tittle";
 		
 		for(int x=0;x<sites.length;x++) {
 
 			System.out.println(sites[x]);
 
 			
-			createTexts(sites[x], "positivos");
-			createTexts(sites[x], "negativos");	
-			
-			
+			createTexts(location, sites[x], "positivos");
+			createTexts(location, sites[x], "negativos");	
+//			break;
 		}
 		
 	}
 
-	public static void createTexts(String site, String type) throws Exception {
+	public static void createTexts(String location, String site, String type) throws Exception {
 		
-		File posText = new File("data/texts/" + site + "/" + type);
+		File posText = new File("data/" + location + "/" + site + "/" + type);
 		posText.mkdirs();
 		
 		String[] posHtml = new File("data/sites/" + site + "/" + type).list(); 
@@ -44,12 +40,24 @@ public class PreProcessor {
 		
 			String text = doc.text().toLowerCase();
 			
-			stringToFile(text,"data/texts/" + site + "/" + type + "/" + s);		
+			System.out.println(doc.title());
+			System.out.println(s);
+			
+			// add features
+			text = Feature.addFEATURE_TITTLE(doc.title(), text);
+			
+			text = Feature.addFEATURE_URL(s, text);
+			
+			text = text.toLowerCase();
+			
+//			System.out.println(text);
+			
+			stringToFile(text,"data/" + location + "/" + site + "/" + type + "/" + s);		
 		}
 		
 	}
 	
-	
+
 	
 	
 	public static String fileToString(File file) throws Exception{
