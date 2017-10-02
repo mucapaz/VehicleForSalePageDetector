@@ -17,19 +17,22 @@ public class ARFFCreator {
 		if(i == 0) {
 
 			String instancesPath = "/home/pringles/Desktop/TextCategorisation/data/" + "/train80_test20_url_tittle/train";
-			String destinationPath = "data/arff/train80_test20_url_tittle_tf_idf.arff";
+			String destinationPath = "data/arff/train80_url_tittle.arff";
 			
 			createFromDir(instancesPath, destinationPath);
 
 		}else if(i == 1) {
-			String modelPath = "data/arff/train80_test20.arff";
+			String oldARFF = "data/arff/train80.arff";
 			String instancesPath = "data/train80_test20/test/";
-			String destinationPath = "data/arff/test20.arff";
-			createFromModel(modelPath, instancesPath, destinationPath);
+			String newARFF = "data/arff/test20.arff";
+			createFromModel(oldARFF, instancesPath, newARFF);
 
 		}
 	}
-
+	
+	/*
+	 * Create an ARFF from a directory with classes.
+	 */
 
 	public static void createFromDir(String instancesPath, String destinationPath) throws IOException {
 		TextDirectoryLoader loader = new TextDirectoryLoader();
@@ -50,9 +53,19 @@ public class ARFFCreator {
 		
 	}
 
-	private static void createFromModel(String modelPath, String instancesPath, String destinationPath) throws Exception {
+	/*
+	 * Create a new ARFF from a old ARFF and new Instances. The attributes in the new ARFF will be same as in the first ARFF.
+	 * 
+	 * oldARFF -> path to the ARFF model
+	 * 
+	 * instancesPath -> where the new instances are
+	 * 
+	 * newARFF -> where to save the ARFF
+	 */
+	
+	private static void createFromModel(String oldARFF, String instancesPath, String newARFF) throws Exception {
 
-		BufferedReader reader = new BufferedReader(new FileReader(new File(modelPath)));
+		BufferedReader reader = new BufferedReader(new FileReader(new File(oldARFF)));
 		ArffReader arff = new ArffReader(reader);         
 		Instances data = arff.getStructure();
 
@@ -64,11 +77,11 @@ public class ARFFCreator {
 		
 		ArffSaver saver = new ArffSaver();
 		saver.setInstances(data);
-		saver.setFile(new File(destinationPath));
+		saver.setFile(new File(newARFF));
 
 		saver.writeBatch();
 		
-		System.out.println("CREATED FROM MODEL: " + destinationPath);
+		System.out.println("CREATED FROM MODEL: " + newARFF);
 	}
 
 
