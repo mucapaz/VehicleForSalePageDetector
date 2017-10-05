@@ -35,29 +35,28 @@ public class ARFFCreator {
 			 * Create arff with tf-idf from model
 			 */
 			
-			String oldARFF = "data/arff/train80_url_tittle_tfidf.arff";
-			String tfidfPath = "data/tfidf_url_tittle";
-						
+			String oldARFF = "data/arff/train80_url_tittle.arff";
+			
+			TfIdf tfIdf = new TfIdf("data/tfidf_url_tittle");		
+			
+			
 			String trainIntancesPath = "data/train80_test20_url_tittle/train";
 			String newTrainARFF = "data/arff/train80_url_tittle_tfidf.arff";
-			createFromModel(oldARFF, trainIntancesPath, newTrainARFF, tfidfPath);
+			createFromModel(oldARFF, trainIntancesPath, newTrainARFF, tfIdf);
 
 			String testInstancesPath = "data/train80_test20_url_tittle/test";
-			String newTestARFF = "data/arff/test20_url_tittle_tfidf.arff";
-			
-			createFromModel(oldARFF, testInstancesPath, newTestARFF, tfidfPath);
+			String newTestARFF = "data/arff/test20_url_tittle_tfidf.arff";			
+			createFromModel(oldARFF, testInstancesPath, newTestARFF, tfIdf);
 		}
 		
 	}
 	
 	private static void createFromModel(String oldARFF, String instancesPath, 
-			String newARFF, String tfidfPath) throws Exception {
+			String newARFF, TfIdf tfIdf) throws Exception {
 		BufferedReader reader = new BufferedReader(new FileReader(new File(oldARFF)));
 		ArffReader arff = new ArffReader(reader);         
 		Instances data = arff.getStructure();
 
-		TfIdf tfIdf = new TfIdf(tfidfPath);		
-		
 		String[] attrs = attributes(data);
 
 		addInstances("positivo", instancesPath + "positivo", data, attrs, tfIdf);
