@@ -12,24 +12,89 @@ public class ARFFCreator {
 
 	public static void main(String[] args) throws Exception {
 
-		int i = 1;
+		int i = 2;
 
 		if(i == 0) {
 
 			String instancesPath = "/home/pringles/Desktop/TextCategorisation/data/" + "/train80_test20_url_tittle/train";
-			String destinationPath = "data/arff/train80_url_tittle.arff";
+			String destinationPath = "data/arff/arffcru.arff";
 			
 			createFromDir(instancesPath, destinationPath);
 
 		}else if(i == 1) {
+			/*
+			 * Create from model
+			 */
+			
 			String oldARFF = "data/arff/train80.arff";
 			String instancesPath = "data/train80_test20/test/";
 			String newARFF = "data/arff/test20.arff";
 			createFromModel(oldARFF, instancesPath, newARFF);
+		}else if(i == 2){
+			/*
+			 * Create arff with tf-idf from model
+			 */
+			
+			String oldARFF = "data/arff/train80_url_tittle_tfidf.arff";
+			String tfidfPath = "data/tfidf_url_tittle";
+						
+			String trainIntancesPath = "data/train80_test20_url_tittle/train";
+			String newTrainARFF = "data/arff/train80_url_tittle_tfidf.arff";
+			createFromModel(oldARFF, trainIntancesPath, newTrainARFF, tfidfPath);
 
+			String testInstancesPath = "data/train80_test20_url_tittle/test";
+			String newTestARFF = "data/arff/test20_url_tittle_tfidf.arff";
+			
+			createFromModel(oldARFF, testInstancesPath, newTestARFF, tfidfPath);
 		}
+		
 	}
 	
+	private static void createFromModel(String oldARFF, String instancesPath, 
+			String newARFF, String tfidfPath) throws Exception {
+		BufferedReader reader = new BufferedReader(new FileReader(new File(oldARFF)));
+		ArffReader arff = new ArffReader(reader);         
+		Instances data = arff.getStructure();
+
+		TfIdf tfIdf = new TfIdf(tfidfPath);		
+		
+		String[] attrs = attributes(data);
+
+		addInstances("positivo", instancesPath + "positivo", data, attrs, tfIdf);
+		addInstances("negativo", instancesPath + "negativo", data, attrs, tfIdf);
+		
+		
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(data);
+		saver.setFile(new File(newARFF));
+
+		saver.writeBatch();
+		
+		System.out.println("CREATED FROM MODEL: " + newARFF);
+		
+	}
+
+	private static void createFromModel(String oldARFF, String instancesPath, String newARFF) throws Exception {
+
+		BufferedReader reader = new BufferedReader(new FileReader(new File(oldARFF)));
+		ArffReader arff = new ArffReader(reader);         
+		Instances data = arff.getStructure();
+
+		String[] attrs = attributes(data);
+
+		addInstances("positivo", instancesPath + "positivo", data, attrs);
+		addInstances("negativo", instancesPath + "negativo", data, attrs);
+		
+		
+		ArffSaver saver = new ArffSaver();
+		saver.setInstances(data);
+		saver.setFile(new File(newARFF));
+
+		saver.writeBatch();
+		
+		System.out.println("CREATED FROM MODEL: " + newARFF);
+	}
+
 	/*
 	 * Create an ARFF from a directory with classes.
 	 */
@@ -63,30 +128,38 @@ public class ARFFCreator {
 	 * newARFF -> where to save the ARFF
 	 */
 	
-	private static void createFromModel(String oldARFF, String instancesPath, String newARFF) throws Exception {
+	public static int coun = 0;
+	
+	private static void addInstances(String type, String path, Instances data, String[] attrs, TfIdf tfIdf) throws Exception {
+		File[] files = new File(path).listFiles();
 
-		BufferedReader reader = new BufferedReader(new FileReader(new File(oldARFF)));
-		ArffReader arff = new ArffReader(reader);         
-		Instances data = arff.getStructure();
+		for(int i =0;i<files.length;i++) {
 
-		String[] attrs = attributes(data);
+			String doc = fileToString(files[i]);
+			
+			double[] ar = new double[attrs.length];
 
-		addInstances("positivo", instancesPath + "positivo", data, attrs);
-		addInstances("negativo", instancesPath + "negativo", data, attrs);
-		
-		
-		ArffSaver saver = new ArffSaver();
-		saver.setInstances(data);
-		saver.setFile(new File(newARFF));
+			for(int x=0;x<attrs.length - 1;x++) {
 
-		saver.writeBatch();
-		
-		System.out.println("CREATED FROM MODEL: " + newARFF);
+				
+				ar[x] = tfIdf.tfidf(doc, attrs[x]);
+
+			}
+
+			if(type.equals("positivo")) {
+				ar[ar.length -1] = 1;
+			}else {
+				ar[ar.length -1] = 0;
+			}
+			
+			
+			data.add(new SparseInstance(1.0, ar));
+			
+			System.out.println(++coun);
+		}
 	}
 
-
-
-	public static void addInstances(String type, String path, Instances data, String[] attrs) throws Exception {
+	private static void addInstances(String type, String path, Instances data, String[] attrs) throws Exception {
 
 		File[] files = new File(path).listFiles();
 
@@ -116,7 +189,7 @@ public class ARFFCreator {
 
 
 
-	public static Map<String,Integer> mapPage(String page){
+	private static Map<String,Integer> mapPage(String page){
 
 		String[] ar = page.split(" ");
 
@@ -134,7 +207,7 @@ public class ARFFCreator {
 	}
 
 
-	public static String[] attributes(Instances data) {
+	private static String[] attributes(Instances data) {
 
 		Enumeration<Attribute> attrs = data.enumerateAttributes();
 		String[] attrNames = new String[data.numAttributes()];
@@ -152,7 +225,7 @@ public class ARFFCreator {
 
 
 
-	public static String fileToString(File file) throws Exception{
+	private static String fileToString(File file) throws Exception{
 		FileInputStream fis = new FileInputStream(file);
 		byte[] data = new byte[(int) file.length()];
 		fis.read(data);
@@ -161,7 +234,4 @@ public class ARFFCreator {
 		String str = new String(data, "UTF-8");
 		return str;
 	}
-
-
-
 }
