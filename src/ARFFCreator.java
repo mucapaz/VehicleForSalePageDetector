@@ -17,7 +17,7 @@ public class ARFFCreator {
 		if(i == 0) {
 
 			String instancesPath = "/home/pringles/Desktop/TextCategorisation/data/" + "/train80_test20_url_tittle/train";
-			String destinationPath = "data/arff/arffcru.arff";
+			String destinationPath = "data/arff/train80_url_tittle.arff";
 			
 			createFromDir(instancesPath, destinationPath);
 
@@ -26,9 +26,9 @@ public class ARFFCreator {
 			 * Create from model
 			 */
 			
-			String oldARFF = "data/arff/train80.arff";
-			String instancesPath = "data/train80_test20/test/";
-			String newARFF = "data/arff/test20.arff";
+			String oldARFF = "data/arff/train80_url_tittle.arff";
+			String instancesPath = "data/train80_test20_url_tittle/test/";
+			String newARFF = "data/arff/test20_url_tittle.arff";
 			createFromModel(oldARFF, instancesPath, newARFF);
 		}else if(i == 2){
 			/*
@@ -37,14 +37,14 @@ public class ARFFCreator {
 			
 			String oldARFF = "data/arff/train80_url_tittle.arff";
 			
-			TfIdf tfIdf = new TfIdf("data/tfidf_url_tittle");		
+			TfIdf tfIdf = new TfIdf("data/documents_tfidf_url_tittle");		
 			
 			
-			String trainIntancesPath = "data/train80_test20_url_tittle/train";
+			String trainIntancesPath = "data/train80_test20_url_tittle/train/";
 			String newTrainARFF = "data/arff/train80_url_tittle_tfidf.arff";
 			createFromModel(oldARFF, trainIntancesPath, newTrainARFF, tfIdf);
 
-			String testInstancesPath = "data/train80_test20_url_tittle/test";
+			String testInstancesPath = "data/train80_test20_url_tittle/test/";
 			String newTestARFF = "data/arff/test20_url_tittle_tfidf.arff";			
 			createFromModel(oldARFF, testInstancesPath, newTestARFF, tfIdf);
 		}
@@ -131,7 +131,7 @@ public class ARFFCreator {
 	
 	private static void addInstances(String type, String path, Instances data, String[] attrs, TfIdf tfIdf) throws Exception {
 		File[] files = new File(path).listFiles();
-
+		
 		for(int i =0;i<files.length;i++) {
 
 			String doc = fileToString(files[i]);
