@@ -1,0 +1,283 @@
+Naive Bayes
+
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     _home_pringles_Desktop_TextCategorisation_data_train80_test20_train-weka.filters.unsupervised.attribute.StringToWordVector-R1-W20000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M5-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-
+Instances:    480
+Attributes:   6658
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+     
+Time taken to build model: 1.1 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.67 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          79               65.8333 %
+Incorrectly Classified Instances        41               34.1667 %
+Kappa statistic                          0.3167
+Mean absolute error                      0.3417
+Root mean squared error                  0.5845
+Relative absolute error                 68.3402 %
+Root relative squared error            116.9045 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,850    0,533    0,614      0,850    0,713      0,343    0,695     0,626     negativo
+                 0,467    0,150    0,757      0,467    0,577      0,343    0,751     0,695     positivo
+Weighted Avg.    0,658    0,342    0,686      0,658    0,645      0,343    0,723     0,660     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  9 |  a = negativo
+ 32 28 |  b = positivo
+
+____________________________________________________________________________________________________________
+
+SVM
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model /home/pringles/Desktop/weka-3-9-1 -seed 1
+Relation:     _home_pringles_Desktop_TextCategorisation_data_train80_test20_train-weka.filters.unsupervised.attribute.StringToWordVector-R1-W20000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M5-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-
+Instances:    480
+Attributes:   6658
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+LibSVM wrapper, original code by Yasser EL-Manzalawy (= WLSVM)
+
+Time taken to build model: 0.98 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.27 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          72               60      %
+Incorrectly Classified Instances        48               40      %
+Kappa statistic                          0.2   
+Mean absolute error                      0.4   
+Root mean squared error                  0.6325
+Relative absolute error                 80      %
+Root relative squared error            126.4911 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,800    0,600    0,571      0,800    0,667      0,218    0,600     0,557     negativo
+                 0,400    0,200    0,667      0,400    0,500      0,218    0,600     0,567     positivo
+Weighted Avg.    0,600    0,400    0,619      0,600    0,583      0,218    0,600     0,562     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 48 12 |  a = negativo
+ 36 24 |  b = positivo
+
+
+
+____________________________________________________________________________________________________________
+
+logistic
+
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SimpleLogistic -I 0 -M 500 -H 50 -W 0.0
+Relation:     _home_pringles_Desktop_TextCategorisation_data_train80_test20_train-weka.filters.unsupervised.attribute.StringToWordVector-R1-W20000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M5-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-
+Instances:    480
+Attributes:   6658
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+SimpleLogistic:
+
+Time taken to build model: 22.26 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.11 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          90               75      %
+Incorrectly Classified Instances        30               25      %
+Kappa statistic                          0.5   
+Mean absolute error                      0.2867
+Root mean squared error                  0.5025
+Relative absolute error                 57.3346 %
+Root relative squared error            100.4957 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,517    0,017    0,969      0,517    0,674      0,565    0,686     0,792     negativo
+                 0,983    0,483    0,670      0,983    0,797      0,565    0,686     0,572     positivo
+Weighted Avg.    0,750    0,250    0,820      0,750    0,736      0,565    0,686     0,682     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 31 29 |  a = negativo
+  1 59 |  b = positivo
+
+____________________________________________________________________________________________________________
+
+
+ADABoostM1
+
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+Relation:     _home_pringles_Desktop_TextCategorisation_data_train80_test20_train-weka.filters.unsupervised.attribute.StringToWordVector-R1-W20000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M5-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-
+Instances:    480
+Attributes:   6658
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+Time taken to build model: 11.16 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.03 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          98               81.6667 %
+Incorrectly Classified Instances        22               18.3333 %
+Kappa statistic                          0.6333
+Mean absolute error                      0.2838
+Root mean squared error                  0.4038
+Relative absolute error                 56.7598 %
+Root relative squared error             80.7662 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,817    0,183    0,817      0,817    0,817      0,633    0,859     0,815     negativo
+                 0,817    0,183    0,817      0,817    0,817      0,633    0,859     0,884     positivo
+Weighted Avg.    0,817    0,183    0,817      0,817    0,817      0,633    0,859     0,850     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 49 11 |  a = negativo
+ 11 49 |  b = positivo
+
+
+____________________________________________________________________________________________________________
+
+Autoweka
+
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AutoWEKAClassifier -seed 123 -timeLimit 15 -memLimit 1024 -nBestConfigs 1 -metric errorRate -parallelRuns 1
+Relation:     _home_pringles_Desktop_TextCategorisation_data_train80_test20_train-weka.filters.unsupervised.attribute.StringToWordVector-R1-W20000-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M5-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-Rlast-first-
+Instances:    480
+Attributes:   6658
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+best classifier: weka.classifiers.trees.RandomForest
+arguments: [-I, 10, -K, 0, -depth, 0]
+attribute search: null
+attribute search arguments: []
+attribute evaluation: null
+attribute evaluation arguments: []
+metric: errorRate
+estimated errorRate: 0.0020833333333333333
+training time on evaluation dataset: 0.085 seconds
+
+You can use the chosen classifier in your own code as follows:
+
+Classifier classifier = AbstractClassifier.forName("weka.classifiers.trees.RandomForest", new String[]{"-I", "10", "-K", "0", "-depth", "0"});
+classifier.buildClassifier(instances);
+
+
+Correctly Classified Instances         476               99.1667 %
+Incorrectly Classified Instances         4                0.8333 %
+Kappa statistic                          0.9833
+Mean absolute error                      0.0316
+Root mean squared error                  0.106 
+Relative absolute error                  6.3289 %
+Root relative squared error             21.1943 %
+Total Number of Instances              480     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 238   2 |   a = negativo
+   2 238 |   b = positivo
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,992    0,008    0,992      0,992    0,992      0,983    0,998     0,998     negativo
+                 0,992    0,008    0,992      0,992    0,992      0,983    0,998     0,998     positivo
+Weighted Avg.    0,992    0,008    0,992      0,992    0,992      0,983    0,998     0,998     
+
+Temporary run directories:
+/tmp/autoweka6174435722022060261/
+
+
+For better performance, try giving Auto-WEKA more time.
+Tried 23 configurations; to get good results reliably you may need to allow for trying thousands of configurations.
+
+
+Time taken to build model: 862 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.08 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          94               78.3333 %
+Incorrectly Classified Instances        26               21.6667 %
+Kappa statistic                          0.5667
+Mean absolute error                      0.255 
+Root mean squared error                  0.3537
+Relative absolute error                 50.9925 %
+Root relative squared error             70.7477 %
+Total Number of Instances              120     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,850    0,283    0,750      0,850    0,797      0,572    0,907     0,898     negativo
+                 0,717    0,150    0,827      0,717    0,768      0,572    0,907     0,919     positivo
+Weighted Avg.    0,783    0,217    0,788      0,783    0,782      0,572    0,907     0,909     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 51  9 |  a = negativo
+ 17 43 |  b = positivo
+
+
+
+
+
+
