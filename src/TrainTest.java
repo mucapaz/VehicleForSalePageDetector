@@ -43,7 +43,7 @@ public class TrainTest {
 
 	public static void main(String[] args) throws Exception {
 
-		String folder = "data/train80_test20_url_tittle";
+		String folder = "data/1800/train80_test20_url_tittle";
 		
 		
 		createFolders(folder + "/train/positivo",  folder +"/train/negativo");
@@ -59,10 +59,10 @@ public class TrainTest {
 		for(String tr : train) {
 			System.out.println(tr);
 			
-			String[] pos = new File("data/texts_url_tittle/" + tr + "/positivos").list();
+			String[] pos = new File("data/1800/texts_url_tittle/" + tr + "/positivos").list();
 
 			for(String p : pos) {
-				File file = new File("data/texts_url_tittle/" + tr + "/positivos/" + p);
+				File file = new File("data/1800/texts_url_tittle/" + tr + "/positivos/" + p);
 				
 				String s = fileToString(file);
 				stringToFile(s, folder + "/train/positivo/" + index++);
@@ -70,11 +70,11 @@ public class TrainTest {
 			}
 
 
-			String[] neg = new File("data/texts_url_tittle/" + tr + "/negativos").list();
+			String[] neg = new File("data/1800/texts_url_tittle/" + tr + "/negativos").list();
 			
 			for(String n : neg) {
 
-				File file = new File("data/texts_url_tittle/" + tr + "/negativos/" + n);
+				File file = new File("data/1800/texts_url_tittle/" + tr + "/negativos/" + n);
 				
 				String s = fileToString(file);
 				
@@ -90,10 +90,10 @@ public class TrainTest {
 		for(String te : test) {
 			System.out.println(te);			
 			
-			String[] pos = new File("data/texts_url_tittle/" + te + "/positivos").list();
+			String[] pos = new File("data/1800/texts_url_tittle/" + te + "/positivos").list();
 
 			for(String p : pos) {
-				File file = new File("data/texts_url_tittle/" + te + "/positivos/" + p);
+				File file = new File("data/1800/texts_url_tittle/" + te + "/positivos/" + p);
 				
 				String s = fileToString(file);
 				stringToFile(s, folder + "/test/positivo/" + index++);
@@ -101,11 +101,11 @@ public class TrainTest {
 			}
 
 
-			String[] neg = new File("data/texts_url_tittle/" + te + "/negativos").list();
+			String[] neg = new File("data/1800/texts_url_tittle/" + te + "/negativos").list();
 			
 			for(String n : neg) {
 
-				File file = new File("data/texts_url_tittle/" + te + "/negativos/" + n);
+				File file = new File("data/1800/texts_url_tittle/" + te + "/negativos/" + n);
 				
 				String s = fileToString(file);
 				

@@ -10,7 +10,7 @@ public class PreProcessor {
 	public static void main(String[] args) throws Exception {
 		
 		String sites = "data/1800/sites";
-		String texts = "data/1800/texts";
+		String texts = "data/1800/texts_url_tittle";
 		
 		String[] ar = new File(sites).list();
 		
@@ -47,11 +47,11 @@ public class PreProcessor {
 			System.out.println(s);
 			
 			// add features
-//			text = Feature.addFEATURE_TITTLE(doc.title(), text);
+			text = Feature.addFEATURE_TITTLE(doc.title(), text);
 //			
-//			text = Feature.addFEATURE_URL(s, text);
+			text = Feature.addFEATURE_URL(s, text);
 //			
-//			text = text.toLowerCase();
+			text = text.toLowerCase();
 			
 //			System.out.println(text);
 			
