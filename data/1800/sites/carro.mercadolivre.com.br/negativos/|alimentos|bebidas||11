@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head>
+  <link rel="preconnect" href="//analytics.mlstatic.com">
+  <link rel="preconnect" href="//resources.mlstatic.com">
+  <link rel="preconnect" href="//static.mlstatic.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="preconnect" href="https://http2.mlstatic.com">
+  <link rel="preconnect" href="https://stats.g.doubleclick.net">
+  <link rel="preconnect" href="https://www.google.com.br">
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"3009922991","applicationID":"79872174","applicationTime":17.615467,"transactionName":"bgRaYENYWBdWABdfXVdOfUxBS1MXRAkQGXV8NRcbC1pXEFIEDERLBg==","queueTime":0,"ttGuid":"a43dc874008470","agentToken":null}; (window.NREUM||(NREUM={})).loader_config={xpid:"XQ4OVF5VGwQJXFZQBgYD"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+  <meta name="HandheldFriendly" content="True"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <link rel="shortcut icon" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/favicon.ico"> 
+  <link rel="apple-touch-icon" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/60x60-precomposed.png"> 
+  <link rel="apple-touch-icon" sizes="76x76" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/76x76-precomposed.png"> 
+  <link rel="apple-touch-icon" sizes="120x120" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/120x120-precomposed.png"> 
+  <link rel="apple-touch-icon" sizes="152x152" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/152x152-precomposed.png"> 
+  <link rel="stylesheet" type="text/css" href="https://http2.mlstatic.com/ui/navigation/2.3.5/mercadolibre/navigation.css">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2" as="font" type="font/woff2" crossorigin="true" data-head-react="true">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2" as="font" type="font/woff2" crossorigin="true" data-head-react="true">
+  <link rel="preload" href="https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2" as="font" type="font/woff2" crossorigin="true" data-head-react="true">
+  <style data-head-react="true">@font-face{font-family:'Proxima Nova';font-weight:300;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-light.ttf) format("truetype")}@font-face{font-family:'Proxima Nova';font-weight:400;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-regular.ttf) format("truetype")}@font-face{font-family:'Proxima Nova';font-weight:600;font-style:normal;src:url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff2) format("woff2"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.woff) format("woff"),url(https://http2.mlstatic.com/ui/webfonts/v3.0.0/proxima-nova/proximanova-semibold.ttf) format("truetype")}</style>
+  <style data-head-react="true">
+/* Category checkbox
+---------------------------------------------------------------*/
+.nav-search .nav-category {
+    background-color: #fff;
+    color: #666666;
+    line-height: 20px;
+    height: 24px;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 55%;
+    padding: 2px 10px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    text-align: right;
+}
+.nav-search .nav-category:hover .nav-label-small {
+    width: initial;
+}
+.nav-search .nav-category label {
+    -webkit-user-select: none;
+}
+.nav-search .nav-category .nav-label-small {
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 58px;
+}
+.nav-search .nav-category input[type=checkbox] {
+    border: 1px solid #CCC;
+    background: 0;
+    box-shadow: none;
+    display: inline-block;
+    margin: 2px 9px 0 0;
+    height: 14px;
+    padding: 0;
+    vertical-align: top;
+    width: 14px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.nav-search .nav-category input[type=checkbox]:focus {
+    outline: 1px dotted #9a9a9a;
+}
+@media (max-width: 768px) {
+    .nav-search .nav-category {
+        display: none;
+    }
+}
+      </style>
+  <title>Alimentos e Bebidas no Mercado Livre Brasil - Onde comprar e vender de Tudo.</title>
+  <meta name="description" content="Alimentos e Bebidas em oferta no Mercado Livre Brasil - Onde comprar e vender de Tudo." data-head-react="true">
+  <meta property="og:image" content="https://http2.mlstatic.com/static/org-img/homesnw/mercado-libre.png?v=2" data-head-react="true">
+  <link rel="canonical" href="https://home.mercadolivre.com.br/alimentos-bebidas/" data-head-react="true">
+  <link title="Mercado Livre Brasil" rel="search" type="application/opensearchdescription+xml" href="https://http2.mlstatic.com/static/org-img/mercadosocio/opensearch/opensearch-description-mlb.xml" data-head-react="true">
+  <link rel="alternate" href="ios-app://463624852/meli/home" data-head-react="true">
+  <link rel="alternate" href="android-app://com.mercadolibre/meli/home" data-head-react="true">
+  <link href="https://http2.mlstatic.com/resources/frontend/statics/homes-palpatine/categories.desktop.f37bc996.css" rel="stylesheet" type="text/css">
+  <script>
+(function(a,b){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date})(window,"meli_ga");
+meli_ga("set", "title", "app-homes-palpatine-nodejs-2.0.6");
+meli_ga("set", "page", "/HOME/CATEGORY/");
+meli_ga("set", "contentGroup1", "/MARKETPLACE/HOME/CATEGORY/");
+meli_ga("set", "contentGroup2", "/NONE/HOME/CATEGORY/");
+meli_ga("set", "contentGroup3", "/MLB1403/HOME/CATEGORY/");
+meli_ga("set", "dimension1", "desktop");
+meli_ga("set", "dimension7", "MARKETPLACE");
+meli_ga("set", "dimension8", "NONE");
+meli_ga("send", "pageview");
+(function(b){var a=b.createElement("iframe");(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; position: absolute";a.src="javascript:false";a.id="GoogleAnalyticsIframe";var c=b.getElementsByTagName("script")[0];c.parentNode.insertBefore(a,c);a=a.contentWindow.document;a.open().write('<body onload="var js = document.createElement(\'script\');js.src = \'https://analytics.mlstatic.com/ga/mlb-ml-analytics.min.gz.js\';document.body.appendChild(js);">');a.close()})(document);
+</script>
+ </head>
+ <body data-site="ML" data-country="BR">
+  <header role="banner" class="nav-header nav-header-full">
+   <div class="nav-bounds nav-bounds-with-cart">
+    <a class="nav-logo" href="//www.mercadolivre.com.br" tabindex="1">Mercado Livre Brasil - Onde comprar e vender de Tudo</a>
+    <input type="checkbox" id="nav-header-menu-switch">
+    <div class="nav-header-menu-wrapper">
+     <label for="nav-header-menu-switch" aria-controls="nav-header-menu" tabindex="3"><span class="hamburger-top-bread"></span><span class="hamburger-patty"></span><span class="hamburger-bottom-bread"></span></label>
+     <nav id="nav-header-menu">
+      <a href="https://registration.mercadolivre.com.br/registration?confirmation_url=https%3A%2F%2Fhome.mercadolivre.com.br%2Falimentos-bebidas%2F" class="option-register" rel="nofollow">Cadastre-se</a>
+      <a href="https://www.mercadolivre.com/jms/mlb/lgz/login?platform_id=ml&amp;go=https%3A%2F%2Fhome.mercadolivre.com.br%2Falimentos-bebidas%2F&amp;loginType=explicit" class="option-login" rel="nofollow">Entre</a>
+      <a href="https://contato.mercadolivre.com.br/ajuda" class="option-help" rel="nofollow"><i class="nav-icon-help"><span>Contato</span></i></a>
+      <a href="https://vender.mercadolivre.com.br" class="option-sell" rel="nofollow">Vender </a>
+     </nav>
+     <a href="https://www.mercadolivre.com.br/gz/cart" title="Carrinho de compras" class="nav-cart nav-cart-empty" id="nav-cart"><i class="nav-icon-cart"></i><span class="nav-icon-cart-quantity"></span></a>
+    </div>
+    <form class="nav-search" action="https://www.mercadolivre.com.br/jm/search" method="GET" role="search">
+     <input type="text" class="nav-search-input" name="as_word" maxlength="120" tabindex="2">
+     <button class="nav-search-clear-btn" type="button" title="Limpiar"></button>
+     <button class="nav-search-close-btn" type="button" title="Cerrar"></button>
+     <p id="mlCategory" class="nav-category" title="Solo en Alimentos e Bebidas"><input type="checkbox" id="categorySearch" name="as_categ_id" value="OC:MLB1403"><label for="categorySearch">Solo en Alimentos e Bebidas</label></p>
+     <button type="submit" class="nav-search-btn" tabindex="3"><i class="nav-icon-search"><span>Buscar</span></i></button>
+    </form>
+   </div>
+  </header>
+  <main role="main" id="root-app">
+   <div class="categories" data-reactroot="" data-reactid="1" data-react-checksum="943629363">
+    <!-- react-empty: 2 -->
+    <!-- react-empty: 3 -->
+    <!-- react-empty: 4 -->
+    <!-- react-empty: 5 -->
+    <!-- react-empty: 6 -->
+    <!-- react-empty: 7 -->
+    <!-- react-empty: 8 -->
+    <!-- react-empty: 9 -->
+    <section class="" data-reactid="10">
+     <div class="container" data-reactid="11">
+      <h1 data-reactid="12">Alimentos e Bebidas</h1>
+      <div class="column" data-reactid="13">
+       <div class="ui-card  categories" data-reactid="14">
+        <div class="group" data-reactid="15">
+         <div class="categories__wrapper" data-reactid="16">
+          <h2 class="category category--l2" data-reactid="17"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-bebes/" data-reactid="18">Alimentos para Bebês</a></h2>
+          <ul data-reactid="19"></ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="20">
+          <h2 class="category category--l2" data-reactid="21"><a href="https://lista.mercadolivre.com.br/delicatessen/cachaca/" data-reactid="22">Cachaça</a></h2>
+          <ul data-reactid="23">
+           <li class="category" data-reactid="24"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-adega-pinga/" data-reactid="25">Adega Da Pinga</a></li>
+           <li class="category" data-reactid="26"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-boazinha/" data-reactid="27">Boazinha</a></li>
+           <li class="category" data-reactid="28"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-chico-mineiro/" data-reactid="29">Chico Mineiro</a></li>
+           <li class="category" data-reactid="30"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-chico-valim/" data-reactid="31">Chico Valim</a></li>
+           <li class="category" data-reactid="32"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-jerominho-ribeiro/" data-reactid="33">Jerominho Ribeiro</a></li>
+           <li class="category" data-reactid="34"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-joao-mendes/" data-reactid="35">Joao Mendes</a></li>
+           <li class="category" data-reactid="36"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-lua-azul/" data-reactid="37">Lua Azul</a></li>
+           <li class="category" data-reactid="38"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-sabor-minas/" data-reactid="39">Sabor De Minas</a></li>
+           <li class="category" data-reactid="40"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-santa-rosa/" data-reactid="41">Santa Rosa</a></li>
+           <li class="category" data-reactid="42"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-santo-grau/" data-reactid="43">Santo Grau</a></li>
+           <li class="category" data-reactid="44"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-vale-verde/" data-reactid="45">Vale Verde</a></li>
+           <li class="category" data-reactid="46"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-weber-haus/" data-reactid="47">Weber Haus</a></li>
+           <li class="category" data-reactid="48"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-werneck/" data-reactid="49">Werneck</a></li>
+           <li class="category" data-reactid="50"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-ypioca/" data-reactid="51">Ypioca</a></li>
+           <li class="category" data-reactid="52"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cachaca-outras-marcas/" data-reactid="53">Outras Marcas</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="54">
+          <h2 class="category category--l2" data-reactid="55"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cafe/" data-reactid="56">Café</a></h2>
+          <ul data-reactid="57">
+           <li class="category" data-reactid="58"><a href="https://lista.mercadolivre.com.br/infusao-cafe-capsulas/" data-reactid="59">Café em Cápsulas</a></li>
+           <li class="category" data-reactid="60"><a href="https://lista.mercadolivre.com.br/infusao-cafe-grao/" data-reactid="61">Café em Grão</a></li>
+           <li class="category" data-reactid="62"><a href="https://lista.mercadolivre.com.br/infusao-cafe-moido/" data-reactid="63">Café Moído</a></li>
+           <li class="category" data-reactid="64"><a href="https://lista.mercadolivre.com.br/infusao-cafe-soluvel/" data-reactid="65">Café Solúvel</a></li>
+           <li class="category" data-reactid="66"><a href="https://lista.mercadolivre.com.br/infusao-cafe-outros-tipos/" data-reactid="67">Outros Tipos</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="68">
+          <h2 class="category category--l2" data-reactid="69"><a href="https://lista.mercadolivre.com.br/delicatessen/cerveja/" data-reactid="70">Cerveja</a></h2>
+          <ul data-reactid="71">
+           <li class="category" data-reactid="72"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-artesanal/" data-reactid="73">Artesanal</a></li>
+           <li class="category" data-reactid="74"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-ashby/" data-reactid="75">Ashby</a></li>
+           <li class="category" data-reactid="76"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-brahma/" data-reactid="77">Brahma</a></li>
+           <li class="category" data-reactid="78"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-erdinger/" data-reactid="79">Erdinger</a></li>
+           <li class="category" data-reactid="80"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-estrella/" data-reactid="81">Estrella</a></li>
+           <li class="category" data-reactid="82"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-heineken/" data-reactid="83">Heineken</a></li>
+           <li class="category" data-reactid="84"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-opa-bier/" data-reactid="85">Opa Bier</a></li>
+           <li class="category" data-reactid="86"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-paulaner/" data-reactid="87">Paulaner</a></li>
+           <li class="category" data-reactid="88"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-schneider-weisse-tap/" data-reactid="89">Schneider Weisse Tap</a></li>
+           <li class="category" data-reactid="90"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-skol/" data-reactid="91">Skol</a></li>
+           <li class="category" data-reactid="92"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-cerveja-outras-marcas/" data-reactid="93">Outras Marcas</a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="group" data-reactid="94">
+         <div class="categories__wrapper" data-reactid="95">
+          <h2 class="category category--l2" data-reactid="96"><a href="https://lista.mercadolivre.com.br/delicatessen/champagnes/" data-reactid="97">Champagnes</a></h2>
+          <ul data-reactid="98">
+           <li class="category" data-reactid="99"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-chandon/" data-reactid="100">Chandon</a></li>
+           <li class="category" data-reactid="101"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-dom-perignon/" data-reactid="102">Dom Perignon</a></li>
+           <li class="category" data-reactid="103"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-freixenet/" data-reactid="104">Freixenet</a></li>
+           <li class="category" data-reactid="105"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-giaretta/" data-reactid="106">Giaretta</a></li>
+           <li class="category" data-reactid="107"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-jp-chenet/" data-reactid="108">Jp Chenet</a></li>
+           <li class="category" data-reactid="109"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-louis-roederer/" data-reactid="110">Louis Roederer</a></li>
+           <li class="category" data-reactid="111"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-moscatel/" data-reactid="112">Moscatel</a></li>
+           <li class="category" data-reactid="113"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-mumm/" data-reactid="114">Mumm</a></li>
+           <li class="category" data-reactid="115"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-perrier-jouet/" data-reactid="116">Perrier Jouet</a></li>
+           <li class="category" data-reactid="117"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-salton/" data-reactid="118">Salton</a></li>
+           <li class="category" data-reactid="119"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-taittinger/" data-reactid="120">Taittinger</a></li>
+           <li class="category" data-reactid="121"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-terranova/" data-reactid="122">Terranova</a></li>
+           <li class="category" data-reactid="123"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-veuve-clicquot/" data-reactid="124">Veuve Clicquot</a></li>
+           <li class="category" data-reactid="125"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-veuve-du-vernay/" data-reactid="126">Veuve Du Vernay</a></li>
+           <li class="category" data-reactid="127"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-champagnes-outras-marcas/" data-reactid="128">Outras Marcas</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="129">
+          <h2 class="category category--l2" data-reactid="130"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/" data-reactid="131">Comestíveis</a></h2>
+          <ul data-reactid="132">
+           <li class="category" data-reactid="133"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-acucar-mascavo/" data-reactid="134">Acucar Mascavo</a></li>
+           <li class="category" data-reactid="135"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-adocante/" data-reactid="136">Adocante</a></li>
+           <li class="category" data-reactid="137"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-arroz/" data-reactid="138">Arroz</a></li>
+           <li class="category" data-reactid="139"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-azeite/" data-reactid="140">Azeite</a></li>
+           <li class="category" data-reactid="141"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-azeite-oliva/" data-reactid="142">Azeite De Oliva</a></li>
+           <li class="category" data-reactid="143"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-batata/" data-reactid="144">Batata</a></li>
+           <li class="category" data-reactid="145"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-cachaca/" data-reactid="146">Cachaca</a></li>
+           <li class="category" data-reactid="147"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-cafe/" data-reactid="148">Cafe</a></li>
+           <li class="category" data-reactid="149"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-castanha-caju/" data-reactid="150">Castanha De Caju</a></li>
+           <li class="category" data-reactid="151"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-chiclete/" data-reactid="152">Chiclete</a></li>
+           <li class="category" data-reactid="153"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/chocolate/" data-reactid="154">Chocolate</a></li>
+           <li class="category" data-reactid="155"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-creme-avela/" data-reactid="156">Creme De Avela</a></li>
+           <li class="category" data-reactid="157"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-doce-leite/" data-reactid="158">Doce De Leite</a></li>
+           <li class="category" data-reactid="159"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/doces/" data-reactid="160">Doces</a></li>
+           <li class="category" data-reactid="161"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-erva-mate/" data-reactid="162">Erva Mate</a></li>
+           <li class="category" data-reactid="163"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-farinha/" data-reactid="164">Farinha</a></li>
+           <li class="category" data-reactid="165"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-mel/" data-reactid="166">Mel</a></li>
+           <li class="category" data-reactid="167"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-molho-pimenta/" data-reactid="168">Molho De Pimenta</a></li>
+           <li class="category" data-reactid="169"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-oleo-coco/" data-reactid="170">Oleo De Coco</a></li>
+           <li class="category" data-reactid="171"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/papel-arroz/" data-reactid="172">Papel Arroz</a></li>
+           <li class="category" data-reactid="173"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-pimenta/" data-reactid="174">Pimenta</a></li>
+           <li class="category" data-reactid="175"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-pirulito/" data-reactid="176">Pirulito</a></li>
+           <li class="category" data-reactid="177"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-sal-marinho/" data-reactid="178">Sal Marinho</a></li>
+           <li class="category" data-reactid="179"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-sal-rosa/" data-reactid="180">Sal Rosa</a></li>
+           <li class="category" data-reactid="181"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-salgadinho/" data-reactid="182">Salgadinho</a></li>
+           <li class="category" data-reactid="183"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/tempero/" data-reactid="184">Tempero</a></li>
+           <li class="category" data-reactid="185"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-comestiveis-vinho/" data-reactid="186">Vinho</a></li>
+           <li class="category" data-reactid="187"><a href="https://lista.mercadolivre.com.br/delicatessen/comestiveis/outros/" data-reactid="188">Outros</a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="group" data-reactid="189">
+         <div class="categories__wrapper" data-reactid="190">
+          <h2 class="category category--l2" data-reactid="191"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-infusao/" data-reactid="192">Infusão</a></h2>
+          <ul data-reactid="193">
+           <li class="category" data-reactid="194"><a href="https://lista.mercadolivre.com.br/comestiveis-infusao-cha/" data-reactid="195">Chá</a></li>
+           <li class="category" data-reactid="196"><a href="https://lista.mercadolivre.com.br/comestiveis-infusao-erva-mate/" data-reactid="197">Erva-Mate</a></li>
+           <li class="category" data-reactid="198"><a href="https://lista.mercadolivre.com.br/comestiveis-infusao-outros/" data-reactid="199">Outros</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="200">
+          <h2 class="category category--l2" data-reactid="201"><a href="https://lista.mercadolivre.com.br/delicatessen/licor/" data-reactid="202">Licor</a></h2>
+          <ul data-reactid="203"></ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="204">
+          <h2 class="category category--l2" data-reactid="205"><a href="https://lista.mercadolivre.com.br/delicatessen/livros/culinaria/" data-reactid="206">Livros de culinária</a></h2>
+          <ul data-reactid="207">
+           <li class="category" data-reactid="208"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-bebidas/" data-reactid="209">Bebidas</a></li>
+           <li class="category" data-reactid="210"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-congelados-microondas/" data-reactid="211">Congelados e Microondas</a></li>
+           <li class="category" data-reactid="212"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-internacional/" data-reactid="213">Culinária Internacional</a></li>
+           <li class="category" data-reactid="214"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-nacional/" data-reactid="215">Culinária Nacional</a></li>
+           <li class="category" data-reactid="216"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-livros-culinaria-diet-light/" data-reactid="217">Diet e Light</a></li>
+           <li class="category" data-reactid="218"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-doces-sobremesas/" data-reactid="219">Doces e Sobremesas</a></li>
+           <li class="category" data-reactid="220"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-natural-vegetariana/" data-reactid="221">Natural e Vegetariana</a></li>
+           <li class="category" data-reactid="222"><a href="https://lista.mercadolivre.com.br/delicatessen-livros-culinaria-outros/" data-reactid="223">Outros</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="224">
+          <h2 class="category category--l2" data-reactid="225"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-suco/" data-reactid="226">Suco</a></h2>
+          <ul data-reactid="227"></ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="228">
+          <h2 class="category category--l2" data-reactid="229"><a href="https://lista.mercadolivre.com.br/delicatessen/tequila/" data-reactid="230">Tequila</a></h2>
+          <ul data-reactid="231"></ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="232">
+          <h2 class="category category--l2" data-reactid="233"><a href="https://lista.mercadolivre.com.br/delicatessen/vinhos/" data-reactid="234">Vinhos</a></h2>
+          <ul data-reactid="235">
+           <li class="category" data-reactid="236"><a href="https://lista.mercadolivre.com.br/vinhos-acessorios/" data-reactid="237">Acessórios</a></li>
+           <li class="category" data-reactid="238"><a href="https://lista.mercadolivre.com.br/vinhos/" data-reactid="239">Vinhos</a></li>
+           <li class="category" data-reactid="240"><a href="https://lista.mercadolivre.com.br/vinhos-outros/" data-reactid="241">Outros</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="242">
+          <h2 class="category category--l2" data-reactid="243"><a href="https://lista.mercadolivre.com.br/delicatessen/vodka/" data-reactid="244">Vodka</a></h2>
+          <ul data-reactid="245"></ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="246">
+          <h2 class="category category--l2" data-reactid="247"><a href="https://lista.mercadolivre.com.br/delicatessen/whisky/" data-reactid="248">Whisky</a></h2>
+          <ul data-reactid="249">
+           <li class="category" data-reactid="250"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-ballantines/" data-reactid="251">Ballantines</a></li>
+           <li class="category" data-reactid="252"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-chivas-regal/" data-reactid="253">Chivas Regal</a></li>
+           <li class="category" data-reactid="254"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-glenfiddich/" data-reactid="255">Glenfiddich</a></li>
+           <li class="category" data-reactid="256"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-glenlivet/" data-reactid="257">Glenlivet</a></li>
+           <li class="category" data-reactid="258"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-jack-daniels/" data-reactid="259">Jack Daniels</a></li>
+           <li class="category" data-reactid="260"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-jim-bean/" data-reactid="261">Jim Bean</a></li>
+           <li class="category" data-reactid="262"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-johnnie-walker/" data-reactid="263">Johnnie Walker</a></li>
+           <li class="category" data-reactid="264"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-old-parr/" data-reactid="265">Old Parr</a></li>
+           <li class="category" data-reactid="266"><a href="https://lista.mercadolivre.com.br/alimentos-e-bebidas-whisky-outras-marcas/" data-reactid="267">Outras Marcas</a></li>
+          </ul>
+         </div>
+         <div class="categories__wrapper" data-reactid="268">
+          <h2 class="category category--l2" data-reactid="269"><a href="https://lista.mercadolivre.com.br/delicatessen/outros/" data-reactid="270">Outros</a></h2>
+          <ul data-reactid="271"></ul>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="column" data-reactid="272">
+       <div data-reactid="273">
+        <article class="deal-items" data-reactid="274">
+         <div class="ui-item__wrapper" data-reactid="275">
+          <a href="https://produto.mercadolivre.com.br/MLB-837534115-creme-de-avel-nutella-650g-gigante-ferrero-pronta-entrega-_JM#c_id=/home/category/deal-items/element" class="ui-item" itemscope itemtype="http://schema.org/Product" data-reactid="276"><img src="https://http2.mlstatic.com/D_Q_NP_440915-MLB25341950419_022017-P.jpg" itemprop="image" class="ui-item__image lazy-load" alt="Creme De Avelã Nutella 650g Gigante Ferrero Pronta Entrega" srcset="https://http2.mlstatic.com/D_Q_NP_440915-MLB25341950419_022017-P.jpg 1x, https://http2.mlstatic.com/D_Q_NP_440915-MLB25341950419_022017-W.jpg 2x" data-reactid="277">
+           <div class="ui-item__content" data-reactid="278">
+            <!-- react-empty: 279 -->
+            <div class="ui-item__price-block" data-reactid="280">
+             <span class="price-tag ui-item__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer" data-reactid="281">
+              <meta itemprop="price" content="36,00" data-reactid="282"><span class="price-tag-symbol" itemprop="priceCurrency" content="BRL" data-reactid="283">R$</span><span class="price-tag-fraction" data-reactid="284">36</span><span class="price-tag-decimal-separator" data-reactid="285">,</span><span class="price-tag-cents" data-reactid="286">00</span></span>
+             <span class="ui-item__installments" data-reactid="287"> </span>
+            </div>
+            <p class="ui-item__title" itemprop="name" data-reactid="288">Creme De Avelã Nutella 650g Gigante Ferrero Pronta Entrega</p>
+           </div><button class="ui-item__bookmark" data-reactid="289">
+            <svg class="ui-item__bookmark-icon" viewbox="0 0 36 32" data-reactid="290">
+             <path d="M30.4 16q1.5-1.3 2-2.6t.6-3q0-1.4-.7-3T30.6 5q-1.4-1.2-2.4-1.6T25.8 3q-1.5 0-3 .6t-2.6 2l-2 2-2.3-2q-1.8-1.4-3-2T10.2 3t-2.6.4T5.3 5q-1 .7-1.6 2.4t-.7 3q0 1.4.6 3T5.4 16L18 28l12.4-12zM0 10.5q0-1.7.8-4t2.6-3.8Q5 1.2 6.7.7t3.6-.7q2 0 3.8.8t4 2.7q2-2 4-2.7t4-.8 3.4.6 3.3 2Q34.3 4 35 6.3t1 4-.6 4-3 4L18 32 3.4 18.2Q1 16 .4 13.7T0 10.4z" data-reactid="291"></path>
+            </svg></button>
+           <meta itemprop="url" content="https://produto.mercadolivre.com.br/MLB-837534115-creme-de-avel-nutella-650g-gigante-ferrero-pronta-entrega-_JM#c_id=/home/category/deal-items/element" data-reactid="292">
+           <meta itemprop="productID" content="MLB837534115" data-reactid="293"></a>
+         </div>
+         <div class="ui-item__wrapper" data-reactid="294">
+          <a href="https://produto.mercadolivre.com.br/MLB-714047209-1-cafe-verde-marita-acima-de-4-latas-frete-gratis-_JM#c_id=/home/category/deal-items/element" class="ui-item" itemscope itemtype="http://schema.org/Product" data-reactid="295"><img src="https://http2.mlstatic.com/D_Q_NP_725362-MLB25694211811_062017-P.jpg" itemprop="image" class="ui-item__image lazy-load" alt="1 Café Verde Marita - Acima De 4 Latas Frete Grátis" srcset="https://http2.mlstatic.com/D_Q_NP_725362-MLB25694211811_062017-P.jpg 1x, https://http2.mlstatic.com/D_Q_NP_725362-MLB25694211811_062017-W.jpg 2x" data-reactid="296">
+           <div class="ui-item__content" data-reactid="297">
+            <!-- react-empty: 298 -->
+            <div class="ui-item__price-block" data-reactid="299">
+             <span class="price-tag ui-item__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer" data-reactid="300">
+              <meta itemprop="price" content="35,00" data-reactid="301"><span class="price-tag-symbol" itemprop="priceCurrency" content="BRL" data-reactid="302">R$</span><span class="price-tag-fraction" data-reactid="303">35</span><span class="price-tag-decimal-separator" data-reactid="304">,</span><span class="price-tag-cents" data-reactid="305">00</span></span>
+             <span class="ui-item__installments" data-reactid="306"> </span>
+            </div>
+            <p class="ui-item__title" itemprop="name" data-reactid="307">1 Café Verde Marita - Acima De 4 Latas Frete Grátis</p>
+           </div><button class="ui-item__bookmark" data-reactid="308">
+            <svg class="ui-item__bookmark-icon" viewbox="0 0 36 32" data-reactid="309">
+             <path d="M30.4 16q1.5-1.3 2-2.6t.6-3q0-1.4-.7-3T30.6 5q-1.4-1.2-2.4-1.6T25.8 3q-1.5 0-3 .6t-2.6 2l-2 2-2.3-2q-1.8-1.4-3-2T10.2 3t-2.6.4T5.3 5q-1 .7-1.6 2.4t-.7 3q0 1.4.6 3T5.4 16L18 28l12.4-12zM0 10.5q0-1.7.8-4t2.6-3.8Q5 1.2 6.7.7t3.6-.7q2 0 3.8.8t4 2.7q2-2 4-2.7t4-.8 3.4.6 3.3 2Q34.3 4 35 6.3t1 4-.6 4-3 4L18 32 3.4 18.2Q1 16 .4 13.7T0 10.4z" data-reactid="310"></path>
+            </svg></button>
+           <meta itemprop="url" content="https://produto.mercadolivre.com.br/MLB-714047209-1-cafe-verde-marita-acima-de-4-latas-frete-gratis-_JM#c_id=/home/category/deal-items/element" data-reactid="311">
+           <meta itemprop="productID" content="MLB714047209" data-reactid="312"></a>
+         </div>
+         <div class="ui-item__wrapper" data-reactid="313">
+          <a href="https://produto.mercadolivre.com.br/MLB-869722872-whisky-johnnie-walker-black-label-1000ml-_JM#c_id=/home/category/deal-items/element" class="ui-item" itemscope itemtype="http://schema.org/Product" data-reactid="314"><img src="https://http2.mlstatic.com/D_Q_NP_722582-MLB25712680284_062017-P.jpg" itemprop="image" class="ui-item__image lazy-load" alt="Whisky Johnnie Walker Black Label 1000ml" srcset="https://http2.mlstatic.com/D_Q_NP_722582-MLB25712680284_062017-P.jpg 1x, https://http2.mlstatic.com/D_Q_NP_722582-MLB25712680284_062017-W.jpg 2x" data-reactid="315">
+           <div class="ui-item__content" data-reactid="316">
+            <div class="ui-item__shipping ui-item__shipping-free" title="shipping" data-reactid="317">
+             <svg class="ui-item__shipping-icon" viewbox="0 0 39 32" data-reactid="318">
+              <path d="M21.7 24q.6-1.3 2-2t2.6-.8q1.5 0 2.7.7t2 2h4.4v-7.5L30 10.3h-4.8V6.8h5.6q.5 0 .8.2t.6.5l6.2 7.4q.3 0 .4.3t0 .6v9.6q0 .7-.5 1.2t-1 .4h-6q-.4 1.8-1.8 3t-3.2 1-3.3-1-1.7-3h-6q-.4 1.8-1.8 3t-3.2 1-3.3-1-1.7-3H1.7Q1 27.4.5 27T0 25.6V4q0-1.7 1.2-2.8T4 0h17.2q1.6 0 2.8 1.2T25.2 4v14.3h-3.5V4q0-.2-.2-.4t-.3-.2H4q-.3 0-.4.2t-.2.4v20h2.3q.6-1.3 2-2t2.6-.8q1.5 0 2.7.7t2 2h6.7zm4.6 4q.7 0 1.2-.5t.5-1.2-.5-1.2-1.2-.3-1.2.5-.3 1.3.5 1.2 1.3.5zm-16 0q.7 0 1.2-.5t.5-1.2-.5-1.2-1.2-.3T9 25t-.4 1.3.5 1.2 1.4.5z" data-reactid="319"></path>
+             </svg>
+            </div>
+            <div class="ui-item__price-block" data-reactid="320">
+             <span class="price-tag ui-item__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer" data-reactid="321">
+              <meta itemprop="price" content="169,99" data-reactid="322"><span class="price-tag-symbol" itemprop="priceCurrency" content="BRL" data-reactid="323">R$</span><span class="price-tag-fraction" data-reactid="324">169</span><span class="price-tag-decimal-separator" data-reactid="325">,</span><span class="price-tag-cents" data-reactid="326">99</span></span>
+             <span class="ui-item__installments" data-reactid="327">12x R$ 14.17 sem juros</span>
+            </div>
+            <p class="ui-item__title" itemprop="name" data-reactid="328">Whisky Johnnie Walker Black Label 1000ml</p>
+           </div><button class="ui-item__bookmark" data-reactid="329">
+            <svg class="ui-item__bookmark-icon" viewbox="0 0 36 32" data-reactid="330">
+             <path d="M30.4 16q1.5-1.3 2-2.6t.6-3q0-1.4-.7-3T30.6 5q-1.4-1.2-2.4-1.6T25.8 3q-1.5 0-3 .6t-2.6 2l-2 2-2.3-2q-1.8-1.4-3-2T10.2 3t-2.6.4T5.3 5q-1 .7-1.6 2.4t-.7 3q0 1.4.6 3T5.4 16L18 28l12.4-12zM0 10.5q0-1.7.8-4t2.6-3.8Q5 1.2 6.7.7t3.6-.7q2 0 3.8.8t4 2.7q2-2 4-2.7t4-.8 3.4.6 3.3 2Q34.3 4 35 6.3t1 4-.6 4-3 4L18 32 3.4 18.2Q1 16 .4 13.7T0 10.4z" data-reactid="331"></path>
+            </svg></button>
+           <meta itemprop="url" content="https://produto.mercadolivre.com.br/MLB-869722872-whisky-johnnie-walker-black-label-1000ml-_JM#c_id=/home/category/deal-items/element" data-reactid="332">
+           <meta itemprop="productID" content="MLB869722872" data-reactid="333"></a>
+         </div>
+         <div class="ui-item__wrapper" data-reactid="334">
+          <a href="https://produto.mercadolivre.com.br/MLB-845970585-pack-06-whisky-johnnie-walker-red-label-1-litro-original-_JM#c_id=/home/category/deal-items/element" class="ui-item" itemscope itemtype="http://schema.org/Product" data-reactid="335"><img src="https://http2.mlstatic.com/D_Q_NP_676985-MLB25808563716_072017-P.jpg" itemprop="image" class="ui-item__image lazy-load" alt="Pack 06 Whisky Johnnie Walker Red Label 1 Litro Original" srcset="https://http2.mlstatic.com/D_Q_NP_676985-MLB25808563716_072017-P.jpg 1x, https://http2.mlstatic.com/D_Q_NP_676985-MLB25808563716_072017-W.jpg 2x" data-reactid="336">
+           <div class="ui-item__content" data-reactid="337">
+            <div class="ui-item__shipping ui-item__shipping-free" title="shipping" data-reactid="338">
+             <svg class="ui-item__shipping-icon" viewbox="0 0 39 32" data-reactid="339">
+              <path d="M21.7 24q.6-1.3 2-2t2.6-.8q1.5 0 2.7.7t2 2h4.4v-7.5L30 10.3h-4.8V6.8h5.6q.5 0 .8.2t.6.5l6.2 7.4q.3 0 .4.3t0 .6v9.6q0 .7-.5 1.2t-1 .4h-6q-.4 1.8-1.8 3t-3.2 1-3.3-1-1.7-3h-6q-.4 1.8-1.8 3t-3.2 1-3.3-1-1.7-3H1.7Q1 27.4.5 27T0 25.6V4q0-1.7 1.2-2.8T4 0h17.2q1.6 0 2.8 1.2T25.2 4v14.3h-3.5V4q0-.2-.2-.4t-.3-.2H4q-.3 0-.4.2t-.2.4v20h2.3q.6-1.3 2-2t2.6-.8q1.5 0 2.7.7t2 2h6.7zm4.6 4q.7 0 1.2-.5t.5-1.2-.5-1.2-1.2-.3-1.2.5-.3 1.3.5 1.2 1.3.5zm-16 0q.7 0 1.2-.5t.5-1.2-.5-1.2-1.2-.3T9 25t-.4 1.3.5 1.2 1.4.5z" data-reactid="340"></path>
+             </svg>
+            </div>
+            <div class="ui-item__price-block" data-reactid="341">
+             <span class="price-tag ui-item__price" itemprop="offers" itemscope itemtype="http://schema.org/Offer" data-reactid="342">
+              <meta itemprop="price" content="375,75" data-reactid="343"><span class="price-tag-symbol" itemprop="priceCurrency" content="BRL" data-reactid="344">R$</span><span class="price-tag-fraction" data-reactid="345">375</span><span class="price-tag-decimal-separator" data-reactid="346">,</span><span class="price-tag-cents" data-reactid="347">75</span></span>
+             <span class="ui-item__installments" data-reactid="348">12x R$ 31.31 sem juros</span>
+            </div>
+            <p class="ui-item__title" itemprop="name" data-reactid="349">Pack 06 Whisky Johnnie Walker Red Label 1 Litro Original</p>
+           </div><button class="ui-item__bookmark" data-reactid="350">
+            <svg class="ui-item__bookmark-icon" viewbox="0 0 36 32" data-reactid="351">
+             <path d="M30.4 16q1.5-1.3 2-2.6t.6-3q0-1.4-.7-3T30.6 5q-1.4-1.2-2.4-1.6T25.8 3q-1.5 0-3 .6t-2.6 2l-2 2-2.3-2q-1.8-1.4-3-2T10.2 3t-2.6.4T5.3 5q-1 .7-1.6 2.4t-.7 3q0 1.4.6 3T5.4 16L18 28l12.4-12zM0 10.5q0-1.7.8-4t2.6-3.8Q5 1.2 6.7.7t3.6-.7q2 0 3.8.8t4 2.7q2-2 4-2.7t4-.8 3.4.6 3.3 2Q34.3 4 35 6.3t1 4-.6 4-3 4L18 32 3.4 18.2Q1 16 .4 13.7T0 10.4z" data-reactid="352"></path>
+            </svg></button>
+           <meta itemprop="url" content="https://produto.mercadolivre.com.br/MLB-845970585-pack-06-whisky-johnnie-walker-red-label-1-litro-original-_JM#c_id=/home/category/deal-items/element" data-reactid="353">
+           <meta itemprop="productID" content="MLB845970585" data-reactid="354"></a>
+         </div>
+        </article>
+        <article class="advertisement-square AD_area" data-reactid="355">
+         <div class="advertisement square" data-reactid="356">
+          <div class="square" id="slot_Right" data-reactid="357"></div>
+          <div class="caption" data-reactid="358">
+           Publicidade
+          </div>
+         </div>
+        </article>
+       </div>
+      </div>
+     </div>
+    </section>
+   </div>
+  </main>
+  <input type="checkbox" id="nav-footer-access-switch" checked>
+  <div class="nav-footer-access">
+   <label for="nav-footer-access-switch">Mais informações <i class="nav-icon-chevron-up"></i></label>
+   <div class="nav-footer-access-content">
+    <div class="nav-bounds">
+     <div class="nav-footer-access-col">
+      <h5 class="nav-footer-access-title">Sobre o</h5>
+      <ul>
+       <li><a href="http://institucional.mercadolivre.com.br">Mercado Livre</a></li>
+       <li><a href="http://investor.mercadolibre.com">Investor relations</a></li>
+       <li><a href="http://www.mercadolivre.com.br/sitemap.html">Mapa do site</a></li>
+       <li><a href="https://tendencias.mercadolivre.com.br">Tendências</a></li>
+      </ul>
+     </div>
+     <div class="nav-footer-access-col">
+      <h5 class="nav-footer-access-title">Outros sites</h5>
+      <ul>
+       <li><a href="http://developers.mercadolibre.com">Desenvolvedores</a></li>
+       <li><a href="https://www.mercadopago.com.br">Mercado Pago</a></li>
+       <li><a href="https://envios.mercadolivre.com.br">Mercado Envíos</a></li>
+       <li><a href="https://www.mercadoshops.com.br">Mercado Shops</a></li>
+       <li><a href="https://publicidade.mercadolivre.com.br">Mercado Livre Publicidade</a></li>
+       <li><a href="https://www.mercadolivre.com.br/vale-presente">Vale-Presente Mercado Livre</a></li>
+      </ul>
+     </div>
+     <div class="nav-footer-access-col">
+      <h5 class="nav-footer-access-title">Contato</h5>
+      <ul>
+       <li><a href="https://contato.mercadolivre.com.br/ajuda/Compras_638">Comprar</a></li>
+       <li><a href="https://contato.mercadolivre.com.br/ajuda/Vender-un-producto_988">Vender</a></li>
+       <li><a href="#"></a></li>
+       <li><a href="https://contato.mercadolivre.com.br/ajuda">Solução de problemas</a></li>
+       <li><a href="https://contato.mercadolivre.com.br/ajuda/seguranca_663">Segurança</a></li>
+      </ul>
+     </div>
+     <div class="nav-footer-access-col">
+      <h5 class="nav-footer-access-title">Redes sociais</h5>
+      <ul>
+       <li><a href="https://twitter.com/MercadoLivre">Twitter</a></li>
+       <li><a href="https://www.facebook.com/MercadoLivre">Facebook</a></li>
+       <li><a href="https://www.instagram.com/mercadolivre">Instagram</a></li>
+       <li><a href="https://www.youtube.com/user/mercadolivreoficial">YouTube</a></li>
+      </ul>
+     </div>
+     <div class="nav-footer-access-col">
+      <h5 class="nav-footer-access-title">Minha conta</h5>
+      <ul>
+       <li><a href="https://www.mercadolivre.com/jms/mlb/lgz/login?platform_id=ML&amp;go=https%3A%2F%2Fhome.mercadolivre.com.br%2Falimentos-bebidas%2F&amp;loginType=explicit">Entre</a></li>
+       <li><a href="https://vender.mercadolivre.com.br">Vender</a></li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer role="contentinfo" class="nav-footer">
+   <div class="nav-bounds">
+    <div class="nav-footer-info-wrapper">
+     <div class="nav-footer-primaryinfo">
+      <small class="nav-footer-copyright">Copyright ©&nbsp;1999-2017 Ebazar.com.br LTDA.</small>
+      <nav class="nav-footer-navigation">
+       <a href="http://www.mercadolibre.com/empleos">Trabalhe conosco</a>
+       <a href="https://contato.mercadolivre.com.br/ajuda/Termos-e-condicoes-gerais-de-uso_1409">Termos e condições</a>
+       <a href="https://contato.mercadolivre.com.br/ajuda/Pol%EDticas-de-Privacidade_1442">Políticas de privacidade</a>
+       <a href="https://contato.mercadolivre.com.br/ajuda">Contato</a>
+      </nav>
+     </div>
+     <p class="nav-footer-secondaryinfo">CNPJ n.º 03.007.331/0001-41 / Av. das Nações Unidas, nº 3.003, Bonfim, Osasco/SP - CEP 06233-903 - empresa do grupo Mercado Livre.</p>
+    </div>
+    <div class="nav-footer-downloadapp-wrapper">
+     <a class="nav-footer-downloadapp" href="https://www.mercadolivre.com.br/gz/app"><i class="nav-icon nav-icon-downloadapp"></i><span>Use o app sem gastar seu pacote de dados!</span></a>
+    </div>
+   </div>
+  </footer>
+  <script>
+(function(w, r) {
+  w[r] = w[r] || function() {
+    (w[r].q = w[r].q || []).push(arguments)
+  }
+})(window,'melidata');
+(function(d,u) {
+  if (!document.getElementById("MelidataIframe")) {
+    var i = d.createElement('iframe');
+    (i.frameElement || i).style.cssText = "width: 0; height: 0; border: 0; position: absolute";
+    i.src = "javascript:false";
+    i.id = "MelidataIframe";
+    var t = d.getElementsByTagName('script')[0];
+    t.parentNode.insertBefore(i, t);
+    var doc = i.contentWindow.document;
+    doc.open().write('<body onload="' +
+      'window.inDapIF = true;' +
+      'var js = document.createElement(\'script\');' +
+      'js.src = \'' + u + '\';' +
+      'document.body.appendChild(js);">');
+    doc.close();
+  } else {
+    // This page is charged async via AJAX and inserted into another one who has
+    // already download melidata js lib => Just clean the track
+    melidata("clean");
+  }
+})(document,'https://analytics.mlstatic.com/melidata/js/3/0.0.48/melidata.min.js');
+
+melidata("add", "id", "05f163a6-0bad-43e6-9083-e22bfd81b015");
+melidata("add", "server_id", "05f163a6-0bad-43e6-9083-e22bfd81b015" );
+melidata("add", "application", {"version":"6.11.1","server_hostname":"i-00d9a9e389b683140-10.76.162.89","server_poolname":"homes-palpatine-mlb","business":"mercadolibre","site_id":"MLB"});
+melidata("add", "user", {"uid":"5b92face-14c1-4538-82f0-8655d6bad5b0"});
+melidata("add", "device", {"platform":"/web/desktop","user_agent":"Mozilla"});
+melidata("add", "platform", {"http":{"cookies":{},"headers":{"host":"home.mercadolivre.com.br","x-device-js":"true","x-nginx-host":"e-000194cc","x-platform":"ml"},"http_url":"http://home.mercadolivre.com.br"}});
+melidata("add", "event_data", {});
+melidata("send", "view", {
+  path: "/home/category",
+  data: {}
+});</script> 
+  <script>!function(e){if("object"==typeof exports&&"undefined"!=typeof module)module.exports=e();else if("function"==typeof define&&define.amd)define([],e);else{var n;n="undefined"!=typeof window?window:"undefined"!=typeof global?global:"undefined"!=typeof self?self:this,n.jcors=e()}}(function(){return function e(n,t,o){function s(i,u){if(!t[i]){if(!n[i]){var f="function"==typeof require&&require;if(!u&&f)return f(i,!0);if(r)return r(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var d=t[i]={exports:{}};n[i][0].call(d.exports,function(e){var t=n[i][1][e];return s(t?t:e)},d,d.exports,e,n,t,o)}return t[i].exports}for(var r="function"==typeof require&&require,i=0;i<o.length;i++)s(o[i]);return s}({1:[function(e,n,t){"use strict";function execute(e){if("string"==typeof e){var n=r.cloneNode(!1);n.text=e,i.parentNode.insertBefore(n,i)}else e.apply(window)}function saveInBuffer(e,n){u[e]=n}function finishedTask(e){saveInBuffer(e,null),f=e+1}function executeBuffer(){for(var e=!0,n=void 0,t=f,o=u.length;o>t&&e;)n=u[t],void 0!==n&&null!==n?(execute(n),finishedTask(t),t+=1):e=!1}function loadsAndExecuteScriptsOnChain(){u.length&&!function(){var e=u.pop(),n=void 0;"string"==typeof e?(n=r.cloneNode(!0),n.type="text/javascript",n.async=!0,n.src=e,n.onload=n.onreadystatechange=function(){n.readyState&&!/loaded|complete/.test(n.readyState)||(n.onload=n.onreadystatechange=null,n=void 0,loadsAndExecuteScriptsOnChain())},i.parentNode.insertBefore(n,i)):(e.apply(window),loadsAndExecuteScriptsOnChain())}()}function onloadCORSHandler(e,n){return function(){saveInBuffer(n,e.responseText),executeBuffer(),e=void 0}}function loadWithCORS(){var e,n,t=arguments.length;for(e=0;t>e;e+=1)"string"==typeof arguments[e]?(n=a(arguments[e]),n.onload=onloadCORSHandler(n,u.length),saveInBuffer(u.length,null),n.send()):(saveInBuffer(u.length,arguments[e]),executeBuffer())}function loadWithoutCORS(){u.push(Array.prototype.slice.call(arguments,0).reverse()),loadsAndExecuteScriptsOnChain()}var o=window.document,r=o.createElement("script"),i=o.getElementsByTagName("script")[0],u=[],f=0,a=function(){var e=void 0,n=void 0;return window.XMLHttpRequest&&(e=new window.XMLHttpRequest,"withCredentials"in e?n=function CORSRequest(n){return e=new window.XMLHttpRequest,e.open("get",n,!0),e}:window.XDomainRequest&&(n=function CORSRequest(n){return e=new window.XDomainRequest,e.open("get",n),e})),n}(),d=a?loadWithCORS:loadWithoutCORS;n.exports=d},{}]},{},[1])(1)});
+(function(win, doc) {
+  var scripts = [function(){
+      !function(n,e){n.mitt=e()}(this,function(){function n(n){return n=n||Object.create(null),{on:function(e,t){(n[e]||(n[e]=[])).push(t)},off:function(e,t){n[e]&&n[e].splice(n[e].indexOf(t)>>>0,1)},emit:function(e,t){(n[e]||[]).map(function(n){n(t)}),(n["*"]||[]).map(function(n){n(e,t)})}}}return n});
+      window.freya = mitt();
+    },"https://http2.mlstatic.com/resources/frontend/statics/ml-widgets/snackbar/v1.0.0/snackbar.js",function(){
+      (function(win, freya) {
+        if (win.SnackbarWidget && freya) {
+          new SnackbarWidget({
+            bus: freya,
+          });
+        }
+      })(window, window.freya);
+    },"https://http2.mlstatic.com/resources/frontend/statics/ml-widgets/nav-cart/v1.1.1/CartWidget.js",function(){
+          new CartWidget({
+            element: document.getElementById('nav-cart'),
+            endpoints: {
+              get: 'https://www.mercadolivre.com.br/gz/cart/info',
+              post: 'https://www.mercadolivre.com.br/gz/cart/api/item',
+            },
+            link: 'https://www.mercadolivre.com.br/gz/cart',
+            isMobile: false,
+            bus: freya,
+            locale: 'es',
+          });
+        },"https://http2.mlstatic.com/ui/searchbox/1.0.7/index.js",function(){
+        new Searchbox('.nav-search-input', {
+        platformId: 'ML',
+        siteId: 'MLB',
+        siteDomain: 'mercadolivre.com.br',
+        limit: 6,
+        searchEndpoint: 'https://lista.mercadolivre.com.br/$query',
+        categoryEndpoint: 'https://lista.mercadolivre.com.br/alimentos-e-bebidas/$query',
+        categoryCheckbox: document.getElementById('categorySearch'),
+        loggedIn: false
+      });
+
+      (function (doc) {
+            'use strict';
+
+            var header = doc.querySelector('.nav-header'),
+                searchInput = doc.querySelector('.nav-search-input'),
+                searchForm = doc.querySelector('.nav-search'),
+                menuSwitch = document.getElementById('nav-header-menu-switch'),
+                clearBtn = doc.querySelector('.nav-search-clear-btn'),
+                searchInputHasFocus = false,
+                searchInputFocusTimer;
+
+            function checkInputText() {
+                clearTimeout(searchInputFocusTimer);
+
+                searchInputFocusTimer = setTimeout(function() {
+                    searchForm.classList[searchInput.value.length && searchInputHasFocus ? 'add' : 'remove']('nav-search--has-text');
+                }, 100);
+            }
+
+            searchInput.addEventListener('focus', function() {
+                header.classList.add('nav-header-has-search-active');
+                header.classList.remove('nav-header--is-leave');
+                menuSwitch.checked = false;
+                searchInputHasFocus = true;
+                checkInputText();
+
+                setTimeout(function() {
+                    header.classList.add('nav-header--is-enter');
+                }, 1);
+            });
+
+            searchInput.addEventListener('blur', function() {
+                header.classList.remove('nav-header--is-enter');
+                header.classList.add('nav-header--is-leave');
+                searchInputHasFocus = false;
+                checkInputText();
+                setTimeout(function() {
+                    if (!searchInputHasFocus) {
+                        header.classList.remove('nav-header-has-search-active');
+                    }
+                }, 100);
+            });
+
+
+            searchInput.addEventListener('input', checkInputText);
+
+            clearBtn && clearBtn.addEventListener('mousedown', function(e) {
+                e.preventDefault();
+
+                searchInput.value = '';
+                checkInputText();
+
+                setTimeout(function(){
+                    searchInput.focus();
+                }, 50);
+            }, false);
+        }(document));
+
+},function(){// Improve the #nav-footer-access-content behavior by scrolling to
+// the bottom when users open this section
+(function (win, doc) {
+    var el = doc.getElementById('nav-footer-access-switch');
+    if (!win.addEventListener || !el) { return; }
+
+    function scrollTo(scrollDuration) {
+        var scrollInterval = setInterval(function () {
+            // stop animation when window is scrolled to bottom
+            if ((win.innerHeight + win.scrollY) >= doc.body.offsetHeight) {
+                clearInterval(scrollInterval);
+                // move scroll 20px each time
+            } else {
+                win.scrollBy(0, 20);
+            }
+        }, 15);
+    }
+
+    // User interaction
+    el.addEventListener('change', function (ev) {
+        if (!this.checked) {
+            setTimeout(function () {
+                scrollTo(400);
+            }, 200);
+        }
+    });
+}(window, document));
+},function(){
+        /*MLB*/
+
+    var naturalSites = new Array("orkut.com.br", "orkut.com", "twitter.com", "t.co", "facebook.com", "google.com", "google.com.br", "images.google.com", "images.google.com.br", "google.com/imgres", "google.com.br/imgres", "plus.url.google.com", "plus.google.com", "search.yahoo.com", "msn.com", "msn.com.br",
+        "cade.search.yahoo.com", "terra.com.br", "uol.com.br",
+        "ig.com.br", "altavista.com", "uol.com.br",
+        "ibest.com.br", "globo.com", "achei.com.br",
+        "aonde.com.br", "dmoz.org", "search.live.com",
+        "bing.com");
+
+    var naturalPmsIds = new Array(36034341, 36034341, 36031648, 36031648, 34556046, 78987160, 78987160, 60595293, 60595293, 60595293, 60595293, 113544030, 113544030, 79012027, 78995911, 78995911,
+        78995923, 79003950, 79003957,
+        79003962, 78995944, 78995951,
+        79012087, 78987206, 78995974,
+        79012117, 79012122, 3755849,
+        3755849);
+
+    var naturalPmsSiteIds = new Array(5821487, 5821487, 5820218, 5820218, 5807046, 305868, 305868, 5938311, 5938311, 5938311, 5938311, 6105608, 6105608, 305910, 305904, 305904,
+        305870, 305905, 305872,
+        305935, 305915, 305891,
+        305916, 305873, 305954,
+        305956, 305957, 4367487,
+        4367487);
+
+        function getSubdomain() {
+        var dom = "" + window.location.host;
+        var pos = dom.indexOf("mercadoli");
+        if (pos == -1)
+          pos = dom.indexOf("deremate");
+        if (pos == -1)
+          pos = dom.indexOf("arremate");
+        if (pos != -1)
+          dom = dom.substring(pos);
+        if (dom.indexOf(":") >= 0) {
+          dom = dom.substring(0, dom.indexOf(":"));
+        }
+
+        return dom;
+      }
+
+      function setCookie(cookieName, cookieValue, nDays) {
+
+        var domain = getSubdomain();
+        var path = "/";
+
+        if (nDays != null) {
+
+          today = new Date();
+
+          expire = new Date();
+          if (nDays == null || nDays == 0)
+            nDays = 1;
+          expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+
+          document.cookie = cookieName + "=" + cookieValue + ";path=" + path + ";domain=." + domain + ";expires=" + expire.toGMTString();
+        } else {
+          document.cookie = cookieName + "=" + cookieValue + ";path=" + path + ";domain=." + domain;
+        }
+      }
+
+
+      function performNaturalCheck(referrer, currentUrl, word) {
+        if (!word) {
+          return;
+        }
+
+        ind = getNaturalReferrerInd(referrer, currentUrl);
+
+        if (ind == -1) {
+          return;
+        }
+        naturalPmsSiteId = naturalPmsSiteIds[ind];
+
+        new Image().src = "https://pmstrk." + _getUrlSubdomain(window.location.href) + '/jm/PmsTrk?tool=' + naturalPmsSiteId + '&word=' + word + '&go=%2Forg-img%2Fpixel.gif';
+      }
+
+      function _getUrlSubdomain(url) {
+        var from = url.indexOf(".");
+        var to = url.indexOf("/", from + 1);
+        if (to == -1) {
+          to = url.length;
+        }
+        return url.substring(from + 1, to);
+      }
+
+      function getCookieValueCall1(name) {
+        var start = document.cookie.indexOf(name + "=");
+        var len = start + name.length + 1;
+        if (start == -1) return null;
+        var end = document.cookie.indexOf(";", len);
+        if (end == -1) end = document.cookie.length;
+        return unescape(document.cookie.substring(len, end));
+      }
+
+      function getNaturalReferrerInd(referrer, currentUrl) {
+        fromPms = getCookieValueCall1("pmsonline");
+        //document.write("<BR>pmsonline:"+fromPms+"<BR>");
+        if (fromPms != null) {
+          if (fromPms == "YES") {
+            setCookie("pmsonline", currentUrl, null);
+            return -1;
+          }
+          if (fromPms.toLowerCase() == currentUrl.toLowerCase())
+            return -1;
+        }
+
+        iQueryIndex = referrer.indexOf("?");
+        if (iQueryIndex != -1)
+          referrer = referrer.substring(0, iQueryIndex);
+        referrer = referrer.toLowerCase();
+        finded = -1;
+        for (var i = naturalSites.length - 1; i > -1 && finded == -1; i--) {
+          if (referrer.indexOf(naturalSites[i]) != -1)
+            finded = i;
+        }
+        return finded;
+      }
+
+      function installListeners() {
+        document.onclick = clickEvent;
+        document.onkeypress = keyPressEvent;
+      }
+
+      function keyPressEvent(E) {
+        performPopPms();
+      }
+
+      function clickEvent(E) {
+        performPopPms();
+      }
+
+      function performPopPms() {
+        var t_orgpms = getCookieValueCall1("t_orgpms");
+        if (t_orgpms) {
+          var t_cust_id = getCookieValueCall1("t_cust_id");
+          var t_pmsword = getCookieValueCall1("t_pmsword");
+          var key = "PMS" + t_cust_id;
+          //Persistir cookies de PMS
+          setCookie("orgpms", t_orgpms, 30);
+          setCookie(key, key, 1);
+          setCookie("pmsword", t_pmsword, 30);
+          // Eliminar cookies temporales
+          setCookie("t_orgpms", t_orgpms, -10);
+          setCookie("t_pmsword", t_pmsword, -10);
+          setCookie("t_cust_id", t_cust_id, -10);
+        }
+      }
+      performNaturalCheck(document.referrer, location.pathname, 'HOME_CATEG');
+      },function(){window.ML_PRELOADED_STATE = {"atf":{"category_id":"MLB1403","header":{"title":"Alimentos e Bebidas no Mercado Livre Brasil - Onde comprar e vender de Tudo.","description":"Alimentos e Bebidas em oferta no Mercado Livre Brasil - Onde comprar e vender de Tudo.","site_name":"Mercado Livre Brasil"},"title":"Alimentos e Bebidas","background_image":null,"search_checkbox":{"name":"Solo en Alimentos e Bebidas","permalink":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas\u002F$query"},"category_list":[{"title":"Alimentos para Bebês","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-bebes\u002F","children":[],"track":{"category_id":"MLB264034","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Cachaça","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcachaca\u002F","children":[{"title":"Adega Da Pinga","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-adega-pinga\u002F","children":[],"track":{"category_id":"MLB263818","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Boazinha","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-boazinha\u002F","children":[],"track":{"category_id":"MLB263775","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Chico Mineiro","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-chico-mineiro\u002F","children":[],"track":{"category_id":"MLB263800","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Chico Valim","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-chico-valim\u002F","children":[],"track":{"category_id":"MLB263801","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Jerominho Ribeiro","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-jerominho-ribeiro\u002F","children":[],"track":{"category_id":"MLB263823","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Joao Mendes","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-joao-mendes\u002F","children":[],"track":{"category_id":"MLB263820","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Lua Azul","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-lua-azul\u002F","children":[],"track":{"category_id":"MLB263774","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Sabor De Minas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-sabor-minas\u002F","children":[],"track":{"category_id":"MLB263819","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Santa Rosa","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-santa-rosa\u002F","children":[],"track":{"category_id":"MLB263802","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Santo Grau","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-santo-grau\u002F","children":[],"track":{"category_id":"MLB263821","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Vale Verde","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-vale-verde\u002F","children":[],"track":{"category_id":"MLB263816","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Weber Haus","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-weber-haus\u002F","children":[],"track":{"category_id":"MLB263773","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Werneck","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-werneck\u002F","children":[],"track":{"category_id":"MLB263822","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Ypioca","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-ypioca\u002F","children":[],"track":{"category_id":"MLB263817","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outras Marcas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cachaca-outras-marcas\u002F","children":[],"track":{"category_id":"MLB263772","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB194826","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Café","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cafe\u002F","children":[{"title":"Café em Cápsulas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Finfusao-cafe-capsulas\u002F","children":[],"track":{"category_id":"MLB247540","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Café em Grão","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Finfusao-cafe-grao\u002F","children":[],"track":{"category_id":"MLB247539","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Café Moído","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Finfusao-cafe-moido\u002F","children":[],"track":{"category_id":"MLB247538","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Café Solúvel","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Finfusao-cafe-soluvel\u002F","children":[],"track":{"category_id":"MLB247537","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outros Tipos","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Finfusao-cafe-outros-tipos\u002F","children":[],"track":{"category_id":"MLB247541","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB247520","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Cerveja","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcerveja\u002F","children":[{"title":"Artesanal","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-artesanal\u002F","children":[],"track":{"category_id":"MLB263815","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Ashby","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-ashby\u002F","children":[],"track":{"category_id":"MLB263771","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Brahma","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-brahma\u002F","children":[],"track":{"category_id":"MLB263808","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Erdinger","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-erdinger\u002F","children":[],"track":{"category_id":"MLB263811","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Estrella","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-estrella\u002F","children":[],"track":{"category_id":"MLB263807","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Heineken","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-heineken\u002F","children":[],"track":{"category_id":"MLB263770","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Opa Bier","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-opa-bier\u002F","children":[],"track":{"category_id":"MLB263809","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Paulaner","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-paulaner\u002F","children":[],"track":{"category_id":"MLB263810","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Schneider Weisse Tap","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-schneider-weisse-tap\u002F","children":[],"track":{"category_id":"MLB263812","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Skol","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-skol\u002F","children":[],"track":{"category_id":"MLB263769","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outras Marcas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-cerveja-outras-marcas\u002F","children":[],"track":{"category_id":"MLB263768","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB194799","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Champagnes","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fchampagnes\u002F","children":[{"title":"Chandon","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-chandon\u002F","children":[],"track":{"category_id":"MLB263777","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Dom Perignon","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-dom-perignon\u002F","children":[],"track":{"category_id":"MLB263782","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Freixenet","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-freixenet\u002F","children":[],"track":{"category_id":"MLB263779","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Giaretta","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-giaretta\u002F","children":[],"track":{"category_id":"MLB263806","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Jp Chenet","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-jp-chenet\u002F","children":[],"track":{"category_id":"MLB263814","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Louis Roederer","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-louis-roederer\u002F","children":[],"track":{"category_id":"MLB263804","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Moscatel","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-moscatel\u002F","children":[],"track":{"category_id":"MLB263784","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Mumm","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-mumm\u002F","children":[],"track":{"category_id":"MLB263783","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Perrier Jouet","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-perrier-jouet\u002F","children":[],"track":{"category_id":"MLB263780","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Salton","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-salton\u002F","children":[],"track":{"category_id":"MLB263781","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Taittinger","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-taittinger\u002F","children":[],"track":{"category_id":"MLB263803","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Terranova","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-terranova\u002F","children":[],"track":{"category_id":"MLB263805","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Veuve Clicquot","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-veuve-clicquot\u002F","children":[],"track":{"category_id":"MLB263778","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Veuve Du Vernay","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-veuve-du-vernay\u002F","children":[],"track":{"category_id":"MLB263813","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outras Marcas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-champagnes-outras-marcas\u002F","children":[],"track":{"category_id":"MLB263776","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB194827","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Comestíveis","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002F","children":[{"title":"Acucar Mascavo","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-acucar-mascavo\u002F","children":[],"track":{"category_id":"MLB263797","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Adocante","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-adocante\u002F","children":[],"track":{"category_id":"MLB263847","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Arroz","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-arroz\u002F","children":[],"track":{"category_id":"MLB263835","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Azeite","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-azeite\u002F","children":[],"track":{"category_id":"MLB263841","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Azeite De Oliva","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-azeite-oliva\u002F","children":[],"track":{"category_id":"MLB263798","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Batata","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-batata\u002F","children":[],"track":{"category_id":"MLB263845","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Cachaca","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-cachaca\u002F","children":[],"track":{"category_id":"MLB263842","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Cafe","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-cafe\u002F","children":[],"track":{"category_id":"MLB263843","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Castanha De Caju","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-castanha-caju\u002F","children":[],"track":{"category_id":"MLB263851","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Chiclete","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-chiclete\u002F","children":[],"track":{"category_id":"MLB263848","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Chocolate","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002Fchocolate\u002F","children":[],"track":{"category_id":"MLB194832","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Creme De Avela","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-creme-avela\u002F","children":[],"track":{"category_id":"MLB263844","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Doce De Leite","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-doce-leite\u002F","children":[],"track":{"category_id":"MLB263836","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Doces","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002Fdoces\u002F","children":[],"track":{"category_id":"MLB1426","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Erva Mate","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-erva-mate\u002F","children":[],"track":{"category_id":"MLB263839","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Farinha","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-farinha\u002F","children":[],"track":{"category_id":"MLB263794","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Mel","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-mel\u002F","children":[],"track":{"category_id":"MLB263840","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Molho De Pimenta","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-molho-pimenta\u002F","children":[],"track":{"category_id":"MLB263795","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Oleo De Coco","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-oleo-coco\u002F","children":[],"track":{"category_id":"MLB263796","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Papel Arroz","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002Fpapel-arroz\u002F","children":[],"track":{"category_id":"MLB41538","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Pimenta","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-pimenta\u002F","children":[],"track":{"category_id":"MLB263837","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Pirulito","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-pirulito\u002F","children":[],"track":{"category_id":"MLB263849","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Sal Marinho","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-sal-marinho\u002F","children":[],"track":{"category_id":"MLB263850","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Sal Rosa","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-sal-rosa\u002F","children":[],"track":{"category_id":"MLB263852","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Salgadinho","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-salgadinho\u002F","children":[],"track":{"category_id":"MLB263838","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Tempero","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002Ftempero\u002F","children":[],"track":{"category_id":"MLB194833","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Vinho","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-comestiveis-vinho\u002F","children":[],"track":{"category_id":"MLB263846","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outros","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fcomestiveis\u002Foutros\u002F","children":[],"track":{"category_id":"MLB1429","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB1423","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Infusão","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-infusao\u002F","children":[{"title":"Chá","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fcomestiveis-infusao-cha\u002F","children":[],"track":{"category_id":"MLB247521","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Erva-Mate","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fcomestiveis-infusao-erva-mate\u002F","children":[],"track":{"category_id":"MLB247522","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outros","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fcomestiveis-infusao-outros\u002F","children":[],"track":{"category_id":"MLB247523","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB194831","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Licor","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Flicor\u002F","children":[],"track":{"category_id":"MLB1416","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Livros de culinária","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Flivros\u002Fculinaria\u002F","children":[{"title":"Bebidas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-bebidas\u002F","children":[],"track":{"category_id":"MLB40988","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Congelados e Microondas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-congelados-microondas\u002F","children":[],"track":{"category_id":"MLB41536","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Culinária Internacional","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-internacional\u002F","children":[],"track":{"category_id":"MLB41009","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Culinária Nacional","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-nacional\u002F","children":[],"track":{"category_id":"MLB41539","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Diet e Light","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-livros-culinaria-diet-light\u002F","children":[],"track":{"category_id":"MLB41014","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Doces e Sobremesas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-doces-sobremesas\u002F","children":[],"track":{"category_id":"MLB41535","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Natural e Vegetariana","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-natural-vegetariana\u002F","children":[],"track":{"category_id":"MLB41537","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outros","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen-livros-culinaria-outros\u002F","children":[],"track":{"category_id":"MLB41001","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB3649","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Suco","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-suco\u002F","children":[],"track":{"category_id":"MLB263767","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Tequila","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Ftequila\u002F","children":[],"track":{"category_id":"MLB194811","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Vinhos","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fvinhos\u002F","children":[{"title":"Acessórios","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fvinhos-acessorios\u002F","children":[],"track":{"category_id":"MLB1410","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Vinhos","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fvinhos\u002F","children":[],"track":{"category_id":"MLB1405","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outros","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fvinhos-outros\u002F","children":[],"track":{"category_id":"MLB1937","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB1404","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Vodka","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fvodka\u002F","children":[],"track":{"category_id":"MLB194810","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Whisky","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Fwhisky\u002F","children":[{"title":"Ballantines","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-ballantines\u002F","children":[],"track":{"category_id":"MLB263788","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Chivas Regal","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-chivas-regal\u002F","children":[],"track":{"category_id":"MLB263791","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Glenfiddich","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-glenfiddich\u002F","children":[],"track":{"category_id":"MLB263786","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Glenlivet","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-glenlivet\u002F","children":[],"track":{"category_id":"MLB263787","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Jack Daniels","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-jack-daniels\u002F","children":[],"track":{"category_id":"MLB263793","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Jim Bean","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-jim-bean\u002F","children":[],"track":{"category_id":"MLB263789","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Johnnie Walker","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-johnnie-walker\u002F","children":[],"track":{"category_id":"MLB263790","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Old Parr","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-old-parr\u002F","children":[],"track":{"category_id":"MLB263792","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}},{"title":"Outras Marcas","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Falimentos-e-bebidas-whisky-outras-marcas\u002F","children":[],"track":{"category_id":"MLB263785","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l3"}}],"track":{"category_id":"MLB194809","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}},{"title":"Outros","target":"https:\u002F\u002Flista.mercadolivre.com.br\u002Fdelicatessen\u002Foutros\u002F","children":[],"track":{"category_id":"MLB1417","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1\u002Fcategory-l2"}}],"components":[{"track":{"c_id":"\u002Fhome\u002Fcategory\u002Fdeal-items"},"id":null,"type":"deal-items","items":[{"id":"MLB837534115","title":"Creme De Avelã Nutella 650g Gigante Ferrero Pronta Entrega","permalink":"https:\u002F\u002Fproduto.mercadolivre.com.br\u002FMLB-837534115-creme-de-avel-nutella-650g-gigante-ferrero-pronta-entrega-_JM#c_id=\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement","shipping":{"label":"shipping","free_shipping":false,"icon":"truck"},"price":{"value":36,"text":null,"original_price":null,"currency_id":"BRL","currency_symbol":"R$"},"bookmarked":false,"installments":null,"discount_label":null,"picture":{"src":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_440915-MLB25341950419_022017-P.jpg","src2x":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_440915-MLB25341950419_022017-W.jpg"},"track":{"item_id":"MLB837534115","position":null,"c_id":"\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement"},"is_trigger":false},{"id":"MLB714047209","title":"1 Café Verde Marita - Acima De 4 Latas Frete Grátis","permalink":"https:\u002F\u002Fproduto.mercadolivre.com.br\u002FMLB-714047209-1-cafe-verde-marita-acima-de-4-latas-frete-gratis-_JM#c_id=\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement","shipping":{"label":"shipping","free_shipping":false,"icon":"truck"},"price":{"value":35,"text":null,"original_price":null,"currency_id":"BRL","currency_symbol":"R$"},"bookmarked":false,"installments":null,"discount_label":null,"picture":{"src":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_725362-MLB25694211811_062017-P.jpg","src2x":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_725362-MLB25694211811_062017-W.jpg"},"track":{"item_id":"MLB714047209","position":null,"c_id":"\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement"},"is_trigger":false},{"id":"MLB869722872","title":"Whisky Johnnie Walker Black Label 1000ml","permalink":"https:\u002F\u002Fproduto.mercadolivre.com.br\u002FMLB-869722872-whisky-johnnie-walker-black-label-1000ml-_JM#c_id=\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement","shipping":{"label":"shipping","free_shipping":true,"icon":"truck"},"price":{"value":169.99,"text":null,"original_price":null,"currency_id":"BRL","currency_symbol":"R$"},"bookmarked":false,"installments":"12x R$ 14.17 sem juros","discount_label":null,"picture":{"src":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_722582-MLB25712680284_062017-P.jpg","src2x":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_722582-MLB25712680284_062017-W.jpg"},"track":{"item_id":"MLB869722872","position":null,"c_id":"\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement"},"is_trigger":false},{"id":"MLB845970585","title":"Pack 06 Whisky Johnnie Walker Red Label 1 Litro Original","permalink":"https:\u002F\u002Fproduto.mercadolivre.com.br\u002FMLB-845970585-pack-06-whisky-johnnie-walker-red-label-1-litro-original-_JM#c_id=\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement","shipping":{"label":"shipping","free_shipping":true,"icon":"truck"},"price":{"value":375.75,"text":null,"original_price":null,"currency_id":"BRL","currency_symbol":"R$"},"bookmarked":false,"installments":"12x R$ 31.31 sem juros","discount_label":null,"picture":{"src":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_676985-MLB25808563716_072017-P.jpg","src2x":"https:\u002F\u002Fhttp2.mlstatic.com\u002FD_Q_NP_676985-MLB25808563716_072017-W.jpg"},"track":{"item_id":"MLB845970585","position":null,"c_id":"\u002Fhome\u002Fcategory\u002Fdeal-items\u002Felement"},"is_trigger":false}]},{"track":{"c_id":"\u002Fhome\u002Fcategory\u002Fadvertisement"},"id":null,"type":"advertisement-square","caption":"Publicidade","google_ad":{"size":[300,250],"unit":"\u002F105773011\u002FMLB1403\u002FHC_MLB1403","position":"Right"}}],"metadata":{"decimal_places":2,"decimal_separator":",","thousand_separator":"."},"track":{"category_id":"MLB1403","c_id":"\u002Fhome\u002Fcategory\u002Fcategory-l1"}},"csrfToken":"Kw4sxqqt-PFUMGExVntcl1tbVu6BI6hWX4Wg","currentUser":null,"lowEnd":false,"siteId":"MLB","url":"https:\u002F\u002Fhome.mercadolivre.com.br\u002Falimentos-bebidas\u002F"};},"https://http2.mlstatic.com/resources/frontend/statics/homes-palpatine/vendor.bd06d5a8.js","https://http2.mlstatic.com/resources/frontend/statics/homes-palpatine/categories.desktop.28c53409.js"];
+  if (doc.readyState === 'complete') {
+   jcors.apply(win, scripts);
+  } else {
+    win.addEventListener('load', function() {
+      jcors.apply(win, scripts);
+    });
+  }
+})(window, document);
+</script>
+ </body>
+</html>

@@ -1,0 +1,275 @@
+<html>
+ <head> 
+  <title>Carros na Web - Carros Procurados - Carros � compra - ofere�a seu carro aos interessados</title> 
+  <link href="css/home.css" type="text/css" rel="StyleSheet"> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <a name="topo"></a> 
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O site de carros usados, seminovos e novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <tbody>
+    <tr> 
+     <td align="center" height="110" colspan="4" bgcolor="White"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-banner-topo --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="7829382852"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+     <td> </td>
+    </tr> 
+    <tr>  
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.jpg" border="0" usemap="#principal"> </td> 
+     <td width="600"></td> 
+     <td align="center" width="170"> <a href="classificados.asp" title="Compra e venda de carros usados, seminovos e novos"><font style="font-size: 15px;"><font face="arial" color="darkkhaki"><b>CARROS USADOS</b><font style="font-size: 14px;"><br>As melhores ofertas est�o aqui. Confira!</font></font></font></a><font style="font-size: 15px;"><font face="arial" color="darkkhaki"><font style="font-size: 14px;"> </font></font></font></td> 
+     <td width="10"></td> 
+    </tr> 
+    <tr> 
+     <td bgcolor="darkkhaki" colspan="4" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="default.asp"><font color="white">P�gina Principal</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="procuradosentrada.asp"><font color="white">Cadastre o carro que voc� quer comprar</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="financia.asp"><font color="white">Financiamento</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="classif.asp"><font color="white">Classificados</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="opiniao.asp"><font color="white">Opini�o do Dono</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="avancada.asp"><font color="white">Cat�logo</font></a><font color="white"> </font></font></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="20" cellspacing="0" width="980" align="center" bgcolor="White"> 
+   <tbody>
+    <tr> 
+     <td valign="top"> <p align="center"><font style="font-size: 20px;" color="darkred"><font face="arial">Carros Procurados</font> </font></p><p align="center"><font style="font-size: 20px;" color="darkred"><font color="darkred" size="2" face="arial">Se voc� n�o estiver encontrando um carro para comprar utilize este espa�o <br>para mostrar o que est� querendo comprar. Ap�s a inclus�o do seu an�ncio, os usu�rios<br> do site CarrosnaWeb far�o contato ofertando ve�culos conforme solicitado no an�ncio.</font></font></p><font style="font-size: 20px;" color="darkred"> <p align="center"><font color="darkred" size="2" face="arial"><a href="procuradosentrada.asp" title="Anuncie aqui o carro que voc� est� querendo comprar"><font color="blue"><u>Anuncie aqui o carro que voc� est� querendo comprar</u></font></a><font color="blue"> </font></font></p></font></td> 
+     <td> <font face="arial" size="2">
+       <center> 
+        <br>
+        <br> 
+       </center></font></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="980" border="0" align="center" bgcolor="White" cellspacing="0" cellpadding="0"> 
+   <tbody>
+    <tr> 
+     <td valign="top"> <font face="arial"> 
+       <form method="post" id="Carro" name="Carro"></form> </font>
+      <table colspan="6" cellpadding="1" cellspacing="1" border="0" width="100%"> 
+       <tbody>
+        <tr> 
+         <td bgcolor="efefef" colspan="6" height="40"> <font color="darkred" face="arial" size="2">&nbsp;&nbsp;Estado&nbsp;<select id="estado" name="estado" onchange="javascript:document.location ='procurados.asp?estado=' + document.getElementById('estado').value + '&amp;fabricante=' + document.getElementById('fabricante').value"> <option value=""> Selecione </option> <option value="Todos"> Todos </option> <option value="MS"> MS </option> <option value="PE"> PE </option> <option value="RS"> RS </option> </select> <font color="darkred" face="arial" size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fabricante&nbsp;<select id="fabricante" name="fabricante" onchange="javascript:document.location ='procurados.asp?estado=' + document.getElementById('estado').value + '&amp;fabricante=' + document.getElementById('fabricante').value"> <option value=""> Selecione </option> <option value="Todos"> Todos </option> <option value="Chevrolet"> Chevrolet </option> <option value="Honda"> Honda </option> <option value="Kia"> Kia </option> </select> </font></font></td> 
+        </tr>  
+        <tr> 
+         <td colspan="8" bgcolor="DarkRed" height="2"> </td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Modelo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="1"> <font style="font-size: 13px;" face="arial">Honda&nbsp;CR-V EXL 4x4 Flexone </font></td> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Local&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">Recife - PE </font></td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde" rowspan="3"> <font color="darkred" style="font-size: 13px;" face="arial">Descri��o&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" rowspan="3"> <font style="font-size: 13px;" face="arial">Bem conservado. Livro oficial de revis�es atualizado. Nunca batido. Menos de 90.000 kms </font></td> 
+         <td align="right" bgcolor="#f7efde" width="85" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Valor m�ximo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">R$ 70.000 </font> </td> 
+        </tr> 
+        <tr> 
+         <!--  <td ALIGN="right" BGCOLOR="#f7efde" width="40">  <font COLOR="darkred" SIZE="2">Data</font></td>  <td BGCOLOR="#f7efde" ALIGN="left" width="90">  <font SIZE="2">   05/09/2017 17:20:49   </font></td>--> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Contato&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left"> <font style="font-size: 13px;" face="arial">Carlos </font></td> 
+         <td align="middle" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Telefone</font></td> 
+         <td bgcolor="#f7efde" align="middle" width="105"> <font style="font-size: 13px;" face="arial">81 99931-7626 </font></td> 
+        </tr> 
+        <tr> 
+         <td align="middle" bgcolor="#f7efde" colspan="4"> <img src="imgsite\mailto.gif"> <a href="javascript:MM_openBrWindow
+	('proposta.asp?modelo=CR-V EXL 4x4 Flexone&amp;tipo=Procurados&amp;vendedor=Carlos&amp;email=cbbardon@hotmail.es','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=480,height=500,top=0,left=150')"><font style="font-size: 13px;" face="arial"><u>Envie uma mensagem</u></font></a><font style="font-size: 13px;" face="arial"> </font></td> 
+        </tr> 
+        <tr> 
+         <td colspan="11" bgcolor="white" height="10"> </td> 
+        </tr>
+        <tr> 
+         <td colspan="8" bgcolor="DarkRed" height="2"> </td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Modelo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="1"> <font style="font-size: 13px;" face="arial">Chevrolet&nbsp;Tracker </font></td> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Local&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">Porto Alegre - RS </font></td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde" rowspan="3"> <font color="darkred" style="font-size: 13px;" face="arial">Descri��o&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" rowspan="3"> <font style="font-size: 13px;" face="arial">Tracker, c�mbio manual, de 2014 a 2015. </font></td> 
+         <td align="right" bgcolor="#f7efde" width="85" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Valor m�ximo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">R$ 65.000 </font> </td> 
+        </tr> 
+        <tr> 
+         <!--  <td ALIGN="right" BGCOLOR="#f7efde" width="40">  <font COLOR="darkred" SIZE="2">Data</font></td>  <td BGCOLOR="#f7efde" ALIGN="left" width="90">  <font SIZE="2">   30/08/2017 13:43:09   </font></td>--> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Contato&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left"> <font style="font-size: 13px;" face="arial">Vanderlei </font></td> 
+         <td align="middle" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Telefone</font></td> 
+         <td bgcolor="#f7efde" align="middle" width="105"> <font style="font-size: 13px;" face="arial">51 98207-6519 </font></td> 
+        </tr> 
+        <tr> 
+         <td align="middle" bgcolor="#f7efde" colspan="4"> <img src="imgsite\mailto.gif"> <a href="javascript:MM_openBrWindow
+	('proposta.asp?modelo=Tracker&amp;tipo=Procurados&amp;vendedor=Vanderlei&amp;email=vp.oli@hotmail.com','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=480,height=500,top=0,left=150')"><font style="font-size: 13px;" face="arial"><u>Envie uma mensagem</u></font></a><font style="font-size: 13px;" face="arial"> </font></td> 
+        </tr> 
+        <tr> 
+         <td colspan="11" bgcolor="white" height="10"> </td> 
+        </tr>
+        <tr> 
+         <td colspan="8" bgcolor="DarkRed" height="2"> </td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Modelo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="1"> <font style="font-size: 13px;" face="arial">Kia&nbsp;sportage </font></td> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Local&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">Campo Grande - MS </font></td> 
+        </tr> 
+        <tr> 
+         <td align="right" bgcolor="#f7efde" rowspan="3"> <font color="darkred" style="font-size: 13px;" face="arial">Descri��o&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" rowspan="3"> <font style="font-size: 13px;" face="arial">ano 2012 a 2014, que aceite troca chevrolet corsa premium 1.4 ano 2011 completo valor $25.000 </font></td> 
+         <td align="right" bgcolor="#f7efde" width="85" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Valor m�ximo&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left" colspan="3"> <font style="font-size: 13px;" face="arial">R$ 56.000 </font> </td> 
+        </tr> 
+        <tr> 
+         <!--  <td ALIGN="right" BGCOLOR="#f7efde" width="40">  <font COLOR="darkred" SIZE="2">Data</font></td>  <td BGCOLOR="#f7efde" ALIGN="left" width="90">  <font SIZE="2">   30/07/2017 22:39:53   </font></td>--> 
+         <td align="right" bgcolor="#f7efde" height="23"> <font color="darkred" style="font-size: 13px;" face="arial">Contato&nbsp;</font></td> 
+         <td bgcolor="#f7efde" align="left"> <font style="font-size: 13px;" face="arial">Blaiberg </font></td> 
+         <td align="middle" bgcolor="#f7efde"> <font color="darkred" style="font-size: 13px;" face="arial">Telefone</font></td> 
+         <td bgcolor="#f7efde" align="middle" width="105"> <font style="font-size: 13px;" face="arial">67 99205-9576 </font></td> 
+        </tr> 
+        <tr> 
+         <td align="middle" bgcolor="#f7efde" colspan="4"> <img src="imgsite\mailto.gif"> <a href="javascript:MM_openBrWindow
+	('proposta.asp?modelo=sportage&amp;tipo=Procurados&amp;vendedor=Blaiberg C. Almeida&amp;email=bergbelo@bol.com.br','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=480,height=500,top=0,left=150')"><font style="font-size: 13px;" face="arial"><u>Envie uma mensagem</u></font></a><font style="font-size: 13px;" face="arial"> </font></td> 
+        </tr> 
+        <tr> 
+         <td colspan="11" bgcolor="white" height="10"> </td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <table border="0" width="100%"> 
+       <tbody>
+        <tr> 
+         <td align="left" width="100"> <font face="arial" size="2"> <img src="imgsite\topo.gif" border="0">&nbsp; <a href="#Topo">Topo</a> </font></td> 
+         <td align="center"> </td> 
+         <td align="right"> <font color="darkred" size="2" face="Arial">P�gina 1 de 1 </font> </td>
+        </tr> 
+        <tr> 
+         <td colspan="3"> <font face="arial" size="2"> <br> <font face="arial" size="2"> <p align="justify"><img src="imgsite\exclamacao.gif" align="left" alt="Aten��o ao comprar seu ve�culo" hspace="10">As negocia��es de compra/venda de ve�culos ser�o realizadas fora do �mbito do site Carrosnaweb e sem a sua interven��o, sendo as compras e/ou contrata��es celebradas diretamente entre o vendedor e o comprador, que se utilizam do site apenas como meio de pesquisa, isentando-o, assim, de qualquer responsabilidade. Veja <a href="dicascompravenda.asp"><u>como comprar um carro com seguran�a</u></a>.</p> 
+            <center> 
+             <br> 
+             <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+             <!-- Variedades-quadrado-conteudo --> 
+             <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="3259582453"></ins> 
+             <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+             <br>
+             <br> 
+            </center></font></font></td> 
+        </tr> 
+       </tbody>
+      </table>  </td> 
+     <td bgcolor="efefef" width="200" valign="top" align="center"> <font style="font-size: 10px;"><br><br></font> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-arranha-ceu-lateral --> <ins class="adsbygoogle" style="display:inline-block;width:160px;height:600px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="6213048856"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <font style="font-size: 12px;"><br><br></font> </td> 
+    </tr> 
+   </tbody>
+  </table>    
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="P�gina principal do site Carros na Web"><font color="white">P�gina Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Hist�rico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Pol�tica de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>   
+  <script language="JavaScript">
+<!--
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}	
+
+function checa()
+{
+	var error_string = "";
+	var PrimeiroErro = "";
+	if (document.form1.k40fjhw32y.value =="")
+	{
+		error_string += "Favor digitar sua senha.\n";
+		PrimeiroErro = "k40fjhw32y"
+	}
+	else
+	{
+		if (document.form1.k40fjhw32y.value.length<4)
+		{
+			error_string += "Senha deve ter mais de 3 caracteres.\n";
+			PrimeiroErro = "k40fjhw32y"
+		}
+	}
+	if (document.form1.a5f198sd4z.value =="")
+	{
+		error_string += "Favor preencher seu e-mail.\n";
+		PrimeiroErro = "a5f198sd4z"
+	}
+	else
+	{
+		var AtSym  = document.form1.a5f198sd4z.value.indexOf('@')
+		var Period = document.form1.a5f198sd4z.value.lastIndexOf('.')
+		var Space  = document.form1.a5f198sd4z.value.indexOf(' ')
+		var Length = document.form1.a5f198sd4z.value.length - 1
+		if ( (AtSym < 1) ||       // '@' cannot be in first position
+		   (Period <= AtSym+1) || // Must be atleast one valid char btwn '@' and '.'
+		   (Period == Length ) || // Must be atleast one valid char after '.'
+		   (Space  != -1) )       // No empty spaces permitted
+		{  
+			error_string += "Formato de e-mail incorreto.\n";
+			if (PrimeiroErro == "")
+			{
+				PrimeiroErro = "a5f198sd4z"
+			}
+		}
+	}
+	if (error_string == "")
+	{
+		return true;
+	}
+	else
+	{
+		alert(error_string);
+		RecebeErro = 'document.form1.'+PrimeiroErro+'.focus();';
+		eval(RecebeErro);
+		return false;
+	}	
+}
+//-->
+</script> 
+  <script language="JavaScript">
+<!--
+	function MM_openBrWindow(theURL,winName,features) { 
+		window.open(theURL,winName,features);
+	}
+//-->
+</script>
+ </body>
+</html>

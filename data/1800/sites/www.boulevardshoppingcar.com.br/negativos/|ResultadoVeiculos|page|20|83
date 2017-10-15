@@ -1,0 +1,1103 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Boulevard Shopping Car | Venda de Carros</title> 
+  <meta name="description" content=""> 
+  <meta name="keywords" content=""> 
+  <meta name="author" content=""> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="MetaDescription" content="Site de venda de veículos nacionais e/ou importados,  multimarcas, 0km ou seminovos."> 
+  <meta name="MetaKeywords" content="vendemos carro agora, compre seu carro, compre seu carro rj, compre seu carro rio, compre seu carro rio de janeiro, venda de veiculos, venda automóveis, vender carro, vendo carro"> 
+  <link href="/Content/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/style.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/FileUpload/jquery.fileupload-ui.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/custom.css" rel="stylesheet" type="text/css"> 
+  <link class="alt" href="/Content/css/color.css" rel="stylesheet" type="text/css"> 
+  <script src="/Content/js/modernizr.js"></script> 
+  <link href="/Content/css/toastr.min.css" rel="stylesheet"> 
+  <!-- Google Analytics --> 
+  <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-39963192-1', 'auto');
+        ga('send', 'pageview');
+
+    </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51805708-1', 'auto');
+  ga('send', 'pageview');
+    </script> 
+  <!-- End Google Analytics --> 
+  <!-- face like box --> 
+ </head>
+ <body class="home">
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> 
+  <!-- face like box end-->   
+  <div class="body"> 
+   <!-- Start Site Header --> 
+   <div class="site-header-wrapper"> 
+    <div class="navbar"> 
+     <div class="container sp-cont"> 
+      <!-- Main Navigation --> 
+      <nav class="main-navigation dd-menu toggle-menu" role="navigation"> 
+       <ul class="sf-menu"> 
+        <li><a href="/" class="main-navigation-first-child">PÁGINA INICIAL</a></li> 
+        <li><a href="/Veiculos">VEÍCULOS</a></li> 
+        <li style="margin-left:-4px"><a href="/VendaVeiculo">VENDA SEU VEÍCULO</a></li> 
+        <li class="menuEmpresa"><a href="/Lojas">LOJAS</a></li> 
+        <li><a href="/Contato" style="margin-left:0px" class="main-navigation-last-child">LOCALIZAÇÃO</a></li> 
+        <li class="menuEmpresa"><a href="/Empresa">CONHEÇA O SHOPPING</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+    <header class="site-header"> 
+     <div class="container sp-cont"> 
+      <div class="site-logo"> 
+       <h1> <a href="#"><img src="/Content/images/logo.png" alt="Logo"></a> </h1> 
+      </div> 
+      <div class="header-right"> 
+       <a href="#" class="visible-sm visible-xs" id="menu-toggle">MENU</a> 
+       <div class="topnav dd-menu"> 
+        <ul class="utility-icons social-icons social-icons-colored"> 
+         <li class="facebook"><a href="https://www.facebook.com/Boulevardshoppingcar" target="_blank"><i class="fa fa-facebook"></i> Curta nossa Página</a></li> 
+        </ul> 
+        <div class="adress"> 
+         <div class="adressHeader loja2"> 
+          <span> RUA MAXWELL, Nº 300 - VILA ISABEL<br>RIO DE JANEIRO - RJ </span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+    <!-- End Site Header --> 
+   </div> 
+   <!-- Utiity Bar --> 
+   <div class="utility-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="tituloInterno">
+        Confira nosso estoque
+       <br> 
+       <small>Carros para todos os bolsos e gostos</small> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Actions bar --> 
+   <div class="actions-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-5 col-sm-5 search-actions" style="padding-top: 7px;"> 
+       <h4>Total de 714 veículos.</h4> 
+      </div> 
+      <div class="col-md-7 col-sm-7"> 
+       <div class="btn-group pull-right results-sorter"> 
+        <button type="button" class="btn btn-default listing-sort-btn" style="width: 160px;">Ordenar por</button> 
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="height: 37px"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button> 
+        <ul class="dropdown-menu ordenarVeiculos"> 
+         <li><a href="/ResultadoVeiculos?sortOrder=1">Marca/Modelo</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=2">Preço (Crescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=3">Preço (Decrescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=4">Ano</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=5">Kilometragem</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start Body Content --> 
+   <div class="main" role="main" style="background-color: #fbfbfb"> 
+    <div id="content" class="content full"> 
+     <div class="container"> 
+      <div class="row"> 
+       <!-- Listing Results --> 
+       <div class="col-md-9 results-container"> 
+        <div style="text-align: right"> 
+         <div class="pagination-container">
+          <ul class="pagination">
+           <li class="PagedList-skipToFirst"><a href="/ResultadoVeiculos?page=1">««</a></li>
+           <li class="PagedList-skipToPrevious"><a href="/ResultadoVeiculos?page=19" rel="prev">«</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li><a href="/ResultadoVeiculos?page=15">15</a></li>
+           <li><a href="/ResultadoVeiculos?page=16">16</a></li>
+           <li><a href="/ResultadoVeiculos?page=17">17</a></li>
+           <li><a href="/ResultadoVeiculos?page=18">18</a></li>
+           <li><a href="/ResultadoVeiculos?page=19">19</a></li>
+           <li class="active"><a>20</a></li>
+           <li><a href="/ResultadoVeiculos?page=21">21</a></li>
+           <li><a href="/ResultadoVeiculos?page=22">22</a></li>
+           <li><a href="/ResultadoVeiculos?page=23">23</a></li>
+           <li><a href="/ResultadoVeiculos?page=24">24</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li class="PagedList-skipToNext"><a href="/ResultadoVeiculos?page=21" rel="next">»</a></li>
+           <li class="PagedList-skipToLast"><a href="/ResultadoVeiculos?page=29">»»</a></li>
+          </ul>
+         </div> 
+        </div> 
+        <div class="results-container-in"> 
+         <div class="waiting" style="display:none;"> 
+          <div class="spinner"> 
+           <div class="rect1"></div> 
+           <div class="rect2"></div> 
+           <div class="rect3"></div> 
+           <div class="rect4"></div> 
+           <div class="rect5"></div> 
+          </div> 
+         </div> 
+         <div id="results-holder" class="results-list-view"> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2013/107526/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/107526/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2013/107526/detalhes">LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">NISSAN LIVINA 2013 SL FLEX AUTOMÁTICA...BRANCA...COMPLETÍSSIMA,COURO,RODAS,SOM,ALARME ETC;VEICULO IMPECAVEL...NÃO CORRA RISCO!!COMPRE SEU AUTOMÓVEL COM SEGURANÇA...DESDE 1978 TRABALHANDO COM SERIEDADE..AVALIAMOS SEU USADO...FINANCIAMOS...ENTREGA DO VEICULO NA HORA TEL-2578-3621 OU 98208-5026 WHATSAPP</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> 51000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2013/107526/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/108884/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/108884/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/108884/detalhes">LIVINA 1.8 SL X-GEAR 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">NISSAN LIVINA SL X-GEAR 1.8 FLEX COMPLETÍSSIMO....AUTOMÁTICO...PRATA...VEICULO IMPECÁVEL...NAO CORRA RISCOS...COMPRE SEU AUTOMOVEL COM SEGURANÇA....DESDE 1978 TRABALHANDO COM SERIEDADE...AVALIAMOS SEU USADO...FINANCIAMOS...ENTREGA DO VEICULO NA HORA...TEL-25783621 OU 98208-5026 WHATSAPP</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> 53000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/108884/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/109609/detalhes" class="media-box"><img src="http://www.autocerto.com/images/emBreve.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>27.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/109609/detalhes">LIVINA 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO BANCOS EM COURO SOM ORIGINAL RODAS LIGA CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR " ATENÇÃO " CUIDADO COM ANÚNCIOS MENTIROSOS , NOSSA LOJA TRABALHA COM SERIEDADE HÁ MAIS DE UMA DÉCADA / NA COMPRA DE UM CARRO USADO NEM SEMPRE O MAIS BARATO É A MELHOR OPÇÃO</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> 42000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/109609/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/61851/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/223/61851/11.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>29.980
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/61851/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fenix Veiculos/223/info" title=""><img src="http://autocerto.com/content/images/clientes/fenix.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VENDAS: AMY: (21)989846344(TIM) OTÁVIO: (21)976613651(CLARO) LUIZ SAMIS: (21)99702-5959(VIVO) MARCELO: (21)97029-5320(TIM) LOJA: 2577-4333(fixo)-EM EXTENSO: DOIS, CINCO,SETE,SETE,QUATRO,TRÊS,TRÊS,TRÈS. CONTATO ONLINE: WWW.FENIXRIOVEICULOS.COM.BR. ENDEREÇO: Rua Maxwell, 300 box 19 B – Vila Isabel. Estamos a sua disposição, nossos carros são todos revisados e com garantia empresa com mais de 10 anos no mercado de automóveis realizando sonhos, cada cliente um amigos . Basta vir à loja que faremos uma boa avaliação do seu usado e um bom negócio, VALOR VÁLIDO PARA PAGAMENTO À VISTA, cobrimos oferta, não perdemos negócio, não concretize nada antes de nos consultar. Financeiras no local com as melhores taxas do mercado, crédito imediato, confira!!! Funcionamos de segunda à sábado de 9:00hrs às 18:00hrs. Atenciosamente. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 23000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/61851/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/78663/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/78663/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/78663/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">MODELO S COMPLETO AR DIREÇÃO ELÉTRICA VIDROS E TRAVAS SOM ORIGINAL GARANTIA DE FÁBRICA ATÉ FINAL DE 2018 ÚNICO DONO AIR BAG DUPLO FREIOS ABS SOM ENTRADA FACILITADA NO CARTÃO EM ATÉ 12 VEZES CARRO NOVÍSSIMO SEM NENHUM DETALHE TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 14600 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Vermelho</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/78663/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/85467/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/85467/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>28.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/85467/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA AIR BAG DUPLO FREIOS ABS MP3 DVD VIDRO ELÉTRICO NAS 4 PORTAS RETROVISORES ELÉTRICO REVISADO EM CONCESSIONÁRIA CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 66400 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/85467/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/89383/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/226/89383/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>38.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/89383/detalhes">MARCH 1.6 SL 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Stilly Car/226/info" title=""><img src="http://autocerto.com/content/images/clientes/stillycar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2015</a> 
+              <a><i class="fa fa-road"></i> 31000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Vermelho</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/89383/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-sv-16v-flex-4p-manual-flex-2014/94716/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/94716/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>31.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-sv-16v-flex-4p-manual-flex-2014/94716/detalhes">MARCH 1.6 SV 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Map Motors/225/info" title=""><img src="http://autocerto.com/content/images/clientes/mapmotors.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">march sv 1.6 flex ano 2013/2014 cinza único dono completo de fábrica com ar condicionado direção hidráulica vidros elétricos trava elétrica retrovisores elétricos rodas de liga-leve faróis de milha air bag duplo freios abs cd mp3 original nissan manual chave reserva km 36.000 rodados documentação ok carro todo original de fábrica todo revisado sem detalhes extremamente novo financiamento até 48 meses parcelamos sua entrada em até 12 x nos cartões visa e mastercard consultar condições fale com nossa equipe de vendas temos todas as financeiras no local passamos sua ficha por telefone contato: map car veículos box 16 tel. 3172-6661 // 96476-4970</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 36000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-sv-16v-flex-4p-manual-flex-2014/94716/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/96871/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/96871/5.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>28.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/96871/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">MARCH S 1.6, BRANCO, ÚNICO DONO, TODO REVISADO EM CONCESSIONÁRIA, ESTADO DE ZERO KM !!!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 50000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2014/96871/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2015/96872/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/96872/4.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>32.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2015/96872/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">NEW MARCH S 1.6, PRETO, COMPLETO DE FÁBRICA, ÚNICA DONA, TODO REVISADO NA NISSAN, ESTADO DE ZERO KM, SEM DETALHES !!!! NÃO PERCA !!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2015</a> 
+              <a><i class="fa fa-road"></i> 50000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2015/96872/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/99119/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/99119/6.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>37.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/99119/detalhes">MARCH 1.6 SL 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Top de linha CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2015</a> 
+              <a><i class="fa fa-road"></i> 20000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-sl-16v-flex-4p-manual-flex-2015/99119/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2013/101473/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/223/101473/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>25.980
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2013/101473/detalhes">MARCH 1.0 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fenix Veiculos/223/info" title=""><img src="http://autocerto.com/content/images/clientes/fenix.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VENDAS: AMY: (21)989846344(TIM) OTÁVIO: (21)976613651(CLARO) LUIZ SAMIS: (21)99702-5959(VIVO) MARCELO: (21)97029-5320(TIM) LOJA: 2577-4333(fixo)-EM EXTENSO: DOIS, CINCO,SETE,SETE,QUATRO,TRÊS,TRÊS,TRÈS. CONTATO ONLINE: WWW.FENIXRIOVEICULOS.COM.BR. ENDEREÇO: Rua Maxwell, 300 box 19 B – Vila Isabel. Estamos a sua disposição, nossos carros são todos revisados e com garantia empresa com mais de 10 anos no mercado de automóveis realizando sonhos, cada cliente um amigos . Basta vir à loja que faremos uma boa avaliação do seu usado e um bom negócio, VALOR VÁLIDO PARA PAGAMENTO À VISTA, cobrimos oferta, não perdemos negócio, não concretize nada antes de nos consultar. Financeiras no local com as melhores taxas do mercado, crédito imediato, confira!!! Funcionamos de segunda à sábado de 9:00hrs às 18:00hrs. Atenciosamente. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 0 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2013/101473/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/106300/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/209/106300/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>36.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/106300/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/739 AUTOMÓVEIS/209/info" title=""><img src="http://autocerto.com/content/images/clientes/739.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"> todos os veículos em estoque com procedência e garantia 739...... atuando no comércio de veículos há 28 anos, com dois endereços: na tijuca e barra da tijuca. financeiras no local com aprovação imediata...realize mais um sonho de sua vida aqui na 739 automóveis .veículo do anuncio na loja da tijuca.....21 2298 8034 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 22000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2016/106300/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2013/107848/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/217/107848/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>26.980
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2013/107848/detalhes">MARCH 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Urraco Autos/217/info" title=""><img src="http://autocerto.com/content/images/clientes/urraco.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEICULO UNICO DONO IMPECAVEL TODO REVISADO NADA A FAZER PRONTO PARA USO OTIMA OPORTUNIDADE DE QUALIDADE E PREÇO NUM SO LUGAR PARA PESSOA EXIGENTE CONDIÇOES IMPERDIVEIS NAO COMPRE ANTES DE NOS CONSULTAR FINANCIAMOS ATE 60X FIXAS DAMOS TROCO NA TROCA ACEITAMOS CARTA DE CREDITO VENHA CONFERIR QUALQUER INFORMAÇAO TEL(21) 25778438 OU 970354116 VENDA COM SEGURANÇA ABSOLUTA 43 ANOS DE MERCADO ( FOTOS MERAMENTE ILUSTRATIVAS. RESERVAMO-NOS O DIREITO DE CORRIGIR POSSIVEIS ERROS DE DIGITAÇAO).</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.6-s-16v-flex-4p-manual-flex-2013/107848/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2014/109865/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/211/109865/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>26.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2014/109865/detalhes">MARCH 1.0 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Carekar/211/info" title=""><img src="http://autocerto.com/content/images/clientes/carekar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">MARCH ANO 2014, COR PRATA, UNICO DONO, COMPLETO DE FÁBRICA . ENCONTRA-SE EM ESTADO DE ZERO KM, MANUAL E CHAVE RESERVA. TROCO E FINANCIO. REVISADO COM GARANTIA. CAR&amp;KAR VEICULOS ENTRADA PARCELADA NO CARTAO DE CREDITO EM ATÉ 12X TEL: 2576-1000 / 3176-2282 / 99907-4490 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2014</a> 
+              <a><i class="fa fa-road"></i> 0 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/march-1.0-s-16v-flex-4p-manual-flex-2014/109865/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/91504/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/217/91504/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>34.890
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/91504/detalhes">SENTRA 2.0 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Urraco Autos/217/info" title=""><img src="http://autocerto.com/content/images/clientes/urraco.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEICULO UNICO DONO IMPECAVEL TODO REVISADO NADA A FAZER PRONTO PARA USO OTIMA OPORTUNIDADE DE QUALIDADE E PREÇO NUM SO LUGAR PARA PESSOA EXIGENTE CONDIÇOES IMPERDIVEIS NAO COMPRE ANTES DE NOS CONSULTAR FINANCIAMOS ATE 60X FIXAS DAMOS TROCO NA TROCA ACEITAMOS CARTA DE CREDITO VENHA CONFERIR QUALQUER INFORMAÇAO TEL(21) 25778438 OU 970354116 VENDA COM SEGURANÇA ABSOLUTA 43 ANOS DE MERCADO ( FOTOS MERAMENTE ILUSTRATIVAS. RESERVAMO-NOS O DIREITO DE CORRIGIR POSSIVEIS ERROS DE DIGITAÇAO).</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2010/2011</a> 
+              <a><i class="fa fa-road"></i> 55100 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/91504/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-s-16v-gasolina-4p-automatico-gasolina-2009/95299/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/220/95299/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>29.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-s-16v-gasolina-4p-automatico-gasolina-2009/95299/detalhes">SENTRA 2.0 S 16V GASOLINA 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/PlusKar Veículos/220/info" title=""><img src="http://autocerto.com/content/images/clientes/pluskar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">carro muito novo revisado com garantia. Tel: 7835-8035 / 995955408 / 2577-1674</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2009/2009</a> 
+              <a><i class="fa fa-road"></i> 0 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-s-16v-gasolina-4p-automatico-gasolina-2009/95299/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/96433/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/409/96433/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.890
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/96433/detalhes">SENTRA 2.0 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Vancar Rio/409/info" title=""><img src="http://autocerto.com/content/images/clientes/vancarrio.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">CARRO NOVÍSSIMO MUITO LINDO !!! Ar condicionado, direção hidráulica, conjunto elétrico, alarme por rádio controle,, revisado com garantia... Faça um teste drive sem compromisso. de segunda à sábado, dás 9 às 18h MARIO 998455503 ZEQUINHA 964879467 ERICK 21983755510 LOJA 39858841 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2010/2011</a> 
+              <a><i class="fa fa-road"></i> 55100 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2011/96433/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2012/98705/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/98705/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>33.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2012/98705/detalhes">SENTRA 2.0 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">NISSAN SENTRA 2.0 FLEX COMPLETÍSSIMO...PRATA...COMPRE SEU AUTOMÓVEL COM SEGURANÇA,NÃO CORRA RISCO..DESDE 1978 TRABALHANDO COM SERIEDADE...AVALIAMOS SEU USADO...FINANCIAMENTO NA HORA...ENTREGA NO ATO...TEL-2578-3621 OU 982085026 WHATSAPP</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 58000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2012/98705/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2013/104551/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/218/104551/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2013/104551/detalhes">SENTRA 2.0 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Multcar Automoveis/218/info" title=""><img src="http://autocerto.com/content/images/clientes/multcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 30000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-16v-flex-4p-manual-flex-2013/104551/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-sv-16v-flex-4p-automatico-flex-2015/104869/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/104869/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>56.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-sv-16v-flex-4p-automatico-flex-2015/104869/detalhes">SENTRA 2.0 SV 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Carrro em perfeito estado de conservação completo automatico com bancos de couro farol de milha Barao Automoveis Rua Maxwell 300 box 28 tel 2578 3621 em Vila Isabel Auto Shoping Boulevard em frente ao super merado Extra de Vila Isabel</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2015</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Verde</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-sv-16v-flex-4p-automatico-flex-2015/104869/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-sl-16v-flex-4p-automatico-flex-2015/105365/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/230/105365/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>56.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-sl-16v-flex-4p-automatico-flex-2015/105365/detalhes">SENTRA 2.0 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Str Automoveis/230/info" title=""><img src="http://autocerto.com/content/images/clientes/str.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEÍCULO EM ESTADO OKM. NOVÍSSIMA,ÚNICO DONO. TOP DE LINHA. TODO REVISADO. VISTORIADO 2017. TROCO/ FINANCIO 60 FIXAS. ENTRADA PARCELADA NO CARTÃO DE CREDITO. S T R AUTOMÓVEIS 30 ANOS DE TRADIÇÃO. PARA MAIORES INFORMAÇÕES ZAP (21) 964018173/(21) 21436760.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2015</a> 
+              <a><i class="fa fa-road"></i> 49000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Azul</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-sl-16v-flex-4p-automatico-flex-2015/105365/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-unique-16v-flex-4p-automatico-flex-e-gnv-2016/106028/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/106028/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>68.880
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-unique-16v-flex-4p-automatico-flex-e-gnv-2016/106028/detalhes">SENTRA 2.0 UNIQUE 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Veiculo SENTRA UNIQUE 2016 em otimo estado de conservação na cor Preto com apenas 11000kms AUTOMATICO COM GNV DE QUINTA GERAÇÃO . VENDIDO PELA BARÃO AUTOMOVEIS A 40 ANOS VENDENDO TRANQUILIDADE NO MERCADO DE AUTOMOVEIS. Rua Maxwell 300 box 28 Vila Isabel tel 2578 3621 Auto Shoping Boulevard</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2016/2016</a> 
+              <a><i class="fa fa-road"></i> 11000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-unique-16v-flex-4p-automatico-flex-e-gnv-2016/106028/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-s-16v-flex-4p-automatico-flex-2013/109898/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/213/109898/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>39.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-s-16v-flex-4p-automatico-flex-2013/109898/detalhes">SENTRA 2.0 S 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fluir Car/213/info" title=""><img src="http://autocerto.com/content/images/clientes/fluircar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Único dono, excelente estado de conservação. Temos as menores taxas para financiamento, melhor avaliação na troca, garantia por escrito, troco na troca (dinheiro de volta na compra de um carro de menor valor). Rua Maxwell 300, box 33, Vila Isabel, Rio de Janeiro - Rj - TEL (21) 2278-6423 Boulevard Shopping Car FLUIR CAR + de 15 anos de tradição.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 48826 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-s-16v-flex-4p-automatico-flex-2013/109898/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2012/110410/detalhes" class="media-box"><img src="http://www.autocerto.com/images/emBreve.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2012/110410/detalhes">SENTRA 2.0 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Stilly Car/226/info" title=""><img src="http://autocerto.com/content/images/clientes/stillycar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 24000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sentra-2.0-16v-flex-4p-automatico-flex-2012/110410/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- Search Filters --> 
+       <div class="col-md-3 search-filters" id="Search-Filters"> 
+        <div class="filters-sidebar"> 
+         <div class="accordion" id="toggleArea"> 
+          <!-- Filter by Make --> 
+          <div class="accordion-group panel"> 
+           <div class="accordion-heading togglize"> 
+            <a class="accordion-toggle active" data-toggle="collapse" aria-expanded="true" data-parent="#" href="#collapseTwo">Encontre seu Veículo<i class="fa fa-angle-down"></i> </a> 
+           </div> 
+           <div id="collapseTwo" class="accordion-body collapse in"> 
+            <div class="accordion-inner"> 
+             <form action="/BuscarVeiculo" class="form" id="veiculoForm" method="post"> 
+              <div style="padding: 8px;"> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Marca</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Marca must be a number." data-val-required="The Marca field is required." id="Marca" name="Marca" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione o Modelo</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Modelo must be a number." data-val-required="The Modelo field is required." id="Modelo" name="Modelo" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Preço</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoDe must be a number." data-val-required="The PrecoDe field is required." id="precoDe" name="precoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoAte must be a number." data-val-required="The PrecoAte field is required." id="precoAte" name="precoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Ano</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoDe must be a number." data-val-required="The AnoDe field is required." id="anoDe" name="anoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoAte must be a number." data-val-required="The AnoAte field is required." id="anoAte" name="anoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Loja</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Loja must be a number." data-val-required="The Loja field is required." id="loja" name="loja" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <button id="buttonBuscarVeiculoSearch" class="btn btn-danger btn-lg pull-right"><i class="fa fa-car"></i> Localizar</button> 
+              </div> 
+             </form> 
+             <div style="clear:both"></div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <!-- End Toggle --> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start site footer --> 
+   <footer class="site-footer"> 
+    <div class="site-footer-top"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_newsletter"> 
+        <h4 class="widgettitle">receba nossas newsletter</h4> 
+        <form> 
+         <input type="text" class="form-control" placeholder="Nome"> 
+         <input type="email" class="form-control" placeholder="Email"> 
+         <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar"> 
+        </form> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_custom_menu widget_links"> 
+        <h4 class="widgettitle">Mapa do Site</h4> 
+        <ul style="width: 44%; float: left; margin-right: 30px;"> 
+         <li><a href="/"><i class="fa fa-angle-right"></i> Home</a></li> 
+         <li><a href="/Empresa"><i class="fa fa-angle-right"></i> Empresa</a></li> 
+         <li><a href="/Veiculos"><i class="fa fa-angle-right"></i> Veículos</a></li> 
+        </ul> 
+        <ul style="width: 46%; float: left;"> 
+         <li><a href="/Financiamento"><i class="fa fa-angle-right"></i> Financiamento</a></li> 
+         <li><a href="/Contato"><i class="fa fa-angle-right"></i> Localização</a></li> 
+         <li><a href="/Lojas"><i class="fa fa-angle-right"></i> Lojas</a></li> 
+        </ul> 
+        <div style="clear: both"></div> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget text_widget"> 
+        <h4 class="widgettitle">Facebook</h4> 
+        <div class="fb-like-box" data-href="https://www.facebook.com/Boulevardshoppingcar?fref=ts" data-width="336" data-height="239" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="site-footer-bottom"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-6 col-sm-6 copyrights-left"> 
+        <p>© Boulevard Shopping Car - www.boulevardshoppingcar.com.br</p> 
+       </div> 
+       <div class="col-md-6 col-sm-6 copyrights-right" style="text-align: right"> 
+        <p>Desenvolvido por <a href="http://autocerto.com/" target="_blank"><img src="/Content/images/logo-AutoCerto.png" alt="AutoCerto.com" style="max-height: 20px"></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+   <!-- End site footer --> 
+   <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+  </div> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-1.10.2.min.js"></script> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script src="/Content/vendor/prettyphoto/js/prettyphoto.js"></script> 
+  <script src="/Content/js/ui-plugins.js"></script> 
+  <script src="/Content/js/helper-plugins.js"></script> 
+  <script src="/Content/vendor/owl-carousel/js/owl.carousel.min.js"></script> 
+  <script src="/Content/js/bootstrap.js"></script> 
+  <script src="/Content/js/waypoints.js"></script> 
+  <script src="/Content/js/init.js"></script> 
+  <script src="/Content/vendor/flexslider/js/jquery.flexslider.js"></script> 
+  <script src="/Content/js/jquery.form.js"></script> 
+  <script src="/Content/js/jquery.blockUI.js"></script> 
+  <script src="/Content/js/jquery.validate.min.js"></script> 
+  <script src="/Content/js/jquery.maskedinput.js"></script> 
+  <script src="/Content/js/jquery.maskMoney.js"></script> 
+  <script src="/Content/FileUpload/jquery.iframe-transport.js" type="text/javascript"></script> 
+  <script src="/Content/FileUpload/jquery.fileupload.js" type="text/javascript"></script> 
+  <script src="/Content/js/jquery.jqia.selects.js"></script> 
+  <script src="/Content/js/bootbox.min.js"></script> 
+  <script src="/Content/js/toastr.min.js"></script> 
+  <script src="/Content/js/functions.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  <script type="text/javascript">
+    $(this.document).ready(function () {
+        $(".ordenarVeiculos li a").click(function () {
+            $("#results-holder").load("~/Home/OrdenarVeiculos/" + $(this).data("id"), function () {
+                $.unblockUI();
+            });
+        });
+
+        loadSelect("/Home/ObterPrecosDe/1", null, "#precoDe", (0 == null ? "0" : 0), function () { });
+        loadSelect("/Home/ObterPrecosAte/1", null, "#precoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosDe/1", null, "#anoDe", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosAte/1", null, "#anoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterLojas/1", null, "#loja", (0 == null ? "0" : 0), function () {  });
+
+        loadSelect("/Home/ObterMarcasPorTipo/1", null, "#Marca", (0 == null ? "0" : 0), function () {  });
+
+        $("#Marca").change(function () {
+            loadSelect("/Home/ObterModelosPorMarca/" + $(this).val(), null, "#Modelo", (0 == null ? "0" : 0), function () {  });
+        });
+    });
+</script>  
+ </body>
+</html>

@@ -1,0 +1,1625 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"> 
+  <link rel="canonical" href="http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238"> 
+  <title>Comparativo entre Ford Edge e Chevrolet Equinox  </title> 
+  <!-- inicio bloco fancybox--> 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script> 
+  <script>
+	!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
+</script> 
+  <script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script> 
+  <script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script> 
+  <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen"> 
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'none',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group2]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'none',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group3]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'none',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group4]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'none',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=grafpotencia]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'none',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+		});
+	</script> 
+  <!-- fim bloco fancybox--> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+  <style type="text/css">
+
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+
+</style> 
+  <script language="JavaScript">
+<!--
+	function Avalia(theURL,winName,features) { 
+		window.open(theURL,winName,features);
+		}
+//-->
+</script> 
+  <meta property="og:image" content="http://www.carrosnaweb.com.br/imagensbd007/thumbCompara/"> 
+ </head> 
+ <body topmargin="4" leftmargin="4" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5" onload="CarregaCombos();">
+  <font face="arial" size="1" color="#e5e5e5"> <a name="topo"></a> <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+   <table width="1250" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+    <!-- barra superior --> 
+    <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+    <tbody>
+     <tr>  
+      <td width="5"></td> 
+      <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+      <td align="right" valign="center"> <br> 
+       <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+        <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+        <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+       </form> </td> 
+      <td width="30"></td> 
+     </tr> 
+     <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+    </tbody>
+   </table> 
+   <table width="1250" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="White"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="darkkhaki" colspan="10" height="25"><font style="font-size: 14px; font-family: arial">&nbsp;&nbsp;<a href="default.asp"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="avancada.asp"><font color="white">Catálogo</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="compara.asp"><font color="white">Comparativo</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="analiseindice.asp"><font color="white">Avaliação</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="noticiaslista.asp"><font color="white">Notícias</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="opiniao.asp"><font color="white">Opinião do Dono</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="ranking.asp"><font color="white">Rankings</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="classificados.asp"><font color="white">Classificados</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="concessionarias.asp"><font color="white">Concessionárias</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></td>
+     </tr> 
+     <tr> 
+      <td align="center" height="150" colspan="10" bgcolor="White"> 
+       <!-- Resultcompara-banner-topo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718569,
+    "async": false});
+</script> </td>
+      <td> </td>
+     </tr> 
+    </tbody>
+   </table> 
+   <table width="1250" cellspacing="2" cellpadding="2" border="0" align="center" bgcolor="White"> 
+    <tbody>
+     <tr> 
+      <td colspan="2"> <font style="font-size: 12px;" face="arial"> &nbsp; <a href="default.asp"><u><font color="gray">Página Principal</font></u></a><font color="gray"> &gt; <a href="compara.asp"><u><font color="gray">Comparativo</font></u></a><font color="gray"> </font></font></font></td> 
+      <td align="right" colspan="4"> <font size="2" color="gray" face="arial">&nbsp;Compartilhe: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique este comparativo"><img src="imgsite/ico_carta.gif" border="0" align="absbottom"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" align="absbottom" border="0"></a> <a href="http://twitter.com/?status=EDGE%20vs.%20EQUINOX:%20http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" align="absbottom" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" align="absbottom" border="0"></a> &nbsp; </font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff" width="330"><font color="darkred" face="arial" size="2">Fabricante</font></td> 
+      <td bgcolor="#ffffff" width="260"><font face="arial" size="2"><a href="analisefabricante.asp?fabricante=20" title="Visão geral sobre a Ford"><u>Ford</u></a></font></td> 
+      <td bgcolor="#ffffff" width="260"><font face="arial" size="2"><a href="analisefabricante.asp?fabricante=9" title="Visão geral sobre a Chevrolet"><u>Chevrolet</u></a></font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Modelo</font></td> 
+      <td bgcolor="#ffffff"><font color="darkred" face="arial" size="2"><b>Edge Titanium 3.5 V6 AWD</b></font></td> 
+      <td bgcolor="#ffffff"><font color="darkred" size="2" face="arial"><b>Equinox Premier 2.0 Turbo</b></font></td> 
+      <td colspan="2" align="center" bgcolor="#ffffff" width="200"><font color="darkred" face="arial" size="2">Diferença</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Ano</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">2016</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">2018</font><font face="arial" color="darkgreen" size="3"><b> 0 km</b></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2" color="black">1 ano(s)</font></td>
+      <td width="180"></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Preço</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2"><a href="catalogo.asp?valini=205699&amp;valfim=227351&amp;config=7&amp;anoini=2015&amp;anofim=2017&amp;cambio=2&amp;tracao=3&amp;portas=4&amp;combustivel=G&amp;porte=2&amp;origem=valSemel" title="Carros com preço semelhante ao do Ford Edge Titanium 3.5 V6 AWD 2016">R$ 216.525¹</a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2"><a href="catalogo.asp?valini=142405&amp;valfim=157395&amp;config=7&amp;anoini=2017&amp;anofim=2019&amp;cambio=2&amp;tracao=3&amp;portas=4&amp;combustivel=G&amp;porte=2&amp;origem=valSemel" title="Carros com preço semelhante ao do Chevrolet Equinox Premier 2.0 Turbo 2018">R$ 149.900²</a></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">44,4 % </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">R$ 66.625</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Desvalorização</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">5,82% <a href="preco.asp?codigo=6246" title="Analise a depreciação do EDGE TITANIUM 3.5 V6 AWD 2016"><font face="arial"><font style="font-size: 13px;"><u>detalhes</u></font></font></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2"></font></td> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2"></font></td>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2"></font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Garantia</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">3 anos</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">3 anos</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,0 % </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0 ano(s)</font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Revisões até 60.000 km</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2"> R$ 4.660 <a href="analise.asp?codigo=61" title="Veja o preço de cada revisão do FORD EDGE"><u>detalhes</u></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">Não tem preço fixo</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"> </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"> </font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Índice CNW <a href="sobre.asp" title="Saiba mais sobre o Índice CNW"><img src="imgsite/interrogacao.png" valign="bottom"></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">191,3</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1.510,7</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Ranking CNW <a href="sobre.asp" title="Saiba mais sobre o Ranking CNW"><img src="imgsite/interrogacao.png" valign="bottom"></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">1541</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">94</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Velocidade máxima</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">185 km/h</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">210 km/h</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">11,9 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">25,0 km/h</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Aceleração 0-100 km/h</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">9 s</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">7,6 s</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">15,6 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">1,4 s</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Potência </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">284 cv a 6500 rpm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">262 cv a 6700 rpm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">7,7 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">22,0 cv</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Torque </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">34,5 kgfm a 4000 rpm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">37 kgfm a 2500 rpm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">6,8 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">2,5 kgfm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Peso/potência</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">7,2 kg/cv</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">6,5 kg/cv</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">11,2 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,7 kg/cv </font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Potência específica</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">81,2 cv/l</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">131,1 cv/l</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">61,4 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">49,9 cv/l </font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Peso/torque</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">59,1 kg/kgfm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">45,8 kg/kgfm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">29,2 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">13,4 kg/kgfm </font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Torque específico</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">9,9 kgfm/l</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">18,5 kgfm/l</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">87,7 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">8,7 kgfm/l </font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Manutenção <a href="sobre.asp" title="Saiba mais sobre este item"><img src="imgsite/interrogacao.png" valign="bottom"></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1 </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1 </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,0 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,0</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Conforto <a href="sobre.asp" title="Saiba mais sobre este item"><img src="imgsite/interrogacao.png" valign="bottom"></a></font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">3 </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">3 </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,0 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,0</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Consumo urbano</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">6,9 km/l </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">8,4 km/l </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">17,9 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">1,5 km/l</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Consumo rodoviário</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">9,4 km/l </font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">10,1 km/l </font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">6,9 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,7 km/l</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Comprimento</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">4782 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">4652 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">2,7 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">130 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Largura</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1934 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">1843 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">4,7 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">91 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Altura</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1744 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">1661 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">4,8 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">83 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Entre-eixos</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">2850 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">2725 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">4,4 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">125 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Bitola dianteira</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1646 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">1580 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">4,0 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">66 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Bitola traseira</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1644 mm</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">1581 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">3,8 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">63 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Tanque de combustível</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">70 litros</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">59 litros</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"><font face="arial" size="2">15,7 %</font></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">11 litros</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Porta-malas</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">602 litros</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">468 litros</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">22,3 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">134 litros</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Diâmetro de giro</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">12 m</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">11,4 m</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">5,0 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,6 m </font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Peso</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontovermelho.gif" hspace="3" align="bottom"><font face="arial" size="2">2040 kg</font></td> 
+      <td bgcolor="#F8F8FF"><img src="/imgsite/pontoverde.gif" hspace="3" align="bottom"><font face="arial" size="2">1693 kg</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">17,0 %</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">347 kg </font></td>
+     </tr> 
+     <tr> 
+      <td align="center" colspan="5"><font color="black" size="2" face="arial"> <br> &nbsp;&nbsp;Legenda: <img src="/imgsite/pontoverde.gif" title="Melhor">&nbsp;&nbsp;Melhor&nbsp;&nbsp;&nbsp;&nbsp;<img src="/imgsite/pontovermelho.gif" title="Pior">&nbsp;Pior </font></td> 
+     </tr> 
+     <tr> 
+      <td align="center" height="150" colspan="6" bgcolor="white"> 
+       <!-- Resultcompara-banner-meio --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718577,
+    "async": false});
+</script> </td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Instalação do motor</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Dianteiro</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Dianteiro</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Disposição do motor</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Transversal</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Transversal</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Código do motor</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2"><a href="catalogo.asp?codigoMotor=Duratec" title="Duratec"><font face="arial" size="2">Duratec</font></a></font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2"><a href="catalogo.asp?codigoMotor=Ecotec" title="Ecotec"><font face="arial" size="2">Ecotec</font></a></font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Cilindros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">6 em V</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">4 em linha</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Tuchos</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Hidráulicos</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2"></font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Diâmetro dos cilindros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">92,5 mm</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">86 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"><font face="arial" size="2">7,0 %</font></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">6,5 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Curso dos pistões</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">86,7 mm</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">86 mm</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"><font face="arial" size="2">0,8 %</font></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">0,7 mm</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Combustível</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2"> Gasolina</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2"> Gasolina</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Cilindrada</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">3496 cm³</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">1998 cm³</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"><font face="arial" size="2">42,8 %</font></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">1498 cm³</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Taxa de compressão</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">10,8:1</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">9,5:1</font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2"><font face="arial" size="2">12,0 %</font></font></td> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2">1,30</font></td>
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Válvulas por cilindro</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">4</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">4</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Comando de válvulas</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Duplo no cabeçote, corrente</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Duplo no cabeçote</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Variação do comando</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Admissão e escape</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Admissão e escape</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Aspiração</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Natural</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Turbocompressor</font></td> 
+      <td align="right" bgcolor="#ffffff" colspan="2" rowspan="30" valign="center"> 
+       <!-- Resultcompara-arranha-ceu-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 720287,
+    "async": false});
+</script> <font style="font-size: 1px;"><br><br></font> </td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Alimentação</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Injeção multiponto</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Injeção direta</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Câmbio</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Automático</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Automático</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Marchas</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">6</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">9</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Tração</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Integral</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Integral</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Suspensão dianteira</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Independente, McPherson</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Independente, McPherson</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Suspensão traseira</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Independente, multibraço</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Independente, multibraço</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Freios dianteiros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Disco ventilado</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Disco ventilado</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Freios traseiros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Disco sólido</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Disco sólido</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Direção</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Elétrica</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Elétrica</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Pneus dianteiros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">245/50 R20</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">235/50 R19</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Pneus traseiros</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">245/50 R20</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">235/50 R19</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Procedência</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Importado</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Importado</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Configuração</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">SUV</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">SUV</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Porte</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Médio</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">Médio</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Ocupantes</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">5</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">5</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Portas</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">4</font></td> 
+      <td bgcolor="#F8F8FF"><font face="arial" size="2">4</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Visitas</font></td> 
+      <td bgcolor="#F8F8FF"><font color="black" face="arial" size="2">31985</font></td> 
+      <td bgcolor="#F8F8FF"><font color="black" face="arial" size="2">14616</font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Votos</font></td> 
+      <td bgcolor="#F8F8FF"><font color="black" face="arial" size="2">8</font></td> 
+      <td bgcolor="#F8F8FF"><font color="black" face="arial" size="2">14</font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Avalie agora </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> 
+        <form action="resultnotas.asp" target="_blank" method="post" id="notas" name="notas"> 
+         <input type="hidden" id="codigo" name="codigo" value="6246"> 
+         <input type="hidden" id="nome" name="nome" value="Edge"> 
+         <select id="nota" name="nota" class="nota" onchange="javascript:Avalia(this.options[selectedIndex].value,'popup','toolbar=no,menubar=no,scrollbars=no,location=no,resizable=no,status=no,width=400,height=350,top=0,left=150')"> <option></option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=10">10</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=9">9</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=8">8</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=7">7</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=6">6</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=5">5</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=4">4</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=3">3</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=2">2</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=1">1</option> <option value="resultnotas.asp?codigo=6246&amp;nome=Edge&amp;nota=0">0</option> </select> 
+        </form></font></td>  
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> 
+        <form action="resultnotas.asp" target="_blank" method="post" id="notas" name="notas"> 
+         <input type="hidden" id="codigo" name="codigo" value="8238"> 
+         <input type="hidden" id="nome" name="nome" value="Equinox"> 
+         <select id="nota" name="nota" class="nota" onchange="javascript:Avalia(this.options[selectedIndex].value,'popup','toolbar=no,menubar=no,scrollbars=no,location=no,resizable=no,status=no,width=400,height=350,top=0,left=150')"> <option></option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=10">10</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=9">9</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=8">8</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=7">7</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=6">6</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=5">5</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=4">4</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=3">3</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=2">2</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=1">1</option> <option value="resultnotas.asp?codigo=8238&amp;nome=Equinox&amp;nota=0">0</option> </select> 
+        </form></font></td>   
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Avaliação dos leitores </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\3estrelas.jpg" border="0">&nbsp;7,4 </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\5estrelas.jpg" border="0">&nbsp;9,5 </font></td> 
+     </tr> 
+     <tr>
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Índice de roubo <a href="sobre.asp" title="Saiba mais sobre o Índice de roubo"><img src="imgsite/interrogacao.png" valign="bottom"></a></font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> n/d </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> n/d </font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font face="arial" size="2" color="darkred">Opinião do dono</font></td> 
+      <td bgcolor="#ffffff"> <font style="font-size: 13px; font-family: arial" color="DarkRed"> <img src="imgsite\4estrelas.jpg" border="0"> <font color="black" face="arial" size="2"><a href="http://www.carrosnaweb.com.br/opiniaolista.asp?fabricante=Ford&amp;modelo=Edge" title="Leia opiniões sobre o EDGE">8,3</a> <font style="font-size: 13px; font-family: arial" color="DarkRed"> &nbsp; <a href="http://www.carrosnaweb.com.br/opiniaolista.asp?fabricante=Ford&amp;modelo=Edge" title="Leia opiniões sobre o EDGE">Veja as opiniões</a> </font></font></font></td> 
+      <td bgcolor="#ffffff"> <font style="font-size: 13px; font-family: arial" color="DarkRed"> <img src="imgsite\meiaestrela.jpg" border="0"> <font color="black" face="arial" size="2"><a href="http://www.carrosnaweb.com.br/opiniaolista.asp?fabricante=Chevrolet&amp;modelo=Equinox" title="Leia opiniões sobre o EQUINOX"></a> &nbsp; <a href="http://www.carrosnaweb.com.br/opiniaolista.asp?fabricante=Chevrolet&amp;modelo=Equinox" title="Leia opiniões sobre o EQUINOX">Veja as opiniões</a> </font></font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Concessionárias</font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="concessionariaslista.asp?fabricante=Ford">392</a></font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="concessionariaslista.asp?fabricante=Chevrolet">576</a></font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Avaliação - venda </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\3estrelas.jpg" border="0"> <a href="concessionariaslista.asp?fabricante=Ford">7,4</a> </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\3estrelas.jpg" border="0"> <a href="concessionariaslista.asp?fabricante=Chevrolet">7,7</a> </font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"><font color="darkred" face="arial" size="2">Pós-venda </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\2estrelas.jpg" border="0"> <a href="concessionariaslista.asp?fabricante=Ford">4,6</a> </font></td> 
+      <td bgcolor="#ffffff"><font color="black" face="arial" size="2"> <img src="imgsite\2emeiaestrelas.jpg" border="0"> <a href="concessionariaslista.asp?fabricante=Chevrolet">5,3</a> </font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"> <a href="analise.asp?codigo=61" title="Saiba tudo sobre o EDGE"><font face="arial" size="2">Avaliação do EDGE</font></a><font face="arial" size="2"> </font></font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"> <a href="analise.asp?codigo=1273" title="Saiba tudo sobre o EQUINOX"><font face="arial" size="2">Avaliação do EQUINOX</font></a><font face="arial" size="2"> </font></font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="noticias.asp?palavrachave=Edge" title="Notícias sobre o EDGE"><font face="arial"><font style="font-size: 13px;">Notícias do EDGE</font></font></a></font></td>
+      <td></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="catalogo.asp?fabricante=Ford&amp;varnome=Edge" title="Fichas técnicas, equipamentos e fotos do EDGE"><font face="arial"><font style="font-size: 13px;">Catálogo do EDGE</font></font></a></font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="catalogo.asp?fabricante=Chevrolet&amp;varnome=Equinox" title="Fichas técnicas, equipamentos e fotos do EQUINOX"><font face="arial"><font style="font-size: 13px;">Catálogo do EQUINOX</font></font></a></font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="listaclassif.asp?modelo=Edge&amp;fabricante=Ford" title="Compre o seu EDGE"><font face="arial" size="2">Anúncios de EDGE</font></a></font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"><a href="listaclassif.asp?modelo=Equinox&amp;fabricante=Chevrolet" title="Compre o seu EQUINOX"><font face="arial" size="2">Anúncios de EQUINOX</font></a></font></td> 
+     </tr> 
+     <tr> 
+      <td align="right" bgcolor="#ffffff"></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"> <a href="videos.asp?fabricante=Ford&amp;modelo=Edge" title="Vídeos do EDGE"><font face="arial" size="2">Vídeos do EDGE</font></a><font face="arial" size="2"> </font></font></td> 
+      <td bgcolor="#ffffff"><font face="arial" size="2"> </font></td> 
+     </tr>  
+    </tbody>
+   </table> 
+   <table width="1250" cellspacing="1" cellpadding="2" border="0" align="center" bgcolor="White"> 
+    <!--INICIO EQUIPAMENTOS--> 
+    <tbody>
+     <tr> 
+      <td align="center" colspan="6"> 
+       <table border="0" cellspacing="1" cellpadding="2" align="center" width="100%"> 
+        <tbody>
+         <tr> 
+          <td width="260" rowspan="200"> </td>
+          <td colspan="5" align="left"><font color="darkred" size="4" face="arial">Equipamentos</font></td> 
+          <td align="right" valign="center" colspan="1" rowspan="110" width="270"> <font style="font-size: 1px;"><br><br></font> <font style="font-size: 1px;"><br><br></font> 
+           <!-- Resultcompara-arranha-ceu-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718587,
+    "async": false});
+</script> <font style="font-size: 12px;"><br><br></font> 
+           <!-- Resultcompara-arranha-ceu-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 720287,
+    "async": false});
+</script> <font style="font-size: 12px;"><br><br></font> 
+           <!-- Resultcompara-arranha-ceu-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 720287,
+    "async": false});
+</script> <font style="font-size: 1px;"><br><br></font> </td> 
+          <td width="330"> </td>
+         </tr> 
+         <tr> 
+          <td colspan="5" align="left"><font color="darkred" size="3" face="arial">Segurança</font></td> 
+         </tr> 
+         <tr> 
+          <td width="460" align="right" valign="top"><font color="black" size="2" face="arial">Freios ABS</font></td> 
+          <td width="35" align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td width="700" align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td width="460" align="right" valign="top"><font color="black" size="2" face="arial">Airbags frontais</font></td> 
+          <td width="35" align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td width="700" align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Airbags laterais</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Airbags de cortina</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alarme antifurto perimétrico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alarme antifurto volumétrico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Câmera traseira para manobras</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Câmeras para visão de 360 graus</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Cintos de três pontos para todos os ocupantes</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Encosto de cabeça para todos os ocupantes</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle de estabilidade</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle de tração</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Assistente de partida em rampa</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Faróis com lâmpadas de xenônio, LED ou laser</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Assistente de farol alto</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Faróis com regulagem de altura</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Faróis com refletores duplos</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Faróis de neblina</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Luz traseira de neblina</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Repetidores laterais das luzes de direção</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Luzes de condução diurna</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Limpador e lavador do vidro traseiro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Desembaçador do vidro traseiro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Travamento central das portas</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle de velocidade adaptativo</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle automático de descida</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">ISOFIX</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Monitoramento da pressão dos pneus</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Sensores de estacionamento dianteiro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Sensores de estacionamento traseiro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Indicador de fadiga</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alerta de ponto cego</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alerta de mudança de faixa</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Assistente de permanência na faixa</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alerta de colisão frontal</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alerta de tráfego cruzado traseiro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Frenagem automática de emergência</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Chamada de assistência de emergência</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Assistência na recuperação veicular</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Vetorização de torque</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td colspan="3" align="left"><font color="darkred" size="3" face="arial">Conforto</font></td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ar-condicionado</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ar-condicionado automático</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Zonas de ar-condicionado</font></td> 
+          <td align="center" bgcolor="#F8F8FF"><font color="black" size="2" face="arial">2</font></td> 
+          <td align="center" bgcolor="#F8F8FF"><font color="black" size="2" face="arial">2</font></td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ar quente</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Direção assistida</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ajuste do volante em altura</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ajuste do volante em profundidade</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Câmbio automático</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Troca de marchas no volante</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Apoio de braço para o motorista</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Assistente de estacionamento</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle automático de velocidade</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle elétrico dos vidros dianteiros</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Controle elétrico dos vidros traseiros</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ajuste elétrico dos retrovisores</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Retrovisores rebativeis eletricamente</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Retrovisor interno fotocrômico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Limpador de para-brisa automático</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Rodas de liga leve</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Teto solar elétrico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/amar.gif" align="baseline" title="Equipamento opcional"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Teto panorâmico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/amar.gif" align="baseline" title="Equipamento opcional"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Banco do motorista com ajuste de altura</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Ajuste elétrico do banco do motorista</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Bancos revestidos em couro</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Banco traseiro bipartido</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Banco traseiro rebatível</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Comando interno do porta-malas</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Comando interno da tampa do tanque</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Faróis com acendimento automático</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Luz no porta-malas</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Luz no porta-luvas</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Chave presencial</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Alças de segurança no teto</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Porta-luvas climatizado</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Sistema start-stop</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Acionamento remoto do motor</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Freio de estacionamento elétrico</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Tampa traseira com abertura motorizada</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td colspan="3" align="left"><font color="darkred" size="3" face="arial">Infotenimento</font></td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Rádio</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">CD player</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Navegador GPS</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">DVD player</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Conexão USB</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Interface Bluetooth</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Espelhamento da tela do celular</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Leitor de cartão de memória</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Volante multifuncional</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Computador de bordo</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Conta-giros</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Termômetro da água do motor</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Indicador de temperatura externa</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Informação de trânsito em tempo real</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Serviço de concierge</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+         <tr> 
+          <td align="right" valign="top"><font color="black" size="2" face="arial">Carregador de celular sem fio</font></td> 
+          <td align="right" bgcolor="#F8F8FF"> <img src="/imgsite/verm.gif" title="Equipamento não disponível"> </td> 
+          <td align="center" bgcolor="#F8F8FF"> <img src="/imgsite/verde.gif" title="Equipamento de série"> </td> 
+         </tr> 
+        </tbody>
+       </table> </td> 
+     </tr> 
+     <tr> 
+      <td align="center" colspan="1"><font color="black" size="2" face="arial"> <br> &nbsp;&nbsp;Legenda: <img src="/imgsite/verde.gif" title="Equipamento de série">&nbsp;Equipamento de série&nbsp;&nbsp;&nbsp;&nbsp;<img src="/imgsite/amar.gif" align="baseline" title="Equipamento opcional">&nbsp;Equipamento opcional&nbsp;&nbsp;&nbsp;&nbsp;<img src="/imgsite/verm.gif" title="Equipamento não disponível">&nbsp;Equipamento não disponível </font></td> 
+     </tr> 
+     <!--FIM EQUIPAMENTOS--> 
+     <tr> 
+      <td colspan="5"> <font style="font-size: 10px;"><br><br></font> 
+       <table cellpadding="6" cellspacing="0" width="390" align="center"> 
+        <tbody>
+         <tr> 
+          <td align="center" colspan="2" bgcolor="f0f0f0" height="30"> <font face="arial" size="2" color="darkred">Indique este comparativo para seus amigos:&nbsp; <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique este comparativo"><img src="imgsite/ico_carta.gif" border="0" align="absbottom"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" align="absbottom" border="0"></a> <a href="http://twitter.com/?status=EDGE%20vs.%20EQUINOX:%20http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" align="absbottom" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/resultcompara.asp?modelos=6246-8238" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" align="absbottom" border="0"></a> <font style="font-size: 3px;"><br><br></font> </font></td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <table cellpadding="2" cellspacing="0" width="700" align="center"> 
+        <tbody>
+         <tr> 
+          <td align="center"> <font face="arial" size="2"> <br> Material ilustrativo. Sujeito a alterações sem prévio aviso.<br> Alguns itens mostrados podem ser opcionais e/ou referem-se a outras versões. <br>¹ Consulte com o fabricante o preço do veículo 0 km. <br>² Preço sugerido no lançamento. </font></td> 
+         </tr> 
+        </tbody>
+       </table> </td> 
+     </tr> 
+     <tr> 
+      <td colspan="2" align="center" height="150"> 
+       <!-- Resultcompara-banner-meio --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718577,
+    "async": false});
+</script> </td> 
+     </tr> 
+     <tr> 
+      <td align="center" bgcolor="White" colspan="6"> <p> <font style="font-size: 5px;"><br><br></font> </p><a rel="example_group" href="imagensbd007\edge-2016-11.jpg"></a>
+       <table cellpadding="1" cellspacing="0" border="0"> 
+        <tbody>
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-1.jpg"><img src="imagensbd007\thumbCompara\edge-2016-1.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-1.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-1.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-2.jpg"><img src="imagensbd007\thumbCompara\edge-2016-2.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-2.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-2.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-4.jpg"><img src="imagensbd007\thumbCompara\edge-2016-4.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-4.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-4.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-5.jpg"><img src="imagensbd007\thumbCompara\edge-2016-5.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-5.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-5.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-6.jpg"><img src="imagensbd007\thumbCompara\edge-2016-6.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-6.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-6.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-3.jpg"><img src="imagensbd007\thumbCompara\edge-2016-3.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-3.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-3.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-8.jpg"><img src="imagensbd007\thumbCompara\edge-2016-8.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-8.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-8.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-7.jpg"><img src="imagensbd007\thumbCompara\edge-2016-7.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-7.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-7.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-9.jpg"><img src="imagensbd007\thumbCompara\edge-2016-9.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-9.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-9.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr> 
+         <tr> 
+          <td width="454" align="center" valign="top"> <a rel="example_group" href="imagensbd007\edge-2016-10.jpg"><img src="imagensbd007\thumbCompara\edge-2016-10.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+          <td width="454" align="center" valign="top"> <a rel="example_group2" href="imagensbd007\equinox-2018-10.jpg"><img src="imagensbd007\thumbCompara\equinox-2018-10.jpg" width="454" border="0" title="Clique para ampliar"></a> </td> 
+         </tr>  
+        </tbody>
+       </table> 
+       <!--INICIO VARIAÇÃO DE PREÇOS--> <font style="font-size: 4px;"><br><br></font> 
+       <table align="center"> 
+        <tbody>
+         <tr> 
+          <td align="center" height="150"> 
+           <!-- Resultcompara-banner-meio --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718577,
+    "async": false});
+</script> </td> 
+         </tr> 
+        </tbody>
+       </table> <font style="font-size: 4px;"><br><br></font> 
+       <table border="0"> 
+        <tbody>
+         <tr> 
+          <td bgcolor="#ffffff" align="right" rowspan="3"><font size="2" face="arial"><img src="imgsite\barralaranja.gif" height="55" width="16" title="Ford&nbsp;Edge&nbsp;Titanium 3.5 V6 AWD"><a href="fichadetalhe.asp?Codigo=6246"><img src="imagensbd007\thumb\edge-2016-1.jpg" height="66" width="100" border="0" vspace="0" title="Ford&nbsp;Edge&nbsp;Titanium 3.5 V6 AWD"></a></font></td> 
+          <td bgcolor="#ffffff"><font face="arial" size="2">Ford</font></td> 
+          <td rowspan="3" width="10"></td> 
+          <td bgcolor="#ffffff" align="right" rowspan="3"><font size="2" face="arial"><img src="imgsite\barraazul.gif" height="55" width="16" title="Chevrolet&nbsp;Equinox&nbsp;Premier 2.0 Turbo"><a href="fichadetalhe.asp?Codigo=8238"><img src="imagensbd007\thumb\equinox-2018-1.jpg" height="66" width="100" border="0" vspace="0" title="Chevrolet&nbsp;Equinox&nbsp;Premier 2.0 Turbo"></a></font></td> 
+          <td bgcolor="#ffffff"><font face="arial" size="2">Chevrolet</font></td> 
+         </tr> 
+         <tr> 
+          <td bgcolor="#ffffff"><font face="arial"><font color="darkred" size="3"><b>Edge Titanium 3.5 V6 AWD</b></font></font></td> 
+          <td bgcolor="#ffffff"><font face="arial"><font color="darkred" size="3"><b>Equinox Premier 2.0 Turbo</b></font></font></td> 
+         </tr> 
+         <tr> 
+          <td bgcolor="#ffffff"><font face="arial" size="2">2016</font></td> 
+          <td bgcolor="#ffffff"><font face="arial" size="2">2018</font></td> 
+         </tr> 
+        </tbody>
+       </table> <font style="font-size: 8px;"><br><br></font> 
+       <table border="0"> 
+        <tbody>
+         <tr> 
+          <td><font color="darkred" face="arial" size="2"></font></td> 
+          <td width="30"><font color="darkred" face="arial" size="2">Ano</font></td> 
+          <td align="center" width="680"><font color="darkred" face="arial" size="2">Variação de preço</font></td> 
+          <td colspan="2" align="center"><font color="darkred" face="arial" size="2">Depreciação anual</font></td> 
+         </tr> 
+         <tr> 
+          <td><font color="black" face="arial" size="2">0 km </font></td> 
+          <td><font color="black" face="arial" size="2"> 2016</font></td> 
+          <td height="25"><font color="black" face="arial" size="2"><img src="imgsite\barralaranja.gif" height="15" width="600" title="Ford&nbsp;Edge&nbsp;Titanium 3.5 V6 AWD">&nbsp;R$ 229.900</font></td> 
+          <td><font color="black" face="arial" size="2"></font></td> 
+         </tr> 
+         <tr> 
+          <td><font color="black" face="arial" size="2"> </font></td> 
+          <td><font color="black" face="arial" size="2"> 2017</font></td> 
+          <td height="25"><font color="black" face="arial" size="2"><img src="imgsite\barralaranja.gif" height="15" width="565,09351892127" title="Ford&nbsp;Edge&nbsp;Titanium 3.5 V6 AWD">&nbsp;R$ 216.525</font></td> 
+          <td></td>
+          <td><font color="black" face="arial" size="2"><img src="imgsite\barralaranja.gif" height="15" width="34,92" title="Ford&nbsp;Edge&nbsp;Titanium 3.5 V6 AWD">&nbsp;5,82%</font></td> 
+         </tr> 
+         <tr> 
+          <td><font color="black" face="arial" size="2">0 km </font></td> 
+          <td><font color="black" face="arial" size="2"> 2017</font></td> 
+          <td height="25"><font color="black" face="arial" size="2"><img src="imgsite\barraazul.gif" height="15" width="391,213571117877" title="Chevrolet&nbsp;Equinox&nbsp;Premier 2.0 Turbo">&nbsp;R$ 149.900</font></td> 
+          <td><font color="black" face="arial" size="2"></font></td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <!--FIM VARIAÇÃO DE PREÇOS--> <font style="font-size: 13px;"><br><br></font> 
+       <table> 
+        <tbody>
+         <tr> 
+          <td width="300" align="center"> 
+           <!-- Resultcompara-quadrado-conteudo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718597,
+    "async": false});
+</script> </td> 
+          <td width="30"></td> 
+          <td> 
+           <table border="0" align="center" cellpadding="7" cellspacing="0"> 
+            <tbody>
+             <tr> 
+              <td colspan="2" bgcolor="DarkRed" align="center"> <font style="font-size: 14px; font-family: arial" color="#ffffff">COMPARATIVOS RELACIONADOS </font></td> 
+             </tr> 
+             <tr> 
+              <td align="center" bgcolor="#f7efde"> </td> 
+             </tr> 
+             <tr> 
+              <td align="center" bgcolor="#f7efde"> <font style="font-size: 2px;"><br></font> <a href="resultcompara.asp?modelos=6246-6863-7628-8015&amp;cont=0" title="Ford Edge Titanium 3.5 V6 AWD 2016"><img src="imagensbd007\thumb\edge-2016-1.jpg" border="0" vspace="0" hspace="5"></a> <a href="resultcompara.asp?modelos=6246-6863-7628-8015&amp;cont=0" title="Land Rover Evoque Conversível HSE Dynamic 2.0 Si4 2017"><img src="imagensbd007\thumb\Evoque-Cabrio-2017-1.jpg" border="0" vspace="0" hspace="5"></a> <a href="resultcompara.asp?modelos=6246-6863-7628-8015&amp;cont=0" title="Chevrolet Trailblazer LTZ 2.8 CTDi Turbo 2018"><img src="imagensbd007\thumb\Trailblazer-diesel-2018-1.jpg" border="0" vspace="0" hspace="5"></a> <a href="resultcompara.asp?modelos=6246-6863-7628-8015&amp;cont=0" title="BMW X3 xDrive 20i X Line 2.0 2018"><img src="imagensbd007\thumb\x3-xdrive-20i-2015-1.jpg" border="0" vspace="0" hspace="5"></a> <br> <a href="resultcompara.asp?modelos=6246-6863-7628-8015&amp;cont=0" title="Compare Ford Edge vs. Land Rover Evoque vs. Chevrolet Trailblazer vs. BMW X3"><font style="font-size: 15px; font-family: arial" color="black"> Edge vs. Evoque vs. Chevrolet Trailblazer vs. BMW X3</font></a><font style="font-size: 15px; font-family: arial" color="black"> </font></td> 
+             </tr> 
+             <tr> 
+              <td align="center" bgcolor="#f7efde"> <font style="font-size: 2px;"><br></font> <a href="resultcompara.asp?modelos=7743-8238&amp;cont=0" title="Peugeot 3008 Griffe 1.6 Turbo 2018"><img src="imagensbd007\thumb\3008-2018-1.jpg" border="0" vspace="0" hspace="5"></a> <a href="resultcompara.asp?modelos=7743-8238&amp;cont=0" title="Chevrolet Equinox Premier 2.0 Turbo 2018"><img src="imagensbd007\thumb\equinox-2018-1.jpg" border="0" vspace="0" hspace="5"></a> <br> <a href="resultcompara.asp?modelos=7743-8238&amp;cont=0" title="Compare Ford 3008 vs. Chevrolet Equinox"><font style="font-size: 15px; font-family: arial" color="black">Peugeot 3008 vs. GM Equinox</font></a><font style="font-size: 15px; font-family: arial" color="black"> </font></td> 
+             </tr> 
+            </tbody>
+           </table> </td> 
+         </tr> 
+        </tbody>
+       </table> <font style="font-size: 10px;"><br><br></font> <font style="font-size: 4px;"><br><br></font> 
+       <table cellpadding="20" cellspacing="0" border="1" bordercolor="lightgrey"> 
+        <tbody>
+         <tr> 
+          <td> 
+           <table border="0"> 
+            <tbody>
+             <tr> 
+              <td align="center" height="18"> <font style="font-size: 16px; font-family: arial"> Qual o seu preferido? </font></td> 
+             </tr> 
+             <tr> 
+              <td height="60" align="center"> <input type="button" value="Votar no EDGE" id="button1" name="button1" onclick="javascript:Avalia('comparativovota.asp?codigo1=6246&amp;codigo2=8238&amp;codigo3=&amp;codigo4=&amp;voto=6246','popup','toolbar=no,menubar=no,scrollbars=no,location=no,resizable=no,status=no,width=400,height=350,top=0,left=150')" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';" title="Votar no Ford Edge Titanium 3.5 V6 AWD"> &nbsp; <input type="button" value="Votar no EQUINOX" id="button1" name="button1" onclick="javascript:Avalia('comparativovota.asp?codigo1=6246&amp;codigo2=8238&amp;codigo3=&amp;codigo4=&amp;voto=8238','popup','toolbar=no,menubar=no,scrollbars=no,location=no,resizable=no,status=no,width=400,height=350,top=0,left=150')" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';" title="Votar no Chevrolet Equinox Premier 2.0 Turbo"> </td> 
+             </tr> 
+             <tr> 
+              <td> 
+               <table width="800" cellpadding="5"> 
+                <tbody>
+                 <tr> 
+                  <td bgcolor="bc0000" height="60" width="150,3" align="right"> <font style="font-size: 20px; font-family: arial" color="#ffffff"> 16,7% <br> <font style="font-size: 13px; font-family: arial" color="#ffffff"> Edge Titanium 3.5 V6 AWD </font></font></td> 
+                  <td bgcolor="green" height="60" width="749,7" align="right"> <font style="font-size: 20px; font-family: arial" color="#ffffff"> 83,3% <br> <font style="font-size: 13px; font-family: arial" color="#ffffff"> Equinox Premier 2.0 Turbo </font></font></td> 
+                 </tr> 
+                </tbody>
+               </table> </td> 
+             </tr> 
+            </tbody>
+           </table> </td> 
+         </tr> 
+        </tbody>
+       </table> <font style="font-size: 10px;"><br><br></font> 
+       <!-- Resultcompara-banner-meio --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 718577,
+    "async": false});
+</script> <font style="font-size: 11px;"><br><br><br></font> </td>
+     </tr>
+    </tbody>
+   </table> 
+   <table width="1250" cellspacing="1" cellpadding="2" border="0" align="center" bgcolor="White"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="white"> <font style="font-size: 1px;"><br><br></font> 
+       <form method="post" action="" id="Carro" name="Carro" onsubmit="var result=checa(); return result;"> 
+        <table border="0" width="1150" bgcolor="#F8F8FF" align="center"> 
+         <tbody>
+          <tr> 
+           <td align="center" colspan="4" height="50"> <font style="font-size: 16px; font-family: arial"> Faça um novo comparativo </font></td> 
+          </tr>
+          <tr> 
+          </tr>
+          <tr> 
+           <td align="center" colspan="1" height="45"> <font style="font-size: 15px; font-family: arial" color="#800000"><b>Carro 1</b></font><br></td> 
+           <td align="center" colspan="1"> <font style="font-size: 15px; font-family: arial" color="#800000"><b>Carro 2</b></font><br></td> 
+           <td align="center" colspan="1"> <font style="font-size: 15px; font-family: arial" color="#800000"><b>Carro 3</b></font><br></td> 
+           <td align="center" colspan="1"> <font style="font-size: 15px; font-family: arial" color="#800000"><b>Carro 4</b></font><br></td> 
+          </tr> 
+          <tr> 
+           <td align="center"><font size="2" face="arial">Fabricante</font></td> 
+           <td align="center"><font size="2" face="arial">Fabricante</font></td> 
+           <td align="center"><font size="2" face="arial">Fabricante</font></td> 
+           <td align="center"><font size="2" face="arial">Fabricante</font></td> 
+          </tr> 
+          <tr> 
+           <td align="center"> <select name="fabricante1" id="fabricante1" onchange="MandaID1(document.Carro.fabricante1.value,'exibe_modelo1','modelo1','');MandaID11('','','exibe_ano1','ano1','');MandaID21('','','','exibe_versao1','versao1','')"> <option value="-1">Selecione</option> <option value="Adamo">Adamo</option> <option value="Agrale">Agrale</option> <option value="Alfa Romeo">Alfa Romeo</option> <option value="Ariel">Ariel</option> <option value="Asia">Asia</option> <option value="Aston Martin">Aston Martin</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="Bianco">Bianco</option> <option value="BMW">BMW</option> <option value="BRM">BRM</option> <option value="Bugatti">Bugatti</option> <option value="Cadillac">Cadillac</option> <option value="Caterham">Caterham</option> <option value="CBT">CBT</option> <option value="Chamonix">Chamonix</option> <option value="Chana">Chana</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet">Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Cross Lander">Cross Lander</option> <option value="Daewoo">Daewoo</option> <option value="Daihatsu">Daihatsu</option> <option value="DeLorean">DeLorean</option> <option value="Dodge">Dodge</option> <option value="Effa">Effa</option> <option value="Engesa">Engesa</option> <option value="Envemo">Envemo</option> <option value="Farus">Farus</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford" selected>Ford</option> <option value="Geely">Geely</option> <option value="Gurgel">Gurgel</option> <option value="Hafei">Hafei</option> <option value="Hennessey">Hennessey</option> <option value="Honda">Honda</option> <option value="Hummer">Hummer</option> <option value="Hyundai">Hyundai</option> <option value="Infiniti">Infiniti</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="JPX">JPX</option> <option value="Kia">Kia</option> <option value="Koenigsegg">Koenigsegg</option> <option value="KTM">KTM</option> <option value="Lada">Lada</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lobini">Lobini</option> <option value="Lotus">Lotus</option> <option value="Mahindra">Mahindra</option> <option value="Maserati">Maserati</option> <option value="Mazda">Mazda</option> <option value="McLaren">McLaren</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Miura">Miura</option> <option value="MP Lafer">MP Lafer</option> <option value="Nissan">Nissan</option> <option value="Pagani">Pagani</option> <option value="Peugeot">Peugeot</option> <option value="Pontiac">Pontiac</option> <option value="Porsche">Porsche</option> <option value="Puma">Puma</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Saab">Saab</option> <option value="Saleen">Saleen</option> <option value="Santa Matilde">Santa Matilde</option> <option value="Santana">Santana</option> <option value="Seat">Seat</option> <option value="Shineray">Shineray</option> <option value="Smart">Smart</option> <option value="Ssangyong">Ssangyong</option> <option value="Subaru">Subaru</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tesla">Tesla</option> <option value="Toyota">Toyota</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> </select> </td> 
+           <td align="center"> <select name="fabricante2" id="fabricante2" onchange="MandaID2(document.Carro.fabricante2.value,'exibe_modelo2','modelo2','');MandaID12('','','exibe_ano2','ano2','');MandaID22('','','','exibe_versao2','versao2','')"> <option value="-1">Selecione</option> <option value="Adamo">Adamo</option> <option value="Agrale">Agrale</option> <option value="Alfa Romeo">Alfa Romeo</option> <option value="Ariel">Ariel</option> <option value="Asia">Asia</option> <option value="Aston Martin">Aston Martin</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="Bianco">Bianco</option> <option value="BMW">BMW</option> <option value="BRM">BRM</option> <option value="Bugatti">Bugatti</option> <option value="Cadillac">Cadillac</option> <option value="Caterham">Caterham</option> <option value="CBT">CBT</option> <option value="Chamonix">Chamonix</option> <option value="Chana">Chana</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet" selected>Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Cross Lander">Cross Lander</option> <option value="Daewoo">Daewoo</option> <option value="Daihatsu">Daihatsu</option> <option value="DeLorean">DeLorean</option> <option value="Dodge">Dodge</option> <option value="Effa">Effa</option> <option value="Engesa">Engesa</option> <option value="Envemo">Envemo</option> <option value="Farus">Farus</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford">Ford</option> <option value="Geely">Geely</option> <option value="Gurgel">Gurgel</option> <option value="Hafei">Hafei</option> <option value="Hennessey">Hennessey</option> <option value="Honda">Honda</option> <option value="Hummer">Hummer</option> <option value="Hyundai">Hyundai</option> <option value="Infiniti">Infiniti</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="JPX">JPX</option> <option value="Kia">Kia</option> <option value="Koenigsegg">Koenigsegg</option> <option value="KTM">KTM</option> <option value="Lada">Lada</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lobini">Lobini</option> <option value="Lotus">Lotus</option> <option value="Mahindra">Mahindra</option> <option value="Maserati">Maserati</option> <option value="Mazda">Mazda</option> <option value="McLaren">McLaren</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Miura">Miura</option> <option value="MP Lafer">MP Lafer</option> <option value="Nissan">Nissan</option> <option value="Pagani">Pagani</option> <option value="Peugeot">Peugeot</option> <option value="Pontiac">Pontiac</option> <option value="Porsche">Porsche</option> <option value="Puma">Puma</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Saab">Saab</option> <option value="Saleen">Saleen</option> <option value="Santa Matilde">Santa Matilde</option> <option value="Santana">Santana</option> <option value="Seat">Seat</option> <option value="Shineray">Shineray</option> <option value="Smart">Smart</option> <option value="Ssangyong">Ssangyong</option> <option value="Subaru">Subaru</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tesla">Tesla</option> <option value="Toyota">Toyota</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> </select> </td> 
+           <td align="center"> <select name="fabricante3" id="fabricante3" onchange="MandaID3(document.Carro.fabricante3.value,'exibe_modelo3','modelo3','');MandaID13('','','exibe_ano3','ano3','');MandaID23('','','','exibe_versao3','versao3','')"> <option value="-1">Selecione</option> <option value="Adamo">Adamo</option> <option value="Agrale">Agrale</option> <option value="Alfa Romeo">Alfa Romeo</option> <option value="Ariel">Ariel</option> <option value="Asia">Asia</option> <option value="Aston Martin">Aston Martin</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="Bianco">Bianco</option> <option value="BMW">BMW</option> <option value="BRM">BRM</option> <option value="Bugatti">Bugatti</option> <option value="Cadillac">Cadillac</option> <option value="Caterham">Caterham</option> <option value="CBT">CBT</option> <option value="Chamonix">Chamonix</option> <option value="Chana">Chana</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet">Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Cross Lander">Cross Lander</option> <option value="Daewoo">Daewoo</option> <option value="Daihatsu">Daihatsu</option> <option value="DeLorean">DeLorean</option> <option value="Dodge">Dodge</option> <option value="Effa">Effa</option> <option value="Engesa">Engesa</option> <option value="Envemo">Envemo</option> <option value="Farus">Farus</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford">Ford</option> <option value="Geely">Geely</option> <option value="Gurgel">Gurgel</option> <option value="Hafei">Hafei</option> <option value="Hennessey">Hennessey</option> <option value="Honda">Honda</option> <option value="Hummer">Hummer</option> <option value="Hyundai">Hyundai</option> <option value="Infiniti">Infiniti</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="JPX">JPX</option> <option value="Kia">Kia</option> <option value="Koenigsegg">Koenigsegg</option> <option value="KTM">KTM</option> <option value="Lada">Lada</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lobini">Lobini</option> <option value="Lotus">Lotus</option> <option value="Mahindra">Mahindra</option> <option value="Maserati">Maserati</option> <option value="Mazda">Mazda</option> <option value="McLaren">McLaren</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Miura">Miura</option> <option value="MP Lafer">MP Lafer</option> <option value="Nissan">Nissan</option> <option value="Pagani">Pagani</option> <option value="Peugeot">Peugeot</option> <option value="Pontiac">Pontiac</option> <option value="Porsche">Porsche</option> <option value="Puma">Puma</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Saab">Saab</option> <option value="Saleen">Saleen</option> <option value="Santa Matilde">Santa Matilde</option> <option value="Santana">Santana</option> <option value="Seat">Seat</option> <option value="Shineray">Shineray</option> <option value="Smart">Smart</option> <option value="Ssangyong">Ssangyong</option> <option value="Subaru">Subaru</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tesla">Tesla</option> <option value="Toyota">Toyota</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> </select> </td> 
+           <td align="center"> <select name="fabricante4" id="fabricante4" onchange="MandaID4(document.Carro.fabricante4.value,'exibe_modelo4','modelo4','');MandaID14('','','exibe_ano4','ano4','');MandaID24('','','','exibe_versao4','versao4','')"> <option value="-1">Selecione</option> <option value="Adamo">Adamo</option> <option value="Agrale">Agrale</option> <option value="Alfa Romeo">Alfa Romeo</option> <option value="Ariel">Ariel</option> <option value="Asia">Asia</option> <option value="Aston Martin">Aston Martin</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="Bianco">Bianco</option> <option value="BMW">BMW</option> <option value="BRM">BRM</option> <option value="Bugatti">Bugatti</option> <option value="Cadillac">Cadillac</option> <option value="Caterham">Caterham</option> <option value="CBT">CBT</option> <option value="Chamonix">Chamonix</option> <option value="Chana">Chana</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet">Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Cross Lander">Cross Lander</option> <option value="Daewoo">Daewoo</option> <option value="Daihatsu">Daihatsu</option> <option value="DeLorean">DeLorean</option> <option value="Dodge">Dodge</option> <option value="Effa">Effa</option> <option value="Engesa">Engesa</option> <option value="Envemo">Envemo</option> <option value="Farus">Farus</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford">Ford</option> <option value="Geely">Geely</option> <option value="Gurgel">Gurgel</option> <option value="Hafei">Hafei</option> <option value="Hennessey">Hennessey</option> <option value="Honda">Honda</option> <option value="Hummer">Hummer</option> <option value="Hyundai">Hyundai</option> <option value="Infiniti">Infiniti</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="JPX">JPX</option> <option value="Kia">Kia</option> <option value="Koenigsegg">Koenigsegg</option> <option value="KTM">KTM</option> <option value="Lada">Lada</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lobini">Lobini</option> <option value="Lotus">Lotus</option> <option value="Mahindra">Mahindra</option> <option value="Maserati">Maserati</option> <option value="Mazda">Mazda</option> <option value="McLaren">McLaren</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Miura">Miura</option> <option value="MP Lafer">MP Lafer</option> <option value="Nissan">Nissan</option> <option value="Pagani">Pagani</option> <option value="Peugeot">Peugeot</option> <option value="Pontiac">Pontiac</option> <option value="Porsche">Porsche</option> <option value="Puma">Puma</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Saab">Saab</option> <option value="Saleen">Saleen</option> <option value="Santa Matilde">Santa Matilde</option> <option value="Santana">Santana</option> <option value="Seat">Seat</option> <option value="Shineray">Shineray</option> <option value="Smart">Smart</option> <option value="Ssangyong">Ssangyong</option> <option value="Subaru">Subaru</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tesla">Tesla</option> <option value="Toyota">Toyota</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> </select> </td>  
+          </tr> 
+          <tr> 
+           <td align="center"><font size="2" face="arial"><br>Modelo</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Modelo</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Modelo</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Modelo</font></td> 
+          </tr> 
+          <tr> 
+           <td align="center">
+            <div id="exibe_modelo1">
+             <select id="modelo1"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_modelo2">
+             <select id="modelo2"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_modelo3">
+             <select id="modelo3"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_modelo4">
+             <select id="modelo4"><option value=""></option></select>
+            </div></td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td align="center"><font size="2" face="arial"><br>Ano</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Ano</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Ano</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Ano</font></td> 
+          </tr> 
+          <tr> 
+           <td align="center">
+            <div id="exibe_ano1">
+             <select id="ano1"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_ano2">
+             <select id="ano2"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_ano3">
+             <select id="ano3"><option value=""></option></select>
+            </div></td> 
+           <td align="center">
+            <div id="exibe_ano4">
+             <select id="ano4"><option value=""></option></select>
+            </div></td> 
+          </tr> 
+          <tr> 
+          </tr> 
+          <tr> 
+           <td align="center"><font size="2" face="arial"><br>Versão</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Versão</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Versão</font></td> 
+           <td align="center"><font size="2" face="arial"><br>Versão</font></td> 
+          </tr> 
+          <tr> 
+           <td align="center"> 
+            <div id="exibe_versao1">
+             <select id="versao1"><option value=""></option></select>
+            </div> </td> 
+           <td align="center"> 
+            <div id="exibe_versao2">
+             <select id="versao2"><option value=""></option></select>
+            </div> </td> 
+           <td align="center"> 
+            <div id="exibe_versao3">
+             <select id="versao3"><option value=""></option></select>
+            </div> </td> 
+           <td align="center"> 
+            <div id="exibe_versao4">
+             <select id="versao4"><option value=""></option></select>
+            </div> </td> 
+          </tr> 
+          <tr> 
+           <td height="20"></td> 
+          </tr> 
+          <tr> 
+           <td align="center" colspan="4"> <input type="submit" value="Comparar" id="submit3" name="submit3"><br><br> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </form> </td>
+     </tr>
+     <tr> 
+      <td align="left"> <font size="2" face="arial"> &nbsp;&nbsp;<img src="imgsite\topo.gif" border="0">&nbsp;<a href="#Topo">Topo</a> <br><br> </font></td> 
+     </tr>   
+    </tbody>
+   </table> 
+   <table width="1250" align="center" cellspacing="0"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+     </tr> 
+    </tbody>
+   </table> <font face="arial" size="1" color="#e5e5e5">1,27 s   <script src="scripts/ajaxComparativo_A.js"></script> <script language="JavaScript">
+<!--
+	function CarregaCombos()
+	{
+		MandaID1('Ford','exibe_modelo1','modelo1','Edge');
+		MandaID11('Ford','Edge','exibe_ano1','ano1','2016');
+		MandaID21('Ford','Edge','2016','exibe_versao1','versao1','Titanium 3.5 V6 AWD');
+		
+		MandaID2('Chevrolet','exibe_modelo2','modelo2','Equinox');
+		MandaID12('Chevrolet','Equinox','exibe_ano2','ano2','2018');
+		MandaID22('Chevrolet','Equinox','2018','exibe_versao2','versao2','Premier 2.0 Turbo');
+
+		MandaID3('','exibe_modelo3','modelo3','');
+		MandaID13('','','exibe_ano3','ano3','');
+		MandaID23('','','','exibe_versao3','versao3','');
+
+		MandaID4('','exibe_modelo4','modelo4','');
+		MandaID14('','','exibe_ano4','ano4','');
+		MandaID24('','','','exibe_versao4','versao4','');		
+	}
+		
+	function checaform1()
+	{
+		var erro="";
+		if (window.document.form1.nome.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.form1.nome.focus();
+			return false;
+		}
+	}
+	
+	function MM_openBrWindow(theURL,winName,features) 
+	{ 
+		window.open(theURL,winName,features);
+	}
+	
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+
+function checa(){
+	var error_string = "";
+	var PrimeiroErro = "";
+	if (window.document.Carro.versao2.value == "-1")
+	{
+		error_string += "Favor selecionar a versão.\n";
+		PrimeiroErro = ("versao2")
+	}	
+	if (window.document.Carro.ano2.value == "-1")
+	{
+		error_string += "Favor selecionar o ano.\n";
+		PrimeiroErro = ("ano2")
+	}	
+	if (window.document.Carro.modelo2.value == "-1")
+	{
+		error_string += "Favor selecionar o modelo.\n";
+		PrimeiroErro = ("modelo2")
+	}	
+	if (window.document.Carro.fabricante2.value == "-1")
+	{
+		error_string += "Favor selecionar o fabricante.\n";
+		PrimeiroErro = ("fabricante2")
+	}	
+	if (window.document.Carro.versao1.value == "-1")
+	{
+	error_string += ("Favor selecionar a versão.\n");
+	PrimeiroErro = "versao1";
+	}
+	if (window.document.Carro.ano1.value == "-1")
+	{
+	error_string += ("Favor selecionar o ano.\n");
+	PrimeiroErro = "ano1";
+	}
+	if (window.document.Carro.modelo1.value == "-1")
+	{
+	error_string += ("Favor selecionar o modelo.\n");
+	PrimeiroErro = "modelo1";
+	}
+	if (window.document.Carro.fabricante1.value == "-1")
+	{
+		error_string += "Favor selecionar o fabricante.\n";
+		PrimeiroErro = ("fabricante1")
+	}	
+	if (window.document.Carro.versao1.value == window.document.Carro.versao2.value)
+	{
+		error_string += "Favor selecionar carros diferentes para realizar a comparação.\n";
+		PrimeiroErro = ("fabricante1")
+	}	
+	if (error_string == "")
+	{
+	if (((Carro.versao3.value == "-1")||(Carro.versao3.value == ""))&&((Carro.versao4.value == "-1")||(Carro.versao4.value == "")))
+		{
+			Carro.action = 'resultcompara.asp?modelos='+Carro.versao1.value+'-'+Carro.versao2.value;
+			return true;
+		}
+		else
+		{
+			if ((Carro.versao4.value == "-1")||(Carro.versao4.value == ""))
+			{
+				Carro.action = 'resultcompara.asp?modelos='+Carro.versao1.value+'-'+Carro.versao2.value+'-'+Carro.versao3.value;
+				return true;
+			}
+			else
+			{
+				Carro.action = 'resultcompara.asp?modelos='+Carro.versao1.value+'-'+Carro.versao2.value+'-'+Carro.versao3.value+'-'+Carro.versao4.value;
+				return true;
+			}
+		}
+	}
+	else
+	{
+		alert(error_string);
+		RecebeErro = ('window.document.Carro.'+PrimeiroErro+'.focus();');
+		eval(RecebeErro);
+		return false;
+	}	
+}	
+//-->
+
+</script></font></font>
+ </body>
+</html>

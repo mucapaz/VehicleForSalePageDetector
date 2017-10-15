@@ -1,0 +1,1157 @@
+<!-- <script>
+	(function(a,b){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4)))window.location=b})(navigator.userAgent||navigator.vendor||window.opera,'http://www.itavema.com.br/mobile');
+</script> --><!doctype html>
+<!--[if lt IE 7]>      <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html prefix="og: http://ogp.me/ns#" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html prefix="og: http://ogp.me/ns#" class="no-js">
+ <!--<![endif]-->
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <!--<meta name="description" content="">
+        <meta name="viewport" content="width=device-width">--> 
+  <script src="/templates/grupoitavema/js/jquery.js" type="text/javascript"></script> 
+  <base href="http://nissan.itavema.com.br/"> 
+  <meta http-equiv="content-type" content="text/html; charset=utf-8"> 
+  <meta name="title" content="NISSAN | Carros Nissan| Concessionária Nissan Itavema Japan"> 
+  <meta name="description" content="Seu Nissan 0KM está na Itavema Japan, carros novos e usados com preços e condições especiais de pagamento. Veja serviços, seguros, acessórios e blindagem."> 
+  <title>NISSAN | Carros Nissan| Concessionária Nissan Itavema Japan</title> 
+  <link href="/index.php?option=com_content&amp;format=feed&amp;type=rss&amp;view=featured" rel="alternate" type="application/rss+xml" title="RSS 2.0"> 
+  <link href="/index.php?option=com_content&amp;format=feed&amp;type=atom&amp;view=featured" rel="alternate" type="application/atom+xml" title="Atom 1.0"> 
+  <link href="http://nissan.itavema.com.br" rel="canonical"> 
+  <link href="/templates/grupoitavema/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"> 
+  <link rel="stylesheet" href="/modules/mod_destaques/css/destaques.css" type="text/css"> 
+  <link rel="stylesheet" href="/modules/mod_destaques/css/estilosForm.css" type="text/css"> 
+  <link rel="stylesheet" href="/modules/mod_newsletter/css/newsletter.css" type="text/css"> 
+  <link rel="stylesheet" href="/modules/mod_lojas/css/lojas.css" type="text/css"> 
+  <link rel="stylesheet" href="/modules/mod_buscavmotors/css/buscavmotors.css" type="text/css"> 
+  <link rel="stylesheet" href="/modules/mod_banner/css/banner.css" type="text/css"> 
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script> 
+  <script src="/media/system/js/core.js" type="text/javascript"></script> 
+  <script src="/media/system/js/caption.js" type="text/javascript"></script> 
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script> 
+  <script src="/modules/mod_destaques/js/jquery.carouFredSel-5.5.0.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_destaques/js/destaques.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_newsletter/js/newsletter.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_enquetes/js/enquetes.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_lojas/js/lojas.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_buscavmotors/js/buscavmotors.js" type="text/javascript" defer></script> 
+  <script src="/modules/mod_banner/js/jcycle.js" type="text/javascript" defer></script> 
+  <script type="text/javascript">
+window.addEvent('load', function() {
+				new JCaption('img.caption');
+			});
+  </script> 
+  <!-- Adiciona arquivos CSS --> 
+  <link rel="stylesheet" href="/templates/grupoitavema/css/carosel.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/templates/grupoitavema/css/easySlider.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/templates/formularios/css/forms_vmotors.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/templates/grupoitavema/css/main_vermelho.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/templates/grupoitavema/css/bootstrap-select.css" type="text/css" media="screen,projection"> 
+  <link rel="stylesheet" href="/templates/grupoitavema/css/jvmotors_box.css" type="text/css" media="screen,projection"> 
+  <!-- Adiciona arquivos JS --> 
+  <script src="/templates/grupoitavema/js/easySlider1.7.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/jquery.carouFredSel-5.5.0-packed.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/jvmotors_box.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/jvmotors_popup.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/bootstrap.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/bootstrap-select.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/modernizr.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/detect_browser.js" type="text/javascript"></script> 
+  <script src="/templates/grupoitavema/js/jquery-ui.js" type="text/javascript"></script> 
+  <!-- Adiciona Navegg --> 
+  <script id="navegg" type="text/javascript" src="//tag.navdmp.com/tm40142.js"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <!-- Adiciona Analytics --> 
+  <script>
+ 	     	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ 
+		  ga('create', 'UA-82746900-3', 'auto');
+		  ga('send', 'pageview');
+ 
+		</script> 
+  <!-- Executa os scripts --> 
+  <script src="/templates/grupoitavema/js/scripts.js" type="text/javascript"></script> 
+  <!--[if IE]>
+            <style type="text/css">
+                .timer { display: none !important; }
+                div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+            </style>
+        <![endif]--> 
+  <script type="text/javascript">
+            $(document).ready(function(){        
+                $(".trigger").click(function(){
+                    $(".panel-atendimento").toggle("fast");
+                    $(this).toggleClass("active");
+                    return false;
+                });
+				if((BrowserDetect.version == 7 || BrowserDetect.version == 8) && BrowserDetect.browser == "Explorer"){
+					var answer = confirm ("Você está usando uma versão antiga do seu navegador.\nAlgumas áreas do site não funcionarão com o navegador desatualizado.\n\nDeseja atualizar para a versão mais recente ?");
+					if (answer){
+						window.open("http://windows.microsoft.com/pt-BR/internet-explorer/download-ie", "_blank");
+					}
+				}
+            });
+        </script> 
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. --> 
+  <script>
+    var _gaq=[['_setAccount','UA-42367030-14'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script> 
+  <!-- Google Tag Manager --> 
+  <noscript> &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-N69G6S" height="0" width="0" style="display:none;visibility:hidden"&gt; 
+  </noscript> 
+  <script>
+	(function(w,d,s,l,i){
+		w[l]=w[l]||[];w[l].push({
+			'gtm.start':new Date().getTime(),event:'gtm.js'
+		});
+		var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),
+		dl=l!='dataLayer'?'&l='+l:'';
+		j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+		f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-N69G6S');
+</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- BEGIN JIVOSITE CODE {literal} --> 
+  <script type="text/javascript">
+		(function() { var widget_id = 'd0ATD0ShPI'; var d = document; var w = window;
+	    function l() { var s = document.createElement('script'); s.type = 'text/javascript';
+	    s.async = true; s.src = '//code.jivosite.com/script/widget/' + widget_id;
+	    var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);
+	    } if (d.readyState == 'complete') {l(); } else {if (w.attachEvent) { w.attachEvent('onload', l);
+	    } else { w.addEventListener('load', l, false);}}})();
+	</script> 
+  <!-- {/literal} END JIVOSITE CODE --> 
+  <script type="text/javascript">
+
+			jQuery(document).ready(function(){
+	
+				jQuery(".custom ul li").click(function(){
+		
+					if(jQuery(this).find('ul').is(":visible") == true)
+					{
+						jQuery(this).find('ul').hide();
+					}
+					else
+					{
+						jQuery(this).find('ul').show();  
+					}
+		
+				});
+	
+			});
+
+		</script> 
+  <style>
+		.carros ul li > h3, .carros ul li > a {
+		color: #FFF;
+		}		
+		
+		.carros ul > li:hover {
+		background: #FFF !important;
+		color: #000 !important
+		}
+
+		.carros ul li ul li a {
+		color: #FFF;
+		}
+
+		.carros ul li ul:hover li a, .carros ul li:hover ul li a {
+		color: #000;
+		}
+
+		.carros ul li:hover > h3 {
+		color: #000 !important
+		}
+
+		.carros ul li ul li a {
+		color: #FFF;
+		margin: 0 0 6px 22px;
+		display: block;
+		padding: 0 18px 0 0;
+		}
+
+		.carros ul li ul li a:hover {
+		text-decoration: underline;
+		}
+		</style> 
+ </head> 
+ <body> 
+  <!-- Start Alexa Certify Javascript --> 
+  <script type="text/javascript">
+		_atrk_opts = { atrk_acct:"r50+h1aon8002z", domain:"itavema.com.br",dynamic: true};
+		(function() { 
+			var as = document.createElement('script'); 
+			as.type = 'text/javascript'; 
+			as.async = true; 
+			as.src = "https://d31qbv1cthcecs.cloudfront.net/atrk.js"; 
+			var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); 
+		})();
+		</script> 
+  <noscript> 
+   <img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=r50+h1aon8002z" style="display:none" height="1" width="1" alt=""> 
+  </noscript> 
+  <!-- End Alexa Certify Javascript --> 
+  <div class="centraliza"> 
+   <section class="header"> 
+    <section class="logoHeader"> 
+     <h1> <a href="/" title="Concessionária Nissan"> <span>Concessionária Nissan</span> </a> </h1> 
+    </section> 
+    <article> 
+     <div class="custom"> 
+      <section class="linksHeader"> 
+       <form class="irParaHeader"> 
+        <select onchange="if(this.value!=''){window.location.href=this.value;}"> <option value="">Ir para</option> <option value="" label="---------------------------------------------" disabled></option> <option value="http://www.itavema.com.br">Página Inicial do Grupo Itavema</option> <option value="" label="---------------------------------------------" disabled></option> <optgroup label="Carros Nacionais"> <option value="http://fiat.itavema.com.br">&gt; Fiat</option> <option value="http://ford.itavema.com.br">&gt; Ford</option> <option value="http://peugeot.itavema.com.br">&gt; Peugeot</option> <option value="http://renault.itavema.com.br">&gt; Renault</option> <option value="http://toyota.itavema.com.br">&gt; Toyota</option> </optgroup> <option value="" label="---------------------------------------------" disabled></option> <optgroup label="Carros Importados"> <option value="http://www.nordenmotors.com.br">&gt; BMW</option> <option value="http://citroen.itavema.com.br">&gt; Citroen</option> <option value="http://hyundai.itavema.com.br">&gt; Hyundai</option> <option value="http://www.intercar.jaguarbrasil.com.br">&gt; Jaguar</option> <option value="http://jeep.itavema.com.br">&gt; Jeep</option> <option value="http://www.intercaruk.landrover.com.br">&gt; Land Rover</option> <option value="http://www.nordenmotorsmini.com.br">&gt; Mini</option> <option value="http://nissan.itavema.com.br">&gt; Nissan</option> <option value="http://toyota.itavema.com.br">&gt; Toyota</option> <option value="http://volvo.itavema.com.br">&gt; Volvo</option> </optgroup> <option value="" label="--------------------------------------------------" disabled></option> <optgroup label="Motos"> <option value="http://dafra.itavema.com.br">&gt; Dafra</option> </optgroup> <option value="" label="--------------------------------------------------" disabled></option> <optgroup label="Carros Usados"> <option value="http://seminovos.itavema.com.br">&gt; Seminovos Plus</option> </optgroup> </select> 
+       </form> 
+       <ul> 
+        <li> <a href="http://www.itavema.com.br/" target="_blank">Itavema Grupo</a> </li> 
+        <li class="last"> <a href="http://grupo-itavema.infojobs.com.br/default.aspx" title="Trabalhe Conosco" target="_blank">Trabalhe Conosco</a> </li> 
+       </ul> 
+      </section> 
+      <section class="socialIcons"> 
+       <a href="https://www.facebook.com/itavema" title="Itavema no Facebook" class="facebook" target="_blank"></a> 
+       <a href="https://twitter.com/itavema" title="Itavema no Twitter" class="twitter" target="_blank"></a> 
+       <a href="javascript:;" title="Itavema no Youtube" class="youtube" target="_blank"></a> 
+      </section> 
+      <p>&nbsp;</p>
+     </div> 
+    </article> 
+    <article> 
+     <section class="buscaHeader"> 
+      <form name="form_busca_vmotors" id="form_busca_vmotors" action="estoque" method="get"> 
+       <input name="q" id="appendedInputButton" placeholder="Busque seu carro aqui" type="text" value=""> 
+      </form> 
+      <button id="btnBusca" type="button">BUSCAR</button> 
+     </section> 
+    </article> 
+    <div class="menuHeader"> 
+     <article class="_menu"> 
+      <ul class="nav"> 
+       <li class="item-151 firstlink"><a href="http://www.itavema.com.br/">Home</a><span class="indicador"></span></li>
+       <li class="item-126"><a href="/quem-somos">Quem Somos</a><span class="indicador"></span></li>
+       <li class="item-127"><a class="loja-destaque" href="/lojas">Lojas</a><span class="indicador"></span></li>
+       <li class="item-128"><a href="/agendamento-de-servico">Agende Serviços</a><span class="indicador"></span></li>
+       <li class="item-157"><a class="ofertas-especiais" href="/promocoes">Promoções</a><span class="indicador"></span></li>
+       <li class="item-131"><a href="/index.php?option=com_content&amp;Itemid=131&amp;catid=2&amp;id=6&amp;view=article">Vendas Diretas</a><span class="indicador"></span></li>
+       <li class="item-112"><a href="/avalie-seu-usado">Avalie seu Usado</a><span class="indicador"></span></li>
+       <li class="item-130"><a href="/contato">Contato</a><span class="indicador"></span></li>
+       <li class="item-174"><a class="peca-online" href="http://nissan.itavema.com.br/servicos">Peças Nissan</a><span class="indicador"></span></li>
+      </ul> 
+     </article> 
+    </div> 
+   </section> 
+  </div> 
+  <section class="bannerHome"> 
+   <div class="centraliza"> 
+    <article class="buscadorHome"> 
+     <h2>Ache seu veículo</h2> 
+     <div class="mod_busca_completo"> 
+      <form name="form_busca_completa" id="form_busca_completa" action="estoque" method="get"> 
+       <label for="cboBuscaZero" class="bccheckbox"> <input type="checkbox" name="tipoCarro" id="cboBuscaZero" value="1" checked> <span> Zero KM</span> </label> 
+       <label for="cboBuscaSemi" class="bccheckbox"> <input type="checkbox" name="tipoCarro" id="cboBuscaSemi" value="1" checked> <span> Seminovo</span> </label> 
+       <label for="cboBuscaMoto" class="bccheckbox"> <input type="checkbox" name="tipoCarro" id="cboBuscaMoto" value="1"> <span> Moto</span> </label> 
+       <select id="cboRegiao" name="reg" class="selectmaior"> <option value="">Região (Todas)</option> <optgroup label="Selecione a Região"> <option value="5">INTERIOR DE SÃO PAULO</option><option value="4">GRANDE RIO DE JANEIRO</option><option value="2">GRANDE SÃO PAULO</option><option value="6">INTERIOR DO RIO DE JANEIRO</option><option value="1">SÃO PAULO - CAPITAL</option><option value="7">MACEIÓ/AL</option> </optgroup> </select> 
+       <select id="cboMarca" name="ima" class="selectmaior"> <option value="">Marca (Todas)</option> <optgroup label="Selecione a Marca"> <option value="2">CHEVROLET (89)</option><option value="12">CITROËN</option><option value="4">FIAT (187)</option><option value="3">FORD (134)</option><option value="16">HONDA (19)</option><option value="17">HYUNDAI (103)</option><option value="28">PEUGEOT (101)</option><option value="30">RENAULT (161)</option><option value="35">TOYOTA (18)</option><option value="5">VOLKSWAGEN (113)</option><option value=""></option><option value="8">AUDI (6)</option><option value="10">BMW (15)</option><option value="270">CHERY (6)</option><option value="102">DODGE (2)</option><option value="287">JAC (3)</option><option value="18">JAGUAR</option><option value="218">JEEP (5)</option><option value="21">KIA (12)</option><option value="23">LAND ROVER</option><option value="25">MERCEDES-BENZ (5)</option><option value="180">MINI (3)</option><option value="26">MITSUBISHI (8)</option><option value="27">NISSAN (27)</option><option value="34">SUZUKI (7)</option><option value="36">VOLVO (3)</option> </optgroup> </select> 
+       <select id="cboModelo" name="imo" class="selectmaior"> <option value="">Modelo (Todos)</option> <optgroup label="Selecione o Modelo"> </optgroup> </select> 
+       <fieldset class="buscaCarroAnode"> 
+        <legend>Ano</legend> 
+        <select id="cboAnoIni" name="ano_ini" class="selectmenor"> <option value="">--</option> <optgroup label="Menor ano"> <option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option> </optgroup> </select> 
+        <span class="ate">até</span> 
+        <select id="cboAnoFim" name="ano_fim" class="selectmenor selectdir"> <option value="">--</option> <optgroup label="Maior ano"> <option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option><option value="2015">2015</option><option value="2014">2014</option><option value="2013">2013</option><option value="2012">2012</option><option value="2011">2011</option><option value="2010">2010</option><option value="2009">2009</option><option value="2008">2008</option><option value="2007">2007</option><option value="2006">2006</option><option value="2005">2005</option><option value="2004">2004</option><option value="2003">2003</option><option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option><option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option><option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option><option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option><option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option><option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option><option value="1984">1984</option><option value="1983">1983</option><option value="1982">1982</option><option value="1981">1981</option><option value="1980">1980</option><option value="1979">1979</option><option value="1978">1978</option><option value="1977">1977</option> </optgroup> </select> 
+       </fieldset> 
+       <fieldset class="buscaCarroPrecode"> 
+        <legend>R$</legend> 
+        <select id="cboPrecoIni" name="preco_ini" class="selectmenor"> <option value="">--</option> <optgroup label="Valor minímo"> <option value="10000">10.000</option><option value="15000">15.000</option><option value="20000">20.000</option><option value="25000">25.000</option><option value="30000">30.000</option><option value="35000">35.000</option><option value="40000">40.000</option><option value="60000">60.000</option><option value="80000">80.000</option><option value="100000">100.000</option><option value="120000">120.000</option><option value="150000">150.000</option><option value="250000">250.000</option><option value="450000">450.000</option> </optgroup> </select> 
+        <span class="ate">até</span> 
+        <select id="cboPrecoFim" name="preco_fim" class="selectmenor selectdir"> <option value="">--</option> <optgroup label="Valor máximo"> <option value="10000">10.000</option><option value="15000">15.000</option><option value="20000">20.000</option><option value="25000">25.000</option><option value="30000">30.000</option><option value="35000">35.000</option><option value="40000">40.000</option><option value="60000">60.000</option><option value="80000">80.000</option><option value="100000">100.000</option><option value="120000">120.000</option><option value="150000">150.000</option><option value="250000">250.000</option><option value="450000">450.000</option><option value="650000">650.000</option> </optgroup> </select> 
+       </fieldset> 
+       <button id="btnBuscar" type="button" class="btn btn-inverse">BUSCAR</button> 
+      </form> 
+      <script>
+			/* Select Forms */
+		    jQuery('.selectmaior').selectpicker({ size: 15 });
+		    jQuery('.selectmenor').selectpicker({ size: 15 });
+	    </script> 
+      <!-- <a href="/" class="busca-avancada">Busca Avançada</a> --> 
+     </div> 
+    </article> 
+    <article> 
+     <script type="text/javascript" language="javascript">
+
+	// Slide de Imagem Principal
+	jQuery(function() {
+		
+		jQuery('.bimgs').cycle({
+			fx:     'fade',
+			speed:   500,
+			timeout: 10000,
+						pager:   '.bnav'
+		});
+	
+	});
+	
+</script> 
+     <div class="banner"> 
+      <div class="bimgs" style="width: 1000px; height: 300px;"> 
+       <div class="itens">
+        <img src="/images/banner/2017-OUT-09_NISSAN_FEIRAO_ONLINE_BANNER_SITE_690X400px_FINAL.jpg" alt="2017-OUT-09 NISSAN FEIRAO ONLINE BANNER SITE 690X400px FINAL" usemap="#Map" kasperskylab_antibanner="on" width="690" height="400"> 
+        <map name="Map" id="Map"> <area alt="Chat Online" title="Chat Online" href="/agendamento-de-servico" shape="poly" coords="380,57,491,57,493,108,388,111,382,57"> <area alt="Formulario" title="Formulario" href="/agendamento-de-servico" shape="poly" coords="400,236,633,229,636,281,403,286"> </map>
+       </div> 
+      </div> 
+      <div class="bnavigation"> 
+       <div class="bnav"></div> 
+      </div> 
+      <div class="bcontrol"> 
+      </div> 
+     </div> 
+    </article> 
+   </div> 
+  </section> 
+  <section class="lojasHome"> 
+   <div class="centraliza"> 
+    <article>
+      ﻿ 
+     <!--fiat--> 
+     <dl class="superior"> 
+      <a href="http://fiat.itavema.com.br" title="Concessionária Fiat"> 
+       <dt id="select-fiat-link"></dt> </a>  
+     </dl> 
+     <!--peugeot--> 
+     <dl class="superior"> 
+      <a href="http://peugeot.itavema.com.br" title="Concessionária Peugeot"> 
+       <dt id="select-peugeot-link"></dt> </a> 
+     </dl> 
+     <!--Renault--> 
+     <dl class="superior"> 
+      <a href="http://renault.itavema.com.br" title="Concessionária Renault"> 
+       <dt id="select-renault-link"></dt> </a> 
+     </dl> 
+     <!--jeep--> 
+     <dl class="superior"> 
+      <a href="http://jeep.itavema.com.br" title="Concessionária Jeep"> 
+       <dt id="select-jeep-link"></dt> </a> 
+     </dl> 
+     <!--dafra--> 
+     <dl class="superior"> 
+      <a href="http://dafra.itavema.com.br" title="Concessionária Dafra"> 
+       <dt id="select-dafra-link"></dt> </a> 
+     </dl> 
+     <!--volvo--> 
+     <dl class="superior"> 
+      <a href="http://volvo.itavema.com.br" title="Concessionária Volvo"> 
+       <dt id="select-volvo-link"></dt> </a> 
+     </dl> 
+     <!--land--> 
+     <dl class="superior"> 
+      <a href="http://www.intercaruk.landrover.com.br" title="Concessionária Land Rover"> 
+       <dt id="select-landrover-link"></dt> </a> 
+     </dl> 
+     <!--jaguar--> 
+     <dl class="superior"> 
+      <a href="http://www.intercar.jaguarbrasil.com.br" title="Concessionária Jaguar"> 
+       <dt id="select-jaguar-link"></dt> </a> 
+     </dl> 
+     <!--Auto Brasil--> 
+     <dl class="superior last"> 
+      <a href="http://carrosusados.itavema.com.br" title="Seminovos AutoBrasil Itavema"> 
+       <dt id="select-seminovos-link"></dt> </a> 
+     </dl> 
+     <!-- ********* Final Superior ********* --> 
+     <!--ford--> 
+     <dl> 
+      <a href="http://ford.itavema.com.br" title="Concessionária Ford"> 
+       <dt id="select-ford-link"></dt> </a> 
+     </dl> 
+     <!--toyota--> 
+     <dl> 
+      <a href="http://toyota.itavema.com.br" title="Concessionária Toyota"> 
+       <dt id="select-toyota-link"></dt> </a> 
+     </dl> 
+     <!--Nissan--> 
+     <dl> 
+      <a href="http://nissan.itavema.com.br" title="Concessionária Nissan"> 
+       <dt id="select-nissan-link" class="acionados"></dt> </a> 
+      <dd id="sNissan"> 
+       <ul> 
+        <li> <img src="/modules/mod_lojas/imagens/lojas/concessionariasNissan.png" alt="Concessionária Nissan"> </li> 
+        <li>SP - Barra Funda<span>(11) 3393-7520</span></li>
+        <li>SP - Vila Leopoldina<span>(11) 3647-1601</span></li> 
+       </ul> 
+      </dd> 
+     </dl> 
+     <!--hyundai--> 
+     <dl> 
+      <a href="http://hyundai.itavema.com.br" title="Concessionária Hyundai"> 
+       <dt id="select-hyundai-link"></dt> </a> 
+     </dl> 
+     <!--citroen--> 
+     <dl> 
+      <a href="http://citroen.itavema.com.br" title="Concessionária Citroën"> 
+       <dt id="select-citroen-link"></dt> </a> 
+     </dl> 
+     <!--BMW--> 
+     <dl> 
+      <a href="http://www.nordenmotors.com.br" title="Concessionária BMW"> 
+       <dt id="select-bmw-link"></dt> </a> 
+     </dl> 
+     <!--Mini--> 
+     <dl> 
+      <a href="http://www.nordenmotorsmini.com.br" title="Concessionária Mini"> 
+       <dt id="select-mini-link"></dt> </a> 
+     </dl> 
+     <!--KTM--> 
+     <dl> 
+      <a href="http://ktm.itavema.com.br" title="Concessionária KTM"> 
+       <dt id="select-ktm-link"></dt> </a> 
+     </dl> 
+    </article> 
+   </div> 
+  </section> 
+  <section id="conteudo" class="home"> 
+   <section class="inferiorHome"> 
+    <div class="centraliza"> 
+     <article class=" colEsqHome seminovosdestaque"> 
+      <h2>Seminovos em Destaque</h2> 
+      <section class="destaquesHome"> 
+       <div class="list_carousel"> 
+        <ul id="slide-carros"> 
+         <li> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11110500" title="JAC J3"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/2/11110500_636399441611595961.jpg" alt="JAC J3" title="JAC J3 - 2013 - R$ 23.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11110500" title="JAC J3"> JAC J3 </a> </h3> 
+           <span>2013</span> 
+           <span>64.891 km</span> 
+           <span>Gasolina</span> 
+           <span class="preco">R$ 23.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11110500" class="btn-ver-detalhes" title="JAC J3">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=10966770" title="NISSAN MARCH"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/4/10966770_636401456630308956.jpg" alt="NISSAN MARCH" title="NISSAN MARCH - 2013 - R$ 27.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=10966770" title="NISSAN MARCH"> NISSAN MARCH </a> </h3> 
+           <span>2013</span> 
+           <span>88.404 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 27.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=10966770" class="btn-ver-detalhes" title="NISSAN MARCH">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=8314132" title="CHEVROLET CLASSIC"> <img src="http://cdn.itavema.com.br/fotos/carros/ID_8314132/aa301aaa210332991188a70e3de4c37c.jpg" alt="CHEVROLET CLASSIC" title="CHEVROLET CLASSIC - 2015 - R$ 25.990,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=8314132" title="CHEVROLET CLASSIC"> CHEVROLET CLASSIC </a> </h3> 
+           <span>2015</span> 
+           <span>72.000 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 25.990,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=8314132" class="btn-ver-detalhes" title="CHEVROLET CLASSIC">Ver carro</a> 
+          </article> </li>
+         <li> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11184893" title="RENAULT NOVO DUSTER"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/15/11184893_636410964505700194.jpg" alt="RENAULT NOVO DUSTER" title="RENAULT NOVO DUSTER - 2014 - R$ 42.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11184893" title="RENAULT NOVO DUSTER"> RENAULT NOVO DUSTER </a> </h3> 
+           <span>2014</span> 
+           <span>78.450 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 42.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11184893" class="btn-ver-detalhes" title="RENAULT NOVO DUSTER">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973399" title="RENAULT NOVO DUSTER"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/8/24/10973399_636391949268040959.jpg" alt="RENAULT NOVO DUSTER" title="RENAULT NOVO DUSTER - 2015 - R$ 40.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973399" title="RENAULT NOVO DUSTER"> RENAULT NOVO DUSTER </a> </h3> 
+           <span>2015</span> 
+           <span>48.234 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 40.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973399" class="btn-ver-detalhes" title="RENAULT NOVO DUSTER">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11481180" title="HYUNDAI NOVO HB20"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/10/12/11481180_636434041124100865.jpg" alt="HYUNDAI NOVO HB20" title="HYUNDAI NOVO HB20 - 2015 - R$ 45.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11481180" title="HYUNDAI NOVO HB20"> HYUNDAI NOVO HB20 </a> </h3> 
+           <span>2015</span> 
+           <span>58.403 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 45.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11481180" class="btn-ver-detalhes" title="HYUNDAI NOVO HB20">Ver carro</a> 
+          </article> </li>
+         <li> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973400" title="NISSAN LIVINA"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/8/24/10973400_636391962599288456.jpg" alt="NISSAN LIVINA" title="NISSAN LIVINA - 2012 - R$ 27.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973400" title="NISSAN LIVINA"> NISSAN LIVINA </a> </h3> 
+           <span>2012</span> 
+           <span>91.900 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 27.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=10973400" class="btn-ver-detalhes" title="NISSAN LIVINA">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11528458" title="NISSAN NEW MARCH"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/10/11/11528458_636433195551139523.jpg" alt="NISSAN NEW MARCH" title="NISSAN NEW MARCH - 2015 - R$ 37.590,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11528458" title="NISSAN NEW MARCH"> NISSAN NEW MARCH </a> </h3> 
+           <span>2015</span> 
+           <span>48.100 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 37.590,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11528458" class="btn-ver-detalhes" title="NISSAN NEW MARCH">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11363977" title="FIAT GRAND SIENA"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/22/11363977_636417009049720726.jpg" alt="FIAT GRAND SIENA" title="FIAT GRAND SIENA - 2014 - R$ 31.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11363977" title="FIAT GRAND SIENA"> FIAT GRAND SIENA </a> </h3> 
+           <span>2014</span> 
+           <span>64.500 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 31.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11363977" class="btn-ver-detalhes" title="FIAT GRAND SIENA">Ver carro</a> 
+          </article> </li>
+         <li> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11353138" title="TOYOTA ETIOS CROSS"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/29/11353138_636422748450374926.jpg" alt="TOYOTA ETIOS CROSS" title="TOYOTA ETIOS CROSS - 2014 - R$ 39.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11353138" title="TOYOTA ETIOS CROSS"> TOYOTA ETIOS CROSS </a> </h3> 
+           <span>2014</span> 
+           <span>65.821 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 39.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11353138" class="btn-ver-detalhes" title="TOYOTA ETIOS CROSS">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=10916781" title="CHEVROLET CELTA"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/4/10916781_636401458086086641.jpg" alt="CHEVROLET CELTA" title="CHEVROLET CELTA - 2012 - R$ 19.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=10916781" title="CHEVROLET CELTA"> CHEVROLET CELTA </a> </h3> 
+           <span>2012</span> 
+           <span>49.154 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 19.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=10916781" class="btn-ver-detalhes" title="CHEVROLET CELTA">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11445862" title="VOLKSWAGEN CROSSFOX"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/10/6/11445862_636428937599986619.jpg" alt="VOLKSWAGEN CROSSFOX" title="VOLKSWAGEN CROSSFOX - 2014 - R$ 41.900,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11445862" title="VOLKSWAGEN CROSSFOX"> VOLKSWAGEN CROSSFOX </a> </h3> 
+           <span>2014</span> 
+           <span>72.795 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 41.900,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11445862" class="btn-ver-detalhes" title="VOLKSWAGEN CROSSFOX">Ver carro</a> 
+          </article> </li>
+         <li> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11280551" title="NISSAN TIIDA"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/9/19/11280551_636414236157864058.jpg" alt="NISSAN TIIDA" title="NISSAN TIIDA - 2010 - R$ 24.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11280551" title="NISSAN TIIDA"> NISSAN TIIDA </a> </h3> 
+           <span>2010</span> 
+           <span>85.246 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 24.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11280551" class="btn-ver-detalhes" title="NISSAN TIIDA">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=11122714" title="VOLKSWAGEN GOL"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/8/30/11122714_636397133982243871.jpg" alt="VOLKSWAGEN GOL" title="VOLKSWAGEN GOL - 2013 - R$ 22.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=11122714" title="VOLKSWAGEN GOL"> VOLKSWAGEN GOL </a> </h3> 
+           <span>2013</span> 
+           <span>89.900 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 22.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=11122714" class="btn-ver-detalhes" title="VOLKSWAGEN GOL">Ver carro</a> 
+          </article> 
+          <article class="boxCarro"> 
+           <div class="foto"> 
+            <a href="http://nissan.itavema.com.br/detalhes?veiculo=10516706" title="FIAT NOVO PALIO"> <img src="http://cdn.itavema.com.br/fotos/carros/2017/6/22/10516706_636337532632865104.jpg" alt="FIAT NOVO PALIO" title="FIAT NOVO PALIO - 2016 - R$ 35.890,00"> </a> 
+           </div> 
+           <h3 class="modelo"> <a href="http://nissan.itavema.com.br/detalhes?veiculo=10516706" title="FIAT NOVO PALIO"> FIAT NOVO PALIO </a> </h3> 
+           <span>2016</span> 
+           <span>7.901 km</span> 
+           <span>Gasolina e álcool</span> 
+           <span class="preco">R$ 35.890,00</span> 
+           <a href="http://nissan.itavema.com.br/detalhes?veiculo=10516706" class="btn-ver-detalhes" title="FIAT NOVO PALIO">Ver carro</a> 
+          </article> </li> 
+        </ul> 
+        <a id="prev2" class="prevBt" href="#"></a> 
+        <a id="next2" class="nextBt" href="#"></a> 
+       </div> 
+      </section> 
+     </article> 
+     <article class=" sideServicosHome"> 
+      <h2>Serviços</h2> 
+      <div class=" sideServicosHome"> 
+       <section class="assistenciaHome">
+        <article class="blocoTexto"> 
+         <h4>ASSISTÊNCIA TÉCNICA</h4> 
+         <p>Agende a revisão de seu carro online.</p>
+         <a title="Agendamento de Assistência Técnica" href="/agendamento-de-servico">clique aqui &gt;&gt;</a> 
+        </article> 
+       </section> 
+       <section class="avaliacaoHome">
+        <article class="blocoTexto"> 
+         <h4>AVALIE SEU USADO</h4> 
+         <p>Avalie seu carro online.</p>
+         <a title="Faça a avaliação do seu usado" href="/index.php?option=com_buscadordeveiculos&amp;Itemid=129&amp;view=formulariovenda">clique aqui &gt;&gt;</a> 
+        </article> 
+       </section> 
+       <section class="nota-fiscal">
+        <article class="blocoTexto"> 
+         <h4>Nota Fiscal Eletronica</h4> 
+         <p>Para mais informações</p>
+         <a title="Consulte sua Nota Fiscal" href="/nota-fiscal">clique aqui &gt;&gt; </a> 
+        </article> 
+       </section> 
+       <section class="sinistro">
+        <article class="blocoTexto"> 
+         <h4 class="tit-sinistro">Sinistro</h4> 
+         <h4>Consulte on line</h4>
+         <a title="Saiba mais sobre Sinistros" href="/index.php?option=com_content&amp;Itemid=149&amp;catid=2&amp;id=14&amp;view=article">clique aqui &gt;&gt; </a> 
+        </article> 
+       </section>
+      </div> 
+     </article> 
+     <article class="boxNews"> 
+      <h2>Newsletter</h2>
+      <p>Cadastre-se e receba por email nossos informativos com ofertas exclusivas</p> 
+      <form> 
+       <p> <input id="nomeInput" type="text" placeholder="Nome"> </p> 
+       <p> <input id="emailInput" type="text" placeholder="Email"> </p> 
+       <input id="sid" type="hidden" value="345"> 
+       <input id="url_site" type="hidden" value="nissan.itavema.com.br/"> 
+       <input type="button" id="btnCadastrar" value="Cadastrar" onclick="javascript:validaNewsletter()"> 
+      </form> 
+     </article> 
+     <article class="boxEnquete"> 
+      <h2>Enquete</h2>﻿
+      <p>Participe de nossas enquetes.</p>
+      <p>Como você chegou ao nosso site?</p> 
+      <form id="enqueteHome"> 
+       <label> <input name="enqueteGroup" id="resposta" value="13" checked type="radio"> <span>Jornal</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="14" type="radio"> <span>Rádio</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="15" type="radio"> <span>Internet</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="16" type="radio"> <span>TV</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="17" type="radio"> <span>E-mail</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="18" type="radio"> <span>Amigos(as)</span> </label> 
+       <label> <input name="enqueteGroup" id="resposta" value="19" type="radio"> <span>Outros</span> </label> 
+       <input id="ip_usuario" type="hidden" value="127.0.0.1"> 
+       <input id="btnEnquete" value="OK" type="button"> 
+       <input id="btnResultado" value="Ver Resultado" href="http://nissan.itavema.com.br/modules/mod_enquetes/incluir/resultado.php?enquete=1" type="button"> 
+      </form> 
+     </article> 
+     <article class="boxFacebook"> 
+      <div class="mod_facebook"> 
+       <iframe width="300" height="242" src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FItavema-Japan%2F140084222731712&amp;width=300&amp;height=242&amp;colorscheme=light&amp;show_faces=false&amp;header=false&amp;stream=true&amp;border_color=%23CCCCCC&amp;show_border=false" scrolling="no" frameborder="0" style="" allowtransparency="true"> </iframe> 
+      </div> 
+     </article> 
+    </div> 
+   </section> 
+  </section> 
+  <!-- Rodapé do Site --> 
+  <footer> 
+   <section class="carrosHome"> 
+    <div class="centraliza"> 
+     <article class="textoCarros"> 
+      <p> </p>
+      <h4><a href="http://nissan.itavema.com.br/servicos"> Peças originais Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/agendamento-de-servico">Agendamento de Revisões Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=2383&amp;tpv=1&amp;view=buscadordeveiculos">Altima 2014</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=2383&amp;tpv=1&amp;view=buscadordeveiculos">Altima prata</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/servicos">Conserto de Veículos Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=3045&amp;tpv=1&amp;view=buscadordeveiculos">Grand Livina 2014</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=3045&amp;tpv=1&amp;view=buscadordeveiculos">Grand Livina cinza</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3026&amp;ano=2010&amp;tpv=1">Livina 2010</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2012&amp;ima=27&amp;imo=3026&amp;tpv=1&amp;view=buscadordeveiculos">Livina 2012</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2010&amp;icam=23003.00&amp;ima=27&amp;imo=3026&amp;tpv=1&amp;view=buscadordeveiculos">Livina automático</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2010&amp;icam=23001.00&amp;ima=27&amp;imo=3026&amp;tpv=1&amp;view=buscadordeveiculos">Livina manual</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3026&amp;icor=30409&amp;tpv=1">Livina Prata</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/livina">livina preco</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3026&amp;icor=30410&amp;tpv=1">Livina Preto</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/march">march 0km</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3270&amp;ano=2012&amp;tpv=1">March 2012</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=3270&amp;tpv=1&amp;view=buscadordeveiculos">March 2014</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2017&amp;ima=27&amp;imo=3270&amp;tpv=1&amp;view=buscadordeveiculos">March 2017</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3270&amp;icor=30402&amp;tpv=1">March Azul</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2012&amp;icor=30404.00&amp;ima=27&amp;imo=3270&amp;tpv=1&amp;view=buscadordeveiculos">March branco</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2012&amp;icor=30405.00&amp;ima=27&amp;imo=3270&amp;tpv=1&amp;view=buscadordeveiculos">March cinza</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=3270&amp;icor=30410&amp;tpv=1">March Preto</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2012&amp;icor=30413.00&amp;ima=27&amp;imo=3270&amp;tpv=1&amp;view=buscadordeveiculos">March vermelho</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2016&amp;ano_ini=2016&amp;ima=27&amp;imo=3491&amp;tpv=1&amp;view=buscadordeveiculos">New March 2016</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2017&amp;ima=27&amp;imo=3491&amp;tpv=1&amp;view=buscadordeveiculos">New March 2017</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/livina">nissan livina</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/servicos">Nissan peças</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2012&amp;ima=27&amp;imo=3424&amp;tpv=1&amp;view=buscadordeveiculos">Novo Sentra 2012</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2016&amp;ano_ini=2016&amp;ima=27&amp;imo=3424&amp;tpv=1&amp;view=buscadordeveiculos">Novo Sentra 2016</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2017&amp;ima=27&amp;imo=3424&amp;tpv=1&amp;view=buscadordeveiculos">Novo Sentra 2017</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2016&amp;ano_ini=2016&amp;ima=27&amp;imo=3577&amp;tpv=1&amp;view=buscadordeveiculos">Novo Versa 2016</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2017&amp;ano_ini=2017&amp;ima=27&amp;imo=3577&amp;tpv=1&amp;view=buscadordeveiculos">Novo Versa 2017</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/">ofertas nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/servicos">Peças para Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/agendamento-de-servico">revisao nissan sp</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/agendamento-de-servico">Revisão Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/agendamento-de-servico">Revisões Programadas Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2014&amp;ano_ini=2014&amp;ima=27&amp;imo=2395&amp;tpv=1&amp;view=buscadordeveiculos">Sentra 2014</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/estoque?ima=27&amp;imo=2395&amp;icor=30409&amp;tpv=1">Sentra Prata</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2008&amp;ano_ini=2008&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida 2008</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2010&amp;ano_ini=2010&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida 2010</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2011&amp;ano_ini=2011&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida 2011</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2012&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida 2012</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2008&amp;icam=23003.00&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida automático</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2008&amp;icor=30405.00&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida cinza</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2008&amp;icam=23001.00&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida manual</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2008&amp;icor=30409.00&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida prata</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2012&amp;ano_ini=2008&amp;icor=30410.00&amp;ima=27&amp;imo=2821&amp;tpv=1&amp;view=buscadordeveiculos">Tiida preto</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/servicos">Troca de óleo Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/servicos">Troca de Peças Nissan</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2013&amp;ano_ini=2013&amp;ima=27&amp;imo=3282&amp;tpv=1&amp;view=buscadordeveiculos">Versa 2013</a></h4>, 
+      <h4><a href="http://nissan.itavema.com.br/index.php?option=com_buscadordeveiculos&amp;Itemid=110&amp;ano_fim=2016&amp;ano_ini=2016&amp;ima=27&amp;imo=3282&amp;tpv=1&amp;view=buscadordeveiculos">Versa 2016</a></h4>
+      <p></p> 
+     </article> 
+     <article> 
+      <div class="custom"> 
+       <nav class="marcasCarros"> 
+        <ul> 
+         <li><a href="http://www.nordenmotors.com.br" title="Concessionária BMW">Concessionária BMW</a></li> 
+         <li><a href="http://citroen.itavema.com.br" title="Concessionária Citroën">Concessionária Citroën</a></li> 
+         <li><a href="http://dafra.itavema.com.br" title="Concessionária Dafra">Concessionária Dafra</a></li> 
+         <li><a href="http://fiat.itavema.com.br" title="Concessionária Fiat">Concessionária Fiat</a></li> 
+         <li><a href="http://ford.itavema.com.br" title="Concessionária Ford">Concessionária Ford</a></li> 
+         <li><a href="http://hyundai.itavema.com.br" title="Concessionária Hyundai">Concessionária Hyundai</a></li> 
+         <li><a href="http://www.intercar.jaguarbrasil.com.br" title="Concessionária Jaguar">Concessionária Jaguar</a></li> 
+         <li><a href="http://jeep.itavema.com.br" title="Concessionária Jeep">Concessionária Jeep</a></li> 
+        </ul> 
+        <ul> 
+         <li><a href="http://www.intercaruk.landrover.com.br" title="Concessionária Land Rover">Concessionária Land Rover</a></li> 
+         <li><a href="http://www.nordenmotorsmini.com.br" title="Concessionária Mini">Concessionária Mini</a></li> 
+         <li><a href="http://nissan.itavema.com.br" title="Concessionária Nissan">Concessionária Nissan</a></li> 
+         <li><a href="http://peugeot.itavema.com.br" title="Concessionária Peugeot">Concessionária Peugeot</a></li> 
+         <li><a href="http://renault.itavema.com.br" title="Concessionária Renault">Concessionária Renault</a></li> 
+         <li><a href="http://toyota.itavema.com.br" title="Concessionária Toyota">Concessionária Toyota</a></li> 
+         <li><a href="http://volvo.itavema.com.br" title="Concessionária Volvo">Concessionária Volvo</a></li> 
+         <li><a href="http://carrosusados.itavema.com.br" title="Carros Usados">Carros Usados AutoBrasil</a></li> 
+        </ul> 
+       </nav>
+      </div> 
+     </article> 
+    </div> 
+   </section> 
+   <section class="modelos"> 
+    <article> 
+     <div class="custom"> 
+      <div class="carros"> 
+       <ul style="margin: 0px auto; padding: 0px; font-size: 9px; list-style: none; width: 1000px; overflow: hidden; height: auto; color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: 14px; background-color: transparent;"> 
+        <li style="margin: 0px 5px 0px 0px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>BMW</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://www.nordenmotors.com.br/118i">118i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/118i-sport-gp">118i Sport GP</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/125i-m-sport">125i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-316i%20">316i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/320i">320i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/320i-gp">320i GP</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/320i-sport-gp">320i Sport GP</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/328i">328I</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/328i-gp">328i GP</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/328i-sport-gp">328i Sport GP</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/335i-m-sport">335i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/528i-m-sport">528i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/535i-m-sport">535i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/640i-gran-coupe">640i Gran Coupé</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/650i">650i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/750i">750i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-i3">BMW i3</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-i8">BMW i8</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-m5">BMW M5</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-m6-coupe">BMW m6 coupe</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-m6-grand-coupe">BMW m6 grand coupe</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-435i-msport">BMW série 4 coupé</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-z4sdrive20i">BMW z4 roadster</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/m-135i">M 135i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/116i">Série 1 116i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-sdrive18i">x1 sDrive18i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-sdrive20i">x1 sDrive20i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-xdrive20i">X3 xDrive20i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-xdrive28i">X3 xDrive28i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-xdrive35i-msport">X3 xDrive35i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-x5drive50i">X5 xDrive50i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-xdrive50i-msport">x5 xDrive50i M Sport</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-x6-m">x6 M</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-xdrive35i">x6 xDrive 35i</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/bmw-x6drive50i">x6 xDrive 50i</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>CHEVROLET</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://www.itavema.com.br/agile">Agile</a></li> 
+          <li><a href="http://www.itavema.com.br/astra">Astra</a></li> 
+          <li><a href="http://www.itavema.com.br/blazer">Blazer</a></li> 
+          <li><a href="http://www.itavema.com.br/camaro">Camaro</a></li> 
+          <li><a href="http://www.itavema.com.br/captiva">Captiva</a></li> 
+          <li><a href="http://www.itavema.com.br/celta">Celta</a></li> 
+          <li><a href="http://www.itavema.com.br/classic">Classic</a></li> 
+          <li><a href="http://www.itavema.com.br/cobalt">Cobalt</a></li> 
+          <li><a href="http://www.itavema.com.br/corsa">Corsa Hatch</a></li> 
+          <li><a href="http://www.itavema.com.br/corsa-sedan">Corsa Sedan</a></li> 
+          <li><a href="http://www.itavema.com.br/cruze">Cruze</a></li> 
+          <li><a href="http://www.itavema.com.br/cruze-sport6">Cruze Sport6</a></li> 
+          <li><a href="http://www.itavema.com.br/malibu">Malibu</a></li> 
+          <li><a href="http://www.itavema.com.br/meriva">Meriva</a></li> 
+          <li><a href="http://www.itavema.com.br/montana">Montana</a></li> 
+          <li><a href="http://www.itavema.com.br/novo-prisma">Novo Prisma</a></li> 
+          <li><a href="http://www.itavema.com.br/omega">Omega</a></li> 
+          <li><a href="http://www.itavema.com.br/onix">Onix</a></li> 
+          <li><a href="http://www.itavema.com.br/prisma">Prisma</a></li> 
+          <li><a href="http://www.itavema.com.br/s10-cabine-dupla">S10 Cabine Dupla</a></li> 
+          <li><a href="http://www.itavema.com.br/s10">S10 Cabine Simples</a></li> 
+          <li><a href="http://www.itavema.com.br/sonic-hatch">Sonic Hatch</a></li> 
+          <li><a href="http://www.itavema.com.br/sonic-sedan">Sonic Sedan</a></li> 
+          <li><a href="http://www.itavema.com.br/spin">Spin</a></li> 
+          <li><a href="http://www.itavema.com.br/tracker">Tracker</a></li> 
+          <li><a href="http://www.itavema.com.br/trailblazer">Trailblazer</a></li> 
+          <li><a href="http://www.itavema.com.br/vectra">Vectra</a></li> 
+          <li><a href="http://www.itavema.com.br/vectra-gt">Vectra GT</a></li> 
+          <li><a href="http://www.itavema.com.br/volt">Volt</a></li> 
+          <li><a href="http://www.itavema.com.br/zafira">Zafira</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>CHRYSLER</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://chrysler.itavema.com.br/300c">300 C</a></li> 
+          <li><a href="http://chrysler.itavema.com.br/pt-cruiser">PT Cruiser</a></li> 
+          <li><a href="http://chrysler.itavema.com.br/town-and-country">Town &amp; Country</a></li> 
+          <li><a href="http://chrysler.itavema.com.br/town-and-country-limited">Town &amp; Country Limited</a></li> 
+          <li><a href="http://chrysler.itavema.com.br/town-and-country-touring">Town &amp; Country Touring</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>CITROËN</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://citroen.itavema.com.br/aircross">Aircross</a></li> 
+          <li><a href="http://citroen.itavema.com.br/c3-picasso">C3 Picasso</a></li> 
+          <li><a href="http://citroen.itavema.com.br/c4">C4</a></li> 
+          <li><a href="http://citroen.itavema.com.br/C4-lounge">C4 Lounge</a></li> 
+          <li><a href="http://citroen.itavema.com.br/c4-picasso">C4 Picasso</a></li> 
+          <li><a href="http://citroen.itavema.com.br/ds3">DS3</a></li> 
+          <li><a href="http://citroen.itavema.com.br/DS4">DS4</a></li> 
+          <li><a href="http://citroen.itavema.com.br/ds5">DS5</a></li> 
+          <li><a href="http://citroen.itavema.com.br/grand-c4-picasso">Grand C4 Picasso</a></li> 
+          <li><a href="http://citroen.itavema.com.br/jumper-furgao">Jumper Furgão</a></li> 
+          <li><a href="http://citroen.itavema.com.br/jumper-mini-bus">Jumper Mini-Bus</a></li> 
+          <li><a href="http://citroen.itavema.com.br/jumper-vetrato">Jumper Vetrato</a></li> 
+          <li><a href="http://citroen.itavema.com.br/novo-c3">Novo C3</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>DODGE</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://dodge.itavema.com.br/journey">Dodge Journey</a></li> 
+          <li><a href="http://dodge.itavema.com.br/ram-2500">Dodge RAM 2500</a></li> 
+          <li><a href="http://dodge.itavema.com.br/durango">Durango</a></li> 
+          <li><a href="http://dodge.itavema.com.br/durango-citadel">Durango Citadel</a></li> 
+          <li><a href="http://dodge.itavema.com.br/durango-crew">Durango Crew</a></li> 
+          <li><a href="http://dodge.itavema.com.br/journey-crossroad">Journey Crossroad</a></li> 
+          <li><a href="http://dodge.itavema.com.br/journey-rt">Journey R/T</a></li> 
+          <li><a href="http://dodge.itavema.com.br/journey-awd">Journey R/T AWD</a></li> 
+          <li><a href="http://dodge.itavema.com.br/journey-sxt">Journey SXT</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>FIAT</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://fiat.itavema.com.br/bravo">Bravo</a></li> 
+          <li><a href="http://fiat.itavema.com.br/doblo">Doblò</a></li> 
+          <li><a href="http://fiat.itavema.com.br/doblo-adventure">Doblò Adventure</a></li> 
+          <li><a href="http://fiat.itavema.com.br/doblo-cargo">Doblò Cargo</a></li> 
+          <li><a href="http://fiat.itavema.com.br/ducato-cargo">Ducato Cargo</a></li> 
+          <li><a href="http://fiat.itavema.com.br/ducato-multi">Ducato Multi</a></li> 
+          <li><a href="http://fiat.itavema.com.br/ducato-passageiro">Ducato Passageiro</a></li> 
+          <li><a href="http://fiat.itavema.com.br/500">Fiat 500</a></li> 
+          <li><a href="http://fiat.itavema.com.br/adventure">Fiat Adventure</a></li> 
+          <li><a href="http://fiat.itavema.com.br/fiorino">Fiorino Furgão</a></li> 
+          <li><a href="http://fiat.itavema.com.br/freemont">Freemont</a></li> 
+          <li><a href="http://fiat.itavema.com.br/grand-siena">Grand Siena</a></li> 
+          <li><a href="http://fiat.itavema.com.br/idea">Idea</a></li> 
+          <li><a href="http://fiat.itavema.com.br/linea">Linea</a></li> 
+          <li><a href="http://fiat.itavema.com.br/mille">Mille</a></li> 
+          <li><a href="http://fiat.itavema.com.br/nova-strada">Nova Strada</a></li> 
+          <li><a href="http://fiat.itavema.com.br/novo-fiorino">Novo Fiorino</a></li> 
+          <li><a href="http://fiat.itavema.com.br/novo-palio">Novo Palio</a></li> 
+          <li><a href="http://fiat.itavema.com.br/novo-palio-fire">Novo Palio Fire</a></li> 
+          <li><a href="http://fiat.itavema.com.br/punto">Novo Punto</a></li> 
+          <li><a href="http://fiat.itavema.com.br/uno">Novo Uno</a></li> 
+          <li><a href="http://fiat.itavema.com.br/novo-uno">Novo Uno 2015</a></li> 
+          <li><a href="http://fiat.itavema.com.br/palio">Palio</a></li> 
+          <li><a href="http://fiat.itavema.com.br/palio-weekend">Palio Weekend</a></li> 
+          <li><a href="http://fiat.itavema.com.br/siena">Siena</a></li> 
+          <li><a href="http://fiat.itavema.com.br/stilo">Stilo</a></li> 
+          <li><a href="http://fiat.itavema.com.br/strada">Strada</a></li> 
+          <li><a href="http://fiat.itavema.com.br/fiat-toro">Toro</a></li> 
+          <li><a href="http://fiat.itavema.com.br/uno-furgao">Uno Furgão</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 0px 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>FORD</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://ford.itavema.com.br/courier">Courier</a></li> 
+          <li><a href="http://ford.itavema.com.br/edge">Edge</a></li> 
+          <li><a href="http://ford.itavema.com.br/f-250">F 250</a></li> 
+          <li><a href="http://ford.itavema.com.br/f250-cabine-dupla">F 250 Cabine Dupla</a></li> 
+          <li><a href="http://ford.itavema.com.br/fiesta">Fiesta</a></li> 
+          <li><a href="http://ford.itavema.com.br/fiesta-sedan">Fiesta Sedan</a></li> 
+          <li><a href="http://ford.itavema.com.br/fusion">Fusion</a></li> 
+          <li><a href="http://ford.itavema.com.br/ka">KA</a></li> 
+          <li><a href="http://ford.itavema.com.br/new-fiesta">New Fiesta</a></li> 
+          <li><a href="http://ford.itavema.com.br/new-fiesta-sedan">New Fiesta Sedan</a></li> 
+          <li><a href="http://ford.itavema.com.br/nova-ranger">Nova Ranger</a></li> 
+          <li><a href="http://ford.itavema.com.br/nova-ranger-cabine-dupla">Nova Ranger Cabine Dupla</a></li> 
+          <li><a href="http://ford.itavema.com.br/novo-ecosport">Novo Ecosport</a></li> 
+          <li><a href="http://ford.itavema.com.br/novo-focus">Novo Focus Hatch</a></li> 
+          <li><a href="http://ford.itavema.com.br/novo-focus-sedan">Novo Focus Sedan</a></li> 
+          <li><a href="http://ford.itavema.com.br/novo-ka-mais">Novo Ka+</a></li> 
+          <li><a href="http://ford.itavema.com.br/transit">Transit</a></li> 
+         </ul> </li> 
+       </ul> 
+       <ul style="margin: 0px auto; padding: 0px; font-size: 9px; list-style: none; width: 1000px; overflow: hidden; height: auto; color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: 14px; background-color: transparent;"> 
+        <li style="margin: 0px 5px 0px 0px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>HYUNDAI</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://hyundai.itavema.com.br/hb20">HB20</a></li> 
+          <li><a href="http://hyundai.itavema.com.br/hb20s">HB20S</a></li> 
+          <li><a href="http://hyundai.itavema.com.br/hb20x">HB20x</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>JEEP</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://jeep.itavema.com.br/cherokee-laredo">Cherokee Laredo</a></li> 
+          <li><a href="http://jeep.itavema.com.br/cherokee-limited">Cherokee Limited</a></li> 
+          <li><a href="http://jeep.itavema.com.br/cherokee-sport">Cherokee Sport</a></li> 
+          <li><a href="http://jeep.itavema.com.br/compass-sport">Compass Sport</a></li> 
+          <li><a href="http://jeep.itavema.com.br/grand-cherokee">Grand Cherokee</a></li> 
+          <li><a href="http://jeep.itavema.com.br/grand-cherokee-limited">Grand Cherokee Limited</a></li> 
+          <li><a href="http://jeep.itavema.com.br/renegade">Renegade</a></li> 
+          <li><a href="http://jeep.itavema.com.br/wrangler-sport">Wrangler Sport</a></li> 
+          <li><a href="http://jeep.itavema.com.br/wrangler-unlimited">Wrangler Unlimited</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>LAND ROVER</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://landrover.itavema.com.br/defender">Defender</a></li> 
+          <li><a href="http://landrover.itavema.com.br/discovery-3">Discovery 3</a></li> 
+          <li><a href="http://landrover.itavema.com.br/discovery-4">Discovery 4</a></li> 
+          <li><a href="http://landrover.itavema.com.br/discovery-sport">Discovery Sport</a></li> 
+          <li><a href="http://landrover.itavema.com.br/freelander-2">Freelander 2</a></li> 
+          <li><a href="http://landrover.itavema.com.br/range-rover%20">Range Rover</a></li> 
+          <li><a href="http://landrover.itavema.com.br/range-rover-evoque">Range Rover Evoque</a></li> 
+          <li><a href="http://landrover.itavema.com.br/range-rover-sport">Range Rover Sport</a></li> 
+          <li><a href="http://landrover.itavema.com.br/range-rover-vogue">Range Rover Vogue</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>MERCEDES-BENZ</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://www.itavema.com.br/classe-a">Classe A</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-b">Classe B</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-c-coupe">Classe C Coupé</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-c-touring">Classe C Touring</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-cla">Classe CLA</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-cls">Classe CLS</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-e">Classe E</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-e-cabriolet">Classe E Cabriolet</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-e-coupe">Classe E Coupé</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-gl">Classe GL</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-glk">Classe GLK</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-m">Classe M</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-r">Classe R</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-s">Classe S</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-sl">Classe SL</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-slk">Classe SLK</a></li> 
+          <li><a href="http://www.itavema.com.br/classe-c">Novo Classe C</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>MINI</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-countryman">Mini Cooper Countryman</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s">Mini Cooper S</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s-cabrio">Mini Cooper S Cabrio</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s-countryman">Mini Cooper S Countryman</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s-coupe">Mini Cooper S Coupé</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s-paceman">Mini Cooper S Paceman</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-cooper-s-roadster">Mini Cooper S Roadster</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-john-cooper-works">Mini John Cooper Works</a></li> 
+          <li><a href="http://www.nordenmotors.com.br/mini-one">Mini One</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>NISSAN</h3> 
+         <ul style="display: none;"> 
+          <li><a href="/altima">Altima</a></li> 
+          <li><a href="/frontier">Frontier</a></li> 
+          <li><a href="/grand-livina">Grand Livina</a></li> 
+          <li><a href="/livina">Livina</a></li> 
+          <li><a href="/livina-xgear">Livina X-Gear</a></li> 
+          <li><a href="/march">March</a></li> 
+          <li><a href="/new-march">New March</a></li> 
+          <li><a href="/novo-sentra">Novo Sentra</a></li> 
+          <li><a href="/sentra">Sentra</a></li> 
+          <li><a href="/tiida">Tiida</a></li> 
+          <li><a href="/tiida-sedan">Tiida Sedan</a></li> 
+          <li><a href="/versa">Versa</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 0px 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>PEUGEOT</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://peugeot.itavema.com.br/206">Peugeot 206</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/207">Peugeot 207</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/207-sedan">Peugeot 207 Sedan</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/207-sw">Peugeot 207 SW</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/208">Peugeot 208</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/3008">Peugeot 3008</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/307">Peugeot 307</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/307-sedan">Peugeot 307 Sedan</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/308">Peugeot 308</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/308-cc">Peugeot 308 CC</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/407-sedan">Peugeot 407 Sedan</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/407-sw">Peugeot 407 SW</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/408">Peugeot 408</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/508">Peugeot 508</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/boxer">Peugeot Boxer</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/hoggar">Peugeot Hoggar</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/partner">Peugeot Partner</a></li> 
+          <li><a href="http://peugeot.itavema.com.br/rcz">Peugeot RCZ</a></li> 
+         </ul> </li> 
+       </ul> 
+       <ul style="margin: 0px auto; padding: 0px; font-size: 9px; list-style: none; width: 1000px; overflow: hidden; height: auto; color: #000000; font-family: Arial, Helvetica, sans-serif; line-height: 14px; background-color: transparent;"> 
+        <li style="margin: 0px 5px 0px 0px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>RENAULT</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://renault.itavema.com.br/clio">Clio</a></li> 
+          <li><a href="http://renault.itavema.com.br/duster">Duster</a></li> 
+          <li><a href="http://renault.itavema.com.br/fluence">Fluence</a></li> 
+          <li><a href="http://renault.itavema.com.br/kangoo">Kangoo Express</a></li> 
+          <li><a href="http://renault.itavema.com.br/logan">Logan</a></li> 
+          <li><a href="http://renault.itavema.com.br/master">Master</a></li> 
+          <li><a href="http://renault.itavema.com.br/master-carga">Master Carga</a></li> 
+          <li><a href="http://renault.itavema.com.br/megane">Mégane</a></li> 
+          <li><a href="http://renault.itavema.com.br/megane-grand-tour">Mégane Grand Tour</a></li> 
+          <li><a href="http://renault.itavema.com.br/sandero">Sandero</a></li> 
+          <li><a href="http://renault.itavema.com.br/sandero-gt-line">Sandero GT Line</a></li> 
+          <li><a href="http://renault.itavema.com.br/sandero-stepway">Sandero Stepway</a></li> 
+          <li><a href="http://renault.itavema.com.br/scenic">Scénic</a></li> 
+          <li><a href="http://renault.itavema.com.br/symbol">Symbol</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>TOYOTA</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://toyota.itavema.com.br/camry">Camry</a></li> 
+          <li><a href="http://toyota.itavema.com.br/corolla">Corolla</a></li> 
+          <li><a href="http://toyota.itavema.com.br/corolla-xrs">Corolla XRS</a></li> 
+          <li><a href="http://toyota.itavema.com.br/etios">Etios</a></li> 
+          <li><a href="http://toyota.itavema.com.br/etios-cross">Etios Cross</a></li> 
+          <li><a href="http://toyota.itavema.com.br/etios-sedan">Etios Sedan</a></li> 
+          <li><a href="http://toyota.itavema.com.br/hilux">Hilux</a></li> 
+          <li><a href="http://toyota.itavema.com.br/hilux-sw4">Hilux SW4</a></li> 
+          <li><a href="http://toyota.itavema.com.br/prius">Prius</a></li> 
+          <li><a href="http://toyota.itavema.com.br/rav4">RAV 4</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>VOLKSWAGEN</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://www.itavema.com.br/amarok">Amarok</a></li> 
+          <li><a href="http://www.itavema.com.br/bora">Bora</a></li> 
+          <li><a href="http://www.itavema.com.br/cross-fox">Cross Fox</a></li> 
+          <li><a href="http://www.itavema.com.br/eos">Eos</a></li> 
+          <li><a href="http://www.itavema.com.br/fox">Fox</a></li> 
+          <li><a href="http://www.itavema.com.br/gol-g4">Gol G4</a></li> 
+          <li><a href="http://www.itavema.com.br/golf">Golf</a></li> 
+          <li><a href="http://www.itavema.com.br/jetta">Jetta</a></li> 
+          <li><a href="http://www.itavema.com.br/jetta-variant">Jetta Variant</a></li> 
+          <li><a href="http://www.itavema.com.br/kombi">Kombi</a></li> 
+          <li><a href="http://www.itavema.com.br/new-beetle">New Beetle</a></li> 
+          <li><a href="http://www.itavema.com.br/nova-saveiro">Nova Saveiro</a></li> 
+          <li><a href="http://www.itavema.com.br/novo-fusca">Novo Fusca</a></li> 
+          <li><a href="http://www.itavema.com.br/novo-gol">Novo Gol</a></li> 
+          <li><a href="http://www.itavema.com.br/novo-golf">Novo Golf</a></li> 
+          <li><a href="http://www.itavema.com.br/parati">Parati</a></li> 
+          <li><a href="http://www.itavema.com.br/passat">Passat</a></li> 
+          <li><a href="http://www.itavema.com.br/passat-variant">Passat Variant</a></li> 
+          <li><a href="http://www.itavema.com.br/polo">Polo</a></li> 
+          <li><a href="http://www.itavema.com.br/polo-sedan">Polo Sedan</a></li> 
+          <li><a href="http://www.itavema.com.br/space-cross">Space Cross</a></li> 
+          <li><a href="http://www.itavema.com.br/space-fox">Space Fox</a></li> 
+          <li><a href="http://www.itavema.com.br/tiguan">Tiguan</a></li> 
+          <li><a href="http://www.itavema.com.br/touareg">Touareg</a></li> 
+          <li><a href="http://www.itavema.com.br/up">Up</a></li> 
+          <li><a href="http://www.itavema.com.br/voyage">Voyage</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>VOLVO</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://volvo.itavema.com.br/c30">C30</a></li> 
+          <li><a href="http://volvo.itavema.com.br/c70">C70</a></li> 
+          <li><a href="http://volvo.itavema.com.br/s60">S60</a></li> 
+          <li><a href="http://volvo.itavema.com.br/v40">V40</a></li> 
+          <li><a href="http://volvo.itavema.com.br/v40-cross-country">V40 Cross Country</a></li> 
+          <li><a href="http://volvo.itavema.com.br/v60">V60</a></li> 
+          <li><a href="http://volvo.itavema.com.br/xc60">XC60</a></li> 
+          <li><a href="http://volvo.itavema.com.br/xc90">XC90</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>DAFRA</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://dafra.itavema.com.br/apache150">Apache 150</a></li> 
+          <li><a href="http://dafra.itavema.com.br/citycom300i">Citycom 300i</a></li> 
+          <li><a href="http://dafra.itavema.com.br/horizon250">Horizon 250</a></li> 
+          <li><a href="http://dafra.itavema.com.br/kansas150">Kansas 150</a></li> 
+          <li><a href="http://dafra.itavema.com.br/next250">Next 250</a></li> 
+          <li><a href="http://dafra.itavema.com.br/riva150">Riva 150</a></li> 
+          <li><a href="http://dafra.itavema.com.br/riva-cargo">Riva Cargo</a></li> 
+          <li><a href="http://dafra.itavema.com.br/roadwin250r">Roadwin 250R</a></li> 
+          <li><a href="http://dafra.itavema.com.br/smart125">Smart 125</a></li> 
+          <li><a href="http://dafra.itavema.com.br/smartjoy125">Smart Joy 125</a></li> 
+          <li><a href="http://dafra.itavema.com.br/speed150">Speed 150</a></li> 
+          <li><a href="http://dafra.itavema.com.br/super100">Super 100</a></li> 
+          <li><a href="http://dafra.itavema.com.br/super50">Super 50</a></li> 
+          <li><a href="http://dafra.itavema.com.br/zig50">Zig 50</a></li> 
+          <li><a href="http://dafra.itavema.com.br/zig+">Zig+</a></li> 
+         </ul> </li> 
+        <li style="margin: 0px 5px; padding: 0px; float: left; overflow: hidden;"> <h3 style="margin: 0px; padding: 10px 0px 10px 10px; font-size: 11px; width: 114px; height: auto; cursor: pointer;"><span style="margin-right: 5px;">+</span>DAFRA eBike</h3> 
+         <ul style="display: none;"> 
+          <li><a href="http://ebike.itavema.com.br/ebike-dbt">DBT</a></li> 
+          <li><a href="http://ebike.itavema.com.br/ebike-db0">eBike DB0</a></li> 
+          <li><a href="http://ebike.itavema.com.br/ebike-dbl">eBike DBL</a></li> 
+          <li><a href="http://ebike.itavema.com.br/ebike-dbx">eBike DBX</a></li> 
+         </ul> </li> 
+       </ul> 
+      </div> 
+      <h3 style="text-align: center; color: #fff; margin-top: 10px; padding-bottom: 10px;">Itavema Japan - Concessionária Nissan - SP - Vila Leopoldina - Av. Dr. Gastão Vidigal, 2.571 - (11) 3647-1601 - <span style="color: #ffffff;"><a href="https://www.google.com/maps/place/Concession%C3%A1ria+Nissan+Japan+-+Itavema/@-23.5377539,-46.7325915,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xb81e2beb7b6757ad!8m2!3d-23.5377539!4d-46.7304028?hl=pt-BR" target="_blank"><span style="color: #ffffff;">Ver Mapa</span></a></span></h3> 
+      <h3 style="text-align: center; color: #fff; margin-top: 10px; padding-bottom: 10px;">Itavema Japan - Concessionária Nissan - SP - Barra Funda - Avenida Rudge, 485 - (11) 3393-7520 - <a href="https://www.google.com.br/maps/place/Concession%C3%A1ria+Fiat+ITAVEMA/@-23.524405,-46.6525938,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5872c6c9a7ab:0x8fffaa88e630a36b!8m2!3d-23.524405!4d-46.6504051" target="_blank"><span style="color: #ffffff;">Ver Mapa</span></a></h3> 
+     </div> 
+    </article> 
+   </section> 
+   <section class="footer"> 
+    <div class="centraliza"> 
+     <div id="logo-footer"></div> 
+     <nav class="menuFooter"> 
+      <article> 
+       <ul class="nav"> 
+        <li class="item-116 firstlink"><a href="/estoque">Busca de Veículo</a><span class="indicador"></span></li>
+        <li class="item-117"><a href="/index.php?option=com_content&amp;Itemid=117&amp;catid=2&amp;id=12&amp;view=article">Dúvidas</a><span class="indicador"></span></li>
+        <li class="item-118"><a href="/quem-somos">Quem Somos</a><span class="indicador"></span></li>
+        <li class="item-119"><a href="/lojas">Lojas</a><span class="indicador"></span></li>
+        <li class="item-120"><a href="http://grupo-itavema.infojobs.com.br/default.aspx" target="_blank">Trabalhe Conosco</a><span class="indicador"></span></li>
+        <li class="item-121"><a href="/contato">Fale Conosco</a><span class="indicador"></span></li>
+        <li class="item-122"><a href="http://nissan.itavema.com.br/servicos">Peças Originais Nissan</a><span class="indicador"></span></li>
+        <li class="item-123"><a href="/index.php?option=com_buscadordeveiculos&amp;Itemid=129&amp;view=formulariovenda">Avalie seu Usado</a><span class="indicador"></span></li>
+        <li class="item-124"><a href="/index.php?option=com_content&amp;Itemid=131&amp;catid=2&amp;id=6&amp;view=article">Vendas Diretas</a><span class="indicador"></span></li>
+        <li class="item-125"><a href="http://www.renoveseguros.com.br/" target="_blank">Seguros</a><span class="indicador"></span></li>
+        <li class="item-175"><a href="/new-march">New March</a><span class="indicador"></span></li>
+        <li class="item-204"><a href="/index.php?option=com_content&amp;Itemid=204&amp;catid=9&amp;id=21&amp;view=article">Kicks</a><span class="indicador"></span></li>
+       </ul> 
+      </article> 
+     </nav> 
+     <section class="copyrights"> 
+      <p class="fleft">Todos os direitos reservados | Grupo Itavema</p> 
+      <p class="linkVmotors fright">Powered by <a href="http://www.vmotors.com.br" target="_blank" title="Acesse o site">VMOTORS</a></p> 
+     </section> 
+    </div> 
+   </section> 
+  </footer>  
+ </body>
+</html>

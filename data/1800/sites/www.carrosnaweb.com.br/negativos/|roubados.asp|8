@@ -1,0 +1,228 @@
+<html>
+ <head> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+  <link href="css/home.css" type="text/css" rel="StyleSheet"> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+  <title>Cadastro Nacional de Carros Roubados</title> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <tbody>
+    <tr> 
+     <td align="center" height="110" colspan="4" bgcolor="White"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-banner-topo --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="7829382852"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+     <td> </td>
+    </tr> 
+    <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br>  <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros">  </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+    <tr> 
+     <td bgcolor="darkkhaki" colspan="4" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="roubadospergunta.asp"><font color="white">Cadastre um carro Roubado</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="seguro.asp"><font color="white">Seguro</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="classif.asp"><font color="white">Carros à Venda</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="default.asp"><font color="white">Página Principal</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="catalogo.asp"><font color="white">Catálogo</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="ranking.asp"><font color="white">Rankings</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="forum.asp"><font color="white">Fórum</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="opiniao.asp"><font color="white">Opinião do dono</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="roubadosEstatistica.asp"><font color="white">Estatística</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="980" cellspacing="0" cellpadding="5" border="0" align="center" bgcolor="White"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#ffffff" colspan="4"> <font face="arial" size="2"> 
+       <form action="roubadoslista.asp" method="post" id="form1" name="form1" onsubmit="var result=checa(); return result;"> 
+        <table border="0"> 
+         <tbody>
+          <tr> 
+           <td valign="top" align="center" width="700"> <font style="font-size: 7px;"><br><br></font> <font color="darkred" size="4" face="arial">Cadastro de carros roubados</font> <font color="black" face="arial"><font style="font-size: 13px;"> <br><br> <a href="roubadospergunta.asp"><u><font color="black">Cadastre seu veículo roubado</font></u></a><font color="black"> ou furtado e aumente suas chances de recuperação.<br> Você também pode consultar o cadastro antes de adquirir um veículo ou partes de um, evitando assim, problemas posteriores. Aproveite, é grátis, simples e rápido. <br><br> <font> 
+                <table border="0"> 
+                 <tbody>
+                  <tr> 
+                   <td align="right"> <font face="arial" size="2" color="black"> Tipo de veículo </font></td> 
+                   <td> <select id="configuracao" name="configuracao"> <option value="">Todos</option> <option value="1">Carro</option> <option value="8">Picape</option> <option value="9">SUV</option> <option value="13">Chassi-cabine</option> <option value="12">Furgão</option> <option value="10">Jipe</option> <option value="3">Caminhão</option> <option value="4">Ônibus</option> <option value="2">Moto</option> <option value="6">Van</option> <option value="7">Buggy</option> </select> </td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"> <font face="arial" size="2" color="black"> Fabricante </font></td> 
+                   <td> <select name="fabricante" id="fabricante" onchange="EnviaID(document.form1.fabricante.value,'exibe_modelo','modelo','','no')"> <option value="Todos">Todos</option> <option value="Adamo">Adamo</option> <option value="Agrale">Agrale</option> <option value="Alfa Romeo">Alfa Romeo</option> <option value="Ariel">Ariel</option> <option value="Asia">Asia</option> <option value="Aston Martin">Aston Martin</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="Bianco">Bianco</option> <option value="BMW">BMW</option> <option value="BRM">BRM</option> <option value="Bugatti">Bugatti</option> <option value="Cadillac">Cadillac</option> <option value="Caterham">Caterham</option> <option value="CBT">CBT</option> <option value="Chamonix">Chamonix</option> <option value="Chana">Chana</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet">Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Cross Lander">Cross Lander</option> <option value="Daewoo">Daewoo</option> <option value="Dafra">Dafra</option> <option value="Daihatsu">Daihatsu</option> <option value="DeLorean">DeLorean</option> <option value="DKW">DKW</option> <option value="Dodge">Dodge</option> <option value="Ducati">Ducati</option> <option value="Effa">Effa</option> <option value="Engesa">Engesa</option> <option value="Envemo">Envemo</option> <option value="Farus">Farus</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford">Ford</option> <option value="Fyber">Fyber</option> <option value="Geely">Geely</option> <option value="Gurgel">Gurgel</option> <option value="Hafei">Hafei</option> <option value="Haima">Haima</option> <option value="Harley-Davidson">Harley-Davidson</option> <option value="Hennessey">Hennessey</option> <option value="Honda">Honda</option> <option value="Hummer">Hummer</option> <option value="Hyundai">Hyundai</option> <option value="Infiniti">Infiniti</option> <option value="Isuzu">Isuzu</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="JPX">JPX</option> <option value="Kasinski">Kasinski</option> <option value="Kawasaki">Kawasaki</option> <option value="Kia">Kia</option> <option value="Koenigsegg">Koenigsegg</option> <option value="KTM">KTM</option> <option value="Lada">Lada</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lobini">Lobini</option> <option value="Lotus">Lotus</option> <option value="Mahindra">Mahindra</option> <option value="Marcopolo">Marcopolo</option> <option value="Maserati">Maserati</option> <option value="Mazda">Mazda</option> <option value="McLaren">McLaren</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Miura">Miura</option> <option value="MP Lafer">MP Lafer</option> <option value="Nissan">Nissan</option> <option value="Oldsmobile">Oldsmobile</option> <option value="OUTROS">OUTROS</option> <option value="Pagani">Pagani</option> <option value="Peugeot">Peugeot</option> <option value="Pontiac">Pontiac</option> <option value="Porsche">Porsche</option> <option value="Puma">Puma</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Saab">Saab</option> <option value="Saleen">Saleen</option> <option value="Santa Matilde">Santa Matilde</option> <option value="Santana">Santana</option> <option value="Scania">Scania</option> <option value="Seat">Seat</option> <option value="Shineray">Shineray</option> <option value="Smart">Smart</option> <option value="Ssangyong">Ssangyong</option> <option value="Subaru">Subaru</option> <option value="Sundown">Sundown</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tesla">Tesla</option> <option value="Toyota">Toyota</option> <option value="Triumph">Triumph</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> <option value="Willys">Willys</option> <option value="Yamaha">Yamaha</option> </select> </td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"> <font face="arial" size="2" color="black"> Modelo </font></td> 
+                   <td> <span id="exibe_modelo"> <select name="modelo" id="modelo" onchange="javascript:document.location ='roubadoslista.asp?fabricante='+document.form1.fabricante.value+'&amp;modelo='+document.form1.modelo.value+'&amp;estado='+document.form1.estado.value+'&amp;anofab=&amp;anofim='"></select> </span> </td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"> <font face="arial" size="2" color="black"> Estado </font></td> 
+                   <td> <select name="estado" onchange="MandaID(this.value,'exibe_cidade')"> <option value="Todos">Todos</option> <option value="AC">Acre</option> <option value="AL">Alagoas</option> <option value="AP">Amapá</option> <option value="AM">Amazonas</option> <option value="BA">Bahia</option> <option value="CE">Ceará</option> <option value="DF">Distrito Federal</option> <option value="ES">Espírito Santo</option> <option value="GO">Goiás</option> <option value="MA">Maranhão</option> <option value="MT">Mato Grosso</option> <option value="MS">Mato Grosso do Sul</option> <option value="MG">Minas Gerais</option> <option value="PA">Pará</option> <option value="PB">Paraíba</option> <option value="PR">Paraná</option> <option value="PE">Pernambuco</option> <option value="PI">Piauí</option> <option value="RJ">Rio de Janeiro</option> <option value="RN">Rio Grande do Norte</option> <option value="RS">Rio Grande do Sul</option> <option value="RO">Rondônia</option> <option value="RR">Roraima</option> <option value="SC">Santa Catarina</option> <option value="SP">São Paulo</option> <option value="SE">Sergipe</option> <option value="TO">Tocantins</option> </select> </td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"><font size="2" face="arial" color="black"> Cidade </font></td> 
+                   <td> 
+                    <div id="exibe_cidade">
+                     <select id="cidade"><option value=""></option></select>
+                    </div> </td> 
+                  </tr>    
+                  <tr> 
+                   <td align="right"> <font face="arial" size="2" color="black"> Fabricado de </font></td> 
+                   <td> <select id="anofab" name="anofab"> <option>1952</option> <option>1953</option> <option>1954</option> <option>1955</option> <option>1956</option> <option>1957</option> <option>1958</option> <option>1959</option> <option>1960</option> <option>1961</option> <option>1962</option> <option>1963</option> <option>1964</option> <option>1965</option> <option>1966</option> <option>1967</option> <option>1968</option> <option>1969</option> <option>1970</option> <option>1971</option> <option>1972</option> <option>1973</option> <option>1974</option> <option>1975</option> <option>1976</option> <option>1977</option> <option>1978</option> <option>1979</option> <option>1980</option> <option>1981</option> <option>1982</option> <option>1983</option> <option>1984</option> <option>1985</option> <option>1986</option> <option>1987</option> <option>1988</option> <option>1989</option> <option>1990</option> <option>1991</option> <option>1992</option> <option>1993</option> <option>1994</option> <option>1995</option> <option>1996</option> <option>1997</option> <option>1998</option> <option>1999</option> <option>2000</option> <option>2001</option> <option>2002</option> <option>2003</option> <option>2004</option> <option>2005</option> <option>2006</option> <option>2007</option> <option>2008</option> <option>2009</option> <option>2010</option> <option>2011</option> <option>2012</option> <option>2013</option> <option>2014</option> <option>2015</option> <option>2016</option> <option>2017</option> </select> <font face="arial" size="2" color="black"> &nbsp;até <select id="anofim" name="anofim"> <option>1952</option> <option>1953</option> <option>1954</option> <option>1955</option> <option>1956</option> <option>1957</option> <option>1958</option> <option>1959</option> <option>1960</option> <option>1961</option> <option>1962</option> <option>1963</option> <option>1964</option> <option>1965</option> <option>1966</option> <option>1967</option> <option>1968</option> <option>1969</option> <option>1970</option> <option>1971</option> <option>1972</option> <option>1973</option> <option>1974</option> <option>1975</option> <option>1976</option> <option>1977</option> <option>1978</option> <option>1979</option> <option>1980</option> <option>1981</option> <option>1982</option> <option>1983</option> <option>1984</option> <option>1985</option> <option>1986</option> <option>1987</option> <option>1988</option> <option>1989</option> <option>1990</option> <option>1991</option> <option>1992</option> <option>1993</option> <option>1994</option> <option>1995</option> <option>1996</option> <option>1997</option> <option>1998</option> <option>1999</option> <option>2000</option> <option>2001</option> <option>2002</option> <option>2003</option> <option>2004</option> <option>2005</option> <option>2006</option> <option>2007</option> <option>2008</option> <option>2009</option> <option>2010</option> <option>2011</option> <option>2012</option> <option>2013</option> <option>2014</option> <option>2015</option> <option>2016</option> <option selected>2017</option> </select> </font></td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"><font size="2" color="black"> Placa </font></td> 
+                   <td colspan="2"> <input name="placa" id="placa" size="10" onkeypress="event.returnValue=Aspas(event.keyCode);" maxlength="7"><font color="gray"><font size="2"> Formato: AAA9999<font color="black"> </font></font></font></td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"><font size="2" color="black"> Renavam </font></td> 
+                   <td colspan="2"> <input name="renavam" id="renavam" size="10" onkeypress="event.returnValue=Aspas(event.keyCode);"> </td> 
+                  </tr> 
+                  <tr> 
+                   <td align="right"><font size="2" color="black"> Chassi </font></td> 
+                   <td colspan="2"> <input name="chassi" id="chassi" size="20" onkeypress="event.returnValue=Aspas(event.keyCode);"> </td> 
+                  </tr>  
+                  <tr> 
+                   <td align="right"><font size="2" color="black"> Nº Motor </font></td> 
+                   <td colspan="2"> <input name="motor" id="motor" size="20" onkeypress="event.returnValue=Aspas(event.keyCode);"> </td> 
+                  </tr>  
+                  <tr> 
+                   <td colspan="3" align="center" valign="middle" height="60"> <input type="submit" value="Buscar" id="submit1" name="submit1" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';"> &nbsp; 
+                    <!--<INPUT type="reset" value="Limpar" id=reset1 name=reset1>--> <input type="button" value="Limpar" id="button1" name="button1" onclick="javascript:window.location.href='roubados.asp';" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';"> </td> 
+                  </tr> 
+                  <tr> 
+                   <td colspan="3" height="60" valign="middle" align="center"> <font style="font-size: 12px;"> <a href="roubadospergunta.asp"><u>Cadastre um veículo roubado</u></a> <br><br><br><br> <font size="2" color="gray">&nbsp;Indique esta página para seus amigos: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/roubados.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta pagina"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/roubados.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Cadastro%20nacional%20de%20carros%20roubados%20ou%20furtados%20http://www.carrosnaweb.com.br/roubados.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/roubados.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> </font></font></td> 
+                  </tr> 
+                  <tr> 
+                   <td colspan="4" align="center"> </td> 
+                  </tr> 
+                 </tbody>
+                </table> </font></font></font></font></td>
+           <td rowspan="1" align="center" valign="top" width="400"> <font style="font-size: 10px;"><br><br> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+             <!-- Variedades-quadrado-conteudo --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="3259582453"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <br><br> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+             <!-- Variedades-quadrado-lateral --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="9166515259"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <br><br><br> </font></td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </form></font></td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>   
+  <script language="JavaScript">
+<!--
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}	
+-->
+</script> 
+  <script language="JavaScript">
+	function MM_openBrWindow(theURL,winName,features) 
+	{ 
+		window.open(theURL,winName,features);
+	}
+	
+function checa()
+{
+	var error_string = "";
+	var PrimeiroErro = "";
+	if (error_string == "")
+	{
+		return true;
+	}
+	else
+	{
+		alert(error_string);
+		RecebeErro = 'document.form1.'+PrimeiroErro+'.focus();';
+		eval(RecebeErro);
+		return false;
+	}	
+}
+</script> 
+  <script src="scripts/ajaxdiversos.js"></script> 
+  <script src="scripts/ajaxfabricanteschange.js"></script>
+ </body>
+</html>

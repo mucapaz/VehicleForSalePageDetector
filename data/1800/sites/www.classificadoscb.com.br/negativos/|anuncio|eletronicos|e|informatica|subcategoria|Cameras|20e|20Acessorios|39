@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <title>Classificados do Correio Braziliense</title> 
+  <link rel="shortcut icon" type="image/x-icon" href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/favicon.ico"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/144x144.png" rel="apple-touch-icon" sizes="144x144"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/114x114.png" rel="apple-touch-icon" sizes="114x114"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/72x72.png" rel="apple-touch-icon" sizes="72x72"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/57x57.png" rel="apple-touch-icon" sizes="57x57"> 
+  <link rel="stylesheet" href="http://www.classificadoscb.com.br/novo/static/cb/assets/css/compiled/app.css"> 
+  <script>
+        // Base script pj
+        var dimension2Value = '';
+        var locals = {
+            defineSlot: "/6887/portal-correioweb/Classificados-do-cb/capa",
+            idConcatSlot:"div-gpt-ad-1425063238301-",
+            estado : "",
+            site: "classificadoscb",
+            base_dir_dfp: "/6887/portal-correioweb/Classificados-do-cb/"
+        };
+    </script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/analytics.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/publicidade.js"></script> 
+ </head> 
+ <body> 
+  <nav class="nav nav-left" tab-index="-1"> 
+   <button type="button" class="close__button js-nav-close">Fechar</button> 
+   <ul class="user-list js-div_usuario_logado support-nav" style="display:none;"> 
+    <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+     <div class="app-data-user-desc"> 
+      <span class="name js-nome_usuario_logado"></span> 
+      <span class="email js-email_usuario_logado"></span> 
+     </div> </li> 
+    <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+    <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="import js-import-anuncio"><span>Importar anúncio</span></a> </li> 
+    <li><a href="/loja" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+    <li> <a href="/login/logout" title="" class="exit"><span>Sair</span></a> </li> 
+   </ul> 
+   <ul class="user-list support-nav js-div_usuario_deslogado"> 
+    <li><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="signup" title="Cadastrar">Cadastrar</a></li> 
+    <li><a href="#login-now" data-toggle="modal" data-target="#login-now" class="login" title="Entrar">Entrar</a></li> 
+    <li><a href="/loja	" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+   </ul> 
+   <ul class="main__nav"> 
+    <li><a href="/" class="home">Página inicial</a> </li> 
+    <li><a href="/quem-somos" class="quem-somos">Quem Somos</a> </li> 
+    <li><a href="/perguntas-mais-frequentes" class="questions">Dúvidas Frequentes</a> </li> 
+    <li><a href="/fale-conosco" class="contact">Fale conosco</a> </li> 
+    <li><a href="/termos-de-servicos" class="terms-services">Termos de Serviço</a> </li> 
+    <li><a href="/politica-de-privacidade" class="privacity">Política de Privacidade</a> </li> 
+   </ul> 
+  </nav> 
+  <div class="site-overlay" tab-index="-1"></div> 
+  <header class="app-header js-header"> 
+   <div class="container-fluid"> 
+    <div class="row app-header-row"> 
+     <div class="app-header-first-part"> 
+      <button class="btn__navigation js-menu-btn"> <span></span> <span></span> <span></span> </button> 
+      <a href="/" title="Classificados"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-white.png" alt="" class="app-header-brand-white" style="max-width:140px"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-color.png" alt="" class="app-header-brand-color" style="max-width:140px"> </a> 
+     </div> 
+     <nav class="app-header-last-part"> 
+      <ul class="list-inline pull-right app-menu"> 
+       <li class="hidden-xs"> 
+        <!--
+						<a href="" class="open-search" title="Abrir busca"><span>Abrir busca</span></a>
+						--> 
+        <form class="js-search-form" action=""> 
+         <input id="inpBusca" type="text" class="search-full-small js-inpBusca" placeholder="O que você está procurando?"> 
+         <span class="search-full-icon"></span> 
+         <button class="js-btnBusca" type="button" style="height:1px;width:1px;background:transparent;border:0;"></button> 
+        </form> </li> 
+       <li><a href="/anunciar" class="app-btn-no-fill"><span class="hidden-xs">QUERO </span> ANUNCIAR</a></li> 
+       <li class="hidden-xs"> <a href="#" class="help-you"><span>AJUDA</span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li><a href="/quem-somos" class="about" title=""><span>Sobre</span></a></li> 
+         <li><a href="/perguntas-mais-frequentes" class="freq-questions" title=""><span>Dúvidas Frequentes</span></a></li> 
+         <li><a href="/fale-conosco" class="contact-us" title=""><span>Fale conosco</span></a></li> 
+         <li><a href="/termos-de-servicos" class="service-term" title=""><span>Termos de serviço</span></a></li> 
+         <li><a href="/politica-de-privacidade" class="priv-politican" title=""><span>Política de Privacidade</span></a></li> 
+        </ul> </li> 
+       <li class="hidden-xs"> <a href="/planos" title="Seja premium" class="be-premium"><span>PREMIUM</span></a> </li> 
+       <li class="hidden-xs"><a href="/loja" class="shops"><span>LOJAS</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="register"><span>CADASTRE-SE</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#login-now" data-toggle="modal" data-target="#login-now" class="enter"><span>ENTRAR</span></a></li> 
+       <li class="show-is-logged support-nav hidden-xs"> <a href="javascript:void(0)"><span class="js-img_usuario_logado app-data-user-image"></span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+          <div class="app-data-user-desc"> 
+           <span class="name js-nome_usuario_logado"></span> 
+           <span class="email js-email_usuario_logado"></span> 
+          </div> </li> 
+         <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+         <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+         <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+         <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+         <li> <a href="/login/logout" title="Sair" class="exit"><span>Sair</span></a> </li> 
+        </ul> </li> 
+      </ul> 
+     </nav> 
+    </div> 
+   </div> 
+  </header> 
+  <section class="container" style="margin-top: 60px;"> 
+   <div class="row"> 
+    <div class="col-xs-12">
+     <div class="ads"> 
+      <div class="ads__wrapper"> 
+       <div id="publicidade-rasgado-1"> 
+        <script type="text/javascript">
+				var indexformats = window.indexformats || 0;
+				googletag.cmd.push(function() {
+					slotdfp['publicidade-rasgado-1'] = googletag.defineSlot(locals.base_dir_dfp,[728,90],'publicidade-rasgado-1').
+						setSafeFrameConfig({sandbox: (screen.width < 480)}).
+						setTargeting('pos',[(++indexformats).toString()]).
+						setTargeting('identificador','publicidade-rasgado-1').
+						defineSizeMapping( googletag.sizeMapping().
+							addSize([0, 0],   [300,100]).
+							addSize([340, 0], [[320,100],[300,100]]).
+							addSize([488, 0], [[468, 60],[300,100]]).
+							addSize([748, 0], [728, 90]).
+							addSize([992, 0], [[728,90],[970,90],[970,250],[980,250]]).build() ).
+						addService(googletag.pubads());
+					googletag.pubads().collapseEmptyDivs(true);
+					googletag.enableServices();
+				});
+				googletag.cmd.push(function() { googletag.display('publicidade-rasgado-1')});
+			</script> 
+       </div> 
+      </div> 
+     </div>
+    </div> 
+   </div> 
+  </section> 
+  <section class="container gutter-m-15-t g-mobile"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="filter__area"> 
+      <div class="row"> 
+       <div class="col-sm-12 nav-category__content"> 
+        <button type="button" class="filter__category js-open-category" data-target="#js-sidebar-categorias" data-change=".product__area"> Todas as categorias </button> 
+        <section class="sidebar__categories sidebar" id="js-sidebar-categorias"> 
+         <h2 class="sidebar--title">Categorias</h2> 
+         <hr> 
+         <ul class="categories__list" id="js-ul-categorias"> 
+         </ul> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+     <section class="edit__filters"> 
+      <button class="edit__filters--button js-btn-edit-filters">Editar Filtros</button> 
+      <i class="icons-arrow_down"></i> 
+      <select name="" id="" class="edit__filters--select js-sort-ad"> <option value="">Ordenar por...</option> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </section> 
+     <section class="row search__property sidebar" id="js-sidebar-filtros" style="display: none;"> 
+      <a href="#" class="js-arrow-back sidebar--back"> <i class="icons-back_arrow_black"></i> Todas as categorias </a> 
+      <hr> 
+      <h3 class="sidebar--category_title" id="js-nome-categoria"></h3> 
+      <form action="" id="js-form-filter"> 
+       <!-- 		<div class="location__filters js-location-filters">
+	<div class="location__filters--title">
+		<p>Filtros de Localização</p>
+		<span></span>
+	</div>
+	<ul class="location__filters--list js-list-filters">
+		<li data-attribute="aa" data-value="aa">aa</li>
+	</ul>
+</div> --> 
+       <div id="js-div-filtros"></div> 
+      </form> 
+      <button class="edit__filters--button-fixed js-apply-filters">Aplicar filtros</button> 
+     </section> 
+     <!-- TEMPLATES FILTROS --> 
+     <script type="text/x-tmpl" id="tmpl-widget-categoria">
+	{% for (var prop in o.valores) { %}
+		<li class="categories__list--item">
+			<a href="{%=o.url_base%}/anuncio/{%=o.valores[prop].valor%}/">{%=o.valores[prop].name%}</a>
+		</li>
+	{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input">
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="min" data-attribute="area" id="js-area-min" placeholder="m²">
+	</div>
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="max" data-attribute="area" id="js-area-max" placeholder="m²">
+	</div>
+</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input-double">
+{% if (Array.isArray(o) && o.length == 2) { %}
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o[0].titulo%}</label>
+		<input type="text" class="js-input-filter {% if (o[0].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+			data-number="{%=o[0].template.datanumber%}"
+			data-attribute="{%=o[0].template.attribute%}"
+			id="{%=o[0].template.id%}"
+			placeholder="{%=o[0].template.placeholder%}"
+		>
+	</div>
+	{% if (o.length == 2) { %}
+		<div class="half">
+			<label for="">{%=o[1].titulo%}</label>
+			<input type="text" class="js-input-filter {% if (o[1].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+				data-number="{%=o[1].template.datanumber%}"
+				data-attribute="{%=o[1].template.attribute%}"
+				id="{%=o[1].template.id%}"
+				placeholder="{%=o[1].template.placeholder%}"
+			>
+		</div>
+	{% } %}
+</div>
+{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link">
+	<div class="active">
+		<label for="">{%=o.titulo%}</label>
+		<select data-placeholder="{%=o.titulo%}" data-attribute="{%=o.nome%}" id="atributte-{%=o.nome%}" class="chosen-select js-link-filter"
+			{% if(o.hasOwnProperty('disabled')) { %}disabled{% } %}
+			{% if(o.nome in {'cidade': 1, 'situacao_veiculo': 1, 'caracteristicas': 1, 'fabricante': 1, 'modelo_base': 1}) { %}
+				multiple
+			{% } %} tabindex="4"
+		>
+
+		<option value="">Selecione</option>
+
+		{% if(o.hasOwnProperty('pivot')) { %}
+			{% for (var prop in o.valores) { %}
+				<optgroup label="{%=o.valores[prop].name%}">
+					{% for (var prop_filho in o.valores[prop].valor) { %}
+						<option value="{%=o.valores[prop].valor[prop_filho].valor%}">{%=o.valores[prop].valor[prop_filho].name%}</option>
+					{% } %}
+				</optgroup>
+			{% } %}
+		{% } else { %}
+			{% for (var prop in o.valores) { %}
+				<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+			{% } %}
+		{% } %}
+		</select>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link-aberto">
+	<div class="active">
+		<label style="font-size: 14px; font-weight: bold;">
+			{%=o.titulo%}
+		</label>
+		<ul class="most__searched js-check-filter" data-attribute="{%=o.nome%}" style="height: auto; margin-bottom: 15px;">
+			{% for (var prop in o.valores) %}
+				<li class="most__searched--item"
+					data-value="{%=o.valores[prop].valor%}"
+					data-html="{%=o.valores[prop].name%}"
+					style="color: #003e76; cursor: pointer;"
+				>
+					{%=o.valores[prop].name%}&nbsp;<span class="count" style="color: black;">({%=o.valores[prop].total%})</span>
+				</li>
+			{% %}
+		</ul>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-select">
+	<label for="attribute_{%=o.nome%}">{%=o.titulo%}</label>
+	<i class="icons-arrow_down"></i>
+	<select
+		name="attribute_{%=o.nome%}"
+		id="attribute_{%=o.nome%}"
+		data-attribute="{%=o.nome%}"
+		class="js-select-filter"
+	>
+		<option value="">{%=o.titulo%}</option>
+		{% for (var prop in o.valores) %}
+			<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+		{% %}
+	</select>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-selectline">
+	<ul class="buy_or_rent js-check-filter" id="js-negociacao" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) { %}
+			<li class="buy_or_rent--item js-buy-rent" data-value="{%=o.valores[prop].valor%}">
+				<a href="">{%=o.valores[prop].name%}</a>
+			</li>
+		{% } %}
+	</ul>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-ul">
+	<label for=""><b>{%=o.titulo%}</b></label>
+	<ul class="choice__group js-check-filter" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) %}
+			<li class="choice__group--item" data-value="{%=o.valores[prop].valor%}">
+				<button type="button">{%=o.valores[prop].name%}</button>
+			</li>
+		{% %}
+	</ul>
+</script> 
+    </div> 
+    <div class="col-md-9"> 
+     <div class="classifieds__sort"> 
+      <p class="classifieds__sort--imoveis"><span class="js-breadcrumb"></span> <span class="js-total-hits"></span></p> 
+      <i class="icons-arrow_down"></i> 
+      <select class="classifieds__sort--options js-sort-ad" name="" id=""> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </div> 
+     <div id="js-div-list-anuncios"> 
+     </div> 
+     <div id="js-loading" style="padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/loading2.gif" width="50"> 
+      <span style="font-size: 20px;position: relative;top: -18px;">Carregando...</span> 
+     </div> 
+     <div id="js-sem-anuncio" style="display: none; padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <span style="font-size: 20px;">Nenhum anúncio encontrado.</span> 
+     </div> 
+     <div class="row"> 
+      <div class="paginations__bx cf" style="display: none;"> 
+       <a class="prev js-prev-page"> Anterior </a> 
+       <a class="next js-next-page"> Próximo </a> 
+       <div class="pagination__area cf"> 
+        <span>Página</span> 
+        <input id="js-current-page" type="text" value=""> 
+        <span>de <span class="js-total-page"></span></span> 
+        <a id="btn-paginacao" href="javascript:;" class="btn btn__primary js-goto-page" data-num-page="" data-max-page="" data-limit="20"> Ir </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer role="contentinfo" class="footer"> 
+   <div class="footer__p"> 
+    <div class="container"> 
+     <div class="nav__support"> 
+      <ul class="list-inline cf"> 
+       <li class="logged-user hidden-xs"><a href="#login-now" data-toggle="modal" data-target="#login-now" title="Login">Login</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="logged-user hidden-xs"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" title="Cadastre-se">Cadastre-se</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="hidden-xs hidden-sm"><a href="http://www.cbdigital.com.br/" title="CB Digital">CB Digital</a></li> 
+       <li class="hidden-xs hidden-sm">|</li> 
+       <li class="hidden-xs"><a href="http://clubedoassinante.correiobraziliense.com.br/" title="Clube do Assinante">Clube do Assinante</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="https://www2.correiobraziliense.com.br/seguro/digital/assine.php" title="Assine Já">Assine Já</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="/fale-conosco" title="Fale conosco">Fale conosco</a></li> 
+       <li class="pull-right"> 
+        <ul class="list-inline pull-right"> 
+         <li> <a href="http://www.fb.com/correiobraziliense" class="facebook" target="blank" title="Facebook"></a> </li> 
+         <li> <a href="http://www.twitter.com/cbonlinedf" class="twitter" target="blank" title="Twitter"></a> </li> 
+         <!--
+								<li><a href="" class="rss" target="blank" title="RSS"></a></li>
+								--> 
+        </ul> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__s"> 
+    <div class="container margin-top-20  padding-bottom-20"> 
+     <a href="#" title="Expandir Rodapé" class="footer__contentshowhide center-block hidden-md hidden-lg margin-top-15 margin-bottom-25" id="show_hide_footer_mobile"> Abrir menu </a> 
+     <div id="sh_in_tablet_phone" class="hidden-xs hidden-sm"> 
+      <div class="row"> 
+       <div class="col-xs-6 col-sm-3 col-md-2 col-sm-offset-2 col-md-offset-0"> 
+        <ul class="list-unstyled"> 
+         <li> JORNAIS </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/" target="blank" title="Correio Braziliense"> Correio Braziliense </a> </li> 
+         <li> <a href="javascript:void(0)" target="blank" title="Aqui DF"> Aqui DF </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> TELEVISÃO </li> 
+         <li> <a href="http://www.correioweb.com.br/tvbrasilia" target="blank" title="TV Brasília"> TV Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> RÁDIO </li> 
+         <li> <a href="http://www.clube.fm/" target="blank" title="Clube FM"> Clube FM </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> PORTAIS E SITES </li> 
+         <li> <a href="http://www.correioweb.com.br/" target="blank" title="CorreioWeb"> CorreioWeb </a> </li> 
+         <li> <a href="http://www.correiobraziliense.vrum.com.br/" target="blank" title="Vrum"> Vrum </a> </li> 
+         <li> <a href="http://www.correiobraziliense.lugarcerto.com.br/" target="blank" title="Lugar Certo"> Lugar Certo </a> </li> 
+         <li> <a href="http://concursos.correioweb.com.br/" target="blank" title="Concursos"> Concursos </a> </li> 
+         <li> <a href="http://www.df.superesportes.com.br/" target="blank" title="Superesportes"> Superesportes </a> </li> 
+         <li> <a href="http://www.divirtasemais.com.br/" target="blank" title="Divirta-semais"> Divirta-semais </a> </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/euestudante" target="blank" title="Eu, estudante"> Eu, estudante </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> REVISTAS </li> 
+         <li> <a href="http://www.encontrobrasilia.com.br/" target="blank" title="Encontro Brasília"> Encontro Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> OUTRAS EMPRESAS </li> 
+         <li> <a href="http://www.facbrasil.org.br/" target="blank" title="Fundação Assis Chateaubriand"> Fundação Assis Chateaubriand </a> </li> 
+         <li> <a href="http://www.dapress.com.br/" target="blank" title="D.A Press"> D.A Press </a> </li> 
+         <li> <a href="http://www.dalogistica.com.br/" target="blank" title="DALog"> DALog </a> </li> 
+        </ul> 
+       </div> 
+       <a href="http://www.diariosassociados.com.br" target="_blank" title="Diários Associados"> <i class="spr __lgg pull-right  hidden-sm hidden-xs"></i> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__t padding-top-10 padding-bottom-10"> 
+    <div class="container"> 
+     <p class="margin-bottom-0">© Classificados CB 2000 - <span class="year"></span>. todos os direitos reservados.</p> 
+    </div> 
+   </div> 
+  </footer> 
+  <!-- TEMPLATES ANÚNCIOS --> 
+  <script type="text/x-tmpl" id="tmpl-anuncio">
+<div class="classifieds__list">
+	<div class="classifieds__list--item"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1)  { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" alt="" title="" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } else if (
+					o.categoria_slug == 'empregos e formacao profissional' &&
+					(o.subcategoria_slug == 'procura por emprego' || o.subcategoria_slug == 'oferta de emprego')
+				) { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{%=o.subcategoria%} | {%=o.secao%}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 150)%}
+						{% if (o.descricao.length > 150) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <script type="text/x-tmpl" id="tmpl-anuncio-destaque">
+<div class="classifieds__list">
+	<div class="classifieds__list--item classified__highlited"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1) { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--highlighted">Anúncio destaque</span>
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } else if (
+					o.categoria_slug == 'empregos e formacao profissional' &&
+					(o.subcategoria_slug == 'procura por emprego' || o.subcategoria_slug == 'oferta de emprego')
+				) { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{%=o.subcategoria%} | {%=o.secao%}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 80)%}
+						{% if (o.descricao.length > 80) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <div class="modal fade" id="contact-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Contate o anunciante</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="#" id="form-proposta-1"> 
+       <input type="hidden" id="anuncio_id"> 
+       <input type="hidden" id="anuncio_titulo"> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="mensagem"> <span>Mensagem*:</span> <textarea name="" required id="proposta-mensagem-1" rows="5"></textarea> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-nome-1"> <span>Nome*:</span> <input type="text" required id="proposta-nome-1" placeholder="Digite o seu nome"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-email-1"> <span>Email*:</span> <input type="email" required id="proposta-email-1" placeholder="Digite o seu e-mail"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-telefone-1"> <span>Telefone:</span> <input type="text" class="js-numberPhone" id="proposta-telefone-1" placeholder="Digite o seu telefone"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for=""> <button type="submit" class="btn btn__secondary submit js-submit-contato">Enviar mensagem</button> </label> 
+        </fieldset> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="login-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Acesse sua conta</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/login/login_proc" method="post" class="js-login"> 
+       <fieldset> 
+        <label for="#"> <span>E-mail</span> <input type="text" class="js-login-email" name="email_login" placeholder="Digite o seu e-mail" tabindex="1" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="#" class="cf"> <span>Senha</span> <a href="#" class="lose-password" data-toggle="modal" tabindex="4" data-target="#lose-senha">Esqueci a minha senha</a> <input type="password" class="js-login-pass" name="senha_login" placeholder="Digite a sua senha" tabindex="2" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" tabindex="3" value="Entrar"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="lose-senha" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h4 class="modal-title" id="myModalLabel">Esqueci a minha senha</h4> 
+      <p class="modal-subtitle">Digite o endereço de e-mail abaixo e nós enviaremos um link para que você possa criar uma nova senha</p> 
+     </div> 
+     <div class="modal-body"> 
+      <iframe name="login-iframe" width="370" height="160" frameborder="0" src="http://centrallogins.uai.com.br/index.php?acao=esquecisenha"> &lt;script&gt;console.log('funfo');&lt;/script&gt; </iframe> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="register-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Cadastre-se agora</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/cadastro/cadastro_proc" method="post"> 
+       <fieldset> 
+        <label for="nome"> <span>Nome</span> <input name="nome" id="nome" type="text" placeholder="Digite o seu nome" tabindex="4" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="email"> <span>E-mail</span> <input name="email" id="email" type="text" placeholder="Digite o seu e-mail" tabindex="5" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="senha" class="cf"> <span>Senha</span> <input name="senha" id="senha" type="password" placeholder="Digite a sua senha" tabindex="6" required> </label> 
+       </fieldset> 
+       <p>Ao criar uma conta, estou automaticamente aceitando os <a href="/termos-de-servicos">Termos e serviços</a> e a <a href="/politica-de-privacidade">Política de Privacidade</a> do Classificados</p> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" value="Entrar" tabindex="7"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery-3.2.1.min.js"></script> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/bootstrap.min.js"></script> 
+  <script>
+
+	jQuery(document).ready(function() {
+		DesenhaFiltros.init(
+			{"filter_apply": {"categoria": [{"valor_fmt": "Eletr\u00f4nicos e Inform\u00e1tica", "valor": "eletronicos-e-informatica", "widget": "categoria"}], "subcategoria": [{"valor_fmt": "cameras e acessorios", "valor": "cameras-e-acessorios", "widget": "select"}], "estado": [{"valor_fmt": "DF", "valor": "df", "widget": null}]}, "filter_show": [{"titulo": "Categoria", "widget": "categoria", "ordem": 1, "nome": "categoria", "valores": [{"name": "Im\u00f3veis", "total": 14496, "valor": "imoveis"}, {"name": "Ve\u00edculos", "total": 3113, "valor": "veiculos"}, {"name": "Empregos e Forma\u00e7\u00e3o Profissional", "total": 631, "valor": "empregos-e-formacao-profissional"}, {"name": "Servi\u00e7os Profissionais", "total": 273, "valor": "servicos-profissionais"}, {"name": "Adulto", "total": 160, "valor": "adulto"}, {"name": "Eletr\u00f4nicos e Inform\u00e1tica", "total": 141, "valor": "eletronicos-e-informatica"}, {"name": "Com\u00e9rcio e Neg\u00f3cios", "total": 121, "valor": "comercio-e-negocios"}, {"name": "Turismo e Lazer", "total": 76, "valor": "turismo-e-lazer"}, {"name": "Para Sua Casa", "total": 64, "valor": "para-sua-casa"}, {"name": "Moda e Beleza", "total": 45, "valor": "moda-e-beleza"}, {"name": "Diversos", "total": 26, "valor": "diversos"}, {"name": "Pet", "total": 24, "valor": "pet"}, {"name": "Festas e Eventos", "total": 20, "valor": "festas-e-eventos"}, {"name": "Agricultura e Pecu\u00e1ria", "total": 14, "valor": "agricultura-e-pecuaria"}, {"name": "Beb\u00eas e Crian\u00e7as", "total": 10, "valor": "bebes-e-criancas"}, {"name": "Celulares e Tablets", "total": 10, "valor": "celulares-e-tablets"}, {"name": "M\u00fasica, Arte e Cultura", "total": 7, "valor": "musica-arte-e-cultura"}, {"name": "Esportes", "total": 5, "valor": "esportes"}]}, {"titulo": "Sub-Categoria", "widget": "select", "ordem": 3, "facet": true, "html": true, "nome": "subcategoria", "valores": [{"name": "Computadores e Acess\u00f3rios", "total": 31, "valor": "computadores-e-acessorios"}, {"name": "Servi\u00e7os e Assist\u00eancia (eletr\u00f4nicos e Inform\u00e1tica)", "total": 11, "valor": "servicos-e-assistencia-(eletronicos-e-informatica)"}, {"name": "Som e Acess\u00f3rios", "total": 9, "valor": "som-e-acessorios"}, {"name": "Tv", "total": 88, "valor": "tv"}, {"name": "V\u00eddeo Games - Consoles", "total": 2, "valor": "video-games-consoles"}]}, {"titulo": "Pre\u00e7o Min.", "widget": "input#1", "ordem": 15, "html": true, "filtro_comp": ">=", "template": {"datanumber": "min", "attribute": "preco_min", "id": "js-preco-min", "placeholder": "R$"}, "nome": "preco_min"}, {"titulo": "Pre\u00e7o M\u00e1x.", "widget": "input#2", "ordem": 16, "html": true, "filtro_comp": "<=", "template": {"datanumber": "max", "attribute": "preco_max", "id": "js-preco-max", "placeholder": "R$"}, "nome": "preco_max"}], "results": [], "page_info": {"total_hits": "0", "total_pages": 0, "current_page": 0, "hits_page": 0, "limit": 20, "offset": 0, "orderby": "mais-recentes", "breadcrumb": "cameras e acessorios "}},
+			"http://www.classificadoscb.com.br",
+			"http://www.classificadoscb.com.br/app/enviar_proposta_anuncio"
+		);
+
+		jQuery( window ).resize(function(e) {
+			DesenhaFiltros.modifica_estado_itens(e);
+		});
+	});
+
+	function formata_descricao(descricao) {
+		if (descricao.length > 150) {
+			return descricao.slice(0, 150) + " ...";
+		} else {
+			return descricao
+		}
+	}
+
+	var list;
+	var current;
+	var dimension2Value = '';
+
+	// Verifying buttons status
+	function verifyButtons(e) {
+		if (current <= 0) {
+			e.parent().find('.prev-img').attr("disabled", "disabled");
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().addClass('first');
+		}else if((current + 1) >= list.length){
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", "disabled");
+			e.parent().addClass('last');
+		}else{
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().removeClass('first');
+			e.parent().removeClass('last');
+		}
+	}
+
+	// Changing image
+	function changeImage(e) {
+		current = e.parent().data('current');
+		if (e.hasClass('next-img')) {
+			current++;
+			e.parent().data('current', current);
+		} else {
+			current--;
+			e.parent().data('current', current);
+		}
+		list = e.parent().siblings('.image__list').data('images');
+		if (typeof(list[current]) !== 'undefined') {
+			e.parent().css("background-image", "url("+list[current]+")");
+			e.parent().fadeIn(300);
+		}
+	}
+</script> 
+  <!-- SCRIPTS --> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.cookie.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/modernizr.2.6.2.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/moment-with-locales.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/tmpl.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/header-fix.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/nav-master.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/menu-category.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer-time.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery.hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/tab-sidebar.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/send-filters.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/chosen.jquery.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/dev.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.mask.min.js"></script>  
+ </body>
+</html>

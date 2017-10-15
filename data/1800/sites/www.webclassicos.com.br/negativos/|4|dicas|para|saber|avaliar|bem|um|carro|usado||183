@@ -1,0 +1,810 @@
+<!doctype html>
+<!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="pt-BR">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html dir="ltr" lang="pt-BR">
+ <!--<![endif]-->
+ <head>
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script> 
+  <meta charset"utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="icon" type="image/png" href="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/favicon.ico"> 
+  <title>4 dicas para saber avaliar bem um carro usado - WebClassicos</title> 
+  <!-- This site is optimized with the Yoast SEO plugin v4.7.1 - https://yoast.com/wordpress/plugins/seo/ --> 
+  <meta name="description" content="Comprar um veículo sempre representa um investimento alto, que deve ser feito com muito cuidado. Por isso, você deve ser bastante criterioso na hora de ava"> 
+  <meta name="robots" content="noodp"> 
+  <link rel="canonical" href="https://www.webclassicos.com.br/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> 
+  <meta property="og:locale" content="pt_BR"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:title" content="4 dicas para saber avaliar bem um carro usado - WebClassicos"> 
+  <meta property="og:description" content="Comprar um veículo sempre representa um investimento alto, que deve ser feito com muito cuidado. Por isso, você deve ser bastante criterioso na hora de ava"> 
+  <meta property="og:url" content="https://www.webclassicos.com.br/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> 
+  <meta property="og:site_name" content="WebClassicos"> 
+  <meta property="article:publisher" content="https://www.facebook.com/webclassicos"> 
+  <meta property="article:author" content="https://www.facebook.com/mentorescom"> 
+  <meta property="article:section" content="Dicas"> 
+  <meta property="article:published_time" content="2017-05-31T17:13:57-02:00"> 
+  <meta property="article:modified_time" content="2017-08-01T10:14:18-02:00"> 
+  <meta property="og:updated_time" content="2017-08-01T10:14:18-02:00"> 
+  <meta property="og:image" content="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg"> 
+  <meta property="og:image:width" content="1000"> 
+  <meta property="og:image:height" content="667"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:description" content="Comprar um veículo sempre representa um investimento alto, que deve ser feito com muito cuidado. Por isso, você deve ser bastante criterioso na hora de ava"> 
+  <meta name="twitter:title" content="4 dicas para saber avaliar bem um carro usado - WebClassicos"> 
+  <meta name="twitter:image" content="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg"> 
+  <meta name="twitter:creator" content="@mentorescom"> 
+  <!-- / Yoast SEO plugin. --> 
+  <link rel="dns-prefetch" href="//www.webclassicos.com.br"> 
+  <link rel="dns-prefetch" href="//fonts.googleapis.com"> 
+  <link rel="dns-prefetch" href="//s.w.org"> 
+  <link rel="alternate" type="application/rss+xml" title="Feed para WebClassicos »" href="https://www.webclassicos.com.br/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Feed de comentários para WebClassicos » 4 dicas para saber avaliar bem um carro usado" href="https://www.webclassicos.com.br/4-dicas-para-saber-avaliar-bem-um-carro-usado/feed/"> 
+  <!-- <link rel='stylesheet' id='wsl-widget-css'  href='https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/css/style.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='storefront-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/storefront/style.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/9ac7f8aac98ccef98d421659b90c0cb4/1506639439index.css" media="all"> 
+  <style id="storefront-style-inline-css" type="text/css">
+.main-navigation ul li a,
+.site-title a,
+ul.menu li a,
+.site-branding h1 a,
+.site-footer .storefront-handheld-footer-bar a:not(.button),
+button.menu-toggle,
+button.menu-toggle:hover {
+color: #d5d9db;
+}
+button.menu-toggle,
+button.menu-toggle:hover {
+border-color: #d5d9db;
+}
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-title a:hover,
+a.cart-contents:hover,
+.site-header-cart .widget_shopping_cart a:hover,
+.site-header-cart:hover > li > a,
+.site-header ul.menu li.current-menu-item > a {
+color: #ffffff;
+}
+table th {
+background-color: #f8f8f8;
+}
+table tbody td {
+background-color: #fdfdfd;
+}
+table tbody tr:nth-child(2n) td {
+background-color: #fbfbfb;
+}
+.site-header,
+.secondary-navigation ul ul,
+.main-navigation ul.menu > li.menu-item-has-children:after,
+.secondary-navigation ul.menu ul,
+.storefront-handheld-footer-bar,
+.storefront-handheld-footer-bar ul li > a,
+.storefront-handheld-footer-bar ul li.search .site-search,
+button.menu-toggle,
+button.menu-toggle:hover {
+background-color: #2c2d33;
+}
+p.site-description,
+.site-header,
+.storefront-handheld-footer-bar {
+color: #9aa0a7;
+}
+.storefront-handheld-footer-bar ul li.cart .count,
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+background-color: #d5d9db;
+}
+.storefront-handheld-footer-bar ul li.cart .count {
+color: #2c2d33;
+}
+.storefront-handheld-footer-bar ul li.cart .count {
+border-color: #2c2d33;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #484c51;
+}
+.widget h1 {
+border-bottom-color: #484c51;
+}
+body,
+.secondary-navigation a,
+.onsale,
+.pagination .page-numbers li .page-numbers:not(.current), .woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+color: #43454b;
+}
+.widget-area .widget a,
+.hentry .entry-header .posted-on a,
+.hentry .entry-header .byline a {
+color: #75777d;
+}
+a  {
+color: #96588a;
+}
+a:focus,
+.button:focus,
+.button.alt:focus,
+.button.added_to_cart:focus,
+.button.wc-forward:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+outline-color: #96588a;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+background-color: #96588a;
+border-color: #96588a;
+color: #ffffff;
+}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+background-color: #7d3f71;
+border-color: #7d3f71;
+color: #ffffff;
+}
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current, .widget a.button.checkout {
+background-color: #2c2d33;
+border-color: #2c2d33;
+color: #ffffff;
+}
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+background-color: #13141a;
+border-color: #13141a;
+color: #ffffff;
+}
+#comments .comment-list .comment-content .comment-text {
+background-color: #f8f8f8;
+}
+.site-footer {
+background-color: #f0f0f0;
+color: #61656b;
+}
+.site-footer a:not(.button) {
+color: #2c2d33;
+}
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+color: #494c50;
+}
+#order_review,
+#payment .payment_methods > li .payment_box {
+background-color: #ffffff;
+}
+#payment .payment_methods > li {
+background-color: #fafafa;
+}
+#payment .payment_methods > li:hover {
+background-color: #f5f5f5;
+}
+@media screen and ( min-width: 768px ) {
+.secondary-navigation ul.menu a:hover {
+color: #b3b9c0;
+}
+.secondary-navigation ul.menu a {
+color: #9aa0a7;
+}
+.site-header-cart .widget_shopping_cart,
+.main-navigation ul.menu ul.sub-menu,
+.main-navigation ul.nav-menu ul.children {
+background-color: #24252b;
+}
+}
+</style> 
+  <!-- <link rel='stylesheet' id='wordpress-popular-posts-css'  href='https://www.webclassicos.com.br/wp-content/plugins/wordpress-popular-posts/style/wpp.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='storefront-woocommerce-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/storefront/assets/sass/woocommerce/woocommerce.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/11f90484e1f461daf39c5a3e923e48c5/1506639428index.css" media="all"> 
+  <style id="storefront-woocommerce-style-inline-css" type="text/css">
+a.cart-contents,
+.site-header-cart .widget_shopping_cart a {
+color: #d5d9db;
+}
+table.cart td.product-remove,
+table.cart td.actions {
+border-top-color: #ffffff;
+}
+.woocommerce-tabs ul.tabs li.active a,
+ul.products li.product .price,
+.onsale,
+.widget_search form:before,
+.widget_product_search form:before {
+color: #43454b;
+}
+.woocommerce-breadcrumb a,
+a.woocommerce-review-link,
+.product_meta a {
+color: #75777d;
+}
+.onsale {
+border-color: #43454b;
+}
+.star-rating span:before,
+.quantity .plus, .quantity .minus,
+p.stars a:hover:after,
+p.stars a:after,
+.star-rating span:before,
+#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+color: #96588a;
+}
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider .ui-slider-handle {
+background-color: #96588a;
+}
+.woocommerce-breadcrumb,
+#reviews .commentlist li .comment_container {
+background-color: #f8f8f8;
+}
+.order_details {
+background-color: #f8f8f8;
+}
+.order_details > li {
+border-bottom: 1px dotted #e3e3e3;
+}
+.order_details:before,
+.order_details:after {
+background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent 33.33%)
+}
+p.stars a:before,
+p.stars a:hover~a:before,
+p.stars.selected a.active~a:before {
+color: #43454b;
+}
+p.stars.selected a.active:before,
+p.stars:hover a:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active:before {
+color: #96588a;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+background-color: #96588a;
+color: #ffffff;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+background-color: #7d3f71;
+border-color: #7d3f71;
+color: #ffffff;
+}
+@media screen and ( min-width: 768px ) {
+.site-header-cart .widget_shopping_cart,
+.site-header .product_list_widget li .quantity {
+color: #9aa0a7;
+}
+}
+</style> 
+  <!-- <link rel='stylesheet' id='storefront-child-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/style.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='owl-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/owl.carousel.min.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='component-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/component.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='https://www.webclassicos.com.br/wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/67e31162316ebe8402858f9bd70a9b4f/1506639428index.css" media="all"> 
+  <script type="text/javascript">ajaxurl='https://www.webclassicos.com.br/wp-admin/admin-ajax.php';pf_nonce='6481e4892c';</script>
+  <script src="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/84ebdf6bc28caf207010fa90fae1fdf3/1506639428index.js" type="text/javascript"></script> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-includes/js/jquery/jquery.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-includes/js/jquery/jquery-migrate.min.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/plugins/add-to-any/addtoany.min.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/bootstrap.min.js'></script> --> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var WpDisableAsyncLinks = {"wp-disable-google-fonts":"https:\/\/fonts.googleapis.com\/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,900|Titillium+Web:300,300i,400,600,700&subset=latin,latin-ext"};
+/* ]]> */
+</script> 
+  <script src="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/bbd85735c8b40d373227f5a968bb4d8a/1506639428index.js" type="text/javascript"></script> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/plugins/wp-disable/js/css-lazy-load.js'></script> --> 
+  <link rel="https://api.w.org/" href="https://www.webclassicos.com.br/wp-json/"> 
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.webclassicos.com.br/xmlrpc.php?rsd"> 
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.webclassicos.com.br/wp-includes/wlwmanifest.xml"> 
+  <meta name="generator" content="WordPress 4.7.6"> 
+  <meta name="generator" content="WooCommerce 3.0.9"> 
+  <link rel="shortlink" href="https://www.webclassicos.com.br/?p=6882"> 
+  <link rel="alternate" type="application/json+oembed" href="https://www.webclassicos.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F"> 
+  <link rel="alternate" type="text/xml+oembed" href="https://www.webclassicos.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F&amp;format=xml"> 
+  <script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
+Share: "Compartilhar",
+Save: "Salvar",
+Subscribe: "Inscrever",
+Email: "Email",
+Bookmark: "Favoritos",
+ShowAll: "Mostrar tudo",
+ShowLess: "Mostrar menos",
+FindServices: "Procurar serviço(s)",
+FindAnyServiceToAddTo: "Encontrar rapidamente qualquer serviço para",
+PoweredBy: "Serviço fornecido por",
+ShareViaEmail: "Share via email",
+SubscribeViaEmail: "Subscribe via email",
+BookmarkInYourBrowser: "Adicionar aos favoritos",
+BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+AddToYourFavorites: "Adicionar a favoritos",
+SendFromWebOrProgram: "Send from any email address or email program",
+EmailProgram: "Email program",
+More: "More&#8230;"
+};
+</script> 
+  <script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async></script> 
+  <noscript>
+   <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+  </noscript> 
+  <!-- WordPress Popular Posts v3.3.4 --> 
+  <script type="text/javascript">
+var sampling_active = 1;
+var sampling_rate   = 100;
+var do_request = false;
+if ( !sampling_active ) {
+do_request = true;
+} else {
+var num = Math.floor(Math.random() * sampling_rate) + 1;
+do_request = ( 1 === num );
+}
+if ( do_request ) {
+/* Create XMLHttpRequest object and set variables */
+var xhr = ( window.XMLHttpRequest )
+? new XMLHttpRequest()
+: new ActiveXObject( "Microsoft.XMLHTTP" ),
+url = 'https://www.webclassicos.com.br/wp-admin/admin-ajax.php',
+params = 'action=update_views_ajax&token=e03387ce04&wpp_id=6882';
+/* Set request method and target URL */
+xhr.open( "POST", url, true );
+/* Set request header */
+xhr.setRequestHeader( "Content-type", "application/x-www-form-urlencoded" );
+/* Hook into onreadystatechange */
+xhr.onreadystatechange = function() {
+if ( 4 === xhr.readyState && 200 === xhr.status ) {
+if ( window.console && window.console.log ) {
+window.console.log( xhr.responseText );
+}
+}
+};
+/* Send request */
+xhr.send( params );
+}
+</script> 
+  <!-- End WordPress Popular Posts v3.3.4 --> 
+  <style type="text/css" id="custom-background-css">
+body.custom-background { background-color: ##ffffff; }
+</style> 
+  <!--[if (IE 6) | (IE 7) | (IE 8)  ]><!--> 
+  <!--<link rel="stylesheet" type="text/css" media="all" async href="https://www.webclassicos.com.br/wp-content/themes/storefront/css/style-shit.css" />--> 
+  <!--<![endif]--> 
+  <!--[if lt IE 9]>
+<script src="https://www.webclassicos.com.br/wp-content/themes/storefront/js/html5.js" async type="text/javascript"></script>
+<script src="https://www.webclassicos.com.br/wp-content/themes/storefront/js/respond.min.js" async type="text/javascript"></script>
+<![endif]--> 
+  <!-- <link rel='stylesheet' id='storefront-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/style.css' async type='text/css' media='print' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/8332e71d77108c04c5fb6291c2924571/1506639428index.css" media="print"> 
+  <style>
+.subscription-details{
+display: none !important;
+}
+</style> 
+  <script>
+(function (i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function () {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o),
+m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-269519-21', 'webclassicos.com.br');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 975104042;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script> 
+  <noscript> &lt;div style="display:inline;"&gt; &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/975104042/?guid=ON&amp;amp;script=0"&gt;  
+  </noscript> 
+ </head> 
+ <body class="post-template-default single single-post postid-6882 single-format-standard custom-background dicas term-category-dicas taxonomy-category has-thumbnail right-sidebar woocommerce-active"> 
+  <noscript>
+    Para completa funcionalidade deste site é necessário habilitar o JavaScript. Aqui estão as 
+   <a href="http://www.enable-javascript.com/pt/" target="_blank"> instruções de como habilitar o JavaScript no seu navegador.</a> 
+  </noscript> 
+  <header class="main-header hidden-xs hidden-sm"> 
+   <div class="row"> 
+    <div class="col-sm-3"> 
+     <h2 class="logo"> <a href="https://www.webclassicos.com.br"> <span class="sr-only"> WebClassicos - Classificados de carros antigos de todo o Brasil. Comprar e Vender clássicos é muito mais fácil no webclassicos.com.br </span> </a> </h2> 
+    </div> 
+    <div class="col-sm-5 col-lg-4"> 
+     <nav class="nav-menu pull-left"> 
+      <div class="menu-principal-container">
+       <ul id="menu-principal" class="menu">
+        <li id="menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-855"><a href="https://www.webclassicos.com.br/quem-somos/">Quem Somos</a></li> 
+        <li id="menu-item-8475" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8475"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Classificados</a></li> 
+        <li id="menu-item-6581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6581"><a href="https://www.webclassicos.com.br/galeria/">Galeria</a></li> 
+        <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-585"><a href="https://www.webclassicos.com.br/blog/">Blog</a></li> 
+        <li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-856"><a href="https://www.webclassicos.com.br/contato/">Contato</a></li> 
+       </ul>
+      </div> 
+     </nav> 
+    </div> 
+    <div class="col-sm-2"> 
+     <div class="conta"> 
+      <a class="create-account" href="#">Criar Conta/Entrar</a> 
+     </div> 
+    </div> 
+    <div class="col-sm-2"> 
+     <a id="header-create-advertisement" href="https://www.webclassicos.com.br/criar-anuncio/" class="btn-principal">Criar anúncio</a> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="modal fade" id="login-failed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-header"> 
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+     </div> 
+     <div class="modal-body"> 
+      <h2>Problemas ao realizar o Login</h2> 
+      <p> O e-mail ou senha inseridos estão <strong>incorretos</strong>, por favor tente novamente.</p> 
+      <p> Caso não lembre sua senha, você pode recupera-la <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">aqui</a>.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+if (window.location.href.indexOf("?toggle-error-login=true") > -1){
+jQuery('#login-failed').modal('toggle');
+}
+</script> 
+  <script src="//cdn.trackduck.com/toolbar/prod/td.js" async data-trackduck-id="57d2d00bc5262a17797bdda5"></script> 
+  <header id="mobile" class="hidden-md hidden-lg"> 
+   <div class="col-xs-2"> 
+    <button class="btn-nav"> <span class="span-1"></span> <span class="span-2"></span> <span class="span-3"></span> </button> 
+   </div> 
+   <div class="col-xs-8"> 
+    <div class="logo"> 
+     <h2 id="logo"> <a href="https://www.webclassicos.com.br"> <span class="sr-only"> WebClassicos </span> </a> </h2> 
+    </div> 
+   </div> 
+   <div class="col-xs-2 no-padding"> 
+    <!-- <a id="open-search" class="actions-menu" href="#" ><i class="fa fa-search" aria-hidden="true"></i></a> --> 
+    <a class="actions-menu" href="#"><i class="fa fa-user" aria-hidden="true"></i></a> 
+   </div> 
+   <div class="menu-mob visible-xs visible-sm"> 
+    <div class="col-xs-12" style="padding: 0px"> 
+     <div id="dl-menu" class="dl-menuwrapper"> 
+      <!--<button class="dl-trigger">Open Menu</button>--> 
+      <ul id="menu-principal-1" class="main-menu">
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-855"><a href="https://www.webclassicos.com.br/quem-somos/">Quem Somos</a></li> 
+       <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-8475"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Classificados</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6581"><a href="https://www.webclassicos.com.br/galeria/">Galeria</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-585"><a href="https://www.webclassicos.com.br/blog/">Blog</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-856"><a href="https://www.webclassicos.com.br/contato/">Contato</a></li> 
+      </ul> 
+     </div>
+     <!-- /dl-menuwrapper --> 
+    </div> 
+   </div> 
+   <div class="quick-search"> 
+    <div class="form"> 
+     <form role="search" method="get" id="searchform" action="https://www.webclassicos.com.br/"> 
+      <div>
+       <label class="screen-reader-text" for="s">Procure Aqui</label> 
+       <input type="text" value="" name="s" id="s"> 
+       <input type="submit" id="searchsubmit" value="Pesquisar"> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+   <div class="login-mobile"> 
+    <div class="head"> 
+     <div class="row"> 
+      <div class="col-xs-10"> 
+       <h3>Identifique-se para continuar</h3> 
+      </div> 
+      <div class="col-xs-2 no-padding"> 
+       <button><i class="fa fa-times" aria-hidden="true"></i></button> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="centralize"> 
+     <div class="content"> 
+      <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+      <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+      <div class="wp-social-login-widget"> 
+       <div class="wp-social-login-connect-with">
+        Conectar com:
+       </div> 
+       <div class="wp-social-login-provider-list"> 
+        <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+        <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+       </div> 
+       <div class="wp-social-login-widget-clearing"></div> 
+      </div> 
+      <!-- wsl_render_auth_widget --> 
+      <form class="woocomerce-form woocommerce-form-login login" method="post" action="/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> 
+       <p class="form-row form-row-first"> <label for="username">Nome de usuário ou e-mail <span class="required">*</span></label> <input type="text" class="input-text" name="username" id="username"> </p> 
+       <p class="form-row form-row-last"> <label for="password">Senha <span class="required">*</span></label> <input class="input-text" type="password" name="password" id="password"> </p> 
+       <div class="clear"></div> 
+       <p class="form-row"> <input type="hidden" id="_wpnonce" name="_wpnonce" value="69880af741"><input type="hidden" name="_wp_http_referer" value="/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> <input type="submit" class="button" name="login" value="Entrar"> <input type="hidden" name="redirect" value=""> <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline"> <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Lembre-me</span> </label> </p> 
+       <p class="lost_password"> <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">Perdeu sua senha?</a> </p> 
+       <div class="clear"></div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="overlay-login hidden-xs hidden-sm" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/banner.png'); "> 
+   <div class="close-login"> 
+    <div class="col-sm-6"> 
+     <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/Logo.svg" alt="WebClassicos"> 
+    </div> 
+    <div class="col-sm-6"> 
+     <button><i class="fa fa-times" aria-hidden="true"></i></button> 
+    </div> 
+   </div> 
+   <div class="content-login"> 
+    <div class="container"> 
+     <div class="centralize"> 
+      <div class="row"> 
+       <div class="col-sm-4 col-sm-offset-1"> 
+        <h2>Entrar</h2> 
+        <h3>Já tem conta? Identifique-se para continuar</h3> 
+        <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+        <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+        <div class="wp-social-login-widget"> 
+         <div class="wp-social-login-connect-with">
+          Conectar com:
+         </div> 
+         <div class="wp-social-login-provider-list"> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+         </div> 
+         <div class="wp-social-login-widget-clearing"></div> 
+        </div> 
+        <!-- wsl_render_auth_widget --> 
+        <form class="woocomerce-form woocommerce-form-login login" method="post" action="/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> 
+         <p class="form-row form-row-first"> <label for="username">Nome de usuário ou e-mail <span class="required">*</span></label> <input type="text" class="input-text" name="username" id="username"> </p> 
+         <p class="form-row form-row-last"> <label for="password">Senha <span class="required">*</span></label> <input class="input-text" type="password" name="password" id="password"> </p> 
+         <div class="clear"></div> 
+         <p class="form-row"> <input type="hidden" id="_wpnonce" name="_wpnonce" value="69880af741"><input type="hidden" name="_wp_http_referer" value="/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> <input type="submit" class="button" name="login" value="Entrar"> <input type="hidden" name="redirect" value=""> <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline"> <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Lembre-me</span> </label> </p> 
+         <p class="lost_password"> <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">Perdeu sua senha?</a> </p> 
+         <div class="clear"></div> 
+        </form> 
+       </div> 
+       <div class="col-sm-4 col-sm-offset-2"> 
+        <h2>Criar Conta</h2> 
+        <h3>Primeira vez? Crie uma conta para continuar</h3> 
+        <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+        <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+        <div class="wp-social-login-widget"> 
+         <div class="wp-social-login-connect-with">
+          Conectar com:
+         </div> 
+         <div class="wp-social-login-provider-list"> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2F4-dicas-para-saber-avaliar-bem-um-carro-usado%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+         </div> 
+         <div class="wp-social-login-widget-clearing"></div> 
+        </div> 
+        <!-- wsl_render_auth_widget --> 
+        <form method="post" class="register"> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_email">Nome <span class="required">*</span></label> <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="billing_first_name" id="reg_billing_first_name" value=""> </p> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_email">Endereço de e-mail <span class="required">*</span></label> <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" value=""> </p> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_password">Senha <span class="required">*</span></label> <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password"> </p> 
+         <!-- Spam Trap --> 
+         <div style="left: -999em; position: absolute;">
+          <label for="trap">Anti-spam</label>
+          <input type="text" name="email_2" id="trap" tabindex="-1" autocomplete="off">
+         </div> 
+         <p class="woocomerce-FormRow form-row"> <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="79755fb20f"><input type="hidden" name="_wp_http_referer" value="/4-dicas-para-saber-avaliar-bem-um-carro-usado/"> <input type="submit" class="woocommerce-Button button" name="register" value="Registrar"> </p> 
+        </form> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- SOBRE --> 
+  <section class="section section-blog-page"> 
+   <div class="container"> 
+    <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="https://www.webclassicos.com.br/" rel="v:url" property="v:title">Home</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="https://www.webclassicos.com.br/blog/" rel="v:url" property="v:title">Blog</a> » <span class="breadcrumb_last">4 dicas para saber avaliar bem um carro usado</span></span></span></span></p> 
+    <div class="row"> 
+     <div class="col-sm-8 col-sm-offset-2"> 
+      <article class="post-item"> 
+       <div class="post-image"> 
+        <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/favicon.ico" data-lazy-src="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg" width="1000" height="667" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt srcset="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg 1000w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-300x200.jpeg 300w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-768x512.jpeg 768w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-540x360.jpeg 540w" sizes="(max-width: 1000px) 100vw, 1000px">
+        <noscript>
+         <img width="1000" height="667" src="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" srcset="https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1.jpeg 1000w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-300x200.jpeg 300w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-768x512.jpeg 768w, https://www.webclassicos.com.br/wp-content/uploads/2017/05/4-dicas-para-saber-avaliar-bem-um-carro-usado-1-540x360.jpeg 540w" sizes="(max-width: 1000px) 100vw, 1000px">
+        </noscript> 
+       </div> 
+       <div class="posted">
+        Postado 31/05/2017 por 
+        <strong>Bruno Paes</strong>
+       </div> 
+       <h1 class="post-title title-1">4 dicas para saber avaliar bem um carro usado</h1> 
+       <div class="tags"> 
+       </div> 
+       <div class="desc"> 
+        <p>Comprar um veículo sempre representa um investimento alto, que deve ser feito com <a href="https://www.webclassicos.com.br/5-tecnicas-de-negociacao-para-vender-bem/?utm_source=blog&amp;utm_campaign=rc_blogpost" target="_blank" rel="noopener noreferrer">muito cuidado</a>. Por isso, você deve ser bastante criterioso na hora de avaliar um carro usado, para que a aquisição não se transforme em dor de cabeça no futuro.</p> 
+        <p>Quem deseja adquirir um carro clássico, precisa de atenção especial. Esses modelos foram fabricados há muitos anos e, a maior parte deles apresenta&nbsp;uma quilometragem mais avançada. E mesmo aqueles menos rodados, que pertenceram apenas a colecionadores, podem precisar de peças novas para rodarem.</p> 
+        <p>Antes de fechar o negócio, é primordial levar o carro a um mecânico de confiança para fazer uma avaliação detalhada, principalmente se você não conhece a procedência do veículo. Mas, antes de chegar a esse estágio, existem algumas verificações que você mesmo pode fazer.</p> 
+        <p>Veja abaixo 4 dicas para saber avaliar bem um carro usado:</p> 
+        <h2>1. Pesquise o histórico do veículo</h2> 
+        <p>Com o documento do carro em mãos, use a internet para saber um pouco mais sobre o histórico dele. No site do Detran do seu estado você consegue saber se:</p> 
+        <ul> 
+         <li>ele possui multas;</li> 
+         <li>está com a situação documental regularizada;</li> 
+         <li>seus números de placa e chassi batem com o que está impresso no documento.</li> 
+        </ul> 
+        <p>Problemas legais, que eventualmente surjam após a transferência, podem trazer muitas preocupações futuras&nbsp;para você.</p> 
+        <p>Se o veículo for muito antigo, tente encontrar algo sobre a história dele, se é um carro de família, quais foram seus donos anteriores.</p> 
+        <h2>2. Avalie o estado da carroceria</h2> 
+        <p>Quando for <a href="https://www.webclassicos.com.br/como-preparar-o-carro-para-uma-avaliacao-antes-da-venda/?utm_source=blog&amp;utm_campaign=rc_blogpost" target="_blank" rel="noopener noreferrer">avaliar um veículo</a> usado, marque um horário durante o dia. Sob a luz do sol, procure por marcas de remendo na carroceria e veja se a pintura não tem nenhuma parte fosca ou irregular.</p> 
+        <p>As portas, o capô e a tampa do porta-malas devem se abrir e fechar sem dificuldade, encaixando-se perfeitamente. Se houver qualquer desalinhamento, pode ser sinal de que aquele veículo já sofreu alguma avaria grave.</p> 
+        <h2>3. Verifique o acabamento interno</h2> 
+        <p>Muitos carros, mesmo os mais antigos, possuem uma grande quantidade de plásticos em seu acabamento interno, que se desgastam rapidamente com o uso.</p> 
+        <p>Veja se o volante e a manopla de câmbio não estão com aspecto brilhante, ou descascando, o que pode ser indício de quilometragem avançada. Os bancos também não devem possuir manchas, assim como a forração do teto.</p> 
+        <p>Dê uma volta no quarteirão com os vidros fechados e o som desligado, para verificar se não há nenhum barulho nas peças internas.</p> 
+        <h2>4. Confira se não há barulhos estranhos</h2> 
+        <p>Ao andar no carro, procure passar por uma rua irregular, que permita que você ouça a suspensão trabalhando. Veja se não há rangidos ou batidas secas. Ao frear, fique atento aos chiados que podem vir do sistema de freios.</p> 
+        <p>Em relação ao motor, um som agudo ao ligar o carro pode ser sinal de que alguma correia está desgastada e prestes a se romper.</p> 
+        <p>Com esses cuidados, certamente você tomará uma boa decisão na hora de avaliar um carro usado. Se você gostou desse conteúdo, tem alguma outra sugestão ou dúvida, participe deixando seu comentário!</p> 
+       </div> 
+      </article> 
+     </div> 
+    </div> 
+    <div class="blog-nav"> 
+     <div class="next-page"> 
+      <a href="https://www.webclassicos.com.br/5-dicas-ao-tirar-a-foto-do-seu-carro-antes-de-anunciar/"> <strong>Próximo <i class="fa fa-angle-right" aria-hidden="true"></i> </strong> <h4 class="desc hidden-xs hidden-sm">5 dicas ao tirar a foto do seu carro antes de anunciar</h4> </a> 
+     </div> 
+     <div class="prev-page"> 
+      <a href="https://www.webclassicos.com.br/shelby-cobra-saiba-mais-dessa-combinacao-de-elegancia-e-potencia/"> <strong><i class="fa fa-angle-left" aria-hidden="true"></i> Anterior</strong> <h4 class="desc hidden-xs hidden-sm">Shelby Cobra: saiba mais dessa combinação de elegância e potência!</h4> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="rede-sociais-desktop hidden-xs hidden-sm"> 
+    <div class="container"> 
+     <div class="col-md-8"> 
+      <h3><strong>Conecte-se!</strong> Fique por dentro de todas as novidades do WebClassicos.</h3> 
+     </div> 
+     <div class="col-md-4"> 
+      <div class="rede-sociais"> 
+       <ul> 
+        <li><a href="https://www.facebook.com/webclassicos" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+        <li><a href="https://www.instagram.com/webclassicos.com.br/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container"> 
+    <div class="rede-sociais hidden-md hidden-lg"> 
+     <ul> 
+      <li><a href="https://www.facebook.com/webclassicos"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+      <li><a href="https://www.instagram.com/webclassicos.com.br/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+     </ul> 
+    </div> 
+    <div class="aviso"> 
+     <p> AVISO:<br> </p>
+     <p>O WebClassicos apenas disponibiliza espaço para divulgação de anúncios de motos e carros antigos, não participando das negociações. Fique atento e evite fraudes.</p> 
+     <p></p> 
+    </div> 
+    <div class="menus-fast"> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>WebClassicos</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/classificados">Classificados</a></li> 
+       <li><a href="https://www.webclassicos.com.br/quem-somos">Quem Somos</a></li> 
+       <li><a href="https://www.webclassicos.com.br/galeria">Galeria</a></li> 
+       <li><a href="https://www.webclassicos.com.br/blog">Blog</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>Institucional</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/dicas-de-compra">Dicas de compra</a></li> 
+       <li><a href="https://www.webclassicos.com.br/dicas-de-venda">Dicas de venda</a></li> 
+       <li><a href="https://www.webclassicos.com.br/como-anunciar-seu-classico">Como anunciar</a></li> 
+       <li><a href="https://www.webclassicos.com.br/perguntas-frequentes">FAQ</a></li> 
+       <li><a href="https://www.webclassicos.com.br/contato">Contato</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>Lojistas</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/modalidade-lojistas">Planos e Preços</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="terms"> 
+     <a href="https://www.webclassicos.com.br"> <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/Logo.svg" alt="WebClássicos"> </a> 
+     <div class="content"> 
+      <p>O uso deste site está sujeito aos termos e condições do&nbsp;<a href="https://www.webclassicos.com.br/termos-de-uso/">Termos de Uso</a>&nbsp;e&nbsp;<a href="https://www.webclassicos.com.br/politica-de-privacidade/">Política de privacidade</a>.</p> 
+      <p>© Webclassicos. Todos os direitos reservados.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script src="https://use.fontawesome.com/35e17c9b31.js" async></script> 
+  <!-- Hotjar Tracking Code for https://www.webclassicos.com.br/ --> 
+  <!-- <script>
+(function(h,o,t,j,a,r){
+h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+h._hjSettings={hjid:594768,hjsv:5};
+a=o.getElementsByTagName('head')[0];
+r=o.createElement('script');r.async=1;
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> --> 
+  <!-- Start of CartStack API Script --> 
+  <script src="https://app.cartstack.com/br/activeAPI/load.js" type="text/javascript"></script> 
+  <!-- End of CartStack API Script --> 
+  <svg id="html-svg" style="display:none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <symbol id="icon-mentores" viewbox="0 0 30 32"> 
+    <title>mentores</title> 
+    <path class="path1" d="M29.603 0v9.078l-6.429-9.078h-0.687v9.498h-6.964v-4.317h5.839v-0.637h-5.839v-3.906h6.209v-0.637h-6.936l-6.455 9.066v-9.066h-0.81l-7.531 10.136h0.726l6.951-9.109v9.109h0.74l6.464-9.074v9.074h8.243v-9.077l6.43 9.077h0.687v-10.135h-0.638zM7.311 0.906l0.403-0.541h0.011l-0.414 0.541z"></path> 
+    <path class="path2" d="M3.317 11.445h4.339v9.498h0.638v-9.498h4.159v-0.637h-9.136z"></path> 
+    <path class="path3" d="M11.459 15.875c0 0.71 0.102 1.391 0.303 2.026 0.202 0.64 0.503 1.207 0.894 1.688 0.394 0.484 0.889 0.872 1.472 1.152s1.262 0.421 2.015 0.421c0.754 0 1.432-0.142 2.015-0.421s1.079-0.667 1.473-1.152c0.391-0.481 0.692-1.048 0.894-1.688 0.201-0.636 0.303-1.317 0.303-2.026s-0.102-1.39-0.303-2.026c-0.202-0.639-0.503-1.207-0.894-1.688-0.394-0.484-0.888-0.873-1.471-1.158-0.584-0.284-1.262-0.428-2.017-0.428s-1.432 0.144-2.016 0.428c-0.583 0.285-1.078 0.674-1.471 1.158-0.392 0.481-0.693 1.049-0.895 1.688-0.201 0.635-0.303 1.317-0.303 2.026zM12.396 13.989c0.188-0.568 0.458-1.064 0.802-1.473 0.341-0.406 0.764-0.728 1.258-0.958s1.061-0.345 1.688-0.345c0.628 0 1.196 0.117 1.689 0.345 0.493 0.23 0.916 0.552 1.258 0.958 0.344 0.409 0.613 0.905 0.801 1.473 0.189 0.573 0.29 1.209 0.299 1.884-0.009 0.681-0.11 1.317-0.299 1.889-0.188 0.568-0.457 1.064-0.801 1.472-0.342 0.407-0.765 0.73-1.258 0.958-0.493 0.23-1.061 0.347-1.689 0.347s-1.195-0.117-1.688-0.347c-0.494-0.228-0.917-0.55-1.258-0.958-0.343-0.409-0.613-0.904-0.802-1.472-0.19-0.572-0.29-1.208-0.299-1.884 0.009-0.681 0.109-1.316 0.299-1.889z"></path> 
+    <path class="path4" d="M26.332 16.317c0.401-0.121 0.751-0.302 1.041-0.54 0.293-0.239 0.527-0.542 0.692-0.899 0.166-0.356 0.25-0.766 0.25-1.22 0-0.936-0.283-1.655-0.843-2.135-0.552-0.475-1.329-0.715-2.308-0.715h-3.495v10.136h0.638v-4.448h2.254l3.833 4.448h0.842l-3.844-4.461c0.335-0.023 0.649-0.079 0.939-0.166zM22.307 15.858v-4.413h2.857c0.86 0 1.503 0.191 1.909 0.568 0.402 0.373 0.605 0.926 0.605 1.645 0 0.355-0.063 0.669-0.188 0.936s-0.299 0.496-0.52 0.684c-0.222 0.189-0.489 0.334-0.793 0.43-0.309 0.099-0.649 0.149-1.012 0.149h-2.857z"></path> 
+    <path class="path5" d="M21.287 27.324c-0.314-0.191-0.687-0.345-1.108-0.458-0.394-0.106-0.83-0.223-1.298-0.343-0.42-0.101-0.835-0.198-1.234-0.287-0.383-0.088-0.73-0.211-1.030-0.367-0.289-0.152-0.526-0.35-0.705-0.592-0.171-0.231-0.258-0.547-0.258-0.944 0-0.4 0.086-0.733 0.257-0.987 0.176-0.262 0.402-0.477 0.673-0.635 0.277-0.163 0.591-0.277 0.934-0.341 0.807-0.151 1.557-0.122 2.21 0.032 0.356 0.086 0.666 0.228 0.924 0.426 0.254 0.197 0.462 0.456 0.618 0.771 0.156 0.316 0.244 0.718 0.262 1.192l0.006 0.176h0.64l-0.009-0.191c-0.029-0.569-0.141-1.060-0.333-1.46-0.195-0.403-0.459-0.733-0.786-0.983-0.323-0.246-0.704-0.426-1.132-0.537-0.421-0.108-0.885-0.163-1.38-0.163-0.403 0-0.814 0.042-1.22 0.127-0.416 0.086-0.797 0.232-1.132 0.433-0.343 0.206-0.625 0.486-0.84 0.833-0.219 0.351-0.329 0.791-0.329 1.308 0 0.508 0.107 0.93 0.316 1.255 0.207 0.32 0.484 0.581 0.823 0.772 0.328 0.185 0.7 0.332 1.105 0.436 0.391 0.1 0.788 0.198 1.179 0.288 0.375 0.091 0.77 0.181 1.175 0.267 0.388 0.083 0.747 0.207 1.064 0.368 0.306 0.156 0.561 0.369 0.757 0.631 0.19 0.255 0.285 0.611 0.285 1.062 0 0.364-0.072 0.631-0.252 0.921-0.168 0.267-0.387 0.425-0.679 0.618-0.439 0.291-1.072 0.384-1.542 0.414h-10.957v-4.317h5.843v-0.637h-5.843v-3.906h6.213v-0.637h-6.85v10.135l11.152-0.001c0.35-0.006 1.676-0.061 2.382-0.55 0.348-0.243 0.631-0.455 0.845-0.804 0.23-0.377 0.328-0.742 0.328-1.223 0-0.541-0.098-0.981-0.292-1.31-0.192-0.325-0.455-0.591-0.781-0.789z"></path> 
+   </symbol> 
+   <symbol id="icon-cart" viewbox="0 0 40 32"> 
+    <title>cart</title> 
+    <path class="path1" d="M34.737 22.105h-18.947l-0.347-0.52-0.495 0.285-10.802-18.713h-4.145v-3.158h5.263l0.347 0.521 0.494-0.285 2.903 5.027h30.993l-5.263 16.842zM10.831 8.421l6.077 10.526h15.658l3.289-10.526h-25.024zM17.287 24.421c1.698 0 3.074 1.367 3.074 3.053s-1.377 3.053-3.074 3.053c-1.697 0-3.074-1.367-3.074-3.053 0-1.686 1.377-3.053 3.074-3.053v0zM30.637 24.421c1.698 0 3.074 1.367 3.074 3.053s-1.377 3.053-3.074 3.053c-1.697 0-3.074-1.367-3.074-3.053 0-1.686 1.376-3.053 3.074-3.053v0z"></path> 
+   </symbol> 
+   <symbol id="icon-search" viewbox="0 0 32 32"> 
+    <title>search</title> 
+    <path fill="#fff" style="fill: var(--color1, #fff)" d="M30.978 29.147l-7.616-7.921c1.958-2.328 3.031-5.257 3.031-8.306 0-7.124-5.796-12.92-12.92-12.92s-12.92 5.796-12.92 12.92 5.796 12.92 12.92 12.92c2.674 0 5.223-0.807 7.402-2.338l7.674 7.981c0.321 0.333 0.752 0.517 1.214 0.517 0.438 0 0.853-0.167 1.168-0.47 0.67-0.644 0.691-1.713 0.047-2.383zM13.473 3.37c5.266 0 9.55 4.284 9.55 9.55s-4.284 9.55-9.55 9.55-9.55-4.284-9.55-9.55 4.284-9.55 9.55-9.55z"></path> 
+   </symbol> 
+   <symbol id="icon-close" viewbox="0 0 32 32"> 
+    <title>close</title> 
+    <path fill="#fff" style="fill: var(--color1, #fff)" d="M20.603 16.511c-0.292-0.292-0.292-0.731 0-1.023l10.959-10.959c0.292-0.292 0.438-0.731 0.438-1.023s-0.146-0.731-0.438-1.023l-2.046-2.046c-0.292-0.292-0.731-0.438-1.023-0.438-0.438 0-0.731 0.146-1.023 0.438l-10.959 10.959c-0.292 0.292-0.731 0.292-1.023 0l-10.959-10.959c-0.292-0.292-0.731-0.438-1.023-0.438s-0.731 0.146-1.023 0.438l-2.046 2.046c-0.292 0.292-0.438 0.731-0.438 1.023s0.146 0.731 0.438 1.023l10.959 10.959c0.292 0.292 0.292 0.731 0 1.023l-10.959 10.959c-0.292 0.292-0.438 0.731-0.438 1.023s0.146 0.731 0.438 1.023l2.046 2.046c0.292 0.292 0.731 0.438 1.023 0.438s0.731-0.146 1.023-0.438l10.959-10.959c0.292-0.292 0.731-0.292 1.023 0l10.959 10.959c0.292 0.292 0.731 0.438 1.023 0.438s0.731-0.146 1.023-0.438l2.046-2.046c0.292-0.292 0.438-0.731 0.438-1.023s-0.146-0.731-0.438-1.023l-10.959-10.959z"></path> 
+   </symbol> 
+  </svg> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wp = {"ajax":"https:\/\/www.webclassicos.com.br\/wp-admin\/admin-ajax.php","api":"https:\/\/www.webclassicos.com.br\/wp-json\/"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/functions.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/waypoints.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/owl.carousel.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/smoothScroll.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/jquery-mask.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/modernizr.custom.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/jquery.dlmenu.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/navigation.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/skip-link-focus-fix.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/lazy-load/js/jquery.sonar.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/lazy-load/js/lazy-load.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/wp-embed.min.js"></script> 
+  <!-- WP Fastest Cache file was created in 0.25931000709534 seconds, on 15-10-17 15:26:37 -->
+  <!-- via php -->
+ </body>
+</html>

@@ -1,0 +1,2304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!-- Generated October 15, 2017, 8:10 pm on web28 -->
+  <title>Notebooks , computadores </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcCVFBWGwUFVFFVBAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1059.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);</script>
+  <meta name="description" content="Notebooks e computadores  a venda com o VIVALOCAL  Brasil: mais de 400,000 CLASSIFICADOS GRÁTIS. Venda ou compre seu notebook com 2 cliques!">
+  <meta name="keywords" content="notebooks usados , computadores usados , venda de notebooks , venda de computadores  ">
+  <meta name="robots" content="noodp">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <link rel="shortcut icon" href="http://media-sa.viva-images.com/vivastreet_mx/home/favicon.ico">
+  <link rel="canonical" href="http://www.vivalocal.com/artigos-informatica/br">
+  <link rel="alternate" href="http://m.vivalocal.com/artigos-informatica/br" media="handheld">
+  <link rel="next" href="http://www.vivalocal.com/artigos-informatica/br/t+2">
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/prepend_b.js?cache=crMbO"></script>
+  <script src="http://www.vivalocal.com/script/captions.php?cache=crMbO"></script>
+  <link rel="stylesheet" type="text/css" href="http://static.viva-images.com/templates/viwii3/styles/summary_br_latam.css?cache=crMbO">
+ </head>
+ <body id="kiwii" page_mode="t" page_type="summary" class="summary_text" style="background-position: top center;background-repeat:no-repeat;">
+  <a name="top" id="jump_top"></a>
+  <div class="kiwii-span-20 kiwii-center-hor vs-width-1000 kiwii-bg-xxxlighter-blue kiwii-padding-tiny">
+   <div class="kiwii-margin-top-xxsmall">
+    <div class="kiwii-position-relative " id="vs_header">
+     <div class="inner">
+      <a class="kiwii-float-left kiwii-logo" title="Classificados" alt="Classificados" href="http://www.vivalocal.com"></a>
+      <span class="" id="header-tag"><h1 class="kiwii-h1">Notebooks e computadores </h1></span>
+      <div class="kiwii-font-tiny kiwii-clear-left kiwii-padding-left-xxxsmall" id="vs_static_header">
+       <span style="letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;">Anúncios classificados grátis</span>
+      </div>
+      <div class="kiwii-clear-both"></div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-top">
+       <a href="http://post.vivalocal.com" id="vs_posting_button" class="kiwii-btn kiwii-btn-primary kiwii-btn-large orange gradient-button" onclick="_gaq.push(['_trackEvent', 'Post an Ad', 'summary_text', 'artigos-informatica']);">
+        <div>
+         Inserir anúncio»
+        </div></a>
+      </div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-bottom kiwii-layer-top kiwii-margin-bottom-xxxsmall">
+       <div class="vs-user-menu kiwii-no-link-decoration ">
+        <a href="http://www.vivalocal.com/account_classifieds.php" id="vs_account_menu_link" class="kiwii-no-link-decoration kiwii-font-weight-bold" rel="nofollow">Minha Conta</a>
+        <a id="vs_help_link" class="vivasafe kiwii-margin-left-xxsmall kiwii-no-link-decoration kiwii-font-weight-bold" href="http://www.vivalocal.com/s/help" rel="nofollow">Ajuda</a>
+       </div>
+      </div>
+      <div class="kiwii-breadcrumbs mmlightgrey mmchevron" id="vs_breadcrumbs">
+       <ul class="kiwii-h-list mmmenu">
+        <li class="mmfirst" level="0"></li>
+        <li class="hometab tab" level="1" style="cursor: pointer;"><a id="vs_bc_home_link" href="http://www.vivalocal.com" title="every_ads_country"></a><span class="kiwii-icon kiwii-icon-home"></span></li>
+        <li class="tab" level="2" style="cursor: pointer;"><a id="vs_bc_maincat_link" href="http://www.vivalocal.com/compra-venda-usada/br" title="Compra venda">Compra venda</a></li>
+        <li class="tab last" level="3"><span id="vs_bc_maincat_link" class="nolink">Notebooks - Computadores usados</span></li>
+       </ul>
+       <div id="" class="kiwii-breadcrumb-menu"></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="vs_content" class="clear kiwii-box-white"> 
+    <!-- rendering summary page --> 
+    <table class="kiwii-searchform searchform"> 
+     <tbody>
+      <tr> 
+       <td class="vs-searchbox-layout-left"> 
+        <form id="vs_searchform" action="http://search.vivalocal.com/artigos-informatica/br" method="GET" class="jqtransform" name="vs-searchform"> 
+         <input type="hidden" name="lb" value="new"> 
+         <input type="hidden" name="search" value="1"> 
+         <!-- End Search by posted and order --> 
+         <input type="hidden" name="start_field" value="1"> 
+         <div class="vs-searchbox"> 
+          <table class="vs-searchbox-inputs"> 
+           <tbody>
+            <tr class="vs-search-generic-elements vs-search-specialization-elements"> 
+             <td class="keywords"> 
+              <div style="padding-bottom: 5px;"> 
+               <input type="text" name="keywords" id="vs_search_keywords" title="Palavras-Chave" class="kiwii-input kiwii-input-large vs-search-keywords" value=""> 
+               <span class="kiwii-input-endcap append"> <label class="select-label checkbox-label"> <input type="checkbox" id="search_only_title" name="search_only_title" value="1"> Procurar no título </label> 
+                <div class="search-title clearfix"> 
+                 <div class="search-tooltip-content"> 
+                  <span></span> 
+                 </div> 
+                </div> </span> 
+               <div class="kiwii-float-right"> 
+                <select id="vs-cat-dropdown-1" name="cat_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block" autocomplete="off"><option class="" value="" title=""> Todas categorias </option><option class="kiwii-bg-xxlight-green" value="136" code="vehicules" title="http://search.vivalocal.com/veiculos"> -- Veículos usados -- </option><option class="" value="40" code="cars_trucks" title="http://search.vivalocal.com/auto-veiculo-usado"> Carros usados </option><option class="" value="41" code="bikes_motorcycles" title="http://search.vivalocal.com/motocicletas-usadas"> Motos usadas </option><option class="" value="56" code="trucks" title="http://search.vivalocal.com/vender-caminhao-usado"> Caminhões usados </option><option class="" value="242" code="busses" title="http://search.vivalocal.com/onibus-venda"> Ônibus usados </option><option class="" value="130" code="caravans_rv" title="http://search.vivalocal.com/motor-home-camping"> Motor home - Motor trailer </option><option class="" value="46" code="boats" title="http://search.vivalocal.com/yate-comprar-vender"> Lanchas - Barcos - Veleiros </option><option class="" value="240" code="boats_rental" title="http://search.vivalocal.com/aluguel-carros"> Aluguel carros - Barcos - Motos </option><option class="" value="239" code="vehicle_accessories" title="http://search.vivalocal.com/pecas-veiculos"> Acessórios e serviços </option><option class="kiwii-bg-xxlight-green" value="147" code="agriculture" title="http://search.vivalocal.com/agricultura-pecuaria"> -- Agronegócios -- </option><option class="" value="149" code="farm_animals" title="http://search.vivalocal.com/animais-pecuaria"> Animais do campo </option><option class="" value="148" code="animal_nutrition" title="http://search.vivalocal.com/animal-pecuaria"> Alimentação pecuária - Grãos </option><option class="" value="151" code="agro_supplies" title="http://search.vivalocal.com/insumos"> Produtos rurais </option><option class="" value="150" code="agro_machinery" title="http://search.vivalocal.com/equipamentos-rurais"> Maquinária agrícola </option><option class="" value="152" code="agro_services" title="http://search.vivalocal.com/produtos-agropecuarios"> Serviços agropecuários </option><option class="" value="241" code="agro_land" title="http://search.vivalocal.com/vender-fazendas"> Fazendas - Sitios à venda </option><option class="kiwii-bg-xxlight-green" value="142" code="pets" title="http://search.vivalocal.com/animais-estimacao"> -- Animais e acessórios -- </option><option class="" value="44" code="pet_sale" title="http://search.vivalocal.com/comprar-bichos-filhotes"> Animais estimação à venda </option><option class="" value="55" code="pet_adoption" title="http://search.vivalocal.com/adocao-animais"> Adoção animais de estimação </option><option class="" value="122" code="pet_services" title="http://search.vivalocal.com/oferta-servico-bicho"> Veterinários - Serviços - Acessórios </option><option class="kiwii-bg-xxlight-green" value="7" code="housing" title="http://search.vivalocal.com/compra-venda-aluguel"> -- Imóveis -- </option><option class="" value="93" code="housing_for_sale" title="http://search.vivalocal.com/comprar-imovel"> Apartamentos - Casas venda </option><option class="" value="91" code="housing_for_rent" title="http://search.vivalocal.com/alugar-casa-apartamento"> Alugar casas - Apartamentos </option><option class="" value="33" code="sublets_short_term" title="http://search.vivalocal.com/aluguel-temporada"> Aluguel temporada </option><option class="" value="249" code="new_developments" title="http://search.vivalocal.com/empreendimentos"> Empreendimentos imóveis </option><option class="" value="92" code="rooms_roommates" title="http://search.vivalocal.com/alugar-quarto-vaga"> Dividir apartamento - Quartos </option><option class="" value="118" code="land_for_sale" title="http://search.vivalocal.com/terrenos-venda"> Terrenos - Lotes </option><option class="" value="13" code="housing_exchange" title="http://search.vivalocal.com/trocar-imovel"> Troca de casas - Apartamentos </option><option class="" value="22" code="parking" title="http://search.vivalocal.com/alugar-vaga-garagem"> Estacionamentos - Garagens </option><option class="" value="155" foreign="yes" code="overseas_realestate" title="http://search.vivalocal.com/imoveis-exterior"> Imóveis exterior </option><option class="" value="15" code="real_estate" title="http://search.vivalocal.com/pontos-comerciais"> Imóveis comerciais </option><option class="kiwii-bg-xxlight-green" value="3" code="personals" title="http://search.vivalocal.com/namoro-amizade"> -- Relacionamento -- </option><option class="" value="39" code="missed-connections" title="http://search.vivalocal.com/fazer-amigo-encontrar"> Procurar Amigos </option><option class="" value="140" code="serious_relationships" title="http://search.vivalocal.com/relacoes-adultas"> Procurar Amor </option><option class="" value="153" code="gay_relationships" title="http://search.vivalocal.com/relacionamento"> Relações Gays - Lésbicas </option><option class="" value="132" code="open_minds" title="http://search.vivalocal.com/encontro-casual"> Encontros Casuais </option><option class="" value="133" code="adult_services" title="http://search.vivalocal.com/acompanhante-erotico"> Acompanhantes &amp; Massagem </option><option class="" value="248" code="gay_adult_services" title="http://search.vivalocal.com/acompanhantes-gays"> Acompanhantes Masculinos </option><option class="kiwii-bg-xxlight-green" value="6" code="services" title="http://search.vivalocal.com/procura-servicos"> -- Serviços -- </option><option class="" value="109" code="tickets_travel" title="http://search.vivalocal.com/viagem-turismo"> Serviços turismo - Agência turismo </option><option class="" value="107" code="translation" title="http://search.vivalocal.com/tradutores"> Traduções - Serviços de traduções </option><option class="" value="128" code="computer_services" title="http://search.vivalocal.com/computador"> Serviços de informática </option><option class="" value="89" code="computer" title="http://search.vivalocal.com/transporte-frete"> Mudanças - Frete </option><option class="" value="29" code="small_businesses" title="http://search.vivalocal.com/consultoria-assistencia"> Profissionais liberais </option><option class="" value="11" code="labor_moving" title="http://search.vivalocal.com/conserto-reforma"> Reparo - Conserto - Reforma </option><option class="" value="12" code="health_and_well_being" title="http://search.vivalocal.com/boa-forma"> Bem-Estar - Saúde - Beleza </option><option class="" value="134" code="classes_learning" title="http://search.vivalocal.com/astrologia-previsao"> Astrologia - Serv. espirituais </option><option class="" value="90" code="other_services" title="http://search.vivalocal.com/oferta-servicos"> Outros serviços </option><option class="kiwii-bg-xxlight-green" value="1" code="jobs" title="http://search.vivalocal.com/anuncios-vagas"> -- Empregos -- </option><option class="" value="137" code="job_offers" title="http://search.vivalocal.com/anuncios-empregos"> Ofertas de emprego </option><option class="" value="77" code="internships" title="http://search.vivalocal.com/estagios-trainee"> Estágios - Trainee </option><option class="" value="138" code="job_seekers" title="http://search.vivalocal.com/cadastre-cv"> Anunciar currículo - Procurar emprego </option><option class="" value="9" code="small_jobs" title="http://search.vivalocal.com/trabalho-temporario"> Trabalhos domésticos </option><option class="kiwii-bg-xxlight-green" value="4" code="community" title="http://search.vivalocal.com/anuncios-locais"> -- Comunidade -- </option><option class="" value="135" code="artists_musicians" title="http://search.vivalocal.com/cantores-ator-atriz"> Artistas - Músicos </option><option class="" value="26" code="restaurants_bars" title="http://search.vivalocal.com/casas-noturnas"> Guia restaurantes - Bares </option><option class="" value="145" code="recipes" title="http://search.vivalocal.com/receitas-cozinha"> Receitas culinárias </option><option class="" value="117" code="missing" title="http://search.vivalocal.com/contatos-perdidos"> Contatos perdidos </option><option class="" value="82" code="other_activities" title="http://search.vivalocal.com/atividades-livres-comunidade"> Atividades locais </option><option class="" value="5" code="events" title="http://search.vivalocal.com/noite-entretenimento"> Eventos </option><option class="kiwii-bg-xxlight-green" value="2" code="for_sale" selected title="http://search.vivalocal.com/compra-venda-usada"> -- Compra venda -- </option><option class="" value="244" code="for_sale_home" title="http://search.vivalocal.com/casa"> Artigos para casa </option><option class="" value="245" code="for_sale_leisure" title="http://search.vivalocal.com/lazer"> Lazer e entretenimento </option><option class="" value="246" code="for_sale_media" selected title="http://search.vivalocal.com/eletronicos"> Artigos eletrônicos </option><option class="" value="247" code="for_sale_fashion" title="http://search.vivalocal.com/moda"> Moda e acessórios </option><option class="" value="95" code="general" title="http://search.vivalocal.com/anuncios-compra-comprar"> Diversos </option><option class="kiwii-bg-xxlight-green" value="8" code="classes" title="http://search.vivalocal.com/treinamento"> -- Cursos -- </option><option class="" value="111" code="classes_language" title="http://search.vivalocal.com/cursos-lingua-estrangeira"> Cursos de idiomas </option><option class="" value="114" code="classes_computers" title="http://search.vivalocal.com/curso-informatica"> Cursos de informática </option><option class="" value="113" code="classes_professional_training" title="http://search.vivalocal.com/formacao-profissional"> Capacitação profissional </option><option class="" value="115" code="classes_private" title="http://search.vivalocal.com/professores-particulares"> Professores particulares </option><option class="" value="146" code="aerobics" title="http://search.vivalocal.com/lutas-esportes"> Aulas de ginástica </option><option class="" value="112" code="classes_music_theater" title="http://search.vivalocal.com/curso-teatro"> Aulas música - Teatro - Dança </option><option class="" value="37" code="classes_other" title="http://search.vivalocal.com/outros-aulas-cursos"> Outros cursos </option></select>
+                <select id="vs-cat-dropdown-2" name="cat_2" class="kiwii-dropdown-large kiwii-display-block" style="display:none;" autocomplete="off"><option class="" code="vehicle_accessories" value="" title="http://search.vivalocal.com/pecas-veiculos"> Todos os Tipos de Peças </option><option class="" code="vehicle_accessories" value="53" title="http://search.vivalocal.com/acessorios-servicos-carro"> Autopeças - Acessórios - Serviços </option><option class="" code="vehicle_accessories" value="227" title="http://search.vivalocal.com/pecas-motos"> Peças reposição motos </option><option class="" code="vehicle_accessories" value="237" title="http://search.vivalocal.com/acessorios-nauticos"> Peças reposição náuticos </option><option class="" code="vehicle_accessories" value="238" title="http://search.vivalocal.com/acessorios-motorhome"> Acessórios motorhome </option><option class="" code="vehicle_accessories" value="243" title="http://search.vivalocal.com/pecas-caminhoes"> Peças - Acessórios caminhões </option><option class="" code="overseas_realestate" value="" title="http://search.vivalocal.com/imoveis-exterior"> Todos os imóveis no exterior </option><option class="" code="overseas_realestate" value="156" foreign="yes" title="http://search.vivalocal.com/venda-exterior"> Casas venda exterior </option><option class="" code="overseas_realestate" value="157" foreign="yes" title="http://search.vivalocal.com/aluguel-internacionais"> Aluguel temporada exterior </option><option class="" code="overseas_realestate" value="158" foreign="yes" title="http://search.vivalocal.com/terrenos-exterior"> Terrenos venda exterior </option><option class="" code="real_estate" value="" title="http://search.vivalocal.com/pontos-comerciais"> Todos os imóveis </option><option class="" code="real_estate" value="28" title="http://search.vivalocal.com/comercial-sala-loja"> Venda imóveis comerciais </option><option class="" code="real_estate" value="144" title="http://search.vivalocal.com/loja-sala-comercial"> Aluguel imóveis comerciais </option><option class="" code="serious_relationships" value="" title="http://search.vivalocal.com/relacoes-adultas"> Relacionamentos Hétero </option><option class="" code="serious_relationships" value="32" title="http://search.vivalocal.com/procuro-namoro-paquera"> Mulher procura homem </option><option class="" code="serious_relationships" value="131" title="http://search.vivalocal.com/procurar-mulher-parceira"> Homem procura mulher </option><option class="" code="gay_relationships" value="" title="http://search.vivalocal.com/relacionamento"> Tipos de relacionamentos </option><option class="" code="gay_relationships" value="78" title="http://search.vivalocal.com/buscar-procurar-lesbica"> Mullher procura mulher </option><option class="" code="gay_relationships" value="38" title="http://search.vivalocal.com/procurar-gay"> Homem procura homem </option><option class="" code="small_jobs" value="" title="http://search.vivalocal.com/trabalho-temporario"> Todos os trabalhos domésticos </option><option class="" code="small_jobs" value="106" title="http://search.vivalocal.com/emprego-baba"> Babás </option><option class="" code="small_jobs" value="108" title="http://search.vivalocal.com/empregada-domestica"> Empregada doméstica - Diarista </option><option class="" code="small_jobs" value="14" title="http://search.vivalocal.com/enfermeiro-enfermeira"> Acompanhante idosos - Enfermeira </option><option class="" code="small_jobs" value="21" title="http://search.vivalocal.com/marketing-multinivel"> Trabalhar em casa </option><option class="" code="events" value="" title="http://search.vivalocal.com/noite-entretenimento"> Todos os eventos e festas </option><option class="" code="events" value="120" title="http://search.vivalocal.com/servicos-festa"> Serviços para eventos </option><option class="" code="for_sale_home" value="" title="http://search.vivalocal.com/casa"> Todos os itens para casa </option><option class="" code="for_sale_home" value="52" title="http://search.vivalocal.com/decoracao-moveis-usados"> Móveis - Camas - Cadeiras </option><option class="" code="for_sale_home" value="54" title="http://search.vivalocal.com/artigos-decoracao"> Decoração Casa </option><option class="" code="for_sale_home" value="48" title="http://search.vivalocal.com/segunda-mao"> Eletrodomésticos usados </option><option class="" code="for_sale_home" value="94" title="http://search.vivalocal.com/artigos-de-colecionador"> Artigos de coleção </option><option class="" code="for_sale_home" value="57" title="http://search.vivalocal.com/artigo-profissional-usado"> Equipamentos profissionais </option><option class="" code="for_sale_leisure" value="" title="http://search.vivalocal.com/lazer"> Todos os anúncios de lazer </option><option class="" code="for_sale_leisure" value="105" title="http://search.vivalocal.com/material-esporte"> Artigos esportivos - Bicicletas </option><option class="" code="for_sale_leisure" value="154" title="http://search.vivalocal.com/artesanato-manual"> Artesanato - Feito à mão </option><option class="" code="for_sale_leisure" value="124" title="http://search.vivalocal.com/presente"> Idéias para presentes </option><option class="" code="for_sale_leisure" value="104" title="http://search.vivalocal.com/musica-instrumento"> Instrumentos musicais </option><option class="" code="for_sale_leisure" value="121" title="http://search.vivalocal.com/banquete-comida"> Bebidas - Comidas </option><option class="" code="for_sale_media" value="" title="http://search.vivalocal.com/eletronicos"> Todos os eletrônicos </option><option class="" code="for_sale_media" value="43" selected title="http://search.vivalocal.com/artigos-informatica"> Notebooks - Computadores usados </option><option class="" code="for_sale_media" value="47" title="http://search.vivalocal.com/jogos-livros-usados"> DVD - Video Games - Livros - CD </option><option class="" code="for_sale_media" value="103" title="http://search.vivalocal.com/fotografia-eletronico-usado"> TV - Som - Fotografia </option><option class="" code="for_sale_media" value="51" title="http://search.vivalocal.com/ipod-mp3-acessorios-usados"> MP3 - Ipod - Celulares </option><option class="" code="for_sale_fashion" value="" title="http://search.vivalocal.com/moda"> Todos os anúncios </option><option class="" code="for_sale_fashion" value="42" title="http://search.vivalocal.com/vender-comprar-joias"> Antiguidades - Jóias </option><option class="" code="for_sale_fashion" value="49" title="http://search.vivalocal.com/artigos-para-bebe"> Brinquedos - Artigos infantis </option><option class="" code="for_sale_fashion" value="45" title="http://search.vivalocal.com/acessorios-usados"> Roupas e Acessórios </option><option class="" code="for_sale_fashion" value="129" title="http://search.vivalocal.com/comprar-produtos-beleza-saude"> Produtos Beleza - Saúde </option></select> 
+               </div> 
+              </div> 
+              <table class="elements ">
+               <colgroup>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td align="left"><label class="select-label" for="vs_searchform_price_min">Preço</label><select class="vs-jqtransform kiwii-margin-right-xxxsmall" id="vs_searchform_price_min" name="sp_common_price[start]" onchange=""><option value="">min</option><option value="0">0</option><option value="15">15</option><option value="30">30</option><option value="75">75</option><option value="100">100</option><option value="200">200</option><option value="300">300</option><option value="500">500</option><option value="750">750</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="5000">5,000</option></select><select class="vs-jqtransform" id="vs_searchform_price_max" name="sp_common_price[end]" onchange=""><option value="">max</option><option value="15">15</option><option value="30">30</option><option value="75">75</option><option value="100">100</option><option value="200">200</option><option value="300">300</option><option value="500">500</option><option value="750">750</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="5000">5,000</option><option value="unlimited">Ilimitado</option></select></td>
+                 <td align="left" colspan="1">
+                  <div style="padding: 0px 0px 2px 8px;">
+                   <label class="select-label checkbox-label"><input type="checkbox" name="image_total" value="1"> Com fotos</label>
+                  </div></td>
+                 <td align="left"></td>
+                </tr>
+                <tr>
+                 <td align="left" colspan="1">
+                  <div style="padding-bottom: 5px;">
+                   <input class="radio" id="offer" type="radio" name="offer_type" value="offer" checked>
+                   <label class="select-radio vs-offer-seek" for="offer">Oferecer</label>
+                   <input class="radio" id="seek" type="radio" name="offer_type" value="seek">
+                   <label class="select-radio vs-offer-seek" for="seek">Procurar</label>
+                  </div></td>
+                 <td align="left"></td>
+                 <td align="left"></td>
+                </tr>
+               </tbody>
+               <tbody></tbody>
+              </table> </td> 
+             <td class="geosearch"> <select id="vs_geo_dropdown_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block vs-geo-dropdown"><option value="0">Todo Brasil</option><option value="2">Acre</option><option value="5">Alagoas</option><option value="8">Amapá</option><option value="11">Amazonas</option><option value="17">Bahia</option><option value="34">Ceará</option><option value="22">Distrito Federal</option><option value="28">Espírito Santo</option><option value="35">Goiás</option><option value="38">Maranhão</option><option value="41">Mato Grosso</option><option value="44">Mato Grosso do Sul</option><option value="47">Minas Gerais</option><option value="57">Pará</option><option value="60">Paraíba</option><option value="63">Paraná</option><option value="67">Pernambuco</option><option value="71">Piauí</option><option value="74">Rio de Janeiro - RJ</option><option value="113">Rio Grande do Norte</option><option value="116">Rio Grande do Sul</option><option value="125">Rondônia</option><option value="128">Roraima</option><option value="131">Santa Catarina</option><option value="138">São Paulo - SP</option><option value="192">Sergipe</option><option value="195">Tocantins</option></select><select id="vs_geo_dropdown_2" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_3" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_4" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_5" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><input type="hidden" name="searchGeoId" id="vs_geo_id" value="0" autocomplete="off"> </td> 
+             <td class="submit"> 
+              <div class="vs-searchbox-submit"> 
+               <div class="vs-ads-with-pic"></div> 
+               <input class="kiwii-btn kiwii-btn-primary kiwii-btn-large ui-button ui-search-button1 ui-corner-all kiwii-span-2" type="submit" value="Procurar"> 
+              </div> 
+              <div class="searchform-email-alert" onclick="ALERT.openLightbox();"> 
+               <div class="kiwii-span-2"> 
+                <span class="tooltip tooltip-effect-1"> <span class="tooltip-item"> <span id="icoalert"></span> <span class="caption_alert">Criar um alerta</span> </span> 
+                 <div class="tooltip-content clearfix"> 
+                  <span class="tooltip-text">Economize tempo! Receba por e-mail todos os novos anúncios relacionados com sua busca.</span> 
+                 </div> </span> 
+               </div> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div style="clear:both"></div> 
+         </div> 
+         <input type="hidden" name="end_field"> 
+        </form> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <!--DFP --> 
+    <script type="text/javascript">
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+</script> 
+    <script type="text/javascript">
+googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/31586872/Desktop_Interstitial', 'div-gpt-ad-1470039326458-0').addService(googletag.pubads());
+    googletag.pubads().setTargeting('Country', ['br']).setTargeting('category', ['for_sale','for_sale_media', 'computers_elec']);
+    googletag.pubads().enableSyncRendering();
+    googletag.enableServices();
+  });
+</script> 
+    <!-- /31586872/Desktop_Interstitial --> 
+    <div id="div-gpt-ad-1470039326458-0"> 
+     <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470039326458-0'); });
+</script> 
+    </div> 
+    <div class="kiwii-padding-top-xxxsmall"> 
+     <div class="vs-summary-300x250" id="vs-summary-300x250" style="float:right;width:300px;height:250px;margin-top:5px;position:relative;display:block;z-index:911;border-left:1px solid #ccc;padding-left:5px;"> 
+      <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - ATF */
+google_ad_slot = "3440836895";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script> 
+      <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+     </div> 
+    </div> 
+    <div style="width:68%;position:relative;display:block;z-index:111;"> 
+     <div id="vs-search-ad-top" style="padding-left:20px;"></div> 
+     <script src="https://www.google.com/adsense/search/async-ads.js" type="text/javascript"></script> 
+     <script type="text/javascript" charset="utf-8">
+if (2==0){var nocat= 'usados';var pageType= "geo_summary";}else{var nocat= '';var pageType= "summary";}
+var is_search = ( 0 ) ? 'search' : 'browse';
+var xhome = document.referrer;
+if (xhome !=='http://www.viva.com/'){
+new google.ads.search.Ads(
+	{"pubId": "w3-viva-br-" + is_search, 
+	 "query": " Artigos eletrônicos Compra venda Notebooks - Computadores usados  " + nocat, 
+	 "channel": "for_sale,for_sale_media,br,for_sale_media_br,for_sale_br", 
+	 "queryContext": "Artigos eletrônicos|Compra venda", 
+	 "adtest": "off", 
+	 "hl": "pt", 
+	 "numRepeated" : "3", 
+	 "detailedAttribution" : false, 
+	 "adPage": "1", 
+	 "sellerRatings": false, 
+	 "siteLinks": false, 
+	 "linkTarget": "_blank", 
+	 "titleBold": true,
+	 "rolloverAdBackgroundColor": "#c2ebfc"
+	},
+	{"container": "vs-search-ad-top", 
+	 "maxTop": "4", 
+         "verticalSpacing" : "14",
+         "adLayout": "sellerFirst",
+	 "width": "98%", 
+	 "lines": "3", 
+	 "fontSizeTitle": "14px",
+	 "fontSizeAttribution" : 12,
+	 "fontSizeDescription": "12px", 
+	 "fontSizeDomainLink": "15px", 
+	 "colorTitleLink": "#114D97", 
+	 "colorText": "#575757", 
+	 "colorDomainLink": "#65b21c", 
+	 "colorBackground": "#FFFFFF", 
+	 "colorBorder": "#FFF", 
+	 "colorAdSeparator": "#CCC", 
+	 "rolloverLinkUnderline": true, 
+	 "rolloverLinkColor": "#114D97", 
+	 "adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", 
+	 "adIconWidth": 166, "adIconHeight": 50, 
+	 "adIconSpacingBefore": 16, 
+	 "adIconSpacingAfter": 16, 
+	 "adIconSpacingAbove": 2, 
+	 "adIconLocation": "ad-left"},
+	{"container": "vs-search-ad-bottom", "number": "4", "width": "98%", "lines": "3", "fontSizeTitle": "14px","fontSizeAttribution" : 12, "fontSizeDescription": "12px", "fontSizeDomainLink": "15px","adLayout": "sellerFirst", "colorTitleLink": "#114D97", "colorText": "#575757", "colorDomainLink": "#65b21c","verticalSpacing" : "14", "colorBackground": "#FFFFFF", "colorBorder": "#FFF", "colorAdSeparator": "#CCC", "rolloverLinkUnderline": true, "rolloverLinkColor": "#114D97", 
+	"adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", "adIconWidth": 166, "adIconHeight": 50, "adIconSpacingBefore": 16, "adIconSpacingAfter": 16, "adIconSpacingAbove": 2, "adIconLocation": "ad-left"});
+}
+</script> 
+     <script type="text/javascript" src="https://www.google.com/afsonline/show_afs_ads.js"></script> 
+     <div class="kiwii-clear-both"></div> 
+    </div> 
+    <style>.sponsor_style:hover{background-color:#FDECD9}a.sponsor_title:hover{text-decoration:underline}a.sponsor_title{text-decoration:none;color:#114D97;font-size:14px;font-weight:700;margin-top:-2px}.sponsor_desc{font-size:12px;margin-left:10px;font-weight:400;color:#575757}.sponsor_desc a{text-decoration:none;color:#575757}a.sponsor_url{text-decoration:none;font-weight:400;color:#aaa}a.sponsor_url:hover{text-decoration:underline;color:#114D97}.sp_img{float:left;width:160px;margin-right:23px;text-align:center}</style> 
+    <script type="text/javascript">
+evergreen = false;
+show_full_desc = false;
+</script> 
+    <a name="classifieds"></a> 
+    <div id="toolbar" class="kiwii-sort-bar summarytoolbar"> 
+     <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <tbody>
+       <tr class="sort"> 
+        <th class="selected toolbar_tab_selected" width="158" align="center"> <strong>1,040 Anúncios</strong> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1F4AC1CB464C4FC21E4649444FC14E4ACB46424A1F41C11FC04AC1CB4642C3484AC1" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Individual']);" class="vivasafe">Particular </span> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1F4AC1CB464C4FC21E4649444FC14E4ACB46424A1F41C11FC0C14F4446C2C2464F494A48" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Professional']);" class="vivasafe">Profissional </span> </th> 
+        <th width="100" style="padding-left:80px;" align="right" class="toolbar_tab_notselected spec-field"> Ordenar: </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1F4AC1CB464C4FC21E4649444FC14E4ACB46424A1F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC04FC2CB434B144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'posted']);" class="vivasafe"> Últimos anúncios </span> </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1F4AC1CB464C4FC21E4649444FC14E4ACB46424A1F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC2C03F424F4E4E4F493FC0C1464243144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'sp_common_price']);" class="vivasafe"> Preço </span> </th>  
+        <th align="right" width="250" class="toolbar_tab_notselected">&nbsp;</th> 
+        <th id="vs-listing" class="toolbar_tab_notselected view-selector hover view-selected" width="72" style="padding-right:2px;"> <a name="Text" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Listing']);" href="http://www.vivalocal.com/artigos-informatica/br" class="toolbarbutton_on kiwii-icon kiwii-icon-list"> Classificados </a> </th> 
+        <th id="vs-gallery" class="toolbar_tab_notselected
+                    view-selector
+                    hover
+                    " width="72" style="padding-right:2px;"> <a name="Gallery" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Gallery']);" href="http://www.vivalocal.com/artigos-informatica/br/g" class="toolbarbutton_off kiwii-icon kiwii-icon-grid"> FOTOS </a> </th> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <div class="kiwii-carousel-box"> 
+     <div class="ribbon-wrapper kiwii-position-absolute"> 
+      <a href="http://www.vivalocal.com/artigos-informatica/br/g" class="kiwii-width-full kiwii-height-full kiwii-no-text-decoration"> 
+       <div class="ribbon-front kiwii-padding-hor-large"> 
+        <span class="kiwii-no-text-decoration ribbon-front-text kiwii-font-large kiwii-float-left kiwii-padding-top-xxxsmall kiwii-padding-right-xxsmall"> VIP </span> 
+       </div> </a> 
+      <div class="ribbon-edge-bottomleft"></div> 
+     </div> 
+     <div id="vs_carousel_box" class="kiwii-carousel-cladbox kiwii-width-full kiwii-height-full kiwii-position-absolute kiwii-border-none kiwii-float-left"> 
+      <div id="container" class="kiwii-carousel kiwii-carousel-empty"> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_155980341">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/rolo-fusor-rolo-pressor-brother-dcp-8890-8080-8065-8085-5452/155980341" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_155980341" src="http://media-sa.viva-images.com/vivastreet_br/clad/df/6/155980341/vip/1.jpg?dt=b27f017990b61dab6400727ae479bdcc" pic_num="1" pic_total="8">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              8
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Rolo Fusor+Rolo Pressor B...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$100 | Profissional | Rio de...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_155980035">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/pel-cula-e-rolo-pressor-brother-dcp-8152-8157-8912-5452/155980035" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_155980035" src="http://media-sa.viva-images.com/vivastreet_br/clad/41/a/155980035/vip/1.jpg?dt=e3169f5b854ecd86d82f821b79b6021d" pic_num="1" pic_total="12">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              12
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Película e Rolo Pressor B...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$170 | Profissional | Rio de...</p></span>
+          </div></a>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    var carousel_json = [{"id":155980341,"link_url":"http:\/\/www.vivalocal.com\/artigos-informatica\/penha-rio-de-janeiro\/rolo-fusor-rolo-pressor-brother-dcp-8890-8080-8065-8085-5452\/155980341","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/df\/6\/155980341\/vip\/1.jpg?dt=b27f017990b61dab6400727ae479bdcc","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Rolo Fusor+Rolo Pressor Brother DCP 8890 8080 8065 8085 5452","spec_line":"R$100 | Profissional | Rio de...","image_total":8,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":155980035,"link_url":"http:\/\/www.vivalocal.com\/artigos-informatica\/penha-rio-de-janeiro\/pel-cula-e-rolo-pressor-brother-dcp-8152-8157-8912-5452\/155980035","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/41\/a\/155980035\/vip\/1.jpg?dt=e3169f5b854ecd86d82f821b79b6021d","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Pel\u00edcula e Rolo Pressor Brother DCP 8152 8157 8912 5452","spec_line":"R$170 | Profissional | Rio de...","image_total":12,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false}];
+    var carousel_options = {"item_type":"VIPClassified","item_selector":".kiwii-carousel-clad-box","max_width":500,"right_offset":250,"paginated":false,"ajax_items_fully_loaded":true};
+            carousel_options.timing = {"auto_slide":20,"rotate_pic":20};
+    </script> 
+    <script type="text/javascript">
+            var carousel_params = {"params":{"start_field":1,"cat_1":2,"cat_2":246,"cat_3":43,"keywords":"","end_field":1},"use_geo":false,"sort":"display_priority DESC, reposted DESC","minimum_results_flag":false,"minimum_carousel_flag":false,"limit":35};
+      </script> 
+    <table id="classified_table" class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td id="classified_cell"> 
+        <table class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+         <tbody>
+          <tr class="classified row1 kiwii-clad-row kiwii-clad-featured kiwii-clad-highlight" id="vs_classified_155980341"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/rolo-fusor-rolo-pressor-brother-dcp-8890-8080-8065-8085-5452/155980341"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/df/6/155980341/vip/1.jpg?dt=b27f017990b61dab6400727ae479bdcc" alt="Fotos para Rolo Fusor+Rolo Pressor Brother DCP 8890 8080 8065 8085 5452"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                8
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/rolo-fusor-rolo-pressor-brother-dcp-8890-8080-8065-8085-5452/155980341" id="vs-detail-link-1" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Rolo Fusor+Rolo Pressor Brother DCP 8890 8080 8065 8085 5452</a>
+             <span class="kiwii-label-badge kiwii-padding-top-tiny kiwii-margin-left-xxsmall">VIP</span> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$100
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ligue agora =&gt; Tel (21) 2270-0513 / 2598-6826 / 7856-9447 Skype: vidadigitalrj Vida Digital - Rio de Janeiro - Bairro: Penha - Próximo a estação de trem da Penha. MODELOS DE IMPRESSORAS COMPATÍVEIS COM OS ROLOS DO FUSO… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Rio de Janeiro - capital - Penha, Rio de Janeiro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155980341
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row2 kiwii-clad-row kiwii-clad-featured kiwii-clad-highlight" id="vs_classified_155980035"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/pel-cula-e-rolo-pressor-brother-dcp-8152-8157-8912-5452/155980035"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/41/a/155980035/vip/1.jpg?dt=e3169f5b854ecd86d82f821b79b6021d" alt="Fotos para Película e Rolo Pressor Brother DCP 8152 8157 8912 5452"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                12
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/penha-rio-de-janeiro/pel-cula-e-rolo-pressor-brother-dcp-8152-8157-8912-5452/155980035" id="vs-detail-link-2" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Película e Rolo Pressor Brother DCP 8152 8157 8912 5452</a>
+             <span class="kiwii-label-badge kiwii-padding-top-tiny kiwii-margin-left-xxsmall">VIP</span> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$170
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ligue agora =&gt; Tel (21) 2270-0513 / 2598-6826 / 7856-9447 Skype: vidadigitalrj Vida Digital - Rio de Janeiro - Bairro: Penha - Próximo a estação de trem da Penha Pelicula do Fusor = R$ 90,00 + Rolo Pressor = R$ 85,00 … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Rio de Janeiro - capital - Penha, Rio de Janeiro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155980035
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row3 kiwii-clad-row" id="vs_classified_156864626"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/sorriso/servidor-dell-power-edge-rack-r710---oferta---/156864626"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ae/3/156864626/vip/1.jpg?dt=ee6595e8b1b62a4284dc9c45afcde50e" alt="Fotos para Servidor Dell Power Edge Rack R710 - preço bom!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/sorriso/servidor-dell-power-edge-rack-r710---oferta---/156864626" id="vs-detail-link-3" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell Power Edge Rack R710 - preço bom!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Sorriso
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica da Oferta Servidor Dell Rack R710 usado, 90 dias de garantia e Nota Fiscal. 2x processadores. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controla… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Usado Sorriso</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:06</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156864626
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row4 kiwii-clad-row" id="vs_classified_156863476"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/santo-andre/apple-macbook-air-core-i5-1-3ghz-4gb-ram-128gb/156863476"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/73/9/156863476/vip/1.jpg?dt=3861f73f64776f45c8be527ca9303177" alt="Fotos para Apple MacBook Air Core i5 1.3GHz 4GB Ram 128GB"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/santo-andre/apple-macbook-air-core-i5-1-3ghz-4gb-ram-128gb/156863476" id="vs-detail-link-4" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Apple MacBook Air Core i5 1.3GHz 4GB Ram 128GB</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$2.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Nuevo portátil para ventas en stock y también viene con una garantía internacional de 1 año y una política de devolución de 90 días directamente de la empresa de fabricación Whatsapp :: +14704005826 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Grande São Paulo - Santo André</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156863476
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row5 kiwii-clad-row" id="vs_classified_156853110"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/barueri/tela-lcd-17-polegadas/156853110"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0d/9/156853110/vip/1.jpg?dt=e58a314a9e7bd9b8e6e2e044bdca3bdf" alt="Fotos para Tela LCD 17 Polegadas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/barueri/tela-lcd-17-polegadas/156853110" id="vs-detail-link-5" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Tela LCD 17 Polegadas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$99
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Barueri
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              MarcaAOC Descrição Tela de LCD Computador 17 Polegadas Marca AOC Semi Nova Perfeita 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Barueri</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 12:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156853110
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row6 kiwii-clad-row" id="vs_classified_156846901"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/cristalina/servidor-dell-power-edge-r710-rack---oferta--/156846901"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/a3/2/156846901/vip/1.jpg?dt=52daee4d969f86a2687430d5f88215aa" alt="Fotos para Servidor Dell Power Edge R710 Rack - Oferta, não perca!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/cristalina/servidor-dell-power-edge-r710-rack---oferta--/156846901" id="vs-detail-link-6" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell Power Edge R710 Rack - Oferta, não perca!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Cristalina
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica da Oferta Servidor Dell Rack R710 usado, 90 dias de garantia e Nota Fiscal. 2x processadores. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controla… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Cristalina</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 11:10</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156846901
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row7 kiwii-clad-row" id="vs_classified_156846539"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/cascavel-parana/servidor-dell-power-edge-rack--r710----oferta--/156846539"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/1b/a/156846539/vip/1.jpg?dt=c0063d09ea9b163c2ece37cfb0f044b2" alt="Fotos para Servidor Dell Power Edge Rack R710 - oferta!!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/cascavel-parana/servidor-dell-power-edge-rack--r710----oferta--/156846539" id="vs-detail-link-7" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell Power Edge Rack R710 - oferta!!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Cascavel, Paraná
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica da Oferta Servidor Dell Rack R710 usado, 90 dias de garantia e Nota Fiscal. 2x processadores. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controla… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Cascavel, Paraná</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 11:04</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156846539
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row8 kiwii-clad-row" id="vs_classified_156846145"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/rio-verde/servidor-dell-r710--2x-quadcore-8gb-ram-2x-hd146gb/156846145"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/d0/d/156846145/vip/1.jpg?dt=b42eaf951316e47d07e5beee9cf6af2e" alt="Fotos para Servidor Dell R710 2x Quadcore 8gb Ram 2x Hd146gb"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/rio-verde/servidor-dell-r710--2x-quadcore-8gb-ram-2x-hd146gb/156846145" id="vs-detail-link-8" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell R710 2x Quadcore 8gb Ram 2x Hd146gb</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio Verde
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica da Oferta Servidor Dell Rack R710 usado, 90 dias de garantia e Nota Fiscal. 2x processadores. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controla… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Rio Verde</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 10:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156846145
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row9 kiwii-clad-row" id="vs_classified_156817296"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/franca/consertos-de-eletronicos--video-games--caixas-amplificadas-/156817296"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/franca/consertos-de-eletronicos--video-games--caixas-amplificadas-/156817296" id="vs-detail-link-9" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Consertos de eletronicos, video games, caixas amplificadas </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Franca
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Conserto de aparelhos eletronicos em geral, caixas de som amplificadas, video games de varias marcas inclusive antigos, ps1, ps2, supernintendo etc Amplificadores, dvds, fazemos montagens eletronicas Consertos de transmi… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Franca</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 22:23</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156817296
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row10 kiwii-clad-row" id="vs_classified_156815000"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/recife/d0396204---unid--transfer-ncia-e-separ--ricoh-mpc-2051-2050/156815000"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/4f/c/156815000/vip/1.jpg?dt=28f44c7c3967165f10faa049ee02a47d" alt="Fotos para D0396204 - Unid. Transferência e Separ. Ricoh MPC 2051 2050"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/recife/d0396204---unid--transfer-ncia-e-separ--ricoh-mpc-2051-2050/156815000" id="vs-detail-link-10" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">D0396204 - Unid. Transferência e Separ. Ricoh MPC 2051 2050</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$280
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Recife
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              D0396204 - Unidade de Transferência e Separação. Ricoh MP C2051 2050 2030 Seminovas, porém com pouquíssimo uso, em condições de nova. Com garantia de qualidade. R$ 280,00 Prime Solution (81) 9 8102-4760 Fale também pel… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebooks - Computadores usados Recife</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 20:50</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156815000
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row11 kiwii-clad-row" id="vs_classified_156718998"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/ribeirao-preto/vendo-tudo-note-e-tudo-que-sobrou-da-loja-de-informatica/156718998"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/ribeirao-preto/vendo-tudo-note-e-tudo-que-sobrou-da-loja-de-informatica/156718998" id="vs-detail-link-11" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">vendo tudo note e tudo que sobrou da loja de informatica</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$30.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Ribeirão Preto
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              vendo tudo que tenho por motivo de não poder mais trabalhar tudo em informatica varias coizas outros tambem 2 pneus l5 recauchutado.computadores e varias coizas, note books, todos tipos de fontes para not. books.vedo p… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Ribeirão Preto</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 20:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156718998
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row12 kiwii-clad-row" id="vs_classified_156814619"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/recife/d0392521---bandeja-tray-1---ricoh-mp-c2051-2050-2550-2030/156814619"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/46/c/156814619/vip/1.jpg?dt=5a5f64341b28d0c33e4284091329e399" alt="Fotos para D0392521 - Bandeja Tray 1 - Ricoh MP C2051 2050 2550 2030"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/recife/d0392521---bandeja-tray-1---ricoh-mp-c2051-2050-2550-2030/156814619" id="vs-detail-link-12" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">D0392521 - Bandeja Tray 1 - Ricoh MP C2051 2050 2550 2030</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$200
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Recife
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              D0392521 - Bandeja Tray 1 - Ricoh MP C2051 2050 2550 2030 Seminovas, porém com pouquíssimo uso, em condições de nova. Com garantia de qualidade. R$ 200,00 Prime Solution (81) 9 8102-4760 Fale também pelo Whatsapp Fláv… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Recife</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 20:37</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156814619
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row13 kiwii-clad-row" id="vs_classified_156814291"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/recife/d0396036---conjunto-limpeza-belt---ricoh-mp-c2051-2550-2050-/156814291"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/2a/8/156814291/vip/1.jpg?dt=e5b2f7e8d697183df347b45b4b3bcbb9" alt="Fotos para D0396036 - Conjunto Limpeza Belt - Ricoh MP C2051 2550 2050 "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/recife/d0396036---conjunto-limpeza-belt---ricoh-mp-c2051-2550-2050-/156814291" id="vs-detail-link-13" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">D0396036 - Conjunto Limpeza Belt - Ricoh MP C2051 2550 2050 </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$250
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Recife
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Seminovas, porém com pouquíssimo uso, em condições de nova. Com garantia de qualidade. R$ 250,00 Prime Solution (81) 9 8102-4760 Fale também pelo Whatsapp Flávio Coutinho 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Recife</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 20:25</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156814291
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row14 kiwii-clad-row" id="vs_classified_156812998"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/recife/d0396029---belt-correia-de-transf--ricoh-mpc2030-2050-2051/156812998"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/25/c/156812998/vip/1.jpg?dt=b45f1eb05af1e87996246fc08efd569c" alt="Fotos para D0396029 - Belt Correia de Transf. RICOH MPC2030 2050 2051"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/recife/d0396029---belt-correia-de-transf--ricoh-mpc2030-2050-2051/156812998" id="vs-detail-link-14" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">D0396029 - Belt Correia de Transf. RICOH MPC2030 2050 2051</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$750
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Recife
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              D0396029 - Belt Correia de Transferência RICOH MPC2030 2050 2051 Seminovas, porém com pouquíssimo uso, em condições de nova. Com garantia de qualidade. Prime Solution (81) 9 8102-4760 Fale também pelo Whatsapp Flávio C… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebooks - Computadores usados Recife</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:46</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156812998
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row15 kiwii-clad-row" id="vs_classified_156812601"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/recife/d8093001---unidade-revela--o-preta---ricoh-mpc2050-2030-2051/156812601"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b5/7/156812601/vip/1.jpg?dt=693345675183fe2796e7a6bd18d0ba1e" alt="Fotos para D8093001 - Unidade Revelação Preta - Ricoh MPC2050 2030 2051"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/recife/d8093001---unidade-revela--o-preta---ricoh-mpc2050-2030-2051/156812601" id="vs-detail-link-15" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">D8093001 - Unidade Revelação Preta - Ricoh MPC2050 2030 2051</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Recife
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              D8093001 - Unidade de Revelação para Copiadora Ricoh MP C2030 2050 2051* (*para funcionar na 2051, se faz necessário substituir o sensor TD da caixa antiga para esta) Seminovas, porém com pouquissímo uso, em condições d… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Recife</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:36</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156812601
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row16 kiwii-clad-row" id="vs_classified_156811537"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/venda-nova/cd-windows-7completo-todas-vers-o-pra-seu-computado-netbook/156811537"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/d7/6/156811537/vip/1.jpg?dt=c856a274edfea65c4050a306a83c9d48" alt="Fotos para CD WINDOWS 7COMPLETO TODAS VERSÃO PRA SEU COMPUTADO NETBOOK"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/venda-nova/cd-windows-7completo-todas-vers-o-pra-seu-computado-netbook/156811537" id="vs-detail-link-16" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">CD WINDOWS 7COMPLETO TODAS VERSÃO PRA SEU COMPUTADO NETBOOK</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$18
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Windows 7 todas versão com 32 64 86 bits completo e com ativatora ele e original so pega e faze sua formatação em computadoreis e net book e muito otros mais tel oi 98747 1364 zap vivo 99553 9764 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Belo Horizonte - BH - Venda Nova</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:10</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156811537
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row17 kiwii-clad-row" id="vs_classified_154019225"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/santo-andre/compro--toner---cartucho--novo---lacrados-e-original/154019225"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/26/3/154019225/vip/1.jpg?dt=0e5e3e549138e3b00c896bdd5c54ac51" alt="Fotos para COMPRO TONER CARTUCHO NOVO LACRADOS E ORIGINAL"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/santo-andre/compro--toner---cartucho--novo---lacrados-e-original/154019225" id="vs-detail-link-17" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">COMPRO TONER CARTUCHO NOVO LACRADOS E ORIGINAL</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              COMPRO LOTES OU PEQUENAS QUANTIDADES, TONERS HP ,LEXMARK OUTROS ,LACRADOS NA CAIXA ORIGINAIS. CONSULTE O VALOR PELO CEL 011-967207073 OU PELO EMAIL COMTUDO.TONERCARTUCHO@HOTMAIL.COM 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Usado Grande São Paulo - Santo André</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:00</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154019225
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr id="vs_advert_middle" class="vs-advertisement advertisement-middle-1"> 
+           <td colspan="8"> 
+            <!-- SummaryMiddle Start --> 
+            <div style="display:block;text-align:center;"> 
+             <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - BTF */
+google_ad_slot = "2196924935";
+google_ad_width = 970;
+google_ad_height = 90;
+//-->
+</script> 
+             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+            </div> 
+            <!-- SummaryMiddle End --> </td> 
+          </tr> 
+          <tr class="classified row18 kiwii-clad-row" id="vs_classified_156703811"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/uberlandia/vendo-notebook-top--fun--o-tablet--toque-na-tela--core-i3/156703811"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/85/4/156703811/vip/1.jpg?dt=d5aaee457507b38ee818e252caaaf75d" alt="Fotos para Pra Agoraa Vendo Notebook Top, Função Tablet, Toque na tela."> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/uberlandia/vendo-notebook-top--fun--o-tablet--toque-na-tela--core-i3/156703811" id="vs-detail-link-18" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Pra Agoraa Vendo Notebook Top, Função Tablet, Toque na tela.</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Uberlândia
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo note top Asus S400C Touch Screen Chamar no zap; 34 9214 9775 Core i3 2365M 1,40 muito rápido roda jogos Ram 4 gigas Hd de 1 tera Placa video integrada Hd 3000 Tela 14pl Led, Touch Screen Muito conservado. Único de… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Uberlândia</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 13 outubro <br> 16:47</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156703811
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row19 kiwii-clad-row" id="vs_classified_156702772"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/uberlandia/vendo-notebook-asus-x44c-core-i3/156702772"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/5d/9/156702772/vip/1.jpg?dt=0375d4deb703b22117848de95b180223" alt="Fotos para Vendo Notebook Asus X44C Core i3"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/uberlandia/vendo-notebook-asus-x44c-core-i3/156702772" id="vs-detail-link-19" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Vendo Notebook Asus X44C Core i3</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$730
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Uberlândia
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo notebook muito conservado. Se precisar divido no cartão. Á negociar. Interessados chamar no zap: 34 9 9214 9775 Core i3 2330M 2,20 ghz Ram 4 gigas Hd de 500 gigas Tela de 14 pl led, Hd Bateria durando mais de 2:3… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Usado Uberlândia</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 13 outubro <br> 16:34</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156702772
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row20 kiwii-clad-row" id="vs_classified_156696951"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/barueri/tela-lcd-17-polegadas/156696951"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/cf/1/156696951/vip/1.jpg?dt=0a793b7fed2328366b7ff32ebab030ae" alt="Fotos para Tela LCD 17 Polegadas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/barueri/tela-lcd-17-polegadas/156696951" id="vs-detail-link-20" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Tela LCD 17 Polegadas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$99
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Barueri
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              MarcaAOC Descrição Tela de LCD Computador 17 Polegadas Marca AOC Semi Nova Perfeita 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Barueri</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 13 outubro <br> 15:25</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156696951
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row21 kiwii-clad-row" id="vs_classified_156676764"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/valparaiso-de-goias/manuten--o-de-impressoras-e-computadores/156676764"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/77/5/156676764/vip/1.jpg?dt=5ab6e6b8da7c4e60252627059236846b" alt="Fotos para MANUTENÇÃO DE IMPRESSORAS E COMPUTADORES"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/valparaiso-de-goias/manuten--o-de-impressoras-e-computadores/156676764" id="vs-detail-link-21" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">MANUTENÇÃO DE IMPRESSORAS E COMPUTADORES</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Valparaíso de Goiás
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Desde 2011 a PRO-TONER INFORMÁTICA , atua nas seguintes áreas: *manutenção de impressoras jato de tinta *manutenção impressoras laser *remanufatura de cartuchos e tonners *venda de acessórios para informática *venda… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Valparaíso de Goiás</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 13 outubro <br> 12:44</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156676764
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row22 kiwii-clad-row" id="vs_classified_156600943"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/campinas/vendo--notebook-cce/156600943"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/bb/d/156600943/vip/1.jpg?dt=8cdaecbde48ccdf9538e8425321b7e00" alt="Fotos para Vendo notebook CCE"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/campinas/vendo--notebook-cce/156600943" id="vs-detail-link-22" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Vendo notebook CCE</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Campinas
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo automático, funcionando perfeitamente. Fone 19988751149 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Campinas</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 12 outubro <br> 14:30</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156600943
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row23 kiwii-clad-row" id="vs_classified_156600459"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/jaguariuna/vendo--notebook-cce/156600459"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/17/a/156600459/vip/1.jpg?dt=bc5b75974927e2ea046ff33c72f297bc" alt="Fotos para Vendo notebook CCE"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/jaguariuna/vendo--notebook-cce/156600459" id="vs-detail-link-23" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Vendo notebook CCE</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Jaguariúna
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo notebook cce, automático. Valor 300. Telefone 19988751149 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Jaguariúna</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 12 outubro <br> 14:24</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156600459
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row24 kiwii-clad-row" id="vs_classified_156585370"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/gloria/roteador-tp-link-n-150mbps/156585370"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/a6/e/156585370/vip/1.jpg?dt=45a7c721fea022ac1a5c92bf8d22d221" alt="Fotos para Roteador TP Link N 150Mbps"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/gloria/roteador-tp-link-n-150mbps/156585370" id="vs-detail-link-24" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Roteador TP Link N 150Mbps</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$60
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Roteador em perfeito estado, 100% funcionando. Motivo da venda: Mudança do endereço do escritório (só foi utilizado dois meses). Acompanha caixa, fonte de energia e guia rápido de instalação. Entrego no Metrô Cinelândia,… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Rio de Janeiro - capital - Glória</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 12 outubro <br> 11:38</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156585370
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row25 kiwii-clad-row" id="vs_classified_156529494"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/cidade-industrial-de-curitiba/workstation-dell-t3600-c--monitor-24-/156529494"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/11/4/156529494/vip/1.jpg?dt=6972a71a231617d03911767335be76c5" alt="Fotos para WORKSTATION DELL T3600 C MONITOR 24" "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/cidade-industrial-de-curitiba/workstation-dell-t3600-c--monitor-24-/156529494" id="vs-detail-link-25" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">WORKSTATION DELL T3600 C MONITOR 24"</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              OFERTA: WORKSTATION DELL T3600 C/ MONITOR 24" 1) 1xPROCESSADOR INTEL XEON QUAD CORE ES-1620 2) 8GB MEMÓRIA RAM 3) 1x HD 500GB 10K 4) 1xPLACA DE VÍDEO NVIDIA 2000 5) 1x MONITOR DELL 24" 6) SEM SISTEMA OPERACIONAL OBS. … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Curitiba - Cidade Industrial de Curitiba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 18:02</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156529494
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row26 kiwii-clad-row" id="vs_classified_156528987"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/centro-florianopolis/workstation-dell-t3600-c--monitor-24---oferta-/156528987"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/f6/9/156528987/vip/1.jpg?dt=4766be3bcb2de6bb038f91eec3be36b9" alt="Fotos para Workstation Dell T3600 C Monitor 24 - Oferta!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/centro-florianopolis/workstation-dell-t3600-c--monitor-24---oferta-/156528987" id="vs-detail-link-26" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Workstation Dell T3600 C Monitor 24 - Oferta!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.250
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Florianópolis
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              OFERTA: WORKSTATION DELL T3600 C/ MONITOR 24" 1) 1xPROCESSADOR INTEL XEON QUAD CORE ES-1620 2) 8GB MEMÓRIA RAM 3) 1x HD 500GB 10K 4) 1xPLACA DE VÍDEO NVIDIA 2000 5) 1x MONITOR DELL 24" 6) SEM SISTEMA OPERACIONAL Antes… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Usado Florianópolis - Centro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 17:50</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156528987
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row27 kiwii-clad-row" id="vs_classified_156527972"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/goiania/notebook-dell-i7-hd-750gb-8gb-ram-pre-o-irresist-vel--/156527972"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/86/4/156527972/vip/1.jpg?dt=35c4fff16e161293e5db5dc37ee315e6" alt="Fotos para Notebook Dell I7 Hd 750gb 8gb Ram Preço Irresistível! "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/goiania/notebook-dell-i7-hd-750gb-8gb-ram-pre-o-irresist-vel--/156527972" id="vs-detail-link-27" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Notebook Dell I7 Hd 750gb 8gb Ram Preço Irresistível! </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$2.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Goiânia
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              CONFIGURAÇÃO DA OFERTA: Notebook Dell M4700 usado. com nota fiscal e garantia de 90 dias. Empresa estabelecida há 20 anos em SP capital 1x Intel Xeon Core i7 3740QM 8 Gb Memória ram 1x Hdd 750Gb 1x Placa de vídeo K10… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Goiânia</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 17:28</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156527972
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row28 kiwii-clad-row" id="vs_classified_156508238"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/pirituba/dell1535-inspirion/156508238"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/e4/7/156508238/vip/1.jpg?dt=e289d336153aebd47fef788af28f6083" alt="Fotos para DELL1535 inspirion"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/pirituba/dell1535-inspirion/156508238" id="vs-detail-link-28" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">DELL1535 inspirion</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$280
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              bateria nova precisa formatar o teclado e o pc e trocar a tela com moldura e revisar o drive ligue no meu zap 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador São Paulo - capital - Pirituba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 14:28</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156508238
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row29 kiwii-clad-row" id="vs_classified_156321067"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/m-boi-mirim/loca--o-de-multifuncionais-e-impressoras/156321067"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/77/3/156321067/vip/1.jpg?dt=b000860329a6438833dd2f865e81aa36" alt="Fotos para LOCAÇÃO DE MULTIFUNCIONAIS E IMPRESSORAS"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/m-boi-mirim/loca--o-de-multifuncionais-e-impressoras/156321067" id="vs-detail-link-29" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">LOCAÇÃO DE MULTIFUNCIONAIS E IMPRESSORAS</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$180
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              CUSTO POR FOLHA R$ O,04 CENTAVOS PEÇAS, SUPRIMENTOS E ASSISTÊNCIA TÉCNICA POR NOSSA CONTA A PARTIR DE R$ 180,00 MENSAIS 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebooks - Computadores usados São Paulo - capital - M'Boi Mirim</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 16:25</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156321067
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row30 kiwii-clad-row" id="vs_classified_156423190"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/lucas-do-rio-verde/servidor-dell-r710--2x-quadcore---oferta---/156423190"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/da/6/156423190/vip/1.jpg?dt=f053e4beeabc71917db3d948a8cda514" alt="Fotos para Servidor Dell R710 2x Quadcore - OFERTA!!!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/lucas-do-rio-verde/servidor-dell-r710--2x-quadcore---oferta---/156423190" id="vs-detail-link-30" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell R710 2x Quadcore - OFERTA!!!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Lucas do Rio Verde
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica: Servidor Dell Rack R710 2x proc. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controladora 6i não acompanha: trilhos/canaletas laterais 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Lucas do Rio Verde</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 16:20</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156423190
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row31 kiwii-clad-row" id="vs_classified_156421584"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/porto-alegre-centro/servidor-dell-r710-2x-quadcore-8gb-ram-2x-hd146gb/156421584"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/43/1/156421584/vip/1.jpg?dt=4a5b9bccfe13d54cedc9d03bc4052031" alt="Fotos para Servidor Dell R710 2x Quadcore 8gb Ram 2x Hd146gb"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/porto-alegre-centro/servidor-dell-r710-2x-quadcore-8gb-ram-2x-hd146gb/156421584" id="vs-detail-link-31" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Servidor Dell R710 2x Quadcore 8gb Ram 2x Hd146gb</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Configuração Básica: Servidor Dell Rack R710 2x proc. Intel Xeon quadcore memória 8gb ram 2 x fontes alimentação 1x dvd rom 2x hd 146gb 10k sas placa controladora 6i não acompanha: trilhos/canaletas laterais. PAGAMEN… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Porto Alegre - POA - Porto Alegre Centro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 15:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156421584
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row32 kiwii-clad-row" id="vs_classified_156389997"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/jardim-america/modem-thomsom-speedtouch-st510-v6/156389997"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/c8/9/156389997/vip/1.jpg?dt=39368f466914d17a3f0fd9f77e4f4895" alt="Fotos para Modem Thomsom Speedtouch St510 V6"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/jardim-america/modem-thomsom-speedtouch-st510-v6/156389997" id="vs-detail-link-32" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Modem Thomsom Speedtouch St510 V6</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$15
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              WhatsApp: 21 97351-6419 Características: DSL - Até 25 Mb/s downstream e 1.5 Mb/s upstream - Sistema operacional independente - Compatível com os padrões ADSL (ANSI,ETSI, G.dmt por POTS,G.lite e G.hs (auto modo e sel… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Rio de Janeiro - capital - Jardim América</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 10:58</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156389997
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row33 kiwii-clad-row" id="vs_classified_156389700"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/jardim-america/webcam-creative-nx--na-caixa--com-manual-e-cd-de-instal--o/156389700"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/c9/5/156389700/vip/1.jpg?dt=789a736fffd389e99ce6edb3d1d0a82d" alt="Fotos para Webcam creative nx, na caixa, com manual e cd de instalção"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/jardim-america/webcam-creative-nx--na-caixa--com-manual-e-cd-de-instal--o/156389700" id="vs-detail-link-33" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Webcam creative nx, na caixa, com manual e cd de instalção</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$20
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              WhatsApp: (21) 97351-6419 WEBCAM CREATIVE NX, NA CAIXA, COM MANUAL E CD DE INSTALÇÃO. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Computador Rio de Janeiro - capital - Jardim América</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 10:58</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156389700
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row34 kiwii-clad-row" id="vs_classified_156382925"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/bom-despacho/placa-m-e-asrock---n68-s3-fx/156382925"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0a/3/156382925/vip/1.jpg?dt=cff0b77e73d1cd195a5b244d8cd7edfb" alt="Fotos para Placa Mãe AsRock - N68-S3 FX"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/bom-despacho/placa-m-e-asrock---n68-s3-fx/156382925" id="vs-detail-link-34" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Placa Mãe AsRock - N68-S3 FX</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Bom Despacho
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Placa Mãe Asrock Nova, Nunca Usada, na caixa!!! Modelo: N68-S3 FX Marca: AsRock Acompanha: 2 cabos SATA, 1 Espelho, CD de configuração da placa, 1 Guia de Instalação. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Usado Bom Despacho</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 10:58</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156382925
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row35 kiwii-clad-row" id="vs_classified_156390949"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/artigos-informatica/jardim-america/cabo-v-deo-digital-para-liga--o-de-dvds-em-tvs-/156390949"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/77/6/156390949/vip/1.jpg?dt=9237599b0fe3d57bd3589b619c9dfb5b" alt="Fotos para Cabo vídeo digital para ligação de DVDs em TVs "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/artigos-informatica/jardim-america/cabo-v-deo-digital-para-liga--o-de-dvds-em-tvs-/156390949" id="vs-detail-link-35" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Cabo vídeo digital para ligação de DVDs em TVs </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              WhatsApp: (21) 97351-6419 Cabo vídeo digital para ligação de DVDs em TVs: Garante imagens de altíssima definição e nitidez com qualidade digital. Ideal para ligar em TV, video K7, câmeras, computadores, games, VCDs, et… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Notebook Rio de Janeiro - capital - Jardim América</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 10:29</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156390949
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+       <td id="widget_cell"> 
+        <div id="widget_container"> 
+        </div> </td> 
+      </tr>
+     </tbody>
+    </table> 
+    <!-- SummaryBottom Slot--> 
+    <div id="vs-search-ad-bottom" style="padding-left:20px;"></div> 
+    <!-- SummaryBottom Slot--> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr class="kiwii-border-bottom-xlight-gray"> 
+       <td colspan="7"> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <div class="kiwii-margin-top-small kiwii-margin-bottom-small"> 
+     <div class="kiwii-text-align-center kiwii-center-hor"> 
+      <div id="vs_instant_alert_signup"> 
+       <div>
+        ...e receba um e-mail com alertas sempre que um novo anúncio de seu interesse for publicado!
+       </div> 
+       <div class="vs-screen-1"> 
+        <input type="text" id="vs_instant_alert_email" value="Seu Email" default="Seu Email" class="kiwii-span-5 default"> 
+        <input type="button" id="vs_instant_alert_submit" class="kiwii-btn kiwii-btn-alert kiwii-btn-large kiwii-margin-xxxsmall" value="Criar um alerta"> 
+       </div> 
+      </div> 
+      <div class="vs-ia-error-line vs-screen-1" style="display:none;"></div> 
+      <div class="vs-ia-confirmation vs-screen-2" style="display:none;"> 
+       <div class="vs-ia-confirmation-message"></div> 
+       <a href="" class="vs-ia-confirmation-link"></a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="kiwii-box kiwii-box-padding kiwii-box-dark-gray kiwii-box-footer"> 
+     <ul class="kiwii-h-list kiwii-text-align-center"> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block">
+         « Anterior 
+       </div> </li> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block kiwii-btn-alert kiwii-btn-selected">
+         1 
+       </div> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+2"> 2 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+3"> 3 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+4"> 4 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+5"> 5 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+6"> 6 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+7"> 7 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+8"> 8 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+9"> 9 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+10"> 10 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+20"> 20 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+30"> 30 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/artigos-informatica/br/t+2"> Próximo » </a> </li> 
+     </ul> 
+     <div class="kiwii-margin-top-small vs-related-links"> 
+      <div class="vs-related-links-search"> 
+       <div class="kiwii-column-list-title vs-related-links-title">
+        Buscas Relacionadas
+       </div> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/computador">Computador Usado </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/monitor">Monitor Usado </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/tablet">Tablet Usado </a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/gravador-de-dvd">Gravador de DVD Usado </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/mouse">Mouse Usado </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/teclado">Teclado Usado </a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/impressora">Impressora Usada</a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/no-break">No Break Usado </a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/memoria">Memoria Usada </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/notebook">Notebook Usado </a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/modem">Modem Usado </a> </li> 
+        <li> <a href="http://www.vivalocal.com/artigos-informatica/br/q/roteador">Roteador Usado </a> </li> 
+       </ul> 
+      </div> 
+      <div class="vs-related-links-geo"> 
+      </div> 
+      <div style="clear: both;"></div> 
+      <div class="kiwii-margin-top-xsmall vs-related-links-bottom"> 
+       <div class="vs-related-links-more"> 
+        <a class="kiwii-no-link-decoration" href="http://www.vivalocal.com/artigos-informatica/br/mais-opcoes">Mais buscas relacionadas Notebooks - Computadores usados</a> 
+       </div> 
+      </div> 
+      <div style="clear: both;"></div> 
+     </div> 
+    </div> 
+    <!-- end rendering summary page --> 
+   </div>
+  </div>
+  <div class="kiwii-span-20 kiwii-center-hor">
+   <div class="kiwii-box-padding">
+    <ul class="kiwii-h-list level2">
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/belo-horizonte" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Belo Horizonte - BH</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/brasilia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Brasília - DF</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/campinas" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Campinas</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/curitiba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Curitiba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/fortaleza" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Fortaleza</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/goiania" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Goiânia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/joao-pessoa" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador João Pessoa</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/joinville" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Joinville</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/londrina" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Londrina</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/manaus" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Manaus</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/natal" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Natal</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/recife" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Recife</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/ribeirao-preto" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Ribeirão Preto</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/rio-de-janeiro" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Rio de Janeiro - RJ</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/rio-de-janeiro-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Rio de Janeiro - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/salvador" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Salvador</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/sao-jose-dos-campos" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador São José dos Campos</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/sao-paulo" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador São Paulo - SP</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/sao-paulo-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador São Paulo - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/uberlandia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Uberlândia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/artigos-informatica/vila-velha" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Computador Vila Velha</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="kiwii-bg-white kiwii-border-top-light-gray kiwii-margin-top-large kiwii-clear-both">
+   <div class="kiwii-span-20 kiwii-center-hor">
+    <div id="vs_footer">
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-white">
+      <div class="vs-footer-links">
+       <h3>Vivalocal</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/team" rel="nofollow"> Quem Somos </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact" rel="nofollow"> Fale Conosco </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.w3corporate.com" target="_blank" rel="nofollow"> Site Corporativo </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Ajuda/Informação</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/help" rel="nofollow"> Como Funciona </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/legal" rel="nofollow"> Termos de Uso </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/affiliation" rel="nofollow"> Seja um Afiliado </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact?issue=advertising" rel="nofollow"> Publicidade no Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/warning" style="color:#cc0000;font-weight:bold;" rel="nofollow"> Centro de Segurança </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/how_to_feature_ad_2" rel="nofollow"> Anúncios Destacados </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/cookies" rel="nofollow"> Cookies do Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/policy" rel="nofollow"> Política de Privacidade </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/payment_info" rel="nofollow"> Informações de Pagamento </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Links úteis</h3>
+       <ul class="kiwii-h-list">
+        <li><a class="kiwii-margin-right-xxxsmall" href="http://post.vivalocal.com">Inserir anúncio</a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div id="vs-seo-text"></div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div class="kiwii-font-tiny">
+       Copyright © 2017 Vivalocal - Part of W3 LTD
+      </div>
+      <div class="kiwii-font-tiny">
+       &nbsp;A maior parte das categorias no Vivalocal são gratuitas. No entanto, a fim de assegurar um serviço de qualidade e segurança, algumas categorias exigem uma taxa mínima para postar. Estas taxas vão aparecer claramente antes de você concluir o seu anúncio.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="vs_lb_disclaimer" class="vs-lightbox-content" style="display:none;">
+   <div id="vs_lb_disclaimer_content"></div>
+  </div>
+  <script type="text/javascript"></script>
+  <script type="text/javascript">
+                if( typeof current_data != 'undefined' ) {
+                        current_data.website_options = {"id":"13","domain":"vivalocal.com","name":"Vivastreet Brasil","template":"viwii3","country":"BR","status":"enable","homepage_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - vivalocal","homepage_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","homepage_keywords":"classificados #location#, an\u00fancios classificados Locais #location#, classificados gr\u00e1tis #location#, an\u00fancios #location#, an\u00fancios de venda #location#, classificados de carros #location#, classificados de im\u00f3veis, onde vender, empregos, an\u00fancios pes","homepage_h1":"Classificados #location# \/ An\u00fancios Gr\u00e1tis #location#","homepage_spec":"{\"footer_spec\":{\"text\":[{\"text\":\"O vivalocal Brasil \\u00e9 um site de Classificados Gr\\u00e1tis com mais de 1 000 000 an\\u00fancios e centenas de novos an\\u00fancios publicados diariamente. Aqui, mais gente procura e mais gente acha o que quer, todos os dias. \\r\"},{\"text\":\"Comprar e vender pelo vivalocal \\u00e9 muito r\\u00e1pido e totalmente gr\\u00e1tis. Quer mudar de casa, vender seu carro, achar um emprego ou at\\u00e9 um amor? Clique no mapa e comece a navegar agora!\"}],\"choices\":[],\"defaults\":{\"type1\":\"\",\"location\":\"\",\"display\":\"\"}}}","posting_title":"Publicar An\u00fancios Gr\u00e1tis . Publicar Classificados Gr\u00e1tis | vivalocal.com","posting_desc":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gratis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_keywords":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gr\u00e1tis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_h1":"Publicar An\u00fancios Gr\u00e1tis  \/ Publicar Classificados Gr\u00e1tis ","nocat_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - Vivalocal","nocat_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","nocat_keywords":"","nocat_h1":"An\u00fancios Classificados Gr\u00e1tis #location#","nocat_footer":"","specialzation_type_code":"mais-opcoes","all_results":"classificados","adsense_keywords":"#keyword# #location#","afs_keywords":"Classificados #location#","header_div":"<span style=\"letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;\">An\u00fancios classificados gr\u00e1tis<\/span>","posting_seo_footer":"Publique seus an\u00fancios gr\u00e1tis no vivalocal. \u00c9 F\u00e1cil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e fa\u00e7a neg\u00f3cio rapidamente!","subtemplate":null};            current_data.country_options = {"id":"BR","label":"Brasil","default_language":"pt","timezone":"America\/Sao_Paulo","currency_code":"BRL"};            current_data.is_mobile = false;            current_data.is_search = false;            current_data.page = {"type":"summary","mode":"t"};            current_data.category = {"id":"43","parent":"246","meta_code":"computers_elec","code":"artigos-informatica","label":"Notebooks - Computadores usados","premium_ads":"no","foreign_only":"block","depth":3,"main_meta_code":"for_sale","tree":[{"id":"2","parent":"0","meta_code":"for_sale","code":"compra-venda-usada","label":"Compra venda","premium_ads":"no","foreign_only":"block","depth":1,"main_meta_code":"for_sale"},{"id":"246","parent":"2","meta_code":"for_sale_media","code":"eletronicos","label":"Artigos eletr\u00f4nicos","premium_ads":"no","foreign_only":"block","depth":2,"main_meta_code":"for_sale"},{"id":"43","parent":"246","meta_code":"computers_elec","code":"artigos-informatica","label":"Notebooks - Computadores usados","premium_ads":"no","foreign_only":"block","depth":3,"main_meta_code":"for_sale"}],"search_keywords":"Palavras-Chave","disclaimer":false};            current_data.url = {"protocol":"http","fulldomain":"www.vivalocal.com","path":"\/artigos-informatica\/br","query":"","fulldomain_stack":["www","vivalocal","com"],"path_stack":["artigos-informatica","br"],"query_array":[],"domain":"vivalocal.com","domain_stack":{"prefix":"","site":"vivalocal.com"},"subdomains":"www","subdomain_stack":["www"],"subdomain":"www","root":"http:\/\/www.vivalocal.com\/","pics":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","js":"http:\/\/static.viva-images.com\/templates\/viwii3\/scripts","css":"http:\/\/static.viva-images.com\/templates\/viwii3\/styles","ajax":"http:\/\/www.vivalocal.com\/ajax\/"};        }
+                if( typeof current_config != 'undefined' ) {
+                        current_config.geosearch_settings = {"free_text":false,"multi_drop":true,"drop_max":3,"country_drop":false,"search_type":"B","outer_code_search":"","always_radius":false,"max_geo_depth":3,"separate_main_locations":true};
+                    }
+            </script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/app_b.js?cache=crMbO"></script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/compatibility_b.js?cache=crMbO"></script>
+  <script type="text/javascript">
+    if( typeof $J != 'undefined' ) {
+        $J(document).ready( function() {
+            if( typeof App != 'undefined' ) {
+                App.load();
+            }
+        });
+    }
+    else {
+        if( typeof App != 'undefined'  ) {
+            App.load();
+        }
+    }
+    </script>
+  <!-- adblock start-->
+  <script>var adblockUser="YES";</script>
+  <div id="adblocktest" style="display:none"></div>
+  <script type="text/javascript" src="http://media-eu.viva-images.com/global/advertising.js?nocache=22"></script>
+  <!-- adblock end-->
+  <!-- GTM start -->
+  <script>
+var dataLayer = [{
+"GAtoGTM":false,
+"pageCat":"summary",
+"geo_Summary":"",
+"geo1": "",
+"geo2": "",
+"geo3": "",
+"geo4": "",
+"geo5": "",
+"searchType" :  (0 ) ? 'search' : 'browse',
+"nbrResult" :"1040",
+"kw": "",
+"metaCategory":"for_sale",
+"labelCategory":"Compra venda",
+"metaSubCategory":"for_sale_media",
+"labelSubCategory":"Artigos eletrônicos",
+"metaSubSubCategory":"computers_elec",
+"labelSubSubCategory":"Notebooks - Computadores usados",
+"adblockUser": (adblockUser),
+"userId":( typeof App != 'undefined' && App !== null ) ? App.Session.data.user_id : 0,
+"userType":( typeof App != 'undefined' && App !== null ) ? App.Session.data.web_usertype : "",
+"userLogged":( ( typeof App != 'undefined' && App !== null ) && App.Session.data.logged_in ) ? 1 : 0
+}]
+</script>
+  <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M7ZFTZ');
+</script>
+  <!-- GTM end -->
+  <!-- fix overlay -->
+  <style>
+.ui-widget-overlay {
+background: #000000;
+opacity: .80;
+z-index:9999;
+position:fixed;
+width:100%;
+overflow: hidden;
+}
+.ui-dialog {
+position:fixed;
+top:30vh;
+}
+.kiwii-column-list li a{
+font-size:11px!important;
+}
+#sas-fixedDiv_3758685{width:230px;right:0;}
+</style>
+  <!-- remove frequency option email alert -->
+  <script>
+function update_alert_box_form_z(){var a=setInterval(function(){void 0!=document.getElementById("alert_frequency_summary")&&(document.getElementById("alert_frequency_summary").checked=!1,document.getElementById("alert_frequency_push").checked=!0,document.getElementById("alert_frequency_summary").parentElement.style.display="none",clearInterval(a))},500)}void 0!=document.getElementsByClassName("tooltip-item")[0]&&document.getElementsByClassName("tooltip-item")[0].setAttribute("onclick","update_alert_box_form_z();"),void 0!=document.getElementById("contact-alertbox")&&document.getElementById("contact-alertbox").setAttribute("onclick","update_alert_box_form_z();");
+</script>
+  <!-- remove frequency option email alert -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cf5e25fd38","applicationID":"6500731","transactionName":"ZwZRZhEDWhdWUBAKDF5McEcQFlsJGEARDg5REUptFwdMEA==","queueTime":0,"applicationTime":166,"atts":"S0FSEFkZSRk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ </body>
+</html>

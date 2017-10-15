@@ -1,0 +1,780 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Map Motors</title> 
+  <meta name="description" content=""> 
+  <meta name="keywords" content=""> 
+  <meta name="author" content=""> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="MetaDescription"> 
+  <meta name="MetaKeywords"> 
+  <link href="/Content/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/style.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/FileUpload/jquery.fileupload-ui.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/custom.css" rel="stylesheet" type="text/css"> 
+  <link class="alt" href="/Content/css/color.css" rel="stylesheet" type="text/css"> 
+  <script src="/Content/js/modernizr.js"></script> 
+  <link href="/Content/css/toastr.min.css" rel="stylesheet"> 
+  <!-- Google Analytics --> 
+  <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-39963192-1', 'auto');
+        ga('send', 'pageview');
+
+    </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51805708-1', 'auto');
+  ga('send', 'pageview');
+    </script> 
+  <!-- End Google Analytics --> 
+  <!-- face like box --> 
+ </head>
+ <body class="home">
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> 
+  <!-- face like box end-->   
+  <div class="body"> 
+   <!-- Start Site Header --> 
+   <div class="site-header-wrapper"> 
+    <div class="navbar"> 
+     <div class="container sp-cont"> 
+      <!-- Main Navigation --> 
+      <nav class="main-navigation dd-menu toggle-menu" role="navigation"> 
+       <ul class="sf-menu"> 
+        <li><a href="/" class="main-navigation-first-child">PÁGINA INICIAL</a></li> 
+        <li><a href="/Veiculos">VEÍCULOS</a></li> 
+        <li style="margin-left:-4px"><a href="/VendaVeiculo">VENDA SEU VEÍCULO</a></li> 
+        <li class="menuEmpresa"><a href="/Lojas">LOJAS</a></li> 
+        <li><a href="/Contato" style="margin-left:0px" class="main-navigation-last-child">LOCALIZAÇÃO</a></li> 
+        <li class="menuEmpresa"><a href="/Empresa">CONHEÇA O SHOPPING</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+    <header class="site-header"> 
+     <div class="container sp-cont"> 
+      <div class="site-logo"> 
+       <h1> <a href="#"><img src="/Content/images/logo.png" alt="Logo"></a> </h1> 
+      </div> 
+      <div class="header-right"> 
+       <a href="#" class="visible-sm visible-xs" id="menu-toggle">MENU</a> 
+       <div class="topnav dd-menu"> 
+        <ul class="utility-icons social-icons social-icons-colored"> 
+         <li class="facebook"><a href="https://www.facebook.com/Boulevardshoppingcar" target="_blank"><i class="fa fa-facebook"></i> Curta nossa Página</a></li> 
+        </ul> 
+        <div class="adress"> 
+         <div class="adressHeader loja2"> 
+          <span> RUA MAXWELL, Nº 300 - VILA ISABEL<br>RIO DE JANEIRO - RJ </span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+    <!-- End Site Header --> 
+   </div> 
+   <div class="utility-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="tituloInterno">
+        Map Motors
+       <br> 
+       <small>29 veículos em estoque</small> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="main" role="main"> 
+    <div id="content" class="content full"> 
+     <div class="container"> 
+      <div class="row" style=" margin-bottom: 20px;"> 
+       <div class="col-md-4 fotoLoja"> 
+        <img src="/content/images/FotoLoja.jpg"> 
+        <img src="/content/images/FotoLoja.jpg"> 
+       </div> 
+       <div class="col-md-8" style="text-align: justify"> 
+        <h1 class="strong" style="font-size: 30px;">Map Motors (Box 16 e 17B)</h1> 
+        <p class="leadLoja">Tel: (21) 3172-6661</p> 
+        <p class="leadLoja" style="margin-bottom: 30px;"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="4e232f3e23213a213c3d0e29232f2722602d2123">[email&nbsp;protected]</a></p> 
+        <div class="logoLojaDetalhes">
+         <img src="http://autocerto.com/content/images/clientes/mapmotors.jpg" style="" alt="">
+        </div> 
+        <p>Somos especializados na venda de veículos novos e usados, nacionais e importados. Com certeza você não só apreciará como irá comprar seu veículo conosco. Todos nossos veículos são revisados criteriosamente, possibilitando dar aos nossos clientes tranquilidade na hora da compra.</p> 
+        <p>Não perca tempo! Compre seu veículo com quem mais entende do assunto. Nossos vendedores terão o prazer em atendé-lo.</p> 
+       </div> 
+      </div> 
+      <hr class="page-divider" style="margin-top: 30px;margin-bottom: 10px;"> 
+      <div class="col-md-12 results-container" style="padding: 0 0 30px"> 
+       <section class="listing-block trending-listing"> 
+        <div class="listing-container"> 
+         <div class="results-container-in"> 
+          <div class="waiting" style="display: none;"> 
+           <div class="spinner"> 
+            <div class="rect1"></div> 
+            <div class="rect2"></div> 
+            <div class="rect3"></div> 
+            <div class="rect4"></div> 
+            <div class="rect5"></div> 
+           </div> 
+          </div> 
+          <div id="results-holder" class="results-grid-view" style="margin-left: -1%"> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/tiggo-2.0-16v-gasolina-4p-manual-gasolina-2010/109544/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/109544/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/tiggo-2.0-16v-gasolina-4p-manual-gasolina-2010/109544/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">TIGGO 2.0 16V GASOLINA 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 24.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/celta-1.0-mpfi-spirit-8v-flex-2p-manual-flex-2010/104783/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/104783/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/celta-1.0-mpfi-spirit-8v-flex-2p-manual-flex-2010/104783/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">CELTA 1.0 MPFI SPIRIT 8V FLEX 2P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 15.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/corsa-1.4-mpfi-premium-sedan-8v-flex-4p-manual-flex-2008/109545/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/109545/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/corsa-1.4-mpfi-premium-sedan-8v-flex-4p-manual-flex-2008/109545/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">CORSA 1.4 MPFI PREMIUM SEDAN 8V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 19.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/meriva-1.8-mpfi-premium-8v-flex-4p-automatizado-flex-2011/89975/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/89975/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/meriva-1.8-mpfi-premium-8v-flex-4p-automatizado-flex-2011/89975/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">MERIVA 1.8 MPFI PREMIUM 8V FLEX 4P AUTOMATIZADO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 25.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c3-1.5-tendance-8v-flex-4p-manual-flex-2014/107424/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/107424/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c3-1.5-tendance-8v-flex-4p-manual-flex-2014/107424/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C3 1.5 TENDANCE 8V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 35.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c3-1.6-picasso-glx-16v-flex-4p-automatico-flex-2012/108907/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/108907/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c3-1.6-picasso-glx-16v-flex-4p-automatico-flex-2012/108907/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C3 1.6 PICASSO GLX 16V FLEX 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 32.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c4-2.0-glx-pallas-16v-flex-4p-manual-flex-2013/111183/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/111183/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c4-2.0-glx-pallas-16v-flex-4p-manual-flex-2013/111183/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C4 2.0 GLX PALLAS 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 34.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c4-grand-picasso-2.0-16v-gasolina-4p-automatico-gasolina-2009/99145/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99145/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c4-grand-picasso-2.0-16v-gasolina-4p-automatico-gasolina-2009/99145/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C4 GRAND PICASSO 2.0 16V GASOLINA 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 28.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c4-picasso-2.0-16v-gasolina-4p-automatico-gasolina-2011/90264/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/90264/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c4-picasso-2.0-16v-gasolina-4p-automatico-gasolina-2011/90264/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C4 PICASSO 2.0 16V GASOLINA 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 35.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/c5-2.0-mpfi-exclusive-16v-gasolina-4p-automatico-gasolina-2011/91371/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/91371/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/c5-2.0-mpfi-exclusive-16v-gasolina-4p-automatico-gasolina-2011/91371/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">C5 2.0 MPFI EXCLUSIVE 16V GASOLINA 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 39.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/doblo-1.4-mpi-cargo-flex-2p-manual-flex-2013/110489/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/110489/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/doblo-1.4-mpi-cargo-flex-2p-manual-flex-2013/110489/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">DOBLO 1.4 MPI CARGO FLEX 2P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 30.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/idea-1.4-mpi-elx-8v-flex-4p-manual-flex-2009/99784/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99784/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/idea-1.4-mpi-elx-8v-flex-4p-manual-flex-2009/99784/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">IDEA 1.4 MPI ELX 8V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 24.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/fiesta-1.6-mpi-sedan-8v-flex-4p-manual-flex-2013/106863/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/106863/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/fiesta-1.6-mpi-sedan-8v-flex-4p-manual-flex-2013/106863/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">FIESTA 1.6 MPI SEDAN 8V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 28.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/civic-1.8-lxs-16v-flex-4p-manual-flex-2008/108292/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/108292/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/civic-1.8-lxs-16v-flex-4p-manual-flex-2008/108292/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">CIVIC 1.8 LXS 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 30.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/crv-2.0-lx-4x2-16v-gasolina-4p-automatico-gasolina-2009/99599/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99599/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/crv-2.0-lx-4x2-16v-gasolina-4p-automatico-gasolina-2009/99599/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">CRV 2.0 LX 4X2 16V GASOLINA 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 42.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/fit-1.4-dx-16v-flex-4p-automatico-flex-2011/110947/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/110947/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/fit-1.4-dx-16v-flex-4p-automatico-flex-2011/110947/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">FIT 1.4 DX 16V FLEX 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 35.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/hb20-1.6-comfort-plus-16v-flex-4p-manual-flex-2013/105155/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/105155/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/hb20-1.6-comfort-plus-16v-flex-4p-manual-flex-2013/105155/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">HB20 1.6 COMFORT PLUS 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 34.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/tucson-2.0-mpfi-gl-16v-142cv-2wd-gasolina-4p-manual-gasolina-2010/101337/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/101337/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/tucson-2.0-mpfi-gl-16v-142cv-2wd-gasolina-4p-manual-gasolina-2010/101337/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">TUCSON 2.0 MPFI GL 16V 142CV 2WD GASOLINA 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 33.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/tucson-2.0-mpfi-gl-16v-142cv-2wd-gasolina-4p-automatico-gasolina-2010/106415/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/106415/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Gasolina</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/tucson-2.0-mpfi-gl-16v-142cv-2wd-gasolina-4p-automatico-gasolina-2010/106415/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">TUCSON 2.0 MPFI GL 16V 142CV 2WD GASOLINA 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 33.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2012/99360/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99360/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2012/99360/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">GRAND LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 34.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/march-1.6-sv-16v-flex-4p-manual-flex-2014/94716/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/94716/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/march-1.6-sv-16v-flex-4p-manual-flex-2014/94716/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">MARCH 1.6 SV 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 31.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/207-1.4-xr-sport-8v-flex-4p-manual-flex-2009/105161/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/105161/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/207-1.4-xr-sport-8v-flex-4p-manual-flex-2009/105161/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">207 1.4 XR SPORT 8V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 20.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/fluence-2.0-dynamique-16v-flex-4p-automatico-flex-e-gnv-2016/99906/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99906/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex e GNV</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/fluence-2.0-dynamique-16v-flex-4p-automatico-flex-e-gnv-2016/99906/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">FLUENCE 2.0 DYNAMIQUE 16V FLEX 4P AUTOMÁTICO</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 57.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/logan-1.0-expression-up-16v-flex-4p-manual-flex-2011/111395/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/111395/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/logan-1.0-expression-up-16v-flex-4p-manual-flex-2011/111395/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">LOGAN 1.0 EXPRESSION UP 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 22.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/megane-1.6-dynamique-grand-tour-16v-flex-4p-manual-flex-2012/105151/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/105151/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/megane-1.6-dynamique-grand-tour-16v-flex-4p-manual-flex-2012/105151/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">MEGANE 1.6 DYNAMIQUE GRAND TOUR 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 28.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2013/108911/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/108911/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2013/108911/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">SANDERO 1.0 EXPRESSION 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 25.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/symbol-1.6-privilege-16v-flex-4p-manual-flex-2011/108916/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/108916/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/symbol-1.6-privilege-16v-flex-4p-manual-flex-2011/108916/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">SYMBOL 1.6 PRIVILÈGE 16V FLEX 4P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 22.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/fox-1.0-mi-8v-flex-2p-manual-flex-2008/106932/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/106932/9.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/fox-1.0-mi-8v-flex-2p-manual-flex-2008/106932/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">FOX 1.0 MI 8V FLEX 2P MANUAL</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 17.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="result-item format-standard" style="width: 169px; max-height: 201px!important; margin-bottom: 15px;"> 
+            <div class="result-item-image"> 
+             <a href="/Veiculo/gol-1.0-mi-8v-flex-2p-manual-g.iv-flex-2012/106933/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/106933/2.JPG" alt=""></a> 
+             <span class="label label-primary vehicle-age" style="left: 5px; top: 5px;">Flex</span> 
+            </div> 
+            <div class="result-item-in"> 
+             <h4 class="result-item-title" style="padding: 10px 0; height: 40px;"> <a href="/Veiculo/gol-1.0-mi-8v-flex-2p-manual-g.iv-flex-2012/106933/detalhes" style="font-size: 12px; font-weight: 400; line-height: 16px;">GOL 1.0 MI 8V FLEX 2P MANUAL G.IV</a> </h4> 
+             <div class="result-item-cont" style="height: 25px; padding: 1px;"> 
+              <div class="result-item-block col2"> 
+               <div class="result-item-pricing"> 
+                <div class="price" style="color: #FFF!important;    font-size: 14px;">
+                 R$ 17.900,00
+                </div> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </section> 
+      </div> 
+      <hr class="page-divider" style="margin-top: 30px;margin-bottom: 30px;"> 
+      <div> 
+       <h1 class="strong" style="font-size: 22px;">Fale com a Map Motors</h1> 
+       <div class="row"> 
+        <form action="/EmailContato?Length=4" class="contact-form clearfix" data-ajax="true" data-ajax-method="POST" data-ajax-success="respostaEmailContato" id="formContato" method="post" name="formContato">
+         <input id="idCliente" name="idCliente" type="hidden" value="225"> 
+         <div class="col-md-4 col-sm-4"> 
+          <div class="form-group"> 
+           <input class="form-control input-lg required" id="nome" name="nome" placeholder="Nome" type="text" value=""> 
+          </div> 
+         </div> 
+         <div class="col-md-4 col-sm-4"> 
+          <div class="form-group"> 
+           <input class="form-control input-lg required" id="email" name="email" placeholder="Email" type="text" value=""> 
+          </div> 
+         </div> 
+         <div class="col-md-4 col-sm-4"> 
+          <div class="form-group"> 
+           <input class="form-control input-lg maskCelular required" id="telefone" name="telefone" placeholder="Telefone" type="text" value=""> 
+          </div> 
+         </div> 
+         <div class="col-md-12 col-sm-8"> 
+          <div class="form-group"> 
+           <textarea class="form-control input-lg required" cols="20" id="mensagem" name="mensagem" placeholder="Mensagem" rows="6"></textarea> 
+          </div> 
+          <button id="buttonEmailContato" class="btn btn-primary btn-lg pull-right"><i class="fa fa-envelope"></i> Enviar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+        </form> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start site footer --> 
+   <footer class="site-footer"> 
+    <div class="site-footer-top"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_newsletter"> 
+        <h4 class="widgettitle">receba nossas newsletter</h4> 
+        <form> 
+         <input type="text" class="form-control" placeholder="Nome"> 
+         <input type="email" class="form-control" placeholder="Email"> 
+         <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar"> 
+        </form> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_custom_menu widget_links"> 
+        <h4 class="widgettitle">Mapa do Site</h4> 
+        <ul style="width: 44%; float: left; margin-right: 30px;"> 
+         <li><a href="/"><i class="fa fa-angle-right"></i> Home</a></li> 
+         <li><a href="/Empresa"><i class="fa fa-angle-right"></i> Empresa</a></li> 
+         <li><a href="/Veiculos"><i class="fa fa-angle-right"></i> Veículos</a></li> 
+        </ul> 
+        <ul style="width: 46%; float: left;"> 
+         <li><a href="/Financiamento"><i class="fa fa-angle-right"></i> Financiamento</a></li> 
+         <li><a href="/Contato"><i class="fa fa-angle-right"></i> Localização</a></li> 
+         <li><a href="/Lojas"><i class="fa fa-angle-right"></i> Lojas</a></li> 
+        </ul> 
+        <div style="clear: both"></div> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget text_widget"> 
+        <h4 class="widgettitle">Facebook</h4> 
+        <div class="fb-like-box" data-href="https://www.facebook.com/Boulevardshoppingcar?fref=ts" data-width="336" data-height="239" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="site-footer-bottom"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-6 col-sm-6 copyrights-left"> 
+        <p>© Boulevard Shopping Car - www.boulevardshoppingcar.com.br</p> 
+       </div> 
+       <div class="col-md-6 col-sm-6 copyrights-right" style="text-align: right"> 
+        <p>Desenvolvido por <a href="http://autocerto.com/" target="_blank"><img src="/Content/images/logo-AutoCerto.png" alt="AutoCerto.com" style="max-height: 20px"></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+   <!-- End site footer --> 
+   <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+  </div> 
+  <script style="display: none !important;">!function(e,t,r,n,c,a,l){function i(t,r){return r=e.createElement('div'),r.innerHTML='<a href="'+t.replace(/"/g,'&quot;')+'"></a>',r.childNodes[0].getAttribute('href')}function o(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return i(r)}try{for(c=e.getElementsByTagName('a'),l='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(a=c[n]).href.indexOf(l))>-1&&(a.href='mailto:'+o(a.href,t+l.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(a=c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'),0)),a)}catch(e){}}catch(e){}}(document);</script>
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-1.10.2.min.js"></script> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script src="/Content/vendor/prettyphoto/js/prettyphoto.js"></script> 
+  <script src="/Content/js/ui-plugins.js"></script> 
+  <script src="/Content/js/helper-plugins.js"></script> 
+  <script src="/Content/vendor/owl-carousel/js/owl.carousel.min.js"></script> 
+  <script src="/Content/js/bootstrap.js"></script> 
+  <script src="/Content/js/waypoints.js"></script> 
+  <script src="/Content/js/init.js"></script> 
+  <script src="/Content/vendor/flexslider/js/jquery.flexslider.js"></script> 
+  <script src="/Content/js/jquery.form.js"></script> 
+  <script src="/Content/js/jquery.blockUI.js"></script> 
+  <script src="/Content/js/jquery.validate.min.js"></script> 
+  <script src="/Content/js/jquery.maskedinput.js"></script> 
+  <script src="/Content/js/jquery.maskMoney.js"></script> 
+  <script src="/Content/FileUpload/jquery.iframe-transport.js" type="text/javascript"></script> 
+  <script src="/Content/FileUpload/jquery.fileupload.js" type="text/javascript"></script> 
+  <script src="/Content/js/jquery.jqia.selects.js"></script> 
+  <script src="/Content/js/bootbox.min.js"></script> 
+  <script src="/Content/js/toastr.min.js"></script> 
+  <script src="/Content/js/functions.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>  
+ </body>
+</html>

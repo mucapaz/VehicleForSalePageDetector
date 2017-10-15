@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- iPad iOS7+ com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets_portal/apple-touch-icon-152x152-e41764dec763d6c5d73bdd4063708ce9ffacb463484f28e10ff489cddc7a47c1.png"> 
+  <!-- iPad iOS7- com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png"> 
+  <!-- iPhone iOS7+ com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets_portal/apple-touch-icon-120x120-f65c142c5a87e37fd8d83fc7202ab8f36bcf00b226d5bc1abc8b2615754e9c3c.png"> 
+  <!-- iPhone iOS7- com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets_portal/apple-touch-icon-114x114-a15f3ca1100ee2b4176a31c76598731b3cf2167b87a0fd7e2278250169484973.png"> 
+  <!-- iPad iOS7+ sem retina display e iPad Mini--> 
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets_portal/apple-touch-icon-76x76-f9e15ed1f3411a7aa5c443c93b23377a6bb08065aff7befa22276f5ca6140770.png"> 
+  <!-- iPad iOS7- sem retina display  --> 
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets_portal/apple-touch-icon-72x72-551db87696f840c0c94d2a49c473c7297070abf47ac2ef7661000e681c49f04e.png"> 
+  <!-- iPhone iOS7-, iPod Touch e Android 2.2+  --> 
+  <link rel="apple-touch-icon" href="/assets_portal/apple-touch-icon-43565d3df861ca2201703639df627249f69ce5a3137527573f5f71e3ad1a4e22.png"> 
+  <meta name="msapplication-TileImage" content="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png"> 
+  <meta name="msapplication-TileColor" content="#5b83c2"> 
+  <meta name="csrf-param" content="authenticity_token"> 
+  <meta name="csrf-token" content="tGW+5u+gbOD7H5v6hG2/L+qVZw58nH/OPyly/fKdDB6n+EJN+ZRlY1tFVgkf9J7fLn4wIrCabtIptDtztSDyFg=="> 
+  <link rel="stylesheet" media="screen" href="/assets_portal/application-d991c547a040f0cd611dd76efe7511d4097c7fd59bc744678f09ad5d5c2eec1a.css"> 
+  <script src="/assets_portal/application-57451a702fe909dd77356a38c27b654ab3c0160a3ac5ebddc132b3424a8ef9b6.js" media="all" async></script> 
+  <!-- METATAGS --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="classification" content="Internet"> 
+  <meta name="robots" content="INDEX, FOLLOW"> 
+  <meta name="page_content" content="all"> 
+  <meta name="distribution" content="Global"> 
+  <meta name="rating" content="General"> 
+  <meta name="author" content="A TARDE On Line"> 
+  <meta name="generator" content="TopSys Framework"> 
+  <meta name="revisit-after" content="1 days"> 
+  <meta name="language" content="pt-br"> 
+  <meta name="doc-class" content="Completed"> 
+  <meta name="doc-rights" content="Public"> 
+  <meta name="copyright" content="© 1996-2017 A TARDE On Line"> 
+  <meta name="google-site-verification" content="4MCtxJiTM9c-mK18nSkbqzyY89elyqwD9XCImg9pbxU"> 
+  <meta name="keywords" content="jornal, notícia, notícias, web, tv, galeria, mundo, esporte, política, brasil, cidades, cidade, cultura, cinema, economia, tempo, vestibular, pós, graduação, blog, revista, infografia, infografias, segurança, violência, saúde, chuva, teatro, salvador, bahia, exposição, música, interatividade, classificados, horóscopo"> 
+  <meta name="description" content="Últimas Notícias de Salvador, Bahia, Brasil e do mundo da redação do jornal A TARDE. Encontre anúncios classificados de autos, imóveis e empregos, informações de tempo, trânsito, cinema, teatro e dicas de lazer."> 
+  <link rel="canonical" href="http://atarde.uol.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter"> 
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25157125-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setLocalGifPath','http://www.atarde.uol.com.br/ivc/urchin.gif']);
+    _gaq.push(['_setLocalRemoteServerMode', true]);
+    _gaq.push(['_setDomainName', '.atarde.uol.com.br']);
+    _gaq.push(['_setAllowLinker', true]);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script> 
+  <script type="text/javascript">
+    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+        p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+        };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+        n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//gadasource.storage.googleapis.com/ivc.js","ivc"));
+    window.ivc('newTracker', 'cf', 'ivccf.ivcbrasil.org.br', {
+        idWeb: '112'
+    });
+    window.ivc('trackPageView');
+</script> 
+  <!-- TailTarget Tag Manager TT-12294-7/CT-918 --> 
+  <script>
+    (function(i) {
+        var ts = document.createElement('script');
+        ts.type = 'text/javascript';
+        ts.async = true;
+        ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ts, s);
+    })('TT-12294-7/CT-918');
+</script> 
+  <!-- End TailTarget Tag Manager --> 
+  <meta property="plataforma" content=""> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+ googletag.cmd.push(function() {
+  googletag.defineSlot('/21419831/atarde_Home_BannerConteudo', [800, 600], 'div-gpt-ad-1464036674765-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script> 
+  <title>Jéferson ganha disputa com Valdemir e deve ser titular no Inter</title> 
+  <meta name="description" content="A principal cobertura do futebol baiano, basquete e outros esportes."> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/21419831/atarde_Esporte_Superbanner', [728, 90], 'div-gpt-ad-1343074215724-5').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Esporte_Selo', [120, 40], 'div-gpt-ad-1343074215724-3').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Esporte_3x1', [300, 100], 'div-gpt-ad-1343074215724-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Esporte_Square', [[300, 250], [300, 600]], 'div-gpt-ad-1343074215724-4').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Barraultimas_Square', [300, 250], 'div-gpt-ad-1350483034783-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/ATARDE_materia_300x250_01', [300, 250], 'div-gpt-ad-1421262824463-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/ATARDE_materia_300x250_02', [300, 250], 'div-gpt-ad-1421262854799-0').addService(googletag.pubads());
+
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+ googletag.cmd.push(function() {
+  googletag.defineSlot('/21419831/atarde_Home_BannerConteudo', [800, 600], 'div-gpt-ad-1464036674765-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script> 
+  <meta property="og:url" content="http://www.atarde.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter"> 
+  <meta property="og:title" content="Jéferson ganha disputa com Valdemir e deve ser titular no Inter"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:site_name" content="Portal A TARDE"> 
+  <meta property="og:image" content=""> 
+  <meta property="og:description" content="O técnico Guto Ferreira comandou um treino coletivo neste domingo e praticamente definiu o time titular do Internacional para a partida contra o..."> 
+  <link rel="image_src" href="/assets_portal/marca_facebook-4b1d5a886b2d3ba8b107a6961e602e5b262b851769705d06af0ea4d6f205ee46.jpg"> 
+  <meta property="fb:app_id" content="128000464044229"> 
+  <!-- <link rel="canonical" href="http://atarde.uol.com.br"/> --> 
+  <link rel="shortcut icon" href="/assets_portal/favicon-ff7971074a0a83e5cf640be04cc54b99517a612efcb28e969ffc469cb336823d.ico"> 
+  <!--[if lt IE 9]>
+<script async src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]--> 
+  <script type="text/javascript">
+    window.universal_variable = window.universal_variable || {};
+    window.universal_variable.dfp = {
+        "custom_params" : {
+            "subchan" : "",
+        }
+    };
+
+    window.uolads = window.uolads || [];
+
+    ;(function() {
+        var scr = document.createElement("script");
+        scr.async = true;
+        scr.src =  "//tm.jsuol.com.br/uoltm.js?id=uteqwq";
+        var el = document.getElementsByTagName("script")[0];
+            el.parentNode.insertBefore(scr, el);
+    })();
+</script> 
+ </head>
+ <body id="grupo-esporte">
+  <hr class="separadorTopouol"> 
+  <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+    <div class="rg-image-wrapper">
+        {{if itemsCount > 1}}
+            <div class="rg-image-nav">
+                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                <a href="#" class="rg-image-nav-next">Next Image</a>
+            </div>
+        {{/if}}
+        <div class="rg-image"></div>
+        <div class="rg-loading"></div>
+        <div class="rg-caption-wrapper">
+            <div class="rg-caption" style="display:none;">
+                <p></p>
+            </div>
+        </div>
+    </div>
+ </script> 
+  <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/grupoatarde-atarde/loader.js',
+  'tb_loader_script');
+</script>  
+  <!--
+col-md = desktop
+col-sm = tablet
+col-xs = celular
+ --> 
+  <!--
+    SE GRUPO NOTICIA: id="grupo-noticis"
+    SE GRUPO ESPORTE: id="grupo-esporte"
+    SE GRUPO ENTRETEIMENTO: id="grupo-entretenimento"
+ -->  
+  <header class="header menuPrincipal"> 
+   <input type="checkbox" id="control-nav"> 
+   <label for="control-nav" class="control-nav"></label> 
+   <label for="control-nav" class="control-nav-close"></label> 
+   <h1 class="marcaATARDE"> <a href="http://atarde.uol.com.br/" alt="Marca Portal A TARDE" title="Marca Portal A TARDE"></a> </h1> 
+   <nav> 
+    <div class="atalhos"> 
+     <a href="http://assine.atarde.com.br/" target="blank" title="Assine" class="assineBx"> <h1>ASSINE A TARDE</h1> <span>(71) 3533-0850</span> </a> 
+     <!--
+                <div class="assine">
+                  <a href="http://assine.atarde.com.br/" target="blank" title="Assine">
+                  <i class="selo-assine"></i></a>
+                </div>
+                --> 
+     <div class="anuncie"> 
+      <a href="https://anuncie.atarde.com.br/" target="_blank" title="Anuncie"><i class="ico-anuncie-menu"></i> <p>Anuncie</p></a>
+     </div> 
+     <div class="atMais"> 
+      <a href="http://atardemais.atarde.uol.com.br/" target="_blank" title="A TARDE +"><i class="ico-atardemais-menu"></i> <p>A TARDE +</p></a>
+     </div> 
+     <div class="contatos">
+      <a href="/contatos"><i class="ico-contato-menu" target="_blank" title="Contatos"></i> <p>Contatos</p></a>
+     </div> 
+    </div> 
+    <ul class="destaquesUltimas"> 
+     <li><a href="/ultimas-noticias" title="Últimas notícias">Últimas notícias</a></li> 
+    </ul> 
+    <!--AGRUPAMENTO-1 MENU --> 
+    <ul class="grupos"> 
+     <li class="home"><a href="http://atarde.uol.com.br/" title="Home">HOME</a></li> 
+     <li class="noticias"><a href="/grupos/noticias" title="Notícias">Notícias</a></li> 
+     <li class="esportes"><a href="/grupos/esportes" title="Esportes">Esportes</a></li> 
+     <li class="entretenimento"><a href="/grupos/entretenimento" title="Entretenimento">Entretenimento</a></li> 
+    </ul> 
+    <!--/FECHA AGRUPAMENTO-1 MENU --> 
+    <!--AGRUPAMENTO-2 MENU --> 
+    <ul class="navmenu-nav"> 
+     <!-- CANAIS E EDITORIAS --> 
+     <li> 
+      <ul> 
+       <li> <h2> Canais e editorias </h2> </li> 
+       <li> 
+        <!--Para destacar a tag "a" no carnaval  usar class="Cdestaque"
+                     <a href="http://www.atarde.com.br/carnaval" title="Carnaval2017">Carnaval</a>
+                    </li>--> </li>
+       <li><a href="http://agenda2mais.atarde.com.br/" title="Agenda 2+">Agenda 2+</a></li> 
+       <li><a href="/autos" title="Autos">Autos</a></li> 
+       <li><a href="/bahia" title="Bahia">Bahia</a></li> 
+       <li><a href="/brasil" title="Brasil">Brasil</a></li> 
+       <li><a href="/saude" title="Saúde">Saúde</a></li> 
+       <li><a href="http://www.cineinsite.com.br/" title="Cinema">Cinema</a></li> 
+       <li><a href="/concursos" title="Concursos">Concursos</a></li> 
+       <li><a href="/cultura" title="Cultura">Cultura</a></li> 
+       <li><a href="/digital" title="Digital">Digital</a></li> 
+       <li><a href="/esportes/bahia" title="E.C. Bahia">E.C. Bahia</a></li> 
+       <li><a href="/esportes/vitoria" title="E.C. Vitória ">E.C. Vitória</a></li> 
+       <li><a href="/economia" title="Economia">Economia</a></li> 
+       <li><a href="/educacao" title="Educação">Educação</a></li> 
+       <li><a href="/empregos" title="Empregos">Empregos</a></li> 
+       <li><a href="/gastronomia" title="Gastronimia">Gastronomia</a></li> 
+       <li><a href="/famosos" title="Mexerico">Mexerico</a></li> 
+       <li><a href="/muito" title="Muito">Muito</a></li> 
+       <li><a href="/mundo" title="Mundo">Mundo</a></li> 
+       <li><a href="/opiniao" title="Opinião">Opinião</a></li> 
+       <li><a href="/politica" title="Política">Política</a></li> 
+       <li><a href="http://atarde.uol.com.br/quemviuview" title="Quem Viu View">Quem Viu View</a></li> 
+       <li><a href="/bahia/salvador" title="Salvador">Salvador</a></li> 
+       <li><a href="/transito" title="Trânsito">Trânsito</a></li> 
+       <li><a href="/turismo" title="Turismo">Turismo</a></li> 
+      </ul> </li> 
+     <!-- /FECHA CANAIS E EDITORIAS --> 
+     <!-- BLOGS E COLUNISTAS --> 
+     <li> 
+      <ul> 
+       <li> <h2> blogs e colunistas </h2> </li> 
+       <li><a href="/colunista/luizteles" title="Acréscimos">Acréscimos</a></li> 
+       <li><a href="http://atarde.uol.com.br/colunista/atardesp" title="Autos Brasil">Auto Brasil</a></li> 
+       <li><a href="/colunista/samuellima" title="Empurrão Tricolor">Empurrão Tricolor</a></li> 
+       <li><a href="/colunista/julianalisboa" title="Inclusiva">Inclusiva</a></li> 
+       <li><a href="/colunista/danieldorea" title="Detalhe Tático">Detalhe Tático</a></li> 
+       <li><a href="/colunista/joseraimundo" title="Olhar Rubro-Negro">Olhar Rubro-Negro</a></li> 
+       <!--                <li><a href="/colunista/ronaldojacobina" title="Ronaldo Jacobina">Ronaldo Jacobina</a></li>--> 
+       <li><a href="/colunista/levivasconcelos" title="Tempo Presente">Tempo Presente</a></li> 
+       <li><a href="/colunista/geraldobastos" title="Tendências &amp; Mercado">Tendências &amp; Mercado</a></li> 
+       <li><a href="http://blogdoted.atarde.com.br/" title="Blog do Ted" target="_blank">Blog do Ted</a></li> 
+       <li><a href="http://maisti.atarde.com.br/" title="Mais TI" target="_blank">Mais TI</a></li> 
+       <li><a href="http://micheltelles.atarde.com.br/" title="Michel Telles" target="_blank">Michel Telles</a></li> 
+       <li><a href="http://moda.atarde.uol.com.br/" title="Moda" target="_blank">Moda</a></li> 
+      </ul> </li> 
+     <li><a href="/cidadaoreporter">cidadão reporter</a></li> 
+     <li><a href="/charges">charges</a></li> 
+     <li><a href="http://foco.atarde.com.br" target="_blank">foco</a></li> 
+     <li><a href="/galerias">galerias</a></li> 
+     <!-- /FECHA BLOGS E COLUNISTAS --> 
+    </ul> 
+    <!--FECHA AGRUPAMENTO-2 MENU --> 
+    <!-- AGRUPAMENTO-3 MENU --> 
+    <ul class="outros"> 
+     <li><a href="http://edicaodigital.atarde.com.br/" title="Edição digital">Edição digital</a></li> 
+     <li><a href="http://classificados.atarde.uol.com.br" title="Classificados">Classificados</a></li> 
+     <li><a href="http://publicidade.atarde.com.br/" title="Publicidade">Publicidade</a></li> 
+    </ul> 
+    <!--/FECHA AGRUPAMENTO-3 MENU --> 
+   </nav> 
+   <!--
+          <div class="contato">
+            <a href="/contatos">
+              <i class="glyphicon glyphicon-envelope" data-toggle="tooltip" data-placement="bottom" title="Fale conosco"></i></a>
+          </div>
+
+
+          <div class="busca btn-group">
+            <i class="glyphicon glyphicon-search dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Buscar"></i>
+
+            <div class="dropdown-menu aba">
+              <form action="/buscas">
+                <label for=""><input name="busca" type="text" placeholder="Buscar por"/></label>
+                <input type="submit" value="buscar"/>
+              </form>
+            </div>
+          </div>
+          --> 
+   <a href="/buscas" class="busca btn-group"> <i class="glyphicon glyphicon-search" title="Buscar"></i> </a> 
+  </header> 
+  <!--<div class="navmenu navmenu-default navmenu-fixed-left nav"></div>--> 
+  <div class="publicidade hidden-xs"> 
+   <div class="centralizadorSB"> 
+   </div> 
+  </div> 
+  <!-- [ABRE] TOPO CANAL --> 
+  <div class="container-fluid topo -canal"> 
+   <div class="container"> 
+    <h2> <span>Esportes</span> </h2> 
+    <div class="selo hidden-xs"> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- [FECHA] TOPO CANAL --> 
+  <div class="container atarde"> 
+   <aside class="row materia"> 
+    <div class="breadcrumb hidden-xs"> 
+     <ul>
+       Esportes 
+      <li><a href="/esportes"> Esportes</a></li> 
+     </ul> 
+    </div> 
+    <!-- [ABRE] MATERIA --> 
+    <aside class="col-md-8 col-sm-12 col-xs-12"> 
+     <p class="data"> Dom , 15/10/2017 às 13:38 </p> 
+     <h3 class="tituloMateria">Jéferson ganha disputa com Valdemir e deve ser titular no Inter</h3> 
+     <p class="credito"> <img src="/assets_portal/estadao-conteudo-f722ae28dbebc231e17ea8ba2e887c6dc9bf29fde06642decc2f5db51fa0db91.png"> </p> 
+     <div class="tags hidden-xs"> 
+      <ul> 
+       <li>Tags</li> 
+       <li> <a href="/buscas?tag=futebol&amp;canal=2" title="futebol"> futebol </a> </li> 
+       <li> <a href="/buscas?tag= serie b&amp;canal=2" title=" serie b"> serie b </a> </li> 
+       <li> <a href="/buscas?tag= inter&amp;canal=2" title=" inter"> inter </a> </li> 
+       <li> <a href="/buscas?tag= treino&amp;canal=2" title=" treino"> treino </a> </li> 
+       <li> <a href="/buscas?tag= guto ferreira&amp;canal=2" title=" guto ferreira"> guto ferreira </a> </li> 
+       <li> <a href="/buscas?tag= jeferson&amp;canal=2" title=" jeferson"> jeferson </a> </li> 
+      </ul> 
+     </div> 
+     <div class="integracaoMateria"> 
+      <div class="barraInteratividade"> 
+       <!--a href="" data-toggle="tooltip" data-placement="top" title="Gostei"><span class="glyphicon glyphicon-thumbs-up"></span>20</a>
+    <a href="" data-toggle="tooltip" data-placement="top" title="Não gostei"><span class="glyphicon glyphicon-thumbs-down"></span>20</a--> 
+       <div class="compartilhamento"> 
+        <!-- twitter --> 
+        <a href="http://twitter.com/home?status=Jéferson ganha disputa com Valdemir e deve ser titular no Inter+http://www.atarde.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter" title="Compartilhar no Twitter" target="_blank"> <span class="ico-twiter"></span> </a> 
+        <a href="http://www.facebook.com/share.php?u=http://www.atarde.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter&amp;title=Jéferson ganha disputa com Valdemir e deve ser titular no Inter" title="Compartilhar no Facebook" target="_blank"> <span class="ico-facebook"></span> </a> 
+        <a href="https://plus.google.com/share?url=http://www.atarde.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter" title="Compartilhar no Google Plus" target="_blank"> <span class="ico-google"></span> </a> 
+        <a class="hidden-sm hidden-lg" href="whatsapp://send?text=http://www.atarde.com.br/esportes/noticias/1903440-jeferson-ganha-disputa-com-valdemir-e-deve-ser-titular-no-inter" title="Compartilhar no Google Plus" target="_blank"> <span class="ico-whatsapp"></span> </a> 
+       </div> 
+      </div> 
+      <i class="aumenta">A+</i> 
+      <i class="diminui">A-</i> 
+      <!-- <i class="reportarErro glyphicon glyphicon-info-sign"></i> --> 
+      <i class="print glyphicon glyphicon-print" onclick="self.print()"> </i> 
+     </div> 
+     <div class="conteudoMateria"> 
+      <p>O técnico Guto Ferreira comandou um treino coletivo neste domingo e praticamente definiu o time titular do Internacional para a partida contra o Boa, terça-feira, em Varginha, pela Série B do Campeonato Brasileiro.</p>
+      <p></p>
+      <p>E a principal novidade no treino foi a presença do volante Jéferson como titular. Integrado recentemente ao elenco principal, ele ganhou a vaga de Valdemir, outro jovem que vinha sendo testado na posição. Deve, assim, atuar ao lado de Charles.</p>
+      <p></p>
+      <p>Jéferson será o substituto do volante Edenilson, suspenso. Guto Ferreira também não conta com Rodrigo Dourado, que se recupera de contusão, e precisou recorrer a um jovem da base para montar a escalação.</p>
+      <p></p>
+      <p>Outros desfalques para o duelo desta terça são os atacantes Eduardo Sasha, suspenso, e Leandro Damião, que sentiu dores musculares depois da vitória sobre o Brasil de Pelotas. Camilo, assim, ganhou uma vaga no meio, enquanto o uruguaio Nico López jogará mais aberto. O posto de centroavante será desempenhado por William Pottker.</p>
+      <p></p>
+      <p>O Internacional deve enfrentar o Boa com a seguinte escalação: Danilo Fernandes; Cláudio Winck, Danilo Silva, Victor Cuesta e Uendel; Charles, Jéferson, Nico López, D'Alessandro e Camilo; William Pottker. A equipe lidera a Série B com 57 pontos, três na frente do América Mineiro.</p> 
+      <div class="row"> 
+       <!-- [ABRE] AGENDA 2+ --> 
+       <!-- [FECHA] AGENDA 2+ --> 
+       <!-- [ABRE] CINEINSITE --> 
+       <!-- [FECHA] CINEINSITE --> 
+      </div> 
+      <aside class="row"> 
+       <div class="col-md-12 col-sm-12 col-xs-12"> 
+        <div class="coordenadas"> 
+         <ul class="bxslider"> 
+          <li class="item"> <a href="/esportes/noticias/1903446-com-dores-na-panturrilha-bruno-henrique-desfalca-santos-contra-o-vitoria" title="Com dores na panturrilha, Bruno Henrique desfalca Santos contra o Vitória"> <p class="dataMateria">15/10/2017</p> <p class="tituloMateria">Com dores na panturrilha, Bruno Henrique desfalca Santos contra o Vitória</p> </a> </li> 
+          <li class="item"> <a href="/esportes/noticias/1903445-newcastle-vacila-e-cede-empate-ao-southampton-no-campeonato-ingles" title="Newcastle vacila e cede empate ao Southampton no Campeonato Inglês"> <p class="dataMateria">15/10/2017</p> <p class="tituloMateria">Newcastle vacila e cede empate ao Southampton no Campeonato Inglês</p> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </aside> 
+      <!-- Pontamedia Comments Tag //--> 
+      <div id="bc_comments_plugin"></div> 
+      <script>
+  var BCCommentsOptions = {
+    'lang': 'pt',
+    'height':'',
+    'width':'90%',
+    'socialSharing':true,
+    'showCaptcha':true,
+    'theme':'default',
+    'mdrt':'e41b481b74414a69c42b8215885bebc2'
+  };
+</script> 
+      <script type="text/javascript" src="//api.pontamedia.net/comments/?k=5cfd86e40eb17d5e7f13854e942ebd8c78b0c689" async></script> 
+      <!-- End Pontamedia Comments Tag //--> 
+      <div id="taboola-below-article-thumbnails"></div> 
+      <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+              mode: 'thumbnails-a',
+              container: 'taboola-below-article-thumbnails',
+              placement: 'Below Article Thumbnails',
+              target_type: 'mix'
+          });
+      </script> 
+     </div> 
+    </aside> 
+    <!-- [FECHA] MATERIA --> 
+    <!-- [ABRE] SIDEBAR --> 
+    <aside class="col-md-4 col-sm-12 col-xs-12"> 
+     <div class="row sidebar"> 
+      <!-- [ABRE] OUTRAS NOTICIAS --> 
+      <div class="outrasNoticias col-md-12 col-sm-12 col-xs-12"> 
+       <h4>Outras <strong>notícias</strong></h4> 
+       <ul> 
+        <li class=""> <a href="/esportes/noticias/1903455-ana-marcela-ganha-ouro-na-china-allan-do-carmo-fica-com-a-prata" title="Ana Marcela ganha ouro na China; Allan do Carmo fica com a prata"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_20171015162355145.jpg" alt="Ana Marcela ganha ouro na China; Allan do Carmo fica com a prata | Foto: " title="Ana Marcela ganha ouro na China; Allan do Carmo fica com a prata | Foto: " class="img-responsive"> 
+          </figure> <p class="data">15/10/2017</p> <p>Ana Marcela ganha ouro na China; Allan do Carmo fica com a prata</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903450-pavlyuchenkova-supera-gavrilova-e-conquista-o-titulo-do-torneio-de-hong-kong" title="Pavlyuchenkova supera Gavrilova e conquista o título do Torneio de Hong Kong"> <p class="data">15/10/2017</p> <p>Pavlyuchenkova supera Gavrilova e conquista o título do Torneio de Hong Kong</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903437-leverkusen-e-wolfsburg-so-empatam-e-seguem-na-parte-de-baixo-da-tabela-do-alemao" title="Leverkusen e Wolfsburg só empatam e seguem na parte de baixo da tabela do Alemão"> <p class="data">15/10/2017</p> <p>Leverkusen e Wolfsburg só empatam e seguem na parte de baixo da tabela do Alemão</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903436-sampdoria-vence-a-atalanta-e-se-aproxima-das-primeiras-posicoes-do-italiano" title="Sampdoria vence a Atalanta e se aproxima das primeiras posições do Italiano"> <p class="data">15/10/2017</p> <p>Sampdoria vence a Atalanta e se aproxima das primeiras posições do Italiano</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903435-lenda-olimpica-do-brasil-robert-scheidt-anuncia-que-nao-disputara-mais-os-jogos" title="Lenda olímpica do Brasil, Robert Scheidt anuncia que não disputará mais os Jogos"> <p class="data">15/10/2017</p> <p>Lenda olímpica do Brasil, Robert Scheidt anuncia que não disputará mais os Jogos</p> </a> </li> 
+        <li class=""> <a href="/esportes/bahia/noticias/1903345-bahia-espera-surpreender-o-timao-na-fonte-nova-neste-domingo" title="Bahia espera surpreender o Timão na Fonte Nova neste domingo"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_20171015115131257.jpg" alt="Bahia espera surpreender o Timão na Fonte Nova neste domingo | Foto: " title="Bahia espera surpreender o Timão na Fonte Nova neste domingo | Foto: " class="img-responsive"> 
+          </figure> <p class="data">15/10/2017</p> <p>Bahia espera surpreender o Timão na Fonte Nova neste domingo</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903432-rooney-marca-e-everton-arranca-empate-com-brighton-hove-mas-segue-em-baixa" title="Rooney marca e Everton arranca empate com Brighton &amp; Hove, mas segue em baixa"> <p class="data">15/10/2017</p> <p>Rooney marca e Everton arranca empate com Brighton &amp; Hove, mas segue em baixa</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903429-fratus-desbanca-campeao-olimpico-e-brasil-leva-a-melhor-no-desafio-raia-rapida" title="Fratus desbanca campeão olímpico e Brasil leva a melhor no Desafio Raia Rápida"> <p class="data">15/10/2017</p> <p>Fratus desbanca campeão olímpico e Brasil leva a melhor no Desafio Raia Rápida</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903427-apos-vitoria-na-final-federer-diz-que-nao-notou-problema-fisico-de-nadal" title="Após vitória na final, Federer diz que não notou problema físico de Nadal"> <p class="data">15/10/2017</p> <p>Após vitória na final, Federer diz que não notou problema físico de Nadal</p> </a> </li> 
+        <li class="semFoto"> <a href="/esportes/noticias/1903423-liga-alema-parabeniza-jogadores-do-hertha-por-aderirem-a-protesto-contra-racismo" title="Liga alemã parabeniza jogadores do Hertha por aderirem a protesto contra racismo"> <p class="data">15/10/2017</p> <p>Liga alemã parabeniza jogadores do Hertha por aderirem a protesto contra racismo</p> </a> </li> 
+       </ul> 
+      </div> 
+      <!-- [FECHA] OUTRAS NOTICIAS --> 
+      <!-- [ABRE] PUBLICIDADE --> 
+      <div class=" col-md-12 col-sm-12 col-xs-12"> 
+       <div class="publicidade square"> 
+       </div> 
+      </div> 
+      <!-- [FECHA] PUBLICIDADE --> 
+      <div id="taboola-right-rail-thumbnails" class="boxServicos col-md-12 col-sm-12 col-xs-12"></div> 
+      <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                    mode: 'organic-thumbnails-a',
+                    container: 'taboola-right-rail-thumbnails',
+                    placement: 'Right Rail Thumbnails',
+                    target_type: 'mix'
+                });
+            </script> 
+      <div class=" col-md-12 col-sm-12 col-xs-12 text-center"> 
+       <!-- Vitrine br_apn_atarde_300X600_internas --> 
+       <script type="text/javascript" id="597a3ddb7fdc040004a21efe" async>
+                    if(!document.getElementById('597a3ddb7fdc040004a21efe')) {
+                        document.write('<div id="597a3ddb7fdc040004a21efe"></div>');
+                    }
+                    var _aep = _aep || [];
+                    (function(d, s, c) {
+                        var getTimestamp = function() {
+                            var date = new Date();
+                            return ('00' + date.getFullYear()).slice(-2) +
+                                ('00' + date.getMonth()).slice(-2) +
+                                ('00' + date.getDate()).slice(-2);
+                        };
+                        _aep.push(['tag', '597a3ddb7fdc040004a21efe', { /* add optional custom config here */ }]);
+                        var f = d.createElement(s); f.src = (d.location.protocol == 'https:') ? c.replace('http:', 'https:').replace('//akfs', '//s-akfs') : c+ '?r=' + getTimestamp();
+                        var e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(f, e);
+                    })(document, 'script', '//akfs.nspmotion.com/aep/tag/br/597a3ddb7fdc040004a21efe.cfg.js');
+                </script> 
+      </div> 
+     </div> 
+    </aside> 
+    <!-- [FECHA] SIDEBAR --> 
+   </aside> 
+  </div> 
+  <!-- [ABRE] rodape --> 
+  <div id="rodapePortal" class=" hidden-xs hidden-sm"> 
+   <div class="topoRodape"> 
+    <div class="conteudoTopo container"> 
+     <img src="/assets_portal/marcaRodape-13e374a38938a53334a747bb34ba518d46b6d975192bda00858812630ba383cb.png" alt="Marca do A TARDE" class="marcaRodape"> 
+     <ul> 
+      <li><a href="/grupos/noticias">notícias</a></li> 
+      <li><a href="/esportes">esportes</a></li> 
+      <li><a href="/entretenimento">entretenimento</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="baseRodape"> 
+    <div class="conteudoRodape container"> 
+     <div class="colunaImpresso"> 
+      <div class="impresso"> 
+       <a href="http://edicaodigital.atarde.uol.com.br/"><img src="http://fw.atarde.uol.com.br/edicaodigital/2017/10/240x430_15-10-2017_20171014194029416_primeirocaderno.jpg" alt="capa do jornal" title="capa do jornal"></a> 
+       <!-- <div class="app">
+            <span class="sprite2015 ico-android"><a href="https://play.google.com/store/apps/details?id=br.com.digitalpages.atarde" target="_blank">APP para Android</a></span>
+            <span class="sprite2015 ico-ios"><a href="https://itunes.apple.com/us/app/a-tarde/id663955316?mt=8" target="_blank">APP para IOS</a></span>
+          </div> --> 
+      </div> 
+      <div class="assine"> 
+       <h4>assine</h4> 
+       <p>Salvador e região metropolitana</p> 
+       <p>(71) 3533 0850</p> 
+       <p>Demais localidades</p> 
+       <p>0800 071 8500</p> 
+       <p>Seg a Sex:7h às 19h</p> 
+       <p>Sábado das 7h às 13h</p> 
+       <h6 class="textWite">*A central não funciona aos Domingos e feriados</h6> 
+      </div> 
+     </div> 
+     <div class="colunaCanais"> 
+      <p class="tituloColuna">canais e editorias</p> 
+      <div class="row"> 
+       <ul class="col-md-6"> 
+        <li><a href="/autos">Autos</a></li> 
+        <li><a href="/bahia">Bahia</a></li> 
+        <li><a href="/brasil">Brasil</a></li> 
+        <li><a href="/cidadaoreporter">Cidadão Repórter</a></li> 
+        <li><a href="/saude">Saúde</a></li> 
+        <li><a href="http://www.cineinsite.com.br" target="_blank">Cinema</a></li> 
+        <li><a href="/concursos">Concursos</a></li> 
+        <li><a href="/cultura">Cultura</a></li> 
+        <li><a href="/digital">Digital</a></li> 
+        <li><a href="/economia">Economia</a></li> 
+       </ul> 
+       <ul class="col-md-6"> 
+        <li><a href="/esportes/bahia">E.C. Bahia</a></li> 
+        <li><a href="/esportes/vitoria">E.C. Vitória</a></li> 
+        <li><a href="/empregos">Empregos</a></li> 
+        <li><a href="/gastronomia">Gastronomia</a></li> 
+        <li><a href="/muito">Muito</a></li> 
+        <li><a href="/mundo">Mundo</a></li> 
+        <li><a href="/opiniao">Opinião</a></li> 
+        <li><a href="/politica">Política</a></li> 
+        <li><a href="/bahia/salvador">Salvador</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="colunaEmpresas"> 
+      <p class="tituloColuna"><span class="sprite2015 ico-simboloAtarde-g"></span>grupo a atarde</p> 
+      <ul> 
+       <li><a href="http://anuncie.atarde.com.br/" target="_blank"> A TARDE</a></li> 
+       <li><a href="http://www.jornalmassa.com.br/" target="_blank">MASSA!</a></li> 
+       <li><a href="http://www.atardefm.com.br/" target="_blank">A TARDE FM</a></li> 
+       <li><a href="http://www.agenciaatarde.com.br/" target="_blank">AGÊNCIA A TARDE</a></li> 
+       <li><a href="http://www.atardeservicosgraficos.com.br/" target="_blank">SERVIÇOS GRÁFICOS</a></li> 
+       <li><a href="http://educacaoonline.atarde.com.br/aea" target="_blank">A TARDE EDUCAÇÃO</a></li> 
+      </ul> 
+     </div> 
+     <div class="colunaContatos"> 
+      <!-- <div class="redesSociais">
+          <span class="sprite2015 ico-feed"><a href="">Feed</a></span>
+          <span class="sprite2015 ico-tw-branco"><a href="http://www.twitter.com/atarde" target="_blank">Twitter @atarde</a></span>
+          <span class="sprite2015 ico-fb-branco"><a href="http://www.facebook.com.br/atarde.online" target="_blank">Facebook</a></span>
+          <span class="sprite2015 ico-go-branco"><a href="https://plus.google.com/u/0/101626613913762831669" target="_blank">Google Plus</a></span>
+        </div> --> 
+      <div class="faleConosco"> 
+       <a href="/contatos"><span class="glyphicons glyphicons-message-flag"></span>fale <strong>conosco</strong></a> 
+      </div> 
+      <div class="whatsapp"> 
+       <span class="sprite2015 ico-wApp"></span> 
+       <p>WhatsAPP</p> 
+       <p>(71) 99601-0020</p> 
+      </div> 
+      <div class="redacao"> 
+       <p>Redação:</p> 
+       <p>(71) 3340-8800 </p> 
+       <p>Central:</p> 
+       <p>(71) 3340-8500</p> 
+      </div> 
+      <div class="classificados"> 
+       <p>Classificados:</p> 
+       <p>(71) 3533-0855</p> 
+      </div> 
+     </div> 
+     <div class="outrosRodape"> 
+      <div class="atardeMais"> 
+       <p><a href="http://www.atardemais.com.br/" target="_blank">conheça o a tarde+</a></p> 
+       <span class="sprite2015 ico-atardeMais"></span> 
+      </div> 
+      <div class="anuncie"> 
+       <p><a href="http://anuncie.atarde.com.br/" target="_blank">anuncie</a></p> 
+       <span class="sprite2015 ico-anuncie"></span> 
+      </div> 
+      <div class="anuncieClassi"> 
+       <p>anuncie classificados</p> 
+       <p>(71) 3533-0855</p> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="copyright"> 
+      <p>Copyright © 1996 - <script>document.write(new Date().getFullYear());</script> Grupo A TARDE. Todos os direitos reservados.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- RODAPEBANNER --> 
+  <!-- /RODAPEBANNER --> 
+  <!-- Hotjar Tracking Code for www.atarde.com.br --> 
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:346526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> 
+  <!-- [FECHA] rodape -->  
+  <!-- fecha canvas --> 
+  <iframe src="http://atarde.uol.com.br/estatistica/materias/1903440/2" height="1"></iframe> 
+  <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>   
+ </body>
+</html>

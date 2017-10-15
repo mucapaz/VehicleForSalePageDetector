@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <script>
+        var timeInicial = new Date();
+    </script> 
+  <script id="scriptLayer"></script> 
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="shortcut icon" href="/images/icon-Autoline.ico"> 
+  <link rel="canonical" href="https://www.autoline.com.br/institucional/fale-conosco"> 
+  <title>Autoline</title> 
+  <meta property="og:title" content="Autoline"> 
+  <script language="javascript">
+        function getCookie(chave) {
+            var ChaveValor = document.cookie.match('(^|;) ?' + chave + '=([^;]*)(;|$)');
+            return ChaveValor ? ChaveValor[2] : null;
+        }
+
+        function setCookie(name, value, exdays) {
+            var expires;
+            var date;
+
+            date = new Date(); //  criando o COOKIE com a data atual
+            date.setTime(date.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            expires = date.toUTCString();
+            document.cookie = name + "=" + value + "; expires=" + expires + ";domain=.autoline.com.br; path=/";
+        }
+
+        var LIP_LowPrecision = false; //false = pede permissao pelo navegador, Maior Precisao | true = nao pede permissao, Menor Precisao
+        function LocalizaIP_done(ip_data) {
+
+            if (!ip_data['error']) //esta linha eh um exemplo, deve trocá-la pelo programa que irá manipular os dados de Geolocalizacao
+            {
+                if (getCookie('GeoUF')==null){
+                    setCookie('GeoUF', ip_data['state'], 87600000);
+                    setCookie('GeoCity', ip_data['city'], 87600000);
+                    setCookie('FonteGeoLocation', "ip", 87600000);
+                }
+            }
+        }
+    </script> 
+  <script src="https://www.localizaip.com.br/api/geolocation.js.php?domain=autoline.com.br&amp;token=c2NvcHVzZ2VzdGFvQGdtYWlsLmNvbXw2MTI1NjUz"></script> 
+  <link href="/styles.css?v=xrTe9IEp-MWxTWEeBN3CCAFPVSGMnbR7B2Nq5S22Z-41" rel="stylesheet"> 
+  <script src="/jquery.js?v=Dhovu76KSiRrGV-h55JE6jtbg2-NMMVPHk7znCOHiFw1"></script> 
+  <script src="/scripts.js?v=XGs-oHwS75kNXOQxV2w_lgDbnrr9v6Cpa-agxYT3zLo1"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+  <meta name="google-site-verification" content="Kvjy_jK9VzZ_nZbp8t4l-eaMKd1geXaPaz03uShCu-o"> 
+  <meta name="msvalidate.01" content="7636683AEA475F9AF8CD45EA258871EE"> 
+  <meta name="google-site-verification" content="Kvjy_jK9VzZ_nZbp8t4l-eaMKd1geXaPaz03uShCu-o"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/271632123/Home1_468x60', [468, 60], 'div-gpt-ad-1477995249144-0').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/Home2_234x60', [234, 60], 'div-gpt-ad-1477995249144-1').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/Home3_300x250', [300, 250], 'div-gpt-ad-1477995249144-2').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/271632123/Autoline_Background_Fixed', 'div-gpt-ad-1477995249144-3').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/details', [297, 247], 'div-gpt-ad-1477995249144-4').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/middle2', [601, 100], 'div-gpt-ad-1477995249144-5').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca-div-1', [468, 60], 'div-gpt-ad-1477995249144-6').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca_div_1', [468, 60], 'div-gpt-ad-1477995249144-7').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca-div-2', [468, 60], 'div-gpt-ad-1477995249144-8').addService(googletag.pubads());
+    googletag.defineSlot('/271632123/busca_div_2', [468, 60], 'div-gpt-ad-1477995249144-9').addService(googletag.pubads());
+    googletag.defineOutOfPageSlot('/271632123/dhtm_970x250', 'div-gpt-ad-1477995249144-10').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().collapseEmptyDivs();
+    googletag.enableServices();
+  });
+</script> 
+  <!-- DFP fim--> 
+  <style>
+    /*CSS Background*/
+    #div-gpt-ad-1477995249144-3 {
+        display: none;
+    }
+ 
+    @media screen and (min-width: 1100px) {
+        #div-gpt-ad-1477995249144-3 {
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            z-index:-1000;
+        }
+            #div-gpt-ad-1477995249144-3 div {
+                text-align: center;
+                height: 100%;
+            }
+ 
+                #div-gpt-ad-1477995249144-3 div iframe {
+                    width: 100%;
+                    height: 100%;
+                }
+    }
+
+ /*CSS DHTML*/
+    #div-gpt-ad-1477995249144-10 {
+        display: none;
+    }
+ 
+    @media screen and (min-width: 1100px) {
+        #div-gpt-ad-1477995249144-10 {
+            display: inline-table;
+            position: fixed;
+            left: calc(50% - 484px);
+            top: 40%;
+            right: 0;
+            z-index: 1100;
+        }
+            #div-gpt-ad-1477995249144-10 div {
+                text-align: center;
+                height: 100%;
+            }
+                #div-gpt-ad-1477995249144-10 div iframe {
+                    width: 970px;
+                    height: 250px;
+                }
+    }
+</style> 
+  <script type="text/javascript">
+        var appInsights=window.appInsights||function(config)
+        {
+            function r(config){ t[config] = function(){ var i = arguments; t.queue.push(function(){ t[config].apply(t, i)})} }
+            var t = { config:config},u=document,e=window,o='script',s=u.createElement(o),i,f;for(s.src=config.url||'//az416426.vo.msecnd.net/scripts/a/ai.0.js',u.getElementsByTagName(o)[0].parentNode.appendChild(s),t.cookie=u.cookie,t.queue=[],i=['Event','Exception','Metric','PageView','Trace','Ajax'];i.length;)r('track'+i.pop());return r('setAuthenticatedUserContext'),r('clearAuthenticatedUserContext'),config.disableExceptionTracking||(i='onerror',r('_'+i),f=e[i],e[i]=function(config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o),s}),t
+        }({
+            instrumentationKey:'72dd6db1-8c38-4605-a859-a39f76b12580'
+        });
+        
+        window.appInsights=appInsights;
+        appInsights.trackPageView();
+    </script> 
+ </head> 
+ <body> 
+  <!-- /271632123/Autoline_Background_Fixed --> 
+  <div id="div-gpt-ad-1477995249144-3"> 
+   <script async type="text/javascript">
+            googletag.cmd.push(function () { googletag.display('div-gpt-ad-1477995249144-3'); });
+        </script> 
+  </div> 
+  <nav class="navbar navbar-default navbar-fixed-top"> 
+   <div class="container"> 
+    <div class="navbar-header pull-left"> 
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+    </div> 
+    <div id="navbar" class="navbar-collapse collapse"> 
+     <ul class="nav navbar-nav"> 
+      <li class=" hidden-xs"><a href="/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li> 
+      <li class=""><a href="/procurar">Comprar</a></li> 
+      <li class=" hidden-xs hidden-sm"><a href="/vender">Vender</a></li> 
+      <li class=""><a href="/fipe-tabela-de-preco">Tabela Fipe</a></li> 
+      <li class=""><a href="/simular-financiamento">Simular Financiamento</a></li> 
+      <li class=""><a href="/revista">Revista</a></li> 
+     </ul> 
+     <ul class="navbar-login hidden-xs hidden-sm"> 
+      <li><a href="/minha-pagina"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="login">Login</span></a></li> 
+      <li><p class="navbar-text">|</p></li> 
+      <li><a href="/central-da-revenda/minha-conta">Revendedor</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+  </nav> 
+  <div class="container bodycontainer"> 
+   <div class="row margintop"> 
+    <div class="col-xs-12 col-sm-4 .col-md-4 col-lg-4 logo-block"> 
+     <a class="" href="/"> <img src="/images/logoAutoline2.png" alt="Autoline logotipo image"> </a> 
+    </div> 
+    <div class="col-xs-12 hidden-sm hidden-md hidden-lg left-banner-thumb margintop center-mobile"> 
+     <!-- /271632123/Home2_234x60 --> 
+     <div id="div-gpt-ad-1477995249144-1" style="margin-bottom: 15px;padding-left: 30px;padding-right: 30px;height:60px; width:234px;"> 
+      <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477995249144-1'); });
+    </script> 
+     </div> 
+    </div> 
+    <div class="col-xs-8 col-sm-8 hidden-xs right-middle-big-banner"> 
+     <!-- /271632123/Home1_468x60 --> 
+     <div id="div-gpt-ad-1477995249144-0" style="margin-bottom: 15px;border-left-width: 20px;padding-left: 80px;padding-right: 80px;height:60px; width:468px;"> 
+      <script async type>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1477995249144-0'); });
+    </script> 
+     </div> 
+    </div> 
+   </div> 
+   <!--   Busca rápida
+      <div class="row mt10 box-busca">
+            <div class="col-xs-12 col-sm-12 col-md-12 pull-right box-busca" id="box-busca">
+                <div class="input-group search-block">
+                    <input type="text" class="form-control text-center" name="txtBusca" id="txtBusca" placeholder="Encontre aqui o seu veículo">
+                    <span class="input-group-btn">
+                        <button class="btn btn-secondary btn-search btnsearch" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+         --> 
+   <input id="UserIdCh" name="UserIdCh" type="hidden" value="0"> 
+   <input id="UserNameCh" name="UserNameCh" type="hidden" value=""> 
+   <input id="UserEmailCh" name="UserEmailCh" type="hidden" value=""> 
+   <input id="UserAllowMailCh" name="UserAllowMailCh" type="hidden" value="False"> 
+   <input id="UserStateCh" name="UserStateCh" type="hidden" value=""> 
+   <input id="UserCityCh" name="UserCityCh" type="hidden" value=""> 
+   <script>
+    function getCookie(chave) {
+        var ChaveValor = document.cookie.match('(^|;) ?' + chave + '=([^;]*)(;|$)');
+        return ChaveValor ? ChaveValor[2] : null;
+    }
+    var userId = $("#UserIdCh").val();
+    if (userId !== "0" && userId !== "") {
+        var userName = $("#UserNameCh").val();
+        var userEmail = $("#UserEmailCh").val();
+        var userAllowMail = $("#UserAllowMailCh").val().toLowerCase() === 'true';
+        var userState = $("#UserStateCh").val();
+        var userCity = $("#UserCityCh").val();
+
+        if (userState == '') {
+            userState = getCookie('GeoUF');
+            userCity = getCookie('GeoCity');
+        }
+
+        window.chaordic_meta = {
+            "page": "other",
+            "tags": [userCity, userState],
+            "user": {
+                "id": userId,
+                "name": userName,
+                "email": userEmail,
+                "allow_mail_marketing": userAllowMail
+            }
+        }
+    } else {
+        var ufch;
+        var citych;
+
+        if (getCookie('GeoUF') != null) {
+            ufch = getCookie('GeoUF');
+            citych = getCookie('GeoCity');
+        }
+
+        window.chaordic_meta = {
+            "page": "other",
+            "tags": [citych, ufch]
+        }
+
+
+    }
+
+</script> 
+   <script async defer src="//static.chaordicsystems.com/static/loader.js" data-apikey="autoline"></script> 
+   <div class="middle-blok"> 
+    <div class="row"> 
+     <div class="col-md-12"> 
+      <div class="left-side-blok"> 
+       <div class="left-tab-form"> 
+        <div class="col-md-12" style="padding:0;background-color: #efefef;"> 
+         <div class="col-md-12" style="padding:0 20px;"> 
+          <h3>Fale Conosco </h3> 
+          <p>Para entrar em contato com o Autoline, preencha o formulário abaixo ou ligue para nossa Central de Relacionamento.</p> 
+          <p>Capitais e regiões metropolitanas: 3004-9540 </p> 
+          <p>Demais regiões: 0800-718-9540</p> 
+          <p><b>Horário de Atendimento: </b>de Segunda a Sexta-Feira das 08h às 20h e Sábado das 08h30 às 14h30, exceto feriados nacionais.</p> 
+         </div> 
+         <form action="/institucional/fale-conosco" method="post"> 
+          <div class="form-horizontal col-md-12" style="padding:20px;"> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="Name">Nome</label> 
+            <div class="col-md-9"> 
+             <input class="form-control text-box single-line" data-val="true" data-val-length="The field *Nome completo must be a string with a maximum length of 50." data-val-length-max="50" data-val-required="The *Nome completo field is required." id="Name" name="Name" style="width:100%" type="text" value=""> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="Name" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="PhoneAreaCode">Telefone</label> 
+            <div class="col-md-9"> 
+             <ul class="list-inline" style="margin-bottom:0"> 
+              <li style="width: 60px"> <input class="form-control text-box single-line" data-val="true" data-val-length="The field PhoneAreaCode must be a string with a maximum length of 2." data-val-length-max="2" data-val-required="The PhoneAreaCode field is required." id="PhoneAreaCode" maxlength="2" name="PhoneAreaCode" type="text" value=""> </li> 
+              <li> <input class="form-control text-box single-line" data-val="true" data-val-length="The field Phone must be a string with a maximum length of 11." data-val-length-max="11" data-val-required="The Phone field is required." id="Phone" maxlength="11" name="Phone" type="text" value=""> </li> 
+             </ul> 
+             <div> 
+              <span class="field-validation-valid text-danger" data-valmsg-for="PhoneAreaCode" data-valmsg-replace="true"></span> 
+              <span class="field-validation-valid text-danger" data-valmsg-for="Phone" data-valmsg-replace="true"></span> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="Mail">E-mail</label> 
+            <div class="col-md-9"> 
+             <input class="form-control txtemail text-box single-line" data-val="true" data-val-length="The field *E-mail must be a string with a maximum length of 64." data-val-length-max="64" data-val-required="The *E-mail field is required." id="Mail" name="Mail" type="email" value=""> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="Mail" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="State">Estado</label> 
+            <div class="col-md-9"> 
+             <select name="State" class="selectpicker state-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith"> <option value="" selected>Selecione</option> <option value="1">AC</option> <option value="2">AL</option> <option value="3">AP</option> <option value="4">AM</option> <option value="5">BA</option> <option value="6">CE</option> <option value="7">DF</option> <option value="8">ES</option> <option value="9">GO</option> <option value="10">MA</option> <option value="11">MT</option> <option value="12">MS</option> <option value="13">MG</option> <option value="14">PA</option> <option value="15">PB</option> <option value="16">PR</option> <option value="17">PE</option> <option value="18">PI</option> <option value="19">RJ</option> <option value="20">RN</option> <option value="21">RS</option> <option value="22">RO</option> <option value="23">RR</option> <option value="24">SC</option> <option value="25">SP</option> <option value="26">SE</option> <option value="27">TO</option> </select> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="State" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="City">Cidade</label> 
+            <div class="col-md-9"> 
+             <select name="City" class="selectpicker city-lookup" data-live-search="true" data-live-search-normalize="true" data-live-search-style="startsWith" disabled> <option value="">Todos</option> </select> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="City" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="Subject">Assunto</label> 
+            <div class="col-md-9"> 
+             <select id="Subject" name="Subject" class="selectpicker"> <option value="" selected>Selecione</option> <option value="Dúvidas">Dúvidas</option> <option value="Informações">Informações</option> <option value="Reclamações">Reclamações</option> <option value="Sugestões">Sugestões</option> </select> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="Subject" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <label class="control-label col-md-2" for="Message">Mensagem</label> 
+            <div class="col-md-9"> 
+             <textarea class="form-control" cols="20" data-val="true" data-val-required="The Message field is required." id="Message" name="Message" rows="2" style="width:100%">
+</textarea> 
+             <span class="field-validation-valid text-danger" data-valmsg-for="Message" data-valmsg-replace="true"></span> 
+            </div> 
+           </div> 
+           <div class="form-group"> 
+            <div class="col-md-11"> 
+             <input type="submit" value="Enviar" class="btn btn-default2 pull-right" onclick="javascript:sendchaordicemail()"> 
+            </div> 
+           </div> 
+          </div> 
+         </form> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script>
+
+    function sendchaordicemail()
+    {
+        var email = $('#Mail').val();
+        chaordic.push(['updateUserEmail', { email: email }])
+    }
+</script> 
+  </div> 
+  <footer> 
+   <div class="footer footermenu hidden-xs"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-all"> 
+       <div class="col col-30"> 
+        <p class="title">Mapa do Site</p> 
+        <ul> 
+         <li><a href="/procurar">Comprar</a></li> 
+         <li><a href="/vender">Vender</a></li> 
+         <li><a href="/fipe-tabela-de-preco">Tabela Fipe</a></li> 
+         <li><a href="/simular-financiamento">Simular Financiamento</a></li> 
+         <li><a href="/minha-pagina">Login</a></li> 
+         <li><a href="/anunciante/cadastro-pessoa-fisica">Cadastre-se</a></li> 
+         <li><a href="/central-da-revenda/entrar">Revendedor</a></li> 
+         <li><a href="/revista">Revista</a></li> 
+        </ul> 
+       </div> 
+       <div class="col col-30 left-border"> 
+        <div class="col-all"> 
+         <span style="color: #cc092f; text-transform: uppercase; font-weight: bold; font-size: 16px">Institucional</span> 
+         <ul> 
+          <li><a href="/cms/o-autoline">O Autoline</a></li> 
+          <li><a href="/politica-de-privacidade.pdf" target="”_blank”">Política de privacidade</a></li> 
+          <li><a href="/termos-de-uso-e-condicoes-de-navegacao.pdf" target="”_blank”">Termos de uso</a></li> 
+          <li><a href="/cdc.pdf" target="”_blank”">Código de Defesa do Consumidor</a></li> 
+          <span style="padding-top: 20px;color: #cc092f;text-transform: uppercase; font-weight: bold; font-size: 16px">Parceiros</span> 
+          <ul> 
+           <li><a href="https://www.shopfacil.com.br/" target="”_blank”">ShopFácil</a></li> 
+          </ul> 
+         </ul>
+        </div> 
+       </div> 
+       <div class="col col-30 left-border"> 
+        <div class="col-all"> 
+         <p class="title">Atendimento</p> 
+         <ul> 
+          <li><a href="/institucional/fale-conosco">Fale Conosco</a></li> 
+          <li><a href="/institucional/duvidas-frequentes">Perguntas frequentes</a></li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="col col-right-social hidden-xs hidden-sm"> 
+        <div class="socialblock"> 
+         <text>
+          SIGA-NOS NAS REDES SOCIAIS
+         </text> 
+         <div class="button-app"> 
+          <a href="https://www.facebook.com/autoline.carros" target="_blank"> <img src="/images/facebook_circle.png" alt="Facebook image"> </a> 
+          <a href="https://www.instagram.com/autoline.carros/" target="_blank"> <img src="/images/instagram-circle.png" alt="Instagram image"> </a> 
+         </div> 
+        </div> 
+        <div class="app-buttton-block"> 
+         <text>
+          Tenha o Autoline sempre à mão
+         </text> 
+         <div class="button-app"> 
+          <a href="https://itunes.apple.com/br/app/autoline-app/id553525009?mt=8" target="_blank"> <img src="/images/pt-br-app-store.png" alt="App Store image"> </a> 
+          <a href="https://play.google.com/store/apps/details?id=br.com.autoline.app" target="_blank"> <img src="/images/pt-br-google-play.png" alt="Google Play image"> </a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <br> 
+      <div class="col-all" style="color:#676766;font-size: small;text-align: justify; padding:13px">
+        O AUTOLINE não garante a exatidão e\ou veracidade das informações e também não se responsabiliza pela existência, quantidade, qualidade, estado, integridade ou legitimidade dos veículos anunciados, adquiridos ou alienados pelos anunciantes, visitantes ou usuários assim como não realiza a intermediação entre anunciantes e usuários/visitantes, figurando apenas como veículo de divulgação, não tendo qualquer obrigação ou responsabilidade pela negociação ou efetivação de negócio entre as partes (anunciantes e visitantes/usuários), tampouco garante, a venda do veículo anunciado. Da mesma forma, o AUTOLINE não participa dos processos de negociação, pagamento, vistoria, entrega e suporte dos veículos, ficando a cargo do interessado comprador tomar as providências e cautelas necessárias para aumentar o grau de segurança de sua transação. Ao visitar ou utilizar este site pressupõe-se a leitura e concordância com todos os Termos de Uso. 
+      </div> 
+      <div class="col-all" style="color:#676766;font-size: small; text-align: left; padding:13px">
+        Banco Bradesco Financiamentos S.A. | CNPJ: 07.207. 996/0001-50 | www.autoline.com.br | Núcleo Cidade de Deus - Vila Yara, Osasco - SP, 06029-900 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer footerred"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="logo-rodape"> 
+       <img src="/images/logo_rodape.jpg" alt="Rodapé image"> 
+      </div> 
+      <div class="logo-bradesco"> 
+       <a href="https://banco.bradesco/html/classic/index.shtm"> <img src="/images/UmServicoBradesco.png" alt="Bradesco Serviços image"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W2XQPC');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- Google Tag Manager (noscript) --> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W2XQPC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <!-- End Google Tag Manager (noscript) --> 
+  <style>
+.banner-block {max-height: inherit !important;}
+</style> 
+  <script>
+        
+    </script> 
+  <!--
+        SRVAUTOWEB08
+    -->  
+ </body>
+</html>

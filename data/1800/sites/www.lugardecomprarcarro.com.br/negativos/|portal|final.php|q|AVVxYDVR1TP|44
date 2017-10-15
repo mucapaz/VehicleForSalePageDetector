@@ -1,0 +1,5784 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="description" content="Shopping do Automóvel de Pernambuco, o lugar certo para você comprar seu carro."> 
+  <meta name="keywords" content=""> 
+  <meta name="news_keywords" content=""> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:description" content="Shopping do Automóvel de Pernambuco, o lugar certo para você comprar seu carro."> 
+  <meta property="og:title" content="Shopping do Automóvel de Pernambuco"> 
+  <meta property="og:site_name" content="lugardecomprarcarro.com.br"> 
+  <meta property="og:url" content="https://www.lugardecomprarcarro.com.br"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> 
+  <meta http-equiv="cleartype" content="on"> 
+  <link rel="canonical" href="https://www.lugardecomprarcarro.com.br"> 
+  <link rel="shortcut icon" type="image/gif" href="imagens/favicon.ico"> 
+  <!--link href="css/estilos.css" rel="stylesheet" type="text/css" /--> 
+  <style>
+@font-face {
+  font-family: 'roboto';
+  src: url('../fontes/roboto.eot'); /* IE9 Compat Modes */
+  src: url('../fontes/roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fontes/roboto.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fontes/roboto.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fontes/roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fontes/roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+* {
+    max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch !important;
+    -webkit-box-sizing: border-box !important;
+       -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+}
+
+html, body {
+    margin:0 !important;
+    padding:0 !important;
+    font-family:arial;
+    font-size:12px;
+    /*background:#cccccc;*/
+    border:none !important;
+    max-width:100% !important;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch !important;
+    -webkit-box-sizing: border-box !important;
+       -moz-box-sizing: border-box !important;
+            box-sizing: border-box !important;
+}
+
+a, a:active, a:visited {
+    text-decoration:none;
+}
+
+#bloco1, #bloco2, #bloco3, #bloco4, #bloco5, #bloco6, #bloco7, #bloco8, #bloco9, #bloco10, #bloco11, #bloco12, #bloco13, #bloco14 {
+    overflow-x: hidden !important;
+    max-width:100% !important;
+}
+
+/*************************** MOBILE RETRATO *************************/
+
+@media (max-width:480px) {
+    html, body {
+        width:100% !important;
+        max-width:100% !important;
+        overflow-x: hidden !important;
+        -webkit-overflow-scrolling: touch !important;
+        -webkit-box-sizing: border-box !important;
+           -moz-box-sizing: border-box !important;
+                box-sizing: border-box !important;
+    }
+
+    body {
+        position:relative;
+    }
+
+    #bloco1, #bloco2, #bloco3, #bloco4, #bloco5, #bloco6, #bloco7, #bloco8, #bloco9, #bloco10, #bloco11, #bloco12, #bloco13, #bloco14 {
+        overflow-x: hidden !important;
+        max-width:100% !important;
+    }
+
+    #bloco4 {
+        position:absolute !important;
+        z-index:999 !important;
+        max-width:100% !important;
+        max-height:100px !important;
+        overflow:hidden !important;
+    }
+
+    #bloco4_busca_avancada, #bloco4_mais_buscados {
+        display:none !important;
+    }
+
+    #bloco1_perfil_nome {
+        display:none;
+    }
+
+    #bloco1_redes {
+        display:none !important;
+    }
+    
+    .td1, .td2 {
+        padding-left:5px !important;
+        padding-right:5px !important;
+        font-size:10px !important;
+    }
+
+    #bloco2_menu {
+        width:54px;
+        height:54px;
+        margin-top:35px;
+        background:url(imagens/ico_menu_mobile.png) no-repeat left top;
+        float:right !important;
+        margin-right:15px !important;
+    }
+
+    /*#bloco2_menu:hover > #bloco2_menu_content {
+        display:inherit;
+        position:absolute;
+        left:0;
+        top:182px;
+        width:100%;
+        background:#ffffff;
+        border:#cccccc solid 4px;
+    } */
+    
+    #bloco2, #bloco3, #bloco4 {
+        position:relative !important;
+    }
+
+    .menu_aberto_retrato {
+        display:inherit !important;
+        position:absolute !important;
+        z-index:99999 !important;
+        left:0 !important;
+        top:122px !important;
+        width:100% !important;
+        background:#ffffff !important;
+        border:#cccccc solid 4px !important;
+        -webkit-transform: translate3d(0,0,0) !important;
+        transform: translate3d(0,0,0) !important;
+    }
+
+    .menu_fechado_retrato {
+        display:none !important;
+    }
+
+    .bloco2_item_menu {
+        float:left;
+        width:100%;
+        border-bottom:#cccccc solid 1px !important;
+        margin-left:0px !important;
+        padding-left:65px !important;
+        background:url(imagens/bk_menu_mobile.png) no-repeat left center !important;
+    }
+
+    #bloco2_menu_content {
+        display:none;
+    }
+
+    #bloco2_menu_content2 {
+        display:none;
+    }
+
+    #bloco2_logo {
+        width:70% !important;
+        background-size:100% auto !important;
+        background-position:left center !important;
+    }
+
+    #bloco2_fones {
+        display:none;
+    }
+
+    #bloco4_content {
+        background:url(imagens/img_header.jpg) no-repeat center center !important;
+        overflow:hidden !important;
+    }
+
+    #bloco4_busca_compacta {
+        display:inherit !important;
+    }
+
+    #bloco4_busca_avancada {
+        display:none !important;
+    }
+
+    #bloco4_header {
+        display:none !important;
+    }
+
+    #bloco4_mais_buscados {
+        display:none !important;
+    }
+
+    #bloco4_busca_simples {
+        display:none !important;
+    }
+
+    #bloco4 {
+        position:inherit !important;
+        overflow:hidden !important;
+    }
+
+    #bloco4_mascara, #bloco4_content {
+        position:relative !important;
+        display:table !important;
+    }
+
+    #bloco4_area_busca {
+        width:100% !important;
+        position: inherit !important;
+        border-radius:0px !important;
+        display:table !important;
+        transform: none !important;
+    }
+
+    #bloco4_texto_full {
+        display:none;
+    }
+
+    #bloco4_texto_short {
+        display:inherit !important;
+        font-size:100% !important;
+        padding-top:14px !important;
+        padding-right:10px !important;
+    }
+
+    #bloco4_texto_short {
+        display:none !important;
+    }
+
+    #bloco4_esq {
+        width:100% !important;
+    }
+
+    .bloco4_inp_e {
+        width:75% !important;
+    }
+
+    #bloco4_dir {
+        margin-left:0px !important;
+        width:100% !important;
+        margin-top:14px !important;
+        margin-bottom:14px !important;
+    }
+
+    .bloco4_inp_e2, .bloco4_inp_e3 {
+        width:100% !important;
+        margin-top:14px !important;
+    }
+
+    #bloco6_bant_1, #bloco6_bant_2, #bloco6_banb_1, #bloco6_banb_2, #bloco6_banner_bottom {
+        position: inherit !important;
+        height:auto !important;
+        float:left !important;
+        width:100% !important;
+        height:59px !important;
+        background:transparent !important;
+        margin-top:0px !important;
+    }   
+
+    /* ------------------ VITRINE ------------------ */
+
+    #video_container {
+        display:none !important;
+    }
+
+    #bloco6_vitrine {
+        margin-top:50px !important;
+        padding-top:0px !important;
+    }
+
+    .bloco6_vitrine_item {
+        width:100% !important;
+        position:relative !important;
+    }
+
+    .bloco6_vitrine_foto, .bloco6_vitrine_item_foto .bloco6_vitrine_foto {
+        width:100% !important;
+        background-repeat: no-repeat !important;
+        background-size:100% auto !important;
+        background-position: center center !important;
+    }
+
+    .bloco6_vitrine_item:hover > .bloco6_vitrine_item_container .bloco6_vitrine_item_foto .bloco6_vitrine_foto {
+        background-size:140% auto !important;
+        background-position: center center !important;
+        -webkit-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+        -moz-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+        -o-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+        -ms-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+        transition: background-size 400ms ease-out, background-position 400ms ease-out;
+    }
+
+    #bloco6_vitrine_container {
+        overflow:hidden !important;
+        height:520px !important;
+        margin-left:0px !important;
+    }
+
+    #amazingcarousel-vitrine_carro {
+        display:block;
+        position:relative;
+        width:100%;
+        height:520px !important;
+        margin:0px auto !important;
+        padding:0 !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-image {
+        position: relative;
+        padding:0 !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-image img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        border: 0;
+        margin: 0;
+        padding:0 !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-title {
+        position:relative;
+        margin:0px;
+        padding:0 !important;
+    }
+
+    #amazingcarousel-container-2 {
+        padding:0 !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-list-container, #amazingcarousel-vitrine_carro .amazingcarousel-list-wrapper {
+        padding:0 !important;
+    }
+
+    #amazingcarousel-container-2, #amazingcarousel-vitrine_carro, .amazingcarousel-list-container, .amazingcarousel-list {
+        padding:0 !important;
+    }
+
+    .amazingcarousel-list-wrapper, .amazingcarousel-list-container {
+        width:100% !important;
+    }
+
+    .amazingcarousel-item {
+        width:221px;
+
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-item-container {
+        padding:0 !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-prev {
+        left: 0%;
+        top: 50%;
+        margin-left: -48px;
+        margin-top: -16px;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-next {
+        right: 0%;
+        top: 50%;
+        margin-right: -48px;
+        margin-top: -16px;
+    }
+
+    #bloco6_nav {
+        position: absolute;
+        width: 100%;
+        height:20px;
+        margin-top:-47px;
+        display:none !important;
+    }
+
+    #bloco6_nav2 {
+        position: absolute;
+        width: 100%;
+        height:20px;
+        margin-top:-47px;
+        display:none !important;
+    }
+
+    .amazingcarousel-nav {
+        float:right;
+        margin-right:28px;
+    }
+
+    .amazingcarousel-nav a, .amazingcarousel-nav div {
+        float:left !important;
+    }
+
+    #amazingcarousel-vitrine_carro .amazingcarousel-bullet-wrapper {
+        margin: 0px auto;
+        padding:0 !important;
+    }
+
+    /* ------------------ FIM VITRINE ------------------ */
+
+    #banner_topo_1, #banner_bottom_1 {
+        display:none !important;
+    }
+
+    .publicidade_label {
+        display:none !important;
+    }
+
+    #bloco6_bant_1, #bloco6_bant_2, #bloco6_banc, #banner_topo_2, #bloco6_banb_1, #bloco6_banb_2, #bloco6_banc2, #banner_bottom_2, #bloco6_banner_bottom {
+        padding:0px !important;
+        margin:0px !important;
+    }
+
+    #banner_topo_2 img, #banner_bottom_2 img {
+        width:100% !important;
+    }
+
+    /* ----------- VENDA SEU CARRO -----------*/
+
+    #bloco6_venda_container {
+        width:100% !important;
+    }
+
+    #bloco6_venda_conteudo {
+        position: inherit !important;
+        float:left;
+        width:100% !important;
+        background:#efefef;
+    }
+
+    #bloco6_conteudo_container {
+        padding-right:20px !important;
+        float:left !important;
+        width:100% !important;
+    }
+
+    #bloco6_conteudo_container span {
+        width:110% !important;
+        float:left !important;
+        padding:0 !important;
+        padding-right:15px !important;
+    }
+
+    #bloco6_venda_conteudo {
+        padding-right:1% !important;
+    }
+
+    #bloco6_venda_imagem {
+        width:100% !important;
+        background-position:-50px top !Important;
+    }
+
+    #banner_meio {
+        display:none !important;
+    }
+
+    /* ----------- FIM VENDA SEU CARRO ----------- */
+
+    /* ----------- NEWS -------------------------- */
+
+    #bloco6_news {
+        float:left;
+        width:100%;
+        min-height:800px !important;
+        margin-top:55px;
+        padding-left:45px;
+        padding-right:45px;
+    }
+
+    .bloco6_news_destaque {
+        float:left;
+        width:100% !important;
+        padding:10px !important;
+        border:#e8e8e8 solid 2px;
+        background:#ffffff;
+        min-height:307px !important;
+        margin-bottom:10px !important;
+    }
+
+    .bloco6_news_chamada {
+        float:left;
+        width:100% !important;
+        padding:10px;
+        border:#e8e8e8 solid 2px;
+        background:#ffffff;
+        min-height:213px;
+        margin-bottom:11px;
+        margin-left:0px !important;
+    }
+
+    .bloco6_news_foto {
+        height:287px !important;
+    }
+
+    .bloco6_news_conteudo {
+        height:287px !important;
+    }
+
+    .bloco6_news_foto2 {
+        background-position: center center !important;
+        background-size:100% auto !important;
+    }
+
+    /* ----------- FIM NEWS ---------------------- */
+    
+    /* ----------- ABAS ATALHOS ---------------------- */
+
+    .bloco6_aba div {
+        display:none !important;
+    }
+
+    .bloco6_aba {
+        padding-right:10px !important;
+    }
+
+    .aba_ativa {
+        font-size:20px !important;
+        margin-top:-20px !important;
+    }
+
+    .bloco6_aba {
+        font-size:15px !important;
+        color:#666666 !important;
+        padding-top:12px !important;
+    }
+
+    #bloco6_aba2 a {
+        width:80px !important;
+        height:80px !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size:60px 60px !important;
+    }
+
+    #bloco6_aba1 a {
+        width: 48% !important;
+        height:100px !important;
+        margin-left:1% !important;
+        background-repeat:no-repeat !important;
+        background-position: center 0px !important;
+        background-size:auto 200% !important;
+    }
+
+    /* ----------- FIM ABAS ATALHOS ---------------------- */
+
+    #bloco8_2, #bloco8_3, #bloco8_4 {
+        position:absolute !important;
+    }
+
+    #bloco8_1 {
+        padding-top:700px !important;
+    }
+
+    #bloco8_2 {
+        margin-top:-100px !important;
+        margin-left: 20px !important;
+    }
+
+    #bloco8_3 {
+        margin-top:-100px !important;
+        margin-left: 50% !important;
+    }
+
+    /*
+    #bloco8_4 {
+        display:none !important;
+    }
+    */
+
+    #bloco9 {
+        padding-top:0px !important;
+    }
+
+    #bloco8_4 {
+        position:absolute !important;
+        z-index:999 !important;
+        margin-top:280px !important;
+        width:100% !important;
+        padding:10% !important;
+    }
+
+    #bloco8_4 .bloco8_menu {
+        display:none !important;
+    }
+
+    #bloco8_newsletter {
+        display:inherit !important;
+        width:100% !important;
+    }
+
+    #ct_nw_03 {
+        width:75% !important;
+    }
+    
+    #ct_nw_04, #ct_nw_05, #ct_nw_04 input, #ct_nw_05 input {
+        width:100% !important;
+    }
+
+    #bloco9_fones, #bloco9_maps {
+        margin-left:50px !important;
+        max-width:70% !important;
+        overflow:hidden !important;
+        border-bottom:#777777 solid 1px;
+    }
+
+    .bloco9_fone {
+        font-size:150% !important;
+    }
+    .bloco9_mail {
+        font-size:75% !important;
+    }
+
+    #bloco9_redes {
+        clear:both !important;
+        padding-bottom:35px !important;
+        padding-left:30px !important;
+        width:75% !important;
+    }
+
+    #bloco9_redes a {
+        float:left !important;
+        width:16% !important;
+        height:0 !important;
+        padding-bottom:15% !important;
+        margin-left:9% !important;
+        background-size: 100% !important;
+    }
+
+    #bloco9_redes a:hover {
+        background-position: 0px 95% !important;
+    }
+
+    #bloco9_fones {
+        margin-bottom:0px !important;
+    }
+
+    #bloco9_maps {
+        margin-top:30px !important;
+    }
+
+    #bloco10_copy span, #bloco_10_termos span {
+        display:none;
+    }
+
+    #bloco10_content div, #bloco10_content a, #bloco10_content a:active, #bloco10_content a:visited {
+        margin-right:15px !important;
+    }
+
+    #bloco4 {
+        height:280px !important;
+        max-height:280px !important;
+        min-height:280px !important;
+    }
+
+    #bloco4_mascara {
+        height:400px !important;
+        max-height:400px !important;
+        min-height:400px !important;
+    }
+
+    /* ---------- HACKS PARA O SAFARI ---------------- */
+
+    ::i-block-chrome,#bloco4_content {
+        margin-top:-100px !important;
+    }
+
+    @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media {
+        #bloco4_content {
+            margin-top:-100px !important;
+        }
+    }}
+
+    _:-webkit-full-screen:not(:root:root), #bloco4_content {
+        margin-top:-100px !important;
+    }
+
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0){
+       #bloco4_content {(;
+          margin-top:-100px !important;
+        );}
+    }
+
+    @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media {
+        _:-webkit-full-screen, #bloco4_content {
+            margin-top:-100px !important;
+        }
+    }}
+
+    @media not all and (min-resolution:.001dpcm) { @media{
+        #bloco4_content {
+            margin-top:-100px !important;
+        }
+    }}
+
+    /* ---------- FIM HACKS PARA O SAFARI ---------------- */
+
+    /* ------------------ COMPRAR ------------------------ */
+
+    #bloco6_miolo_estoque {
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    #bloco6_filtros {
+        float:left !important;
+        width:100% !important;
+        min-height:72px !important;
+        height:72px !important;
+        padding:10% !important;
+        margin-top:0px !important;
+        margin-bottom:0px !important;
+        overflow:hidden !important;
+        border-bottom:#ccc dotted 1px;
+    }
+
+    #bloco6_resultados {
+        float:left !important;
+        width:100% !important;
+        padding:10% !important;
+        margin-top:0px !important;
+    }
+
+    .filtro_titulo {
+        cursor:pointer !important;
+        background:url(imagens/ico_filtros.png) no-repeat right top;
+    }
+
+    .estoque_resultado1, estoque_resultado2, .meusape_resultado1, meusape_resultado2 {
+        width:100% !important;
+        padding:10% !important;
+    }
+
+    .td_foto, .td_dados {
+        float:left !important;
+        width:100% !important;
+        padding:0px !important;
+    }
+
+    .td_dados {
+        margin-top:30px !important;
+    }
+
+    .estoque_resultado_foto, .meusape_resultado_foto {
+        width:100% !important;
+        height:200px !important;
+    }
+
+    .td_preco, .td_opcionais {
+        float:left !important;
+        width:100% !important;
+    }
+
+    .td_preco {
+        border-bottom:#ccc dotted 1px !important;
+    }
+
+    .td_divisor {
+        display:block !important;
+        width:100% !important;
+    }
+
+    .paginacao_pagina {
+        display:none !important;
+    }
+
+    .paginacao_primeira {
+        width:50px !important;
+        background-image:url(imagens/paginacao_primeira2.png) !important;
+    }
+
+    .paginacao_anterior {
+        width:50px !important;
+        background-image:url(imagens/paginacao_anterior2.png) !important;
+    }
+
+    .paginacao_proxima {
+        width:50px !important;
+        background-image:url(imagens/paginacao_proxima2.png) !important;
+    }
+
+    .paginacao_ultima {
+        width:50px !important;
+        background-image:url(imagens/paginacao_ultima2.png) !important;
+    }
+
+    .estoque_titulo span {
+        display:none !important;
+    }
+
+    .bloco6_titulo_estoque {
+        padding-bottom:50px !important;
+    }
+
+    .estoque_resultados_total {
+        float:left !important;
+        padding:0 !important;
+        position:absolute !important;
+        margin-top:35px !important;
+        left:5% !important;
+    }
+
+
+    /* ------------------ FIM COMPRAR ------------------------ */
+    
+    /* ------------------ VEICULO ---------------------------- */
+
+    .veiculo_caminho {
+        display:none !important;
+    }
+    
+    .veiculo_conteudo {
+        padding:10% !important;
+    }
+    
+    #amazingcarousel-veiculo_galeria {
+        width:100% !important;
+    }
+
+
+
+    .veiculo_foto {
+        background-color:#eeeeee;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size:100% auto !important;
+    }
+
+    .veiculo_preco {
+
+        z-index:9990 !important;
+        left:0 !important;
+        padding:10% !important;
+        width:100% !important;
+    }
+
+    .veiculo_preco span {
+        padding-left:20px !important;
+    }
+
+    .veiculo_proposta {
+        width:100% !important;
+        min-width:100% !important;
+        z-index:9991 !important;
+        left:0 !important;
+        padding:10% !important;
+    }
+
+    .veiculo_form, #frmProposta, .proposta_bloco {
+        width:100% !important;
+        min-width:100% !important;
+    }
+
+    .veiculo_form, .veiculo_form_titulo, #veiculo_proposta_titulo {
+        font-size:15px !important;
+    }
+
+    .veiculo_loja_4 {
+        margin-top:80px !important;
+    }
+
+    .veiculo_compartilhar, .compartilhar_right a {
+        width:32px !important;
+        font-size:0px !important;
+        overflow:hidden !important;
+        margin:0 !important;
+        margin-right:1px !important;
+        padding:0 !important;
+    }
+
+    .veiculo_compartilhar span {
+        display:none !important;
+    }
+
+    .compartilhar_left {
+        float:left !important;
+        width:37px !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+    
+    #veiculo_venda_igual {
+        display:none !important;
+    }
+
+    .compartilhar_right {
+        float:left !important;
+        width:170px !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+
+    .veiculo_loja {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    .veiculo_loja_1, .veiculo_loja_2, .veiculo_loja_3 {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+    }
+
+    .veiculo_loja_2 {
+        float:left !important;
+        text-align:center !important;
+        padding:0 !important;
+    }
+
+    .estoque_loja {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+    }
+
+    .veiculo_opcional {
+        width:100% !important;
+        margin-left:0px !important;
+        margin-right:0px !important;
+    }
+    
+    /* ------------------ FIM VEICULO ---------------------------- */
+    
+    /* ------------------ LOJAS ---------------------------------- */
+    
+    .chamada_loja, .chamada_loja img {
+        width:100% !important;
+        height: auto !important;
+    }
+
+    .chamada_loja_tit1, .chamada_loja_tit4 {
+         width:100% !important;
+    }
+    
+    .chamada_loja_tit1 {
+         font-size:14px !important;
+    }
+
+    .chamada_loja_tit2, .chamada_loja_tit3 {
+         width:50% !important;
+         font-size:14px !important;
+    }
+
+    /* ------------------ FIM LOJAS ------------------------------ */
+    
+    /* ------------------ INTERNA -------------------------------- */
+    
+    .materia_titulo2 {
+        width:100% !important;
+        padding:0 !important;
+        padding-bottom:30px !important;
+    }
+
+    .busca_interna {
+        width:100% !important;
+        padding-top:30px !important;
+    }
+
+    #buscai {
+        width:100% !important;
+        margin-bottom:15px !important;
+    }
+
+    #buscab, .trabalhe_left, .conteudo_chamada {
+        width:100% !important;
+    }
+    
+    .conteudo_data, .conteudo_imagem, .conteudo_titulo {
+        float:left !important;
+        width:100% !important;
+        height: auto !important;
+    }
+
+    .conteudo_background {
+        width:100% !important;
+        background-size:110% auto !important;
+    }
+
+    .conteudo_data {
+        display:none !important;
+    }
+
+    .conteudo_titulo {
+        padding-top:20px !important;
+    }
+
+    /* ------------------ FIM INTERNA ---------------------------- */
+    
+    /* ----------------- FINAL ----------------------------------- */
+    
+    .materia_titulo, .materia_left {
+        width:100% !important;
+    }
+
+    .icones_materia {
+        position:inherit !important;
+        float:left !important;
+        width:100% !important;
+        margin:0 !important;
+        border-top:#ccc dotted 1px !important;
+        border-bottom:#ccc dotted 1px !important;
+        padding-top:15px !important;
+        padding-bottom:15px !important;
+        height:auto !important;
+    }
+    
+    .materia_left {
+        padding:0 !important;
+    }
+    
+    .materia_left img {
+        max-width:100% !important;
+        width:100% !important;
+        height:auto !important;
+    }
+
+    /* ----------------- FIM FINAL ------------------------------- */
+    
+    /* ----------------- CONTATO --------------------------------- */
+    
+    .contato_left, .contato_right {
+        width:100% !important;
+        margin:0 !important;
+    }
+    
+    .contato_right {
+        margin-top:40px !important;
+    }
+
+    .contato_center {
+        display:none !important;
+    }
+
+    #contatoBtn {
+        width:100% !important;
+        margin: 0 auto !important;
+        float:right !important;
+        margin-top:10px !important;
+        background-position:center top !important;
+    }
+
+    #contatoLmp {
+        display:none !important;
+    }
+
+    /* ----------------- FIM CONTATO ----------------------------- */
+    
+    /* ----------------- VENDER ---------------------------------- */
+    
+    #logon_entrar, #logon_cadastrar, .bloco_logon {
+        width:100% !important;
+        height:auto !important;
+    }
+
+    #logon_btn_entrar, #logon_btn_entrar2, #logon_btn_precad, .esqueceusenha, .esqueceusenha2, .bloco_logon_conteudo {
+        width: 100% !important;
+    }
+
+    .esqueceusenha, .esqueceusenha2 {
+        padding:20px !important;
+        text-align: center !important;
+    }
+
+    #logon_btn_entrar, #logon_btn_entrar2, #logon_btn_precad, #logon_btn_cadastrar, #meusape_btn_alterar, #btn_novo_veiculo, .meusape_area_bt {
+        max-width:100% !important;
+        min-width:100% !important;
+        width:100% !important;
+        background-position:center top !important;
+    }
+
+    #logon_btn_precad {
+        margin-bottom:40px !important;
+    }
+
+    #cadastro_container, #frmCadastroContainer, .bloco_cadastro_escuro, .bloco_cadastro_claro, .bloco_cadastro_1, .bloco_cadastro_2, .cadastro_cb {
+        width:100% !important;
+    }
+
+    .meusape_conteudo {
+        margin:0 !important;
+        padding:10% !important;
+    }
+
+    .meusape_descricao, .meusape_mensagem, .meusape_esquerda, .meusape_direita, #meusape_resultados, #meusape_resultados_container {
+        width:100% !important;
+    }
+
+    .meusape_esquerda {
+        height:auto !important;
+        min-height:auto !important;
+        margin-bottom:40px !important;
+    }
+
+    .meusape_caminho {
+        display:none !important;
+    }
+    
+    .meusape_opc {
+        width:100% !important;
+    }
+    
+    .meusape_opc_cb, meusape_opc_cb span {
+        float:left !important;
+    }
+    
+    #bloco4, #bloco4_mascara {
+        padding:0 !important;
+        margin:0 !important;
+        height:320px !important;
+        min-height:320px !important;
+        max-height:320px !important;
+    }
+
+    #bloco4_content, #bloco4_area_busca, #bloco4_busca_compacta {
+        height:350px !important;
+        min-height:350px !important;
+        max-height:350px !important;
+    }
+
+    /* ----------------- FIM VENDER ------------------------------ */
+}
+
+/*************************** FIM MOBILE RETRATO *************************/
+
+/*************************** MOBILE PAISAGEM *************************/
+
+@media (min-width:481px) and (max-width:720px) {
+    #bloco1_perfil_nome {
+        display:none;
+    }
+
+    #bloco2_menu {
+        width:54px;
+        height:54px;
+        margin-top:35px;
+        margin-left:40px;
+        background:url(imagens/ico_menu_mobile.png) no-repeat left top;
+        float:right !important;
+        margin-right:15px !important;
+    }
+    
+    .menu_aberto_retrato {
+        display:inherit !important;
+        position:absolute !important;
+        z-index:999999;
+        left:0 !important;
+        top:182px !important;
+        width:100% !important;
+        background:#ffffff !important;
+        border:#cccccc solid 4px !important;
+    }
+
+    .menu_fechado_retrato {
+        display:none !important;
+    }
+
+    /*#bloco2_menu:hover > #bloco2_menu_content {
+        display:inherit;
+        position:absolute;
+        left:0;
+        top:182px;
+        width:100%;
+        background:#ffffff;
+        border:#cccccc solid 4px;
+        z-index:999999;
+    }*/
+
+    .bloco2_item_menu {
+        float:left;
+        width:100%;
+        border-bottom:#cccccc solid 1px !important;
+        margin-left:0px !important;
+        padding-left:65px !important;
+        background:url(imagens/bk_menu_mobile.png) no-repeat left center !important;
+    }
+
+    #bloco2_menu_content {
+        display:none;
+    }
+
+    #bloco2_fones {
+        float:left !important;
+        margin-left:8% !important;
+    }
+
+    .bloco4_inp_e {
+        width: 60.5% !important;
+    }
+
+    .bloco4_inp_e2 {
+        width:30% !important;
+    }
+
+    .bloco4_inp_e3 {
+        width:17% !important;
+    }
+
+    .bloco4_inp_e3 select {
+        font-size:8px !important;
+        color:#000000 !important;
+    }
+
+    #bloco4_texto_full {
+        display:none;
+    }
+
+    #bloco4_texto_short {
+        display:inherit !important;
+        font-size:160% !important;
+        padding-right:10px !important;
+    }
+
+    #bloco6_bant_1, #bloco6_bant_2, #bloco6_banb_1, #bloco6_banb_2, #bloco6_banner_bottom {
+        position: inherit !important;
+        height:auto !important;
+        float:left !important;
+        width:100% !important;
+        background:transparent !important;
+        margin-top:0px !important;
+    }
+
+    #banner_topo_1, #banner_bottom_1 {
+        display:none !important;
+    }
+
+    .publicidade_label {
+        display:none !important;
+    }
+
+    #bloco6_bant_1, #bloco6_bant_2, #bloco6_banc, #banner_topo_2, #bloco6_banb_1, #bloco6_banb_2, #bloco6_banc2, #banner_bottom_2, #bloco6_banner_bottom {
+        padding:0px !important;
+        margin:0px !important;
+    }
+
+    #banner_topo_2 img, #banner_bottom_2 img {
+        width:100% !important;
+    }
+    
+    /* ----------- VITRINE -----------*/
+
+    #bloco6_vitrine {
+        margin-top:50px !important;
+        padding-top:0px !important;
+    }
+
+    .bloco6_vitrine_item {
+        width:100% !important;
+        position:relative !important;
+    }
+
+    .bloco6_vitrine_foto {
+        background-repeat: no-repeat !important;
+        background-size:100% auto !important;
+        background-position: center center !important;
+    }
+
+    #bloco6_vitrine_container {
+        overflow:hidden !important;
+        height:520px !important;
+    }
+    
+    .amazingcarousel-list-wrapper, .amazingcarousel-list-container {
+        width:100% !important;
+    }
+    
+    #bloco6_nav {
+        position: absolute;
+        width: 100%;
+        height:20px;
+        margin-top:-47px;
+        display:none !important;
+    }
+    
+    #bloco6_nav2 {
+        position: absolute;
+        width: 100%;
+        height:20px;
+        margin-top:-47px;
+        display:none !important;
+    }
+
+    /* ----------- FIM VITRINE -----------*/
+
+    /* ----------- VENDA SEU CARRO -----------*/
+
+    #bloco6_venda_container {
+        width:100% !important;
+    }
+
+    #bloco6_venda_conteudo {
+        width:75% !important;
+    }
+
+    #bloco6_venda_conteudo {
+        padding-right:1% !important;
+    }
+
+    #bloco6_venda_imagem {
+        width:100% !important;
+        background-position:-50px top !Important;
+    }
+    
+    #banner_meio {
+        display:none !important;
+    }
+    
+    /* ----------- FIM VENDA SEU CARRO -----------*/
+
+    /* ----------- NEWS -------------------------- */
+
+    .bloco6_news_chamada {
+        margin-bottom:1% !important;
+        margin-left:1% !important;
+    }
+
+    /* ----------- FIM NEWS ---------------------- */
+    
+    /* ----------- ABAS ATALHOS ---------------------- */
+
+    .bloco6_aba div {
+        display:none !important;
+    }
+
+    .bloco6_aba {
+        padding-right:10px !important;
+    }
+
+    .aba_ativa {
+        font-size:20px !important;
+        margin-top:-20px !important;
+    }
+
+    .bloco6_aba {
+        font-size:15px !important;
+        color:#666666 !important;
+        padding-top:12px !important;
+    }
+
+    #bloco6_aba2 a {
+        width:80px !important;
+        height:80px !important;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size:60px 60px !important;
+    }
+
+    #bloco6_aba1 a {
+        width: 24% !important;
+        height:100px !important;
+        margin-left:1% !important;
+        background-repeat:no-repeat !important;
+        background-position: center 0px !important;
+        background-size:auto 200% !important;
+    }
+
+    /* ----------- FIM ABAS ATALHOS ---------------------- */
+
+
+    #bloco8_2, #bloco8_3, #bloco8_4 {
+        position:absolute !important;
+    }
+
+    #bloco8_1 {
+        padding-top:560px !important;
+        width:100% !important;
+        padding-left:130px !important;
+    }
+
+    .bloco8_enderecos {
+        width:30% !important;
+        padding-top:0px !important;
+        margin-left:2% !important;
+    }
+
+    #bloco8_2 {
+        width:33% !important;
+        margin-top:-100px !important;
+        margin-left: 42% !important;
+    }
+
+    #bloco8_3 {
+        width:33% !important;
+        margin-top:-100px !important;
+        margin-left: 69% !important;
+    }
+
+
+    #bloco8_4 {
+        width:36% !important;
+        margin-top:-100px !important;
+        margin-left: 20px !important;
+    }
+
+    #bloco9 {
+        padding-top:0px !important;
+    }
+
+    #bloco8_4 .bloco8_menu {
+        display:none !important;
+    }
+
+    #bloco8_4 {
+        float:left; !important;
+        position:absolute !important;
+        margin-top:250px !important;
+        width:70% !important;
+        margin-left:30% !important;
+        padding:10% !important;
+    }
+    
+    #ct_nw_03 {
+        width:75% !important;
+    }
+    
+    #ct_nw_04, #ct_nw_05, #ct_nw_04 input, #ct_nw_05 input {
+        width:100% !important;
+    }
+
+    #bloco8_newsletter {
+        display:inherit !important;
+        width:100% !important;
+    }
+
+    #bloco9_fones, #bloco9_maps {
+        margin-left:50px !important;
+        max-width:240px !important;
+        border-bottom:#777777 solid 1px;
+    }
+
+    #bloco9_redes {
+        clear:both !important;
+        padding-bottom:35px !important;
+        padding-left:150px;
+    }
+
+    #bloco9_maps {
+        padding-top:35px !important;
+        padding-bottom:35px !important;
+        background-position: left center !important;
+    }
+
+    #bloco10_copy span {
+        display:none !important;
+    }
+
+    #bloco10_content div, #bloco10_content a, #bloco10_content a:active, #bloco10_content a:visited {
+        margin-right:15px !important;
+    }
+    
+    
+    
+
+    /* ------------------ COMPRAR ------------------------ */
+
+    #bloco6_miolo_estoque {
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    #bloco6_filtros {
+        float:left !important;
+        width:100% !important;
+        min-height:72px !important;
+        height:72px !important;
+        padding:10% !important;
+        margin-top:0px !important;
+        margin-bottom:0px !important;
+        overflow:hidden !important;
+        border-bottom:#ccc dotted 1px;
+    }
+
+    #bloco6_resultados {
+        float:left !important;
+        width:100% !important;
+        padding:10% !important;
+        margin-top:0px !important;
+    }
+
+    .filtro_titulo {
+        cursor:pointer !important;
+        background:url(imagens/ico_filtros.png) no-repeat right top;
+    }
+
+    .estoque_resultado1, estoque_resultado2, .meusape_resultado1, meusape_resultado2 {
+        width:100% !important;
+        padding:10% !important;
+    }
+
+    .td_foto, .td_dados {
+        float:left !important;
+        width:100% !important;
+        padding:0px !important;
+    }
+
+    .td_dados {
+        margin-top:30px !important;
+    }
+
+    .estoque_resultado_foto, .meusape_resultado_foto {
+        width:100% !important;
+        height:200px !important;
+    }
+
+    .td_preco, .td_opcionais {
+        float:left !important;
+        width:100% !important;
+    }
+
+    .td_preco {
+        border-bottom:#ccc dotted 1px !important;
+    }
+
+    .td_divisor {
+        display:block !important;
+        width:100% !important;
+    }
+
+    .paginacao_pagina {
+        display:none !important;
+    }
+
+    .paginacao_primeira {
+        width:50px !important;
+        background-image:url(imagens/paginacao_primeira2.png) !important;
+    }
+
+    .paginacao_anterior {
+        width:50px !important;
+        background-image:url(imagens/paginacao_anterior2.png) !important;
+    }
+
+    .paginacao_proxima {
+        width:50px !important;
+        background-image:url(imagens/paginacao_proxima2.png) !important;
+    }
+
+    .paginacao_ultima {
+        width:50px !important;
+        background-image:url(imagens/paginacao_ultima2.png) !important;
+    }
+
+    .estoque_titulo span {
+        display:none !important;
+    }
+
+    .bloco6_titulo_estoque {
+        padding-bottom:50px !important;
+    }
+
+    .estoque_resultados_total {
+        float:left !important;
+        padding:0 !important;
+        position:absolute !important;
+        margin-top:35px !important;
+        left:5% !important;
+    }
+
+
+    /* ------------------ FIM COMPRAR ------------------------ */
+    
+    /* ------------------ VEICULO ---------------------------- */
+
+    .veiculo_caminho {
+        display:none !important;
+    }
+    
+    .veiculo_conteudo {
+        padding:10% !important;
+    }
+    
+    #amazingcarousel-veiculo_galeria {
+        width:100% !important;
+    }
+
+
+
+    .veiculo_foto {
+        background-color:#eeeeee;
+        background-repeat: no-repeat !important;
+        background-position: center center !important;
+        background-size:100% auto !important;
+    }
+
+    .veiculo_preco {
+
+        z-index:9990 !important;
+        left:0 !important;
+        padding:10% !important;
+        width:100% !important;
+    }
+
+    .veiculo_preco span {
+        padding-left:20px !important;
+    }
+
+    .veiculo_proposta {
+        width:100% !important;
+        min-width:100% !important;
+        z-index:9991 !important;
+        left:0 !important;
+        padding:10% !important;
+    }
+
+    .veiculo_form, #frmProposta, .proposta_bloco {
+        width:100% !important;
+        min-width:100% !important;
+    }
+
+    .veiculo_loja_4 {
+        margin-top:80px !important;
+    }
+
+    .veiculo_compartilhar, .compartilhar_right a {
+        width:32px !important;
+        font-size:0px !important;
+        overflow:hidden !important;
+        margin:0 !important;
+        margin-right:1px !important;
+        padding:0 !important;
+    }
+
+    .veiculo_compartilhar span {
+        display:none !important;
+    }
+
+    .compartilhar_left {
+        float:left !important;
+        width:37px !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+    
+    #veiculo_venda_igual {
+        display:none !important;
+    }
+
+    .compartilhar_right {
+        float:left !important;
+        width:170px !important;
+        margin:0 !important;
+        padding:0 !important;
+    }
+
+    .veiculo_loja {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+        padding:0 !important;
+        margin:0 !important;
+    }
+
+    .veiculo_loja_1, .veiculo_loja_2, .veiculo_loja_3 {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+    }
+
+    .veiculo_loja_2 {
+        float:left !important;
+        text-align:center !important;
+        padding:0 !important;
+    }
+
+    .estoque_loja {
+        float:left !important;
+        width:100% !important;
+        min-width:100% !important;
+        max-width:100% !important;
+    }
+
+    .veiculo_opcional {
+        width:100% !important;
+        margin-left:0px !important;
+        margin-right:0px !important;
+    }
+
+    /* ------------------ FIM VEICULO ---------------------------- */
+    
+    /* ------------------ LOJAS ---------------------------------- */
+    
+    .chamada_loja, .chamada_loja img {
+        width:100% !important;
+        height: auto !important;
+    }
+
+    .chamada_loja_tit1, .chamada_loja_tit4 {
+         width:100% !important;
+    }
+    
+    .chamada_loja_tit1 {
+         font-size:14px !important;
+    }
+
+    .chamada_loja_tit2, .chamada_loja_tit3 {
+         width:50% !important;
+         font-size:14px !important;
+    }
+
+    /* ------------------ FIM LOJAS ------------------------------ */
+    
+    /* ------------------ INTERNA -------------------------------- */
+    
+    .materia_titulo2 {
+        width:100% !important;
+        padding:0 !important;
+        padding-bottom:30px !important;
+    }
+
+    .busca_interna {
+        width:100% !important;
+        padding-top:30px !important;
+    }
+
+    #buscai {
+        width:100% !important;
+        margin-bottom:15px !important;
+    }
+
+    #buscab, .trabalhe_left, .conteudo_chamada {
+        width:100% !important;
+    }
+    
+    .conteudo_data, .conteudo_imagem, .conteudo_titulo {
+        float:left !important;
+        width:100% !important;
+        height: auto !important;
+    }
+
+    .conteudo_background {
+        width:100% !important;
+        background-size:110% auto !important;
+    }
+
+    .conteudo_data {
+        display:none !important;
+    }
+
+    .conteudo_titulo {
+        padding-top:20px !important;
+    }
+
+    /* ------------------ FIM INTERNA ---------------------------- */
+    
+    /* ----------------- FINAL ----------------------------------- */
+    
+    .materia_titulo, .materia_left {
+        width:100% !important;
+    }
+
+    .icones_materia {
+        position:inherit !important;
+        float:left !important;
+        width:100% !important;
+        margin:0 !important;
+        border-top:#ccc dotted 1px !important;
+        border-bottom:#ccc dotted 1px !important;
+        padding-top:15px !important;
+        padding-bottom:15px !important;
+        height:auto !important;
+    }
+    
+    .materia_left {
+        padding:0 !important;
+    }
+    
+    .materia_left img {
+        max-width:100% !important;
+        width:100% !important;
+        height:auto !important;
+    }
+
+    /* ----------------- FIM FINAL ------------------------------- */
+    
+    /* ----------------- CONTATO --------------------------------- */
+    
+    .contato_left, .contato_right {
+        width:100% !important;
+        margin:0 !important;
+    }
+    
+    .contato_right {
+        margin-top:40px !important;
+    }
+
+    .contato_center {
+        display:none !important;
+    }
+
+    #contatoBtn {
+        width:100% !important;
+        margin: 0 auto !important;
+        float:right !important;
+        margin-top:10px !important;
+        background-position:center top !important;
+    }
+
+    #contatoLmp {
+        display:none !important;
+    }
+
+    /* ----------------- FIM CONTATO ----------------------------- */
+    
+    /* ----------------- VENDER ---------------------------------- */
+    
+    #logon_entrar, #logon_cadastrar, .bloco_logon {
+        width:100% !important;
+        height:auto !important;
+    }
+
+    #logon_btn_entrar, #logon_btn_entrar2, #logon_btn_precad, .esqueceusenha, .esqueceusenha2, .bloco_logon_conteudo {
+        width: 100% !important;
+    }
+
+    .esqueceusenha, .esqueceusenha2 {
+        padding:20px !important;
+        text-align: center !important;
+    }
+
+    #logon_btn_entrar, #logon_btn_entrar2, #logon_btn_precad, #logon_btn_cadastrar, #meusape_btn_alterar, #btn_novo_veiculo, .meusape_area_bt {
+        max-width:100% !important;
+        min-width:100% !important;
+        width:100% !important;
+        background-position:center top !important;
+    }
+
+    #logon_btn_precad {
+        margin-bottom:40px !important;
+    }
+
+    #cadastro_container, #frmCadastroContainer, .bloco_cadastro_escuro, .bloco_cadastro_claro, .bloco_cadastro_1, .bloco_cadastro_2, .cadastro_cb {
+        width:100% !important;
+    }
+
+    .meusape_conteudo {
+        margin:0 !important;
+        padding:10% !important;
+    }
+
+    .meusape_descricao, .meusape_mensagem, .meusape_esquerda, .meusape_direita, #meusape_resultados, #meusape_resultados_container {
+        width:100% !important;
+    }
+
+    .meusape_esquerda {
+        height:auto !important;
+        min-height:auto !important;
+        margin-bottom:40px !important;
+    }
+
+    .meusape_caminho {
+        display:none !important;
+    }
+    
+    .meusape_opc {
+        width:100% !important;
+    }
+    
+    .meusape_opc_cb, meusape_opc_cb span {
+        float:left !important;
+    }
+
+
+    /* ----------------- FIM VENDER ------------------------------ */
+}
+
+/*************************** FIM MOBILE PAISAGEM *************************/
+
+/*************************** ABAIXO DE 1024 *************************/
+
+@media (min-width:721px) and (max-width:1000px) {
+
+    html, body {
+        min-width:1200px !important;
+        zoom: .5 !important;
+        max-zoom: 0.5 !important;
+        overflow:auto !important;
+    }
+
+    #banner_topo_1, #banner_bottom_1 {
+        margin-right:0px !important;
+        display:none !important;
+    }
+
+    #banner_topo_2, #banner_bottom_2 {
+        float:none !important;
+        display:inherit !important;
+        margin-right:9% !important;
+    }
+    
+    #bloco6_venda_container {
+        width:60% !important;
+    }
+
+    #bloco6_venda_conteudo {
+        width:50% !important;
+    }
+
+    #bloco6_venda_conteudo {
+        padding-right:1% !important;
+    }
+
+    #bloco6_venda_imagem {
+        width:100% !important;
+        background-position:-50px top !Important;
+    }
+
+    #banner_meio {
+        margin-left:1% !important;
+    }
+}
+
+/*************************** FIM ABAIXO DE 1024 *************************/
+
+#bloco1, #bloco2, #bloco3, #bloco4, #bloco5, #bloco6, #bloco7, #bloco8, #bloco9, #bloco10 {
+    float:left;
+    width:100%;
+}
+
+#bloco1, #bloco3, #bloco5, #bloco7, #bloco10 {
+    height:30px;
+}
+
+#bloco3, #bloco5, #bloco7 {
+    background: url(imagens/bk_bloco3.png) repeat-x left top;
+}
+
+#bloco1, #bloco10 {
+    background: url(imagens/bk_bloco1.png) repeat-x left top;
+}
+
+#bloco2 {
+    height: 122px;
+    background:#f2f2f2;
+}
+
+#bloco2_menu_content2 {
+    display:none;
+}
+
+#bloco4 {
+    min-height: 500px;
+}
+
+#bloco6 {
+    min-height: 500px;
+    background:url(imagens/pattern_curvas2.png);
+    background-color:#f4f4f4;
+}
+
+#bloco8 {
+    min-height: 485px;
+    background:url(imagens/pattern_curvas.png);
+    background-color:#7f7f7f;
+}
+
+#bloco9 {
+    min-height: 125px;
+    background:url(imagens/pattern_curvas.png);
+    background-color:#717171;
+}
+
+#bloco1_content, #bloco2_content, #bloco4_content, #bloco6_content, #bloco8_content, #bloco9_content, #bloco10_content {
+    max-width: 82rem;
+    margin:0 auto;
+}
+
+#bloco1_perfil, #bloco1_redes {
+    float:right;
+    margin-left:10px;
+}
+
+#bloco1_perfil a, #bloco1_perfil a:active, #bloco1_perfil a:visited, #bloco1_perfil span {
+    color:#FFFFFF;
+    float:left;
+    text-decoration:none;
+    font-size:11px;
+    padding:8px;
+}
+
+#bloco1_redes a, #bloco1_redes a:active, #bloco1_redes a:visited {
+    float:left;
+    width:24px;
+    height:24px;
+    margin-left:10px;
+    margin-top:3px;
+    text-decoration:none;
+}
+
+#bloco1_redes_yt {
+    background:url(imagens/bloco1_redes_yt.png) no-repeat 0px 0px;
+}
+
+#bloco1_redes_fb {
+    background:url(imagens/bloco1_redes_fb.png) no-repeat 0px 0px;
+}
+
+#bloco1_redes_tw {
+    background:url(imagens/bloco1_redes_tw.png) no-repeat 0px 0px;
+}
+
+#bloco1_redes_ig {
+    background:url(imagens/bloco1_redes_ig.png) no-repeat 0px 0px;
+}
+
+#bloco1_redes_yt:hover, #bloco1_redes_fb:hover, #bloco1_redes_tw:hover, #bloco1_redes_ig:hover {
+    background-position: 0px -24px;
+}
+
+#bloco2_logo {
+    width:250px;
+    height:104px;
+    float:left;
+    text-decoration:none;
+    background:url(imagens/logo1.png) no-repeat left top;
+}
+
+/* ------------------- MENU ----------------------- */
+
+#bloco2_menu {
+    float:left;
+    margin-top:37px;
+    margin-right:0px;
+}
+
+.bloco2_item_menu {
+    float:left;
+    padding-top:16px;
+    padding-bottom:3px;
+    margin-left:15px;
+    margin-right:15px;
+    text-decoration:none;
+    color:#262626;
+    background:url(imagens/bk_menu.png) no-repeat 0px 0px;
+    background-color:#384e85;
+    border-bottom:#8da7ed solid 1px;
+}
+
+.bloco2_item_menu:hover {
+    color:#ffffff;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    margin-left:0px;
+    margin-right:0px;
+    background-position: 0px -50px;
+    border-bottom:#384e85 solid 1px;
+    -webkit-transition: background-position 200ms ease-out, color 200ms ease-out;
+    -moz-transition: background-position 200ms ease-out, color 200ms ease-out;
+    -o-transition: background-position 200ms ease-out, color 200ms ease-out;
+    -ms-transition: background-position 200ms ease-out, color 200ms ease-out;
+    transition: background-position 200ms ease-out, color 200ms ease-out;
+}
+
+/* ------------------- FIM MENU ----------------------- */
+
+#bloco2_fones {
+    float:right;
+    background: url(imagens/ico_fones_topo.png) no-repeat left center;
+    padding-left:65px;
+    max-width:150px;
+    margin-top:42px;
+}
+
+#bloco2_fones a, #bloco2_fones a:active, #bloco2_fones a:visited {
+    float:left;
+    font-family:arial;
+    font-size:12px;
+    padding-bottom:4px;
+    margin-bottom:4px;
+    text-decoration:none;
+    color:#6f84bb;
+    border-bottom:#dddddd dotted 1px;
+}
+
+#bloco2_fones a:hover {
+    color:#000000;
+}
+
+#bloco4_content {
+    max-width: 82rem;
+    margin:0 auto;
+    height:500px;
+}
+
+#bloco4_area_busca {
+    width:90%;
+    margin:0 auto;
+    border-radius:6px;
+    padding:38px;
+    background:rgba(0,0,0,0.5);
+    position: relative;
+    top: 50%;
+    display:table;
+    transform: translateY(-50%);
+}
+
+#frmBusca1, #frmBusca2, #frmBusca3, #frmBusca4, #bloco4_busca_l1, #bloco4_busca_l2, #bloco4_busca_l3 {
+    float:left;
+    width:100%;
+}
+
+.bloco4_inp_e {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+}
+
+.bloco4_inp_i {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:#ffffff;
+}
+
+.bloco4_inp_e {
+    width:50%;
+}
+
+#bloco4_esq {
+    float:left;
+    width:82%;
+}
+
+#bloco4_dir {
+    float:left;
+    margin-left:-5px;
+    width:18%;
+}
+
+.bloco4_inp_e2 {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+}
+
+.bloco4_inp_i2 {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:#ffffff;
+}
+
+.bloco4_inp_e2 {
+    width:31.5%;
+    margin-right:10px;
+}
+
+.bloco4_inp_e3 {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+}
+
+.bloco4_inp_i3 {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:#ffffff;
+}
+
+.bloco4_inp_e3 {
+    margin-top:14px;
+    width:18.4%;
+    margin-right:10px;
+}
+
+#bloco4_esq select {
+    font-family:'roboto';
+    font-weight: 300 !important;
+    font-size:13px;
+    height:26px;
+    background:#ffffff;
+}
+
+#bloco4_texto_full, #bloco4_texto_short {
+    float:left;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    color:#ffffff;
+    font-size:180%;
+    padding-top:7px;
+}
+
+#bloco4_texto_full {
+    width:30%;
+}
+
+#bloco4_texto_short {
+    display:none;
+}
+
+#bloco4_btn_busca_e {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+    margin-left:12px;
+    width:18%;
+}
+
+#bloco4_btn_busca_i {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:url(imagens/btn_busca_rapida.png) no-repeat center top;
+}
+
+#bloco4_btn_busca_i:hover {
+    background-position:center -38px;
+}
+
+#busca_rapida {
+    border:transparent;
+    background:transparent;
+    height:27px;
+    width:100%;
+}
+
+
+
+#bloco4_btn_av_e {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+    width:100%;
+}
+
+#bloco4_btn_av_i {
+    float:left;
+    width:100%;
+    border-radius:6px;
+    background:url(imagens/btn_busca_avancada.png) no-repeat center top;
+}
+
+#bloco4_btn_av_i:hover {
+    background-position:center -94px;
+}
+
+#busca_av {
+    border:transparent;
+    background:transparent;
+    height:94px;
+    width:100%;
+}
+
+
+
+#palavra_chave {
+    width:100%;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    font-size:18px;
+    border:transparent;
+    background:transparent;
+}
+
+#bloco4_mascara {
+    position:absolute;
+    width:100%;
+    height:500px;
+    background:url(imagens/bk_azul_50_2.png);
+}
+
+#bloco4_header {
+    width:100%;
+    height:500px;
+    overflow:hidden;
+}
+
+#bloco4_header img {
+    min-width:100%;
+    min-height:500px;
+}
+
+#bloco4_divisor {
+    float:left;
+    width:100%;
+    height:2px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background:url(imagens/bloco4_divisor.png) repeat-x left top;
+}
+
+#bloco4_busca_l3 span, #bloco4_busca_l3 div {
+    float:left;
+}
+
+#bloco4_busca_l3 span {
+    color:#779cd2;
+}
+
+#bloco4_busca_l3 a {
+    margin-left:18px;
+    margin-bottom:10px;
+    color:#ffffff;
+    text-decoration:underline;
+}
+
+
+
+
+
+
+/*************************** BUSCA COMPACTA *************************/
+
+#bloco4_busca_compacta {
+    display:none;
+}
+
+.bloco4_inp_ec {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+}
+
+.bloco4_inp_ic {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:#ffffff;
+}
+
+.bloco4_inp_ec {
+    width:97%;
+}
+
+#palavra_chave_c {
+    width:100%;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    font-size:18px;
+    border:transparent;
+    background:transparent;
+}
+
+.bloco4_inp_e3c {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+}
+
+.bloco4_inp_i3c {
+    float:left;
+    padding:5px;
+    width:100%;
+    border-radius:6px;
+    background:#ffffff;
+}
+
+.bloco4_inp_e3c {
+    margin-top:14px;
+    width:47%;
+    margin-right:3%;
+}
+
+.bloco4_inp_e3c select {
+    background:#ffffff;
+}
+
+#bloco4_btn_av_ec {
+    float:left;
+    border: 4px solid rgba(255, 255, 255, 0.17);
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box;
+    border-radius:10px;
+    width:97%;
+    margin-top:14px;
+}
+
+#bloco4_btn_av_ic {
+    float:left;
+    width:100%;
+    border-radius:6px;
+    background:url(imagens/btn_busca_compacta.png) no-repeat center -25px;
+}
+
+#bloco4_btn_av_ic:hover {
+    background-position:center -119px;
+}
+
+#busca_c {
+    border:transparent;
+    background:transparent;
+    height:44px;
+    width:100%;
+}
+
+/*************************** FIM BUSCA COMPACTA *************************/
+
+
+/*************************** MIOLO **************************************/
+
+#bloco6_miolo1 {
+    max-width:85rem;
+    height:100%;
+    margin:0 auto;
+    background-color:#f4f4f4 !important;
+}
+
+#bloco6_miolo1_container {
+    float:left;
+    width:100%;
+    min-height:100px;
+    background:url(imagens/bk_miolo_f2.png) no-repeat;
+    background-size:979px 100% !important;
+    background-position: center top !important;
+}
+
+#bloco6_bant_1 {
+    position:absolute;
+    width:100%;
+    max-width:85rem;
+    height:177px;
+    background:url(imagens/bk_miolo_topo_1.png) no-repeat left top;
+    margin-top:-60px;
+}
+
+#bloco6_bant_2 {
+    position:absolute;
+    width:100%;
+    max-width:85rem;
+    height:177px;
+    background:url(imagens/bk_miolo_topo_2.png) no-repeat right top;
+}
+
+#bloco6_banc {
+    max-width:78rem;
+    padding-top:20px;
+    margin:0 auto;
+}
+
+#banner_topo_1, #banner_topo_2 {
+    float:left;
+}
+
+#banner_topo_1 img, #banner_topo_2 img {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#banner_topo_2 {
+    float:right !important;
+    margin:0;
+    padding:0;
+}
+
+.publicidade_label {
+    float:left;
+    width:25px;
+    height:90px;
+    margin:0;
+    padding:0;
+    background:url(imagens/publicidade.png) no-repeat center center;
+}
+
+/* ------------------------------ VITRINE ------------------------- */
+
+#bloco6_vitrine {
+    float:left;
+    width:100%;
+    min-height:515px;
+    margin-top:117px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+.bloco6_titulo, .filtro_titulo {
+    float:left;
+    width:100%;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    font-size:26px;
+    color:#7d7d7d;
+    padding-bottom:22px;
+}
+
+.bloco6_titulo span, .filtro_titulo span {
+    color:#6295e2;
+}
+
+#bloco6_vitrine_container {
+    float:left;
+    width:100%;
+    margin-left:0px;
+
+}
+
+.bloco6_vitrine_item {
+    float:left;
+    width:225px;
+    border:#e8e8e8 solid 2px;
+    background:#ffffff;
+    min-height:100px;
+}
+
+.bloco6_vitrine_item_container {
+    float:left;
+    width:100%;
+    padding:12px;
+}
+
+.bloco6_vitrine_item_foto {
+    float:left;
+    width:100%;
+    height:148px;
+    margin-bottom:20px;
+}
+
+.bloco6_vitrine_foto {
+    float:left;
+    width:100%;
+    height:148px;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:auto 100% !important;
+}
+
+.bloco6_vitrine_titulo {
+    float:left;
+    width:100%;
+    height:80px;
+    overflow:hidden;
+    background:url(imagens/bloco6_logo.png) no-repeat left top;
+    padding-left:58px;
+    padding-top:5px;
+    padding-right:5px;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    font-size:15px;
+    color:#777777;
+}
+
+.bloco6_conteudo_container {
+    float:left;
+    width:100%;
+    background:url(imagens/bloco6_div.png) repeat-x left top;
+    min-height:50px;
+}
+
+.bloco6_linha {
+    float:left;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:arial;
+    text-decoration:none;
+    color:#777777;
+    font-size:11px;
+    background:url(imagens/bloco6_div.png) repeat-x left bottom;
+}
+
+.bloco6_linha td {
+    padding-left:10px;
+}
+
+.bloco6_preco {
+    float:left;
+    width:100%;
+    font-family:arial;
+    font-size:24px;
+    color:#ffffff;
+    height:59px;
+    padding-top:17px;
+    padding-right:17px;
+    text-align:right;
+    background:url(imagens/bloco6_preco.png) repeat-x left top;
+}
+
+.bloco6_vitrine_item:hover {
+    background:#efefef;
+    border:#e0e0e0 solid 2px;
+}
+
+.bloco6_vitrine_item:hover > .bloco6_preco {
+    background-position:0px -59px;
+    -webkit-transition: background-position 200ms ease-out;
+    -moz-transition: background-position 200ms ease-out;
+    -o-transition: background-position 200ms ease-out;
+    -ms-transition: background-position 200ms ease-out;
+    transition: background-position 200ms ease-out;
+}
+
+.bloco6_vitrine_item:hover > .bloco6_vitrine_item_container .bloco6_vitrine_foto {
+    background-size:auto 140% !important;
+    background-position: center center !important;
+    -webkit-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+    -moz-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+    -o-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+    -ms-transition: background-size 400ms ease-out, background-position 400ms ease-out;
+    transition: background-size 400ms ease-out, background-position 400ms ease-out;
+}
+
+#amazingcarousel-vitrine_carro {
+    display:block;
+    position:relative;
+    width:100%;
+    max-width:1100px !important;
+    height:520px !important;
+    margin:0px auto !important;
+    padding:0 !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-image {
+    position: relative;
+    padding:0 !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+    margin: 0;
+    padding:0 !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-title {
+    position:relative;
+    margin:0px;
+    padding:0 !important;
+}
+
+#amazingcarousel-container-2 {
+    padding:0 !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-list-container {
+    padding:0 !important;
+}
+
+#amazingcarousel-container-2, #amazingcarousel-vitrine_carro, .amazingcarousel-list-container, .amazingcarousel-list {
+    padding:0 !important;
+}
+
+.amazingcarousel-item {
+    width:221px;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-item-container {
+    padding:0 !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-prev {
+    left: 0%;
+    top: 50%;
+    margin-left: -48px;
+    margin-top: -16px;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-next {
+    right: 0%;
+    top: 50%;
+    margin-right: -48px;
+    margin-top: -16px;
+}
+
+#bloco6_nav {
+    position: absolute;
+    width: 100%;
+    height:20px;
+    margin-top:-47px;
+    max-width:1100px !important;
+}
+
+.amazingcarousel-nav {
+    float:right;
+    margin-right:28px;
+    width:auto !important;
+    max-width:300px !important;
+}
+
+.amazingcarousel-nav a, .amazingcarousel-nav div {
+    float:left !important;
+}
+
+#amazingcarousel-vitrine_carro .amazingcarousel-bullet-wrapper {
+    margin: 0px auto;
+    padding:0 !important;
+    max-width:150px !important;
+}
+
+.amazingcarousel-bullet-list {
+    max-width:150px !important;
+}
+
+/* ------------------------------ FIM VITRINE ------------------------- */
+
+/* ------------------------------ VENDA SEU CARRO ------------------------- */
+
+#bloco6_venda {
+    float:left;
+    width:101%;
+    min-height:305px;
+    margin-top:55px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+#bloco6_venda_container {
+    float:left;
+    padding:12px;
+    background:#ffffff;
+    border:#e8e8e8 solid 2px;
+}
+
+#bloco6_venda_imagem {
+    float:left;
+    padding:40px;
+    height:230px;
+    width:556px;
+}
+
+#bloco6_venda_conteudo {
+    position:absolute;
+    width:556px;
+    height:230px;
+    padding:30px;
+    text-align:right;
+    font-family:arial;
+    font-size:16px;
+    color:#000000;
+}
+
+#bloco6_venda_conteudo span {
+    color:#344359;
+    font-size:18px;
+    font-family:'roboto', arial;
+    font-weight:bold !important;
+    float:left;
+    width:100%;
+    text-align:right;
+    clear:both;
+    margin-bottom:15px;
+}
+
+.bloco6_venda_btn {
+    float:right;
+    clear:both !important;
+    width:109px;
+    height:35px;
+    background:url(imagens/bloco6_venda_btn.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+#bloco6_venda_container:hover {
+    background:#efefef;
+    border:#e0e0e0 solid 2px;
+}
+
+#bloco6_venda_container:hover > #bloco6_venda_conteudo .bloco6_venda_btn {
+    background-position: 0px -35px;
+}
+
+#banner_meio{
+    float:left;
+    margin-left:20px;
+}
+
+/* ------------------------------ FIM VENDA SEU CARRO ------------------------- */
+
+/* ------------------------------ NEWS ---------------------------------------- */
+
+#bloco6_news {
+    float:left;
+    width:100%;
+    min-height:400px;
+    margin-top:55px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+#bloco6_news_container {
+    float:left;
+    width:100%;
+    margin-left:0px;
+}
+
+.bloco6_news_item {
+    float:left;
+    width:100%;
+}
+
+.bloco6_news_destaque {
+    float:left;
+    width:63%;
+    padding:10px !important;
+    border:#e8e8e8 solid 2px;
+    background:#ffffff;
+    min-height:442px;
+}
+
+.bloco6_news_chamada {
+    float:left;
+    width:36%;
+    padding:10px;
+    border:#e8e8e8 solid 2px;
+    background:#ffffff;
+    min-height:213px;
+    margin-bottom:1%;
+    margin-left:1%;
+}
+
+.bloco6_news_foto, .bloco6_news_foto2 {
+    display: inline-block;
+    width:100%;
+    background-position: center center !important;
+}
+
+.bloco6_news_foto {
+    background-size:auto 100% !important;
+}
+
+.bloco6_news_foto2 {
+    background-size:100% auto !important;
+}
+
+.bloco6_news_conteudo, .bloco6_news_conteudo2 {
+    display:table;
+    width:100%;
+    min-height:100% !important;
+    background:url(imagens/gradiente.png) repeat-x left bottom;
+}
+
+.bloco6_news_texto, .bloco6_news_texto2 {
+    display:table-cell;
+    padding:25px;
+    font-family:arial;
+    color:#ffffff;
+    text-decoration:none;
+    vertical-align:bottom !important;
+}
+
+.bloco6_news_foto {
+    height:422px;
+}
+
+.bloco6_news_conteudo {
+    height:422px;
+}
+
+.bloco6_news_texto {
+    font-size:18px;
+}
+
+.bloco6_news_foto2 {
+    height:193px;
+}
+
+.bloco6_news_conteudo2 {
+    height:193px;
+}
+
+.bloco6_news_texto2 {
+    font-size:15px;
+}
+
+.bloco6_news_item a:hover {
+    background:#efefef;
+    border:#e0e0e0 solid 2px;
+}
+
+.bloco6_news_destaque:hover > .bloco6_news_foto .bloco6_news_conteudo {
+    background-size:100% 140% !important;
+}
+
+.bloco6_news_chamada:hover > .bloco6_news_foto2 .bloco6_news_conteudo2 {
+    background-size:100% 170% !important;
+}
+
+#amazingcarousel-news_carro {
+    display:block;
+    position:relative;
+    width:100%;
+    max-width:1100px !important;
+    height:470px;
+    margin:0px auto !important;
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-image {
+    position: relative;
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border: 0;
+    margin: 0;
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-title {
+    position:relative;
+    margin:0px;
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro #amazingcarousel-container-2 {
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-list-container {
+    padding:0 !important;
+}
+
+#amazingcarousel-container-2, #amazingcarousel-news_carro, .amazingcarousel-list-container, .amazingcarousel-list {
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-item {
+    width:221px;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-item-container {
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-prev {
+    left: 0%;
+    top: 50%;
+    margin-left: -48px;
+    margin-top: -16px;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-next {
+    right: 0%;
+    top: 50%;
+    margin-right: -48px;
+    margin-top: -16px;
+}
+
+#bloco6_nav2 {
+    position: absolute;
+    width: 100%;
+    height:20px;
+    margin-top:-47px;
+    max-width:1100px !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-nav {
+    float:right;
+    margin-right:28px;
+    width:auto !important;
+    max-width:300px !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-nav a, #amazingcarousel-news_carro .amazingcarousel-nav div {
+    float:left !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-bullet-wrapper {
+    margin: 0px auto;
+    padding:0 !important;
+    max-width:150px !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-bullet-list {
+    max-width:150px !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-list-container, #amazingcarousel-news_carro .amazingcarousel-list-wrapper {
+    padding:0 !important;
+}
+
+#amazingcarousel-news_carro .amazingcarousel-list-wrapper, #amazingcarousel-news_carro .amazingcarousel-list-container {
+    width:100% !important;
+}
+
+/* ------------------------------ FIM NEWS ------------------------------------ */
+
+/* ------------------------------ ABAS ATALHOS ------------------------------------ */
+
+#bloco6_atalhos {
+    float:left;
+    width:100%;
+    min-height:425px;
+    margin-top:55px;
+    margin-bottom:117px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+#bloco6_abas, #bloco6_area_abas {
+    float:left;
+    width:100%;
+}
+
+.aba_ativa {
+    font-size:26px !important;
+    color:#7d7d7d !important;
+    margin-top:-8px !important;
+}
+
+.aba_ativa span {
+    color:#6295e2 !important;
+}
+
+.bloco6_aba {
+    float:left;
+    padding-right:40px;
+    padding-top:8px !important;
+    font-weight: 300 !important;
+    padding-bottom:22px;
+    font-family: 'roboto',arial;
+    font-size:18px;
+    color:#bdbdbd;
+    cursor:pointer;
+}
+
+.bloco6_aba div, .bloco6_aba span {
+    float:left;
+}
+
+.bloco6_aba span {
+    color:#aec2e6;
+}
+
+.bloco6_aba:hover {
+    color:#2c7abd;
+}
+
+.bloco6_aba:hover > span {
+    color:#2c7abd;
+}
+
+#bloco6_aba1, #bloco6_aba2, #bloco6_aba3 {
+    padding:10px;
+    float:left;
+    width:100%;
+    display:none;
+}
+
+#bloco6_aba1 {
+    display:inherit;
+}
+
+#bloco6_aba1 a {
+    float:left;
+    width:19.2%;
+    margin-left:1%;
+    margin-bottom:1%;
+    height:163px;
+    border:#e8e8e8 solid 2px;
+    background-color:#ffffff;
+    background-size:auto 200% !important;
+}
+
+#atalho01, #atalho06 {
+    margin-left:0px !important;
+}
+
+#atalho01 {background:url(imagens/atalho01.jpg) no-repeat center 0px;}
+#atalho02 {background:url(imagens/atalho02.jpg) no-repeat center 0px;}
+#atalho03 {background:url(imagens/atalho03.jpg) no-repeat center 0px;}
+#atalho04 {background:url(imagens/atalho04.jpg) no-repeat center 0px;}
+#atalho05 {background:url(imagens/atalho05.jpg) no-repeat center 0px;}
+#atalho06 {background:url(imagens/atalho06.jpg) no-repeat center 0px;}
+#atalho07 {background:url(imagens/atalho07.jpg) no-repeat center 0px;}
+#atalho08 {background:url(imagens/atalho08.jpg) no-repeat center 0px;}
+#atalho09 {background:url(imagens/atalho09.jpg) no-repeat center 0px;}
+#atalho10 {background:url(imagens/atalho10.jpg) no-repeat center 0px;}
+
+#bloco6_aba1 a:hover {
+    background-position: center 100% !important;
+    background-color:#efefef !important;
+    border:#e0e0e0 solid 2px !important;
+}
+
+#bloco6_aba2 a, #bloco6_aba2 a:active, #bloco6_aba2 a:visited {
+    float:left;
+    width:100px;
+    height:100px;
+}
+
+#bloco6_aba3 {
+    padding:10px;
+    background:#ffffff;
+    border:#e8e8e8 solid 2px;
+}
+
+.aba_modelos, .aba_modelos:active, .aba_modelos:visited {
+    float:left;
+    padding:10px;
+    border-bottom:#e0e0e0 dotted 1px;
+    text-decoration:none;
+    font-family:arial;
+    font-size:11px;
+    color:#666666;
+}
+
+.aba_modelos:hover {
+    background:#6295e2 !important;
+    color:#ffffff !important;
+}
+
+/* ------------------------------ FIM ABAS ATALHOS ------------------------------------ */
+
+
+#bloco6_banner_bottom {
+    float:left;
+    width:100%;
+}
+
+#bloco6_banb_1 {
+    position:absolute;
+    width:100%;
+    max-width:85rem;
+    height:177px;
+    background:url(imagens/bk_miolo_bottom_1.png) no-repeat left top;
+    margin-top:-117px;
+}
+
+#bloco7, #bloco8, #bloco9, #bloco10, #bloco11, #bloco12, #bloco13, #bloco14, #bloco15 {
+    -webkit-backface-visibility: hidden;
+    position:inherit;
+}
+
+#bloco6 {
+
+    z-index:8888 !important;
+}
+
+#bloco6_banb_2 {
+    position:absolute;
+    width:100%;
+    max-width:85rem;
+    height:177px;
+    background:url(imagens/bk_miolo_bottom_2.png) no-repeat right top;
+}
+
+#bloco6_banc2 {
+    max-width:78rem;
+    padding-top:20px;
+    margin:0 auto;
+}
+
+#banner_bottom_1, #banner_bottom_2 {
+    float:left;
+    margin-top:45px;
+}
+
+#banner_bottom_1 img, #banner_bottom_2 img {
+    float:left;
+    margin:0;
+    padding:0;
+}
+
+#banner_bottom_2 {
+    float:right !important;
+    margin:0;
+    margin-top:45px;
+    padding:0;
+}
+
+/*************************** FIM MIOLO **********************************/
+
+/*************************** RODAP� **********************************/
+
+#bloco8_1, #bloco8_2, #bloco8_3, #bloco8_4 {
+    float:left;
+    min-height:485px;
+    padding-top:120px;
+}
+
+.bloco8_enderecos {
+    float:left;
+    margin-left:140px;
+    font-family:arial;
+    font-size:12px;
+    text-shadow: 0 0 2px #000000, 0 0 1px #ffffff;
+    color:#cacaca;
+    padding-top:19px;
+    padding-bottom:19px;
+}
+
+.bloco8_enderecos span {
+    float:left;
+    width:100%;
+    font-size:11px;
+    color:#afafaf;
+}
+
+#bloco8_1 {
+    background:url(imagens/totem.png) no-repeat left bottom;
+    width:352px;
+}
+
+#bloco8_2, #bloco8_3 {
+    width:190px;
+}
+
+#bloco8_4 {
+    width:208px;
+}
+
+.bloco8_menu {
+    float:left;
+    width:100%;
+    font-family: 'roboto',arial;
+    font-weight:300 !important;
+    font-size:18px;
+    text-shadow: 0 0 2px #000000, 0 0 1px #ffffff;
+    color:#dadada;
+    padding-left:30px;
+    margin-top:19px;
+    background:url(imagens/bloco8_menu.png) no-repeat left center;
+}
+
+.bloco8_submenu {
+    float:left;
+    width:100%;
+    font-family: 'roboto',arial;
+    font-weight:300 !important;
+    font-size:12px;
+    text-shadow: 0 0 2px #000000, 0 0 1px #ffffff;
+    color:#dadada;
+    padding-left:40px;
+    margin-top:20px;
+    background:url(imagens/bloco8_submenu.png) no-repeat left center;
+}
+
+.bloco8_menu:hover, .bloco8_submenu:hover {
+    color:#ffffff;
+}
+
+#bloco8_newsletter {
+    float:left;
+    width:100%;
+    height:196px;
+    background:#868686;
+    margin-top:20px;
+}
+
+#ct_nw_01, #ct_nw_02, #ct_nw_03, #ct_nw_04, #ct_nw_05, #ct_nw_06 {
+    float:left;
+}
+
+#ct_nw_01, #ct_nw_02 {
+    wisth:100%;
+    font-family:arial;
+    color:#cbcbcb;
+}
+
+#ct_nw_01 {
+    padding:18px;
+    font-size:11px;
+}
+
+#ct_nw_02 {
+    padding-left:18px;
+    padding-right:18px;
+    font-size:11px;
+    padding-bottom:14px;
+}
+
+#ct_nw_03 {
+    width:138px;
+    padding-left:18px;
+}
+
+#ct_nw_03 input {
+    float:left;
+    width:120px;
+    height:34px;
+    border:#949393 solid 1px;
+    background:#818181;
+    color:#ffffff;
+    padding-left:8px;
+}
+
+#ct_nw_03 input:hover {
+    background:#cccccc;
+    color:#000000;
+}
+
+#ct_nw_04, #ct_nw_04 {
+    width:100%;
+    margin-bottom:8px;
+}
+
+#nw_enviar {
+    float:left;
+    width:45px;
+    height:76px;
+    background:url(imagens/bt_nw_enviar.png);
+    background-repeat:no-repeat;
+    background-position:0px 0px;
+    cursor:pointer;
+    border:transparent;
+    margin-left:8px;
+}
+
+#nw_enviar:hover {
+    background-position:0px -76px;
+}
+
+/*************************** FIM RODAP� **********************************/
+
+
+
+#bloco9_fones {
+    float:left;
+    padding-left:65px;
+    padding-top:5px;
+    min-height:60px;
+    margin-top:35px;
+    margin-bottom:20px;
+    background:url(imagens/ico_fones_footer.png) no-repeat left center;
+}
+
+#bloco9_fones div {
+    float:left;
+    max-width:159px;
+    margin-bottom:15px;
+    margin-left:15px;
+}
+
+.bloco9_fone, .bloco9_mail {
+    float:left;
+    text-decoration: none;
+    color:#aeaeae;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    text-shadow: 0 0 2px #000000, 0 0 1px #ffffff;
+}
+
+.bloco9_fone:hover, .bloco9_mail:hover {
+    color:#ffffff;
+}
+
+.bloco9_fone {
+    font-size:22px;
+}
+
+.bloco9_mail {
+    font-size:11px;
+}
+
+#bloco9_maps {
+    float:left;
+    padding-left:80px;
+    padding-top:5px;
+    margin-left:20px;
+    min-height:60px;
+    margin-top:35px;
+    max-width:200px;
+    padding-bottom:30px;
+    background:url(imagens/ico_maps_footer.png) no-repeat left top;
+}
+
+#bloco9_maps a, #bloco9_maps a:active, #bloco9_maps a:visited {
+    float:left;
+    margin-bottom:8px;
+    text-decoration: none;
+    color:#aeaeae;
+    font-size:14px;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    text-shadow: 0 0 2px #000000, 0 0 1px #ffffff;
+}
+
+#bloco9_maps a:hover {
+    color:#ffffff;
+}
+
+#bloco9_redes {
+    float:left;
+    margin-left:20px;
+    padding-top:40px;
+}
+
+#bloco9_redes a, #bloco9_redes a:active, #bloco9_redes a:visited {
+    float:left;
+    text-decoration:none;
+    width:45px;
+    height:45px;
+    margin-left:25px;
+}
+
+#bloco9_redes a:hover {
+    background-position:0px -45px;
+}
+
+#bloco9_yt {
+    background:url(imagens/redes_yt.png) no-repeat 0px 0px;
+}
+
+#bloco9_fb {
+    background:url(imagens/redes_fb.png) no-repeat 0px 0px;
+}
+
+#bloco9_tw {
+    background:url(imagens/redes_tw.png) no-repeat 0px 0px;
+}
+
+#bloco9_ig {
+    background:url(imagens/redes_ig.png) no-repeat 0px 0px;
+}
+
+#bloco10_content {
+    padding-top:10px !important;
+    padding-left:10px;
+}
+
+#bloco10_content div, #bloco10_content a, #bloco10_content a:active, #bloco10_content a:visited {
+    float:left;
+    font-size:10px;
+    color:#bababa;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    margin-right:60px;
+}
+
+#bloco10_content a:hover {
+    color:#ffffff;
+}
+
+#pixelato {
+    float:right !important;
+    width: 60px;
+    height: 10px;
+    margin-top:1px;
+    background: url(imagens/pixelato.png) no-repeat 0px 0px;
+}
+
+#pixelato:hover {
+    background-position: 0px -10px;
+}
+
+
+
+
+
+
+
+
+/* --------------------------- HACKS SAFARI -------------------------- */
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { @media{
+    #bloco4_area_busca {
+        width:90%;
+        margin:0 auto;
+        border-radius:6px;
+        padding:38px;
+        background:rgba(0,0,0,0.5);
+        position: relative;
+        top: 100px !important;;
+        display:table;
+        transform: none !important;
+    }
+}}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0){
+   #bloco4_area_busca {(;
+        width:90%;
+        margin:0 auto;
+        border-radius:6px;
+        padding:38px;
+        background:rgba(0,0,0,0.5);
+        position: relative;
+        top: 100px !important;;
+        display:table;
+        transform: none !important;
+
+    );}
+}
+
+_::-webkit-full-page-media, _:future, :root .safari_only {
+    width:90%;
+    margin:0 auto;
+    border-radius:6px;
+    padding:38px;
+    background:rgba(0,0,0,0.5);
+    position: relative;
+    top: 100px !important;;
+    display:table;
+    transform: none !important;
+}
+
+#bloco4_area_busca:not(:root:root){
+    width:90%;
+    margin:0 auto;
+    border-radius:6px;
+    padding:38px;
+    background:rgba(0,0,0,0.5);
+    position: relative;
+    top: 100px !important;;
+    display:table;
+    transform: none !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    /* Safari and Chrome */
+    #bloco4_area_busca {
+
+    }
+
+    /* Safari only override */
+    ::i-block-chrome,#bloco4_area_busca {
+        width:90%;
+        margin:0 auto;
+        border-radius:6px;
+        padding:38px;
+        background:rgba(0,0,0,0.5);
+        position: relative;
+        top: 100px !important;;
+        display:table;
+        transform: none !important;
+    }
+}
+
+/* ----------------------------------------------- LOGON -------------------------------------------------- */
+
+#bloco6_miolo_logon {
+    float:left;
+    width:100%;
+    margin-top:120px;
+    margin-bottom:120px;
+    min-height:300px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+#frmEsqueci {
+    display:none;
+}
+
+#logon_entrar, #logon_cadastrar {
+    float:left;
+    width:49%;
+    height:350px;
+}
+
+#logon_cadastrar {
+    margin-left:2%;
+}
+
+.bloco_logon {
+    float:left;
+    width:100%;
+    height:260px;
+    border:#e0e0e0 solid 2px;
+    background:#f8f8f8;
+}
+
+.bloco_logon_conteudo {
+    float:left;
+    width:100%;
+    padding-top:25px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.bloco_logon_conteudo span {
+    float:left;
+    width:100%;
+    padding-bottom:10px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+.bloco_logon_conteudo input, .bloco_logon_conteudo select {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    padding:8px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+#logon_btn_entrar,#logon_btn_entrar2, #logon_btn_precad {
+    border:transparent !important;
+    width:150px !important;
+    color:transparent !important;
+    font-size:1px !important;
+    height:32px !important;
+    padding:0px !important;
+    background-repeat: no-repeat !important;
+    background-position:center 0px !important;
+    cursor:pointer !important;
+}
+
+#logon_btn_entrar {
+    background:url(imagens/btn_logon_entrar.png);
+}
+
+#logon_btn_entrar2 {
+    background:url(imagens/btn_logon_enviar.png);
+}
+
+#logon_btn_precad {
+    background:url(imagens/btn_logon_cadastrar.png);
+}
+
+#logon_btn_entrar:hover, #logon_btn_entrar2:hover, #logon_btn_precad:hover {
+    background-position:center -32px !important;
+}
+
+.esqueceusenha, .esqueceusenha2 {
+    float:right;
+    padding-top:8px;
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    color:#6295e2;
+    cursor:pointer;
+}
+
+.esqueceusenha:hover, .esqueceusenha2:hover {
+    color:#0968f8;
+}
+
+.logon_erro {
+    float:left;
+    width:100%;
+    text-align:center;
+    font-family:arial;
+    font-size:11px;
+    font-weight:bold;
+    color:#ff0000;
+}
+
+/* ----------------------------------------------- FIM LOGON -------------------------------------------------- */
+
+/* ----------------------------------------------- CADASTRO -------------------------------------------------- */
+
+#bloco6_miolo_cadastro {
+    float:left;
+    width:100%;
+    margin-top:120px;
+    margin-bottom:120px;
+    min-height:300px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+.cadastro_container {
+    float:left;
+    width:100%;
+}
+
+#frmCadastroContainer {
+    float:left;
+    width:100%;
+    padding:20px;
+    background:#f6f6f6;
+    border:#eeeeee solid 2px;
+}
+
+.bloco_cadastro_escuro {
+    float:left;
+    width:100%;
+    background:#f0f0f0;
+    padding-bottom:20px;
+    border-bottom:#f2f2f2 dotted 2px;
+    border-top:#f2f2f2 dotted 2px;
+}
+
+.bloco_cadastro_claro {
+    float:left;
+    width:100%;
+    padding-bottom:20px;
+}
+
+.bloco_cadastro_conteudo {
+    float:left;
+    width:100%;
+    padding-top:15px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.bloco_cadastro_conteudo span {
+    float:left;
+    width:100%;
+    padding-bottom:5px;
+    padding-top:0px;
+    margin-top:0px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+.bloco_cadastro_conteudo input, .bloco_cadastro_conteudo select, .bloco_cadastro_conteudo textarea {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    padding:8px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+    border-radius:5px;
+}
+
+
+.bloco_cadastro_conteudo textarea {
+    height:120px !important;
+    resize: none;
+}
+
+.bloco_cadastro_1 {
+    float:left;
+    width:49%;
+}
+
+.bloco_cadastro_2 {
+    float:left;
+    width:49%;
+    margin-left:2%;
+}
+
+.cadastro_cb {
+    float:left;
+    padding-top:30px;
+    margin-right:30px;
+}
+
+#logon_btn_cadastrar {
+    float:right;
+    margin-top:20px;
+    border:transparent !important;
+    width:150px !important;
+    color:transparent !important;
+    font-size:1px !important;
+    height:32px !important;
+    padding:0px !important;
+    background-repeat: no-repeat !important;
+    background-position:center 0px !important;
+    cursor:pointer !important;
+}
+
+#logon_btn_cadastrar {
+    background:url(imagens/btn_logon_cadastrar.png);
+}
+
+#logon_btn_cadastrar:hover {
+    background-position:center -32px !important;
+}
+
+/* ----------------------------------------------- FIM CADASTRO -------------------------------------------------- */
+
+/* ----------------------------------------------- ESTOQUE -------------------------------------------------- */
+
+#bloco4_interna {
+    min-height: 100px;
+}
+
+#bloco4_content_interna {
+    max-width: 82rem;
+    margin:0 auto;
+    height:200px;
+}
+
+#bloco4_mascara_interna {
+    float:left;
+    width:100%;
+    height:100px;
+    background:url(imagens/bk_azul_50.png);
+}
+
+#bloco4_header_interna {
+    width:100%;
+    height:100px;
+    overflow:hidden;
+    background-position:right center !important;
+}
+
+#bloco6_miolo_estoque {
+    float:left;
+    width:100%;
+    margin-top:120px;
+    margin-bottom:120px;
+    min-height:600px;
+}
+
+#bloco6_filtros, #bloco6_resultados {
+    float:left;
+    min-height:800px;
+}
+
+#bloco6_filtros {
+    width:27%;
+    padding-left:45px;
+    padding-right:15px;
+}
+
+#frmFiltrarContainer {
+    float:left;
+    width:100%;
+    padding:20px;
+    background:#f6f6f6;
+    border:#eeeeee solid 2px;
+}
+
+#bloco6_resultados {
+    width:73%;
+    padding-left:35px;
+    padding-right:45px;
+}
+
+#bloco6_filtros_container, #bloco6_resultados_container {
+    float:left;
+    width:100%;
+    min-height:800px;
+}
+
+.bloco_filtro {
+    float:left;
+    width:100%;
+    margin-bottom:30px;
+}
+
+.bloco_filtro span {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+    padding-bottom:5px;
+    font-family: arial;
+    font-weight:300 !important;
+    color:#666666;
+    font-size:12px;
+}
+
+.bloco_filtro input, .bloco_filtro select {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    height:30px;
+    background:#f8f8f8;
+    font-family:arial;
+    font-size:11px;
+}
+
+.bloco_filtro #sel_ano_de, .bloco_filtro #sel_ano_ate, .bloco_filtro #sel_valor_de, .bloco_filtro #sel_valor_ate {
+    float:left;
+    width:44% !important;
+}
+
+.bloco_filtro #sel_ano_ate, .bloco_filtro #sel_valor_ate {
+    margin-left:12% !important;
+}
+
+/* ------------------ RESULTADOS ------------------------- */
+
+.estoque_resultado1, .estoque_resultado2 {
+    float:left;
+    padding:30px;
+    width:100%;
+    border-bottom:#e0e0e0 dashed 1px;
+}
+.estoque_resultado1 {
+    background:#f8f8f8;
+}
+
+.estoque_resultado2 {
+    background:#f4f4f4;
+}
+
+.estoque_resultado_foto {
+    float:left;
+    width:180px;
+    height:150px;
+    margin-right:15px;
+    background-size:auto 100% !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+}
+
+.estoque_descricao {
+    float:left;
+    width:100%;
+    font-size:14px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    color:#4272bc;
+    border-bottom:#ccc dotted 1px;
+    text-decoration:none;
+}
+
+.estoque_conteudo {
+    float:left;
+    width:100%;
+}
+
+.estoque_conteudo td {
+    text-decoration:none;
+    color:#666666;
+    font-size:11px;
+    padding:10px;
+}
+
+.estoque_conteudo table {
+    border-bottom:#ccc dotted 1px;
+}
+
+.estoque_resultado_preco {
+    float:left;
+    font-size:18px;
+    font-weight:bold;
+    color:#4272bc;
+}
+
+.estoque_resultado1:hover, .estoque_resultado2:hover,
+.estoque_resultado1:hover td, .estoque_resultado2:hover td,
+.estoque_resultado1:hover .estoque_resultado_preco,
+.estoque_resultado2:hover .estoque_resultado_preco,
+.estoque_resultado1:hover .estoque_descricao,
+.estoque_resultado2:hover .estoque_descricao {
+    background:#384e85;
+    color:#ffffff !important;
+}
+
+.bloco6_titulo_estoque {
+    float:left;
+    width:68%;
+    font-family:'roboto', arial;
+    font-weight: 300 !important;
+    font-size:26px;
+    color:#7d7d7d;
+    padding-bottom:22px;
+}
+
+.bloco6_titulo_estoque span {
+    color:#6295e2;
+}
+
+.estoque_titulo {
+    float:left;
+}
+
+.estoque_resultados_total {
+    float:left;
+    margin-top:12px;
+    font-size:12px !important;
+    color:#666666 !important;
+    margin-left:20px !important;
+}
+
+.estoque_ordem {
+    float:left;
+    width:32%;
+}
+
+#estoque_ordem {
+    float:right;
+    width:90px !important;
+    margin-top:8px;
+    border:#cccccc solid 1px;
+    font-family:arial;
+    font-size:11px;
+}
+
+#estoque_quantos {
+    float:right;
+    width:90px !important;
+    margin-top:8px;
+    border:#cccccc solid 1px;
+    font-family:arial;
+    font-size:11px;
+    margin-left:20px;
+}
+
+#paginacao {
+    float:left;
+    width:100%;
+    margin-top:45px;
+}
+
+.paginacao_primeira, .paginacao_anterior {
+    float:left;
+    width:90px;
+    height:25px;
+    text-decoration:none;
+}
+
+.paginacao_primeira {
+    background:url(imagens/paginacao_primeira.png) no-repeat left center;
+}
+.paginacao_anterior {
+    background:url(imagens/paginacao_anterior.png) no-repeat left center;
+}
+
+.paginacao_proxima, .paginacao_ultima {
+    float:right;
+    width:90px;
+    height:25px;
+    text-decoration:none;
+}
+
+.paginacao_proxima {
+    background:url(imagens/paginacao_proxima.png) no-repeat right center;
+}
+.paginacao_ultima {
+    background:url(imagens/paginacao_ultima.png) no-repeat right center;
+}
+
+.paginacao_pagina {
+    margin-left:5px;
+    margin-right:5px;
+    color:#666666;
+    font-weight:normal;
+}
+
+.paginaAtual {
+    color:#6295e2 !important;
+    font-weight:bold;
+}
+
+.veiculo_loja_estoque {
+    float:left;
+    width:100%;
+    min-height:100px;
+    background:#e8e8e8;
+    margin-top:0px;
+}
+
+/* ------------------ FIM RESULTADOS --------------------- */
+
+/* ----------------------------------------------- FIM ESTOQUE -------------------------------------------------- */
+
+/* ----------------------------------------------- VEICULO ------------------------------------------------------ */
+
+.veiculo_conteudo {
+    float:left;
+    width:100%;
+    min-height:500px;
+    padding-top:120px;
+    padding-bottom:120px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+.veiculo_caminho {
+    position:absolute;
+    width:930px;
+    height:20px;
+    margin-top:-45px;
+    border-bottom:#ddd dotted 1px;
+}
+
+.caminho, .caminho_final {
+    float:left;
+    font-family:arial;
+    font-size:11px;
+    padding-left:20px;
+    padding-right:10px;
+    background:url(imagens/seta_caminho.png) no-repeat left center;
+}
+
+.caminho {
+    color:#aaaaaa;
+}
+
+.caminho:hover {
+    color:#6295e2;
+}
+
+.caminho_final {
+    color:#bbbbbb;
+}
+
+.veiculo_descricao {
+    float:left;
+    width:100%;
+    font-family: 'roboto',arial;
+    font-size:25px;
+    font-weight:500 !important;
+    color:#6295e2;
+    padding-bottom:30px;
+}
+
+.veiculo_descricao span {
+    color:#666666;
+}
+
+#amazingcarousel-veiculo_galeria {
+    float:left;
+    width:66%;
+    min-height:500px;
+    background:#ffffff;
+    padding:10px;
+    border:#e8e8e8 solid 2px;
+}
+
+#amazingcarousel-veiculo_galeria .amazingcarousel-prev {
+    position:absolute !important;
+    z-index:9998 !important;
+    width:80px !important;
+    height:80px !important;
+    top:42%;
+    background-image:url(imagens/bt_prev.png) !important;
+    background-repeat:no-repeat;
+    background-position: 0px 0px;
+}
+
+#amazingcarousel-veiculo_galeria .amazingcarousel-prev:hover {
+    background-position: 0px -80px;
+}
+
+#amazingcarousel-veiculo_galeria .amazingcarousel-next {
+    position:absolute !important;
+    z-index:9999 !important;
+    width:80px !important;
+    top:42%;
+    right:0;
+    height:80px !important;
+    background-image:url(imagens/bt_next.png) !important;
+    background-repeat:no-repeat;
+    background-position: 0px 0px;
+}
+
+#amazingcarousel-veiculo_galeria .amazingcarousel-next:hover {
+    background-position: 0px -80px;
+}
+
+#veiculo_galeria {
+    float:left;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.veiculo_foto {
+    position:relative;
+    width:100%;
+    height:500px;
+    background-color:#eeeeee;
+    background-repeat:no-repeat !important;
+    background-position:center center;
+    background-size:auto 100% !important;
+}
+
+#veiculo_nav {
+    position: absolute;
+    width: 100%;
+    display:none;
+    height:20px;
+    margin-top:-5px;
+    max-width:1100px !important;
+    z-index:99999;
+}
+
+#veiculo_nav .amazingcarousel-nav {
+    float:right;
+    margin-right:0px;
+    padding:5px;
+    padding-left:30px;
+    width:auto !important;
+    max-width:600px !important;
+    background:url(imagens/bk_nav.png) no-repeat left bottom;
+}
+
+#veiculo_nav .amazingcarousel-nav a, #veiculo_nav .amazingcarousel-nav div {
+    float:left !important;
+    max-width:600px !important;
+}
+
+.veiculo_loja {
+    float:left;
+    width:100%;
+    min-height:100px;
+    background:#e8e8e8;
+}
+
+.veiculo_loja_1 {
+    float:left;
+    width:240px;
+    height:172px;
+}
+
+.veiculo_loja_2 {
+    float:left;
+    width:405px;
+    height:172px;
+    padding-top:18px;
+}
+
+.veiculo_loja_2 span {
+    float:left;
+    width:100%;
+    padding:10px;
+}
+
+.nome_loja {
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    color:#6295e2;
+}
+
+.fone_loja {
+    float:left;
+    width:100%;
+    padding:10px;
+    font-family:arial;
+    font-size:12px;
+    color:#333333;
+}
+
+.veiculo_loja_3 {
+    float:left;
+    width:285px;
+    height:172px;
+    padding-top:1px;
+}
+
+.veiculo_loja_4 {
+    float:left;
+    width:100%;
+    padding:25px;
+    margin-top:30px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:#e4e4e4;
+    border-bottom:#f2f2f2 dotted 2px;
+}
+
+.compartilhar_left, .compartilhar_right {
+    float:left;
+    height:30px;
+}
+
+.compartilhar_left {
+    width:620px;
+}
+
+.compartilhar_right {
+    width:272px;
+}
+
+#veiculo_favorito {
+    background:url(imagens/veiculo_favorito.png) no-repeat 0px 0px;
+}
+
+#veiculo_venda_igual {
+    margin-left:30px;
+    background:url(imagens/veiculo_venda_igual.png) no-repeat 0px 0px;
+}
+
+.veiculo_twitter, .veiculo_facebook, .veiculo_googleplus, .veiculo_pinterest, .veiculo_whatsapp {
+    float:right;
+    width:20%;
+    height:30px;
+    background-repeat:no-repeat !important;
+    background-position:center 0px !important;
+}
+
+.veiculo_twitter {
+    background:url(imagens/veiculo_twitter.png);
+}
+.veiculo_facebook {
+    background:url(imagens/veiculo_facebook.png);
+}
+.veiculo_googleplus {
+    background:url(imagens/veiculo_googleplus.png);
+}
+.veiculo_pinterest {
+    background:url(imagens/veiculo_pinterest.png);
+}
+.veiculo_whatsapp {
+    background:url(imagens/veiculo_whatsapp.png);
+}
+
+.veiculo_twitter:hover, .veiculo_facebook:hover, .veiculo_googleplus:hover, .veiculo_pinterest:hover, .veiculo_whatsapp:hover {
+    background-position:center -30px !important;
+    color:#384e85;
+}
+
+.veiculo_compartilhar {
+    float:left;
+    padding:8px;
+    padding-left:45px;
+    padding-right:20px;
+    min-height:30px;
+    font-family:arial;
+    font-size:11px;
+    color:#666666;
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.veiculo_compartilhar:hover {
+    background-position:0px -30px !important;
+    color:#384e85;
+}
+
+.estoque_loja {
+    float:left;
+    width:284px;
+    padding:9px;
+    padding-left:55px;
+    border:#e8e8e8 solid 1px;
+    background:url(imagens/seta_mais_loja.png) no-repeat 0px 0px;
+    background-color:#e0e0e0;
+    font-family:arial;
+    font-size:11px;
+    color:#666666;
+}
+
+.estoque_loja:hover {
+    background-color:#384e85;
+    color:#ffffff;
+    background-position:0px -32px;
+}
+
+.veiculo_preco {
+    float:left;
+    width:34%;
+    height:80px;
+    padding-left:30px;
+}
+
+.veiculo_preco span {
+    float:left;
+    width:100%;
+    padding:10px;
+    font-family:'roboto',arial;
+    font-size:28px;
+    font-weight:500 !important;
+    color:#6295e2;
+    border-bottom:#6295e2 dotted 2px;
+}
+
+.veiculo_proposta {
+    float:left;
+    width:34%;
+    height:440px;
+    padding-left:30px;
+}
+
+.veiculo_form {
+    float:left;
+    width:100%;
+    padding:10px;
+    font-family:'roboto',arial;
+    font-size:28px;
+    font-weight:500 !important;
+    color:#6295e2;
+    height:443px;
+    background:#f8f8f8;
+    border:#e0e0e0 solid 2px;
+}
+
+.veiculo_form_titulo {
+    float:left;
+    width:100%;
+    padding:11px;
+    background:url(imagens/bloco6_preco.png) repeat-x left bottom;
+    font-family:'roboto',arial;
+    font-size:20px;
+    font-weight:300 !important;
+    color:#ffffff;
+}
+
+.proposta_bloco {
+    float:left;
+    width:100%;
+    padding-bottom:5px;
+    border-bottom:#d8d8d8 dotted 1px;
+}
+
+.input_proposta {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    height:35px;
+    margin-top:5px;
+    padding:10px;
+}
+
+.input_proposta_ddd {
+    float:left;
+    width:35%;
+    border:#ccc solid 1px;
+    height:35px;
+    margin-top:5px;
+    padding:10px;
+}
+
+.input_proposta_fone {
+    float:left;
+    width:60%;
+    margin-left:5%;
+    border:#ccc solid 1px;
+    height:35px;
+    margin-top:5px;
+    padding:10px;
+}
+
+.greco {
+    float:left;
+    width:260px;
+    height:76px;
+    border:#d3d3d3 solid 1px;
+    overflow:hidden;
+}
+
+.greci {
+    float:left;
+    margin-left:-1px;
+    margin-top:-1px;
+    width:200px;
+    height:76px;
+    overflow:hidden;
+}
+
+.input_proposta_mensagem {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    height:128px;
+    margin-top:5px;
+    padding:10px;
+    resize: none;
+}
+
+.input_proposta_enviar {
+    float:left;
+    width:100%;
+    border:#ccc solid 1px;
+    height:35px;
+    margin-top:5px;
+    padding:10px;
+}
+
+.veiculo_detalhes {
+    float:left;
+    width:100%;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+.td1, .td2, .td3, .td4 {
+    padding:10px;
+    font-family:arial;
+    font-size:12px;
+    padding-left:25px;
+}
+
+.td3, .td4 {
+    color:#666666;
+}
+
+.td1 {
+    background:#f8f8f8 !important;
+}
+
+.td3 {
+    background:#efefef !important;
+}
+
+.veiculo_opcionais {
+    float:left;
+    width:100%;
+}
+
+.veiculo_opcionais_titulo {
+    float:left;
+    width:100%;
+    padding:13px;
+    padding-left:25px;
+    background:url(imagens/bloco6_preco.png) repeat-x left bottom;
+    font-family:'roboto',arial;
+    font-size:24px;
+    color:#ffffff;
+    border-bottom:#f2f2f2 solid 3px;
+    font-weight:300 !important;
+}
+
+.veiculo_opcional {
+    float:left;
+    width:33.333%;
+    border:#f2f2f2 solid 1px;
+    padding:10px;
+    padding-left:45px;
+    background:url(imagens/seta_opcional.png) no-repeat left center;
+    background-color:#e0e0e0;
+    font-family:arial;
+    font-size:11px;
+    color:#666666;
+}
+
+.favoritado {
+    background-position:0px -60px !important;
+}
+
+.favoritado:hover {
+    background-position:0px -90px !important;
+}
+
+/* ----------------------------------------------- FIM VEICULO -------------------------------------------------- */
+
+/* ----------------------------------------------- MEUSAPE ------------------------------------------------------ */
+
+.meusape_conteudo {
+    float:left;
+    width:100%;
+    min-height:500px;
+    padding-top:120px;
+    padding-bottom:120px;
+    padding-left:45px;
+    padding-right:45px;
+}
+
+.meusape_caminho {
+    position:absolute;
+    width:930px;
+    height:20px;
+    margin-top:-45px;
+    border-bottom:#ddd dotted 1px;
+}
+
+.meusape_descricao {
+    float:left;
+    width:35%;
+    height:60px;
+    font-family: 'roboto',arial;
+    font-size:25px;
+    font-weight:500 !important;
+    color:#6295e2;
+    padding-bottom:30px;
+}
+
+.meusape_mensagem {
+    float:left;
+    width:65%;
+    height:60px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.meusape_area_bt {
+    float:left;
+    width:65%;
+    height:60px;
+}
+
+#btn_novo_veiculo {
+    float:right;
+    margin-top:0px;
+    border:transparent !important;
+    width:150px !important;
+    color:transparent !important;
+    font-size:1px !important;
+    height:32px !important;
+    padding:0px !important;
+    background-repeat: no-repeat !important;
+    background-position:center 0px !important;
+    cursor:pointer !important;
+    background:url(imagens/btn_novo_veiculo.png);
+}
+
+#btn_novo_veiculo:hover {
+    background-position:center -32px !important;
+}
+
+.meusape_descricao span {
+    color:#666666;
+}
+
+.meusape_esquerda, .meusape_direita {
+    float:left;
+    min-height:500px;
+}
+
+.meusape_esquerda {
+    width:30%;
+    padding:20px;
+    background:#f6f6f6;
+    border:#eeeeee solid 2px;
+}
+
+.meusape_direita {
+    width:68%;
+    margin-left:2%;
+    padding:20px;
+    background:#f6f6f6;
+    border:#eeeeee solid 2px;
+}
+
+.meusape_link {
+    float:left;
+    width:100%;
+    padding: 22px;
+    padding-left:65px;
+    border:#f0f0f0 solid 2px;
+    margin-bottom:10px;
+    font-family:'roboto',arial;
+    font-size: 12px;
+    font-weight:300 !important;
+    color:#000000;
+    text-decoration:none;
+    background-color:#fafafa;
+    background-repeat: no-repeat;
+    background-position:10px 0px;
+}
+
+.meusape_perfil_marcado, .meusape_favoritos_marcado, .meusape_veiculos_marcado {
+    float:left;
+    width:100%;
+    padding: 22px;
+    padding-left:65px;
+    border:#f0f0f0 solid 2px;
+    margin-bottom:10px;
+    font-family:'roboto',arial;
+    font-size: 12px;
+    font-weight:300 !important;
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#384e85;
+    background-repeat: no-repeat;
+    background-position:10px -58px;
+}
+
+#meusape_perfil {
+    background-image:url(imagens/meu_sape_usuario.png);
+}
+
+#meusape_favoritos {
+    background-image:url(imagens/meu_sape_favoritos.png);
+}
+
+#meusape_veiculos {
+    background-image:url(imagens/meu_sape_veiculos.png);
+}
+
+.meusape_link:hover {
+    background-color:#384e85;
+    background-position:10px -58px;
+    color:#ffffff;
+}
+
+.bloco_form_perfil1 {
+    float:left;
+    width:100%;
+    padding-bottom:20px;
+    background:#f0f0f0;
+}
+
+.bloco_form_perfil2 {
+    float:left;
+    width:100%;
+    padding-bottom:20px;
+}
+
+#meusape_btn_alterar {
+    float:right;
+    margin-top:20px;
+    border:transparent !important;
+    width:150px !important;
+    color:transparent !important;
+    font-size:1px !important;
+    height:32px !important;
+    padding:0px !important;
+    background-repeat: no-repeat !important;
+    background-position:center 0px !important;
+    cursor:pointer !important;
+    background:url(imagens/btn_alterar_dados.png);
+}
+
+#meusape_btn_alterar:hover {
+    background-position:center -32px !important;
+}
+
+/* ------------------ FAVORITOS ----------------------- */
+
+#meusape_resultados {
+    float:left;
+    width:100%;
+    padding:0px;
+}
+
+#meusape_resultados_container {
+    float:left;
+    width:100%;
+    min-height:800px;
+}
+
+.meusape_resultado1, .meusape_resultado2 {
+    float:left;
+    padding:20px !important;
+    width:100%;
+    border-bottom:#e0e0e0 dashed 1px;
+}
+.meusape_resultado1 {
+    background:#f8f8f8;
+}
+
+.meusape_resultado2 {
+    background:#f4f4f4;
+}
+
+.meusape_resultado_foto {
+    float:left;
+    width:150px;
+    height:150px;
+    margin-right:15px;
+    background-size:auto 100% !important;
+    background-repeat:no-repeat !important;
+    background-position:center center !important;
+}
+
+.meusape_descricao_table {
+    float:left;
+    width:100%;
+    font-size:12px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    color:#4272bc;
+    border-bottom:#ccc dotted 1px;
+    text-decoration:none;
+}
+
+.meusape_conteudo_table {
+    float:left;
+    width:100%;
+}
+
+.meusape_conteudo_table td {
+    text-decoration:none;
+    color:#666666;
+    font-size:11px;
+    padding:10px;
+}
+
+.meusape_conteudo_table table {
+    border-bottom:#ccc dotted 1px;
+}
+
+.meusape_resultado_preco {
+    float:left;
+    font-size:14px;
+    font-weight:bold;
+    color:#4272bc;
+}
+
+.meusape_resultado1:hover, .meusape_resultado2:hover,
+.meusape_resultado1:hover td, .meusape_resultado2:hover td,
+.meusape_resultado1:hover .meusape_resultado_preco,
+.meusape_resultado2:hover .meusape_resultado_preco,
+.meusape_resultado1:hover .meusape_descricao_table,
+.meusape_resultado2:hover .meusape_descricao_table {
+    background:#384e85;
+    color:#ffffff !important;
+}
+
+/* ----------------- FIM FAVORITOS --------------------- */
+
+/* ----------------- MEUS VEICULOS --------------------- */
+
+.meusape_situacao_analise {
+    color:#c4b50f;
+}
+
+.meusape_situacao_negociacao {
+    color:#3591e6;
+}
+
+.meusape_situacao_integrado {
+    color:#19b200;
+}
+
+.meusape_situacao_naoaprovado {
+    color:#f23838;
+}
+
+.meusape_opc {
+    float:left;
+    width:48%;
+    margin:1%;
+    font-family:arial;
+    font-size:11px;
+    padding:10px;
+    background:#f4f4f4;
+    border:#eaeaea solid 2px;
+}
+
+.meusape_opc:hover {
+    background:#f8f8f8;
+}
+
+.meusape_opc span {
+    float:left;
+    width:200px;
+    font-family:arial;
+    font-size:11px;
+    padding-top:6px;
+    padding-left:4px;
+}
+
+.meusape_opc_cb {
+    float:left;
+    width:20px !important;
+    height:20px !important;
+}
+
+#areafotos {
+   border-left:#ccc solid 1px;
+   border-right:#ccc solid 1px;
+   border-bottom:#ccc solid 1px;
+   min-height:80px !important;
+}
+
+#areafotos div, #areafotos div div {
+   width: 108px;
+   height: 75px;
+   border:#ddd solid 4px;
+   overflow: hidden;
+   float: left;
+   margin:10px;
+   cursor: pointer;
+   background: url(imagens/removefoto.png) no-repeat 0px 0px;
+}
+
+#areafotos div div {
+   position: absolute;
+   float: left;
+   margin: -4px;
+}
+
+#areafotos div div:hover {
+   background: url(imagens/removefoto.png) no-repeat 0px -75px;
+   border:#ccc solid 4px;
+}
+
+#nova, #apagar {
+   width: 93px;
+   height: 28px;
+   float: right;
+   font-family: arial;
+   font-size: 10px;
+   font-weight: bold;
+   color:#666;
+   text-align: center;
+   cursor: pointer;
+   margin-left: 15px;
+   margin-right: 15px;
+   margin-top: 5px;
+   padding-top: 7px;
+   background: url(imagens/botao.gif) no-repeat left top;
+}
+
+#nova:hover {
+   color:#008aff;
+}      
+
+#apagar:hover {
+   color:#f21f1f;
+}
+
+#meusape_btn_cadastrar {
+    float:right;
+    margin-top:20px;
+    border:transparent !important;
+    width:150px !important;
+    color:transparent !important;
+    font-size:1px !important;
+    height:32px !important;
+    padding:0px !important;
+    background:url(imagens/btn_logon_cadastrar.png);
+    background-repeat: no-repeat !important;
+    background-position:center 0px !important;
+    cursor:pointer !important;
+}
+
+#meusape_btn_cadastrar:hover {
+    background-position:center -32px !important;
+}
+
+/* ----------------- FIM MEUS VEICULOS ----------------- */
+
+/* ----------------------------------------------- FIM MEUSAPE -------------------------------------------------- */
+
+/* ----------------------------------------------- LOJAS -------------------------------------------------------- */
+
+.chamada_loja {
+    float:left;
+    padding:10px;
+    background:#f6f6f6;
+    border:#e8e8e8 solid 4px;
+    margin:4px;
+    text-decoration:none;
+    font-family:arial;
+}
+
+.chamada_loja img {
+    float:left;
+    clear:both;
+}
+
+.chamada_loja:hover {
+    background:#ffffff;
+    border:#dddddd solid 4px;
+}
+
+.chamada_loja:hover > .chamada_loja_tit4 {
+    background:#4e5879;
+}
+
+.chamada_loja_tit1 {
+    float:left;
+    width:150px;
+    font-size: 12px;
+    font-weight:bold;
+    color:#666;
+    clear:both;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom:#ccc dotted 1px;
+}
+
+.chamada_loja_tit2, .chamada_loja_tit3 {
+    float:left;
+    font-size: 11px;
+    color:#666;
+    padding-top:10px;
+}
+
+.chamada_loja_tit2 {
+    width:55px;
+    clear:both;
+}
+
+.chamada_loja_tit3 {
+    width:95px;
+    text-align:right;
+}
+
+.chamada_loja_tit4 {
+    float:left;
+    width:150px;
+    font-size: 12px;
+    font-weight:bold;
+    color:#ffffff;
+    clear:both;
+    margin-top:10px;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+    background:#757e9d;
+}
+
+
+#lojas_recife, #lojas_olinda {
+    float:left;
+    width:100%;
+}
+
+#lojas_olinda {
+    display:none;
+}
+
+#lojas0, #lojas1, #lojas2 {
+    float:left;
+    margin-right:20px;
+}
+
+#lojas1, #lojas2 {
+    cursor:pointer;
+}
+
+.lojas_ativo {
+    color:#000000 !important;
+    font-size:25px;
+    font-weight:500 !important;
+    margin-top:0px !important;
+}
+
+.lojas_inativo {
+    color:#6295e2 !important;
+    font-size:20px;
+    font-weight:500 !important;
+    margin-top:3px !important;
+}
+
+
+/* ----------------------------------------------- FIM LOJAS -------------------------------------------------------- */
+
+/* ----------------------------------------------- CONTATO -------------------------------------------------------- */
+
+.frmContatoContainer {
+    float:left;
+    width:100%;
+    padding:20px;
+    background:#f6f6f6;
+    border:#eeeeee solid 2px;
+}
+
+.trabalhe_left {
+    float:left;
+    width:100%;
+    min-height:200px;
+}
+
+
+.contato_left {
+    float:left;
+    width:60%;
+    min-height:200px;
+}
+
+.contato_center {
+    float:left;
+    width:2%;
+    min-height:200px;
+}
+
+.contato_right {
+    float:left;
+    width:38%;
+    min-height:200px;
+}
+
+.trabalhe_label {
+    float:left;
+    width:50%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+.trabalhe_label span {
+    float:left;
+    width:100%;
+    padding-bottom:10px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+.trabalhe_label_full {
+    float:left;
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+.trabalhe_label_full span {
+    float:left;
+    width:100%;
+    padding-bottom:10px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+.contato_label {
+    float:left;
+    width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+}
+
+.contato_label span {
+    float:left;
+    width:100%;
+    padding-bottom:10px;
+    font-family:arial;
+    font-size:14px;
+    color:#666666;
+}
+
+.contato_input {
+    float:left;
+    width:100%;
+    padding:8px;
+    border:#ccc solid 1px;
+    border-radius:5px;
+}
+
+.contato_select {
+    float:left;
+    width:100%;
+    height:16px;
+    border:transparent;
+    padding:3px;
+}
+
+.contato_textarea {
+    float:left;
+    width:100%;
+    height:117px;
+    padding:8px;
+    resize: none;
+    border:transparent;
+    border-radius:5px;
+}
+
+.contato_mapa {
+    float:left;
+    width:100%;
+    margin-bottom:10%;
+    border:#dddddd solid 4px;
+}
+
+.contato_mapa1 {
+    float:left;
+    width:100%;
+    height:321px;
+    border:#ffffff solid 2px;
+}
+
+.contato_mapa_label {
+    float:left;
+    width:100%;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family:'roboto',arial;
+    font-size:18px;
+    color:#6295e2;
+}
+
+.contato_mapa_label span {
+    color:#666666;
+}
+
+#contatoBtn {
+    float:right;
+    width:200px;
+    height:40px;
+    cursor:pointer;
+    margin-top:25px;
+    background:url(imagens/btn_contato_enviar.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+#trabalheBtn {
+    float:right;
+    width:200px;
+    height:40px;
+    cursor:pointer;
+    margin-top:25px;
+    background:url(imagens/btn_trabalhe_enviar.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+#contatoLmp, #trabalheLmp {
+    float:left;
+    width:200px;
+    height:40px;
+    cursor:pointer;
+    margin-top:25px;
+    background:url(imagens/btn_contato_limpar.png) no-repeat;
+    background-position: 0px 0px;
+}
+
+#contatoBtn:hover, #contatoLmp:hover, #trabalheBtn:hover {
+    background-position:0px -40px;
+}
+
+/* ----------------------------------------------- FIM CONTATO -------------------------------------------------------- */
+
+/*------------ VIDEO HOME --------------*/
+
+#video_container {
+    float:left;
+    position:relative;
+    z-index:-1;
+    width:100%;
+    height:500px;
+    background:#1e2331;
+    overflow:hidden;
+    margin-top:0px !important;
+}
+
+#spovideo {
+    width:100%;
+    height:100%;
+    object-fit: cover !important;
+    -o-object-fit:cover !important;
+    background:#1e2331 url(imagens/img_header.jpg) no-repeat center center !important;
+    min-width:1600px !important;
+    min-height:500px !important;
+    z-index:-1 !important;
+}
+
+/*------------ FIM VIDEO HOME ----------*/
+
+/* ----------------------------------------------- CONTEUDO -------------------------------------------------------- */
+
+.conteudo_chamada {
+    float:left;
+    padding:20px;
+    width:100%;
+    text-decoration:none;
+    border-bottom:#eee dashed 2px;
+}
+
+.conteudo_data {
+    font-family:arial;
+    font-size:24px;
+    color:#ccc;
+}
+
+.conteudo_imagem {
+    border:#eee solid 4px;
+    width:148px;
+    height:100px;
+}
+
+.conteudo_background {
+    float:left;
+    width:140px;
+    height:100px;
+    background-color:#fff;
+    background-repeat:no-repeat;
+    background-position:center center;
+    border:#fff solid 4px;
+    background-size:auto 130%;
+}
+
+.conteudo_titulo {
+    font-family:arial;
+    font-size:15px;
+    color:#777;
+    padding-left:30px;
+}
+
+.materia_titulo {
+    float:left;
+    width:600px;
+    font-family: 'roboto',arial;
+    font-size:25px;
+    font-weight:500 !important;
+    color:#6295e2;
+    padding-bottom:30px;
+}
+
+.materia_titulo span {
+    color:#666666;
+}
+
+.materia_titulo2 {
+    float:left;
+    width:340px;
+    font-family: 'roboto',arial;
+    font-size:25px;
+    font-weight:500 !important;
+    color:#6295e2;
+    padding-bottom:30px;
+    border-bottom:#ccc dashed 1px;
+}
+
+.materia_titulo2 span {
+    color:#666666;
+}
+
+.materia_left {
+    float:left;
+    width:100%;
+    min-height:200px;
+    font-family:arial;
+    font-size: 14px;
+    text-align:justify;
+    padding-left:30px;
+    padding-right:30px;
+    line-height: 23px;
+    color:#131313;
+}
+
+.materia_left img {
+    max-width: 870px !important;
+}
+
+.materia_left a, .materia_left a:active, .materia_left a:link, .materia_left a:visited {
+    text-decoration:none;
+    color:#4a4a79;
+}
+
+.materias_relacionadas {
+    float:left;
+    width:100%;
+    margin-top:60px;
+}
+
+.busca_interna {
+    float:left;
+    width:583px;
+    margin-left:2px;
+    padding-bottom:23px;
+    border-bottom:#ccc dashed 1px;
+}
+
+#buscai {
+    float:left;
+    border:#ccc solid 1px;
+    padding:10px;
+    height:38px;
+    width:450px;
+}
+
+#buscab {
+    float:left;
+    border:#ccc solid 1px;
+    padding:10px;
+    width:100px;
+    height:38px;
+    background:#757e9d;
+    color:#ffffff;
+    cursor:pointer;
+}
+
+#buscab:hover {
+    background:#49506a;
+}
+
+.relacionadas_titulo {
+    float:left;
+    width:100%;
+    font-family: 'roboto',arial;
+    font-size:25px;
+    font-weight:500 !important;
+    color:#6295e2;
+    padding-bottom:30px;
+    border-bottom:#ccc dashed 1px;
+}
+
+.relacionadas_titulo span {
+    color:#666666;
+}
+
+.relacionadas_links {
+    float:left;
+    width:100%;
+}
+
+.relacionadas_links a, .relacionadas_links a:active, .relacionadas_links a:visited, .relacionadas_links a:link {
+    float:left;
+    width:100%;
+    padding:10px;
+    border-bottom:#ccc dashed 1px;
+    color:#505c85;
+    text-decoration:none;
+}
+
+.relacionadas_links a:hover {
+    background:#757e9d;
+    color:#ffffff;
+}
+
+.icones_materia {
+    position:absolute;
+    width:224px;
+    height:30px;
+    margin-top:1px;
+    margin-left:710px;
+}
+
+.icones_materia a, .icones_materia a:active, .icones_materia a:link, .icones_materia a:visited {
+    float:left;
+    width:30px;
+    height:30px;
+    margin-right:2px;
+    background-position:0px 0px;
+    background-repeat:no-repeat;
+    text-decoration:none;
+}
+
+.comp_fb {background-image:url(imagens/veiculo_facebook.png);}
+.comp_tw {background-image:url(imagens/veiculo_twitter.png);}
+.comp_gp {background-image:url(imagens/veiculo_googleplus.png);}
+.comp_pi {background-image:url(imagens/veiculo_pinterest.png);}
+.comp_wa {background-image:url(imagens/veiculo_whatsapp.png);}
+.comp_em {background-image:url(imagens/final_email.png);}
+.comp_pr {background-image:url(imagens/final_print.png);}
+
+
+.icones_materia a:hover {
+    background-position:0px -30px;
+}
+
+/* ----------------------------------------------- FIM CONTEUDO -------------------------------------------------------- */
+</style> 
+  <title>Shopping do Automóvel de Pernambuco :: Turminha no Trânsito</title> 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+  <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script> 
+  <script src="js/funcoes.js"></script> 
+  <script src="js/carrossel.js"></script> 
+  <script src="js/lightbox.js"></script> 
+  <meta property="og:image" content="http://www.lugardecomprarcarro.com.br/portal/csape_fb.png"> 
+  <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','//connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '798811516911314');
+            fbq('track', "PageView");
+            fbq('track', 'ViewContent');
+            fbq('track', 'Search');
+            fbq('track', 'Lead');
+            fbq('track', 'CompleteRegistration');
+        </script> 
+  <noscript> &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=798811516911314&amp;amp;ev=PageView&amp;amp;noscript=1"&gt; 
+  </noscript> 
+ </head> 
+ <body itemscope itemtype="http://schema.org/WebPage"> 
+  <div id="bloco1"> 
+   <div id="bloco1_content" role="main"> 
+    <div id="bloco1_redes"> 
+     <a href="http://www.youtube.com/automovelpebr" target="_blank" id="bloco1_redes_yt"></a> 
+     <a href="http://facebook.com/automovelpe" target="_blank" id="bloco1_redes_fb"></a> 
+     <a href="http://twitter.com/automovelpe" target="_blank" id="bloco1_redes_tw"></a> 
+     <a href="http://instagram.com/automovelpe" target="_blank" id="bloco1_redes_ig"></a> 
+    </div> 
+    <div id="bloco1_perfil"> 
+     <a href="logon.php">ENTRAR</a> 
+     <span>|</span> 
+     <a href="cadastro.php">NOVO CADASTRO</a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco2"> 
+   <div id="bloco2_content"> 
+    <a href="index.php" id="bloco2_logo"></a> 
+    <div id="bloco2_menu" role="menu"> 
+     <div id="bloco2_menu_content" role="menu"> 
+      <a href="index.php" class="bloco2_item_menu" id="tmn1">INÍCIO</a> 
+      <a href="estoque.php" class="bloco2_item_menu" id="tmn2">COMPRAR</a> 
+      <a href="meusape_veiculos_vender.php" class="bloco2_item_menu" id="tmn3">VENDER</a> 
+      <a href="lojas.php" class="bloco2_item_menu" id="tmn4">LOJAS</a> 
+      <a href="interna.php?q=A1V0FHVR1TP" class="bloco2_item_menu" id="tmn5">NOTÍCIAS</a> 
+      <a href="contato.php" class="bloco2_item_menu" id="tmn6">CONTATO</a> 
+     </div> 
+    </div> 
+    <div id="bloco2_menu_content2"> 
+     <a href="index.php" class="bloco2_item_menu" id="t2mn1">INÍCIO</a> 
+     <a href="estoque.php" class="bloco2_item_menu" id="t2mn2">COMPRAR</a> 
+     <a href="meusape_veiculos_vender.php" class="bloco2_item_menu" id="t2mn3">VENDER</a> 
+     <a href="lojas.php" class="bloco2_item_menu" id="t2mn4">LOJAS</a> 
+     <a href="interna.php?q=A1V0FHVR1TP" class="bloco2_item_menu" id="t2mn5">NOTÍCIAS</a> 
+     <a href="contato.php" class="bloco2_item_menu" id="t2mn6">CONTATO</a> 
+    </div> 
+    <div id="bloco2_fones"> 
+     <a href="tel:+558121370000">(81) 2137-0000</a> 
+     <a href="tel:+558132020000">(81) 3202-0000</a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco3"></div> 
+  <div id="bloco4_interna"> 
+   <div id="bloco4_header_interna" style="background:url(imagens/img_header_interna_01.jpg)"> 
+    <div id="bloco4_mascara_interna"> 
+     <div id="bloco4_content_interna"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco5"></div> 
+  <div id="bloco6"> 
+   <div id="bloco6_miolo1" role="main"> 
+    <div id="bloco6_miolo1_container"> 
+     <div id="bloco6_bant_1"> 
+      <div id="bloco6_bant_2"> 
+       <div id="bloco6_banc"> 
+        <div id="banner_topo_1"> 
+         <div class="publicidade_label"></div> 
+         <img src="../controlli/../controlli/uploads/banners/button_120x90_financeiras.gif" width="120" height="90" alt=""> 
+        </div> 
+        <div id="banner_topo_2"> 
+         <div class="publicidade_label"></div> 
+         <a href="interna.php?q=AVVsZDVR1TP"><img src="../controlli/../controlli/uploads/banners/superbanner_728x90_completao_nova_versao.gif" class="xxbanner" width="728" height="90" alt=""></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="bloco6_miolo_veiculo"> 
+      <div class="veiculo_conteudo"> 
+       <div class="veiculo_caminho"> 
+        <a href="index.php" class="caminho">Início</a> 
+        <div class="caminho_final">
+         Turminha no Trânsito
+        </div> 
+       </div> 
+       <div class="materia_titulo">
+        Turminha no Trânsito
+       </div> 
+       <div class="icones_materia"> 
+        <a class="comp_fb" href="javascript:void(0)" onclick="abre_janela('http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.csape.com.br%2Fportal%2Ffinal.php%3Fq%3DAVVxYDVR1TP', 700, 600, 'alterar_imagem')">&nbsp;</a> 
+        <a class="comp_tw" href="javascript:void(0)" onclick="abre_janela('http://twitter.com/share?text=Turminha no Trânsito&amp;url=http%3A%2F%2Fwww.csape.com.br%2Fportal%2Ffinal.php%3Fq%3DAVVxYDVR1TP', 700, 600, 'alterar_imagem')">&nbsp;</a> 
+        <a class="comp_gp" href="javascript:void(0)" onclick="abre_janela('https://plus.google.com/share?url=http%3A%2F%2Fwww.csape.com.br%2Fportal%2Ffinal.php%3Fq%3DAVVxYDVR1TP', 700, 600, 'alterar_imagem')">&nbsp;</a> 
+        <a class="comp_pi" href="javascript:void(0)" onclick="abre_janela('http://pinterest.com/pin/create/link/?description=Turminha no Trânsito&amp;media=http%3A%2F%2Fwww.csape.com.br%2Fportal%2Fimagens%2Flogo1%2Epng&amp;url=http%3A%2F%2Fwww.csape.com.br%2Fportal%2Ffinal.php%3Fq%3DAVVxYDVR1TP', 700, 600, 'alterar_imagem')">&nbsp;</a> 
+        <a class="comp_wa" href="javascript:void(0)" onclick="abre_janela('whatsapp://send?text=Turminha no Trânsito - http%3A%2F%2Fwww.csape.com.br%2Fportal%2Ffinal.php%3Fq%3DAVVxYDVR1TP', 700, 600, 'alterar_imagem')" data-action="share/whatsapp/share">&nbsp;</a> 
+        <a class="comp_em" href="javascript:void(0)" onclick="abre_janela('includes/final_email.php?q=AVVxYDVR1TP', 700, 600, 'alterar_imagem')">&nbsp;</a> 
+        <a class="comp_pr" href="javascript:void(0)" onclick="abre_janela('includes/final_print.php?q=AVVxYDVR1TP', 1, 1, 'alterar_imagem')">&nbsp;</a> 
+       </div> 
+       <div class="veiculo_detalhes"> 
+        <div class="materia_left"> 
+         <div style="float:left;width:100%;padding-bottom:40px">
+          <img alt="" width="874" height="492" src="../controlli/uploads/conteudo/turminha_no_transito.jpg">
+          <br> 
+          <div style="text-align: justify;">
+           <span style="font-size: large;"><br> <em><span style="font-size: smaller;">Semana Nacional do Trânsito - 18 a 25 de setembro</span></em><br> <br> Dirigir não é brincadeira, mas entender as regras do trânsito pode ser divertido.</span>
+          </div> 
+          <div>
+           <span style="font-size: large;"><br> </span>
+          </div> 
+          <div style="text-align: justify;">
+           <span style="font-size: large;">É por isso que o Shopping do Automóvel vai visitar as principais escolas de Recife e Olinda, apresentando uma divertida aula de trânsito e cidadania para crianças de 05 a 10 anos.</span>
+          </div> 
+          <div style="text-align: justify;">
+           <span style="font-size: large;"><br> </span>
+          </div> 
+          <div style="text-align: justify;">
+           <span style="font-size: large;">Assim, as crianças entendem as leis e passam a ser pequenos ajudantes de seus pais no trânsito.<br> <br> Por um trânsito melhor, por um mundo melhor.<br> <br> </span>
+           <strong><em><span style="font-size: small;">Realização: Shopping do Automóvel de Pernambuco<br> Apoio: Infinito Promo e Sian Propaganda</span></em></strong>
+          </div>
+         </div> 
+         <div style="float:left;width:100%">
+          <div style="width:629px;margin:0 auto;">
+           <div id="amazingcarousel-veiculo_galeria" style="width:629px;height:440px">
+            <div class="amazingcarousel-list-container" style="width:629px;height:440px">
+             <div id="veiculo_nav">
+              <div class="amazingcarousel-nav"></div>
+             </div>
+             <ul class="amazingcarousel-list" style="width:629px;height:440px">
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_01.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_02.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_03.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_04.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_05.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_06.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_07.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_08.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_09.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_10.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_11.jpg)"></div></li>
+              <li class="amazingcarousel-item" style="width:629px;height:440px">
+               <div class="veiculo_foto" style="width:609px;height:420px;background:url(http://www.csape.com.br/controlli/uploads/conteudo/materia/transito/transito_12.jpg)"></div></li>
+             </ul>
+             <div class="amazingcarousel-prev"></div>
+             <div class="amazingcarousel-next"></div>
+            </div>
+           </div>
+          </div>
+         </div> 
+        </div> 
+       </div> 
+       <div class="materias_relacionadas"> 
+        <div class="relacionadas_titulo">
+         Leia também
+        </div> 
+        <div class="relacionadas_links"> 
+         <a href="final.php?q=AlVWZDVR1TP">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+           <tbody>
+            <tr>
+             <td width="120" height="60" align="left"><img src="../controlli/../controlli/uploads/conteudo/chamada//02052017062146.jpg" width="84" height="60" border="0"></td>
+             <td align="left" valign="middle">Multa por Videomonitoramento</td>
+            </tr>
+           </tbody>
+          </table></a>
+         <a href="final.php?q=A1VkZDVR1TP">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+           <tbody>
+            <tr>
+             <td width="120" height="60" align="left"><img src="../controlli/../controlli/uploads/conteudo/chamada//16062017094923.jpg" width="84" height="60" border="0"></td>
+             <td align="left" valign="middle">Como recorrer das multas</td>
+            </tr>
+           </tbody>
+          </table></a>
+         <a href="final.php?q=AVVsZDVR1TP">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+           <tbody>
+            <tr>
+             <td width="120" height="60" align="left"><img src="../controlli/../controlli/uploads/conteudo/chamada//04072016084528.jpg" width="84" height="60" border="0"></td>
+             <td align="left" valign="middle">Farol baixo: Entenda nova lei</td>
+            </tr>
+           </tbody>
+          </table></a>
+         <a href="final.php?q=AVVWZDVR1TP">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+           <tbody>
+            <tr>
+             <td width="120" height="60" align="left"><img src="../controlli/../controlli/uploads/conteudo/chamada//16122016123447.jpg" width="84" height="60" border="0"></td>
+             <td align="left" valign="middle">Mudança no calendário do IPVA </td>
+            </tr>
+           </tbody>
+          </table></a>
+         <a href="final.php?q=AVVxEHVR1TP">
+          <table cellpadding="0" cellspacing="0" border="0" width="100%">
+           <tbody>
+            <tr>
+             <td width="120" height="60" align="left"><img src="../controlli/../controlli/uploads/conteudo/chamada//11112015024249.jpg" width="84" height="60" border="0"></td>
+             <td align="left" valign="middle">Hoje vamos explicar como funciona o sistema Start/Stop</td>
+            </tr>
+           </tbody>
+          </table></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="bloco6_banner_bottom"> 
+      <div id="bloco6_banb_1"> 
+       <div id="bloco6_banb_2"> 
+        <div id="bloco6_banc2"> 
+         <div id="banner_bottom_1"> 
+          <div class="publicidade_label"></div> 
+          <img src="../controlli/../controlli/uploads/banners/button_120x90_financeiras.gif" width="120" height="90" alt=""> 
+         </div> 
+         <div id="banner_bottom_2"> 
+          <div class="publicidade_label"></div> 
+          <a href="interna.php?q=AVVxYDVR1TP"><img src="../controlli/../controlli/uploads/banners/full_banner_728x90_compramos.gif" class="xxbanner" width="728" height="90" alt=""></a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco7"></div> 
+  <div id="bloco8"> 
+   <div id="bloco8_content"> 
+    <div id="bloco8_1"> 
+     <div class="bloco8_enderecos"> 
+      <span>OLINDA</span> Av. Agamenon Magalhães, S/N
+      <br> Complexo Salgadinho
+      <br> (81) 2137-0000 
+     </div> 
+     <div class="bloco8_enderecos"> 
+      <span>RECIFE</span> Av. Mal. Mascarenhas de Morais,
+      <br> 4025, Imbiribeira
+      <br> (81) 3202-0000 
+     </div> 
+     <div class="bloco8_enderecos"> 
+      <span>HORÁRIO DE FUNCIONAMENTO</span> Segunda a Sexta das 08 às 18h
+      <br> Sábado das 08 às 17h 
+     </div> 
+    </div> 
+    <div id="bloco8_2"> 
+     <a href="index.php" class="bloco8_menu">INÍCIO</a> 
+     <a href="estoque.php" class="bloco8_menu">COMPRAR</a> 
+     <!--  <a href="meusape_veiculos_vender.php" class="bloco8_menu">VENDER</a> --> 
+     <a href="http://www.automovelshoppingpe.com.br/" class="bloco8_menu">VENDER</a> 
+     <a href="lojas.php" class="bloco8_menu">LOJAS</a> 
+     <a href="interna.php?q=A1V0FHVR1TP" class="bloco8_menu">NOTÍCIAS</a> 
+     <a href="contato.php" class="bloco8_menu">CONTATO</a> 
+     <a href="interna.php?q=AVVxEHVR1TP" class="bloco8_menu">QUEM SOMOS</a> 
+    </div> 
+    <div id="bloco8_3"> 
+     <a class="bloco8_menu">ESTRUTURA</a> 
+     <a href="interna.php?q=AFVxIEV31TP" class="bloco8_submenu">FINANCEIRAS</a> 
+     <a href="interna.php?q=AFVxIFV31TP" class="bloco8_submenu">DESPACHANTE</a> 
+     <a href="interna.php?q=AVVGVFVR1TP" class="bloco8_submenu">SEGURADORA</a> 
+     <a href="interna.php?q=AVVWVFVR1TP" class="bloco8_submenu">ESPAÇO CRIANÇA</a> 
+     <a href="interna.php?q=AVVsVFVR1TP" class="bloco8_submenu">GASTRONOMIA</a> 
+     <a href="interna.php?q=AVVxUFVR1TP" class="bloco8_submenu">ESTACIONAMENTO</a> 
+     <a href="interna.php?q=AlVGVFVR1TP" class="bloco8_submenu">TEST-DRIVE</a> 
+    </div> 
+    <div id="bloco8_4"> 
+     <a href="interna.php?q=AlVGFHVR1TP" class="bloco8_menu">PUBLICIDADE</a> 
+     <a href="trabalhe.php" class="bloco8_menu">TRABALHE CONOSCO</a> 
+     <div id="bloco8_newsletter"> 
+      <form name="frmNewsletter" id="frmNewsletter" method="POST" action="script_newsletter.php"> 
+       <div id="ct_nw_01">
+        ASSINE A NOSSA NEWSLETTER
+       </div> 
+       <div id="ct_nw_02">
+        Cadastre-se e fique por dentro de todas as novidades do Shopping do Automóvel de Pernambuco
+       </div> 
+       <div id="ct_nw_03"> 
+        <div id="ct_nw_04">
+         <input type="text" class="palavra_chave" name="nw_nome" value="NOME" id="nw_nome">
+        </div> 
+        <div id="ct_nw_05">
+         <input type="text" class="palavra_chave" name="nw_email" value="E-MAIL" id="nw_email">
+        </div> 
+       </div> 
+       <div id="ct_nw_06">
+        <input type="image" src="imagens/blank.gif" name="nw_enviar" id="nw_enviar">
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco9"> 
+   <div id="bloco9_content"> 
+    <div id="bloco9_fones"> 
+     <div> 
+      <a class="bloco9_fone" href="tel:+558121370000">(81) 2137-0000</a> 
+      <a class="bloco9_mail" href="mailto:sac@csape.com.br">SAC@CSAPE.COM.BR</a> 
+     </div> 
+     <div> 
+      <a class="bloco9_fone" href="tel:+558132020000">(81) 3202-0000</a> 
+      <a class="bloco9_mail" href="mailto:sac@csape.com.br">SAC@CSAPE.COM.BR</a> 
+     </div> 
+    </div> 
+    <div id="bloco9_maps"> 
+     <a href="javascript:void(0)" onclick="mapa(-8.0310375,-34.8672751)">UNIDADE OLINDA</a> 
+     <a href="javascript:void(0)" onclick="mapa(-8.1194589,-34.9136162)">UNIDADE RECIFE</a> 
+    </div> 
+    <div id="bloco9_redes"> 
+     <a href="http://www.youtube.com/automovelpebr" target="_blank" id="bloco9_yt"></a> 
+     <a href="http://facebook.com/automovelpe" target="_blank" id="bloco9_fb"></a> 
+     <a href="http://twitter.com/automovelpe" target="_blank" id="bloco9_tw"></a> 
+     <a href="http://instagram.com/automovelpe" target="_blank" id="bloco9_ig"></a> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="bloco10"> 
+   <div id="bloco10_content" role="main"> 
+    <div id="bloco10_copy">
+     © 2017
+     <span> Shopping do Automóvel de Pernambuco. Todos os direitos reservados.</span>
+    </div> 
+    <div id="bloco_10_termos"> 
+     <a href="interna.php?q=AlVWFHVR1TP">Termos de Uso</a> 
+     <a href="interna.php?q=AlVsFHVR1TP"><span>Política de </span>Privacidade</a> 
+    </div> 
+    <a href="http://www.pixelato.com.br" target="_blank" id="pixelato"></a> 
+   </div> 
+  </div> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49403923-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+ </body>
+</html>

@@ -1,0 +1,1103 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Boulevard Shopping Car | Venda de Carros</title> 
+  <meta name="description" content=""> 
+  <meta name="keywords" content=""> 
+  <meta name="author" content=""> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="MetaDescription" content="Site de venda de veículos nacionais e/ou importados,  multimarcas, 0km ou seminovos."> 
+  <meta name="MetaKeywords" content="vendemos carro agora, compre seu carro, compre seu carro rj, compre seu carro rio, compre seu carro rio de janeiro, venda de veiculos, venda automóveis, vender carro, vendo carro"> 
+  <link href="/Content/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/style.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/FileUpload/jquery.fileupload-ui.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/custom.css" rel="stylesheet" type="text/css"> 
+  <link class="alt" href="/Content/css/color.css" rel="stylesheet" type="text/css"> 
+  <script src="/Content/js/modernizr.js"></script> 
+  <link href="/Content/css/toastr.min.css" rel="stylesheet"> 
+  <!-- Google Analytics --> 
+  <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-39963192-1', 'auto');
+        ga('send', 'pageview');
+
+    </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51805708-1', 'auto');
+  ga('send', 'pageview');
+    </script> 
+  <!-- End Google Analytics --> 
+  <!-- face like box --> 
+ </head>
+ <body class="home">
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> 
+  <!-- face like box end-->   
+  <div class="body"> 
+   <!-- Start Site Header --> 
+   <div class="site-header-wrapper"> 
+    <div class="navbar"> 
+     <div class="container sp-cont"> 
+      <!-- Main Navigation --> 
+      <nav class="main-navigation dd-menu toggle-menu" role="navigation"> 
+       <ul class="sf-menu"> 
+        <li><a href="/" class="main-navigation-first-child">PÁGINA INICIAL</a></li> 
+        <li><a href="/Veiculos">VEÍCULOS</a></li> 
+        <li style="margin-left:-4px"><a href="/VendaVeiculo">VENDA SEU VEÍCULO</a></li> 
+        <li class="menuEmpresa"><a href="/Lojas">LOJAS</a></li> 
+        <li><a href="/Contato" style="margin-left:0px" class="main-navigation-last-child">LOCALIZAÇÃO</a></li> 
+        <li class="menuEmpresa"><a href="/Empresa">CONHEÇA O SHOPPING</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+    <header class="site-header"> 
+     <div class="container sp-cont"> 
+      <div class="site-logo"> 
+       <h1> <a href="#"><img src="/Content/images/logo.png" alt="Logo"></a> </h1> 
+      </div> 
+      <div class="header-right"> 
+       <a href="#" class="visible-sm visible-xs" id="menu-toggle">MENU</a> 
+       <div class="topnav dd-menu"> 
+        <ul class="utility-icons social-icons social-icons-colored"> 
+         <li class="facebook"><a href="https://www.facebook.com/Boulevardshoppingcar" target="_blank"><i class="fa fa-facebook"></i> Curta nossa Página</a></li> 
+        </ul> 
+        <div class="adress"> 
+         <div class="adressHeader loja2"> 
+          <span> RUA MAXWELL, Nº 300 - VILA ISABEL<br>RIO DE JANEIRO - RJ </span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+    <!-- End Site Header --> 
+   </div> 
+   <!-- Utiity Bar --> 
+   <div class="utility-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="tituloInterno">
+        Confira nosso estoque
+       <br> 
+       <small>Carros para todos os bolsos e gostos</small> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Actions bar --> 
+   <div class="actions-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-5 col-sm-5 search-actions" style="padding-top: 7px;"> 
+       <h4>Total de 714 veículos.</h4> 
+      </div> 
+      <div class="col-md-7 col-sm-7"> 
+       <div class="btn-group pull-right results-sorter"> 
+        <button type="button" class="btn btn-default listing-sort-btn" style="width: 160px;">Ordenar por</button> 
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="height: 37px"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button> 
+        <ul class="dropdown-menu ordenarVeiculos"> 
+         <li><a href="/ResultadoVeiculos?sortOrder=1">Marca/Modelo</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=2">Preço (Crescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=3">Preço (Decrescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=4">Ano</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=5">Kilometragem</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start Body Content --> 
+   <div class="main" role="main" style="background-color: #fbfbfb"> 
+    <div id="content" class="content full"> 
+     <div class="container"> 
+      <div class="row"> 
+       <!-- Listing Results --> 
+       <div class="col-md-9 results-container"> 
+        <div style="text-align: right"> 
+         <div class="pagination-container">
+          <ul class="pagination">
+           <li class="PagedList-skipToFirst"><a href="/ResultadoVeiculos?page=1">««</a></li>
+           <li class="PagedList-skipToPrevious"><a href="/ResultadoVeiculos?page=18" rel="prev">«</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li><a href="/ResultadoVeiculos?page=14">14</a></li>
+           <li><a href="/ResultadoVeiculos?page=15">15</a></li>
+           <li><a href="/ResultadoVeiculos?page=16">16</a></li>
+           <li><a href="/ResultadoVeiculos?page=17">17</a></li>
+           <li><a href="/ResultadoVeiculos?page=18">18</a></li>
+           <li class="active"><a>19</a></li>
+           <li><a href="/ResultadoVeiculos?page=20">20</a></li>
+           <li><a href="/ResultadoVeiculos?page=21">21</a></li>
+           <li><a href="/ResultadoVeiculos?page=22">22</a></li>
+           <li><a href="/ResultadoVeiculos?page=23">23</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li class="PagedList-skipToNext"><a href="/ResultadoVeiculos?page=20" rel="next">»</a></li>
+           <li class="PagedList-skipToLast"><a href="/ResultadoVeiculos?page=29">»»</a></li>
+          </ul>
+         </div> 
+        </div> 
+        <div class="results-container-in"> 
+         <div class="waiting" style="display:none;"> 
+          <div class="spinner"> 
+           <div class="rect1"></div> 
+           <div class="rect2"></div> 
+           <div class="rect3"></div> 
+           <div class="rect4"></div> 
+           <div class="rect5"></div> 
+          </div> 
+         </div> 
+         <div id="results-holder" class="results-list-view"> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/asx-2.0--4x2-16v-gasolina-4p-automatico-nova-flex-2012/109972/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/109972/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>52.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/asx-2.0--4x2-16v-gasolina-4p-automatico-nova-flex-2012/109972/detalhes">ASX 2.0 4X2 16V GASOLINA 4P AUTOMÁTICO NOVA</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">MMC ASX 2.0 COMPLETO...AUTOMÁTICO...COMPLETISSIMO....BRANCA...ATENÇÃO!VEICULO IMPECÁVEL...NAO CORRA RISCOS!!COMPRE SEU AUTOMÓVEL COM SEGURANÇA...DESDE 1978 TRABALHANDO COM SERIEDADE...AVALIAMOS SEU USADO...FINANCIAMOS...ENTREGA NA HORA...TEL-2578-3621 OU 98208-5026 WHATSAPP</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 59000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/asx-2.0--4x2-16v-gasolina-4p-automatico-nova-flex-2012/109972/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/l200-savana-3.2-4x4-16v-turbo-intercooler-diesel-4p-manual-diesel-2015/109795/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/209/109795/12.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>95.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/l200-savana-3.2-4x4-16v-turbo-intercooler-diesel-4p-manual-diesel-2015/109795/detalhes">L200 SAVANA 3.2 4X4 16V TURBO INTERCOOLER DIESEL 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/739 AUTOMÓVEIS/209/info" title=""><img src="http://autocerto.com/content/images/clientes/739.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">todos os veículos em estoque com procedência e garantia 739...... atuando no comércio de veículos há 28 anos, com dois endereços: na tijuca e barra da tijuca. financeiras no local com aprovação imediata...realize mais um sonho de sua vida aqui na 739 automóveis .veículo do anuncio na loja da barra da tijuca.....21 3507-7591 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2015</a> 
+              <a><i class="fa fa-road"></i> 69000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Amarelo</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/l200-savana-3.2-4x4-16v-turbo-intercooler-diesel-4p-manual-diesel-2015/109795/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/l200-triton--3.2-glx-4x4-cd-16v-turbo-intercoler-diesel-4p-manual-diesel-2015/99668/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/220/99668/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>78.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/l200-triton--3.2-glx-4x4-cd-16v-turbo-intercoler-diesel-4p-manual-diesel-2015/99668/detalhes">L200 TRITON 3.2 GLX 4X4 CD 16V TURBO INTERCOLER DIESEL 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/PlusKar Veículos/220/info" title=""><img src="http://autocerto.com/content/images/clientes/pluskar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">BELÍSSIMO VEÍCULO COMPLETINHO DE FÁBRICA, NUITO NOVA , VENHA CONFERIR ESTA EXCELENTE OPORTUNIDADE,TROCO, FINANCIO, DOU TROCO NA TROCA. TEL: 964660719////964360003////31746098</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2015</a> 
+              <a><i class="fa fa-road"></i> 44000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/l200-triton--3.2-glx-4x4-cd-16v-turbo-intercoler-diesel-4p-manual-diesel-2015/99668/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/outlander-2.0-16v-gasolina-4p-automatico-gasolina-2012/110999/detalhes" class="media-box"><img src="http://www.autocerto.com/images/emBreve.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>53.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/outlander-2.0-16v-gasolina-4p-automatico-gasolina-2012/110999/detalhes">OUTLANDER 2.0 16V GASOLINA 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mig Car/215/info" title=""><img src="http://autocerto.com/content/images/clientes/migcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Financiamento com pequena entrada , podendo ser parcelada em até 10 x sem juros no cartão de crédito e saldo em até 60 x fixas , crédito facilitado , contatos setor vendas - 3172.4354 - 3172.2629 - ( 96434.2414 -96422.1047 - Celso Farias ) - ( Cláudia - 99754-6317) - ( VISTORIADO 2017 ) .</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 86760 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/outlander-2.0-16v-gasolina-4p-automatico-gasolina-2012/110999/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-sport-2.5-hpe-4x4-8v-turbo-intercooler-diesel-4p-manual-diesel-2007/110995/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/215/110995/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>41.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-sport-2.5-hpe-4x4-8v-turbo-intercooler-diesel-4p-manual-diesel-2007/110995/detalhes">PAJERO SPORT 2.5 HPE 4X4 8V TURBO INTERCOOLER DIESEL 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mig Car/215/info" title=""><img src="http://autocerto.com/content/images/clientes/migcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Financiamento com pequena entrada , podendo ser parcelada em até 10 x sem juros no cartão de crédito e saldo em até 60 x fixas , crédito facilitado , contatos setor vendas - 3172.4354 - 3172.2629 - ( 96434.2414 -96422.1047 - Celso Farias ) - ( Cláudia - 99754-6317) - ( VISTORIADO 2017 ) .</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2007/2007</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-sport-2.5-hpe-4x4-8v-turbo-intercooler-diesel-4p-manual-diesel-2007/110995/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-tr4-2.0-4x4-16v-131cv-gasolina-4p-manual-gasolina-2007/73941/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/223/73941/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>27.890
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-tr4-2.0-4x4-16v-131cv-gasolina-4p-manual-gasolina-2007/73941/detalhes">PAJERO TR4 2.0 4X4 16V 131CV GASOLINA 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fenix Veiculos/223/info" title=""><img src="http://autocerto.com/content/images/clientes/fenix.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VENDAS: AMY: (21)989846344(TIM) OTÁVIO: (21)976613651(CLARO) LUIZ SAMIS: (21)99702-5959(VIVO) MARCELO: (21)97029-5320(TIM) LOJA: 2577-4333(fixo)-EM EXTENSO: DOIS, CINCO,SETE,SETE,QUATRO,TRÊS,TRÊS,TRÈS. CONTATO ONLINE: WWW.FENIXRIOVEICULOS.COM.BR. ENDEREÇO: Rua Maxwell, 300 box 19 B – Vila Isabel. Estamos a sua disposição, nossos carros são todos revisados e com garantia empresa com mais de 10 anos no mercado de automóveis realizando sonhos, cada cliente um amigos . Basta vir à loja que faremos uma boa avaliação do seu usado e um bom negócio, VALOR VÁLIDO PARA PAGAMENTO À VISTA, cobrimos oferta, não perdemos negócio, não concretize nada antes de nos consultar. Financeiras no local com as melhores taxas do mercado, crédito imediato, confira!!! Funcionamos de segunda à sábado de 9:00hrs às 18:00hrs. Atenciosamente. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2006/2007</a> 
+              <a><i class="fa fa-road"></i> 0 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-tr4-2.0-4x4-16v-131cv-gasolina-4p-manual-gasolina-2007/73941/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/94796/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/216/94796/9.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>45.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/94796/detalhes">PAJERO TR4 2.0 4X2 16V 140CV FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Staff Car/216/info" title=""><img src="http://autocerto.com/content/images/clientes/staffcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Imperdível...sensacional...vale conferir!!! Aqui você encontra!!!</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 67000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/94796/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/97900/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/213/97900/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>49.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/97900/detalhes">PAJERO TR4 2.0 4X2 16V 140CV FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fluir Car/213/info" title=""><img src="http://autocerto.com/content/images/clientes/fluircar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Único dono, excelente estado de conservação. Temos as menores taxas para financiamento, melhor avaliação na troca, garantia por escrito, troco na troca (dinheiro de volta na compra de um carro de menor valor). Rua Maxwell 300, box 33, Vila Isabel, Rio de Janeiro - Rj - TEL (21) 2278-6423 Boulevard Shopping Car FLUIR CAR + de 15 anos de tradição.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 54700 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2013/97900/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-tr4-2.0-4x4-16v-flex-4p-manual-flex-2010/108230/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/209/108230/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>34.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-tr4-2.0-4x4-16v-flex-4p-manual-flex-2010/108230/detalhes">PAJERO TR4 2.0 4X4 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/739 AUTOMÓVEIS/209/info" title=""><img src="http://autocerto.com/content/images/clientes/739.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"> todos os veículos em estoque com procedência e garantia 739...... atuando no comercio de veículos há 28 anos , com dois endereços na tijuca e barra da tijuca. financeiras no local com aprovação imediata...realize mais um sonho de sua vida aqui na 739 automóveis .veículo do anuncio na loja tijuca.....21 22988034 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2010/2010</a> 
+              <a><i class="fa fa-road"></i> 110000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Verde</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-tr4-2.0-4x4-16v-flex-4p-manual-flex-2010/108230/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2011/109197/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/214/109197/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>39.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2011/109197/detalhes">PAJERO TR4 2.0 4X2 16V 140CV FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/JF 300 Car/214/info" title=""><img src="http://autocerto.com/content/images/clientes/jf300.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Câmbio automático. Perfeita = ok. Venha ver o veículo pessoalmente e comprove fazendo um test drive sem compromisso. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2010/2011</a> 
+              <a><i class="fa fa-road"></i> 68000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/pajero-tr4-2.0-4x2-16v-140cv-flex-4p-automatico-flex-2011/109197/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/frontier-2.5-sv-attack-4x4-cd-turbo-eletronic-diesel-4p-manual-diesel-2014/98836/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/223/98836/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>79.980
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/frontier-2.5-sv-attack-4x4-cd-turbo-eletronic-diesel-4p-manual-diesel-2014/98836/detalhes">FRONTIER 2.5 SV ATTACK 4X4 CD TURBO ELETRONIC DIESEL 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fenix Veiculos/223/info" title=""><img src="http://autocerto.com/content/images/clientes/fenix.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VENDAS: AMY: (21)989846344(TIM) OTÁVIO: (21)976613651(CLARO) LUIZ SAMIS: (21)99702-5959(VIVO) MARCELO: (21)97029-5320(TIM) LOJA: 2577-4333(fixo)-EM EXTENSO: DOIS, CINCO,SETE,SETE,QUATRO,TRÊS,TRÊS,TRÈS. CONTATO ONLINE: WWW.FENIXRIOVEICULOS.COM.BR. ENDEREÇO: Rua Maxwell, 300 box 19 B – Vila Isabel. Estamos a sua disposição, nossos carros são todos revisados e com garantia empresa com mais de 10 anos no mercado de automóveis realizando sonhos, cada cliente um amigos . Basta vir à loja que faremos uma boa avaliação do seu usado e um bom negócio, VALOR VÁLIDO PARA PAGAMENTO À VISTA, cobrimos oferta, não perdemos negócio, não concretize nada antes de nos consultar. Financeiras no local com as melhores taxas do mercado, crédito imediato, confira!!! Funcionamos de segunda à sábado de 9:00hrs às 18:00hrs. Atenciosamente. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2014</a> 
+              <a><i class="fa fa-road"></i> 55000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/frontier-2.5-sv-attack-4x4-cd-turbo-eletronic-diesel-4p-manual-diesel-2014/98836/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2014/86592/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/86592/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>39.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2014/86592/detalhes">GRAND LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"> TOP LINHA ÚNICO DONO AR DIGITAL BANCOS EM COURO RODAS LIGA LEVE AIR BAG DUPLO FREIO ABS SOM COMPLETO DE TUDO CARRO NOVÍSSIMO TODAS REVISÕES EM AUTORIZADA SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 67000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2014/86592/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2013/97087/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/210/97087/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>38.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2013/97087/detalhes">GRAND LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Barão Automoveis/210/info" title=""><img src="http://autocerto.com/content/images/clientes/barao.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEICULO EM OTIMO ESTADO DE CONSERVAÇÃO TODO ORIGINAL DE FABRICA. BARAO AUTOMOVEIS VENDENDO TRANQUILIDADE NO MERCADO DE AUTOMOVEIS A 40 ANOS.TEL 2578 3621 RUA MAXWELL 300 BOX 28 VILA ISABEL AUTOSHOPING BOULEVARD EM FRENTE AO SUPERMERCADO EXTRA DE VILA ISABEL</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2013/97087/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2012/99360/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/99360/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>34.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2012/99360/detalhes">GRAND LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Map Motors/225/info" title=""><img src="http://autocerto.com/content/images/clientes/mapmotors.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">grand livina sl 1.8 flex automático ano 2011/2012 preto completo de fábrica com ar condicionado digital direção hidráulica vidros elétricos trava elétrica retrovisores elétricos air bag duplo freios abs rodas de liga-leve faróis de milha cd mp3 original nissan bancos de couro sensor de estacionamento manual chave reserva documentação ok carro todo original de fábrica todo revisado sem detalhes extremamente novo financiamento até 48 meses parcelamos sua entrada em até 12 x nos cartões visa e mastercard consultar condições fale com nossa equipe de vendas temos todas as financeiras no local passamos sua ficha por telefone contato: map car veículos box 16 tel. 3172-6661 // 96476-4970</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/grand-livina-1.8-sl-16v-flex-4p-automatico-flex-2012/99360/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/59880/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/227/59880/3.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>34.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/59880/detalhes">LIVINA 1.8 SL X-GEAR 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Tota Veiculos/227/info" title=""><img src="http://autocerto.com/content/images/clientes/tota.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">venha conferir, nova demais.. Livina X Gear completa.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 5 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/59880/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/90140/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/228/90140/28.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>34.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/90140/detalhes">LIVINA 1.8 SL X-GEAR 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Vanorth Automoveis/228/info" title=""><img src="http://autocerto.com/content/images/clientes/vanorth.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">RARIDADE, AUTOMÁTICA, TOP DE LINHA, BANCOS EM CORO, RODAS DE LIGA, SOM, ETC...MUITO, MUITO NOVA.....AMIGO CLIENTE, NÃO PERCA ESTA OPORTUNIDADE.............E VOCÊ PODE CONTAR COM NOSSA GARANTIA E ATENÇÃO DO PÓS VENDA........ .A VANORTH É EXTREMAMENTE EXIGENTE NA COMPRA E QUALIDADE DE SEUS AUTOMÓVEIS,............. TODOS OS CARROS DO ESTOQUE ESTÃO COM A DOCUMENTAÇÃO EM NOME DA EMPRESA...... LOJA COM 17 ANOS DE MERCADO E BOM NOME NO MESMO LUGAR. FINANCEIRAS NO LOCAL COM APROVAÇÃO IMEDIATA...REALIZE MAIS UM SONHO DE SUA VIDA AQUI NA VANORTH AUTOMÓVEIS... LIGUE TELS. (21) 2578+7333 OU 3648+7330 OU 96498+3920 OU 96918-1623 OU 96522-6789 OU 99698-0995- AGUARDAMOS VOCÊ, EM UMA DE NOSSAS LOJAS, LOJA 01 E LOJA 07.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-x-gear-16v-flex-4p-automatico-flex-2013/90140/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/91502/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/217/91502/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.890
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/91502/detalhes">LIVINA 1.8 S 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Urraco Autos/217/info" title=""><img src="http://autocerto.com/content/images/clientes/urraco.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEICULO UNICO DONO IMPECAVEL TODO REVISADO NADA A FAZER PRONTO PARA USO OTIMA OPORTUNIDADE DE QUALIDADE E PREÇO NUM SO LUGAR PARA PESSOA EXIGENTE CONDIÇOES IMPERDIVEIS NAO COMPRE ANTES DE NOS CONSULTAR FINANCIAMOS ATE 60X FIXAS DAMOS TROCO NA TROCA ACEITAMOS CARTA DE CREDITO VENHA CONFERIR QUALQUER INFORMAÇAO TEL(21) 25778438 OU 970354116 VENDA COM SEGURANÇA ABSOLUTA 43 ANOS DE MERCADO ( FOTOS MERAMENTE ILUSTRATIVAS. RESERVAMO-NOS O DIREITO DE CORRIGIR POSSIVEIS ERROS DE DIGITAÇAO).</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 79900 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/91502/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.6-sl-x-gear-16v-flex-4p-manual-flex-2012/91972/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/218/91972/4.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>31.800
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.6-sl-x-gear-16v-flex-4p-manual-flex-2012/91972/detalhes">LIVINA 1.6 SL X-GEAR 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Multcar Automoveis/218/info" title=""><img src="http://autocerto.com/content/images/clientes/multcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> 70000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.6-sl-x-gear-16v-flex-4p-manual-flex-2012/91972/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.6-16v-flex-4p-manual-flex-2013/95623/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/220/95623/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>31.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.6-16v-flex-4p-manual-flex-2013/95623/detalhes">LIVINA 1.6 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/PlusKar Veículos/220/info" title=""><img src="http://autocerto.com/content/images/clientes/pluskar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Caro muito novo,revisado com garantia. Tels:7835-8035 / 2577-1674 / 995955408</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> 0 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.6-16v-flex-4p-manual-flex-2013/95623/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/96437/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/409/96437/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>36.890
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/96437/detalhes">LIVINA 1.8 S 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Vancar Rio/409/info" title=""><img src="http://autocerto.com/content/images/clientes/vancarrio.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">CARRO NOVÍSSIMO MUITO LINDO !!! Ar condicionado, direção hidráulica, conjunto elétrico, alarme por rádio controle,, revisado com garantia... Faça um teste drive sem compromisso. de segunda à sábado, dás 9 às 18h MARIO 998455503 ZEQUINHA 964879467 ERICK 21983755510 LOJA 39858841 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 79900 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-s-16v-flex-4p-automatico-flex-2014/96437/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2014/98677/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/98677/9.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>35.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2014/98677/detalhes">LIVINA 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LIVINA 1.6 S, COMPLETA + RODAS DE LIGA + RACK NO TETO, CARRO DE ÚNICO DONO, POUCO RODADA, ESTADO DE ZERO KM, TODA ORIGINAL DE FÁBRICA !!! DUVIDO MAIS NOVA !!!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 35000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2014/98677/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/102250/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/219/102250/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>29.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/102250/detalhes">LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/King Rio Veiculos/219/info" title=""><img src="http://autocerto.com/content/images/clientes/kingrio.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LIVINA SL - TOP DE LINHA - EXTREMAMENTE NOVA - IMPECÁVEL - TROCO FINANCIO 964384764 / 987261590 / 970147220 / 964879468</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2010/2011</a> 
+              <a><i class="fa fa-road"></i> 60000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Vinho</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/102250/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/104189/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/228/104189/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>28.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/104189/detalhes">LIVINA 1.8 SL 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Vanorth Automoveis/228/info" title=""><img src="http://autocerto.com/content/images/clientes/vanorth.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">AUTOMÁTICA, MUITO NOVA, TOP DE LINHA 1.8 SL, COMPLETA COM BANCOS EM COURO, RODAS, ETC...CARRO IMPECÁVEL....AMIGO CLIENTE, NÃO PERCA ESTA OPORTUNIDADE.............E VOCÊ PODE CONTAR COM NOSSA GARANTIA E ATENÇÃO DO PÓS VENDA........ .A VANORTH É EXTREMAMENTE EXIGENTE NA COMPRA E QUALIDADE DE SEUS AUTOMÓVEIS,............. TODOS OS CARROS DO ESTOQUE ESTÃO COM A DOCUMENTAÇÃO EM NOME DA EMPRESA...... LOJA COM 17 ANOS DE MERCADO E BOM NOME NO MESMO LUGAR. FINANCEIRAS NO LOCAL COM APROVAÇÃO IMEDIATA...REALIZE MAIS UM SONHO DE SUA VIDA AQUI NA VANORTH AUTOMÓVEIS... LIGUE TELS. (21) 2578+7333 OU 3648+7330 OU 96498+3920 OU 96918-1623 OU 96522-6789 OU 99698-0995- AGUARDAMOS VOCÊ, EM UMA DE NOSSAS LOJAS, LOJA 01 E LOJA 07.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2011</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-sl-16v-flex-4p-automatico-flex-2011/104189/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/104378/detalhes" class="media-box"><img src="http://www.autocerto.com/images/emBreve.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>27.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/104378/detalhes">LIVINA 1.6 S 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Str Automoveis/230/info" title=""><img src="http://autocerto.com/content/images/clientes/str.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEÍCULO EM EXCELENTE ESTADO. ÚNICO DONO. VISTORIADO 2017. TODO REVISADO!!!! PRONTO PARA UBER/ CABIFY/TAXI 99 CONDIÇÕES ESPECIAIS!!!! TROCO/FINANCIO 48 VEZES FIXAS. ENTRADA PARCELADA NO CARTÃO DE CRÉDITO. S T R AUTOMÓVEIS 30 ANOS DE TRADIÇÃO!!!! PARA MAIORES INFORMAÇÕES ZAP (21) 964018173.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.6-s-16v-flex-4p-manual-flex-2012/104378/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/livina-1.8-16v-flex-4p-automatico-flex-e-gnv-2010/106370/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/409/106370/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>26.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/livina-1.8-16v-flex-4p-automatico-flex-e-gnv-2010/106370/detalhes">LIVINA 1.8 16V FLEX 4P AUTOMÁTICO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Vancar Rio/409/info" title=""><img src="http://autocerto.com/content/images/clientes/vancarrio.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">CARRO NOVÍSSIMO MUITO LINDO !!! Ar condicionado, direção hidráulica, conjunto elétrico, alarme por rádio controle,, revisado com garantia... Faça um teste drive sem compromisso. de segunda à sábado, dás 9 às 18h MARIO 998455503 ZEQUINHA 964879467 ERICK 21983755510 LOJA 39858841 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2009/2010</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/livina-1.8-16v-flex-4p-automatico-flex-e-gnv-2010/106370/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- Search Filters --> 
+       <div class="col-md-3 search-filters" id="Search-Filters"> 
+        <div class="filters-sidebar"> 
+         <div class="accordion" id="toggleArea"> 
+          <!-- Filter by Make --> 
+          <div class="accordion-group panel"> 
+           <div class="accordion-heading togglize"> 
+            <a class="accordion-toggle active" data-toggle="collapse" aria-expanded="true" data-parent="#" href="#collapseTwo">Encontre seu Veículo<i class="fa fa-angle-down"></i> </a> 
+           </div> 
+           <div id="collapseTwo" class="accordion-body collapse in"> 
+            <div class="accordion-inner"> 
+             <form action="/BuscarVeiculo" class="form" id="veiculoForm" method="post"> 
+              <div style="padding: 8px;"> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Marca</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Marca must be a number." data-val-required="The Marca field is required." id="Marca" name="Marca" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione o Modelo</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Modelo must be a number." data-val-required="The Modelo field is required." id="Modelo" name="Modelo" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Preço</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoDe must be a number." data-val-required="The PrecoDe field is required." id="precoDe" name="precoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoAte must be a number." data-val-required="The PrecoAte field is required." id="precoAte" name="precoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Ano</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoDe must be a number." data-val-required="The AnoDe field is required." id="anoDe" name="anoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoAte must be a number." data-val-required="The AnoAte field is required." id="anoAte" name="anoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Loja</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Loja must be a number." data-val-required="The Loja field is required." id="loja" name="loja" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <button id="buttonBuscarVeiculoSearch" class="btn btn-danger btn-lg pull-right"><i class="fa fa-car"></i> Localizar</button> 
+              </div> 
+             </form> 
+             <div style="clear:both"></div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <!-- End Toggle --> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start site footer --> 
+   <footer class="site-footer"> 
+    <div class="site-footer-top"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_newsletter"> 
+        <h4 class="widgettitle">receba nossas newsletter</h4> 
+        <form> 
+         <input type="text" class="form-control" placeholder="Nome"> 
+         <input type="email" class="form-control" placeholder="Email"> 
+         <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar"> 
+        </form> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_custom_menu widget_links"> 
+        <h4 class="widgettitle">Mapa do Site</h4> 
+        <ul style="width: 44%; float: left; margin-right: 30px;"> 
+         <li><a href="/"><i class="fa fa-angle-right"></i> Home</a></li> 
+         <li><a href="/Empresa"><i class="fa fa-angle-right"></i> Empresa</a></li> 
+         <li><a href="/Veiculos"><i class="fa fa-angle-right"></i> Veículos</a></li> 
+        </ul> 
+        <ul style="width: 46%; float: left;"> 
+         <li><a href="/Financiamento"><i class="fa fa-angle-right"></i> Financiamento</a></li> 
+         <li><a href="/Contato"><i class="fa fa-angle-right"></i> Localização</a></li> 
+         <li><a href="/Lojas"><i class="fa fa-angle-right"></i> Lojas</a></li> 
+        </ul> 
+        <div style="clear: both"></div> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget text_widget"> 
+        <h4 class="widgettitle">Facebook</h4> 
+        <div class="fb-like-box" data-href="https://www.facebook.com/Boulevardshoppingcar?fref=ts" data-width="336" data-height="239" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="site-footer-bottom"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-6 col-sm-6 copyrights-left"> 
+        <p>© Boulevard Shopping Car - www.boulevardshoppingcar.com.br</p> 
+       </div> 
+       <div class="col-md-6 col-sm-6 copyrights-right" style="text-align: right"> 
+        <p>Desenvolvido por <a href="http://autocerto.com/" target="_blank"><img src="/Content/images/logo-AutoCerto.png" alt="AutoCerto.com" style="max-height: 20px"></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+   <!-- End site footer --> 
+   <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+  </div> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-1.10.2.min.js"></script> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script src="/Content/vendor/prettyphoto/js/prettyphoto.js"></script> 
+  <script src="/Content/js/ui-plugins.js"></script> 
+  <script src="/Content/js/helper-plugins.js"></script> 
+  <script src="/Content/vendor/owl-carousel/js/owl.carousel.min.js"></script> 
+  <script src="/Content/js/bootstrap.js"></script> 
+  <script src="/Content/js/waypoints.js"></script> 
+  <script src="/Content/js/init.js"></script> 
+  <script src="/Content/vendor/flexslider/js/jquery.flexslider.js"></script> 
+  <script src="/Content/js/jquery.form.js"></script> 
+  <script src="/Content/js/jquery.blockUI.js"></script> 
+  <script src="/Content/js/jquery.validate.min.js"></script> 
+  <script src="/Content/js/jquery.maskedinput.js"></script> 
+  <script src="/Content/js/jquery.maskMoney.js"></script> 
+  <script src="/Content/FileUpload/jquery.iframe-transport.js" type="text/javascript"></script> 
+  <script src="/Content/FileUpload/jquery.fileupload.js" type="text/javascript"></script> 
+  <script src="/Content/js/jquery.jqia.selects.js"></script> 
+  <script src="/Content/js/bootbox.min.js"></script> 
+  <script src="/Content/js/toastr.min.js"></script> 
+  <script src="/Content/js/functions.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  <script type="text/javascript">
+    $(this.document).ready(function () {
+        $(".ordenarVeiculos li a").click(function () {
+            $("#results-holder").load("~/Home/OrdenarVeiculos/" + $(this).data("id"), function () {
+                $.unblockUI();
+            });
+        });
+
+        loadSelect("/Home/ObterPrecosDe/1", null, "#precoDe", (0 == null ? "0" : 0), function () { });
+        loadSelect("/Home/ObterPrecosAte/1", null, "#precoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosDe/1", null, "#anoDe", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosAte/1", null, "#anoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterLojas/1", null, "#loja", (0 == null ? "0" : 0), function () {  });
+
+        loadSelect("/Home/ObterMarcasPorTipo/1", null, "#Marca", (0 == null ? "0" : 0), function () {  });
+
+        $("#Marca").change(function () {
+            loadSelect("/Home/ObterModelosPorMarca/" + $(this).val(), null, "#Modelo", (0 == null ? "0" : 0), function () {  });
+        });
+    });
+</script>  
+ </body>
+</html>

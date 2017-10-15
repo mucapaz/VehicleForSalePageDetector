@@ -1,0 +1,707 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="pt-BR" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-BR" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-BR" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-BR" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>-->
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="author" content="VMotors"> 
+  <meta name="keywords" content="nacional, zero-km, seminovos, Hyundai, BMW, Chevrolet, Honda, Toyota, Kia, Nissan, LandRover, Volkswagen, Peugeot, Fiat, Renault, Ford"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+  <!-- Scripts Fixos do Sistema --> 
+  <script type="text/javascript" src="/system/assets/js/fcymon_scripts.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/fancybox/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript" src="/system/assets/js/buscavmotors.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery-ui.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/scripts.js"></script> 
+  <!-- CSS's Fixos Externos --> 
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> 
+  <!-- CSS's Fixos do Sistema --> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jquery-ui.css"> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jcymon_box.css"> 
+  <!-- CSS's Fixos do Template --> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/style.min.css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/js/fancybox/jquery.fancybox.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/mouseover.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/flexslider.css" media="screen"> 
+  <!-- JS's --> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.flexslider.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.carouFredSel-5.5.0-packed.js"></script> 
+  <!-- Seta o Head Base --> 
+  <title>Nacional Veículos - Encontre seu carro</title>
+  <script type="text/javascript" src="/system/assets/js/buscador/buscadordeveiculos.js"></script>
+  <script type="text/javascript" src="/system/assets/js/filtros/filtrosdebusca.js"></script> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/buscador/buscador-de-veiculos.css"> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/filtros/filtrosdebusca.css"> 
+  <!-- Newsletter
+	================================================== --> 
+  <script>
+		function validaEmail(email) { var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; if (!re.test(email)) { return false; } return true; }
+
+		$(document).ready(function() {
+			if ($('#telefone_newsletter').length > 0) {
+				$("#telefone_newsletter").mask("(99) 9999-9999?9");
+			}
+
+			$('#btnNewsletter').click(function() {
+				$('#btnNewsletter').attr('disabled', true);
+
+				var server = "www.nacionalveiculos.com.br";
+				var script = "/index.php";
+
+				var email = "";
+				var nome = "";
+				var telefone = "";
+
+				if ($('#email_newsletter').length > 0) { email = $('#email_newsletter').val(); }
+				if ($('#nome_newsletter').length > 0) { nome = $('#nome_newsletter').val(); }
+				if ($('#telefone_newsletter').length > 0) { telefone = $('#telefone_newsletter').val(); }
+
+				if (validaEmail(email)) {
+					$.ajax({
+						url: 'http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v1/ajax/receba_newsletter.ajax.php',
+						dataType: "json",
+						data: {
+							nome: nome,
+							email: email,
+							telefone: telefone,
+							server: server,
+							script: script
+						},
+						type: "POST",
+						success: function(retorno) {
+							var retorno_positivo = "<p><label style='width:100% !important; text-align:center;'>Agradecemos pelo seu cadastro!</label></p>";
+							var retorno_negativo = "<p><label style='width:100% !important; text-align:center;'>Desculpe, ocorreu um erro. Tente novamente mais tarde</label></p>";
+
+							if (retorno.sucesso == "1") {
+								$('#div_newsletter').html(retorno_positivo);
+							} else {
+								$('#div_newsletter').html(retorno_negativo);
+							}
+						}
+					});
+				} else {
+					$('#btnNewsletter').removeAttr('disabled');
+					alert("Informe um email valido!");
+				}
+			});
+		});
+	</script> 
+  <!-- Fancybox
+	================================================== --> 
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+				type: 'iframe',
+				width: 560
+			});
+
+			$("a.mapaLoja").fancybox({
+				type: 'iframe',
+				height: 450,
+				width: 560
+			});
+		});
+	</script> 
+ </head> 
+ <body> 
+  <header id="header"> 
+   <div class="centraliza"> 
+    <h1 id="logoHeader"> <a href="/" title="Ir à página inicial"> <span>Nacional Veículos</span> </a> </h1> 
+    <section id="telefonesHeader"> 
+     <article class="telHeader lest"> 
+      <h2>NACIONAL GAMA</h2> 
+      <p>Quadra 32, Loja 20, Gama Leste – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3484-5055 </p> 
+     </article> 
+     <article class="telHeader samambaia"> 
+      <h2>NACIONAL SAMAMBAIA</h2> 
+      <p>QS 518, CONJ. 01, Loja 04, Samambaia Sul – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3046-7070 </p> 
+     </article> 
+    </section> 
+   </div> 
+   <nav id="menuHeader"> 
+    <div class="centraliza"> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li class="semi_menu"><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+     </ul> 
+    </div> 
+   </nav> 
+  </header> 
+  <!-- Conteúdo Principal
+  ============================================================================== --> 
+  <section id="mainInternas"> 
+   <div class="centraliza"> 
+    <h1>Seminovos</h1> 
+    <article class="encontre"> 
+     <side class="filtrosdebusca"> 
+      <div class="carros"> 
+       <h2>11 <span>carros encontrados</span></h2> 
+       <h3>Você buscou por:</h3> 
+       <p> <a href="estoque">Marca: RENAULT</a> </p> 
+      </div> 
+      <div class="botoes_filtros"> 
+       <div class="left"> 
+        <a href="estoque">limpar filtros</a> 
+       </div> 
+       <div class="right"> 
+        <a href="">nova busca</a> 
+       </div> 
+       <br clear="all"> 
+      </div> 
+      <div class="head2">
+       Refine sua busca:
+      </div> 
+      <div id="wrapper"> 
+       <ul class="menu"> 
+        <li class="item2"><a href="#">Modelo<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;imo=2848">SANDERO</a>(5) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;imo=759">CLIO</a>(3) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;imo=1009">MÉGANE</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;imo=2804">LOGAN</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;imo=3272">DUSTER</a>(1) </li> 
+         </ul> </li> 
+        <li class="item3"><a href="#">Portas<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;np=4">4</a>(11) </li> 
+         </ul> </li> 
+        <li class="item4"><a href="#">Ano<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2016">2016</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2015">2015</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2014">2014</a>(6) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2012">2012</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2011">2011</a>(1) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ano=2008">2008</a>(1) </li> 
+         </ul> </li> 
+        <li class="item5"><a href="#">Km<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ikm=1">1.000</a>(11) </li> 
+         </ul> </li> 
+        <li class="item6"><a href="#">Cor<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;icor=30410">Preto</a>(4) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;icor=30409">Prata</a>(3) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;icor=30413">Vermelho</a>(2) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;icor=30404">Branco</a>(2) </li> 
+         </ul> </li> 
+        <li class="item7"><a href="#">Preço<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ipr=4">20.001 - 25.000</a>(4) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ipr=5">25.001 - 30.000</a>(2) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ipr=7">35.001 - 40.000</a>(2) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;ipr=8">40.001 - 60.000</a>(3) </li> 
+         </ul> </li> 
+        <li class="item8"><a href="#">Opcionais<span></span></a> 
+         <ul> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;iopc=abs">ABS</a>(2) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;iopc=ab">Air bag</a>(2) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;iopc=al">Alarme</a>(7) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;iopc=ac">Ar condicionado</a>(9) </li> 
+          <li class="subitem1"> <a href="estoque&amp;ima=30&amp;iopc=cd">CD player</a>(6) </li> 
+         </ul> </li> 
+       </ul> 
+      </div> 
+     </side> 
+     <div id="resultado-busca"> 
+      <div class="head-top">
+       <span class="order">Ordenar por: </span>
+       <span class="view"><a href="estoque&amp;ima=30&amp;ord=ano"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow">Ano</a></span> 
+       <span class="view"><a href="estoque&amp;ima=30&amp;ord=valor"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow">Valor</a></span> 
+       <span class="view"><a href="estoque&amp;ima=30&amp;ord=km"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow">km</a></span> 
+       <span class="view"><a href="estoque&amp;ima=30&amp;ord=foto"><img src="/system/assets/img//buscador/arrow-down.jpg" alt="arrow">Anúncios com foto</a></span> 
+       <span class="show">Mostrar :<select id="sel_mostrar_pp"><option value="estoque&amp;ima=30" selected>15</option><option value="estoque&amp;ima=30&amp;tpp=30">30</option><option value="estoque&amp;ima=30&amp;tpp=45">45</option></select></span>
+       <p class="view-as"><span class="text3">Ver como:</span><a href="estoque&amp;ima=30"><img src="/system/assets/img//buscador/icon1.jpg" alt="icon"></a><a href="estoque&amp;ima=30&amp;exb=2"><img src="/system/assets/img//buscador/icon2.jpg" alt="icon"></a></p>
+       <br clear="all">
+      </div> 
+      <div class="comparar"> 
+       <div class="comparar-ckeck-top"> 
+        <a id="btnCompare1" href="javascript:;">Comparar</a> 
+       </div> 
+       <br clear="all"> 
+      </div> 
+      <div class="mid-part"> 
+       <ul> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11149998").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11149998").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li class="first"> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=11149998_L2VzdG9xdWUmaW1hPTMw__MS05NzI1MDY0_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/8/18/11149998_636386945241585053.jpg" width="156" height="116"> </a> 07 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT DUSTER</h3> 
+          <p>2.0 DYNAMIQUE 4X4 16V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Air bag duplo, Alarme, Ar condicionado, Ar quente, Desembaçador traseiro, Direção hidr� (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=11149998_L2VzdG9xdWUmaW1hPTMw__MS05NzI1MDY0_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo11149998" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=11149998&amp;ma=RENAULT&amp;mo=DUSTER" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 45.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=11149998&amp;title=2014 RENAULT DUSTER RENAULT DUSTER" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=11149998&amp;ma=RENAULT&amp;mo=DUSTER" id="form_enviar_email11149998">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-11149998"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="11149998" id="comp-11149998" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo9725064").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email9725064").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=9725064_L2VzdG9xdWUmaW1hPTMw_MC0xMTE0OTk5OA==_Mi0xMDU1Nzc2OQ==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/ID_9725064/f7655d73bbde779e7156af3f029d2a27.jpg" width="156" height="116"> </a> 07 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT SANDERO</h3> 
+          <p>1.6 STEPWAY 8V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Alarme, Ar condicionado, Bancos de couro, Direção hidráulica, Rádio e CD Player, Rodas (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=9725064_L2VzdG9xdWUmaW1hPTMw_MC0xMTE0OTk5OA==_Mi0xMDU1Nzc2OQ==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo9725064" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=9725064&amp;ma=RENAULT&amp;mo=SANDERO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 41.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=9725064&amp;title=2014 RENAULT SANDERO RENAULT SANDERO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=9725064&amp;ma=RENAULT&amp;mo=SANDERO" id="form_enviar_email9725064">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-9725064"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="9725064" id="comp-9725064" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10557769").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10557769").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10557769_L2VzdG9xdWUmaW1hPTMw_MS05NzI1MDY0_My0xMDU0NjIwNA==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/6/9/10557769_636326141017745480.jpg" width="156" height="116"> </a> 06 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT SANDERO</h3> 
+          <p>1.6 STEPWAY 8V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Alarme, Ar condicionado, Direção hidráulica, Rádio, Rodas de liga leve, Travas elétri (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10557769_L2VzdG9xdWUmaW1hPTMw_MS05NzI1MDY0_My0xMDU0NjIwNA==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10557769" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10557769&amp;ma=RENAULT&amp;mo=SANDERO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 41.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10557769&amp;title=2014 RENAULT SANDERO RENAULT SANDERO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10557769&amp;ma=RENAULT&amp;mo=SANDERO" id="form_enviar_email10557769">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10557769"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10557769" id="comp-10557769" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10546204").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10546204").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10546204_L2VzdG9xdWUmaW1hPTMw_Mi0xMDU1Nzc2OQ==_NC0xMTA2Njg3Mg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/9/29/10546204_636422892939584872.jpg" width="156" height="116"> </a> 09 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2016 RENAULT SANDERO</h3> 
+          <p>1.6 EXPRESSION 8V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Alarme, Ar condicionado, Ar quente, Direção hidráulica, Rádio e CD Player, Travas elé (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10546204_L2VzdG9xdWUmaW1hPTMw_Mi0xMDU1Nzc2OQ==_NC0xMTA2Njg3Mg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10546204" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10546204&amp;ma=RENAULT&amp;mo=SANDERO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 39.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10546204&amp;title=2016 RENAULT SANDERO RENAULT SANDERO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10546204&amp;ma=RENAULT&amp;mo=SANDERO" id="form_enviar_email10546204">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10546204"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10546204" id="comp-10546204" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11066872").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11066872").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=11066872_L2VzdG9xdWUmaW1hPTMw_My0xMDU0NjIwNA==_NS0xMDc2NjU0OA==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/8/11/11066872_636380405544504837.jpg" width="156" height="116"> </a> 07 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT LOGAN</h3> 
+          <p>1.6 EXPRESSION 8V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Air bag do motorista, Alarme, Ar condicionado, Ar quente, Desembaçador traseiro, Direçã (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=11066872_L2VzdG9xdWUmaW1hPTMw_My0xMDU0NjIwNA==_NS0xMDc2NjU0OA==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo11066872" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=11066872&amp;ma=RENAULT&amp;mo=LOGAN" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 35.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=11066872&amp;title=2014 RENAULT LOGAN RENAULT LOGAN" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=11066872&amp;ma=RENAULT&amp;mo=LOGAN" id="form_enviar_email11066872">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-11066872"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="11066872" id="comp-11066872" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10766548").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10766548").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10766548_L2VzdG9xdWUmaW1hPTMw_NC0xMTA2Njg3Mg==_Ni0xMDY4NzYwNg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/7/27/10766548_636367443378374691.jpg" width="156" height="116"> </a> 07 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2012 RENAULT SANDERO</h3> 
+          <p>1.6 PRIVILÉGE 16V FLEX 4P AUTOMÁTICO</p> 
+          <p class="acessorios">Alarme, Ar condicionado, Ar quente, Bancos de couro, Direção hidráulica, Limpador trase (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10766548_L2VzdG9xdWUmaW1hPTMw_NC0xMTA2Njg3Mg==_Ni0xMDY4NzYwNg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10766548" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10766548&amp;ma=RENAULT&amp;mo=SANDERO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 28.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10766548&amp;title=2012 RENAULT SANDERO RENAULT SANDERO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10766548&amp;ma=RENAULT&amp;mo=SANDERO" id="form_enviar_email10766548">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10766548"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10766548" id="comp-10766548" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10687606").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10687606").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10687606_L2VzdG9xdWUmaW1hPTMw_NS0xMDc2NjU0OA==_Ny0xMDY4NzU2Mg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/6/26/10687606_636341017540726128.jpg" width="156" height="116"> </a> 06 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2015 RENAULT CLIO</h3> 
+          <p>1.0 EXPRESSION 16V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Ar condicionado</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10687606_L2VzdG9xdWUmaW1hPTMw_NS0xMDc2NjU0OA==_Ny0xMDY4NzU2Mg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10687606" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10687606&amp;ma=RENAULT&amp;mo=CLIO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 25.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10687606&amp;title=2015 RENAULT CLIO RENAULT CLIO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10687606&amp;ma=RENAULT&amp;mo=CLIO" id="form_enviar_email10687606">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10687606"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10687606" id="comp-10687606" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10687562").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10687562").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10687562_L2VzdG9xdWUmaW1hPTMw_Ni0xMDY4NzYwNg==_OC0xMDU0NjAwMg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/6/26/10687562_636340762045633511.jpg" width="156" height="116"> </a> 08 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT CLIO</h3> 
+          <p>1.0 EXPRESSION 16V FLEX 4P MANUAL</p> 
+          <p class="acessorios"></p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10687562_L2VzdG9xdWUmaW1hPTMw_Ni0xMDY4NzYwNg==_OC0xMDU0NjAwMg==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10687562" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10687562&amp;ma=RENAULT&amp;mo=CLIO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 23.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10687562&amp;title=2014 RENAULT CLIO RENAULT CLIO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10687562&amp;ma=RENAULT&amp;mo=CLIO" id="form_enviar_email10687562">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10687562"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10687562" id="comp-10687562" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo10546002").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email10546002").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=10546002_L2VzdG9xdWUmaW1hPTMw_Ny0xMDY4NzU2Mg==_OS03NjQyOTAw_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/2017/6/8/10546002_636325260599264795.jpg" width="156" height="116"> </a> 07 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2014 RENAULT CLIO</h3> 
+          <p>1.0 EXPRESSION 16V FLEX 4P MANUAL</p> 
+          <p class="acessorios">Ar condicionado</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=10546002_L2VzdG9xdWUmaW1hPTMw_Ny0xMDY4NzU2Mg==_OS03NjQyOTAw_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo10546002" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=10546002&amp;ma=RENAULT&amp;mo=CLIO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 24.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=10546002&amp;title=2014 RENAULT CLIO RENAULT CLIO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=10546002&amp;ma=RENAULT&amp;mo=CLIO" id="form_enviar_email10546002">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-10546002"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="10546002" id="comp-10546002" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo7642900").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email7642900").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=7642900_L2VzdG9xdWUmaW1hPTMw_OC0xMDU0NjAwMg==_MTAtOTkyNjU4Nw==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/ID_7642900/8f2d2fdfbcd7d1e8758e34faa7ef823a.jpg" width="156" height="116"> </a> 08 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2011 RENAULT SANDERO</h3> 
+          <p>1.0 AUTHENTIQUE 16V FLEX 4P MANUAL</p> 
+          <p class="acessorios"></p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=7642900_L2VzdG9xdWUmaW1hPTMw_OC0xMDU0NjAwMg==_MTAtOTkyNjU4Nw==_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo7642900" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=7642900&amp;ma=RENAULT&amp;mo=SANDERO" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 20.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=7642900&amp;title=2011 RENAULT SANDERO RENAULT SANDERO" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=7642900&amp;ma=RENAULT&amp;mo=SANDERO" id="form_enviar_email7642900">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-7642900"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="7642900" id="comp-7642900" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo9926587").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email9926587").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+        <li> 
+         <div class="mid-part-left page-wrap"> 
+          <a href="estoque/detalhes&amp;veiculo=9926587_L2VzdG9xdWUmaW1hPTMw_OS03NjQyOTAw_MTEt_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" title="ver rápido"> <img src="http://image.vmotors.com.br/ID_9926587/4e72c6f4fa5d1d3958c4a1654125e00e.jpg" width="156" height="116"> </a> 08 Fotos 
+         </div> 
+         <div class="mid-part-mid"> 
+          <h3>2008 RENAULT MÉGANE</h3> 
+          <p>2.0 DYNAMIQUE SEDAN 16V GASOLINA 4P AUTOMÁTICO</p> 
+          <p class="acessorios">Ar condicionado, Direção hidráulica, Travas elétricas, Vidros elétricos, Alarme, Rád (...)</p> 
+          <p class="btns"> <a href="estoque/detalhes&amp;veiculo=9926587_L2VzdG9xdWUmaW1hPTMw_OS03NjQyOTAw_MTEt_MTExNDk5OTh8OTcyNTA2NHwxMDU1Nzc2OXwxMDU0NjIwNHwxMTA2Njg3MnwxMDc2NjU0OHwxMDY4NzYwNnwxMDY4NzU2MnwxMDU0NjAwMnw3NjQyOTAwfDk5MjY1ODc=" class="detalhes"> Ver detalhes <span></span> </a> <a id="form_proposta_veiculo9926587" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=9926587&amp;ma=RENAULT&amp;mo=MÉGANE" class="proposta"> Estou interessado <span></span> </a> <br clear="all"> </p> 
+         </div> 
+         <div class="mid-part-right"> 
+          <p class="price">R$ 23.900,00</p> 
+          <p class="name"></p> 
+          <p class="bairro-cidade">ST LESTE COMERCIAL - BRASíLIA - DF</p> 
+          <p class="compartilhar"> <a href="http://www.facebook.com/sharer.php?u=estoque/detalhes&amp;veiculo=9926587&amp;title=2008 RENAULT MÉGANE RENAULT MÉGANE" title="facebook" target="_blank">Compartilhar</a> &nbsp;|&nbsp; <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=9926587&amp;ma=RENAULT&amp;mo=MÉGANE" id="form_enviar_email9926587">Enviar por email</a> </p> 
+          <div class="comparar"> 
+           <label for="comp-9926587"><img src="/system/assets/img/buscador/comparar.png" width="14" height="75" alt="#"></label>
+           <br> 
+           <input name="compare" type="checkbox" value="9926587" id="comp-9926587" class="check-comp"> 
+          </div> 
+         </div> 
+         <div class="clear"></div> </li> 
+       </ul> 
+      </div> 
+      <div class="pagination"> 
+       <div class="comparar-ckeck"> 
+        <a id="btnCompare2" href="javascript:;">Comparar</a> 
+       </div> 
+      </div> 
+     </div> 
+    </article> 
+    <div class="clearfloat"></div> 
+   </div>
+   <!--centraliza--> 
+  </section>
+  <!--principalInternas--> 
+  <footer id="footer"> 
+   <ul class="abaLateral"> 
+    <li> <a class="opcoes chat" href="javascript:void(window.open('http://nacionalveiculos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"> Chat <span><br>Online</span> </a> </li> 
+    <li> <a class="opcoes whatsapp" href="#"> Whatsapp <span><br>(61) 9855-7191</span> <span><br>(61) 9 9851-5258</span> <span><br>(61) 9 9857-6842</span> </a> </li> 
+   </ul> 
+   <div class="centraliza"> 
+    <img src="/templates/assets/img/logoNacionalFooter.png" alt="Nacional Veículos" title="Nacional Veículos" class="logo_footer fleft"> 
+    <div class="menuFooter"> 
+     <h2>Mapa do site</h2> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/localizacao">Localização</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+     </ul> 
+    </div> 
+    <div class="menuFooterLinks"> 
+     <h2>links úteis</h2> 
+     <ul> 
+      <li><a href="http://www.fipe.org.br/web/index.asp?aspx=/web/indices/veiculos/introducao.aspx" target="_blank">FIPE</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">IPVA</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">Detran</a></li> 
+      <li><a href="http://webservices.maplink2.com.br/santander/MontarTrajeto.aspx" target="_blank">Monte seu trajeto</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div id="copyrights"> 
+    <div class="centraliza"> 
+     <p class="fleft">Nacional Veículos 2015 | Todos os direitos reservados.</p> 
+     <p class="fright"><a href="http://www.vmotors.com.br" title="Powered by VMotors" target="_blank">www.vmotors.com.br</a></p> 
+     <div class="clearfloat"></div> 
+    </div> 
+   </div> 
+  </footer>  
+ </body>
+</html>

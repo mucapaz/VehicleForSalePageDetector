@@ -1,0 +1,1102 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-16.png" type="image/png" sizes="16x16"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-32.png" type="image/png" sizes="32x32"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-48.png" type="image/png" sizes="48x48"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-64.png" type="image/png" sizes="64x64"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-128.png" type="image/png" sizes="128x128"> 
+  <link rel="canonical" href="http://www.litoralcar.com.br/veiculos-categoria/monovolume/"> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+  <script>
+    var urlSite = 'http://' + window.location.host + '/';
+</script> 
+  <!-- ARQUIVOS CSS --> 
+  <link href="http://www.litoralcar.com.br/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/font-awesome.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/fontface-lato-3.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/owl.carousel.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/owl.theme.default.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/jquery-ui.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/bootstrap-select.css"> 
+  <link href="http://www.litoralcar.com.br/css/global_7.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/estilo01_3.min.css" rel="stylesheet" media="screen and (min-width:1200px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo02_3.min.css" rel="stylesheet" media="screen and (min-width:992px) and (max-width:1199px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo03_3.min.css" rel="stylesheet" media="screen and (min-width:768px) and (max-width:991px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo04_3.min.css" rel="stylesheet" media="screen and (min-width:600px) and (max-width:767px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo05_3.min.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:599px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo06_5.min.css" rel="stylesheet" media="screen and (max-width:479px)"> 
+  <!-- ARQUIVOS JS --> 
+  <script src="http://www.litoralcar.com.br/js/jquery-1.11.0.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap-dopdown.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/jquery-migrate-1.2.1.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom2.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom_18.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom-funcoes_15.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom-banners_2.min.js" async></script> 
+  <script src="http://www.litoralcar.com.br/js/jquery-ui-min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap-select.min.js" async></script> 
+  <script src="http://www.litoralcar.com.br/js/owl.carousel-min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/ios9-min.js" async></script> 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]--> 
+  <style>
+    .preload-logo {
+        background-image: url("../imgs/logo-litoralcar.png");
+        background-repeat: no-repeat;
+    }
+</style>
+  <title>Veículos Monovolume - LitoralCar</title> 
+  <meta name="description" content="Encontre veículos Monovolume aqui."> 
+  <meta name="keywords"> 
+  <meta property="og:locale" content="pt_BR"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="Veículos Veículos Monovolume - LitoralCar - LitoralCar"> 
+  <meta property="og:description" content="Encontre veículos Monovolume aqui."> 
+  <meta property="og:url" content="http://www.litoralcar.com.br/veiculos-categoria/monovolume/?tipo-categoria=Monovolume"> 
+  <meta property="og:site_name" content="LitoralCar"> 
+  <meta property="og:image" content="http://www.litoralcar.com.br/imgs/logonova-litoral2.png"> 
+  <meta property="og:image:width" content="800"> 
+  <meta property="og:image:height" content="600"> 
+  <meta property="twitter:site" content="@LitoralCar"> 
+  <meta property="twitter:card" content="summary_large_image"> 
+  <meta property="twitter:description" content="Encontre veículos Monovolume aqui."> 
+  <meta property="twitter:title" content="Veículos Monovolume - LitoralCar"> 
+  <meta property="twitter:image" content="http://www.litoralcar.com.br/imgs/logonova-litoral2.png"> 
+  <meta property="twitter:image:alt" content="Veículos Monovolume - LitoralCar"> 
+  <meta content="#0D47A1" name="theme-color"> 
+  <meta content="#0D47A1" name="msapplication-navbutton-color"> 
+  <meta content="#0D47A1" name="msapplication-TileColor"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"> 
+ </head>
+ <body id="resultado-2">
+  <div id="fb-root"></div> 
+  <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> 
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WNC8D');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- Trovit Pixel Code --> 
+  <script type="text/javascript">(function(i,s,o,g,r,a,m){i['TrovitAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://analytics.trovit.com/trovit-analytics.js','ta');ta('init', 'br', 2, 'f23be91eb1c6c2cab392b3cbfc429f88');</script> 
+  <!-- End Trovit Pixel Code -->   
+  <!-- Google Tag Manager (noscript) --> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WNC8D" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <!-- End Google Tag Manager (noscript) --> 
+  <nav class="navbar navbar-default navbar-static-top navbar-fixed-top"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
+      <a href="http://www.litoralcar.com.br/home"> <img src="http://www.litoralcar.com.br/imgs/logo-litoralcar-min.png" class="img-responsive"> </a> 
+     </div> 
+     <!-- Brand and toggle get grouped for better mobile display --> 
+     <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     </div> 
+     <!-- Collect the nav links, forms, and other content for toggling --> 
+     <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1"> 
+      <ul class="nav navbar-nav"> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu1');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COMPRAR <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu1"> 
+         <li><a href="http://www.litoralcar.com.br/busca-avancada-veiculos/">Busca Avançada</a></li> 
+         <li><a href="http://www.litoralcar.com.br/concessionarias/">Concessionárias</a></li> 
+         <li><a href="http://www.litoralcar.com.br/revendas/">Todas as Revendas</a></li> 
+         <li><a href="http://www.litoralcar.com.br/ultimos-veiculos-cadastrados/">Últimos Cadastrados</a></li> 
+         <li><a href="http://www.litoralcar.com.br/veiculos-oferta/">Veículos em Oferta</a></li> 
+         <li><a href="http://www.litoralcar.com.br/veiculos-particulares/">Veículos Particulares</a></li> 
+         <li class="disabled"><a href="">Veículos Marcados ( 0 )</a></li> 
+        </ul> </li> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu2');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VENDER <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu2"> 
+         <li><a href="http://www.litoralcar.com.br/anuncie/">Anuncie seu Veículo</a></li> 
+         <li><a href="http://www.litoralcar.com.br/acessar-meus-anuncios/">Acessar meu Anúncio</a></li> 
+         <li><a href="http://www.litoralcar.com.br/tabela-fipe/vender/">Avalie seu Veículo</a></li> 
+        </ul> </li> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu3');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UTILIDADES <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu3"> 
+         <li><a href="http://www.litoralcar.com.br/multas-ipva/">Multas e IPVA</a></li> 
+         <li><a href="http://www.litoralcar.com.br/tabela-fipe/comprar/">Tabela FIPE</a></li> 
+         <li><a href="http://www.litoralcar.com.br/preco-combustivel/">Preço Combustível</a></li> 
+        </ul> </li> 
+       <li><a href="http://www.litoralcar.com.br/servicos/">SERVIÇOS</a></li> 
+       <li><a href="http://www.litoralcar.com.br/blog/" target="_blank" id="linkBlog">BLOG</a></li> 
+       <li><a href="http://www.litoralcar.com.br/restrito/login.php"> ÁREA DO LOJISTA</a></li> 
+       <li><a href="http://www.litoralcar.com.br/anuncie/"><i class="fa fa-bullhorn"></i> ANUNCIE</a></li> 
+      </ul> 
+     </div>
+     <!-- /.navbar-collapse --> 
+    </div> 
+   </div>
+   <!-- /.container-fluid --> 
+  </nav> 
+  <script>
+function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    var visivel = e.style.display == 'block';
+    var menus = document.querySelectorAll('[id^=menu]');
+    for (var i = 0; i < menus.length; i++) {
+        menus[i].style.display = 'none';
+    };
+    if (visivel) e.style.display = 'none';
+    else e.style.display = 'block';
+}
+</script> 
+  <section id="breads"> 
+   <div class="container"> 
+    <ol class="breadcrumb"> 
+     <li><a href="http://www.litoralcar.com.br/home">Home</a></li> 
+     <li class="active"> Monovolume </li> 
+    </ol> 
+   </div> 
+  </section> 
+  <section id="anuncios"> 
+   <!-- BANNER POSICAO 01 --> 
+   <div class="container anuncio1" id="anuncio1"> 
+   </div> 
+  </section> 
+  <section id="busca-minificada"> 
+   <div class="container"> 
+    <div class="row" id="caixa-busca-min"> 
+     <form id="form-busca-min" method="get"> 
+      <input type="hidden" id="urlCarro-Camionetas" value="comprar/carros"> 
+      <input type="hidden" id="urlMoto" value="comprar/motos"> 
+      <input type="hidden" id="urlCaminhao" value="comprar/caminhoes"> 
+      <input type="hidden" id="urlOutros" value="comprar"> 
+      <input type="hidden" name="categoria" id="categoria" value="comprar/carros"> 
+      <input type="hidden" name="marca" id="marca" value=""> 
+      <div class="row"> 
+       <div class=" form-group col-lg-2 col-md-2 col-sm-2"> 
+        <select id="categoriaSel" class="form-control busca-categoria-outros busca-marca botao-select"> <option value="0">Categoria</option> <option value="Caminhão">Caminhão</option> <option value="Carreta">Carreta</option> <option value="Carro/Camionetas" selected>Carro/Camionetas</option> <option value="Implemento Rod.">Implemento Rod.</option> <option value="Moto">Moto</option> <option value="Motor Home">Motor Home</option> <option value="Náutica">Náutica</option> <option value="Ônibus">Ônibus</option> <option value="Quadriciclo/Triciclo">Quadriciclo/Triciclo</option> <option value="Trator/Maquinas">Trator/Maquinas</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-12"> 
+        <select name="tipoMarca" id="marcaSel" class="form-control busca-marca botao-select busca-categoria-outros"> <option value="0">Marca</option> <option value="Aero Willys">Aero Willys (2)</option> <option value="Alfa Romeo">Alfa Romeo (1)</option> <option value="Audi">Audi (114)</option> <option value="BMW">BMW (138)</option> <option value="BRM">BRM (1)</option> <option value="Buggy">Buggy (5)</option> <option value="Cadillac">Cadillac (1)</option> <option value="Chery">Chery (32)</option> <option value="Chevrolet">Chevrolet (1284)</option> <option value="Chrysler">Chrysler (16)</option> <option value="Citroën">Citroën (2)</option> <option value="Citroën">Citroën (389)</option> <option value="Dodge">Dodge (20)</option> <option value="Effa">Effa (4)</option> <option value="Engesa">Engesa (1)</option> <option value="Ferrari">Ferrari (2)</option> <option value="Fiat">Fiat (1292)</option> <option value="Ford">Ford (973)</option> <option value="Geely">Geely (2)</option> <option value="Gurgel">Gurgel (2)</option> <option value="Hafei">Hafei (4)</option> <option value="Honda">Honda (329)</option> <option value="Hummer">Hummer (1)</option> <option value="Hyundai">Hyundai (419)</option> <option value="INFINITI">INFINITI (5)</option> <option value="Iveco">Iveco (5)</option> <option value="Jac Motors">Jac Motors (22)</option> <option value="Jaguar">Jaguar (4)</option> <option value="Jeep">Jeep (94)</option> <option value="Kia">Kia (175)</option> <option value="Kia Motors">Kia Motors (1)</option> <option value="Land Rover">Land Rover (107)</option> <option value="Lifan">Lifan (31)</option> <option value="Mercedes Benz">Mercedes Benz (85)</option> <option value="Mini">Mini (17)</option> <option value="Mitsubishi">Mitsubishi (228)</option> <option value="Nissan">Nissan (147)</option> <option value="Peugeot">Peugeot (414)</option> <option value="Porsche">Porsche (19)</option> <option value="Rely">Rely (2)</option> <option value="Renault">Renault (791)</option> <option value="Shineray">Shineray (1)</option> <option value="Smart">Smart (3)</option> <option value="Ssangyong">Ssangyong (9)</option> <option value="Subaru">Subaru (6)</option> <option value="Suzuki">Suzuki (18)</option> <option value="Tesla">Tesla (1)</option> <option value="Toyota">Toyota (293)</option> <option value="Troller">Troller (21)</option> <option value="Volkswagen">Volkswagen (1512)</option> <option value="Volvo">Volvo (25)</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-12"> 
+        <select name="tipoModelo" id="modeloSel" class="form-control busca-modelo botao-select busca-categoria-outros"> <option value="0">Modelo</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-6"> 
+        <select name="anoDe" id="anoDe" class="form-control busca-anoDe botao-select busca-categoria-outros"> <option value="0">Ano De</option> <option value="1960">1960</option> <option value="1961">1961</option> <option value="1965">1965</option> <option value="1966">1966</option> <option value="1967">1967</option> <option value="1968">1968</option> <option value="1969">1969</option> <option value="1970">1970</option> <option value="1971">1971</option> <option value="1972">1972</option> <option value="1973">1973</option> <option value="1974">1974</option> <option value="1975">1975</option> <option value="1976">1976</option> <option value="1977">1977</option> <option value="1978">1978</option> <option value="1979">1979</option> <option value="1980">1980</option> <option value="1981">1981</option> <option value="1982">1982</option> <option value="1983">1983</option> <option value="1984">1984</option> <option value="1985">1985</option> <option value="1986">1986</option> <option value="1987">1987</option> <option value="1988">1988</option> <option value="1989">1989</option> <option value="1990">1990</option> <option value="1991">1991</option> <option value="1992">1992</option> <option value="1993">1993</option> <option value="1994">1994</option> <option value="1995">1995</option> <option value="1996">1996</option> <option value="1997">1997</option> <option value="1998">1998</option> <option value="1999">1999</option> <option value="2000">2000</option> <option value="2001">2001</option> <option value="2002">2002</option> <option value="2003">2003</option> <option value="2004">2004</option> <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option> <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option> <option value="2011">2011</option> <option value="2012">2012</option> <option value="2013">2013</option> <option value="2014">2014</option> <option value="2015">2015</option> <option value="2016">2016</option> <option value="2017">2017</option> <option value="2018">2018</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2  col-sm-2 col-xs-6"> 
+        <select name="anoAte" id="anoAte" class="form-control busca-anoAte botao-select busca-categoria-outros"> <option value="0">Ano Até</option> <option value="2018">2018</option> <option value="2017">2017</option> <option value="2016">2016</option> <option value="2015">2015</option> <option value="2014">2014</option> <option value="2013">2013</option> <option value="2012">2012</option> <option value="2011">2011</option> <option value="2010">2010</option> <option value="2009">2009</option> <option value="2008">2008</option> <option value="2007">2007</option> <option value="2006">2006</option> <option value="2005">2005</option> <option value="2004">2004</option> <option value="2003">2003</option> <option value="2002">2002</option> <option value="2001">2001</option> <option value="2000">2000</option> <option value="1999">1999</option> <option value="1998">1998</option> <option value="1997">1997</option> <option value="1996">1996</option> <option value="1995">1995</option> <option value="1994">1994</option> <option value="1993">1993</option> <option value="1992">1992</option> <option value="1991">1991</option> <option value="1990">1990</option> <option value="1989">1989</option> <option value="1988">1988</option> <option value="1987">1987</option> <option value="1986">1986</option> <option value="1985">1985</option> <option value="1984">1984</option> <option value="1983">1983</option> <option value="1982">1982</option> <option value="1981">1981</option> <option value="1980">1980</option> <option value="1979">1979</option> <option value="1978">1978</option> <option value="1977">1977</option> <option value="1976">1976</option> <option value="1975">1975</option> <option value="1974">1974</option> <option value="1973">1973</option> <option value="1972">1972</option> <option value="1971">1971</option> <option value="1970">1970</option> <option value="1969">1969</option> <option value="1968">1968</option> <option value="1967">1967</option> <option value="1966">1966</option> <option value="1965">1965</option> <option value="1961">1961</option> <option value="1960">1960</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-6 pull-right"> 
+        <button type="button" class="visible-lg visible-md busca-button btn-block busca-categoria-outros"> <i class="fa fa-search"></i> PESQUISAR </button> 
+        <button type="button" class="visible-sm visible-xs busca-button btn-block busca-categoria-outros"> <i class="fa fa-search"></i> </button> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="landing-page"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-12 padding-0"> 
+      <h1>Comprar veículo Monovolume</h1> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="resultados"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-xs-12" id="text-total"> 
+      <p>Foram encontradas <span>281 ofertas</span>.</p> 
+     </div> 
+     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="form-ordem"> 
+      <form id="form-ordenacao"> 
+       <label class=" col-lg-6 col-md-6 col-sm-6 col-xs-5">Ordenar por: </label> 
+       <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-7"> 
+        <select name="ordenacao" id="ordenacao" class="botao-select form-control"> <option value="menor-preco">Menor preço</option> <option value="maior-preco">Maior preço</option> <option value="menor-ano">Menor ano</option> <option value="maior-ano">Maior ano</option> <option value="nome-veiculo">Nome do veículo</option> <option value="combustivel">Combustível</option> <option value="cor">Cor</option> <option value="mais-recentes">Mais recentes</option> <option value="destaques-primeiro" selected>Relevância</option> </select> 
+       </div> 
+       <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> 
+       <input type="hidden" name="tipo-categoria" id="tipo-categoria" value="monovolume"> 
+       <input type="hidden" name="tipo" id="tipo" value="Monovolume"> 
+      </form> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-lg-3 col-md-3 col-sm-4" id="filtro-busca-sm-xs"> 
+      <i id="fechar-filtro" class="fa fa-close visible-sm visible-xs"></i> 
+      <!-- Nav tabs --> 
+      <ul class="nav nav-tabs" role="tablist"> 
+       <li role="presentation" class="active" id="ul-filtros"><a href="#tab-filtros" aria-controls="tab-filtros" role="tab" data-toggle="tab">FILTROS</a></li> 
+       <li role="presentation" id="ul-busca"><a href="#tab-busca" aria-controls="tab-busca" role="tab" data-toggle="tab"><i class="fa fa-search"></i> BUSCAR</a></li> 
+      </ul> 
+      <!-- Tab panes --> 
+      <div class="tab-content"> 
+       <div role="tabpanel" class="tab-pane active" id="tab-filtros"> 
+        <!-- FILTROS SELECIONADOS--> 
+        <div id="filtro-select"> 
+         <form id="filtro-tipo-categoria-selecionados"> 
+          <p class="p-categoria"> <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> </p> 
+          <p class="p-tipoMarca"> <input type="hidden" id="tipo-categoria" value="monovolume"> <input type="hidden" id="tipo" value="Monovolume"> <span id="p-tipoMarca"><a>X</a></span> Veiculos tipo: <span id="select-cidade">Monovolume</span> </p> 
+         </form> 
+        </div> 
+        <!-- FILTRO MARCAS--> 
+        <div class="clearfix"></div> 
+        <form id="filtro-tipo-categoria"> 
+         <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> 
+         <input type="hidden" id="tipo-categoria" value="monovolume"> 
+         <input type="hidden" id="tipo" value="Monovolume"> 
+         <!-- FILTRO MODELOS--> 
+         <div id="filtro-modelo"> 
+          <p><span>MODELO</span> <span id="mais-modelo">-</span></p> 
+          <input type="text" name="pes-modelo" id="pes-modelo" placeholder="Pesquisar Modelo"> 
+          <div id="inputModelo"> 
+          </div> 
+          <div id="valuesModelo"> 
+           <p id="e-550"> <input type="checkbox" id="checkModelo" value="E 550"> <label> <i class="fa fa-square-o"></i> <span>E 550 (1)</span> </label> </p> 
+           <p id="face"> <input type="checkbox" id="checkModelo" value="Face"> <label> <i class="fa fa-square-o"></i> <span>Face (4)</span> </label> </p> 
+           <p id="fit"> <input type="checkbox" id="checkModelo" value="Fit"> <label> <i class="fa fa-square-o"></i> <span>Fit (71)</span> </label> </p> 
+           <p id="grand-livina"> <input type="checkbox" id="checkModelo" value="Grand Livina"> <label> <i class="fa fa-square-o"></i> <span>Grand Livina (4)</span> </label> </p> 
+           <p id="idea"> <input type="checkbox" id="checkModelo" value="Idea"> <label> <i class="fa fa-square-o"></i> <span>Idea (54)</span> </label> </p> 
+           <p id="j6"> <input type="checkbox" id="checkModelo" value="J6"> <label> <i class="fa fa-square-o"></i> <span>J6 (5)</span> </label> </p> 
+           <p id="livina"> <input type="checkbox" id="checkModelo" value="Livina"> <label> <i class="fa fa-square-o"></i> <span>Livina (10)</span> </label> </p> 
+           <p id="meriva"> <input type="checkbox" id="checkModelo" value="Meriva"> <label> <i class="fa fa-square-o"></i> <span>Meriva (40)</span> </label> </p> 
+           <p id="picasso"> <input type="checkbox" id="checkModelo" value="Picasso"> <label> <i class="fa fa-square-o"></i> <span>Picasso (35)</span> </label> </p> 
+           <p id="scenic"> <input type="checkbox" id="checkModelo" value="Scenic"> <label> <i class="fa fa-square-o"></i> <span>Scenic (25)</span> </label> </p> 
+           <p id="xsara"> <input type="checkbox" id="checkModelo" value="Xsara"> <label> <i class="fa fa-square-o"></i> <span>Xsara (14)</span> </label> </p> 
+           <p id="zafira"> <input type="checkbox" id="checkModelo" value="Zafira"> <label> <i class="fa fa-square-o"></i> <span>Zafira (18)</span> </label> </p> 
+           <label id="textNaoMd"></label> 
+          </div> 
+          <p id="link-mais-modelos"><a>mais modelos</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO ANOS--> 
+         <div id="filtro-ano"> 
+          <p><span>ANO</span> <span id="mais-ano"> +</span></p> 
+          <select name="anoDe" id="Anomin" class="botao-select display-none"> <option value="0"> de</option> <option value="1999">1999</option> <option value="2000">2000</option> <option value="2001">2001</option> <option value="2002">2002</option> <option value="2003">2003</option> <option value="2004">2004</option> <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option> <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option> <option value="2011">2011</option> <option value="2012">2012</option> <option value="2013">2013</option> <option value="2014">2014</option> <option value="2015">2015</option> <option value="2016">2016</option> <option value="2017">2017</option> </select> 
+          <select name="anoAte" id="Anomax" class="botao-select display-none"> <option value="0">até</option> <option value="2017">2017</option> <option value="2016">2016</option> <option value="2015">2015</option> <option value="2014">2014</option> <option value="2013">2013</option> <option value="2012">2012</option> <option value="2011">2011</option> <option value="2010">2010</option> <option value="2009">2009</option> <option value="2008">2008</option> <option value="2007">2007</option> <option value="2006">2006</option> <option value="2005">2005</option> <option value="2004">2004</option> <option value="2003">2003</option> <option value="2002">2002</option> <option value="2001">2001</option> <option value="2000">2000</option> <option value="1999">1999</option> </select> 
+          <button type="button" class="btn btn-success  display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO CIDADE--> 
+         <div id="filtro-cidade"> 
+          <p><span>CIDADE</span> <span id="mais-cidade">-</span></p> 
+          <input type="text" name="pes-cidade" id="pes-cidade" placeholder="Pesquisar Cidade"> 
+          <div id="inputCidade"> 
+          </div> 
+          <div id="valuesCidade"> 
+           <p id="balneário-camboriú"> <input type="checkbox" id="checkCidade" value="Balneário camboriú"> <label> <i class="fa fa-square-o"></i> <span>Balneário camboriú (8)</span> </label> </p> 
+           <p id="blumenau"> <input type="checkbox" id="checkCidade" value="Blumenau"> <label> <i class="fa fa-square-o"></i> <span>Blumenau (23)</span> </label> </p> 
+           <p id="brusque"> <input type="checkbox" id="checkCidade" value="Brusque"> <label> <i class="fa fa-square-o"></i> <span>Brusque (19)</span> </label> </p> 
+           <p id="camboriú"> <input type="checkbox" id="checkCidade" value="Camboriú"> <label> <i class="fa fa-square-o"></i> <span>Camboriú (4)</span> </label> </p> 
+           <p id="caxias-do-sul"> <input type="checkbox" id="checkCidade" value="Caxias do sul"> <label> <i class="fa fa-square-o"></i> <span>Caxias do sul (13)</span> </label> </p> 
+           <p id="criciuma"> <input type="checkbox" id="checkCidade" value="Criciuma"> <label> <i class="fa fa-square-o"></i> <span>Criciuma (1)</span> </label> </p> 
+           <p id="criciúma"> <input type="checkbox" id="checkCidade" value="Criciúma"> <label> <i class="fa fa-square-o"></i> <span>Criciúma (5)</span> </label> </p> 
+           <p id="florianopolis"> <input type="checkbox" id="checkCidade" value="Florianopolis"> <label> <i class="fa fa-square-o"></i> <span>Florianopolis (5)</span> </label> </p> 
+           <p id="florianópolis"> <input type="checkbox" id="checkCidade" value="Florianópolis"> <label> <i class="fa fa-square-o"></i> <span>Florianópolis (14)</span> </label> </p> 
+           <p id="garopaba"> <input type="checkbox" id="checkCidade" value="Garopaba"> <label> <i class="fa fa-square-o"></i> <span>Garopaba (2)</span> </label> </p> 
+           <p id="gaspar"> <input type="checkbox" id="checkCidade" value="Gaspar"> <label> <i class="fa fa-square-o"></i> <span>Gaspar (8)</span> </label> </p> 
+           <p id="ilhota"> <input type="checkbox" id="checkCidade" value="Ilhota"> <label> <i class="fa fa-square-o"></i> <span>Ilhota (1)</span> </label> </p> 
+           <p id="indaial"> <input type="checkbox" id="checkCidade" value="Indaial"> <label> <i class="fa fa-square-o"></i> <span>Indaial (2)</span> </label> </p> 
+           <p id="itajaí"> <input type="checkbox" id="checkCidade" value="Itajaí"> <label> <i class="fa fa-square-o"></i> <span>Itajaí (27)</span> </label> </p> 
+           <p id="itapema"> <input type="checkbox" id="checkCidade" value="Itapema"> <label> <i class="fa fa-square-o"></i> <span>Itapema (2)</span> </label> </p> 
+           <p id="içara"> <input type="checkbox" id="checkCidade" value="Içara"> <label> <i class="fa fa-square-o"></i> <span>Içara (7)</span> </label> </p> 
+           <p id="joinville"> <input type="checkbox" id="checkCidade" value="Joinville"> <label> <i class="fa fa-square-o"></i> <span>Joinville (83)</span> </label> </p> 
+           <p id="meleiro"> <input type="checkbox" id="checkCidade" value="Meleiro"> <label> <i class="fa fa-square-o"></i> <span>Meleiro (1)</span> </label> </p> 
+           <p id="palhoça"> <input type="checkbox" id="checkCidade" value="Palhoça"> <label> <i class="fa fa-square-o"></i> <span>Palhoça (8)</span> </label> </p> 
+           <p id="paranapuã"> <input type="checkbox" id="checkCidade" value="Paranapuã"> <label> <i class="fa fa-square-o"></i> <span>Paranapuã (1)</span> </label> </p> 
+           <p id="paulo-lopes"> <input type="checkbox" id="checkCidade" value="Paulo lopes"> <label> <i class="fa fa-square-o"></i> <span>Paulo lopes (2)</span> </label> </p> 
+           <p id="porto-belo"> <input type="checkbox" id="checkCidade" value="Porto belo"> <label> <i class="fa fa-square-o"></i> <span>Porto belo (1)</span> </label> </p> 
+           <p id="presidente-getúlio"> <input type="checkbox" id="checkCidade" value="Presidente getúlio"> <label> <i class="fa fa-square-o"></i> <span>Presidente getúlio (3)</span> </label> </p> 
+           <p id="rio-negrinho"> <input type="checkbox" id="checkCidade" value="Rio negrinho"> <label> <i class="fa fa-square-o"></i> <span>Rio negrinho (1)</span> </label> </p> 
+           <p id="sao-jose"> <input type="checkbox" id="checkCidade" value="Sao jose"> <label> <i class="fa fa-square-o"></i> <span>Sao jose (1)</span> </label> </p> 
+           <p id="são-bento-do-sul"> <input type="checkbox" id="checkCidade" value="São bento do sul"> <label> <i class="fa fa-square-o"></i> <span>São bento do sul (3)</span> </label> </p> 
+           <p id="são-jose"> <input type="checkbox" id="checkCidade" value="São jose"> <label> <i class="fa fa-square-o"></i> <span>São jose (1)</span> </label> </p> 
+           <p id="são-josé"> <input type="checkbox" id="checkCidade" value="São josé"> <label> <i class="fa fa-square-o"></i> <span>São josé (28)</span> </label> </p> 
+           <p id="são-joão-batista"> <input type="checkbox" id="checkCidade" value="São joão batista"> <label> <i class="fa fa-square-o"></i> <span>São joão batista (3)</span> </label> </p> 
+           <p id="tijucas"> <input type="checkbox" id="checkCidade" value="Tijucas"> <label> <i class="fa fa-square-o"></i> <span>Tijucas (4)</span> </label> </p> 
+           <label id="textNaoCi"></label> 
+          </div> 
+          <p id="link-mais-cidades"><a>mais cidades</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO VALOR--> 
+         <div id="filtro-valor"> 
+          <p><span>VALOR</span> <span id="mais-valor">+</span></p> 
+          <select name="valorDe" id="Valormin" class="botao-select display-none"> <option value="0">de</option> <option value="7800.00">R$ 7.800</option> <option value="7900.00">R$ 7.900</option> <option value="9900.00">R$ 9.900</option> <option value="10900.00">R$ 10.900</option> <option value="11500.00">R$ 11.500</option> <option value="11900.00">R$ 11.900</option> <option value="12900.00">R$ 12.900</option> <option value="13900.00">R$ 13.900</option> <option value="14800.00">R$ 14.800</option> <option value="14900.00">R$ 14.900</option> <option value="15500.00">R$ 15.500</option> <option value="15900.00">R$ 15.900</option> <option value="16000.00">R$ 16.000</option> <option value="16500.00">R$ 16.500</option> <option value="16800.00">R$ 16.800</option> <option value="16900.00">R$ 16.900</option> <option value="16999.00">R$ 16.999</option> <option value="17500.00">R$ 17.500</option> <option value="17800.00">R$ 17.800</option> <option value="17900.00">R$ 17.900</option> <option value="17990.00">R$ 17.990</option> <option value="18500.00">R$ 18.500</option> <option value="18800.00">R$ 18.800</option> <option value="18900.00">R$ 18.900</option> <option value="18990.00">R$ 18.990</option> <option value="19000.00">R$ 19.000</option> <option value="19490.00">R$ 19.490</option> <option value="19500.00">R$ 19.500</option> <option value="19800.00">R$ 19.800</option> <option value="19900.00">R$ 19.900</option> <option value="19990.00">R$ 19.990</option> <option value="20100.00">R$ 20.100</option> <option value="20800.00">R$ 20.800</option> <option value="20900.00">R$ 20.900</option> <option value="21000.00">R$ 21.000</option> <option value="21390.00">R$ 21.390</option> <option value="21500.00">R$ 21.500</option> <option value="21800.00">R$ 21.800</option> <option value="21900.00">R$ 21.900</option> <option value="22000.00">R$ 22.000</option> <option value="22500.00">R$ 22.500</option> <option value="22800.00">R$ 22.800</option> <option value="22834.00">R$ 22.834</option> <option value="22900.00">R$ 22.900</option> <option value="23900.00">R$ 23.900</option> <option value="23990.00">R$ 23.990</option> <option value="23999.00">R$ 23.999</option> <option value="24000.00">R$ 24.000</option> <option value="24500.00">R$ 24.500</option> <option value="24900.00">R$ 24.900</option> <option value="25500.00">R$ 25.500</option> <option value="25800.00">R$ 25.800</option> <option value="25900.00">R$ 25.900</option> <option value="26000.00">R$ 26.000</option> <option value="26500.00">R$ 26.500</option> <option value="26900.00">R$ 26.900</option> <option value="26999.00">R$ 26.999</option> <option value="27500.00">R$ 27.500</option> <option value="27900.00">R$ 27.900</option> <option value="28500.00">R$ 28.500</option> <option value="28900.00">R$ 28.900</option> <option value="28990.00">R$ 28.990</option> <option value="29700.00">R$ 29.700</option> <option value="29800.00">R$ 29.800</option> <option value="29899.00">R$ 29.899</option> <option value="29900.00">R$ 29.900</option> <option value="29990.00">R$ 29.990</option> <option value="30900.00">R$ 30.900</option> <option value="30990.00">R$ 30.990</option> <option value="31500.00">R$ 31.500</option> <option value="31800.00">R$ 31.800</option> <option value="31900.00">R$ 31.900</option> <option value="31990.00">R$ 31.990</option> <option value="32000.00">R$ 32.000</option> <option value="32500.00">R$ 32.500</option> <option value="32900.00">R$ 32.900</option> <option value="33900.00">R$ 33.900</option> <option value="33990.00">R$ 33.990</option> <option value="34500.00">R$ 34.500</option> <option value="34900.00">R$ 34.900</option> <option value="35500.00">R$ 35.500</option> <option value="35900.00">R$ 35.900</option> <option value="35990.00">R$ 35.990</option> <option value="36500.00">R$ 36.500</option> <option value="36900.00">R$ 36.900</option> <option value="37900.00">R$ 37.900</option> <option value="38000.00">R$ 38.000</option> <option value="38300.00">R$ 38.300</option> <option value="38500.00">R$ 38.500</option> <option value="38899.00">R$ 38.899</option> <option value="38900.00">R$ 38.900</option> <option value="39500.00">R$ 39.500</option> <option value="39900.00">R$ 39.900</option> <option value="39990.00">R$ 39.990</option> <option value="40990.00">R$ 40.990</option> <option value="41900.00">R$ 41.900</option> <option value="42000.00">R$ 42.000</option> <option value="42990.00">R$ 42.990</option> <option value="43900.00">R$ 43.900</option> <option value="44500.00">R$ 44.500</option> <option value="44900.00">R$ 44.900</option> <option value="45800.00">R$ 45.800</option> <option value="45900.00">R$ 45.900</option> <option value="46900.00">R$ 46.900</option> <option value="47000.00">R$ 47.000</option> <option value="47900.00">R$ 47.900</option> <option value="48900.00">R$ 48.900</option> <option value="49900.00">R$ 49.900</option> <option value="49990.00">R$ 49.990</option> <option value="52900.00">R$ 52.900</option> <option value="57500.00">R$ 57.500</option> <option value="58000.00">R$ 58.000</option> <option value="58900.00">R$ 58.900</option> <option value="66800.00">R$ 66.800</option> <option value="67000.00">R$ 67.000</option> <option value="68990.00">R$ 68.990</option> <option value="73990.00">R$ 73.990</option> <option value="74800.00">R$ 74.800</option> <option value="300000.00">R$ 300.000</option> </select> 
+          <select name="ValorAte" id="Valormax" class="botao-select display-none"> <option value="0">até</option> <option value="300000.00">R$ 300.000</option> <option value="74800.00">R$ 74.800</option> <option value="73990.00">R$ 73.990</option> <option value="68990.00">R$ 68.990</option> <option value="67000.00">R$ 67.000</option> <option value="66800.00">R$ 66.800</option> <option value="58900.00">R$ 58.900</option> <option value="58000.00">R$ 58.000</option> <option value="57500.00">R$ 57.500</option> <option value="52900.00">R$ 52.900</option> <option value="49990.00">R$ 49.990</option> <option value="49900.00">R$ 49.900</option> <option value="48900.00">R$ 48.900</option> <option value="47900.00">R$ 47.900</option> <option value="47000.00">R$ 47.000</option> <option value="46900.00">R$ 46.900</option> <option value="45900.00">R$ 45.900</option> <option value="45800.00">R$ 45.800</option> <option value="44900.00">R$ 44.900</option> <option value="44500.00">R$ 44.500</option> <option value="43900.00">R$ 43.900</option> <option value="42990.00">R$ 42.990</option> <option value="42000.00">R$ 42.000</option> <option value="41900.00">R$ 41.900</option> <option value="40990.00">R$ 40.990</option> <option value="39990.00">R$ 39.990</option> <option value="39900.00">R$ 39.900</option> <option value="39500.00">R$ 39.500</option> <option value="38900.00">R$ 38.900</option> <option value="38899.00">R$ 38.899</option> <option value="38500.00">R$ 38.500</option> <option value="38300.00">R$ 38.300</option> <option value="38000.00">R$ 38.000</option> <option value="37900.00">R$ 37.900</option> <option value="36900.00">R$ 36.900</option> <option value="36500.00">R$ 36.500</option> <option value="35990.00">R$ 35.990</option> <option value="35900.00">R$ 35.900</option> <option value="35500.00">R$ 35.500</option> <option value="34900.00">R$ 34.900</option> <option value="34500.00">R$ 34.500</option> <option value="33990.00">R$ 33.990</option> <option value="33900.00">R$ 33.900</option> <option value="32900.00">R$ 32.900</option> <option value="32500.00">R$ 32.500</option> <option value="32000.00">R$ 32.000</option> <option value="31990.00">R$ 31.990</option> <option value="31900.00">R$ 31.900</option> <option value="31800.00">R$ 31.800</option> <option value="31500.00">R$ 31.500</option> <option value="30990.00">R$ 30.990</option> <option value="30900.00">R$ 30.900</option> <option value="29990.00">R$ 29.990</option> <option value="29900.00">R$ 29.900</option> <option value="29899.00">R$ 29.899</option> <option value="29800.00">R$ 29.800</option> <option value="29700.00">R$ 29.700</option> <option value="28990.00">R$ 28.990</option> <option value="28900.00">R$ 28.900</option> <option value="28500.00">R$ 28.500</option> <option value="27900.00">R$ 27.900</option> <option value="27500.00">R$ 27.500</option> <option value="26999.00">R$ 26.999</option> <option value="26900.00">R$ 26.900</option> <option value="26500.00">R$ 26.500</option> <option value="26000.00">R$ 26.000</option> <option value="25900.00">R$ 25.900</option> <option value="25800.00">R$ 25.800</option> <option value="25500.00">R$ 25.500</option> <option value="24900.00">R$ 24.900</option> <option value="24500.00">R$ 24.500</option> <option value="24000.00">R$ 24.000</option> <option value="23999.00">R$ 23.999</option> <option value="23990.00">R$ 23.990</option> <option value="23900.00">R$ 23.900</option> <option value="22900.00">R$ 22.900</option> <option value="22834.00">R$ 22.834</option> <option value="22800.00">R$ 22.800</option> <option value="22500.00">R$ 22.500</option> <option value="22000.00">R$ 22.000</option> <option value="21900.00">R$ 21.900</option> <option value="21800.00">R$ 21.800</option> <option value="21500.00">R$ 21.500</option> <option value="21390.00">R$ 21.390</option> <option value="21000.00">R$ 21.000</option> <option value="20900.00">R$ 20.900</option> <option value="20800.00">R$ 20.800</option> <option value="20100.00">R$ 20.100</option> <option value="19990.00">R$ 19.990</option> <option value="19900.00">R$ 19.900</option> <option value="19800.00">R$ 19.800</option> <option value="19500.00">R$ 19.500</option> <option value="19490.00">R$ 19.490</option> <option value="19000.00">R$ 19.000</option> <option value="18990.00">R$ 18.990</option> <option value="18900.00">R$ 18.900</option> <option value="18800.00">R$ 18.800</option> <option value="18500.00">R$ 18.500</option> <option value="17990.00">R$ 17.990</option> <option value="17900.00">R$ 17.900</option> <option value="17800.00">R$ 17.800</option> <option value="17500.00">R$ 17.500</option> <option value="16999.00">R$ 16.999</option> <option value="16900.00">R$ 16.900</option> <option value="16800.00">R$ 16.800</option> <option value="16500.00">R$ 16.500</option> <option value="16000.00">R$ 16.000</option> <option value="15900.00">R$ 15.900</option> <option value="15500.00">R$ 15.500</option> <option value="14900.00">R$ 14.900</option> <option value="14800.00">R$ 14.800</option> <option value="13900.00">R$ 13.900</option> <option value="12900.00">R$ 12.900</option> <option value="11900.00">R$ 11.900</option> <option value="11500.00">R$ 11.500</option> <option value="10900.00">R$ 10.900</option> <option value="9900.00">R$ 9.900</option> <option value="7900.00">R$ 7.900</option> <option value="7800.00">R$ 7.800</option> </select> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO OPCIONAIS--> 
+         <div id="filtro-opcional"> 
+          <p><span>OPCIONAIS</span> <span id="mais-opcional">-</span></p> 
+          <input type="text" name="pes-opcional" id="pes-opcional" placeholder="Pesquisar Opcional"> 
+          <div id="inputOpcional"> 
+          </div> 
+          <div id="valuesOpcional"> 
+           <p id="aerofólio"> <input type="checkbox" id="checkOpcional" value="Aerofólio"> <label> <i class="fa fa-square-o"></i> <span>Aerofólio (3)</span> </label> </p> 
+           <p id="air-bag"> <input type="checkbox" id="checkOpcional" value="Air Bag"> <label> <i class="fa fa-square-o"></i> <span>Air Bag (182)</span> </label> </p> 
+           <p id="air-bag-lateral"> <input type="checkbox" id="checkOpcional" value="Air Bag Lateral"> <label> <i class="fa fa-square-o"></i> <span>Air Bag Lateral (16)</span> </label> </p> 
+           <p id="air-bag-passageiro"> <input type="checkbox" id="checkOpcional" value="Air Bag Passageiro"> <label> <i class="fa fa-square-o"></i> <span>Air Bag Passageiro (76)</span> </label> </p> 
+           <p id="ajuste-elétrico"> <input type="checkbox" id="checkOpcional" value="Ajuste Elétrico"> <label> <i class="fa fa-square-o"></i> <span>Ajuste Elétrico (13)</span> </label> </p> 
+           <p id="alarme"> <input type="checkbox" id="checkOpcional" value="Alarme"> <label> <i class="fa fa-square-o"></i> <span>Alarme (210)</span> </label> </p> 
+           <p id="ar-condicionado"> <input type="checkbox" id="checkOpcional" value="Ar Condicionado"> <label> <i class="fa fa-square-o"></i> <span>Ar Condicionado (261)</span> </label> </p> 
+           <p id="ar-quente"> <input type="checkbox" id="checkOpcional" value="Ar Quente"> <label> <i class="fa fa-square-o"></i> <span>Ar Quente (256)</span> </label> </p> 
+           <p id="ar-cond-digital"> <input type="checkbox" id="checkOpcional" value="Ar. Cond. Digital"> <label> <i class="fa fa-square-o"></i> <span>Ar. Cond. Digital (32)</span> </label> </p> 
+           <p id="banco-de-couro"> <input type="checkbox" id="checkOpcional" value="Banco de Couro"> <label> <i class="fa fa-square-o"></i> <span>Banco de Couro (56)</span> </label> </p> 
+           <p id="calotas"> <input type="checkbox" id="checkOpcional" value="Calotas"> <label> <i class="fa fa-square-o"></i> <span>Calotas (17)</span> </label> </p> 
+           <p id="cambio-auto"> <input type="checkbox" id="checkOpcional" value="Cambio Auto"> <label> <i class="fa fa-square-o"></i> <span>Cambio Auto (80)</span> </label> </p> 
+           <p id="câmera-de-ré"> <input type="checkbox" id="checkOpcional" value="Câmera de Ré"> <label> <i class="fa fa-square-o"></i> <span>Câmera de Ré (5)</span> </label> </p> 
+           <p id="capo-eletrico"> <input type="checkbox" id="checkOpcional" value="Capo Eletrico"> <label> <i class="fa fa-square-o"></i> <span>Capo Eletrico (22)</span> </label> </p> 
+           <p id="cd-player"> <input type="checkbox" id="checkOpcional" value="Cd Player"> <label> <i class="fa fa-square-o"></i> <span>Cd Player (161)</span> </label> </p> 
+           <p id="central-multimídia"> <input type="checkbox" id="checkOpcional" value="Central Multimídia"> <label> <i class="fa fa-square-o"></i> <span>Central Multimídia (6)</span> </label> </p> 
+           <p id="computador-de-bordo"> <input type="checkbox" id="checkOpcional" value="Computador de Bordo"> <label> <i class="fa fa-square-o"></i> <span>Computador de Bordo (142)</span> </label> </p> 
+           <p id="desembaçador-traseiro"> <input type="checkbox" id="checkOpcional" value="Desembaçador Traseiro"> <label> <i class="fa fa-square-o"></i> <span>Desembaçador Traseiro (254)</span> </label> </p> 
+           <p id="direção-elétrica"> <input type="checkbox" id="checkOpcional" value="Direção Elétrica"> <label> <i class="fa fa-square-o"></i> <span>Direção Elétrica (21)</span> </label> </p> 
+           <p id="direção-hidraulica"> <input type="checkbox" id="checkOpcional" value="Direção Hidraulica"> <label> <i class="fa fa-square-o"></i> <span>Direção Hidraulica (260)</span> </label> </p> 
+           <p id="distrib-eletr-de-frenagem"> <input type="checkbox" id="checkOpcional" value="Distrib. Eletr.de Frenagem"> <label> <i class="fa fa-square-o"></i> <span>Distrib. Eletr.de Frenagem (8)</span> </label> </p> 
+           <p id="dvd-player"> <input type="checkbox" id="checkOpcional" value="DVD Player"> <label> <i class="fa fa-square-o"></i> <span>DVD Player (7)</span> </label> </p> 
+           <p id="engate-carretinha"> <input type="checkbox" id="checkOpcional" value="Engate Carretinha"> <label> <i class="fa fa-square-o"></i> <span>Engate Carretinha (8)</span> </label> </p> 
+           <p id="entrada-usb"> <input type="checkbox" id="checkOpcional" value="Entrada USB"> <label> <i class="fa fa-square-o"></i> <span>Entrada USB (43)</span> </label> </p> 
+           <p id="espelhos-eletricos"> <input type="checkbox" id="checkOpcional" value="Espelhos Eletricos"> <label> <i class="fa fa-square-o"></i> <span>Espelhos Eletricos (183)</span> </label> </p> 
+           <p id="farol-de-milha"> <input type="checkbox" id="checkOpcional" value="Farol de Milha"> <label> <i class="fa fa-square-o"></i> <span>Farol de Milha (125)</span> </label> </p> 
+           <p id="freios-abs"> <input type="checkbox" id="checkOpcional" value="Freios ABS"> <label> <i class="fa fa-square-o"></i> <span>Freios ABS (148)</span> </label> </p> 
+           <p id="gps"> <input type="checkbox" id="checkOpcional" value="GPS"> <label> <i class="fa fa-square-o"></i> <span>GPS (2)</span> </label> </p> 
+           <p id="kit-gnv"> <input type="checkbox" id="checkOpcional" value="Kit GNV"> <label> <i class="fa fa-square-o"></i> <span>Kit GNV (3)</span> </label> </p> 
+           <p id="limpador-traseiro"> <input type="checkbox" id="checkOpcional" value="Limpador Traseiro"> <label> <i class="fa fa-square-o"></i> <span>Limpador Traseiro (243)</span> </label> </p> 
+           <p id="película-solar"> <input type="checkbox" id="checkOpcional" value="Película solar"> <label> <i class="fa fa-square-o"></i> <span>Película solar (96)</span> </label> </p> 
+           <p id="piloto-automático"> <input type="checkbox" id="checkOpcional" value="Piloto Automático"> <label> <i class="fa fa-square-o"></i> <span>Piloto Automático (7)</span> </label> </p> 
+           <p id="rodas-de-liga-leve"> <input type="checkbox" id="checkOpcional" value="Rodas de Liga Leve"> <label> <i class="fa fa-square-o"></i> <span>Rodas de Liga Leve (192)</span> </label> </p> 
+           <p id="sensor-estacionamento"> <input type="checkbox" id="checkOpcional" value="Sensor Estacionamento"> <label> <i class="fa fa-square-o"></i> <span>Sensor Estacionamento (37)</span> </label> </p> 
+           <p id="som"> <input type="checkbox" id="checkOpcional" value="Som"> <label> <i class="fa fa-square-o"></i> <span>Som (125)</span> </label> </p> 
+           <p id="teto-solar"> <input type="checkbox" id="checkOpcional" value="Teto Solar"> <label> <i class="fa fa-square-o"></i> <span>Teto Solar (1)</span> </label> </p> 
+           <p id="travas-eletricas"> <input type="checkbox" id="checkOpcional" value="Travas Eletricas"> <label> <i class="fa fa-square-o"></i> <span>Travas Eletricas (261)</span> </label> </p> 
+           <p id="vidros-eletricos"> <input type="checkbox" id="checkOpcional" value="Vidros Eletricos"> <label> <i class="fa fa-square-o"></i> <span>Vidros Eletricos (269)</span> </label> </p> 
+           <p id="vidros-verdes"> <input type="checkbox" id="checkOpcional" value="Vidros Verdes"> <label> <i class="fa fa-square-o"></i> <span>Vidros Verdes (168)</span> </label> </p> 
+           <p id="volante-escamoteavel"> <input type="checkbox" id="checkOpcional" value="Volante Escamoteavel"> <label> <i class="fa fa-square-o"></i> <span>Volante Escamoteavel (167)</span> </label> </p> 
+           <label id="textNaoOp"></label> 
+          </div> 
+          <p id="link-mais-opcionais"><a>mais opcionais</a></p>
+          <p> <button type="button" class="btn btn-success">Filtrar</button> </p>
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO PORTAS--> 
+         <div id="filtro-porta"> 
+          <p><span>PORTAS</span> <span id="mais-porta">-</span></p> 
+          <div id="inputPortas"> 
+          </div> 
+          <div id="valuesPortas"> 
+           <p id="5"> <input type="checkbox" id="checkPortas" value="5"> <label> <i class="fa fa-square-o"></i> <span>5 (14)</span> </label> </p> 
+           <p id="0"> <input type="checkbox" id="checkPortas" value="0"> <label> <i class="fa fa-square-o"></i> <span>0 (18)</span> </label> </p> 
+           <p id="6"> <input type="checkbox" id="checkPortas" value="6"> <label> <i class="fa fa-square-o"></i> <span>6 (1)</span> </label> </p> 
+           <p id="2"> <input type="checkbox" id="checkPortas" value="2"> <label> <i class="fa fa-square-o"></i> <span>2 (1)</span> </label> </p> 
+           <p id="4"> <input type="checkbox" id="checkPortas" value="4"> <label> <i class="fa fa-square-o"></i> <span>4 (247)</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO KM--> 
+         <div id="filtro-km"> 
+          <p><span>VEÍCULOS</span> <span id="mais-km">+</span></p> 
+          <div id="valuesKm" class="display-none"> 
+           <div id="inputVeiculo"> 
+           </div> 
+           <p id="label-novo"> <label> <input type="checkbox" id="checkVeiculo" value="novo"> <i class="fa fa-square-o"></i> Novos </label> </p> 
+           <p id="label-usado"> <label id="label-usado"> <input type="checkbox" id="checkVeiculo" value="usado"> <i class="fa fa-square-o"> </i> Usados </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO COMBUSTIVEL--> 
+         <div id="filtro-combustivel"> 
+          <p><span>COMBUSTÍVEL</span> <span id="mais-combustivel">-</span></p> 
+          <div id="inputCombustivel"> 
+          </div> 
+          <div id="valuesCombustivel"> 
+           <p id="bi-combustível"> <input type="checkbox" id="checkCombustivel" value="Bi-Combustível"> <label> <i class="fa fa-square-o"></i> <span>Bi-Combustível (169)</span> </label> </p> 
+           <p id="gasolina-gnv"> <input type="checkbox" id="checkCombustivel" value="Gasolina/GNV"> <label> <i class="fa fa-square-o"></i> <span>Gasolina/GNV (2)</span> </label> </p> 
+           <p id="Álcool-gasolina-gnv"> <input type="checkbox" id="checkCombustivel" value="Álcool/Gasolina/GNV"> <label> <i class="fa fa-square-o"></i> <span>Álcool/Gasolina/GNV (3)</span> </label> </p> 
+           <p id="gasolina"> <input type="checkbox" id="checkCombustivel" value="Gasolina"> <label> <i class="fa fa-square-o"></i> <span>Gasolina (105)</span> </label> </p> 
+           <p id="flex"> <input type="checkbox" id="checkCombustivel" value="Flex"> <label> <i class="fa fa-square-o"></i> <span>Flex (2)</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO COR--> 
+         <div id="filtro-cor"> 
+          <p><span>COR</span> <span id="mais-cor">-</span></p> 
+          <input type="text" name="pes-cor" id="pes-cor" placeholder="Pesquisar Cor"> 
+          <div id="inputCor"> 
+          </div> 
+          <div id="valuesCor"> 
+           <p id="cinza"> <input type="checkbox" id="checkCor" value="Cinza"> <label> <i class="fa fa-square-o"></i> <span>Cinza (49)</span> </label> </p> 
+           <p id="azul"> <input type="checkbox" id="checkCor" value="Azul"> <label> <i class="fa fa-square-o"></i> <span>Azul (6)</span> </label> </p> 
+           <p id="vermelho"> <input type="checkbox" id="checkCor" value="Vermelho"> <label> <i class="fa fa-square-o"></i> <span>Vermelho (9)</span> </label> </p> 
+           <p id="champagne"> <input type="checkbox" id="checkCor" value="Champagne"> <label> <i class="fa fa-square-o"></i> <span>Champagne (1)</span> </label> </p> 
+           <p id="prata"> <input type="checkbox" id="checkCor" value="Prata"> <label> <i class="fa fa-square-o"></i> <span>Prata (97)</span> </label> </p> 
+           <p id="branco"> <input type="checkbox" id="checkCor" value="Branco"> <label> <i class="fa fa-square-o"></i> <span>Branco (35)</span> </label> </p> 
+           <p id="verde"> <input type="checkbox" id="checkCor" value="Verde"> <label> <i class="fa fa-square-o"></i> <span>Verde (4)</span> </label> </p> 
+           <p id="dourado"> <input type="checkbox" id="checkCor" value="Dourado"> <label> <i class="fa fa-square-o"></i> <span>Dourado (5)</span> </label> </p> 
+           <p id="bege"> <input type="checkbox" id="checkCor" value="Bege"> <label> <i class="fa fa-square-o"></i> <span>Bege (6)</span> </label> </p> 
+           <p id="preto"> <input type="checkbox" id="checkCor" value="Preto"> <label> <i class="fa fa-square-o"></i> <span>Preto (69)</span> </label> </p> 
+           <label id="textNaoCr"></label> 
+          </div> 
+          <p id="link-mais-cr"><a>mais cores</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO FOTO--> 
+         <div id="filtro-foto"> 
+          <p><span>FOTO</span> <span id="mais-foto">+</span></p> 
+          <div id="inputFoto"> 
+          </div> 
+          <div id="valuesFoto" class="display-none"> 
+           <p id="chkfoto"> <input type="checkbox" id="checkFoto" value="com-foto"> <label> <i class="fa fa-square-o"></i> <span>Somente com Foto.</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+        </form> 
+       </div> 
+       <div role="tabpanel" class="tab-pane" id="tab-busca"> 
+        <div class="pesquisa-filtro"> 
+         <form id="form-busca-filtro"> 
+          <input type="hidden" id="urlFiltroCategoriaCarro" value="comprar/carros"> 
+          <input type="hidden" id="urlFiltroCategoriaMoto" value="comprar/motos"> 
+          <input type="hidden" id="urlFiltroCategoriaCaminhao" value="comprar/caminhoes"> 
+          <input type="hidden" id="urlFiltroCategoriaOutros" value="comprar"> 
+          <input type="hidden" id="filtro-categoria"> 
+          <input type="hidden" id="filtro-marca"> 
+          <input type="hidden" id="filtro-modelo"> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="categoriaFiltro"> <option>Categoria</option> <option value="Caminhão">Caminhão</option> <option value="Carreta">Carreta</option> <option value="Carro/Camionetas">Carro/Camionetas</option> <option value="Implemento Rod.">Implemento Rod.</option> <option value="Moto">Moto</option> <option value="Motor Home">Motor Home</option> <option value="Náutica">Náutica</option> <option value="Ônibus">Ônibus</option> <option value="Quadriciclo/Triciclo">Quadriciclo/Triciclo</option> <option value="Trator/Maquinas">Trator/Maquinas</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="marcaFiltro"> <option>Marca</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="modeloFiltro"> <option>Modelo</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="anoDe"> <option>Ano de</option> </select> 
+           <select class="botao-select" id="anoAte"> <option>Ano ate</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="valorDe"> <option>Valor de</option> </select> 
+           <select class="botao-select" id="valorAte"> <option>valor ate</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <button type="button" class="btn btn-success busca-button"><i class="fa fa-search"></i> Pesquisar</button> 
+          </div> 
+         </form> 
+         <div class="clearfix"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clearfix"></div> 
+     </div> 
+     <div class="col-lg-9 col-md-9 col-sm-12"> 
+      <div class="row"> 
+       <a class="hidden-xs" href="http://www.litoralcar.com.br/comparar-veiculos"> <img src="http://www.litoralcar.com.br/imgs/camparar2.png"> </a> 
+       <a class="btn btn-primary visible-sm visible-xs" id="abrir-filtro"><i class="fa fa-filter"></i> Filtrar</a> 
+      </div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-680105"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2016-cinza-bi-combustivel-itajai-sc/680105"> <img src="http://litoralcar.com.br/foto-resize/m/680105/35e51977be0c23f8a0b755f584ab79f8.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-1.5-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2016-cinza-bi-combustivel-itajai-sc/680105"> HONDA FIT 1.5 - 2016 </a> </h2> 
+         <p> 4 portas • Cinza • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Vidros Verdes </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2016-cinza-bi-combustivel-itajai-sc/680105">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="680105">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-680105"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="1475-0-680105"> 
+          <p id="telefone">(47) 3083-...</p> 
+         </div> 
+         <p> R8 Multimarcas </p> 
+         <p> Itajaí/SC </p> 
+         <p> R$ 58.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="680105" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-553575"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-bege-bi-combustivel-blumenau-sc/553575"> <img src="http://litoralcar.com.br/foto-resize/m/553575/7ce62caa6e89a7364c3d93e571ace519.jpg" class="img-carros img-responsive" width="200" height="140" alt="FIAT-IDEA-1.4-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-bege-bi-combustivel-blumenau-sc/553575"> FIAT IDEA 1.4 - 2016 </a> </h2> 
+         <p> Bege • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-bege-bi-combustivel-blumenau-sc/553575">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="553575">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-553575"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-553575"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>0</s><br></small> R$ 40.490</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="553575" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-678483"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2015-branco-bi-combustivel-joinville-sc/678483"> <img src="http://litoralcar.com.br/foto-resize/m/678483/5682101dd9de4bd74a085ce5a1edf40c.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-1.5-2015"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2015-branco-bi-combustivel-joinville-sc/678483"> HONDA FIT 1.5 - 2015 </a> </h2> 
+         <p> 4 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Volante Escamoteavel </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2015-branco-bi-combustivel-joinville-sc/678483">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="678483">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-678483"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="264-14994-678483"> 
+          <p id="telefone">(47) 99984-...</p> 
+         </div> 
+         <p> Gustavo </p> 
+         <p> Joinville/SC </p> 
+         <p> R$ 49.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="678483" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-666219"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2012-branco-bi-combustivel-florianopolis-sc/666219"> <img src="http://litoralcar.com.br/foto-resize/m/666219/bb594692fcc5e5cf25e2c0f19b76f8c1.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-1.4-2012"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2012-branco-bi-combustivel-florianopolis-sc/666219"> HONDA FIT 1.4 - 2012 </a> </h2> 
+         <p> 4 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2012-branco-bi-combustivel-florianopolis-sc/666219">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="666219">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-666219"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="580-0-666219"> 
+          <p id="telefone">(48) 3248-...</p> 
+         </div> 
+         <p> Avenida Automóveis Floripa </p> 
+         <p> Florianópolis/SC </p> 
+         <p> R$ 34.500</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="666219" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-675502"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/nissan/livina/2010-azul-bi-combustivel-balneario-camboriu-sc/675502"> <img src="http://litoralcar.com.br/foto-resize/m/675502/a09c9f329e33671219982c1de59ab8c1.jpg" class="img-carros img-responsive" width="200" height="140" alt="NISSAN-LIVINA-1.6-2010"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/nissan/livina/2010-azul-bi-combustivel-balneario-camboriu-sc/675502"> NISSAN LIVINA 1.6 - 2010 </a> </h2> 
+         <p> 4 portas • Azul • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/nissan/livina/2010-azul-bi-combustivel-balneario-camboriu-sc/675502">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="675502">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-675502"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="264-9191-675502"> 
+          <p id="telefone">(47) 99910-...</p> 
+         </div> 
+         <p> HEITOR </p> 
+         <p> Balneário Camboriú/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>24.500</s><br></small> R$ 23.800</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="675502" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-676950"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2010-cinza-bi-combustivel-sao-jose-sc/676950"> <img src="http://litoralcar.com.br/foto-resize/m/676950/85140144d7a45f9ec25d07fdc5c8996e.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-1.4-2010"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2010-cinza-bi-combustivel-sao-jose-sc/676950"> HONDA FIT 1.4 - 2010 </a> </h2> 
+         <p> 4 portas • Cinza • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2010-cinza-bi-combustivel-sao-jose-sc/676950">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="676950">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-676950"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-676950"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 33.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="676950" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-664693"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2008-prata-bi-combustivel-sao-jose-sc/664693"> <img src="http://litoralcar.com.br/foto-resize/m/664693/55dbb738a80bafdc431cc1242bcfae3a.jpg" class="img-carros img-responsive" width="200" height="140" alt="CHEVROLET-ZAFIRA-2.0-2008"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2008-prata-bi-combustivel-sao-jose-sc/664693"> CHEVROLET ZAFIRA 2.0 - 2008 </a> </h2> 
+         <p> 4 portas • Prata • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2008-prata-bi-combustivel-sao-jose-sc/664693">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="664693">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-664693"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-664693"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 25.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="664693" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <!-- BANNER POSICAO 104 --> 
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 anuncio2" id="anuncio-restultado"> 
+      </div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-675387"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2004-preto-gasolina-sao-jose-sc/675387"> <img src="http://litoralcar.com.br/foto-resize/m/675387/af8ee396ea6e78842dc439362bca0c32.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-1.4-2004"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2004-preto-gasolina-sao-jose-sc/675387"> HONDA FIT 1.4 - 2004 </a> </h2> 
+         <p> 5 portas • Preto • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2004-preto-gasolina-sao-jose-sc/675387">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="675387">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-675387"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-675387"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 18.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="675387" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-678516"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/citroen/picasso/2003-cinza-gasolina-itajai-sc/678516"> <img src="http://litoralcar.com.br/foto-resize/m/678516/79ba5ba7eaadf8485af445213526143f.jpg" class="img-carros img-responsive" width="200" height="140" alt="CITROEN-PICASSO-2.0-2003"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/citroen/picasso/2003-cinza-gasolina-itajai-sc/678516"> CITROëN PICASSO 2.0 - 2003 </a> </h2> 
+         <p> 4 portas • Cinza • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar. Cond. Digital • Ar Quente • Desembaçador Traseiro </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/citroen/picasso/2003-cinza-gasolina-itajai-sc/678516">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="678516">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-678516"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="264-7690-678516"> 
+          <p id="telefone">47 3344-...</p> 
+         </div> 
+         <p> CRISTIANO </p> 
+         <p> Itajaí/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>11.500</s><br></small> R$ 11.000</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="678516" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-662709"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2003-prata-gasolina-sao-jose-sc/662709"> <img src="http://litoralcar.com.br/foto-resize/m/662709/00c0e24bf0463462ac53f7a9f945b447.jpg" class="img-carros img-responsive" width="200" height="140" alt="CHEVROLET-ZAFIRA-2.0-2003"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2003-prata-gasolina-sao-jose-sc/662709"> CHEVROLET ZAFIRA 2.0 - 2003 </a> </h2> 
+         <p> 4 portas • Prata • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/zafira/2003-prata-gasolina-sao-jose-sc/662709">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="662709">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-662709"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-662709"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 19.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="662709" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-659545"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 " id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-branco-bi-combustivel-brusque-sc/659545"> <img src="http://litoralcar.com.br/foto-resize/m/659545/7cab8ccaa61ef23c3811b9e837aec487.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-branco-bi-combustivel-brusque-sc/659545"> HONDA FIT - 2017 </a> </h2> 
+         <p> 4 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-branco-bi-combustivel-brusque-sc/659545">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="659545">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-659545"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="31-0-659545"> 
+          <p id="telefone">(47) 3251-...</p> 
+         </div> 
+         <p> Boca Mafra Automóveis </p> 
+         <p> Brusque/SC </p> 
+         <p> R$ 68.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="659545" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-659547"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 " id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-preto-bi-combustivel-brusque-sc/659547"> <img src="http://litoralcar.com.br/foto-resize/m/659547/1cee2a77591836d0c75fc07729d19d2c.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-preto-bi-combustivel-brusque-sc/659547"> HONDA FIT - 2017 </a> </h2> 
+         <p> 4 portas • Preto • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-preto-bi-combustivel-brusque-sc/659547">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="659547">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-659547"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="31-0-659547"> 
+          <p id="telefone">(47) 3251-...</p> 
+         </div> 
+         <p> Boca Mafra Automóveis </p> 
+         <p> Brusque/SC </p> 
+         <p> R$ 73.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="659547" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-626900"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 " id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-prata-bi-combustivel-joinville-sc/626900"> <img src="http://litoralcar.com.br/foto-resize/m/626900/274c1d07e6dd34eea5556c18e2aba264.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-FIT-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-prata-bi-combustivel-joinville-sc/626900"> HONDA FIT - 2017 </a> </h2> 
+         <p> Prata • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Volante Escamoteavel </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/fit/2017-prata-bi-combustivel-joinville-sc/626900">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="626900">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-626900"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="1079-0-626900"> 
+          <p id="telefone">(47) 3422-...</p> 
+         </div> 
+         <p> Luma Automóveis </p> 
+         <p> Joinville/SC </p> 
+         <p> R$ 74.800</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="626900" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-677256"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 " id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-branco-bi-combustivel-caxias-do-sul-rs/677256"> <img src="http://litoralcar.com.br/foto-resize/m/677256/0d1a2a0cefde43464451d0a87edbd446.jpg" class="img-carros img-responsive" width="200" height="140" alt="FIAT-IDEA-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-branco-bi-combustivel-caxias-do-sul-rs/677256"> FIAT IDEA - 2016 </a> </h2> 
+         <p> 4 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-branco-bi-combustivel-caxias-do-sul-rs/677256">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="677256">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-677256"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="1424-0-677256"> 
+          <p id="telefone">(54) 2992-...</p> 
+         </div> 
+         <p> Betiolo Novos e Seminovos </p> 
+         <p> Caxias do Sul/RS </p> 
+         <p> R$ 39.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="677256" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-679578"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 " id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-prata-bi-combustivel-caxias-do-sul-rs/679578"> <img src="http://litoralcar.com.br/foto-resize/m/679578/b20c71592e8e6535de591209080c45f6.jpg" class="img-carros img-responsive" width="200" height="140" alt="FIAT-IDEA-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-prata-bi-combustivel-caxias-do-sul-rs/679578"> FIAT IDEA - 2016 </a> </h2> 
+         <p> 4 portas • Prata • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/fiat/idea/2016-prata-bi-combustivel-caxias-do-sul-rs/679578">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="679578">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-679578"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="1424-0-679578"> 
+          <p id="telefone">(54) 2992-...</p> 
+         </div> 
+         <p> Betiolo Novos e Seminovos </p> 
+         <p> Caxias do Sul/RS </p> 
+         <p> R$ 43.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="679578" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-11 col-md-11 pull-right col-sm-12 col-xs-12" id="paginations"> 
+       <nav> 
+        <ul class="pagination"> 
+         <li class=""><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=1" aria-label="Anterior"><i class="fa fa-angle-left"></i></a></li> 
+         <li class="active"><a>1</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=2">2</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=3">3</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=4">4</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=5">5</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=6">6</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=7">7</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=8">8</a></li> 
+         <li class=""><a href="http://www.litoralcar.com.br/veiculos-categoria/monovolume?tipo-categoria=Monovolume&amp;ordem=destaques-primeiro&amp;pag=19" aria-label="Próximo"><i class="fa fa-angle-right"></i></a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- MODAL ENVIA PROPOSTA--> 
+   <div class="modal fade" id="envio-proposta" tabindex="-1" role="dialog"> 
+    <div class="modal-dialog modal-lg"> 
+     <div class="modal-content"> 
+      <div class="modal-header"> 
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+      </div> 
+      <div class="modal-body"> 
+       <div class="fetched-data"> 
+        <!-- Vai abrir aqui o conteudo do arquivo anexo --> 
+       </div> 
+      </div> 
+     </div>
+     <!-- /.modal-content --> 
+    </div>
+    <!-- /.modal-dialog --> 
+   </div>
+   <!-- /.modal --> 
+   <!-- MODAL ENVIA PROPOSTA--> 
+  </section> 
+  <div class="modal fade" id="vocesabiaProposta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-body"> 
+      <img src="http://www.litoralcar.com.br/imgs/sabia.png" border="0" class="img-responsive pull-left" width="100"> 
+      <h2 class="text-primary pull-left margin-top40 margin-left35"> Você sabia? </h2> 
+      <div class="clearfix"> 
+      </div> 
+      <p class="margin-top40 color999 text-justify"> Você sabia que o recurso de marcar veículos da LitoralCar permite que você tenha uma lista de vários veículos para para enviar uma mesma proposta para vários veículos ao mesmo tempo? </p> 
+      <p class="text-info"> <i> Marque alguns veículos de seu interesse, acesse os veículos marcados através do menu compra e depois veículos marcados. </i> </p> 
+     </div> 
+     <div class="modal-footer"> 
+      <button type="button" class="btn btn-primary border-form" data-dismiss="modal"> Ok Entendi </button> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  <!--./fim modal--> 
+  <script>
+        $(document).ready(function () {
+            $('#envio-proposta').on('show.bs.modal', function (e) {
+                var dados = 'idveiculo=' + $(e.relatedTarget).data('id') + '&imagem=' + isMobile();
+                var url = '/envio-proposta-modal.php'; //http://www.litoralcar.com.br/hplxbq
+                $.ajax({
+                    type: 'get',
+                    url: url,
+                    data: dados,
+                    success: function (data) {
+                        $('.fetched-data').html(data);
+                    }
+                });
+            });
+        });
+    </script> 
+  <section class="rodape"> 
+   <div class="container"> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Comprar</li> 
+      <li><a href="http://www.litoralcar.com.br/busca-avancada-veiculos/">Busca Avançada</a></li> 
+      <li><a href="http://www.litoralcar.com.br/concessionarias/">Concessionárias</a></li> 
+      <li><a href="http://www.litoralcar.com.br/revendas/">Todas as Revendas</a></li> 
+      <li><a href="http://www.litoralcar.com.br/guia-de-servicos/">Guia de Serviços</a></li> 
+      <li><a href="http://www.litoralcar.com.br/ultimos-veiculos-cadastrados/">Últimos Cadastrados</a></li> 
+      <li><a href="http://www.litoralcar.com.br/veiculos-oferta/">Veículos em Oferta</a></li> 
+      <li><a href="http://www.litoralcar.com.br/veiculos-particulares/">Veículos Particulares</a></li> 
+      <li class="disabled"><a href="#">Veículos Marcados (0)</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Vender</li> 
+      <li><a href="http://www.litoralcar.com.br/anuncie/">Anuncie seu Veículo</a></li> 
+      <li><a href="http://www.litoralcar.com.br/acessar-meus-anuncios/">Acessar meu Anúncio</a></li> 
+      <li><a href="http://www.litoralcar.com.br/tabela-fipe/vender/">Avalie seu Veículo</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Utilidades</li> 
+      <li><a href="http://www.litoralcar.com.br/multas-ipva/">Multas e IPVA</a></li> 
+      <li><a href="http://www.litoralcar.com.br/tabela-fipe/comprar/">Tabela FIPE</a></li> 
+      <li><a href="http://www.litoralcar.com.br/preco-combustivel">Preço Combustível</a></li> 
+      <li><a href="http://www.litoralcar.com.br/mapa-do-site/">Mapa do Site</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Contato LitoralCar</li> 
+      <li><a href="http://www.litoralcar.com.br/servicos/#contato-servico">contato@litoralcar.com.br</a></li> 
+      <li>Atendimento em horário comercial.</li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-2"> 
+     <div class="fb-page" data-href="https://www.facebook.com/LitoralCar/?fref=ts" data-adapt-container-width="true" data-small-header="false" data-hide-cover="false" data-show-facepile="false"> 
+      <div class="fb-xfbml-parse-ignore"> 
+       <blockquote cite="https://www.facebook.com/LitoralCar/?fref=ts"> 
+        <a href="https://www.facebook.com/LitoralCar/?fref=ts">LitoralCar</a> 
+       </blockquote> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <script type="text/javascript"> 
+dataLayer = dataLayer || []; 
+dataLayer.push({ 
+'PageType':'ListingPage', 
+'email': 'contato@litoralcar.com.br', 
+'ProductIDList' : ['680105', '553575', '678483', '666219', '675502', '676950', '664693', '675387', '678516', '662709', '659545', '659547', '626900', '677256', '679578'] 
+}); 
+</script> 
+  <!-- Google ADWords - Agencia - INICIO --> 
+  <!-- Google Code for C&oacute;digo de Convers&atilde;o Conversion Page --> 
+  <script type="text/javascript">
+    /* <![CDATA[ */	
+    var google_conversion_id = 922556119;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "0dy7COG7wXQQ1630twM";
+    var google_remarketing_only = false;
+    /* ]]> */	
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/922556119/?label=0dy7COG7wXQQ1630twM&amp;guid=ON&amp;script=0"> 
+   </div> 
+  </noscript> 
+  <!-- Google ADWords - Agencia - FINAL --> 
+  <footer> 
+   <div class="container"> 
+    <div class="row"> 
+     <a href="javascript:void(0);" id="linkredirect" target="_blank" rel="noreferrer"></a> 
+     <p>©LitoralCar 2017. Todos os direitos reservados. <a href="http://www.litoralcar.com.br/termos-de-uso">Termos de uso</a> e <a href="http://www.litoralcar.com.br/politica-de-privacidade">Política de privacidade</a>.</p> 
+    </div> 
+   </div> 
+  </footer>   
+ </body>
+</html>

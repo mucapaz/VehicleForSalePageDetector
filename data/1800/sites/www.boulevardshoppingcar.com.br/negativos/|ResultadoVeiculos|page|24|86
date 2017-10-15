@@ -1,0 +1,1103 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <title>Boulevard Shopping Car | Venda de Carros</title> 
+  <meta name="description" content=""> 
+  <meta name="keywords" content=""> 
+  <meta name="author" content=""> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta name="MetaDescription" content="Site de venda de veículos nacionais e/ou importados,  multimarcas, 0km ou seminovos."> 
+  <meta name="MetaKeywords" content="vendemos carro agora, compre seu carro, compre seu carro rj, compre seu carro rio, compre seu carro rio de janeiro, venda de veiculos, venda automóveis, vender carro, vendo carro"> 
+  <link href="/Content/css/bootstrap.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/style.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.carousel.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/vendor/owl-carousel/css/owl.theme.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/FileUpload/jquery.fileupload-ui.css" rel="stylesheet" type="text/css"> 
+  <link href="/Content/css/custom.css" rel="stylesheet" type="text/css"> 
+  <link class="alt" href="/Content/css/color.css" rel="stylesheet" type="text/css"> 
+  <script src="/Content/js/modernizr.js"></script> 
+  <link href="/Content/css/toastr.min.css" rel="stylesheet"> 
+  <!-- Google Analytics --> 
+  <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-39963192-1', 'auto');
+        ga('send', 'pageview');
+
+    </script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51805708-1', 'auto');
+  ga('send', 'pageview');
+    </script> 
+  <!-- End Google Analytics --> 
+  <!-- face like box --> 
+ </head>
+ <body class="home">
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script> 
+  <!-- face like box end-->   
+  <div class="body"> 
+   <!-- Start Site Header --> 
+   <div class="site-header-wrapper"> 
+    <div class="navbar"> 
+     <div class="container sp-cont"> 
+      <!-- Main Navigation --> 
+      <nav class="main-navigation dd-menu toggle-menu" role="navigation"> 
+       <ul class="sf-menu"> 
+        <li><a href="/" class="main-navigation-first-child">PÁGINA INICIAL</a></li> 
+        <li><a href="/Veiculos">VEÍCULOS</a></li> 
+        <li style="margin-left:-4px"><a href="/VendaVeiculo">VENDA SEU VEÍCULO</a></li> 
+        <li class="menuEmpresa"><a href="/Lojas">LOJAS</a></li> 
+        <li><a href="/Contato" style="margin-left:0px" class="main-navigation-last-child">LOCALIZAÇÃO</a></li> 
+        <li class="menuEmpresa"><a href="/Empresa">CONHEÇA O SHOPPING</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+    <header class="site-header"> 
+     <div class="container sp-cont"> 
+      <div class="site-logo"> 
+       <h1> <a href="#"><img src="/Content/images/logo.png" alt="Logo"></a> </h1> 
+      </div> 
+      <div class="header-right"> 
+       <a href="#" class="visible-sm visible-xs" id="menu-toggle">MENU</a> 
+       <div class="topnav dd-menu"> 
+        <ul class="utility-icons social-icons social-icons-colored"> 
+         <li class="facebook"><a href="https://www.facebook.com/Boulevardshoppingcar" target="_blank"><i class="fa fa-facebook"></i> Curta nossa Página</a></li> 
+        </ul> 
+        <div class="adress"> 
+         <div class="adressHeader loja2"> 
+          <span> RUA MAXWELL, Nº 300 - VILA ISABEL<br>RIO DE JANEIRO - RJ </span> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+    <!-- End Site Header --> 
+   </div> 
+   <!-- Utiity Bar --> 
+   <div class="utility-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="tituloInterno">
+        Confira nosso estoque
+       <br> 
+       <small>Carros para todos os bolsos e gostos</small> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Actions bar --> 
+   <div class="actions-bar"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-5 col-sm-5 search-actions" style="padding-top: 7px;"> 
+       <h4>Total de 714 veículos.</h4> 
+      </div> 
+      <div class="col-md-7 col-sm-7"> 
+       <div class="btn-group pull-right results-sorter"> 
+        <button type="button" class="btn btn-default listing-sort-btn" style="width: 160px;">Ordenar por</button> 
+        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="height: 37px"> <span class="caret"></span> <span class="sr-only">Toggle Dropdown</span> </button> 
+        <ul class="dropdown-menu ordenarVeiculos"> 
+         <li><a href="/ResultadoVeiculos?sortOrder=1">Marca/Modelo</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=2">Preço (Crescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=3">Preço (Decrescente)</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=4">Ano</a></li> 
+         <li><a href="/ResultadoVeiculos?sortOrder=5">Kilometragem</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start Body Content --> 
+   <div class="main" role="main" style="background-color: #fbfbfb"> 
+    <div id="content" class="content full"> 
+     <div class="container"> 
+      <div class="row"> 
+       <!-- Listing Results --> 
+       <div class="col-md-9 results-container"> 
+        <div style="text-align: right"> 
+         <div class="pagination-container">
+          <ul class="pagination">
+           <li class="PagedList-skipToFirst"><a href="/ResultadoVeiculos?page=1">««</a></li>
+           <li class="PagedList-skipToPrevious"><a href="/ResultadoVeiculos?page=23" rel="prev">«</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li><a href="/ResultadoVeiculos?page=19">19</a></li>
+           <li><a href="/ResultadoVeiculos?page=20">20</a></li>
+           <li><a href="/ResultadoVeiculos?page=21">21</a></li>
+           <li><a href="/ResultadoVeiculos?page=22">22</a></li>
+           <li><a href="/ResultadoVeiculos?page=23">23</a></li>
+           <li class="active"><a>24</a></li>
+           <li><a href="/ResultadoVeiculos?page=25">25</a></li>
+           <li><a href="/ResultadoVeiculos?page=26">26</a></li>
+           <li><a href="/ResultadoVeiculos?page=27">27</a></li>
+           <li><a href="/ResultadoVeiculos?page=28">28</a></li>
+           <li class="disabled PagedList-ellipses"><a>…</a></li>
+           <li class="PagedList-skipToNext"><a href="/ResultadoVeiculos?page=25" rel="next">»</a></li>
+           <li class="PagedList-skipToLast"><a href="/ResultadoVeiculos?page=29">»»</a></li>
+          </ul>
+         </div> 
+        </div> 
+        <div class="results-container-in"> 
+         <div class="waiting" style="display:none;"> 
+          <div class="spinner"> 
+           <div class="rect1"></div> 
+           <div class="rect2"></div> 
+           <div class="rect3"></div> 
+           <div class="rect4"></div> 
+           <div class="rect5"></div> 
+          </div> 
+         </div> 
+         <div id="results-holder" class="results-list-view"> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/102167/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/102167/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>27.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/102167/detalhes">LOGAN 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LOGAN EXPRESSION 1.6, PRATA, COMPLETO DE FÁBRICA, TUDO FUNCIONANDO, CARRO DE PESSOA CUIDADOSA !!!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/102167/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-e-gnv-2012/102168/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/102168/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>25.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-e-gnv-2012/102168/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LOGAN EXPRESSION 1.0 PRATA, COMPLETO DE FÁBRICA, TODO REVISADO, COM KIT GNV HOMOLOGADO, CARRO MUITO NOVO !!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-e-gnv-2012/102168/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.6-expression-8v-flex-4p-automatizado-flex-2017/103950/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/230/103950/2.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>49.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.6-expression-8v-flex-4p-automatizado-flex-2017/103950/detalhes">LOGAN 1.6 EXPRESSION 8V FLEX 4P AUTOMATIZADO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Str Automoveis/230/info" title=""><img src="http://autocerto.com/content/images/clientes/str.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">VEÍCULO EM ESTADO DE O K M, COM APENAS 16.000 KM RODADOS. ÚNICO DONO. VISTORIADO 2017. OPORTUNIDADE DE NEGÓCIO. TROCO/ FINANCIO 60 VEZES FIXAS. ENTRADA PARCELADA NO CARTÃO DE CRÉDITO. S T R AUTOMÓVEIS 30 ANOS DE TRADIÇÃO!!! PARA MAIORES INFORMAÇÕES ZAP (21) 964018173!!!! </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2017/2017</a> 
+              <a><i class="fa fa-road"></i> 16000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.6-expression-8v-flex-4p-automatizado-flex-2017/103950/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/104710/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/226/104710/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>29.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/104710/detalhes">LOGAN 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Stilly Car/226/info" title=""><img src="http://autocerto.com/content/images/clientes/stillycar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 51000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/104710/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2012/106762/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/214/106762/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>23.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2012/106762/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/JF 300 Car/214/info" title=""><img src="http://autocerto.com/content/images/clientes/jf300.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">SUPER NOVO, SEM DETALHES, VISTORIADO 2017</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> 67000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Bege</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2012/106762/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/106995/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/218/106995/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>26.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/106995/detalhes">LOGAN 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Multcar Automoveis/218/info" title=""><img src="http://autocerto.com/content/images/clientes/multcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"></li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2012</a> 
+              <a><i class="fa fa-road"></i> 50000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Vermelho</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.6-expression-8v-flex-4p-manual-flex-2012/106995/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2013/108288/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/108288/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>27.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2013/108288/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LOGAN 1.0 EXPRESSION, COMPLETINHO DE FÁBRICA, SEM DETALHES !!! UMA RARIDADE !!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2013</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2013/108288/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.6-privilege-16v-flex-4p-manual-flex-2008/108909/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/209/108909/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>19.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.6-privilege-16v-flex-4p-manual-flex-2008/108909/detalhes">LOGAN 1.6 PRIVILÈGE 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/739 AUTOMÓVEIS/209/info" title=""><img src="http://autocerto.com/content/images/clientes/739.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"> todos os veículos em estoque com procedência e garantia 739...... atuando no comercio de veículos há 28 anos , com dois endereços na tijuca e barra da tijuca. financeiras no local com aprovação imediata...realize mais um sonho de sua vida aqui na 739 automóveis .veículo do anuncio na loja tijuca.....21 22988034 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2008/2008</a> 
+              <a><i class="fa fa-road"></i> 90000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.6-privilege-16v-flex-4p-manual-flex-2008/108909/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/109452/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/214/109452/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>33.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/109452/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/JF 300 Car/214/info" title=""><img src="http://autocerto.com/content/images/clientes/jf300.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Muito novo. Venha conferir e fazer um test drive sem compromisso. Obrigado. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 55000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/109452/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2010/109574/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/214/109574/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>19.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2010/109574/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/JF 300 Car/214/info" title=""><img src="http://autocerto.com/content/images/clientes/jf300.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Impecável. Pintura, interior e mecânica. Venha conferir. Temos vários planos de financiamento. </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2009/2010</a> 
+              <a><i class="fa fa-road"></i> 81000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2010/109574/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2009/110107/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/110107/1.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>21.800
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2009/110107/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LOGAN EXPRESSION, PRATA, ÚNICO DONO, CARRO MUITO NOVO, SEM DETALHES !!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2009/2009</a> 
+              <a><i class="fa fa-road"></i> 80000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2009/110107/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/111350/detalhes" class="media-box"><img src="http://www.autocerto.com/images/emBreve.jpg" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>33.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/111350/detalhes">LOGAN 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/JF 300 Car/214/info" title=""><img src="http://autocerto.com/content/images/clientes/jf300.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Excelente veículo para se trabalhar com uber e muito conservado, muito mesmo. Venha conferir e fazer um test drive sem compromisso. Obrigado.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2014</a> 
+              <a><i class="fa fa-road"></i> 51000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-16v-flex-4p-manual-flex-2014/111350/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/logan-1.0-expression-up-16v-flex-4p-manual-flex-2011/111395/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/111395/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>22.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/logan-1.0-expression-up-16v-flex-4p-manual-flex-2011/111395/detalhes">LOGAN 1.0 EXPRESSION UP 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Map Motors/225/info" title=""><img src="http://autocerto.com/content/images/clientes/mapmotors.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">logan expression up 1.0 flex ano 2011 preto completo de fábrica com ar condicionado direção hidráulica vidros elétricos trava elétrica faróis de milha cd mp3 original renault manual chave reserva km 50.000 rodados documentação ok carro todo original de fábrica todo revisado sem detalhes extremamente novo financiamento até 48 meses parcelamos sua entrada em até 12 x nos cartões visa e mastercard consultar condições fale com nossa equipe de vendas temos todas as financeiras no local passamos sua ficha por telefone contato: map car veículos box 16 tel. 3172-6661 // 96476-4970</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2011</a> 
+              <a><i class="fa fa-road"></i> 50000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/logan-1.0-expression-up-16v-flex-4p-manual-flex-2011/111395/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/megane-1.6-dynamique-grand-tour-16v-flex-4p-manual-flex-2012/105151/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/225/105151/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>28.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/megane-1.6-dynamique-grand-tour-16v-flex-4p-manual-flex-2012/105151/detalhes">MEGANE 1.6 DYNAMIQUE GRAND TOUR 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Map Motors/225/info" title=""><img src="http://autocerto.com/content/images/clientes/mapmotors.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">megane grand tour dynamique 1.6 flex manual ano 2011/2012 preto completo de fábrica com ar condicionado digital direção hidráulica vidros elétricos trava elétrica retrovisores elétricos air bag duplo freios abs rodas de liga-leve faróis de milha cd mp3 original renault manual chave reserva documentação ok carro todo original de fábrica todo revisado sem detalhes extremamente novo financiamento até 48 meses parcelamos sua entrada em até 12 x nos cartões visa e mastercard consultar condições fale com nossa equipe de vendas temos todas as financeiras no local passamos sua ficha por telefone contato: map car veículos box 16 tel. 3172-6661 // 96476-4970</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2011/2012</a> 
+              <a><i class="fa fa-road"></i> N/I km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/megane-1.6-dynamique-grand-tour-16v-flex-4p-manual-flex-2012/105151/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-stepway-8v-flex-4p-manual-flex-2015/79949/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/213/79949/6.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>45.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-stepway-8v-flex-4p-manual-flex-2015/79949/detalhes">SANDERO 1.6 STEPWAY 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Fluir Car/213/info" title=""><img src="http://autocerto.com/content/images/clientes/fluircar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Único dono, excelente estado de conservação. Temos as menores taxas para financiamento, melhor avaliação na troca, garantia por escrito, troco na troca (dinheiro de volta na compra de um carro de menor valor). Rua Maxwell 300, box 33, Vila Isabel, Rio de Janeiro - Rj - TEL (21) 2278-6423 Boulevard Shopping Car FLUIR CAR + de 15 anos de tradição.</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2015</a> 
+              <a><i class="fa fa-road"></i> 16000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-stepway-8v-flex-4p-manual-flex-2015/79949/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86585/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/86585/13.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>33.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86585/detalhes">SANDERO 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO SOM ORIGINAL COM CONTROLE NO VOLANTE CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 39600 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86585/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86586/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/86586/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>33.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86586/detalhes">SANDERO 1.0 EXPRESSION 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO GARANTIA DE FÁBRICA SOM ORIGINAL COM COMANDO NO VOLANTE CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 31000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.0-expression-16v-flex-4p-manual-flex-2016/86586/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88643/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/88643/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>36.800
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88643/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO GARANTIA DE FÁBRICA ATÉ 06/2018 AIR BAG DUPLO FREIOS ABS SOM COM COMANDO NO VOLANTE CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 28600 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88643/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88644/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/88644/13.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>36.800
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88644/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO GARANTIA DE FÁBRICA ATÉ 11/2018 AIR BAG DUPLO FREIOS ABS SOM COM COMANDO NO VOLANTE CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 29700 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88644/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88906/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/88906/2.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>36.800
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88906/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA ÚNICO DONO AIR BAG DUPLO FREIOS ABS SOM COM COMANDO NO VOLANTE CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 27000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2016/88906/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2014/95717/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/220/95717/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>30.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2014/95717/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/PlusKar Veículos/220/info" title=""><img src="http://autocerto.com/content/images/clientes/pluskar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">LINDO VEÍCULO COMPLETO DE FÁBRICA, MULTIMIDIA,SEM DETALHES, VENHA CONFERIR ESTA EXCELENTE OPORTUNIDADE. TEL: 964660719////964360003////31746098</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2013/2014</a> 
+              <a><i class="fa fa-road"></i> 43000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Cinza</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2014/95717/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-2.0-rs-16v-flex-4p-manual-flex-2016/96870/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/430/96870/4.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>51.990
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-2.0-rs-16v-flex-4p-manual-flex-2016/96870/detalhes">SANDERO 2.0 RS 16V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Car Premium/430/info" title=""><img src="http://autocerto.com/content/images/clientes/carpremium.png" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">SANDERO 2.0 RS , BRANCO, VERSÃO ESPORTIVA, TOP DE LINHA, ESTADO DE ZERO KM, SEM DETALHES, NA GARANTIA DE FÁBRICA !!! CAR PREMIUM SEMINOVOS RUA MAXWELL 300 BOX 29 Vila Isabel Veículos com garantia de 3 meses !!!! Financiamos com até 20% de entrada em até 60 meses (Santander, BV financeira, ITAU, Bradesco, Banco PAN e Safra) Pegamos seu usado na troca!!! Melhor avaliação do mercado !!! CONTATO: Fixo: 21 3559-2525 WhatsAPP 21 964255078</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2015/2016</a> 
+              <a><i class="fa fa-road"></i> 17000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Branco</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-2.0-rs-16v-flex-4p-manual-flex-2016/96870/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2010/97622/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/224/97622/3.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>22.500
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2010/97622/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Mai Car Veiculos/224/info" title=""><img src="http://autocerto.com/content/images/clientes/maicar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">COMPLETO DE FÁBRICA AR DIREÇÃO VIDROS E TRAVAS CDMP3 CARRO NOVÍSSIMO SEM NENHUM DETALHE ENTRADA FACILITADA NO CARTÃO DE CRÉDITO EM ATÉ 12 VEZES GARANTIA DE CAIXA E MOTOR POR ESCRITO TROCO E FINANCIO EM ATÉ 60 MESES TROCO NA TROCA MELHOR AVALIAÇÃO DO SEU USADO FINANCEIRAS NO LOCAL MENORES TAXAS APROVAÇÃO IMEDIATA CONFIRA 21 2278-5483 / 21 3687-8680 / WhatsApp 21 97039-8398 / 21 96474-0929 / www.maicarveiculos.com.br RUA MAXWELL 300 LOJA 23 VILA ISABEL BOULEVARD SHOPPING CAR </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2009/2010</a> 
+              <a><i class="fa fa-road"></i> 79990 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Vermelho</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2010/97622/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2013/101925/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/209/101925/12.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>28.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2013/101925/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P MANUAL</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/739 AUTOMÓVEIS/209/info" title=""><img src="http://autocerto.com/content/images/clientes/739.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;"> todos os veículos em estoque com procedência e garantia 739...... atuando no comercio de veículos há 28 anos , com dois endereços na tijuca e barra da tijuca. financeiras no local com aprovação imediata...realize mais um sonho de sua vida aqui na 739 automóveis .veículo do anuncio na loja tijuca.....21 22988034 </li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2012/2013</a> 
+              <a><i class="fa fa-road"></i> 49900 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Prata</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-manual-flex-2013/101925/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="result-item format-standard"> 
+           <div class="result-item-image"> 
+            <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-automatizado-flex-2015/102285/detalhes" class="media-box"><img src="http://www.autocerto.com/fotos/216/102285/1.JPG" alt=""></a> 
+            <div class="price" style="color:#FFF !important">
+             <sup>R$ </sup>37.900
+            </div> 
+           </div> 
+           <div class="result-item-in"> 
+            <div> 
+             <h4 class="result-item-detalhes-title "><a href="Veiculo/sandero-1.6-expression-8v-flex-4p-automatizado-flex-2015/102285/detalhes">SANDERO 1.6 EXPRESSION 8V FLEX 4P AUTOMATIZADO</a></h4> 
+             <div class="result-item-logoLoja"> 
+              <a href="/Loja/Staff Car/216/info" title=""><img src="http://autocerto.com/content/images/clientes/staffcar.jpg" style="width: 70px;" alt=""></a> 
+             </div> 
+             <div style="clear:both"></div> 
+            </div> 
+            <div class="result-item-features"> 
+             <ul class="inline"> 
+              <li style="font-size: 13px; line-height: 17px; margin-right: 0;">Sem comparação...vale conferir!!! melhor que OKM!!! Aqui você encontra!!!</li> 
+             </ul> 
+            </div> 
+            <div class="result-item-cont result-button"> 
+             <div class="result-item-view-buttons buttonEstoqueVeiculos"> 
+              <a><i class="fa fa-car"></i> 2014/2015</a> 
+              <a><i class="fa fa-road"></i> 21000 km</a> 
+              <a><i class="fa fa-paint-brush"></i> Preto</a> 
+              <a><i class="fa fa-info-circle"></i> 4 portas</a> 
+              <a href="Veiculo/sandero-1.6-expression-8v-flex-4p-automatizado-flex-2015/102285/detalhes" class="detalhes"><i class="fa fa-plus"></i> DETALHES</a> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <!-- Search Filters --> 
+       <div class="col-md-3 search-filters" id="Search-Filters"> 
+        <div class="filters-sidebar"> 
+         <div class="accordion" id="toggleArea"> 
+          <!-- Filter by Make --> 
+          <div class="accordion-group panel"> 
+           <div class="accordion-heading togglize"> 
+            <a class="accordion-toggle active" data-toggle="collapse" aria-expanded="true" data-parent="#" href="#collapseTwo">Encontre seu Veículo<i class="fa fa-angle-down"></i> </a> 
+           </div> 
+           <div id="collapseTwo" class="accordion-body collapse in"> 
+            <div class="accordion-inner"> 
+             <form action="/BuscarVeiculo" class="form" id="veiculoForm" method="post"> 
+              <div style="padding: 8px;"> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Marca</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Marca must be a number." data-val-required="The Marca field is required." id="Marca" name="Marca" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione o Modelo</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Modelo must be a number." data-val-required="The Modelo field is required." id="Modelo" name="Modelo" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Preço</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoDe must be a number." data-val-required="The PrecoDe field is required." id="precoDe" name="precoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field PrecoAte must be a number." data-val-required="The PrecoAte field is required." id="precoAte" name="precoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left; margin-right: 8px;"> 
+                <label class="labelBuscador">Ano</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoDe must be a number." data-val-required="The AnoDe field is required." id="anoDe" name="anoDe" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group" style="margin-bottom: 0px; width: 48%; float: left;"> 
+                <label class="labelBuscador">&nbsp;</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field AnoAte must be a number." data-val-required="The AnoAte field is required." id="anoAte" name="anoAte" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <div class="form-group"> 
+                <label class="labelBuscador">Selecione a Loja</label> 
+                <select class="bs-select-no-search show-tick input-lg form-control" data-val="true" data-val-number="The field Loja must be a number." data-val-required="The Loja field is required." id="loja" name="loja" style="margin-bottom: 10px" title="SELECIONE"></select> 
+               </div> 
+               <button id="buttonBuscarVeiculoSearch" class="btn btn-danger btn-lg pull-right"><i class="fa fa-car"></i> Localizar</button> 
+              </div> 
+             </form> 
+             <div style="clear:both"></div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <!-- End Toggle --> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- Start site footer --> 
+   <footer class="site-footer"> 
+    <div class="site-footer-top"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_newsletter"> 
+        <h4 class="widgettitle">receba nossas newsletter</h4> 
+        <form> 
+         <input type="text" class="form-control" placeholder="Nome"> 
+         <input type="email" class="form-control" placeholder="Email"> 
+         <input type="submit" class="btn btn-primary btn-lg" value="Cadastrar"> 
+        </form> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget widget_custom_menu widget_links"> 
+        <h4 class="widgettitle">Mapa do Site</h4> 
+        <ul style="width: 44%; float: left; margin-right: 30px;"> 
+         <li><a href="/"><i class="fa fa-angle-right"></i> Home</a></li> 
+         <li><a href="/Empresa"><i class="fa fa-angle-right"></i> Empresa</a></li> 
+         <li><a href="/Veiculos"><i class="fa fa-angle-right"></i> Veículos</a></li> 
+        </ul> 
+        <ul style="width: 46%; float: left;"> 
+         <li><a href="/Financiamento"><i class="fa fa-angle-right"></i> Financiamento</a></li> 
+         <li><a href="/Contato"><i class="fa fa-angle-right"></i> Localização</a></li> 
+         <li><a href="/Lojas"><i class="fa fa-angle-right"></i> Lojas</a></li> 
+        </ul> 
+        <div style="clear: both"></div> 
+       </div> 
+       <div class="col-md-4 col-sm-6 footer_widget widget text_widget"> 
+        <h4 class="widgettitle">Facebook</h4> 
+        <div class="fb-like-box" data-href="https://www.facebook.com/Boulevardshoppingcar?fref=ts" data-width="336" data-height="239" data-show-faces="false" data-header="false" data-stream="true" data-show-border="true"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="site-footer-bottom"> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="col-md-6 col-sm-6 copyrights-left"> 
+        <p>© Boulevard Shopping Car - www.boulevardshoppingcar.com.br</p> 
+       </div> 
+       <div class="col-md-6 col-sm-6 copyrights-right" style="text-align: right"> 
+        <p>Desenvolvido por <a href="http://autocerto.com/" target="_blank"><img src="/Content/images/logo-AutoCerto.png" alt="AutoCerto.com" style="max-height: 20px"></a></p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </footer> 
+   <!-- End site footer --> 
+   <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+  </div> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-1.10.2.min.js"></script> 
+  <script src="http://sistema.autocerto.com/Content/plugins/jquery-ui-1.10.3.custom.min.js"></script> 
+  <script src="/Content/vendor/prettyphoto/js/prettyphoto.js"></script> 
+  <script src="/Content/js/ui-plugins.js"></script> 
+  <script src="/Content/js/helper-plugins.js"></script> 
+  <script src="/Content/vendor/owl-carousel/js/owl.carousel.min.js"></script> 
+  <script src="/Content/js/bootstrap.js"></script> 
+  <script src="/Content/js/waypoints.js"></script> 
+  <script src="/Content/js/init.js"></script> 
+  <script src="/Content/vendor/flexslider/js/jquery.flexslider.js"></script> 
+  <script src="/Content/js/jquery.form.js"></script> 
+  <script src="/Content/js/jquery.blockUI.js"></script> 
+  <script src="/Content/js/jquery.validate.min.js"></script> 
+  <script src="/Content/js/jquery.maskedinput.js"></script> 
+  <script src="/Content/js/jquery.maskMoney.js"></script> 
+  <script src="/Content/FileUpload/jquery.iframe-transport.js" type="text/javascript"></script> 
+  <script src="/Content/FileUpload/jquery.fileupload.js" type="text/javascript"></script> 
+  <script src="/Content/js/jquery.jqia.selects.js"></script> 
+  <script src="/Content/js/bootbox.min.js"></script> 
+  <script src="/Content/js/toastr.min.js"></script> 
+  <script src="/Content/js/functions.js"></script> 
+  <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+  <script type="text/javascript">
+    $(this.document).ready(function () {
+        $(".ordenarVeiculos li a").click(function () {
+            $("#results-holder").load("~/Home/OrdenarVeiculos/" + $(this).data("id"), function () {
+                $.unblockUI();
+            });
+        });
+
+        loadSelect("/Home/ObterPrecosDe/1", null, "#precoDe", (0 == null ? "0" : 0), function () { });
+        loadSelect("/Home/ObterPrecosAte/1", null, "#precoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosDe/1", null, "#anoDe", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterAnosAte/1", null, "#anoAte", (0 == null ? "0" : 0), function () {  });
+        loadSelect("/Home/ObterLojas/1", null, "#loja", (0 == null ? "0" : 0), function () {  });
+
+        loadSelect("/Home/ObterMarcasPorTipo/1", null, "#Marca", (0 == null ? "0" : 0), function () {  });
+
+        $("#Marca").change(function () {
+            loadSelect("/Home/ObterModelosPorMarca/" + $(this).val(), null, "#Modelo", (0 == null ? "0" : 0), function () {  });
+        });
+    });
+</script>  
+ </body>
+</html>

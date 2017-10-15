@@ -1,0 +1,2335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!-- Generated October 15, 2017, 7:56 pm on web33 -->
+  <title>Frete , transportadoras  - Vivalocal</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcCVFBWGwUFVFFVBAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1059.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);</script>
+  <meta name="description" content="Fretes  anunciados com o VIVALOCAL  Brasil: mais de 400,000 CLASSIFICADOS GRÁTIS. Anuncie ou encontre serviços de frete com 2 cliques!">
+  <meta name="keywords" content="mudança , frete , classificados gratis .">
+  <meta name="robots" content="noodp">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <link rel="shortcut icon" href="http://media-sa.viva-images.com/vivastreet_mx/home/favicon.ico">
+  <link rel="canonical" href="http://www.vivalocal.com/transporte-frete/br">
+  <link rel="alternate" href="http://m.vivalocal.com/transporte-frete/br" media="handheld">
+  <link rel="next" href="http://www.vivalocal.com/transporte-frete/br/t+2">
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/prepend_b.js?cache=crMbO"></script>
+  <script src="http://www.vivalocal.com/script/captions.php?cache=crMbO"></script>
+  <link rel="stylesheet" type="text/css" href="http://static.viva-images.com/templates/viwii3/styles/summary_br_latam.css?cache=crMbO">
+ </head>
+ <body id="kiwii" page_mode="t" page_type="summary" class="summary_text ie6" style="background-position: top center;background-repeat:no-repeat;">
+  <a name="top" id="jump_top"></a>
+  <div class="kiwii-span-20 kiwii-center-hor vs-width-1000 kiwii-bg-xxxlighter-blue kiwii-padding-tiny">
+   <div class="kiwii-margin-top-xxsmall">
+    <div class="kiwii-position-relative " id="vs_header">
+     <div class="inner">
+      <a class="kiwii-float-left kiwii-logo" title="Classificados" alt="Classificados" href="http://www.vivalocal.com"></a>
+      <span class="" id="header-tag"><h1 class="kiwii-h1">Fretes e transportadoras </h1></span>
+      <div class="kiwii-font-tiny kiwii-clear-left kiwii-padding-left-xxxsmall" id="vs_static_header">
+       <span style="letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;">Anúncios classificados grátis</span>
+      </div>
+      <div class="kiwii-clear-both"></div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-top">
+       <a href="http://post.vivalocal.com" id="vs_posting_button" class="kiwii-btn kiwii-btn-primary kiwii-btn-large orange gradient-button" onclick="_gaq.push(['_trackEvent', 'Post an Ad', 'summary_text', 'transporte-frete']);">
+        <div>
+         Inserir anúncio»
+        </div></a>
+      </div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-bottom kiwii-layer-top kiwii-margin-bottom-xxxsmall">
+       <div class="vs-user-menu kiwii-no-link-decoration ">
+        <a href="http://www.vivalocal.com/account_classifieds.php" id="vs_account_menu_link" class="kiwii-no-link-decoration kiwii-font-weight-bold" rel="nofollow">Minha Conta</a>
+        <a id="vs_help_link" class="vivasafe kiwii-margin-left-xxsmall kiwii-no-link-decoration kiwii-font-weight-bold" href="http://www.vivalocal.com/s/help" rel="nofollow">Ajuda</a>
+       </div>
+      </div>
+      <div class="kiwii-breadcrumbs mmlightgrey mmchevron" id="vs_breadcrumbs">
+       <ul class="kiwii-h-list mmmenu">
+        <li class="mmfirst" level="0"></li>
+        <li class="hometab tab" level="1" style="cursor: pointer;"><a id="vs_bc_home_link" href="http://www.vivalocal.com" title="every_ads_country"></a><span class="kiwii-icon kiwii-icon-home"></span></li>
+        <li class="tab" level="2" style="cursor: pointer;"><a id="vs_bc_maincat_link" href="http://www.vivalocal.com/procura-servicos/br" title="Serviços">Serviços</a></li>
+        <li class="tab last" level="3"><span id="vs_bc_maincat_link" class="nolink">Mudanças - Frete</span></li>
+       </ul>
+       <div id="" class="kiwii-breadcrumb-menu"></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="vs_content" class="clear kiwii-box-white"> 
+    <!-- rendering summary page --> 
+    <table class="kiwii-searchform searchform"> 
+     <tbody>
+      <tr> 
+       <td class="vs-searchbox-layout-left"> 
+        <form id="vs_searchform" action="http://search.vivalocal.com/transporte-frete/br" method="GET" class="jqtransform" name="vs-searchform"> 
+         <input type="hidden" name="lb" value="new"> 
+         <input type="hidden" name="search" value="1"> 
+         <!-- End Search by posted and order --> 
+         <input type="hidden" name="start_field" value="1"> 
+         <div class="vs-searchbox"> 
+          <table class="vs-searchbox-inputs"> 
+           <tbody>
+            <tr class="vs-search-generic-elements vs-search-specialization-elements"> 
+             <td class="keywords"> 
+              <div style="padding-bottom: 5px;"> 
+               <input type="text" name="keywords" id="vs_search_keywords" title="Palavras-Chave" class="kiwii-input kiwii-input-large vs-search-keywords" value=""> 
+               <span class="kiwii-input-endcap append"> <label class="select-label checkbox-label"> <input type="checkbox" id="search_only_title" name="search_only_title" value="1"> Procurar no título </label> 
+                <div class="search-title clearfix"> 
+                 <div class="search-tooltip-content"> 
+                  <span></span> 
+                 </div> 
+                </div> </span> 
+               <div class="kiwii-float-right"> 
+                <select id="vs-cat-dropdown-1" name="cat_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block" autocomplete="off"><option class="" value="" title=""> Todas categorias </option><option class="kiwii-bg-xxlight-green" value="136" code="vehicules" title="http://search.vivalocal.com/veiculos"> -- Veículos usados -- </option><option class="" value="40" code="cars_trucks" title="http://search.vivalocal.com/auto-veiculo-usado"> Carros usados </option><option class="" value="41" code="bikes_motorcycles" title="http://search.vivalocal.com/motocicletas-usadas"> Motos usadas </option><option class="" value="56" code="trucks" title="http://search.vivalocal.com/vender-caminhao-usado"> Caminhões usados </option><option class="" value="242" code="busses" title="http://search.vivalocal.com/onibus-venda"> Ônibus usados </option><option class="" value="130" code="caravans_rv" title="http://search.vivalocal.com/motor-home-camping"> Motor home - Motor trailer </option><option class="" value="46" code="boats" title="http://search.vivalocal.com/yate-comprar-vender"> Lanchas - Barcos - Veleiros </option><option class="" value="240" code="boats_rental" title="http://search.vivalocal.com/aluguel-carros"> Aluguel carros - Barcos - Motos </option><option class="" value="239" code="vehicle_accessories" title="http://search.vivalocal.com/pecas-veiculos"> Acessórios e serviços </option><option class="kiwii-bg-xxlight-green" value="147" code="agriculture" title="http://search.vivalocal.com/agricultura-pecuaria"> -- Agronegócios -- </option><option class="" value="149" code="farm_animals" title="http://search.vivalocal.com/animais-pecuaria"> Animais do campo </option><option class="" value="148" code="animal_nutrition" title="http://search.vivalocal.com/animal-pecuaria"> Alimentação pecuária - Grãos </option><option class="" value="151" code="agro_supplies" title="http://search.vivalocal.com/insumos"> Produtos rurais </option><option class="" value="150" code="agro_machinery" title="http://search.vivalocal.com/equipamentos-rurais"> Maquinária agrícola </option><option class="" value="152" code="agro_services" title="http://search.vivalocal.com/produtos-agropecuarios"> Serviços agropecuários </option><option class="" value="241" code="agro_land" title="http://search.vivalocal.com/vender-fazendas"> Fazendas - Sitios à venda </option><option class="kiwii-bg-xxlight-green" value="142" code="pets" title="http://search.vivalocal.com/animais-estimacao"> -- Animais e acessórios -- </option><option class="" value="44" code="pet_sale" title="http://search.vivalocal.com/comprar-bichos-filhotes"> Animais estimação à venda </option><option class="" value="55" code="pet_adoption" title="http://search.vivalocal.com/adocao-animais"> Adoção animais de estimação </option><option class="" value="122" code="pet_services" title="http://search.vivalocal.com/oferta-servico-bicho"> Veterinários - Serviços - Acessórios </option><option class="kiwii-bg-xxlight-green" value="7" code="housing" title="http://search.vivalocal.com/compra-venda-aluguel"> -- Imóveis -- </option><option class="" value="93" code="housing_for_sale" title="http://search.vivalocal.com/comprar-imovel"> Apartamentos - Casas venda </option><option class="" value="91" code="housing_for_rent" title="http://search.vivalocal.com/alugar-casa-apartamento"> Alugar casas - Apartamentos </option><option class="" value="33" code="sublets_short_term" title="http://search.vivalocal.com/aluguel-temporada"> Aluguel temporada </option><option class="" value="249" code="new_developments" title="http://search.vivalocal.com/empreendimentos"> Empreendimentos imóveis </option><option class="" value="92" code="rooms_roommates" title="http://search.vivalocal.com/alugar-quarto-vaga"> Dividir apartamento - Quartos </option><option class="" value="118" code="land_for_sale" title="http://search.vivalocal.com/terrenos-venda"> Terrenos - Lotes </option><option class="" value="13" code="housing_exchange" title="http://search.vivalocal.com/trocar-imovel"> Troca de casas - Apartamentos </option><option class="" value="22" code="parking" title="http://search.vivalocal.com/alugar-vaga-garagem"> Estacionamentos - Garagens </option><option class="" value="155" foreign="yes" code="overseas_realestate" title="http://search.vivalocal.com/imoveis-exterior"> Imóveis exterior </option><option class="" value="15" code="real_estate" title="http://search.vivalocal.com/pontos-comerciais"> Imóveis comerciais </option><option class="kiwii-bg-xxlight-green" value="3" code="personals" title="http://search.vivalocal.com/namoro-amizade"> -- Relacionamento -- </option><option class="" value="39" code="missed-connections" title="http://search.vivalocal.com/fazer-amigo-encontrar"> Procurar Amigos </option><option class="" value="140" code="serious_relationships" title="http://search.vivalocal.com/relacoes-adultas"> Procurar Amor </option><option class="" value="153" code="gay_relationships" title="http://search.vivalocal.com/relacionamento"> Relações Gays - Lésbicas </option><option class="" value="132" code="open_minds" title="http://search.vivalocal.com/encontro-casual"> Encontros Casuais </option><option class="" value="133" code="adult_services" title="http://search.vivalocal.com/acompanhante-erotico"> Acompanhantes &amp; Massagem </option><option class="" value="248" code="gay_adult_services" title="http://search.vivalocal.com/acompanhantes-gays"> Acompanhantes Masculinos </option><option class="kiwii-bg-xxlight-green" value="6" code="services" selected title="http://search.vivalocal.com/procura-servicos"> -- Serviços -- </option><option class="" value="109" code="tickets_travel" title="http://search.vivalocal.com/viagem-turismo"> Serviços turismo - Agência turismo </option><option class="" value="107" code="translation" title="http://search.vivalocal.com/tradutores"> Traduções - Serviços de traduções </option><option class="" value="128" code="computer_services" title="http://search.vivalocal.com/computador"> Serviços de informática </option><option class="" value="89" code="computer" selected title="http://search.vivalocal.com/transporte-frete"> Mudanças - Frete </option><option class="" value="29" code="small_businesses" title="http://search.vivalocal.com/consultoria-assistencia"> Profissionais liberais </option><option class="" value="11" code="labor_moving" title="http://search.vivalocal.com/conserto-reforma"> Reparo - Conserto - Reforma </option><option class="" value="12" code="health_and_well_being" title="http://search.vivalocal.com/boa-forma"> Bem-Estar - Saúde - Beleza </option><option class="" value="134" code="classes_learning" title="http://search.vivalocal.com/astrologia-previsao"> Astrologia - Serv. espirituais </option><option class="" value="90" code="other_services" title="http://search.vivalocal.com/oferta-servicos"> Outros serviços </option><option class="kiwii-bg-xxlight-green" value="1" code="jobs" title="http://search.vivalocal.com/anuncios-vagas"> -- Empregos -- </option><option class="" value="137" code="job_offers" title="http://search.vivalocal.com/anuncios-empregos"> Ofertas de emprego </option><option class="" value="77" code="internships" title="http://search.vivalocal.com/estagios-trainee"> Estágios - Trainee </option><option class="" value="138" code="job_seekers" title="http://search.vivalocal.com/cadastre-cv"> Anunciar currículo - Procurar emprego </option><option class="" value="9" code="small_jobs" title="http://search.vivalocal.com/trabalho-temporario"> Trabalhos domésticos </option><option class="kiwii-bg-xxlight-green" value="4" code="community" title="http://search.vivalocal.com/anuncios-locais"> -- Comunidade -- </option><option class="" value="135" code="artists_musicians" title="http://search.vivalocal.com/cantores-ator-atriz"> Artistas - Músicos </option><option class="" value="26" code="restaurants_bars" title="http://search.vivalocal.com/casas-noturnas"> Guia restaurantes - Bares </option><option class="" value="145" code="recipes" title="http://search.vivalocal.com/receitas-cozinha"> Receitas culinárias </option><option class="" value="117" code="missing" title="http://search.vivalocal.com/contatos-perdidos"> Contatos perdidos </option><option class="" value="82" code="other_activities" title="http://search.vivalocal.com/atividades-livres-comunidade"> Atividades locais </option><option class="" value="5" code="events" title="http://search.vivalocal.com/noite-entretenimento"> Eventos </option><option class="kiwii-bg-xxlight-green" value="2" code="for_sale" title="http://search.vivalocal.com/compra-venda-usada"> -- Compra venda -- </option><option class="" value="244" code="for_sale_home" title="http://search.vivalocal.com/casa"> Artigos para casa </option><option class="" value="245" code="for_sale_leisure" title="http://search.vivalocal.com/lazer"> Lazer e entretenimento </option><option class="" value="246" code="for_sale_media" title="http://search.vivalocal.com/eletronicos"> Artigos eletrônicos </option><option class="" value="247" code="for_sale_fashion" title="http://search.vivalocal.com/moda"> Moda e acessórios </option><option class="" value="95" code="general" title="http://search.vivalocal.com/anuncios-compra-comprar"> Diversos </option><option class="kiwii-bg-xxlight-green" value="8" code="classes" title="http://search.vivalocal.com/treinamento"> -- Cursos -- </option><option class="" value="111" code="classes_language" title="http://search.vivalocal.com/cursos-lingua-estrangeira"> Cursos de idiomas </option><option class="" value="114" code="classes_computers" title="http://search.vivalocal.com/curso-informatica"> Cursos de informática </option><option class="" value="113" code="classes_professional_training" title="http://search.vivalocal.com/formacao-profissional"> Capacitação profissional </option><option class="" value="115" code="classes_private" title="http://search.vivalocal.com/professores-particulares"> Professores particulares </option><option class="" value="146" code="aerobics" title="http://search.vivalocal.com/lutas-esportes"> Aulas de ginástica </option><option class="" value="112" code="classes_music_theater" title="http://search.vivalocal.com/curso-teatro"> Aulas música - Teatro - Dança </option><option class="" value="37" code="classes_other" title="http://search.vivalocal.com/outros-aulas-cursos"> Outros cursos </option></select>
+                <select id="vs-cat-dropdown-2" name="cat_2" class="kiwii-dropdown-large kiwii-display-block" style="display:none;" autocomplete="off"><option class="" code="vehicle_accessories" value="" title="http://search.vivalocal.com/pecas-veiculos"> Todos os Tipos de Peças </option><option class="" code="vehicle_accessories" value="53" title="http://search.vivalocal.com/acessorios-servicos-carro"> Autopeças - Acessórios - Serviços </option><option class="" code="vehicle_accessories" value="227" title="http://search.vivalocal.com/pecas-motos"> Peças reposição motos </option><option class="" code="vehicle_accessories" value="237" title="http://search.vivalocal.com/acessorios-nauticos"> Peças reposição náuticos </option><option class="" code="vehicle_accessories" value="238" title="http://search.vivalocal.com/acessorios-motorhome"> Acessórios motorhome </option><option class="" code="vehicle_accessories" value="243" title="http://search.vivalocal.com/pecas-caminhoes"> Peças - Acessórios caminhões </option><option class="" code="overseas_realestate" value="" title="http://search.vivalocal.com/imoveis-exterior"> Todos os imóveis no exterior </option><option class="" code="overseas_realestate" value="156" foreign="yes" title="http://search.vivalocal.com/venda-exterior"> Casas venda exterior </option><option class="" code="overseas_realestate" value="157" foreign="yes" title="http://search.vivalocal.com/aluguel-internacionais"> Aluguel temporada exterior </option><option class="" code="overseas_realestate" value="158" foreign="yes" title="http://search.vivalocal.com/terrenos-exterior"> Terrenos venda exterior </option><option class="" code="real_estate" value="" title="http://search.vivalocal.com/pontos-comerciais"> Todos os imóveis </option><option class="" code="real_estate" value="28" title="http://search.vivalocal.com/comercial-sala-loja"> Venda imóveis comerciais </option><option class="" code="real_estate" value="144" title="http://search.vivalocal.com/loja-sala-comercial"> Aluguel imóveis comerciais </option><option class="" code="serious_relationships" value="" title="http://search.vivalocal.com/relacoes-adultas"> Relacionamentos Hétero </option><option class="" code="serious_relationships" value="32" title="http://search.vivalocal.com/procuro-namoro-paquera"> Mulher procura homem </option><option class="" code="serious_relationships" value="131" title="http://search.vivalocal.com/procurar-mulher-parceira"> Homem procura mulher </option><option class="" code="gay_relationships" value="" title="http://search.vivalocal.com/relacionamento"> Tipos de relacionamentos </option><option class="" code="gay_relationships" value="78" title="http://search.vivalocal.com/buscar-procurar-lesbica"> Mullher procura mulher </option><option class="" code="gay_relationships" value="38" title="http://search.vivalocal.com/procurar-gay"> Homem procura homem </option><option class="" code="small_jobs" value="" title="http://search.vivalocal.com/trabalho-temporario"> Todos os trabalhos domésticos </option><option class="" code="small_jobs" value="106" title="http://search.vivalocal.com/emprego-baba"> Babás </option><option class="" code="small_jobs" value="108" title="http://search.vivalocal.com/empregada-domestica"> Empregada doméstica - Diarista </option><option class="" code="small_jobs" value="14" title="http://search.vivalocal.com/enfermeiro-enfermeira"> Acompanhante idosos - Enfermeira </option><option class="" code="small_jobs" value="21" title="http://search.vivalocal.com/marketing-multinivel"> Trabalhar em casa </option><option class="" code="events" value="" title="http://search.vivalocal.com/noite-entretenimento"> Todos os eventos e festas </option><option class="" code="events" value="120" title="http://search.vivalocal.com/servicos-festa"> Serviços para eventos </option><option class="" code="for_sale_home" value="" title="http://search.vivalocal.com/casa"> Todos os itens para casa </option><option class="" code="for_sale_home" value="52" title="http://search.vivalocal.com/decoracao-moveis-usados"> Móveis - Camas - Cadeiras </option><option class="" code="for_sale_home" value="54" title="http://search.vivalocal.com/artigos-decoracao"> Decoração Casa </option><option class="" code="for_sale_home" value="48" title="http://search.vivalocal.com/segunda-mao"> Eletrodomésticos usados </option><option class="" code="for_sale_home" value="94" title="http://search.vivalocal.com/artigos-de-colecionador"> Artigos de coleção </option><option class="" code="for_sale_home" value="57" title="http://search.vivalocal.com/artigo-profissional-usado"> Equipamentos profissionais </option><option class="" code="for_sale_leisure" value="" title="http://search.vivalocal.com/lazer"> Todos os anúncios de lazer </option><option class="" code="for_sale_leisure" value="105" title="http://search.vivalocal.com/material-esporte"> Artigos esportivos - Bicicletas </option><option class="" code="for_sale_leisure" value="154" title="http://search.vivalocal.com/artesanato-manual"> Artesanato - Feito à mão </option><option class="" code="for_sale_leisure" value="124" title="http://search.vivalocal.com/presente"> Idéias para presentes </option><option class="" code="for_sale_leisure" value="104" title="http://search.vivalocal.com/musica-instrumento"> Instrumentos musicais </option><option class="" code="for_sale_leisure" value="121" title="http://search.vivalocal.com/banquete-comida"> Bebidas - Comidas </option><option class="" code="for_sale_media" value="" title="http://search.vivalocal.com/eletronicos"> Todos os eletrônicos </option><option class="" code="for_sale_media" value="43" title="http://search.vivalocal.com/artigos-informatica"> Notebooks - Computadores usados </option><option class="" code="for_sale_media" value="47" title="http://search.vivalocal.com/jogos-livros-usados"> DVD - Video Games - Livros - CD </option><option class="" code="for_sale_media" value="103" title="http://search.vivalocal.com/fotografia-eletronico-usado"> TV - Som - Fotografia </option><option class="" code="for_sale_media" value="51" title="http://search.vivalocal.com/ipod-mp3-acessorios-usados"> MP3 - Ipod - Celulares </option><option class="" code="for_sale_fashion" value="" title="http://search.vivalocal.com/moda"> Todos os anúncios </option><option class="" code="for_sale_fashion" value="42" title="http://search.vivalocal.com/vender-comprar-joias"> Antiguidades - Jóias </option><option class="" code="for_sale_fashion" value="49" title="http://search.vivalocal.com/artigos-para-bebe"> Brinquedos - Artigos infantis </option><option class="" code="for_sale_fashion" value="45" title="http://search.vivalocal.com/acessorios-usados"> Roupas e Acessórios </option><option class="" code="for_sale_fashion" value="129" title="http://search.vivalocal.com/comprar-produtos-beleza-saude"> Produtos Beleza - Saúde </option></select> 
+               </div> 
+              </div> 
+              <table class="elements ">
+               <colgroup>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td align="left" colspan="1">
+                  <div style="padding-bottom: 5px;">
+                   <input class="radio" id="offer" type="radio" name="offer_type" value="offer" checked>
+                   <label class="select-radio vs-offer-seek" for="offer">Oferecer</label>
+                   <input class="radio" id="seek" type="radio" name="offer_type" value="seek">
+                   <label class="select-radio vs-offer-seek" for="seek">Procurar</label>
+                  </div></td>
+                 <td align="left" colspan="1">
+                  <div style="padding: 0px 0px 2px 8px;">
+                   <label class="select-label checkbox-label"><input type="checkbox" name="image_total" value="1"> Com fotos</label>
+                  </div></td>
+                 <td align="left"></td>
+                </tr>
+                <tr>
+                 <td align="left"></td>
+                 <td align="left"></td>
+                 <td align="left"></td>
+                </tr>
+               </tbody>
+               <tbody></tbody>
+              </table> </td> 
+             <td class="geosearch"> <select id="vs_geo_dropdown_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block vs-geo-dropdown"><option value="0">Todo Brasil</option><option value="2">Acre</option><option value="5">Alagoas</option><option value="8">Amapá</option><option value="11">Amazonas</option><option value="17">Bahia</option><option value="34">Ceará</option><option value="22">Distrito Federal</option><option value="28">Espírito Santo</option><option value="35">Goiás</option><option value="38">Maranhão</option><option value="41">Mato Grosso</option><option value="44">Mato Grosso do Sul</option><option value="47">Minas Gerais</option><option value="57">Pará</option><option value="60">Paraíba</option><option value="63">Paraná</option><option value="67">Pernambuco</option><option value="71">Piauí</option><option value="74">Rio de Janeiro - RJ</option><option value="113">Rio Grande do Norte</option><option value="116">Rio Grande do Sul</option><option value="125">Rondônia</option><option value="128">Roraima</option><option value="131">Santa Catarina</option><option value="138">São Paulo - SP</option><option value="192">Sergipe</option><option value="195">Tocantins</option></select><select id="vs_geo_dropdown_2" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_3" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_4" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_5" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><input type="hidden" name="searchGeoId" id="vs_geo_id" value="0" autocomplete="off"> </td> 
+             <td class="submit"> 
+              <div class="vs-searchbox-submit"> 
+               <div class="vs-ads-with-pic"></div> 
+               <input class="kiwii-btn kiwii-btn-primary kiwii-btn-large ui-button ui-search-button1 ui-corner-all kiwii-span-2" type="submit" value="Procurar"> 
+              </div> 
+              <div class="searchform-email-alert" onclick="ALERT.openLightbox();"> 
+               <div class="kiwii-span-2"> 
+                <span class="tooltip tooltip-effect-1"> <span class="tooltip-item"> <span id="icoalert"></span> <span class="caption_alert">Criar um alerta</span> </span> 
+                 <div class="tooltip-content clearfix"> 
+                  <span class="tooltip-text">Economize tempo! Receba por e-mail todos os novos anúncios relacionados com sua busca.</span> 
+                 </div> </span> 
+               </div> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div style="clear:both"></div> 
+         </div> 
+         <input type="hidden" name="end_field"> 
+        </form> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <!--DFP --> 
+    <script type="text/javascript">
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+</script> 
+    <script type="text/javascript">
+googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/31586872/Desktop_Interstitial', 'div-gpt-ad-1470039326458-0').addService(googletag.pubads());
+    googletag.pubads().setTargeting('Country', ['br']).setTargeting('category', ['services','computer', '']);
+    googletag.pubads().enableSyncRendering();
+    googletag.enableServices();
+  });
+</script> 
+    <!-- /31586872/Desktop_Interstitial --> 
+    <div id="div-gpt-ad-1470039326458-0"> 
+     <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470039326458-0'); });
+</script> 
+    </div> 
+    <div class="kiwii-padding-top-xxxsmall"> 
+     <div class="vs-summary-300x250" id="vs-summary-300x250" style="float:right;width:300px;height:250px;margin-top:5px;position:relative;display:block;z-index:911;border-left:1px solid #ccc;padding-left:5px;"> 
+      <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - ATF */
+google_ad_slot = "3440836895";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script> 
+      <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+     </div> 
+    </div> 
+    <div style="width:68%;position:relative;display:block;z-index:111;"> 
+     <div id="vs-search-ad-top" style="padding-left:20px;"></div> 
+     <script src="https://www.google.com/adsense/search/async-ads.js" type="text/javascript"></script> 
+     <script type="text/javascript" charset="utf-8">
+if (6==0){var nocat= 'usados';var pageType= "geo_summary";}else{var nocat= '';var pageType= "summary";}
+var is_search = ( 0 ) ? 'search' : 'browse';
+var xhome = document.referrer;
+if (xhome !=='http://www.viva.com/'){
+new google.ads.search.Ads(
+	{"pubId": "w3-viva-br-" + is_search, 
+	 "query": " Mudanças - Frete Serviços   " + nocat, 
+	 "channel": "services,computer,br,computer_br,services_br", 
+	 "queryContext": "Mudanças - Frete|Serviços", 
+	 "adtest": "off", 
+	 "hl": "pt", 
+	 "numRepeated" : "3", 
+	 "detailedAttribution" : false, 
+	 "adPage": "1", 
+	 "sellerRatings": false, 
+	 "siteLinks": false, 
+	 "linkTarget": "_blank", 
+	 "titleBold": true,
+	 "rolloverAdBackgroundColor": "#c2ebfc"
+	},
+	{"container": "vs-search-ad-top", 
+	 "maxTop": "4", 
+         "verticalSpacing" : "14",
+         "adLayout": "sellerFirst",
+	 "width": "98%", 
+	 "lines": "3", 
+	 "fontSizeTitle": "14px",
+	 "fontSizeAttribution" : 12,
+	 "fontSizeDescription": "12px", 
+	 "fontSizeDomainLink": "15px", 
+	 "colorTitleLink": "#114D97", 
+	 "colorText": "#575757", 
+	 "colorDomainLink": "#65b21c", 
+	 "colorBackground": "#FFFFFF", 
+	 "colorBorder": "#FFF", 
+	 "colorAdSeparator": "#CCC", 
+	 "rolloverLinkUnderline": true, 
+	 "rolloverLinkColor": "#114D97", 
+	 "adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", 
+	 "adIconWidth": 166, "adIconHeight": 50, 
+	 "adIconSpacingBefore": 16, 
+	 "adIconSpacingAfter": 16, 
+	 "adIconSpacingAbove": 2, 
+	 "adIconLocation": "ad-left"},
+	{"container": "vs-search-ad-bottom", "number": "4", "width": "98%", "lines": "3", "fontSizeTitle": "14px","fontSizeAttribution" : 12, "fontSizeDescription": "12px", "fontSizeDomainLink": "15px","adLayout": "sellerFirst", "colorTitleLink": "#114D97", "colorText": "#575757", "colorDomainLink": "#65b21c","verticalSpacing" : "14", "colorBackground": "#FFFFFF", "colorBorder": "#FFF", "colorAdSeparator": "#CCC", "rolloverLinkUnderline": true, "rolloverLinkColor": "#114D97", 
+	"adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", "adIconWidth": 166, "adIconHeight": 50, "adIconSpacingBefore": 16, "adIconSpacingAfter": 16, "adIconSpacingAbove": 2, "adIconLocation": "ad-left"});
+}
+</script> 
+     <script type="text/javascript" src="https://www.google.com/afsonline/show_afs_ads.js"></script> 
+     <div class="kiwii-clear-both"></div> 
+    </div> 
+    <style>.sponsor_style:hover{background-color:#FDECD9}a.sponsor_title:hover{text-decoration:underline}a.sponsor_title{text-decoration:none;color:#114D97;font-size:14px;font-weight:700;margin-top:-2px}.sponsor_desc{font-size:12px;margin-left:10px;font-weight:400;color:#575757}.sponsor_desc a{text-decoration:none;color:#575757}a.sponsor_url{text-decoration:none;font-weight:400;color:#aaa}a.sponsor_url:hover{text-decoration:underline;color:#114D97}.sp_img{float:left;width:160px;margin-right:23px;text-align:center}</style> 
+    <script type="text/javascript">
+evergreen = false;
+show_full_desc = false;
+</script> 
+    <a name="classifieds"></a> 
+    <div id="toolbar" class="kiwii-sort-bar summarytoolbar"> 
+     <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <tbody>
+       <tr class="sort"> 
+        <th class="selected toolbar_tab_selected" width="158" align="center"> <strong>4,116 Anúncios</strong> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1FCBC14A49C2C04FC1CB431E44C143CB431F41C11FC04AC1CB4642C3484AC1" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Individual']);" class="vivasafe">Particular </span> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1FCBC14A49C2C04FC1CB431E44C143CB431F41C11FC0C14F4446C2C2464F494A48" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Professional']);" class="vivasafe">Profissional </span> </th> 
+        <th style="padding-left:120px;" align="right" class="toolbar_tab_notselected spec-field"> </th> 
+        <th style="padding-left:120px;" align="right" class="toolbar_tab_notselected spec-field"> </th>  
+        <th align="right" width="250" class="toolbar_tab_notselected">&nbsp;</th> 
+        <th id="vs-listing" class="toolbar_tab_notselected view-selector hover view-selected" width="72" style="padding-right:2px;"> <a name="Text" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Listing']);" href="http://www.vivalocal.com/transporte-frete/br" class="toolbarbutton_on kiwii-icon kiwii-icon-list"> Classificados </a> </th> 
+        <th id="vs-gallery" class="toolbar_tab_notselected
+                    view-selector
+                    hover
+                    " width="72" style="padding-right:2px;"> <a name="Gallery" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Gallery']);" href="http://www.vivalocal.com/transporte-frete/br/g" class="toolbarbutton_off kiwii-icon kiwii-icon-grid"> FOTOS </a> </th> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <div class="kiwii-carousel-box"> 
+     <div class="kiwii-carousel-nav kiwii-carousel-nav-left"> 
+      <div class="kiwii-carousel-nav-disable"> 
+       <div id="prev"> 
+        <div class="kiwii-carousel-arrow-left kiwii-carousel-arrow-left-1"></div> 
+        <div class="kiwii-carousel-nav-disable"> 
+         <div class="kiwii-position-relative kiwii-width-full kiwii-height-full kiwii-carousel-nav-arrow"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="blocker_prev" class="kiwii-carousel-disable"></div> 
+     </div> 
+     <div class="ribbon-wrapper kiwii-position-absolute"> 
+      <a href="http://www.vivalocal.com/transporte-frete/br/g" class="kiwii-width-full kiwii-height-full kiwii-no-text-decoration"> 
+       <div class="ribbon-front kiwii-padding-hor-large"> 
+        <span class="kiwii-no-text-decoration ribbon-front-text kiwii-font-large kiwii-float-left kiwii-padding-top-xxxsmall kiwii-padding-right-xxsmall"> VIP </span> 
+       </div> </a> 
+      <div class="ribbon-edge-bottomleft"></div> 
+     </div> 
+     <div id="vs_carousel_box" class="kiwii-carousel-cladbox kiwii-width-full kiwii-height-full kiwii-position-absolute kiwii-border-none kiwii-float-left"> 
+      <div id="container" class="kiwii-carousel kiwii-carousel-empty"> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_150295814">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/praia-grande-sao-paulo/quer-mudar-ent-o-ligue-para-o-robson-mudan-as/150295814" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_150295814" src="http://media-sa.viva-images.com/vivastreet_br/clad/b0/1/150295814/vip/1.jpg?dt=11577b998a0b258d5538774dd707b627" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">QUER MUDAR?ENTÃO LIGUE PA...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Praia Grande,...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_137833761">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/campinas/mudan-as--fretes-p--todo-brasil--19--98125-7072-whats-mateus/137833761" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_137833761" src="http://media-sa.viva-images.com/vivastreet_br/clad/0b/9/137833761/vip/1.jpg?dt=6b838568a2c54a451776726f74a316d3" pic_num="1" pic_total="9">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              9
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Fretes, Mudanças, Eventos...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall"> | Profissional | Campinas</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154154022">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/perdizes/transporte-para-pq--mudan-as-casal-e-solteiros-todo-brasil/154154022" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154154022" src="http://media-sa.viva-images.com/vivastreet_br/clad/6f/2/154154022/vip/1.jpg?dt=98384fac564b52f72f6e4ae4a00ebd34" pic_num="1" pic_total="5">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              5
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">TRANSPORTE PARA PQ. MUDAN...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Particular | São Paulo -...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_152820858">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/centro/mudan-as-fretes-rio-grande-rio-barra--recreio-98635-8031/152820858" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_152820858" src="http://media-sa.viva-images.com/vivastreet_br/clad/dc/4/152820858/vip/1.jpg?dt=b1a385551d464dc80a1b5a2a932c9fae" pic_num="1" pic_total="1">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              1
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">MUDANÇAS FRETES BARRA,REC...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Rio de...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_146544565">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/cotia/carretos-diler---seguran-a-e-zelo-na-sua-mudan-a-em-cotia/146544565" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_146544565" src="http://media-sa.viva-images.com/vivastreet_br/clad/59/5/146544565/vip/1.jpg?dt=62749579c9f64ae4f53f3571cd0ebf43" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Carretos Diler - Seguranç...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Grande São...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_156324139">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/fazendinha-portao/mudan-as-silvio-02-wasap-wasap-99921-9352/156324139" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_156324139" src="http://media-sa.viva-images.com/vivastreet_br/clad/eb/d/156324139/vip/1.jpg?dt=8f32ece09a15fb6f1f7c5e3ad37d34bf" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Mudanças Silvio 02 wasap...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall"> | Profissional | Curitiba</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_150295814">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/praia-grande-sao-paulo/quer-mudar-ent-o-ligue-para-o-robson-mudan-as/150295814" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_150295814" src="http://media-sa.viva-images.com/vivastreet_br/clad/b0/1/150295814/vip/1.jpg?dt=11577b998a0b258d5538774dd707b627" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">QUER MUDAR?ENTÃO LIGUE PA...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Praia Grande,...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_137833761">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/campinas/mudan-as--fretes-p--todo-brasil--19--98125-7072-whats-mateus/137833761" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_137833761" src="http://media-sa.viva-images.com/vivastreet_br/clad/0b/9/137833761/vip/1.jpg?dt=6b838568a2c54a451776726f74a316d3" pic_num="1" pic_total="9">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              9
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Fretes, Mudanças, Eventos...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall"> | Profissional | Campinas</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154154022">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/perdizes/transporte-para-pq--mudan-as-casal-e-solteiros-todo-brasil/154154022" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154154022" src="http://media-sa.viva-images.com/vivastreet_br/clad/6f/2/154154022/vip/1.jpg?dt=98384fac564b52f72f6e4ae4a00ebd34" pic_num="1" pic_total="5">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              5
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">TRANSPORTE PARA PQ. MUDAN...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Particular | São Paulo -...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_152820858">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/centro/mudan-as-fretes-rio-grande-rio-barra--recreio-98635-8031/152820858" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_152820858" src="http://media-sa.viva-images.com/vivastreet_br/clad/dc/4/152820858/vip/1.jpg?dt=b1a385551d464dc80a1b5a2a932c9fae" pic_num="1" pic_total="1">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              1
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">MUDANÇAS FRETES BARRA,REC...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Rio de...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_146544565">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/cotia/carretos-diler---seguran-a-e-zelo-na-sua-mudan-a-em-cotia/146544565" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_146544565" src="http://media-sa.viva-images.com/vivastreet_br/clad/59/5/146544565/vip/1.jpg?dt=62749579c9f64ae4f53f3571cd0ebf43" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Carretos Diler - Seguranç...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">| Profissional | Grande São...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_156324139">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/transporte-frete/fazendinha-portao/mudan-as-silvio-02-wasap-wasap-99921-9352/156324139" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_156324139" src="http://media-sa.viva-images.com/vivastreet_br/clad/eb/d/156324139/vip/1.jpg?dt=8f32ece09a15fb6f1f7c5e3ad37d34bf" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Mudanças Silvio 02 wasap...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall"> | Profissional | Curitiba</p></span>
+          </div></a>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="kiwii-carousel-nav kiwii-carousel-nav-right"> 
+      <div id="next"> 
+       <div class="kiwii-carousel-arrow-right kiwii-carousel-arrow-right-1"></div> 
+       <div class="kiwii-carousel-nav-disable"> 
+        <div class="kiwii-position-relative kiwii-width-full kiwii-height-full kiwii-carousel-nav-arrow"></div> 
+       </div> 
+      </div> 
+      <div id="blocker_next" class="kiwii-carousel-disable"></div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    var carousel_json = [{"id":146544565,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/cotia\/carretos-diler---seguran-a-e-zelo-na-sua-mudan-a-em-cotia\/146544565","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/59\/5\/146544565\/vip\/1.jpg?dt=62749579c9f64ae4f53f3571cd0ebf43","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Carretos Diler - Seguran\u00e7a e zelo na sua mudan\u00e7a em Cotia","spec_line":"| Profissional | Grande S\u00e3o...","image_total":2,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":156324139,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/fazendinha-portao\/mudan-as-silvio-02-wasap-wasap-99921-9352\/156324139","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/eb\/d\/156324139\/vip\/1.jpg?dt=8f32ece09a15fb6f1f7c5e3ad37d34bf","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Mudan\u00e7as Silvio 02 wasap wasap 99921-9352","spec_line":" | Profissional | Curitiba","image_total":2,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":150295814,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/praia-grande-sao-paulo\/quer-mudar-ent-o-ligue-para-o-robson-mudan-as\/150295814","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/b0\/1\/150295814\/vip\/1.jpg?dt=11577b998a0b258d5538774dd707b627","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"QUER MUDAR?ENT\u00c3O LIGUE PARA O ROBSON MUDAN\u00c7AS","spec_line":"| Profissional | Praia Grande,...","image_total":2,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":137833761,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/campinas\/mudan-as--fretes-p--todo-brasil--19--98125-7072-whats-mateus\/137833761","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/0b\/9\/137833761\/vip\/1.jpg?dt=6b838568a2c54a451776726f74a316d3","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Fretes, Mudan\u00e7as, Eventos, Transportes em Geral - Mateus","spec_line":" | Profissional | Campinas","image_total":9,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":154154022,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/perdizes\/transporte-para-pq--mudan-as-casal-e-solteiros-todo-brasil\/154154022","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/6f\/2\/154154022\/vip\/1.jpg?dt=98384fac564b52f72f6e4ae4a00ebd34","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"TRANSPORTE PARA PQ. MUDAN\u00c7AS CASAL E SOLTEIROS TODO BRASIL","spec_line":"| Particular | S\u00e3o Paulo -...","image_total":5,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":152820858,"link_url":"http:\/\/www.vivalocal.com\/transporte-frete\/centro\/mudan-as-fretes-rio-grande-rio-barra--recreio-98635-8031\/152820858","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/dc\/4\/152820858\/vip\/1.jpg?dt=b1a385551d464dc80a1b5a2a932c9fae","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"MUDAN\u00c7AS FRETES BARRA,RECREIO 98635-8031WAPP","spec_line":"| Profissional | Rio de...","image_total":1,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false}];
+    var carousel_options = {"item_type":"VIPClassified","item_selector":".kiwii-carousel-clad-box","max_width":3000,"right_offset":-1000,"paginated":true,"ajax_items_fully_loaded":true};
+            carousel_options.timing = {"auto_slide":20,"rotate_pic":20};
+    </script> 
+    <script type="text/javascript">
+            var carousel_params = {"params":{"start_field":1,"cat_1":6,"cat_2":89,"keywords":"","end_field":1},"use_geo":false,"sort":"display_priority DESC, reposted DESC","minimum_results_flag":false,"minimum_carousel_flag":false,"limit":35};
+      </script> 
+    <table id="classified_table" class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td id="classified_cell"> 
+        <table class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+         <tbody>
+          <tr class="classified row1 kiwii-clad-row kiwii-clad-featured" id="vs_classified_156864394"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/campo-belo/mudan-as-carretos-fretes-transportes-em-geral-sp-/156864394"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8d/0/156864394/vip/1.jpg?dt=14a778f709e54357ae1c1365725589b0" alt="Fotos para Mudanças carretos fretes transportes em geral Sp "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/campo-belo/mudan-as-carretos-fretes-transportes-em-geral-sp-/156864394" id="vs-detail-link-1" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças carretos fretes transportes em geral Sp </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mudanças grande com bau fechado Carretos pequeno com pick-up strada Mudanças pequena Faça seu orçamento sem compromisso com ajudantes grátis WhatsApp 969985959 41050559 www.lopesexpresssmudancas.com 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Paulo - capital - Campo Belo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156864394
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row2 kiwii-clad-row kiwii-clad-featured kiwii-clad-highlight" id="vs_classified_146544565"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/cotia/carretos-diler---seguran-a-e-zelo-na-sua-mudan-a-em-cotia/146544565"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/59/5/146544565/vip/1.jpg?dt=62749579c9f64ae4f53f3571cd0ebf43" alt="Fotos para Carretos Diler - Segurança e zelo na sua mudança em Cotia"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/cotia/carretos-diler---seguran-a-e-zelo-na-sua-mudan-a-em-cotia/146544565" id="vs-detail-link-2" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Carretos Diler - Segurança e zelo na sua mudança em Cotia</a>
+             <span class="kiwii-label-badge kiwii-padding-top-tiny kiwii-margin-left-xxsmall">VIP</span> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Cuidamos da sua mudança e do transporte dos seus bens com segurança, zelo e confiabilidade. Estamos situados na região de Cotia - SP, trabalhamos com fretes para todo o Brasil. Conte conosco para a sua mudança em Cotia e… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Grande São Paulo - Cotia</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             146544565
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row3 kiwii-clad-row kiwii-clad-featured" id="vs_classified_145244641"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/matriz/fretes-s-o-jose-dos-pinhais-x-curitiba-x-litoral/145244641"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/91/0/145244641/vip/1.jpg?dt=ac0c5bdb94d147c7a00272909f3dc228" alt="Fotos para Fretes e pequenas mudanças Curitiba litoral Pr e Sc Brasil"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                8
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/matriz/fretes-s-o-jose-dos-pinhais-x-curitiba-x-litoral/145244641" id="vs-detail-link-3" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Fretes e pequenas mudanças Curitiba litoral Pr e Sc Brasil</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              ***Aceitamos pagamentos no cartão de Créditos ,Parcelados Consulte:41 999668622 *** * Fretes e Mudanças Fone whatsapp 41 99966 8622 *Fretes p /todos os Bairros de Curitiba *Fretes p todas as cidades da região metropoli… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Curitiba - Matriz</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             145244641
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row4 kiwii-clad-row kiwii-clad-featured" id="vs_classified_156688972"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/sao-leopoldo/pequenos-frete-a-partir-de-r--40/156688972"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8b/a/156688972/vip/1.jpg?dt=b825eacf22efadd5acc2b73eb3c5f98a" alt="Fotos para Pequenos frete a partir de R$ 40"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/sao-leopoldo/pequenos-frete-a-partir-de-r--40/156688972" id="vs-detail-link-4" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Pequenos frete a partir de R$ 40</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Leopoldo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Faço pequenos frete de são Leopoldo para todas regiões apartir de R$ 40 frete em geral com camioneta com melhor preço e agilidade atendemos todas regiões vivo 995951469 claro 992852104 tim whats 983173495 oi 984158255… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Leopoldo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156688972
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row5 kiwii-clad-row kiwii-clad-featured" id="vs_classified_156579186"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/boa-vista-curitiba/fretes-e-mudan-as-de-pequeno-porte/156579186"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/62/2/156579186/vip/1.jpg?dt=d150c0c2c59cd3314c15331f7ad5be90" alt="Fotos para Fretes e Mudanças de pequeno Porte"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/boa-vista-curitiba/fretes-e-mudan-as-de-pequeno-porte/156579186" id="vs-detail-link-5" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Fretes e Mudanças de pequeno Porte</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Trabalho com Pequenos transportes de; -FRETES -MUDANÇAS -COLETAS ENTREGAS -ATENDEMOS EMPRESAS TEMOS CNPJ EMITIMOS NOTA FISCAL DO FRETE. ATENDEMOS DE SEGUNDA A SEGUNDA . ACEITAMOS PAGAMENTO COM CARTÕES DE CREDITO E DEBI… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Curitiba - Boa Vista, Curitiba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156579186
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row6 kiwii-clad-row kiwii-clad-featured" id="vs_classified_69159533"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/boa-vista-curitiba/frete-e-mudanca---curitiba--41--9148-0201-diego/69159533"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0a/3/69159533/vip/1.jpg?dt=b95cfc003d57d484d81ff72a20a3d817" alt="Fotos para 99148-0201 DIEGO - FRETE E MUDANÇA CURITIBA COM N.F."> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/boa-vista-curitiba/frete-e-mudanca---curitiba--41--9148-0201-diego/69159533" id="vs-detail-link-6" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">99148-0201 DIEGO - FRETE E MUDANÇA CURITIBA COM N.F.</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              MUDANÇAS MILANO - DIEGO (41) 99148-0201 www.mudancasmilano.com.br FORNECEMOS NOTA FISCAL E PARCELAMOS EM ATÉ 6X NO CARTÃO DE CRÉDITO. Realizamos serviços de fretes e mudanças para toda Curitiba e região metropolitana. … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Curitiba - Boa Vista, Curitiba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             69159533
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row7 kiwii-clad-row kiwii-clad-featured" id="vs_classified_138533721"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/boqueirao/-rodrigo-mudan-as-fretes-e-viagens-whats-41-9154-3953/138533721"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/2e/c/138533721/vip/1.jpg?dt=10e2c00e85ddb62b88d3332243e31386" alt="Fotos para Mudanças Fretes e Viagens Whats "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/boqueirao/-rodrigo-mudan-as-fretes-e-viagens-whats-41-9154-3953/138533721" id="vs-detail-link-7" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças Fretes e Viagens Whats </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mudanças, fretes, viagens, carretos, entregas, coletas , fale com Rodrigo ou Francisco através do whats 41-99154-3953 ou no 41-3018-8948, agilidade qualidade e segurança no transporte. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Curitiba - Boqueirão</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             138533721
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row8 kiwii-clad-row kiwii-clad-featured" id="vs_classified_123415702"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/niteroi/fretes-em-niteroi-sao-gon-alo-com-pre-os-excelentes-9992213-/123415702"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/74/f/123415702/vip/1.jpg?dt=d31c9d7176468ed29f7a2414a288728d" alt="Fotos para FRETES EM NITEROI ,SAO GONÇALO E RIO ÓTIMOS PREÇOS. "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/niteroi/fretes-em-niteroi-sao-gon-alo-com-pre-os-excelentes-9992213-/123415702" id="vs-detail-link-8" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">FRETES EM NITEROI ,SAO GONÇALO E RIO ÓTIMOS PREÇOS. </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Niterói
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Podemos emitir nota fiscal.Para fretes e pequenas mudanças, a Celso Fretes e Mudanças é uma ótima opção para quem busca esses serviços na cidade de , Niterói São Gonçalo e todo rio de janeiro Visando a total satisfação d… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Niterói</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             123415702
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row9 kiwii-clad-row kiwii-clad-featured" id="vs_classified_134667790"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/precisando-transportar-para-sp--campinas-via-aproveitamento-/134667790"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8f/0/134667790/vip/1.jpg?dt=6004568b80359a6599ce68441d4875ca" alt="Fotos para Caminhão vazio toda semana em Rio Preto,voltando p Campinas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                8
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/precisando-transportar-para-sp--campinas-via-aproveitamento-/134667790" id="vs-detail-link-9" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Caminhão vazio toda semana em Rio Preto,voltando p Campinas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São José do Rio Preto
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mateus Mudanças Estamos localizados na região de Campinas e toda semana estamos com nosso caminhão vazio em São José do Rio Preto (1x) por semana - Retornamos vazio nas seguintes rotas São José do Rio Preto x Região de … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São José do Rio Preto</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             134667790
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row10 kiwii-clad-row kiwii-clad-featured" id="vs_classified_156026380"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/1-20realkm-todobrasil-sp-rs-rj-ms-mg-ba-go-to-pa---exclusiva/156026380"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8d/5/156026380/vip/1.jpg?dt=13aecc02b3dc15a94d0ef902ae367665" alt="Fotos para 1,20realkm TodoBrasil Sp Rs Rj Ms Mg Ba Go To Pa...Exclusiva"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/1-20realkm-todobrasil-sp-rs-rj-ms-mg-ba-go-to-pa---exclusiva/156026380" id="vs-detail-link-10" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">1,20realkm TodoBrasil Sp Rs Rj Ms Mg Ba Go To Pa...Exclusiva</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São José do Rio Preto
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              PARA OBTER SEU ORÇAMENTO, ENVIE SMS P/ 19 996672132 vivo E/OU E-MAIL: transportesgerais@hotmail.com VALOR B… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São José do Rio Preto</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156026380
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row11 kiwii-clad-row kiwii-clad-featured" id="vs_classified_135957264"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/itaquera/zona-leste-mudan-as-e-carretos-2834-0470-/135957264"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ff/b/135957264/vip/1.jpg?dt=fd827f45c688ec26f34fc714b8eae812" alt="Fotos para ZONA LESTE MUDANÇAS E CARRETOS "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                7
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/itaquera/zona-leste-mudan-as-e-carretos-2834-0470-/135957264" id="vs-detail-link-11" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">ZONA LESTE MUDANÇAS E CARRETOS </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Elias Mudanças e Carretos (11) 2834-0470 / 99844-7183 / whatsapp 94003-2219 / 650*22380. Residencial e Comercial, capital, litoral, interior e todo Brasil, inclusive sábados, domingos e feriados. ORÇAMENTO SEM COMPROMISS… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Paulo - capital - Itaquera</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             135957264
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row12 kiwii-clad-row kiwii-clad-featured" id="vs_classified_143384704"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/santa-cruz-rio-de-janeiro/fretes-e-mudan-as/143384704"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/f6/1/143384704/vip/1.jpg?dt=e5a89fe2dc97ed7251195a9afdde4726" alt="Fotos para fretes e mudanças"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/santa-cruz-rio-de-janeiro/fretes-e-mudan-as/143384704" id="vs-detail-link-12" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">fretes e mudanças</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Temos caminhoes de todos os tamanhos para sua comodidade!!!!!(ATENDEMOS SABADOS E DOMINGOS E FERIADOS!!!21964674122 zap,nao perdemos serviços!!!!OBS:TEMOS PONTO EM(( COPACABANA ,MADUREIRA,SEROPEDICA E BANGU)))!!!!!!!!(FA… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Rio de Janeiro - capital - Santa Cruz, Rio de Janeiro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             143384704
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row13 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154962188"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/santa-cecilia/mudan-as-sp-carretos-transportes-fretes-entrega-/154962188"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/49/d/154962188/vip/1.jpg?dt=acdfe3d619812237c51fec33314c66ae" alt="Fotos para Mudanças Sp carretos transportes fretes entrega "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/santa-cecilia/mudan-as-sp-carretos-transportes-fretes-entrega-/154962188" id="vs-detail-link-13" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças Sp carretos transportes fretes entrega </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Faça seu orçamento sem compromisso com ajudantes de qualidade e segurança WhatsApp 969985959 41050559 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Paulo - capital - Santa Cecília</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154962188
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row14 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154742354"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/itanhaem/guincho-auto-resgate-24hrs-/154742354"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/78/7/154742354/vip/1.jpg?dt=e9509476101a7e8c5f24c24a034d27f2" alt="Fotos para Guincho auto resgate 24hrs "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/itanhaem/guincho-auto-resgate-24hrs-/154742354" id="vs-detail-link-14" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guincho auto resgate 24hrs </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Itanhaém
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Itá guincho auto resgate 24hrs aceitamos todos os cartões de débito e crédito atendimento emergencial e agendado em todo litoral sul, capital e interior 13 996539671 11 982125458 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Itanhaém</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154742354
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row15 kiwii-clad-row kiwii-clad-featured" id="vs_classified_132315291"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/campinas/mateus-mudan-as---partindo-de-jaguari-na-sp-para-todo-brasil/132315291"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/e2/4/132315291/vip/1.jpg?dt=463d4cebb117de3c97612ededf215fb6" alt="Fotos para Fretes, Mudanças, Eventos, Transportes em Geral - Mateus"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                12
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/campinas/mateus-mudan-as---partindo-de-jaguari-na-sp-para-todo-brasil/132315291" id="vs-detail-link-15" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Fretes, Mudanças, Eventos, Transportes em Geral - Mateus</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Campinas
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mateus Transportes e Mudanças Tel (19) 3837-4492 Cel (19) 9 8125-7072 tim e whatsapp Nextel (19) 97811-2806 id 85*9992 Entre em contato conosco e faça seu orçamento sem compromisso mateustransportes@bol… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Campinas</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             132315291
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row16 kiwii-clad-row kiwii-clad-featured" id="vs_classified_121898483"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/barra-da-tijuca/frete-e-transporte-21964212255-barra-recreio-botafogo-copaca/121898483"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0a/2/121898483/vip/1.jpg?dt=707a645335faae9556e9d62c4f1ad250" alt="Fotos para frete e transporte 21964212255 barra recreio Botafogo Copaca"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/barra-da-tijuca/frete-e-transporte-21964212255-barra-recreio-botafogo-copaca/121898483" id="vs-detail-link-16" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">frete e transporte 21964212255 barra recreio Botafogo Copaca</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Trabalhamos com carros e proficional qualificado aceitamos cartões 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Rio de Janeiro - capital - Barra da Tijuca</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             121898483
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row17 kiwii-clad-row kiwii-clad-featured" id="vs_classified_125489960"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/barra-da-tijuca/frete-barra-recreio-e-jacar--pagua-21964212255/125489960"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ab/d/125489960/vip/1.jpg?dt=55fb023f592a0e05bf2525ee95485c9e" alt="Fotos para frete barra recreio e tijuca "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/barra-da-tijuca/frete-barra-recreio-e-jacar--pagua-21964212255/125489960" id="vs-detail-link-17" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">frete barra recreio e tijuca </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Trabalhamos com caminhão e proficionas qualificado aceitamos todos cartões atendemos Búzios Cabo ftoo arraial do Cabo Araruama Petrópolis Teresópolis angra dos reis Itaguaí tijuca Flamengo são conrrado gavea Ipanema e Le… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Rio de Janeiro - capital - Barra da Tijuca</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             125489960
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr id="vs_advert_middle" class="vs-advertisement advertisement-middle-1"> 
+           <td colspan="8"> 
+            <!-- SummaryMiddle Start --> 
+            <div style="display:block;text-align:center;"> 
+             <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - BTF */
+google_ad_slot = "2196924935";
+google_ad_width = 970;
+google_ad_height = 90;
+//-->
+</script> 
+             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+            </div> 
+            <!-- SummaryMiddle End --> </td> 
+          </tr> 
+          <tr class="classified row18 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154426873"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/ipiranga/mudan-as---fretes---carretos---r--1-50-km-rodado-todo-brasil/154426873"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/4f/2/154426873/vip/1.jpg?dt=f662e96a811e75bc0325c127b86b23ad" alt="Fotos para MUDANÇAS - FRETES - CARRETOS : R$ 1,50 KM RODADO TODO BRASIL"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/ipiranga/mudan-as---fretes---carretos---r--1-50-km-rodado-todo-brasil/154426873" id="vs-detail-link-18" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">MUDANÇAS - FRETES - CARRETOS : R$ 1,50 KM RODADO TODO BRASIL</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Prestamos Serviços de Transportes em Geral : Pequenas Mudanças - Carretos e Fretes para todo Brasil. Atendemos Empresas - Comércios - Escritórios - Residências e Condomínios. Trabalho com Transportes e sou autônomo, sem … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Paulo - capital - Ipiranga</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154426873
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row19 kiwii-clad-row kiwii-clad-featured" id="vs_classified_151998168"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/ribeirao-preto/mateus-mudan-as--interior-sp-sp--reas-restritas--out--estad-/151998168"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/1f/c/151998168/vip/1.jpg?dt=eb4a1f58e11305615bbeeec9c80b96cd" alt="Fotos para Fretes, Mudanças, Eventos, Transportes em Geral - Mateus"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                9
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/ribeirao-preto/mateus-mudan-as--interior-sp-sp--reas-restritas--out--estad-/151998168" id="vs-detail-link-19" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Fretes, Mudanças, Eventos, Transportes em Geral - Mateus</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Ribeirão Preto
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mates Transportes e Mudanças Tel (19) 3837-4492 Cel (19) 98125-7072 tim e whatsapp Nextel (19) 97811-2806 id 85*9992 mateustransportes@bol.com.br Prestamos serviços em Mudanças Residenciais, Transportes de M… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Ribeirão Preto</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             151998168
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row20 kiwii-clad-row kiwii-clad-featured" id="vs_classified_147478465"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/butanta/mudan-as--fretes-e-carretos--11--94752-5007-whatsapp/147478465"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/d5/8/147478465/vip/1.jpg?dt=3d6407a5e2c41493dbec84ce62a8253e" alt="Fotos para MUDANÇAS, FRETES E CARRETOS PARA TODO BRASIL"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/butanta/mudan-as--fretes-e-carretos--11--94752-5007-whatsapp/147478465" id="vs-detail-link-20" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">MUDANÇAS, FRETES E CARRETOS PARA TODO BRASIL</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              TRANSPORTES E MUDANÇAS Realizamos mudanças de residencias e escritórios; Prestamos serviços de fretes para empresas; Atendemos em todos Estados do Brasil; Melhor preço da região; Temos diversos tipos de embalagens (ex: c… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São Paulo - capital - Butantã</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             147478465
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row21 kiwii-clad-row kiwii-clad-featured" id="vs_classified_142270050"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/matriz/mudancas-curitiba-41-98459920-watsp-4184152172/142270050"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/78/7/142270050/vip/1.jpg?dt=70cc5e87e5e453138deb021c1d295b79" alt="Fotos para mudancas em Curitiba "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/matriz/mudancas-curitiba-41-98459920-watsp-4184152172/142270050" id="vs-detail-link-21" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">mudancas em Curitiba </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Mudanças fretes carretos viagem para curitiba região metropolitana litoral sul do brasil São Paulo Para na vaga de carro sem autorização da urbes 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Curitiba - Matriz</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             142270050
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row22 kiwii-clad-row" id="vs_classified_147663284"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/itu/transporte-/147663284"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/86/7/147663284/vip/1.jpg?dt=aa976a0d1c514193e7f94d4e9c7a6f6f" alt="Fotos para Transporte "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/itu/transporte-/147663284" id="vs-detail-link-22" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Transporte </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Itu
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Transporte com Kia bongo coletas e entregas mudanças de pequeno porte tenho antt mopp disponível para viagens interestadual contato (11)99764-7583 whats ou (11)98687-9510 Tim falar com Marcio Itu SP 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Itu</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 18:20</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             147663284
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row23 kiwii-clad-row" id="vs_classified_156800423"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/itaborai/carlinhos-frente-itabora-/156800423"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/65/5/156800423/vip/1.jpg?dt=cd75d5858fe47bee927156bdd8d2459f" alt="Fotos para Carlinhos frente Itaboraí"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/itaborai/carlinhos-frente-itabora-/156800423" id="vs-detail-link-23" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Carlinhos frente Itaboraí</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Itaboraí
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Frete é mudança, Itaboraí e região dos Lagos e região serrana. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Itaboraí</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:54</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156800423
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row24 kiwii-clad-row" id="vs_classified_156863325"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/guaruja/mudan-as-carretos-e-cargas-em-geral/156863325"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/4a/4/156863325/vip/1.jpg?dt=613bef9c812b0808ec001f5252d942c8" alt="Fotos para mudanças carretos e cargas em geral"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/guaruja/mudan-as-carretos-e-cargas-em-geral/156863325" id="vs-detail-link-24" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">mudanças carretos e cargas em geral</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Guarujá
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              atendemos litoral capital interior e out estados fretes exclusivos e compartilhados pag a vista ou até 10 x no cartão - visa e master whatsap (13) 99660-8808 nextel (13) 7805-1760 ID 55*41*60 - garcez. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Guarujá</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:50</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156863325
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row25 kiwii-clad-row" id="vs_classified_156861441"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/goiania/frete-pre-o-uber/156861441"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ad/9/156861441/vip/1.jpg?dt=3738db0e505e643400dea846121b2686" alt="Fotos para Frete preço Uber"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/goiania/frete-pre-o-uber/156861441" id="vs-detail-link-25" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Frete preço Uber</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Goiânia
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Faço FRETE, Entregas e Mudanças picape Strada em Goiânia,região metropolitana e viagens.O mais barato da região central de Goiânia a partir de R$39,99 de centro para centro.Tenho lona e corda.Tratar com Luiz Fernando Tel… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Goiânia</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:15</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156861441
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row26 kiwii-clad-row" id="vs_classified_156861250"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/mogi-guacu/moto-boy/156861250"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/mogi-guacu/moto-boy/156861250" id="vs-detail-link-26" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Moto boy</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Mogi Guaçu
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ola se alguem tiver que ir em lugares tipo campinas e regiao tenho moto biz e faco frete por apenas 0,50 o km ligue ja 019996269663 levoa pessoas e encomendas 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Mogi Guaçu</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:15</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156861250
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row27 kiwii-clad-row" id="vs_classified_156860388"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/alvorada-rio-grande-do-sul/gomes-mudan-as---whats---51-99593-1564--p--rs-e-sc/156860388"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/47/0/156860388/vip/1.jpg?dt=84fe20153bb03d3573fd98f57240f703" alt="Fotos para Gomes Mudanças - Whats - 51 99593-1564 P RS e SC"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/alvorada-rio-grande-do-sul/gomes-mudan-as---whats---51-99593-1564--p--rs-e-sc/156860388" id="vs-detail-link-27" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Gomes Mudanças - Whats - 51 99593-1564 P RS e SC</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Alvorada, Rio Grande do Sul
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Gomes Mudanças- pagamento a vista ou em ate 3x no cartão o frete Fazemos mudanças grande e pequenas e também viagens longas pra Rio Grande do Sul, Santa Catarina e todo litoral, com caminhão baú, temos montador de mov… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Alvorada, Rio Grande do Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:15</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156860388
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row28 kiwii-clad-row" id="vs_classified_121800448"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/teofilo-otoni/mudan-as--fretes-e-viagens-de-retorno-s-o-paulo--bh--rio/121800448"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/01/f/121800448/vip/1.jpg?dt=8a64715953882a459b8efb7a1ee61710" alt="Fotos para Mudança Retorno e Complementos SP,MG,RJ,BA,Zap(33)987063205"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/teofilo-otoni/mudan-as--fretes-e-viagens-de-retorno-s-o-paulo--bh--rio/121800448" id="vs-detail-link-28" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudança Retorno e Complementos SP,MG,RJ,BA,Zap(33)987063205</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Teófilo Otoni
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Fazemos fretes, mudanças e transportamos cargas fechadas ou como complemento de ida e volta para vários estados, no trecho que compreende de Teófilo Otoni,Montes Claros, Valadares, Ipatinga, Caratinga, Capelinha, Novo cr… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Teófilo Otoni</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:12</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             121800448
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row29 kiwii-clad-row" id="vs_classified_156852951"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/campos-dos-goytacazes/wvmudan-as/156852951"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/90/f/156852951/vip/1.jpg?dt=93dcdfa36b92d14e7a21a79e45969cb9" alt="Fotos para Wvmudanças"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/campos-dos-goytacazes/wvmudan-as/156852951" id="vs-detail-link-29" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Wvmudanças</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Campos dos Goytacazes
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Transportes para todo Brasil.Somos de Cabo Frio,fazemos sempre transportes para Campos,temos preços diferenciados pra retorno. (022)998772274-999480397-26488015. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Campos dos Goytacazes</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 13:17</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156852951
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row30 kiwii-clad-row" id="vs_classified_156852231"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/cabo-frio/wvmudan-as/156852231"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ee/9/156852231/vip/1.jpg?dt=b62a96714f0cd1844511e9dceeaf24b4" alt="Fotos para Wvmudanças"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/cabo-frio/wvmudan-as/156852231" id="vs-detail-link-30" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Wvmudanças</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Cabo Frio
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Transportes para todo Brasil.Tel:(022)998772274-999480397-26488046. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Cabo Frio</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 13:17</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156852231
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row31 kiwii-clad-row" id="vs_classified_138823652"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/governador-valadares/oliveira-transporte-e-mudan-as/138823652"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/dc/1/138823652/vip/1.jpg?dt=ebe8d81420d90119c915b08e91570acd" alt="Fotos para Oliveira Transporte e Mudanças (33)30147210"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                12
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/governador-valadares/oliveira-transporte-e-mudan-as/138823652" id="vs-detail-link-31" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Oliveira Transporte e Mudanças (33)30147210</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Governador Valadares
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ligue e faça o seu orçamento (33) 30147210 (33) 32038905 ou mande sua mensagem no whatsapp (33) 988016915 ,visite nossa pagina no Facebook- oliveira transporte e mudanças ou na nossa pagina. Com a Oliveira Transporte… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Governador Valadares</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 10:55</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             138823652
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row32 kiwii-clad-row" id="vs_classified_152561716"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/governador-valadares/transporte-de-mudanca--vale-mudan-as-/152561716"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b3/0/152561716/vip/1.jpg?dt=21f1d0461b05d5dc52f50b564564ebe2" alt="Fotos para Transporte de Mudança - Vale Mudanças "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/governador-valadares/transporte-de-mudanca--vale-mudan-as-/152561716" id="vs-detail-link-32" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Transporte de Mudança - Vale Mudanças </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Governador Valadares
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Pensou em Mudança e Vale Mudanças Não tem outra igual Montador de móveis profissional Transporte Seguro Embalagem de toda mobília com plástico e papel ondulado. Roupas embaladas em caixas de papel. Loucas embaladas… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Governador Valadares</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 10:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             152561716
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row33 kiwii-clad-row" id="vs_classified_115742491"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/mudan-as---transportes/115742491"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/e3/8/115742491/vip/1.jpg?dt=8fa73d065c4eac3470d69faa89443938" alt="Fotos para Mudanças &amp; Transportes"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                8
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/sao-jose-do-rio-preto/mudan-as---transportes/115742491" id="vs-detail-link-33" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças &amp; Transportes</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São José do Rio Preto
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Desmontamos/ Montamos e Embalamos toda sua Mudança Residencial Comercial Serviço Completo Equipe especializada com todo material necessário: Plástico bolha e mantas para proteger seus moveis incluindo caixas para embalar… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete São José do Rio Preto</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 10:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             115742491
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row34 kiwii-clad-row" id="vs_classified_84804034"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/campinas/campinas-mudancas-fretes-carretos-para-todo-brasil/84804034"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8f/3/84804034/vip/1.jpg?dt=8f9194c653fa83a38d3e8a34e8b69a00" alt="Fotos para Mudanças Fretes Carretos em Campinas 19-9-8322-8000 zap"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                12
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/campinas/campinas-mudancas-fretes-carretos-para-todo-brasil/84804034" id="vs-detail-link-34" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças Fretes Carretos em Campinas 19-9-8322-8000 zap</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Campinas
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              SERVIÇOS DE MUDANÇAS FRETES CARRETOS PARA TODO BRASIL DESMONTAGEM EMBALAGEM FORNECEMOS CAIXAS DE PAPELAO,PLASTICO BOLHA, MANTAS, COBERTORES CONDIÇOES ESPECIAL PARA MUDANÇAS PARA O NORTE E NORDESTE DO BR… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Campinas</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 10:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             84804034
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row35 kiwii-clad-row" id="vs_classified_156337622"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/transporte-frete/brasilia-centro/mudan-as--e-fretes/156337622"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/92/4/156337622/vip/1.jpg?dt=04eae48db0a169e8c56416d4388919ef" alt="Fotos para Mudanças​ e Fretes"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/transporte-frete/brasilia-centro/mudan-as--e-fretes/156337622" id="vs-detail-link-35" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Mudanças​ e Fretes</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Brasília - DF
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              EDIMUDANÇAS Tel/ZAP 61-985734841 / 61-993619505 Fretes e mudanças locais para todo o DF e entorno e interestaduais para todo o Brasil. Trabalhamos com profissionais de desmontagem e montagem de móveis além de ajudantes.… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Mudanças - Frete Brasília - DF - Brasília Centro</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 09:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156337622
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+       <td id="widget_cell"> 
+        <div id="widget_container"> 
+        </div> </td> 
+      </tr>
+     </tbody>
+    </table> 
+    <!-- SummaryBottom Slot--> 
+    <div id="vs-search-ad-bottom" style="padding-left:20px;"></div> 
+    <!-- SummaryBottom Slot--> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr class="kiwii-border-bottom-xlight-gray"> 
+       <td colspan="7"> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <div class="kiwii-margin-top-small kiwii-margin-bottom-small"> 
+     <div class="kiwii-text-align-center kiwii-center-hor"> 
+      <div id="vs_instant_alert_signup"> 
+       <div>
+        ...e receba um e-mail com alertas sempre que um novo anúncio de seu interesse for publicado!
+       </div> 
+       <div class="vs-screen-1"> 
+        <input type="text" id="vs_instant_alert_email" value="Seu Email" default="Seu Email" class="kiwii-span-5 default"> 
+        <input type="button" id="vs_instant_alert_submit" class="kiwii-btn kiwii-btn-alert kiwii-btn-large kiwii-margin-xxxsmall" value="Criar um alerta"> 
+       </div> 
+      </div> 
+      <div class="vs-ia-error-line vs-screen-1" style="display:none;"></div> 
+      <div class="vs-ia-confirmation vs-screen-2" style="display:none;"> 
+       <div class="vs-ia-confirmation-message"></div> 
+       <a href="" class="vs-ia-confirmation-link"></a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="kiwii-box kiwii-box-padding kiwii-box-dark-gray kiwii-box-footer"> 
+     <ul class="kiwii-h-list kiwii-text-align-center"> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block">
+         « Anterior 
+       </div> </li> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block kiwii-btn-alert kiwii-btn-selected">
+         1 
+       </div> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+2"> 2 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+3"> 3 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+4"> 4 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+5"> 5 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+6"> 6 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+7"> 7 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+8"> 8 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+9"> 9 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+10"> 10 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+20"> 20 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+30"> 30 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+40"> 40 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+50"> 50 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/transporte-frete/br/t+2"> Próximo » </a> </li> 
+     </ul> 
+     <div class="kiwii-margin-top-small vs-related-links"> 
+      <div class="vs-related-links-search"> 
+      </div> 
+      <div class="vs-related-links-geo"> 
+      </div> 
+      <div style="clear: both;"></div> 
+      <div class="kiwii-margin-top-xsmall vs-related-links-bottom"> 
+      </div> 
+      <div style="clear: both;"></div> 
+     </div> 
+    </div> 
+    <!-- end rendering summary page --> 
+   </div>
+  </div>
+  <div class="kiwii-span-20 kiwii-center-hor">
+   <div class="kiwii-box-padding">
+    <ul class="kiwii-h-list level2">
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/belo-horizonte" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Belo Horizonte - BH</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/brasilia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Brasília - DF</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/campinas" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Campinas</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/curitiba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Curitiba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/fortaleza" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Fortaleza</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/goiania" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Goiânia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/joao-pessoa" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete João Pessoa</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/joinville" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Joinville</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/londrina" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Londrina</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/manaus" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Manaus</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/natal" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Natal</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/recife" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Recife</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/ribeirao-preto" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Ribeirão Preto</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/rio-de-janeiro" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Rio de Janeiro - RJ</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/rio-de-janeiro-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Rio de Janeiro - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/salvador" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Salvador</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/sao-jose-dos-campos" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete São José dos Campos</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/sao-paulo" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete São Paulo - SP</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/sao-paulo-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete São Paulo - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/sorocaba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Sorocaba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/uberlandia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Uberlândia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/transporte-frete/vila-velha" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Mudanças - Frete Vila Velha</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="kiwii-bg-white kiwii-border-top-light-gray kiwii-margin-top-large kiwii-clear-both">
+   <div class="kiwii-span-20 kiwii-center-hor">
+    <div id="vs_footer">
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-white">
+      <div class="vs-footer-links">
+       <h3>Vivalocal</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/team" rel="nofollow"> Quem Somos </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact" rel="nofollow"> Fale Conosco </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.w3corporate.com" target="_blank" rel="nofollow"> Site Corporativo </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Ajuda/Informação</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/help" rel="nofollow"> Como Funciona </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/legal" rel="nofollow"> Termos de Uso </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/affiliation" rel="nofollow"> Seja um Afiliado </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact?issue=advertising" rel="nofollow"> Publicidade no Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/warning" style="color:#cc0000;font-weight:bold;" rel="nofollow"> Centro de Segurança </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/how_to_feature_ad_2" rel="nofollow"> Anúncios Destacados </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/cookies" rel="nofollow"> Cookies do Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/policy" rel="nofollow"> Política de Privacidade </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/payment_info" rel="nofollow"> Informações de Pagamento </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Links úteis</h3>
+       <ul class="kiwii-h-list">
+        <li><a class="kiwii-margin-right-xxxsmall" href="http://post.vivalocal.com">Inserir anúncio</a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div id="vs-seo-text"></div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div class="kiwii-font-tiny">
+       Copyright © 2017 Vivalocal - Part of W3 LTD
+      </div>
+      <div class="kiwii-font-tiny">
+       &nbsp;A maior parte das categorias no Vivalocal são gratuitas. No entanto, a fim de assegurar um serviço de qualidade e segurança, algumas categorias exigem uma taxa mínima para postar. Estas taxas vão aparecer claramente antes de você concluir o seu anúncio.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="vs_lb_disclaimer" class="vs-lightbox-content" style="display:none;">
+   <div id="vs_lb_disclaimer_content"></div>
+  </div>
+  <script type="text/javascript"></script>
+  <script type="text/javascript">
+                if( typeof current_data != 'undefined' ) {
+                        current_data.website_options = {"id":"13","domain":"vivalocal.com","name":"Vivastreet Brasil","template":"viwii3","country":"BR","status":"enable","homepage_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - vivalocal","homepage_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","homepage_keywords":"classificados #location#, an\u00fancios classificados Locais #location#, classificados gr\u00e1tis #location#, an\u00fancios #location#, an\u00fancios de venda #location#, classificados de carros #location#, classificados de im\u00f3veis, onde vender, empregos, an\u00fancios pes","homepage_h1":"Classificados #location# \/ An\u00fancios Gr\u00e1tis #location#","homepage_spec":"{\"footer_spec\":{\"text\":[{\"text\":\"O vivalocal Brasil \\u00e9 um site de Classificados Gr\\u00e1tis com mais de 1 000 000 an\\u00fancios e centenas de novos an\\u00fancios publicados diariamente. Aqui, mais gente procura e mais gente acha o que quer, todos os dias. \\r\"},{\"text\":\"Comprar e vender pelo vivalocal \\u00e9 muito r\\u00e1pido e totalmente gr\\u00e1tis. Quer mudar de casa, vender seu carro, achar um emprego ou at\\u00e9 um amor? Clique no mapa e comece a navegar agora!\"}],\"choices\":[],\"defaults\":{\"type1\":\"\",\"location\":\"\",\"display\":\"\"}}}","posting_title":"Publicar An\u00fancios Gr\u00e1tis . Publicar Classificados Gr\u00e1tis | vivalocal.com","posting_desc":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gratis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_keywords":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gr\u00e1tis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_h1":"Publicar An\u00fancios Gr\u00e1tis  \/ Publicar Classificados Gr\u00e1tis ","nocat_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - Vivalocal","nocat_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","nocat_keywords":"","nocat_h1":"An\u00fancios Classificados Gr\u00e1tis #location#","nocat_footer":"","specialzation_type_code":"mais-opcoes","all_results":"classificados","adsense_keywords":"#keyword# #location#","afs_keywords":"Classificados #location#","header_div":"<span style=\"letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;\">An\u00fancios classificados gr\u00e1tis<\/span>","posting_seo_footer":"Publique seus an\u00fancios gr\u00e1tis no vivalocal. \u00c9 F\u00e1cil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e fa\u00e7a neg\u00f3cio rapidamente!","subtemplate":null};            current_data.country_options = {"id":"BR","label":"Brasil","default_language":"pt","timezone":"America\/Sao_Paulo","currency_code":"BRL"};            current_data.is_mobile = false;            current_data.is_search = false;            current_data.page = {"type":"summary","mode":"t"};            current_data.category = {"id":"89","parent":"6","meta_code":"computer","code":"transporte-frete","label":"Mudan\u00e7as - Frete","premium_ads":"no","foreign_only":"block","depth":2,"main_meta_code":"services","tree":[{"id":"6","parent":"0","meta_code":"services","code":"procura-servicos","label":"Servi\u00e7os","premium_ads":"no","foreign_only":"block","depth":1,"main_meta_code":"services"},{"id":"89","parent":"6","meta_code":"computer","code":"transporte-frete","label":"Mudan\u00e7as - Frete","premium_ads":"no","foreign_only":"block","depth":2,"main_meta_code":"services"}],"search_keywords":"Palavras-Chave","disclaimer":false};            current_data.url = {"protocol":"http","fulldomain":"www.vivalocal.com","path":"\/transporte-frete\/br","query":"","fulldomain_stack":["www","vivalocal","com"],"path_stack":["transporte-frete","br"],"query_array":[],"domain":"vivalocal.com","domain_stack":{"prefix":"","site":"vivalocal.com"},"subdomains":"www","subdomain_stack":["www"],"subdomain":"www","root":"http:\/\/www.vivalocal.com\/","pics":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","js":"http:\/\/static.viva-images.com\/templates\/viwii3\/scripts","css":"http:\/\/static.viva-images.com\/templates\/viwii3\/styles","ajax":"http:\/\/www.vivalocal.com\/ajax\/"};        }
+                if( typeof current_config != 'undefined' ) {
+                        current_config.geosearch_settings = {"free_text":false,"multi_drop":true,"drop_max":3,"country_drop":false,"search_type":"B","outer_code_search":"","always_radius":false,"max_geo_depth":3,"separate_main_locations":true};
+                    }
+            </script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/app_b.js?cache=crMbO"></script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/compatibility_b.js?cache=crMbO"></script>
+  <script type="text/javascript">
+    if( typeof $J != 'undefined' ) {
+        $J(document).ready( function() {
+            if( typeof App != 'undefined' ) {
+                App.load();
+            }
+        });
+    }
+    else {
+        if( typeof App != 'undefined'  ) {
+            App.load();
+        }
+    }
+    </script>
+  <!-- adblock start-->
+  <script>var adblockUser="YES";</script>
+  <div id="adblocktest" style="display:none"></div>
+  <script type="text/javascript" src="http://media-eu.viva-images.com/global/advertising.js?nocache=22"></script>
+  <!-- adblock end-->
+  <!-- GTM start -->
+  <script>
+var dataLayer = [{
+"GAtoGTM":false,
+"pageCat":"summary",
+"geo_Summary":"",
+"geo1": "",
+"geo2": "",
+"geo3": "",
+"geo4": "",
+"geo5": "",
+"searchType" :  (0 ) ? 'search' : 'browse',
+"nbrResult" :"4117",
+"kw": "",
+"metaCategory":"services",
+"labelCategory":"Serviços",
+"metaSubCategory":"computer",
+"labelSubCategory":"Mudanças - Frete",
+"metaSubSubCategory":"",
+"labelSubSubCategory":"",
+"adblockUser": (adblockUser),
+"userId":( typeof App != 'undefined' && App !== null ) ? App.Session.data.user_id : 0,
+"userType":( typeof App != 'undefined' && App !== null ) ? App.Session.data.web_usertype : "",
+"userLogged":( ( typeof App != 'undefined' && App !== null ) && App.Session.data.logged_in ) ? 1 : 0
+}]
+</script>
+  <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M7ZFTZ');
+</script>
+  <!-- GTM end -->
+  <!-- fix overlay -->
+  <style>
+.ui-widget-overlay {
+background: #000000;
+opacity: .80;
+z-index:9999;
+position:fixed;
+width:100%;
+overflow: hidden;
+}
+.ui-dialog {
+position:fixed;
+top:30vh;
+}
+.kiwii-column-list li a{
+font-size:11px!important;
+}
+#sas-fixedDiv_3758685{width:230px;right:0;}
+</style>
+  <!-- remove frequency option email alert -->
+  <script>
+function update_alert_box_form_z(){var a=setInterval(function(){void 0!=document.getElementById("alert_frequency_summary")&&(document.getElementById("alert_frequency_summary").checked=!1,document.getElementById("alert_frequency_push").checked=!0,document.getElementById("alert_frequency_summary").parentElement.style.display="none",clearInterval(a))},500)}void 0!=document.getElementsByClassName("tooltip-item")[0]&&document.getElementsByClassName("tooltip-item")[0].setAttribute("onclick","update_alert_box_form_z();"),void 0!=document.getElementById("contact-alertbox")&&document.getElementById("contact-alertbox").setAttribute("onclick","update_alert_box_form_z();");
+</script>
+  <!-- remove frequency option email alert -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cf5e25fd38","applicationID":"6500731","transactionName":"ZwZRZhEDWhdWUBAKDF5McEcQFlsJGEARDg5REUptFwdMEA==","queueTime":0,"applicationTime":613,"atts":"S0FSEFkZSRk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ </body>
+</html>

@@ -1,0 +1,865 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <title>Classificados do Correio Braziliense</title> 
+  <link rel="shortcut icon" type="image/x-icon" href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/favicon.ico"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/144x144.png" rel="apple-touch-icon" sizes="144x144"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/114x114.png" rel="apple-touch-icon" sizes="114x114"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/72x72.png" rel="apple-touch-icon" sizes="72x72"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/57x57.png" rel="apple-touch-icon" sizes="57x57"> 
+  <link rel="stylesheet" href="http://www.classificadoscb.com.br/novo/static/cb/assets/css/compiled/app.css"> 
+  <script>
+        // Base script pj
+        var dimension2Value = '';
+        var locals = {
+            defineSlot: "/6887/portal-correioweb/Classificados-do-cb/capa",
+            idConcatSlot:"div-gpt-ad-1425063238301-",
+            estado : "",
+            site: "classificadoscb",
+            base_dir_dfp: "/6887/portal-correioweb/Classificados-do-cb/"
+        };
+    </script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/analytics.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/publicidade.js"></script> 
+ </head> 
+ <body> 
+  <nav class="nav nav-left" tab-index="-1"> 
+   <button type="button" class="close__button js-nav-close">Fechar</button> 
+   <ul class="user-list js-div_usuario_logado support-nav" style="display:none;"> 
+    <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+     <div class="app-data-user-desc"> 
+      <span class="name js-nome_usuario_logado"></span> 
+      <span class="email js-email_usuario_logado"></span> 
+     </div> </li> 
+    <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+    <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="import js-import-anuncio"><span>Importar anúncio</span></a> </li> 
+    <li><a href="/loja" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+    <li> <a href="/login/logout" title="" class="exit"><span>Sair</span></a> </li> 
+   </ul> 
+   <ul class="user-list support-nav js-div_usuario_deslogado"> 
+    <li><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="signup" title="Cadastrar">Cadastrar</a></li> 
+    <li><a href="#login-now" data-toggle="modal" data-target="#login-now" class="login" title="Entrar">Entrar</a></li> 
+    <li><a href="/loja	" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+   </ul> 
+   <ul class="main__nav"> 
+    <li><a href="/" class="home">Página inicial</a> </li> 
+    <li><a href="/quem-somos" class="quem-somos">Quem Somos</a> </li> 
+    <li><a href="/perguntas-mais-frequentes" class="questions">Dúvidas Frequentes</a> </li> 
+    <li><a href="/fale-conosco" class="contact">Fale conosco</a> </li> 
+    <li><a href="/termos-de-servicos" class="terms-services">Termos de Serviço</a> </li> 
+    <li><a href="/politica-de-privacidade" class="privacity">Política de Privacidade</a> </li> 
+   </ul> 
+  </nav> 
+  <div class="site-overlay" tab-index="-1"></div> 
+  <header class="app-header js-header"> 
+   <div class="container-fluid"> 
+    <div class="row app-header-row"> 
+     <div class="app-header-first-part"> 
+      <button class="btn__navigation js-menu-btn"> <span></span> <span></span> <span></span> </button> 
+      <a href="/" title="Classificados"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-white.png" alt="" class="app-header-brand-white" style="max-width:140px"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-color.png" alt="" class="app-header-brand-color" style="max-width:140px"> </a> 
+     </div> 
+     <nav class="app-header-last-part"> 
+      <ul class="list-inline pull-right app-menu"> 
+       <li class="hidden-xs"> 
+        <!--
+						<a href="" class="open-search" title="Abrir busca"><span>Abrir busca</span></a>
+						--> 
+        <form class="js-search-form" action=""> 
+         <input id="inpBusca" type="text" class="search-full-small js-inpBusca" placeholder="O que você está procurando?"> 
+         <span class="search-full-icon"></span> 
+         <button class="js-btnBusca" type="button" style="height:1px;width:1px;background:transparent;border:0;"></button> 
+        </form> </li> 
+       <li><a href="/anunciar" class="app-btn-no-fill"><span class="hidden-xs">QUERO </span> ANUNCIAR</a></li> 
+       <li class="hidden-xs"> <a href="#" class="help-you"><span>AJUDA</span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li><a href="/quem-somos" class="about" title=""><span>Sobre</span></a></li> 
+         <li><a href="/perguntas-mais-frequentes" class="freq-questions" title=""><span>Dúvidas Frequentes</span></a></li> 
+         <li><a href="/fale-conosco" class="contact-us" title=""><span>Fale conosco</span></a></li> 
+         <li><a href="/termos-de-servicos" class="service-term" title=""><span>Termos de serviço</span></a></li> 
+         <li><a href="/politica-de-privacidade" class="priv-politican" title=""><span>Política de Privacidade</span></a></li> 
+        </ul> </li> 
+       <li class="hidden-xs"> <a href="/planos" title="Seja premium" class="be-premium"><span>PREMIUM</span></a> </li> 
+       <li class="hidden-xs"><a href="/loja" class="shops"><span>LOJAS</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="register"><span>CADASTRE-SE</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#login-now" data-toggle="modal" data-target="#login-now" class="enter"><span>ENTRAR</span></a></li> 
+       <li class="show-is-logged support-nav hidden-xs"> <a href="javascript:void(0)"><span class="js-img_usuario_logado app-data-user-image"></span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+          <div class="app-data-user-desc"> 
+           <span class="name js-nome_usuario_logado"></span> 
+           <span class="email js-email_usuario_logado"></span> 
+          </div> </li> 
+         <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+         <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+         <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+         <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+         <li> <a href="/login/logout" title="Sair" class="exit"><span>Sair</span></a> </li> 
+        </ul> </li> 
+      </ul> 
+     </nav> 
+    </div> 
+   </div> 
+  </header> 
+  <section class="container" style="margin-top: 60px;"> 
+   <div class="row"> 
+    <div class="col-xs-12">
+     <div class="ads"> 
+      <div class="ads__wrapper"> 
+       <div id="publicidade-rasgado-1"> 
+        <script type="text/javascript">
+				var indexformats = window.indexformats || 0;
+				googletag.cmd.push(function() {
+					slotdfp['publicidade-rasgado-1'] = googletag.defineSlot(locals.base_dir_dfp,[728,90],'publicidade-rasgado-1').
+						setSafeFrameConfig({sandbox: (screen.width < 480)}).
+						setTargeting('pos',[(++indexformats).toString()]).
+						setTargeting('identificador','publicidade-rasgado-1').
+						defineSizeMapping( googletag.sizeMapping().
+							addSize([0, 0],   [300,100]).
+							addSize([340, 0], [[320,100],[300,100]]).
+							addSize([488, 0], [[468, 60],[300,100]]).
+							addSize([748, 0], [728, 90]).
+							addSize([992, 0], [[728,90],[970,90],[970,250],[980,250]]).build() ).
+						addService(googletag.pubads());
+					googletag.pubads().collapseEmptyDivs(true);
+					googletag.enableServices();
+				});
+				googletag.cmd.push(function() { googletag.display('publicidade-rasgado-1')});
+			</script> 
+       </div> 
+      </div> 
+     </div>
+    </div> 
+   </div> 
+  </section> 
+  <section class="container gutter-m-15-t g-mobile"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="filter__area"> 
+      <div class="row"> 
+       <div class="col-sm-12 nav-category__content"> 
+        <button type="button" class="filter__category js-open-category" data-target="#js-sidebar-categorias" data-change=".product__area"> Todas as categorias </button> 
+        <section class="sidebar__categories sidebar" id="js-sidebar-categorias"> 
+         <h2 class="sidebar--title">Categorias</h2> 
+         <hr> 
+         <ul class="categories__list" id="js-ul-categorias"> 
+         </ul> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+     <section class="edit__filters"> 
+      <button class="edit__filters--button js-btn-edit-filters">Editar Filtros</button> 
+      <i class="icons-arrow_down"></i> 
+      <select name="" id="" class="edit__filters--select js-sort-ad"> <option value="">Ordenar por...</option> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </section> 
+     <section class="row search__property sidebar" id="js-sidebar-filtros" style="display: none;"> 
+      <a href="#" class="js-arrow-back sidebar--back"> <i class="icons-back_arrow_black"></i> Todas as categorias </a> 
+      <hr> 
+      <h3 class="sidebar--category_title" id="js-nome-categoria"></h3> 
+      <form action="" id="js-form-filter"> 
+       <!-- 		<div class="location__filters js-location-filters">
+	<div class="location__filters--title">
+		<p>Filtros de Localização</p>
+		<span></span>
+	</div>
+	<ul class="location__filters--list js-list-filters">
+		<li data-attribute="aa" data-value="aa">aa</li>
+	</ul>
+</div> --> 
+       <div id="js-div-filtros"></div> 
+      </form> 
+      <button class="edit__filters--button-fixed js-apply-filters">Aplicar filtros</button> 
+     </section> 
+     <!-- TEMPLATES FILTROS --> 
+     <script type="text/x-tmpl" id="tmpl-widget-categoria">
+	{% for (var prop in o.valores) { %}
+		<li class="categories__list--item">
+			<a href="{%=o.url_base%}/anuncio/{%=o.valores[prop].valor%}/">{%=o.valores[prop].name%}</a>
+		</li>
+	{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input">
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="min" data-attribute="area" id="js-area-min" placeholder="m²">
+	</div>
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="max" data-attribute="area" id="js-area-max" placeholder="m²">
+	</div>
+</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input-double">
+{% if (Array.isArray(o) && o.length == 2) { %}
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o[0].titulo%}</label>
+		<input type="text" class="js-input-filter {% if (o[0].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+			data-number="{%=o[0].template.datanumber%}"
+			data-attribute="{%=o[0].template.attribute%}"
+			id="{%=o[0].template.id%}"
+			placeholder="{%=o[0].template.placeholder%}"
+		>
+	</div>
+	{% if (o.length == 2) { %}
+		<div class="half">
+			<label for="">{%=o[1].titulo%}</label>
+			<input type="text" class="js-input-filter {% if (o[1].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+				data-number="{%=o[1].template.datanumber%}"
+				data-attribute="{%=o[1].template.attribute%}"
+				id="{%=o[1].template.id%}"
+				placeholder="{%=o[1].template.placeholder%}"
+			>
+		</div>
+	{% } %}
+</div>
+{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link">
+	<div class="active">
+		<label for="">{%=o.titulo%}</label>
+		<select data-placeholder="{%=o.titulo%}" data-attribute="{%=o.nome%}" id="atributte-{%=o.nome%}" class="chosen-select js-link-filter"
+			{% if(o.hasOwnProperty('disabled')) { %}disabled{% } %}
+			{% if(o.nome in {'cidade': 1, 'situacao_veiculo': 1, 'caracteristicas': 1, 'fabricante': 1, 'modelo_base': 1}) { %}
+				multiple
+			{% } %} tabindex="4"
+		>
+
+		<option value="">Selecione</option>
+
+		{% if(o.hasOwnProperty('pivot')) { %}
+			{% for (var prop in o.valores) { %}
+				<optgroup label="{%=o.valores[prop].name%}">
+					{% for (var prop_filho in o.valores[prop].valor) { %}
+						<option value="{%=o.valores[prop].valor[prop_filho].valor%}">{%=o.valores[prop].valor[prop_filho].name%}</option>
+					{% } %}
+				</optgroup>
+			{% } %}
+		{% } else { %}
+			{% for (var prop in o.valores) { %}
+				<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+			{% } %}
+		{% } %}
+		</select>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link-aberto">
+	<div class="active">
+		<label style="font-size: 14px; font-weight: bold;">
+			{%=o.titulo%}
+		</label>
+		<ul class="most__searched js-check-filter" data-attribute="{%=o.nome%}" style="height: auto; margin-bottom: 15px;">
+			{% for (var prop in o.valores) %}
+				<li class="most__searched--item"
+					data-value="{%=o.valores[prop].valor%}"
+					data-html="{%=o.valores[prop].name%}"
+					style="color: #003e76; cursor: pointer;"
+				>
+					{%=o.valores[prop].name%}&nbsp;<span class="count" style="color: black;">({%=o.valores[prop].total%})</span>
+				</li>
+			{% %}
+		</ul>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-select">
+	<label for="attribute_{%=o.nome%}">{%=o.titulo%}</label>
+	<i class="icons-arrow_down"></i>
+	<select
+		name="attribute_{%=o.nome%}"
+		id="attribute_{%=o.nome%}"
+		data-attribute="{%=o.nome%}"
+		class="js-select-filter"
+	>
+		<option value="">{%=o.titulo%}</option>
+		{% for (var prop in o.valores) %}
+			<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+		{% %}
+	</select>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-selectline">
+	<ul class="buy_or_rent js-check-filter" id="js-negociacao" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) { %}
+			<li class="buy_or_rent--item js-buy-rent" data-value="{%=o.valores[prop].valor%}">
+				<a href="">{%=o.valores[prop].name%}</a>
+			</li>
+		{% } %}
+	</ul>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-ul">
+	<label for=""><b>{%=o.titulo%}</b></label>
+	<ul class="choice__group js-check-filter" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) %}
+			<li class="choice__group--item" data-value="{%=o.valores[prop].valor%}">
+				<button type="button">{%=o.valores[prop].name%}</button>
+			</li>
+		{% %}
+	</ul>
+</script> 
+    </div> 
+    <div class="col-md-9"> 
+     <div class="classifieds__sort"> 
+      <p class="classifieds__sort--imoveis"><span class="js-breadcrumb"></span> <span class="js-total-hits"></span></p> 
+      <i class="icons-arrow_down"></i> 
+      <select class="classifieds__sort--options js-sort-ad" name="" id=""> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </div> 
+     <div id="js-div-list-anuncios"> 
+     </div> 
+     <div id="js-loading" style="padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/loading2.gif" width="50"> 
+      <span style="font-size: 20px;position: relative;top: -18px;">Carregando...</span> 
+     </div> 
+     <div id="js-sem-anuncio" style="display: none; padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <span style="font-size: 20px;">Nenhum anúncio encontrado.</span> 
+     </div> 
+     <div class="row"> 
+      <div class="paginations__bx cf" style="display: none;"> 
+       <a class="prev js-prev-page"> Anterior </a> 
+       <a class="next js-next-page"> Próximo </a> 
+       <div class="pagination__area cf"> 
+        <span>Página</span> 
+        <input id="js-current-page" type="text" value=""> 
+        <span>de <span class="js-total-page"></span></span> 
+        <a id="btn-paginacao" href="javascript:;" class="btn btn__primary js-goto-page" data-num-page="" data-max-page="" data-limit="20"> Ir </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer role="contentinfo" class="footer"> 
+   <div class="footer__p"> 
+    <div class="container"> 
+     <div class="nav__support"> 
+      <ul class="list-inline cf"> 
+       <li class="logged-user hidden-xs"><a href="#login-now" data-toggle="modal" data-target="#login-now" title="Login">Login</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="logged-user hidden-xs"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" title="Cadastre-se">Cadastre-se</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="hidden-xs hidden-sm"><a href="http://www.cbdigital.com.br/" title="CB Digital">CB Digital</a></li> 
+       <li class="hidden-xs hidden-sm">|</li> 
+       <li class="hidden-xs"><a href="http://clubedoassinante.correiobraziliense.com.br/" title="Clube do Assinante">Clube do Assinante</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="https://www2.correiobraziliense.com.br/seguro/digital/assine.php" title="Assine Já">Assine Já</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="/fale-conosco" title="Fale conosco">Fale conosco</a></li> 
+       <li class="pull-right"> 
+        <ul class="list-inline pull-right"> 
+         <li> <a href="http://www.fb.com/correiobraziliense" class="facebook" target="blank" title="Facebook"></a> </li> 
+         <li> <a href="http://www.twitter.com/cbonlinedf" class="twitter" target="blank" title="Twitter"></a> </li> 
+         <!--
+								<li><a href="" class="rss" target="blank" title="RSS"></a></li>
+								--> 
+        </ul> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__s"> 
+    <div class="container margin-top-20  padding-bottom-20"> 
+     <a href="#" title="Expandir Rodapé" class="footer__contentshowhide center-block hidden-md hidden-lg margin-top-15 margin-bottom-25" id="show_hide_footer_mobile"> Abrir menu </a> 
+     <div id="sh_in_tablet_phone" class="hidden-xs hidden-sm"> 
+      <div class="row"> 
+       <div class="col-xs-6 col-sm-3 col-md-2 col-sm-offset-2 col-md-offset-0"> 
+        <ul class="list-unstyled"> 
+         <li> JORNAIS </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/" target="blank" title="Correio Braziliense"> Correio Braziliense </a> </li> 
+         <li> <a href="javascript:void(0)" target="blank" title="Aqui DF"> Aqui DF </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> TELEVISÃO </li> 
+         <li> <a href="http://www.correioweb.com.br/tvbrasilia" target="blank" title="TV Brasília"> TV Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> RÁDIO </li> 
+         <li> <a href="http://www.clube.fm/" target="blank" title="Clube FM"> Clube FM </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> PORTAIS E SITES </li> 
+         <li> <a href="http://www.correioweb.com.br/" target="blank" title="CorreioWeb"> CorreioWeb </a> </li> 
+         <li> <a href="http://www.correiobraziliense.vrum.com.br/" target="blank" title="Vrum"> Vrum </a> </li> 
+         <li> <a href="http://www.correiobraziliense.lugarcerto.com.br/" target="blank" title="Lugar Certo"> Lugar Certo </a> </li> 
+         <li> <a href="http://concursos.correioweb.com.br/" target="blank" title="Concursos"> Concursos </a> </li> 
+         <li> <a href="http://www.df.superesportes.com.br/" target="blank" title="Superesportes"> Superesportes </a> </li> 
+         <li> <a href="http://www.divirtasemais.com.br/" target="blank" title="Divirta-semais"> Divirta-semais </a> </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/euestudante" target="blank" title="Eu, estudante"> Eu, estudante </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> REVISTAS </li> 
+         <li> <a href="http://www.encontrobrasilia.com.br/" target="blank" title="Encontro Brasília"> Encontro Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> OUTRAS EMPRESAS </li> 
+         <li> <a href="http://www.facbrasil.org.br/" target="blank" title="Fundação Assis Chateaubriand"> Fundação Assis Chateaubriand </a> </li> 
+         <li> <a href="http://www.dapress.com.br/" target="blank" title="D.A Press"> D.A Press </a> </li> 
+         <li> <a href="http://www.dalogistica.com.br/" target="blank" title="DALog"> DALog </a> </li> 
+        </ul> 
+       </div> 
+       <a href="http://www.diariosassociados.com.br" target="_blank" title="Diários Associados"> <i class="spr __lgg pull-right  hidden-sm hidden-xs"></i> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__t padding-top-10 padding-bottom-10"> 
+    <div class="container"> 
+     <p class="margin-bottom-0">© Classificados CB 2000 - <span class="year"></span>. todos os direitos reservados.</p> 
+    </div> 
+   </div> 
+  </footer> 
+  <!-- TEMPLATES ANÚNCIOS --> 
+  <script type="text/x-tmpl" id="tmpl-anuncio">
+<div class="classifieds__list">
+	<div class="classifieds__list--item"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1)  { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" alt="" title="" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } else if (
+					o.categoria_slug == 'empregos e formacao profissional' &&
+					(o.subcategoria_slug == 'procura por emprego' || o.subcategoria_slug == 'oferta de emprego')
+				) { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{%=o.subcategoria%} | {%=o.secao%}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 150)%}
+						{% if (o.descricao.length > 150) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <script type="text/x-tmpl" id="tmpl-anuncio-destaque">
+<div class="classifieds__list">
+	<div class="classifieds__list--item classified__highlited"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1) { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--highlighted">Anúncio destaque</span>
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } else if (
+					o.categoria_slug == 'empregos e formacao profissional' &&
+					(o.subcategoria_slug == 'procura por emprego' || o.subcategoria_slug == 'oferta de emprego')
+				) { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{%=o.subcategoria%} | {%=o.secao%}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 80)%}
+						{% if (o.descricao.length > 80) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <div class="modal fade" id="contact-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Contate o anunciante</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="#" id="form-proposta-1"> 
+       <input type="hidden" id="anuncio_id"> 
+       <input type="hidden" id="anuncio_titulo"> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="mensagem"> <span>Mensagem*:</span> <textarea name="" required id="proposta-mensagem-1" rows="5"></textarea> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-nome-1"> <span>Nome*:</span> <input type="text" required id="proposta-nome-1" placeholder="Digite o seu nome"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-email-1"> <span>Email*:</span> <input type="email" required id="proposta-email-1" placeholder="Digite o seu e-mail"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-telefone-1"> <span>Telefone:</span> <input type="text" class="js-numberPhone" id="proposta-telefone-1" placeholder="Digite o seu telefone"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for=""> <button type="submit" class="btn btn__secondary submit js-submit-contato">Enviar mensagem</button> </label> 
+        </fieldset> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="login-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Acesse sua conta</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/login/login_proc" method="post" class="js-login"> 
+       <fieldset> 
+        <label for="#"> <span>E-mail</span> <input type="text" class="js-login-email" name="email_login" placeholder="Digite o seu e-mail" tabindex="1" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="#" class="cf"> <span>Senha</span> <a href="#" class="lose-password" data-toggle="modal" tabindex="4" data-target="#lose-senha">Esqueci a minha senha</a> <input type="password" class="js-login-pass" name="senha_login" placeholder="Digite a sua senha" tabindex="2" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" tabindex="3" value="Entrar"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="lose-senha" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h4 class="modal-title" id="myModalLabel">Esqueci a minha senha</h4> 
+      <p class="modal-subtitle">Digite o endereço de e-mail abaixo e nós enviaremos um link para que você possa criar uma nova senha</p> 
+     </div> 
+     <div class="modal-body"> 
+      <iframe name="login-iframe" width="370" height="160" frameborder="0" src="http://centrallogins.uai.com.br/index.php?acao=esquecisenha"> &lt;script&gt;console.log('funfo');&lt;/script&gt; </iframe> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="register-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Cadastre-se agora</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/cadastro/cadastro_proc" method="post"> 
+       <fieldset> 
+        <label for="nome"> <span>Nome</span> <input name="nome" id="nome" type="text" placeholder="Digite o seu nome" tabindex="4" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="email"> <span>E-mail</span> <input name="email" id="email" type="text" placeholder="Digite o seu e-mail" tabindex="5" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="senha" class="cf"> <span>Senha</span> <input name="senha" id="senha" type="password" placeholder="Digite a sua senha" tabindex="6" required> </label> 
+       </fieldset> 
+       <p>Ao criar uma conta, estou automaticamente aceitando os <a href="/termos-de-servicos">Termos e serviços</a> e a <a href="/politica-de-privacidade">Política de Privacidade</a> do Classificados</p> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" value="Entrar" tabindex="7"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery-3.2.1.min.js"></script> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/bootstrap.min.js"></script> 
+  <script>
+
+	jQuery(document).ready(function() {
+		DesenhaFiltros.init(
+			{"filter_apply": {"categoria": [{"valor_fmt": "Para Sua Casa", "valor": "para-sua-casa", "widget": "categoria"}], "estado": [{"valor_fmt": "DF", "valor": "df", "widget": null}]}, "filter_show": [{"titulo": "Categoria", "widget": "categoria", "ordem": 1, "nome": "categoria", "valores": [{"name": "Im\u00f3veis", "total": 14496, "valor": "imoveis"}, {"name": "Ve\u00edculos", "total": 3113, "valor": "veiculos"}, {"name": "Empregos e Forma\u00e7\u00e3o Profissional", "total": 631, "valor": "empregos-e-formacao-profissional"}, {"name": "Servi\u00e7os Profissionais", "total": 273, "valor": "servicos-profissionais"}, {"name": "Adulto", "total": 160, "valor": "adulto"}, {"name": "Eletr\u00f4nicos e Inform\u00e1tica", "total": 141, "valor": "eletronicos-e-informatica"}, {"name": "Com\u00e9rcio e Neg\u00f3cios", "total": 121, "valor": "comercio-e-negocios"}, {"name": "Turismo e Lazer", "total": 76, "valor": "turismo-e-lazer"}, {"name": "Para Sua Casa", "total": 64, "valor": "para-sua-casa"}, {"name": "Moda e Beleza", "total": 45, "valor": "moda-e-beleza"}, {"name": "Diversos", "total": 26, "valor": "diversos"}, {"name": "Pet", "total": 24, "valor": "pet"}, {"name": "Festas e Eventos", "total": 20, "valor": "festas-e-eventos"}, {"name": "Agricultura e Pecu\u00e1ria", "total": 14, "valor": "agricultura-e-pecuaria"}, {"name": "Beb\u00eas e Crian\u00e7as", "total": 10, "valor": "bebes-e-criancas"}, {"name": "Celulares e Tablets", "total": 10, "valor": "celulares-e-tablets"}, {"name": "M\u00fasica, Arte e Cultura", "total": 7, "valor": "musica-arte-e-cultura"}, {"name": "Esportes", "total": 5, "valor": "esportes"}]}, {"titulo": "Sub-Categoria", "widget": "select", "ordem": 3, "facet": true, "html": true, "nome": "subcategoria", "valores": [{"name": "Decora\u00e7\u00e3o", "total": 7, "valor": "decoracao"}, {"name": "Eletrodom\u00e9sticos e Utens\u00edlios", "total": 12, "valor": "eletrodomesticos-e-utensilios"}, {"name": "Limpeza", "total": 7, "valor": "limpeza"}, {"name": "Materiais de Constru\u00e7\u00e3o", "total": 8, "valor": "materiais-de-construcao"}, {"name": "M\u00f3veis Planejados/Marcenaria", "total": 3, "valor": "moveis-planejados-marcenaria"}, {"name": "M\u00f3veis, Arm\u00e1rios e Estofados", "total": 6, "valor": "moveis-armarios-e-estofados"}, {"name": "Outros (para Sua Casa)", "total": 3, "valor": "outros-(para-sua-casa)"}, {"name": "Piscina", "total": 2, "valor": "piscina"}, {"name": "Plantas e Jardinagem", "total": 1, "valor": "plantas-e-jardinagem"}, {"name": "Servi\u00e7os (para Sua Casa)", "total": 15, "valor": "servicos-(para-sua-casa)"}]}, {"titulo": "Pre\u00e7o Min.", "widget": "input#1", "ordem": 15, "html": true, "filtro_comp": ">=", "template": {"datanumber": "min", "attribute": "preco_min", "id": "js-preco-min", "placeholder": "R$"}, "nome": "preco_min"}, {"titulo": "Pre\u00e7o M\u00e1x.", "widget": "input#2", "ordem": 16, "html": true, "filtro_comp": "<=", "template": {"datanumber": "max", "attribute": "preco_max", "id": "js-preco-max", "placeholder": "R$"}, "nome": "preco_max"}], "results": [{"id": "341190833", "telefones": "06196258052", "secao": "Constru\u00e7\u00e3o", "subcategoria_slug": "servicos para sua casa", "contato": "Manoel Sidemilson Rodrigues Queiroz", "relevancia": 9999999, "dono_nome": "", "descricao": "PEDREIRO COMPLETO Pintura, Ladrilheiro, eletricista hidr\u00e1ulico etc 98499-8350 Manoel", "data_update": "2017-10-13T23:00:03Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-10-18T23:59:00Z", "titulo": "Pedreiro Completo Pintura, Ladrilhe", "data_insercao": "14 de outubro", "subcategoria": "Servi\u00e7os (para Sua Casa)", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341190833/", "data_insercao_h": "14/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341190215", "telefones": "6181379160#6182449771", "imgs": ["/classificados/0/2/7/0273703cc81a1fd8254190637ce91b7a/341190215_170295445", "/classificados/0/2/7/0273703cc81a1fd8254190637ce91b7a/341190215_170295446"], "relevancia": 1199999, "contato": "Ivo Carlos Cruz Bezerra", "dono_image": "http://www.gravatar.com/avatar/1bb586a1df77ecc3920dbafbf2385e8e?s=40&d=mm", "dono_nome": "Ivo Carlos Cruz Bezerra", "dono_email": "ivocarloscruz@gmail.com", "descricao": "Caixas de papel\u00e3o jogadas fora servem de mat\u00e9ria-prima para reuso(caixa recontru\u00edda ou n\u00e3o)e vendas em minhas m\u00e3os. Valor m\u00ednimo a partir de 30 reais(apenas pintada e constru\u00e7\u00e3o de caixa).  Valores aumentam conforme detalhes,que podem ser simples ou mais elaborados(desenhos feitos por mim,com mais de 10 op\u00e7\u00f5es \u00e0 sua escolha,como a caixa da esquerda na imagem ou impressos da Internet,\r\npodendo ser de TIMES, SIGNOS,outros desenhos com ou sem mensagens ou combina\u00e7\u00f5es-consultar ao entrar em contato).Entrega em sua resid\u00eancia ou vir no endere\u00e7o: SRES QUADRA 3 BLOCO H CASA 45 CRUZEIRO VELHO(em frente \u00e0 Aruc e ao lado do Hotel Colonial). 81379160(Whatsapp)", "data_update": "2017-10-13T18:04:03Z", "publicar_contato": "1", "preco": 30.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 2, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-12T23:59:00Z", "titulo": "Caixas de Papel\u00e3o Com Novo Visual \u00c0 Venda", "dono_id": "ppc_usu_3069531", "data_insercao": "13 de outubro", "subcategoria_slug": "decoracao", "subcategoria": "Decora\u00e7\u00e3o", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/0/2/7/0273703cc81a1fd8254190637ce91b7a/341190215_170295445_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/0/2/7/0273703cc81a1fd8254190637ce91b7a/341190215_170295446_n.jpg"], "preco_fmt": "R$ 30,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341190215/", "link_loja": "http://classificadoscb.com.br/loja/u3069531/", "data_insercao_h": "13/10/2017", "destaque": 0}, {"id": "341176494", "telefones": "06133616373", "subcategoria_slug": "materiais de construcao", "contato": "Destak Pedras", "relevancia": 9999999, "dono_nome": "", "descricao": "DESTAK PEDRA GRANITO PROMO\u00c7\u00c3O verde ubatuba R$160,00. Tr. 3375-6081/ 99432-3177", "data_update": "2017-10-11T23:01:05Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-11-05T23:59:00Z", "titulo": "Destak Pedra Granito Promo\u00e7\u00e3o Verde", "data_insercao": "12 de outubro", "subcategoria": "Materiais de Constru\u00e7\u00e3o", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341176494/", "data_insercao_h": "12/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341176495", "telefones": "06136272467", "secao": "Constru\u00e7\u00e3o", "subcategoria_slug": "servicos para sua casa", "contato": "Jms Servico de Mao de Obra Ltda", "relevancia": 9999999, "dono_nome": "", "descricao": "CONSTRU\u00c7\u00c3O E REFORMA da funda\u00e7\u00e3o ao acabamento com m\u00e3o de obra e material. Pre\u00e7o e pagamento a combinar. Cobrimos or\u00e7amento. Atendo DF e entorno 24 horas (61) 3434-4578", "data_update": "2017-10-11T23:01:05Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-11-05T23:59:00Z", "titulo": "Constru\u00e7\u00e3o e Reforma da Funda\u00e7\u00e3o Ao", "data_insercao": "12 de outubro", "subcategoria": "Servi\u00e7os (para Sua Casa)", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341176495/", "data_insercao_h": "12/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341176496", "telefones": "06196230624", "secao": "Constru\u00e7\u00e3o", "subcategoria_slug": "servicos para sua casa", "contato": "Jose Francisco Alves da Silva", "relevancia": 9999999, "dono_nome": "", "descricao": "PEDREIRO PROFISSIONAL 15anos DF experi\u00eancia cer\u00e2mica porcelanato granito bombeiro hidr coloca\u00e7\u00e3o de banheira Francisco \u00f3t.refer\u00eanc c/experi\u00eanc em Projetos 3371-8119/98362-7931/99245-0521", "data_update": "2017-10-11T23:01:06Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-10-17T23:59:00Z", "titulo": "Pedreiro Profissional 15anos Df Exp", "data_insercao": "12 de outubro", "subcategoria": "Servi\u00e7os (para Sua Casa)", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341176496/", "data_insercao_h": "12/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341176497", "telefones": "06192453259", "secao": "Po\u00e7os Artesianos", "subcategoria_slug": "servicos para sua casa", "contato": "Virgilio de Assis da Silva", "relevancia": 9999999, "dono_nome": "", "descricao": "FURA-SE PO\u00c7OS Artesiano e semi-artesiano e limpa-se po\u00e7os 24 horas. Tr: 99245-3259 99639-3241", "data_update": "2017-10-11T23:01:06Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-10-21T23:59:00Z", "titulo": "Fura-se Po\u00e7os Artesiano e Semi-arte", "data_insercao": "12 de outubro", "subcategoria": "Servi\u00e7os (para Sua Casa)", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341176497/", "data_insercao_h": "12/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341160958", "telefones": "061982262566", "secao": "Arm\u00e1rios", "subcategoria_slug": "moveis armarios e estofados", "contato": "Renata Cristina Moura Chupel", "relevancia": 9999999, "dono_nome": "", "descricao": "GARAGE SALE ROUPAS DE MARCAS brinquedos, eletro dom\u00e9sticos e muito mais. Venha conferir. Sal\u00e3o de festas do Bloco J da Quadra 402 da Asa Norte, dias 12, 13 e 14/10, das 09h \u00e0s 18h. F: 98226-2566", "data_update": "2017-10-09T23:00:03Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-10-16T23:59:00Z", "titulo": "Garage Sale Roupas de Marcas Brinqu", "data_insercao": "11 de outubro", "subcategoria": "M\u00f3veis, Arm\u00e1rios e Estofados", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341160958/", "data_insercao_h": "11/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341175117", "telefones": "61992339003#61992339003", "imgs": ["/classificados/c/a/1/ca1a0cef144df00bda395025daffdcc8/341175117_170238401", "/classificados/c/a/1/ca1a0cef144df00bda395025daffdcc8/341175117_170238402"], "secao": "Estantes e Racks", "subcategoria_slug": "moveis armarios e estofados", "contato": "S\u00e9rgio", "relevancia": 1199999, "dono_nome": "S\u00e9rgio", "preco": 800.0, "dono_email": "marcia.sergiofranca@hotmail.com", "descricao": "Estante em madeira. Medindo 1,95m de altura.\r\nAceito oferta. Retirar no local.", "data_update": "2017-10-11T13:33:42Z", "subcategoria": "M\u00f3veis, Arm\u00e1rios e Estofados", "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 2, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-10T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/4a6d58496576b440fc2a3cf45d3e4f94?s=40&d=mm", "titulo": "Estante", "dono_id": "ppc_usu_341175116", "data_insercao": "11 de outubro", "publicar_contato": "1", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/c/a/1/ca1a0cef144df00bda395025daffdcc8/341175117_170238401_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/a/1/ca1a0cef144df00bda395025daffdcc8/341175117_170238402_n.jpg"], "preco_fmt": "R$ 800,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341175117/", "link_loja": "http://classificadoscb.com.br/loja/u341175116/", "data_insercao_h": "11/10/2017", "destaque": 0}, {"id": "341170601", "telefones": "6181379160#6182449771", "imgs": ["/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213747", "/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213749", "/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213752"], "relevancia": 1199999, "contato": "Ivo Carlos Cruz Bezerra", "dono_image": "http://www.gravatar.com/avatar/1bb586a1df77ecc3920dbafbf2385e8e?s=40&d=mm", "dono_nome": "Ivo Carlos Cruz Bezerra", "dono_email": "ivocarloscruz@gmail.com", "descricao": "Usando caixas de leite grande ou outras caixas maiores, confecciono e vendo novas caixas para uso. A caixa da foto est\u00e1 j\u00e1 \u00e0 venda por 40 reais.Para aqueles que doarem e quiserem uma,sai a 30. Tenho mais de 10 desenhos diferentes \u00e0 seu gosto para montar como quiser sua caixa. Contato para entrega de caixa e escolha de desenhos:81379160(whatsapp)", "data_update": "2017-10-10T18:32:02Z", "publicar_contato": "1", "preco": 40.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 3, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-09T23:59:00Z", "titulo": "Doe Caixas Usadas e Ganhe Desconto Na Compra ", "dono_id": "ppc_usu_3069531", "data_insercao": "10 de outubro", "subcategoria_slug": "decoracao", "subcategoria": "Decora\u00e7\u00e3o", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213747_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213749_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/5/f/c/5fcc3ca25fb80293cc78bbdcdba29a59/341170601_170213752_n.jpg"], "preco_fmt": "R$ 40,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341170601/", "link_loja": "http://classificadoscb.com.br/loja/u3069531/", "data_insercao_h": "10/10/2017", "destaque": 0}, {"id": "341119538", "telefones": "06141018734", "secao": "Arm\u00e1rios", "subcategoria_slug": "moveis armarios e estofados", "contato": "Luiz Alberto Araujo Barbosa", "relevancia": 9999999, "dono_nome": "", "descricao": "COMPRO M\u00d3VEIS Aceito doa\u00e7\u00f5es de tudo3272-0371 99613-2331 Zap", "data_update": "2017-10-05T23:01:05Z", "categoria": "Para Sua Casa", "estado": "DF", "categoria_slug": "para sua casa", "data_expiracao": "2017-11-05T23:59:00Z", "titulo": "Compro M\u00f3veis Aceito Doa\u00e7\u00f5es de Tud", "data_insercao": "08 de outubro", "subcategoria": "M\u00f3veis, Arm\u00e1rios e Estofados", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "dono_image": "", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341119538/", "data_insercao_h": "08/10/2017", "dono_email": "", "link_loja": "", "destaque": 0}, {"id": "341130685", "telefones": "61985797097#61985797097", "imgs": ["/classificados/6/9/5/69565142badf5ee2a398b47c91d87631/341130685_170126750"], "relevancia": 1199999, "contato": "Fabiana", "dono_image": "http://www.gravatar.com/avatar/d3af04083b97eb4447155ae055f10745?s=40&d=mm", "dono_nome": "Fabiana", "dono_email": "faby2128@hotmail.com", "descricao": "Ofere\u00e7o meu trabalho como diarista, tenho refer\u00eancias e nada consta.\r\nAtividades:\r\nLavar roupas, passar roupas, varrer, limpar \u00e1rea externa e interna, espelhos, vidros, m\u00f3veis lavar lou\u00e7as, separar e ensacar lixo, limpar banheiro e janelas.", "data_update": "2017-10-07T23:56:03Z", "publicar_contato": "1", "preco": 150.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-06T23:59:00Z", "titulo": "Diarista Para \u00c1guas Claras e Taguatinga", "dono_id": "ppc_usu_340886434", "data_insercao": "07 de outubro", "subcategoria_slug": "limpeza", "subcategoria": "Limpeza", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/6/9/5/69565142badf5ee2a398b47c91d87631/341130685_170126750_n.jpg"], "preco_fmt": "R$ 150,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341130685/", "link_loja": "http://classificadoscb.com.br/loja/u340886434/", "data_insercao_h": "07/10/2017", "destaque": 0}, {"id": "341130100", "telefones": "62993022690#62993022690", "imgs": ["/classificados/1/1/2/112bc649f5416b90de9b9294c63afe62/341130100_170126109"], "relevancia": 1999999, "contato": "Divino C. Matias", "dono_image": "", "dono_nome": "", "dono_email": "", "descricao": "Ag\u00eancia Interior oferece Dom\u00e9sticas com refer\u00eancias para dormir.\r\n62 3315 6946 ou Zap. 62 99302 2690.", "data_update": "2017-10-07T17:23:02Z", "subcategoria": "Outros (para Sua Casa)", "preco": 0.0, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-06T23:59:00Z", "titulo": "Dom\u00e9sticas Para Dormir.", "dono_id": "ppc_usu_341130099", "data_insercao": "07 de outubro", "subcategoria_slug": "outros para sua casa", "publicar_contato": 0, "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/1/1/2/112bc649f5416b90de9b9294c63afe62/341130100_170126109_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341130100/", "link_loja": "", "data_insercao_h": "07/10/2017", "destaque": 0}, {"id": "341130684", "telefones": "61985797097#61985797097", "imgs": ["/classificados/6/f/9/6f93c197cf0b89795ed844414a9f1bdb/341130684_170126749"], "relevancia": 1199999, "contato": "Fabiana", "dono_image": "http://www.gravatar.com/avatar/d3af04083b97eb4447155ae055f10745?s=40&d=mm", "dono_nome": "Fabiana", "dono_email": "faby2128@hotmail.com", "descricao": "Tenho nada consta, refer\u00eancia e trabalho com muita responsabilidade amor e carinho com as casas dos meus clientes, cuido como se fosse a minha pr\u00f3pria casa, confi\u00e1vel e dedicada.\r\nAtividades:\r\nLavar roupas\r\nVarrer \r\nLimpeza \u00e1rea externa\r\nLimpar vidros e espelhos\r\nPassar roupas\r\nLimpar m\u00f3veis, quartos, cozinha, banheiro e janelas\r\nLavar lou\u00e7as\r\nSeparar e ensacar o lixo\r\n\r\n\r\n ", "data_update": "2017-10-09T08:52:03Z", "publicar_contato": "1", "preco": 150.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-06T23:59:00Z", "titulo": "Diarista Para \u00c1guas Claras e Taguatinga", "dono_id": "ppc_usu_340886434", "data_insercao": "07 de outubro", "subcategoria_slug": "limpeza", "subcategoria": "Limpeza", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/9/6f93c197cf0b89795ed844414a9f1bdb/341130684_170126749_n.jpg"], "preco_fmt": "R$ 150,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341130684/", "link_loja": "http://classificadoscb.com.br/loja/u340886434/", "data_insercao_h": "07/10/2017", "destaque": 0}, {"id": "341126341", "telefones": "61992001734#61992001734", "imgs": ["/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100051", "/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100049", "/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100050", "/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100052", "/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100053", "/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100055"], "secao": "Outros", "publicar_contato": "1", "contato": "Val Filtros", "relevancia": 1199999, "dono_nome": "Val Filtros", "dono_email": "valfiltros7@gmail.com", "descricao": "Vendo bebedouro de mesa gal\u00e3o IBBL Compact.\r\nAparelho novo com sistema de refrigera\u00e7\u00e3o por compressor 220V, oferece \u00e1gua natural e gelada,  possui termostato para regulagem da temperatura da \u00e1gua gelada, \u00f3timo aparelho para uso residencial e comercial.\r\nEntrega imediata.\r\nContato: 61 3629-6803/98151-6690 whatsapp\r\nAdriano.\r\nVisite nosso site: www.valfiltrosloja.com", "data_update": "2017-10-06T19:15:02Z", "preco": 500.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 6, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-05T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/399a5ed534b7dfb87f25d4271e750c71?s=40&d=mm", "titulo": "Bebedouro Ibbl Compact", "dono_id": "ppc_usu_340667672", "data_insercao": "06 de outubro", "subcategoria_slug": "eletrodomesticos e utensilios", "subcategoria": "Eletrodom\u00e9sticos e Utens\u00edlios", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100051_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100049_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100050_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100052_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100053_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/2/f/92fae27abe8a8892892f5ea79262268a/341126341_170100055_n.jpg"], "preco_fmt": "R$ 500,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341126341/", "link_loja": "http://classificadoscb.com.br/loja/u340667672/", "data_insercao_h": "06/10/2017", "destaque": 0}, {"id": "340667673", "telefones": "61992001734#61992001734", "imgs": ["/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013942", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013943", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013944", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013945", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013946", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013947", "/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169014834"], "secao": "Outros", "publicar_contato": "1", "contato": "Adriano Sousa", "relevancia": 1199999, "dono_nome": "Val Filtros", "dono_email": "valfiltros7@gmail.com", "descricao": "Vendo purificador de \u00e1gua refrigerado IBBL Evolux.\r\nAparelho novo na caixa com nota, sistema de refrigera\u00e7\u00e3o por compressor 220V (gela bem) refil 7 est\u00e1gios de purifica\u00e7\u00e3o com a\u00e7\u00e3o bacteriol\u00f3gica, oferece \u00e1gua em 3 temperaturas diferentes, Natural, Gelada e Misturada, bica m\u00f3vel para encher jarras e garrafas, Led indicador da troca do refil, modo de instala\u00e7\u00e3o parede ou balc\u00e3o. Principais aplica\u00e7\u00f5es: Resid\u00eancias e pequenos com\u00e9rcios como: salas comercias, escrit\u00f3rios, clinicas etc.\r\nDispon\u00edvel nas cores preto e prata.\r\nContato: 61 3629-6803/98151-6690 whatsapp.\r\n Adriano\r\nNosso Site: www.valfiltrosloja.com ", "data_update": "2017-10-06T19:19:02Z", "preco": 890.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 7, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-05T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/399a5ed534b7dfb87f25d4271e750c71?s=40&d=mm", "titulo": "Purificador de \u00c1gua Refrigerado Ibbl Evolux.", "dono_id": "ppc_usu_340667672", "data_insercao": "06 de outubro", "subcategoria_slug": "eletrodomesticos e utensilios", "subcategoria": "Eletrodom\u00e9sticos e Utens\u00edlios", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013942_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013943_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013944_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013945_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013946_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169013947_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/c/3/5/c357b02e18a253aebab1ffc85b305bf6/340667673_169014834_n.jpg"], "preco_fmt": "R$ 890,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/340667673/", "link_loja": "http://classificadoscb.com.br/loja/u340667672/", "data_insercao_h": "06/10/2017", "destaque": 0}, {"id": "323589719", "telefones": "11994279712#1194427512", "imgs": ["/classificados/5/d/8/5d81276d9b0461d519764592b9fe052f/323589719_163052561"], "secao": "Lavadouras, Secadoras e Lava-lou\u00e7as", "subcategoria_slug": "eletrodomesticos e utensilios", "relevancia": 1999999, "contato": "Sergio Tadeu", "dono_image": "http://www.gravatar.com/avatar/641629d166fa1a81559159dcacf78db1?s=40&d=mm", "dono_nome": "Sergio Tadeu", "dono_email": "rendajusta@bol.com.br", "descricao": "Conserto  de M\u00e1quinas de Lavar Roupas\r\nGama Oeste -  (Whats) 61-98480-3805  \r\nAssist\u00eancia T\u00e9cnica Especializada em M\u00e1quinas de lavar roupas, Geladeiras, Micro Ondas, etc. Brastemp, Eletrolux, Lg, consul e outras. Or\u00e7amentos Sem Compromisso. Regi\u00e3o do Gama, Novo Gama e arredores.  (61) 9.8480-3805 Whatsaap  ou  99559-9508- T\u00e9cnicos Formadas Pelos Fabricantes Ligue Agora !! (Setor Oeste)  Cep-72420-310  rildo.barbosa@hotmail.com\r\n", "data_update": "2017-10-05T18:22:03Z", "publicar_contato": "1", "preco": 0.0, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-04T23:59:00Z", "titulo": "Maquinas de Lavar Roupas", "dono_id": "ppc_usu_3012200", "data_insercao": "05 de outubro", "subcategoria": "Eletrodom\u00e9sticos e Utens\u00edlios", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/5/d/8/5d81276d9b0461d519764592b9fe052f/323589719_163052561_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/323589719/", "link_loja": "http://classificadoscb.com.br/loja/u3012200/", "data_insercao_h": "05/10/2017", "destaque": 0}, {"id": "341118880", "telefones": "62985633937#62985633937", "imgs": ["/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046104", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046102", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046105", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046106", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046107", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046108", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046110", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046111", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046112", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046113", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046115", "/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046116"], "publicar_contato": "1", "contato": "Fabiano Pires", "relevancia": 1199999, "dono_nome": "Fabiano Pires", "dono_email": "cpm.fabiano@gmail.com", "descricao": "Tijolo Furado Baiano - Bloco Cer\u00e2mico - Tijolo tipo Premium feito nos melhores padr\u00f5es de qualidade, na \u00fanca cer\u00e2mica que tem o certificado do INMetro. \r\nTijolos na mistura correta do barro, nas especifica\u00e7\u00f5es e medidas exatas, queimados na temperatura ideal e no tempo adequado para a vidrifica\u00e7\u00e3o do barro.\r\nMedidas de Tijolos:\r\nCanaleta Cer\u00e2mica 09x14x29\r\nCanaleta Cer\u00e2mica 09x19x29\r\nCanaleta Cer\u00e2mica 11,5x19x29\r\nBloco Estrutural 14x19x29\r\nTijolo Furado Baiano 09x14x29\r\nTijolo Furado Baiano 09x19x19\r\nTijolo Furado Baiano 09x19x29\r\nTijolo Furado Baiano 11,5x19x19\r\nTijolo Furado Baiano 11,5x19x29\r\nTijolo Furado Baiano 14x19x29\r\nTijolo Furado Baiano 19x19x19\r\nTijolo Furado Baiano 19x19x29\r\n\r\nCanaleta Cer\u00e2mica 09x14x29, Canaleta Cer\u00e2mica 09x19x29, Canaleta Cer\u00e2mica 11,5x19x29, Bloco Estrutural 14x19x29, Tijolo Furado Baiano 09x14x29, Tijolo Furado Baiano 09x19x19, Tijolo Furado Baiano 09x19x29, Tijolo Furado Baiano 11,5x19x19, Tijolo Furado Baiano 11,5x19x29, Tijolo Furado Baiano 14x19x29, Tijolo Furado Baiano 19x19x19, Tijolo Furado Baiano 19x19x29\r\n\r\nO Melhor Tijolo de Goi\u00e1s, fornecedor das grandes construtoras em Goi\u00e1s e no Brasil.\r\n**Venda Somente Carga Fechada**\r\n\r\nObs: Verifique o pre\u00e7o na tabela e carga m\u00ednima.", "data_update": "2017-10-05T12:01:03Z", "preco": 450.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 12, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-04T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/1bcd6da29f56d76d337499c1f43a8b30?s=40&d=mm", "titulo": "Tijolo Furado Baiano Ou Bloco Cer\u00e2mico - Tijolo de Barro - Tijolos Cer\u00e2micos", "dono_id": "ppc_usu_87116", "data_insercao": "05 de outubro", "subcategoria_slug": "materiais de construcao", "subcategoria": "Materiais de Constru\u00e7\u00e3o", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046104_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046102_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046105_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046106_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046107_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046108_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046110_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046111_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046112_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046113_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046115_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/6/f/7/6f7e951d9a463855f265a7b8393aef06/341118880_170046116_n.jpg"], "preco_fmt": "R$ 450,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341118880/", "link_loja": "http://classificadoscb.com.br/loja/u87116/", "data_insercao_h": "05/10/2017", "destaque": 0}, {"id": "341115599", "telefones": "61981510147#61995571797", "secao": "Outros", "publicar_contato": "1", "subcategoria_slug": "moveis armarios e estofados", "relevancia": 9999999, "contato": "Sueli", "dono_image": "http://www.gravatar.com/avatar/51dd40f19f3d8ca0b304ce3f4a4250ce?s=40&d=mm", "dono_nome": "Sueli", "dono_email": "suefaria3@gmail.com", "descricao": "arm\u00e1rios, cadeiras, c\u00f3modas, aparador, ventiladores, tapete, roupas, bolsas, vasos, 2 racks com pain\u00e9is, \r\nescrivaninhas, duas camas de casal (pe\u00e7as de antiqu\u00e1rio).", "data_update": "2017-10-04T21:37:05Z", "preco": 0.0, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "dono_id": "ppc_usu_341115598", "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-03T23:59:00Z", "titulo": "Garage Salle", "data_insercao": "04 de outubro", "subcategoria": "M\u00f3veis, Arm\u00e1rios e Estofados", "fotos_formatadas": ["http://classificadoscb.com.br/static/base/assets/imgs/sem-imagem.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341115599/", "link_loja": "http://classificadoscb.com.br/loja/u341115598/", "data_insercao_h": "04/10/2017", "destaque": 0}, {"id": "341115119", "telefones": "61985947504#61985947504", "imgs": ["/classificados/c/8/1/c816e0ea8cbff44321d334a547deb5b5/341115119_169961607"], "relevancia": 1199999, "contato": "Gilvana Pereira de Castro", "dono_image": "http://www.gravatar.com/avatar/249728cc56be631efd17042951219616?s=40&d=mm", "dono_nome": "Gilvana Pereira de Castro", "dono_email": "geovanacastr@gmail.com", "descricao": "Pastilha 30x30", "data_update": "2017-10-04T14:29:03Z", "publicar_contato": "1", "preco": 18.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-03T23:59:00Z", "titulo": "Pastilha ", "dono_id": "ppc_usu_341115107", "data_insercao": "04 de outubro", "subcategoria_slug": "materiais de construcao", "subcategoria": "Materiais de Constru\u00e7\u00e3o", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/c/8/1/c816e0ea8cbff44321d334a547deb5b5/341115119_169961607_n.jpg"], "preco_fmt": "R$ 18,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341115119/", "link_loja": "http://classificadoscb.com.br/loja/u341115107/", "data_insercao_h": "04/10/2017", "destaque": 0}, {"id": "341095112", "telefones": "61994494664#61994494664", "imgs": ["/classificados/9/6/0/960d8cc06c05196c0579b305bd178d53/341095112_169870013", "/classificados/9/6/0/960d8cc06c05196c0579b305bd178d53/341095112_169870014"], "secao": "Estantes e Racks", "subcategoria_slug": "moveis armarios e estofados", "relevancia": 1199999, "contato": "Lindomar Viana", "dono_image": "", "dono_nome": "", "dono_email": "", "descricao": "Estante em a\u00e7o com 6 Prateleiras em \u00f3timo estado de conserva\u00e7\u00e3o.\r\n", "data_update": "2017-10-02T14:27:04Z", "publicar_contato": 0, "preco": 150.0, "publicar_preco": 1, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 2, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-12-01T23:59:00Z", "titulo": "Estante em A\u00e7o", "dono_id": "ppc_usu_341095091", "data_insercao": "02 de outubro", "subcategoria": "M\u00f3veis, Arm\u00e1rios e Estofados", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/9/6/0/960d8cc06c05196c0579b305bd178d53/341095112_169870013_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/6/0/960d8cc06c05196c0579b305bd178d53/341095112_169870014_n.jpg"], "preco_fmt": "R$ 150,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341095112/", "link_loja": "", "data_insercao_h": "02/10/2017", "destaque": 0}], "page_info": {"total_hits": "64", "total_pages": 4, "current_page": 1, "hits_page": 20, "limit": 20, "offset": 0, "orderby": "mais-recentes", "breadcrumb": "Todos os an\u00fancios de Para Sua Casa"}},
+			"http://www.classificadoscb.com.br",
+			"http://www.classificadoscb.com.br/app/enviar_proposta_anuncio"
+		);
+
+		jQuery( window ).resize(function(e) {
+			DesenhaFiltros.modifica_estado_itens(e);
+		});
+	});
+
+	function formata_descricao(descricao) {
+		if (descricao.length > 150) {
+			return descricao.slice(0, 150) + " ...";
+		} else {
+			return descricao
+		}
+	}
+
+	var list;
+	var current;
+	var dimension2Value = '';
+
+	// Verifying buttons status
+	function verifyButtons(e) {
+		if (current <= 0) {
+			e.parent().find('.prev-img').attr("disabled", "disabled");
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().addClass('first');
+		}else if((current + 1) >= list.length){
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", "disabled");
+			e.parent().addClass('last');
+		}else{
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().removeClass('first');
+			e.parent().removeClass('last');
+		}
+	}
+
+	// Changing image
+	function changeImage(e) {
+		current = e.parent().data('current');
+		if (e.hasClass('next-img')) {
+			current++;
+			e.parent().data('current', current);
+		} else {
+			current--;
+			e.parent().data('current', current);
+		}
+		list = e.parent().siblings('.image__list').data('images');
+		if (typeof(list[current]) !== 'undefined') {
+			e.parent().css("background-image", "url("+list[current]+")");
+			e.parent().fadeIn(300);
+		}
+	}
+</script> 
+  <!-- SCRIPTS --> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.cookie.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/modernizr.2.6.2.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/moment-with-locales.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/tmpl.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/header-fix.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/nav-master.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/menu-category.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer-time.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery.hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/tab-sidebar.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/send-filters.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/chosen.jquery.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/dev.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.mask.min.js"></script>  
+ </body>
+</html>

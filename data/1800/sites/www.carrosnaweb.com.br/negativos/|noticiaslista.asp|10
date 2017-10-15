@@ -1,0 +1,301 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"> 
+  <link rel="canonical" href="http://www.carrosnaweb.com.br/noticiaslista.asp"> 
+  <title>Notícias de carros do Brasil</title> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <style>
+.bordaBox {bbackground: ttransparent; width:30%;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {display:block; overflow:hidden; font-size:1px;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {height:1px;}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 {background:#efefef; border-left:1px solid #999; border-right:1px solid #999;}
+.bordaBox .b1 {margin:0 5px; background:#999;}
+.bordaBox .b2 {margin:0 3px; border-width:0 2px;}
+.bordaBox .b3 {margin:0 2px;}
+.bordaBox .b4 {height:2px; margin:0 1px;}
+.bordaBox .conteudo {padding:5px;display:block; background:#efefef; border-left:1px solid #999; border-right:1px solid #999;}
+</style> 
+ </head>
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5">
+  <div id="fb-root"></div> 
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script> 
+  <script type="text/javascript">
+window.___gcfg = {lang: 'pt-br'};
+(function() 
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();</script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script>   
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+   <tbody>
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br> 
+      <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+       <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+       <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+      </form> </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+   </tbody>
+  </table> 
+  <table width="980" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="White"> 
+   <tbody>
+    <tr> 
+     <form action="noticiaslista.asp" method="post" id="form1" name="form1" onsubmit="var result=checaform1(); return result;"></form> 
+     <td bgcolor="darkkhaki" colspan="2" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="default.asp"><font color="white">Página Principal</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="videos.asp"><font color="white">Vídeos</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="classificados.asp"><font color="white">Classificados</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="analiseindice.asp"><font color="white">Avaliação</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="avancada.asp"><font color="white">Catálogo</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="compara.asp"><font color="white">Comparativo</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="opiniao.asp"><font color="white">Opinião do Dono</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="ranking.asp"><font color="white">Rankings</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="faleconosco.asp"><font color="white">Fale Conosco</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+    <tr> 
+     <td align="center" height="150" colspan="4" bgcolor="White"> 
+      <!-- Noticias-banner-topo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322145,
+    "async": false});
+</script> </td>
+     <td> </td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="5" cellspacing="0" width="980" align="center"> 
+   <tbody>
+    <tr> 
+     <td colspan="1" align="left" bgcolor="#ffffff" valign="top"> <font size="1" face="arial" color="darkred"> 
+       <table width="100%" border="0" cellpadding="5"> 
+        <tbody>
+         <tr> 
+          <td> <font style="font-size: 12px;" face="arial"> <a href="default.asp"><u><font color="gray">Página Principal</font></u></a><font color="gray"> &gt; <a href="noticiaslista.asp"><u><font color="gray">Notícias</font></u></a><font color="gray"> </font></font></font></td> 
+          <td align="right"> <font size="2" color="gray">&nbsp;Compartilhe: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/noticiaslista.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta página"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/noticiaslista.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Noticias%20de%20carros%20no%20Brasil%20http://www.carrosnaweb.com.br/noticiaslista.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/noticiaslista.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> </font></td> 
+         </tr> 
+         <tr> 
+          <td> <font face="arial" color="darkred"> <h2>Notícias</h2> </font></td> 
+          <td align="center"> 
+           <div class="bordaBox" style="width:250px;"> 
+            <b class="b1"></b>
+            <b class="b2"></b>
+            <b class="b3"></b>
+            <b class="b4"></b> 
+            <div class="conteudo" style="height:55px;"> 
+             <table border="0" align="center"> 
+              <tbody>
+               <tr>  
+                <td align="right"><font face="arial" size="2" color="darkred"><b>Fabricante</b></font></td> 
+                <td align="left"> <select name="fabricante" onchange="javascript:document.location='noticiaslista.asp?fabricante='+form1.fabricante.value" id="fabricante"> <option value="">Selecione</option> <option value="Agrale">Agrale</option> <option value="Audi">Audi</option> <option value="Bentley">Bentley</option> <option value="BMW">BMW</option> <option value="Changan">Changan</option> <option value="Chery">Chery</option> <option value="Chevrolet">Chevrolet</option> <option value="Chrysler">Chrysler</option> <option value="Citroen">Citroen</option> <option value="Dafra">Dafra</option> <option value="Dodge">Dodge</option> <option value="Effa">Effa</option> <option value="Fenabrave">Fenabrave</option> <option value="Ferrari">Ferrari</option> <option value="Fiat">Fiat</option> <option value="Ford">Ford</option> <option value="Geely">Geely</option> <option value="Hafei">Hafei</option> <option value="Haima">Haima</option> <option value="Harley-Davidson">Harley-Davidson</option> <option value="Honda">Honda</option> <option value="Hyundai">Hyundai</option> <option value="Inmetro">Inmetro</option> <option value="Iveco">Iveco</option> <option value="JAC">JAC</option> <option value="Jaguar">Jaguar</option> <option value="Jeep">Jeep</option> <option value="Jinbei">Jinbei</option> <option value="Kasinski">Kasinski</option> <option value="Kawasaki">Kawasaki</option> <option value="Kia">Kia</option> <option value="KTM">KTM</option> <option value="Lamborghini">Lamborghini</option> <option value="Land Rover">Land Rover</option> <option value="Latin NCAP">Latin NCAP</option> <option value="Lexus">Lexus</option> <option value="Lifan">Lifan</option> <option value="Lotus">Lotus</option> <option value="Maserati">Maserati</option> <option value="Mercedes-Benz">Mercedes-Benz</option> <option value="MG">MG</option> <option value="Mini">Mini</option> <option value="Mitsubishi">Mitsubishi</option> <option value="Motor Z                      ">Motor Z </option> <option value="Nissan                                            ">Nissan </option> <option value="Peugeot">Peugeot</option> <option value="Porsche">Porsche</option> <option value="Recall">Recall</option> <option value="Rely">Rely</option> <option value="Renault">Renault</option> <option value="Rolls-Royce">Rolls-Royce</option> <option value="Smart">Smart</option> <option value="Spyker">Spyker</option> <option value="SsangYong">SsangYong</option> <option value="Subaru">Subaru</option> <option value="Suzuki">Suzuki</option> <option value="TAC">TAC</option> <option value="Tata">Tata</option> <option value="Toyota">Toyota</option> <option value="Triumph">Triumph</option> <option value="Troller">Troller</option> <option value="Volkswagen">Volkswagen</option> <option value="Volvo">Volvo</option> <option value="Yamaha">Yamaha</option> </select> </td> 
+               </tr> 
+               <tr> 
+                <td align="right"> <font face="arial" size="2" color="darkred"> <b>Modelo</b> </font></td> 
+                <td align="left"> <select name="PalavraChave" onchange="javascript:document.location='noticiaslista.asp?fabricante='+form1.fabricante.value+'&amp;palavrachave='+form1.PalavraChave.value" id="PalavraChave"> <option value="">Selecione</option> </select> </td> 
+               </tr> 
+              </tbody>
+             </table> 
+            </div> 
+            <b class="b4"></b>
+            <b class="b3"></b>
+            <b class="b2"></b>
+            <b class="b1"></b> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <table width="100%" border="0"> 
+        <tbody>
+         <tr> 
+          <td rowspan="1" valign="top"> <font style="font-size: 13px"><font face="arial" color="darkred"> <a name="indice"></a> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1733"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1733"><img src="imgNoticias007\thumb100\v260-2018-1.jpg" border="0" title="JAC lança V260, comercial leve para o segmento de VUCs" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>JAC lança V260, comercial leve para o segmento de VUCs</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 11/10/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> A JAC Motors prepara seu vigésimo lançamento em nosso país. Como maiores diferenciais para enfrentar a concorrência, o V260 vai apostar no desempe...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1732"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1732"><img src="imgNoticias007\thumb100\Jimny-2018-20.jpg" border="0" title="Suzuki Jimny 2018 recebe novidades e parte de R$ 67.490" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Suzuki Jimny 2018 recebe novidades e parte de R$ 67.490</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 09/10/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> O Suzuki Jimny na linha 2018 recebeu nas versões 4All e 4Sport sistema multimídia com tela de 7 polegadas que permite o espelhamento de celulares ...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1731"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1731"><img src="imgNoticias007\thumb100\F-PACE-2018-20.jpg" border="0" title="Jaguar F-Pace 2018 ganha opção de motor 2.0 à gasolina" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Jaguar F-Pace 2018 ganha opção de motor 2.0 à gasolina</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 04/10/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> O Jaguar F-Pace primeiro SUV a ser produzido pela marca britânica chega à linha 2018 com mais uma opção de motor: o Ingenium 2.0 a gasolina. Com 2...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1730"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1730"><img src="imgNoticias007\thumb100\carros-mais-vendidos.jpg" border="0" title="Conheça os carros mais vendidos em setembro de 2017" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Conheça os carros mais vendidos em setembro de 2017</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 03/10/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> O desempenho dos emplacamentos de veículos automotores, no mês de setembro e no acumulado do ano, foi divulgado pela Fenabrave - Federação das con...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1729"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1729"><img src="imgNoticias007\thumb100\latin-ncap-09-2017-20.JPG" border="0" title="Polo e Corolla ganham máxima qualificação em segurança" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Polo e Corolla ganham máxima qualificação em segurança</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 26/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> A quinta série de resultados de 2017 do Latin NCAP, divulgou resultados alentadores para o Toyota Corolla e o Volkswagen Polo. Ambos os modelos co...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1728"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1728"><img src="imgNoticias007\thumb100\Polo-Highline-2018-20.jpg" border="0" title="Novo Polo 2018 chega com preços a partir de R$ 49.990" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Novo Polo 2018 chega com preços a partir de R$ 49.990</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 25/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> A Volkswagen apresentou o novo Polo 2018. O modelo começa a ser vendido em novembro com três opções de motores e duas de transmissão. São quatro v...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1727"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1727"><img src="imgNoticias007\thumb100\Expert-Furgao-2018-20.jpg" border="0" title="Peugeot lança furgão Expert com motor 1.6 turbodiesel" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Peugeot lança furgão Expert com motor 1.6 turbodiesel</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 25/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> A Peugeot lança no Brasil uma nova geração de veículo utilitário para aumentar a sua gama, o furgão Expert. O veículo chega ao mercado com o valor...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1726"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1726"><img src="imgNoticias007\thumb100\fox-connect-2018-1.jpg" border="0" title="Volkswagen Fox ganha versões Connect e Xtreme" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Volkswagen Fox ganha versões Connect e Xtreme</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 22/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> O Fox passa a ser oferecido no mercado nacional em duas versões inéditas: Connect e Xtreme. Com apelo jovial e design diferenciado as novidades tê...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1725"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1725"><img src="imgNoticias007\thumb100\X60-VIP-2018-20.jpg" border="0" title="Novo design e câmbio CVT destacam Lifan X60 2018" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Novo design e câmbio CVT destacam Lifan X60 2018</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 21/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> Apresentado no último Salão do Automóvel, o SUV Lifan X60 2018 está disponível ao consumidor brasileiro na rede de distribuidores da marca em todo...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> <font style="font-size: 13px"><font color="darkred"> <font style="font-size: 13px;"> <a href="noticias.asp?codnoticia=1724"><font style="font-size: 13px"> <font face="arial" color="black"> <font style="font-size: 1px"> <br><br> </font></font></font></a><font style="font-size: 13px"><font face="arial" color="black"><font style="font-size: 1px"><a href="noticias.asp?codnoticia=1724"><img src="imgNoticias007\thumb100\CRETA-SPORT-2018-20.jpg" border="0" title="Hyundai lança versão Sport para o Creta" align="left" vspace="3" width="100" height="66" hspace="9"> <font style="font-size: 18px"> <font face="arial" color="darkred"> <b>Hyundai lança versão Sport para o Creta</b> <font style="font-size: 13px"> <font face="arial" color="gray"> <br> 21/09/2017<font style="font-size: 13px"> <br> <font face="arial" color="black"> A Hyundai amplia a gama de versões do Creta a partir de novembro com a versão Sport. O veículo traz motor 2.0 acoplado ao câmbio automático de sei...</font></font></font></font></font></font></a><font style="font-size: 18px"><font face="arial" color="darkred"><font style="font-size: 13px"><font face="arial" color="gray"><font style="font-size: 13px"><font face="arial" color="black"> <br><br> 
+                                                                                                                                     <table> 
+                                                                                                                                      <tbody>
+                                                                                                                                       <tr> 
+                                                                                                                                        <td width="150"> </td> 
+                                                                                                                                        <td align="center" width="350" height="40"> &nbsp;&nbsp; <font style="font-size: 13px"> <a href="noticiaslista.asp?curpage=2&amp;PalavraChave=&amp;fabricante="><b>Próxima</b></a> &nbsp;&nbsp; <font style="font-size: 13px"> <a href="noticiaslista.asp?curpage=170&amp;PalavraChave=&amp;fabricante="><b>Última</b></a> </font></font></td> 
+                                                                                                                                        <td align="right"> <font style="font-size: 13px"><font color="darkred" face="Arial">Página 1 de 170</font> </font></td> 
+                                                                                                                                       </tr> 
+                                                                                                                                      </tbody>
+                                                                                                                                     </table> <font face="arial" size="2"> <font size="2" color="gray">Compartilhe: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/noticiaslista.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta página"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/noticiaslista.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Noticias%20de%20carros%20do%20Brasil%20http://http://www.carrosnaweb.com.br/noticiaslista.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/noticiaslista.asp?" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> </font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></td> 
+         </tr> 
+         <tr> 
+          <td colspan="2" align="center"> <font style="font-size: 13px; font-family: arial"><font color="darkred"> <br> 
+             <!-- Noticias-quadrado-conteudo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322146,
+    "async": false});
+</script> <br><br> </font></font></td> 
+         </tr> 
+        </tbody>
+       </table> </font></td> 
+     <td bgcolor="efefef" width="320" valign="top" align="center"> <font style="font-size: 6px;"><br><br></font> 
+      <!-- Noticias-quadrado-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322147,
+    "async": false});
+</script> <font style="font-size: 7px;"><br><br></font> 
+      <table cellspacing="5" cellpadding="0" border="0" width="310" align="center"> 
+       <tbody>
+        <tr> 
+         <td bgcolor="white" align="left" valign="middle" colspan="3" height="88"> <font style="font-size: 3px;"><br><br></font> <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" target="_blank"><img src="imgsite\tabelafipe2.gif" align="left" border="0" title="Avalie seu carro - consulte o valor através da tabela FIPE" hspace="7"> <font style="font-size: 14px;"><font face="arial" color="#CB2626"><b>Tabela Fipe</b><br> <font style="font-size: 14px;"><font face="arial" color="black">Confira o preço do carro que você quer comprar ou vender</font></font></font></font></a><font style="font-size: 14px;"><font face="arial" color="#CB2626"><font style="font-size: 14px;"><font face="arial" color="black"> <font style="font-size: 8px;"><br><br></font> </font></font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font> </td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="dicascompravenda.asp"><img src="http://www.carrosnaweb.com.br/imgsite/lupa.jpg" align="left" border="0" title="Veja o que saber antes de comprar um carro" hspace="7"></a> <font style="font-size: 14px;"><a href="dicascompravenda.asp" title="Veja o que saber antes de comprar um carro"><font face="arial" color="#CB2626"><b>Antes de comprar</b><br> <font color="black">Conheça dicas e macetes para adquirir um veículo e saiba como verificar sua procedência</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font></td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="proxlancamentos.asp"><img src="http://www.carrosnaweb.com.br/imgsite/lancamentos.jpg" align="left" border="0" title="Próximos lançamentos de carros no Brasil" hspace="7"></a> <font style="font-size: 14px;"><a href="proxlancamentos.asp" title="Conheça os próximos carros a serem lançados no Brasil"><font face="arial" color="#CB2626"><b>Próximos Lançamentos</b><br> <font color="black">Saiba quais serão os principais lançamentos do mercado brasileiro</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font></td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="carrosmaisvendidos.asp"><img src="http://www.carrosnaweb.com.br/imgsite/ranking.jpg" align="left" border="0" title="Carros mais vendidos no Brasil" hspace="7"></a> <font style="font-size: 14px;"><a href="carrosmaisvendidos.asp" title="Carros mais vendidos no Brasil"><font face="arial" color="#CB2626"><b>Carros mais vendidos</b><br> <font color="black">Confira gráficos com os carros mais vendidos separados por categorias</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font> </td>
+        </tr> 
+        <tr> 
+         <td> <font style="font-size: 6px;"><br><br></font> 
+          <table border="0" align="center" cellpadding="8" cellspacing="0" width="300"> 
+           <tbody>
+            <tr> 
+             <td bgcolor="DarkRed" align="center"> <font style="font-size: 14px; font-family: arial" color="#ffffff">COMPARATIVO DO DIA </font></td> 
+            </tr> 
+            <tr> 
+             <td align="center" colspan="1" bgcolor="PaleGoldenrod"> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Compare Ford Edge vs. Chevrolet Equinox"><font style="font-size: 15px; font-family: arial" color="black">Ford Edge vs. Chevrolet Equinox</font></a><font style="font-size: 15px; font-family: arial" color="black"> <font style="font-size: 5px;"><br><br></font> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Ford Edge Titanium 3.5 V6 AWD 2016"><img src="imagensbd007\thumb\edge-2016-1.jpg" border="0" vspace="3" hspace="3"></a> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Chevrolet Equinox Premier 2.0 Turbo 2018"><img src="imagensbd007\thumb\equinox-2018-1.jpg" border="0" vspace="3" hspace="3"></a> <font style="font-size: 10px;"><br></font> </font></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 7px;"><br></font></td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="fb-like-box" data-href="http://www.facebook.com/pages/Carrosnaweb/190935330958164" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div> </td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 7px;"><br></font></td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="g-plus" data-href="https://plus.google.com/108326569338500237286?rel=publisher" data-width="300" data-height="131" data-theme="light"></div> </td> 
+        </tr> 
+       </tbody>
+      </table> <font style="font-size: 6px;"><br><br></font> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>    
+  <script language="JavaScript">
+
+	function MM_openBrWindow(theURL,winName,features) 
+	{ 
+		window.open(theURL,winName,features);
+	}
+	
+	function checaform1()
+	{
+		var erro="";
+		if (window.document.form1.palavrachave.value == "")
+		{
+			erro += "Favor digitar um modelo";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.form1.palavrachave.focus();
+			return false;
+		}
+	}
+	
+</script> 
+ </body>
+</html>

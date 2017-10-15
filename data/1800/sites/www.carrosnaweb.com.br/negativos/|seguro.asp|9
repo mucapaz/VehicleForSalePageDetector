@@ -1,0 +1,271 @@
+<html>
+ <head> 
+  <title>Carros na Web - Seguro de Carro - Seguro Auto</title> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/5216696/Seguro-banner-topo', [728, 90], 'div-gpt-ad-1334068064316-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script> 
+  <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-171928-1";
+urchinTracker();
+</script> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <a name="topo"></a> 
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <tbody>
+    <tr> 
+     <td align="center" height="110" colspan="4" bgcolor="White"> 
+      <!-- Seguro-banner-topo --> 
+      <div id="div-gpt-ad-1334068064316-0" style="width:728px; height:90px;"> 
+       <script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1334068064316-0'); });
+</script> 
+      </div> </td>
+     <td> </td>
+    </tr> 
+    <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* S� pra centralizar o texto verticalmente j� que a altura da imagem � de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (� como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para n�o repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br> 
+      <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+       <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+       <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+      </form> </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+    <tr> 
+     <td bgcolor="darkkhaki" colspan="4" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="default.asp"><font color="white">P�gina Principal</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="segurocotacao.asp"><font color="white">Cota��o de Seguro</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="roubados.asp"><font color="white">Roubados</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="catalogo.asp"><font color="white">Cat�logo</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="classificados.asp"><font color="white">Classificados</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="financia.asp"><font color="white">Financiamento</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="opiniao.asp"><font color="white">Opini�o do Dono</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="analiseindice.asp"><font color="white">Avalia��o</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="forum.asp"><font color="white">F�rum</font></a><font color="white">&nbsp; </font></font></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="5" cellspacing="20" width="980" bgcolor="#ffffff" align="center"> 
+   <tbody>
+    <tr> 
+     <td colspan="1" width="400" valign="top"><p align="left"> <font face="arial" size="4" color="darkred"> <b>C�lculo do seguro</b> <font style="font-size: 3px;"><br><br></font> <font face="arial" size="2" color="black"> O c�lculo do valor do seguro envolve informa��es sobre o ve�culo, a regi�o de tr�fego, as caracter�sticas de uso do ve�culo, seus condutores e sua prote��o.<br> Em rela��o ao carro, a seguradora verifica se ele possui um �ndice elevado de roubo. Geralmente, os modelos mais caros, os mais vendidos e os esportivos s�o os mais visados pelos bandidos.<br> Al�m disso, � importante saber se as pe�as de reposi��o s�o achadas com facilidade e com qual pre�o. Se for alto, � um ponto negativo para o carro.<br> Ainda � verificado o pre�o de revenda, para saber se, em caso de recupera��o do ve�culo ser� poss�vel compensar o valor pago por ele pela seguradora.<br> O perfil do condutor tamb�m � um fator relevante no c�lculo. As mulheres s�o as mais beneficiadas nesse quesito. Quanto mais velha, menor ser� o valor. Se tiver filhos, menor ainda.<br> Do outro lado da balan�a est�o os motoristas jovens de at� 25 anos. Por serem inexperientes, s�o os que apresentam maior risco de acidente.<br> A regi�o da resid�ncia � outro item analisado. Se o propriet�rio vive em um local que registra muitos casos de roubos ou furto de carro, o pre�o ser� alterado para cima.<br> A profiss�o s� interfere no caso de taxista ou que trabalhe na rua, sempre com o carro. <br><br> <font face="arial" size="4" color="darkred"> <b>Os seguros mais caros</b> <br><br> <font face="arial" size="3" color="darkred"> <b>Carros esportivos</b> <br> <font face="arial" size="2" color="black"> S�o os preferidos para os ladr�es usarem como carro de fuga. Al�m disso, quem tem um carro veloz certamente gosta de andar r�pido, aumentando os riscos de acidente. <br><br> <font face="arial" size="3" color="darkred"> <b>Picapes, especialmente as movidas � diesel</b> <br> <font face="arial" size="2" color="black">S�o muito visadas por ladr�es. Os modelos maiores tem alto custo de manuten��o, estimulando o mercado de pe�as roubadas. S�o muito usados por traficantes de drogas. <br><br> <font face="arial" size="3" color="darkred"> <b>Carros importados</b> <br> <font face="arial" size="2" color="black"> Existe grande dificuldade em encontrar as pe�as, geralmente cotadas em d�lar, e por muitas vezes precisam ser importadas rapidamente para atender o cliente, sendo assim, o custo � elevado para trazer este material do exterior. Por isso a seguradora considera este risco alto, podendo ela at� recusar a ades�o. A maioria dos carros importados s�o recusados a partir de 5 anos de uso, e quando aceitam o pre�o � bem elevado. <br><br> <font face="arial" size="3" color="darkred"> <b>Carros mais antigos</b> <br> <font face="arial" size="2" color="black"> Para ve�culos nacionais acima de 10 anos de uso, muitas seguradoras recusam a ades�o ao seguro. O custo das pe�as para reparos � alto devido a dificuldade em encontr�-las, associada a maior frequ�ncia de acidentes, roubos e furtos entre os modelos mais antigos. <br><br> <font face="arial" size="3" color="darkred"> <b>Os perfis extremos</b> <font style="font-size: 10px;"><br></font> <font face="arial" size="2" color="black"> Para as seguradoras, o melhor perfil � o das mulheres, casadas, com mais de 40 anos de idade e que usam garagem. O pior � o dos homens, solteiros, com menos de 25 anos e que deixam o carro na rua. Para um Onix LS 1.0, as cota��es s�o as seguintes: <br><br> Ele: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ela:<br> <b>R$ 7.789&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.689</b> </font></font></font></font></font></font></font></font></font></font></font></font></font></p></td> 
+     <td colspan="1" valign="top"> <font face="arial" size="3" color="darkred"> <b>Carros mais caros para serem segurados</b> <font style="font-size: 10px;"><br><br></font> 
+       <table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+        <tbody>
+         <tr> 
+          <td align="center" width="315"><font face="arial" size="2" color="darkred"><b>Modelo</b></font></td> 
+          <td align="center"><font face="arial" size="2" color="darkred"><b>Seguro*</b></font></td> 
+          <td width="80" align="center"><font face="arial" size="2" color="darkred"><b>Porcentagem do pre�o do carro</b></font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=3902" title="Conhe�a o Chevrolet Classic 1.0 2010">Chevrolet Classic 1.0 2010</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 2.028</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,7%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=999" title="Conhe�a o Mercedes-Benz CLS 350 3.5 V6 2009">Mercedes-Benz CLS 350 3.5 V6 2009</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 13.631</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,6%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=2581" title="Conhe�a o Porsche Cayenne 3.6 V6 2008">Porsche Cayenne 3.6 V6 2008</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 11.219</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,4%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=2342" title="Conhe�a o Chrysler 300C 3.5 V6 2008">Chrysler 300C 3.5 V6 2008</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 6.928</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,3%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=5799" title="Conhe�a o Mercedes-Benz C350 3.5 V6 2007">Mercedes-Benz C350 3.5 V6 2007</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 8.986</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,2%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=5453" title="Conhe�a o Mitsubishi L200 Outdoor GLS 2.5 Turbo 2009">Mitsubishi L200 Outdoor GLS 2.5 Turbo 2009</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 4.951</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,1%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=3947" title="Conhe�a o Nissan Sentra S 2.0 2010">Nissan Sentra S 2.0 2010</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 2.882</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,1%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=812" title="Conhe�a o Audi Q7 4.2 V8 FSi Quattro Tiptronic 2007">Audi Q7 4.2 V8 FSi Quattro Tiptronic 2007</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 8.782</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,1%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=6181" title="Conhe�a o Peugeot 407 Feline 3.0 V6 2008">Peugeot 407 Feline 3.0 V6 2008</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 3.746</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,0%</font></td>  
+         </tr> 
+         <tr> 
+          <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=892" title="Conhe�a o Mitsubishi L200 Triton HPE 3.2 Turbo AT 2008">Mitsubishi L200 Triton HPE 3.2 Turbo AT 2008</a></font></td> 
+          <td align="center"><font face="arial" size="2" color="black">R$ 6.661</font></td> 
+          <td align="center"><font face="arial" size="2" color="black">11,0%</font></td>  
+         </tr> 
+        </tbody>
+       </table> <br><br> <font face="arial" size="3" color="darkred"> <b>Carros mais baratos para serem segurados</b> <font style="font-size: 10px;"><br><br></font> 
+        <table border="1" cellpadding="3" cellspacing="0" width="100%"> 
+         <tbody>
+          <tr> 
+           <td align="center" width="315"><font face="arial" size="2" color="darkred"><b>Modelo</b></font></td> 
+           <td align="center"><font face="arial" size="2" color="darkred"><b>Seguro*</b></font></td> 
+           <td width="80" align="center"><font face="arial" size="2" color="darkred"><b>Porcentagem do pre�o do carro</b></font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=7424" title="Conhe�a o Volkswagen Saveiro Highline 1.6 CD 2018">Volkswagen Saveiro Highline 1.6 CD 2018</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 2.028</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=8187" title="Conhe�a o Audi A6 2.0 TFSi 2017">Audi A6 2.0 TFSi 2017</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 9.060</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=8213" title="Conhe�a o Lamborghini Aventador Roadster LP 700-4 6.5 V12 2017">Lamborghini Aventador Roadster LP 700-4 2017</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 147.600</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=3517" title="Conhe�a o Jaguar XE R-Sport 2.0 Turbo 2016">Jaguar XE R-Sport 2.0 Turbo 2016</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 5.364</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=1822" title="Conhe�a o Land Rover Range Rover Sport HSE 5.0 V8 2014">Land Rover Range Rover Sport HSE 5.0 V8 2014</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 12.244</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=7744" title="Conhe�a o Jeep Wrangler Sport 3.6 V6 2017">Jeep Wrangler Sport 3.6 V6 2017</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 5.875</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=7311" title="Conhe�a o Land Rover Discovery Sport HSE Luxury 2.0 TD4 2017">Land Rover Discovery Sport HSE Luxury 2.0 TD4 2017</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 9.126</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=1508" title="Conhe�a o Audi A1 Sportback Ambition 1.4 TFSi 2013">Audi A1 Sportback Ambition 2013</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 2.270</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=7733" title="Conhe�a o Mercedes-Benz GT S AMG 4.0 V8 2017">Mercedes-Benz GT S AMG 4.0 V8 2017</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 28.090</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+          <tr> 
+           <td><font face="arial" size="2" color="black"><a href="fichadetalhe.asp?codigo=7990" title="Conhe�a o Peugeot Partner Furg�o 1.6 16V 2018">Peugeot Partner Furg�o 1.6 16V 2018</a></font></td> 
+           <td align="center"><font face="arial" size="2" color="black">R$ 1.773</font></td> 
+           <td align="center"><font face="arial" size="2" color="black">3,0%</font></td>  
+          </tr> 
+         </tbody>
+        </table> <br> <font face="arial" size="2" color="black"> * Valor m�dio aproximado, pode apresentar diferen�a de acordo com diversos fatores <br> </font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="5" cellspacing="5" width="980" align="center" bgcolor="#ffffff"> 
+   <tbody>
+    <tr> 
+     <td align="center" colspan="4" height="80"> <font size="3" color="darkred" face="arial"> <b>Fa�a uma cota��o de seguro para o seu carro</b> <br><br> <input type="button" value="Solicitar Cota��o" id="button1" name="button1" onclick="javascript:window.location.href='segurocotacao.asp';" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';" title="Solicite uma cota��o de seguro para o seu carro"> <br><br><br> </font></td> 
+    </tr> 
+   </tbody>
+  </table>    
+  <table border="0" width="980" height="40" align="center" bgcolor="#ffffff"> 
+   <tbody>
+    <tr> 
+     <td align="left" width="150" valign="top"> <font face="arial" size="2">&nbsp;<img src="imgsite\topo.gif" border="0"> <a href="#Topo"><font color="blue">Topo</font></a><font color="blue"> </font></font></td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="P�gina principal do site Carros na Web"><font color="white">P�gina Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Hist�rico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Pol�tica de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>   
+ </body>
+</html>

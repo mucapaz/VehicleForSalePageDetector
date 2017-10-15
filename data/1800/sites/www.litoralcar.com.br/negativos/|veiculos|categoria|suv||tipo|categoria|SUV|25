@@ -1,0 +1,1167 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-16.png" type="image/png" sizes="16x16"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-32.png" type="image/png" sizes="32x32"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-48.png" type="image/png" sizes="48x48"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-64.png" type="image/png" sizes="64x64"> 
+  <link rel="icon" href="http://www.litoralcar.com.br/favicon-128.png" type="image/png" sizes="128x128"> 
+  <link rel="canonical" href="http://www.litoralcar.com.br/veiculos-categoria/suv/"> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+  <script>
+    var urlSite = 'http://' + window.location.host + '/';
+</script> 
+  <!-- ARQUIVOS CSS --> 
+  <link href="http://www.litoralcar.com.br/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/font-awesome.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/fontface-lato-3.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/owl.carousel.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/owl.theme.default.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/jquery-ui.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/bootstrap-select.css"> 
+  <link href="http://www.litoralcar.com.br/css/global_7.min.css" rel="stylesheet"> 
+  <link href="http://www.litoralcar.com.br/css/estilo01_3.min.css" rel="stylesheet" media="screen and (min-width:1200px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo02_3.min.css" rel="stylesheet" media="screen and (min-width:992px) and (max-width:1199px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo03_3.min.css" rel="stylesheet" media="screen and (min-width:768px) and (max-width:991px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo04_3.min.css" rel="stylesheet" media="screen and (min-width:600px) and (max-width:767px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo05_3.min.css" rel="stylesheet" media="screen and (min-width:480px) and (max-width:599px)"> 
+  <link href="http://www.litoralcar.com.br/css/estilo06_5.min.css" rel="stylesheet" media="screen and (max-width:479px)"> 
+  <!-- ARQUIVOS JS --> 
+  <script src="http://www.litoralcar.com.br/js/jquery-1.11.0.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap-dopdown.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/jquery-migrate-1.2.1.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom2.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom_18.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom-funcoes_15.min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/custom-banners_2.min.js" async></script> 
+  <script src="http://www.litoralcar.com.br/js/jquery-ui-min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/bootstrap-select.min.js" async></script> 
+  <script src="http://www.litoralcar.com.br/js/owl.carousel-min.js"></script> 
+  <script src="http://www.litoralcar.com.br/js/ios9-min.js" async></script> 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]--> 
+  <style>
+    .preload-logo {
+        background-image: url("../imgs/logo-litoralcar.png");
+        background-repeat: no-repeat;
+    }
+</style>
+  <title>Veículos SUV - LitoralCar</title> 
+  <meta name="description" content="Encontre veículos SUV aqui."> 
+  <meta name="keywords"> 
+  <meta property="og:locale" content="pt_BR"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="Veículos Veículos SUV - LitoralCar - LitoralCar"> 
+  <meta property="og:description" content="Encontre veículos SUV aqui."> 
+  <meta property="og:url" content="http://www.litoralcar.com.br/veiculos-categoria/suv/?tipo-categoria=SUV"> 
+  <meta property="og:site_name" content="LitoralCar"> 
+  <meta property="og:image" content="http://www.litoralcar.com.br/imgs/logonova-litoral2.png"> 
+  <meta property="og:image:width" content="800"> 
+  <meta property="og:image:height" content="600"> 
+  <meta property="twitter:site" content="@LitoralCar"> 
+  <meta property="twitter:card" content="summary_large_image"> 
+  <meta property="twitter:description" content="Encontre veículos SUV aqui."> 
+  <meta property="twitter:title" content="Veículos SUV - LitoralCar"> 
+  <meta property="twitter:image" content="http://www.litoralcar.com.br/imgs/logonova-litoral2.png"> 
+  <meta property="twitter:image:alt" content="Veículos SUV - LitoralCar"> 
+  <meta content="#0D47A1" name="theme-color"> 
+  <meta content="#0D47A1" name="msapplication-navbutton-color"> 
+  <meta content="#0D47A1" name="msapplication-TileColor"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="mobile-web-app-capable" content="yes"> 
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"> 
+ </head>
+ <body id="resultado-2">
+  <div id="fb-root"></div> 
+  <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.6";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> 
+  <!-- Google Tag Manager --> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5WNC8D');</script> 
+  <!-- End Google Tag Manager --> 
+  <!-- Trovit Pixel Code --> 
+  <script type="text/javascript">(function(i,s,o,g,r,a,m){i['TrovitAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://analytics.trovit.com/trovit-analytics.js','ta');ta('init', 'br', 2, 'f23be91eb1c6c2cab392b3cbfc429f88');</script> 
+  <!-- End Trovit Pixel Code -->   
+  <!-- Google Tag Manager (noscript) --> 
+  <noscript>
+   <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5WNC8D" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <!-- End Google Tag Manager (noscript) --> 
+  <nav class="navbar navbar-default navbar-static-top navbar-fixed-top"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3"> 
+      <a href="http://www.litoralcar.com.br/home"> <img src="http://www.litoralcar.com.br/imgs/logo-litoralcar-min.png" class="img-responsive"> </a> 
+     </div> 
+     <!-- Brand and toggle get grouped for better mobile display --> 
+     <div class="navbar-header"> 
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> 
+     </div> 
+     <!-- Collect the nav links, forms, and other content for toggling --> 
+     <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1"> 
+      <ul class="nav navbar-nav"> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu1');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">COMPRAR <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu1"> 
+         <li><a href="http://www.litoralcar.com.br/busca-avancada-veiculos/">Busca Avançada</a></li> 
+         <li><a href="http://www.litoralcar.com.br/concessionarias/">Concessionárias</a></li> 
+         <li><a href="http://www.litoralcar.com.br/revendas/">Todas as Revendas</a></li> 
+         <li><a href="http://www.litoralcar.com.br/ultimos-veiculos-cadastrados/">Últimos Cadastrados</a></li> 
+         <li><a href="http://www.litoralcar.com.br/veiculos-oferta/">Veículos em Oferta</a></li> 
+         <li><a href="http://www.litoralcar.com.br/veiculos-particulares/">Veículos Particulares</a></li> 
+         <li class="disabled"><a href="">Veículos Marcados ( 0 )</a></li> 
+        </ul> </li> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu2');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">VENDER <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu2"> 
+         <li><a href="http://www.litoralcar.com.br/anuncie/">Anuncie seu Veículo</a></li> 
+         <li><a href="http://www.litoralcar.com.br/acessar-meus-anuncios/">Acessar meu Anúncio</a></li> 
+         <li><a href="http://www.litoralcar.com.br/tabela-fipe/vender/">Avalie seu Veículo</a></li> 
+        </ul> </li> 
+       <li class="dropdown"> <a href="#" onclick="toggle_visibility('menu3');" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">UTILIDADES <i class="fa fa-angle-down"></i></a> 
+        <ul class="dropdown-menu" id="menu3"> 
+         <li><a href="http://www.litoralcar.com.br/multas-ipva/">Multas e IPVA</a></li> 
+         <li><a href="http://www.litoralcar.com.br/tabela-fipe/comprar/">Tabela FIPE</a></li> 
+         <li><a href="http://www.litoralcar.com.br/preco-combustivel/">Preço Combustível</a></li> 
+        </ul> </li> 
+       <li><a href="http://www.litoralcar.com.br/servicos/">SERVIÇOS</a></li> 
+       <li><a href="http://www.litoralcar.com.br/blog/" target="_blank" id="linkBlog">BLOG</a></li> 
+       <li><a href="http://www.litoralcar.com.br/restrito/login.php"> ÁREA DO LOJISTA</a></li> 
+       <li><a href="http://www.litoralcar.com.br/anuncie/"><i class="fa fa-bullhorn"></i> ANUNCIE</a></li> 
+      </ul> 
+     </div>
+     <!-- /.navbar-collapse --> 
+    </div> 
+   </div>
+   <!-- /.container-fluid --> 
+  </nav> 
+  <script>
+function toggle_visibility(id) {
+    var e = document.getElementById(id);
+    var visivel = e.style.display == 'block';
+    var menus = document.querySelectorAll('[id^=menu]');
+    for (var i = 0; i < menus.length; i++) {
+        menus[i].style.display = 'none';
+    };
+    if (visivel) e.style.display = 'none';
+    else e.style.display = 'block';
+}
+</script> 
+  <section id="breads"> 
+   <div class="container"> 
+    <ol class="breadcrumb"> 
+     <li><a href="http://www.litoralcar.com.br/home">Home</a></li> 
+     <li class="active"> SUV </li> 
+    </ol> 
+   </div> 
+  </section> 
+  <section id="anuncios"> 
+   <!-- BANNER POSICAO 01 --> 
+   <div class="container anuncio1" id="anuncio1"> 
+   </div> 
+  </section> 
+  <section id="busca-minificada"> 
+   <div class="container"> 
+    <div class="row" id="caixa-busca-min"> 
+     <form id="form-busca-min" method="get"> 
+      <input type="hidden" id="urlCarro-Camionetas" value="comprar/carros"> 
+      <input type="hidden" id="urlMoto" value="comprar/motos"> 
+      <input type="hidden" id="urlCaminhao" value="comprar/caminhoes"> 
+      <input type="hidden" id="urlOutros" value="comprar"> 
+      <input type="hidden" name="categoria" id="categoria" value="comprar/carros"> 
+      <input type="hidden" name="marca" id="marca" value=""> 
+      <div class="row"> 
+       <div class=" form-group col-lg-2 col-md-2 col-sm-2"> 
+        <select id="categoriaSel" class="form-control busca-categoria-outros busca-marca botao-select"> <option value="0">Categoria</option> <option value="Caminhão">Caminhão</option> <option value="Carreta">Carreta</option> <option value="Carro/Camionetas" selected>Carro/Camionetas</option> <option value="Implemento Rod.">Implemento Rod.</option> <option value="Moto">Moto</option> <option value="Motor Home">Motor Home</option> <option value="Náutica">Náutica</option> <option value="Ônibus">Ônibus</option> <option value="Quadriciclo/Triciclo">Quadriciclo/Triciclo</option> <option value="Trator/Maquinas">Trator/Maquinas</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-12"> 
+        <select name="tipoMarca" id="marcaSel" class="form-control busca-marca botao-select busca-categoria-outros"> <option value="0">Marca</option> <option value="Aero Willys">Aero Willys (2)</option> <option value="Alfa Romeo">Alfa Romeo (1)</option> <option value="Audi">Audi (114)</option> <option value="BMW">BMW (138)</option> <option value="BRM">BRM (1)</option> <option value="Buggy">Buggy (5)</option> <option value="Cadillac">Cadillac (1)</option> <option value="Chery">Chery (32)</option> <option value="Chevrolet">Chevrolet (1284)</option> <option value="Chrysler">Chrysler (16)</option> <option value="Citroën">Citroën (2)</option> <option value="Citroën">Citroën (389)</option> <option value="Dodge">Dodge (20)</option> <option value="Effa">Effa (4)</option> <option value="Engesa">Engesa (1)</option> <option value="Ferrari">Ferrari (2)</option> <option value="Fiat">Fiat (1292)</option> <option value="Ford">Ford (973)</option> <option value="Geely">Geely (2)</option> <option value="Gurgel">Gurgel (2)</option> <option value="Hafei">Hafei (4)</option> <option value="Honda">Honda (329)</option> <option value="Hummer">Hummer (1)</option> <option value="Hyundai">Hyundai (419)</option> <option value="INFINITI">INFINITI (5)</option> <option value="Iveco">Iveco (5)</option> <option value="Jac Motors">Jac Motors (22)</option> <option value="Jaguar">Jaguar (4)</option> <option value="Jeep">Jeep (94)</option> <option value="Kia">Kia (175)</option> <option value="Kia Motors">Kia Motors (1)</option> <option value="Land Rover">Land Rover (107)</option> <option value="Lifan">Lifan (31)</option> <option value="Mercedes Benz">Mercedes Benz (85)</option> <option value="Mini">Mini (17)</option> <option value="Mitsubishi">Mitsubishi (228)</option> <option value="Nissan">Nissan (147)</option> <option value="Peugeot">Peugeot (414)</option> <option value="Porsche">Porsche (19)</option> <option value="Rely">Rely (2)</option> <option value="Renault">Renault (791)</option> <option value="Shineray">Shineray (1)</option> <option value="Smart">Smart (3)</option> <option value="Ssangyong">Ssangyong (9)</option> <option value="Subaru">Subaru (6)</option> <option value="Suzuki">Suzuki (18)</option> <option value="Tesla">Tesla (1)</option> <option value="Toyota">Toyota (293)</option> <option value="Troller">Troller (21)</option> <option value="Volkswagen">Volkswagen (1512)</option> <option value="Volvo">Volvo (25)</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-12"> 
+        <select name="tipoModelo" id="modeloSel" class="form-control busca-modelo botao-select busca-categoria-outros"> <option value="0">Modelo</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-6"> 
+        <select name="anoDe" id="anoDe" class="form-control busca-anoDe botao-select busca-categoria-outros"> <option value="0">Ano De</option> <option value="1960">1960</option> <option value="1961">1961</option> <option value="1965">1965</option> <option value="1966">1966</option> <option value="1967">1967</option> <option value="1968">1968</option> <option value="1969">1969</option> <option value="1970">1970</option> <option value="1971">1971</option> <option value="1972">1972</option> <option value="1973">1973</option> <option value="1974">1974</option> <option value="1975">1975</option> <option value="1976">1976</option> <option value="1977">1977</option> <option value="1978">1978</option> <option value="1979">1979</option> <option value="1980">1980</option> <option value="1981">1981</option> <option value="1982">1982</option> <option value="1983">1983</option> <option value="1984">1984</option> <option value="1985">1985</option> <option value="1986">1986</option> <option value="1987">1987</option> <option value="1988">1988</option> <option value="1989">1989</option> <option value="1990">1990</option> <option value="1991">1991</option> <option value="1992">1992</option> <option value="1993">1993</option> <option value="1994">1994</option> <option value="1995">1995</option> <option value="1996">1996</option> <option value="1997">1997</option> <option value="1998">1998</option> <option value="1999">1999</option> <option value="2000">2000</option> <option value="2001">2001</option> <option value="2002">2002</option> <option value="2003">2003</option> <option value="2004">2004</option> <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option> <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option> <option value="2011">2011</option> <option value="2012">2012</option> <option value="2013">2013</option> <option value="2014">2014</option> <option value="2015">2015</option> <option value="2016">2016</option> <option value="2017">2017</option> <option value="2018">2018</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2  col-sm-2 col-xs-6"> 
+        <select name="anoAte" id="anoAte" class="form-control busca-anoAte botao-select busca-categoria-outros"> <option value="0">Ano Até</option> <option value="2018">2018</option> <option value="2017">2017</option> <option value="2016">2016</option> <option value="2015">2015</option> <option value="2014">2014</option> <option value="2013">2013</option> <option value="2012">2012</option> <option value="2011">2011</option> <option value="2010">2010</option> <option value="2009">2009</option> <option value="2008">2008</option> <option value="2007">2007</option> <option value="2006">2006</option> <option value="2005">2005</option> <option value="2004">2004</option> <option value="2003">2003</option> <option value="2002">2002</option> <option value="2001">2001</option> <option value="2000">2000</option> <option value="1999">1999</option> <option value="1998">1998</option> <option value="1997">1997</option> <option value="1996">1996</option> <option value="1995">1995</option> <option value="1994">1994</option> <option value="1993">1993</option> <option value="1992">1992</option> <option value="1991">1991</option> <option value="1990">1990</option> <option value="1989">1989</option> <option value="1988">1988</option> <option value="1987">1987</option> <option value="1986">1986</option> <option value="1985">1985</option> <option value="1984">1984</option> <option value="1983">1983</option> <option value="1982">1982</option> <option value="1981">1981</option> <option value="1980">1980</option> <option value="1979">1979</option> <option value="1978">1978</option> <option value="1977">1977</option> <option value="1976">1976</option> <option value="1975">1975</option> <option value="1974">1974</option> <option value="1973">1973</option> <option value="1972">1972</option> <option value="1971">1971</option> <option value="1970">1970</option> <option value="1969">1969</option> <option value="1968">1968</option> <option value="1967">1967</option> <option value="1966">1966</option> <option value="1965">1965</option> <option value="1961">1961</option> <option value="1960">1960</option> </select> 
+       </div> 
+       <div class="form-group col-lg-2 col-md-2 col-sm-2 col-xs-6 pull-right"> 
+        <button type="button" class="visible-lg visible-md busca-button btn-block busca-categoria-outros"> <i class="fa fa-search"></i> PESQUISAR </button> 
+        <button type="button" class="visible-sm visible-xs busca-button btn-block busca-categoria-outros"> <i class="fa fa-search"></i> </button> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="landing-page"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-12 padding-0"> 
+      <h1>Comprar veículo SUV</h1> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <section id="resultados"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-6 col-xs-12" id="text-total"> 
+      <p>Foram encontradas <span>1023 ofertas</span>.</p> 
+     </div> 
+     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" id="form-ordem"> 
+      <form id="form-ordenacao"> 
+       <label class=" col-lg-6 col-md-6 col-sm-6 col-xs-5">Ordenar por: </label> 
+       <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-7"> 
+        <select name="ordenacao" id="ordenacao" class="botao-select form-control"> <option value="menor-preco">Menor preço</option> <option value="maior-preco">Maior preço</option> <option value="menor-ano">Menor ano</option> <option value="maior-ano">Maior ano</option> <option value="nome-veiculo">Nome do veículo</option> <option value="combustivel">Combustível</option> <option value="cor">Cor</option> <option value="mais-recentes">Mais recentes</option> <option value="destaques-primeiro" selected>Relevância</option> </select> 
+       </div> 
+       <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> 
+       <input type="hidden" name="tipo-categoria" id="tipo-categoria" value="suv"> 
+       <input type="hidden" name="tipo" id="tipo" value="SUV"> 
+      </form> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="col-lg-3 col-md-3 col-sm-4" id="filtro-busca-sm-xs"> 
+      <i id="fechar-filtro" class="fa fa-close visible-sm visible-xs"></i> 
+      <!-- Nav tabs --> 
+      <ul class="nav nav-tabs" role="tablist"> 
+       <li role="presentation" class="active" id="ul-filtros"><a href="#tab-filtros" aria-controls="tab-filtros" role="tab" data-toggle="tab">FILTROS</a></li> 
+       <li role="presentation" id="ul-busca"><a href="#tab-busca" aria-controls="tab-busca" role="tab" data-toggle="tab"><i class="fa fa-search"></i> BUSCAR</a></li> 
+      </ul> 
+      <!-- Tab panes --> 
+      <div class="tab-content"> 
+       <div role="tabpanel" class="tab-pane active" id="tab-filtros"> 
+        <!-- FILTROS SELECIONADOS--> 
+        <div id="filtro-select"> 
+         <form id="filtro-tipo-categoria-selecionados"> 
+          <p class="p-categoria"> <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> </p> 
+          <p class="p-tipoMarca"> <input type="hidden" id="tipo-categoria" value="suv"> <input type="hidden" id="tipo" value="SUV"> <span id="p-tipoMarca"><a>X</a></span> Veiculos tipo: <span id="select-cidade">SUV</span> </p> 
+         </form> 
+        </div> 
+        <!-- FILTRO MARCAS--> 
+        <div class="clearfix"></div> 
+        <form id="filtro-tipo-categoria"> 
+         <input type="hidden" name="categoria" id="categoria" value="veiculos-categoria"> 
+         <input type="hidden" id="tipo-categoria" value="suv"> 
+         <input type="hidden" id="tipo" value="SUV"> 
+         <!-- FILTRO MODELOS--> 
+         <div id="filtro-modelo"> 
+          <p><span>MODELO</span> <span id="mais-modelo">-</span></p> 
+          <input type="text" name="pes-modelo" id="pes-modelo" placeholder="Pesquisar Modelo"> 
+          <div id="inputModelo"> 
+          </div> 
+          <div id="valuesModelo"> 
+           <p id="3008"> <input type="checkbox" id="checkModelo" value="3008"> <label> <i class="fa fa-square-o"></i> <span>3008 (5)</span> </label> </p> 
+           <p id="asx"> <input type="checkbox" id="checkModelo" value="Asx"> <label> <i class="fa fa-square-o"></i> <span>Asx (23)</span> </label> </p> 
+           <p id="besta"> <input type="checkbox" id="checkModelo" value="Besta"> <label> <i class="fa fa-square-o"></i> <span>Besta (1)</span> </label> </p> 
+           <p id="blazer"> <input type="checkbox" id="checkModelo" value="Blazer"> <label> <i class="fa fa-square-o"></i> <span>Blazer (13)</span> </label> </p> 
+           <p id="bongo"> <input type="checkbox" id="checkModelo" value="Bongo"> <label> <i class="fa fa-square-o"></i> <span>Bongo (2)</span> </label> </p> 
+           <p id="captiva"> <input type="checkbox" id="checkModelo" value="Captiva"> <label> <i class="fa fa-square-o"></i> <span>Captiva (19)</span> </label> </p> 
+           <p id="cayenne"> <input type="checkbox" id="checkModelo" value="Cayenne"> <label> <i class="fa fa-square-o"></i> <span>Cayenne (12)</span> </label> </p> 
+           <p id="cooper-countryman"> <input type="checkbox" id="checkModelo" value="Cooper Countryman"> <label> <i class="fa fa-square-o"></i> <span>Cooper Countryman (5)</span> </label> </p> 
+           <p id="cr-v"> <input type="checkbox" id="checkModelo" value="CR-V"> <label> <i class="fa fa-square-o"></i> <span>CR-V (36)</span> </label> </p> 
+           <p id="defender-110"> <input type="checkbox" id="checkModelo" value="Defender 110"> <label> <i class="fa fa-square-o"></i> <span>Defender 110 (1)</span> </label> </p> 
+           <p id="discovery"> <input type="checkbox" id="checkModelo" value="Discovery"> <label> <i class="fa fa-square-o"></i> <span>Discovery (26)</span> </label> </p> 
+           <p id="duster"> <input type="checkbox" id="checkModelo" value="Duster"> <label> <i class="fa fa-square-o"></i> <span>Duster (67)</span> </label> </p> 
+           <p id="ecosport"> <input type="checkbox" id="checkModelo" value="Ecosport"> <label> <i class="fa fa-square-o"></i> <span>Ecosport (129)</span> </label> </p> 
+           <p id="edge"> <input type="checkbox" id="checkModelo" value="Edge"> <label> <i class="fa fa-square-o"></i> <span>Edge (19)</span> </label> </p> 
+           <p id="evoque"> <input type="checkbox" id="checkModelo" value="EVOQUE"> <label> <i class="fa fa-square-o"></i> <span>EVOQUE (32)</span> </label> </p> 
+           <p id="explorer"> <input type="checkbox" id="checkModelo" value="Explorer"> <label> <i class="fa fa-square-o"></i> <span>Explorer (1)</span> </label> </p> 
+           <p id="f75"> <input type="checkbox" id="checkModelo" value="F75"> <label> <i class="fa fa-square-o"></i> <span>F75 (4)</span> </label> </p> 
+           <p id="forester"> <input type="checkbox" id="checkModelo" value="Forester"> <label> <i class="fa fa-square-o"></i> <span>Forester (1)</span> </label> </p> 
+           <p id="freelander"> <input type="checkbox" id="checkModelo" value="Freelander"> <label> <i class="fa fa-square-o"></i> <span>Freelander (10)</span> </label> </p> 
+           <p id="freemont"> <input type="checkbox" id="checkModelo" value="Freemont"> <label> <i class="fa fa-square-o"></i> <span>Freemont (17)</span> </label> </p> 
+           <p id="fx35"> <input type="checkbox" id="checkModelo" value="FX35"> <label> <i class="fa fa-square-o"></i> <span>FX35 (4)</span> </label> </p> 
+           <p id="gla-200"> <input type="checkbox" id="checkModelo" value="GLA 200"> <label> <i class="fa fa-square-o"></i> <span>GLA 200 (2)</span> </label> </p> 
+           <p id="grand-cherokee"> <input type="checkbox" id="checkModelo" value="Grand Cherokee"> <label> <i class="fa fa-square-o"></i> <span>Grand Cherokee (5)</span> </label> </p> 
+           <p id="grand-vitara"> <input type="checkbox" id="checkModelo" value="Grand Vitara"> <label> <i class="fa fa-square-o"></i> <span>Grand Vitara (9)</span> </label> </p> 
+           <p id="h3"> <input type="checkbox" id="checkModelo" value="H3"> <label> <i class="fa fa-square-o"></i> <span>H3 (1)</span> </label> </p> 
+           <p id="hr"> <input type="checkbox" id="checkModelo" value="HR"> <label> <i class="fa fa-square-o"></i> <span>HR (2)</span> </label> </p> 
+           <p id="hr-v"> <input type="checkbox" id="checkModelo" value="HR-V"> <label> <i class="fa fa-square-o"></i> <span>HR-V (15)</span> </label> </p> 
+           <p id="ix35"> <input type="checkbox" id="checkModelo" value="IX35"> <label> <i class="fa fa-square-o"></i> <span>IX35 (42)</span> </label> </p> 
+           <p id="journey"> <input type="checkbox" id="checkModelo" value="Journey"> <label> <i class="fa fa-square-o"></i> <span>Journey (11)</span> </label> </p> 
+           <p id="land-cruiser"> <input type="checkbox" id="checkModelo" value="Land Cruiser"> <label> <i class="fa fa-square-o"></i> <span>Land Cruiser (1)</span> </label> </p> 
+           <p id="ml-320"> <input type="checkbox" id="checkModelo" value="ML 320"> <label> <i class="fa fa-square-o"></i> <span>ML 320 (2)</span> </label> </p> 
+           <p id="ml-350"> <input type="checkbox" id="checkModelo" value="ML 350"> <label> <i class="fa fa-square-o"></i> <span>ML 350 (4)</span> </label> </p> 
+           <p id="mobi"> <input type="checkbox" id="checkModelo" value="Mobi"> <label> <i class="fa fa-square-o"></i> <span>Mobi (15)</span> </label> </p> 
+           <p id="mohave"> <input type="checkbox" id="checkModelo" value="Mohave"> <label> <i class="fa fa-square-o"></i> <span>Mohave (3)</span> </label> </p> 
+           <p id="outlander"> <input type="checkbox" id="checkModelo" value="Outlander"> <label> <i class="fa fa-square-o"></i> <span>Outlander (23)</span> </label> </p> 
+           <p id="pajero"> <input type="checkbox" id="checkModelo" value="Pajero"> <label> <i class="fa fa-square-o"></i> <span>Pajero (72)</span> </label> </p> 
+           <p id="pathfinder"> <input type="checkbox" id="checkModelo" value="PathFinder"> <label> <i class="fa fa-square-o"></i> <span>PathFinder (2)</span> </label> </p> 
+           <p id="pt-cruiser"> <input type="checkbox" id="checkModelo" value="PT Cruiser"> <label> <i class="fa fa-square-o"></i> <span>PT Cruiser (7)</span> </label> </p> 
+           <p id="q3"> <input type="checkbox" id="checkModelo" value="Q3"> <label> <i class="fa fa-square-o"></i> <span>Q3 (19)</span> </label> </p> 
+           <p id="q5"> <input type="checkbox" id="checkModelo" value="Q5"> <label> <i class="fa fa-square-o"></i> <span>Q5 (2)</span> </label> </p> 
+           <p id="range-rover"> <input type="checkbox" id="checkModelo" value="Range Rover"> <label> <i class="fa fa-square-o"></i> <span>Range Rover (18)</span> </label> </p> 
+           <p id="rav-4"> <input type="checkbox" id="checkModelo" value="RAV 4"> <label> <i class="fa fa-square-o"></i> <span>RAV 4 (7)</span> </label> </p> 
+           <p id="rexton"> <input type="checkbox" id="checkModelo" value="Rexton"> <label> <i class="fa fa-square-o"></i> <span>Rexton (1)</span> </label> </p> 
+           <p id="santa-f�"> <input type="checkbox" id="checkModelo" value="Santa F�"> <label> <i class="fa fa-square-o"></i> <span>Santa F� (15)</span> </label> </p> 
+           <p id="sorento"> <input type="checkbox" id="checkModelo" value="Sorento"> <label> <i class="fa fa-square-o"></i> <span>Sorento (30)</span> </label> </p> 
+           <p id="soul"> <input type="checkbox" id="checkModelo" value="Soul"> <label> <i class="fa fa-square-o"></i> <span>Soul (20)</span> </label> </p> 
+           <p id="sportage"> <input type="checkbox" id="checkModelo" value="Sportage"> <label> <i class="fa fa-square-o"></i> <span>Sportage (58)</span> </label> </p> 
+           <p id="sx4"> <input type="checkbox" id="checkModelo" value="SX4"> <label> <i class="fa fa-square-o"></i> <span>SX4 (2)</span> </label> </p> 
+           <p id="terracan"> <input type="checkbox" id="checkModelo" value="Terracan"> <label> <i class="fa fa-square-o"></i> <span>Terracan (1)</span> </label> </p> 
+           <p id="tiggo"> <input type="checkbox" id="checkModelo" value="Tiggo"> <label> <i class="fa fa-square-o"></i> <span>Tiggo (8)</span> </label> </p> 
+           <p id="tiguan"> <input type="checkbox" id="checkModelo" value="Tiguan"> <label> <i class="fa fa-square-o"></i> <span>Tiguan (26)</span> </label> </p> 
+           <p id="toro"> <input type="checkbox" id="checkModelo" value="Toro"> <label> <i class="fa fa-square-o"></i> <span>Toro (17)</span> </label> </p> 
+           <p id="touareg"> <input type="checkbox" id="checkModelo" value="Touareg"> <label> <i class="fa fa-square-o"></i> <span>Touareg (2)</span> </label> </p> 
+           <p id="tracker"> <input type="checkbox" id="checkModelo" value="Tracker"> <label> <i class="fa fa-square-o"></i> <span>Tracker (15)</span> </label> </p> 
+           <p id="tucson"> <input type="checkbox" id="checkModelo" value="Tucson"> <label> <i class="fa fa-square-o"></i> <span>Tucson (56)</span> </label> </p> 
+           <p id="vera-cruz"> <input type="checkbox" id="checkModelo" value="Vera Cruz"> <label> <i class="fa fa-square-o"></i> <span>Vera Cruz (1)</span> </label> </p> 
+           <p id="wr-v"> <input type="checkbox" id="checkModelo" value="WR-V"> <label> <i class="fa fa-square-o"></i> <span>WR-V (5)</span> </label> </p> 
+           <p id="x1"> <input type="checkbox" id="checkModelo" value="X1"> <label> <i class="fa fa-square-o"></i> <span>X1 (21)</span> </label> </p> 
+           <p id="x3"> <input type="checkbox" id="checkModelo" value="X3"> <label> <i class="fa fa-square-o"></i> <span>X3 (6)</span> </label> </p> 
+           <p id="x5"> <input type="checkbox" id="checkModelo" value="X5"> <label> <i class="fa fa-square-o"></i> <span>X5 (10)</span> </label> </p> 
+           <p id="x6"> <input type="checkbox" id="checkModelo" value="X6"> <label> <i class="fa fa-square-o"></i> <span>X6 (5)</span> </label> </p> 
+           <p id="x60"> <input type="checkbox" id="checkModelo" value="X60"> <label> <i class="fa fa-square-o"></i> <span>X60 (22)</span> </label> </p> 
+           <p id="xc60"> <input type="checkbox" id="checkModelo" value="XC60"> <label> <i class="fa fa-square-o"></i> <span>XC60 (9)</span> </label> </p> 
+           <p id="xterra"> <input type="checkbox" id="checkModelo" value="XTerra"> <label> <i class="fa fa-square-o"></i> <span>XTerra (3)</span> </label> </p> 
+           <label id="textNaoMd"></label> 
+          </div> 
+          <p id="link-mais-modelos"><a>mais modelos</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO ANOS--> 
+         <div id="filtro-ano"> 
+          <p><span>ANO</span> <span id="mais-ano"> +</span></p> 
+          <select name="anoDe" id="Anomin" class="botao-select display-none"> <option value="0"> de</option> <option value="1969">1969</option> <option value="1972">1972</option> <option value="1973">1973</option> <option value="1997">1997</option> <option value="1998">1998</option> <option value="1999">1999</option> <option value="2000">2000</option> <option value="2001">2001</option> <option value="2002">2002</option> <option value="2003">2003</option> <option value="2004">2004</option> <option value="2005">2005</option> <option value="2006">2006</option> <option value="2007">2007</option> <option value="2008">2008</option> <option value="2009">2009</option> <option value="2010">2010</option> <option value="2011">2011</option> <option value="2012">2012</option> <option value="2013">2013</option> <option value="2014">2014</option> <option value="2015">2015</option> <option value="2016">2016</option> <option value="2017">2017</option> <option value="2018">2018</option> </select> 
+          <select name="anoAte" id="Anomax" class="botao-select display-none"> <option value="0">até</option> <option value="2018">2018</option> <option value="2017">2017</option> <option value="2016">2016</option> <option value="2015">2015</option> <option value="2014">2014</option> <option value="2013">2013</option> <option value="2012">2012</option> <option value="2011">2011</option> <option value="2010">2010</option> <option value="2009">2009</option> <option value="2008">2008</option> <option value="2007">2007</option> <option value="2006">2006</option> <option value="2005">2005</option> <option value="2004">2004</option> <option value="2003">2003</option> <option value="2002">2002</option> <option value="2001">2001</option> <option value="2000">2000</option> <option value="1999">1999</option> <option value="1998">1998</option> <option value="1997">1997</option> <option value="1973">1973</option> <option value="1972">1972</option> <option value="1969">1969</option> </select> 
+          <button type="button" class="btn btn-success  display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO CIDADE--> 
+         <div id="filtro-cidade"> 
+          <p><span>CIDADE</span> <span id="mais-cidade">-</span></p> 
+          <input type="text" name="pes-cidade" id="pes-cidade" placeholder="Pesquisar Cidade"> 
+          <div id="inputCidade"> 
+          </div> 
+          <div id="valuesCidade"> 
+           <p id="abdon-batista"> <input type="checkbox" id="checkCidade" value="Abdon batista"> <label> <i class="fa fa-square-o"></i> <span>Abdon batista (1)</span> </label> </p> 
+           <p id="altônia"> <input type="checkbox" id="checkCidade" value="Altônia"> <label> <i class="fa fa-square-o"></i> <span>Altônia (1)</span> </label> </p> 
+           <p id="araranguá"> <input type="checkbox" id="checkCidade" value="Araranguá"> <label> <i class="fa fa-square-o"></i> <span>Araranguá (1)</span> </label> </p> 
+           <p id="balneário-camboriú"> <input type="checkbox" id="checkCidade" value="Balneário camboriú"> <label> <i class="fa fa-square-o"></i> <span>Balneário camboriú (97)</span> </label> </p> 
+           <p id="blumenau"> <input type="checkbox" id="checkCidade" value="Blumenau"> <label> <i class="fa fa-square-o"></i> <span>Blumenau (105)</span> </label> </p> 
+           <p id="bombinhas"> <input type="checkbox" id="checkCidade" value="Bombinhas"> <label> <i class="fa fa-square-o"></i> <span>Bombinhas (1)</span> </label> </p> 
+           <p id="brusque"> <input type="checkbox" id="checkCidade" value="Brusque"> <label> <i class="fa fa-square-o"></i> <span>Brusque (140)</span> </label> </p> 
+           <p id="camboriú"> <input type="checkbox" id="checkCidade" value="Camboriú"> <label> <i class="fa fa-square-o"></i> <span>Camboriú (9)</span> </label> </p> 
+           <p id="caxias-do-sul"> <input type="checkbox" id="checkCidade" value="Caxias do sul"> <label> <i class="fa fa-square-o"></i> <span>Caxias do sul (57)</span> </label> </p> 
+           <p id="criciuma"> <input type="checkbox" id="checkCidade" value="Criciuma"> <label> <i class="fa fa-square-o"></i> <span>Criciuma (3)</span> </label> </p> 
+           <p id="criciúma"> <input type="checkbox" id="checkCidade" value="Criciúma"> <label> <i class="fa fa-square-o"></i> <span>Criciúma (41)</span> </label> </p> 
+           <p id="florianopolis"> <input type="checkbox" id="checkCidade" value="Florianopolis"> <label> <i class="fa fa-square-o"></i> <span>Florianopolis (16)</span> </label> </p> 
+           <p id="florianópolis"> <input type="checkbox" id="checkCidade" value="Florianópolis"> <label> <i class="fa fa-square-o"></i> <span>Florianópolis (48)</span> </label> </p> 
+           <p id="gaspar"> <input type="checkbox" id="checkCidade" value="Gaspar"> <label> <i class="fa fa-square-o"></i> <span>Gaspar (15)</span> </label> </p> 
+           <p id="guabiruba"> <input type="checkbox" id="checkCidade" value="Guabiruba"> <label> <i class="fa fa-square-o"></i> <span>Guabiruba (4)</span> </label> </p> 
+           <p id="indaial"> <input type="checkbox" id="checkCidade" value="Indaial"> <label> <i class="fa fa-square-o"></i> <span>Indaial (6)</span> </label> </p> 
+           <p id="itajai"> <input type="checkbox" id="checkCidade" value="Itajai"> <label> <i class="fa fa-square-o"></i> <span>Itajai (5)</span> </label> </p> 
+           <p id="itajaí"> <input type="checkbox" id="checkCidade" value="Itajaí"> <label> <i class="fa fa-square-o"></i> <span>Itajaí (127)</span> </label> </p> 
+           <p id="itapema"> <input type="checkbox" id="checkCidade" value="Itapema"> <label> <i class="fa fa-square-o"></i> <span>Itapema (9)</span> </label> </p> 
+           <p id="içara"> <input type="checkbox" id="checkCidade" value="Içara"> <label> <i class="fa fa-square-o"></i> <span>Içara (20)</span> </label> </p> 
+           <p id="joinville"> <input type="checkbox" id="checkCidade" value="Joinville"> <label> <i class="fa fa-square-o"></i> <span>Joinville (123)</span> </label> </p> 
+           <p id="massaranduba"> <input type="checkbox" id="checkCidade" value="Massaranduba"> <label> <i class="fa fa-square-o"></i> <span>Massaranduba (1)</span> </label> </p> 
+           <p id="meleiro"> <input type="checkbox" id="checkCidade" value="Meleiro"> <label> <i class="fa fa-square-o"></i> <span>Meleiro (4)</span> </label> </p> 
+           <p id="navegantes"> <input type="checkbox" id="checkCidade" value="Navegantes"> <label> <i class="fa fa-square-o"></i> <span>Navegantes (6)</span> </label> </p> 
+           <p id="nova-trento"> <input type="checkbox" id="checkCidade" value="Nova trento"> <label> <i class="fa fa-square-o"></i> <span>Nova trento (4)</span> </label> </p> 
+           <p id="palhoça"> <input type="checkbox" id="checkCidade" value="Palhoça"> <label> <i class="fa fa-square-o"></i> <span>Palhoça (27)</span> </label> </p> 
+           <p id="paulo-lopes"> <input type="checkbox" id="checkCidade" value="Paulo lopes"> <label> <i class="fa fa-square-o"></i> <span>Paulo lopes (5)</span> </label> </p> 
+           <p id="presidente-getúlio"> <input type="checkbox" id="checkCidade" value="Presidente getúlio"> <label> <i class="fa fa-square-o"></i> <span>Presidente getúlio (8)</span> </label> </p> 
+           <p id="rio-negrinho"> <input type="checkbox" id="checkCidade" value="Rio negrinho"> <label> <i class="fa fa-square-o"></i> <span>Rio negrinho (3)</span> </label> </p> 
+           <p id="sao-jose"> <input type="checkbox" id="checkCidade" value="Sao jose"> <label> <i class="fa fa-square-o"></i> <span>Sao jose (1)</span> </label> </p> 
+           <p id="sideropolis"> <input type="checkbox" id="checkCidade" value="Sideropolis"> <label> <i class="fa fa-square-o"></i> <span>Sideropolis (1)</span> </label> </p> 
+           <p id="são-bento-do-sul"> <input type="checkbox" id="checkCidade" value="São bento do sul"> <label> <i class="fa fa-square-o"></i> <span>São bento do sul (13)</span> </label> </p> 
+           <p id="são-jose"> <input type="checkbox" id="checkCidade" value="São jose"> <label> <i class="fa fa-square-o"></i> <span>São jose (3)</span> </label> </p> 
+           <p id="são-josé"> <input type="checkbox" id="checkCidade" value="São josé"> <label> <i class="fa fa-square-o"></i> <span>São josé (93)</span> </label> </p> 
+           <p id="são-joão-batista"> <input type="checkbox" id="checkCidade" value="São joão batista"> <label> <i class="fa fa-square-o"></i> <span>São joão batista (9)</span> </label> </p> 
+           <p id="tijucas"> <input type="checkbox" id="checkCidade" value="Tijucas"> <label> <i class="fa fa-square-o"></i> <span>Tijucas (16)</span> </label> </p> 
+           <label id="textNaoCi"></label> 
+          </div> 
+          <p id="link-mais-cidades"><a>mais cidades</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO VALOR--> 
+         <div id="filtro-valor"> 
+          <p><span>VALOR</span> <span id="mais-valor">+</span></p> 
+          <select name="valorDe" id="Valormin" class="botao-select display-none"> <option value="0">de</option> <option value="2200.00">R$ 2.200</option> <option value="10500.00">R$ 10.500</option> <option value="12000.00">R$ 12.000</option> <option value="12500.00">R$ 12.500</option> <option value="12900.00">R$ 12.900</option> <option value="14000.00">R$ 14.000</option> <option value="15000.00">R$ 15.000</option> <option value="16900.00">R$ 16.900</option> <option value="17800.00">R$ 17.800</option> <option value="18800.00">R$ 18.800</option> <option value="19900.00">R$ 19.900</option> <option value="20000.00">R$ 20.000</option> <option value="20500.00">R$ 20.500</option> <option value="20900.00">R$ 20.900</option> <option value="21500.00">R$ 21.500</option> <option value="21900.00">R$ 21.900</option> <option value="21994.00">R$ 21.994</option> <option value="22000.00">R$ 22.000</option> <option value="22800.00">R$ 22.800</option> <option value="22900.00">R$ 22.900</option> <option value="23500.00">R$ 23.500</option> <option value="23900.00">R$ 23.900</option> <option value="23999.00">R$ 23.999</option> <option value="24000.00">R$ 24.000</option> <option value="24800.00">R$ 24.800</option> <option value="24900.00">R$ 24.900</option> <option value="24990.00">R$ 24.990</option> <option value="25000.00">R$ 25.000</option> <option value="25500.00">R$ 25.500</option> <option value="25900.00">R$ 25.900</option> <option value="25990.00">R$ 25.990</option> <option value="26500.00">R$ 26.500</option> <option value="26800.00">R$ 26.800</option> <option value="26900.00">R$ 26.900</option> <option value="27000.00">R$ 27.000</option> <option value="27900.00">R$ 27.900</option> <option value="28000.00">R$ 28.000</option> <option value="28500.00">R$ 28.500</option> <option value="28900.00">R$ 28.900</option> <option value="28990.00">R$ 28.990</option> <option value="29800.00">R$ 29.800</option> <option value="29900.00">R$ 29.900</option> <option value="29990.00">R$ 29.990</option> <option value="30900.00">R$ 30.900</option> <option value="31000.00">R$ 31.000</option> <option value="31500.00">R$ 31.500</option> <option value="31900.00">R$ 31.900</option> <option value="32500.00">R$ 32.500</option> <option value="32800.00">R$ 32.800</option> <option value="32899.00">R$ 32.899</option> <option value="32900.00">R$ 32.900</option> <option value="32990.00">R$ 32.990</option> <option value="33500.00">R$ 33.500</option> <option value="33800.00">R$ 33.800</option> <option value="33900.00">R$ 33.900</option> <option value="33990.00">R$ 33.990</option> <option value="33999.00">R$ 33.999</option> <option value="34500.00">R$ 34.500</option> <option value="34800.00">R$ 34.800</option> <option value="34900.00">R$ 34.900</option> <option value="34990.00">R$ 34.990</option> <option value="35000.00">R$ 35.000</option> <option value="35500.00">R$ 35.500</option> <option value="35900.00">R$ 35.900</option> <option value="35990.00">R$ 35.990</option> <option value="36000.00">R$ 36.000</option> <option value="36500.00">R$ 36.500</option> <option value="36800.00">R$ 36.800</option> <option value="36900.00">R$ 36.900</option> <option value="37600.00">R$ 37.600</option> <option value="37800.00">R$ 37.800</option> <option value="37900.00">R$ 37.900</option> <option value="37990.00">R$ 37.990</option> <option value="38500.00">R$ 38.500</option> <option value="38900.00">R$ 38.900</option> <option value="38990.00">R$ 38.990</option> <option value="39000.00">R$ 39.000</option> <option value="39500.00">R$ 39.500</option> <option value="39800.00">R$ 39.800</option> <option value="39900.00">R$ 39.900</option> <option value="39990.00">R$ 39.990</option> <option value="40000.00">R$ 40.000</option> <option value="40900.00">R$ 40.900</option> <option value="40990.00">R$ 40.990</option> <option value="41000.00">R$ 41.000</option> <option value="41420.00">R$ 41.420</option> <option value="41500.00">R$ 41.500</option> <option value="41800.00">R$ 41.800</option> <option value="41900.00">R$ 41.900</option> <option value="42000.00">R$ 42.000</option> <option value="42500.00">R$ 42.500</option> <option value="42899.00">R$ 42.899</option> <option value="42900.00">R$ 42.900</option> <option value="42990.00">R$ 42.990</option> <option value="43000.00">R$ 43.000</option> <option value="43500.00">R$ 43.500</option> <option value="43800.00">R$ 43.800</option> <option value="43900.00">R$ 43.900</option> <option value="44000.00">R$ 44.000</option> <option value="44800.00">R$ 44.800</option> <option value="44900.00">R$ 44.900</option> <option value="44990.00">R$ 44.990</option> <option value="45000.00">R$ 45.000</option> <option value="45800.00">R$ 45.800</option> <option value="45900.00">R$ 45.900</option> <option value="45990.00">R$ 45.990</option> <option value="46500.00">R$ 46.500</option> <option value="46900.00">R$ 46.900</option> <option value="46990.00">R$ 46.990</option> <option value="47000.00">R$ 47.000</option> <option value="47500.00">R$ 47.500</option> <option value="47800.00">R$ 47.800</option> <option value="47900.00">R$ 47.900</option> <option value="47990.00">R$ 47.990</option> <option value="48000.00">R$ 48.000</option> <option value="48800.00">R$ 48.800</option> <option value="48900.00">R$ 48.900</option> <option value="48990.00">R$ 48.990</option> <option value="49000.00">R$ 49.000</option> <option value="49500.00">R$ 49.500</option> <option value="49800.00">R$ 49.800</option> <option value="49900.00">R$ 49.900</option> <option value="50500.00">R$ 50.500</option> <option value="50800.00">R$ 50.800</option> <option value="50899.00">R$ 50.899</option> <option value="50900.00">R$ 50.900</option> <option value="51000.00">R$ 51.000</option> <option value="51800.00">R$ 51.800</option> <option value="51900.00">R$ 51.900</option> <option value="51990.00">R$ 51.990</option> <option value="52000.00">R$ 52.000</option> <option value="52800.00">R$ 52.800</option> <option value="52900.00">R$ 52.900</option> <option value="53500.00">R$ 53.500</option> <option value="53900.00">R$ 53.900</option> <option value="53990.00">R$ 53.990</option> <option value="54000.00">R$ 54.000</option> <option value="54500.00">R$ 54.500</option> <option value="54800.00">R$ 54.800</option> <option value="54900.00">R$ 54.900</option> <option value="54990.00">R$ 54.990</option> <option value="55000.00">R$ 55.000</option> <option value="55900.00">R$ 55.900</option> <option value="56000.00">R$ 56.000</option> <option value="56500.00">R$ 56.500</option> <option value="56890.00">R$ 56.890</option> <option value="56900.00">R$ 56.900</option> <option value="57000.00">R$ 57.000</option> <option value="57500.00">R$ 57.500</option> <option value="57800.00">R$ 57.800</option> <option value="57900.00">R$ 57.900</option> <option value="57990.00">R$ 57.990</option> <option value="58000.00">R$ 58.000</option> <option value="58500.00">R$ 58.500</option> <option value="58900.00">R$ 58.900</option> <option value="59000.00">R$ 59.000</option> <option value="59500.00">R$ 59.500</option> <option value="59800.00">R$ 59.800</option> <option value="59899.00">R$ 59.899</option> <option value="59900.00">R$ 59.900</option> <option value="59990.00">R$ 59.990</option> <option value="60000.00">R$ 60.000</option> <option value="60900.00">R$ 60.900</option> <option value="61500.00">R$ 61.500</option> <option value="61900.00">R$ 61.900</option> <option value="61990.00">R$ 61.990</option> <option value="62000.00">R$ 62.000</option> <option value="62800.00">R$ 62.800</option> <option value="62900.00">R$ 62.900</option> <option value="62990.00">R$ 62.990</option> <option value="63000.00">R$ 63.000</option> <option value="63500.00">R$ 63.500</option> <option value="63900.00">R$ 63.900</option> <option value="64900.00">R$ 64.900</option> <option value="64949.00">R$ 64.949</option> <option value="64990.00">R$ 64.990</option> <option value="65000.00">R$ 65.000</option> <option value="65900.00">R$ 65.900</option> <option value="65990.00">R$ 65.990</option> <option value="66000.00">R$ 66.000</option> <option value="66900.00">R$ 66.900</option> <option value="67900.00">R$ 67.900</option> <option value="67990.00">R$ 67.990</option> <option value="68000.00">R$ 68.000</option> <option value="68899.00">R$ 68.899</option> <option value="68900.00">R$ 68.900</option> <option value="69500.00">R$ 69.500</option> <option value="69800.00">R$ 69.800</option> <option value="69900.00">R$ 69.900</option> <option value="69990.00">R$ 69.990</option> <option value="70900.00">R$ 70.900</option> <option value="71900.00">R$ 71.900</option> <option value="72500.00">R$ 72.500</option> <option value="72899.00">R$ 72.899</option> <option value="72900.00">R$ 72.900</option> <option value="73000.00">R$ 73.000</option> <option value="73900.00">R$ 73.900</option> <option value="73990.00">R$ 73.990</option> <option value="73999.00">R$ 73.999</option> <option value="74000.00">R$ 74.000</option> <option value="74900.00">R$ 74.900</option> <option value="74990.00">R$ 74.990</option> <option value="75000.00">R$ 75.000</option> <option value="75900.00">R$ 75.900</option> <option value="75990.00">R$ 75.990</option> <option value="76500.00">R$ 76.500</option> <option value="76900.00">R$ 76.900</option> <option value="76990.00">R$ 76.990</option> <option value="77900.00">R$ 77.900</option> <option value="78000.00">R$ 78.000</option> <option value="78900.00">R$ 78.900</option> <option value="78990.00">R$ 78.990</option> <option value="79000.00">R$ 79.000</option> <option value="79500.00">R$ 79.500</option> <option value="79800.00">R$ 79.800</option> <option value="79900.00">R$ 79.900</option> <option value="79990.00">R$ 79.990</option> <option value="81000.00">R$ 81.000</option> <option value="81900.00">R$ 81.900</option> <option value="81990.00">R$ 81.990</option> <option value="82900.00">R$ 82.900</option> <option value="82990.00">R$ 82.990</option> <option value="83000.00">R$ 83.000</option> <option value="83900.00">R$ 83.900</option> <option value="84900.00">R$ 84.900</option> <option value="85000.00">R$ 85.000</option> <option value="85600.00">R$ 85.600</option> <option value="85900.00">R$ 85.900</option> <option value="86000.00">R$ 86.000</option> <option value="86900.00">R$ 86.900</option> <option value="86990.00">R$ 86.990</option> <option value="87500.00">R$ 87.500</option> <option value="87900.00">R$ 87.900</option> <option value="88000.00">R$ 88.000</option> <option value="88900.00">R$ 88.900</option> <option value="88990.00">R$ 88.990</option> <option value="89000.00">R$ 89.000</option> <option value="89880.00">R$ 89.880</option> <option value="89900.00">R$ 89.900</option> <option value="89990.00">R$ 89.990</option> <option value="90000.00">R$ 90.000</option> <option value="90900.00">R$ 90.900</option> <option value="91500.00">R$ 91.500</option> <option value="91900.00">R$ 91.900</option> <option value="92500.00">R$ 92.500</option> <option value="92900.00">R$ 92.900</option> <option value="92990.00">R$ 92.990</option> <option value="93900.00">R$ 93.900</option> <option value="93990.00">R$ 93.990</option> <option value="94000.00">R$ 94.000</option> <option value="94500.00">R$ 94.500</option> <option value="94900.00">R$ 94.900</option> <option value="94990.00">R$ 94.990</option> <option value="95900.00">R$ 95.900</option> <option value="96000.00">R$ 96.000</option> <option value="96900.00">R$ 96.900</option> <option value="97000.00">R$ 97.000</option> <option value="98000.00">R$ 98.000</option> <option value="98900.00">R$ 98.900</option> <option value="99900.00">R$ 99.900</option> <option value="99990.00">R$ 99.990</option> <option value="100000.00">R$ 100.000</option> <option value="101900.00">R$ 101.900</option> <option value="102000.00">R$ 102.000</option> <option value="102490.00">R$ 102.490</option> <option value="102500.00">R$ 102.500</option> <option value="102900.00">R$ 102.900</option> <option value="103000.00">R$ 103.000</option> <option value="103900.00">R$ 103.900</option> <option value="105000.00">R$ 105.000</option> <option value="105900.00">R$ 105.900</option> <option value="107990.00">R$ 107.990</option> <option value="108000.00">R$ 108.000</option> <option value="109000.00">R$ 109.000</option> <option value="109900.00">R$ 109.900</option> <option value="109990.00">R$ 109.990</option> <option value="110000.00">R$ 110.000</option> <option value="110900.00">R$ 110.900</option> <option value="111000.00">R$ 111.000</option> <option value="111900.00">R$ 111.900</option> <option value="112000.00">R$ 112.000</option> <option value="112990.00">R$ 112.990</option> <option value="114000.00">R$ 114.000</option> <option value="114900.00">R$ 114.900</option> <option value="114990.00">R$ 114.990</option> <option value="115000.00">R$ 115.000</option> <option value="115900.00">R$ 115.900</option> <option value="115990.00">R$ 115.990</option> <option value="116000.00">R$ 116.000</option> <option value="116900.00">R$ 116.900</option> <option value="116990.00">R$ 116.990</option> <option value="117900.00">R$ 117.900</option> <option value="118800.00">R$ 118.800</option> <option value="118900.00">R$ 118.900</option> <option value="119000.00">R$ 119.000</option> <option value="119490.00">R$ 119.490</option> <option value="119900.00">R$ 119.900</option> <option value="120000.00">R$ 120.000</option> <option value="120500.00">R$ 120.500</option> <option value="121000.00">R$ 121.000</option> <option value="122900.00">R$ 122.900</option> <option value="123900.00">R$ 123.900</option> <option value="124000.00">R$ 124.000</option> <option value="124500.00">R$ 124.500</option> <option value="124900.00">R$ 124.900</option> <option value="125000.00">R$ 125.000</option> <option value="125500.00">R$ 125.500</option> <option value="125990.00">R$ 125.990</option> <option value="127900.00">R$ 127.900</option> <option value="128900.00">R$ 128.900</option> <option value="129000.00">R$ 129.000</option> <option value="129900.00">R$ 129.900</option> <option value="129990.00">R$ 129.990</option> <option value="130000.00">R$ 130.000</option> <option value="130990.00">R$ 130.990</option> <option value="134900.00">R$ 134.900</option> <option value="138000.00">R$ 138.000</option> <option value="138900.00">R$ 138.900</option> <option value="139000.00">R$ 139.000</option> <option value="139900.00">R$ 139.900</option> <option value="139990.00">R$ 139.990</option> <option value="140000.00">R$ 140.000</option> <option value="141900.00">R$ 141.900</option> <option value="142300.00">R$ 142.300</option> <option value="142990.00">R$ 142.990</option> <option value="144000.00">R$ 144.000</option> <option value="144500.00">R$ 144.500</option> <option value="144900.00">R$ 144.900</option> <option value="145000.00">R$ 145.000</option> <option value="148000.00">R$ 148.000</option> <option value="148900.00">R$ 148.900</option> <option value="148990.00">R$ 148.990</option> <option value="149900.00">R$ 149.900</option> <option value="149990.00">R$ 149.990</option> <option value="152990.00">R$ 152.990</option> <option value="153900.00">R$ 153.900</option> <option value="154990.00">R$ 154.990</option> <option value="155000.00">R$ 155.000</option> <option value="155900.00">R$ 155.900</option> <option value="159900.00">R$ 159.900</option> <option value="160000.00">R$ 160.000</option> <option value="163490.00">R$ 163.490</option> <option value="164990.00">R$ 164.990</option> <option value="166900.00">R$ 166.900</option> <option value="167990.00">R$ 167.990</option> <option value="168900.00">R$ 168.900</option> <option value="169900.00">R$ 169.900</option> <option value="169990.00">R$ 169.990</option> <option value="172800.00">R$ 172.800</option> <option value="173990.00">R$ 173.990</option> <option value="174900.00">R$ 174.900</option> <option value="175900.00">R$ 175.900</option> <option value="176900.00">R$ 176.900</option> <option value="178000.00">R$ 178.000</option> <option value="178990.00">R$ 178.990</option> <option value="179000.00">R$ 179.000</option> <option value="179900.00">R$ 179.900</option> <option value="179999.00">R$ 179.999</option> <option value="184800.00">R$ 184.800</option> <option value="184900.00">R$ 184.900</option> <option value="185000.00">R$ 185.000</option> <option value="185900.00">R$ 185.900</option> <option value="187000.00">R$ 187.000</option> <option value="189900.00">R$ 189.900</option> <option value="189990.00">R$ 189.990</option> <option value="190000.00">R$ 190.000</option> <option value="194990.00">R$ 194.990</option> <option value="195000.00">R$ 195.000</option> <option value="196990.00">R$ 196.990</option> <option value="199990.00">R$ 199.990</option> <option value="203990.00">R$ 203.990</option> <option value="205990.00">R$ 205.990</option> <option value="206000.00">R$ 206.000</option> <option value="208900.00">R$ 208.900</option> <option value="209800.00">R$ 209.800</option> <option value="209900.00">R$ 209.900</option> <option value="210000.00">R$ 210.000</option> <option value="218000.00">R$ 218.000</option> <option value="219900.00">R$ 219.900</option> <option value="234990.00">R$ 234.990</option> <option value="239900.00">R$ 239.900</option> <option value="239990.00">R$ 239.990</option> <option value="243990.00">R$ 243.990</option> <option value="249900.00">R$ 249.900</option> <option value="249990.00">R$ 249.990</option> <option value="295900.00">R$ 295.900</option> <option value="299000.00">R$ 299.000</option> <option value="299990.00">R$ 299.990</option> <option value="309900.00">R$ 309.900</option> <option value="330000.00">R$ 330.000</option> <option value="359990.00">R$ 359.990</option> <option value="405000.00">R$ 405.000</option> <option value="469990.00">R$ 469.990</option> <option value="550000.00">R$ 550.000</option> <option value="649990.00">R$ 649.990</option> </select> 
+          <select name="ValorAte" id="Valormax" class="botao-select display-none"> <option value="0">até</option> <option value="649990.00">R$ 649.990</option> <option value="550000.00">R$ 550.000</option> <option value="469990.00">R$ 469.990</option> <option value="405000.00">R$ 405.000</option> <option value="359990.00">R$ 359.990</option> <option value="330000.00">R$ 330.000</option> <option value="309900.00">R$ 309.900</option> <option value="299990.00">R$ 299.990</option> <option value="299000.00">R$ 299.000</option> <option value="295900.00">R$ 295.900</option> <option value="249990.00">R$ 249.990</option> <option value="249900.00">R$ 249.900</option> <option value="243990.00">R$ 243.990</option> <option value="239990.00">R$ 239.990</option> <option value="239900.00">R$ 239.900</option> <option value="234990.00">R$ 234.990</option> <option value="219900.00">R$ 219.900</option> <option value="218000.00">R$ 218.000</option> <option value="210000.00">R$ 210.000</option> <option value="209900.00">R$ 209.900</option> <option value="209800.00">R$ 209.800</option> <option value="208900.00">R$ 208.900</option> <option value="206000.00">R$ 206.000</option> <option value="205990.00">R$ 205.990</option> <option value="203990.00">R$ 203.990</option> <option value="199990.00">R$ 199.990</option> <option value="196990.00">R$ 196.990</option> <option value="195000.00">R$ 195.000</option> <option value="194990.00">R$ 194.990</option> <option value="190000.00">R$ 190.000</option> <option value="189990.00">R$ 189.990</option> <option value="189900.00">R$ 189.900</option> <option value="187000.00">R$ 187.000</option> <option value="185900.00">R$ 185.900</option> <option value="185000.00">R$ 185.000</option> <option value="184900.00">R$ 184.900</option> <option value="184800.00">R$ 184.800</option> <option value="179999.00">R$ 179.999</option> <option value="179900.00">R$ 179.900</option> <option value="179000.00">R$ 179.000</option> <option value="178990.00">R$ 178.990</option> <option value="178000.00">R$ 178.000</option> <option value="176900.00">R$ 176.900</option> <option value="175900.00">R$ 175.900</option> <option value="174900.00">R$ 174.900</option> <option value="173990.00">R$ 173.990</option> <option value="172800.00">R$ 172.800</option> <option value="169990.00">R$ 169.990</option> <option value="169900.00">R$ 169.900</option> <option value="168900.00">R$ 168.900</option> <option value="167990.00">R$ 167.990</option> <option value="166900.00">R$ 166.900</option> <option value="164990.00">R$ 164.990</option> <option value="163490.00">R$ 163.490</option> <option value="160000.00">R$ 160.000</option> <option value="159900.00">R$ 159.900</option> <option value="155900.00">R$ 155.900</option> <option value="155000.00">R$ 155.000</option> <option value="154990.00">R$ 154.990</option> <option value="153900.00">R$ 153.900</option> <option value="152990.00">R$ 152.990</option> <option value="149990.00">R$ 149.990</option> <option value="149900.00">R$ 149.900</option> <option value="148990.00">R$ 148.990</option> <option value="148900.00">R$ 148.900</option> <option value="148000.00">R$ 148.000</option> <option value="145000.00">R$ 145.000</option> <option value="144900.00">R$ 144.900</option> <option value="144500.00">R$ 144.500</option> <option value="144000.00">R$ 144.000</option> <option value="142990.00">R$ 142.990</option> <option value="142300.00">R$ 142.300</option> <option value="141900.00">R$ 141.900</option> <option value="140000.00">R$ 140.000</option> <option value="139990.00">R$ 139.990</option> <option value="139900.00">R$ 139.900</option> <option value="139000.00">R$ 139.000</option> <option value="138900.00">R$ 138.900</option> <option value="138000.00">R$ 138.000</option> <option value="134900.00">R$ 134.900</option> <option value="130990.00">R$ 130.990</option> <option value="130000.00">R$ 130.000</option> <option value="129990.00">R$ 129.990</option> <option value="129900.00">R$ 129.900</option> <option value="129000.00">R$ 129.000</option> <option value="128900.00">R$ 128.900</option> <option value="127900.00">R$ 127.900</option> <option value="125990.00">R$ 125.990</option> <option value="125500.00">R$ 125.500</option> <option value="125000.00">R$ 125.000</option> <option value="124900.00">R$ 124.900</option> <option value="124500.00">R$ 124.500</option> <option value="124000.00">R$ 124.000</option> <option value="123900.00">R$ 123.900</option> <option value="122900.00">R$ 122.900</option> <option value="121000.00">R$ 121.000</option> <option value="120500.00">R$ 120.500</option> <option value="120000.00">R$ 120.000</option> <option value="119900.00">R$ 119.900</option> <option value="119490.00">R$ 119.490</option> <option value="119000.00">R$ 119.000</option> <option value="118900.00">R$ 118.900</option> <option value="118800.00">R$ 118.800</option> <option value="117900.00">R$ 117.900</option> <option value="116990.00">R$ 116.990</option> <option value="116900.00">R$ 116.900</option> <option value="116000.00">R$ 116.000</option> <option value="115990.00">R$ 115.990</option> <option value="115900.00">R$ 115.900</option> <option value="115000.00">R$ 115.000</option> <option value="114990.00">R$ 114.990</option> <option value="114900.00">R$ 114.900</option> <option value="114000.00">R$ 114.000</option> <option value="112990.00">R$ 112.990</option> <option value="112000.00">R$ 112.000</option> <option value="111900.00">R$ 111.900</option> <option value="111000.00">R$ 111.000</option> <option value="110900.00">R$ 110.900</option> <option value="110000.00">R$ 110.000</option> <option value="109990.00">R$ 109.990</option> <option value="109900.00">R$ 109.900</option> <option value="109000.00">R$ 109.000</option> <option value="108000.00">R$ 108.000</option> <option value="107990.00">R$ 107.990</option> <option value="105900.00">R$ 105.900</option> <option value="105000.00">R$ 105.000</option> <option value="103900.00">R$ 103.900</option> <option value="103000.00">R$ 103.000</option> <option value="102900.00">R$ 102.900</option> <option value="102500.00">R$ 102.500</option> <option value="102490.00">R$ 102.490</option> <option value="102000.00">R$ 102.000</option> <option value="101900.00">R$ 101.900</option> <option value="100000.00">R$ 100.000</option> <option value="99990.00">R$ 99.990</option> <option value="99900.00">R$ 99.900</option> <option value="98900.00">R$ 98.900</option> <option value="98000.00">R$ 98.000</option> <option value="97000.00">R$ 97.000</option> <option value="96900.00">R$ 96.900</option> <option value="96000.00">R$ 96.000</option> <option value="95900.00">R$ 95.900</option> <option value="94990.00">R$ 94.990</option> <option value="94900.00">R$ 94.900</option> <option value="94500.00">R$ 94.500</option> <option value="94000.00">R$ 94.000</option> <option value="93990.00">R$ 93.990</option> <option value="93900.00">R$ 93.900</option> <option value="92990.00">R$ 92.990</option> <option value="92900.00">R$ 92.900</option> <option value="92500.00">R$ 92.500</option> <option value="91900.00">R$ 91.900</option> <option value="91500.00">R$ 91.500</option> <option value="90900.00">R$ 90.900</option> <option value="90000.00">R$ 90.000</option> <option value="89990.00">R$ 89.990</option> <option value="89900.00">R$ 89.900</option> <option value="89880.00">R$ 89.880</option> <option value="89000.00">R$ 89.000</option> <option value="88990.00">R$ 88.990</option> <option value="88900.00">R$ 88.900</option> <option value="88000.00">R$ 88.000</option> <option value="87900.00">R$ 87.900</option> <option value="87500.00">R$ 87.500</option> <option value="86990.00">R$ 86.990</option> <option value="86900.00">R$ 86.900</option> <option value="86000.00">R$ 86.000</option> <option value="85900.00">R$ 85.900</option> <option value="85600.00">R$ 85.600</option> <option value="85000.00">R$ 85.000</option> <option value="84900.00">R$ 84.900</option> <option value="83900.00">R$ 83.900</option> <option value="83000.00">R$ 83.000</option> <option value="82990.00">R$ 82.990</option> <option value="82900.00">R$ 82.900</option> <option value="81990.00">R$ 81.990</option> <option value="81900.00">R$ 81.900</option> <option value="81000.00">R$ 81.000</option> <option value="79990.00">R$ 79.990</option> <option value="79900.00">R$ 79.900</option> <option value="79800.00">R$ 79.800</option> <option value="79500.00">R$ 79.500</option> <option value="79000.00">R$ 79.000</option> <option value="78990.00">R$ 78.990</option> <option value="78900.00">R$ 78.900</option> <option value="78000.00">R$ 78.000</option> <option value="77900.00">R$ 77.900</option> <option value="76990.00">R$ 76.990</option> <option value="76900.00">R$ 76.900</option> <option value="76500.00">R$ 76.500</option> <option value="75990.00">R$ 75.990</option> <option value="75900.00">R$ 75.900</option> <option value="75000.00">R$ 75.000</option> <option value="74990.00">R$ 74.990</option> <option value="74900.00">R$ 74.900</option> <option value="74000.00">R$ 74.000</option> <option value="73999.00">R$ 73.999</option> <option value="73990.00">R$ 73.990</option> <option value="73900.00">R$ 73.900</option> <option value="73000.00">R$ 73.000</option> <option value="72900.00">R$ 72.900</option> <option value="72899.00">R$ 72.899</option> <option value="72500.00">R$ 72.500</option> <option value="71900.00">R$ 71.900</option> <option value="70900.00">R$ 70.900</option> <option value="69990.00">R$ 69.990</option> <option value="69900.00">R$ 69.900</option> <option value="69800.00">R$ 69.800</option> <option value="69500.00">R$ 69.500</option> <option value="68900.00">R$ 68.900</option> <option value="68899.00">R$ 68.899</option> <option value="68000.00">R$ 68.000</option> <option value="67990.00">R$ 67.990</option> <option value="67900.00">R$ 67.900</option> <option value="66900.00">R$ 66.900</option> <option value="66000.00">R$ 66.000</option> <option value="65990.00">R$ 65.990</option> <option value="65900.00">R$ 65.900</option> <option value="65000.00">R$ 65.000</option> <option value="64990.00">R$ 64.990</option> <option value="64949.00">R$ 64.949</option> <option value="64900.00">R$ 64.900</option> <option value="63900.00">R$ 63.900</option> <option value="63500.00">R$ 63.500</option> <option value="63000.00">R$ 63.000</option> <option value="62990.00">R$ 62.990</option> <option value="62900.00">R$ 62.900</option> <option value="62800.00">R$ 62.800</option> <option value="62000.00">R$ 62.000</option> <option value="61990.00">R$ 61.990</option> <option value="61900.00">R$ 61.900</option> <option value="61500.00">R$ 61.500</option> <option value="60900.00">R$ 60.900</option> <option value="60000.00">R$ 60.000</option> <option value="59990.00">R$ 59.990</option> <option value="59900.00">R$ 59.900</option> <option value="59899.00">R$ 59.899</option> <option value="59800.00">R$ 59.800</option> <option value="59500.00">R$ 59.500</option> <option value="59000.00">R$ 59.000</option> <option value="58900.00">R$ 58.900</option> <option value="58500.00">R$ 58.500</option> <option value="58000.00">R$ 58.000</option> <option value="57990.00">R$ 57.990</option> <option value="57900.00">R$ 57.900</option> <option value="57800.00">R$ 57.800</option> <option value="57500.00">R$ 57.500</option> <option value="57000.00">R$ 57.000</option> <option value="56900.00">R$ 56.900</option> <option value="56890.00">R$ 56.890</option> <option value="56500.00">R$ 56.500</option> <option value="56000.00">R$ 56.000</option> <option value="55900.00">R$ 55.900</option> <option value="55000.00">R$ 55.000</option> <option value="54990.00">R$ 54.990</option> <option value="54900.00">R$ 54.900</option> <option value="54800.00">R$ 54.800</option> <option value="54500.00">R$ 54.500</option> <option value="54000.00">R$ 54.000</option> <option value="53990.00">R$ 53.990</option> <option value="53900.00">R$ 53.900</option> <option value="53500.00">R$ 53.500</option> <option value="52900.00">R$ 52.900</option> <option value="52800.00">R$ 52.800</option> <option value="52000.00">R$ 52.000</option> <option value="51990.00">R$ 51.990</option> <option value="51900.00">R$ 51.900</option> <option value="51800.00">R$ 51.800</option> <option value="51000.00">R$ 51.000</option> <option value="50900.00">R$ 50.900</option> <option value="50899.00">R$ 50.899</option> <option value="50800.00">R$ 50.800</option> <option value="50500.00">R$ 50.500</option> <option value="49900.00">R$ 49.900</option> <option value="49800.00">R$ 49.800</option> <option value="49500.00">R$ 49.500</option> <option value="49000.00">R$ 49.000</option> <option value="48990.00">R$ 48.990</option> <option value="48900.00">R$ 48.900</option> <option value="48800.00">R$ 48.800</option> <option value="48000.00">R$ 48.000</option> <option value="47990.00">R$ 47.990</option> <option value="47900.00">R$ 47.900</option> <option value="47800.00">R$ 47.800</option> <option value="47500.00">R$ 47.500</option> <option value="47000.00">R$ 47.000</option> <option value="46990.00">R$ 46.990</option> <option value="46900.00">R$ 46.900</option> <option value="46500.00">R$ 46.500</option> <option value="45990.00">R$ 45.990</option> <option value="45900.00">R$ 45.900</option> <option value="45800.00">R$ 45.800</option> <option value="45000.00">R$ 45.000</option> <option value="44990.00">R$ 44.990</option> <option value="44900.00">R$ 44.900</option> <option value="44800.00">R$ 44.800</option> <option value="44000.00">R$ 44.000</option> <option value="43900.00">R$ 43.900</option> <option value="43800.00">R$ 43.800</option> <option value="43500.00">R$ 43.500</option> <option value="43000.00">R$ 43.000</option> <option value="42990.00">R$ 42.990</option> <option value="42900.00">R$ 42.900</option> <option value="42899.00">R$ 42.899</option> <option value="42500.00">R$ 42.500</option> <option value="42000.00">R$ 42.000</option> <option value="41900.00">R$ 41.900</option> <option value="41800.00">R$ 41.800</option> <option value="41500.00">R$ 41.500</option> <option value="41420.00">R$ 41.420</option> <option value="41000.00">R$ 41.000</option> <option value="40990.00">R$ 40.990</option> <option value="40900.00">R$ 40.900</option> <option value="40000.00">R$ 40.000</option> <option value="39990.00">R$ 39.990</option> <option value="39900.00">R$ 39.900</option> <option value="39800.00">R$ 39.800</option> <option value="39500.00">R$ 39.500</option> <option value="39000.00">R$ 39.000</option> <option value="38990.00">R$ 38.990</option> <option value="38900.00">R$ 38.900</option> <option value="38500.00">R$ 38.500</option> <option value="37990.00">R$ 37.990</option> <option value="37900.00">R$ 37.900</option> <option value="37800.00">R$ 37.800</option> <option value="37600.00">R$ 37.600</option> <option value="36900.00">R$ 36.900</option> <option value="36800.00">R$ 36.800</option> <option value="36500.00">R$ 36.500</option> <option value="36000.00">R$ 36.000</option> <option value="35990.00">R$ 35.990</option> <option value="35900.00">R$ 35.900</option> <option value="35500.00">R$ 35.500</option> <option value="35000.00">R$ 35.000</option> <option value="34990.00">R$ 34.990</option> <option value="34900.00">R$ 34.900</option> <option value="34800.00">R$ 34.800</option> <option value="34500.00">R$ 34.500</option> <option value="33999.00">R$ 33.999</option> <option value="33990.00">R$ 33.990</option> <option value="33900.00">R$ 33.900</option> <option value="33800.00">R$ 33.800</option> <option value="33500.00">R$ 33.500</option> <option value="32990.00">R$ 32.990</option> <option value="32900.00">R$ 32.900</option> <option value="32899.00">R$ 32.899</option> <option value="32800.00">R$ 32.800</option> <option value="32500.00">R$ 32.500</option> <option value="31900.00">R$ 31.900</option> <option value="31500.00">R$ 31.500</option> <option value="31000.00">R$ 31.000</option> <option value="30900.00">R$ 30.900</option> <option value="29990.00">R$ 29.990</option> <option value="29900.00">R$ 29.900</option> <option value="29800.00">R$ 29.800</option> <option value="28990.00">R$ 28.990</option> <option value="28900.00">R$ 28.900</option> <option value="28500.00">R$ 28.500</option> <option value="28000.00">R$ 28.000</option> <option value="27900.00">R$ 27.900</option> <option value="27000.00">R$ 27.000</option> <option value="26900.00">R$ 26.900</option> <option value="26800.00">R$ 26.800</option> <option value="26500.00">R$ 26.500</option> <option value="25990.00">R$ 25.990</option> <option value="25900.00">R$ 25.900</option> <option value="25500.00">R$ 25.500</option> <option value="25000.00">R$ 25.000</option> <option value="24990.00">R$ 24.990</option> <option value="24900.00">R$ 24.900</option> <option value="24800.00">R$ 24.800</option> <option value="24000.00">R$ 24.000</option> <option value="23999.00">R$ 23.999</option> <option value="23900.00">R$ 23.900</option> <option value="23500.00">R$ 23.500</option> <option value="22900.00">R$ 22.900</option> <option value="22800.00">R$ 22.800</option> <option value="22000.00">R$ 22.000</option> <option value="21994.00">R$ 21.994</option> <option value="21900.00">R$ 21.900</option> <option value="21500.00">R$ 21.500</option> <option value="20900.00">R$ 20.900</option> <option value="20500.00">R$ 20.500</option> <option value="20000.00">R$ 20.000</option> <option value="19900.00">R$ 19.900</option> <option value="18800.00">R$ 18.800</option> <option value="17800.00">R$ 17.800</option> <option value="16900.00">R$ 16.900</option> <option value="15000.00">R$ 15.000</option> <option value="14000.00">R$ 14.000</option> <option value="12900.00">R$ 12.900</option> <option value="12500.00">R$ 12.500</option> <option value="12000.00">R$ 12.000</option> <option value="10500.00">R$ 10.500</option> <option value="2200.00">R$ 2.200</option> </select> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO OPCIONAIS--> 
+         <div id="filtro-opcional"> 
+          <p><span>OPCIONAIS</span> <span id="mais-opcional">-</span></p> 
+          <input type="text" name="pes-opcional" id="pes-opcional" placeholder="Pesquisar Opcional"> 
+          <div id="inputOpcional"> 
+          </div> 
+          <div id="valuesOpcional"> 
+           <p id="aerofólio"> <input type="checkbox" id="checkOpcional" value="Aerofólio"> <label> <i class="fa fa-square-o"></i> <span>Aerofólio (64)</span> </label> </p> 
+           <p id="air-bag"> <input type="checkbox" id="checkOpcional" value="Air Bag"> <label> <i class="fa fa-square-o"></i> <span>Air Bag (801)</span> </label> </p> 
+           <p id="air-bag-lateral"> <input type="checkbox" id="checkOpcional" value="Air Bag Lateral"> <label> <i class="fa fa-square-o"></i> <span>Air Bag Lateral (293)</span> </label> </p> 
+           <p id="air-bag-passageiro"> <input type="checkbox" id="checkOpcional" value="Air Bag Passageiro"> <label> <i class="fa fa-square-o"></i> <span>Air Bag Passageiro (581)</span> </label> </p> 
+           <p id="ajuste-elétrico"> <input type="checkbox" id="checkOpcional" value="Ajuste Elétrico"> <label> <i class="fa fa-square-o"></i> <span>Ajuste Elétrico (252)</span> </label> </p> 
+           <p id="alarme"> <input type="checkbox" id="checkOpcional" value="Alarme"> <label> <i class="fa fa-square-o"></i> <span>Alarme (804)</span> </label> </p> 
+           <p id="ar-condicionado"> <input type="checkbox" id="checkOpcional" value="Ar Condicionado"> <label> <i class="fa fa-square-o"></i> <span>Ar Condicionado (915)</span> </label> </p> 
+           <p id="ar-quente"> <input type="checkbox" id="checkOpcional" value="Ar Quente"> <label> <i class="fa fa-square-o"></i> <span>Ar Quente (916)</span> </label> </p> 
+           <p id="ar-cond-digital"> <input type="checkbox" id="checkOpcional" value="Ar. Cond. Digital"> <label> <i class="fa fa-square-o"></i> <span>Ar. Cond. Digital (338)</span> </label> </p> 
+           <p id="banco-de-couro"> <input type="checkbox" id="checkOpcional" value="Banco de Couro"> <label> <i class="fa fa-square-o"></i> <span>Banco de Couro (625)</span> </label> </p> 
+           <p id="calotas"> <input type="checkbox" id="checkOpcional" value="Calotas"> <label> <i class="fa fa-square-o"></i> <span>Calotas (22)</span> </label> </p> 
+           <p id="cambio-auto"> <input type="checkbox" id="checkOpcional" value="Cambio Auto"> <label> <i class="fa fa-square-o"></i> <span>Cambio Auto (648)</span> </label> </p> 
+           <p id="câmera-de-ré"> <input type="checkbox" id="checkOpcional" value="Câmera de Ré"> <label> <i class="fa fa-square-o"></i> <span>Câmera de Ré (272)</span> </label> </p> 
+           <p id="capo-eletrico"> <input type="checkbox" id="checkOpcional" value="Capo Eletrico"> <label> <i class="fa fa-square-o"></i> <span>Capo Eletrico (161)</span> </label> </p> 
+           <p id="cd-player"> <input type="checkbox" id="checkOpcional" value="Cd Player"> <label> <i class="fa fa-square-o"></i> <span>Cd Player (696)</span> </label> </p> 
+           <p id="central-multimídia"> <input type="checkbox" id="checkOpcional" value="Central Multimídia"> <label> <i class="fa fa-square-o"></i> <span>Central Multimídia (355)</span> </label> </p> 
+           <p id="computador-de-bordo"> <input type="checkbox" id="checkOpcional" value="Computador de Bordo"> <label> <i class="fa fa-square-o"></i> <span>Computador de Bordo (735)</span> </label> </p> 
+           <p id="desembaçador-traseiro"> <input type="checkbox" id="checkOpcional" value="Desembaçador Traseiro"> <label> <i class="fa fa-square-o"></i> <span>Desembaçador Traseiro (894)</span> </label> </p> 
+           <p id="direção-elétrica"> <input type="checkbox" id="checkOpcional" value="Direção Elétrica"> <label> <i class="fa fa-square-o"></i> <span>Direção Elétrica (164)</span> </label> </p> 
+           <p id="direção-hidraulica"> <input type="checkbox" id="checkOpcional" value="Direção Hidraulica"> <label> <i class="fa fa-square-o"></i> <span>Direção Hidraulica (894)</span> </label> </p> 
+           <p id="distrib-eletr-de-frenagem"> <input type="checkbox" id="checkOpcional" value="Distrib. Eletr.de Frenagem"> <label> <i class="fa fa-square-o"></i> <span>Distrib. Eletr.de Frenagem (184)</span> </label> </p> 
+           <p id="dvd-player"> <input type="checkbox" id="checkOpcional" value="DVD Player"> <label> <i class="fa fa-square-o"></i> <span>DVD Player (170)</span> </label> </p> 
+           <p id="engate-carretinha"> <input type="checkbox" id="checkOpcional" value="Engate Carretinha"> <label> <i class="fa fa-square-o"></i> <span>Engate Carretinha (81)</span> </label> </p> 
+           <p id="entrada-usb"> <input type="checkbox" id="checkOpcional" value="Entrada USB"> <label> <i class="fa fa-square-o"></i> <span>Entrada USB (502)</span> </label> </p> 
+           <p id="espelhos-eletricos"> <input type="checkbox" id="checkOpcional" value="Espelhos Eletricos"> <label> <i class="fa fa-square-o"></i> <span>Espelhos Eletricos (780)</span> </label> </p> 
+           <p id="farol-de-milha"> <input type="checkbox" id="checkOpcional" value="Farol de Milha"> <label> <i class="fa fa-square-o"></i> <span>Farol de Milha (699)</span> </label> </p> 
+           <p id="freios-abs"> <input type="checkbox" id="checkOpcional" value="Freios ABS"> <label> <i class="fa fa-square-o"></i> <span>Freios ABS (801)</span> </label> </p> 
+           <p id="gps"> <input type="checkbox" id="checkOpcional" value="GPS"> <label> <i class="fa fa-square-o"></i> <span>GPS (220)</span> </label> </p> 
+           <p id="kit-gnv"> <input type="checkbox" id="checkOpcional" value="Kit GNV"> <label> <i class="fa fa-square-o"></i> <span>Kit GNV (8)</span> </label> </p> 
+           <p id="limpador-traseiro"> <input type="checkbox" id="checkOpcional" value="Limpador Traseiro"> <label> <i class="fa fa-square-o"></i> <span>Limpador Traseiro (866)</span> </label> </p> 
+           <p id="película-solar"> <input type="checkbox" id="checkOpcional" value="Película solar"> <label> <i class="fa fa-square-o"></i> <span>Película solar (432)</span> </label> </p> 
+           <p id="piloto-automático"> <input type="checkbox" id="checkOpcional" value="Piloto Automático"> <label> <i class="fa fa-square-o"></i> <span>Piloto Automático (324)</span> </label> </p> 
+           <p id="rodas-de-liga-leve"> <input type="checkbox" id="checkOpcional" value="Rodas de Liga Leve"> <label> <i class="fa fa-square-o"></i> <span>Rodas de Liga Leve (830)</span> </label> </p> 
+           <p id="sensor-estacionamento"> <input type="checkbox" id="checkOpcional" value="Sensor Estacionamento"> <label> <i class="fa fa-square-o"></i> <span>Sensor Estacionamento (549)</span> </label> </p> 
+           <p id="som"> <input type="checkbox" id="checkOpcional" value="Som"> <label> <i class="fa fa-square-o"></i> <span>Som (575)</span> </label> </p> 
+           <p id="teto-solar"> <input type="checkbox" id="checkOpcional" value="Teto Solar"> <label> <i class="fa fa-square-o"></i> <span>Teto Solar (242)</span> </label> </p> 
+           <p id="tração-4x4"> <input type="checkbox" id="checkOpcional" value="Tração 4X4"> <label> <i class="fa fa-square-o"></i> <span>Tração 4X4 (296)</span> </label> </p> 
+           <p id="travas-eletricas"> <input type="checkbox" id="checkOpcional" value="Travas Eletricas"> <label> <i class="fa fa-square-o"></i> <span>Travas Eletricas (946)</span> </label> </p> 
+           <p id="vidros-eletricos"> <input type="checkbox" id="checkOpcional" value="Vidros Eletricos"> <label> <i class="fa fa-square-o"></i> <span>Vidros Eletricos (937)</span> </label> </p> 
+           <p id="vidros-verdes"> <input type="checkbox" id="checkOpcional" value="Vidros Verdes"> <label> <i class="fa fa-square-o"></i> <span>Vidros Verdes (620)</span> </label> </p> 
+           <p id="volante-escamoteavel"> <input type="checkbox" id="checkOpcional" value="Volante Escamoteavel"> <label> <i class="fa fa-square-o"></i> <span>Volante Escamoteavel (810)</span> </label> </p> 
+           <label id="textNaoOp"></label> 
+          </div> 
+          <p id="link-mais-opcionais"><a>mais opcionais</a></p>
+          <p> <button type="button" class="btn btn-success">Filtrar</button> </p>
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO PORTAS--> 
+         <div id="filtro-porta"> 
+          <p><span>PORTAS</span> <span id="mais-porta">-</span></p> 
+          <div id="inputPortas"> 
+          </div> 
+          <div id="valuesPortas"> 
+           <p id="2"> <input type="checkbox" id="checkPortas" value="2"> <label> <i class="fa fa-square-o"></i> <span>2 (12)</span> </label> </p> 
+           <p id="3"> <input type="checkbox" id="checkPortas" value="3"> <label> <i class="fa fa-square-o"></i> <span>3 (6)</span> </label> </p> 
+           <p id="6"> <input type="checkbox" id="checkPortas" value="6"> <label> <i class="fa fa-square-o"></i> <span>6 (4)</span> </label> </p> 
+           <p id="4"> <input type="checkbox" id="checkPortas" value="4"> <label> <i class="fa fa-square-o"></i> <span>4 (886)</span> </label> </p> 
+           <p id="0"> <input type="checkbox" id="checkPortas" value="0"> <label> <i class="fa fa-square-o"></i> <span>0 (49)</span> </label> </p> 
+           <p id="5"> <input type="checkbox" id="checkPortas" value="5"> <label> <i class="fa fa-square-o"></i> <span>5 (66)</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO KM--> 
+         <div id="filtro-km"> 
+          <p><span>VEÍCULOS</span> <span id="mais-km">+</span></p> 
+          <div id="valuesKm" class="display-none"> 
+           <div id="inputVeiculo"> 
+           </div> 
+           <p id="label-novo"> <label> <input type="checkbox" id="checkVeiculo" value="novo"> <i class="fa fa-square-o"></i> Novos </label> </p> 
+           <p id="label-usado"> <label id="label-usado"> <input type="checkbox" id="checkVeiculo" value="usado"> <i class="fa fa-square-o"> </i> Usados </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO COMBUSTIVEL--> 
+         <div id="filtro-combustivel"> 
+          <p><span>COMBUSTÍVEL</span> <span id="mais-combustivel">-</span></p> 
+          <div id="inputCombustivel"> 
+          </div> 
+          <div id="valuesCombustivel"> 
+           <p id="gasolina-gnv"> <input type="checkbox" id="checkCombustivel" value="Gasolina/GNV"> <label> <i class="fa fa-square-o"></i> <span>Gasolina/GNV (7)</span> </label> </p> 
+           <p id="bi-combustível"> <input type="checkbox" id="checkCombustivel" value="Bi-Combustível"> <label> <i class="fa fa-square-o"></i> <span>Bi-Combustível (324)</span> </label> </p> 
+           <p id="diesel"> <input type="checkbox" id="checkCombustivel" value="Diesel"> <label> <i class="fa fa-square-o"></i> <span>Diesel (134)</span> </label> </p> 
+           <p id="Álcool-gasolina-gnv"> <input type="checkbox" id="checkCombustivel" value="Álcool/Gasolina/GNV"> <label> <i class="fa fa-square-o"></i> <span>Álcool/Gasolina/GNV (4)</span> </label> </p> 
+           <p id="gasolina"> <input type="checkbox" id="checkCombustivel" value="Gasolina"> <label> <i class="fa fa-square-o"></i> <span>Gasolina (549)</span> </label> </p> 
+           <p id="flex"> <input type="checkbox" id="checkCombustivel" value="Flex"> <label> <i class="fa fa-square-o"></i> <span>Flex (5)</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO COR--> 
+         <div id="filtro-cor"> 
+          <p><span>COR</span> <span id="mais-cor">-</span></p> 
+          <input type="text" name="pes-cor" id="pes-cor" placeholder="Pesquisar Cor"> 
+          <div id="inputCor"> 
+          </div> 
+          <div id="valuesCor"> 
+           <p id="amarelo"> <input type="checkbox" id="checkCor" value="Amarelo"> <label> <i class="fa fa-square-o"></i> <span>Amarelo (2)</span> </label> </p> 
+           <p id="azul"> <input type="checkbox" id="checkCor" value="Azul"> <label> <i class="fa fa-square-o"></i> <span>Azul (30)</span> </label> </p> 
+           <p id="branco-perola"> <input type="checkbox" id="checkCor" value="Branco Perola"> <label> <i class="fa fa-square-o"></i> <span>Branco Perola (6)</span> </label> </p> 
+           <p id="vermelho"> <input type="checkbox" id="checkCor" value="Vermelho"> <label> <i class="fa fa-square-o"></i> <span>Vermelho (26)</span> </label> </p> 
+           <p id="prata"> <input type="checkbox" id="checkCor" value="Prata"> <label> <i class="fa fa-square-o"></i> <span>Prata (291)</span> </label> </p> 
+           <p id="cinza"> <input type="checkbox" id="checkCor" value="Cinza"> <label> <i class="fa fa-square-o"></i> <span>Cinza (63)</span> </label> </p> 
+           <p id="preto"> <input type="checkbox" id="checkCor" value="Preto"> <label> <i class="fa fa-square-o"></i> <span>Preto (299)</span> </label> </p> 
+           <p id="laranja"> <input type="checkbox" id="checkCor" value="Laranja"> <label> <i class="fa fa-square-o"></i> <span>Laranja (1)</span> </label> </p> 
+           <p id="bordo"> <input type="checkbox" id="checkCor" value="Bordo"> <label> <i class="fa fa-square-o"></i> <span>Bordo (1)</span> </label> </p> 
+           <p id="champagne"> <input type="checkbox" id="checkCor" value="Champagne"> <label> <i class="fa fa-square-o"></i> <span>Champagne (1)</span> </label> </p> 
+           <p id="branco"> <input type="checkbox" id="checkCor" value="Branco"> <label> <i class="fa fa-square-o"></i> <span>Branco (268)</span> </label> </p> 
+           <p id="verde"> <input type="checkbox" id="checkCor" value="Verde"> <label> <i class="fa fa-square-o"></i> <span>Verde (24)</span> </label> </p> 
+           <p id="bege"> <input type="checkbox" id="checkCor" value="Bege"> <label> <i class="fa fa-square-o"></i> <span>Bege (1)</span> </label> </p> 
+           <p id="marrom"> <input type="checkbox" id="checkCor" value="Marrom"> <label> <i class="fa fa-square-o"></i> <span>Marrom (10)</span> </label> </p> 
+           <label id="textNaoCr"></label> 
+          </div> 
+          <p id="link-mais-cr"><a>mais cores</a></p> 
+          <button type="button" class="btn btn-success">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+         <!-- FILTRO FOTO--> 
+         <div id="filtro-foto"> 
+          <p><span>FOTO</span> <span id="mais-foto">+</span></p> 
+          <div id="inputFoto"> 
+          </div> 
+          <div id="valuesFoto" class="display-none"> 
+           <p id="chkfoto"> <input type="checkbox" id="checkFoto" value="com-foto"> <label> <i class="fa fa-square-o"></i> <span>Somente com Foto.</span> </label> </p> 
+          </div> 
+          <button type="button" class="btn btn-success display-none">Filtrar</button> 
+          <div class="clearfix"></div> 
+         </div> 
+        </form> 
+       </div> 
+       <div role="tabpanel" class="tab-pane" id="tab-busca"> 
+        <div class="pesquisa-filtro"> 
+         <form id="form-busca-filtro"> 
+          <input type="hidden" id="urlFiltroCategoriaCarro" value="comprar/carros"> 
+          <input type="hidden" id="urlFiltroCategoriaMoto" value="comprar/motos"> 
+          <input type="hidden" id="urlFiltroCategoriaCaminhao" value="comprar/caminhoes"> 
+          <input type="hidden" id="urlFiltroCategoriaOutros" value="comprar"> 
+          <input type="hidden" id="filtro-categoria"> 
+          <input type="hidden" id="filtro-marca"> 
+          <input type="hidden" id="filtro-modelo"> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="categoriaFiltro"> <option>Categoria</option> <option value="Caminhão">Caminhão</option> <option value="Carreta">Carreta</option> <option value="Carro/Camionetas">Carro/Camionetas</option> <option value="Implemento Rod.">Implemento Rod.</option> <option value="Moto">Moto</option> <option value="Motor Home">Motor Home</option> <option value="Náutica">Náutica</option> <option value="Ônibus">Ônibus</option> <option value="Quadriciclo/Triciclo">Quadriciclo/Triciclo</option> <option value="Trator/Maquinas">Trator/Maquinas</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="marcaFiltro"> <option>Marca</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="modeloFiltro"> <option>Modelo</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="anoDe"> <option>Ano de</option> </select> 
+           <select class="botao-select" id="anoAte"> <option>Ano ate</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <select class="botao-select" id="valorDe"> <option>Valor de</option> </select> 
+           <select class="botao-select" id="valorAte"> <option>valor ate</option> </select> 
+          </div> 
+          <div class="col-lg-12 form-group"> 
+           <button type="button" class="btn btn-success busca-button"><i class="fa fa-search"></i> Pesquisar</button> 
+          </div> 
+         </form> 
+         <div class="clearfix"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clearfix"></div> 
+     </div> 
+     <div class="col-lg-9 col-md-9 col-sm-12"> 
+      <div class="row"> 
+       <a class="hidden-xs" href="http://www.litoralcar.com.br/comparar-veiculos"> <img src="http://www.litoralcar.com.br/imgs/camparar2.png"> </a> 
+       <a class="btn btn-primary visible-sm visible-xs" id="abrir-filtro"><i class="fa fa-filter"></i> Filtrar</a> 
+      </div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-666116"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/fiat/mobi/2017-vermelho-bi-combustivel-sao-jose-sc/666116"> <img src="http://litoralcar.com.br/foto-resize/m/666116/4b201666013f79e0f35f02c9adddd5fd.jpg" class="img-carros img-responsive" width="200" height="140" alt="FIAT-MOBI-1.0-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/fiat/mobi/2017-vermelho-bi-combustivel-sao-jose-sc/666116"> FIAT MOBI 1.0 - 2017 </a> </h2> 
+         <p> 4 portas • Vermelho • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/fiat/mobi/2017-vermelho-bi-combustivel-sao-jose-sc/666116">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="666116">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-666116"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-666116"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 35.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="666116" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-657057"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2017-branco-bi-combustivel-blumenau-sc/657057"> <img src="http://litoralcar.com.br/foto-resize/m/657057/00076ccce3d8e72dc1b3e6fe0dc21757.jpg" class="img-carros img-responsive" width="200" height="140" alt="FORD-ECOSPORT-1.6-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2017-branco-bi-combustivel-blumenau-sc/657057"> FORD ECOSPORT 1.6 - 2017 </a> </h2> 
+         <p> 5 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Vidros Verdes • Volante Escamoteavel </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2017-branco-bi-combustivel-blumenau-sc/657057">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="657057">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-657057"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-657057"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>61.990</s><br></small> R$ 56.490</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="657057" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-678822"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/ix35/2017-branco-flex-palhoca-sc/678822"> <img src="http://litoralcar.com.br/foto-resize/m/678822/1b998456ca3ec4bc5c73c3a92bdd0dd5.jpg" class="img-carros img-responsive" width="200" height="140" alt="HYUNDAI-IX35-2.0-2017"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/ix35/2017-branco-flex-palhoca-sc/678822"> HYUNDAI IX35 2.0 - 2017 </a> </h2> 
+         <p> 4 portas • Branco • Flex </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar. Cond. Digital • Ar Quente • Desembaçador Traseiro </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/ix35/2017-branco-flex-palhoca-sc/678822">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="678822">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-678822"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="591-0-678822"> 
+          <p id="telefone">(48) 3341-...</p> 
+         </div> 
+         <p> KD Automóveis </p> 
+         <p> Palhoça/SC </p> 
+         <p> R$ 114.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="678822" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-651889"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-preto-gasolina-itajai-sc/651889"> <img src="http://litoralcar.com.br/foto-resize/m/651889/5b9122627d75af100acc5c06b888bf36.jpg" class="img-carros img-responsive" width="200" height="140" alt="LIFAN-X60-1.8-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-preto-gasolina-itajai-sc/651889"> LIFAN X60 1.8 - 2016 </a> </h2> 
+         <p> 5 portas • Preto • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Vidros Verdes </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-preto-gasolina-itajai-sc/651889">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="651889">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-651889"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="1475-0-651889"> 
+          <p id="telefone">(47) 3083-...</p> 
+         </div> 
+         <p> R8 Multimarcas </p> 
+         <p> Itajaí/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>55.900</s><br></small> R$ 48.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="651889" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-675929"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-branco-gasolina-florianopolis-sc/675929"> <img src="http://litoralcar.com.br/foto-resize/m/675929/c2207fee92b1dd9b158c1bee632c0c66.jpg" class="img-carros img-responsive" width="200" height="140" alt="LIFAN-X60-1.8-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-branco-gasolina-florianopolis-sc/675929"> LIFAN X60 1.8 - 2016 </a> </h2> 
+         <p> 4 portas • Branco • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Vidros Verdes </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/lifan/x60/2016-branco-gasolina-florianopolis-sc/675929">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="675929">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-675929"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="580-0-675929"> 
+          <p id="telefone">(48) 3248-...</p> 
+         </div> 
+         <p> Avenida Automóveis Floripa </p> 
+         <p> Florianópolis/SC </p> 
+         <p> R$ 56.500</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="675929" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-677873"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-marrom-bi-combustivel-palhoca-sc/677873"> <img src="http://litoralcar.com.br/foto-resize/m/677873/6551a2e22ee5780de881da4aad1b5071.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-1.6-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-marrom-bi-combustivel-palhoca-sc/677873"> RENAULT DUSTER 1.6 - 2016 </a> </h2> 
+         <p> 4 portas • Marrom • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-marrom-bi-combustivel-palhoca-sc/677873">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="677873">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-677873"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="591-0-677873"> 
+          <p id="telefone">(48) 3341-...</p> 
+         </div> 
+         <p> KD Automóveis </p> 
+         <p> Palhoça/SC </p> 
+         <p> R$ 57.800</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="677873" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-547907"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-preto-bi-combustivel-blumenau-sc/547907"> <img src="http://litoralcar.com.br/foto-resize/m/547907/caeda4303af28bdae2c19392915671da.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-1.6-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-preto-bi-combustivel-blumenau-sc/547907"> RENAULT DUSTER 1.6 - 2016 </a> </h2> 
+         <p> Preto • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Volante Escamoteavel </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-preto-bi-combustivel-blumenau-sc/547907">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="547907">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-547907"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-547907"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>57.990</s><br></small> R$ 54.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="547907" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <!-- BANNER POSICAO 104 --> 
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 anuncio2" id="anuncio-restultado"> 
+      </div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-646898"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/646898"> <img src="http://litoralcar.com.br/foto-resize/m/646898/b0f631113a2f905ff4d33daba56a22e7.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-1.6-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/646898"> RENAULT DUSTER 1.6 - 2016 </a> </h2> 
+         <p> 5 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/646898">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="646898">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-646898"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-646898"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>59.990</s><br></small> R$ 55.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="646898" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-600731"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/600731"> <img src="http://litoralcar.com.br/foto-resize/m/600731/be8330f6ee47ff1da79c55317105954f.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-1.6-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/600731"> RENAULT DUSTER 1.6 - 2016 </a> </h2> 
+         <p> Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Vidros Verdes </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-branco-bi-combustivel-blumenau-sc/600731">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="600731">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-600731"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-600731"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>61.990</s><br></small> R$ 55.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="600731" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-646893"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-prata-bi-combustivel-blumenau-sc/646893"> <img src="http://litoralcar.com.br/foto-resize/m/646893/ac0357b4d3b4317d5ff4ce3e0b18264e.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-2.0-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-prata-bi-combustivel-blumenau-sc/646893"> RENAULT DUSTER 2.0 - 2016 </a> </h2> 
+         <p> 5 portas • Prata • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Desembaçador Traseiro • Direção Hidraulica • Volante Escamoteavel </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2016-prata-bi-combustivel-blumenau-sc/646893">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="646893">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-646893"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="607-0-646893"> 
+          <p id="telefone">0800-200-...</p> 
+         </div> 
+         <p> Localiza Seminovos - Blumenau </p> 
+         <p> Blumenau/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>64.990</s><br></small> R$ 59.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="646893" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-677867"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/santa-fe/2016-branco-gasolina-palhoca-sc/677867"> <img src="http://litoralcar.com.br/foto-resize/m/677867/7ffce63117f1c05a251042457941e957.jpg" class="img-carros img-responsive" width="200" height="140" alt="HYUNDAI-SANTA-FE-2016"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/santa-fe/2016-branco-gasolina-palhoca-sc/677867"> HYUNDAI SANTA Fé - 2016 </a> </h2> 
+         <p> 4 portas • Branco • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar. Cond. Digital • Ar Quente • Desembaçador Traseiro </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/hyundai/santa-fe/2016-branco-gasolina-palhoca-sc/677867">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="677867">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-677867"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="591-0-677867"> 
+          <p id="telefone">(48) 3341-...</p> 
+         </div> 
+         <p> KD Automóveis </p> 
+         <p> Palhoça/SC </p> 
+         <p> R$ 167.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="677867" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-675426"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2015-branco-bi-combustivel-sao-jose-sc/675426"> <img src="http://litoralcar.com.br/foto-resize/m/675426/41dfa823ab28f736863baa03511c719b.jpg" class="img-carros img-responsive" width="200" height="140" alt="RENAULT-DUSTER-1.6-2015"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2015-branco-bi-combustivel-sao-jose-sc/675426"> RENAULT DUSTER 1.6 - 2015 </a> </h2> 
+         <p> 5 portas • Branco • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Ar Quente • Desembaçador Traseiro • Direção Hidraulica • Rodas de Liga Leve </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/renault/duster/2015-branco-bi-combustivel-sao-jose-sc/675426">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="675426">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-675426"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="562-0-675426"> 
+          <p id="telefone">(48) 3259-...</p> 
+         </div> 
+         <p> 101 Veículos </p> 
+         <p> São José/SC </p> 
+         <p> R$ 47.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="675426" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-679784"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/tracker/2015-cinza-gasolina-balneario-camboriu-sc/679784"> <img src="http://litoralcar.com.br/foto-resize/m/679784/5be847f06ba85d3974b8ca7c75c85994.jpg" class="img-carros img-responsive" width="200" height="140" alt="CHEVROLET-TRACKER-1.8-2015"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/tracker/2015-cinza-gasolina-balneario-camboriu-sc/679784"> CHEVROLET TRACKER 1.8 - 2015 </a> </h2> 
+         <p> 4 portas • Cinza • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar Quente • Desembaçador Traseiro • Direção Hidraulica </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/chevrolet/tracker/2015-cinza-gasolina-balneario-camboriu-sc/679784">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="679784">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-679784"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="264-13851-679784"> 
+          <p id="telefone">(47) 3367-...</p> 
+         </div> 
+         <p> Elthon </p> 
+         <p> Balneário Camboriú/SC </p> 
+         <p> <small class="hidden-xs">R$ <s>73.900</s><br></small> R$ 70.900</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="679784" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-676055"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/honda/cr-v/2015-prata-bi-combustivel-palhoca-sc/676055"> <img src="http://litoralcar.com.br/foto-resize/m/676055/940522d1aec08cf2127e3173f6790ba7.jpg" class="img-carros img-responsive" width="200" height="140" alt="HONDA-CR-V-2.0-2015"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/honda/cr-v/2015-prata-bi-combustivel-palhoca-sc/676055"> HONDA CR-V 2.0 - 2015 </a> </h2> 
+         <p> 4 portas • Prata • Bi-Combustível </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Ar. Cond. Digital • Ar Quente • Desembaçador Traseiro </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/honda/cr-v/2015-prata-bi-combustivel-palhoca-sc/676055">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="676055">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-676055"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="591-0-676055"> 
+          <p id="telefone">(48) 3341-...</p> 
+         </div> 
+         <p> KD Automóveis </p> 
+         <p> Palhoça/SC </p> 
+         <p> R$ 114.990</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="676055" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-1 col-md-1 col-sm-1 hidden-xs"> 
+       <div class="comparar" id="comparar-678465"> 
+        <i class="fa fa-square-o"></i> 
+       </div> 
+      </div> 
+      <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12 destaque-veiculo" id="cont-veiculos"> 
+       <figure> 
+        <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2014-branco-gasolina-brusque-sc/678465"> <img src="http://litoralcar.com.br/foto-resize/m/678465/bca325b32933cafe604827596a2aea61.jpg" class="img-carros img-responsive" width="200" height="140" alt="FORD-ECOSPORT-2.0-2014"> </a> 
+        <figcaption> 
+         <h2> <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2014-branco-gasolina-brusque-sc/678465"> FORD ECOSPORT 2.0 - 2014 </a> </h2> 
+         <p> 5 portas • Branco • Gasolina </p> 
+         <p> • Ar Condicionado • Limpador Traseiro • Computador de Bordo • Desembaçador Traseiro • Vidros Eletricos • Travas Eletricas </p> 
+         <a href="http://www.litoralcar.com.br/comprar/carros/ford/ecosport/2014-branco-gasolina-brusque-sc/678465">Mais Informações</a> 
+         <a data-toggle="modal" data-target="#envio-proposta" data-id="678465">Enviar Proposta</a> 
+         <a id="salvar-veiculo" data-toggle="tooltip" data-placement="top" title="Salvar Veiculo"> <i class="fa fa-star-o" id="marcar-678465"></i> </a> 
+        </figcaption> 
+        <div class="tel"> 
+         <div id="264-14875-678465"> 
+          <p id="telefone">(47) 99911-...</p> 
+         </div> 
+         <p> VILMAR </p> 
+         <p> Brusque/SC </p> 
+         <p> R$ 50.500</p> 
+         <a href="#envio-proposta" class="glyphicon glyphicon-envelope" id="envio-proposta-mobile" data-toggle="modal" data-placement="top" data-id="678465" title="Enviar Proposta"> </a> 
+        </div> 
+       </figure> 
+      </div> 
+      <div class="clearfix"></div> 
+      <div class="clearfix"></div> 
+      <div class="col-lg-11 col-md-11 pull-right col-sm-12 col-xs-12" id="paginations"> 
+       <nav> 
+        <ul class="pagination"> 
+         <li class=""><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=1" aria-label="Anterior"><i class="fa fa-angle-left"></i></a></li> 
+         <li class="active"><a>1</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=2">2</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=3">3</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=4">4</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=5">5</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=6">6</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=7">7</a></li>
+         <li><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=8">8</a></li> 
+         <li class=""><a href="http://www.litoralcar.com.br/veiculos-categoria/suv?tipo-categoria=SUV&amp;ordem=destaques-primeiro&amp;pag=69" aria-label="Próximo"><i class="fa fa-angle-right"></i></a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- MODAL ENVIA PROPOSTA--> 
+   <div class="modal fade" id="envio-proposta" tabindex="-1" role="dialog"> 
+    <div class="modal-dialog modal-lg"> 
+     <div class="modal-content"> 
+      <div class="modal-header"> 
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+      </div> 
+      <div class="modal-body"> 
+       <div class="fetched-data"> 
+        <!-- Vai abrir aqui o conteudo do arquivo anexo --> 
+       </div> 
+      </div> 
+     </div>
+     <!-- /.modal-content --> 
+    </div>
+    <!-- /.modal-dialog --> 
+   </div>
+   <!-- /.modal --> 
+   <!-- MODAL ENVIA PROPOSTA--> 
+  </section> 
+  <div class="modal fade" id="vocesabiaProposta" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-body"> 
+      <img src="http://www.litoralcar.com.br/imgs/sabia.png" border="0" class="img-responsive pull-left" width="100"> 
+      <h2 class="text-primary pull-left margin-top40 margin-left35"> Você sabia? </h2> 
+      <div class="clearfix"> 
+      </div> 
+      <p class="margin-top40 color999 text-justify"> Você sabia que o recurso de marcar veículos da LitoralCar permite que você tenha uma lista de vários veículos para para enviar uma mesma proposta para vários veículos ao mesmo tempo? </p> 
+      <p class="text-info"> <i> Marque alguns veículos de seu interesse, acesse os veículos marcados através do menu compra e depois veículos marcados. </i> </p> 
+     </div> 
+     <div class="modal-footer"> 
+      <button type="button" class="btn btn-primary border-form" data-dismiss="modal"> Ok Entendi </button> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  <!--./fim modal--> 
+  <script>
+        $(document).ready(function () {
+            $('#envio-proposta').on('show.bs.modal', function (e) {
+                var dados = 'idveiculo=' + $(e.relatedTarget).data('id') + '&imagem=' + isMobile();
+                var url = '/envio-proposta-modal.php'; //http://www.litoralcar.com.br/hplxbq
+                $.ajax({
+                    type: 'get',
+                    url: url,
+                    data: dados,
+                    success: function (data) {
+                        $('.fetched-data').html(data);
+                    }
+                });
+            });
+        });
+    </script> 
+  <section class="rodape"> 
+   <div class="container"> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Comprar</li> 
+      <li><a href="http://www.litoralcar.com.br/busca-avancada-veiculos/">Busca Avançada</a></li> 
+      <li><a href="http://www.litoralcar.com.br/concessionarias/">Concessionárias</a></li> 
+      <li><a href="http://www.litoralcar.com.br/revendas/">Todas as Revendas</a></li> 
+      <li><a href="http://www.litoralcar.com.br/guia-de-servicos/">Guia de Serviços</a></li> 
+      <li><a href="http://www.litoralcar.com.br/ultimos-veiculos-cadastrados/">Últimos Cadastrados</a></li> 
+      <li><a href="http://www.litoralcar.com.br/veiculos-oferta/">Veículos em Oferta</a></li> 
+      <li><a href="http://www.litoralcar.com.br/veiculos-particulares/">Veículos Particulares</a></li> 
+      <li class="disabled"><a href="#">Veículos Marcados (0)</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Vender</li> 
+      <li><a href="http://www.litoralcar.com.br/anuncie/">Anuncie seu Veículo</a></li> 
+      <li><a href="http://www.litoralcar.com.br/acessar-meus-anuncios/">Acessar meu Anúncio</a></li> 
+      <li><a href="http://www.litoralcar.com.br/tabela-fipe/vender/">Avalie seu Veículo</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Utilidades</li> 
+      <li><a href="http://www.litoralcar.com.br/multas-ipva/">Multas e IPVA</a></li> 
+      <li><a href="http://www.litoralcar.com.br/tabela-fipe/comprar/">Tabela FIPE</a></li> 
+      <li><a href="http://www.litoralcar.com.br/preco-combustivel">Preço Combustível</a></li> 
+      <li><a href="http://www.litoralcar.com.br/mapa-do-site/">Mapa do Site</a></li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6"> 
+     <ul> 
+      <li>Contato LitoralCar</li> 
+      <li><a href="http://www.litoralcar.com.br/servicos/#contato-servico">contato@litoralcar.com.br</a></li> 
+      <li>Atendimento em horário comercial.</li> 
+     </ul> 
+    </div> 
+    <div class="col-lg-4 col-lg-offset-0 col-md-4 col-md-offset-0 col-sm-8 col-sm-offset-0 col-xs-8 col-xs-offset-2"> 
+     <div class="fb-page" data-href="https://www.facebook.com/LitoralCar/?fref=ts" data-adapt-container-width="true" data-small-header="false" data-hide-cover="false" data-show-facepile="false"> 
+      <div class="fb-xfbml-parse-ignore"> 
+       <blockquote cite="https://www.facebook.com/LitoralCar/?fref=ts"> 
+        <a href="https://www.facebook.com/LitoralCar/?fref=ts">LitoralCar</a> 
+       </blockquote> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <script type="text/javascript"> 
+dataLayer = dataLayer || []; 
+dataLayer.push({ 
+'PageType':'ListingPage', 
+'email': 'contato@litoralcar.com.br', 
+'ProductIDList' : ['666116', '657057', '678822', '651889', '675929', '677873', '547907', '646898', '600731', '646893', '677867', '675426', '679784', '676055', '678465'] 
+}); 
+</script> 
+  <!-- Google ADWords - Agencia - INICIO --> 
+  <!-- Google Code for C&oacute;digo de Convers&atilde;o Conversion Page --> 
+  <script type="text/javascript">
+    /* <![CDATA[ */	
+    var google_conversion_id = 922556119;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "0dy7COG7wXQQ1630twM";
+    var google_remarketing_only = false;
+    /* ]]> */	
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/922556119/?label=0dy7COG7wXQQ1630twM&amp;guid=ON&amp;script=0"> 
+   </div> 
+  </noscript> 
+  <!-- Google ADWords - Agencia - FINAL --> 
+  <footer> 
+   <div class="container"> 
+    <div class="row"> 
+     <a href="javascript:void(0);" id="linkredirect" target="_blank" rel="noreferrer"></a> 
+     <p>©LitoralCar 2017. Todos os direitos reservados. <a href="http://www.litoralcar.com.br/termos-de-uso">Termos de uso</a> e <a href="http://www.litoralcar.com.br/politica-de-privacidade">Política de privacidade</a>.</p> 
+    </div> 
+   </div> 
+  </footer>   
+ </body>
+</html>

@@ -1,0 +1,672 @@
+<!doctype html>
+<html class="no-js" lang="pt" dir="ltr">
+ <head> 
+  <base target="_parent"> 
+  <meta charset="utf-8"> 
+  <link rel="dns-prefetch" href="https://cdn.salaodocarro.com.br"> 
+  <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <meta name="description" content="Artigos e Vídeos sobre Motos você encontra no Salão da Moto. Lançamentos, Opiniões de Donos, Mercado, Dicas e muito mais."> 
+  <meta property="og:title" content="Revista - Salão da Moto"> 
+  <meta property="og:image" content="https://motos.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_thumb.jpg"> 
+  <link rel="image_src" href="https://motos.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_thumb.jpg"> 
+  <meta property="og:url" content="https://motos.salaodocarro.com.br/revista/"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:site_name" content="Salão da Moto"> 
+  <meta property="fb:app_id" content="346411065435448"> 
+  <meta property="og:description" content="Artigos e Vídeos sobre Motos você encontra no Salão da Moto. Lançamentos, Opiniões de Donos, Mercado, Dicas e muito mais."> 
+  <meta name="twitter:card" content="photo"> 
+  <meta name="twitter:site" content="@salaodocarro"> 
+  <meta name="twitter:creator" content="@salaodocarro"> 
+  <meta name="twitter:domain" content="salaodocarro.com.br"> 
+  <meta name="twitter:url" content="https://motos.salaodocarro.com.br/revista/"> 
+  <meta name="twitter:title" content="Revista - Salão da Moto"> 
+  <meta name="twitter:description" content="Artigos e Vídeos sobre Motos você encontra no Salão da Moto. Lançamentos, Opiniões de Donos, Mercado, Dicas e muito mais."> 
+  <meta name="twitter:image:src" content="https://motos.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_thumb.jpg"> 
+  <title>Revista - Salão da Moto</title> 
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.salaodocarro.com.br/motos-icon.png"> 
+  <link rel="icon" href="https://cdn.salaodocarro.com.br/motos-favicon.ico" type="image/x-icon"> 
+  <link rel="shortcut icon" href="https://cdn.salaodocarro.com.br/motos-favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="https://cdn.salaodocarro.com.br/_css/motos-desktop_v7.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Feeds RSS" href="https://motos.salaodocarro.com.br/rss/"> 
+  <link rel="publisher" href="https://plus.google.com/100322393480200607029"> 
+  <link rel="canonical" href="https://motos.salaodocarro.com.br/revista/"> 
+ </head> 
+ <body> 
+  <div class="off-canvas-wrapper"> 
+   <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper> 
+    <nav class="top-bar">
+     <div class="row columns">
+      <div class="top-bar-title">
+       <a href="/"><img src="https://cdn.salaodocarro.com.br/_img/motos-logo.svg" onerror="this.onerror=null; this.src='https://cdn.salaodocarro.com.br/_img/motos-logo.png'" alt="Salão da Moto" title="Salão da Moto" width="164" height="22"></a>
+      </div>
+      <div>
+       <div class="top-bar-left">
+        <ul class="menu">
+         <li><a href="/comprar/" title="Ofertas de Motos" data-toggle="menu-comprar">Comprar</a>
+          <div id="menu-comprar" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true" data-options="data-h-offset:-300">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Comprar</label></li>
+              <li><a href="/comprar/motos/"><strong>Ver Todos as Motos</strong></a></li>
+              <li><a href="/fipe/">Tabela FIPE</a></li>
+              <li><a href="/guia/">Guia de 0km</a></li>
+              <li><label style="margin-top:2rem">Vai vender?</label></li>
+              <li><a href="/vender/">Anuncie Grátis sua Moto</a></li>
+              <li><label style="margin-top:2rem">Veja também</label></li>
+              <li><a href="https://salaodocarro.com.br/comprar/carros/">Ofertas de Carros</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/comprar/caminhoes/">Ofertas de Caminhões</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <ul>
+              <li><label>Motos mais buscadas</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/honda/biz-100/" title="Ofertas de Honda Biz 100"><span class="list-logo s moto-biz-100"></span>Biz 100</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/honda/biz-125/" title="Ofertas de Honda Biz 125"><span class="list-logo s moto-biz-125"></span>Biz 125</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/honda/cb-300r/" title="Ofertas de Honda CB 300R"><span class="list-logo s moto-cb-300r"></span>CB 300R</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/honda/cg-150/" title="Ofertas de Honda CG 150"><span class="list-logo s moto-cg-150"></span>CG 150</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/kawasaki/ninja/" title="Ofertas de Kawasaki Ninja"><span class="list-logo s moto-ninja"></span>Ninja</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/yamaha/ys-250-fazer/" title="Ofertas de Yamaha YS 250 Fazer"><span class="list-logo s moto-ys-250-fazer"></span>YS 250 Fazer</a>
+              </div>
+             </div>
+             <ul>
+              <li><label>Marcas mais acessadas</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/dafra/" title="Ofertas de motos da Dafra"><span class="list-logo s marca-dafra"></span>Dafra</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/harley-davidson/" title="Ofertas de motos da Harley-Davidson"><span class="list-logo s marca-harley-davidson"></span>Harley-Davidson</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/honda/" title="Ofertas de motos da Honda"><span class="list-logo s marca-honda"></span>Honda</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/kawasaki/" title="Ofertas de motos da Kawasaki"><span class="list-logo s marca-kawasaki"></span>Kawasaki</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/suzuki/" title="Ofertas de motos da Suzuki"><span class="list-logo s marca-suzuki"></span>Suzuki</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/yamaha/" title="Ofertas de motos da Yamaha"><span class="list-logo s marca-yamaha"></span>Yamaha</a>
+              </div>
+             </div>
+             <ul>
+              <li><label>Buscar por segmento</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=2"><span class="list-logo s ico-c-cross"></span>Cross</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=3"><span class="list-logo s ico-c-custom"></span>Custom</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=6"><span class="list-logo s ico-c-scooter"></span>Scooter</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=8"><span class="list-logo s ico-c-street"></span>Street</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=11"><span class="list-logo s ico-c-triciclo"></span>Triciclo</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/motos/?segmento=5"><span class="list-logo s ico-c-quadriciclo"></span>Quadriciclo</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li><a href="/vender/" title="Anunciar Moto Grátis" data-toggle="menu-vender">Vender</a>
+          <div id="menu-vender" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Vender</label></li>
+              <li><a href="/vender/"><strong>Anunciar Moto</strong></a></li>
+              <li><a href="https://salaodocarro.com.br/vender/">Anunciar Carro</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/vender/">Anunciar Caminhão</a></li>
+              <li><a href="/conta/anuncios/">Meus Anúncios</a></li>
+              <li><label style="margin-top:2rem">Lojistas e Concessionários</label></li>
+              <li><a href="/lojista/">Central do Lojista</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <div style="background:#f5f5f5;padding:20px;border-radius:4px;">
+              <div class="row">
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie Grátis sua Moto"><span class="list-logo s ico-t-oportunidade"></span></a>
+                <p class="lead">Oportunidade</p>
+                <p class="no-margins">Aqui você anuncia grátis até vender!</p>
+               </div>
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie aqui para milhões de visitantes"><span class="list-logo s ico-t-publico"></span></a>
+                <p class="lead">Visibilidade</p>
+                <p class="no-margins">Apareça para milhões de visitantes na Internet.</p>
+               </div>
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie sua moto em menos de 5 minutos"><span class="list-logo s ico-t-rapido"></span></a>
+                <p class="lead">Facilidade</p>
+                <p class="no-margins">Em menos de 5 minutos o seu anúncio está no ar!</p>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li><a href="/fipe/" title="Tabela FIPE de Motos" data-toggle="menu-fipe">Tabela FIPE</a>
+          <div id="menu-fipe" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Tabela FIPE</label></li>
+              <li><a href="/fipe/">Preços de Motos</a></li>
+              <li><a href="https://salaodocarro.com.br/fipe/">Preços de Carros</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/fipe/">Preços de Caminhões</a></li>
+              <li><a href="/fipe/#email">Receber avaliação no e-mail</a></li>
+              <li><a href="/fipe/#marcas">Ver Todas as Marcas</a></li>
+              <li style="margin-top:2rem"><label>Entenda</label></li>
+              <li><a href="/fipe/#fipe">O que é a Tabela FIPE?</a></li>
+             </ul>
+            </div>
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Preços por marca</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-4 columns text-center">
+               <a href="/fipe/bmw/" title="Preços de motos BMW"><span class="list-logo s marca-bmw"></span>BMW</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/dafra/" title="Preços de motos Dafra"><span class="list-logo s marca-dafra"></span>Dafra</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/ducati/" title="Preços de motos Ducati"><span class="list-logo s marca-ducati"></span>Ducati</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/harley-davidson/" title="Preços de motos Harley-Davidson"><span class="list-logo s marca-harley-davidson"></span>Harley-...</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/honda/" title="Preços de motos Honda"><span class="list-logo s marca-honda"></span>Honda</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/kawasaki/" title="Preços de motos Kawasaki"><span class="list-logo s marca-kawasaki"></span>Kawasaki</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/suzuki/" title="Preços de motos Suzuki"><span class="list-logo s marca-suzuki"></span>Suzuki</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/triumph/" title="Preços de motos Triumph"><span class="list-logo s marca-triumph"></span>Triumph</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/yamaha/" title="Preços de motos Yamaha"><span class="list-logo s marca-yamaha"></span>Yamaha</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Motos mais procuradas</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-4 columns text-center">
+               <a href="/fipe/dafra/apache/" title="Preço da Dafra Apache"><span class="list-logo s moto-apache"></span>Apache</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/honda/biz/" title="Preço da Honda Biz"><span class="list-logo s moto-biz"></span>Biz</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/honda/cg/" title="Preço da Honda CG"><span class="list-logo s moto-cg"></span>CG</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/yamaha/fazer/" title="Preço da Yamaha Fazer"><span class="list-logo s moto-fazer"></span>Fazer</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/suzuki/intruder/" title="Preço da Suzuki Intruder"><span class="list-logo s moto-intruder"></span>Intruder</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/kawasaki/ninja/" title="Preço da Kawasaki Ninja"><span class="list-logo s moto-ninja"></span>Ninja</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/honda/nxr/" title="Preço da Honda NXR"><span class="list-logo s moto-nxr"></span>NXR</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/yamaha/xtz/" title="Preço da Yamaha XTZ"><span class="list-logo s moto-xtz"></span>XTZ</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/yamaha/ybr/" title="Preço da Yamaha YBR"><span class="list-logo s moto-ybr"></span>YBR</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li class="show-for-large"><a href="/guia/" title="Guia de Motos 0km" data-toggle="menu-guia">Guia 0km</a>
+          <div id="menu-guia" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Guia de Motos 0km</label></li>
+              <li><a href="/guia/motos/"><strong>Ver Todos os Modelos</strong></a></li>
+              <li><a href="/guia/">Ver Todas as Marcas</a></li>
+              <li><a href="/fipe/">Tabela FIPE</a></li>
+              <li style="margin-top:2rem"><label>Opiniões</label></li>
+              <li><a href="/guia/opinioes/">Ver Todas as Opiniões</a></li>
+              <li style="margin-top:2rem"><label>Consulte também</label></li>
+              <li><a href="https://salaodocarro.com.br/guia/">Guia de Carros</a></li>
+             </ul>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Segmentos</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?c=3"><span class="list-logo s ico-c-custom"></span>Custom</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?c=4"><span class="list-logo s ico-c-naked"></span>Naked</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?c=10"><span class="list-logo s ico-c-trail"></span>Trail</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?c=6"><span class="list-logo s ico-c-scooter"></span>Scooter</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/motos/?c=11"><span class="list-logo s ico-c-triciclo"></span>Triciclo</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/motos/?c=5"><span class="list-logo s ico-c-quadriciclo"></span>Quadriciclo</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Estilos</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?e=1"><span class="list-logo s ico-c-sport"></span>Esportivas</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/motos/?e=2"><span class="list-logo s ico-c-cross"></span>Off-Road</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/motos/?e=3"><span class="list-logo s ico-c-street"></span>Urbanas</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/motos/?e=4"><span class="list-logo s ico-c-touring"></span>Viagem</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Marcas</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/dafra/" title="Motos Dafra"><span class="list-logo s marca-dafra"></span>Dafra</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/harley-davidson/" title="Motos Harley-Davidson"><span class="list-logo s marca-harley-davidson"></span>Harley-...</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/honda/" title="Motos Honda"><span class="list-logo s marca-honda"></span>Honda</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/kawasaki/" title="Motos Kawasaki"><span class="list-logo s marca-kawasaki"></span>Kawasaki</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/suzuki/" title="Motos Suzuki"><span class="list-logo s marca-suzuki"></span>Suzuki</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/yamaha/" title="Motos Yamaha"><span class="list-logo s marca-yamaha"></span>Yamaha</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li class="show-for-large"><a href="/revista/" title="Revista" data-toggle="menu-revista" class="active">Revista</a>
+          <div id="menu-revista" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Seções</label></li>
+              <li><a href="https://salaodocarro.com.br/revista/">Carros</a></li>
+              <li><a href="/revista/">Motos</a></li>
+              <li style="margin-top:2rem"><label>Feeds</label></li>
+              <li><a href="/rss/">Feeds RSS</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <div class="row">
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Últimas notícias</label></li>
+               </ul>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/revista/bmw-anuncia-consorcio-linha-motos.html" title="BMW anuncia consórcio para sua linha de motos"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_list.jpg" alt="BMW anuncia consórcio para sua linha de motos"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/revista/bmw-anuncia-consorcio-linha-motos.html" title="BMW anuncia consórcio para sua linha de motos">BMW anuncia consórcio para sua linha de motos</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/revista/honda-cg-160-2018-vendida-precos-partem-r-799000.html" title="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/22/honda-cg-160-2018-vendida-precos-partem-r-799000_list.jpg" alt="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/revista/honda-cg-160-2018-vendida-precos-partem-r-799000.html" title="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00">Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/revista/bmw-confirma-data-lancamento-modelo-g-310-r-brasil.html" title="BMW confirma data de lançamento do modelo G 310 R no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/27/bmw-confirma-data-lancamento-modelo-g-310-r-brasil_list.jpg" alt="BMW confirma data de lançamento do modelo G 310 R no Brasil"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/revista/bmw-confirma-data-lancamento-modelo-g-310-r-brasil.html" title="BMW confirma data de lançamento do modelo G 310 R no Brasil">BMW confirma data de lançamento do modelo G 310 R no Brasil</a>
+                </div>
+               </div>
+              </div>
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Veja ainda...</label></li>
+               </ul>
+               <div class="row menu-article menu-article-big">
+                <div class="large-6 columns">
+                 <a href="/revista/ducati-anuncia-chegada-monster-1200-s-brasil.html" title="Ducati anuncia chegada da Monster 1200 S no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/18/ducati-anuncia-chegada-monster-1200-s-brasil_thumb.jpg" alt="Ducati anuncia chegada da Monster 1200 S no Brasil">Ducati anuncia chegada da Monster 1200 S no Brasil</a>
+                </div>
+                <div class="large-6 columns">
+                 <a href="/revista/scooters-disparam-vendas-brasil.html" title="Scooters disparam em vendas no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/17/scooters-disparam-vendas-brasil_thumb.jpg" alt="Scooters disparam em vendas no Brasil">Scooters disparam em vendas no Brasil</a>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+        </ul>
+       </div>
+       <div class="top-bar-right">
+        <ul class="menu">
+         <li class="form-toggle show-for-large"><a href="#busca" title="Buscar no site..."><span class="fi-magnifying-glass"></span> Buscar</a></li>
+         <li class="has-form" id="busca" style="display:none">
+          <form action="/busca/" method="GET">
+           <div class="input-group">
+            <input class="input-group-field" type="text" name="q" placeholder="digite aqui..." value="">
+            <div class="input-group-button">
+             <button type="submit" class="button secondary"><span class="fi-magnifying-glass"></span></button>
+            </div>
+           </div>
+          </form></li>
+         <li class="form-toggle"><a data-open="login"><span class="fi-torso"></span> Entrar</a></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </nav> 
+    <div class="off-canvas-content" data-off-canvas-content> 
+     <div class="container"> 
+      <div class="row"> 
+       <div class="small-12 columns"> 
+        <h1 class="text-center no-margins"><strong>Revista</strong> Salão da Moto</h1> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="slider hide-for-small-only"> 
+      <div class="item active">
+       <a href="/revista/bmw-anuncia-consorcio-linha-motos.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_home3.jpg" alt="BMW anuncia consórcio para sua linha de motos"><strong><span class="date"><span class="fi-calendar"></span> 29/08/2017</span>BMW anuncia consórcio para sua linha de motos</strong></a>
+      </div> 
+      <div class="item">
+       <a href="/revista/honda-cg-160-2018-vendida-precos-partem-r-799000.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/22/honda-cg-160-2018-vendida-precos-partem-r-799000_home3.jpg" alt="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00"><strong><span class="date"><span class="fi-calendar"></span> 22/08/2017</span>Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00</strong></a>
+      </div> 
+      <div class="item">
+       <a href="/revista/bmw-confirma-data-lancamento-modelo-g-310-r-brasil.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/27/bmw-confirma-data-lancamento-modelo-g-310-r-brasil_home3.jpg" alt="BMW confirma data de lançamento do modelo G 310 R no Brasil"><strong><span class="date"><span class="fi-calendar"></span> 27/07/2017</span>BMW confirma data de lançamento do modelo G 310 R no Brasil</strong></a>
+      </div> 
+      <div class="item">
+       <a href="/revista/ducati-anuncia-chegada-monster-1200-s-brasil.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/18/ducati-anuncia-chegada-monster-1200-s-brasil_home3.jpg" alt="Ducati anuncia chegada da Monster 1200 S no Brasil"><strong><span class="date"><span class="fi-calendar"></span> 18/07/2017</span>Ducati anuncia chegada da Monster 1200 S no Brasil</strong></a>
+      </div> 
+      <div class="item">
+       <a href="/revista/scooters-disparam-vendas-brasil.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/17/scooters-disparam-vendas-brasil_home3.jpg" alt="Scooters disparam em vendas no Brasil"><strong><span class="date"><span class="fi-calendar"></span> 17/07/2017</span>Scooters disparam em vendas no Brasil</strong></a>
+      </div> 
+      <div class="item">
+       <a href="/revista/harley-davidson-comprar-ducati.html"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/28/harley-davidson-comprar-ducati_home3.jpg" alt="Harley-Davidson pode comprar Ducati"><strong><span class="date"><span class="fi-calendar"></span> 28/06/2017</span>Harley-Davidson pode comprar Ducati</strong></a>
+      </div> 
+     </div> 
+     <div class="container container-white"> 
+      <div class="row"> 
+       <div class="small-12 columns"> 
+        <h2 class="text-center">Arquivo - Todos os Posts</h2> 
+        <div class="row row-list-block"> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/bmw-anuncia-consorcio-linha-motos.html" title="BMW anuncia consórcio para sua linha de motos"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/29/bmw-anuncia-consorcio-linha-motos_thumb.jpg" alt="BMW anuncia consórcio para sua linha de motos" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/bmw-anuncia-consorcio-linha-motos.html" title="BMW anuncia consórcio para sua linha de motos">BMW anuncia consórcio para sua linha de motos</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/honda-cg-160-2018-vendida-precos-partem-r-799000.html" title="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/22/honda-cg-160-2018-vendida-precos-partem-r-799000_thumb.jpg" alt="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/honda-cg-160-2018-vendida-precos-partem-r-799000.html" title="Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00">Honda CG 160 2018 será vendida por preços que partem de R$ 7.990,00</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/bmw-confirma-data-lancamento-modelo-g-310-r-brasil.html" title="BMW confirma data de lançamento do modelo G 310 R no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/27/bmw-confirma-data-lancamento-modelo-g-310-r-brasil_thumb.jpg" alt="BMW confirma data de lançamento do modelo G 310 R no Brasil" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/bmw-confirma-data-lancamento-modelo-g-310-r-brasil.html" title="BMW confirma data de lançamento do modelo G 310 R no Brasil">BMW confirma data de lançamento do modelo G 310 R no Brasil</a></p>
+         </div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/ducati-anuncia-chegada-monster-1200-s-brasil.html" title="Ducati anuncia chegada da Monster 1200 S no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/18/ducati-anuncia-chegada-monster-1200-s-brasil_thumb.jpg" alt="Ducati anuncia chegada da Monster 1200 S no Brasil" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/ducati-anuncia-chegada-monster-1200-s-brasil.html" title="Ducati anuncia chegada da Monster 1200 S no Brasil">Ducati anuncia chegada da Monster 1200 S no Brasil</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/scooters-disparam-vendas-brasil.html" title="Scooters disparam em vendas no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/07/17/scooters-disparam-vendas-brasil_thumb.jpg" alt="Scooters disparam em vendas no Brasil" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/scooters-disparam-vendas-brasil.html" title="Scooters disparam em vendas no Brasil">Scooters disparam em vendas no Brasil</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/harley-davidson-comprar-ducati.html" title="Harley-Davidson pode comprar Ducati"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/28/harley-davidson-comprar-ducati_thumb.jpg" alt="Harley-Davidson pode comprar Ducati" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/harley-davidson-comprar-ducati.html" title="Harley-Davidson pode comprar Ducati">Harley-Davidson pode comprar Ducati</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/bmw-lanca-nova-s-1000-r-mais-potente-modelo-atual.html" title="BMW lança nova S 1000 R mais potente que modelo atual"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/26/bmw-lanca-nova-s-1000-r-mais-potente-modelo-atual_thumb.jpg" alt="BMW lança nova S 1000 R mais potente que modelo atual" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/bmw-lanca-nova-s-1000-r-mais-potente-modelo-atual.html" title="BMW lança nova S 1000 R mais potente que modelo atual">BMW lança nova S 1000 R mais potente que modelo atual</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/moto-baixa-cilindrada-bmw-vai-custar-r-21900.html" title="Moto de baixa cilindrada da BMW vai custar R$ 21.900"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/20/moto-baixa-cilindrada-bmw-vai-custar-r-21900_thumb.jpg" alt="Moto de baixa cilindrada da BMW vai custar R$ 21.900" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/moto-baixa-cilindrada-bmw-vai-custar-r-21900.html" title="Moto de baixa cilindrada da BMW vai custar R$ 21.900">Moto de baixa cilindrada da BMW vai custar R$ 21.900</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/contran-muda-regras-modificacao-motos.html" title="Contran muda regras sobre modificação de motos"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/16/contran-muda-regras-modificacao-motos_thumb.jpg" alt="Contran muda regras sobre modificação de motos" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/contran-muda-regras-modificacao-motos.html" title="Contran muda regras sobre modificação de motos">Contran muda regras sobre modificação de motos</a></p>
+         </div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/kawasaki-apresenta-nova-linha-ninja-1000-ninja-650.html" title="Kawasaki apresenta nova linha da Ninja 1000 e Ninja 650"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/15/kawasaki-apresenta-nova-linha-ninja-1000-ninja-650_thumb.jpg" alt="Kawasaki apresenta nova linha da Ninja 1000 e Ninja 650" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/kawasaki-apresenta-nova-linha-ninja-1000-ninja-650.html" title="Kawasaki apresenta nova linha da Ninja 1000 e Ninja 650">Kawasaki apresenta nova linha da Ninja 1000 e Ninja 650</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/revista/yahama-lanca-modelo-brigar-harley.html" title="Yahama lança modelo para brigar com Harley"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/06/06/yahama-lanca-modelo-brigar-harley_thumb.jpg" alt="Yahama lança modelo para brigar com Harley" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/yahama-lanca-modelo-brigar-harley.html" title="Yahama lança modelo para brigar com Harley">Yahama lança modelo para brigar com Harley</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns end">
+          <p><a href="/revista/bmw-apresenta-prototipo-moto-futuro.html" title="BMW apresenta protótipo de moto do futuro"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/05/26/bmw-apresenta-prototipo-moto-futuro_thumb.jpg" alt="BMW apresenta protótipo de moto do futuro" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/revista/bmw-apresenta-prototipo-moto-futuro.html" title="BMW apresenta protótipo de moto do futuro">BMW apresenta protótipo de moto do futuro</a></p>
+         </div> 
+        </div> 
+        <div class="clearfix"></div> 
+        <hr> 
+        <ul class="pagination text-center" role="navigation">
+         <li><a data-page="2" href="/revista/?p=2">próxima pagina »</a></li>
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clearfix"></div> 
+     <footer id="footer"> 
+      <div class="row"> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Compra e Venda</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/vender/">Anunciar Moto</a></li> 
+         <li><a href="https://salaodocarro.com.br/vender/">Anunciar Carro</a></li> 
+         <li><a href="https://caminhoes.salaodocarro.com.br/vender/">Anunciar Caminhão</a></li> 
+         <li><a href="/comprar/motos/">Ofertas de Motos</a></li> 
+         <li><a href="/lojista/">Central do Lojista</a></li> 
+        </ul> 
+        <p class="title">Serviços</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/guia/">Guia de 0km</a></li> 
+         <li><a href="/fipe/">Tabela FIPE</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Revista</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://salaodocarro.com.br/revista/">Carros</a></li> 
+         <li><a href="/revista/">Motos</a></li> 
+         <li><a href="/rss/">Feed RSS</a></li> 
+        </ul> 
+        <p class="title">Outros Sites</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://salaodocarro.com.br/">Salão do Carro</a></li> 
+         <li><a href="https://caminhoes.salaodocarro.com.br/">Salão do Caminhão</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Atendimento</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/contato/">Fale Conosco</a></li> 
+        </ul> 
+        <p class="title">Institucional</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/sobre/">Quem somos</a></li> 
+         <li><a href="/anuncie/">Publicidade</a></li> 
+         <li><a href="/afiliados/">Programa de Afiliados</a></li> 
+         <li><a href="/privacidade/">Política de Privacidade</a></li> 
+         <li><a href="/termos/">Termos de Uso</a></li> 
+         <li><a href="/cookies/">Sobre o uso de Cookies</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Siga nas Redes</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://www.facebook.com/salaodocarro" target="_blank"><span class="fi-social-facebook"></span> Facebook</a></li> 
+         <li><a href="https://plus.google.com/+salaocarro" target="_blank" rel="publisher"><span class="fi-social-google-plus"></span> Google+</a></li> 
+         <li><a href="https://www.instagram.com/salaodocarro/" target="_blank"><span class="fi-social-instagram"></span> Instagram</a></li> 
+         <li><a href="https://twitter.com/salaodocarro" target="_blank"><span class="fi-social-twitter"></span> Twitter</a></li> 
+         <li><a href="https://www.youtube.com/user/salaocarro" target="_blank"><span class="fi-social-youtube"></span> YouTube</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="divide"></div> 
+      <div class="row"> 
+       <div class="copyright small-12 columns text-center"> 
+        <p class="copyright">© 2015-2017 Salão da Moto</p> 
+       </div> 
+      </div> 
+     </footer> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="login" class="reveal" data-reveal> 
+   <h2 class="text-center" style="margin-bottom:2rem">Acesse sua conta</h2> 
+   <p class="text-center">Vá mais rápido usando sua rede social favorita:</p> 
+   <p class="no-margins text-center"> <a class="button facebook radius" href="/auth/facebook/" style="color:white !important;" rel="nofollow"> <span class="fi-social-facebook"></span> Usar o Facebook </a> &nbsp; &nbsp; <a class="button google radius" href="/auth/google/" rel="nofollow"> <span class="fi-social-google-plus"></span> Usar o Google+ </a> </p> 
+   <hr> 
+   <p class="text-center">Ou acesse com seu e-mail:</p> 
+   <form action="/login/" method="POST"> 
+    <div class="row"> 
+     <div class="small-3 columns text-right"> 
+      <label for="login-email">Seu E-mail:</label> 
+     </div> 
+     <div class="small-8 columns end"> 
+      <input type="text" name="email" id="login-email"> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="small-3 columns text-right"> 
+      <label for="login-password">Sua Senha:</label> 
+     </div> 
+     <div class="small-4 columns"> 
+      <input type="password" name="pass" id="login-password"> 
+     </div> 
+     <div class="small-5 columns"> 
+      <small style="line-height:2.5;"><a href="/login/email/" style="color:#999">esqueceu a senha?</a></small> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="small-7 small-offset-3 columns end"> 
+      <button type="submit" class="button radius success">Entrar</button> 
+     </div> 
+    </div> 
+   </form> 
+   <hr> 
+   <p class="no-margins text-center"> Não tem cadastro? <strong><a href="/cadastro/">Crie uma Conta gratuitamente</a></strong> </p> 
+   <hr> 
+   <p class="no-margins text-center" style="color:#777"> <small>Lojistas e Concessionários, acesse <strong><a href="/lojista/" style="color:#777">Central do Lojista</a></strong></small> </p> 
+  </div> 
+  <script type="text/javascript">
+var l = document.createElement('link');
+l.rel = 'stylesheet';
+l.href = 'https://cdn.salaodocarro.com.br/_css/extra_v1.min.css';
+var h = document.getElementsByTagName('head')[0];
+h.parentNode.insertBefore(l, h);
+</script> 
+  <script type="text/javascript" src="https://cdn.salaodocarro.com.br/_js/vendor_v5.min.js"></script> 
+  <script type="text/javascript" src="https://cdn.salaodocarro.com.br/_js/slick.min.js"></script>
+  <script async defer type="text/javascript" src="https://cdn.salaodocarro.com.br/_js/motos-desktop_v11.min.js"></script> 
+  <script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-33591651-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script> 
+  <script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://motos.salaodocarro.com.br/",
+	"name":"Salão da Moto",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://motos.salaodocarro.com.br/busca/?q={search_term}",
+		"query-input": "required name=search_term"
+	}
+}
+</script> 
+  <div id="modal-return" class="reveal" data-reveal> 
+   <div class="return"></div> 
+  </div> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script> 
+  <script type="text/javascript">
+window.google_trackConversion({
+google_conversion_id: 982180549,
+google_custom_params: window.google_tag_params,
+google_remarketing_only: true
+});
+
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5307058"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+</script> 
+  <!--[if lte IE 8]><script src="https://cdn.salaodocarro.com.br/_js/warning.min.js"></script><script>e("https://cdn.salaodocarro.com.br/_img/")</script><![endif]-->  
+ </body>
+</html>

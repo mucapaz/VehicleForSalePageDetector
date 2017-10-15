@@ -1,0 +1,761 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <!-- iPad iOS7+ com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets_portal/apple-touch-icon-152x152-e41764dec763d6c5d73bdd4063708ce9ffacb463484f28e10ff489cddc7a47c1.png"> 
+  <!-- iPad iOS7- com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png"> 
+  <!-- iPhone iOS7+ com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets_portal/apple-touch-icon-120x120-f65c142c5a87e37fd8d83fc7202ab8f36bcf00b226d5bc1abc8b2615754e9c3c.png"> 
+  <!-- iPhone iOS7- com Retina Display --> 
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets_portal/apple-touch-icon-114x114-a15f3ca1100ee2b4176a31c76598731b3cf2167b87a0fd7e2278250169484973.png"> 
+  <!-- iPad iOS7+ sem retina display e iPad Mini--> 
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets_portal/apple-touch-icon-76x76-f9e15ed1f3411a7aa5c443c93b23377a6bb08065aff7befa22276f5ca6140770.png"> 
+  <!-- iPad iOS7- sem retina display  --> 
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets_portal/apple-touch-icon-72x72-551db87696f840c0c94d2a49c473c7297070abf47ac2ef7661000e681c49f04e.png"> 
+  <!-- iPhone iOS7-, iPod Touch e Android 2.2+  --> 
+  <link rel="apple-touch-icon" href="/assets_portal/apple-touch-icon-43565d3df861ca2201703639df627249f69ce5a3137527573f5f71e3ad1a4e22.png"> 
+  <meta name="msapplication-TileImage" content="/assets_portal/apple-touch-icon-144x144-4e27c97eb23c5d26bbc848257c9c2becd5122e49412730344eee22618d083e1f.png"> 
+  <meta name="msapplication-TileColor" content="#5b83c2"> 
+  <meta name="csrf-param" content="authenticity_token"> 
+  <meta name="csrf-token" content="7wFISTreLePjXaIsf2JiRbFnh4WnxFlV2dYu4DyOz1dB0SaPXCHGl5d4Ik1STxss+9fZ41MH0p+N8h3qcKvfKw=="> 
+  <link rel="stylesheet" media="screen" href="/assets_portal/application-d991c547a040f0cd611dd76efe7511d4097c7fd59bc744678f09ad5d5c2eec1a.css"> 
+  <script src="/assets_portal/application-57451a702fe909dd77356a38c27b654ab3c0160a3ac5ebddc132b3424a8ef9b6.js" media="all" async></script> 
+  <!-- METATAGS --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="classification" content="Internet"> 
+  <meta name="robots" content="INDEX, FOLLOW"> 
+  <meta name="page_content" content="all"> 
+  <meta name="distribution" content="Global"> 
+  <meta name="rating" content="General"> 
+  <meta name="author" content="A TARDE On Line"> 
+  <meta name="generator" content="TopSys Framework"> 
+  <meta name="revisit-after" content="1 days"> 
+  <meta name="language" content="pt-br"> 
+  <meta name="doc-class" content="Completed"> 
+  <meta name="doc-rights" content="Public"> 
+  <meta name="copyright" content="© 1996-2017 A TARDE On Line"> 
+  <meta name="google-site-verification" content="4MCtxJiTM9c-mK18nSkbqzyY89elyqwD9XCImg9pbxU"> 
+  <meta name="keywords" content="jornal, notícia, notícias, web, tv, galeria, mundo, esporte, política, brasil, cidades, cidade, cultura, cinema, economia, tempo, vestibular, pós, graduação, blog, revista, infografia, infografias, segurança, violência, saúde, chuva, teatro, salvador, bahia, exposição, música, interatividade, classificados, horóscopo"> 
+  <meta name="description" content="Últimas Notícias de Salvador, Bahia, Brasil e do mundo da redação do jornal A TARDE. Encontre anúncios classificados de autos, imóveis e empregos, informações de tempo, trânsito, cinema, teatro e dicas de lazer."> 
+  <link rel="canonical" href="http://atarde.uol.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday"> 
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-25157125-1']);
+    _gaq.push(['_trackPageview']);
+    _gaq.push(['_setLocalGifPath','http://www.atarde.uol.com.br/ivc/urchin.gif']);
+    _gaq.push(['_setLocalRemoteServerMode', true]);
+    _gaq.push(['_setDomainName', '.atarde.uol.com.br']);
+    _gaq.push(['_setAllowLinker', true]);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script> 
+  <script type="text/javascript">
+    ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+        p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+        };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+        n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//gadasource.storage.googleapis.com/ivc.js","ivc"));
+    window.ivc('newTracker', 'cf', 'ivccf.ivcbrasil.org.br', {
+        idWeb: '112'
+    });
+    window.ivc('trackPageView');
+</script> 
+  <!-- TailTarget Tag Manager TT-12294-7/CT-918 --> 
+  <script>
+    (function(i) {
+        var ts = document.createElement('script');
+        ts.type = 'text/javascript';
+        ts.async = true;
+        ts.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tags.t.tailtarget.com/t3m.js?i=' + i;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ts, s);
+    })('TT-12294-7/CT-918');
+</script> 
+  <!-- End TailTarget Tag Manager --> 
+  <meta property="plataforma" content="desktop"> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+ googletag.cmd.push(function() {
+  googletag.defineSlot('/21419831/atarde_Home_BannerConteudo', [800, 600], 'div-gpt-ad-1464036674765-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script> 
+  <title>Comércio eletrônico já ajusta sites de olho na Black Friday</title> 
+  <meta name="description" content="Melhores novidades sobre empreendedorismo, oportunidades de trabalho e como gerenciar o seu negócio e a sua vida."> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+googletag.cmd.push(function() {
+googletag.defineSlot('/21419831/atarde_Empregos_3x1', [300, 100], 'div-gpt-ad-1343159338999-0').addService(googletag.pubads());
+//googletag.defineSlot('/21419831/atarde_Barraultimas_Square', [[300, 250], [300, 600]], 'div-gpt-ad-1350483034783-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/ATARDE_materia_300x250_01', [300, 250], 'div-gpt-ad-1421262824463-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/ATARDE_materia_300x250_02', [300, 250], 'div-gpt-ad-1421262854799-0').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Empregos_MidQuadrado', [132, 144], 'div-gpt-ad-1343159338999-1').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Empregos_MidRetangulo', [605, 50], 'div-gpt-ad-1343159338999-2').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Empregos_Selo', [120, 40], 'div-gpt-ad-1343159338999-3').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Empregos_Square', [300, 250], 'div-gpt-ad-1343159338999-4').addService(googletag.pubads());
+googletag.defineSlot('/21419831/atarde_Empregos_Superbanner', [728, 90], 'div-gpt-ad-1343159338999-5').addService(googletag.pubads());
+//NOVO PORTAL
+ googletag.defineSlot('/21419831/ATARDE_DIGITAL_PREMIUM_OUTLIMIT', [[990, 385], [800, 600]], 'div-gpt-ad-1476277738718-0').addService(googletag.pubads());
+ googletag.defineSlot('/21419831/ATARDE_CANAL_EMPREGOS_LINEBANNER', [490, 210], 'div-gpt-ad-1476277738718-1').addService(googletag.pubads());
+ googletag.defineSlot('/21419831/ATARDE_CANAL_EMPREGOS_MANCHETE', [970, 250], 'div-gpt-ad-1476277738718-2').addService(googletag.pubads());
+ googletag.defineSlot('/21419831/ATARDE_CANAL_EMPREGOS_SELO', [120, 40], 'div-gpt-ad-1476277738718-3').addService(googletag.pubads());
+ googletag.defineSlot('/21419831/ATARDE_CANAL_EMPREGOS_SIDEBAR', [[300, 250], [300, 600]], 'div-gpt-ad-1476277738718-4').addService(googletag.pubads());
+ googletag.defineSlot('/21419831/ATARDE_CANAL_EMPREGOS_TOPO', [[728, 90], [970, 90], [970, 250]], 'div-gpt-ad-1476277738718-5').addService(googletag.pubads());
+//FECHA NOVO PORTAL
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script> 
+  <script type="text/javascript">
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script> 
+  <script type="text/javascript">
+ googletag.cmd.push(function() {
+  googletag.defineSlot('/21419831/atarde_Home_BannerConteudo', [800, 600], 'div-gpt-ad-1464036674765-0').addService(googletag.pubads());
+  googletag.pubads().enableSingleRequest();
+  googletag.enableServices();
+ });
+</script> 
+  <meta property="og:url" content="http://www.atarde.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday"> 
+  <meta property="og:title" content="Comércio eletrônico já ajusta sites de olho na Black Friday"> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:site_name" content="Portal A TARDE"> 
+  <meta property="og:image" content="http://fw.atarde.com.br/2017/10/370_20171015135815313.jpg"> 
+  <meta property="og:description" content="Cerca de 763 mil pedidos foram realizados em lojas online na Black Friday do ano passado, resultado 17% maior que em 2015, segundo o Ebit, empresa..."> 
+  <link rel="image_src" href="/assets_portal/marca_facebook-4b1d5a886b2d3ba8b107a6961e602e5b262b851769705d06af0ea4d6f205ee46.jpg"> 
+  <meta property="fb:app_id" content="128000464044229"> 
+  <!-- <link rel="canonical" href="http://atarde.uol.com.br"/> --> 
+  <link rel="shortcut icon" href="/assets_portal/favicon-ff7971074a0a83e5cf640be04cc54b99517a612efcb28e969ffc469cb336823d.ico"> 
+  <!--[if lt IE 9]>
+<script async src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+<![endif]--> 
+  <script type="text/javascript">
+    window.universal_variable = window.universal_variable || {};
+    window.universal_variable.dfp = {
+        "custom_params" : {
+            "subchan" : "",
+        }
+    };
+
+    window.uolads = window.uolads || [];
+
+    ;(function() {
+        var scr = document.createElement("script");
+        scr.async = true;
+        scr.src =  "//tm.jsuol.com.br/uoltm.js?id=uteqwq";
+        var el = document.getElementsByTagName("script")[0];
+            el.parentNode.insertBefore(scr, el);
+    })();
+</script> 
+ </head>
+ <body id="grupo-noticia">
+  <hr class="separadorTopouol"> 
+  <script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">
+    <div class="rg-image-wrapper">
+        {{if itemsCount > 1}}
+            <div class="rg-image-nav">
+                <a href="#" class="rg-image-nav-prev">Previous Image</a>
+                <a href="#" class="rg-image-nav-next">Next Image</a>
+            </div>
+        {{/if}}
+        <div class="rg-image"></div>
+        <div class="rg-loading"></div>
+        <div class="rg-caption-wrapper">
+            <div class="rg-caption" style="display:none;">
+                <p></p>
+            </div>
+        </div>
+    </div>
+ </script> 
+  <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({article:'auto'});
+  !function (e, f, u, i) {
+    if (!document.getElementById(i)){
+      e.async = 1;
+      e.src = u;
+      e.id = i;
+      f.parentNode.insertBefore(e, f);
+    }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/grupoatarde-atarde/loader.js',
+  'tb_loader_script');
+</script>  
+  <!--
+col-md = desktop
+col-sm = tablet
+col-xs = celular
+ --> 
+  <!--
+    SE GRUPO NOTICIA: id="grupo-noticis"
+    SE GRUPO ESPORTE: id="grupo-esporte"
+    SE GRUPO ENTRETEIMENTO: id="grupo-entretenimento"
+ -->  
+  <header class="header menuPrincipal"> 
+   <input type="checkbox" id="control-nav"> 
+   <label for="control-nav" class="control-nav"></label> 
+   <label for="control-nav" class="control-nav-close"></label> 
+   <h1 class="marcaATARDE"> <a href="http://atarde.uol.com.br/" alt="Marca Portal A TARDE" title="Marca Portal A TARDE"></a> </h1> 
+   <nav> 
+    <div class="atalhos"> 
+     <a href="http://assine.atarde.com.br/" target="blank" title="Assine" class="assineBx"> <h1>ASSINE A TARDE</h1> <span>(71) 3533-0850</span> </a> 
+     <!--
+                <div class="assine">
+                  <a href="http://assine.atarde.com.br/" target="blank" title="Assine">
+                  <i class="selo-assine"></i></a>
+                </div>
+                --> 
+     <div class="anuncie"> 
+      <a href="https://anuncie.atarde.com.br/" target="_blank" title="Anuncie"><i class="ico-anuncie-menu"></i> <p>Anuncie</p></a>
+     </div> 
+     <div class="atMais"> 
+      <a href="http://atardemais.atarde.uol.com.br/" target="_blank" title="A TARDE +"><i class="ico-atardemais-menu"></i> <p>A TARDE +</p></a>
+     </div> 
+     <div class="contatos">
+      <a href="/contatos"><i class="ico-contato-menu" target="_blank" title="Contatos"></i> <p>Contatos</p></a>
+     </div> 
+    </div> 
+    <ul class="destaquesUltimas"> 
+     <li><a href="/ultimas-noticias" title="Últimas notícias">Últimas notícias</a></li> 
+    </ul> 
+    <!--AGRUPAMENTO-1 MENU --> 
+    <ul class="grupos"> 
+     <li class="home"><a href="http://atarde.uol.com.br/" title="Home">HOME</a></li> 
+     <li class="noticias"><a href="/grupos/noticias" title="Notícias">Notícias</a></li> 
+     <li class="esportes"><a href="/grupos/esportes" title="Esportes">Esportes</a></li> 
+     <li class="entretenimento"><a href="/grupos/entretenimento" title="Entretenimento">Entretenimento</a></li> 
+    </ul> 
+    <!--/FECHA AGRUPAMENTO-1 MENU --> 
+    <!--AGRUPAMENTO-2 MENU --> 
+    <ul class="navmenu-nav"> 
+     <!-- CANAIS E EDITORIAS --> 
+     <li> 
+      <ul> 
+       <li> <h2> Canais e editorias </h2> </li> 
+       <li> 
+        <!--Para destacar a tag "a" no carnaval  usar class="Cdestaque"
+                     <a href="http://www.atarde.com.br/carnaval" title="Carnaval2017">Carnaval</a>
+                    </li>--> </li>
+       <li><a href="http://agenda2mais.atarde.com.br/" title="Agenda 2+">Agenda 2+</a></li> 
+       <li><a href="/autos" title="Autos">Autos</a></li> 
+       <li><a href="/bahia" title="Bahia">Bahia</a></li> 
+       <li><a href="/brasil" title="Brasil">Brasil</a></li> 
+       <li><a href="/saude" title="Saúde">Saúde</a></li> 
+       <li><a href="http://www.cineinsite.com.br/" title="Cinema">Cinema</a></li> 
+       <li><a href="/concursos" title="Concursos">Concursos</a></li> 
+       <li><a href="/cultura" title="Cultura">Cultura</a></li> 
+       <li><a href="/digital" title="Digital">Digital</a></li> 
+       <li><a href="/esportes/bahia" title="E.C. Bahia">E.C. Bahia</a></li> 
+       <li><a href="/esportes/vitoria" title="E.C. Vitória ">E.C. Vitória</a></li> 
+       <li><a href="/economia" title="Economia">Economia</a></li> 
+       <li><a href="/educacao" title="Educação">Educação</a></li> 
+       <li><a href="/empregos" title="Empregos">Empregos</a></li> 
+       <li><a href="/gastronomia" title="Gastronimia">Gastronomia</a></li> 
+       <li><a href="/famosos" title="Mexerico">Mexerico</a></li> 
+       <li><a href="/muito" title="Muito">Muito</a></li> 
+       <li><a href="/mundo" title="Mundo">Mundo</a></li> 
+       <li><a href="/opiniao" title="Opinião">Opinião</a></li> 
+       <li><a href="/politica" title="Política">Política</a></li> 
+       <li><a href="http://atarde.uol.com.br/quemviuview" title="Quem Viu View">Quem Viu View</a></li> 
+       <li><a href="/bahia/salvador" title="Salvador">Salvador</a></li> 
+       <li><a href="/transito" title="Trânsito">Trânsito</a></li> 
+       <li><a href="/turismo" title="Turismo">Turismo</a></li> 
+      </ul> </li> 
+     <!-- /FECHA CANAIS E EDITORIAS --> 
+     <!-- BLOGS E COLUNISTAS --> 
+     <li> 
+      <ul> 
+       <li> <h2> blogs e colunistas </h2> </li> 
+       <li><a href="/colunista/luizteles" title="Acréscimos">Acréscimos</a></li> 
+       <li><a href="http://atarde.uol.com.br/colunista/atardesp" title="Autos Brasil">Auto Brasil</a></li> 
+       <li><a href="/colunista/samuellima" title="Empurrão Tricolor">Empurrão Tricolor</a></li> 
+       <li><a href="/colunista/julianalisboa" title="Inclusiva">Inclusiva</a></li> 
+       <li><a href="/colunista/danieldorea" title="Detalhe Tático">Detalhe Tático</a></li> 
+       <li><a href="/colunista/joseraimundo" title="Olhar Rubro-Negro">Olhar Rubro-Negro</a></li> 
+       <!--                <li><a href="/colunista/ronaldojacobina" title="Ronaldo Jacobina">Ronaldo Jacobina</a></li>--> 
+       <li><a href="/colunista/levivasconcelos" title="Tempo Presente">Tempo Presente</a></li> 
+       <li><a href="/colunista/geraldobastos" title="Tendências &amp; Mercado">Tendências &amp; Mercado</a></li> 
+       <li><a href="http://blogdoted.atarde.com.br/" title="Blog do Ted" target="_blank">Blog do Ted</a></li> 
+       <li><a href="http://maisti.atarde.com.br/" title="Mais TI" target="_blank">Mais TI</a></li> 
+       <li><a href="http://micheltelles.atarde.com.br/" title="Michel Telles" target="_blank">Michel Telles</a></li> 
+       <li><a href="http://moda.atarde.uol.com.br/" title="Moda" target="_blank">Moda</a></li> 
+      </ul> </li> 
+     <li><a href="/cidadaoreporter">cidadão reporter</a></li> 
+     <li><a href="/charges">charges</a></li> 
+     <li><a href="http://foco.atarde.com.br" target="_blank">foco</a></li> 
+     <li><a href="/galerias">galerias</a></li> 
+     <!-- /FECHA BLOGS E COLUNISTAS --> 
+    </ul> 
+    <!--FECHA AGRUPAMENTO-2 MENU --> 
+    <!-- AGRUPAMENTO-3 MENU --> 
+    <ul class="outros"> 
+     <li><a href="http://edicaodigital.atarde.com.br/" title="Edição digital">Edição digital</a></li> 
+     <li><a href="http://classificados.atarde.uol.com.br" title="Classificados">Classificados</a></li> 
+     <li><a href="http://publicidade.atarde.com.br/" title="Publicidade">Publicidade</a></li> 
+    </ul> 
+    <!--/FECHA AGRUPAMENTO-3 MENU --> 
+   </nav> 
+   <!--
+          <div class="contato">
+            <a href="/contatos">
+              <i class="glyphicon glyphicon-envelope" data-toggle="tooltip" data-placement="bottom" title="Fale conosco"></i></a>
+          </div>
+
+
+          <div class="busca btn-group">
+            <i class="glyphicon glyphicon-search dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Buscar"></i>
+
+            <div class="dropdown-menu aba">
+              <form action="/buscas">
+                <label for=""><input name="busca" type="text" placeholder="Buscar por"/></label>
+                <input type="submit" value="buscar"/>
+              </form>
+            </div>
+          </div>
+          --> 
+   <a href="/buscas" class="busca btn-group"> <i class="glyphicon glyphicon-search" title="Buscar"></i> </a> 
+  </header> 
+  <!--<div class="navmenu navmenu-default navmenu-fixed-left nav"></div>--> 
+  <div class="publicidade hidden-xs"> 
+   <div class="centralizadorSB"> 
+    <!-- /21419831/ATARDE_CANAL_EMPREGOS_TOPO --> 
+    <div id="div-gpt-ad-1476277738718-5"> 
+     <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1476277738718-5'); });
+</script> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- [ABRE] TOPO CANAL --> 
+  <div class="container-fluid topo -canal"> 
+   <div class="container"> 
+    <h2> <span>Empregos &amp; Negócios</span> </h2> 
+    <div class="selo hidden-xs"> 
+     <!-- /21419831/ATARDE_CANAL_EMPREGOS_SELO --> 
+     <div id="div-gpt-ad-1476277738718-3" style="height:40px; width:120px;"> 
+      <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1476277738718-3'); });
+</script> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- [FECHA] TOPO CANAL --> 
+  <div class="container atarde"> 
+   <aside class="row materia"> 
+    <div class="breadcrumb hidden-xs"> 
+     <ul>
+       Notícias 
+      <li><a href="/empregos"> Empregos &amp; Negócios</a></li> 
+     </ul> 
+    </div> 
+    <!-- [ABRE] MATERIA --> 
+    <aside class="col-md-8 col-sm-12 col-xs-12"> 
+     <p class="data"> Dom , 15/10/2017 às 13:55 | Atualizado em: 15/10/2017 às 14:00 </p> 
+     <h3 class="tituloMateria">Comércio eletrônico já ajusta sites de olho na Black Friday</h3> 
+     <p class="credito"> Thiago Conceição*</p> 
+     <div class="tags hidden-xs"> 
+      <ul> 
+       <li>Tags</li> 
+       <li> <a href="/buscas?tag=black friday&amp;canal=43" title="black friday"> black friday </a> </li> 
+       <li> <a href="/buscas?tag= comercio eletronico&amp;canal=43" title=" comercio eletronico"> comercio eletronico </a> </li> 
+      </ul> 
+     </div> 
+     <div class="integracaoMateria"> 
+      <div class="barraInteratividade"> 
+       <!--a href="" data-toggle="tooltip" data-placement="top" title="Gostei"><span class="glyphicon glyphicon-thumbs-up"></span>20</a>
+    <a href="" data-toggle="tooltip" data-placement="top" title="Não gostei"><span class="glyphicon glyphicon-thumbs-down"></span>20</a--> 
+       <div class="compartilhamento"> 
+        <!-- twitter --> 
+        <a href="http://twitter.com/home?status=Comércio eletrônico já ajusta sites de olho na Black Friday+http://www.atarde.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday" title="Compartilhar no Twitter" target="_blank"> <span class="ico-twiter"></span> </a> 
+        <a href="http://www.facebook.com/share.php?u=http://www.atarde.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday&amp;title=Comércio eletrônico já ajusta sites de olho na Black Friday" title="Compartilhar no Facebook" target="_blank"> <span class="ico-facebook"></span> </a> 
+        <a href="https://plus.google.com/share?url=http://www.atarde.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday" title="Compartilhar no Google Plus" target="_blank"> <span class="ico-google"></span> </a> 
+        <a class="hidden-sm hidden-lg" href="whatsapp://send?text=http://www.atarde.com.br/empregos/noticias/1903334-comercio-eletronico-ja-ajusta-sites-de-olho-na-black-friday" title="Compartilhar no Google Plus" target="_blank"> <span class="ico-whatsapp"></span> </a> 
+       </div> 
+      </div> 
+      <i class="aumenta">A+</i> 
+      <i class="diminui">A-</i> 
+      <!-- <i class="reportarErro glyphicon glyphicon-info-sign"></i> --> 
+      <i class="print glyphicon glyphicon-print" onclick="self.print()"> </i> 
+     </div> 
+     <div class="conteudoMateria"> 
+      <figure> 
+       <img src="http://fw.atarde.com.br/2017/10/370_20171015135815313.jpg" alt="Lojistas que apostam no chamado e-commerce querem evitar os casos de queda no site - Foto: Editoria de A TARDE | Ag. A TARDE" title="Lojistas que apostam no chamado e-commerce querem evitar os casos de queda no site - Foto: Editoria de A TARDE | Ag. A TARDE" class="img-responsive"> 
+       <figcaption>
+        Lojistas que apostam no chamado e-commerce querem evitar os casos de queda no site
+       </figcaption> 
+       <span class="credito">Editoria de A TARDE | Ag. A TARDE</span> 
+      </figure> 
+      <p>Cerca de 763 mil pedidos foram realizados em lojas online na Black Friday do ano passado, resultado 17% maior que em 2015, segundo o Ebit, empresa internacional pioneira na realização de pesquisas sobre o comércio eletrônico. Na expectativa de que o ritmo de crescimento seja mantido na edição deste ano, marcada para o dia 24 de novembro, empreendedores investem em estratégias que visam à otimização das plataformas de e-commerce.</p> 
+      <p>Focada na criação, gestão e reparo dos sistemas de lojas online de Salvador, a agência de marketing digital Inove Criações Web começou a preparação para atender os empresários que pretendem ofertar descontos na Black Friday. Entre os motivos da procura pelo serviço da empresa existe a preocupação do lojista em evitar problemas como a lentidão no processo de compra, dificuldade na atualização de estoque e queda do site.</p> 
+      <p>"A utilização de um servidor de hospedagem de qualidade é muito importante, pois durante os períodos promocionais o site costuma ter um aumento de até 90% na quantidade de acessos simultâneos, fato que pode causar lentidão ou até mesmo a indisponibilidade da plataforma", explica o publicitário Gilmar Silva, dono da Inove.</p> 
+      <p>Para que o e-commerce suporte o aumento de acessos com a velocidade e segurança necessária para a satisfação dos consumidores, Silva afirma que o lojista precisa investir na instalação do certificado digital SSL, ferramenta que faz com que as informações inseridas pelo cliente sejam criptografadas e possam circular de forma sigilosa.</p> 
+      <p><strong>Comunicação</strong></p> 
+      <p>Após garantir a segurança e a funcionalidade das plataformas digitais, os empreendedores começam a planejar as estratégias de comunicação que serão utilizadas na Black Friday. Dentre os artifícios de venda para a data, a customização do site e o uso de frases de efeito são aplicados na divulgação das promoções.</p> 
+      <p>"É fundamental ter a comunicação 100% focada para a Black Friday. Dentro do objetivo, vale customizar o site com o tema, acrescentar banners e selos que levem para um produto da promoção, além de ambientar as redes sociais com a data. Outro lance bacana é criar chamadas como "ainda dá tempo", "última chance" e "só hoje", elas podem ajudar a encurtar a tomada de decisão do seu cliente", conta Silva.</p> 
+      <p>Apesar de a maioria das empresas do e-commerce fechar parcerias com as prestadoras de serviços em tecnologia da informação (TI), responsáveis pelas atualizações da infraestrutura digital, nem sempre a plataforma fica 100% pronta para a demanda de eventos promocionais. Nesse caso, o empreendedor precisa ficar atento para não perder vendas com a lentidão do site. "A parceria com o profissional da TI tem ser próxima, fazer parte do cotidiano da loja online", diz Anderson Teixeira, analista técnico, na Bahia, do Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (Sebrae-BA).</p> 
+      <p>"Caso, entretanto, o sistema não fique pronto até a data da Black Friday, é importante pensar em alternativas como o marketing place, onde o empreendedor pode alugar espaços virtuais mais preparados para as vendas", explica</p> 
+      <p>A gerente Shiza Naderi, do e-commerce de roupas e acessórios femininos Aquamar, já iniciou o processo de atualização de sistema para a Black Friday. Acrescido ao processo de mudança da plataforma, o aumento da equipe de vendas e a revisão dos fornecedores são estratégias pensadas para a data. "Estamos falando de um evento importante para o e-commerce. Por isso, foram feitas mudanças que visam facilitar a navegação no site", ressalta Shiza.</p> 
+      <p><em>* Sob supervisão da editoraJoyce de Sousa (interina)</em></p> 
+      <aside class="row"> 
+       <div class="col-md-12 col-sm-12 col-xs-12"> 
+        <div class="contatosServicosMat grayBg"> 
+         <h3>Dicas para preparar o site</h3> 
+         <p></p>
+         <div style="">
+          <font face="Arial, Verdana"><span style="font-size: 13.3333px;"><b>Velocidade - </b>Diante do objetivo de melhorar a velocidade de navegação do site, o uso da ferramenta de cache pode ajudar. Ela permite armazenar os conteúdos que não mudam o tempo todo, sem que haja necessidade de requisitá-los diretamente ao banco de dados a cada novo acesso recebido, fator que contribui para a lentidão dos sites.</span></font>
+         </div>
+         <div style="">
+          <font face="Arial, Verdana"><span style="font-size: 13.3333px;"><br></span></font>
+         </div>
+         <div style="">
+          <b style="font-size: 13.3333px; font-family: Arial, Verdana;">Capacidade - </b>
+          <span style="font-size: 13.3333px; font-family: Arial, Verdana;">Invista na capacidade dos servidores. Quando muitas pessoas acessam o site ao mesmo tempo, mais lento ele tende a ficar, pois os servidores passam a utilizar o máximo da sua capacidade. A solução é aumentar o hardware dos servidores, isso pode ser feito adquirindo mais memória e processadores mais avançados ou computadores mais potentes.</span>
+         </div>
+         <div style="">
+          <font face="Arial, Verdana"><span style="font-size: 13.3333px;"><br></span></font>
+         </div>
+         <div style="">
+          <b style="font-size: 13.3333px; font-family: Arial, Verdana;">Segurança - </b>
+          <span style="font-size: 13.3333px; font-family: Arial, Verdana;">A Black Friday também abre oportunidades&nbsp; para os ataques de hackers ao sistema. Portanto, é fundamental checar os controles de acesso, verificar se há portas abertas no sistema ou se há computadores em redes públicas que deveriam ser privadas</span>
+         </div>
+         <div style="">
+          <font face="Arial, Verdana"><span style="font-size: 13.3333px;"><br></span></font>
+         </div>
+         <div style="">
+          <span style="font-size: 13.3333px; font-family: Arial, Verdana;"><b>Monitoração -</b> É importante que a equipe de técnicos e desenvolvedores continue monitorando o tráfego do site durante&nbsp; a Black Friday.</span>
+         </div>
+         <div style="font-family: Arial, Verdana; font-size: 10pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal;">
+          <br>
+         </div>
+         <p></p> 
+        </div> 
+       </div> 
+      </aside> 
+      <div class="row"> 
+       <!-- [ABRE] AGENDA 2+ --> 
+       <!-- [FECHA] AGENDA 2+ --> 
+       <!-- [ABRE] CINEINSITE --> 
+       <!-- [FECHA] CINEINSITE --> 
+      </div> 
+      <aside class="row"> 
+       <div class="col-md-12 col-sm-12 col-xs-12"> 
+        <div class="coordenadas"> 
+         <ul class="bxslider"> 
+          <li class="item"> <a href="/economia/noticias/1901922-comercio-eletronico-deve-faturar-r-215-bilhoes-no-dia-das-criancas" title="Comércio eletrônico deve faturar R$ 2,15 bilhões no Dia das Crianças"> <p class="dataMateria">09/10/2017</p> <p class="tituloMateria">Comércio eletrônico deve faturar R$ 2,15 bilhões no Dia das Crianças</p> </a> </li> 
+          <li class="item"> <a href="/economia/noticias/1899911-vendas-na-black-friday-devem-crescer-15-em-2017-diz-ebit" title="Vendas na Black Friday devem crescer 15% em 2017, diz Ebit"> 
+            <figure> 
+             <img src="http://fw.atarde.com.br/2016/11/170x117_20161123175858640.jpg" alt=""> 
+            </figure> <p class="dataMateria">02/10/2017</p> <p class="tituloMateria">Vendas na Black Friday devem crescer 15% em 2017, diz Ebit</p> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </aside> 
+      <!-- Pontamedia Comments Tag //--> 
+      <div id="bc_comments_plugin"></div> 
+      <script>
+  var BCCommentsOptions = {
+    'lang': 'pt',
+    'height':'',
+    'width':'90%',
+    'socialSharing':true,
+    'showCaptcha':true,
+    'theme':'default',
+    'mdrt':'e41b481b74414a69c42b8215885bebc2'
+  };
+</script> 
+      <script type="text/javascript" src="//api.pontamedia.net/comments/?k=5cfd86e40eb17d5e7f13854e942ebd8c78b0c689" async></script> 
+      <!-- End Pontamedia Comments Tag //--> 
+      <div id="taboola-below-article-thumbnails"></div> 
+      <script type="text/javascript">
+          window._taboola = window._taboola || [];
+          _taboola.push({
+              mode: 'thumbnails-a',
+              container: 'taboola-below-article-thumbnails',
+              placement: 'Below Article Thumbnails',
+              target_type: 'mix'
+          });
+      </script> 
+     </div> 
+    </aside> 
+    <!-- [FECHA] MATERIA --> 
+    <!-- [ABRE] SIDEBAR --> 
+    <aside class="col-md-4 col-sm-12 col-xs-12"> 
+     <div class="row sidebar"> 
+      <!-- [ABRE] OUTRAS NOTICIAS --> 
+      <div class="outrasNoticias col-md-12 col-sm-12 col-xs-12"> 
+       <h4>Outras <strong>notícias</strong></h4> 
+       <ul> 
+        <li class=""> <a href="/empregos/noticias/1903333-cerimonial-de-casamentos-ja-se-prepara-para-a-alta-estacao" title="Cerimonial de casamentos já se prepara para a alta estação"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_201710151467385.jpg" alt="Cerimonial de casamentos já se prepara para a alta estação | Foto: " title="Cerimonial de casamentos já se prepara para a alta estação | Foto: " class="img-responsive"> 
+          </figure> <p class="data">15/10/2017</p> <p>Cerimonial de casamentos já se prepara para a alta estação</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1903341-empoderamento-empreendedor" title="Empoderamento empreendedor"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_201710151491663.jpg" alt="Empoderamento empreendedor | Foto: " title="Empoderamento empreendedor | Foto: " class="img-responsive"> 
+          </figure> <p class="data">15/10/2017</p> <p>Empoderamento empreendedor</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1901526-brecho-infantil-e-boa-opcao-ate-para-jovens-pais-empreendedores" title="Brechó infantil é boa opção até para jovens pais empreendedores"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_201710812852276.jpg" alt="Brechó infantil é boa opção até para jovens pais empreendedores | Foto: " title="Brechó infantil é boa opção até para jovens pais empreendedores | Foto: " class="img-responsive"> 
+          </figure> <p class="data">08/10/2017</p> <p>Brechó infantil é boa opção até para jovens pais empreendedores</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1901525-restaurantes-criam-alternativas-para-refeicoes-no-meio-da-manha" title="Restaurantes criam alternativas para refeições no meio da manhã"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_201710812431381.jpg" alt="Restaurantes criam alternativas para refeições no meio da manhã | Foto: " title="Restaurantes criam alternativas para refeições no meio da manhã | Foto: " class="img-responsive"> 
+          </figure> <p class="data">08/10/2017</p> <p>Restaurantes criam alternativas para refeições no meio da manhã</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1901535-comercio-de-shopping-deve-abrir-ate-2-mil-vagas-temporarias-em-salvador" title="Comércio de shopping deve abrir até 2 mil vagas temporárias em Salvador"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_2017108115611400.jpg" alt="Comércio de shopping deve abrir até 2 mil vagas temporárias em Salvador | Foto: " title="Comércio de shopping deve abrir até 2 mil vagas temporárias em Salvador | Foto: " class="img-responsive"> 
+          </figure> <p class="data">08/10/2017</p> <p>Comércio de shopping deve abrir até 2 mil vagas temporárias em Salvador</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1899838-facebook-abre-processo-de-selecao-de-startups-no-brasil" title="Facebook abre processo de seleção de startups no Brasil"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_2017102111738441.jpg" alt="Facebook abre processo de seleção de startups no Brasil | Foto: " title="Facebook abre processo de seleção de startups no Brasil | Foto: " class="img-responsive"> 
+          </figure> <p class="data">02/10/2017</p> <p>Facebook abre processo de seleção de startups no Brasil</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1899639-chefes-tem-direito-de-ler-mensagens-enviadas-por-emails-corporativos" title="Chefes têm direito de ler mensagens enviadas por e-mails corporativos?"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_20171011347272.jpg" alt="Chefes têm direito de ler mensagens enviadas por e-mails corporativos? | Foto: " title="Chefes têm direito de ler mensagens enviadas por e-mails corporativos? | Foto: " class="img-responsive"> 
+          </figure> <p class="data">01/10/2017</p> <p>Chefes têm direito de ler mensagens enviadas por e-mails corporativos?</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1899637-mais-de-35-dos-jovens-brasileiros-fazem-planos-de-abrir-negocio-proprio" title="Mais de 35% dos jovens brasileiros fazem planos de abrir negócio próprio"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_2017101135055760.jpg" alt="Mais de 35% dos jovens brasileiros fazem planos de abrir negócio próprio | Foto: " title="Mais de 35% dos jovens brasileiros fazem planos de abrir negócio próprio | Foto: " class="img-responsive"> 
+          </figure> <p class="data">01/10/2017</p> <p>Mais de 35% dos jovens brasileiros fazem planos de abrir negócio próprio</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1899631-fique-atento-para-nao-cair-no-golpe-do-falso-emprego" title="Fique atento para não cair no golpe do falso emprego"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2017/10/170x117_20171011258585.jpg" alt="Fique atento para não cair no golpe do falso emprego | Foto: " title="Fique atento para não cair no golpe do falso emprego | Foto: " class="img-responsive"> 
+          </figure> <p class="data">01/10/2017</p> <p>Fique atento para não cair no golpe do falso emprego</p> </a> </li> 
+        <li class=""> <a href="/empregos/noticias/1898347-dia-d-oferece-500-vagas-de-trabalho-para-pessoas-com-deficiencia" title="&quot;Dia D&quot; oferece 500 vagas de trabalho para pessoas com deficiência"> 
+          <figure> 
+           <img src="http://fw.atarde.com.br/2015/02/170x117_ctps-carteira-de-trabalho_1496406.jpg" alt="&quot;Dia D&quot; oferece 500 vagas de trabalho para pessoas com deficiência | Foto: " title="&quot;Dia D&quot; oferece 500 vagas de trabalho para pessoas com deficiência | Foto: " class="img-responsive"> 
+          </figure> <p class="data">26/09/2017</p> <p>"Dia D" oferece 500 vagas de trabalho para pessoas com deficiência</p> </a> </li> 
+       </ul> 
+      </div> 
+      <!-- [FECHA] OUTRAS NOTICIAS --> 
+      <!-- [ABRE] PUBLICIDADE --> 
+      <div class=" col-md-12 col-sm-12 col-xs-12"> 
+       <div class="publicidade square"> 
+       </div> 
+      </div> 
+      <!-- [FECHA] PUBLICIDADE --> 
+      <div id="taboola-right-rail-thumbnails" class="boxServicos col-md-12 col-sm-12 col-xs-12"></div> 
+      <script type="text/javascript">
+                window._taboola = window._taboola || [];
+                _taboola.push({
+                    mode: 'organic-thumbnails-a',
+                    container: 'taboola-right-rail-thumbnails',
+                    placement: 'Right Rail Thumbnails',
+                    target_type: 'mix'
+                });
+            </script> 
+      <div class=" col-md-12 col-sm-12 col-xs-12 text-center"> 
+       <!-- Vitrine br_apn_atarde_300X600_internas --> 
+       <script type="text/javascript" id="597a3ddb7fdc040004a21efe" async>
+                    if(!document.getElementById('597a3ddb7fdc040004a21efe')) {
+                        document.write('<div id="597a3ddb7fdc040004a21efe"></div>');
+                    }
+                    var _aep = _aep || [];
+                    (function(d, s, c) {
+                        var getTimestamp = function() {
+                            var date = new Date();
+                            return ('00' + date.getFullYear()).slice(-2) +
+                                ('00' + date.getMonth()).slice(-2) +
+                                ('00' + date.getDate()).slice(-2);
+                        };
+                        _aep.push(['tag', '597a3ddb7fdc040004a21efe', { /* add optional custom config here */ }]);
+                        var f = d.createElement(s); f.src = (d.location.protocol == 'https:') ? c.replace('http:', 'https:').replace('//akfs', '//s-akfs') : c+ '?r=' + getTimestamp();
+                        var e = d.getElementsByTagName(s)[0]; e.parentNode.insertBefore(f, e);
+                    })(document, 'script', '//akfs.nspmotion.com/aep/tag/br/597a3ddb7fdc040004a21efe.cfg.js');
+                </script> 
+      </div> 
+     </div> 
+    </aside> 
+    <!-- [FECHA] SIDEBAR --> 
+   </aside> 
+  </div> 
+  <!-- [ABRE] rodape --> 
+  <div id="rodapePortal" class=" hidden-xs hidden-sm"> 
+   <div class="topoRodape"> 
+    <div class="conteudoTopo container"> 
+     <img src="/assets_portal/marcaRodape-13e374a38938a53334a747bb34ba518d46b6d975192bda00858812630ba383cb.png" alt="Marca do A TARDE" class="marcaRodape"> 
+     <ul> 
+      <li><a href="/grupos/noticias">notícias</a></li> 
+      <li><a href="/esportes">esportes</a></li> 
+      <li><a href="/entretenimento">entretenimento</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="baseRodape"> 
+    <div class="conteudoRodape container"> 
+     <div class="colunaImpresso"> 
+      <div class="impresso"> 
+       <a href="http://edicaodigital.atarde.uol.com.br/"><img src="http://fw.atarde.uol.com.br/edicaodigital/2017/10/240x430_15-10-2017_20171014194029416_primeirocaderno.jpg" alt="capa do jornal" title="capa do jornal"></a> 
+       <!-- <div class="app">
+            <span class="sprite2015 ico-android"><a href="https://play.google.com/store/apps/details?id=br.com.digitalpages.atarde" target="_blank">APP para Android</a></span>
+            <span class="sprite2015 ico-ios"><a href="https://itunes.apple.com/us/app/a-tarde/id663955316?mt=8" target="_blank">APP para IOS</a></span>
+          </div> --> 
+      </div> 
+      <div class="assine"> 
+       <h4>assine</h4> 
+       <p>Salvador e região metropolitana</p> 
+       <p>(71) 3533 0850</p> 
+       <p>Demais localidades</p> 
+       <p>0800 071 8500</p> 
+       <p>Seg a Sex:7h às 19h</p> 
+       <p>Sábado das 7h às 13h</p> 
+       <h6 class="textWite">*A central não funciona aos Domingos e feriados</h6> 
+      </div> 
+     </div> 
+     <div class="colunaCanais"> 
+      <p class="tituloColuna">canais e editorias</p> 
+      <div class="row"> 
+       <ul class="col-md-6"> 
+        <li><a href="/autos">Autos</a></li> 
+        <li><a href="/bahia">Bahia</a></li> 
+        <li><a href="/brasil">Brasil</a></li> 
+        <li><a href="/cidadaoreporter">Cidadão Repórter</a></li> 
+        <li><a href="/saude">Saúde</a></li> 
+        <li><a href="http://www.cineinsite.com.br" target="_blank">Cinema</a></li> 
+        <li><a href="/concursos">Concursos</a></li> 
+        <li><a href="/cultura">Cultura</a></li> 
+        <li><a href="/digital">Digital</a></li> 
+        <li><a href="/economia">Economia</a></li> 
+       </ul> 
+       <ul class="col-md-6"> 
+        <li><a href="/esportes/bahia">E.C. Bahia</a></li> 
+        <li><a href="/esportes/vitoria">E.C. Vitória</a></li> 
+        <li><a href="/empregos">Empregos</a></li> 
+        <li><a href="/gastronomia">Gastronomia</a></li> 
+        <li><a href="/muito">Muito</a></li> 
+        <li><a href="/mundo">Mundo</a></li> 
+        <li><a href="/opiniao">Opinião</a></li> 
+        <li><a href="/politica">Política</a></li> 
+        <li><a href="/bahia/salvador">Salvador</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="colunaEmpresas"> 
+      <p class="tituloColuna"><span class="sprite2015 ico-simboloAtarde-g"></span>grupo a atarde</p> 
+      <ul> 
+       <li><a href="http://anuncie.atarde.com.br/" target="_blank"> A TARDE</a></li> 
+       <li><a href="http://www.jornalmassa.com.br/" target="_blank">MASSA!</a></li> 
+       <li><a href="http://www.atardefm.com.br/" target="_blank">A TARDE FM</a></li> 
+       <li><a href="http://www.agenciaatarde.com.br/" target="_blank">AGÊNCIA A TARDE</a></li> 
+       <li><a href="http://www.atardeservicosgraficos.com.br/" target="_blank">SERVIÇOS GRÁFICOS</a></li> 
+       <li><a href="http://educacaoonline.atarde.com.br/aea" target="_blank">A TARDE EDUCAÇÃO</a></li> 
+      </ul> 
+     </div> 
+     <div class="colunaContatos"> 
+      <!-- <div class="redesSociais">
+          <span class="sprite2015 ico-feed"><a href="">Feed</a></span>
+          <span class="sprite2015 ico-tw-branco"><a href="http://www.twitter.com/atarde" target="_blank">Twitter @atarde</a></span>
+          <span class="sprite2015 ico-fb-branco"><a href="http://www.facebook.com.br/atarde.online" target="_blank">Facebook</a></span>
+          <span class="sprite2015 ico-go-branco"><a href="https://plus.google.com/u/0/101626613913762831669" target="_blank">Google Plus</a></span>
+        </div> --> 
+      <div class="faleConosco"> 
+       <a href="/contatos"><span class="glyphicons glyphicons-message-flag"></span>fale <strong>conosco</strong></a> 
+      </div> 
+      <div class="whatsapp"> 
+       <span class="sprite2015 ico-wApp"></span> 
+       <p>WhatsAPP</p> 
+       <p>(71) 99601-0020</p> 
+      </div> 
+      <div class="redacao"> 
+       <p>Redação:</p> 
+       <p>(71) 3340-8800 </p> 
+       <p>Central:</p> 
+       <p>(71) 3340-8500</p> 
+      </div> 
+      <div class="classificados"> 
+       <p>Classificados:</p> 
+       <p>(71) 3533-0855</p> 
+      </div> 
+     </div> 
+     <div class="outrosRodape"> 
+      <div class="atardeMais"> 
+       <p><a href="http://www.atardemais.com.br/" target="_blank">conheça o a tarde+</a></p> 
+       <span class="sprite2015 ico-atardeMais"></span> 
+      </div> 
+      <div class="anuncie"> 
+       <p><a href="http://anuncie.atarde.com.br/" target="_blank">anuncie</a></p> 
+       <span class="sprite2015 ico-anuncie"></span> 
+      </div> 
+      <div class="anuncieClassi"> 
+       <p>anuncie classificados</p> 
+       <p>(71) 3533-0855</p> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+     <div class="copyright"> 
+      <p>Copyright © 1996 - <script>document.write(new Date().getFullYear());</script> Grupo A TARDE. Todos os direitos reservados.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- RODAPEBANNER --> 
+  <!-- /RODAPEBANNER --> 
+  <!-- Hotjar Tracking Code for www.atarde.com.br --> 
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:346526,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> 
+  <!-- [FECHA] rodape -->  
+  <!-- fecha canvas --> 
+  <iframe src="http://atarde.uol.com.br/estatistica/materias/1903334/43" height="1"></iframe> 
+  <script type="text/javascript">
+  window._taboola = window._taboola || [];
+  _taboola.push({flush: true});
+</script>   
+ </body>
+</html>

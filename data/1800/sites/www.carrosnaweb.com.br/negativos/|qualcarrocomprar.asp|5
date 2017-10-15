@@ -1,0 +1,366 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"> 
+  <title>Qual carro comprar? Conheça os carros que mais se encaixam com o seu perfil. A melhor compra. A compra certa.</title> 
+  <meta name="description" content="Defina as suas prioridades em um carro e nós indicaremos os modelos mais adequados as suas expectativas"> 
+  <meta name="keywords" content="Qual Carro Comprar, Melhor compra, Compra Certa, Escolher, Carros, Carrosnaweb, Automóveis, Veículos, Novos, Usados, Seminovos, Classificados, Notícias, Motos, Compra, Venda"> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+   <tbody>
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br> 
+      <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+       <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+       <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+      </form> </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+   </tbody>
+  </table> 
+  <table width="980" cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="White"> 
+   <tbody>
+    <tr> 
+     <form action="qualcarrocomprar.asp" method="post" id="form1" name="form1" onsubmit="var result=checaform1(); return result;"></form> 
+     <td bgcolor="darkkhaki" colspan="10" height="25"><font style="font-size: 14px; font-family: arial">&nbsp;&nbsp;<a href="default.asp"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="avancada.asp"><font color="white">Catálogo</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="compara.asp"><font color="white">Comparar</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="analiseindice.asp"><font color="white">Avaliação</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="noticiaslista.asp"><font color="white">Notícias</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="opiniao.asp"><font color="white">Opinião do Dono</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="classificados.asp"><font color="white">Classificados</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="concessionarias.asp"><font color="white">Concessionárias</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="carrosmaisvendidos.asp"><font color="white">Mais vendidos</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+    <tr> 
+     <td align="center" height="150" colspan="4" bgcolor="White"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-banner-topo --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="7829382852"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+     <td> </td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="5" cellspacing="0" width="980" align="center"> 
+   <tbody>
+    <tr> 
+     <td colspan="1" align="left" bgcolor="#ffffff" valign="top"> <font size="1" face="arial" color="darkred"> 
+       <table width="100%" border="0" cellpadding="5"> 
+        <tbody>
+         <tr> 
+          <td> <font style="font-size: 12px;" face="arial"> <a href="default.asp"><u><font color="gray">Página Principal</font></u></a><font color="gray"> &gt; <a href="qualcarrocomprar.asp"><u><font color="gray">Qual carro comprar</font></u></a><font color="gray"> </font></font></font></td> 
+          <td align="right"> <font size="2" color="gray">&nbsp;Compartilhe: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/qualcarrocomprar.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta página"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Qual%20carro%20comprar?%20http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> </font></td> 
+         </tr> 
+         <tr> 
+          <td> <font face="arial" color="darkred"> <font color="Brown" size="5" face="arial">Qual carro comprar </font></font></td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <table width="100%" border="0"> 
+        <tbody>
+         <tr>
+          <td colspan="2"><font color="black" style="font-size: 13px;" face="arial"> Defina suas prioridades em um carro e nós indicaremos os modelos mais adequados as suas expectativas para que você possa fazer a escolha certa e a melhor compra. </font></td> 
+         </tr> 
+         <tr> 
+          <td valign="top" width="50%"> <br> <font style="font-size: 13px"><font face="arial" color="darkred"> <b>FILTROS</b> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Preço médio R$ <select id="valormedio" name="valormedio" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Indiferente</option> <option value="3300">3300</option> <option value="5000">5000</option> <option value="7500">7500</option> <option value="10000">10000</option> <option value="15000">15000</option> <option value="20000">20000</option> <option value="25000">25000</option> <option value="30000">30000</option> <option value="40000">40000</option> <option value="50000">50000</option> <option value="60000">60000</option> <option value="74000">74000</option> <option value="90000">90000</option> <option value="110000">110000</option> <option value="130000">130000</option> <option value="160000">160000</option> <option value="195000">195000</option> <option value="240000">240000</option> <option value="290000">290000</option> <option value="350000">350000</option> <option value="420000">420000</option> <option value="500000">500000</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Idade máxima (anos) <select id="idade" name="idade" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="999" selected>Indiferente</option> <option value="0">0 km</option> <option value="1">1</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> <option value="20">20</option> <option value="25">25</option> <option value="30">30</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Configuração <select id="config" name="config" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="Hatch">Hatch</option> <option value="Sedan">Sedan</option> <option value="Perua">Perua</option> <option value="Minivan">Minivan</option> <option value="Van">Van</option> <option value="SUV">SUV</option> <option value="Jipe">Jipe</option> <option value="Picape">Picape</option> <option value="Cupê">Cupê</option> <option value="Conversível">Conversível</option> <option value="Furgão">Furgão</option> <option value="Chassi-cabine">Chassi-cabine</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Câmbio <select id="cambio" name="cambio" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="Manual">Manual</option> <option value="Automatico">Automático</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Portas <select id="portas" name="portas" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Ocupantes (mín.) <select id="lugares" name="lugares" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="2">2</option> <option value="3">3</option> <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> <option value="9">9</option> <option value="10">10</option> <option value="11">11</option> <option value="12">12</option> <option value="13">13</option> <option value="14">14</option> <option value="15">15</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Combustível <select id="combustivel" name="combustivel" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="G">Gasolina</option> <option value="A">Álcool</option> <option value="F">Flex</option> <option value="D">Diesel</option> <option value="H">Híbrido</option> <option value="E">Elétrico</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Procedência <select id="procedencia" name="procedencia" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="Nacional">Nacional</option> <option value="Importado">Importado</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> Tamanho de vaga de garagem <select id="porte" name="porte" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0">Indiferente</option> <option value="Pequena">Pequena</option> <option value="Média">Média</option> <option value="Grande">Grande</option> </select> <font style="font-size: 5px;"><br><br><font style="font-size: 13px;"> 
+                                 <table> 
+                                  <tbody>
+                                   <tr> 
+                                    <td></td> 
+                                    <td height="20"><font style="font-size: 13px;"><font color="Brown" face="arial"><b>Prioridades</b></font></font></td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Desempenho </font></font></td> 
+                                    <td align="left"> <select id="desempenho" name="desempenho" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Economia de combustível </font></font></td> 
+                                    <td align="left"> <select id="consumo" name="consumo" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Espaço e conforto </font></font></td> 
+                                    <td align="left"> <select id="espacointerno" name="espacointerno" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Porta-malas </font></font></td> 
+                                    <td align="left"> <select id="portamalas" name="portamalas" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Estilo e aparência </font></font></td> 
+                                    <td align="left"> <select id="estilo" name="estilo" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Custo-benefício </font></font></td> 
+                                    <td align="left"> <select id="custobeneficio" name="custobeneficio" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Segurança </font></font></td> 
+                                    <td align="left"> <select id="seguranca" name="seguranca" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                   <tr>
+                                    <td align="right"> <font style="font-size: 13px;"> <font color="800000">Capacidade fora-de-estrada </font></font></td> 
+                                    <td align="left"> <select id="foradeestrada" name="foradeestrada" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;procedencia='+form1.procedencia.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Indiferente">Indiferente</option> <option value="Baixa">Baixa</option> <option value="Média">Média</option> <option value="Alta">Alta</option> </select> </td> 
+                                   </tr> 
+                                  </tbody>
+                                 </table> <br> <a href="qualcarrocomprar.asp"><u>Limpar filtros</u></a> <br><br><br> <font style="font-size: 13px"><font face="arial" color="darkred"> <b>Veja Também</b> <font style="font-size: 5px;"><br><br></font> <font style="font-size: 13px;"> <a href="dicascompravenda.asp"><u>Procedência</u></a> <font style="font-size: 5px;"><br><br></font> <a href="dicas3.asp"><u>Custo do carro</u></a> <font style="font-size: 5px;"><br><br></font> <a href="dicas2.asp"><u>Trocar o carro?</u></a> </font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></font></td> 
+          <td rowspan="1" valign="top"> <font style="font-size: 13px"><font face="arial" color="darkred"> 
+             <table width="100%"> 
+              <tbody>
+               <tr> 
+                <td height="40" align="right"><font style="font-size: 13px;"><font color="black" face="arial">Ordenar por <select id="prioridade1" name="prioridade1" onchange="javascript:document.location='qualcarrocomprar.asp?valormedio='+form1.valormedio.value+'&amp;config='+form1.config.value+'&amp;desempenho='+form1.desempenho.value+'&amp;consumo='+form1.consumo.value+'&amp;espacointerno='+form1.espacointerno.value+'&amp;portamalas='+form1.portamalas.value+'&amp;estilo='+form1.estilo.value+'&amp;custobeneficio='+form1.custobeneficio.value+'&amp;porte='+form1.porte.value+'&amp;prioridade1='+form1.prioridade1.value+'&amp;cambio='+form1.cambio.value+'&amp;idade='+form1.idade.value+'&amp;portas='+form1.portas.value+'&amp;lugares='+form1.lugares.value+'&amp;combustivel='+form1.combustivel.value+'&amp;foradeestrada='+form1.foradeestrada.value+'&amp;seguranca='+form1.seguranca.value"> <option value="0" selected>Selecione</option> <option value="Desempenho">Desempenho</option> <option value="Consumo">Economia de combustível</option> <option value="Espacointerno">Espaço interno</option> <option value="Porta-malas">Porta-malas</option> <option value="Estilo">Estilo e aparência</option> <option value="Custo-beneficio">Custo-benefício</option> <option value="foradeestrada">Capacidade fora-de-estrada</option> <option value="seguranca">Segurança</option> </select> </font></font></td> 
+               </tr> 
+              </tbody>
+             </table> 
+             <table border="0" cellpadding="2" cellspacing="0" align="center" width="100%"> 
+              <tbody>
+               <tr> 
+                <td> <font color="darkred" size="5">1º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\alfa-romeo-155-super-1.jpg" border="0" vspace="0" title="155"> </td> 
+                <td> <font color="darkred" size="2"><b>Alfa Romeo 155 Super 2.0 <font color="gray" size="2">1996</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Alfa Romeo&amp;modelo=155">Ofertas de 155</a> <br> <a href="fichadetalhe.asp?codigo=1411">Catálogo do 155</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">2º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\a82003.jpg" border="0" vspace="0" title="A8"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A8 4.2 V8 Quattro <font color="gray" size="2">2003</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A8">Ofertas de A8</a> <br> <a href="fichadetalhe.asp?codigo=441">Catálogo do A8</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">3º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\a6-v6-2009-1.jpg" border="0" vspace="0" title="A6"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A6 3.0 V6 TFSi Quattro <font color="gray" size="2">2009</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A6">Ofertas de A6</a> <br> <a href="fichadetalhe.asp?codigo=1013">Catálogo do A6</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">4º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\Audi-Q3-2012-Ambition-1.jpg" border="0" vspace="0" title="Q3"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi Q3 Ambition 2.0 TFSi Quattro <font color="gray" size="2">2013</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=Q3">Ofertas de Q3</a> <br> <a href="fichadetalhe.asp?codigo=1312">Catálogo do Q3</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">5º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\a4-2015-1800-1.jpg" border="0" vspace="0" title="A4"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A4 Ambiente 1.8 TFSi <font color="gray" size="2">2015</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A4">Ofertas de A4</a> <br> <a href="fichadetalhe.asp?codigo=2520">Catálogo do A4</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">6º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\Audi-A6-ambition-2016-1.jpg" border="0" vspace="0" title="A6"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A6 3.0 V6 TFSi Quattro <font color="gray" size="2">2015</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A6">Ofertas de A6</a> <br> <a href="fichadetalhe.asp?codigo=3471">Catálogo do A6</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">7º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\a4-2015-1800-1.jpg" border="0" vspace="0" title="A4"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A4 Ambiente 1.8 TFSi <font color="gray" size="2">2016</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A4">Ofertas de A4</a> <br> <a href="fichadetalhe.asp?codigo=5229">Catálogo do A4</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">8º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\audi-a8-2007-1.jpg" border="0" vspace="0" title="A8"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi A8 4.2 V8 Quattro <font color="gray" size="2">2007</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=A8">Ofertas de A8</a> <br> <a href="fichadetalhe.asp?codigo=5499">Catálogo do A8</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">9º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\audi-80-1.jpg" border="0" vspace="0" title="80"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi 80 2.6 V6 <font color="gray" size="2">1994</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=80">Ofertas de 80</a> <br> <a href="fichadetalhe.asp?codigo=5622">Catálogo do 80</a> </font></font></td> 
+               </tr> 
+               <tr> 
+                <td colspan="4">
+                 <hr></td> 
+               </tr> 
+               <tr> 
+                <td> <font color="darkred" size="5">10º </font></td> 
+                <td align="center"> <img src="imagensbd007\thumb\Audi-Q3-2012-Ambition-1.jpg" border="0" vspace="0" title="Q3"> </td> 
+                <td> <font color="darkred" size="2"><b>Audi Q3 Ambition 2.0 TFSi Quattro <font color="gray" size="2">2015</font></b><font color="gray" size="2"> <br> <a href="listaclassif.asp?fabricante=Audi&amp;modelo=Q3">Ofertas de Q3</a> <br> <a href="fichadetalhe.asp?codigo=6421">Catálogo do Q3</a> </font></font></td> 
+               </tr> 
+              </tbody>
+             </table> </font></font></td> 
+         </tr> 
+         <tr> 
+          <td colspan="2" align="center"> <br><br> <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/qualcarrocomprar.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta página"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Qual%20carro%20comprar?%20http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/qualcarrocomprar.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> <br><br> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+           <!-- Variedades-quadrado-conteudo --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="3259582453"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <br><br> </td> 
+         </tr> 
+        </tbody>
+       </table> </font></td> 
+     <td bgcolor="efefef" width="320" valign="top" align="center"> <font style="font-size: 7px;"><br><br></font> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-quadrado-lateral --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="9166515259"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <font style="font-size: 7px;"><br><br></font> 
+      <table cellspacing="5" cellpadding="0" border="0" width="310" align="center"> 
+       <tbody>
+        <tr> 
+         <td bgcolor="white" align="left" valign="middle" colspan="3" height="88"> <font style="font-size: 3px;"><br><br></font> <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" target="_blank"><img src="imgsite\tabelafipe2.gif" align="left" border="0" title="Avalie seu carro - consulte o valor através da tabela FIPE" hspace="7"> <font style="font-size: 14px;"><font face="arial" color="#CB2626"><b>Tabela Fipe</b><br> <font style="font-size: 14px;"><font face="arial" color="black">Confira o preço do carro que você quer comprar ou vender</font></font></font></font></a><font style="font-size: 14px;"><font face="arial" color="#CB2626"><font style="font-size: 14px;"><font face="arial" color="black"> <font style="font-size: 8px;"><br><br></font> </font></font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font> </td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="dicascompravenda.asp"><img src="http://www.carrosnaweb.com.br/imgsite/lupa.jpg" align="left" border="0" title="Veja o que saber antes de comprar um carro" hspace="7"></a> <font style="font-size: 14px;"><a href="dicascompravenda.asp" title="Veja o que saber antes de comprar um carro"><font face="arial" color="#CB2626"><b>Antes de comprar</b><br> <font color="black">Conheça dicas e macetes para adquirir um veículo e saiba como verificar sua procedência</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font></td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="proxlancamentos.asp"><img src="http://www.carrosnaweb.com.br/imgsite/lancamentos.jpg" align="left" border="0" title="Próximos lançamentos de carros no Brasil" hspace="7"></a> <font style="font-size: 14px;"><a href="proxlancamentos.asp" title="Conheça os próximos carros a serem lançados no Brasil"><font face="arial" color="#CB2626"><b>Próximos Lançamentos</b><br> <font color="black">Saiba quais serão os principais lançamentos do mercado brasileiro</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font></td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="carrosmaisvendidos.asp"><img src="http://www.carrosnaweb.com.br/imgsite/ranking.jpg" align="left" border="0" title="Carros mais vendidos no Brasil" hspace="7"></a> <font style="font-size: 14px;"><a href="carrosmaisvendidos.asp" title="Carros mais vendidos no Brasil"><font face="arial" color="#CB2626"><b>Carros mais vendidos</b><br> <font color="black">Confira gráficos com os carros mais vendidos separados por categorias</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 1px;"><br></font> </td>
+        </tr> 
+        <tr> 
+         <td> <font style="font-size: 6px;"><br><br></font> 
+          <table border="0" align="center" cellpadding="8" cellspacing="0" width="300"> 
+           <tbody>
+            <tr> 
+             <td bgcolor="DarkRed" align="center"> <font style="font-size: 14px; font-family: arial" color="#ffffff">COMPARATIVO DO DIA </font></td> 
+            </tr> 
+            <tr> 
+             <td align="center" colspan="1" bgcolor="PaleGoldenrod"> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Compare Ford Edge vs. Chevrolet Equinox"><font style="font-size: 15px; font-family: arial" color="black">Ford Edge vs. Chevrolet Equinox</font></a><font style="font-size: 15px; font-family: arial" color="black"> <font style="font-size: 5px;"><br><br></font> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Ford Edge Titanium 3.5 V6 AWD 2016"><img src="imagensbd007\thumb\edge-2016-1.jpg" border="0" vspace="3" hspace="3"></a> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Chevrolet Equinox Premier 2.0 Turbo 2018"><img src="imagensbd007\thumb\equinox-2018-1.jpg" border="0" vspace="3" hspace="3"></a> <font style="font-size: 10px;"><br></font> </font></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 8px;"><br></font></td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>    
+  <script language="JavaScript">
+
+	function MM_openBrWindow(theURL,winName,features) 
+	{ 
+		window.open(theURL,winName,features);
+	}
+	
+	function checaform1()
+	{
+		var erro="";
+		if(document.form1.anofim.options[document.form1.anofim.selectedIndex].text<document.form1.anoini.options[document.form1.anoini.selectedIndex].text)
+		{
+			erro = "O ano final deve ser superior ao ano inicial.\n";
+			PrimeiroErro = "anofim";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.form1.anofim.focus();
+			return false;
+		}
+	}
+	
+</script> 
+ </body>
+</html>

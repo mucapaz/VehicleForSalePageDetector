@@ -1,0 +1,658 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <title>Comprar Veículos Seminovos no Paraná e Santa Catarina | Barigui</title> 
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"> 
+  <base href="http://www.bariguiseminovos.com.br/"> 
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.bariguiseminovos.com.br/m/veiculos/pagina/34"> 
+  <meta name="description" content="Procurando Veículos Seminovos no Paraná e Santa Catarina? O Grupo Barigui possui mais de 1200 carros usados e seminovos para você. Fale com nossos consultores."> 
+  <meta name="keywords" content="Seminovos, Carros usados, Grupo Barigui, Curitiba, Campo Largo, São José dos Pinhais, Blumenau, Joinville, Florianópolis, Itajaí, Londrina, Maringá"> 
+  <meta name="robots" content="index, follow"> 
+  <!-- TODO: favicon
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	--> 
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.history.js"></script> 
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+  <script type="text/javascript" src="js/jcarousel.responsive.js"></script> 
+  <script type="text/javascript" src="js/comum.js?v=1"></script> 
+  <script type="text/javascript" src="js/app.js?v=1"></script> 
+  <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css"> 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css?v=1"> 
+  <link rel="stylesheet" type="text/css" href="css/barigui.css?v=1"> 
+  <script type="text/javascript" src="js/chat-barigui.js"></script> 
+  <script type="text/javascript" src="js/analytics-barigui.js"></script> 
+  <script language="javascript">
+		var modrewrite = true	</script> 
+ </head> 
+ <body> 
+  <div class="b-menu"> 
+   <div class="menu"> 
+    <ul> 
+     <li><a href="http://www.bariguiseminovos.com.br/institucional" title="Institucional">INSTITUCIONAL</a></li> 
+     <li><a href="http://institutobarigui.org.br/" target="blank" title="Instituto Barigui">INSTITUTO BARIGÜI</a></li> 
+     <li><a href="https://bariguicdt.elancers.net/frames/barigui/frame_geral.asp" target="blank" title="Trabalhe conosco">TRABALHE CONOSCO</a></li> 
+     <li><a href="http://www.bariguiseminovos.com.br/contato" title="contato">CONTATO</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <form name="f-buscar" id="f-buscar" method="post"> 
+   <div class="b-topo"> 
+    <div class="topo"> 
+     <div class="logo"> 
+      <a href="./"> <img src="imagens/logo-barigui.png" alt="Barigui" title="Barigui"> </a> 
+      <!--a href="./"><img src="imagens/logo-seminovos.png" alt="Grupo Barigui" title="Grupo Barigui" /></a--> 
+     </div> 
+     <div class="campo-busca"> 
+      <input class="pesquisa" id="t-buscar" name="t-buscar" type="text" value=""> 
+      <input type="submit" name="s-buscar" value="Buscar" class="bt-azul-buscar"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="b-conteudo"> 
+    <div class="conteudo"> 
+     <div class="coluna1"> 
+      <h2>Refinar busca</h2> 
+      <h3>Região</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/regiao/curitiba-e-regiao" rel="follow"> Curitiba e Região</a> <span>(450)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/florianopolis" rel="follow"> Florianópolis</a> <span>(82)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/guarapuava" rel="follow"> Guarapuava</a> <span>(8)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/itajai-e-blumenau" rel="follow"> Itajaí e Blumenau</a> <span>(191)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/joinville" rel="follow"> Joinville</a> <span>(222)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/londrina-e-maringa" rel="follow"> Londrina e Maringá</a> <span>(93)</span> </li> 
+        <li> <a href="veiculos/pagina/34/regiao/ponta-grossa" rel="follow"> Ponta Grossa</a> <span>(9)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Marca</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/marca/fiat" rel="follow"> Fiat</a> <span>(203)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/renault" rel="follow"> Renault</a> <span>(149)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/volkswagen" rel="follow"> Volkswagen</a> <span>(123)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/chevrolet" rel="follow"> Chevrolet</a> <span>(109)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/hyundai" rel="follow"> Hyundai</a> <span>(91)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/ford" rel="follow"> Ford</a> <span>(87)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/nissan" rel="follow"> Nissan</a> <span>(70)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/toyota" rel="follow"> Toyota</a> <span>(51)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/peugeot" rel="follow"> Peugeot</a> <span>(42)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/citroen" rel="follow"> Citroen</a> <span>(34)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/kia" rel="follow"> Kia</a> <span>(16)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/bmw" rel="follow"> BMW</a> <span>(13)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/mitsubishi" rel="follow"> Mitsubishi</a> <span>(12)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/jeep" rel="follow"> Jeep</a> <span>(11)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/honda" rel="follow"> Honda</a> <span>(10)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/audi" rel="follow"> Audi</a> <span>(6)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/jac" rel="follow"> JAC</a> <span>(6)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/suzuki" rel="follow"> Suzuki</a> <span>(5)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/land-rover" rel="follow"> Land Rover</a> <span>(4)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/lifan" rel="follow"> Lifan</a> <span>(3)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/mercedes-benz" rel="follow"> Mercedes-Benz</a> <span>(3)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/mini" rel="follow"> Mini</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/volvo" rel="follow"> Volvo</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/dodge" rel="follow"> Dodge</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/kasinski" rel="follow"> Kasinski</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/troller" rel="follow"> Troller</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/chery" rel="follow"> Chery</a> <span>(1)</span> </li> 
+        <li> <a href="veiculos/pagina/34/marca/yamaha" rel="follow"> Yamaha</a> <span>(1)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Opcionais</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/opcional/ar-quente" rel="nofollow"> Ar quente</a> <span>(1009)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/direcao-hidraulica" rel="nofollow"> Direção hidráulica</a> <span>(986)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/airbag" rel="nofollow"> Air bag</a> <span>(958)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/ar-condicionado" rel="nofollow"> Ar condicionado</a> <span>(950)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/trava-eletrica" rel="nofollow"> Trava elétrica</a> <span>(923)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/vidro-eletrico" rel="nofollow"> Vidro elétrico</a> <span>(867)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/abs" rel="nofollow"> ABS</a> <span>(654)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/alarme" rel="nofollow"> Alarme</a> <span>(651)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/cd-player" rel="nofollow"> CD player</a> <span>(609)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/rodas-esportivas" rel="nofollow"> Rodas de liga leve</a> <span>(574)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/automatico" rel="nofollow"> Câmbio automático</a> <span>(359)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/banco-couro" rel="nofollow"> Bancos de couro</a> <span>(305)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/teto-solar" rel="nofollow"> Teto solar</a> <span>(69)</span> </li> 
+        <li> <a href="veiculos/pagina/34/opcional/4x4" rel="nofollow"> Tração 4x4</a> <span>(30)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Valor</h3> 
+      <div class="caixa-filtro"> 
+       <span class="filtro-valor"> <input type="text" name="valor-acima" id="valor-acima" value=""> até <input type="text" name="valor-ate" id="valor-ate" value=""> <input type="submit" value="OK"> </span> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/valor/ate-10000" rel="nofollow"> Até R$ 10.000</a> <span>(3)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/entre-10001-20000" rel="nofollow"> Entre R$ 10.001 e 20.000</a> <span>(24)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/entre-20001-30000" rel="nofollow"> Entre R$ 20.001 e 30.000</a> <span>(132)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/entre-30001-50000" rel="nofollow"> Entre R$ 30.001 e 50.000</a> <span>(508)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/entre-50001-70000" rel="nofollow"> Entre R$ 50.001 e 70.000</a> <span>(213)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/entre-70001-90000" rel="nofollow"> Entre R$ 70.001 e 90.000</a> <span>(102)</span> </li> 
+        <li> <a href="veiculos/pagina/34/valor/acima-90000" rel="nofollow"> Acima de R$ 90.000</a> <span>(73)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Ano</h3> 
+      <div class="caixa-filtro"> 
+       <span class="filtro-valor"> <input type="text" name="ano-acima" id="ano-acima" value=""> até <input type="text" name="ano-ate" id="ano-ate" value=""> <input type="submit" value="OK"> </span> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/ano/ate-1" rel="nofollow"> Até 1 ano</a> <span>(491)</span> </li> 
+        <li> <a href="veiculos/pagina/34/ano/entre-2-3" rel="nofollow"> Entre 2 e 3 anos</a> <span>(332)</span> </li> 
+        <li> <a href="veiculos/pagina/34/ano/acima-4" rel="nofollow"> Acima de 4 anos</a> <span>(232)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Cor</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/cor/branco" rel="nofollow"> Branco</a> <span>(360)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/preto" rel="nofollow"> Preto</a> <span>(242)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/prata" rel="nofollow"> Prata</a> <span>(233)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/vermelho" rel="nofollow"> Vermelho</a> <span>(93)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/cinza" rel="nofollow"> Cinza</a> <span>(78)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/azul" rel="nofollow"> Azul</a> <span>(24)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/verde" rel="nofollow"> Verde</a> <span>(10)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/marrom" rel="nofollow"> Marrom</a> <span>(6)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/laranja" rel="nofollow"> Laranja</a> <span>(3)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/bege" rel="nofollow"> Bege</a> <span>(3)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/amarelo" rel="nofollow"> Amarelo</a> <span>(2)</span> </li> 
+        <li> <a href="veiculos/pagina/34/cor/bronze" rel="nofollow"> Bronze</a> <span>(1)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Foto</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/pagina/34/foto/com" rel="nofollow"> Com foto</a> <span>(824)</span> </li> 
+        <li> <a href="veiculos/pagina/34/foto/sem" rel="nofollow"> Sem foto</a> <span>(231)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="coluna2"> 
+      <h3> Temos 1055 Veículos Seminovos no Paraná e Santa Catarina </h3> 
+      <div class="filtros"> 
+       <div id="primary_nav_wrap"> 
+        <ul> 
+         <li><a href="javascript:void(0);" class="ordenar"> Ordenar por:</a> 
+          <ul> 
+           <li><a href="veiculos/pagina/34/ordem/menor-valor" rel="nofollow">Menor valor</a></li> 
+           <li><a href="veiculos/pagina/34/ordem/maior-valor" rel="nofollow">Maior valor</a></li> 
+           <li><a href="veiculos/pagina/34/ordem/menor-ano" rel="nofollow">Menor ano</a></li> 
+           <li><a href="veiculos/pagina/34/ordem/maior-ano" rel="nofollow">Maior ano</a></li> 
+           <li><a href="veiculos/pagina/34/ordem/relevancia" rel="nofollow">Relevância</a></li> 
+          </ul> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/new-fit-lx-14-16v-at-flex-265a834" title="NEW FIT LX 1.4 16V AT FLEX" class="carro"> <img alt="NEW FIT LX 1.4 16V AT FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MDB1406-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/new-fit-lx-14-16v-at-flex-265a834" title="NEW FIT LX 1.4 16V AT FLEX">NEW FIT LX 1.4 16V AT FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 84.325</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$43.990</p> 
+        <a href="detalhe/usado/new-fit-lx-14-16v-at-flex-265a834" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/palio-essence-16-16v-dualplus-flex-265a024" title="PALIO ESSENCE 1.6 16V DUALPLUS FLEX" class="carro"> <img alt="PALIO ESSENCE 1.6 16V DUALPLUS FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MMI9936-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/palio-essence-16-16v-dualplus-flex-265a024" title="PALIO ESSENCE 1.6 16V DUALPLUS FLEX">PALIO ESSENCE 1.6 16V DUALPLUS FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 32.192</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Camboriú</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Balneário Camboriú / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$36.000</p> 
+        <a href="detalhe/usado/palio-essence-16-16v-dualplus-flex-265a024" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/hb20s-comfort-plus-16-16v-at-flex-2659990" title="HB20S COMFORT PLUS 1.6 16V AT FLEX" class="carro"> <img alt="HB20S COMFORT PLUS 1.6 16V AT FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PYH9490-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/hb20s-comfort-plus-16-16v-at-flex-2659990" title="HB20S COMFORT PLUS 1.6 16V AT FLEX">HB20S COMFORT PLUS 1.6 16V AT FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2017</li> 
+         <li>KM: 31.804</li> 
+         <li>Cor: Azul</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$53.500</p> 
+        <a href="detalhe/usado/hb20s-comfort-plus-16-16v-at-flex-2659990" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/renegade-longitude-18-16v-at6-flex-26587e8" title="RENEGADE LONGITUDE 1.8 16V AT6 FLEX" class="carro"> <img alt="RENEGADE LONGITUDE 1.8 16V AT6 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_QHZ5923-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/renegade-longitude-18-16v-at6-flex-26587e8" title="RENEGADE LONGITUDE 1.8 16V AT6 FLEX">RENEGADE LONGITUDE 1.8 16V AT6 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 65.120</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Camboriú</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Balneário Camboriú / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$70.990</p> 
+        <a href="detalhe/usado/renegade-longitude-18-16v-at6-flex-26587e8" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/punto-evo-attractive-14-8v-flex-14dc82a" title="PUNTO EVO ATTRACTIVE 1.4 8V FLEX" class="carro"> <img alt="PUNTO EVO ATTRACTIVE 1.4 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AYV4187-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/punto-evo-attractive-14-8v-flex-14dc82a" title="PUNTO EVO ATTRACTIVE 1.4 8V FLEX">PUNTO EVO ATTRACTIVE 1.4 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 33.077</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Portão</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$39.900</p> 
+        <a href="detalhe/usado/punto-evo-attractive-14-8v-flex-14dc82a" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/fox-g2-16-8v-flex-2659b7a" title="FOX  G2 1.6 8V FLEX" class="carro"> <img alt="FOX  G2 1.6 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AXL0442-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/fox-g2-16-8v-flex-2659b7a" title="FOX  G2 1.6 8V FLEX">FOX G2 1.6 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 42.808</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$32.500</p> 
+        <a href="detalhe/usado/fox-g2-16-8v-flex-2659b7a" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/logan-authentique-nserie-10-16v-hipower-flex-14da7e2" title="LOGAN AUTHENTIQUE NOVA SÉRIE 1.0 16V HIPOWER FLEX" class="carro"> <img alt="LOGAN AUTHENTIQUE NOVA SÉRIE 1.0 16V HIPOWER FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PXR3873-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/logan-authentique-nserie-10-16v-hipower-flex-14da7e2" title="LOGAN AUTHENTIQUE NOVA SÉRIE 1.0 16V HIPOWER FLEX">LOGAN AUTHENTIQUE NOVA SÉRIE 1.0 16V HIPOWER FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 35.094</li> 
+         <li>Cor: Vermelho</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Bari Seminovos</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$35.900</p> 
+        <a href="detalhe/usado/logan-authentique-nserie-10-16v-hipower-flex-14da7e2" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/voyage-g5-10-8v-flex-14df906" title="VOYAGE G5 1.0 8V FLEX" class="carro"> <img alt="VOYAGE G5 1.0 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AUX6126-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/voyage-g5-10-8v-flex-14df906" title="VOYAGE G5 1.0 8V FLEX">VOYAGE G5 1.0 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2012</li> 
+         <li>KM: 34.513</li> 
+         <li>Cor: Vermelho</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Toyota Barigui Seminovos Torres</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$28.500</p> 
+        <a href="detalhe/usado/voyage-g5-10-8v-flex-14df906" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/megane-scenic-privilege-16-16v-hiflex-14dbbbc" title="MEGANE SCENIC PRIVILEGE 1.6 16V HIFLEX" class="carro"> <img alt="MEGANE SCENIC PRIVILEGE 1.6 16V HIFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MGE8275-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/megane-scenic-privilege-16-16v-hiflex-14dbbbc" title="MEGANE SCENIC PRIVILEGE 1.6 16V HIFLEX">MEGANE SCENIC PRIVILEGE 1.6 16V HIFLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2010</li> 
+         <li>KM: 92.300</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Vox Matriz</p> 
+         <p>Florianópolis</p> 
+         <p>São José / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$27.370</p> 
+        <a href="detalhe/usado/megane-scenic-privilege-16-16v-hiflex-14dbbbc" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/bravo-sporting-18-16v-dualplus-flex-14d9c66" title="BRAVO SPORTING 1.8 16V DUALPLUS FLEX" class="carro"> <img alt="BRAVO SPORTING 1.8 16V DUALPLUS FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_QHM2934-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/bravo-sporting-18-16v-dualplus-flex-14d9c66" title="BRAVO SPORTING 1.8 16V DUALPLUS FLEX">BRAVO SPORTING 1.8 16V DUALPLUS FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 65.230</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Nix Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$59.900</p> 
+        <a href="detalhe/usado/bravo-sporting-18-16v-dualplus-flex-14d9c66" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/gol-city-g4-16-8v-flex-2659a44" title="GOL CITY G4 1.6 8V FLEX" class="carro"> <img alt="GOL CITY G4 1.6 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MFW8204-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/gol-city-g4-16-8v-flex-2659a44" title="GOL CITY G4 1.6 8V FLEX">GOL CITY G4 1.6 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2009</li> 
+         <li>KM: 46.450</li> 
+         <li>Cor: Vermelho</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$21.900</p> 
+        <a href="detalhe/usado/gol-city-g4-16-8v-flex-2659a44" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/logan-expression-nserie-16-8v-hipower-flex-14cf9ba" title="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V HIPOWER FLEX" class="carro"> <img alt="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V HIPOWER FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PYC4690-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/logan-expression-nserie-16-8v-hipower-flex-14cf9ba" title="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V HIPOWER FLEX">LOGAN EXPRESSION NOVA SÉRIE 1.6 8V HIPOWER FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2017</li> 
+         <li>KM: 28.946</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Bari Seminovos</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$45.900</p> 
+        <a href="detalhe/usado/logan-expression-nserie-16-8v-hipower-flex-14cf9ba" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/cross-up!-10-12v-imotion-flex-149c66e" title="CROSS UP! 1.0 12V IMOTION FLEX" class="carro"> <img alt="CROSS UP! 1.0 12V IMOTION FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_QHF4391-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/cross-up!-10-12v-imotion-flex-149c66e" title="CROSS UP! 1.0 12V IMOTION FLEX">CROSS UP! 1.0 12V IMOTION FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 48.401</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Vox Joinville</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$45.000</p> 
+        <a href="detalhe/usado/cross-up!-10-12v-imotion-flex-149c66e" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/sandero-stepway-ngeracao-16-8v-hipower-flex-14d65b8" title="SANDERO STEPWAY NOVA GERAÇÃO 1.6 8V HIPOWER FLEX" class="carro"> <img alt="SANDERO STEPWAY NOVA GERAÇÃO 1.6 8V HIPOWER FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PXY5360-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/sandero-stepway-ngeracao-16-8v-hipower-flex-14d65b8" title="SANDERO STEPWAY NOVA GERAÇÃO 1.6 8V HIPOWER FLEX">SANDERO STEPWAY NOVA GERAÇÃO 1.6 8V HIPOWER FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 32.675</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Nix Joinville</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$49.000</p> 
+        <a href="detalhe/usado/sandero-stepway-ngeracao-16-8v-hipower-flex-14d65b8" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/mobi-easy-10-flex-75hp-2657944" title="MOBI EASY 1.0 FLEX 75HP" class="carro"> <img alt="MOBI EASY 1.0 FLEX 75HP" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BBN9705-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/mobi-easy-10-flex-75hp-2657944" title="MOBI EASY 1.0 FLEX 75HP">MOBI EASY 1.0 FLEX 75HP</a></h2> 
+        <ul> 
+         <li>Ano: 2018</li> 
+         <li>KM: 110</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Torres</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$30.500</p> 
+        <a href="detalhe/usado/mobi-easy-10-flex-75hp-2657944" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/308-allure-16-16v-flex-2655fcc" title="308 ALLURE 1.6 16V FLEX" class="carro"> <img alt="308 ALLURE 1.6 16V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_LSL7570-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/308-allure-16-16v-flex-2655fcc" title="308 ALLURE 1.6 16V FLEX">308 ALLURE 1.6 16V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 31.516</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$55.000</p> 
+        <a href="detalhe/usado/308-allure-16-16v-flex-2655fcc" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/spacefox-trend-g2-16-8v-flex-146a780" title="SPACEFOX TREND G2 1.6 8V FLEX" class="carro"> <img alt="SPACEFOX TREND G2 1.6 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MLB5836-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/spacefox-trend-g2-16-8v-flex-146a780" title="SPACEFOX TREND G2 1.6 8V FLEX">SPACEFOX TREND G2 1.6 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 81.050</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Bari Seminovos</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$34.900</p> 
+        <a href="detalhe/usado/spacefox-trend-g2-16-8v-flex-146a780" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/s10-blazer-advantage-4x2-24-8v-flexpower-14db820" title="S-10 BLAZER ADVANTAGE 4X2 2.4 8V FLEXPOWER" class="carro"> <img alt="S-10 BLAZER ADVANTAGE 4X2 2.4 8V FLEXPOWER" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_NTO6960-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/s10-blazer-advantage-4x2-24-8v-flexpower-14db820" title="S-10 BLAZER ADVANTAGE 4X2 2.4 8V FLEXPOWER">S-10 BLAZER ADVANTAGE 4X2 2.4 8V FLEXPOWER</a></h2> 
+        <ul> 
+         <li>Ano: 2011</li> 
+         <li>KM: 73.551</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Colombo</p> 
+         <p>Curitiba e Região</p> 
+         <p>Colombo / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$30.500</p> 
+        <a href="detalhe/usado/s10-blazer-advantage-4x2-24-8v-flexpower-14db820" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/mobi-way-10-8v-flex-2637fce" title="MOBI WAY 1.0 8V FLEX" class="carro"> <img alt="MOBI WAY 1.0 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BAX6601-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/mobi-way-10-8v-flex-2637fce" title="MOBI WAY 1.0 8V FLEX">MOBI WAY 1.0 8V FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2017</li> 
+         <li>KM: 110</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$36.500</p> 
+        <a href="detalhe/usado/mobi-way-10-8v-flex-2637fce" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/f-800-gs-premium-14de208" title="F 800 GS PREMIUM" class="carro"> <img alt="F 800 GS PREMIUM" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_EUR0747-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/f-800-gs-premium-14de208" title="F 800 GS PREMIUM">F 800 GS PREMIUM</a></h2> 
+        <ul> 
+         <li>Ano: 2013</li> 
+         <li>KM: 57.038</li> 
+         <li>Cor: Marrom</li> 
+         <li>Gasolina</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Vox Matriz</p> 
+         <p>Florianópolis</p> 
+         <p>São José / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$32.310</p> 
+        <a href="detalhe/usado/f-800-gs-premium-14de208" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="quebra"></div> 
+      <ul class="paginacao"> 
+       <li> <a href="veiculos/pagina/33"> Anterior </a> </li> 
+       <li> <a class="" href="veiculos/"> 1 </a> </li> 
+       <li> ... <a class="" href="veiculos/pagina/31"> 31 </a> </li> 
+       <li> <a class="" href="veiculos/pagina/32"> 32 </a> </li> 
+       <li> <a class="" href="veiculos/pagina/33"> 33 </a> </li> 
+       <li> <a class="selecionado" href="veiculos/pagina/34"> 34 </a> </li> 
+       <li> <a class="" href="veiculos/pagina/35"> 35 </a> </li> 
+       <li> <a class="" href="veiculos/pagina/36"> 36 </a> </li> 
+       <li> <a class="" href="veiculos/pagina/37"> 37 </a> </li> 
+       <li> ... <a class="" href="veiculos/pagina/53"> 53 </a> </li> 
+       <li> <a href="veiculos/pagina/35"> Próxima </a> </li> 
+      </ul> 
+     </div> 
+     <div class="quebra"></div> 
+    </div> 
+   </div> 
+  </form>   
+ </body>
+</html>

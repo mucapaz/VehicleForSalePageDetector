@@ -1,0 +1,580 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-type" content="text/html; charset=iso-8859-1"> 
+  <title>Lançamentos de carros no Brasil - Novidades 2017 / 2018 / 2019</title> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <link href="css/home.css" type="text/css" rel="StyleSheet"> 
+  <script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'pt-BR'}
+</script> 
+ </head>
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5">
+  <div id="fb-root"></div> 
+  <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script> 
+  <script type="text/javascript">
+window.___gcfg = {lang: 'pt-br'};
+(function() 
+{var po = document.createElement("script");
+po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+var s = document.getElementsByTagName("script")[0];
+s.parentNode.insertBefore(po, s);
+})();</script>   
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (é como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para não repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+   <tbody>
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br> 
+      <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+       <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+       <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+      </form> </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+    <tr> 
+     <td bgcolor="darkkhaki" colspan="4" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="default.asp"><font color="white">Página Principal</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="classificados.asp"><font color="white">Classificados</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="noticiaslista.asp"><font color="white">Notícias</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="analiseindice.asp"><font color="white">Avaliação</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="catalogo.asp"><font color="white">Catálogo</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="opiniao.asp"><font color="white">Opinião do Dono</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="concessionarias.asp"><font color="white">Concessionárias</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="ranking.asp"><font color="white">Rankings</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="seguro.asp"><font color="white">Seguro</font></a><font color="white">&nbsp;&nbsp;|&nbsp; <a href="faleconosco.asp"><font color="white">Fale Conosco</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+    <tr> 
+     <td align="center" height="150" colspan="4" bgcolor="White"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-banner-topo --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="7829382852"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+     <td> </td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table border="0" cellpadding="10" cellspacing="0" width="980" align="center"> 
+   <tbody>
+    <tr> 
+     <td colspan="1" align="left" bgcolor="#ffffff" valign="top"> 
+      <table width="100%" border="0"> 
+       <tbody>
+        <tr> 
+         <td> 
+          <div style="float:left; padding:0px;"> 
+           <font style="font-size: 20px; font-family:arial; color:darkred;">Próximos Lançamentos</font> &nbsp;&nbsp; 
+           <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="noticiaslista.asp">Últimos lançamentos</a> </font>
+          </div><font style="font-size: 13px; font-family:arial; color:#000000;"> 
+           <!--<div style="float:right; padding:5px;">
+<g:plusone size="small" count="false"></g:plusone>
+</div>--> 
+           <div style="float:right; padding:5px;"> 
+            <font size="2" color="gray">&nbsp;Compartilhe: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/proxlancamentos.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta página"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Proximos%20lancamentos%20de%20carros%20no%20Brasil%20http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> </font>
+           </div><font size="2" color="gray"> <br><br><br> <font style="font-size: 13px; font-family:arial; color:#000000;"> Conheça os futuros principais lançamentos do mercado brasileiro <br><br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Volkswagen-Virtus.jpg" align="middle" vspace="5&quot;" title="Volkswagen Virtus"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Volkswagen Virtus</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>1º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 80.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrente </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=238">Honda City</a> e <a href="analise.asp?codigo=282">Kia Cerato</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\ford-fiesta-2018.jpg" align="middle" vspace="5&quot;" title="Ford Fiesta reestilizado"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Ford Fiesta reestilizado</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>1º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 60.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=8">Volkswagen Fox</a> e <a href="analise.asp?codigo=831">Peugeot 208</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Chevrolet-Equinox-2018.jpg" align="middle" vspace="5&quot;" title="Chevrolet Equinox"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Chevrolet Equinox</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2º semestre 2017</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 150.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=707">Jeep Compass</a> e <a href="analise.asp?codigo=293">Kia Sportage</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\novo-tiguan.jpeg" align="middle" vspace="5&quot;" title="Novo Tiguan"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Novo Volkswagen Tiguan</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>1º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 170.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=229">Hyundai Santa Fe</a> e <a href="analise.asp?codigo=157">Mitsubishi Outlander</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\toyota-yaris.jpg" align="middle" vspace="5&quot;" title="Toyota Yaris"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Toyota Yaris</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 75.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=20">Volkswagen Polo</a> e <a href="analise.asp?codigo=1264">Fiat Argo</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\toyota-vios.jpg" align="middle" vspace="5&quot;" title="Toyota Vios"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Toyota Vios</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 85.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=20">Volkswagen Virtus</a> e <a href="analise.asp?codigo=238">Honda City</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Mustang-V6-2017-1.jpg" align="middle" vspace="5&quot;" title="Ford Mustang"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Ford Mustang</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>1º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 250.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=96">Chevrolet Camaro</a> e <a href="analise.asp?codigo=800">Dodge Challenger</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Tiggo-2-20.jpg" align="middle" vspace="5&quot;" title="Chery Tiggo 2"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Chery Tiggo 2</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>1º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 60.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=854">Lifan X60</a> e <a href="analise.asp?codigo=1138">JAC T5</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\duster-2019.jpg" align="middle" vspace="5&quot;" title="Novo Renault Duster"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Novo Renault Duster</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 75.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=60">Ford Ecosport</a> e <a href="analise.asp?codigo=1244">Hyundai Creta</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\T-Cross.jpg" align="middle" vspace="5&quot;" title="Volkswagen T-Cross"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Volkswagen T-Cross</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2º semestre 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 90.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=1058">Jeep Renegade</a> e <a href="analise.asp?codigo=1244">Hyundai Creta</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Tharu.jpg" align="middle" vspace="5&quot;" title="Volkswagen Tharu"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Volkswagen Tharu</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2020</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 140.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=707">Jeep Compass</a> e <a href="analise.asp?codigo=228">Hyundai ix35</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Renault-Koleos.jpg" align="middle" vspace="5&quot;" title="Renault Koleos"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Renault Koleos</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 160.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=229">Hyundai Santa Fe</a> e <a href="analise.asp?codigo=61">Ford Edge</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\eclipse.jpg" align="middle" vspace="5&quot;" title="Mitsubishi Eclipse"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Mitsubishi Eclipse</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 140.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=792">Peugeot 3008</a> e <a href="analise.asp?codigo=707">Jeep Compass</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\volvo-xc40.jpg" align="middle" vspace="5&quot;" title="Volvo XC40"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Volvo XC40</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>Março 2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 180.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=726">Audi Q3</a> e <a href="analise.asp?codigo=393">BMW X1</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Renault-Alaskan.jpg" align="middle" vspace="5&quot;" title="Renault Alaskan"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Renault Alaskan</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2018</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 140.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=118">Chevrolet S10</a> e <a href="analise.asp?codigo=79">Ford Ranger</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> 
+             <table width="100%" cellpadding="5"> 
+              <tbody>
+               <tr bgcolor="PaleGoldenrod"> 
+                <td rowspan="4" align="center"> <img src="imgProxLancamentos007\thumb\Mercedes-GLT.jpg" align="middle" vspace="5&quot;" title="Mercedes-Benz Classe X"> </td> 
+                <td width="110"> <font style="font-size: 13px; font-family:arial; color:#000000;"> Carro </font></td> 
+                <td width="260"> <font style="font-size: 15px; font-family:arial; color:darkred;"> <b>Mercedes-Benz Classe X</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Previsão </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <b>2019</b> </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Preço estimado </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> R$ 250.000 </font></td> 
+               </tr> 
+               <tr bgcolor="PaleGoldenrod"> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> Concorrentes </font></td> 
+                <td> <font style="font-size: 13px; font-family:arial; color:#000000;"> <a href="analise.asp?codigo=182">Toyota Hilux</a> e <a href="analise.asp?codigo=79">Ford Ranger</a> </font></td> 
+               </tr> 
+              </tbody>
+             </table> <br> </font></font></font></td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <center> 
+       <font style="font-size: 13px; font-family:arial; color:#000000;"> Confira os <a href="noticiaslista.asp"><u>últimos lançamentos de carros</u></a> no mercado brasileiro <br><br> <font size="2" color="gray">&nbsp;Indique esta página para seus amigos: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/proxlancamentos.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Envie esta mensagem"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Proximos%20lancamentos%20de%20carros%20no%20Brasil%20http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/proxlancamentos.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> <br><br><br> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+         <!-- Variedades-quadrado-conteudo --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="3259582453"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <br><br> </font></font>
+      </center></td> 
+     <td bgcolor="efefef" width="310" valign="top" align="center"> <font style="font-size: 5px;"><br><br></font> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-quadrado-lateral --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="9166515259"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <font style="font-size: 12px;"><br><br></font> 
+      <table cellspacing="0" cellpadding="0" border="0" width="300" align="center"> 
+       <tbody>
+        <tr> 
+         <td bgcolor="white" align="left" valign="middle" colspan="3" height="88"> <font style="font-size: 3px;"><br><br></font> <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" target="_blank"><img src="imgsite\tabelafipe2.gif" align="left" border="0" title="Avalie seu carro - consulte o valor através da tabela FIPE" hspace="7"> <font style="font-size: 14px;"><font face="arial" color="#CB2626"><b>Tabela Fipe</b><br> <font style="font-size: 14px;"><font face="arial" color="black">Confira o preço do carro que você quer comprar ou vender</font></font></font></font></a><font style="font-size: 14px;"><font face="arial" color="#CB2626"><font style="font-size: 14px;"><font face="arial" color="black"> <font style="font-size: 8px;"><br><br></font> </font></font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 7px;"><br></font> </td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="dicascompravenda.asp"><img src="http://www.carrosnaweb.com.br/imgsite/lupa.jpg" align="left" border="0" title="Veja o que saber antes de comprar um carro" hspace="7"></a> <font style="font-size: 14px;"><a href="dicascompravenda.asp" title="Veja o que saber antes de comprar um carro"><font face="arial" color="#CB2626"><b>Antes de comprar</b><br> <font color="black">Conheça dicas e macetes para adquirir um veículo e saiba como verificar sua procedência</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 7px;"><br></font></td> 
+        </tr> 
+        <tr height="88"> 
+         <td colspan="3" bgcolor="white"> <a href="carrosmaisvendidos.asp"><img src="http://www.carrosnaweb.com.br/imgsite/ranking.jpg" align="left" border="0" title="Carros mais vendidos no Brasil" hspace="7"></a> <font style="font-size: 14px;"><a href="carrosmaisvendidos.asp" title="Carros mais vendidos no Brasil"><font face="arial" color="#CB2626"><b>Carros mais vendidos</b><br> <font color="black">Confira gráficos com os carros mais vendidos separados por categorias</font></font></a><font face="arial" color="#CB2626"><font color="black"> </font></font></font></td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 5px;"><br></font> </td>
+        </tr> 
+        <tr> 
+         <td> <font style="font-size: 8px;"><br><br></font> 
+          <table border="0" align="center" cellpadding="8" cellspacing="0" width="300"> 
+           <tbody>
+            <tr> 
+             <td bgcolor="DarkRed" align="center"> <font style="font-size: 14px; font-family: arial" color="#ffffff">COMPARATIVO DO DIA </font></td> 
+            </tr> 
+            <tr> 
+             <td align="center" colspan="1" bgcolor="PaleGoldenrod"> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Compare Ford Edge vs. Chevrolet Equinox"><font style="font-size: 15px; font-family: arial" color="black">Ford Edge vs. Chevrolet Equinox</font></a><font style="font-size: 15px; font-family: arial" color="black"> <font style="font-size: 5px;"><br><br></font> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Ford Edge Titanium 3.5 V6 AWD 2016"><img src="imagensbd007\thumb\edge-2016-1.jpg" border="0" vspace="3" hspace="3"></a> <a href="resultcompara.asp?modelos=6246-8238&amp;cont=0" title="Chevrolet Equinox Premier 2.0 Turbo 2018"><img src="imagensbd007\thumb\equinox-2018-1.jpg" border="0" vspace="3" hspace="3"></a> <font style="font-size: 10px;"><br></font> </font></td> 
+            </tr> 
+           </tbody>
+          </table> </td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 8px;"><br><br></font></td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="fb-like-box" data-href="http://www.facebook.com/pages/Carrosnaweb/190935330958164" data-width="300" data-show-faces="true" data-stream="false" data-header="true"></div> </td> 
+        </tr> 
+        <tr> 
+         <td><font style="font-size: 12px;"><br></font></td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="g-plus" data-href="https://plus.google.com/108326569338500237286?rel=publisher" data-width="300" data-height="131" data-theme="light"></div> </td> 
+        </tr> 
+       </tbody>
+      </table> <font style="font-size: 8px;"><br><br></font> 
+      <table border="0" align="center" cellpadding="7" cellspacing="0" width="290"> 
+       <tbody>
+        <tr> 
+         <td colspan="2" bgcolor="DarkRed" align="center"> <font style="font-size: 14px; font-family: arial" color="#ffffff">ÚLTIMAS NOTÍCIAS </font></td> 
+        </tr> 
+        <tr> 
+         <td align="left" valign="center" bgcolor="#ffffff"> <a href="noticias.asp?codnoticia=1733" title="JAC lança V260, comercial leve para o segmento de VUCs"> <img src="imgNoticias007\thumb100\v260-2018-1.jpg" border="0" vspace="0" hspace="8" align="left"> <font style="font-size: 15px; font-family: arial" color="black"><b> JAC lança V260, comercial leve para o segmento de VUCs</b></font></a><font style="font-size: 15px; font-family: arial" color="black"> </font></td> 
+        </tr> 
+        <tr> 
+         <td align="left" valign="center" bgcolor="#ffffff"> <a href="noticias.asp?codnoticia=1732" title="Suzuki Jimny 2018 recebe novidades e parte de R$ 67.490"> <img src="imgNoticias007\thumb100\Jimny-2018-20.jpg" border="0" vspace="0" hspace="8" align="left"> <font style="font-size: 15px; font-family: arial" color="black"><b> Suzuki Jimny 2018 recebe novidades e parte de R$ 67.490</b></font></a><font style="font-size: 15px; font-family: arial" color="black"> </font></td> 
+        </tr> 
+        <tr> 
+         <td align="left" valign="center" bgcolor="#ffffff"> <a href="noticias.asp?codnoticia=1731" title="Jaguar F-Pace 2018 ganha opção de motor 2.0 à gasolina"> <img src="imgNoticias007\thumb100\F-PACE-2018-20.jpg" border="0" vspace="0" hspace="8" align="left"> <font style="font-size: 15px; font-family: arial" color="black"><b> Jaguar F-Pace 2018 ganha opção de motor 2.0 à gasolina</b></font></a><font style="font-size: 15px; font-family: arial" color="black"> </font></td> 
+        </tr> 
+        <!--<tr>
+<td align="center" bgcolor="#f7efde" height="1">
+</td>
+</tr>--> 
+       </tbody>
+      </table> <font style="font-size: 8px;"><br><br></font> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+      <!-- Variedades-quadrado-lateral --> <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="9166515259"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="Página principal do site Carros na Web"><font color="white">Página Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Histórico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Política de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>   
+  <script language="JavaScript">
+	function MM_openBrWindow(theURL,winName,features) 
+	{ 
+		window.open(theURL,winName,features);
+	}
+</script> 
+ </body>
+</html>

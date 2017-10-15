@@ -1,0 +1,1841 @@
+<html dir="ltr" lang="pt-BR">
+ <head></head>
+ <body class="archive paged tax-product_cat term-carro term-85 custom-background paged-60 woocommerce woocommerce-page right-sidebar woocommerce-active">
+  3 
+  <!--[if IE 6]>
+<html id="ie6" dir="ltr" lang="pt-BR">
+<![endif]--> 
+  <!--[if IE 7]>
+<html id="ie7" dir="ltr" lang="pt-BR">
+<![endif]--> 
+  <!--[if IE 8]>
+<html id="ie8" dir="ltr" lang="pt-BR">
+<![endif]--> 
+  <!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->  
+  <!--<![endif]--> 
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script> 
+  <meta charset"utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="icon" type="image/png" href="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/favicon.ico"> 
+  <title>Carro - Página 60 de 69 - WebClassicos</title> 
+  <!-- This site is optimized with the Yoast SEO plugin v4.7.1 - https://yoast.com/wordpress/plugins/seo/ --> 
+  <link rel="canonical" href="https://www.webclassicos.com.br/categoria-produto/carro/page/60/"> 
+  <link rel="prev" href="https://www.webclassicos.com.br/categoria-produto/carro/page/59/"> 
+  <link rel="next" href="https://www.webclassicos.com.br/categoria-produto/carro/page/61/"> 
+  <meta property="og:locale" content="pt_BR"> 
+  <meta property="og:type" content="object"> 
+  <meta property="og:title" content="Carro - Página 60 de 69 - WebClassicos"> 
+  <meta property="og:url" content="https://www.webclassicos.com.br/categoria-produto/carro/page/60/"> 
+  <meta property="og:site_name" content="WebClassicos"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:title" content="Carro - Página 60 de 69 - WebClassicos"> 
+  <!-- / Yoast SEO plugin. --> 
+  <link rel="dns-prefetch" href="//www.webclassicos.com.br"> 
+  <link rel="dns-prefetch" href="//fonts.googleapis.com"> 
+  <link rel="dns-prefetch" href="//s.w.org"> 
+  <link rel="alternate" type="application/rss+xml" title="Feed para WebClassicos »" href="https://www.webclassicos.com.br/feed/"> 
+  <link rel="alternate" type="application/rss+xml" title="Feed para WebClassicos » Carro Categoria" href="https://www.webclassicos.com.br/categoria-produto/carro/feed/"> 
+  <!-- <link rel='stylesheet' id='wsl-widget-css'  href='https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/css/style.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='storefront-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/storefront/style.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/9ac7f8aac98ccef98d421659b90c0cb4/1506639439index.css" media="all"> 
+  <style id="storefront-style-inline-css" type="text/css">
+.main-navigation ul li a,
+.site-title a,
+ul.menu li a,
+.site-branding h1 a,
+.site-footer .storefront-handheld-footer-bar a:not(.button),
+button.menu-toggle,
+button.menu-toggle:hover {
+color: #d5d9db;
+}
+button.menu-toggle,
+button.menu-toggle:hover {
+border-color: #d5d9db;
+}
+.main-navigation ul li a:hover,
+.main-navigation ul li:hover > a,
+.site-title a:hover,
+a.cart-contents:hover,
+.site-header-cart .widget_shopping_cart a:hover,
+.site-header-cart:hover > li > a,
+.site-header ul.menu li.current-menu-item > a {
+color: #ffffff;
+}
+table th {
+background-color: #f8f8f8;
+}
+table tbody td {
+background-color: #fdfdfd;
+}
+table tbody tr:nth-child(2n) td {
+background-color: #fbfbfb;
+}
+.site-header,
+.secondary-navigation ul ul,
+.main-navigation ul.menu > li.menu-item-has-children:after,
+.secondary-navigation ul.menu ul,
+.storefront-handheld-footer-bar,
+.storefront-handheld-footer-bar ul li > a,
+.storefront-handheld-footer-bar ul li.search .site-search,
+button.menu-toggle,
+button.menu-toggle:hover {
+background-color: #2c2d33;
+}
+p.site-description,
+.site-header,
+.storefront-handheld-footer-bar {
+color: #9aa0a7;
+}
+.storefront-handheld-footer-bar ul li.cart .count,
+button.menu-toggle:after,
+button.menu-toggle:before,
+button.menu-toggle span:before {
+background-color: #d5d9db;
+}
+.storefront-handheld-footer-bar ul li.cart .count {
+color: #2c2d33;
+}
+.storefront-handheld-footer-bar ul li.cart .count {
+border-color: #2c2d33;
+}
+h1, h2, h3, h4, h5, h6 {
+color: #484c51;
+}
+.widget h1 {
+border-bottom-color: #484c51;
+}
+body,
+.secondary-navigation a,
+.onsale,
+.pagination .page-numbers li .page-numbers:not(.current), .woocommerce-pagination .page-numbers li .page-numbers:not(.current) {
+color: #43454b;
+}
+.widget-area .widget a,
+.hentry .entry-header .posted-on a,
+.hentry .entry-header .byline a {
+color: #75777d;
+}
+a  {
+color: #96588a;
+}
+a:focus,
+.button:focus,
+.button.alt:focus,
+.button.added_to_cart:focus,
+.button.wc-forward:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+outline-color: #96588a;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+background-color: #96588a;
+border-color: #96588a;
+color: #ffffff;
+}
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+background-color: #7d3f71;
+border-color: #7d3f71;
+color: #ffffff;
+}
+button.alt, input[type="button"].alt, input[type="reset"].alt, input[type="submit"].alt, .button.alt, .added_to_cart.alt, .widget-area .widget a.button.alt, .added_to_cart, .pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current, .widget a.button.checkout {
+background-color: #2c2d33;
+border-color: #2c2d33;
+color: #ffffff;
+}
+button.alt:hover, input[type="button"].alt:hover, input[type="reset"].alt:hover, input[type="submit"].alt:hover, .button.alt:hover, .added_to_cart.alt:hover, .widget-area .widget a.button.alt:hover, .added_to_cart:hover, .widget a.button.checkout:hover {
+background-color: #13141a;
+border-color: #13141a;
+color: #ffffff;
+}
+#comments .comment-list .comment-content .comment-text {
+background-color: #f8f8f8;
+}
+.site-footer {
+background-color: #f0f0f0;
+color: #61656b;
+}
+.site-footer a:not(.button) {
+color: #2c2d33;
+}
+.site-footer h1, .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5, .site-footer h6 {
+color: #494c50;
+}
+#order_review,
+#payment .payment_methods > li .payment_box {
+background-color: #ffffff;
+}
+#payment .payment_methods > li {
+background-color: #fafafa;
+}
+#payment .payment_methods > li:hover {
+background-color: #f5f5f5;
+}
+@media screen and ( min-width: 768px ) {
+.secondary-navigation ul.menu a:hover {
+color: #b3b9c0;
+}
+.secondary-navigation ul.menu a {
+color: #9aa0a7;
+}
+.site-header-cart .widget_shopping_cart,
+.main-navigation ul.menu ul.sub-menu,
+.main-navigation ul.nav-menu ul.children {
+background-color: #24252b;
+}
+}
+</style> 
+  <!-- <link rel='stylesheet' id='wordpress-popular-posts-css'  href='https://www.webclassicos.com.br/wp-content/plugins/wordpress-popular-posts/style/wpp.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='storefront-woocommerce-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/storefront/assets/sass/woocommerce/woocommerce.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/11f90484e1f461daf39c5a3e923e48c5/1506639428index.css" media="all"> 
+  <style id="storefront-woocommerce-style-inline-css" type="text/css">
+a.cart-contents,
+.site-header-cart .widget_shopping_cart a {
+color: #d5d9db;
+}
+table.cart td.product-remove,
+table.cart td.actions {
+border-top-color: #ffffff;
+}
+.woocommerce-tabs ul.tabs li.active a,
+ul.products li.product .price,
+.onsale,
+.widget_search form:before,
+.widget_product_search form:before {
+color: #43454b;
+}
+.woocommerce-breadcrumb a,
+a.woocommerce-review-link,
+.product_meta a {
+color: #75777d;
+}
+.onsale {
+border-color: #43454b;
+}
+.star-rating span:before,
+.quantity .plus, .quantity .minus,
+p.stars a:hover:after,
+p.stars a:after,
+.star-rating span:before,
+#payment .payment_methods li input[type=radio]:first-child:checked+label:before {
+color: #96588a;
+}
+.widget_price_filter .ui-slider .ui-slider-range,
+.widget_price_filter .ui-slider .ui-slider-handle {
+background-color: #96588a;
+}
+.woocommerce-breadcrumb,
+#reviews .commentlist li .comment_container {
+background-color: #f8f8f8;
+}
+.order_details {
+background-color: #f8f8f8;
+}
+.order_details > li {
+border-bottom: 1px dotted #e3e3e3;
+}
+.order_details:before,
+.order_details:after {
+background: -webkit-linear-gradient(transparent 0,transparent 0),-webkit-linear-gradient(135deg,#f8f8f8 33.33%,transparent 33.33%),-webkit-linear-gradient(45deg,#f8f8f8 33.33%,transparent 33.33%)
+}
+p.stars a:before,
+p.stars a:hover~a:before,
+p.stars.selected a.active~a:before {
+color: #43454b;
+}
+p.stars.selected a.active:before,
+p.stars:hover a:before,
+p.stars.selected a:not(.active):before,
+p.stars.selected a.active:before {
+color: #96588a;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger {
+background-color: #96588a;
+color: #ffffff;
+}
+.single-product div.product .woocommerce-product-gallery .woocommerce-product-gallery__trigger:hover {
+background-color: #7d3f71;
+border-color: #7d3f71;
+color: #ffffff;
+}
+@media screen and ( min-width: 768px ) {
+.site-header-cart .widget_shopping_cart,
+.site-header .product_list_widget li .quantity {
+color: #9aa0a7;
+}
+}
+</style> 
+  <!-- <link rel='stylesheet' id='storefront-child-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/style.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='owl-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/owl.carousel.min.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='component-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/component.css' type='text/css' media='all' /> --> 
+  <!-- <link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='https://www.webclassicos.com.br/wp-content/plugins/add-to-any/addtoany.min.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/67e31162316ebe8402858f9bd70a9b4f/1506639428index.css" media="all"> 
+  <script type="text/javascript">ajaxurl='https://www.webclassicos.com.br/wp-admin/admin-ajax.php';pf_nonce='6481e4892c';</script>
+  <script src="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/84ebdf6bc28caf207010fa90fae1fdf3/1506639428index.js" type="text/javascript"></script> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-includes/js/jquery/jquery.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-includes/js/jquery/jquery-migrate.min.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/plugins/add-to-any/addtoany.min.js'></script> --> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/bootstrap.min.js'></script> --> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var WpDisableAsyncLinks = {"wp-disable-google-fonts":"https:\/\/fonts.googleapis.com\/css?family=Source+Sans+Pro:400,300,300italic,400italic,700,900|Titillium+Web:300,300i,400,600,700&subset=latin,latin-ext"};
+/* ]]> */
+</script> 
+  <script src="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/bbd85735c8b40d373227f5a968bb4d8a/1506639428index.js" type="text/javascript"></script> 
+  <!-- <script type='text/javascript' src='https://www.webclassicos.com.br/wp-content/plugins/wp-disable/js/css-lazy-load.js'></script> --> 
+  <link rel="https://api.w.org/" href="https://www.webclassicos.com.br/wp-json/"> 
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.webclassicos.com.br/xmlrpc.php?rsd"> 
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.webclassicos.com.br/wp-includes/wlwmanifest.xml"> 
+  <meta name="generator" content="WordPress 4.7.6"> 
+  <meta name="generator" content="WooCommerce 3.0.9"> 
+  <script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};a2a_localize = {
+Share: "Compartilhar",
+Save: "Salvar",
+Subscribe: "Inscrever",
+Email: "Email",
+Bookmark: "Favoritos",
+ShowAll: "Mostrar tudo",
+ShowLess: "Mostrar menos",
+FindServices: "Procurar serviço(s)",
+FindAnyServiceToAddTo: "Encontrar rapidamente qualquer serviço para",
+PoweredBy: "Serviço fornecido por",
+ShareViaEmail: "Share via email",
+SubscribeViaEmail: "Subscribe via email",
+BookmarkInYourBrowser: "Adicionar aos favoritos",
+BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+AddToYourFavorites: "Adicionar a favoritos",
+SendFromWebOrProgram: "Send from any email address or email program",
+EmailProgram: "Email program",
+More: "More&#8230;"
+};
+</script> 
+  <script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async></script> 
+  <noscript>
+   <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
+  </noscript> 
+  <style type="text/css" id="custom-background-css">
+body.custom-background { background-color: ##ffffff; }
+</style> 
+  <!--[if (IE 6) | (IE 7) | (IE 8)  ]><!--> 
+  <!--<link rel="stylesheet" type="text/css" media="all" async href="https://www.webclassicos.com.br/wp-content/themes/storefront/css/style-shit.css" />--> 
+  <!--<![endif]--> 
+  <!--[if lt IE 9]>
+<script src="https://www.webclassicos.com.br/wp-content/themes/storefront/js/html5.js" async type="text/javascript"></script>
+<script src="https://www.webclassicos.com.br/wp-content/themes/storefront/js/respond.min.js" async type="text/javascript"></script>
+<![endif]--> 
+  <!-- <link rel='stylesheet' id='storefront-style-css'  href='https://www.webclassicos.com.br/wp-content/themes/mentores/assets/css/style.css' async type='text/css' media='print' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/8332e71d77108c04c5fb6291c2924571/1506639428index.css" media="print"> 
+  <style>
+.subscription-details{
+display: none !important;
+}
+</style> 
+  <script>
+(function (i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function () {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o),
+m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+ga('create', 'UA-269519-21', 'webclassicos.com.br');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 975104042;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script> 
+  <noscript> 
+   <div style="display:inline;"> 
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/975104042/?guid=ON&amp;script=0"> 
+   </div> 
+  </noscript>   
+  <noscript>
+    Para completa funcionalidade deste site é necessário habilitar o JavaScript. Aqui estão as 
+   <a href="http://www.enable-javascript.com/pt/" target="_blank"> instruções de como habilitar o JavaScript no seu navegador.</a> 
+  </noscript> 
+  <header class="main-header hidden-xs hidden-sm"> 
+   <div class="row"> 
+    <div class="col-sm-3"> 
+     <h2 class="logo"> <a href="https://www.webclassicos.com.br"> <span class="sr-only"> WebClassicos - Classificados de carros antigos de todo o Brasil. Comprar e Vender clássicos é muito mais fácil no webclassicos.com.br </span> </a> </h2> 
+    </div> 
+    <div class="col-sm-5 col-lg-4"> 
+     <nav class="nav-menu pull-left"> 
+      <div class="menu-principal-container">
+       <ul id="menu-principal" class="menu">
+        <li id="menu-item-855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-855"><a href="https://www.webclassicos.com.br/quem-somos/">Quem Somos</a></li> 
+        <li id="menu-item-8475" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-8475"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Classificados</a></li> 
+        <li id="menu-item-6581" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6581"><a href="https://www.webclassicos.com.br/galeria/">Galeria</a></li> 
+        <li id="menu-item-585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a href="https://www.webclassicos.com.br/blog/">Blog</a></li> 
+        <li id="menu-item-856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-856"><a href="https://www.webclassicos.com.br/contato/">Contato</a></li> 
+       </ul>
+      </div> 
+     </nav> 
+    </div> 
+    <div class="col-sm-2"> 
+     <div class="conta"> 
+      <a class="create-account" href="#">Criar Conta/Entrar</a> 
+     </div> 
+    </div> 
+    <div class="col-sm-2"> 
+     <a id="header-create-advertisement" href="https://www.webclassicos.com.br/criar-anuncio/" class="btn-principal">Criar anúncio</a> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="modal fade" id="login-failed" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"> 
+   <div class="modal-dialog" role="document"> 
+    <div class="modal-content"> 
+     <div class="modal-header"> 
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button> 
+     </div> 
+     <div class="modal-body"> 
+      <h2>Problemas ao realizar o Login</h2> 
+      <p> O e-mail ou senha inseridos estão <strong>incorretos</strong>, por favor tente novamente.</p> 
+      <p> Caso não lembre sua senha, você pode recupera-la <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">aqui</a>.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+if (window.location.href.indexOf("?toggle-error-login=true") > -1){
+jQuery('#login-failed').modal('toggle');
+}
+</script> 
+  <script src="//cdn.trackduck.com/toolbar/prod/td.js" async data-trackduck-id="57d2d00bc5262a17797bdda5"></script> 
+  <header id="mobile" class="hidden-md hidden-lg"> 
+   <div class="col-xs-2"> 
+    <button class="btn-nav"> <span class="span-1"></span> <span class="span-2"></span> <span class="span-3"></span> </button> 
+   </div> 
+   <div class="col-xs-8"> 
+    <div class="logo"> 
+     <h2 id="logo"> <a href="https://www.webclassicos.com.br"> <span class="sr-only"> WebClassicos </span> </a> </h2> 
+    </div> 
+   </div> 
+   <div class="col-xs-2 no-padding"> 
+    <!-- <a id="open-search" class="actions-menu" href="#" ><i class="fa fa-search" aria-hidden="true"></i></a> --> 
+    <a class="actions-menu" href="#"><i class="fa fa-user" aria-hidden="true"></i></a> 
+   </div> 
+   <div class="menu-mob visible-xs visible-sm"> 
+    <div class="col-xs-12" style="padding: 0px"> 
+     <div id="dl-menu" class="dl-menuwrapper"> 
+      <!--<button class="dl-trigger">Open Menu</button>--> 
+      <ul id="menu-principal-1" class="main-menu">
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-855"><a href="https://www.webclassicos.com.br/quem-somos/">Quem Somos</a></li> 
+       <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat current-menu-item menu-item-8475"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Classificados</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6581"><a href="https://www.webclassicos.com.br/galeria/">Galeria</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-585"><a href="https://www.webclassicos.com.br/blog/">Blog</a></li> 
+       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-856"><a href="https://www.webclassicos.com.br/contato/">Contato</a></li> 
+      </ul> 
+     </div>
+     <!-- /dl-menuwrapper --> 
+    </div> 
+   </div> 
+   <div class="quick-search"> 
+    <div class="form"> 
+     <form role="search" method="get" id="searchform" action="https://www.webclassicos.com.br/"> 
+      <div>
+       <label class="screen-reader-text" for="s">Procure Aqui</label> 
+       <input type="text" value="" name="s" id="s"> 
+       <input type="submit" id="searchsubmit" value="Pesquisar"> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+   <div class="login-mobile"> 
+    <div class="head"> 
+     <div class="row"> 
+      <div class="col-xs-10"> 
+       <h3>Identifique-se para continuar</h3> 
+      </div> 
+      <div class="col-xs-2 no-padding"> 
+       <button><i class="fa fa-times" aria-hidden="true"></i></button> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="centralize"> 
+     <div class="content"> 
+      <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+      <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+      <div class="wp-social-login-widget"> 
+       <div class="wp-social-login-connect-with">
+        Conectar com:
+       </div> 
+       <div class="wp-social-login-provider-list"> 
+        <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+        <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+       </div> 
+       <div class="wp-social-login-widget-clearing"></div> 
+      </div> 
+      <!-- wsl_render_auth_widget --> 
+      <form class="woocomerce-form woocommerce-form-login login" method="post" action="/categoria-produto/carro/page/60/"> 
+       <p class="form-row form-row-first"> <label for="username">Nome de usuário ou e-mail <span class="required">*</span></label> <input type="text" class="input-text" name="username" id="username"> </p> 
+       <p class="form-row form-row-last"> <label for="password">Senha <span class="required">*</span></label> <input class="input-text" type="password" name="password" id="password"> </p> 
+       <div class="clear"></div> 
+       <p class="form-row"> <input type="hidden" id="_wpnonce" name="_wpnonce" value="69880af741"><input type="hidden" name="_wp_http_referer" value="/categoria-produto/carro/page/60/"> <input type="submit" class="button" name="login" value="Entrar"> <input type="hidden" name="redirect" value=""> <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline"> <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Lembre-me</span> </label> </p> 
+       <p class="lost_password"> <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">Perdeu sua senha?</a> </p> 
+       <div class="clear"></div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="overlay-login hidden-xs hidden-sm" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/banner.png'); "> 
+   <div class="close-login"> 
+    <div class="col-sm-6"> 
+     <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/Logo.svg" alt="WebClassicos"> 
+    </div> 
+    <div class="col-sm-6"> 
+     <button><i class="fa fa-times" aria-hidden="true"></i></button> 
+    </div> 
+   </div> 
+   <div class="content-login"> 
+    <div class="container"> 
+     <div class="centralize"> 
+      <div class="row"> 
+       <div class="col-sm-4 col-sm-offset-1"> 
+        <h2>Entrar</h2> 
+        <h3>Já tem conta? Identifique-se para continuar</h3> 
+        <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+        <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+        <div class="wp-social-login-widget"> 
+         <div class="wp-social-login-connect-with">
+          Conectar com:
+         </div> 
+         <div class="wp-social-login-provider-list"> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+         </div> 
+         <div class="wp-social-login-widget-clearing"></div> 
+        </div> 
+        <!-- wsl_render_auth_widget --> 
+        <form class="woocomerce-form woocommerce-form-login login" method="post" action="/categoria-produto/carro/page/60/"> 
+         <p class="form-row form-row-first"> <label for="username">Nome de usuário ou e-mail <span class="required">*</span></label> <input type="text" class="input-text" name="username" id="username"> </p> 
+         <p class="form-row form-row-last"> <label for="password">Senha <span class="required">*</span></label> <input class="input-text" type="password" name="password" id="password"> </p> 
+         <div class="clear"></div> 
+         <p class="form-row"> <input type="hidden" id="_wpnonce" name="_wpnonce" value="69880af741"><input type="hidden" name="_wp_http_referer" value="/categoria-produto/carro/page/60/"> <input type="submit" class="button" name="login" value="Entrar"> <input type="hidden" name="redirect" value=""> <label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline"> <input class="woocommerce-form__input woocommerce-form__input-checkbox" name="rememberme" type="checkbox" id="rememberme" value="forever"> <span>Lembre-me</span> </label> </p> 
+         <p class="lost_password"> <a href="https://www.webclassicos.com.br/minha-conta/senha-perdida/">Perdeu sua senha?</a> </p> 
+         <div class="clear"></div> 
+        </form> 
+       </div> 
+       <div class="col-sm-4 col-sm-offset-2"> 
+        <h2>Criar Conta</h2> 
+        <h3>Primeira vez? Crie uma conta para continuar</h3> 
+        <!--
+wsl_render_auth_widget
+WordPress Social Login 2.3.3.
+http://wordpress.org/plugins/wordpress-social-login/
+--> 
+        <style type="text/css">
+.wp-social-login-connect-with{}.wp-social-login-provider-list{}.wp-social-login-provider-list a{}.wp-social-login-provider-list img{}.wsl_connect_with_provider{}</style> 
+        <div class="wp-social-login-widget"> 
+         <div class="wp-social-login-connect-with">
+          Conectar com:
+         </div> 
+         <div class="wp-social-login-provider-list"> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Facebook&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Facebook" class="wp-social-login-provider wp-social-login-provider-facebook" data-provider="Facebook"> <img alt="Facebook" title="Conectar com Facebook" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//facebook.png"> </a> 
+          <a rel="nofollow" href="https://www.webclassicos.com.br/wp-login.php?action=wordpress_social_authenticate&amp;mode=login&amp;provider=Google&amp;redirect_to=https%3A%2F%2Fwww.webclassicos.com.br%2Fcategoria-produto%2Fcarro%2Fpage%2F60%2F" title="Conectar com Google" class="wp-social-login-provider wp-social-login-provider-google" data-provider="Google"> <img alt="Google" title="Conectar com Google" src="https://www.webclassicos.com.br/wp-content/plugins/wordpress-social-login/assets/img/32x32/wpzoom//google.png"> </a> 
+         </div> 
+         <div class="wp-social-login-widget-clearing"></div> 
+        </div> 
+        <!-- wsl_render_auth_widget --> 
+        <form method="post" class="register"> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_email">Nome <span class="required">*</span></label> <input type="text" class="woocommerce-Input woocommerce-Input--text input-text" name="billing_first_name" id="reg_billing_first_name" value=""> </p> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_email">Endereço de e-mail <span class="required">*</span></label> <input type="email" class="woocommerce-Input woocommerce-Input--text input-text" name="email" id="reg_email" value=""> </p> 
+         <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide"> <label for="reg_password">Senha <span class="required">*</span></label> <input type="password" class="woocommerce-Input woocommerce-Input--text input-text" name="password" id="reg_password"> </p> 
+         <!-- Spam Trap --> 
+         <div style="left: -999em; position: absolute;">
+          <label for="trap">Anti-spam</label>
+          <input type="text" name="email_2" id="trap" tabindex="-1" autocomplete="off">
+         </div> 
+         <p class="woocomerce-FormRow form-row"> <input type="hidden" id="woocommerce-register-nonce" name="woocommerce-register-nonce" value="79755fb20f"><input type="hidden" name="_wp_http_referer" value="/categoria-produto/carro/page/60/"> <input type="submit" class="woocommerce-Button button" name="register" value="Registrar"> </p> 
+        </form> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="hidden-xs hidden-sm"> 
+   <div class="breadcrumbs"> 
+    <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="https://www.webclassicos.com.br/" rel="v:url" property="v:title">Home</a> » <span class="breadcrumb_last">Carro</span></span></span></p>
+   </div>
+  </div> 
+  <div class="mobile-filter hidden-md hidden-lg"> 
+   <div class="breadcrumbs"> 
+    <p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="https://www.webclassicos.com.br/" rel="v:url" property="v:title">Home</a> » <span class="breadcrumb_last">Carro</span></span></span></p>
+   </div> 
+   <div class="row"> 
+    <div class="col-xs-5 col-sm-6"> 
+    </div> 
+    <div class="col-xs-5"> 
+     <a href="https://www.webclassicos.com.br/criar-anuncio" class="btn-principal">Anunciar</a> 
+    </div> 
+    <div class="col-xs-2 col-sm-1"> 
+     <button class="show-filter"><i class="fa fa-sliders" aria-hidden="true"></i></button> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="full-filters"> 
+   <div class="title"> 
+    <div class="col-xs-6"> 
+     <h2>Filtrar por</h2> 
+    </div> 
+    <div class="col-xs-6"> 
+     <button class="close-filter"><i class="fa fa-times" aria-hidden="true"></i></button> 
+    </div> 
+   </div> 
+   <div class="sidebar-produtos-fixed"> 
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Encontre o seu clássico</h2>
+     <div id="product-search-1368371526" class="product-search ">
+      <div class="product-search-form">
+       <form id="product-search-form-1368371526" class="product-search-form" action="https://www.webclassicos.com.br/" method="get">
+        <div>
+         <input id="product-search-field-1368371526" name="s" type="text" class="product-search-field" placeholder="Pesquisar veículos" autocomplete="off">
+         <input type="hidden" name="post_type" value="product">
+         <input type="hidden" name="tags" value="1">
+         <input type="hidden" name="sku" value="1">
+         <input type="hidden" name="limit" value="10">
+         <input type="hidden" name="ixwps" value="1">
+         <noscript>
+          <button type="submit">Search</button>
+         </noscript>
+        </div>
+       </form>
+      </div>
+      <div id="product-search-results-1368371526" class="product-search-results"></div>
+     </div>
+     <script type="text/javascript">if ( typeof jQuery !== "undefined" ) {jQuery(document).ready(function(){jQuery("#product-search-field-1368371526").typeWatch( {
+callback: function (value) { ixwps.productSearch('product-search-field-1368371526', 'product-search-1368371526', 'product-search-1368371526 div.product-search-results', 'https://www.webclassicos.com.br/wp-admin/admin-ajax.php?order=DESC&order_by=date&title=1&excerpt=1&content=1&tags=1&sku=1&limit=10&category_results=1&category_limit=5&product_thumbnails=1', value, {no_results:"",dynamic_focus:true,product_thumbnails:true,show_description:false,show_price:false}); },
+wait: 500,
+highlight: true,
+captureLength: 1
+} );ixwps.navigate("product-search-field-1368371526","product-search-results-1368371526");ixwps.dynamicFocus("product-search-1368371526","product-search-results-1368371526");ixwps.autoAdjust("product-search-field-1368371526","product-search-results-1368371526");});}</script>
+    </div>
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Tipo de veículo</h2>
+     <ul class="product-categories">
+      <li class="cat-item cat-item-85 current-cat"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Carro</a></li> 
+      <li class="cat-item cat-item-86"><a href="https://www.webclassicos.com.br/categoria-produto/moto/">Moto</a></li> 
+      <li class="cat-item cat-item-146 cat-parent"><a href="https://www.webclassicos.com.br/categoria-produto/planos/">Planos</a>
+       <ul class="children"> 
+        <li class="cat-item cat-item-147"><a href="https://www.webclassicos.com.br/categoria-produto/planos/anunciantes/">Anunciantes</a></li> 
+        <li class="cat-item cat-item-148"><a href="https://www.webclassicos.com.br/categoria-produto/planos/lojistas/">Lojistas</a></li> 
+       </ul> </li> 
+     </ul>
+    </div>
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Marca</h2>
+     <select class="dropdown_layered_nav_marca"><option value="">Qualquer Marca</option><option value="a1">A1</option><option value="adamo">ADAMO</option><option value="agrale">AGRALE</option><option value="audi">AUDI</option><option value="austin">AUSTIN</option><option value="bmw">BMW</option><option value="buick">BUICK</option><option value="cadillac">CADILLAC</option><option value="chevrolet">CHEVROLET</option><option value="chrysler">CHRYSLER</option><option value="citroen">CITROEN</option><option value="dkw">DKW</option><option value="dodge">DODGE</option><option value="engesa">ENGESA</option><option value="fiat">FIAT</option><option value="ford">FORD</option><option value="gmc">GMC</option><option value="gurgel">GURGEL</option><option value="honda">HONDA</option><option value="hyundai">HYUNDAI</option><option value="iso">ISO</option><option value="jaguar">JAGUAR</option><option value="jeep">JEEP</option><option value="kaiser">KAISER</option><option value="lada">LADA</option><option value="lincoln">LINCOLN</option><option value="mazda">MAZDA</option><option value="mercedes-benz">MERCEDES-BENZ</option><option value="mercury">MERCURY</option><option value="mg">MG</option><option value="mini">MINI</option><option value="mitsubishi">MITSUBISHI</option><option value="miura">MIURA</option><option value="morris">MORRIS</option><option value="mp-lafer">MP LAFER</option><option value="oldsmobile">OLDSMOBILE</option><option value="opel">OPEL</option><option value="panhard">PANHARD</option><option value="peugeot">PEUGEOT</option><option value="plymouth">PLYMOUTH</option><option value="pontiac">PONTIAC</option><option value="porsche">PORSCHE</option><option value="puma">PUMA</option><option value="renault">RENAULT</option><option value="rolls-royce">ROLLS-ROYCE</option><option value="santa-matilde">SANTA MATILDE</option><option value="shelby">SHELBY</option><option value="simca">SIMCA</option><option value="tanger">TANGER</option><option value="toyota">TOYOTA</option><option value="volkswagen">VOLKSWAGEN</option><option value="volvo">VOLVO</option><option value="willys">WILLYS</option></select>
+    </div>
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Modelo</h2>
+     <select class="dropdown_layered_nav_modelo"><option value="">Qualquer Modelo</option><option value="1200_volkswagen">1.200</option><option value="1300_volkswagen">1.300</option><option value="1500_volkswagen">1.500</option><option value="1600_agrale">1.600</option><option value="106_peugeot">106</option><option value="11_citroen">11</option><option value="124_fiat">124</option><option value="1300_morris">1300</option><option value="147_alfa-romeo">147</option><option value="230-e_mercedes-benz">230 E</option><option value="230-sl_mercedes-benz">230 SL</option><option value="240-c_mercedes-benz">240 C</option><option value="240-d_mercedes-benz">240 D</option><option value="250-ce_mercedes-benz">250 CE</option><option value="280-s_mercedes-benz">280 S</option><option value="280-se_mercedes-benz">280 SE</option><option value="3000-gt_mitsubishi">3.000 GT</option><option value="3100-brasil-marta-rocha_chevrolet">3.100/BRASIL/M.ROCHA</option><option value="3600_chevrolet">3.600</option><option value="300-e_mercedes-benz">300 E</option><option value="300-sl_mercedes-benz">300 SL</option><option value="318ti_bmw">318TI</option><option value="320-sl_mercedes-benz">320 SL</option><option value="320i_bmw">320I</option><option value="323ti_bmw">323TI</option><option value="325i_bmw">325I</option><option value="4_engesa">4</option><option value="41_lassale">4.1</option><option value="406_peugeot">406</option><option value="450-sl_mercedes-benz">450 SL</option><option value="500_fiat">500</option><option value="500-s_mercedes-benz">500 S</option><option value="500-se_mercedes-benz">500 SE</option><option value="500-sl_mercedes-benz">500 SL</option><option value="535i_bmw">535I</option><option value="540i_bmw">540I</option><option value="540ia_bmw">540IA</option><option value="740i_bmw">740I</option><option value="750i_bmw">750I</option><option value="850ci_bmw">850CI</option><option value="960_volvo">960</option><option value="a_ford">A</option><option value="a3_audi">A3</option><option value="a4_audi">A4</option><option value="a6_audi">A6</option><option value="accord_honda">ACCORD</option><option value="aero-willys_willys">AERO WILLYS</option><option value="anglia-105-e_ford">ANGLIA 105-E</option><option value="astra_chevrolet">ASTRA</option><option value="bandeirante_toyota">BANDEIRANTE</option><option value="bel-air_chevrolet">BEL AIR</option><option value="belcar_dkw">BELCAR</option><option value="belina_ford">BELINA</option><option value="belvedere_plymouth">BELVEDERE</option><option value="blitz_opel">BLITZ</option><option value="bonanza_chevrolet">BONANZA</option><option value="brasilia_volkswagen">BRASILIA</option><option value="c-180_mercedes-benz">C 180</option><option value="c-200_mercedes-benz">C 200</option><option value="c-280_mercedes-benz">C 280</option><option value="c10_chevrolet">C10</option><option value="c14_chevrolet">C14</option><option value="c15_chevrolet">C15</option><option value="c20_chevrolet">C20</option><option value="cabriolet_farus">CABRIOLET</option><option value="calibra_chevrolet">CALIBRA</option><option value="camaro_chevrolet">CAMARO</option><option value="camry_toyota">CAMRY</option><option value="capri_ford">CAPRI</option><option value="caravan_chevrolet">CARAVAN</option><option value="chambord_simca">CHAMBORD</option><option value="charger_dodge">CHARGER</option><option value="chevette_chevrolet">CHEVETTE</option><option value="chevy_chevrolet">CHEVY</option><option value="citation_edsel">CITATION</option><option value="civic_honda">CIVIC</option><option value="cj-5_jeep">CJ-5</option><option value="classic_chevrolet">CLASSIC</option><option value="classico_mp-lafer">CLASSICO</option><option value="cobra_gasplac">COBRA</option><option value="coe_chevrolet">COE</option><option value="continental_bentley">CONTINENTAL</option><option value="cooper_mini">COOPER</option><option value="corcel-1_ford">CORCEL 1</option><option value="corcel-2_ford">CORCEL 2</option><option value="corolla_toyota">COROLLA</option><option value="corvette_chevrolet">CORVETTE</option><option value="cougar_mercury">COUGAR</option><option value="coupe_aldee">COUPE</option><option value="customline_ford">CUSTOMLINE</option><option value="d20_chevrolet">D20</option><option value="dart_dodge">DART</option><option value="de-luxe_chevrolet">DE LUXE</option><option value="de-ville_cadillac">DE VILLE</option><option value="del-rey_ford">DEL REY</option><option value="deluxe_ford">DELUXE</option><option value="dyna_panhard">DYNA</option><option value="e-320_mercedes-benz">E 320</option><option value="e-430_mercedes-benz">E 430</option><option value="eclipse_mitsubishi">ECLIPSE</option><option value="el-camino_chevrolet">EL CAMINO</option><option value="eldorado_cadillac">ELDORADO</option><option value="escort_ford">ESCORT</option><option value="escort-sw_ford">ESCORT SW</option><option value="explorer_ford">EXPLORER</option><option value="f-1_ford">F-1</option><option value="f-1000_ford">F-1.000</option><option value="f-100_ford">F-100</option><option value="f-350_ford">F-350</option><option value="f-600_ford">F-600</option><option value="f-700_ford">F-700</option><option value="f-75_ford">F-75</option><option value="f-750_ford">F-750</option><option value="f-85-cutlass_oldsmobile">F-85 CUTLASS</option><option value="falcon_ford">FALCON</option><option value="fargo_dodge">FARGO</option><option value="fiesta_ford">FIESTA</option><option value="fissore_auto-union">FISSORE</option><option value="formula_pontiac">FORMULA</option><option value="fusca_volkswagen">FUSCA</option><option value="galaxie_ford">GALAXIE</option><option value="galloper_hyundai">GALLOPER</option><option value="gol_volkswagen">GOL</option><option value="golf_volkswagen">GOLF</option><option value="gordini_renault">GORDINI</option><option value="granada_ford">GRANADA</option><option value="grand-cherokee_jeep">GRAND CHEROKEE</option><option value="grifo_iso">GRIFO</option><option value="gt_adamo">GT</option><option value="gtb_puma">GTB</option><option value="gtc_puma">GTC</option><option value="gte_puma">GTE</option><option value="gtl_adamo">GTL</option><option value="gts_puma">GTS</option><option value="hilux-sw4_toyota">HILUX SW4</option><option value="impala_chevrolet">IMPALA</option><option value="itamaraty_ford">ITAMARATY</option><option value="jeep_ford">JEEP</option><option value="jeep-bernardao_willys">JEEP BERNARDAO</option><option value="job-rated_dodge">JOB RATED</option><option value="kadett_chevrolet">KADETT</option><option value="karmann-ghia_volkswagen">KARMANN-GHIA</option><option value="kombi_volkswagen">KOMBI</option><option value="landau_ford">LANDAU</option><option value="le-baron_chrysler">LE BARON</option><option value="logus_volkswagen">LOGUS</option><option value="m606_jeep">M606</option><option value="magnum_dodge">MAGNUM</option><option value="malzone_dkw">MALZONE</option><option value="manhattan_kaiser">MANHATTAN</option><option value="marajo_chevrolet">MARAJO</option><option value="mark-v_jaguar">MARK V</option><option value="maverick_ford">MAVERICK</option><option value="mercury_ford">MERCURY</option><option value="mg-b_mg">MG B</option><option value="mini_austin">MINI</option><option value="monza_chevrolet">MONZA</option><option value="mustang_ford">MUSTANG</option><option value="mx-5_mazda">MX-5</option><option value="neon_chrysler">NEON</option><option value="niva_lada">NIVA</option><option value="nova_chevrolet">NOVA</option><option value="olympia_opel">OLYMPIA</option><option value="omega_chevrolet">OMEGA</option><option value="opala_chevrolet">OPALA</option><option value="pajero_mitsubishi">PAJERO</option><option value="parati_volkswagen">PARATI</option><option value="passat_volkswagen">PASSAT</option><option value="picape">PICAPE</option><option value="pick-up_fiat">PICK UP</option><option value="pick-up_cbp">PICK-UP</option><option value="polara_dodge">POLARA</option><option value="premio_fiat">PREMIO</option><option value="pt-cruiser_chrysler">PT CRUISER</option><option value="quantum_volkswagen">QUANTUM</option><option value="ranger_edsel">RANGER</option><option value="rural_ford">RURAL</option><option value="santana_volkswagen">SANTANA</option><option value="saveiro_volkswagen">SAVEIRO</option><option value="sedan_cadillac">SEDAN</option><option value="cloud-iii_rolls-royce">SILVER CLOUD 3</option><option value="sp-2_volkswagen">SP-2</option><option value="spazio_fiat">SPAZIO</option><option value="special_buick">SPECIAL</option><option value="spyder-550_chamonix">SPYDER 550</option><option value="stratus_chrysler">STRATUS</option><option value="styleline_chevrolet">STYLELINE</option><option value="stylemaster_chevrolet">STYLEMASTER</option><option value="suburban_chevrolet">SUBURBAN</option><option value="super_hudson">SUPER</option><option value="t_ford">T</option><option value="taurus_ford">TAURUS</option><option value="tempra_fiat">TEMPRA</option><option value="ti_mp-lafer">TI</option><option value="tipo_fiat">TIPO</option><option value="tl_volkswagen">TL</option><option value="top-sport_miura">TOP SPORT</option><option value="traction-avant_citroen">TRACTION AVANT</option><option value="trafic_chevrolet">TRAFIC</option><option value="trilha_a1">TRILHA</option><option value="tufao_simca">TUFAO</option><option value="ultravan_agrale">ULTRAVAN</option><option value="uno_fiat">UNO</option><option value="v40_volvo">V40</option><option value="variant_volkswagen">VARIANT</option><option value="vectra_chevrolet">VECTRA</option><option value="vemaguete_dkw">VEMAGUETE</option><option value="veraneio_chevrolet">VERANEIO</option><option value="verona_ford">VERONA</option><option value="versailles_ford">VERSAILLES</option><option value="voyage_volkswagen">VOYAGE</option><option value="windsor_chrysler">WINDSOR</option><option value="x-12_gurgel">X-12</option><option value="x5_bmw">X5</option><option value="xavante_gurgel">XAVANTE</option><option value="xef_gurgel">XEF</option><option value="xj-6_jaguar">XJ-6</option><option value="xm_citroen">XM</option><option value="xsara_citroen">XSARA</option></select>
+    </div>
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Ano de Fabricação</h2>
+     <select class="dropdown_layered_nav_ano"><option value="">Qualquer Ano</option><option value="1930">1930</option><option value="1942">1942</option><option value="1993">1993</option><option value="1994">1994</option><option value="2005">2005</option><option value="1914">1914</option><option value="1919">1919</option><option value="1927">1927</option><option value="1928">1928</option><option value="1929">1929</option><option value="1931">1931</option><option value="1933">1933</option><option value="1936">1936</option><option value="1937">1937</option><option value="1939">1939</option><option value="1941">1941</option><option value="1946">1946</option><option value="1947">1947</option><option value="1948">1948</option><option value="1949">1949</option><option value="1950">1950</option><option value="1951">1951</option><option value="1952">1952</option><option value="1953">1953</option><option value="1954">1954</option><option value="1955">1955</option><option value="1956">1956</option><option value="1957">1957</option><option value="1959">1959</option><option value="1960">1960</option><option value="1961">1961</option><option value="1962">1962</option><option value="1963">1963</option><option value="1964">1964</option><option value="1965">1965</option><option value="1966">1966</option><option value="1967">1967</option><option value="1968">1968</option><option value="1969">1969</option><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2006">2006</option></select>
+    </div>
+    <div class="fixedFilters widget_price_filter">
+     <h2 class="rounded">Filtrar por preço</h2>
+     <form method="get" action="https://www.webclassicos.com.br/categoria-produto/carro/"> 
+      <div class="price_slider_wrapper"> 
+       <div class="price_slider" style="display:none;"></div> 
+       <div class="price_slider_amount"> 
+        <input type="text" id="min_price" name="min_price" value="" data-min="3000" placeholder="Preço mínimo"> 
+        <input type="text" id="max_price" name="max_price" value="" data-max="1200000" placeholder="Preço máximo"> 
+        <button type="submit" class="button">Filtro</button> 
+        <div class="price_label" style="display:none;">
+          Preço: 
+         <span class="from"></span> — 
+         <span class="to"></span> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+     </form>
+    </div> 
+   </div> 
+  </div>
+  <input type="hidden" id="found-posts" name="found-posts" value="827"> 
+  <div class="container"> 
+   <div class="col-sm-4 col-md-3 hidden-xs hidden-sm"> 
+    <div class="sidebar-produtos-fixed"> 
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Encontre o seu clássico</h2>
+      <div id="product-search-1368371526" class="product-search ">
+       <div class="product-search-form">
+        <form id="product-search-form-1368371526" class="product-search-form" action="https://www.webclassicos.com.br/" method="get">
+         <div>
+          <input id="product-search-field-1368371526" name="s" type="text" class="product-search-field" placeholder="Pesquisar veículos" autocomplete="off">
+          <input type="hidden" name="post_type" value="product">
+          <input type="hidden" name="tags" value="1">
+          <input type="hidden" name="sku" value="1">
+          <input type="hidden" name="limit" value="10">
+          <input type="hidden" name="ixwps" value="1">
+          <noscript>
+           <button type="submit">Search</button>
+          </noscript>
+         </div>
+        </form>
+       </div>
+       <div id="product-search-results-1368371526" class="product-search-results"></div>
+      </div>
+      <script type="text/javascript">if ( typeof jQuery !== "undefined" ) {jQuery(document).ready(function(){jQuery("#product-search-field-1368371526").typeWatch( {
+callback: function (value) { ixwps.productSearch('product-search-field-1368371526', 'product-search-1368371526', 'product-search-1368371526 div.product-search-results', 'https://www.webclassicos.com.br/wp-admin/admin-ajax.php?order=DESC&order_by=date&title=1&excerpt=1&content=1&tags=1&sku=1&limit=10&category_results=1&category_limit=5&product_thumbnails=1', value, {no_results:"",dynamic_focus:true,product_thumbnails:true,show_description:false,show_price:false}); },
+wait: 500,
+highlight: true,
+captureLength: 1
+} );ixwps.navigate("product-search-field-1368371526","product-search-results-1368371526");ixwps.dynamicFocus("product-search-1368371526","product-search-results-1368371526");ixwps.autoAdjust("product-search-field-1368371526","product-search-results-1368371526");});}</script>
+     </div>
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Tipo de veículo</h2>
+      <ul class="product-categories">
+       <li class="cat-item cat-item-85 current-cat"><a href="https://www.webclassicos.com.br/categoria-produto/carro/">Carro</a></li> 
+       <li class="cat-item cat-item-86"><a href="https://www.webclassicos.com.br/categoria-produto/moto/">Moto</a></li> 
+       <li class="cat-item cat-item-146 cat-parent"><a href="https://www.webclassicos.com.br/categoria-produto/planos/">Planos</a>
+        <ul class="children"> 
+         <li class="cat-item cat-item-147"><a href="https://www.webclassicos.com.br/categoria-produto/planos/anunciantes/">Anunciantes</a></li> 
+         <li class="cat-item cat-item-148"><a href="https://www.webclassicos.com.br/categoria-produto/planos/lojistas/">Lojistas</a></li> 
+        </ul> </li> 
+      </ul>
+     </div>
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Marca</h2>
+      <select class="dropdown_layered_nav_marca"><option value="">Qualquer Marca</option><option value="a1">A1</option><option value="adamo">ADAMO</option><option value="agrale">AGRALE</option><option value="audi">AUDI</option><option value="austin">AUSTIN</option><option value="bmw">BMW</option><option value="buick">BUICK</option><option value="cadillac">CADILLAC</option><option value="chevrolet">CHEVROLET</option><option value="chrysler">CHRYSLER</option><option value="citroen">CITROEN</option><option value="dkw">DKW</option><option value="dodge">DODGE</option><option value="engesa">ENGESA</option><option value="fiat">FIAT</option><option value="ford">FORD</option><option value="gmc">GMC</option><option value="gurgel">GURGEL</option><option value="honda">HONDA</option><option value="hyundai">HYUNDAI</option><option value="iso">ISO</option><option value="jaguar">JAGUAR</option><option value="jeep">JEEP</option><option value="kaiser">KAISER</option><option value="lada">LADA</option><option value="lincoln">LINCOLN</option><option value="mazda">MAZDA</option><option value="mercedes-benz">MERCEDES-BENZ</option><option value="mercury">MERCURY</option><option value="mg">MG</option><option value="mini">MINI</option><option value="mitsubishi">MITSUBISHI</option><option value="miura">MIURA</option><option value="morris">MORRIS</option><option value="mp-lafer">MP LAFER</option><option value="oldsmobile">OLDSMOBILE</option><option value="opel">OPEL</option><option value="panhard">PANHARD</option><option value="peugeot">PEUGEOT</option><option value="plymouth">PLYMOUTH</option><option value="pontiac">PONTIAC</option><option value="porsche">PORSCHE</option><option value="puma">PUMA</option><option value="renault">RENAULT</option><option value="rolls-royce">ROLLS-ROYCE</option><option value="santa-matilde">SANTA MATILDE</option><option value="shelby">SHELBY</option><option value="simca">SIMCA</option><option value="tanger">TANGER</option><option value="toyota">TOYOTA</option><option value="volkswagen">VOLKSWAGEN</option><option value="volvo">VOLVO</option><option value="willys">WILLYS</option></select>
+     </div>
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Modelo</h2>
+      <select class="dropdown_layered_nav_modelo"><option value="">Qualquer Modelo</option><option value="1200_volkswagen">1.200</option><option value="1300_volkswagen">1.300</option><option value="1500_volkswagen">1.500</option><option value="1600_agrale">1.600</option><option value="106_peugeot">106</option><option value="11_citroen">11</option><option value="124_fiat">124</option><option value="1300_morris">1300</option><option value="147_alfa-romeo">147</option><option value="230-e_mercedes-benz">230 E</option><option value="230-sl_mercedes-benz">230 SL</option><option value="240-c_mercedes-benz">240 C</option><option value="240-d_mercedes-benz">240 D</option><option value="250-ce_mercedes-benz">250 CE</option><option value="280-s_mercedes-benz">280 S</option><option value="280-se_mercedes-benz">280 SE</option><option value="3000-gt_mitsubishi">3.000 GT</option><option value="3100-brasil-marta-rocha_chevrolet">3.100/BRASIL/M.ROCHA</option><option value="3600_chevrolet">3.600</option><option value="300-e_mercedes-benz">300 E</option><option value="300-sl_mercedes-benz">300 SL</option><option value="318ti_bmw">318TI</option><option value="320-sl_mercedes-benz">320 SL</option><option value="320i_bmw">320I</option><option value="323ti_bmw">323TI</option><option value="325i_bmw">325I</option><option value="4_engesa">4</option><option value="41_lassale">4.1</option><option value="406_peugeot">406</option><option value="450-sl_mercedes-benz">450 SL</option><option value="500_fiat">500</option><option value="500-s_mercedes-benz">500 S</option><option value="500-se_mercedes-benz">500 SE</option><option value="500-sl_mercedes-benz">500 SL</option><option value="535i_bmw">535I</option><option value="540i_bmw">540I</option><option value="540ia_bmw">540IA</option><option value="740i_bmw">740I</option><option value="750i_bmw">750I</option><option value="850ci_bmw">850CI</option><option value="960_volvo">960</option><option value="a_ford">A</option><option value="a3_audi">A3</option><option value="a4_audi">A4</option><option value="a6_audi">A6</option><option value="accord_honda">ACCORD</option><option value="aero-willys_willys">AERO WILLYS</option><option value="anglia-105-e_ford">ANGLIA 105-E</option><option value="astra_chevrolet">ASTRA</option><option value="bandeirante_toyota">BANDEIRANTE</option><option value="bel-air_chevrolet">BEL AIR</option><option value="belcar_dkw">BELCAR</option><option value="belina_ford">BELINA</option><option value="belvedere_plymouth">BELVEDERE</option><option value="blitz_opel">BLITZ</option><option value="bonanza_chevrolet">BONANZA</option><option value="brasilia_volkswagen">BRASILIA</option><option value="c-180_mercedes-benz">C 180</option><option value="c-200_mercedes-benz">C 200</option><option value="c-280_mercedes-benz">C 280</option><option value="c10_chevrolet">C10</option><option value="c14_chevrolet">C14</option><option value="c15_chevrolet">C15</option><option value="c20_chevrolet">C20</option><option value="cabriolet_farus">CABRIOLET</option><option value="calibra_chevrolet">CALIBRA</option><option value="camaro_chevrolet">CAMARO</option><option value="camry_toyota">CAMRY</option><option value="capri_ford">CAPRI</option><option value="caravan_chevrolet">CARAVAN</option><option value="chambord_simca">CHAMBORD</option><option value="charger_dodge">CHARGER</option><option value="chevette_chevrolet">CHEVETTE</option><option value="chevy_chevrolet">CHEVY</option><option value="citation_edsel">CITATION</option><option value="civic_honda">CIVIC</option><option value="cj-5_jeep">CJ-5</option><option value="classic_chevrolet">CLASSIC</option><option value="classico_mp-lafer">CLASSICO</option><option value="cobra_gasplac">COBRA</option><option value="coe_chevrolet">COE</option><option value="continental_bentley">CONTINENTAL</option><option value="cooper_mini">COOPER</option><option value="corcel-1_ford">CORCEL 1</option><option value="corcel-2_ford">CORCEL 2</option><option value="corolla_toyota">COROLLA</option><option value="corvette_chevrolet">CORVETTE</option><option value="cougar_mercury">COUGAR</option><option value="coupe_aldee">COUPE</option><option value="customline_ford">CUSTOMLINE</option><option value="d20_chevrolet">D20</option><option value="dart_dodge">DART</option><option value="de-luxe_chevrolet">DE LUXE</option><option value="de-ville_cadillac">DE VILLE</option><option value="del-rey_ford">DEL REY</option><option value="deluxe_ford">DELUXE</option><option value="dyna_panhard">DYNA</option><option value="e-320_mercedes-benz">E 320</option><option value="e-430_mercedes-benz">E 430</option><option value="eclipse_mitsubishi">ECLIPSE</option><option value="el-camino_chevrolet">EL CAMINO</option><option value="eldorado_cadillac">ELDORADO</option><option value="escort_ford">ESCORT</option><option value="escort-sw_ford">ESCORT SW</option><option value="explorer_ford">EXPLORER</option><option value="f-1_ford">F-1</option><option value="f-1000_ford">F-1.000</option><option value="f-100_ford">F-100</option><option value="f-350_ford">F-350</option><option value="f-600_ford">F-600</option><option value="f-700_ford">F-700</option><option value="f-75_ford">F-75</option><option value="f-750_ford">F-750</option><option value="f-85-cutlass_oldsmobile">F-85 CUTLASS</option><option value="falcon_ford">FALCON</option><option value="fargo_dodge">FARGO</option><option value="fiesta_ford">FIESTA</option><option value="fissore_auto-union">FISSORE</option><option value="formula_pontiac">FORMULA</option><option value="fusca_volkswagen">FUSCA</option><option value="galaxie_ford">GALAXIE</option><option value="galloper_hyundai">GALLOPER</option><option value="gol_volkswagen">GOL</option><option value="golf_volkswagen">GOLF</option><option value="gordini_renault">GORDINI</option><option value="granada_ford">GRANADA</option><option value="grand-cherokee_jeep">GRAND CHEROKEE</option><option value="grifo_iso">GRIFO</option><option value="gt_adamo">GT</option><option value="gtb_puma">GTB</option><option value="gtc_puma">GTC</option><option value="gte_puma">GTE</option><option value="gtl_adamo">GTL</option><option value="gts_puma">GTS</option><option value="hilux-sw4_toyota">HILUX SW4</option><option value="impala_chevrolet">IMPALA</option><option value="itamaraty_ford">ITAMARATY</option><option value="jeep_ford">JEEP</option><option value="jeep-bernardao_willys">JEEP BERNARDAO</option><option value="job-rated_dodge">JOB RATED</option><option value="kadett_chevrolet">KADETT</option><option value="karmann-ghia_volkswagen">KARMANN-GHIA</option><option value="kombi_volkswagen">KOMBI</option><option value="landau_ford">LANDAU</option><option value="le-baron_chrysler">LE BARON</option><option value="logus_volkswagen">LOGUS</option><option value="m606_jeep">M606</option><option value="magnum_dodge">MAGNUM</option><option value="malzone_dkw">MALZONE</option><option value="manhattan_kaiser">MANHATTAN</option><option value="marajo_chevrolet">MARAJO</option><option value="mark-v_jaguar">MARK V</option><option value="maverick_ford">MAVERICK</option><option value="mercury_ford">MERCURY</option><option value="mg-b_mg">MG B</option><option value="mini_austin">MINI</option><option value="monza_chevrolet">MONZA</option><option value="mustang_ford">MUSTANG</option><option value="mx-5_mazda">MX-5</option><option value="neon_chrysler">NEON</option><option value="niva_lada">NIVA</option><option value="nova_chevrolet">NOVA</option><option value="olympia_opel">OLYMPIA</option><option value="omega_chevrolet">OMEGA</option><option value="opala_chevrolet">OPALA</option><option value="pajero_mitsubishi">PAJERO</option><option value="parati_volkswagen">PARATI</option><option value="passat_volkswagen">PASSAT</option><option value="picape">PICAPE</option><option value="pick-up_fiat">PICK UP</option><option value="pick-up_cbp">PICK-UP</option><option value="polara_dodge">POLARA</option><option value="premio_fiat">PREMIO</option><option value="pt-cruiser_chrysler">PT CRUISER</option><option value="quantum_volkswagen">QUANTUM</option><option value="ranger_edsel">RANGER</option><option value="rural_ford">RURAL</option><option value="santana_volkswagen">SANTANA</option><option value="saveiro_volkswagen">SAVEIRO</option><option value="sedan_cadillac">SEDAN</option><option value="cloud-iii_rolls-royce">SILVER CLOUD 3</option><option value="sp-2_volkswagen">SP-2</option><option value="spazio_fiat">SPAZIO</option><option value="special_buick">SPECIAL</option><option value="spyder-550_chamonix">SPYDER 550</option><option value="stratus_chrysler">STRATUS</option><option value="styleline_chevrolet">STYLELINE</option><option value="stylemaster_chevrolet">STYLEMASTER</option><option value="suburban_chevrolet">SUBURBAN</option><option value="super_hudson">SUPER</option><option value="t_ford">T</option><option value="taurus_ford">TAURUS</option><option value="tempra_fiat">TEMPRA</option><option value="ti_mp-lafer">TI</option><option value="tipo_fiat">TIPO</option><option value="tl_volkswagen">TL</option><option value="top-sport_miura">TOP SPORT</option><option value="traction-avant_citroen">TRACTION AVANT</option><option value="trafic_chevrolet">TRAFIC</option><option value="trilha_a1">TRILHA</option><option value="tufao_simca">TUFAO</option><option value="ultravan_agrale">ULTRAVAN</option><option value="uno_fiat">UNO</option><option value="v40_volvo">V40</option><option value="variant_volkswagen">VARIANT</option><option value="vectra_chevrolet">VECTRA</option><option value="vemaguete_dkw">VEMAGUETE</option><option value="veraneio_chevrolet">VERANEIO</option><option value="verona_ford">VERONA</option><option value="versailles_ford">VERSAILLES</option><option value="voyage_volkswagen">VOYAGE</option><option value="windsor_chrysler">WINDSOR</option><option value="x-12_gurgel">X-12</option><option value="x5_bmw">X5</option><option value="xavante_gurgel">XAVANTE</option><option value="xef_gurgel">XEF</option><option value="xj-6_jaguar">XJ-6</option><option value="xm_citroen">XM</option><option value="xsara_citroen">XSARA</option></select>
+     </div>
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Ano de Fabricação</h2>
+      <select class="dropdown_layered_nav_ano"><option value="">Qualquer Ano</option><option value="1930">1930</option><option value="1942">1942</option><option value="1993">1993</option><option value="1994">1994</option><option value="2005">2005</option><option value="1914">1914</option><option value="1919">1919</option><option value="1927">1927</option><option value="1928">1928</option><option value="1929">1929</option><option value="1931">1931</option><option value="1933">1933</option><option value="1936">1936</option><option value="1937">1937</option><option value="1939">1939</option><option value="1941">1941</option><option value="1946">1946</option><option value="1947">1947</option><option value="1948">1948</option><option value="1949">1949</option><option value="1950">1950</option><option value="1951">1951</option><option value="1952">1952</option><option value="1953">1953</option><option value="1954">1954</option><option value="1955">1955</option><option value="1956">1956</option><option value="1957">1957</option><option value="1959">1959</option><option value="1960">1960</option><option value="1961">1961</option><option value="1962">1962</option><option value="1963">1963</option><option value="1964">1964</option><option value="1965">1965</option><option value="1966">1966</option><option value="1967">1967</option><option value="1968">1968</option><option value="1969">1969</option><option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2006">2006</option></select>
+     </div>
+     <div class="fixedFilters widget_price_filter">
+      <h2 class="rounded">Filtrar por preço</h2>
+      <form method="get" action="https://www.webclassicos.com.br/categoria-produto/carro/"> 
+       <div class="price_slider_wrapper"> 
+        <div class="price_slider" style="display:none;"></div> 
+        <div class="price_slider_amount"> 
+         <input type="text" id="min_price" name="min_price" value="" data-min="3000" placeholder="Preço mínimo"> 
+         <input type="text" id="max_price" name="max_price" value="" data-max="1200000" placeholder="Preço máximo"> 
+         <button type="submit" class="button">Filtro</button> 
+         <div class="price_label" style="display:none;">
+           Preço: 
+          <span class="from"></span> — 
+          <span class="to"></span> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+      </form>
+     </div> 
+    </div> 
+    <div class="sidebar-produtos"> 
+     <div id="woocommerce_layered_nav-13" class="widget woocommerce widget_layered_nav">
+      <span class="gamma widget-title">Tipo de Placa</span>
+      <select class="dropdown_layered_nav_tipo-de-placa"><option value="">Qualquer Tipo de placa</option><option value="placa-preta">Placa preta</option></select>
+     </div>
+     <div id="woocommerce_layered_nav-2" class="widget woocommerce widget_layered_nav">
+      <span class="gamma widget-title">Estado</span>
+      <select class="dropdown_layered_nav_estado"><option value="">Qualquer Estado</option><option value="ac">AC</option><option value="al">AL</option><option value="ba">BA</option><option value="ce">CE</option><option value="df">DF</option><option value="es">ES</option><option value="go">GO</option><option value="mg">MG</option><option value="ms">MS</option><option value="mt">MT</option><option value="pa">PA</option><option value="pb">PB</option><option value="pe">PE</option><option value="pi">PI</option><option value="pr">PR</option><option value="rj">RJ</option><option value="rn">RN</option><option value="rr">RR</option><option value="rs">RS</option><option value="sc">SC</option><option value="se">SE</option><option value="sp">SP</option></select>
+     </div>
+     <div id="woocommerce_layered_nav-12" class="widget woocommerce widget_layered_nav">
+      <span class="gamma widget-title">Cidade</span>
+      <select class="dropdown_layered_nav_local"><option value="">Qualquer Local</option><option value="americana">Americana</option><option value="ananindeua">Ananindeua</option><option value="andradina">Andradina</option><option value="aracaju">Aracaju</option><option value="aracatuba">Aracatuba</option><option value="araraquara">Araraquara</option><option value="arcos">Arcos</option><option value="aruja">Aruja</option><option value="atibaia">Atibaia</option><option value="balneario-camboriu">Balneário Camboriú</option><option value="barbacena">Barbacena</option><option value="bariri">Bariri</option><option value="barra-mansa">Barra Mansa</option><option value="barueri">Barueri</option><option value="bauru">Bauru</option><option value="bebedouro">Bebedouro</option><option value="belem">Belem</option><option value="belo-horizonte">Belo Horizonte</option><option value="bento-goncalves">Bento Goncalves</option><option value="blumenau">Blumenau</option><option value="boa-vista">Boa Vista</option><option value="boituva">Boituva</option><option value="bom-jesus-dos-perdoes">Bom Jesus Dos Perdoes</option><option value="braganca-paulista">Braganca Paulista</option><option value="brasilia">Brasilia</option><option value="caete">Caete</option><option value="cajamar">Cajamar</option><option value="caldas-novas">Caldas Novas</option><option value="camanducaia">Camanducaia</option><option value="campina-grande">Campina Grande</option><option value="campinas">Campinas</option><option value="campinas-do-sul">Campinas Do Sul</option><option value="campo-belo">Campo Belo</option><option value="campo-grande">Campo Grande</option><option value="campo-largo">Campo Largo</option><option value="campos-do-jordao">Campos Do Jordao</option><option value="campos-dos-goytacazes">Campos Dos Goytacazes</option><option value="campos-novos">Campos Novos</option><option value="canoas">Canoas</option><option value="caraguatatuba">Caraguatatuba</option><option value="carapicuiba">Carapicuiba</option><option value="carazinho">Carazinho</option><option value="cariacica">Cariacica</option><option value="carmo">Carmo</option><option value="caruaru">Caruaru</option><option value="cascavel">Cascavel</option><option value="catalao">Catalao</option><option value="cesario-lange">Cesario Lange</option><option value="chapeco">Chapeco</option><option value="cianorte">Cianorte</option><option value="clevelandia">Clevelandia</option><option value="conceicao-da-aparecida">Conceicao Da Aparecida</option><option value="concordia">Concordia</option><option value="contagem">Contagem</option><option value="cotia">Cotia</option><option value="criciuma">Criciúma</option><option value="cristalina">Cristalina</option><option value="cuiaba">Cuiabá</option><option value="curitiba">Curitiba</option><option value="curitibanos">Curitibanos</option><option value="diadema">Diadema</option><option value="eldorado-do-sul">Eldorado Do Sul</option><option value="embu-guacu">Embu-guacu</option><option value="estancia-velha">Estancia Velha</option><option value="floreal">Floreal</option><option value="florianopolis">Florianópolis</option><option value="fortaleza">Fortaleza</option><option value="franca">Franca</option><option value="francisco-beltrao">Francisco Beltrao</option><option value="gama">Gama</option><option value="goiania">Goiânia</option><option value="gramado-xavier">Gramado Xavier</option><option value="guanhaes">Guanhaes</option><option value="guararema">Guararema</option><option value="guarulhos">Guarulhos</option><option value="ibiruba">Ibiruba</option><option value="igarata">Igarata</option><option value="igrejinha">Igrejinha</option><option value="ijui">Ijui</option><option value="indaiatuba">Indaiatuba</option><option value="ipatinga">Ipatinga</option><option value="ipero">Ipero</option><option value="ipua">Ipua</option><option value="itabuna">Itabuna</option><option value="itajuba">Itajuba</option><option value="itapeva">Itapeva</option><option value="itaqui">Itaqui</option><option value="itarare">Itarare</option><option value="itatiba">Itatiba</option><option value="itu">Itu</option><option value="itumbiara">Itumbiara</option><option value="ituverava">Ituverava</option><option value="jacarei">Jacarei</option><option value="jandaia">Jandaia</option><option value="joinville">Joinville</option><option value="juiz-de-fora">Juiz De Fora</option><option value="jundiai">Jundiai</option><option value="lajeado">Lajeado</option><option value="leme">Leme</option><option value="limeira">Limeira</option><option value="lins">Lins</option><option value="londrina">Londrina</option><option value="lucelia">Lucelia</option><option value="macae">Macaé</option><option value="maceio">Maceio</option><option value="mallet">Mallet</option><option value="mantenopolis">Mantenopolis</option><option value="marechal-candido-rondon">Marechal Candido Rondon</option><option value="maringa">Maringa</option><option value="maua">Maua</option><option value="mogi-das-cruzes">Mogi Das Cruzes</option><option value="montes-claros">Montes Claros</option><option value="morro-reuter">Morro Reuter</option><option value="natal">Natal</option><option value="neropolis">Neropolis</option><option value="niteroi">Niteroi</option><option value="nova-era">Nova Era</option><option value="nova-friburgo">Nova Friburgo</option><option value="novo-hamburgo">Novo Hamburgo</option><option value="olimpia">Olimpia</option><option value="oliveira">Oliveira</option><option value="osasco">Osasco</option><option value="osorio">Osorio</option><option value="paranagua">Paranagua</option><option value="passa-quatro">Passa Quatro</option><option value="passo-fundo">Passo Fundo</option><option value="pato-branco">Pato Branco</option><option value="pedreira">Pedreira</option><option value="petropolis">Petropolis</option><option value="pindamonhangaba">Pindamonhangaba</option><option value="pinhais">Pinhais</option><option value="piracicaba">Piracicaba</option><option value="piraju">Piraju</option><option value="pirassununga">Pirassununga</option><option value="piratininga">Piratininga</option><option value="piratuba">Piratuba</option><option value="pitanga">Pitanga</option><option value="poco-fundo">Poco Fundo</option><option value="pocos-de-caldas">Pocos De Caldas</option><option value="ponta-grossa">Ponta Grossa</option><option value="porto-alegre">Porto Alegre</option><option value="porto-ferreira">Porto Ferreira</option><option value="pouso-alegre">Pouso Alegre</option><option value="presidente-prudente">Presidente Prudente</option><option value="quatro-barras">Quatro Barras</option><option value="recife">Recife</option><option value="resende">Resende</option><option value="ribeirao-pires">Ribeirao Pires</option><option value="ribeirao-preto">Ribeirao Preto</option><option value="rio-branco">Rio Branco</option><option value="rio-das-pedras">Rio Das Pedras</option><option value="rio-de-janeiro">Rio De Janeiro</option><option value="sabara">Sabará</option><option value="sabaudia">Sabaudia</option><option value="salvador">Salvador</option><option value="santa-branca">Santa Branca</option><option value="santa-cruz-do-sul">Santa Cruz Do Sul</option><option value="santa-maria">Santa Maria</option><option value="santo-andre">Santo André</option><option value="santos">Santos</option><option value="sao-bento-do-sul">Sao Bento Do Sul</option><option value="sao-bernardo-do-campo">São Bernardo Do Campo</option><option value="sao-caetano-do-sul">Sao Caetano Do Sul</option><option value="sao-carlos">Sao Carlos</option><option value="sao-joao-de-meriti">Sao Joao De Meriti</option><option value="sao-jose-do-rio-preto">Sao Jose Do Rio Preto</option><option value="sao-jose-dos-campos">Sao Jose Dos Campos</option><option value="sao-jose-dos-pinhais">São José dos Pinhais</option><option value="sao-leopoldo">São Leopoldo</option><option value="sao-manuel">Sao Manuel</option><option value="sao-mateus-do-sul">Sao Mateus Do Sul</option><option value="sao-paulo">Sao Paulo</option><option value="sao-roque">Sao Roque</option><option value="sao-sebastiao-do-paraiso">São Sebastião Do Paraiso</option><option value="sao-vicente">Sao Vicente</option><option value="silvania">Silvania</option><option value="socorro">Socorro</option><option value="sorocaba">Sorocaba</option><option value="sumare">Sumaré</option><option value="taboao-da-serra">Taboao Da Serra</option><option value="tambau">Tambau</option><option value="tapejara">Tapejara</option><option value="taubate">Taubate</option><option value="telemaco-borba">Telemaco Borba</option><option value="teresina">Teresina</option><option value="teresopolis">Teresopolis</option><option value="teutonia">Teutônia</option><option value="timbo">Timbó</option><option value="tres-de-maio">Tres De Maio</option><option value="trombudo-central">Trombudo Central</option><option value="tucunduva">Tucunduva</option><option value="tupa">Tupa</option><option value="uberlandia">Uberlândia</option><option value="uruacu">Uruacu</option><option value="varginha">Varginha</option><option value="vila-velha">Vila Velha</option><option value="vinhedo">Vinhedo</option><option value="vista-alegre-do-alto">Vista Alegre Do Alto</option><option value="vitoria">Vitoria</option><option value="volta-redonda">Volta Redonda</option></select>
+     </div> 
+    </div> 
+   </div> 
+   <div class="col-md-9 no-padding"> 
+    <div class="row"> 
+     <div id="primary" class="content-area"> 
+      <main id="main" class="site-main" role="main"> 
+       <div class="alert-user"> 
+        <p>Mensagem</p> 
+        <button><i class="fa fa-times" aria-hidden="true"></i></button> 
+       </div> 
+       <div class="sort-product-top"> 
+        <div class="row"> 
+         <div class="col-xs-6 hidden-xs"> 
+          <p class="woocommerce-result-count"> Mostrando 709–720 de 827 resultados</p> 
+         </div> 
+         <div class="col-xs-12 col-sm-6"> 
+          <form class="woocommerce-ordering" method="get"> 
+           <select name="orderby" class="orderby"> <option value="popularity">Ordenar por popularidade</option> <option value="date" selected>Ordenar por mais novos</option> <option value="price">Ordenar por preço: menor para maior</option> <option value="price-desc">Ordenar por preço: maior para menor</option> </select> 
+          </form> 
+         </div> 
+        </div> 
+       </div> 
+       <ul class="products"> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Opala_-_Gian_Carlo_III-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Opala_-_Gian_Carlo_III-252x180.jpg" alt="CHEVROLET OPALA 1978" title="CHEVROLET OPALA 1978"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1978-9606/"><span class="sr-only">Fotos de CHEVROLET OPALA 1978</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/15_aDqf7qm-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/15_aDqf7qm-252x180.jpg" alt="CHEVROLET OPALA 1978" title="CHEVROLET OPALA 1978"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1978-9606/"><span class="sr-only">Fotos de CHEVROLET OPALA 1978</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20_Xao1CTw-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20_Xao1CTw-252x180.jpg" alt="CHEVROLET OPALA 1978" title="CHEVROLET OPALA 1978"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1978-9606/"><span class="sr-only">Fotos de CHEVROLET OPALA 1978</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/6_uImEEBF-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/6_uImEEBF-252x180.jpg" alt="CHEVROLET OPALA 1978" title="CHEVROLET OPALA 1978"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1978-9606/"><span class="sr-only">Fotos de CHEVROLET OPALA 1978</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1978-9606/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/chevrolet.png')"> 
+               <span class="sr-only">Marca para o veículo CHEVROLET OPALA 1978</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>CHEVROLET OPALA 1978</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1978</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Marcos</h5> 
+               <h5><i>Cidade: </i>Juiz De Fora - MG</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>18/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 78.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/fusca1_rscMQKm-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/fusca1_rscMQKm-252x180.jpg" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/10-252x180.gif');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/10-252x180.gif" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/PhotoGrid_1458271498138-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/PhotoGrid_1458271498138-252x180.jpg" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/2-252x180.gif');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/2-252x180.gif" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/5-252x180.gif');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/5-252x180.gif" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/fusca2_kgSDLWp-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/fusca2_kgSDLWp-252x180.jpg" alt="VOLKSWAGEN FUSCA 1960" title="VOLKSWAGEN FUSCA 1960"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1960</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1960-9605/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/volkswagen.png')"> 
+               <span class="sr-only">Marca para o veículo VOLKSWAGEN FUSCA 1960</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>VOLKSWAGEN FUSCA 1960</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1960</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>José</h5> 
+               <h5><i>Cidade: </i>Florianópolis - SC</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>17/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 25.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_7_cM6yNXO-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_7_cM6yNXO-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_2-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_2-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_3_hVzhE20-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_3_hVzhE20-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_8-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_8-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_10-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_10-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_11-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/Corcel_11-252x180.jpg" alt="FORD CORCEL 1 1972" title="FORD CORCEL 1 1972"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"><span class="sr-only">Fotos de FORD CORCEL 1 1972</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/ford-corcel-1-1972-9604/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/ford.png')"> 
+               <span class="sr-only">Marca para o veículo FORD CORCEL 1 1972</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>FORD CORCEL 1 1972</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1972</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>valdir</h5> 
+               <h5><i>Cidade: </i>Curitiba - PR</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>17/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 30.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307_1625411-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307_1625411-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160305_1605041-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160305_1605041-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160306_1132351-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160306_1132351-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160118-WA00031-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160118-WA00031-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160118-WA00041-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160118-WA00041-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160307-WA00171-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/IMG-20160307-WA00171-252x180.jpg" alt="MP LAFER CLASSICO 1974" title="MP LAFER CLASSICO 1974"> 
+             <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"><span class="sr-only">Fotos de MP LAFER CLASSICO 1974</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/mp-lafer-classico-1974-9601/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/mp_lafer.png')"> 
+               <span class="sr-only">Marca para o veículo MP LAFER CLASSICO 1974</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>MP LAFER CLASSICO 1974</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1974</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>willian</h5> 
+               <h5><i>Cidade: </i>Campo Grande - MS</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>17/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 35.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1391-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1391-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1385-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1385-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1387-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1387-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1388-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1388-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_11386-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_11386-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1396-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/rsz_1396-252x180.jpg" alt="VOLKSWAGEN FUSCA 1975" title="VOLKSWAGEN FUSCA 1975"> 
+             <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"><span class="sr-only">Fotos de VOLKSWAGEN FUSCA 1975</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/volkswagen-fusca-1975-9599/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/volkswagen.png')"> 
+               <span class="sr-only">Marca para o veículo VOLKSWAGEN FUSCA 1975</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>VOLKSWAGEN FUSCA 1975</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1975</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Rodolfo</h5> 
+               <h5><i>Cidade: </i>Taboao Da Serra - SP</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>16/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 5.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/725505015643448_Z5bBnkx-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/725505015643448_Z5bBnkx-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/726505014166767-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/726505014166767-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20140801_175140-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20140801_175140-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20150710_122925-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20150710_122925-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20150710_122933-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20150710_122933-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/P9110022_O6551ey-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/P9110022_O6551ey-252x180.jpg" alt="OPEL OLYMPIA 1968" title="OPEL OLYMPIA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"><span class="sr-only">Fotos de OPEL OLYMPIA 1968</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/opel-olympia-1968-9597/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/opel.png')"> 
+               <span class="sr-only">Marca para o veículo OPEL OLYMPIA 1968</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>OPEL OLYMPIA 1968</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1968</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Helcio</h5> 
+               <h5><i>Cidade: </i>Curitiba - PR</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>16/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 33.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <!--<div class="picture" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/DSC02397_e62KVGG.JPG')">--> 
+          <div class="picture"> 
+           <img src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/DSC02397_e62KVGG-252x180.jpg"> 
+           <a href="https://www.webclassicos.com.br/produto/ford-belina-1988-9595/"> <span class="sr-only">FORD BELINA 1988</span> </a> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/ford-belina-1988-9595/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/ford.png')"> 
+               <span class="sr-only">Marca para o veículo FORD BELINA 1988</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>FORD BELINA 1988</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1988</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>MARCO</h5> 
+               <h5><i>Cidade: </i>Osasco - SP</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>14/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 15.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_IwvkxSn-252x180.jpeg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_IwvkxSn-252x180.jpeg" alt="FORD MUSTANG 1967" title="FORD MUSTANG 1967"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-mustang-1967-9593/"><span class="sr-only">Fotos de FORD MUSTANG 1967</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_TjWgaoI-252x180.jpeg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_TjWgaoI-252x180.jpeg" alt="FORD MUSTANG 1967" title="FORD MUSTANG 1967"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-mustang-1967-9593/"><span class="sr-only">Fotos de FORD MUSTANG 1967</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_kn5oIz1-252x180.jpeg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_kn5oIz1-252x180.jpeg" alt="FORD MUSTANG 1967" title="FORD MUSTANG 1967"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-mustang-1967-9593/"><span class="sr-only">Fotos de FORD MUSTANG 1967</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_MdUj9CM-252x180.jpeg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/image_MdUj9CM-252x180.jpeg" alt="FORD MUSTANG 1967" title="FORD MUSTANG 1967"> 
+             <a href="https://www.webclassicos.com.br/produto/ford-mustang-1967-9593/"><span class="sr-only">Fotos de FORD MUSTANG 1967</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/ford-mustang-1967-9593/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/ford.png')"> 
+               <span class="sr-only">Marca para o veículo FORD MUSTANG 1967</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>FORD MUSTANG 1967</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1967</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Ramon</h5> 
+               <h5><i>Cidade: </i>Sao Paulo - SP</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>13/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 169.999,99</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <!--<div class="picture" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/IMG-20160311-WA0059.jpg')">--> 
+          <div class="picture"> 
+           <img src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/IMG-20160311-WA0059-252x180.jpg"> 
+           <a href="https://www.webclassicos.com.br/produto/ford-f-75-1975-9587/"> <span class="sr-only">FORD F-75 1975</span> </a> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/ford-f-75-1975-9587/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/ford.png')"> 
+               <span class="sr-only">Marca para o veículo FORD F-75 1975</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>FORD F-75 1975</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1975</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>jose</h5> 
+               <h5><i>Cidade: </i>Itabuna - BA</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>12/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 27.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/foto1jeep-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/foto1jeep-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep6-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep6-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep2_pYR5sSt-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep2_pYR5sSt-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeepFotore1-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeepFotore1-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep5-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/jeep5-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/08/foto_re_4-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/08/foto_re_4-252x180.jpg" alt="WILLYS JEEP BERNARDAO 1962" title="WILLYS JEEP BERNARDAO 1962"> 
+             <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"><span class="sr-only">Fotos de WILLYS JEEP BERNARDAO 1962</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/willys-jeep-bernardao-1962-9584/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/willys.png')"> 
+               <span class="sr-only">Marca para o veículo WILLYS JEEP BERNARDAO 1962</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>WILLYS JEEP BERNARDAO 1962</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1962</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Gilson</h5> 
+               <h5><i>Cidade: </i>Sao Paulo - SP</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>10/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 35.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151117_185730_jl6xDNZ-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151117_185730_jl6xDNZ-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_105317_HSZKhqn-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_105317_HSZKhqn-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_105329_iYSQRdV-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_105329_iYSQRdV-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101809_6sSB38j-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101809_6sSB38j-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101511_D3fR3BB-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101511_D3fR3BB-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101522_kxG66pC-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20151025_101522_kxG66pC-252x180.jpg" alt="CHEVROLET OPALA 1992" title="CHEVROLET OPALA 1992"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"><span class="sr-only">Fotos de CHEVROLET OPALA 1992</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/chevrolet-opala-1992-9582/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/chevrolet.png')"> 
+               <span class="sr-only">Marca para o veículo CHEVROLET OPALA 1992</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>CHEVROLET OPALA 1992</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1992</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Ernesto</h5> 
+               <h5><i>Cidade: </i>Sao Paulo - SP</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>09/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 23.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+        <div class="col-sm-6 col-md-4"> 
+         <div class="product-content"> 
+          <div class="picture"> 
+           <div class="owl-carousel"> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170201-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170201-252x180.jpg" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170139-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170139-252x180.jpg" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307165752-252x180.png');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307165752-252x180.png" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170458-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170458-252x180.jpg" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170359-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307170359-252x180.jpg" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+            <!--<div class="item" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307165824-252x180.jpg');">--> 
+            <div class="item"> 
+             <img class="owl-lazy" data-src="https://www.webclassicos.com.br/wp-content/uploads/2017/07/20160307165824-252x180.jpg" alt="CHEVROLET IMPALA 1968" title="CHEVROLET IMPALA 1968"> 
+             <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"><span class="sr-only">Fotos de CHEVROLET IMPALA 1968</span></a> 
+            </div> 
+           </div> 
+          </div> 
+          <a href="https://www.webclassicos.com.br/produto/chevrolet-impala-1968-9580/"> 
+           <div class="content"> 
+            <div class="row"> 
+             <div class="col-xs-4"> 
+              <div class="marca" style="background-image: url('https://www.webclassicos.com.br/wp-content/uploads/2017/07/chevrolet.png')"> 
+               <span class="sr-only">Marca para o veículo CHEVROLET IMPALA 1968</span> 
+              </div> 
+             </div> 
+             <div class="col-xs-6"> 
+              <div class="title" style="margin-left: -30px;"> 
+               <h3>CHEVROLET IMPALA 1968</h3> 
+               <!-- <h4><span class="sr-only">Carro ano </span>1968</h4> --> 
+              </div> 
+             </div> 
+             <div class="col-xs-2 no-padding"> 
+             </div> 
+            </div> 
+            <div class="row"> 
+             <div class="infos"> 
+              <div class="col-sm-6 no-padding-right"> 
+               <h5><i>Vendedor: </i>Marco</h5> 
+               <h5><i>Cidade: </i>Blumenau - SC</h5> 
+              </div> 
+              <div class="col-sm-6"> 
+               <h5><i>Data da publicação: </i>08/03/2016</h5> 
+               <h5><i>Valor: </i><strong>R$ 150.000,00</strong></h5> 
+              </div> 
+             </div> 
+            </div> 
+           </div> </a> 
+         </div> 
+        </div> 
+       </ul> 
+       <div class="product-pagination"> 
+        <nav class="woocommerce-pagination"> 
+         <ul class="page-numbers"> 
+          <li><a class="prev page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/59/">←</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/1/">1</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/2/">2</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/3/">3</a></li> 
+          <li><span class="page-numbers dots">…</span></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/57/">57</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/58/">58</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/59/">59</a></li> 
+          <li><span class="page-numbers current">60</span></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/61/">61</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/62/">62</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/63/">63</a></li> 
+          <li><span class="page-numbers dots">…</span></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/67/">67</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/68/">68</a></li> 
+          <li><a class="page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/69/">69</a></li> 
+          <li><a class="next page-numbers" href="https://www.webclassicos.com.br/categoria-produto/carro/page/61/">→</a></li> 
+         </ul> 
+        </nav> 
+       </div> 
+      </main>
+     </div>
+    </div> 
+   </div> 
+  </div>  
+  <style>
+.product-search input[type="text"].product-search-field {
+width: 100% !important;
+}
+</style> 
+  <script src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/product-ajax.js"></script> 
+  <div class="quick-go"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-xs-4 col-sm-4"> 
+      <div class="quick-item"> 
+       <a href="https://www.webclassicos.com.br/categoria-produto/carro/"> 
+        <div class="picture"> 
+         <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/carro.png" alt="Carros"> 
+        </div> <h2>Carros</h2> </a> 
+      </div> 
+     </div> 
+     <div class="col-xs-4 col-sm-4"> 
+      <div class="quick-item"> 
+       <a href="https://www.webclassicos.com.br/categoria-produto/moto/"> 
+        <div class="picture"> 
+         <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/moto2.png" alt="Motos"> 
+        </div> <h2>Motos</h2> </a> 
+      </div> 
+     </div> 
+     <div class="col-xs-4 col-sm-4"> 
+      <div class="quick-item"> 
+       <a href="https://www.webclassicos.com.br/classificados/?filtering=1&amp;filter_tipo-de-placa=placa-preta"> 
+        <div class="picture"> 
+         <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/carro-antigo.png" alt="Placa Preta"> 
+        </div> <h2>Placa Preta</h2> </a> 
+      </div> 
+     </div> 
+     <!--
+<div class="hidden-xs col-sm-3">
+<div class="quick-item all">
+<a href="https://www.webclassicos.com.br/classificados/">
+<h2>Ver Todos</h2>
+</a>
+</div>
+</div> --> 
+     <a class="btn-principal hidden-md hidden-lg" href="https://www.webclassicos.com.br/criar-anuncio/">Crie seu anúncio</a> 
+     <a class="go-to hidden-md hidden-lg" href="https://www.webclassicos.com.br/modalidade-lojistas/">Lojista, anuncie todos os seus clássicos</a> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="advertisement-desktop hidden-xs hidden-sm"> 
+   <div class="container"> 
+    <div class="col-sm-6 col-lg-4"> 
+     <div class="content"> 
+      <h2>Tem um clássico<br> e quer anunciar?</h2> 
+      <p>Aqui o pagamento é único e seu anúncio fica publicado até vender</p> 
+     </div> 
+    </div> 
+    <div class="hidden-md col-lg-5"> 
+     <img class="advertisement-image" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/mancar.png" alt="Criar anúncio"> 
+    </div> 
+    <div class="col-sm-6 col-lg-3"> 
+     <div class="advertisement-links"> 
+      <button class="btn-secundario" onclick="location.href='https://www.webclassicos.com.br/criar-anuncio/'">Crie seu anúncio</button> 
+      <a href="https://www.webclassicos.com.br/modalidade-lojistas/">Lojista,anuncie todos<br>os seus clássicos</a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer> 
+   <div class="rede-sociais-desktop hidden-xs hidden-sm"> 
+    <div class="container"> 
+     <div class="col-md-8"> 
+      <h3><strong>Conecte-se!</strong> Fique por dentro de todas as novidades do WebClassicos.</h3> 
+     </div> 
+     <div class="col-md-4"> 
+      <div class="rede-sociais"> 
+       <ul> 
+        <li><a href="https://www.facebook.com/webclassicos" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+        <li><a href="https://www.instagram.com/webclassicos.com.br/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container"> 
+    <div class="rede-sociais hidden-md hidden-lg"> 
+     <ul> 
+      <li><a href="https://www.facebook.com/webclassicos"><i class="fa fa-facebook" aria-hidden="true"></i></a></li> 
+      <li><a href="https://www.instagram.com/webclassicos.com.br/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+     </ul> 
+    </div> 
+    <div class="aviso"> 
+     <p> AVISO:<br> </p>
+     <p>O WebClassicos apenas disponibiliza espaço para divulgação de anúncios de motos e carros antigos, não participando das negociações. Fique atento e evite fraudes.</p> 
+     <p></p> 
+    </div> 
+    <div class="menus-fast"> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>WebClassicos</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/classificados">Classificados</a></li> 
+       <li><a href="https://www.webclassicos.com.br/quem-somos">Quem Somos</a></li> 
+       <li><a href="https://www.webclassicos.com.br/galeria">Galeria</a></li> 
+       <li><a href="https://www.webclassicos.com.br/blog">Blog</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>Institucional</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/dicas-de-compra">Dicas de compra</a></li> 
+       <li><a href="https://www.webclassicos.com.br/dicas-de-venda">Dicas de venda</a></li> 
+       <li><a href="https://www.webclassicos.com.br/como-anunciar-seu-classico">Como anunciar</a></li> 
+       <li><a href="https://www.webclassicos.com.br/perguntas-frequentes">FAQ</a></li> 
+       <li><a href="https://www.webclassicos.com.br/contato">Contato</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-xs-6 col-sm-3"> 
+      <h3>Lojistas</h3> 
+      <ul> 
+       <li><a href="https://www.webclassicos.com.br/modalidade-lojistas">Planos e Preços</a></li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div class="terms"> 
+     <a href="https://www.webclassicos.com.br"> <img src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/images/webClassicos/Logo.svg" alt="WebClássicos"> </a> 
+     <div class="content"> 
+      <p>O uso deste site está sujeito aos termos e condições do&nbsp;<a href="https://www.webclassicos.com.br/termos-de-uso/">Termos de Uso</a>&nbsp;e&nbsp;<a href="https://www.webclassicos.com.br/politica-de-privacidade/">Política de privacidade</a>.</p> 
+      <p>© Webclassicos. Todos os direitos reservados.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script src="https://use.fontawesome.com/35e17c9b31.js" async></script> 
+  <!-- Hotjar Tracking Code for https://www.webclassicos.com.br/ --> 
+  <!-- <script>
+(function(h,o,t,j,a,r){
+h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+h._hjSettings={hjid:594768,hjsv:5};
+a=o.getElementsByTagName('head')[0];
+r=o.createElement('script');r.async=1;
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script> --> 
+  <!-- Start of CartStack API Script --> 
+  <script src="https://app.cartstack.com/br/activeAPI/load.js" type="text/javascript"></script> 
+  <!-- End of CartStack API Script --> 
+  <svg id="html-svg" style="display:none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> 
+   <symbol id="icon-mentores" viewbox="0 0 30 32"> 
+    <title>mentores</title> 
+    <path class="path1" d="M29.603 0v9.078l-6.429-9.078h-0.687v9.498h-6.964v-4.317h5.839v-0.637h-5.839v-3.906h6.209v-0.637h-6.936l-6.455 9.066v-9.066h-0.81l-7.531 10.136h0.726l6.951-9.109v9.109h0.74l6.464-9.074v9.074h8.243v-9.077l6.43 9.077h0.687v-10.135h-0.638zM7.311 0.906l0.403-0.541h0.011l-0.414 0.541z"></path> 
+    <path class="path2" d="M3.317 11.445h4.339v9.498h0.638v-9.498h4.159v-0.637h-9.136z"></path> 
+    <path class="path3" d="M11.459 15.875c0 0.71 0.102 1.391 0.303 2.026 0.202 0.64 0.503 1.207 0.894 1.688 0.394 0.484 0.889 0.872 1.472 1.152s1.262 0.421 2.015 0.421c0.754 0 1.432-0.142 2.015-0.421s1.079-0.667 1.473-1.152c0.391-0.481 0.692-1.048 0.894-1.688 0.201-0.636 0.303-1.317 0.303-2.026s-0.102-1.39-0.303-2.026c-0.202-0.639-0.503-1.207-0.894-1.688-0.394-0.484-0.888-0.873-1.471-1.158-0.584-0.284-1.262-0.428-2.017-0.428s-1.432 0.144-2.016 0.428c-0.583 0.285-1.078 0.674-1.471 1.158-0.392 0.481-0.693 1.049-0.895 1.688-0.201 0.635-0.303 1.317-0.303 2.026zM12.396 13.989c0.188-0.568 0.458-1.064 0.802-1.473 0.341-0.406 0.764-0.728 1.258-0.958s1.061-0.345 1.688-0.345c0.628 0 1.196 0.117 1.689 0.345 0.493 0.23 0.916 0.552 1.258 0.958 0.344 0.409 0.613 0.905 0.801 1.473 0.189 0.573 0.29 1.209 0.299 1.884-0.009 0.681-0.11 1.317-0.299 1.889-0.188 0.568-0.457 1.064-0.801 1.472-0.342 0.407-0.765 0.73-1.258 0.958-0.493 0.23-1.061 0.347-1.689 0.347s-1.195-0.117-1.688-0.347c-0.494-0.228-0.917-0.55-1.258-0.958-0.343-0.409-0.613-0.904-0.802-1.472-0.19-0.572-0.29-1.208-0.299-1.884 0.009-0.681 0.109-1.316 0.299-1.889z"></path> 
+    <path class="path4" d="M26.332 16.317c0.401-0.121 0.751-0.302 1.041-0.54 0.293-0.239 0.527-0.542 0.692-0.899 0.166-0.356 0.25-0.766 0.25-1.22 0-0.936-0.283-1.655-0.843-2.135-0.552-0.475-1.329-0.715-2.308-0.715h-3.495v10.136h0.638v-4.448h2.254l3.833 4.448h0.842l-3.844-4.461c0.335-0.023 0.649-0.079 0.939-0.166zM22.307 15.858v-4.413h2.857c0.86 0 1.503 0.191 1.909 0.568 0.402 0.373 0.605 0.926 0.605 1.645 0 0.355-0.063 0.669-0.188 0.936s-0.299 0.496-0.52 0.684c-0.222 0.189-0.489 0.334-0.793 0.43-0.309 0.099-0.649 0.149-1.012 0.149h-2.857z"></path> 
+    <path class="path5" d="M21.287 27.324c-0.314-0.191-0.687-0.345-1.108-0.458-0.394-0.106-0.83-0.223-1.298-0.343-0.42-0.101-0.835-0.198-1.234-0.287-0.383-0.088-0.73-0.211-1.030-0.367-0.289-0.152-0.526-0.35-0.705-0.592-0.171-0.231-0.258-0.547-0.258-0.944 0-0.4 0.086-0.733 0.257-0.987 0.176-0.262 0.402-0.477 0.673-0.635 0.277-0.163 0.591-0.277 0.934-0.341 0.807-0.151 1.557-0.122 2.21 0.032 0.356 0.086 0.666 0.228 0.924 0.426 0.254 0.197 0.462 0.456 0.618 0.771 0.156 0.316 0.244 0.718 0.262 1.192l0.006 0.176h0.64l-0.009-0.191c-0.029-0.569-0.141-1.060-0.333-1.46-0.195-0.403-0.459-0.733-0.786-0.983-0.323-0.246-0.704-0.426-1.132-0.537-0.421-0.108-0.885-0.163-1.38-0.163-0.403 0-0.814 0.042-1.22 0.127-0.416 0.086-0.797 0.232-1.132 0.433-0.343 0.206-0.625 0.486-0.84 0.833-0.219 0.351-0.329 0.791-0.329 1.308 0 0.508 0.107 0.93 0.316 1.255 0.207 0.32 0.484 0.581 0.823 0.772 0.328 0.185 0.7 0.332 1.105 0.436 0.391 0.1 0.788 0.198 1.179 0.288 0.375 0.091 0.77 0.181 1.175 0.267 0.388 0.083 0.747 0.207 1.064 0.368 0.306 0.156 0.561 0.369 0.757 0.631 0.19 0.255 0.285 0.611 0.285 1.062 0 0.364-0.072 0.631-0.252 0.921-0.168 0.267-0.387 0.425-0.679 0.618-0.439 0.291-1.072 0.384-1.542 0.414h-10.957v-4.317h5.843v-0.637h-5.843v-3.906h6.213v-0.637h-6.85v10.135l11.152-0.001c0.35-0.006 1.676-0.061 2.382-0.55 0.348-0.243 0.631-0.455 0.845-0.804 0.23-0.377 0.328-0.742 0.328-1.223 0-0.541-0.098-0.981-0.292-1.31-0.192-0.325-0.455-0.591-0.781-0.789z"></path> 
+   </symbol> 
+   <symbol id="icon-cart" viewbox="0 0 40 32"> 
+    <title>cart</title> 
+    <path class="path1" d="M34.737 22.105h-18.947l-0.347-0.52-0.495 0.285-10.802-18.713h-4.145v-3.158h5.263l0.347 0.521 0.494-0.285 2.903 5.027h30.993l-5.263 16.842zM10.831 8.421l6.077 10.526h15.658l3.289-10.526h-25.024zM17.287 24.421c1.698 0 3.074 1.367 3.074 3.053s-1.377 3.053-3.074 3.053c-1.697 0-3.074-1.367-3.074-3.053 0-1.686 1.377-3.053 3.074-3.053v0zM30.637 24.421c1.698 0 3.074 1.367 3.074 3.053s-1.377 3.053-3.074 3.053c-1.697 0-3.074-1.367-3.074-3.053 0-1.686 1.376-3.053 3.074-3.053v0z"></path> 
+   </symbol> 
+   <symbol id="icon-search" viewbox="0 0 32 32"> 
+    <title>search</title> 
+    <path fill="#fff" style="fill: var(--color1, #fff)" d="M30.978 29.147l-7.616-7.921c1.958-2.328 3.031-5.257 3.031-8.306 0-7.124-5.796-12.92-12.92-12.92s-12.92 5.796-12.92 12.92 5.796 12.92 12.92 12.92c2.674 0 5.223-0.807 7.402-2.338l7.674 7.981c0.321 0.333 0.752 0.517 1.214 0.517 0.438 0 0.853-0.167 1.168-0.47 0.67-0.644 0.691-1.713 0.047-2.383zM13.473 3.37c5.266 0 9.55 4.284 9.55 9.55s-4.284 9.55-9.55 9.55-9.55-4.284-9.55-9.55 4.284-9.55 9.55-9.55z"></path> 
+   </symbol> 
+   <symbol id="icon-close" viewbox="0 0 32 32"> 
+    <title>close</title> 
+    <path fill="#fff" style="fill: var(--color1, #fff)" d="M20.603 16.511c-0.292-0.292-0.292-0.731 0-1.023l10.959-10.959c0.292-0.292 0.438-0.731 0.438-1.023s-0.146-0.731-0.438-1.023l-2.046-2.046c-0.292-0.292-0.731-0.438-1.023-0.438-0.438 0-0.731 0.146-1.023 0.438l-10.959 10.959c-0.292 0.292-0.731 0.292-1.023 0l-10.959-10.959c-0.292-0.292-0.731-0.438-1.023-0.438s-0.731 0.146-1.023 0.438l-2.046 2.046c-0.292 0.292-0.438 0.731-0.438 1.023s0.146 0.731 0.438 1.023l10.959 10.959c0.292 0.292 0.292 0.731 0 1.023l-10.959 10.959c-0.292 0.292-0.438 0.731-0.438 1.023s0.146 0.731 0.438 1.023l2.046 2.046c0.292 0.292 0.731 0.438 1.023 0.438s0.731-0.146 1.023-0.438l10.959-10.959c0.292-0.292 0.731-0.292 1.023 0l10.959 10.959c0.292 0.292 0.731 0.438 1.023 0.438s0.731-0.146 1.023-0.438l2.046-2.046c0.292-0.292 0.438-0.731 0.438-1.023s-0.146-0.731-0.438-1.023l-10.959-10.959z"></path> 
+   </symbol> 
+  </svg> 
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@graph":[{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-opala-1978-9606\/","url":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-opala-1978-9606\/","name":"CHEVROLET OPALA 1978"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/volkswagen-fusca-1960-9605\/","url":"https:\/\/www.webclassicos.com.br\/produto\/volkswagen-fusca-1960-9605\/","name":"VOLKSWAGEN FUSCA 1960"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/ford-corcel-1-1972-9604\/","url":"https:\/\/www.webclassicos.com.br\/produto\/ford-corcel-1-1972-9604\/","name":"FORD CORCEL 1 1972"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/mp-lafer-classico-1974-9601\/","url":"https:\/\/www.webclassicos.com.br\/produto\/mp-lafer-classico-1974-9601\/","name":"MP LAFER CLASSICO 1974"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/volkswagen-fusca-1975-9599\/","url":"https:\/\/www.webclassicos.com.br\/produto\/volkswagen-fusca-1975-9599\/","name":"VOLKSWAGEN FUSCA 1975"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/opel-olympia-1968-9597\/","url":"https:\/\/www.webclassicos.com.br\/produto\/opel-olympia-1968-9597\/","name":"OPEL OLYMPIA 1968"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/ford-belina-1988-9595\/","url":"https:\/\/www.webclassicos.com.br\/produto\/ford-belina-1988-9595\/","name":"FORD BELINA 1988"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/ford-mustang-1967-9593\/","url":"https:\/\/www.webclassicos.com.br\/produto\/ford-mustang-1967-9593\/","name":"FORD MUSTANG 1967"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/ford-f-75-1975-9587\/","url":"https:\/\/www.webclassicos.com.br\/produto\/ford-f-75-1975-9587\/","name":"FORD F-75 1975"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/willys-jeep-bernardao-1962-9584\/","url":"https:\/\/www.webclassicos.com.br\/produto\/willys-jeep-bernardao-1962-9584\/","name":"WILLYS JEEP BERNARDAO 1962"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-opala-1992-9582\/","url":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-opala-1992-9582\/","name":"CHEVROLET OPALA 1992"},{"@type":"Product","@id":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-impala-1968-9580\/","url":"https:\/\/www.webclassicos.com.br\/produto\/chevrolet-impala-1968-9580\/","name":"CHEVROLET IMPALA 1968"}]}</script>
+  <!-- <link rel='stylesheet' id='product-search-css'  href='https://www.webclassicos.com.br/wp-content/plugins/woocommerce-product-search/css/product-search.css' type='text/css' media='all' /> --> 
+  <link rel="stylesheet" type="text/css" href="//www.webclassicos.com.br/wp-content/cache/wpfc-minified/806e4315c00fed7da98f70e9b4273e58/1506639439index.css" media="all"> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/categoria-produto\/carro\/page\/60\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Ver carrinho","cart_url":"https:\/\/www.webclassicos.com.br\/carrinho\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js"></script> 
+  <script type="text/javascript" src="//www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js"></script> 
+  <script type="text/javascript" src="//www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/categoria-produto\/carro\/page\/60\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/categoria-produto\/carro\/page\/60\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="//www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wp = {"ajax":"https:\/\/www.webclassicos.com.br\/wp-admin\/admin-ajax.php","api":"https:\/\/www.webclassicos.com.br\/wp-json\/"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/functions.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/waypoints.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/owl.carousel.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/smoothScroll.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/jquery-mask.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/modernizr.custom.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/mentores/assets/js/jquery.dlmenu.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/navigation.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/skip-link-focus-fix.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/lazy-load/js/jquery.sonar.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/lazy-load/js/lazy-load.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/themes/storefront/assets/js/woocommerce/header-cart.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/wp-embed.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/woocommerce-product-search/js/jquery.typewatch.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/woocommerce-product-search/js/product-search.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/jquery/ui/core.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/jquery/ui/widget.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/jquery/ui/mouse.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-includes/js/jquery/ui/slider.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/jquery-ui-touch-punch/jquery-ui-touch-punch.min.js"></script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/accounting/accounting.min.js"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var woocommerce_price_slider_params = {"min_price":"","max_price":"","currency_format_num_decimals":"0","currency_format_symbol":"R$","currency_format_decimal_sep":",","currency_format_thousand_sep":".","currency_format":"%s%v"};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://www.webclassicos.com.br/wp-content/plugins/woocommerce/assets/js/frontend/price-slider.min.js"></script> 
+  <!-- WooCommerce JavaScript --> 
+  <script type="text/javascript">
+jQuery(function($) { 
+jQuery( '.dropdown_layered_nav_marca' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_marca=' + slug;
+});
+jQuery( '.dropdown_layered_nav_marca-moto' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_marca-moto=' + slug;
+});
+jQuery( '.dropdown_layered_nav_modelo' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_modelo=' + slug;
+});
+jQuery( '.dropdown_layered_nav_modelo-motos' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_modelo-motos=' + slug;
+});
+jQuery( '.dropdown_layered_nav_ano' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_ano=' + slug;
+});
+jQuery( '.dropdown_layered_nav_marca' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_marca=' + slug;
+});
+jQuery( '.dropdown_layered_nav_marca-moto' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_marca-moto=' + slug;
+});
+jQuery( '.dropdown_layered_nav_modelo' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_modelo=' + slug;
+});
+jQuery( '.dropdown_layered_nav_modelo-motos' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_modelo-motos=' + slug;
+});
+jQuery( '.dropdown_layered_nav_ano' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_ano=' + slug;
+});
+jQuery( '.dropdown_layered_nav_tipo-de-placa' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_tipo-de-placa=' + slug;
+});
+jQuery( '.dropdown_layered_nav_estado' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_estado=' + slug;
+});
+jQuery( '.dropdown_layered_nav_local' ).change( function() {
+var slug = jQuery( this ).val();
+location.href = '/categoria-produto/carro/?filtering=1&filter_local=' + slug;
+});
+});
+</script> 
+  <!-- WP Fastest Cache file was created in 0.75389289855957 seconds, on 15-10-17 17:08:42 -->
+  <!-- via php -->
+ </body>
+</html>

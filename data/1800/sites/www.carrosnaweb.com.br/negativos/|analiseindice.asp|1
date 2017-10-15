@@ -1,0 +1,481 @@
+<html>
+ <head> 
+  <title>Avalia��o de Carros, Cronologia, Pontos Positivos e Negativos - A Hist�ria dos Principais Carros Brasileiros</title> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O Site de Carros Usados e Novos do Brasil"> </map>
+  <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+   <!-- barra superior --> 
+   <style>  
+.inputPesquisa
+{
+    BORDER-RIGHT: gray 0px solid;
+    BORDER-TOP: gray 0px solid;
+    BORDER-LEFT: gray 0px solid;
+    BORDER-BOTTOM: gray 0px solid;
+    font-size: 13px; 
+    padding-left:22px;     /* Largura da imagem */  
+    padding-top:1px;       /* S� pra centralizar o texto verticalmente j� que a altura da imagem � de 25px */  
+    height:21px;           /* O padding influencia no tamanho do componente (� como se fosse 20px + 5px da altura) */  
+    background-image:url(imgsite/icone-lupa.gif);  
+    background-repeat:no-repeat;   /* Para n�o repetir o background ao longo de topo o componente */  
+	background-position: 5px 5px;
+}  
+</style> 
+   <tbody>
+    <tr>  
+     <td width="5"></td> 
+     <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.png" border="0" usemap="#principal"> </td> 
+     <td align="right" valign="center"> <br> 
+      <form action="busca.asp" method="get" id="formbusca" name="formbusca" onsubmit="var result=checaformbusca(); return result;"> 
+       <input class="inputPesquisa" id="busca" name="busca" size="25" onkeypress="event.returnValue=Aspas(event.keyCode);"> 
+       <input type="submit" value="Buscar" id="btbuscar" name="btbuscar" size="3" title="Procure carros"> 
+      </form> </td> 
+     <td width="30"></td> 
+    </tr> 
+    <script language="JavaScript">
+<!--
+	function checaformbusca()
+	{
+		var erro="";
+		if (window.document.formbusca.busca.value == "")
+		{
+			erro += "Favor digitar um modelo ou um fabricante.";
+		}
+		if (erro == "")
+		{
+			return true
+		}
+		else
+		{
+			alert (erro);
+			window.document.formbusca.busca.focus();
+			return false;
+		}
+	}
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}
+//-->
+</script> 
+   </tbody>
+  </table> 
+  <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="White" width="980"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="darkkhaki" colspan="10" height="25"><font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp;<a href="default.asp"><font color="white">P�gina Principal</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="avancada.asp"><font color="white">Cat�logo</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="compara.asp"><font color="white">Comparativo</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="noticiaslista.asp"><font color="white">Not�cias</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="opiniao.asp"><font color="white">Opini�o do Dono</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="classificados.asp"><font color="white">Classificados</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="concessionarias.asp"><font color="white">Concession�rias</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="ranking.asp"><font color="white">Rankings</font></a><font color="white"> &nbsp;|&nbsp;&nbsp;<a href="proxlancamentos.asp"><font color="white">Pr�ximos Lan�amentos</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></font></td>
+    </tr> 
+    <tr> 
+     <td align="center" height="150" colspan="4" bgcolor="White"> 
+      <!-- Analise-banner-topo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322127,
+    "async": false});
+</script> </td>
+     <td> </td>
+    </tr> 
+   </tbody>
+  </table> 
+  <table cellspacing="0" cellpadding="10" border="0" align="center" bgcolor="White" width="980"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#ffffff" height="300" align="center" valign="top" width="60%"> <font style="font-size: 18px; font-family:arial; color:darkred;"><br> Avalia��o de carros <font style="font-size: 13px; font-family:arial; color:black;"><br> <br><br> &nbsp;&nbsp;&nbsp;Conhe�a a hist�ria, cronologia, lan�amento, s�ries especiais, pontos positivos, pontos negativos, desvaloriza��o, tend�ncia, �ndice de roubo, unidades vendidas e os concorrentes dos principais carros do mercado brasileiro. <br><br><br> 
+        <form method="post" id="form1" name="form1"> 
+         <font style="font-size: 1px;"><br><br></font> 
+         <input type="hidden" name="valor" id="valor" value="Todos"> 
+         <input type="hidden" name="anofab" id="anofab" value="1941"> 
+         <input type="hidden" name="combustivel" id="combustivel" value="Todos"> 
+         <input type="hidden" name="estado" id="estado" value="Todos"> 
+         <table> 
+          <tbody>
+           <tr> 
+            <td align="right"> <font face="arial" size="2" color="darkred"> <b>Fabricante</b> </font></td> 
+            <td> <select name="fabricante" onchange="MandaID(this.value,'exibe_modelo','modelo',1)" id="fabricante"> <option value="-1">Selecione</option> <option value="115">Adamo</option> <option value="1">Agrale</option> <option value="2">Alfa Romeo</option> <option value="109">Ariel</option> <option value="3">Asia</option> <option value="85">Aston Martin</option> <option value="4">Audi</option> <option value="84">Bentley</option> <option value="114">Bianco</option> <option value="5">BMW</option> <option value="86">Bugatti</option> <option value="100">Cadillac</option> <option value="110">Caterham</option> <option value="93">CBT</option> <option value="7">Chana</option> <option value="74">Changan</option> <option value="8">Chery</option> <option value="9">Chevrolet</option> <option value="10">Chrysler</option> <option value="11">Citroen</option> <option value="73">Cross Lander</option> <option value="12">Daewoo</option> <option value="14">Daihatsu</option> <option value="98">DeLorean</option> <option value="16">Dodge</option> <option value="17">Effa</option> <option value="92">Engesa</option> <option value="76">Envemo</option> <option value="107">Farus</option> <option value="18">Ferrari</option> <option value="19">Fiat</option> <option value="20">Ford</option> <option value="87">Geely</option> <option value="22">Gurgel</option> <option value="23">Hafei</option> <option value="96">Hennessey</option> <option value="26">Honda</option> <option value="94">Hummer</option> <option value="27">Hyundai</option> <option value="101">Infiniti</option> <option value="29">Iveco</option> <option value="30">JAC</option> <option value="31">Jaguar</option> <option value="32">Jeep</option> <option value="71">Jinbei</option> <option value="33">JPX</option> <option value="36">Kia</option> <option value="95">Koenigsegg</option> <option value="108">KTM</option> <option value="37">Lada</option> <option value="38">Lamborghini</option> <option value="39">Land Rover</option> <option value="40">Lexus</option> <option value="41">Lifan</option> <option value="90">Lobini</option> <option value="89">Lotus</option> <option value="42">Mahindra</option> <option value="44">Maserati</option> <option value="45">Mazda</option> <option value="88">McLaren</option> <option value="46">Mercedes-Benz</option> <option value="72">MG</option> <option value="47">Mini</option> <option value="48">Mitsubishi</option> <option value="49">Miura</option> <option value="50">Nissan</option> <option value="91">Pagani</option> <option value="52">Peugeot</option> <option value="102">Pontiac</option> <option value="53">Porsche</option> <option value="54">Puma</option> <option value="83">Rely</option> <option value="55">Renault</option> <option value="56">Rolls-Royce</option> <option value="57">Saab</option> <option value="113">Saleen</option> <option value="99">Santa Matilde</option> <option value="59">Seat</option> <option value="77">Shineray</option> <option value="60">Smart</option> <option value="61">Ssangyong</option> <option value="62">Subaru</option> <option value="64">Suzuki</option> <option value="75">TAC</option> <option value="97">Tesla</option> <option value="66">Toyota</option> <option value="65">Troller</option> <option value="67">Volkswagen</option> <option value="68">Volvo</option> <option value="69">Willys</option> </select> </td> 
+           </tr> 
+           <tr> 
+            <td align="right"> <font face="arial" size="2" color="darkred"> <b>Modelo</b> </font></td> 
+            <td> 
+             <div id="exibe_modelo">
+              <select id="modelo" onchange="javascript:document.location ='analise.asp?codigo='+document.form1.modelo.value"><option value=""></option></select>
+             </div> </td> 
+           </tr> 
+          </tbody>
+         </table> 
+        </form></font></font></td>  
+     <td bgcolor="#ffffff" align="center"> 
+      <!-- Analise-quadrado-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322130,
+    "async": false});
+</script> </td> 
+    </tr> 
+    <tr> 
+     <td bgcolor="#ffffff" colspan="2"> 
+      <table border="0" width="100%" cellpadding="5" cellspacing="0"> 
+       <tbody>
+        <tr> 
+         <td bgcolor="#ffffff" colspan="5"> <font style="font-size: 18px; font-family:arial; color:darkred;"> Buscar por fabricante 
+           <hr> </font></td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <table border="0" width="150" cellpadding="5">
+           <tbody>
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=115"><font color="black">Adamo</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=1"><font color="black">Agrale</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=2"><font color="black">Alfa Romeo</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=109"><font color="black">Ariel</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=3"><font color="black">Asia</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=85"><font color="black">Aston Martin</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=4"><font color="black">Audi</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=84"><font color="black">Bentley</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=114"><font color="black">Bianco</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=5"><font color="black">BMW</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=86"><font color="black">Bugatti</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=100"><font color="black">Cadillac</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=110"><font color="black">Caterham</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=93"><font color="black">CBT</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=7"><font color="black">Chana</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=74"><font color="black">Changan</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=8"><font color="black">Chery</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=9"><font color="black">Chevrolet</font></a><font color="black"> </font></font></td>
+            </tr> 
+           </tbody>
+          </table></td>
+         <td>
+          <table border="0" width="150" cellpadding="5">
+           <tbody>
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=10"><font color="black">Chrysler</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=11"><font color="black">Citroen</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=73"><font color="black">Cross Lander</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=12"><font color="black">Daewoo</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=14"><font color="black">Daihatsu</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=98"><font color="black">DeLorean</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=16"><font color="black">Dodge</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=17"><font color="black">Effa</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=92"><font color="black">Engesa</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=76"><font color="black">Envemo</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=107"><font color="black">Farus</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=18"><font color="black">Ferrari</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=19"><font color="black">Fiat</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=20"><font color="black">Ford</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=87"><font color="black">Geely</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=22"><font color="black">Gurgel</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=23"><font color="black">Hafei</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=96"><font color="black">Hennessey</font></a><font color="black"> </font></font></td>
+            </tr> 
+           </tbody>
+          </table></td>
+         <td>
+          <table border="0" width="150" cellpadding="5">
+           <tbody>
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=26"><font color="black">Honda</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=94"><font color="black">Hummer</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=27"><font color="black">Hyundai</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=101"><font color="black">Infiniti</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=29"><font color="black">Iveco</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=30"><font color="black">JAC</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=31"><font color="black">Jaguar</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=32"><font color="black">Jeep</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=71"><font color="black">Jinbei</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=33"><font color="black">JPX</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=36"><font color="black">Kia</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=95"><font color="black">Koenigsegg</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=108"><font color="black">KTM</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=37"><font color="black">Lada</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=38"><font color="black">Lamborghini</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=39"><font color="black">Land Rover</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=40"><font color="black">Lexus</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=41"><font color="black">Lifan</font></a><font color="black"> </font></font></td>
+            </tr> 
+           </tbody>
+          </table></td>
+         <td>
+          <table border="0" width="150" cellpadding="5">
+           <tbody>
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=90"><font color="black">Lobini</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=89"><font color="black">Lotus</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=42"><font color="black">Mahindra</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=44"><font color="black">Maserati</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=45"><font color="black">Mazda</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=88"><font color="black">McLaren</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=46"><font color="black">Mercedes-Benz</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=72"><font color="black">MG</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=47"><font color="black">Mini</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=48"><font color="black">Mitsubishi</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=49"><font color="black">Miura</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=50"><font color="black">Nissan</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=91"><font color="black">Pagani</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=52"><font color="black">Peugeot</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=102"><font color="black">Pontiac</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=53"><font color="black">Porsche</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=54"><font color="black">Puma</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=83"><font color="black">Rely</font></a><font color="black"> </font></font></td>
+            </tr> 
+           </tbody>
+          </table></td>
+         <td>
+          <table border="0" width="150" cellpadding="5">
+           <tbody>
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=55"><font color="black">Renault</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=56"><font color="black">Rolls-Royce</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=57"><font color="black">Saab</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=113"><font color="black">Saleen</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=99"><font color="black">Santa Matilde</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=59"><font color="black">Seat</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=77"><font color="black">Shineray</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=60"><font color="black">Smart</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=61"><font color="black">Ssangyong</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=62"><font color="black">Subaru</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=64"><font color="black">Suzuki</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=75"><font color="black">TAC</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=97"><font color="black">Tesla</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=66"><font color="black">Toyota</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=65"><font color="black">Troller</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=67"><font color="black">Volkswagen</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=68"><font color="black">Volvo</font></a><font color="black"> </font></font></td>
+            </tr> 
+            <tr>
+             <td width="20%"> <font style="font-size: 15px; font-family:arial; color:black;"> <a href="analisefabricante.asp?fabricante=69"><font color="black">Willys</font></a><font color="black"> </font></font></td>
+            </tr> 
+           </tbody>
+          </table> </td>
+        </tr> 
+        <tr> 
+         <td colspan="5" align="center"> <br> <font size="2" color="gray" face="arial">&nbsp;Indique esta p�gina para seus amigos: <a href="javascript:MM_openBrWindow('amigo.asp?pagina=http://www.carrosnaweb.com.br/analiseindice.asp','popup','toolbar=no,menubar=no,scrollbars=no,resizable=no,status=no,width=640,height=500,top=0,left=150')" title="Indique esta p�gina"><img src="imgsite/ico_carta.gif" border="0"></a> <a href="http://www.facebook.com/sharer.php?u=http://www.carrosnaweb.com.br/analiseindice.asp" target="_blank"><img src="imgsite/ico_face.gif" title="Facebook" border="0"></a> <a href="http://twitter.com/?status=Tudo%20sobre%20os%20carros%20do%20mercado%20brasileiros%20http://www.carrosnaweb.com.br/analiseindice.asp" target="_blank"><img src="imgsite/ico_twitter.gif" title="Twitter" border="0"></a> <a href="https://plus.google.com/share?url=http://www.carrosnaweb.com.br/analiseindice.asp" target="_blank"><img src="imgsite/ico_googleplus.gif" title="Google Plus" border="0"></a> <br><br><br> 
+           <table> 
+            <tbody>
+             <tr> 
+              <td width="330"> 
+               <!-- Analise-quadrado-conteudo --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322128,
+    "async": false});
+</script> </td> 
+              <td width="330"> 
+               <!-- Analise-quadrado-lateral --> <script type="text/javascript" src="//static.criteo.net/js/ld/publishertag.js"></script> <script type="text/javascript">
+Criteo.DisplayAd({
+    "zoneid": 322130,
+    "async": false});
+</script> </td> 
+             </tr> 
+            </tbody>
+           </table> <br> </font></td> 
+        </tr> 
+       </tbody>
+      </table> </td> 
+    </tr> 
+   </tbody>
+  </table> 
+  <table width="984" align="center"> 
+   <tbody>
+    <tr> 
+     <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="P�gina principal do site Carros na Web"><font color="white">P�gina Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Hist�rico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Pol�tica de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+    </tr> 
+   </tbody>
+  </table>   
+  <script src="scripts/ajaxanalise.js"></script> 
+ </body>
+</html>

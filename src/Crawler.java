@@ -27,12 +27,12 @@ public class Crawler {
 	
 	public static void main(String[] args) throws Exception {
 	
-		ArrayList<Pair> pos = readURLs("data/1800/positivosnovos");
-		craw("data/1800/sites", "positivos", pos);
+//		ArrayList<Pair> pos = readURLs("data/1800/positivos");
+//		craw("data/1800/sites", "positivos", pos);
 		
 		
-//		ArrayList<String> neg = readURLs("data/negativos");
-//		craw("data/sites_neg", "negativos", neg);
+		ArrayList<Pair> neg = readURLs("data/1800/negativos");
+		craw("data/1800/sites", "negativos", neg);
 		
 	}
 
@@ -41,7 +41,7 @@ public class Crawler {
 		int index = 0;
 		
 		for(Pair pair : pairs) {
-			System.out.println(pair);
+			
 		
 			Document doc = Jsoup.connect(pair.url).userAgent("Mozilla").get();		
 			
@@ -61,6 +61,9 @@ public class Crawler {
 			
 			File f = new File(folder);
 			f.mkdirs();
+			
+			System.out.println(folder + "/" + path);
+			System.out.println(pair.url);
 			
 			stringToFile(doc.toString(), folder + "/" + path);
 			

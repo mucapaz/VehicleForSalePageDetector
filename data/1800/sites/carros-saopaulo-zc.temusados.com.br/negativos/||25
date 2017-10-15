@@ -1,0 +1,1032 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="pt-br">
+ <!--<![endif]-->
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <meta http-equiv="cache-control" content="no-cache"> 
+  <meta http-equiv="cache-control" content="no-transform"> 
+  <!-- Adding a RenderSection here, mark it as not required--> 
+  <title>Tabela Fipe - Fundação Instituto de Pesquisas Econômicas - Fipe</title> 
+  <link rel="shortcut icon" href="http://www.fipe.org.br/Content/img/favicon.png" type="image/ico"> 
+  <!-- ICONS --> 
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.fipe.org.br/Content/img/modulos/actions/thumb_144x144.jpg"> 
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.fipe.org.br/Content/img/modulos/actions/thumb_114x114.jpg"> 
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.fipe.org.br/Content/img/modulos/actions/thumb_72x72.jpg"> 
+  <link rel="apple-touch-icon-precomposed" href="http://www.fipe.org.br/Content/img/modulos/actions/thumb_57x57.jpg"> 
+  <!-- Tile icon for Win8 (144x144 + tile color) --> 
+  <meta name="msapplication-TileImage" content="http://www.fipe.org.br/Content/img/modulos/actions/thumb_144x144.jpg"> 
+  <meta name="msapplication-TileColor" content="#222222"> 
+  <meta itemprop="name" content="Fipe - Fundação Instituto de Pesquisas Econômicas"> 
+  <meta itemprop="description" content="A Fipe tem atuação nas áreas de indicadores econômicos, ensino e projetos e pesquisa. Acesse e conheça o conteúdo informativo que o site oferece."> 
+  <meta itemprop="image" content="http://www.fipe.org.br/Content/img/modulos/actions/thumb_compartilhamento_facebook_320x320.jpg"> 
+  <meta property="og:title" content="Fipe - Fundação Instituto de Pesquisas Econômicas"> 
+  <meta property="og:description" content="A Fipe tem atuação nas áreas de indicadores econômicos, ensino e projetos e pesquisa. Acesse e conheça o conteúdo informativo que o site oferece."> 
+  <meta property="og:url" content="http://www.fipe.org.br/"> 
+  <meta property="og:image" content="http://www.fipe.org.br/Content/img/modulos/actions/thumb_compartilhamento_facebook_320x320.jpg"> 
+  <meta property="og:site_name" content="Fipe"> 
+  <meta property="og:type" content="website"> 
+  <!--[if lt IE 9]>
+        <script src="http://www.fipe.org.br/Content/js/css3-mediaqueries.js"></script>
+        <script src="http://www.fipe.org.br/Content/js/selectivizr-min.js"></script>
+    <![endif]--> 
+  <script type="text/javascript">
+        var siteUrl = 'http://veiculos.fipe.org.br'
+        var downloadURL = 'http://downloads.fipe.org.br'
+        var _urlPagina = 'http://veiculos.fipe.org.br/'
+        var urlApi = 'http://veiculos.fipe.org.br/api'
+        var secao = 'Pre&#231;o M&#233;dio de Ve&#237;culos'
+        var idiomaAtual = 'pt-br';
+    </script> 
+  <link rel="stylesheet" href="content/css/fonts.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/reset.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/normalize.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/main.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/vendor/jquery-ui.min.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/vendor/perfect-scrollbar.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/vendor/easydropdown.flat.css"> 
+  <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/vendor/jquery.mmenu.all.css"> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/jquery-1.11.0.min.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/traducoes.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/detectmobilebrowser.js"></script> 
+  <!--<script type="text/javascript" src="~/Content/js/modulos/jquery.mtz.monthpicker.js"></script>--> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/bigNumbers.min.js" async></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/perfect-scrollbar.with-mousewheel.min.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/jquery.easydropdown.min.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/jquery.mmenu.min.all.js"></script> 
+  <script type="text/javascript">
+
+        var _globalLink = '';
+        var _globalPageView = '';
+
+        var _dataaction = '';
+        var _pageview = '';
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-603584-2', 'fipe.org.br');
+
+    </script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/ga-1.0.min.js"></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/functions.min.js"></script> 
+  <!-- Imprime um JS antes do script de TAB--> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/tab.min.js" async></script> 
+  <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/modernizr-2.8.3.js" async></script> 
+ </head> 
+ <body> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJH8WQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJH8WQ');</script> 
+  <!-- End Google Tag Manager --> 
+  <div class="wrapper"> 
+   <div id="mobile"></div> 
+   <header id="header_main"> 
+    <section> 
+     <div class="fLeft"> 
+      <figure id="logo"> 
+       <a href="http://www.fipe.org.br/pt-br/home"> <img src="http://www.fipe.org.br/Content/img/logo_fipe.png" alt=""> </a> 
+       <figcaption>
+         fundação instituto de pesquisas econômicas 
+       </figcaption> 
+       <div class="clear"></div> 
+      </figure> 
+     </div> 
+     <div class="fRight"> 
+      <div id="search"> 
+       <input type="submit" class="btn_search"> 
+       <input type="reset" class="btn_reset"> 
+       <form action="http://www.fipe.org.br/pt-br/busca" id="frmBusca" method="post" name="frmBusca" onsubmit="return false;"> 
+        <div class="inputTxt"> 
+         <input name="__RequestVerificationToken" type="hidden" value="k9HNxc-yJOmfuSfonEe7j1BzSw49mdfF8OZF73AllFXTDukVUa8kuuEJC8hOVR7r6B_VBL2wu5pMD1c2gtRijYYM77TLpZKF1qvtR93I-lw1"> 
+         <input maxlength="100" type="text" placeholder="busca" id="textoBusca" name="textoBusca" autocomplete="off"> 
+         <input type="hidden" name="pg" id="pg" value="0"> 
+        </div> 
+       </form> 
+      </div> 
+      <div class="clear clear_social"></div> 
+      <div class="social"> 
+       <ul> 
+        <li> 
+         <div class="button"> 
+          <a data-ga="social" data-network="Twitter" data-action="share" data-target="http://www.fipe.org.br/pt-br/indices/veiculos/" href="https://twitter.com/intent/tweet?text=A Fipe tem atuação nas áreas de indicadores econômicos, ensino e projetos e pesquisa. Acesse&amp;url=http://www.fipe.org.br/pt-br/home&amp;related=" target="_blank"> <img src="http://www.fipe.org.br/Content/img/buttons/social/btn_twitter.png"> </a> 
+         </div> </li> 
+        <li> 
+         <div class="button"> 
+          <a data-ga="social" data-network="Facebook" data-action="share" data-target="http://www.fipe.org.br/pt-br/indices/veiculos/" href="https://www.facebook.com/sharer/sharer.php?u=http://www.fipe.org.br/pt-br/home&amp;display=popup" target="_blank"> <img src="http://www.fipe.org.br/Content/img/buttons/social/btn_face.png"> </a> 
+         </div> </li> 
+        <li> 
+         <div class="button"> 
+          <a data-ga="social" data-network="g+" data-action="share" data-target="http://www.fipe.org.br/pt-br/indices/veiculos/" href="https://plus.google.com/share?url=http://www.fipe.org.br/pt-br/home" target="_blank"> <img src="http://www.fipe.org.br/Content/img/buttons/social/btn_google.png"> </a> 
+         </div> </li> 
+        <div class="clear"></div> 
+       </ul> 
+      </div> 
+      <div id="idioma"> 
+       <div class="lg en_us active"> 
+        <a href="http://www.fipe.org.br/pt-br/home"> PT </a> 
+       </div> 
+       <div class="lg pt_br "> 
+        <a href="http://www.fipe.org.br/en-us/home"> EN </a> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+     <div class="clear"></div> 
+    </section> 
+   </header> 
+   <header id="header_mobile"> 
+    <a id="linkMenu" href="#menuMobile"><img src="http://www.fipe.org.br/Content/img/mobile/bg-link-menu.gif" alt="Menu"></a> 
+    <figure id="logo"> 
+     <a href="http://www.fipe.org.br/pt-br/home"><img src="http://www.fipe.org.br/Content/img/mobile/logo-fipe.gif" alt="FIPE"></a> 
+    </figure> 
+    <a id="linkSearch" href="#"><img src="http://www.fipe.org.br/Content/img/mobile/link-search.png" alt="Busca"></a> 
+    <div id="idioma"> 
+     <div class="lg en_us active"> 
+      <a href="http://www.fipe.org.br/pt-br/home"> PT </a> 
+     </div> 
+     <div class="lg pt_br "> 
+      <a href="http://www.fipe.org.br/en-us/home"> EN </a> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+    <div id="search_mobile"> 
+     <form action="http://www.fipe.org.br/pt-br/busca" id="frmBusca" method="post" name="frmBusca"> 
+      <div class="inputTxt"> 
+       <input name="__RequestVerificationToken" type="hidden" value="9dSIBfleMZXMibTndPAS_PJQsaqD4tSvFKflU7K5ekjuCOfBUzQlv8HxWzXPAUPFK_acVR-u_WpNLDfrMrFO_3ckuON18H0UA6wzxuO_Bj41"> 
+       <input maxlength="100" type="text" id="textoBusca" name="textoBusca" autocomplete="off"> 
+       <input type="hidden" name="pg" id="pg" value="0"> 
+      </div> 
+     </form> 
+    </div> 
+   </header> 
+   <nav id="principal"> 
+    <ul> 
+     <li> <a href="http://www.fipe.org.br/pt-br/indices" data-ga data-category="menu_superior" data-action="clique" data-label="indices" data-slug="indices"> 
+       <figure class="ico"> 
+        <img src="http://www.fipe.org.br/Content/img/nav/ico/indices.png" alt=""> 
+       </figure> Índices e Indicadores </a> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/ensino" data-ga data-category="menu_superior" data-action="clique" data-label="ensino" data-slug="ensino"> 
+       <figure class="ico"> 
+        <img src="http://www.fipe.org.br/Content/img/nav/ico/ensino.png" alt=""> 
+       </figure> Ensino </a> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/projetos-e-pesquisas" data-ga data-category="menu_superior" data-action="clique" data-label="projetos-e-pesquisas" data-slug="projetos-e-pesquisas"> 
+       <figure class="ico"> 
+        <img src="http://www.fipe.org.br/Content/img/nav/ico/projetos-e-pesquisas.png" alt=""> 
+       </figure> Projetos e Pesquisas </a> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/publicacoes" data-ga data-category="menu_superior" data-action="clique" data-label="publicacoes" data-slug="publicacoes"> 
+       <figure class="ico"> 
+        <img src="http://www.fipe.org.br/Content/img/nav/ico/publicacoes.png" alt=""> 
+       </figure> Publicações </a> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/" data-ga data-category="menu_superior" data-action="clique" data-label="sobre-a-fipe" data-slug="sobre-a-fipe"> 
+       <figure class="ico"> 
+        <img src="http://www.fipe.org.br/Content/img/nav/ico/sobre-a-fipe.png" alt=""> 
+       </figure> Sobre a Fipe </a> </li> 
+     <div class="clear"></div> 
+    </ul> 
+   </nav> 
+   <nav id="menuMobile"> 
+    <ul> 
+     <li> <a href="http://www.fipe.org.br/pt-br/indices" data-ga data-category="menu_mobile" data-action="clique" data-label="indices" data-slug="indices"> Índices e Indicadores </a> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/ipac/" data-label="ipac" id="ipac" data-action="clique" data-category="submenu_mobile">IPAC</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/ipc/" data-label="ipc" id="ipc" data-action="clique" data-category="submenu_mobile">IPC</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/ipop/" data-label="ipop" id="ipop" data-action="clique" data-category="submenu_mobile">IPOP</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/ipr/" data-label="ipr" id="ipr" data-action="clique" data-category="submenu_mobile">Índice de Preços Regionais</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/fipezap/" data-label="fipezap" id="fipezap" data-action="clique" data-category="submenu_mobile">FipeZAP</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/ila/" data-label="ila" id="ila" data-action="clique" data-category="submenu_mobile">ILA</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/catho-fipe/" data-label="catho-fipe" id="catho-fipe" data-action="clique" data-category="submenu_mobile">Indicadores Catho-FIPE</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/pof/" data-label="pof" id="pof" data-action="clique" data-category="submenu_mobile">POF</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" data-label="veiculos" id="veiculos" data-action="clique" data-category="submenu_mobile">Preço Médio de Veículos</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/salariometro/" data-label="salariometro" id="salariometro" data-action="clique" data-category="submenu_mobile">Salariômetro</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/abrainc/" data-label="abrainc" id="abrainc" data-action="clique" data-category="submenu_mobile">Indicadores Abrainc/Fipe</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices/radar-abrainc/" data-label="radar-abrainc" id="radar-abrainc" data-action="clique" data-category="submenu_mobile">Radar Abrainc/Fipe</a> </li> 
+      </ul> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/ensino" data-ga data-category="menu_mobile" data-action="clique" data-label="ensino" data-slug="ensino"> Ensino </a> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/mba/" data-label="mba" id="mba" data-action="clique" data-category="submenu_mobile">Mba</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/cursos-preparatorios/" data-label="cursos-preparatorios" id="cursos-preparatorios" data-action="clique" data-category="submenu_mobile">Cursos Preparatórios</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/extensao-curta-duracao/" data-label="extensao-curta-duracao" id="extensao-curta-duracao" data-action="clique" data-category="submenu_mobile">Curta Duração</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/intercambio-internacional/" data-label="intercambio-internacional" id="intercambio-internacional" data-action="clique" data-category="submenu_mobile">Intercâmbio Internacional</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/corpo-docente/" data-label="corpo-docente" id="corpo-docente" data-action="clique" data-category="submenu_mobile">Corpo Docente</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino/contas-publicas/" data-label="contas-publicas" id="contas-publicas" data-action="clique" data-category="submenu_mobile">Contas Públicas</a> </li> 
+      </ul> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/projetos-e-pesquisas" data-ga data-category="menu_mobile" data-action="clique" data-label="projetos-e-pesquisas" data-slug="projetos-e-pesquisas"> Projetos e Pesquisas </a> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/projetos-e-pesquisas/temas/" data-label="temas" id="temas" data-action="clique" data-category="submenu_mobile">Temas</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/projetos-e-pesquisas/contratantes/" data-label="contratantes" id="contratantes" data-action="clique" data-category="submenu_mobile">Contratantes</a> </li> 
+      </ul> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/publicacoes" data-ga data-category="menu_mobile" data-action="clique" data-label="publicacoes" data-slug="publicacoes"> Publicações </a> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/publicacoes/bif/" data-label="bif" id="bif" data-action="clique" data-category="submenu_mobile">Boletim Informações Fipe</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/publicacoes/estudos-economicos/" data-label="estudos-economicos" id="estudos-economicos" data-action="clique" data-category="submenu_mobile">Estudos Econômicos</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/publicacoes/textos-para-discussao/" data-label="textos-para-discussao" id="textos-para-discussao" data-action="clique" data-category="submenu_mobile">Textos Para Discussão</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/publicacoes/relatorios/" data-label="relatorios" id="relatorios" data-action="clique" data-category="submenu_mobile">Índices Fipe Comentados</a> </li> 
+      </ul> </li> 
+     <li> <a href="javascript:void(0);" data-ga data-category="menu_mobile" data-action="clique" data-label="institucional" data-slug="institucional"> Institucional </a> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/" data-label="sobre-a-fipe" id="sobre-a-fipe" data-action="clique" data-category="submenu_mobile">Sobre a Fipe</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/fipe-40-anos/" data-label="fipe-40-anos" id="fipe-40-anos" data-action="clique" data-category="submenu_mobile">Fipe 40 anos</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/quem-somos/" data-label="quem-somos" id="quem-somos" data-action="clique" data-category="submenu_mobile">Quem Somos</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/contato/" data-label="contato" id="contato" data-action="clique" data-category="submenu_mobile">Contato</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/mapa-do-site/" data-label="mapa-do-site" id="mapa-do-site" data-action="clique" data-category="submenu_mobile">Mapa do Site</a> </li> 
+      </ul> </li> 
+     <li> <a href="http://www.fipe.org.br/pt-br/noticias" data-ga data-category="menu_mobile" data-action="clique" data-label="noticias" data-slug="noticias"> Notícias </a> </li> 
+    </ul> 
+   </nav> 
+   <link rel="Stylesheet" href="http://www.fipe.org.br/Content/css/indices.css"> 
+   <link rel="Stylesheet" href="http://www.fipe.org.br/Content/css/interna.css"> 
+   <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/prism.css"> 
+   <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/chosen.css"> 
+   <link rel="Stylesheet" href="http://www.fipe.org.br/Content/css/modulos/calendar.css"> 
+   <link rel="Stylesheet" href="http://www.fipe.org.br/Content/css/vendor/autocomplete.css"> 
+   <!--<script src="~/Content/js/modulos/jquery.mtz.monthpicker.js"></script>--> 
+   <script>
+            $(function () {
+                trackPageView("/indices-e-indicadores/veiculos");
+            });
+        </script> 
+   <section id="back"> 
+    <div id="banner" style="background-image: url(http://www.fipe.org.br/Content/img/indices/banner.jpg)"> 
+     <div class="title"> 
+      <img src="http://www.fipe.org.br/Content/img/indices/icone.png" class="ico"> 
+      <h1>Índices e Indicadores</h1> 
+     </div> 
+    </div> 
+    <section> 
+     <div class="info"> 
+      <article> 
+       <h2>Cursos EaD Fipe</h2> 
+       <p> Diversos temas das áreas de Economia, Finanças e Negócios são abordados nos programas EaD Fipe.<br><br> - Certificação CPA 10<br> - Certificação CPA 20<br> - Mat. Financeira<br> - Renda Fixa<br> <br> Conheça os cursos<br> EaD da Fipe! <br><i></i><br> <a href="http://www.fipe.org.br/pt-br/ensino/ead/#EADMF1&amp;1028cad" data-ga="" data-category="indices_cursos_fipe" data-action="cadastre_se" data-label="matematica_financeira">Cadastre-se</a> </p> 
+      </article> 
+      <div class="clear"></div> 
+     </div> 
+    </section> 
+   </section> 
+   <section id="front"> 
+    <nav id="interna"> 
+     <ul> 
+      <li class="title"> 
+       <article>
+        Índices
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/ipac/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="ipac" data-slug="ipac"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice de preços do setor de asseio e conservação">
+          IPAC
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/ipc/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="ipc" data-slug="ipc"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice de Preços ao Consumidor">
+          IPC
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/ipop/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="ipop" data-slug="ipop"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice de Preços de Obras Públicas">
+          IPOP
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/ipr/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="ipr" data-slug="ipr"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice de Preços Regionais">
+          Índice de Preços Regionais
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/fipezap/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="fipezap" data-slug="fipezap"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice FipeZap de Preços de Imóveis Anunciados">
+          FipeZAP
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/buscape/" data-ga="" data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="buscape" data-slug="buscape"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Índice de preços no comércio eletrônico">
+          Fipe Buscapé
+         </div> </a> 
+       </article> </li> 
+     </ul> 
+     <ul> 
+      <li class="title"> 
+       <article>
+        Indicadores
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/ila/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="ila" data-slug="ila"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Indicador de Liquidação Antecipada">
+          ILA
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/catho-fipe/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="catho-fipe" data-slug="catho-fipe"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Indicadores Catho-FIPE">
+          Indicadores Catho-FIPE
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/pof/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="pof" data-slug="pof"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Pesquisa de Orçamentos Familiares">
+          POF
+         </div> </a> 
+       </article> </li> 
+      <li class="active"> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/veiculos/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="veiculos" data-slug="veiculos"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Tabela Fipe">
+          Preço Médio de Veículos
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/salariometro/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="salariometro" data-slug="salariometro"> 
+         <div class="btn_over"></div> 
+         <div class="link" title="Salariômetro">
+          Salariômetro
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a href="http://www.fipe.org.br/pt-br/indices/abrainc/" data-ga data-category="indices_indicadores_menu_lateral" data-action="clique" data-label="abrainc" data-slug="abrainc"> 
+         <div class="btn_over"></div> 
+         <div class="link" title=" ">
+          Indicadores Abrainc/Fipe
+         </div> </a> 
+       </article> </li> 
+      <li> 
+       <article> 
+        <a data-slug="radar-abrainc" data-label="radar-abrainc" data-action="clique" data-category="indices_indicadores_menu_lateral" data-ga="" href="http://www.fipe.org.br/pt-br/indices/radar-abrainc/"> 
+         <div class="btn_over"></div> 
+         <div title="Radar Abrainc/Fipe" class="link">
+          Radar Abrainc/Fipe
+         </div> </a> 
+       </article> </li> 
+     </ul> 
+    </nav> 
+    <div class="content"> 
+     <h1 data-slug="veiculos-texto" data-positiontop="true">Preço Médio de Veículos</h1> 
+     <p>1. A Tabela Fipe expressa preços médios de veículos no mercado nacional, servindo apenas como um parâmetro para negociações ou avaliações. Os preços efetivamente praticados variam em função da região, conservação, cor, acessórios ou qualquer outro fator que possa influenciar as condições de oferta e procura por um veículo específico.</p> 
+     <a name="video"></a> 
+     <p>2. O ano do veículo refere-se ao ano do modelo e não são considerados veículos para uso profissional ou especial.</p> 
+     <p>3. Os valores são expressos em R$ (reais) do mês/ano de referência.</p> 
+     <p>Veja as explicações no vídeo:</p> 
+     <p><iframe allowfullscreen frameborder="0" height="404" src="//www.youtube.com/embed/56alfHaU5Fs?wmode=opaque&amp;rel=0" style="margin-top:20px" width="548"></iframe></p> 
+     <div class="app"> 
+      <div class="box"> 
+       <h2> BAIXE O APLICATIVO TABELA FIPE </h2> 
+       <div> 
+        <a href="https://play.google.com/store/apps/details?id=br.org.fipe.app" target="_blank"> <img src="http://www.fipe.org.br/Content/img/google-play.png" alt=""></a> 
+        <a href="https://itunes.apple.com/br/app/tabela-fipe-pre%C3%A7o-m%C3%A9dio-de-ve%C3%ADculos/id1207831925?mt=8" target="_blank"> <img src="http://www.fipe.org.br/Content/img/play-store.png" alt=""></a> 
+       </div> 
+      </div> 
+      <div class="box"> 
+       <img src="http://www.fipe.org.br/Content/img/fipe-celular.png" alt=""> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+     <div class="tab vertical tab-veiculos" veiculos> 
+      <ul> 
+       <li class="ilustra"> <a href="javascript:void(0)" data-slug="carro" data-ga data-category="indices_indicadores_subitens" data-action="veiculos" data-label="carro"> 
+         <div class="ico"></div> 
+         <div class="title">
+          Consulta de Carros e Utilitários Pequenos
+         </div> </a> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/prism.css"> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/chosen.css"> 
+        <div class="tab horizontal inside" veiculos> 
+         <nav> 
+          <ul> 
+           <li class="open"> <a href="javascript:void(0)" pesquisa data-aba="Abacarro-comum" data-slug="carro-comum" data-slugparent="carro" data-tabref="selectTabelaReferenciacarro">Pesquisa comum</a> </li> 
+           <li> <a href="javascript:void(0)" pesquisa data-aba="Abacarro-codigo" data-slug="carro-codigo" data-slugparent="carro" data-tabref="selectTabelaReferenciacarroConsultarPorCodigoFipe">Pesquisa por código Fipe</a> </li> 
+           <div class="clear"></div> 
+          </ul> 
+         </nav> 
+         <article class="open inside-search" config="carro" tipoconsulta="tradicional" codtipoveiculo="1" idselecttabelaref="selectTabelaReferenciacarro" idselectmarca="selectMarcacarro" idselectmodeloveiculo="selectAnoModelocarro" idselectano="selectAnocarro" iddivresultado="resultadoConsultacarroFiltros" idbutton="buttonPesquisarcarro" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="carro" idbuttonclear="buttonLimparPesquisarcarro" marca="" modelo="" nomeveiculo="Carros" ano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcacarro" data-no_results_text="Nada encontrado com" data-tabref="selectTabelaReferenciacarro" id="selectTabelaReferenciacarro" class="chosen-select" style="width:165px" data-tipo="referencia"> 
+           <!--<option value="186">dezembro/2015 </option>
+                                        <option value="185">novembro/2015 </option>
+                                        <option value="184">outubro/2015 </option>
+                                        <option value="183">setembro/2015 </option>
+                                        <option value="182">agosto/2015 </option>
+                                        <option value="181">julho/2015 </option>
+                                        <option value="180">junho/2015 </option>
+                                        <option value="179">maio/2015 </option>
+                                        <option value="178">abril/2015 </option>
+                                        <option value="176">mar&#231;o/2015 </option>
+                                        <option value="175">fevereiro/2015 </option>
+                                        <option value="174">janeiro/2015 </option>
+                                        <option value="173">dezembro/2014 </option>
+                                        <option value="172">novembro/2014 </option>
+                                        <option value="171">outubro/2014 </option>
+                                        <option value="170">setembro/2014 </option>
+                                        <option value="169">agosto/2014 </option>
+                                        <option value="168">julho/2014 </option>
+                                        <option value="167">junho/2014 </option>
+                                        <option value="166">maio/2014 </option>
+                                        <option value="165">abril/2014 </option>
+                                        <option value="164">mar&#231;o/2014 </option>
+                                        <option value="163">fevereiro/2014 </option>
+                                        <option value="162">janeiro/2014 </option>
+                                        <option value="161">dezembro/2013 </option>
+                                        <option value="160">novembro/2013 </option>
+                                        <option value="159">outubro/2013 </option>
+                                        <option value="158">setembro/2013 </option>
+                                        <option value="157">agosto/2013 </option>
+                                        <option value="156">julho/2013 </option>
+                                        <option value="155">junho/2013 </option>
+                                        <option value="154">maio/2013 </option>
+                                        <option value="153">abril/2013 </option>
+                                        <option value="152">mar&#231;o/2013 </option>
+                                        <option value="151">fevereiro/2013 </option>
+                                        <option value="150">janeiro/2013 </option>
+                                        <option value="149">dezembro/2012 </option>
+                                        <option value="148">novembro/2012 </option>
+                                        <option value="147">outubro/2012 </option>
+                                        <option value="146">setembro/2012 </option>
+                                        <option value="145">agosto/2012 </option>
+                                        <option value="144">julho/2012 </option>
+                                        <option value="143">junho/2012 </option>
+                                        <option value="142">maio/2012 </option>
+                                        <option value="141">abril/2012 </option>
+                                        <option value="140">mar&#231;o/2012 </option>
+                                        <option value="139">fevereiro/2012 </option>
+                                        <option value="138">janeiro/2012 </option>
+                                        <option value="137">dezembro/2011 </option>
+                                        <option value="136">novembro/2011 </option>
+                                        <option value="135">outubro/2011 </option>
+                                        <option value="134">setembro/2011 </option>
+                                        <option value="133">agosto/2011 </option>
+                                        <option value="132">julho/2011 </option>
+                                        <option value="131">junho/2011 </option>
+                                        <option value="130">maio/2011 </option>
+                                        <option value="129">abril/2011 </option>
+                                        <option value="128">mar&#231;o/2011 </option>
+                                        <option value="127">fevereiro/2011 </option>
+                                        <option value="126">janeiro/2011 </option>
+                                        <option value="125">dezembro/2010 </option>
+                                        <option value="124">novembro/2010 </option>
+                                        <option value="123">outubro/2010 </option>
+                                        <option value="122">setembro/2010 </option>
+                                        <option value="121">agosto/2010 </option>
+                                        <option value="120">julho/2010 </option>
+                                        <option value="119">junho/2010 </option>
+                                        <option value="118">maio/2010 </option>
+                                        <option value="117">abril/2010 </option>
+                                        <option value="61">mar&#231;o/2010 </option>
+                                        <option value="60">fevereiro/2010 </option>
+                                        <option value="59">janeiro/2010 </option>
+                                        <option value="58">dezembro/2009 </option>
+                                        <option value="57">novembro/2009 </option>
+                                        <option value="56">outubro/2009 </option>
+                                        <option value="55">setembro/2009 </option>
+                                        <option value="54">agosto/2009 </option>
+                                        <option value="53">julho/2009 </option>
+                                        <option value="52">junho/2009 </option>
+                                        <option value="51">maio/2009 </option>
+                                        <option value="50">abril/2009 </option>
+                                        <option value="49">mar&#231;o/2009 </option>
+                                        <option value="48">fevereiro/2009 </option>
+                                        <option value="47">janeiro/2009 </option>
+                                        <option value="46">dezembro/2008 </option>
+                                        <option value="45">novembro/2008 </option>
+                                        <option value="44">outubro/2008 </option>
+                                        <option value="43">setembro/2008 </option>
+                                        <option value="42">agosto/2008 </option>
+                                        <option value="41">julho/2008 </option>
+                                        <option value="40">junho/2008 </option>
+                                        <option value="38">maio/2008 </option>
+                                        <option value="37">abril/2008 </option>
+                                        <option value="36">mar&#231;o/2008 </option>
+                                        <option value="35">fevereiro/2008 </option>
+                                        <option value="34">janeiro/2008 </option>
+                                        <option value="33">dezembro/2007 </option>
+                                        <option value="32">novembro/2007 </option>
+                                        <option value="31">outubro/2007 </option>
+                                        <option value="30">setembro/2007 </option>
+                                        <option value="29">agosto/2007 </option>
+                                        <option value="28">julho/2007 </option>
+                                        <option value="27">junho/2007 </option>
+                                        <option value="26">maio/2007 </option>
+                                        <option value="24">abril/2007 </option>
+                                        <option value="23">mar&#231;o/2007 </option>
+                                        <option value="21">fevereiro/2007 </option>
+                                        <option value="20">janeiro/2007 </option>
+                                        <option value="19">dezembro/2006 </option>
+                                        <option value="18">novembro/2006 </option>
+                                        <option value="17">outubro/2006 </option>
+                                        <option value="16">setembro/2006 </option>
+                                        <option value="15">agosto/2006 </option>
+                                        <option value="14">julho/2006 </option>
+                                        <option value="13">junho/2006 </option>
+                                        <option value="12">maio/2006 </option>
+                                        <option value="11">abril/2006 </option>
+                                        <option value="10">mar&#231;o/2006 </option>
+                                        <option value="9">fevereiro/2006 </option>
+                                        <option value="8">janeiro/2006 </option>
+                                        <option value="111">dezembro/2005 </option>
+                                        <option value="6">novembro/2005 </option>
+                                        <option value="2">outubro/2005 </option>
+                                        <option value="1">setembro/2005 </option>
+                                        <option value="7">agosto/2005 </option>
+                                        <option value="25">julho/2005 </option>
+                                        <option value="116">junho/2005 </option>
+                                        <option value="115">maio/2005 </option>
+                                        <option value="114">abril/2005 </option>
+                                        <option value="113">mar&#231;o/2005 </option>
+                                        <option value="112">fevereiro/2005 </option>
+                                        <option value="110">janeiro/2005 </option>
+                                        <option value="101">dezembro/2004 </option>
+                                        <option value="100">novembro/2004 </option>
+                                        <option value="99">outubro/2004 </option>
+                                        <option value="109">setembro/2004 </option>
+                                        <option value="108">agosto/2004 </option>
+                                        <option value="107">julho/2004 </option>
+                                        <option value="106">junho/2004 </option>
+                                        <option value="105">maio/2004 </option>
+                                        <option value="104">abril/2004 </option>
+                                        <option value="103">mar&#231;o/2004 </option>
+                                        <option value="102">fevereiro/2004 </option>
+                                        <option value="98">janeiro/2004 </option>
+                                        <option value="89">dezembro/2003 </option>
+                                        <option value="88">novembro/2003 </option>
+                                        <option value="87">outubro/2003 </option>
+                                        <option value="97">setembro/2003 </option>
+                                        <option value="96">agosto/2003 </option>
+                                        <option value="95">julho/2003 </option>
+                                        <option value="94">junho/2003 </option>
+                                        <option value="93">maio/2003 </option>
+                                        <option value="92">abril/2003 </option>
+                                        <option value="91">mar&#231;o/2003 </option>
+                                        <option value="90">fevereiro/2003 </option>
+                                        <option value="86">janeiro/2003 </option>
+                                        <option value="77">dezembro/2002 </option>
+                                        <option value="76">novembro/2002 </option>
+                                        <option value="75">outubro/2002 </option>
+                                        <option value="85">setembro/2002 </option>
+                                        <option value="84">agosto/2002 </option>
+                                        <option value="83">julho/2002 </option>
+                                        <option value="82">junho/2002 </option>
+                                        <option value="81">maio/2002 </option>
+                                        <option value="80">abril/2002 </option>
+                                        <option value="79">mar&#231;o/2002 </option>
+                                        <option value="78">fevereiro/2002 </option>
+                                        <option value="74">janeiro/2002 </option>
+                                        <option value="66">dezembro/2001 </option>
+                                        <option value="65">novembro/2001 </option>
+                                        <option value="64">outubro/2001 </option>
+                                        <option value="73">setembro/2001 </option>
+                                        <option value="72">agosto/2001 </option>
+                                        <option value="71">julho/2001 </option>
+                                        <option value="70">junho/2001 </option>
+                                        <option value="69">maio/2001 </option>
+                                        <option value="68">abril/2001 </option>
+                                        <option value="67">mar&#231;o/2001 </option>
+                                        <option value="63">fevereiro/2001 </option>
+                                        <option value="62">janeiro/2001 </option>--> </select> 
+          <div class="line"></div> 
+          <div class="form"> 
+           <p>Informe primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong> e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar a informação no campo "busca", dentro de cada opção do formulário da pesquisa.</p> 
+           <div class="step-1"> 
+            <div class="input" config="carro" tipoconsulta="tradicional" urlconsulta="ConsultarModelos"> 
+             <select data-placeholder="Digite ou selecione a marca do veiculo" class="chosen-select" id="selectMarcacarro" data-no_results_text="Nada encontrado com" data-tipo="marca" style="width:100%" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="step-2"> 
+            <div class="input" config="carro" tipoconsulta="tradicional" urlconsulta="ConsultarAnoModelo"> 
+             <select data-placeholder="Digite ou selecione o modelo do veiculo" class="chosen-select" id="selectAnoModelocarro" data-no_results_text="Nada encontrado com" data-tipo="modelo" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+             <div class="help"> 
+              <a href="#" title="">?</a> 
+             </div> 
+            </div> 
+            <div class="input" config="carro" tipoconsulta="tradicional" urlconsulta="ConsultarModelosAtravesDoAno"> 
+             <select data-placeholder="Digite ou selecione o ano modelo do veiculo" class="chosen-select" id="selectAnocarro" data-no_results_text="Nada encontrado com" data-tipo="ano" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarcarro"> Pesquisar </a> 
+           </div> 
+           <div data-tipo="resultadoConsulta" id="resultadoConsultacarroFiltros"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarcarro"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+         <article tipoconsulta="codigo" config="carro" codtipoveiculo="1" idselectcodigo="selectCodigocarroCodigoFipe" idselectcodigoano="selectCodigoAnocarroCodigoFipe" idselecttabelaref="selectTabelaReferenciacarroCodigoFipe" iddivresultado="resultadocarroCodigoFipe" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="carro" idbutton="buttonPesquisarcarroPorCodigoFipe" idbuttonclear="buttonLimparPesquisarcarroPorCodigoFipe" codigo="" nomeveiculo="Carros" codigoano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcacarro" data-tabref="selectTabelaReferenciacarroConsultarPorCodigoFipe" data-no_results_text="Nada encontrado com" name="selectTabelaReferencia" id="selectTabelaReferenciacarroCodigoFipe" data-tipo="referencia" class="chosen-select" style="width:165px !important;"> <option value="186">dezembro/2015 </option> <option value="185">novembro/2015 </option> <option value="184">outubro/2015 </option> <option value="183">setembro/2015 </option> <option value="182">agosto/2015 </option> <option value="181">julho/2015 </option> <option value="180">junho/2015 </option> <option value="179">maio/2015 </option> <option value="178">abril/2015 </option> <option value="176">março/2015 </option> <option value="175">fevereiro/2015 </option> <option value="174">janeiro/2015 </option> <option value="173">dezembro/2014 </option> <option value="172">novembro/2014 </option> <option value="171">outubro/2014 </option> <option value="170">setembro/2014 </option> <option value="169">agosto/2014 </option> <option value="168">julho/2014 </option> <option value="167">junho/2014 </option> <option value="166">maio/2014 </option> <option value="165">abril/2014 </option> <option value="164">março/2014 </option> <option value="163">fevereiro/2014 </option> <option value="162">janeiro/2014 </option> <option value="161">dezembro/2013 </option> <option value="160">novembro/2013 </option> <option value="159">outubro/2013 </option> <option value="158">setembro/2013 </option> <option value="157">agosto/2013 </option> <option value="156">julho/2013 </option> <option value="155">junho/2013 </option> <option value="154">maio/2013 </option> <option value="153">abril/2013 </option> <option value="152">março/2013 </option> <option value="151">fevereiro/2013 </option> <option value="150">janeiro/2013 </option> <option value="149">dezembro/2012 </option> <option value="148">novembro/2012 </option> <option value="147">outubro/2012 </option> <option value="146">setembro/2012 </option> <option value="145">agosto/2012 </option> <option value="144">julho/2012 </option> <option value="143">junho/2012 </option> <option value="142">maio/2012 </option> <option value="141">abril/2012 </option> <option value="140">março/2012 </option> <option value="139">fevereiro/2012 </option> <option value="138">janeiro/2012 </option> <option value="137">dezembro/2011 </option> <option value="136">novembro/2011 </option> <option value="135">outubro/2011 </option> <option value="134">setembro/2011 </option> <option value="133">agosto/2011 </option> <option value="132">julho/2011 </option> <option value="131">junho/2011 </option> <option value="130">maio/2011 </option> <option value="129">abril/2011 </option> <option value="128">março/2011 </option> <option value="127">fevereiro/2011 </option> <option value="126">janeiro/2011 </option> <option value="125">dezembro/2010 </option> <option value="124">novembro/2010 </option> <option value="123">outubro/2010 </option> <option value="122">setembro/2010 </option> <option value="121">agosto/2010 </option> <option value="120">julho/2010 </option> <option value="119">junho/2010 </option> <option value="118">maio/2010 </option> <option value="117">abril/2010 </option> <option value="61">março/2010 </option> <option value="60">fevereiro/2010 </option> <option value="59">janeiro/2010 </option> <option value="58">dezembro/2009 </option> <option value="57">novembro/2009 </option> <option value="56">outubro/2009 </option> <option value="55">setembro/2009 </option> <option value="54">agosto/2009 </option> <option value="53">julho/2009 </option> <option value="52">junho/2009 </option> <option value="51">maio/2009 </option> <option value="50">abril/2009 </option> <option value="49">março/2009 </option> <option value="48">fevereiro/2009 </option> <option value="47">janeiro/2009 </option> <option value="46">dezembro/2008 </option> <option value="45">novembro/2008 </option> <option value="44">outubro/2008 </option> <option value="43">setembro/2008 </option> <option value="42">agosto/2008 </option> <option value="41">julho/2008 </option> <option value="40">junho/2008 </option> <option value="38">maio/2008 </option> <option value="37">abril/2008 </option> <option value="36">março/2008 </option> <option value="35">fevereiro/2008 </option> <option value="34">janeiro/2008 </option> <option value="33">dezembro/2007 </option> <option value="32">novembro/2007 </option> <option value="31">outubro/2007 </option> <option value="30">setembro/2007 </option> <option value="29">agosto/2007 </option> <option value="28">julho/2007 </option> <option value="27">junho/2007 </option> <option value="26">maio/2007 </option> <option value="24">abril/2007 </option> <option value="23">março/2007 </option> <option value="21">fevereiro/2007 </option> <option value="20">janeiro/2007 </option> <option value="19">dezembro/2006 </option> <option value="18">novembro/2006 </option> <option value="17">outubro/2006 </option> <option value="16">setembro/2006 </option> <option value="15">agosto/2006 </option> <option value="14">julho/2006 </option> <option value="13">junho/2006 </option> <option value="12">maio/2006 </option> <option value="11">abril/2006 </option> <option value="10">março/2006 </option> <option value="9">fevereiro/2006 </option> <option value="8">janeiro/2006 </option> <option value="111">dezembro/2005 </option> <option value="6">novembro/2005 </option> <option value="2">outubro/2005 </option> <option value="1">setembro/2005 </option> <option value="7">agosto/2005 </option> <option value="25">julho/2005 </option> <option value="116">junho/2005 </option> <option value="115">maio/2005 </option> <option value="114">abril/2005 </option> <option value="113">março/2005 </option> <option value="112">fevereiro/2005 </option> <option value="110">janeiro/2005 </option> <option value="101">dezembro/2004 </option> <option value="100">novembro/2004 </option> <option value="99">outubro/2004 </option> <option value="109">setembro/2004 </option> <option value="108">agosto/2004 </option> <option value="107">julho/2004 </option> <option value="106">junho/2004 </option> <option value="105">maio/2004 </option> <option value="104">abril/2004 </option> <option value="103">março/2004 </option> <option value="102">fevereiro/2004 </option> <option value="98">janeiro/2004 </option> <option value="89">dezembro/2003 </option> <option value="88">novembro/2003 </option> <option value="87">outubro/2003 </option> <option value="97">setembro/2003 </option> <option value="96">agosto/2003 </option> <option value="95">julho/2003 </option> <option value="94">junho/2003 </option> <option value="93">maio/2003 </option> <option value="92">abril/2003 </option> <option value="91">março/2003 </option> <option value="90">fevereiro/2003 </option> <option value="86">janeiro/2003 </option> <option value="77">dezembro/2002 </option> <option value="76">novembro/2002 </option> <option value="75">outubro/2002 </option> <option value="85">setembro/2002 </option> <option value="84">agosto/2002 </option> <option value="83">julho/2002 </option> <option value="82">junho/2002 </option> <option value="81">maio/2002 </option> <option value="80">abril/2002 </option> <option value="79">março/2002 </option> <option value="78">fevereiro/2002 </option> <option value="74">janeiro/2002 </option> <option value="66">dezembro/2001 </option> <option value="65">novembro/2001 </option> <option value="64">outubro/2001 </option> <option value="73">setembro/2001 </option> <option value="72">agosto/2001 </option> <option value="71">julho/2001 </option> <option value="70">junho/2001 </option> <option value="69">maio/2001 </option> <option value="68">abril/2001 </option> <option value="67">março/2001 </option> <option value="63">fevereiro/2001 </option> <option value="62">janeiro/2001 </option> </select> 
+          <div class="line"></div> 
+          <div class="form codigo"> 
+           <p>Por favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p> 
+           <div class="fLeft"> 
+            <div class="input txt" config="carro" tipoconsulta="codigo" urlconsulta="ConsultarAnoModeloPeloCodigoFipe"> 
+             <input type="text" name="txtCodigoFipe" value="" id="selectCodigocarroCodigoFipe" data-tipo="codigo" data-nomeveiculo="Carros" placeholder="digite o código Fipe" maxlength="8"> 
+            </div> 
+           </div> 
+           <div class="fRight"> 
+            <div class="input" config="carro" tipoconsulta="codigo" urlconsulta=""> 
+             <select data-placeholder="Selecione o ano modelo" class="chosen-select" id="selectCodigoAnocarroCodigoFipe" data-tipo="codigoano" data-valor="" style="width:215px" tabindex="2" data-no_results_text="Nada encontrado com"> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarcarroPorCodigoFipe">Pesquisar</a> 
+           </div> 
+           <br> 
+           <p>Caso não possua o Código Fipe, <a class="link" href="javascript:void(0)" onclick="javascript:$('[data-slug=carro-comum]').trigger('click');">clique aqui</a> para pesquisar informando marca e modelo do veículo.</p> 
+           <div data-tipo="resultadoConsulta" id="resultadocarroCodigoFipe"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarcarroPorCodigoFipe"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+        </div> </li> 
+       <li class="ilustra"> <a href="javascript:void(0)" data-slug="caminhao" data-ga data-category="indices_indicadores_subitens" data-action="veiculos" data-label="caminhao"> 
+         <div class="ico ico_caminhao"></div> 
+         <div class="title">
+          Consulta de Caminhões e Micro-Ônibus
+         </div> </a> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/prism.css"> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/chosen.css"> 
+        <div class="tab horizontal inside" veiculos> 
+         <nav> 
+          <ul> 
+           <li class="open"> <a href="javascript:void(0)" pesquisa data-aba="Abacaminhao-comum" data-slug="caminhao-comum" data-slugparent="caminhao" data-tabref="selectTabelaReferenciacaminhao">Pesquisa comum</a> </li> 
+           <li> <a href="javascript:void(0)" pesquisa data-aba="Abacaminhao-codigo" data-slug="caminhao-codigo" data-slugparent="caminhao" data-tabref="selectTabelaReferenciacaminhaoConsultarPorCodigoFipe">Pesquisa por código Fipe</a> </li> 
+           <div class="clear"></div> 
+          </ul> 
+         </nav> 
+         <article class="open inside-search" config="caminhao" tipoconsulta="tradicional" codtipoveiculo="3" idselecttabelaref="selectTabelaReferenciacaminhao" idselectmarca="selectMarcacaminhao" idselectmodeloveiculo="selectAnoModelocaminhao" idselectano="selectAnocaminhao" iddivresultado="resultadoConsultacaminhaoFiltros" idbutton="buttonPesquisarcaminhao" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="caminhao" idbuttonclear="buttonLimparPesquisarcaminhao" marca="" modelo="" nomeveiculo="Caminhões" ano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcacaminhao" data-no_results_text="Nada encontrado com" data-tabref="selectTabelaReferenciacaminhao" id="selectTabelaReferenciacaminhao" class="chosen-select" style="width:165px" data-tipo="referencia"> <option value="186">dezembro/2015 </option> <option value="185">novembro/2015 </option> <option value="184">outubro/2015 </option> <option value="183">setembro/2015 </option> <option value="182">agosto/2015 </option> <option value="181">julho/2015 </option> <option value="180">junho/2015 </option> <option value="179">maio/2015 </option> <option value="178">abril/2015 </option> <option value="176">março/2015 </option> <option value="175">fevereiro/2015 </option> <option value="174">janeiro/2015 </option> <option value="173">dezembro/2014 </option> <option value="172">novembro/2014 </option> <option value="171">outubro/2014 </option> <option value="170">setembro/2014 </option> <option value="169">agosto/2014 </option> <option value="168">julho/2014 </option> <option value="167">junho/2014 </option> <option value="166">maio/2014 </option> <option value="165">abril/2014 </option> <option value="164">março/2014 </option> <option value="163">fevereiro/2014 </option> <option value="162">janeiro/2014 </option> <option value="161">dezembro/2013 </option> <option value="160">novembro/2013 </option> <option value="159">outubro/2013 </option> <option value="158">setembro/2013 </option> <option value="157">agosto/2013 </option> <option value="156">julho/2013 </option> <option value="155">junho/2013 </option> <option value="154">maio/2013 </option> <option value="153">abril/2013 </option> <option value="152">março/2013 </option> <option value="151">fevereiro/2013 </option> <option value="150">janeiro/2013 </option> <option value="149">dezembro/2012 </option> <option value="148">novembro/2012 </option> <option value="147">outubro/2012 </option> <option value="146">setembro/2012 </option> <option value="145">agosto/2012 </option> <option value="144">julho/2012 </option> <option value="143">junho/2012 </option> <option value="142">maio/2012 </option> <option value="141">abril/2012 </option> <option value="140">março/2012 </option> <option value="139">fevereiro/2012 </option> <option value="138">janeiro/2012 </option> <option value="137">dezembro/2011 </option> <option value="136">novembro/2011 </option> <option value="135">outubro/2011 </option> <option value="134">setembro/2011 </option> <option value="133">agosto/2011 </option> <option value="132">julho/2011 </option> <option value="131">junho/2011 </option> <option value="130">maio/2011 </option> <option value="129">abril/2011 </option> <option value="128">março/2011 </option> <option value="127">fevereiro/2011 </option> <option value="126">janeiro/2011 </option> <option value="125">dezembro/2010 </option> <option value="124">novembro/2010 </option> <option value="123">outubro/2010 </option> <option value="122">setembro/2010 </option> <option value="121">agosto/2010 </option> <option value="120">julho/2010 </option> <option value="119">junho/2010 </option> <option value="118">maio/2010 </option> <option value="117">abril/2010 </option> <option value="61">março/2010 </option> <option value="60">fevereiro/2010 </option> <option value="59">janeiro/2010 </option> <option value="58">dezembro/2009 </option> <option value="57">novembro/2009 </option> <option value="56">outubro/2009 </option> <option value="55">setembro/2009 </option> <option value="54">agosto/2009 </option> <option value="53">julho/2009 </option> <option value="52">junho/2009 </option> <option value="51">maio/2009 </option> <option value="50">abril/2009 </option> <option value="49">março/2009 </option> <option value="48">fevereiro/2009 </option> <option value="47">janeiro/2009 </option> <option value="46">dezembro/2008 </option> <option value="45">novembro/2008 </option> <option value="44">outubro/2008 </option> <option value="43">setembro/2008 </option> <option value="42">agosto/2008 </option> <option value="41">julho/2008 </option> <option value="40">junho/2008 </option> <option value="38">maio/2008 </option> <option value="37">abril/2008 </option> <option value="36">março/2008 </option> <option value="35">fevereiro/2008 </option> <option value="34">janeiro/2008 </option> <option value="33">dezembro/2007 </option> <option value="32">novembro/2007 </option> <option value="31">outubro/2007 </option> <option value="30">setembro/2007 </option> <option value="29">agosto/2007 </option> <option value="28">julho/2007 </option> <option value="27">junho/2007 </option> <option value="26">maio/2007 </option> <option value="24">abril/2007 </option> <option value="23">março/2007 </option> <option value="21">fevereiro/2007 </option> <option value="20">janeiro/2007 </option> <option value="19">dezembro/2006 </option> <option value="18">novembro/2006 </option> <option value="17">outubro/2006 </option> <option value="16">setembro/2006 </option> <option value="15">agosto/2006 </option> <option value="14">julho/2006 </option> <option value="13">junho/2006 </option> <option value="12">maio/2006 </option> <option value="11">abril/2006 </option> <option value="10">março/2006 </option> <option value="9">fevereiro/2006 </option> <option value="8">janeiro/2006 </option> <option value="111">dezembro/2005 </option> <option value="6">novembro/2005 </option> <option value="2">outubro/2005 </option> <option value="1">setembro/2005 </option> <option value="7">agosto/2005 </option> <option value="25">julho/2005 </option> <option value="116">junho/2005 </option> <option value="115">maio/2005 </option> <option value="114">abril/2005 </option> <option value="113">março/2005 </option> <option value="112">fevereiro/2005 </option> <option value="110">janeiro/2005 </option> <option value="101">dezembro/2004 </option> <option value="100">novembro/2004 </option> <option value="99">outubro/2004 </option> <option value="109">setembro/2004 </option> <option value="108">agosto/2004 </option> <option value="107">julho/2004 </option> <option value="106">junho/2004 </option> <option value="105">maio/2004 </option> <option value="104">abril/2004 </option> <option value="103">março/2004 </option> <option value="102">fevereiro/2004 </option> <option value="98">janeiro/2004 </option> <option value="89">dezembro/2003 </option> <option value="88">novembro/2003 </option> <option value="87">outubro/2003 </option> <option value="97">setembro/2003 </option> <option value="96">agosto/2003 </option> <option value="95">julho/2003 </option> <option value="94">junho/2003 </option> <option value="93">maio/2003 </option> <option value="92">abril/2003 </option> <option value="91">março/2003 </option> <option value="90">fevereiro/2003 </option> <option value="86">janeiro/2003 </option> <option value="77">dezembro/2002 </option> <option value="76">novembro/2002 </option> <option value="75">outubro/2002 </option> <option value="85">setembro/2002 </option> <option value="84">agosto/2002 </option> <option value="83">julho/2002 </option> <option value="82">junho/2002 </option> <option value="81">maio/2002 </option> <option value="80">abril/2002 </option> <option value="79">março/2002 </option> <option value="78">fevereiro/2002 </option> <option value="74">janeiro/2002 </option> <option value="66">dezembro/2001 </option> <option value="65">novembro/2001 </option> <option value="64">outubro/2001 </option> <option value="73">setembro/2001 </option> <option value="72">agosto/2001 </option> <option value="71">julho/2001 </option> <option value="70">junho/2001 </option> <option value="69">maio/2001 </option> <option value="68">abril/2001 </option> <option value="67">março/2001 </option> <option value="63">fevereiro/2001 </option> <option value="62">janeiro/2001 </option> </select> 
+          <div class="line"></div> 
+          <div class="form"> 
+           <p>Informe primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong> e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar a informação no campo "busca", dentro de cada opção do formulário da pesquisa.</p> 
+           <div class="step-1"> 
+            <div class="input" config="caminhao" tipoconsulta="tradicional" urlconsulta="ConsultarModelos"> 
+             <select data-placeholder="Digite ou selecione a marca do veiculo" class="chosen-select" id="selectMarcacaminhao" data-no_results_text="Nada encontrado com" data-tipo="marca" style="width:100%" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="step-2"> 
+            <div class="input" config="caminhao" tipoconsulta="tradicional" urlconsulta="ConsultarAnoModelo"> 
+             <select data-placeholder="Digite ou selecione o modelo do veiculo" class="chosen-select" id="selectAnoModelocaminhao" data-no_results_text="Nada encontrado com" data-tipo="modelo" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+             <div class="help"> 
+              <a href="#" title="">?</a> 
+             </div> 
+            </div> 
+            <div class="input" config="caminhao" tipoconsulta="tradicional" urlconsulta="ConsultarModelosAtravesDoAno"> 
+             <select data-placeholder="Digite ou selecione o ano modelo do veiculo" class="chosen-select" id="selectAnocaminhao" data-no_results_text="Nada encontrado com" data-tipo="ano" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarcaminhao"> Pesquisar </a> 
+           </div> 
+           <div data-tipo="resultadoConsulta" id="resultadoConsultacaminhaoFiltros"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarcaminhao"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+         <article tipoconsulta="codigo" config="caminhao" codtipoveiculo="3" idselectcodigo="selectCodigocaminhaoCodigoFipe" idselectcodigoano="selectCodigoAnocaminhaoCodigoFipe" idselecttabelaref="selectTabelaReferenciacaminhaoCodigoFipe" iddivresultado="resultadocaminhaoCodigoFipe" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="caminhao" idbutton="buttonPesquisarcaminhaoPorCodigoFipe" idbuttonclear="buttonLimparPesquisarcaminhaoPorCodigoFipe" codigo="" nomeveiculo="Caminhões" codigoano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcacaminhao" data-tabref="selectTabelaReferenciacaminhaoConsultarPorCodigoFipe" data-no_results_text="Nada encontrado com" name="selectTabelaReferencia" id="selectTabelaReferenciacaminhaoCodigoFipe" data-tipo="referencia" class="chosen-select" style="width:165px !important;"> <option value="186">dezembro/2015 </option> <option value="185">novembro/2015 </option> <option value="184">outubro/2015 </option> <option value="183">setembro/2015 </option> <option value="182">agosto/2015 </option> <option value="181">julho/2015 </option> <option value="180">junho/2015 </option> <option value="179">maio/2015 </option> <option value="178">abril/2015 </option> <option value="176">março/2015 </option> <option value="175">fevereiro/2015 </option> <option value="174">janeiro/2015 </option> <option value="173">dezembro/2014 </option> <option value="172">novembro/2014 </option> <option value="171">outubro/2014 </option> <option value="170">setembro/2014 </option> <option value="169">agosto/2014 </option> <option value="168">julho/2014 </option> <option value="167">junho/2014 </option> <option value="166">maio/2014 </option> <option value="165">abril/2014 </option> <option value="164">março/2014 </option> <option value="163">fevereiro/2014 </option> <option value="162">janeiro/2014 </option> <option value="161">dezembro/2013 </option> <option value="160">novembro/2013 </option> <option value="159">outubro/2013 </option> <option value="158">setembro/2013 </option> <option value="157">agosto/2013 </option> <option value="156">julho/2013 </option> <option value="155">junho/2013 </option> <option value="154">maio/2013 </option> <option value="153">abril/2013 </option> <option value="152">março/2013 </option> <option value="151">fevereiro/2013 </option> <option value="150">janeiro/2013 </option> <option value="149">dezembro/2012 </option> <option value="148">novembro/2012 </option> <option value="147">outubro/2012 </option> <option value="146">setembro/2012 </option> <option value="145">agosto/2012 </option> <option value="144">julho/2012 </option> <option value="143">junho/2012 </option> <option value="142">maio/2012 </option> <option value="141">abril/2012 </option> <option value="140">março/2012 </option> <option value="139">fevereiro/2012 </option> <option value="138">janeiro/2012 </option> <option value="137">dezembro/2011 </option> <option value="136">novembro/2011 </option> <option value="135">outubro/2011 </option> <option value="134">setembro/2011 </option> <option value="133">agosto/2011 </option> <option value="132">julho/2011 </option> <option value="131">junho/2011 </option> <option value="130">maio/2011 </option> <option value="129">abril/2011 </option> <option value="128">março/2011 </option> <option value="127">fevereiro/2011 </option> <option value="126">janeiro/2011 </option> <option value="125">dezembro/2010 </option> <option value="124">novembro/2010 </option> <option value="123">outubro/2010 </option> <option value="122">setembro/2010 </option> <option value="121">agosto/2010 </option> <option value="120">julho/2010 </option> <option value="119">junho/2010 </option> <option value="118">maio/2010 </option> <option value="117">abril/2010 </option> <option value="61">março/2010 </option> <option value="60">fevereiro/2010 </option> <option value="59">janeiro/2010 </option> <option value="58">dezembro/2009 </option> <option value="57">novembro/2009 </option> <option value="56">outubro/2009 </option> <option value="55">setembro/2009 </option> <option value="54">agosto/2009 </option> <option value="53">julho/2009 </option> <option value="52">junho/2009 </option> <option value="51">maio/2009 </option> <option value="50">abril/2009 </option> <option value="49">março/2009 </option> <option value="48">fevereiro/2009 </option> <option value="47">janeiro/2009 </option> <option value="46">dezembro/2008 </option> <option value="45">novembro/2008 </option> <option value="44">outubro/2008 </option> <option value="43">setembro/2008 </option> <option value="42">agosto/2008 </option> <option value="41">julho/2008 </option> <option value="40">junho/2008 </option> <option value="38">maio/2008 </option> <option value="37">abril/2008 </option> <option value="36">março/2008 </option> <option value="35">fevereiro/2008 </option> <option value="34">janeiro/2008 </option> <option value="33">dezembro/2007 </option> <option value="32">novembro/2007 </option> <option value="31">outubro/2007 </option> <option value="30">setembro/2007 </option> <option value="29">agosto/2007 </option> <option value="28">julho/2007 </option> <option value="27">junho/2007 </option> <option value="26">maio/2007 </option> <option value="24">abril/2007 </option> <option value="23">março/2007 </option> <option value="21">fevereiro/2007 </option> <option value="20">janeiro/2007 </option> <option value="19">dezembro/2006 </option> <option value="18">novembro/2006 </option> <option value="17">outubro/2006 </option> <option value="16">setembro/2006 </option> <option value="15">agosto/2006 </option> <option value="14">julho/2006 </option> <option value="13">junho/2006 </option> <option value="12">maio/2006 </option> <option value="11">abril/2006 </option> <option value="10">março/2006 </option> <option value="9">fevereiro/2006 </option> <option value="8">janeiro/2006 </option> <option value="111">dezembro/2005 </option> <option value="6">novembro/2005 </option> <option value="2">outubro/2005 </option> <option value="1">setembro/2005 </option> <option value="7">agosto/2005 </option> <option value="25">julho/2005 </option> <option value="116">junho/2005 </option> <option value="115">maio/2005 </option> <option value="114">abril/2005 </option> <option value="113">março/2005 </option> <option value="112">fevereiro/2005 </option> <option value="110">janeiro/2005 </option> <option value="101">dezembro/2004 </option> <option value="100">novembro/2004 </option> <option value="99">outubro/2004 </option> <option value="109">setembro/2004 </option> <option value="108">agosto/2004 </option> <option value="107">julho/2004 </option> <option value="106">junho/2004 </option> <option value="105">maio/2004 </option> <option value="104">abril/2004 </option> <option value="103">março/2004 </option> <option value="102">fevereiro/2004 </option> <option value="98">janeiro/2004 </option> <option value="89">dezembro/2003 </option> <option value="88">novembro/2003 </option> <option value="87">outubro/2003 </option> <option value="97">setembro/2003 </option> <option value="96">agosto/2003 </option> <option value="95">julho/2003 </option> <option value="94">junho/2003 </option> <option value="93">maio/2003 </option> <option value="92">abril/2003 </option> <option value="91">março/2003 </option> <option value="90">fevereiro/2003 </option> <option value="86">janeiro/2003 </option> <option value="77">dezembro/2002 </option> <option value="76">novembro/2002 </option> <option value="75">outubro/2002 </option> <option value="85">setembro/2002 </option> <option value="84">agosto/2002 </option> <option value="83">julho/2002 </option> <option value="82">junho/2002 </option> <option value="81">maio/2002 </option> <option value="80">abril/2002 </option> <option value="79">março/2002 </option> <option value="78">fevereiro/2002 </option> <option value="74">janeiro/2002 </option> <option value="66">dezembro/2001 </option> <option value="65">novembro/2001 </option> <option value="64">outubro/2001 </option> <option value="73">setembro/2001 </option> <option value="72">agosto/2001 </option> <option value="71">julho/2001 </option> <option value="70">junho/2001 </option> <option value="69">maio/2001 </option> <option value="68">abril/2001 </option> <option value="67">março/2001 </option> <option value="63">fevereiro/2001 </option> <option value="62">janeiro/2001 </option> </select> 
+          <div class="line"></div> 
+          <div class="form codigo"> 
+           <p>Por favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p> 
+           <div class="fLeft"> 
+            <div class="input txt" config="caminhao" tipoconsulta="codigo" urlconsulta="ConsultarAnoModeloPeloCodigoFipe"> 
+             <input type="text" name="txtCodigoFipe" value="" id="selectCodigocaminhaoCodigoFipe" data-tipo="codigo" data-nomeveiculo="Caminhões" placeholder="digite o código Fipe" maxlength="8"> 
+            </div> 
+           </div> 
+           <div class="fRight"> 
+            <div class="input" config="caminhao" tipoconsulta="codigo" urlconsulta=""> 
+             <select data-placeholder="Selecione o ano modelo" class="chosen-select" id="selectCodigoAnocaminhaoCodigoFipe" data-tipo="codigoano" data-valor="" style="width:215px" tabindex="2" data-no_results_text="Nada encontrado com"> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarcaminhaoPorCodigoFipe">Pesquisar</a> 
+           </div> 
+           <br> 
+           <p>Caso não possua o Código Fipe, <a class="link" href="javascript:void(0)" onclick="javascript:$('[data-slug=caminhao-comum]').trigger('click');">clique aqui</a> para pesquisar informando marca e modelo do veículo.</p> 
+           <div data-tipo="resultadoConsulta" id="resultadocaminhaoCodigoFipe"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarcaminhaoPorCodigoFipe"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+        </div> </li> 
+       <li class="ilustra"> <a href="javascript:void(0)" data-slug="moto" data-ga data-category="indices_indicadores_subitens" data-action="veiculos" data-label="moto"> 
+         <div class="ico ico_moto"></div> 
+         <div class="title">
+          Consulta de Motos
+         </div> </a> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/prism.css"> 
+        <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/modulos/chosen.css"> 
+        <div class="tab horizontal inside" veiculos> 
+         <nav> 
+          <ul> 
+           <li class="open"> <a href="javascript:void(0)" pesquisa data-aba="Abamoto-comum" data-slug="moto-comum" data-slugparent="moto" data-tabref="selectTabelaReferenciamoto">Pesquisa comum</a> </li> 
+           <li> <a href="javascript:void(0)" pesquisa data-aba="Abamoto-codigo" data-slug="moto-codigo" data-slugparent="moto" data-tabref="selectTabelaReferenciamotoConsultarPorCodigoFipe">Pesquisa por código Fipe</a> </li> 
+           <div class="clear"></div> 
+          </ul> 
+         </nav> 
+         <article class="open inside-search" config="moto" tipoconsulta="tradicional" codtipoveiculo="2" idselecttabelaref="selectTabelaReferenciamoto" idselectmarca="selectMarcamoto" idselectmodeloveiculo="selectAnoModelomoto" idselectano="selectAnomoto" iddivresultado="resultadoConsultamotoFiltros" idbutton="buttonPesquisarmoto" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="moto" idbuttonclear="buttonLimparPesquisarmoto" marca="" modelo="" nomeveiculo="Motos" ano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcamoto" data-no_results_text="Nada encontrado com" data-tabref="selectTabelaReferenciamoto" id="selectTabelaReferenciamoto" class="chosen-select" style="width:165px" data-tipo="referencia"> <option value="186">dezembro/2015 </option> <option value="185">novembro/2015 </option> <option value="184">outubro/2015 </option> <option value="183">setembro/2015 </option> <option value="182">agosto/2015 </option> <option value="181">julho/2015 </option> <option value="180">junho/2015 </option> <option value="179">maio/2015 </option> <option value="178">abril/2015 </option> <option value="176">março/2015 </option> <option value="175">fevereiro/2015 </option> <option value="174">janeiro/2015 </option> <option value="173">dezembro/2014 </option> <option value="172">novembro/2014 </option> <option value="171">outubro/2014 </option> <option value="170">setembro/2014 </option> <option value="169">agosto/2014 </option> <option value="168">julho/2014 </option> <option value="167">junho/2014 </option> <option value="166">maio/2014 </option> <option value="165">abril/2014 </option> <option value="164">março/2014 </option> <option value="163">fevereiro/2014 </option> <option value="162">janeiro/2014 </option> <option value="161">dezembro/2013 </option> <option value="160">novembro/2013 </option> <option value="159">outubro/2013 </option> <option value="158">setembro/2013 </option> <option value="157">agosto/2013 </option> <option value="156">julho/2013 </option> <option value="155">junho/2013 </option> <option value="154">maio/2013 </option> <option value="153">abril/2013 </option> <option value="152">março/2013 </option> <option value="151">fevereiro/2013 </option> <option value="150">janeiro/2013 </option> <option value="149">dezembro/2012 </option> <option value="148">novembro/2012 </option> <option value="147">outubro/2012 </option> <option value="146">setembro/2012 </option> <option value="145">agosto/2012 </option> <option value="144">julho/2012 </option> <option value="143">junho/2012 </option> <option value="142">maio/2012 </option> <option value="141">abril/2012 </option> <option value="140">março/2012 </option> <option value="139">fevereiro/2012 </option> <option value="138">janeiro/2012 </option> <option value="137">dezembro/2011 </option> <option value="136">novembro/2011 </option> <option value="135">outubro/2011 </option> <option value="134">setembro/2011 </option> <option value="133">agosto/2011 </option> <option value="132">julho/2011 </option> <option value="131">junho/2011 </option> <option value="130">maio/2011 </option> <option value="129">abril/2011 </option> <option value="128">março/2011 </option> <option value="127">fevereiro/2011 </option> <option value="126">janeiro/2011 </option> <option value="125">dezembro/2010 </option> <option value="124">novembro/2010 </option> <option value="123">outubro/2010 </option> <option value="122">setembro/2010 </option> <option value="121">agosto/2010 </option> <option value="120">julho/2010 </option> <option value="119">junho/2010 </option> <option value="118">maio/2010 </option> <option value="117">abril/2010 </option> <option value="61">março/2010 </option> <option value="60">fevereiro/2010 </option> <option value="59">janeiro/2010 </option> <option value="58">dezembro/2009 </option> <option value="57">novembro/2009 </option> <option value="56">outubro/2009 </option> <option value="55">setembro/2009 </option> <option value="54">agosto/2009 </option> <option value="53">julho/2009 </option> <option value="52">junho/2009 </option> <option value="51">maio/2009 </option> <option value="50">abril/2009 </option> <option value="49">março/2009 </option> <option value="48">fevereiro/2009 </option> <option value="47">janeiro/2009 </option> <option value="46">dezembro/2008 </option> <option value="45">novembro/2008 </option> <option value="44">outubro/2008 </option> <option value="43">setembro/2008 </option> <option value="42">agosto/2008 </option> <option value="41">julho/2008 </option> <option value="40">junho/2008 </option> <option value="38">maio/2008 </option> <option value="37">abril/2008 </option> <option value="36">março/2008 </option> <option value="35">fevereiro/2008 </option> <option value="34">janeiro/2008 </option> <option value="33">dezembro/2007 </option> <option value="32">novembro/2007 </option> <option value="31">outubro/2007 </option> <option value="30">setembro/2007 </option> <option value="29">agosto/2007 </option> <option value="28">julho/2007 </option> <option value="27">junho/2007 </option> <option value="26">maio/2007 </option> <option value="24">abril/2007 </option> <option value="23">março/2007 </option> <option value="21">fevereiro/2007 </option> <option value="20">janeiro/2007 </option> <option value="19">dezembro/2006 </option> <option value="18">novembro/2006 </option> <option value="17">outubro/2006 </option> <option value="16">setembro/2006 </option> <option value="15">agosto/2006 </option> <option value="14">julho/2006 </option> <option value="13">junho/2006 </option> <option value="12">maio/2006 </option> <option value="11">abril/2006 </option> <option value="10">março/2006 </option> <option value="9">fevereiro/2006 </option> <option value="8">janeiro/2006 </option> <option value="111">dezembro/2005 </option> <option value="6">novembro/2005 </option> <option value="2">outubro/2005 </option> <option value="1">setembro/2005 </option> <option value="7">agosto/2005 </option> <option value="25">julho/2005 </option> <option value="116">junho/2005 </option> <option value="115">maio/2005 </option> <option value="114">abril/2005 </option> <option value="113">março/2005 </option> <option value="112">fevereiro/2005 </option> <option value="110">janeiro/2005 </option> <option value="101">dezembro/2004 </option> <option value="100">novembro/2004 </option> <option value="99">outubro/2004 </option> <option value="109">setembro/2004 </option> <option value="108">agosto/2004 </option> <option value="107">julho/2004 </option> <option value="106">junho/2004 </option> <option value="105">maio/2004 </option> <option value="104">abril/2004 </option> <option value="103">março/2004 </option> <option value="102">fevereiro/2004 </option> <option value="98">janeiro/2004 </option> <option value="89">dezembro/2003 </option> <option value="88">novembro/2003 </option> <option value="87">outubro/2003 </option> <option value="97">setembro/2003 </option> <option value="96">agosto/2003 </option> <option value="95">julho/2003 </option> <option value="94">junho/2003 </option> <option value="93">maio/2003 </option> <option value="92">abril/2003 </option> <option value="91">março/2003 </option> <option value="90">fevereiro/2003 </option> <option value="86">janeiro/2003 </option> <option value="77">dezembro/2002 </option> <option value="76">novembro/2002 </option> <option value="75">outubro/2002 </option> <option value="85">setembro/2002 </option> <option value="84">agosto/2002 </option> <option value="83">julho/2002 </option> <option value="82">junho/2002 </option> <option value="81">maio/2002 </option> <option value="80">abril/2002 </option> <option value="79">março/2002 </option> <option value="78">fevereiro/2002 </option> <option value="74">janeiro/2002 </option> <option value="66">dezembro/2001 </option> <option value="65">novembro/2001 </option> <option value="64">outubro/2001 </option> <option value="73">setembro/2001 </option> <option value="72">agosto/2001 </option> <option value="71">julho/2001 </option> <option value="70">junho/2001 </option> <option value="69">maio/2001 </option> <option value="68">abril/2001 </option> <option value="67">março/2001 </option> <option value="63">fevereiro/2001 </option> <option value="62">janeiro/2001 </option> </select> 
+          <div class="line"></div> 
+          <div class="form"> 
+           <p>Informe primeiro a <strong>marca do veículo</strong> e depois o <strong>modelo</strong> e o <strong>ano modelo</strong> na ordem que desejar. Você também pode digitar a informação no campo "busca", dentro de cada opção do formulário da pesquisa.</p> 
+           <div class="step-1"> 
+            <div class="input" config="moto" tipoconsulta="tradicional" urlconsulta="ConsultarModelos"> 
+             <select data-placeholder="Digite ou selecione a marca do veiculo" class="chosen-select" id="selectMarcamoto" data-no_results_text="Nada encontrado com" data-tipo="marca" style="width:100%" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="step-2"> 
+            <div class="input" config="moto" tipoconsulta="tradicional" urlconsulta="ConsultarAnoModelo"> 
+             <select data-placeholder="Digite ou selecione o modelo do veiculo" class="chosen-select" id="selectAnoModelomoto" data-no_results_text="Nada encontrado com" data-tipo="modelo" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+             <div class="help"> 
+              <a href="#" title="">?</a> 
+             </div> 
+            </div> 
+            <div class="input" config="moto" tipoconsulta="tradicional" urlconsulta="ConsultarModelosAtravesDoAno"> 
+             <select data-placeholder="Digite ou selecione o ano modelo do veiculo" class="chosen-select" id="selectAnomoto" data-no_results_text="Nada encontrado com" data-tipo="ano" style="width:215px" tabindex="2" data-valor=""> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarmoto"> Pesquisar </a> 
+           </div> 
+           <div data-tipo="resultadoConsulta" id="resultadoConsultamotoFiltros"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarmoto"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+         <article tipoconsulta="codigo" config="moto" codtipoveiculo="2" idselectcodigo="selectCodigomotoCodigoFipe" idselectcodigoano="selectCodigoAnomotoCodigoFipe" idselecttabelaref="selectTabelaReferenciamotoCodigoFipe" iddivresultado="resultadomotoCodigoFipe" urlpesquisa="ConsultarValorComTodosParametros" tipoveiculo="moto" idbutton="buttonPesquisarmotoPorCodigoFipe" idbuttonclear="buttonLimparPesquisarmotoPorCodigoFipe" codigo="" nomeveiculo="Motos" codigoano=""> 
+          <p>Sua pesquisa será realizada de acordo com o seguinte período de referência:</p> 
+          <select data-selectmarca="selectMarcamoto" data-tabref="selectTabelaReferenciamotoConsultarPorCodigoFipe" data-no_results_text="Nada encontrado com" name="selectTabelaReferencia" id="selectTabelaReferenciamotoCodigoFipe" data-tipo="referencia" class="chosen-select" style="width:165px !important;"> <option value="186">dezembro/2015 </option> <option value="185">novembro/2015 </option> <option value="184">outubro/2015 </option> <option value="183">setembro/2015 </option> <option value="182">agosto/2015 </option> <option value="181">julho/2015 </option> <option value="180">junho/2015 </option> <option value="179">maio/2015 </option> <option value="178">abril/2015 </option> <option value="176">março/2015 </option> <option value="175">fevereiro/2015 </option> <option value="174">janeiro/2015 </option> <option value="173">dezembro/2014 </option> <option value="172">novembro/2014 </option> <option value="171">outubro/2014 </option> <option value="170">setembro/2014 </option> <option value="169">agosto/2014 </option> <option value="168">julho/2014 </option> <option value="167">junho/2014 </option> <option value="166">maio/2014 </option> <option value="165">abril/2014 </option> <option value="164">março/2014 </option> <option value="163">fevereiro/2014 </option> <option value="162">janeiro/2014 </option> <option value="161">dezembro/2013 </option> <option value="160">novembro/2013 </option> <option value="159">outubro/2013 </option> <option value="158">setembro/2013 </option> <option value="157">agosto/2013 </option> <option value="156">julho/2013 </option> <option value="155">junho/2013 </option> <option value="154">maio/2013 </option> <option value="153">abril/2013 </option> <option value="152">março/2013 </option> <option value="151">fevereiro/2013 </option> <option value="150">janeiro/2013 </option> <option value="149">dezembro/2012 </option> <option value="148">novembro/2012 </option> <option value="147">outubro/2012 </option> <option value="146">setembro/2012 </option> <option value="145">agosto/2012 </option> <option value="144">julho/2012 </option> <option value="143">junho/2012 </option> <option value="142">maio/2012 </option> <option value="141">abril/2012 </option> <option value="140">março/2012 </option> <option value="139">fevereiro/2012 </option> <option value="138">janeiro/2012 </option> <option value="137">dezembro/2011 </option> <option value="136">novembro/2011 </option> <option value="135">outubro/2011 </option> <option value="134">setembro/2011 </option> <option value="133">agosto/2011 </option> <option value="132">julho/2011 </option> <option value="131">junho/2011 </option> <option value="130">maio/2011 </option> <option value="129">abril/2011 </option> <option value="128">março/2011 </option> <option value="127">fevereiro/2011 </option> <option value="126">janeiro/2011 </option> <option value="125">dezembro/2010 </option> <option value="124">novembro/2010 </option> <option value="123">outubro/2010 </option> <option value="122">setembro/2010 </option> <option value="121">agosto/2010 </option> <option value="120">julho/2010 </option> <option value="119">junho/2010 </option> <option value="118">maio/2010 </option> <option value="117">abril/2010 </option> <option value="61">março/2010 </option> <option value="60">fevereiro/2010 </option> <option value="59">janeiro/2010 </option> <option value="58">dezembro/2009 </option> <option value="57">novembro/2009 </option> <option value="56">outubro/2009 </option> <option value="55">setembro/2009 </option> <option value="54">agosto/2009 </option> <option value="53">julho/2009 </option> <option value="52">junho/2009 </option> <option value="51">maio/2009 </option> <option value="50">abril/2009 </option> <option value="49">março/2009 </option> <option value="48">fevereiro/2009 </option> <option value="47">janeiro/2009 </option> <option value="46">dezembro/2008 </option> <option value="45">novembro/2008 </option> <option value="44">outubro/2008 </option> <option value="43">setembro/2008 </option> <option value="42">agosto/2008 </option> <option value="41">julho/2008 </option> <option value="40">junho/2008 </option> <option value="38">maio/2008 </option> <option value="37">abril/2008 </option> <option value="36">março/2008 </option> <option value="35">fevereiro/2008 </option> <option value="34">janeiro/2008 </option> <option value="33">dezembro/2007 </option> <option value="32">novembro/2007 </option> <option value="31">outubro/2007 </option> <option value="30">setembro/2007 </option> <option value="29">agosto/2007 </option> <option value="28">julho/2007 </option> <option value="27">junho/2007 </option> <option value="26">maio/2007 </option> <option value="24">abril/2007 </option> <option value="23">março/2007 </option> <option value="21">fevereiro/2007 </option> <option value="20">janeiro/2007 </option> <option value="19">dezembro/2006 </option> <option value="18">novembro/2006 </option> <option value="17">outubro/2006 </option> <option value="16">setembro/2006 </option> <option value="15">agosto/2006 </option> <option value="14">julho/2006 </option> <option value="13">junho/2006 </option> <option value="12">maio/2006 </option> <option value="11">abril/2006 </option> <option value="10">março/2006 </option> <option value="9">fevereiro/2006 </option> <option value="8">janeiro/2006 </option> <option value="111">dezembro/2005 </option> <option value="6">novembro/2005 </option> <option value="2">outubro/2005 </option> <option value="1">setembro/2005 </option> <option value="7">agosto/2005 </option> <option value="25">julho/2005 </option> <option value="116">junho/2005 </option> <option value="115">maio/2005 </option> <option value="114">abril/2005 </option> <option value="113">março/2005 </option> <option value="112">fevereiro/2005 </option> <option value="110">janeiro/2005 </option> <option value="101">dezembro/2004 </option> <option value="100">novembro/2004 </option> <option value="99">outubro/2004 </option> <option value="109">setembro/2004 </option> <option value="108">agosto/2004 </option> <option value="107">julho/2004 </option> <option value="106">junho/2004 </option> <option value="105">maio/2004 </option> <option value="104">abril/2004 </option> <option value="103">março/2004 </option> <option value="102">fevereiro/2004 </option> <option value="98">janeiro/2004 </option> <option value="89">dezembro/2003 </option> <option value="88">novembro/2003 </option> <option value="87">outubro/2003 </option> <option value="97">setembro/2003 </option> <option value="96">agosto/2003 </option> <option value="95">julho/2003 </option> <option value="94">junho/2003 </option> <option value="93">maio/2003 </option> <option value="92">abril/2003 </option> <option value="91">março/2003 </option> <option value="90">fevereiro/2003 </option> <option value="86">janeiro/2003 </option> <option value="77">dezembro/2002 </option> <option value="76">novembro/2002 </option> <option value="75">outubro/2002 </option> <option value="85">setembro/2002 </option> <option value="84">agosto/2002 </option> <option value="83">julho/2002 </option> <option value="82">junho/2002 </option> <option value="81">maio/2002 </option> <option value="80">abril/2002 </option> <option value="79">março/2002 </option> <option value="78">fevereiro/2002 </option> <option value="74">janeiro/2002 </option> <option value="66">dezembro/2001 </option> <option value="65">novembro/2001 </option> <option value="64">outubro/2001 </option> <option value="73">setembro/2001 </option> <option value="72">agosto/2001 </option> <option value="71">julho/2001 </option> <option value="70">junho/2001 </option> <option value="69">maio/2001 </option> <option value="68">abril/2001 </option> <option value="67">março/2001 </option> <option value="63">fevereiro/2001 </option> <option value="62">janeiro/2001 </option> </select> 
+          <div class="line"></div> 
+          <div class="form codigo"> 
+           <p>Por favor, informe o Código Fipe e ano modelo do veículo que deseja pesquisar.</p> 
+           <div class="fLeft"> 
+            <div class="input txt" config="moto" tipoconsulta="codigo" urlconsulta="ConsultarAnoModeloPeloCodigoFipe"> 
+             <input type="text" name="txtCodigoFipe" value="" id="selectCodigomotoCodigoFipe" data-tipo="codigo" data-nomeveiculo="Motos" placeholder="digite o código Fipe" maxlength="8"> 
+            </div> 
+           </div> 
+           <div class="fRight"> 
+            <div class="input" config="moto" tipoconsulta="codigo" urlconsulta=""> 
+             <select data-placeholder="Selecione o ano modelo" class="chosen-select" id="selectCodigoAnomotoCodigoFipe" data-tipo="codigoano" data-valor="" style="width:215px" tabindex="2" data-no_results_text="Nada encontrado com"> <option value=""></option> </select> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+           <div class="button pesquisa"> 
+            <a href="javascript:void(0)" class="text" id="buttonPesquisarmotoPorCodigoFipe">Pesquisar</a> 
+           </div> 
+           <br> 
+           <p>Caso não possua o Código Fipe, <a class="link" href="javascript:void(0)" onclick="javascript:$('[data-slug=moto-comum]').trigger('click');">clique aqui</a> para pesquisar informando marca e modelo do veículo.</p> 
+           <div data-tipo="resultadoConsulta" id="resultadomotoCodigoFipe"></div> 
+           <div class="button pesquisa clear" id="buttonLimparPesquisarmotoPorCodigoFipe"> 
+            <a href="javascript:void(0)" class="text"> Limpar Pesquisa </a> 
+           </div> 
+          </div> 
+         </article> 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <div> 
+      <br> 
+      <h3>Entre em contato</h3> 
+      <p>Entre em contato conosco pelo e-mail <a href="mailto:veiculos@fipe.org.br">veiculos@fipe.org.br</a>.</p> 
+     </div> 
+     <div class="button top"> 
+      <a href="javascript:void(0)" data-ga data-category="footer" data-action="clique" data-label="voltar_topo"> 
+       <figure> 
+        <img src="http://www.fipe.org.br/Content/img/btn_top.png" alt=""> 
+       </figure> </a> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+   </section> 
+   <input type="hidden" id="urlBase" value=""> 
+   <input type="hidden" id="urlRota" value=""> 
+   <input type="hidden" id="tabelaReferenciaAtualAno" value="2016"> 
+   <input type="hidden" id="tabelaReferenciaAtualMes" value="06"> 
+   <div style="display: none" id="tabelaResultadoPesquisa"> 
+    <div class="line"></div> 
+    <div class="actions"> 
+     <ul> 
+      <li data-ico="ico_print.png"> <a href="javascript:void(0)" onclick="printTable(this)">Imprimir</a> </li> 
+      <li data-ico="ico_url.png"> <a href="javascript:void(0)" id="linkCopyUrl" onclick="openCopyURL(this)"> 
+        <div class="input txt"> 
+         <input type="text" name="copyUrl" id="copyUrl" value="{url-link}"> 
+        </div> <span>Copiar Url</span> </a> </li> 
+     </ul> 
+    </div> 
+    <div class="clear"></div> 
+    <table width="100%" cellspacing="0" cellpadding="0"> 
+     <tbody> 
+      <tr> 
+       <td class="noborder"><p>Mês de referência:</p></td> 
+       <td><p>{mes-de-referencia}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Código Fipe:</p></td> 
+       <td><p>{codigo-fipe}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Marca:</p></td> 
+       <td><p>{marca}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Modelo:</p></td> 
+       <td><p>{modelo}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Ano Modelo:</p></td> 
+       <td><p>{ano-modelo}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Autenticação</p></td> 
+       <td><p>{autenticacao}</p></td> 
+      </tr> 
+      <tr> 
+       <td class="noborder"><p>Data da consulta</p></td> 
+       <td><p>{data-consulta}</p></td> 
+      </tr> 
+      <tr class="last"> 
+       <td class="noborder"><p>Preço Médio</p></td> 
+       <td><p>{preco-medio}</p></td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+   <script src="http://www.fipe.org.br/Content/js/modulos/indices_function.min.js" type="text/javascript"></script> 
+   <script src="content/js/modulos/veiculos_function.js?v=20160805" type="text/javascript"></script> 
+   <script src="http://www.fipe.org.br/Content/js/modulos/chosen.jquery.min.js" type="text/javascript"></script> 
+   <script src="http://www.fipe.org.br/Content/js/modulos/prism.js" type="text/javascript" charset="utf-8"></script> 
+   <script src="http://www.fipe.org.br/Content/js/jquery.maskedinput.min.js" type="text/javascript"></script> 
+   <script>
+            var id = '';
+            $(window).load(function () {
+
+                if (document.location.href.indexOf("?") > -1) {
+                    try {
+                        acessoUrl = true;
+
+                       var urlParametro = document.location.href.split("?")[1];
+                        var parametros = urlParametro.split("/");
+
+
+                        $.ajax({
+                            url: urlApi + "/veiculos/VeiculoFiltro",
+                            data: {
+                                tipo: parametros[0], marca: parametros[1], mesreferencia: parametros[2],
+                                codigofipe: parametros[3], ano: parametros[4], combustivel: parametros[5],
+                                autenticacao : parametros[6]
+                            },
+                            method: "POST",
+                            success : function(data)
+                            {
+                                var erro = data.erro;
+                                if (erro == null || erro == undefined) {
+                                    veiculo = data;
+                                    var tipo = tipoVeiculoUrl()
+                                    scrollToElement('[data-slug="' + tipo + '"]');
+
+                                    id = "input#selectCodigo" + tipo + "CodigoFipe";
+                                    idTabRef = "#selectTabelaReferencia" + tipo + "CodigoFipe";
+
+                                    $(id).val(veiculo.CodigoFipe.toString());
+                                    $(idTabRef).val(veiculo.CodigoHistorico.toString());
+                                    $(idTabRef).trigger("chosen:updated");
+
+                                    var hash = ('#' + tipo + '&' + tipo + '-codigo').toLowerCase();
+
+                                    if (window.location.hash.indexOf(hash) == -1)
+                                        window.location.href += hash;
+
+                                    $("#selectCodigoAno" + tipo + "CodigoFipe").attr('data-valor', veiculo.AnoModelo);
+                                    setTimeout('$(id).trigger("blur");acessoUrl = false;', 1200)
+                                }
+                            },
+                            error: function (a, b, c) {
+
+                            }
+                        })
+
+                        
+
+                    } catch (e) {
+                        //console.log(e.description + " " + e.message);
+                    }
+                }
+
+            });
+        </script> 
+   <form action="http://www.fipe.org.br/IndicesConsulta-_DownloadParaExcel" id="ExportarExcelForm" method="post">
+    <input id="NomeArquivo" name="NomeArquivo" type="hidden" value="">
+    <input id="TabelaHtml" name="TabelaHtml" type="hidden" value="">
+   </form> 
+   <footer id="footer_main"> 
+    <section> 
+     <div class="item"> 
+      <h3>Acesso Rápido</h3> 
+      <ul> 
+       <li> <a href="http://www.fipe.org.br/pt-br/indices" data-ga data-category="footer_ajuda" data-action="clique" data-label="indices" data-slug="indices">Índices e Indicadores</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/ensino" data-ga data-category="footer_ajuda" data-action="clique" data-label="ensino" data-slug="ensino">Ensino</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/projetos-e-pesquisas" data-ga data-category="footer_ajuda" data-action="clique" data-label="projetos-e-pesquisas" data-slug="projetos-e-pesquisas">Projetos e Pesquisas</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/publicacoes" data-ga data-category="footer_ajuda" data-action="clique" data-label="publicacoes" data-slug="publicacoes">Publicações</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/sobre-a-fipe/" data-ga data-category="footer_ajuda" data-action="clique" data-label="sobre-a-fipe" data-slug="sobre-a-fipe">Sobre a Fipe</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/noticias" data-ga data-category="footer_ajuda" data-action="clique" data-label="noticias" data-slug="noticias">Notícias</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/contato/" data-ga data-category="footer_ajuda" data-action="clique" data-label="contato" data-slug="contato">Contato</a> </li> 
+       <li> <a href="http://www.fipe.org.br/pt-br/institucional/mapa-do-site/" data-ga data-category="footer_ajuda" data-action="clique" data-label="mapa-do-site" data-slug="mapa-do-site">Mapa do Site</a> </li> 
+      </ul> 
+     </div> 
+     <div class="item"> 
+      <h3>Links Importantes</h3> 
+      <ul> 
+       <li> <a href="http://www.fea.usp.br/feaecon/" target="_blank" class="external-links-light" data-ga data-category="footer_links_importantes" data-action="clique" data-label="rodape-link-econ-fea-usp" data-slug="rodape-link-econ-fea-usp">Departamento de Economia<br>da FEA-USP</a> </li> 
+       <li> <a href="http://www.fea.usp.br/" target="_blank" class="external-links-light" data-ga data-category="footer_links_importantes" data-action="clique" data-label="rodape-link-feausp" data-slug="rodape-link-feausp">Faculdade de Economia,<br>Administração de Contabilidade<br>da Universidade de São Paulo</a> </li> 
+       <li> <a href="http://www.usp.br/" target="_blank" class="external-links-light" data-ga data-category="footer_links_importantes" data-action="clique" data-label="rodape-link-usp" data-slug="rodape-link-usp">Universidade de São Paulo</a> </li> 
+       <li> <a href="" data-ga data-category="footer_links_importantes" data-action="clique" data-label="rodape-link-laurin" data-slug="rodape-link-laurin"></a> </li> 
+       <li> <a href="" data-ga data-category="footer_links_importantes" data-action="clique" data-label="rodape-link-sicap" data-slug="rodape-link-sicap"></a> </li> 
+      </ul> 
+     </div> 
+     <div class="item no-background"> 
+      <h3>Receba novidades</h3> 
+      <form id="frmNews" name="frmNews"> 
+       <input name="__RequestVerificationToken" type="hidden" value="NI8vMfexGagAh__cS9neIagV9nG98jnbBZ2mYPJdeg9Je_23Zp-2ripkw7GmkqznI1grjzoLqMxnVLuEvowskcijiAXriZTOv1LPKV-Jjw81"> 
+       <input type="hidden" name="recnov_sessao" id="recnov_sessao"> 
+       <div class="input txt transparent"> 
+        <input type="text" name="recnov_nome" id="recnov_nome" placeholder="nome completo"> 
+       </div> 
+       <div class="input txt transparent"> 
+        <input type="text" name="recnov_email" id="recnov_email" placeholder="e-mail"> 
+       </div> 
+       <input type="hidden" id="recnov_url" value="/NewsLetter-Cadastrar"> 
+       <div class="button enviar"> 
+        <a href="#" class="text" id="recnov_btnEnviar" data-ga data-category="footer_newsletter" data-action="clique" data-label="Enviar" name="recnov_btnEnviar"> Enviar </a> 
+       </div> 
+      </form> 
+      <div class="socialList"> 
+       <ul> 
+        <li> <a href="http://www.facebook.com/fipecursos" target="_blank"> <img src="http://www.fipe.org.br/Content/img/social/ico_face.png" alt="" title=""> </a> </li> 
+        <li> <a href="http://www.twitter.com/fipecursos" target="_blank"> <img src="http://www.fipe.org.br/Content/img/social/ico_twitter.png" alt="" title=""> </a> </li> 
+        <li> <a href="http://www.youtube.com/fipecursos" target="_blank"> <img src="http://www.fipe.org.br/Content/img/social/ico_youtube.png" alt="" title=""> </a> </li> 
+        <li> <a href="http://www.linkedin.com/company/fipe---funda-o-instituto-de-pesquisas-econ-micas" target="_blank"> <img src="http://www.fipe.org.br/Content/img/social/ico_linkedin.png" alt="" title=""> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+     <h6>© 2015 Todos os direitos reservados à Fipe</h6> 
+    </section> 
+   </footer> 
+   <div class="bg_black"></div> 
+   <div class="modal"> 
+    <div class="btnClose"></div> 
+    <div class="content"></div> 
+   </div> 
+   <!--[if lt IE 9]>
+            <link rel="stylesheet" href="http://www.fipe.org.br/Content/css/ie8-fix.css">
+            <script type="text/javascript" src="http://www.fipe.org.br/Content/js/vendor/placeholders.min.js"></script>
+        <![endif]--> 
+   <div id="containerExport" style="display:none"></div> 
+  </div>   
+ </body>
+</html>

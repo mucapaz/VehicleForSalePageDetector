@@ -1,0 +1,742 @@
+<!doctype html>
+<html class="no-js" lang="pt" dir="ltr">
+ <head> 
+  <base target="_parent"> 
+  <meta charset="utf-8"> 
+  <link rel="dns-prefetch" href="https://cdn.salaodocarro.com.br"> 
+  <meta http-equiv="x-ua-compatible" content="ie=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <meta name="description" content="Confira testes de carros, incluindo fotos exclusivas e ficha técnica completa. Diversas avaliações de carros com opiniões imparciais."> 
+  <meta property="og:title" content="Testes e Avaliações - Salão do Carro"> 
+  <meta property="og:image" content="https://cdn.salaodocarro.com.br/_img/salaodocarro.png"> 
+  <meta property="og:url" content="https://salaodocarro.com.br/testes/"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:site_name" content="Salão do Carro"> 
+  <meta property="fb:app_id" content="346411065435448"> 
+  <meta property="og:description" content="Confira testes de carros, incluindo fotos exclusivas e ficha técnica completa. Diversas avaliações de carros com opiniões imparciais."> 
+  <meta property="fb:pages" content="443444739028914"> 
+  <meta name="twitter:card" content="photo"> 
+  <meta name="twitter:site" content="@salaodocarro"> 
+  <meta name="twitter:creator" content="@salaodocarro"> 
+  <meta name="twitter:domain" content="salaodocarro.com.br"> 
+  <meta name="twitter:url" content="https://salaodocarro.com.br/testes/"> 
+  <meta name="twitter:title" content="Testes e Avaliações - Salão do Carro"> 
+  <meta name="twitter:description" content="Confira testes de carros, incluindo fotos exclusivas e ficha técnica completa. Diversas avaliações de carros com opiniões imparciais."> 
+  <title>Testes e Avaliações - Salão do Carro</title> 
+  <link rel="apple-touch-icon-precomposed" href="https://cdn.salaodocarro.com.br/icon.png"> 
+  <link rel="icon" href="https://cdn.salaodocarro.com.br/favicon.ico" type="image/x-icon"> 
+  <link rel="shortcut icon" href="https://cdn.salaodocarro.com.br/favicon.ico" type="image/x-icon"> 
+  <link rel="stylesheet" href="https://cdn.salaodocarro.com.br/_css/desktop_v7.min.css">
+  <link rel="alternate" type="application/rss+xml" title="Feeds RSS" href="https://salaodocarro.com.br/rss/"> 
+  <link rel="publisher" href="https://plus.google.com/+salaocarro"> 
+  <link rel="canonical" href="https://salaodocarro.com.br/testes/"> 
+ </head> 
+ <body> 
+  <div class="off-canvas-wrapper"> 
+   <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper> 
+    <nav class="top-bar">
+     <div class="row columns">
+      <div class="top-bar-title">
+       <a href="/"><img src="https://cdn.salaodocarro.com.br/_img/logo.svg" onerror="this.onerror=null; this.src='https://cdn.salaodocarro.com.br/_img/logo.png'" alt="Salão do Carro" title="Salão do Carro" width="164" height="22"></a>
+      </div>
+      <div>
+       <div class="top-bar-left">
+        <ul class="menu">
+         <li><a href="/comprar/" title="Ofertas de Carros" data-toggle="menu-comprar">Comprar</a>
+          <div id="menu-comprar" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true" data-options="data-h-offset:-300">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Comprar</label></li>
+              <li><a href="/comprar/carros/"><strong>Ver Todos os Carros</strong></a></li>
+              <li><a href="/fipe/">Tabela FIPE</a></li>
+              <li><a href="/guia/">Guia de 0km</a></li>
+              <li><label style="margin-top:2rem">Vai vender?</label></li>
+              <li><a href="/vender/">Anuncie Grátis seu Carro</a></li>
+              <li><label style="margin-top:2rem">Veja também</label></li>
+              <li><a href="https://motos.salaodocarro.com.br/comprar/motos/">Ofertas de Motos</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/comprar/caminhoes/">Ofertas de Caminhões</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <ul>
+              <li><label>Carros mais buscados</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/chevrolet/celta/" title="Ofertas de Chevrolet Celta"><span class="list-logo s carro-celta"></span>Celta</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/toyota/corolla/" title="Ofertas de Toyota Corolla"><span class="list-logo s carro-corolla"></span>Corolla</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/volkswagen/gol/" title="Ofertas de Volkswagen Gol"><span class="list-logo s carro-gol"></span>Gol</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/hyundai/hb20/" title="Ofertas de Hyundai HB20"><span class="list-logo s carro-hb20"></span>HB20</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/fiat/palio/" title="Ofertas de Fiat Palio"><span class="list-logo s carro-palio"></span>Palio</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/volkswagen/voyage/" title="Ofertas de Volkswagen Voyage"><span class="list-logo s carro-voyage"></span>Voyage</a>
+              </div>
+             </div>
+             <ul>
+              <li><label>Marcas mais acessadas</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/chevrolet/" title="Ofertas de carros da Chevrolet"><span class="list-logo s marca-chevrolet"></span>Chevrolet</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/fiat/" title="Ofertas de carros da Fiat"><span class="list-logo s marca-fiat"></span>Fiat</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/ford/" title="Ofertas de carros da Ford"><span class="list-logo s marca-ford"></span>Ford</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/hyundai/" title="Ofertas de carros da Hyundai"><span class="list-logo s marca-hyundai"></span>Hyundai</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/toyota/" title="Ofertas de carros da Toyota"><span class="list-logo s marca-toyota"></span>Toyota</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/volkswagen/" title="Ofertas de carros da Volkswagen"><span class="list-logo s marca-volkswagen"></span>Volkswagen</a>
+              </div>
+             </div>
+             <ul>
+              <li><label>Por segmento</label></li>
+             </ul>
+             <div class="row menu-list">
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=2"><span class="list-logo s ico-coupe"></span>Coupé</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=4"><span class="list-logo s ico-hatch"></span>Hatch</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=5"><span class="list-logo s ico-minivan"></span>Minivan</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=7"><span class="list-logo s ico-picape"></span>Picape</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=8"><span class="list-logo s ico-sedan"></span>Sedan</a>
+              </div>
+              <div class="large-2 columns text-center">
+               <a href="/comprar/carros/?segmento=9"><span class="list-logo s ico-suv"></span>SUV</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li><a href="/vender/" title="Anunciar Carro Grátis" data-toggle="menu-vender">Vender</a>
+          <div id="menu-vender" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Vender</label></li>
+              <li><a href="/vender/"><strong>Anunciar Carro</strong></a></li>
+              <li><a href="https://motos.salaodocarro.com.br/vender/">Anunciar Moto</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/vender/">Anunciar Caminhão</a></li>
+              <li><a href="/conta/anuncios/">Meus Anúncios</a></li>
+              <li><label style="margin-top:2rem">Lojistas e Concessionários</label></li>
+              <li><a href="/lojista/">Central do Lojista</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <div style="background:#f5f5f5;padding:20px;border-radius:4px;">
+              <div class="row">
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie Grátis seu Carro"><span class="list-logo s ico-t-oportunidade"></span></a>
+                <p class="lead">Oportunidade</p>
+                <p class="no-margins">Aqui você anuncia grátis até vender!</p>
+               </div>
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie aqui para milhões de visitantes"><span class="list-logo s ico-t-publico"></span></a>
+                <p class="lead">Visibilidade</p>
+                <p class="no-margins">Apareça para milhões de visitantes na Internet.</p>
+               </div>
+               <div class="large-4 columns text-center">
+                <a href="/vender/" title="Anuncie seu carro em menos de 5 minutos"><span class="list-logo s ico-t-rapido"></span></a>
+                <p class="lead">Facilidade</p>
+                <p class="no-margins">Em menos de 5 minutos o seu anúncio está no ar!</p>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li><a href="/fipe/" title="Tabela FIPE" data-toggle="menu-fipe">Tabela FIPE</a>
+          <div id="menu-fipe" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Tabela FIPE</label></li>
+              <li><a href="/fipe/">Preços de Carros</a></li>
+              <li><a href="https://motos.salaodocarro.com.br/fipe/">Preços de Motos</a></li>
+              <li><a href="https://caminhoes.salaodocarro.com.br/fipe/">Preços de Caminhões</a></li>
+              <li><a href="/fipe/#email">Receber avaliação no e-mail</a></li>
+              <li><a href="/fipe/#marcas">Ver Todas as Marcas</a></li>
+              <li style="margin-top:2rem"><label>Entenda</label></li>
+              <li><a href="/fipe/#fipe">O que é a Tabela FIPE?</a></li>
+             </ul>
+            </div>
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Preços por marca</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-4 columns text-center">
+               <a href="/fipe/chevrolet/" title="Preços de carros Chevrolet"><span class="list-logo s marca-chevrolet"></span>Chevrolet</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/citroen/" title="Preços de carros Citroën"><span class="list-logo s marca-citroen"></span>Citroën</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/fiat/" title="Preços de carros Fiat"><span class="list-logo s marca-fiat"></span>Fiat</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/ford/" title="Preços de carros Ford"><span class="list-logo s marca-ford"></span>Ford</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/honda/" title="Preços de carros Honda"><span class="list-logo s marca-honda"></span>Honda</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/hyundai/" title="Preços de carros Hyundai"><span class="list-logo s marca-hyundai"></span>Hyundai</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/renault/" title="Preços de carros Renault"><span class="list-logo s marca-renault"></span>Renault</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/toyota/" title="Preços de carros Toyota"><span class="list-logo s marca-toyota"></span>Toyota</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/volkswagen/" title="Preços de carros Volkswagen"><span class="list-logo s marca-volkswagen"></span>Volkswagen</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-4 columns">
+             <ul>
+              <li><label>Modelos mais acessados</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-4 columns text-center">
+               <a href="/fipe/chevrolet/astra/" title="Preço do Chevrolet Astra"><span class="list-logo s carro-astra"></span>Astra</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/chevrolet/celta/" title="Preço do Chevrolet Celta"><span class="list-logo s carro-celta"></span>Celta</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/chevrolet/corsa/" title="Preço do Chevrolet Corsa"><span class="list-logo s carro-corsa"></span>Corsa</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/ford/fiesta/" title="Preço do Ford Fiesta"><span class="list-logo s carro-fiesta"></span>Fiesta</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/volkswagen/fox/" title="Preço do Volkswagen Fox"><span class="list-logo s carro-fox"></span>Fox</a>
+              </div>
+              <div class="large-4 columns text-center">
+               <a href="/fipe/volkswagen/gol/" title="Preço do Volkswagen Gol"><span class="list-logo s carro-gol"></span>Gol</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/fiat/palio/" title="Preço do Fiat Palio"><span class="list-logo s carro-palio"></span>Palio</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/fiat/uno/" title="Preço do Fiat Uno"><span class="list-logo s carro-uno"></span>Uno</a>
+              </div>
+              <div class="large-4 columns text-center no-margin">
+               <a href="/fipe/volkswagen/voyage/" title="Preço do Volkswagen Voyage"><span class="list-logo s carro-voyage"></span>Voyage</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li class="show-for-large"><a href="/guia/" title="Guia de Carros 0km" data-toggle="menu-guia">Guia 0km</a>
+          <div id="menu-guia" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Guia de Carros 0km</label></li>
+              <li><a href="/guia/carros/"><strong>Ver Todos os Modelos</strong></a></li>
+              <li><a href="/guia/">Ver Todas as Marcas</a></li>
+              <li><a href="/fipe/">Tabela FIPE</a></li>
+              <li style="margin-top:2rem"><label>Opiniões</label></li>
+              <li><a href="/guia/opinioes/">Ver Todas as Opiniões</a></li>
+              <li style="margin-top:2rem"><label>Consulte também</label></li>
+              <li><a href="https://motos.salaodocarro.com.br/guia/">Guia de Motos</a></li>
+             </ul>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Segmentos</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?c=4"><span class="list-logo s ico-hatch"></span>Hatch</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?c=5"><span class="list-logo s ico-minivan"></span>Minivan</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?c=6"><span class="list-logo s ico-perua"></span>Perua</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?c=7"><span class="list-logo s ico-picape"></span>Picape</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/carros/?c=8"><span class="list-logo s ico-sedan"></span>Sedan</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/carros/?c=9"><span class="list-logo s ico-suv"></span>SUV</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Estilos</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?e=1"><span class="list-logo s ico-e-aventureiro"></span>Aventureiro</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?e=2"><span class="list-logo s ico-e-automatico"></span>Automático</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?e=3"><span class="list-logo s ico-e-comercial"></span>Comercial</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/guia/carros/?e=4"><span class="list-logo s ico-e-economico"></span>Econômico</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/carros/?e=5"><span class="list-logo s ico-e-esportivo"></span>Esportivo</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/guia/carros/?e=7"><span class="list-logo s ico-e-familia"></span>Família</a>
+              </div>
+             </div>
+            </div>
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Marcas</label></li>
+             </ul>
+             <div class="row menu-list menu-list-margin">
+              <div class="large-6 columns text-center">
+               <a href="/chevrolet/" title="Carros Chevrolet"><span class="list-logo s marca-chevrolet" style="height:55px;"></span>Chevrolet</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/fiat/" title="Carros Fiat"><span class="list-logo s marca-fiat" style="height:55px;"></span>Fiat</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/ford/" title="Carros Ford"><span class="list-logo s marca-ford" style="height:55px;"></span>Ford</a>
+              </div>
+              <div class="large-6 columns text-center">
+               <a href="/hyundai/" title="Carros Hyundai"><span class="list-logo s marca-hyundai" style="height:55px;"></span>Hyundai</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/toyota/" title="Carros Toyota"><span class="list-logo s marca-toyota" style="height:55px;"></span>Toyota</a>
+              </div>
+              <div class="large-6 columns text-center no-margin">
+               <a href="/volkswagen/" title="Carros Volkswagen"><span class="list-logo s marca-volkswagen" style="height:55px;"></span>Volkswagen</a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+         <li class="show-for-large"><a href="/revista/" title="Revista" data-toggle="menu-revista" class="active">Revista</a>
+          <div id="menu-revista" class="dropdown-pane large" data-dropdown data-hover="true" data-hover-pane="true">
+           <div class="row">
+            <div class="large-3 columns">
+             <ul>
+              <li><label>Seções</label></li>
+              <li><a href="/caminhoes/">Caminhões</a></li>
+              <li><a href="/classicos/">Clássicos</a></li>
+              <li><a href="/como-funciona/">Como Funciona</a></li>
+              <li><a href="/comparativos/">Comparativos</a></li>
+              <li><a href="/curiosidades/">Curiosidades</a></li>
+              <li><a href="/dicas/">Dicas</a></li>
+              <li><a href="/eventos/">Eventos</a></li>
+              <li><a href="/lancamentos/">Lançamentos</a></li>
+              <li><a href="/mercado/">Mercado</a></li>
+              <li><a href="https://motos.salaodocarro.com.br/revista/">Motos</a></li>
+              <li><a href="/onibus/">Ônibus</a></li>
+              <li><a href="/opiniao-do-dono/">Opinião do Dono</a></li>
+              <li><a href="/previas/">Prévias</a></li>
+              <li><a href="/recalls/">Recalls</a></li>
+              <li><a href="/segredos/">Segredos</a></li>
+              <li><a href="/testes/">Testes</a></li>
+              <li><a href="/videos/">Vídeos</a></li>
+             </ul>
+            </div>
+            <div class="large-9 columns">
+             <div class="row">
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Últimas notícias</label></li>
+               </ul>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/mercado/etanol-754-mais-eficiente-gasolina.html" title="Etanol é 75,4% mais eficiente do que gasolina"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/13/etanol-754-mais-eficiente-gasolina_list.jpg" alt="Etanol é 75,4% mais eficiente do que gasolina"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/mercado/etanol-754-mais-eficiente-gasolina.html" title="Etanol é 75,4% mais eficiente do que gasolina">Etanol é 75,4% mais eficiente do que gasolina</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/videos/piloto-comanda-nissan-gt-r-controle-videogame.html" title="Piloto comanda Nissan GT-R com controle de videogame"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/13/piloto-comanda-nissan-gt-r-controle-videogame_list.jpg" alt="Piloto comanda Nissan GT-R com controle de videogame"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/videos/piloto-comanda-nissan-gt-r-controle-videogame.html" title="Piloto comanda Nissan GT-R com controle de videogame">Piloto comanda Nissan GT-R com controle de videogame</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/mercado/gm-anuncia-us-300-milhoes-investimento-novo-carro.html" title="GM anuncia US$ 300 milhões de investimento em novo carro"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/13/gm-anuncia-us-300-milhoes-investimento-novo-carro_list.jpg" alt="GM anuncia US$ 300 milhões de investimento em novo carro"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/mercado/gm-anuncia-us-300-milhoes-investimento-novo-carro.html" title="GM anuncia US$ 300 milhões de investimento em novo carro">GM anuncia US$ 300 milhões de investimento em novo carro</a>
+                </div>
+               </div>
+              </div>
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Destaque da semana</label></li>
+               </ul>
+               <div class="row menu-article menu-article-big">
+                <div class="large-12 columns">
+                 <a href="/testes/nissan-kicks-s-cvt.html" title="Teste do Nissan Kicks S CVT"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/11/nissan-kicks-s-cvt-59de_home2.jpg" alt="Voyage">Alavanca de vendas:<br>Teste do Nissan Kicks S CVT</a>
+                </div>
+               </div>
+              </div>
+             </div>
+             <div class="row" style="margin-top:1rem">
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Testes e avaliações</label></li>
+               </ul>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/testes/impressoes-ssangyong-actyon-sports-2.html" title="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/04/impressoes-ssangyong-actyon-sports-2-59d5_list.jpg" alt="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/testes/impressoes-ssangyong-actyon-sports-2.html" title="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile">Ssangyong Actyon Sports, direto do Chile</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/testes/impressoes-vw-polo-2018.html" title="Primeiras impressões do novo Volkswagen Polo"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/27/impressoes-vw-polo-2018_list.jpg" alt="Primeiras impressões do novo Volkswagen Polo"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/testes/impressoes-vw-polo-2018.html" title="Primeiras impressões do novo Volkswagen Polo">Novo Volkswagen Polo</a>
+                </div>
+               </div>
+               <div class="row menu-article">
+                <div class="large-4 columns no-padding">
+                 <a href="/testes/peugeot-3008-griffe.html" title="Teste do novo Peugeot 3008 Griffe"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/27/peugeot-3008-griffe-59cb_list.jpg" alt="Teste do novo Peugeot 3008 Griffe"></a>
+                </div>
+                <div class="large-8 columns">
+                 <a href="/testes/peugeot-3008-griffe.html" title="Teste do novo Peugeot 3008 Griffe">Novo Peugeot 3008 Griffe</a>
+                </div>
+               </div>
+              </div>
+              <div class="large-6 columns">
+               <ul>
+                <li><label>Veja ainda...</label></li>
+               </ul>
+               <div class="row menu-article menu-article-big">
+                <div class="large-6 columns">
+                 <a href="/previas/range-rover-vogue-tera-nova-versao-mudanca-visual.html" title="Range Rover Vogue terá nova versão e mudança no visual"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/12/range-rover-vogue-tera-nova-versao-mudanca-visual_thumb.jpg" alt="Range Rover Vogue terá nova versão e mudança no visual">Range Rover Vogue terá nova versão e mudança no visual</a>
+                </div>
+                <div class="large-6 columns">
+                 <a href="/recalls/hb20-convocado-recall-brasil.html" title="HB20 é convocado para recall no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/12/hb20-convocado-recall-brasil_thumb.jpg" alt="HB20 é convocado para recall no Brasil">HB20 é convocado para recall no Brasil</a>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div></li>
+        </ul>
+       </div>
+       <div class="top-bar-right">
+        <ul class="menu">
+         <li class="form-toggle show-for-large"><a href="#busca" title="Buscar no site..."><span class="fi-magnifying-glass"></span> Buscar</a></li>
+         <li class="has-form" id="busca" style="display:none">
+          <form action="/busca/" method="GET">
+           <div class="input-group">
+            <input class="input-group-field" type="text" name="q" placeholder="digite aqui..." value="">
+            <div class="input-group-button">
+             <button type="submit" class="button secondary"><span class="fi-magnifying-glass"></span></button>
+            </div>
+           </div>
+          </form></li>
+         <li class="form-toggle"><a data-open="login"><span class="fi-torso"></span> Entrar</a></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </nav> 
+    <div class="off-canvas-content" data-off-canvas-content> 
+     <div class="row row-header"> 
+      <div class="small-12 large-9 columns"> 
+       <nav role="navigation"> 
+        <ul class="breadcrumbs"> 
+         <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/revista/" itemprop="url"><span itemprop="title">Revista</span></a></li> 
+         <li itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/testes/" itemprop="url"><span itemprop="title">Testes</span></a></li> 
+        </ul> 
+       </nav> 
+       <h1>Testes e Avaliações</h1> 
+       <p class="lead hide-for-small-only">Confira testes de carros, incluindo fotos exclusivas e ficha técnica completa. Diversas avaliações de carros com opiniões imparciais.</p> 
+      </div> 
+      <div class="show-for-large large-3 columns text-right"> 
+       <img src="https://cdn.salaodocarro.com.br/_img/icone-home-revista.png" alt="Revista" style="max-height:180px"> 
+      </div> 
+     </div> 
+     <div class="container container-white"> 
+      <div class="row"> 
+       <div class="small-12 columns"> 
+        <div class="row row-list-block"> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/nissan-kicks-s-cvt.html" title="Teste do Nissan Kicks S CVT"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/11/nissan-kicks-s-cvt-59de_thumb.jpg" alt="Teste do Nissan Kicks S CVT" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/nissan-kicks-s-cvt.html" title="Teste do Nissan Kicks S CVT">Teste do Nissan Kicks S CVT</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/impressoes-ssangyong-actyon-sports-2.html" title="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/10/04/impressoes-ssangyong-actyon-sports-2-59d5_thumb.jpg" alt="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/impressoes-ssangyong-actyon-sports-2.html" title="Primeiras impressões do Ssangyong Actyon Sports, direto do Chile">Primeiras impressões do Ssangyong Actyon Sports, direto do Chile</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/impressoes-vw-polo-2018.html" title="Primeiras impressões do novo Volkswagen Polo"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/27/impressoes-vw-polo-2018_thumb.jpg" alt="Primeiras impressões do novo Volkswagen Polo" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/impressoes-vw-polo-2018.html" title="Primeiras impressões do novo Volkswagen Polo">Primeiras impressões do novo Volkswagen Polo</a></p>
+         </div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/peugeot-3008-griffe.html" title="Teste do novo Peugeot 3008 Griffe"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/27/peugeot-3008-griffe-59cb_thumb.jpg" alt="Teste do novo Peugeot 3008 Griffe" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/peugeot-3008-griffe.html" title="Teste do novo Peugeot 3008 Griffe">Teste do novo Peugeot 3008 Griffe</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/impressoes-honda-fit-2018.html" title="Primeiras impressões do novo Honda Fit 2018"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/21/impressoes-honda-fit-2018_thumb.jpg" alt="Primeiras impressões do novo Honda Fit 2018" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/impressoes-honda-fit-2018.html" title="Primeiras impressões do novo Honda Fit 2018">Primeiras impressões do novo Honda Fit 2018</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/ford-ecosport-freestyle-at.html" title="Ford EcoSport Freestyle 1.5 Automático"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/13/ford-ecosport-freestyle-at_thumb.jpg" alt="Ford EcoSport Freestyle 1.5 Automático" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/ford-ecosport-freestyle-at.html" title="Ford EcoSport Freestyle 1.5 Automático">Ford EcoSport Freestyle 1.5 Automático</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/impressoes-audi-r8-spyder-v10.html" title="Primeiras impressões do Audi R8 Spyder V10"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/09/13/impressoes-audi-r8-spyder-v10_thumb.jpg" alt="Primeiras impressões do Audi R8 Spyder V10" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/impressoes-audi-r8-spyder-v10.html" title="Primeiras impressões do Audi R8 Spyder V10">Primeiras impressões do Audi R8 Spyder V10</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/audi-a3-sedan-ambition.html" title="Teste do Audi A3 Sedan Ambition"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/30/audi-a3-sedan-ambition_thumb.jpg" alt="Teste do Audi A3 Sedan Ambition" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/audi-a3-sedan-ambition.html" title="Teste do Audi A3 Sedan Ambition">Teste do Audi A3 Sedan Ambition</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/fiat-argo-hgt-manual.html" title="Teste do Fiat Argo HGT Manual"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/30/fiat-argo-hgt-manual-59a6_thumb.jpg" alt="Teste do Fiat Argo HGT Manual" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/fiat-argo-hgt-manual.html" title="Teste do Fiat Argo HGT Manual">Teste do Fiat Argo HGT Manual</a></p>
+         </div> 
+         <div class="clearfix show-for-medium"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/impressoes-audi-q5.html" title="Primeiras impressões da nova Audi Q5"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/23/impressoes-audi-q5-599d_thumb.jpg" alt="Primeiras impressões da nova Audi Q5" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/impressoes-audi-q5.html" title="Primeiras impressões da nova Audi Q5">Primeiras impressões da nova Audi Q5</a></p>
+         </div> 
+         <div class="clearfix show-for-small-only"></div> 
+         <div class="small-6 medium-4 columns">
+          <p><a href="/testes/volvo-xc60-2a-geracao.html" title="Teste da segunda geração do Volvo XC60 no Brasil"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/23/volvo-xc60-2a-geracao_thumb.jpg" alt="Teste da segunda geração do Volvo XC60 no Brasil" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/volvo-xc60-2a-geracao.html" title="Teste da segunda geração do Volvo XC60 no Brasil">Teste da segunda geração do Volvo XC60 no Brasil</a></p>
+         </div> 
+         <div class="small-6 medium-4 columns end">
+          <p><a href="/testes/chevrolet-s10-ltz-4x4-flex-aut.html" title="Teste da Chevrolet S10 LTZ 4X4 flex automática"><img src="https://cdn.salaodocarro.com.br/_upload/content/2017/08/16/chevrolet-s10-ltz-4x4-flex-aut_thumb.jpg" alt="Teste da Chevrolet S10 LTZ 4X4 flex automática" class="img-rounded" width="100%"></a></p>
+          <p class="title"><a href="/testes/chevrolet-s10-ltz-4x4-flex-aut.html" title="Teste da Chevrolet S10 LTZ 4X4 flex automática">Teste da Chevrolet S10 LTZ 4X4 flex automática</a></p>
+         </div> 
+        </div> 
+        <div class="clearfix"></div> 
+        <hr> 
+        <ul class="pagination text-center" role="navigation">
+         <li><a data-page="2" href="/testes/?p=2">próxima página »</a></li>
+        </ul> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clearfix"></div> 
+     <footer id="footer"> 
+      <div class="row"> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Compra e Venda</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/vender/">Anunciar Carro</a></li> 
+         <li><a href="https://caminhoes.salaodocarro.com.br/vender/">Anunciar Caminhão</a></li> 
+         <li><a href="https://motos.salaodocarro.com.br/vender/">Anunciar Moto</a></li> 
+         <li><a href="/comprar/carros/">Ofertas de Carros</a></li> 
+         <li><a href="/lojista/">Central do Lojista</a></li> 
+        </ul> 
+        <p class="title">Serviços</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/guia/">Guia de 0km</a></li> 
+         <li><a href="/fipe/">Tabela FIPE</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Revista</p> 
+        <ul class="no-bullet" id="revista"> 
+         <li><a href="/caminhoes/">Caminhões</a></li> 
+         <li class="hide"><a href="/classicos/">Clássicos</a></li> 
+         <li class="hide"><a href="/como-funciona/">Como Funciona</a></li> 
+         <li class="hide"><a href="/comparativos/">Comparativos</a></li> 
+         <li class="hide"><a href="/curiosidades/">Curiosidades</a></li> 
+         <li><a href="/dicas/">Dicas</a></li> 
+         <li class="hide"><a href="/eventos/">Eventos</a></li> 
+         <li><a href="/lancamentos/">Lançamentos</a></li> 
+         <li class="hide"><a href="/mercado/">Mercado</a></li> 
+         <li><a href="https://motos.salaodocarro.com.br/revista/">Motos</a></li> 
+         <li class="hide"><a href="/onibus/">Ônibus</a></li> 
+         <li class="hide"><a href="/opiniao-do-dono/">Opinião do Dono</a></li> 
+         <li class="hide"><a href="/previas/">Prévias</a></li> 
+         <li class="hide"><a href="/recalls/">Recalls</a></li> 
+         <li class="hide"><a href="/segredos/">Segredos</a></li> 
+         <li class="hide"><a href="/seguranca/">Segurança</a></li> 
+         <li><a href="/testes/">Testes</a></li> 
+         <li class="hide"><a href="/videos/">Vídeos</a></li> 
+         <li class="hide"><a href="/rss/">+ Feed RSS</a></li> 
+         <li><small><a href="#revista" onclick="javascript:$('#revista').find('li.hide').slideDown();$(this).parent().parent().remove(); return false;"><span class="fi-plus"></span> mostrar mais</a></small></li> 
+        </ul> 
+        <p class="title">Outros Sites</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://caminhoes.salaodocarro.com.br/">Salão do Caminhão</a></li> 
+         <li><a href="https://motos.salaodocarro.com.br/">Salão da Moto</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Atendimento</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/contato/">Fale Conosco</a></li> 
+        </ul> 
+        <p class="title">Institucional</p> 
+        <ul class="no-bullet"> 
+         <li><a href="/sobre/">Quem somos</a></li> 
+         <li><a href="/anuncie/">Publicidade</a></li> 
+         <li><a href="/afiliados/">Programa de Afiliados</a></li> 
+         <li><a href="/privacidade/">Política de Privacidade</a></li> 
+         <li><a href="/termos/">Termos de Uso</a></li> 
+         <li><a href="/cookies/">Sobre o uso de Cookies</a></li> 
+        </ul> 
+       </div> 
+       <div class="small-12 medium-3 columns"> 
+        <p class="title">Baixe nosso App</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://play.google.com/store/apps/details?id=br.com.salaodocarro" target="_blank"><span class="fi-social-android"></span> Android</a></li> 
+         <li><a href="https://itunes.apple.com/br/app/salao-do-carro/id890868024" target="_blank"><span class="fi-social-apple"></span> iOS (iPhone/iPad)</a></li> 
+         <li><a href="https://www.microsoft.com/store/apps/9nblggh4tkxj" target="_blank"><span class="fi-social-windows"></span> Windows Phone</a></li> 
+        </ul> 
+        <p class="title">Redes Sociais</p> 
+        <ul class="no-bullet"> 
+         <li><a href="https://www.facebook.com/salaodocarro" target="_blank"><span class="fi-social-facebook"></span> Facebook</a></li> 
+         <li><a href="https://plus.google.com/+salaocarro" target="_blank" rel="publisher"><span class="fi-social-google-plus"></span> Google+</a></li> 
+         <li><a href="https://www.instagram.com/salaodocarro/" target="_blank"><span class="fi-social-instagram"></span> Instagram</a></li> 
+         <li><a href="https://twitter.com/salaodocarro" target="_blank"><span class="fi-social-twitter"></span> Twitter</a></li> 
+         <li><a href="https://www.youtube.com/c/salaocarro" target="_blank"><span class="fi-social-youtube"></span> YouTube</a></li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="divide"></div> 
+      <div class="row"> 
+       <div class="copyright small-12 columns text-center"> 
+        <p class="copyright">© 2012-2017 Salão do Carro</p> 
+       </div> 
+      </div> 
+     </footer> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="login" class="reveal" data-reveal> 
+   <h2 class="text-center" style="margin-bottom:2rem">Acesse sua conta</h2> 
+   <p class="text-center">Vá mais rápido usando sua rede social favorita:</p> 
+   <p class="no-margins text-center"> <a class="button facebook radius" href="/auth/facebook/" style="color:white !important;" rel="nofollow"> <span class="fi-social-facebook"></span> Usar o Facebook </a> &nbsp; &nbsp; <a class="button google radius" href="/auth/google/" rel="nofollow"> <span class="fi-social-google-plus"></span> Usar o Google+ </a> </p> 
+   <hr> 
+   <p class="text-center">Ou acesse com seu e-mail:</p> 
+   <form action="/login/" method="POST"> 
+    <div class="row"> 
+     <div class="small-3 columns text-right"> 
+      <label for="login-email">Seu E-mail:</label> 
+     </div> 
+     <div class="small-8 columns end"> 
+      <input type="text" name="email" id="login-email"> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="small-3 columns text-right"> 
+      <label for="login-password">Sua Senha:</label> 
+     </div> 
+     <div class="small-4 columns"> 
+      <input type="password" name="pass" id="login-password"> 
+     </div> 
+     <div class="small-5 columns"> 
+      <small style="line-height:2.5;"><a href="/login/email/" style="color:#999">esqueceu a senha?</a></small> 
+     </div> 
+    </div> 
+    <div class="row"> 
+     <div class="small-7 small-offset-3 columns end"> 
+      <button type="submit" class="button radius success">Entrar</button> 
+     </div> 
+    </div> 
+   </form> 
+   <hr> 
+   <p class="text-center no-margins"> Não tem cadastro? <strong><a href="/cadastro/">Crie uma Conta gratuitamente</a></strong> </p> 
+   <hr> 
+   <p class="text-center no-margins" style="color:#777"> <small>Lojistas e Concessionários, acesse <strong><a href="/lojista/" style="color:#777">Central do Lojista</a></strong></small> </p> 
+  </div> 
+  <div id="modal-return" class="reveal" data-reveal> 
+   <div class="return"></div> 
+  </div> 
+  <script type="text/javascript">
+window.onload = function() {
+var l = document.createElement('link');
+l.rel = 'stylesheet';
+l.href = 'https://cdn.salaodocarro.com.br/_css/extra_v1.min.css';
+var h = document.getElementsByTagName('head')[0];
+h.parentNode.insertBefore(l, h);
+};
+</script> 
+  <script type="text/javascript" src="https://cdn.salaodocarro.com.br/_js/vendor_v5.min.js"></script> 
+  <script async defer type="text/javascript" src="https://cdn.salaodocarro.com.br/_js/desktop_v13.min.js"></script> 
+  <script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-33591651-1', 'auto');
+ga('require', 'displayfeatures');
+ga('send', 'pageview');
+</script> 
+  <script type="application/ld+json">
+{
+	"@context": "http://schema.org",
+	"@type": "WebSite",
+	"url": "https://salaodocarro.com.br/",
+	"name":"Salão do Carro",
+	"potentialAction": {
+		"@type": "SearchAction",
+		"target": "https://salaodocarro.com.br/busca/?q={search_term}",
+		"query-input": "required name=search_term"
+	}
+}
+</script> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script> 
+  <script type="text/javascript">
+window.google_trackConversion({
+google_conversion_id: 982180549,
+google_custom_params: window.google_tag_params,
+google_remarketing_only: true
+});
+
+(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5307057"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+</script> 
+  <!--[if lte IE 8]><script src="https://cdn.salaodocarro.com.br/_js/warning.min.js"></script><script>e("https://cdn.salaodocarro.com.br/_img/")</script><![endif]-->  
+ </body>
+</html>

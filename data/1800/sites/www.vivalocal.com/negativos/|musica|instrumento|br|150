@@ -1,0 +1,2247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!-- Generated October 15, 2017, 7:38 pm on web36 -->
+  <title>Instrumentos musicais usados , teclado , guitarra </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcCVFBWGwUFVFFVBAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(20),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(21),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(13),t(12),"addEventListener"in window&&t(6),s.xhrWrappable&&t(14),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(23)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,P=document.createTextNode(E);new l(a).observe(P,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(16),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(19),l=t(18),m=window.XMLHttpRequest;a.features.xhr=!0,t(14),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],16:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],17:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(20),c=t(21),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],18:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],19:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],20:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],21:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],22:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],23:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(21),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(20),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(20),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1059.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(17),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(22)},{}]},{},["loader",2,15,5,3,4]);</script>
+  <meta name="description" content="Guitarras, amplificadores  a venda com o VIVALOCAL  Brasil: mais de 400,000 CLASSIFICADOS GRÁTIS. Venda ou compre instrumentos usados com 2 cliques!">
+  <meta name="keywords" content="instrumentos musicais , venda instrumentos musicais , instrumentos musicais usados ">
+  <meta name="robots" content="noodp">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <link rel="shortcut icon" href="http://media-sa.viva-images.com/vivastreet_mx/home/favicon.ico">
+  <link rel="canonical" href="http://www.vivalocal.com/musica-instrumento/br">
+  <link rel="alternate" href="http://m.vivalocal.com/musica-instrumento/br" media="handheld">
+  <link rel="next" href="http://www.vivalocal.com/musica-instrumento/br/t+2">
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/prepend_b.js?cache=crMbO"></script>
+  <script src="http://www.vivalocal.com/script/captions.php?cache=crMbO"></script>
+  <link rel="stylesheet" type="text/css" href="http://static.viva-images.com/templates/viwii3/styles/summary_br_latam.css?cache=crMbO">
+ </head>
+ <body id="kiwii" page_mode="t" page_type="summary" class="summary_text ie6" style="background-position: top center;background-repeat:no-repeat;">
+  <a name="top" id="jump_top"></a>
+  <div class="kiwii-span-20 kiwii-center-hor vs-width-1000 kiwii-bg-xxxlighter-blue kiwii-padding-tiny">
+   <div class="kiwii-margin-top-xxsmall">
+    <div class="kiwii-position-relative " id="vs_header">
+     <div class="inner">
+      <a class="kiwii-float-left kiwii-logo" title="Classificados" alt="Classificados" href="http://www.vivalocal.com"></a>
+      <span class="" id="header-tag"><h1 class="kiwii-h1">Instrumentos musicais usados </h1></span>
+      <div class="kiwii-font-tiny kiwii-clear-left kiwii-padding-left-xxxsmall" id="vs_static_header">
+       <span style="letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;">Anúncios classificados grátis</span>
+      </div>
+      <div class="kiwii-clear-both"></div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-top">
+       <a href="http://post.vivalocal.com" id="vs_posting_button" class="kiwii-btn kiwii-btn-primary kiwii-btn-large orange gradient-button" onclick="_gaq.push(['_trackEvent', 'Post an Ad', 'summary_text', 'musica-instrumento']);">
+        <div>
+         Inserir anúncio»
+        </div></a>
+      </div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-bottom kiwii-layer-top kiwii-margin-bottom-xxxsmall">
+       <div class="vs-user-menu kiwii-no-link-decoration ">
+        <a href="http://www.vivalocal.com/account_classifieds.php" id="vs_account_menu_link" class="kiwii-no-link-decoration kiwii-font-weight-bold" rel="nofollow">Minha Conta</a>
+        <a id="vs_help_link" class="vivasafe kiwii-margin-left-xxsmall kiwii-no-link-decoration kiwii-font-weight-bold" href="http://www.vivalocal.com/s/help" rel="nofollow">Ajuda</a>
+       </div>
+      </div>
+      <div class="kiwii-breadcrumbs mmlightgrey mmchevron" id="vs_breadcrumbs">
+       <ul class="kiwii-h-list mmmenu">
+        <li class="mmfirst" level="0"></li>
+        <li class="hometab tab" level="1" style="cursor: pointer;"><a id="vs_bc_home_link" href="http://www.vivalocal.com" title="every_ads_country"></a><span class="kiwii-icon kiwii-icon-home"></span></li>
+        <li class="tab" level="2" style="cursor: pointer;"><a id="vs_bc_maincat_link" href="http://www.vivalocal.com/compra-venda-usada/br" title="Compra venda">Compra venda</a></li>
+        <li class="tab last" level="3"><span id="vs_bc_maincat_link" class="nolink">Instrumentos musicais</span></li>
+       </ul>
+       <div id="" class="kiwii-breadcrumb-menu"></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="vs_content" class="clear kiwii-box-white"> 
+    <!-- rendering summary page --> 
+    <table class="kiwii-searchform searchform"> 
+     <tbody>
+      <tr> 
+       <td class="vs-searchbox-layout-left"> 
+        <form id="vs_searchform" action="http://search.vivalocal.com/musica-instrumento/br" method="GET" class="jqtransform" name="vs-searchform"> 
+         <input type="hidden" name="lb" value="new"> 
+         <input type="hidden" name="search" value="1"> 
+         <!-- End Search by posted and order --> 
+         <input type="hidden" name="start_field" value="1"> 
+         <div class="vs-searchbox"> 
+          <table class="vs-searchbox-inputs"> 
+           <tbody>
+            <tr class="vs-search-generic-elements vs-search-specialization-elements"> 
+             <td class="keywords"> 
+              <div style="padding-bottom: 5px;"> 
+               <input type="text" name="keywords" id="vs_search_keywords" title="Palavras-Chave" class="kiwii-input kiwii-input-large vs-search-keywords" value=""> 
+               <span class="kiwii-input-endcap append"> <label class="select-label checkbox-label"> <input type="checkbox" id="search_only_title" name="search_only_title" value="1"> Procurar no título </label> 
+                <div class="search-title clearfix"> 
+                 <div class="search-tooltip-content"> 
+                  <span></span> 
+                 </div> 
+                </div> </span> 
+               <div class="kiwii-float-right"> 
+                <select id="vs-cat-dropdown-1" name="cat_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block" autocomplete="off"><option class="" value="" title=""> Todas categorias </option><option class="kiwii-bg-xxlight-green" value="136" code="vehicules" title="http://search.vivalocal.com/veiculos"> -- Veículos usados -- </option><option class="" value="40" code="cars_trucks" title="http://search.vivalocal.com/auto-veiculo-usado"> Carros usados </option><option class="" value="41" code="bikes_motorcycles" title="http://search.vivalocal.com/motocicletas-usadas"> Motos usadas </option><option class="" value="56" code="trucks" title="http://search.vivalocal.com/vender-caminhao-usado"> Caminhões usados </option><option class="" value="242" code="busses" title="http://search.vivalocal.com/onibus-venda"> Ônibus usados </option><option class="" value="130" code="caravans_rv" title="http://search.vivalocal.com/motor-home-camping"> Motor home - Motor trailer </option><option class="" value="46" code="boats" title="http://search.vivalocal.com/yate-comprar-vender"> Lanchas - Barcos - Veleiros </option><option class="" value="240" code="boats_rental" title="http://search.vivalocal.com/aluguel-carros"> Aluguel carros - Barcos - Motos </option><option class="" value="239" code="vehicle_accessories" title="http://search.vivalocal.com/pecas-veiculos"> Acessórios e serviços </option><option class="kiwii-bg-xxlight-green" value="147" code="agriculture" title="http://search.vivalocal.com/agricultura-pecuaria"> -- Agronegócios -- </option><option class="" value="149" code="farm_animals" title="http://search.vivalocal.com/animais-pecuaria"> Animais do campo </option><option class="" value="148" code="animal_nutrition" title="http://search.vivalocal.com/animal-pecuaria"> Alimentação pecuária - Grãos </option><option class="" value="151" code="agro_supplies" title="http://search.vivalocal.com/insumos"> Produtos rurais </option><option class="" value="150" code="agro_machinery" title="http://search.vivalocal.com/equipamentos-rurais"> Maquinária agrícola </option><option class="" value="152" code="agro_services" title="http://search.vivalocal.com/produtos-agropecuarios"> Serviços agropecuários </option><option class="" value="241" code="agro_land" title="http://search.vivalocal.com/vender-fazendas"> Fazendas - Sitios à venda </option><option class="kiwii-bg-xxlight-green" value="142" code="pets" title="http://search.vivalocal.com/animais-estimacao"> -- Animais e acessórios -- </option><option class="" value="44" code="pet_sale" title="http://search.vivalocal.com/comprar-bichos-filhotes"> Animais estimação à venda </option><option class="" value="55" code="pet_adoption" title="http://search.vivalocal.com/adocao-animais"> Adoção animais de estimação </option><option class="" value="122" code="pet_services" title="http://search.vivalocal.com/oferta-servico-bicho"> Veterinários - Serviços - Acessórios </option><option class="kiwii-bg-xxlight-green" value="7" code="housing" title="http://search.vivalocal.com/compra-venda-aluguel"> -- Imóveis -- </option><option class="" value="93" code="housing_for_sale" title="http://search.vivalocal.com/comprar-imovel"> Apartamentos - Casas venda </option><option class="" value="91" code="housing_for_rent" title="http://search.vivalocal.com/alugar-casa-apartamento"> Alugar casas - Apartamentos </option><option class="" value="33" code="sublets_short_term" title="http://search.vivalocal.com/aluguel-temporada"> Aluguel temporada </option><option class="" value="249" code="new_developments" title="http://search.vivalocal.com/empreendimentos"> Empreendimentos imóveis </option><option class="" value="92" code="rooms_roommates" title="http://search.vivalocal.com/alugar-quarto-vaga"> Dividir apartamento - Quartos </option><option class="" value="118" code="land_for_sale" title="http://search.vivalocal.com/terrenos-venda"> Terrenos - Lotes </option><option class="" value="13" code="housing_exchange" title="http://search.vivalocal.com/trocar-imovel"> Troca de casas - Apartamentos </option><option class="" value="22" code="parking" title="http://search.vivalocal.com/alugar-vaga-garagem"> Estacionamentos - Garagens </option><option class="" value="155" foreign="yes" code="overseas_realestate" title="http://search.vivalocal.com/imoveis-exterior"> Imóveis exterior </option><option class="" value="15" code="real_estate" title="http://search.vivalocal.com/pontos-comerciais"> Imóveis comerciais </option><option class="kiwii-bg-xxlight-green" value="3" code="personals" title="http://search.vivalocal.com/namoro-amizade"> -- Relacionamento -- </option><option class="" value="39" code="missed-connections" title="http://search.vivalocal.com/fazer-amigo-encontrar"> Procurar Amigos </option><option class="" value="140" code="serious_relationships" title="http://search.vivalocal.com/relacoes-adultas"> Procurar Amor </option><option class="" value="153" code="gay_relationships" title="http://search.vivalocal.com/relacionamento"> Relações Gays - Lésbicas </option><option class="" value="132" code="open_minds" title="http://search.vivalocal.com/encontro-casual"> Encontros Casuais </option><option class="" value="133" code="adult_services" title="http://search.vivalocal.com/acompanhante-erotico"> Acompanhantes &amp; Massagem </option><option class="" value="248" code="gay_adult_services" title="http://search.vivalocal.com/acompanhantes-gays"> Acompanhantes Masculinos </option><option class="kiwii-bg-xxlight-green" value="6" code="services" title="http://search.vivalocal.com/procura-servicos"> -- Serviços -- </option><option class="" value="109" code="tickets_travel" title="http://search.vivalocal.com/viagem-turismo"> Serviços turismo - Agência turismo </option><option class="" value="107" code="translation" title="http://search.vivalocal.com/tradutores"> Traduções - Serviços de traduções </option><option class="" value="128" code="computer_services" title="http://search.vivalocal.com/computador"> Serviços de informática </option><option class="" value="89" code="computer" title="http://search.vivalocal.com/transporte-frete"> Mudanças - Frete </option><option class="" value="29" code="small_businesses" title="http://search.vivalocal.com/consultoria-assistencia"> Profissionais liberais </option><option class="" value="11" code="labor_moving" title="http://search.vivalocal.com/conserto-reforma"> Reparo - Conserto - Reforma </option><option class="" value="12" code="health_and_well_being" title="http://search.vivalocal.com/boa-forma"> Bem-Estar - Saúde - Beleza </option><option class="" value="134" code="classes_learning" title="http://search.vivalocal.com/astrologia-previsao"> Astrologia - Serv. espirituais </option><option class="" value="90" code="other_services" title="http://search.vivalocal.com/oferta-servicos"> Outros serviços </option><option class="kiwii-bg-xxlight-green" value="1" code="jobs" title="http://search.vivalocal.com/anuncios-vagas"> -- Empregos -- </option><option class="" value="137" code="job_offers" title="http://search.vivalocal.com/anuncios-empregos"> Ofertas de emprego </option><option class="" value="77" code="internships" title="http://search.vivalocal.com/estagios-trainee"> Estágios - Trainee </option><option class="" value="138" code="job_seekers" title="http://search.vivalocal.com/cadastre-cv"> Anunciar currículo - Procurar emprego </option><option class="" value="9" code="small_jobs" title="http://search.vivalocal.com/trabalho-temporario"> Trabalhos domésticos </option><option class="kiwii-bg-xxlight-green" value="4" code="community" title="http://search.vivalocal.com/anuncios-locais"> -- Comunidade -- </option><option class="" value="135" code="artists_musicians" title="http://search.vivalocal.com/cantores-ator-atriz"> Artistas - Músicos </option><option class="" value="26" code="restaurants_bars" title="http://search.vivalocal.com/casas-noturnas"> Guia restaurantes - Bares </option><option class="" value="145" code="recipes" title="http://search.vivalocal.com/receitas-cozinha"> Receitas culinárias </option><option class="" value="117" code="missing" title="http://search.vivalocal.com/contatos-perdidos"> Contatos perdidos </option><option class="" value="82" code="other_activities" title="http://search.vivalocal.com/atividades-livres-comunidade"> Atividades locais </option><option class="" value="5" code="events" title="http://search.vivalocal.com/noite-entretenimento"> Eventos </option><option class="kiwii-bg-xxlight-green" value="2" code="for_sale" selected title="http://search.vivalocal.com/compra-venda-usada"> -- Compra venda -- </option><option class="" value="244" code="for_sale_home" title="http://search.vivalocal.com/casa"> Artigos para casa </option><option class="" value="245" code="for_sale_leisure" selected title="http://search.vivalocal.com/lazer"> Lazer e entretenimento </option><option class="" value="246" code="for_sale_media" title="http://search.vivalocal.com/eletronicos"> Artigos eletrônicos </option><option class="" value="247" code="for_sale_fashion" title="http://search.vivalocal.com/moda"> Moda e acessórios </option><option class="" value="95" code="general" title="http://search.vivalocal.com/anuncios-compra-comprar"> Diversos </option><option class="kiwii-bg-xxlight-green" value="8" code="classes" title="http://search.vivalocal.com/treinamento"> -- Cursos -- </option><option class="" value="111" code="classes_language" title="http://search.vivalocal.com/cursos-lingua-estrangeira"> Cursos de idiomas </option><option class="" value="114" code="classes_computers" title="http://search.vivalocal.com/curso-informatica"> Cursos de informática </option><option class="" value="113" code="classes_professional_training" title="http://search.vivalocal.com/formacao-profissional"> Capacitação profissional </option><option class="" value="115" code="classes_private" title="http://search.vivalocal.com/professores-particulares"> Professores particulares </option><option class="" value="146" code="aerobics" title="http://search.vivalocal.com/lutas-esportes"> Aulas de ginástica </option><option class="" value="112" code="classes_music_theater" title="http://search.vivalocal.com/curso-teatro"> Aulas música - Teatro - Dança </option><option class="" value="37" code="classes_other" title="http://search.vivalocal.com/outros-aulas-cursos"> Outros cursos </option></select>
+                <select id="vs-cat-dropdown-2" name="cat_2" class="kiwii-dropdown-large kiwii-display-block" style="display:none;" autocomplete="off"><option class="" code="vehicle_accessories" value="" title="http://search.vivalocal.com/pecas-veiculos"> Todos os Tipos de Peças </option><option class="" code="vehicle_accessories" value="53" title="http://search.vivalocal.com/acessorios-servicos-carro"> Autopeças - Acessórios - Serviços </option><option class="" code="vehicle_accessories" value="227" title="http://search.vivalocal.com/pecas-motos"> Peças reposição motos </option><option class="" code="vehicle_accessories" value="237" title="http://search.vivalocal.com/acessorios-nauticos"> Peças reposição náuticos </option><option class="" code="vehicle_accessories" value="238" title="http://search.vivalocal.com/acessorios-motorhome"> Acessórios motorhome </option><option class="" code="vehicle_accessories" value="243" title="http://search.vivalocal.com/pecas-caminhoes"> Peças - Acessórios caminhões </option><option class="" code="overseas_realestate" value="" title="http://search.vivalocal.com/imoveis-exterior"> Todos os imóveis no exterior </option><option class="" code="overseas_realestate" value="156" foreign="yes" title="http://search.vivalocal.com/venda-exterior"> Casas venda exterior </option><option class="" code="overseas_realestate" value="157" foreign="yes" title="http://search.vivalocal.com/aluguel-internacionais"> Aluguel temporada exterior </option><option class="" code="overseas_realestate" value="158" foreign="yes" title="http://search.vivalocal.com/terrenos-exterior"> Terrenos venda exterior </option><option class="" code="real_estate" value="" title="http://search.vivalocal.com/pontos-comerciais"> Todos os imóveis </option><option class="" code="real_estate" value="28" title="http://search.vivalocal.com/comercial-sala-loja"> Venda imóveis comerciais </option><option class="" code="real_estate" value="144" title="http://search.vivalocal.com/loja-sala-comercial"> Aluguel imóveis comerciais </option><option class="" code="serious_relationships" value="" title="http://search.vivalocal.com/relacoes-adultas"> Relacionamentos Hétero </option><option class="" code="serious_relationships" value="32" title="http://search.vivalocal.com/procuro-namoro-paquera"> Mulher procura homem </option><option class="" code="serious_relationships" value="131" title="http://search.vivalocal.com/procurar-mulher-parceira"> Homem procura mulher </option><option class="" code="gay_relationships" value="" title="http://search.vivalocal.com/relacionamento"> Tipos de relacionamentos </option><option class="" code="gay_relationships" value="78" title="http://search.vivalocal.com/buscar-procurar-lesbica"> Mullher procura mulher </option><option class="" code="gay_relationships" value="38" title="http://search.vivalocal.com/procurar-gay"> Homem procura homem </option><option class="" code="small_jobs" value="" title="http://search.vivalocal.com/trabalho-temporario"> Todos os trabalhos domésticos </option><option class="" code="small_jobs" value="106" title="http://search.vivalocal.com/emprego-baba"> Babás </option><option class="" code="small_jobs" value="108" title="http://search.vivalocal.com/empregada-domestica"> Empregada doméstica - Diarista </option><option class="" code="small_jobs" value="14" title="http://search.vivalocal.com/enfermeiro-enfermeira"> Acompanhante idosos - Enfermeira </option><option class="" code="small_jobs" value="21" title="http://search.vivalocal.com/marketing-multinivel"> Trabalhar em casa </option><option class="" code="events" value="" title="http://search.vivalocal.com/noite-entretenimento"> Todos os eventos e festas </option><option class="" code="events" value="120" title="http://search.vivalocal.com/servicos-festa"> Serviços para eventos </option><option class="" code="for_sale_home" value="" title="http://search.vivalocal.com/casa"> Todos os itens para casa </option><option class="" code="for_sale_home" value="52" title="http://search.vivalocal.com/decoracao-moveis-usados"> Móveis - Camas - Cadeiras </option><option class="" code="for_sale_home" value="54" title="http://search.vivalocal.com/artigos-decoracao"> Decoração Casa </option><option class="" code="for_sale_home" value="48" title="http://search.vivalocal.com/segunda-mao"> Eletrodomésticos usados </option><option class="" code="for_sale_home" value="94" title="http://search.vivalocal.com/artigos-de-colecionador"> Artigos de coleção </option><option class="" code="for_sale_home" value="57" title="http://search.vivalocal.com/artigo-profissional-usado"> Equipamentos profissionais </option><option class="" code="for_sale_leisure" value="" title="http://search.vivalocal.com/lazer"> Todos os anúncios de lazer </option><option class="" code="for_sale_leisure" value="105" title="http://search.vivalocal.com/material-esporte"> Artigos esportivos - Bicicletas </option><option class="" code="for_sale_leisure" value="154" title="http://search.vivalocal.com/artesanato-manual"> Artesanato - Feito à mão </option><option class="" code="for_sale_leisure" value="124" title="http://search.vivalocal.com/presente"> Idéias para presentes </option><option class="" code="for_sale_leisure" value="104" selected title="http://search.vivalocal.com/musica-instrumento"> Instrumentos musicais </option><option class="" code="for_sale_leisure" value="121" title="http://search.vivalocal.com/banquete-comida"> Bebidas - Comidas </option><option class="" code="for_sale_media" value="" title="http://search.vivalocal.com/eletronicos"> Todos os eletrônicos </option><option class="" code="for_sale_media" value="43" title="http://search.vivalocal.com/artigos-informatica"> Notebooks - Computadores usados </option><option class="" code="for_sale_media" value="47" title="http://search.vivalocal.com/jogos-livros-usados"> DVD - Video Games - Livros - CD </option><option class="" code="for_sale_media" value="103" title="http://search.vivalocal.com/fotografia-eletronico-usado"> TV - Som - Fotografia </option><option class="" code="for_sale_media" value="51" title="http://search.vivalocal.com/ipod-mp3-acessorios-usados"> MP3 - Ipod - Celulares </option><option class="" code="for_sale_fashion" value="" title="http://search.vivalocal.com/moda"> Todos os anúncios </option><option class="" code="for_sale_fashion" value="42" title="http://search.vivalocal.com/vender-comprar-joias"> Antiguidades - Jóias </option><option class="" code="for_sale_fashion" value="49" title="http://search.vivalocal.com/artigos-para-bebe"> Brinquedos - Artigos infantis </option><option class="" code="for_sale_fashion" value="45" title="http://search.vivalocal.com/acessorios-usados"> Roupas e Acessórios </option><option class="" code="for_sale_fashion" value="129" title="http://search.vivalocal.com/comprar-produtos-beleza-saude"> Produtos Beleza - Saúde </option></select> 
+               </div> 
+              </div> 
+              <table class="elements ">
+               <colgroup>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td align="left"><label class="select-label" for="vs_searchform_price_min">Preço</label><select class="vs-jqtransform kiwii-margin-right-xxxsmall" id="vs_searchform_price_min" name="sp_common_price[start]" onchange=""><option value="">min</option><option value="0">0</option><option value="15">15</option><option value="30">30</option><option value="75">75</option><option value="100">100</option><option value="200">200</option><option value="300">300</option><option value="500">500</option><option value="750">750</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="5000">5,000</option></select><select class="vs-jqtransform" id="vs_searchform_price_max" name="sp_common_price[end]" onchange=""><option value="">max</option><option value="15">15</option><option value="30">30</option><option value="75">75</option><option value="100">100</option><option value="200">200</option><option value="300">300</option><option value="500">500</option><option value="750">750</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="5000">5,000</option><option value="unlimited">Ilimitado</option></select></td>
+                 <td align="left"></td>
+                 <td align="left"></td>
+                </tr>
+                <tr>
+                 <td align="left" colspan="1">
+                  <div style="padding-bottom: 5px;">
+                   <input class="radio" id="offer" type="radio" name="offer_type" value="offer" checked>
+                   <label class="select-radio vs-offer-seek" for="offer">Oferecer</label>
+                   <input class="radio" id="seek" type="radio" name="offer_type" value="seek">
+                   <label class="select-radio vs-offer-seek" for="seek">Procurar</label>
+                  </div></td>
+                 <td align="left" colspan="1">
+                  <div style="padding: 0px 0px 2px 8px;">
+                   <label class="select-label checkbox-label"><input type="checkbox" name="image_total" value="1"> Com fotos</label>
+                  </div></td>
+                 <td align="left"></td>
+                </tr>
+               </tbody>
+               <tbody></tbody>
+              </table> </td> 
+             <td class="geosearch"> <select id="vs_geo_dropdown_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block vs-geo-dropdown"><option value="0">Todo Brasil</option><option value="2">Acre</option><option value="5">Alagoas</option><option value="8">Amapá</option><option value="11">Amazonas</option><option value="17">Bahia</option><option value="34">Ceará</option><option value="22">Distrito Federal</option><option value="28">Espírito Santo</option><option value="35">Goiás</option><option value="38">Maranhão</option><option value="41">Mato Grosso</option><option value="44">Mato Grosso do Sul</option><option value="47">Minas Gerais</option><option value="57">Pará</option><option value="60">Paraíba</option><option value="63">Paraná</option><option value="67">Pernambuco</option><option value="71">Piauí</option><option value="74">Rio de Janeiro - RJ</option><option value="113">Rio Grande do Norte</option><option value="116">Rio Grande do Sul</option><option value="125">Rondônia</option><option value="128">Roraima</option><option value="131">Santa Catarina</option><option value="138">São Paulo - SP</option><option value="192">Sergipe</option><option value="195">Tocantins</option></select><select id="vs_geo_dropdown_2" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_3" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_4" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_5" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><input type="hidden" name="searchGeoId" id="vs_geo_id" value="0" autocomplete="off"> </td> 
+             <td class="submit"> 
+              <div class="vs-searchbox-submit"> 
+               <div class="vs-ads-with-pic"></div> 
+               <input class="kiwii-btn kiwii-btn-primary kiwii-btn-large ui-button ui-search-button1 ui-corner-all kiwii-span-2" type="submit" value="Procurar"> 
+              </div> 
+              <div class="searchform-email-alert" onclick="ALERT.openLightbox();"> 
+               <div class="kiwii-span-2"> 
+                <span class="tooltip tooltip-effect-1"> <span class="tooltip-item"> <span id="icoalert"></span> <span class="caption_alert">Criar um alerta</span> </span> 
+                 <div class="tooltip-content clearfix"> 
+                  <span class="tooltip-text">Economize tempo! Receba por e-mail todos os novos anúncios relacionados com sua busca.</span> 
+                 </div> </span> 
+               </div> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div style="clear:both"></div> 
+         </div> 
+         <input type="hidden" name="end_field"> 
+        </form> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <!--DFP --> 
+    <script type="text/javascript">
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+</script> 
+    <script type="text/javascript">
+googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/31586872/Desktop_Interstitial', 'div-gpt-ad-1470039326458-0').addService(googletag.pubads());
+    googletag.pubads().setTargeting('Country', ['br']).setTargeting('category', ['for_sale','for_sale_leisure', 'music_instruments']);
+    googletag.pubads().enableSyncRendering();
+    googletag.enableServices();
+  });
+</script> 
+    <!-- /31586872/Desktop_Interstitial --> 
+    <div id="div-gpt-ad-1470039326458-0"> 
+     <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470039326458-0'); });
+</script> 
+    </div> 
+    <div class="kiwii-padding-top-xxxsmall"> 
+     <div class="vs-summary-300x250" id="vs-summary-300x250" style="float:right;width:300px;height:250px;margin-top:5px;position:relative;display:block;z-index:911;border-left:1px solid #ccc;padding-left:5px;"> 
+      <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - ATF */
+google_ad_slot = "3440836895";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script> 
+      <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+     </div> 
+    </div> 
+    <div style="width:68%;position:relative;display:block;z-index:111;"> 
+     <div id="vs-search-ad-top" style="padding-left:20px;"></div> 
+     <script src="https://www.google.com/adsense/search/async-ads.js" type="text/javascript"></script> 
+     <script type="text/javascript" charset="utf-8">
+if (2==0){var nocat= 'usados';var pageType= "geo_summary";}else{var nocat= '';var pageType= "summary";}
+var is_search = ( 0 ) ? 'search' : 'browse';
+var xhome = document.referrer;
+if (xhome !=='http://www.viva.com/'){
+new google.ads.search.Ads(
+	{"pubId": "w3-viva-br-" + is_search, 
+	 "query": " Lazer e entretenimento Compra venda Instrumentos musicais  " + nocat, 
+	 "channel": "for_sale,for_sale_leisure,br,for_sale_leisure_br,for_sale_br", 
+	 "queryContext": "Lazer e entretenimento|Compra venda", 
+	 "adtest": "off", 
+	 "hl": "pt", 
+	 "numRepeated" : "3", 
+	 "detailedAttribution" : false, 
+	 "adPage": "1", 
+	 "sellerRatings": false, 
+	 "siteLinks": false, 
+	 "linkTarget": "_blank", 
+	 "titleBold": true,
+	 "rolloverAdBackgroundColor": "#c2ebfc"
+	},
+	{"container": "vs-search-ad-top", 
+	 "maxTop": "4", 
+         "verticalSpacing" : "14",
+         "adLayout": "sellerFirst",
+	 "width": "98%", 
+	 "lines": "3", 
+	 "fontSizeTitle": "14px",
+	 "fontSizeAttribution" : 12,
+	 "fontSizeDescription": "12px", 
+	 "fontSizeDomainLink": "15px", 
+	 "colorTitleLink": "#114D97", 
+	 "colorText": "#575757", 
+	 "colorDomainLink": "#65b21c", 
+	 "colorBackground": "#FFFFFF", 
+	 "colorBorder": "#FFF", 
+	 "colorAdSeparator": "#CCC", 
+	 "rolloverLinkUnderline": true, 
+	 "rolloverLinkColor": "#114D97", 
+	 "adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", 
+	 "adIconWidth": 166, "adIconHeight": 50, 
+	 "adIconSpacingBefore": 16, 
+	 "adIconSpacingAfter": 16, 
+	 "adIconSpacingAbove": 2, 
+	 "adIconLocation": "ad-left"},
+	{"container": "vs-search-ad-bottom", "number": "4", "width": "98%", "lines": "3", "fontSizeTitle": "14px","fontSizeAttribution" : 12, "fontSizeDescription": "12px", "fontSizeDomainLink": "15px","adLayout": "sellerFirst", "colorTitleLink": "#114D97", "colorText": "#575757", "colorDomainLink": "#65b21c","verticalSpacing" : "14", "colorBackground": "#FFFFFF", "colorBorder": "#FFF", "colorAdSeparator": "#CCC", "rolloverLinkUnderline": true, "rolloverLinkColor": "#114D97", 
+	"adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", "adIconWidth": 166, "adIconHeight": 50, "adIconSpacingBefore": 16, "adIconSpacingAfter": 16, "adIconSpacingAbove": 2, "adIconLocation": "ad-left"});
+}
+</script> 
+     <script type="text/javascript" src="https://www.google.com/afsonline/show_afs_ads.js"></script> 
+     <div class="kiwii-clear-both"></div> 
+    </div> 
+    <style>.sponsor_style:hover{background-color:#FDECD9}a.sponsor_title:hover{text-decoration:underline}a.sponsor_title{text-decoration:none;color:#114D97;font-size:14px;font-weight:700;margin-top:-2px}.sponsor_desc{font-size:12px;margin-left:10px;font-weight:400;color:#575757}.sponsor_desc a{text-decoration:none;color:#575757}a.sponsor_url{text-decoration:none;font-weight:400;color:#aaa}a.sponsor_url:hover{text-decoration:underline;color:#114D97}.sp_img{float:left;width:160px;margin-right:23px;text-align:center}</style> 
+    <script type="text/javascript">
+evergreen = false;
+show_full_desc = false;
+</script> 
+    <a name="classifieds"></a> 
+    <div id="toolbar" class="kiwii-sort-bar summarytoolbar"> 
+     <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <tbody>
+       <tr class="sort"> 
+        <th class="selected toolbar_tab_selected" width="158" align="center"> <strong>562 Anúncios</strong> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1F4EC3C246424A1E4649C2CBC1C34E4349CB4F1F41C11FC04AC1CB4642C3484AC1" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Individual']);" class="vivasafe">Particular </span> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1F4EC3C246424A1E4649C2CBC1C34E4349CB4F1F41C11FC0C14F4446C2C2464F494A48" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Professional']);" class="vivasafe">Profissional </span> </th> 
+        <th width="100" style="padding-left:80px;" align="right" class="toolbar_tab_notselected spec-field"> Ordenar: </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1F4EC3C246424A1E4649C2CBC1C34E4349CB4F1F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC04FC2CB434B144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'posted']);" class="vivasafe"> Últimos anúncios </span> </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1F4EC3C246424A1E4649C2CBC1C34E4349CB4F1F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC2C03F424F4E4E4F493FC0C1464243144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'sp_common_price']);" class="vivasafe"> Preço </span> </th>  
+        <th align="right" width="250" class="toolbar_tab_notselected">&nbsp;</th> 
+        <th id="vs-listing" class="toolbar_tab_notselected view-selector hover view-selected" width="72" style="padding-right:2px;"> <a name="Text" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Listing']);" href="http://www.vivalocal.com/musica-instrumento/br" class="toolbarbutton_on kiwii-icon kiwii-icon-list"> Classificados </a> </th> 
+        <th id="vs-gallery" class="toolbar_tab_notselected
+                    view-selector
+                    hover
+                    " width="72" style="padding-right:2px;"> <a name="Gallery" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Gallery']);" href="http://www.vivalocal.com/musica-instrumento/br/g" class="toolbarbutton_off kiwii-icon kiwii-icon-grid"> FOTOS </a> </th> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <script type="text/javascript">
+            var carousel_params = {"params":{"start_field":1,"cat_1":2,"cat_2":245,"cat_3":104,"keywords":"","end_field":1},"use_geo":false,"sort":"display_priority DESC, reposted DESC","minimum_results_flag":false,"minimum_carousel_flag":false,"limit":35};
+      </script> 
+    <table id="classified_table" class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td id="classified_cell"> 
+        <table class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+         <tbody>
+          <tr class="classified row1 kiwii-clad-row" id="vs_classified_156868465"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/vila-prudente/magn-fico-amplificador-guitarra-stagg-reverb-e-delay--ocasi-/156868465"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8d/b/156868465/vip/1.jpg?dt=c63b79c884feb2b945685d6f789abf61" alt="Fotos para Magnífico Amplificador Guitarra Stagg Reverb e Delay Ocasiã"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/vila-prudente/magn-fico-amplificador-guitarra-stagg-reverb-e-delay--ocasi-/156868465" id="vs-detail-link-1" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Magnífico Amplificador Guitarra Stagg Reverb e Delay Ocasiã</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$450
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              NOVÍSSIMO SEM USO DE ALTÍSSIMA QUALIDADE MADE IN USA. POTENCIA ABSURDA, MAIS FORTE QUE QUALQUER 30 WATTS NACIONAL. EXCEPCIONAL OVERDRIVE, REVERB E DELAY MUITO BONS. ENTRADA AUDIO EXTERNO OU TECLADO, SAIDA LINHA/CAIXA, F… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Paulo - capital - Vila Prudente</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 17:27</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156868465
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row2 kiwii-clad-row" id="vs_classified_156853577"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/sao-pedro-sao-paulo/guitarra-lespaul-stander/156853577"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/25/4/156853577/vip/1.jpg?dt=d8215542d05eaf35f2c48eafc0905273" alt="Fotos para Guitarra LesPaul Stander"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/sao-pedro-sao-paulo/guitarra-lespaul-stander/156853577" id="vs-detail-link-2" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guitarra LesPaul Stander</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$850
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Pedro, São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Guitarra lespaul com pouco uso ,muito conservada Corpo em madeira Hardwood braço maple colado tarraxas blidadas captadores Bill Lawrence acompanha case de luxo , mais informação chamar no whats , no numero do anuncio.… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Pedro, São Paulo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 13:08</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156853577
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row3 kiwii-clad-row" id="vs_classified_156851355"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/vila-prudente/magnifico-arranjador-yamaha-psr-330--ocasi-o/156851355"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0c/c/156851355/vip/1.jpg?dt=eab872f34c1b7c8409b2c4e84310a8be" alt="Fotos para Magnifico Arranjador Yamaha PSR 330 Ocasião"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/vila-prudente/magnifico-arranjador-yamaha-psr-330--ocasi-o/156851355" id="vs-detail-link-3" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Magnifico Arranjador Yamaha PSR 330 Ocasião</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$550
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              IMPECÁVEL POUQUÍSSIMO USO CENTENAS DE TIMBRES E RITMOS DE QUALIDADE PROFISSIONAL. CONEXÃO MIDI COM PC. PEDAL SUSTAIN, SAÍDA EXTERNA E FONE OUVIDO. BANCO MULTI PADS, ONE TOUCH SETTING, 4 ARRANJOS PRONTOS PARA CADA RITMO. … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais a venda São Paulo - capital - Vila Prudente</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 12:28</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156851355
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row4 kiwii-clad-row" id="vs_classified_156735672"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/aracaju/viol-o-na-loja-por-r-599-s--o-viol-o--capa-simples/156735672"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b0/e/156735672/vip/1.jpg?dt=d3d08c077a6d0e2b100227e44e9ece35" alt="Fotos para Violão(Na loja por R$599 SÓ O VIOLÃO)+capa simples"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/aracaju/viol-o-na-loja-por-r-599-s--o-viol-o--capa-simples/156735672" id="vs-detail-link-4" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Violão(Na loja por R$599 SÓ O VIOLÃO)+capa simples</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$480
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Aracaju
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              ENTREGO VIOLÃO&amp; CABO&amp; CORREIA Basso straps Conservados Características Gerais Modelo: AW 51Cpk Tipo de violão: Eletroacústico Cordas: 6 cordas de aço Corte do corpo: Clássico com cutway Corpo: Linden Plywood Acabam… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Aracaju</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 04:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156735672
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row5 kiwii-clad-row" id="vs_classified_156816601"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/niteroi/amplificador-/156816601"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/88/f/156816601/vip/1.jpg?dt=de7ae2455618fd56878accb4dc1d9d9e" alt="Fotos para Amplificador "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/niteroi/amplificador-/156816601" id="vs-detail-link-5" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Amplificador </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$250
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Niterói
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo amplificador em ótimo estado Cor xadrez P/Guitarra ou violão Saída para cabo auxiliar Pouco tempo de uso Ótima sonoridade *Possui distorção *Motivo da venda : Não possuo mais guitarra e nem tempo para estudos … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Niterói</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 21:48</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156816601
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row6 kiwii-clad-row" id="vs_classified_156812156"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/venda-nova/todo-completo-mais-informa--o-so-liga-tim-99399-1212-ou-cham/156812156"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/c2/b/156812156/vip/1.jpg?dt=b768eaf1736774d04a937cf637a8cdd1" alt="Fotos para Todo completo mais informação so liga tim 99399 1212 ou cham"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/venda-nova/todo-completo-mais-informa--o-so-liga-tim-99399-1212-ou-cham/156812156" id="vs-detail-link-6" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Todo completo mais informação so liga tim 99399 1212 ou cham</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$700
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Todo completo mais informação so liga tim 99399 1212 ou chama no zap oi 98611 9490 aceito troca tabem vendo tudo ou separado tabem 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Belo Horizonte - BH - Venda Nova</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:25</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156812156
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row7 kiwii-clad-row" id="vs_classified_156811050"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/pampulha/samples-e-ritmos-pra-yamaha-korg-roland-casio/156811050"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/76/f/156811050/vip/1.jpg?dt=52fe40c6ead109433064b93217b0853b" alt="Fotos para Samples e ritmos pra yamaha korg roland casio"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/pampulha/samples-e-ritmos-pra-yamaha-korg-roland-casio/156811050" id="vs-detail-link-7" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Samples e ritmos pra yamaha korg roland casio</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$35
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ritmos e samples de alta gualidade pra seu teclado e pra seu show e fazemos tabem disguete com ritmos pra seu teclados de entrada de disguete mais informaçao oi 98747 1364 ou vivo whatsapp 99553 9764 valor acombinar 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Belo Horizonte - BH - Pampulha</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado Ontem <br> 19:00</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156811050
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row8 kiwii-clad-row" id="vs_classified_156577589"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/campinas/tagima-kansas-impec-vel-confira-precinho/156577589"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b5/9/156577589/vip/1.jpg?dt=4d6788fba0b3fd5e1b9fd7b17eee9e1c" alt="Fotos para Tagima kansas impecável confira precinho"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/campinas/tagima-kansas-impec-vel-confira-precinho/156577589" id="vs-detail-link-8" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Tagima kansas impecável confira precinho</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$450
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Campinas
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Impecável violão tagima kansas, , encordoamento novo, capa almofadada, meu whatz (19)992043289 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Campinas</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 12 outubro <br> 10:52</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156577589
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row9 kiwii-clad-row" id="vs_classified_156567349"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/botafogo/piano-fritz-dobbert-2-4-cauda/156567349"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/46/9/156567349/vip/1.jpg?dt=ab30ac9b0a5e18530834a6835695b915" alt="Fotos para Piano Fritz Dobbert 24 cauda"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/botafogo/piano-fritz-dobbert-2-4-cauda/156567349" id="vs-detail-link-9" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Piano Fritz Dobbert 24 cauda</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$26.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Piano Fritz Dobbert ,meia cauda 185 cms , original , pouquíssimo usado Acompanha banqueta original Entrega imediata e gratuita na cidade do Rio de Janeiro Pagamento facilitado Casa Pierre Pianos 40 anos de tradição em p… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Rio de Janeiro - capital - Botafogo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 12 outubro <br> 07:58</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156567349
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row10 kiwii-clad-row" id="vs_classified_156536177"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/botafogo/piano-yamaha-1-4-cauda-/156536177"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/59/8/156536177/vip/1.jpg?dt=2de41513801ff08fa48fea4aa2e12500" alt="Fotos para Piano Yamaha 14 cauda "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/botafogo/piano-yamaha-1-4-cauda-/156536177" id="vs-detail-link-10" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Piano Yamaha 14 cauda </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$32.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Piano cauda 1/4 ,modelo G1 ,Yamaha preto acompanha banqueta original. Encordoamento Roslau Pagamento facilitado Entrega imediata e gratuita na cidade do Rio de Janeiro Casa Pierre Pianos 40 anos de tradição em pianos ac… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Rio de Janeiro - capital - Botafogo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 20:48</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156536177
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row11 kiwii-clad-row" id="vs_classified_156536054"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/jabaquara/amplificador-meteoro-mg-15---30-wts/156536054"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/77/f/156536054/vip/1.jpg?dt=abde627d2a00468b58bef7c6b1428c90" alt="Fotos para Amplificador Meteoro MG 15 - 30 Wts"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/jabaquara/amplificador-meteoro-mg-15---30-wts/156536054" id="vs-detail-link-11" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Amplificador Meteoro MG 15 - 30 Wts</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Amplificador Meteoro MG-15 Super Novo. A Linha MG/MB 15 teve todo o seu projeto testado passo a passo até o final para que pudesse obter o timbre e a qualidade Meteoro Amplifiers. Estes amplificadores pequenos e de custo… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Paulo - capital - Jabaquara</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 20:44</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156536054
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row12 kiwii-clad-row" id="vs_classified_156533555"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/mairipora-sao-paulo/guitarra-tagima/156533555"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/10/9/156533555/vip/1.jpg?dt=7ff13819f15e1a9b7248b46aa3bb35ff" alt="Fotos para GUITARRA TAGIMA"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/mairipora-sao-paulo/guitarra-tagima/156533555" id="vs-detail-link-12" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">GUITARRA TAGIMA</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$580
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Mairiporã, São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              GUITARRA TAGIMA MEMPHIS COM ALAVANCA, NA COR SUNBURST, NOVA, ZERADA, JÁ ESTÁ FEITA A REGULAGEM E CORDAS NOVAS, PRONTA PARA USO. OBS. ENTREGA A COMBINAR 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais a venda Mairiporã, São Paulo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 19:18</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156533555
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row13 kiwii-clad-row" id="vs_classified_156529317"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/itanhaem/contrabaixo-novotagima-millenium4--novo--zeradinho--sem-deta/156529317"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/18/e/156529317/vip/1.jpg?dt=a584ae6cbd3ae1f0419d96305e9a4ac5" alt="Fotos para Contrabaixo NovoTagima Millenium4, novo, zeradinho, sem deta"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/itanhaem/contrabaixo-novotagima-millenium4--novo--zeradinho--sem-deta/156529317" id="vs-detail-link-13" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Contrabaixo NovoTagima Millenium4, novo, zeradinho, sem deta</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$750
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Itanhaém
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Tagima Millenium4, novo, zeradinho, sem detalhes, usado apenas em poucas aulas. Aceito trocar por bateria eletrônica . 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Itanhaém</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 17:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156529317
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row14 kiwii-clad-row" id="vs_classified_156528361"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/itanhaem/guitarra-les-paul-phoenix-malibu/156528361"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b0/7/156528361/vip/1.jpg?dt=e04538d59f87ca71fea57ce255a13521" alt="Fotos para Guitarra Les Paul Phoenix Malibu"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/itanhaem/guitarra-les-paul-phoenix-malibu/156528361" id="vs-detail-link-14" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guitarra Les Paul Phoenix Malibu</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1.600
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Itanhaém
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Excepcional instrumento com a qualidade Phoenix e tudo que se possa imaginar de praticidade, afinação, maciez, e claro, um, ou vários, som maravilhoso! Novíssimma! Tampo: Acabamento abalone Corpo: Mahogany Ponte: Tune… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Itanhaém</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 17:38</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156528361
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row15 kiwii-clad-row" id="vs_classified_156525261"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/penha-sao-paulo/studio-chimite-produ--es/156525261"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/cf/1/156525261/vip/1.jpg?dt=00dd1ea717f268f6ed3ae8939e5d3058" alt="Fotos para Studio Chimite Produções"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/penha-sao-paulo/studio-chimite-produ--es/156525261" id="vs-detail-link-15" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Studio Chimite Produções</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$25
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ei, você, tem banda, precisa ensaiar, não tem lugar pra tocar? Liga pra gente e agende seu horário. 1 hora R$25,00 2 horas R$40,00 (11)2082-8243 (11)98595-8649 Aceitamos cartões de crédito e débito Estamos localizados na… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Paulo - capital - Penha, São Paulo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 16:32</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156525261
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row16 kiwii-clad-row" id="vs_classified_156502827"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/suzano/arcodeon-8-baixos-sabi--/156502827"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0a/5/156502827/vip/1.jpg?dt=515f7d96c53162e4e402b3d39b4dcd16" alt="Fotos para Arcodeon 8 baixos Sabiá "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/suzano/arcodeon-8-baixos-sabi--/156502827" id="vs-detail-link-16" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Arcodeon 8 baixos Sabiá </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$600
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Arcodeon 8 baixos da marca Sabiá ,funcionando,alguns reparos internos ,reformado por fora ,instrumento da marca sabiá original com plaquetinha. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais a venda Grande São Paulo - Suzano</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 11 outubro <br> 11:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156502827
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row17 kiwii-clad-row" id="vs_classified_156424795"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/montes-claros/aulas-de-m-sica-escola-toque-de-classe/156424795"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0d/b/156424795/vip/1.jpg?dt=11a5635f39740406b47500dd5b839ca2" alt="Fotos para Aulas de Música Escola Toque de Classe"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/montes-claros/aulas-de-m-sica-escola-toque-de-classe/156424795" id="vs-detail-link-17" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Aulas de Música Escola Toque de Classe</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$100
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Montes Claros
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Aulas de: Violão ,Teclado,Guitarra,Baixo,Gaita,Viola Caipira,Cavaquinho,Teoria Musical e musicalização infantil. Aulas de Segunda à Sábado, 2 x na semana,aula individual Contato: 3221-3384 99992-4016 99246-6767 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais a venda Montes Claros</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 16:43</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156424795
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr id="vs_advert_middle" class="vs-advertisement advertisement-middle-1"> 
+           <td colspan="8"> 
+            <!-- SummaryMiddle Start --> 
+            <div style="display:block;text-align:center;"> 
+             <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - BTF */
+google_ad_slot = "2196924935";
+google_ad_width = 970;
+google_ad_height = 90;
+//-->
+</script> 
+             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+            </div> 
+            <!-- SummaryMiddle End --> </td> 
+          </tr> 
+          <tr class="classified row18 kiwii-clad-row" id="vs_classified_156311998"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/goias-cidade/venda-250-00/156311998"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/7f/b/156311998/vip/1.jpg?dt=3e2741f19bcc2af435954f05a2fedcb8" alt="Fotos para Venda 250,00"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/goias-cidade/venda-250-00/156311998" id="vs-detail-link-18" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Venda 250,00</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$250
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Goiás Cidade
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Violao Michael vm16 novo com capa 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Goiás Cidade</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 15:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156311998
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row19 kiwii-clad-row" id="vs_classified_156382308"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/camacari/sanfona-todeschini-120-baixos-4--de-voz-eletrificada/156382308"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/3a/a/156382308/vip/1.jpg?dt=91c68167d36dc7033f9105a5fb53f277" alt="Fotos para Sanfona Todeschini 120 baixos 4° de voz eletrificada"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/camacari/sanfona-todeschini-120-baixos-4--de-voz-eletrificada/156382308" id="vs-detail-link-19" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Sanfona Todeschini 120 baixos 4° de voz eletrificada</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.200
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Camaçari
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Sanfona Todeschini 120 baixos 4° de voz eletrificada, em bom estado, com maculão. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Camaçari</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 14:17</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156382308
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row20 kiwii-clad-row" id="vs_classified_156382261"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/freguesia-do-o/pedal-nux-fte-gr-tis-mod-force-original-novo/156382261"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/55/9/156382261/vip/1.jpg?dt=77309b483b930adafa51f60614003835" alt="Fotos para Pedal Nux Fte Grátis Mod Force Original Novo"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/freguesia-do-o/pedal-nux-fte-gr-tis-mod-force-original-novo/156382261" id="vs-detail-link-20" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Pedal Nux Fte Grátis Mod Force Original Novo</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$310
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              PEDAL NUX MOD FORCE (MODULAÇÕES) PARCELO EM ATÉ 12X Zapzap 11 996265350 12 efeitos de modulação Chorus, BI Chorus, Flanger,Tape Flanger, Phaser, BI Phaser,Tremolo, Tremolo Stereo, Vibrato, Auto Wah, Rotary, Uni Vib. Verd… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Paulo - capital - Freguesia do Ó</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 10 outubro <br> 08:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156382261
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row21 kiwii-clad-row" id="vs_classified_156239106"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/campinas/guitarra-condor/156239106"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/53/c/156239106/vip/1.jpg?dt=01a8d360f982c0a8d48715ccfc1cf1a8" alt="Fotos para Guitarra Condor"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/campinas/guitarra-condor/156239106" id="vs-detail-link-21" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guitarra Condor</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$250
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Campinas
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Guitarra nova condor vermelha com branco 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Campinas</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 20:00</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156239106
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row22 kiwii-clad-row" id="vs_classified_156320324"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/jaguariuna/caixa-acustica-e-cabe-ote-meteoro-p--baixo/156320324"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/99/5/156320324/vip/1.jpg?dt=43618314afeb1e077457e18cc57bb2c3" alt="Fotos para Caixa Acustica e cabeçote Meteoro p baixo"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/jaguariuna/caixa-acustica-e-cabe-ote-meteoro-p--baixo/156320324" id="vs-detail-link-22" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Caixa Acustica e cabeçote Meteoro p baixo</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1.300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Jaguariúna
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Maravilhoso som, ótimo para ensaios e pequenos shows...vale muito a pena! Caixa: - Potência: 300 Watts RMS - 02 falantes de 12” – 150 Watts cada - Impedância: 4 ohms - Tela Ortofônica em Nylon - Madeira Tipo Compensad… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Jaguariúna</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 16:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156320324
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row23 kiwii-clad-row" id="vs_classified_156311662"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/asa-sul/est-dio-de-grava--o-digital-mesa-roland-vs2480cd-completa/156311662"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/67/f/156311662/vip/1.jpg?dt=5ac6e88bb4ef1875047eedd5dd701049" alt="Fotos para Estúdio De Gravação Digital Mesa Roland VS2480CD Completa"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/asa-sul/est-dio-de-grava--o-digital-mesa-roland-vs2480cd-completa/156311662" id="vs-detail-link-23" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Estúdio De Gravação Digital Mesa Roland VS2480CD Completa</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.400
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Brasília - DF
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              ROLAND VS 2480CD Completa estação de gravação multicanais. Faders motorizados, 2 placas de expansão de efeitos incluídas, Compressores, equalizadores, efeitos fantásticos inseridos em cada canal. Total controle do traba… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Brasília - DF - Asa Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 14:59</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156311662
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row24 kiwii-clad-row" id="vs_classified_156304728"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/asa-sul/sitar-indiano-feito-em-varanasi--2007/156304728"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/e2/8/156304728/vip/1.jpg?dt=9efc5c879090e6515cad3b6e38180737" alt="Fotos para Sitar indiano feito em Varanasi, 2007"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/asa-sul/sitar-indiano-feito-em-varanasi--2007/156304728" id="vs-detail-link-24" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Sitar indiano feito em Varanasi, 2007</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$2.650
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Brasília - DF
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Instrumento excelente, todo original, marca Bina, com estojo. Feito em Varanasi, ano 2007 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Brasília - DF - Asa Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 13:43</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156304728
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row25 kiwii-clad-row" id="vs_classified_156303856"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/asa-sul/piano-digital-roland-f-50/156303856"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/35/e/156303856/vip/1.jpg?dt=ff69b5f0e03934ad031c87f240c95853" alt="Fotos para Piano Digital Roland F-50"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/asa-sul/piano-digital-roland-f-50/156303856" id="vs-detail-link-25" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Piano Digital Roland F-50</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$3.700
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Brasília - DF
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              PERFEITO PARA ESTUDO EXCELENTES TIMBRES. Piano digital, 88 teclas, ação de martelo regulável (peso das teclas) Sons de piano, cordas, baixo e órgão. Conexão MIDI total, saída estéreo para amplificação, saída para fones d… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Brasília - DF - Asa Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 13:35</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156303856
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row26 kiwii-clad-row" id="vs_classified_156246594"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/-novo--encordoamento-viol-o-ernie-ball-earthwood-010-050/156246594"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/1d/7/156246594/vip/1.jpg?dt=7dc8a668c2cdbc450e8f7818c705c308" alt="Fotos para (NOVO) Encordoamento Violão Ernie Ball Earthwood 010-050"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/-novo--encordoamento-viol-o-ernie-ball-earthwood-010-050/156246594" id="vs-detail-link-26" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">(NOVO) Encordoamento Violão Ernie Ball Earthwood 010-050</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$40
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Feita com fio de 80% de cobre e 20% de zinco, o Encordoamento Ernie Ball Earthwood é envolto em torno de um fio hexagonal de aço banhado à estanho. As cordas de violão mais populares, fornecem um som nítido, com um toque… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 10:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156246594
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row27 kiwii-clad-row" id="vs_classified_156245508"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/-novo--encordoamento-nig-n64-010-046-medidas-tradicionais/156245508"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/6a/8/156245508/vip/1.jpg?dt=c69c29fe21fa0d82a26da940bfdfda15" alt="Fotos para (NOVO) Encordoamento NIG N64 010-046 Medidas Tradicionais"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/-novo--encordoamento-nig-n64-010-046-medidas-tradicionais/156245508" id="vs-detail-link-27" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">(NOVO) Encordoamento NIG N64 010-046 Medidas Tradicionais</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$30
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              O encordoamento NIG 010 possui tensão média é indicado para guitarristas que usam a guitarra na afinação padrão (mi) ou até meio tom abaixo da padrão. Ele possui as três primeiras cordas lisas, feitas em aço carbono e… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 10:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156245508
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row28 kiwii-clad-row" id="vs_classified_156243740"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/guitarra-les-paul-strinberg-preta-usada-regulada-cordasnovas/156243740"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/63/f/156243740/vip/1.jpg?dt=cd6c63d4ebd1b882dce795a149b7f224" alt="Fotos para Guitarra Les Paul Strinberg Preta Usada Regulada CordasNovas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/guitarra-les-paul-strinberg-preta-usada-regulada-cordasnovas/156243740" id="vs-detail-link-28" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guitarra Les Paul Strinberg Preta Usada Regulada CordasNovas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$550
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Líder de vendas na Strinberg, a guitarra Les Paul Strinberg CLP-79 é uma ótima escolha para guitarristas que buscam uma guitarra com ótima qualidade por um preço acessível no mercado. Guitarra perfeita. Ótimo som, tim… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 10:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156243740
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row29 kiwii-clad-row" id="vs_classified_156241905"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/guitarra-eagle-sts-002-branca-usada-regulada-cordas-novas/156241905"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/16/b/156241905/vip/1.jpg?dt=5e12ea4a2fe26e08084372c3c2f9a876" alt="Fotos para Guitarra Eagle STS 002 Branca Usada Regulada Cordas Novas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/guitarra-eagle-sts-002-branca-usada-regulada-cordas-novas/156241905" id="vs-detail-link-29" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Guitarra Eagle STS 002 Branca Usada Regulada Cordas Novas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Necessita de uma guitarra que se encaixa bem em qualquer estilo musical? A guitarra Eagle STS 002 é a ideal. Tremolo tradicional, chave de cinco posições para explorar diversos timbres e pegada confortável são as princip… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 10:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156241905
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row30 kiwii-clad-row" id="vs_classified_156137448"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/amplificador-meteoro-demolidor-fwb-20-20w-baixo-usado/156137448"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/f9/e/156137448/vip/1.jpg?dt=bbe887681389061adabe946ca17aaf27" alt="Fotos para Amplificador Meteoro Demolidor FWB-20 20W Baixo Usado"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/amplificador-meteoro-demolidor-fwb-20-20w-baixo-usado/156137448" id="vs-detail-link-30" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Amplificador Meteoro Demolidor FWB-20 20W Baixo Usado</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$450
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              O amplificador Meteoro Demolidor FWB-20 é uma boa escolha para baixistas que buscam um amplificador para estudos e pequenos shows. Possui uma ótima qualidade por um preço bem acessível. Possui 4 controles: 1 de volume… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 09 outubro <br> 10:51</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156137448
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row31 kiwii-clad-row" id="vs_classified_156238567"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/taguatinga-distrito-federal/capa-para-viol-o-flat-ou-guitarra/156238567"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/c3/f/156238567/vip/1.jpg?dt=c560c7d97748a14f97a0e00b51bfe734" alt="Fotos para Capa para violão flat ou guitarra"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/taguatinga-distrito-federal/capa-para-viol-o-flat-ou-guitarra/156238567" id="vs-detail-link-31" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Capa para violão flat ou guitarra</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$90
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Taguatinga, Distrito Federal
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              capa para violão flat ou guitarra muito conservada e resistente. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais a venda Taguatinga, Distrito Federal</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 08 outubro <br> 19:37</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156238567
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row32 kiwii-clad-row" id="vs_classified_156238404"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/taguatinga-distrito-federal/bateria-tama-rockstar/156238404"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/db/d/156238404/vip/1.jpg?dt=9ec9bb24bfc1a0ce14d085e07b45e9b0" alt="Fotos para bateria tama rockstar"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/taguatinga-distrito-federal/bateria-tama-rockstar/156238404" id="vs-detail-link-32" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">bateria tama rockstar</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Taguatinga, Distrito Federal
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              bateria tama rockstar. O que compõe: bumbo, surdo, caixa, tom1, tom2, pedal de bumbo, estante de caixa, máquina de chimball, pedestal para prato condução, pedestal para prato ataque, pratos chimbal, prato condução e prat… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais Taguatinga, Distrito Federal</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 08 outubro <br> 19:33</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156238404
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row33 kiwii-clad-row" id="vs_classified_156170170"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/guarulhos/igniz-a-voz-diab-lica---/156170170"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/33/b/156170170/vip/1.jpg?dt=0d126adf203e2b054cfd5b200183de1e" alt="Fotos para Igniz A Voz Diabólica!!!"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/guarulhos/igniz-a-voz-diab-lica---/156170170" id="vs-detail-link-33" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Igniz A Voz Diabólica!!!</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$6
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Eu abrir um canal no YouTube sobre dublagem de efeitos especiais.o conteúdo é muito bom.eu convido vocês a entrar:O nome do canal é Igniz a voz diabólica!!!.é diversão garantida.é grátis.é só entra se unir ao canal:criar… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Grande São Paulo - Guarulhos</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 07 outubro <br> 21:08</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156170170
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row34 kiwii-clad-row" id="vs_classified_156139630"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/cidade-tiradentes/guitarra-semi-ac-stica-ibanez-as-93-blue-sunburst--usado/156139630"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/47/a/156139630/vip/1.jpg?dt=1f3e99026cb28e1cf5d857c7cbd416f9" alt="Fotos para GUITARRA SEMI ACÚSTICA IBANEZ AS 93 BLUE SUNBURST. usado"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                4
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/cidade-tiradentes/guitarra-semi-ac-stica-ibanez-as-93-blue-sunburst--usado/156139630" id="vs-detail-link-34" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">GUITARRA SEMI ACÚSTICA IBANEZ AS 93 BLUE SUNBURST. usado</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$2.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              GUITARRA SEMI ACÚSTICA IBANEZ AS 93 BLUE SUNBURST. usado obs. somente venda, não faço troca. A Ibanez é hoje uma das marcas de instrumentos musicais top no mercado, oferecendo uma grande variedade de instrumentos, em v… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados São Paulo - capital - Cidade Tiradentes</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 07 outubro <br> 13:20</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156139630
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row35 kiwii-clad-row" id="vs_classified_156059541"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/musica-instrumento/leste/cabo-p10-guitarra---baixo---viol-o-comum-usado--timo-estado/156059541"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/be/b/156059541/vip/1.jpg?dt=bea473e66687fae345ef8882f782a13f" alt="Fotos para Cabo P10 Guitarra Baixo Violão Comum Usado Ótimo Estado"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/musica-instrumento/leste/cabo-p10-guitarra---baixo---viol-o-comum-usado--timo-estado/156059541" id="vs-detail-link-35" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Cabo P10 Guitarra Baixo Violão Comum Usado Ótimo Estado</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$15
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              Belo Horizonte - BH
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Cabo P10 de 2 metros para ligar sua guitarra, violão, contrabaixo ou qualquer instrumento elétrico à um amplificador ou mesa de som. Ótimo estado. Fotos reais do produto. Por que comprar conosco? - Pague no dinhei… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Instrumentos musicais usados Belo Horizonte - BH - Leste</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>Publicado 06 outubro <br> 15:05</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             156059541
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+       <td id="widget_cell"> 
+        <div id="widget_container"> 
+        </div> </td> 
+      </tr>
+     </tbody>
+    </table> 
+    <!-- SummaryBottom Slot--> 
+    <div id="vs-search-ad-bottom" style="padding-left:20px;"></div> 
+    <!-- SummaryBottom Slot--> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr class="kiwii-border-bottom-xlight-gray"> 
+       <td colspan="7"> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <div class="kiwii-margin-top-small kiwii-margin-bottom-small"> 
+     <div class="kiwii-text-align-center kiwii-center-hor"> 
+      <div id="vs_instant_alert_signup"> 
+       <div>
+        ...e receba um e-mail com alertas sempre que um novo anúncio de seu interesse for publicado!
+       </div> 
+       <div class="vs-screen-1"> 
+        <input type="text" id="vs_instant_alert_email" value="Seu Email" default="Seu Email" class="kiwii-span-5 default"> 
+        <input type="button" id="vs_instant_alert_submit" class="kiwii-btn kiwii-btn-alert kiwii-btn-large kiwii-margin-xxxsmall" value="Criar um alerta"> 
+       </div> 
+      </div> 
+      <div class="vs-ia-error-line vs-screen-1" style="display:none;"></div> 
+      <div class="vs-ia-confirmation vs-screen-2" style="display:none;"> 
+       <div class="vs-ia-confirmation-message"></div> 
+       <a href="" class="vs-ia-confirmation-link"></a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="kiwii-box kiwii-box-padding kiwii-box-dark-gray kiwii-box-footer"> 
+     <ul class="kiwii-h-list kiwii-text-align-center"> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block">
+         « Anterior 
+       </div> </li> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block kiwii-btn-alert kiwii-btn-selected">
+         1 
+       </div> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+2"> 2 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+3"> 3 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+4"> 4 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+5"> 5 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+6"> 6 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+7"> 7 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+8"> 8 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+9"> 9 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+10"> 10 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/musica-instrumento/br/t+2"> Próximo » </a> </li> 
+     </ul> 
+     <div class="kiwii-margin-top-small vs-related-links"> 
+      <div class="vs-related-links-search"> 
+       <div class="kiwii-column-list-title vs-related-links-title">
+        Buscas Relacionadas
+       </div> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/amplificador">Amplificador Usado</a> </li> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/cordas">Cordas Usadas</a> </li> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/piano">Piano Usado</a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/baixo">Baixo Usado</a> </li> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/guitarra">Guitarra Usada</a> </li> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/teclado">Teclado Usado</a> </li> 
+       </ul> 
+       <ul class="kiwii-column kiwii-column-list"> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/bateria">Bateria Usada</a> </li> 
+        <li> <a href="http://www.vivalocal.com/musica-instrumento/br/q/pedaleira">Pedaleira Usada</a> </li> 
+       </ul> 
+      </div> 
+      <div class="vs-related-links-geo"> 
+      </div> 
+      <div style="clear: both;"></div> 
+      <div class="kiwii-margin-top-xsmall vs-related-links-bottom"> 
+       <div class="vs-related-links-more"> 
+        <a class="kiwii-no-link-decoration" href="http://www.vivalocal.com/musica-instrumento/br/mais-opcoes">Mais buscas relacionadas Instrumentos musicais</a> 
+       </div> 
+      </div> 
+      <div style="clear: both;"></div> 
+     </div> 
+    </div> 
+    <!-- end rendering summary page --> 
+   </div>
+  </div>
+  <div class="kiwii-span-20 kiwii-center-hor">
+   <div class="kiwii-box-padding">
+    <ul class="kiwii-h-list level2">
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/belo-horizonte" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Belo Horizonte - BH</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/brasilia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Brasília - DF</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/campinas" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Campinas</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/curitiba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Curitiba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/fortaleza" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Fortaleza</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/goiania" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Goiânia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/joao-pessoa" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados João Pessoa</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/joinville" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Joinville</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/manaus" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Manaus</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/rio-de-janeiro" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Rio de Janeiro - RJ</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/rio-de-janeiro-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Rio de Janeiro - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/salvador" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados Salvador</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/sao-paulo" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados São Paulo - SP</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/musica-instrumento/sao-paulo-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Instrumentos musicais usados São Paulo - capital</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="kiwii-bg-white kiwii-border-top-light-gray kiwii-margin-top-large kiwii-clear-both">
+   <div class="kiwii-span-20 kiwii-center-hor">
+    <div id="vs_footer">
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-white">
+      <div class="vs-footer-links">
+       <h3>Vivalocal</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/team" rel="nofollow"> Quem Somos </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact" rel="nofollow"> Fale Conosco </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.w3corporate.com" target="_blank" rel="nofollow"> Site Corporativo </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Ajuda/Informação</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/help" rel="nofollow"> Como Funciona </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/legal" rel="nofollow"> Termos de Uso </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/affiliation" rel="nofollow"> Seja um Afiliado </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact?issue=advertising" rel="nofollow"> Publicidade no Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/warning" style="color:#cc0000;font-weight:bold;" rel="nofollow"> Centro de Segurança </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/how_to_feature_ad_2" rel="nofollow"> Anúncios Destacados </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/cookies" rel="nofollow"> Cookies do Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/policy" rel="nofollow"> Política de Privacidade </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/payment_info" rel="nofollow"> Informações de Pagamento </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Links úteis</h3>
+       <ul class="kiwii-h-list">
+        <li><a class="kiwii-margin-right-xxxsmall" href="http://post.vivalocal.com">Inserir anúncio</a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div id="vs-seo-text"></div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div class="kiwii-font-tiny">
+       Copyright © 2017 Vivalocal - Part of W3 LTD
+      </div>
+      <div class="kiwii-font-tiny">
+       &nbsp;A maior parte das categorias no Vivalocal são gratuitas. No entanto, a fim de assegurar um serviço de qualidade e segurança, algumas categorias exigem uma taxa mínima para postar. Estas taxas vão aparecer claramente antes de você concluir o seu anúncio.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="vs_lb_disclaimer" class="vs-lightbox-content" style="display:none;">
+   <div id="vs_lb_disclaimer_content"></div>
+  </div>
+  <script type="text/javascript"></script>
+  <script type="text/javascript">
+                if( typeof current_data != 'undefined' ) {
+                        current_data.website_options = {"id":"13","domain":"vivalocal.com","name":"Vivastreet Brasil","template":"viwii3","country":"BR","status":"enable","homepage_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - vivalocal","homepage_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","homepage_keywords":"classificados #location#, an\u00fancios classificados Locais #location#, classificados gr\u00e1tis #location#, an\u00fancios #location#, an\u00fancios de venda #location#, classificados de carros #location#, classificados de im\u00f3veis, onde vender, empregos, an\u00fancios pes","homepage_h1":"Classificados #location# \/ An\u00fancios Gr\u00e1tis #location#","homepage_spec":"{\"footer_spec\":{\"text\":[{\"text\":\"O vivalocal Brasil \\u00e9 um site de Classificados Gr\\u00e1tis com mais de 1 000 000 an\\u00fancios e centenas de novos an\\u00fancios publicados diariamente. Aqui, mais gente procura e mais gente acha o que quer, todos os dias. \\r\"},{\"text\":\"Comprar e vender pelo vivalocal \\u00e9 muito r\\u00e1pido e totalmente gr\\u00e1tis. Quer mudar de casa, vender seu carro, achar um emprego ou at\\u00e9 um amor? Clique no mapa e comece a navegar agora!\"}],\"choices\":[],\"defaults\":{\"type1\":\"\",\"location\":\"\",\"display\":\"\"}}}","posting_title":"Publicar An\u00fancios Gr\u00e1tis . Publicar Classificados Gr\u00e1tis | vivalocal.com","posting_desc":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gratis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_keywords":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gr\u00e1tis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_h1":"Publicar An\u00fancios Gr\u00e1tis  \/ Publicar Classificados Gr\u00e1tis ","nocat_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - Vivalocal","nocat_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","nocat_keywords":"","nocat_h1":"An\u00fancios Classificados Gr\u00e1tis #location#","nocat_footer":"","specialzation_type_code":"mais-opcoes","all_results":"classificados","adsense_keywords":"#keyword# #location#","afs_keywords":"Classificados #location#","header_div":"<span style=\"letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;\">An\u00fancios classificados gr\u00e1tis<\/span>","posting_seo_footer":"Publique seus an\u00fancios gr\u00e1tis no vivalocal. \u00c9 F\u00e1cil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e fa\u00e7a neg\u00f3cio rapidamente!","subtemplate":null};            current_data.country_options = {"id":"BR","label":"Brasil","default_language":"pt","timezone":"America\/Sao_Paulo","currency_code":"BRL"};            current_data.is_mobile = false;            current_data.is_search = false;            current_data.page = {"type":"summary","mode":"t"};            current_data.category = {"id":"104","parent":"245","meta_code":"music_instruments","code":"musica-instrumento","label":"Instrumentos musicais","premium_ads":"no","foreign_only":"block","depth":3,"main_meta_code":"for_sale","tree":[{"id":"2","parent":"0","meta_code":"for_sale","code":"compra-venda-usada","label":"Compra venda","premium_ads":"no","foreign_only":"block","depth":1,"main_meta_code":"for_sale"},{"id":"245","parent":"2","meta_code":"for_sale_leisure","code":"lazer","label":"Lazer e entretenimento","premium_ads":"no","foreign_only":"block","depth":2,"main_meta_code":"for_sale"},{"id":"104","parent":"245","meta_code":"music_instruments","code":"musica-instrumento","label":"Instrumentos musicais","premium_ads":"no","foreign_only":"block","depth":3,"main_meta_code":"for_sale"}],"search_keywords":"Palavras-Chave","disclaimer":false};            current_data.url = {"protocol":"http","fulldomain":"www.vivalocal.com","path":"\/musica-instrumento\/br","query":"","fulldomain_stack":["www","vivalocal","com"],"path_stack":["musica-instrumento","br"],"query_array":[],"domain":"vivalocal.com","domain_stack":{"prefix":"","site":"vivalocal.com"},"subdomains":"www","subdomain_stack":["www"],"subdomain":"www","root":"http:\/\/www.vivalocal.com\/","pics":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","js":"http:\/\/static.viva-images.com\/templates\/viwii3\/scripts","css":"http:\/\/static.viva-images.com\/templates\/viwii3\/styles","ajax":"http:\/\/www.vivalocal.com\/ajax\/"};        }
+                if( typeof current_config != 'undefined' ) {
+                        current_config.geosearch_settings = {"free_text":false,"multi_drop":true,"drop_max":3,"country_drop":false,"search_type":"B","outer_code_search":"","always_radius":false,"max_geo_depth":3,"separate_main_locations":true};
+                    }
+            </script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/app_b.js?cache=crMbO"></script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/compatibility_b.js?cache=crMbO"></script>
+  <script type="text/javascript">
+    if( typeof $J != 'undefined' ) {
+        $J(document).ready( function() {
+            if( typeof App != 'undefined' ) {
+                App.load();
+            }
+        });
+    }
+    else {
+        if( typeof App != 'undefined'  ) {
+            App.load();
+        }
+    }
+    </script>
+  <!-- adblock start-->
+  <script>var adblockUser="YES";</script>
+  <div id="adblocktest" style="display:none"></div>
+  <script type="text/javascript" src="http://media-eu.viva-images.com/global/advertising.js?nocache=22"></script>
+  <!-- adblock end-->
+  <!-- GTM start -->
+  <script>
+var dataLayer = [{
+"GAtoGTM":false,
+"pageCat":"summary",
+"geo_Summary":"",
+"geo1": "",
+"geo2": "",
+"geo3": "",
+"geo4": "",
+"geo5": "",
+"searchType" :  (0 ) ? 'search' : 'browse',
+"nbrResult" :"563",
+"kw": "",
+"metaCategory":"for_sale",
+"labelCategory":"Compra venda",
+"metaSubCategory":"for_sale_leisure",
+"labelSubCategory":"Lazer e entretenimento",
+"metaSubSubCategory":"music_instruments",
+"labelSubSubCategory":"Instrumentos musicais",
+"adblockUser": (adblockUser),
+"userId":( typeof App != 'undefined' && App !== null ) ? App.Session.data.user_id : 0,
+"userType":( typeof App != 'undefined' && App !== null ) ? App.Session.data.web_usertype : "",
+"userLogged":( ( typeof App != 'undefined' && App !== null ) && App.Session.data.logged_in ) ? 1 : 0
+}]
+</script>
+  <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M7ZFTZ');
+</script>
+  <!-- GTM end -->
+  <!-- fix overlay -->
+  <style>
+.ui-widget-overlay {
+background: #000000;
+opacity: .80;
+z-index:9999;
+position:fixed;
+width:100%;
+overflow: hidden;
+}
+.ui-dialog {
+position:fixed;
+top:30vh;
+}
+.kiwii-column-list li a{
+font-size:11px!important;
+}
+#sas-fixedDiv_3758685{width:230px;right:0;}
+</style>
+  <!-- remove frequency option email alert -->
+  <script>
+function update_alert_box_form_z(){var a=setInterval(function(){void 0!=document.getElementById("alert_frequency_summary")&&(document.getElementById("alert_frequency_summary").checked=!1,document.getElementById("alert_frequency_push").checked=!0,document.getElementById("alert_frequency_summary").parentElement.style.display="none",clearInterval(a))},500)}void 0!=document.getElementsByClassName("tooltip-item")[0]&&document.getElementsByClassName("tooltip-item")[0].setAttribute("onclick","update_alert_box_form_z();"),void 0!=document.getElementById("contact-alertbox")&&document.getElementById("contact-alertbox").setAttribute("onclick","update_alert_box_form_z();");
+</script>
+  <!-- remove frequency option email alert -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cf5e25fd38","applicationID":"6500731","transactionName":"ZwZRZhEDWhdWUBAKDF5McEcQFlsJGEARDg5REUptFwdMEA==","queueTime":0,"applicationTime":350,"atts":"S0FSEFkZSRk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ </body>
+</html>

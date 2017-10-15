@@ -1,0 +1,161 @@
+<html>
+ <head> 
+  <title>Carros na Web - Revendedores de carros</title> 
+  <style type="text/css">
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+</style> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18684290-1', 'auto');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body topmargin="4" leftmargin="0" link="blue" vlink="blue" alink="blue" bgcolor="e5e5e5"> 
+  <font face="arial"> <map name="principal"> <area shape="rect" coords="5,5,222,60" href="default.asp" title="O site de carros usados, seminovos e novos do Brasil"> </map>
+   <table width="980" cellspacing="0" cellpadding="0" border="0" bgcolor="darkred" align="center"> 
+    <!-- barra superior --> 
+    <tbody>
+     <tr> 
+      <td align="center" height="110" colspan="4" bgcolor="White"> <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Variedades-banner-topo --> <ins class="adsbygoogle" style="display:inline-block;width:970px;height:90px" data-ad-client="ca-pub-9891172707995683" data-ad-slot="7829382852"></ins> <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> </td>
+      <td> </td>
+     </tr> 
+     <tr>  
+      <td height="90" width="280" colspan="1" bgcolor="darkred"> <img src="imgsite\logobarratop.jpg" border="0" usemap="#principal"> </td> 
+      <td width="600"></td> 
+      <td align="center" width="170"> <a href="classificados.asp" title="Compra e venda de carros usados, seminovos e novos"><font style="font-size: 15px;"><font face="arial" color="darkkhaki"><b>CARROS USADOS</b><font style="font-size: 14px;"><br>As melhores ofertas est�o aqui. Confira!</font></font></font></a><font style="font-size: 15px;"><font face="arial" color="darkkhaki"><font style="font-size: 14px;"> </font></font></font></td> 
+      <td width="10"></td> 
+     </tr> 
+     <tr> 
+      <td bgcolor="darkkhaki" colspan="4" height="25"> <font style="font-size: 14px; font-family: arial"> &nbsp;&nbsp; <a href="default.asp"><font color="white">P�gina Principal</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="classif.asp"><font color="white">Classificados</font></a><font color="white">&nbsp; <b>|</b></font>&nbsp; <a href="faleconosco.asp"><font color="white">Fale Conosco</font></a><font color="white">&nbsp; </font></font></td> 
+     </tr> 
+    </tbody>
+   </table> 
+   <table border="0" cellpadding="15" cellspacing="0" width="980" align="center" bgcolor="White"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="#ffffff" width="100"></td> 
+      <td bgcolor="#ffffff" colspan="1" align="center"> <br> 
+       <table width="290" border="0" bgcolor="White"> 
+        <tbody>
+         <tr> 
+          <td align="center"> <font style="font-size: 8px;"><br> <p align="center"> <font color="darkred" face="arial"><font style="font-size: 18px;">J� sou cadastrado </font></font></p><font color="darkred" face="arial"><font style="font-size: 18px;"> <font style="font-size: 10px;"><br> 
+               <form action="lojistalogon.asp" method="post" id="form1" name="form1" onsubmit="var result=checa(); return result;"> 
+                <font color="black" face="arial"><font style="font-size: 1px;"><br> <font style="font-size: 13px;"> E-mail&nbsp;&nbsp;<input id="a5f198sd4z" name="a5f198sd4z" size="20" onkeypress="event.returnValue=Aspas(event.keyCode);" maxlength="60"><br><br> Senha&nbsp;&nbsp;<input type="password" id="k40fjhw32y" name="k40fjhw32y" size="9" onkeypress="event.returnValue=Aspas(event.keyCode);" maxlength="20"> &nbsp; <input type="submit" value="Entrar" id="submit2" name="submit2" size="2" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';"> </font>  <font color="black" face="arial"><font style="font-size: 13px;"><br><br> <a href="lojistacadastro.asp"><font style="font-size: 13px; color:black;"><font color="black"><u>Cadastre-se</u></font></font></a><font style="font-size: 13px; color:black;"><font color="black"> &nbsp;&nbsp; <a href="lojistaesqueceusenha.asp"><font style="font-size: 13px; color:black;"><font color="black"><u>Esqueceu a senha?</u></font></font></a><font style="font-size: 13px; color:black;"><font color="black"> <font color="black" face="arial"><font style="font-size: 13px;"><br><br> </font></font></font></font></font></font></font></font></font></font>
+               </form></font></font></font></font></td> 
+         </tr> 
+        </tbody>
+       </table> </td> 
+      <td bgcolor="#ffffff" align="center" valign="top"> <br> 
+       <table width="290" border="0" bgcolor="White"> 
+        <tbody>
+         <tr> 
+          <td align="center"> <br> <p align="center"> <font color="darkred" face="arial"><font style="font-size: 18px;">Cadastre sua Loja </font></font></p><font color="darkred" face="arial"><font style="font-size: 18px;"> <font color="black" face="arial"><font style="font-size: 13px;"> Fa�a o cadastro de sua loja no site Carrosnaweb. <br><br> <input type="button" class="binput" value="Cadastre sua loja" id="button2" name="button2" onclick="javascript:window.location.href='lojistacadastro.asp';" onmouseover="this.style.cursor='hand';" onmouseout="this.style.cursor='';"><font color="black" face="arial"> <font style="font-size: 11px;"> <br><br><br><br><br> </font></font></font></font></font></font></td> 
+         </tr> 
+        </tbody>
+       </table> </td> 
+      <td bgcolor="#ffffff" width="100"></td> 
+     </tr> 
+     <tr> 
+      <td bgcolor="#ffffff" colspan="4" align="middle"> <font color="darkred" face="arial"><font style="font-size: 20px;">Vantagens ao anunciar no Carrosnaweb<br> 
+         <table width="50%" border="0"> 
+          <tbody>
+           <tr> 
+            <td> <font color="black" face="arial"><font style="font-size: 13px;"> <br> <li>an�ncio aparece na hora, proporcionando um eficiente canal de divulga��o </li><li>exibi��o de at� 8 fotos grandes e de alta qualidade por ve�culo </li><li>an�ncios ilimitados, divulgue todo o seu estoque </li><li>site r�pido e de alta disponibilidade </li><li>mais de 100.000 clientes potenciais por dia visitando seus an�ncios <br><br><br><br> Gostou? Fa�a agora o <a href="lojistacadastro.asp"><font style="font-size: 13px; color:black;"><font color="black"><u>cadastro</u></font></font></a><font style="font-size: 13px; color:black;"><font color="black"> de sua loja no site Carrosnaweb<br><br> </font></font></li></font></font></td>
+           </tr>
+          </tbody>
+         </table> </font></font></td>
+     </tr> 
+    </tbody>
+   </table>    
+   <table width="984" align="center"> 
+    <tbody>
+     <tr> 
+      <td bgcolor="#bc0000" colspan="80" height="25" width="100%"> <font style="font-size: 13px; font-family: arial"> &nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/default.asp" title="P�gina principal do site Carros na Web"><font color="white">P�gina Principal</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/mapa.asp" title="Mapa do site Carros na Web" rel="nofollow"><font color="white">Mapa do site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/sobre.asp" title="Hist�rico do site Carros na Web" rel="nofollow"><font color="white">Sobre o site</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/politicaprivacidade.asp" title="Pol�tica de Privacidade" rel="nofollow"><font color="white">Privacidade</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/termosdeuso.asp" title="Termos de uso" rel="nofollow"><font color="white">Termos de uso</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/m/default.asp?mobile=1" title="Mobile" rel="nofollow"><font color="white">Mobile</font></a><font color="white"> &nbsp;|&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Entre em contato com o site Carros na Web" rel="nofollow"><font color="white">Fale Conosco</font></a><font color="white"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.carrosnaweb.com.br/faleconosco.asp" title="Avise-nos sobre problemas com o site Carros na Web" rel="nofollow"><font color="white">Comunicar erro</font></a><font color="white"> </font></font></font></font></font></font></font></font></font></td> 
+     </tr> 
+    </tbody>
+   </table>   <script language="JavaScript">
+<!--
+	function Aspas(Tecla)
+	{
+		if (Tecla==39)
+		{
+			return false			
+		}
+		else
+		{
+			return true
+		}
+	}	
+
+function checa()
+{
+	var error_string = "";
+	var PrimeiroErro = "";
+	if (document.form1.k40fjhw32y.value =="")
+	{
+		error_string += "Favor digitar sua senha.\n";
+		PrimeiroErro = "k40fjhw32y"
+	}
+	else
+	{
+		if (document.form1.k40fjhw32y.value.length<4)
+		{
+			error_string += "Senha deve ter mais de 3 caracteres.\n";
+			PrimeiroErro = "k40fjhw32y"
+		}
+	}
+	if (document.form1.a5f198sd4z.value =="")
+	{
+		error_string += "Favor preencher seu e-mail.\n";
+		PrimeiroErro = "a5f198sd4z"
+	}
+	else
+	{
+		var AtSym  = document.form1.a5f198sd4z.value.indexOf('@')
+		var Period = document.form1.a5f198sd4z.value.lastIndexOf('.')
+		var Space  = document.form1.a5f198sd4z.value.indexOf(' ')
+		var Length = document.form1.a5f198sd4z.value.length - 1
+		if ( (AtSym < 1) ||       // '@' cannot be in first position
+		   (Period <= AtSym+1) || // Must be atleast one valid char btwn '@' and '.'
+		   (Period == Length ) || // Must be atleast one valid char after '.'
+		   (Space  != -1) )       // No empty spaces permitted
+		{  
+			error_string += "Formato de e-mail incorreto.\n";
+			if (PrimeiroErro == "")
+			{
+				PrimeiroErro = "a5f198sd4z"
+			}
+		}
+	}
+	if (error_string == "")
+	{
+		return true;
+	}
+	else
+	{
+		alert(error_string);
+		RecebeErro = 'document.form1.'+PrimeiroErro+'.focus();';
+		eval(RecebeErro);
+		return false;
+	}	
+}
+//-->
+</script> </font>
+ </body>
+</html>
