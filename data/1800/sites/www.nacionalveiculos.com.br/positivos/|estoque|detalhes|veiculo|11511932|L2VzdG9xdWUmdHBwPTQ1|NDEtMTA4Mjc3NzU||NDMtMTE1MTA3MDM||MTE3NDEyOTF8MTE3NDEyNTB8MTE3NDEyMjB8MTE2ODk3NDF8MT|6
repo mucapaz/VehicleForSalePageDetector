@@ -1,0 +1,329 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="pt-BR" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-BR" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-BR" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-BR" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>-->
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="author" content="VMotors"> 
+  <meta name="keywords" content="nacional, zero-km, seminovos, Hyundai, BMW, Chevrolet, Honda, Toyota, Kia, Nissan, LandRover, Volkswagen, Peugeot, Fiat, Renault, Ford"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+  <!-- Scripts Fixos do Sistema --> 
+  <script type="text/javascript" src="/system/assets/js/fcymon_scripts.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/fancybox/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript" src="/system/assets/js/buscavmotors.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery-ui.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/scripts.js"></script> 
+  <!-- CSS's Fixos Externos --> 
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> 
+  <!-- CSS's Fixos do Sistema --> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jquery-ui.css"> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jcymon_box.css"> 
+  <!-- CSS's Fixos do Template --> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/style.min.css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/js/fancybox/jquery.fancybox.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/mouseover.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/flexslider.css" media="screen"> 
+  <!-- JS's --> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.flexslider.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.carouFredSel-5.5.0-packed.js"></script> 
+  <!-- Seta o Head Base --> 
+  <title>Nacional Veículos - Detalhes do Veículo</title>
+  <script type="text/javascript" src="/system/assets/js/detalhes/ad-gallery.js"></script>
+  <script type="text/javascript" src="/system/assets/js/detalhes/carousel-lite.js"></script>
+  <script type="text/javascript" src="/system/assets/js/detalhes/detalhes.js"></script> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/buscador/buscador-de-veiculos.css"> 
+  <!-- Newsletter
+	================================================== --> 
+  <script>
+		function validaEmail(email) { var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; if (!re.test(email)) { return false; } return true; }
+
+		$(document).ready(function() {
+			if ($('#telefone_newsletter').length > 0) {
+				$("#telefone_newsletter").mask("(99) 9999-9999?9");
+			}
+
+			$('#btnNewsletter').click(function() {
+				$('#btnNewsletter').attr('disabled', true);
+
+				var server = "www.nacionalveiculos.com.br";
+				var script = "/index.php";
+
+				var email = "";
+				var nome = "";
+				var telefone = "";
+
+				if ($('#email_newsletter').length > 0) { email = $('#email_newsletter').val(); }
+				if ($('#nome_newsletter').length > 0) { nome = $('#nome_newsletter').val(); }
+				if ($('#telefone_newsletter').length > 0) { telefone = $('#telefone_newsletter').val(); }
+
+				if (validaEmail(email)) {
+					$.ajax({
+						url: 'http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v1/ajax/receba_newsletter.ajax.php',
+						dataType: "json",
+						data: {
+							nome: nome,
+							email: email,
+							telefone: telefone,
+							server: server,
+							script: script
+						},
+						type: "POST",
+						success: function(retorno) {
+							var retorno_positivo = "<p><label style='width:100% !important; text-align:center;'>Agradecemos pelo seu cadastro!</label></p>";
+							var retorno_negativo = "<p><label style='width:100% !important; text-align:center;'>Desculpe, ocorreu um erro. Tente novamente mais tarde</label></p>";
+
+							if (retorno.sucesso == "1") {
+								$('#div_newsletter').html(retorno_positivo);
+							} else {
+								$('#div_newsletter').html(retorno_negativo);
+							}
+						}
+					});
+				} else {
+					$('#btnNewsletter').removeAttr('disabled');
+					alert("Informe um email valido!");
+				}
+			});
+		});
+	</script> 
+  <!-- Fancybox
+	================================================== --> 
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+				type: 'iframe',
+				width: 560
+			});
+
+			$("a.mapaLoja").fancybox({
+				type: 'iframe',
+				height: 450,
+				width: 560
+			});
+		});
+	</script> 
+ </head> 
+ <body> 
+  <header id="header"> 
+   <div class="centraliza"> 
+    <h1 id="logoHeader"> <a href="/" title="Ir à página inicial"> <span>Nacional Veículos</span> </a> </h1> 
+    <section id="telefonesHeader"> 
+     <article class="telHeader lest"> 
+      <h2>NACIONAL GAMA</h2> 
+      <p>Quadra 32, Loja 20, Gama Leste – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3484-5055 </p> 
+     </article> 
+     <article class="telHeader samambaia"> 
+      <h2>NACIONAL SAMAMBAIA</h2> 
+      <p>QS 518, CONJ. 01, Loja 04, Samambaia Sul – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3046-7070 </p> 
+     </article> 
+    </section> 
+   </div> 
+   <nav id="menuHeader"> 
+    <div class="centraliza"> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li class="semi_menu"><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+     </ul> 
+    </div> 
+   </nav> 
+  </header> 
+  <section class="principalInternas"> 
+   <div class="centraliza"> 
+    <h1>Detalhes do Veículo</h1> 
+    <article class="detalhes"> 
+     <div id="detalhes-veiculo"> 
+      <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_enviar_email11511932").cymon_box({
+	                'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+      <script type="text/javascript">
+	        $(document).ready(function() {
+	            $("#form_proposta_veiculo11511932").cymon_box({
+					'largura'	: 580,
+					'altura'	: 500 
+	            });                                                        
+	        });            
+	    </script> 
+      <div id="menu_buscador"> 
+       <div class="left"> 
+        <ul> 
+         <li> <a href="/estoque&amp;tpp=45/detalhes&amp;veiculo=10827775_L2VzdG9xdWUmdHBwPTQ1_NDAtMTAzNTE5NzA=_NDItMTE1MTE5MzI=_MTE3NDEyOTF8MTE3NDEyNTB8MTE3NDEyMjB8MTE2ODk3NDF8MTE2OTAyMzR8MTA4OTY0NDh8MTE2ODk1NDl8MTE1MzI5NTh8MTE2ODk0MTV8MTExNDk5MjN8MTE2ODkwNjl8MTE2ODg4NDR8ODUxMTEyMHwxMTY4ODU3NXwxMTUxMDM0MnwxMTE0OTk5OHw5OTI2NjE2fDExNjY0MTQxfDExNjYzOTUyfDExNDQxMzk3fDExNTgyNzEwfDExNDQxNjE0fDExNTgyODExfDEwNjc0MjAwfDk3MjUwNjR8MTA1NTc3Njl8MTE0NDE2ODB8MTE0NDE4MDR8MTE0MTI3ODh8MTE1NjQ1Mjl8MTEzMTgzOTV8MTE1MTIwMDJ8MTA1MTk5MjZ8MTA1NDYyMDR8MTE0MTI5NTR8MTE1NzY4Mzd8MTE1NjQ1OTd8MTE1NjQ1Nzh8ODE3MTY0MXwxMTUzMjg4MHwxMDM1MTk3MHwxMDgyNzc3NXwxMTUxMTkzMnwxMTUxMDcwM3wxMTUxMDU1OQ==">Carro anterior</a> </li> 
+         <li> <a href="/estoque&amp;tpp=45/detalhes&amp;veiculo=11510703_L2VzdG9xdWUmdHBwPTQ1_NDItMTE1MTE5MzI=_NDQtMTE1MTA1NTk=_MTE3NDEyOTF8MTE3NDEyNTB8MTE3NDEyMjB8MTE2ODk3NDF8MTE2OTAyMzR8MTA4OTY0NDh8MTE2ODk1NDl8MTE1MzI5NTh8MTE2ODk0MTV8MTExNDk5MjN8MTE2ODkwNjl8MTE2ODg4NDR8ODUxMTEyMHwxMTY4ODU3NXwxMTUxMDM0MnwxMTE0OTk5OHw5OTI2NjE2fDExNjY0MTQxfDExNjYzOTUyfDExNDQxMzk3fDExNTgyNzEwfDExNDQxNjE0fDExNTgyODExfDEwNjc0MjAwfDk3MjUwNjR8MTA1NTc3Njl8MTE0NDE2ODB8MTE0NDE4MDR8MTE0MTI3ODh8MTE1NjQ1Mjl8MTEzMTgzOTV8MTE1MTIwMDJ8MTA1MTk5MjZ8MTA1NDYyMDR8MTE0MTI5NTR8MTE1NzY4Mzd8MTE1NjQ1OTd8MTE1NjQ1Nzh8ODE3MTY0MXwxMTUzMjg4MHwxMDM1MTk3MHwxMDgyNzc3NXwxMTUxMTkzMnwxMTUxMDcwM3wxMTUxMDU1OQ==">Próximo carro</a> </li> 
+         <li> <a href="/estoque&amp;tpp=45"> Resultado da Busca </a> </li> 
+        </ul> 
+       </div> 
+       <div class="right"> 
+        <ul> 
+         <li> <a href="/forms/index.php?form=enviar&amp;ti=RW52aWFyIHBvciBlbWFpbA==&amp;iv=11511932&amp;ma=FIAT&amp;mo=DOBLÒ" id="form_enviar_email11511932"> <img src="/system/assets/img/buscador/mail.png" alt="mail"> Enviar por email </a> </li> 
+         <li> <a href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=2014 FIAT DOBLÒ FIAT DOBLÒ&amp;p[summary]= - FIAT DOBLÒ 1.8 MPI ESSENCE 16V FLEX 4P MANUAL - 2014&amp;p[url]=estoque/detalhes&amp;veiculo=11511932_ZXN0b3F1ZQ==" title="facebook" target="_blank"> <img src="/system/assets/img/buscador/chat.png" alt="chat"> Compartilhar </a> </li> 
+         <li> <a onclick="javascript:return window.print();" href="javascript:;"> <img src="/system/assets/img/buscador/print.png" alt="print"> Imprimir página </a> </li> 
+        </ul> 
+       </div> 
+       <span class="arrow"></span> 
+      </div> 
+      <div class="middle"> 
+       <div class="colEsq"> 
+        <div id="gallery" class="ad-gallery"> 
+         <div class="ad-image-wrapper"></div> 
+         <div class="ad-controls"></div> 
+         <div class="ad-nav"> 
+          <div class="ad-thumbs"> 
+           <ul class="ad-thumb-list"> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800209829739.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800209829739.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800213371074.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800213371074.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800262401402.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800262401402.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800299217166.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800299217166.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800310403074.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800310403074.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800322149019.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800322149019.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800329279074.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800329279074.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800359543074.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800359543074.jpg" class="image0"> </a> </li> 
+            <li> <a href="http://image.vmotors.com.br/2017/9/22/11511932_636416800376125459.jpg"> <img src="http://image.vmotors.com.br/2017/9/22/11511932_636416800376125459.jpg" class="image0"> </a> </li> 
+            <li> <img src="/system/assets/img/buscador/small-img1.jpg" class="image0"> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+        <div id="details"> 
+         <h2>2014 FIAT DOBLÒ</h2> 
+         <div class="summary"> 
+          <p>Dados do veículo:</p> 
+          <ul> 
+           <li>Marca: FIAT</li>
+           <li>Modelo: DOBLÒ</li>
+           <li>Ano: 2014/2014</li>
+           <li>Versão: 1.8 MPI ESSENCE 16V FLEX 4P MANUAL</li>
+           <li>Cor: Branco</li>
+           <li>Câmbio: Manual</li>
+           <li>Portas: 4</li>
+           <li>Combustível: Gasolina e álcool</li> 
+           <li>KM: 100</li> 
+           <li>Final Placa: 6</li> 
+          </ul> 
+         </div> 
+         <p class="proposal" style="float:left;"> <a id="form_proposta" href="/forms/index.php?form=proposta&amp;ti=RXN0b3UgaW50ZXJlc3NhZG8=&amp;iv=11511932&amp;ma=FIAT&amp;mo=DOBLÒ"> Estou interessado <span></span> </a> </p> 
+        </div> 
+        <div class="summary1"> 
+         <h3>Opcionais:</h3> 
+         <div class="summary-data"> 
+          <ul> 
+           <li>Ar condicionado</li>
+           <li>Direção hidráulica</li>
+           <li>Vidros elétricos</li> 
+          </ul> 
+          <div class="clear"></div> 
+         </div> 
+         <h3>Observações adicionais:</h3> 
+         <div class="summary-data"> 
+          <p> DOBLO 7 LUGARES TEMOS AS MELHORES TAXAS DO MERCADO PARA VOCÊ SAIR DE CARRO NOVO. TRABALHAMOS COM OS PRINCIPAIS BANCOS E FINANCEIRAS. OFERECEMOS FINANCIAMENTO PARA PESSOAS: &gt; Autônomos; &gt; Assalariados; &gt; Pensionistas; DOCUMENTAÇÃO TUDO OK. MELHOR AVALIAÇÃO DO SEU SEMINOVO! COMPRO CARRO PAGO À VISTA! OBS: PREÇO SUJEITO A ALTERAÇÃO SEM AVISO PRÉVIO. (Executivos de Vendas) 9 9855-7191 9 9851-5258 9 9857-6842 </p> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="colDir"> 
+        <div id="price-details"> 
+         <p class="price"> R$ 44.900,00 </p> 
+         <p class="name"> </p> 
+         <div>
+           ST LESTE COMERCIAL - Brasília - DF 
+         </div> 
+         <p class="phone"> (61) 34844016 <span>Entre em contato conosco</span> </p> 
+         <ul class="details1 page-wrap"> 
+          <li> <a href="/forms/index.php?form=financiamento&amp;ti=RmluYW5jaWFtZW50bw==&amp;ma=FIAT&amp;mo=DOBL%C3%92&amp;iv=11511932&amp;uf=DF" id="form_financie-este-veiculo">Financie este carro</a> </li> 
+          <li> <a href="/forms/index.php?form=avalie&amp;ti=U2V1IGNhcnJvIG5hIHRyb2Nh&amp;iv=11511932&amp;ma=FIAT&amp;mo=DOBLÒ&amp;uf=DF" id="form_venda_seu_carro">Seu carro na troca</a> </li> 
+         </ul> 
+         <iframe width="234" height="285" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:1px solid #999;" src="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=q+lt,+n,+32+-+loja+20+-+brasília+-+df+&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=q+lt,+n,+32+-+loja+20+-+brasília+-+df&amp;z=14&amp;iwloc=near&amp;output=embed"></iframe>
+         <br> 
+         <small> <a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=q+lt,+n,+32+-+loja+20+-+brasília+-+df+&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=q+lt,+n,+32+-+loja+20+-+brasília+-+df&amp;t=m&amp;z=14" style="color:#0000FF;text-align:left" target="_blank">Exibir mapa ampliado</a> </small> 
+        </div> 
+       </div> 
+       <div class="middle"> 
+        <div class="head"> 
+         <h3> <img src="/system/assets/img/buscador/icon.jpg" alt="icon"> Você também pode se interessar nestes carros: </h3> 
+        </div> 
+        <!-- slide coding start--> 
+        <div class="modelo-slider"> 
+         <div class="erapido-album-carousel-prev modelo-prev-btn prev1">
+          &nbsp;
+         </div> 
+         <div id="carousel1" class="erapido-album-carousel-modelo"> 
+          <div itemscope class="highslide-gallery"> 
+           <ul> 
+            <li> <a href="detalhes&amp;veiculo=11564529"> <img src="http://image.vmotors.com.br/2017/9/27/11564529_636421408141881228.jpg" width="127" height="96" alt="#"> </a> FIAT<br>GRAND SIENA<br>2015<br> <span>R$ 41.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=10557769"> <img src="http://image.vmotors.com.br/2017/6/9/10557769_636326141017745480.jpg" width="127" height="96" alt="#"> </a> RENAULT<br>SANDERO<br>2014<br> <span>R$ 41.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=11441680"> <img src="http://image.vmotors.com.br/2017/9/15/11441680_636410860492142021.jpg" width="127" height="96" alt="#"> </a> HYUNDAI<br>HB20X<br>2014<br> <span>R$ 43.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=8959785"> <img src="http://image.vmotors.com.br/ID_8959785/1a15ddb8e263484ae2d2c003b6201142.jpg" width="127" height="96" alt="#"> </a> FORD<br>FUSION<br>2011<br> <span>R$ 44.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=10959941"> <img src="http://image.vmotors.com.br/2017/7/28/10959941_636368592999751823.jpg" width="127" height="96" alt="#"> </a> CHEVROLET<br>S10<br>2014<br> <span>R$ 47.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=11149998"> <img src="http://image.vmotors.com.br/2017/8/18/11149998_636386945241585053.jpg" width="127" height="96" alt="#"> </a> RENAULT<br>DUSTER<br>2014<br> <span>R$ 45.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=9926684"> <img src="http://image.vmotors.com.br/ID_9926684/64ae614a7a9c2ed85ade2e1df99a622d.jpg" width="127" height="96" alt="#"> </a> HYUNDAI<br>HB20<br>2015<br> <span>R$ 40.900</span> </li> 
+            <li> <a href="detalhes&amp;veiculo=11149787"> <img src="http://image.vmotors.com.br/2017/8/18/11149787_636386906987364760.jpg" width="127" height="96" alt="#"> </a> CHEVROLET<br>SPIN<br>2013<br> <span>R$ 43.900</span> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <div class="erapido-album-carousel-next modelo-next-btn next1">
+          &nbsp;
+         </div> 
+        </div> 
+        <!-- slide coding ends--> 
+       </div> 
+      </div> 
+     </div>
+    </article> 
+    <div class="clearfloat"></div> 
+   </div>
+   <!--centraliza--> 
+  </section>
+  <!--principalInternas--> 
+  <footer id="footer"> 
+   <ul class="abaLateral"> 
+    <li> <a class="opcoes chat" href="javascript:void(window.open('http://nacionalveiculos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"> Chat <span><br>Online</span> </a> </li> 
+    <li> <a class="opcoes whatsapp" href="#"> Whatsapp <span><br>(61) 9855-7191</span> <span><br>(61) 9 9851-5258</span> <span><br>(61) 9 9857-6842</span> </a> </li> 
+   </ul> 
+   <div class="centraliza"> 
+    <img src="/templates/assets/img/logoNacionalFooter.png" alt="Nacional Veículos" title="Nacional Veículos" class="logo_footer fleft"> 
+    <div class="menuFooter"> 
+     <h2>Mapa do site</h2> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/localizacao">Localização</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+     </ul> 
+    </div> 
+    <div class="menuFooterLinks"> 
+     <h2>links úteis</h2> 
+     <ul> 
+      <li><a href="http://www.fipe.org.br/web/index.asp?aspx=/web/indices/veiculos/introducao.aspx" target="_blank">FIPE</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">IPVA</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">Detran</a></li> 
+      <li><a href="http://webservices.maplink2.com.br/santander/MontarTrajeto.aspx" target="_blank">Monte seu trajeto</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div id="copyrights"> 
+    <div class="centraliza"> 
+     <p class="fleft">Nacional Veículos 2015 | Todos os direitos reservados.</p> 
+     <p class="fright"><a href="http://www.vmotors.com.br" title="Powered by VMotors" target="_blank">www.vmotors.com.br</a></p> 
+     <div class="clearfloat"></div> 
+    </div> 
+   </div> 
+  </footer>  
+ </body>
+</html>

@@ -13,30 +13,41 @@ import org.jsoup.nodes.Document;
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class Crawler {
-
+	
+	class Pair{
+		public String folder;
+		public String url;
+		
+		public Pair(String folder, String url) {
+			this.folder = folder;
+			this.url = url;
+		}
+		
+	}
+	
 	public static void main(String[] args) throws Exception {
 	
-//		ArrayList<String> pos = readURLs("data/positivos");
-//		craw("data/sites", "positivos", pos);
+		ArrayList<Pair> pos = readURLs("data/1800/positivosnovos");
+		craw("data/1800/sites", "positivos", pos);
 		
 		
-		ArrayList<String> neg = readURLs("data/negativos");
-		craw("data/sites_neg", "negativos", neg);
+//		ArrayList<String> neg = readURLs("data/negativos");
+//		craw("data/sites_neg", "negativos", neg);
 		
 	}
 
-	public static void craw(String baseFolder, String type, ArrayList<String> urls) throws Exception {
+	public static void craw(String baseFolder, String type, ArrayList<Pair> pairs) throws Exception {
 		
 		int index = 0;
 		
-		for(String url : urls) {
-			System.out.println(url);
+		for(Pair pair : pairs) {
+			System.out.println(pair);
 		
-			Document doc = Jsoup.connect(url).userAgent("Mozilla").get();		
+			Document doc = Jsoup.connect(pair.url).userAgent("Mozilla").get();		
 			
-			URL site = new URL(url);
+			URL site = new URL(pair.url);
 			
-			String host = site.getHost();
+//			String host = site.getHost();
 
 			String path = site.getFile().replaceAll("[^a-zA-Z0-9.]", "|");
 			
@@ -46,7 +57,7 @@ public class Crawler {
 			
 			path += "|" + index;
 			
-			String folder = baseFolder + "/" + host + "/" + type;
+			String folder = baseFolder + "/" + pair.folder + "/" + type;
 			
 			File f = new File(folder);
 			f.mkdirs();
@@ -60,13 +71,24 @@ public class Crawler {
 		
 	}
 	
-	public static ArrayList<String> readURLs(String location) throws FileNotFoundException {
+	public static ArrayList<Pair> readURLs(String location) throws FileNotFoundException {
 		Scanner in = new Scanner(new File(location));
 		
-		ArrayList<String> urls = new ArrayList<>();
+		ArrayList<Pair> urls = new ArrayList<>();
 		
 		while(in.hasNextLine()) {
-			urls.add(in.nextLine());
+			
+			String[] ar = in.nextLine().split(" ");
+		
+			if(ar.length >= 2) {
+				Pair p = new Crawler().new Pair(ar[0], ar[1]);
+				
+				urls.add(p);
+				
+//				System.out.println(p.folder + " " + p.url);
+			}
+			
+//			urls.add(in.nextLine());
 //			System.out.println(urls.get(urls.size()-1));
 		}
 		

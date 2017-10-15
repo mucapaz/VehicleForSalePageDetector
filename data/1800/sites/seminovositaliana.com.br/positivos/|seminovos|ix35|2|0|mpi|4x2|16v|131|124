@@ -1,0 +1,1068 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"de6ebc3165","applicationID":"28865107","transactionName":"IFdaTUJaCVpRQRwDQhdXG0xDUAFpWVxXB1sQF0dRX0I=","queueTime":3,"applicationTime":159,"agent":""}</script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIGV1JSDBACXFlUAgAHUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="dns-prefetch" href="//seminovositaliana.com.br"> 
+  <link href="https://assets.autoforce.com.br" rel="preconnect" crossorigin> 
+  <title>Italiana Seminovos</title> 
+  <meta name="charset" content="utf-8"> 
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta property="og:url" content="http://www.seminovositaliana.com.br/seminovos"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="Italiana Seminovos"> 
+  <meta property="og:description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <meta property="og:image" content="//assets.autoforce.com.br/uploads/brand/logo_regular/14/avatar_fiat2.png"> 
+  <meta name="description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <link rel="shortcut icon" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="icon" type="image/png" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="apple-touch-icon" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <meta name="csrf-param" content="authenticity_token"> 
+  <meta name="csrf-token" content="LW7/bXLo0zBaQclzyJFLkFr+9+CB8Cp5go6zXV2hHNGl9lZmA31SDV4SN4hzC9i3av9dU8/5096rHetzTOedKw=="> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/super_landing_page/bootstrap.min-3c489ea49217d1731e0dc838b9453f2319c8b620361eccffa17df67f02ca63f5.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/super_landing_page/jquery-ui-a18bc04b3414017881f4e93a40353fff32fec1a923a8f5997d30c625477c74a7.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/auto/5-c8f93e90cee5e2039f36f2870ab061ce7c0ae26b5dc54bd2bd11a9b43790c54b.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.transitions-e2e6aa4b314724d4d8607e81b52f2f0388bab071b20a18d3ae7ae224e701553b.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.carousel-308aae2ad41a61c49a98db81cfe5ceac34512e5665b1cf47eb51bf45807c6f4c.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.theme-851ed1fc3d3ca0b14ecbfa9c05c5970be2a0727398e68af5c3b295a672bbdc0d.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/jquery.fancybox-1eb9b7426aa8bc0ee1b9abccd685d2e549f892499b073557580b0f65694a19d9.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/helpers/jquery.fancybox-buttons-e99bfc7258a802fbea0d2b07b214af7d769e895f71fe56ac15e40d6ff9e54196.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/helpers/jquery.fancybox-thumbs-1351abea269ee44a6938c3cc7b40507cc2dee4e82a793f12d06df854245200b4.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/malihu-custom-scrollbar/jquery.mCustomScrollbar-fa9d59de2182b9e695ac0b81b88060a37efea22bc99ce2316b723e22efb1d64d.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/sumoselect/sumoselect-d3eccad262bfe1d6f72619d06c7e72a2b1464ee03d8c642d8173916c27f58817.css"> 
+  <script src="https://assets.autoforce.com.br/assets/auto/overall/_initializers-a9ca94443d4f94add715a969ca2405c6f80fb8130df47a0cc7b8f5bf2e0689ef.js"></script> 
+  <link rel="shortcut icon" type="image/png" href="http://legado.autoforce.com.br/mods/italiana/img/italiana-favicon.png"> 
+ </head> 
+ <body> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" defer async></script> 
+  <script>
+        function callConversion() {
+        }
+    </script> 
+  <header> 
+   <div id="nav_bar" class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-xs-8 col-sm-3"> 
+      <h2 class="brand-client"> <a style="background-image: url( //assets.autoforce.com.br/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png);" href="/">Italiana</a> </h2> 
+     </div> 
+     <div class="col-xs-4 col-sm-9"> 
+      <div id="phones-main" class="btn-dropdown-list phone-number-list"> 
+       <button type="button" class="btn btn-default menu-accordion-toggle"><span class="fa fa-phone icon"></span></button> 
+       <ul class="accordion"> 
+        <li> <a href="tel: 081 2121-1100"> Recife Imbiribeira <b>(81) 2121-1100</b> </a> </li> 
+        <li> <a href="tel: 081 2103-4000"> Caruaru <b>(81) 2103-4000</b> </a> </li> 
+        <li> <a href="tel: 081 3454-1080"> Recife Caxangá <b>(81) 3454-1080</b> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <section id="showcase"> 
+   <div class="container-fluid"> 
+    <header> 
+     <div class="pageview-products"> 
+      <div class="return-links pageview-crumb"> 
+       <div class="row"> 
+        <div class="col-xs-6 col-sm-6"> 
+         <ul> 
+          <li> <a href="/">Início</a> </li> 
+          <li> <a href="/seminovos">Seminovos</a> </li> 
+          <li> IX35 2.0 MPI 4X2 16V </li> 
+         </ul> 
+        </div> 
+        <div class="col-xs-6 col-sm-6 wrapper-right"> 
+         <ul> 
+          <li> <a class="crump-come-back" href="/seminovos/resultado"> <i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar </a> </li> 
+          <li> <a href="/seminovos/resultado"> <i class="fa fa-search" aria-hidden="true"></i> Nova Busca </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+   </div> 
+  </section> 
+  <section id="pageview-product"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="content-central"> 
+      <div class="col-xs-12 col-md-8 product-view"> 
+       <h3>IX35 2.0 MPI 4X2 16V - 2014</h3> 
+       <div class="container-box"> 
+        <div class="img"> 
+         <a class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35" href="//assets.autoforce.com.br/uploads/used_model/profile_image/19659/comprar-ix35-2-0-mpi-4x2-16v-131_db3acdf8a0.jpg"> 
+          <picture alt="IX35 2.0 MPI 4X2 16V"> 
+           <source srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19659/model_main_comprar-ix35-2-0-mpi-4x2-16v-131_db3acdf8a0.jpg" media="(max-width: 970px)"> 
+           <source srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19659/model_middle_comprar-ix35-2-0-mpi-4x2-16v-131_db3acdf8a0.jpg" media="(max-width: 767px)"> 
+           <img srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19659/used_model_comprar-ix35-2-0-mpi-4x2-16v-131_db3acdf8a0.jpg"> 
+          </picture> </a> 
+        </div> 
+       </div> 
+       <div class="product-gallery"> 
+        <div id="owl-gallery-large"> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045122/main_comprar-ix35-2-0-mpi-4x2-16v-131_9e06ec764c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045122/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_9e06ec764c.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045120/main_comprar-ix35-2-0-mpi-4x2-16v-131_b5f715aee2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045120/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b5f715aee2.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045118/main_comprar-ix35-2-0-mpi-4x2-16v-131_e7e04faef3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045118/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_e7e04faef3.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045117/main_comprar-ix35-2-0-mpi-4x2-16v-131_59cfde8f05.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045117/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_59cfde8f05.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038883/main_comprar-ix35-2-0-mpi-4x2-16v-131_c0c72439ee.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038883/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_c0c72439ee.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038879/main_comprar-ix35-2-0-mpi-4x2-16v-131_2a880bb6d6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038879/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_2a880bb6d6.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038876/main_comprar-ix35-2-0-mpi-4x2-16v-131_a1676e9c03.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038876/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a1676e9c03.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038871/main_comprar-ix35-2-0-mpi-4x2-16v-131_3affe18686.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038871/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_3affe18686.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017771/main_comprar-ix35-2-0-mpi-4x2-16v-131_125db6ccfe.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017771/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_125db6ccfe.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017769/main_comprar-ix35-2-0-mpi-4x2-16v-131_4126a960a5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017769/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4126a960a5.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017767/main_comprar-ix35-2-0-mpi-4x2-16v-131_722781bf07.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017767/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_722781bf07.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017765/main_comprar-ix35-2-0-mpi-4x2-16v-131_f415994dd9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017765/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f415994dd9.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994562/main_comprar-ix35-2-0-mpi-4x2-16v-131_870889d02a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994562/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_870889d02a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994561/main_comprar-ix35-2-0-mpi-4x2-16v-131_dcbb5c2ac8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994561/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_dcbb5c2ac8.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994559/main_comprar-ix35-2-0-mpi-4x2-16v-131_accfac3cec.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994559/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_accfac3cec.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994557/main_comprar-ix35-2-0-mpi-4x2-16v-131_a25b9be6e2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994557/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a25b9be6e2.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929353/main_comprar-ix35-2-0-mpi-4x2-16v-131_88f45748c0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929353/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_88f45748c0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929352/main_comprar-ix35-2-0-mpi-4x2-16v-131_7f0c0b56d3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929352/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_7f0c0b56d3.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929350/main_comprar-ix35-2-0-mpi-4x2-16v-131_319ddc0f84.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929350/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_319ddc0f84.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929348/main_comprar-ix35-2-0-mpi-4x2-16v-131_a99561d201.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929348/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a99561d201.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906209/main_comprar-ix35-2-0-mpi-4x2-16v-131_7142d38fd9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906209/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_7142d38fd9.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906208/main_comprar-ix35-2-0-mpi-4x2-16v-131_71b12cea7b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906208/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_71b12cea7b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906206/main_comprar-ix35-2-0-mpi-4x2-16v-131_a2346e9c5a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906206/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a2346e9c5a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906204/main_comprar-ix35-2-0-mpi-4x2-16v-131_4cadda5ca0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906204/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4cadda5ca0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890073/main_comprar-ix35-2-0-mpi-4x2-16v-131_403e950dcf.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890073/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_403e950dcf.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890070/main_comprar-ix35-2-0-mpi-4x2-16v-131_04b78bb956.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890070/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_04b78bb956.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890068/main_comprar-ix35-2-0-mpi-4x2-16v-131_865cbf8967.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890068/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_865cbf8967.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890066/main_comprar-ix35-2-0-mpi-4x2-16v-131_8bdc4e2b61.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890066/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_8bdc4e2b61.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884944/main_comprar-ix35-2-0-mpi-4x2-16v-131_304e3ff84d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884944/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_304e3ff84d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884943/main_comprar-ix35-2-0-mpi-4x2-16v-131_10cf22431c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884943/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_10cf22431c.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884941/main_comprar-ix35-2-0-mpi-4x2-16v-131_277450196c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884941/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_277450196c.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884939/main_comprar-ix35-2-0-mpi-4x2-16v-131_63ae03887b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884939/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_63ae03887b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870246/main_comprar-ix35-2-0-mpi-4x2-16v-131_11cc819b06.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870246/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_11cc819b06.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870245/main_comprar-ix35-2-0-mpi-4x2-16v-131_09ecb518b7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870245/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_09ecb518b7.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870243/main_comprar-ix35-2-0-mpi-4x2-16v-131_fd6634d09f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870243/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_fd6634d09f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870240/main_comprar-ix35-2-0-mpi-4x2-16v-131_f39fbd6a1f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870240/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f39fbd6a1f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864117/main_comprar-ix35-2-0-mpi-4x2-16v-131_b2a40ac25d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864117/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b2a40ac25d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864115/main_comprar-ix35-2-0-mpi-4x2-16v-131_851afa6fae.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864115/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_851afa6fae.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864113/main_comprar-ix35-2-0-mpi-4x2-16v-131_369d3cff03.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864113/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_369d3cff03.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864111/main_comprar-ix35-2-0-mpi-4x2-16v-131_466437f6e0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864111/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_466437f6e0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845439/main_comprar-ix35-2-0-mpi-4x2-16v-131_6f9b260417.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845439/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_6f9b260417.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845438/main_comprar-ix35-2-0-mpi-4x2-16v-131_737e32290b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845438/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_737e32290b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845436/main_comprar-ix35-2-0-mpi-4x2-16v-131_c708ca7569.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845436/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_c708ca7569.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845434/main_comprar-ix35-2-0-mpi-4x2-16v-131_f9c643040d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845434/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f9c643040d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788152/main_comprar-ix35-2-0-mpi-4x2-16v-131_355474ed1a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788152/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_355474ed1a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788151/main_comprar-ix35-2-0-mpi-4x2-16v-131_07741550bb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788151/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_07741550bb.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788149/main_comprar-ix35-2-0-mpi-4x2-16v-131_0c21cc68a9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788149/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_0c21cc68a9.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788147/main_comprar-ix35-2-0-mpi-4x2-16v-131_4e7e183343.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788147/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4e7e183343.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782062/main_comprar-ix35-2-0-mpi-4x2-16v-131_83c3ed954a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782062/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_83c3ed954a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782059/main_comprar-ix35-2-0-mpi-4x2-16v-131_48e3c00393.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782059/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_48e3c00393.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782057/main_comprar-ix35-2-0-mpi-4x2-16v-131_98e52ccb67.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782057/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_98e52ccb67.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782055/main_comprar-ix35-2-0-mpi-4x2-16v-131_98fccb3d8c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782055/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_98fccb3d8c.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765107/main_comprar-ix35-2-0-mpi-4x2-16v-131_2b765b0ca6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765107/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_2b765b0ca6.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765105/main_comprar-ix35-2-0-mpi-4x2-16v-131_f53894542a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765105/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f53894542a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765103/main_comprar-ix35-2-0-mpi-4x2-16v-131_5cb3075e3e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765103/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5cb3075e3e.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765101/main_comprar-ix35-2-0-mpi-4x2-16v-131_d24b00cabe.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765101/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_d24b00cabe.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759975/main_comprar-ix35-2-0-mpi-4x2-16v-131_d235d4b14e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759975/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_d235d4b14e.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759972/main_comprar-ix35-2-0-mpi-4x2-16v-131_b61e5d06e1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759972/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b61e5d06e1.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759970/main_comprar-ix35-2-0-mpi-4x2-16v-131_f8e3dc35a6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759970/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f8e3dc35a6.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759968/main_comprar-ix35-2-0-mpi-4x2-16v-131_d423cd8ad7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759968/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_d423cd8ad7.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735868/main_comprar-ix35-2-0-mpi-4x2-16v-131_70f6ce73f4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735868/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_70f6ce73f4.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735866/main_comprar-ix35-2-0-mpi-4x2-16v-131_80ccbfce5b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735866/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_80ccbfce5b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735864/main_comprar-ix35-2-0-mpi-4x2-16v-131_16c9233e3b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735864/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_16c9233e3b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735862/main_comprar-ix35-2-0-mpi-4x2-16v-131_9b75bd8fa2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735862/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_9b75bd8fa2.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719325/main_comprar-ix35-2-0-mpi-4x2-16v-131_2aba08f793.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719325/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_2aba08f793.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719324/main_comprar-ix35-2-0-mpi-4x2-16v-131_171559bd94.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719324/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_171559bd94.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719322/main_comprar-ix35-2-0-mpi-4x2-16v-131_95ab461e1d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719322/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_95ab461e1d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719320/main_comprar-ix35-2-0-mpi-4x2-16v-131_5ba1ef2110.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719320/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5ba1ef2110.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713070/main_comprar-ix35-2-0-mpi-4x2-16v-131_a8afb46421.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713070/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a8afb46421.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713068/main_comprar-ix35-2-0-mpi-4x2-16v-131_4f4b9e4d86.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713068/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4f4b9e4d86.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713066/main_comprar-ix35-2-0-mpi-4x2-16v-131_79b88648f2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713066/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_79b88648f2.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713064/main_comprar-ix35-2-0-mpi-4x2-16v-131_ac1704437f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713064/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_ac1704437f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687425/main_comprar-ix35-2-0-mpi-4x2-16v-131_3be5ca0afd.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687425/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_3be5ca0afd.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687424/main_comprar-ix35-2-0-mpi-4x2-16v-131_37c3cc1972.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687424/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_37c3cc1972.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687422/main_comprar-ix35-2-0-mpi-4x2-16v-131_c33e38e7fe.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687422/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_c33e38e7fe.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687420/main_comprar-ix35-2-0-mpi-4x2-16v-131_f26e4c426a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687420/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f26e4c426a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643621/main_comprar-ix35-2-0-mpi-4x2-16v-131_0f65219bf3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643621/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_0f65219bf3.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643619/main_comprar-ix35-2-0-mpi-4x2-16v-131_6b7804edd3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643619/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_6b7804edd3.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643618/main_comprar-ix35-2-0-mpi-4x2-16v-131_750b6121a0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643618/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_750b6121a0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643617/main_comprar-ix35-2-0-mpi-4x2-16v-131_42d0e59ef8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643617/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_42d0e59ef8.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642184/main_comprar-ix35-2-0-mpi-4x2-16v-131_c600853117.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642184/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_c600853117.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642183/main_comprar-ix35-2-0-mpi-4x2-16v-131_124769a60d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642183/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_124769a60d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642182/main_comprar-ix35-2-0-mpi-4x2-16v-131_785e014209.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642182/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_785e014209.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642180/main_comprar-ix35-2-0-mpi-4x2-16v-131_5da39bb8ec.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642180/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5da39bb8ec.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620499/main_comprar-ix35-2-0-mpi-4x2-16v-131_5958221183.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620499/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5958221183.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620497/main_comprar-ix35-2-0-mpi-4x2-16v-131_24747fb331.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620497/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_24747fb331.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620495/main_comprar-ix35-2-0-mpi-4x2-16v-131_102c89da33.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620495/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_102c89da33.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620493/main_comprar-ix35-2-0-mpi-4x2-16v-131_07c3e37540.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620493/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_07c3e37540.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617520/main_comprar-ix35-2-0-mpi-4x2-16v-131_5f4e683aba.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617520/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5f4e683aba.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617518/main_comprar-ix35-2-0-mpi-4x2-16v-131_3aeaf49195.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617518/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_3aeaf49195.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617516/main_comprar-ix35-2-0-mpi-4x2-16v-131_9e3aa2e237.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617516/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_9e3aa2e237.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617515/main_comprar-ix35-2-0-mpi-4x2-16v-131_526c6e6e09.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617515/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_526c6e6e09.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592410/main_comprar-ix35-2-0-mpi-4x2-16v-131_1a71c10daf.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592410/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_1a71c10daf.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592409/main_comprar-ix35-2-0-mpi-4x2-16v-131_1c5e081334.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592409/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_1c5e081334.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592407/main_comprar-ix35-2-0-mpi-4x2-16v-131_7dd19f76bc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592407/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_7dd19f76bc.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592406/main_comprar-ix35-2-0-mpi-4x2-16v-131_efd1b3b16a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592406/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_efd1b3b16a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574544/main_comprar-ix35-2-0-mpi-4x2-16v-131_01ca6f9485.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574544/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_01ca6f9485.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574543/main_comprar-ix35-2-0-mpi-4x2-16v-131_ce6b58bc4e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574543/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_ce6b58bc4e.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574542/main_comprar-ix35-2-0-mpi-4x2-16v-131_42f6c16dd5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574542/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_42f6c16dd5.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574540/main_comprar-ix35-2-0-mpi-4x2-16v-131_4d9b3f12a0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574540/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4d9b3f12a0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568494/main_comprar-ix35-2-0-mpi-4x2-16v-131_bfbb64f75a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568494/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_bfbb64f75a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568492/main_comprar-ix35-2-0-mpi-4x2-16v-131_dd42dfd47f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568492/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_dd42dfd47f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568490/main_comprar-ix35-2-0-mpi-4x2-16v-131_18b80ea923.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568490/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_18b80ea923.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568489/main_comprar-ix35-2-0-mpi-4x2-16v-131_cd1d989934.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568489/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_cd1d989934.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549531/main_comprar-ix35-2-0-mpi-4x2-16v-131_34c3dac4a1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549531/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_34c3dac4a1.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549530/main_comprar-ix35-2-0-mpi-4x2-16v-131_ac6ec375f5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549530/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_ac6ec375f5.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549528/main_comprar-ix35-2-0-mpi-4x2-16v-131_6ecf086203.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549528/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_6ecf086203.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549526/main_comprar-ix35-2-0-mpi-4x2-16v-131_9239e3af8e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549526/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_9239e3af8e.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542073/main_comprar-ix35-2-0-mpi-4x2-16v-131_a7c2d2c196.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542073/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a7c2d2c196.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542069/main_comprar-ix35-2-0-mpi-4x2-16v-131_4f67e58c99.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542069/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4f67e58c99.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542067/main_comprar-ix35-2-0-mpi-4x2-16v-131_0b22dd4685.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542067/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_0b22dd4685.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542065/main_comprar-ix35-2-0-mpi-4x2-16v-131_43fcc35b6b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542065/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_43fcc35b6b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524748/main_comprar-ix35-2-0-mpi-4x2-16v-131_09fde4055c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524748/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_09fde4055c.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524746/main_comprar-ix35-2-0-mpi-4x2-16v-131_63e38cd8a8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524746/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_63e38cd8a8.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524744/main_comprar-ix35-2-0-mpi-4x2-16v-131_bf0c940d04.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524744/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_bf0c940d04.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524742/main_comprar-ix35-2-0-mpi-4x2-16v-131_4677d01f3d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524742/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_4677d01f3d.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519739/main_comprar-ix35-2-0-mpi-4x2-16v-131_0c4cb2a73f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519739/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_0c4cb2a73f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519737/main_comprar-ix35-2-0-mpi-4x2-16v-131_d316d4021f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519737/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_d316d4021f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519736/main_comprar-ix35-2-0-mpi-4x2-16v-131_01e8890821.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519736/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_01e8890821.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519735/main_comprar-ix35-2-0-mpi-4x2-16v-131_6c72ded251.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519735/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_6c72ded251.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459139/main_comprar-ix35-2-0-mpi-4x2-16v-131_7b83156aed.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459139/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_7b83156aed.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459138/main_comprar-ix35-2-0-mpi-4x2-16v-131_b945a9018b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459138/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b945a9018b.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459137/main_comprar-ix35-2-0-mpi-4x2-16v-131_31e616af76.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459137/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_31e616af76.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459134/main_comprar-ix35-2-0-mpi-4x2-16v-131_f672fd3ee4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459134/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_f672fd3ee4.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428800/main_comprar-ix35-2-0-mpi-4x2-16v-131_11ce7a8ac0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428800/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_11ce7a8ac0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428799/main_comprar-ix35-2-0-mpi-4x2-16v-131_2d81a59429.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428799/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_2d81a59429.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428798/main_comprar-ix35-2-0-mpi-4x2-16v-131_c5cd9eacfb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428798/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_c5cd9eacfb.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428797/main_comprar-ix35-2-0-mpi-4x2-16v-131_add36154c3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428797/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_add36154c3.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400791/main_comprar-ix35-2-0-mpi-4x2-16v-131_b1cff13da8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400791/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b1cff13da8.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400790/main_comprar-ix35-2-0-mpi-4x2-16v-131_107b487c21.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400790/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_107b487c21.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400789/main_comprar-ix35-2-0-mpi-4x2-16v-131_bca2d38fc0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400789/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_bca2d38fc0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400788/main_comprar-ix35-2-0-mpi-4x2-16v-131_a9e104fdb0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400788/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_a9e104fdb0.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383165/main_comprar-ix35-2-0-mpi-4x2-16v-131_ef6f12d1c5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383165/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_ef6f12d1c5.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383163/main_comprar-ix35-2-0-mpi-4x2-16v-131_b093ca6811.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383163/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b093ca6811.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383161/main_comprar-ix35-2-0-mpi-4x2-16v-131_8a2d6e170a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383161/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_8a2d6e170a.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383159/main_comprar-ix35-2-0-mpi-4x2-16v-131_9e65c41945.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383159/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_9e65c41945.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375211/main_comprar-ix35-2-0-mpi-4x2-16v-131_5049de680f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375211/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_5049de680f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375210/main_comprar-ix35-2-0-mpi-4x2-16v-131_2a5e2dd896.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375210/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_2a5e2dd896.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375209/main_comprar-ix35-2-0-mpi-4x2-16v-131_b25007c335.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375209/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_b25007c335.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375207/main_comprar-ix35-2-0-mpi-4x2-16v-131_73d2444e8f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Hyundai IX35 2013/2014"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375207/thumb_large_comprar-ix35-2-0-mpi-4x2-16v-131_73d2444e8f.jpg" alt="Hyundai IX35 2.0 MPI 4X2 16V"> </a> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="social-sharer"> 
+        <p>Gostou? Então compartilhe.</p> 
+        <div class="sharethis-inline-share-buttons"></div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-md-4 product-box-action"> 
+       <div class="container-box"> 
+        <div class="product-price"> 
+         <h6>por apenas</h6> 
+         <h5><b>R$ 66.980,00</b></h5> 
+        </div> 
+       </div> 
+       <div class="form-module"> 
+        <a href="#form-bait-6" class="btn-toggle active"><i class="entypo-paper-plane" aria-hidden="true"></i> ENVIAR PROPOSTA</a> 
+        <a href="#form-bait-1" class="btn-toggle "><i class="af-calculator" aria-hidden="true"></i> SOLICITAR COTAÇÃO</a> 
+        <div class="col-xs-12"> 
+         <div class="form-toggle active" id="form-bait-6"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> ENVIAR PROPOSTA </h4> 
+            <p>Vamos negociar? Envie já sua proposta e garanta as melhores condições.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="NFOKGAJMVzI/J2+4G+THIYf5JP4aDLGLi5+tJVg3LQO8yyMTc9nWDzt0kUOgflQGt/iOTVQFSCyiDPULSXGs+Q=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-6-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-6-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-6-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label class="form-label js-hide-label" for="modal-test-drive-message">Mensagem</label> 
+               <textarea class="form-control" name="message" id="modal-test-drive-message" placeholder="Mensagem" required aria-required="true"></textarea> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-6" value="true" checked> 
+               <label for="mailing-6">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">ENVIAR PROPOSTA</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="IX35 2.0 MPI 4X2 16V"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="6"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Hyundai"> 
+              <input type="hidden" name="plate" value="PGQ 6104"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> Proposta enviada com sucesso! </h4> 
+            <p>Vamos analisar a sua proposta e entraremos em contato o mais rápido possível para falarmos sobre uma negociação.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="form-toggle " id="form-bait-1"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> SOLICITAR COTAÇÃO </h4> 
+            <p>Cliente online tem condições especiais. Escolha uma parcela que cabe no seu bolso.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="YrA1fglMwqxxXgytXXeaVjN4Lc08fKiRnyYNKPQPbVTqKJx1eNlDkXUN8lbm7QlxA3mHfnJ1UTa2tVUG5Unsrg=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-1-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-1-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-1-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label>Número de parcelas</label> 
+               <div class="input-checkbox-mini check-list"> 
+                <input type="radio" name="months" id="months-12" value="12" checked> 
+                <label for="months-12">12</label> 
+                <input type="radio" name="months" id="months-18" value="18"> 
+                <label for="months-18">18</label> 
+                <input type="radio" name="months" id="months-24" value="24"> 
+                <label for="months-24">24</label> 
+                <input type="radio" name="months" id="months-36" value="36"> 
+                <label for="months-36">36</label> 
+                <input type="radio" name="months" id="months-48" value="48"> 
+                <label for="months-48">48</label> 
+               </div> 
+              </div> 
+              <div class="form-group"> 
+               <label for="bait-input-value">Valor de entrada</label> 
+               <input type="tel" class="form-control input-money" name="input_value" placeholder="R$ 0,00" id="bait-input-value" autocomplete="off" required> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-1" value="true" checked> 
+               <label for="mailing-1">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">SOLICITAR COTAÇÃO</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="IX35 2.0 MPI 4X2 16V"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="1"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Hyundai"> 
+              <input type="hidden" name="plate" value="PGQ 6104"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> Solicitação Realizada com Sucesso! </h4> 
+            <p>Vamos selecionar a melhor cotação para a sua necessidade. Logo mais um de nossos consultores entrará em contato.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="container-box"> 
+        <div class="product-store"> 
+         <h5>Fiat - Imbiribeira - Recife</h5> 
+         <h6>Av. Mal. Mascarenhas de Morais, 2156 - Imbiribeira - Recife-PE</h6> 
+         <a href="tel:081 2121-1100">(81) 2121-1100</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 product-specification"> 
+       <h6>Informações</h6> 
+       <div class="container-box"> 
+        <div class="info-list"> 
+         <ul> 
+          <li>Marca: <b>Hyundai</b></li> 
+          <li>Modelo: <b>IX35</b></li> 
+          <li>Versão: <b>2.0 MPI 4X2 16V</b></li> 
+          <li>Ano: <b>2013/2014</b></li> 
+          <li>Quilometragem: <b>50.359 Km</b></li> 
+          <li>Câmbio: <b>Automático</b></li> 
+          <li>Combustível: <b>Flex</b></li> 
+          <li>Portas: <b>4</b></li> 
+          <li>Cor: <b>Preto</b></li> 
+          <li>Placa: <b>PGQ 6104</b></li> 
+         </ul> 
+        </div> 
+        <div class="tags"> 
+         <ul> 
+          <li>Faróis de milha</li> 
+          <li>Air bag duplo</li> 
+          <li>travas elétricas</li> 
+          <li>Rodas de liga leve</li> 
+          <li>Retrovisores elétricos</li> 
+          <li>freios ABS</li> 
+          <li>Direção Elétrica</li> 
+          <li>Bancos de Couro</li> 
+          <li>ar condicionado</li> 
+         </ul> 
+        </div> 
+        <div class="note"> 
+         <h6><b>Mais sobre o veículo:</b></h6> 
+         <p> PLACA: PGQ-6104 </p> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12"> 
+       <div class="product-rule"> 
+        <p>*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 31/10/2017. Os preços poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="content-other-products"> 
+     <div class="row"> 
+      <div class="col-xs-12 content-other-similar-products"> 
+       <h6>VOCÊ TAMBÉM PODE GOSTAR DESSAS OFERTAS</h6> 
+       <div class="item-list"> 
+        <div class="product-carousel owl-carousel"> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/freemont-2-4-emotion-16v-131"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/19630/model_middle_comprar-freemont-2-4-emotion-16v-131_e022c827fd.jpg" alt="Fiat FREEMONT 2.4 Emotion 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>FREEMONT 2.4 Emotion 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 62.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/freemont-2-4-emotion-16v-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2015/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/21233/model_middle_comprar-renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58_40e8c51bf7.jpg" alt="Jeep RENEGADE 1.8 16V Sport"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Sport</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 63.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2016/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/20975/model_middle_comprar-renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb_7d2ba5cb3f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Longitude</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 72.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2016/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/21750/model_middle_comprar-doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f_fa47ca0df5.jpg" alt="Fiat DOBLÒ 1.8 MPI Adventure 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>DOBLÒ 1.8 MPI Adventure 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 63.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2015/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-longitude-131"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/19269/model_middle_comprar-renegade-1-8-16v-longitude-131_2a509173c8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Longitude</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 72.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-longitude-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/golf-1-4-tsi-highline-16v-131"> <img src="/assets/admin/model_middle_default.jpg" alt="Volkswagen GOLF 1.4 TSI Highline 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>GOLF 1.4 TSI Highline 16V</h3> 
+            <h6>Volkswagen</h6> 
+            <div class="content"> 
+             <h4><b>R$ 65.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/golf-1-4-tsi-highline-16v-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container-fluid"> 
+    <div id="maps"> 
+     <div class="item active "> 
+      <iframe data-map="14" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.967601456451!2d-34.911515!3d-8.103131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb3a32468fba12f7!2sFiat+Italiana!5e0!3m2!1spt-BR!2sbr!4v1460494478309&quot;" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="17" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7896.683618748614!2d-35.976746!3d-8.268736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bdcc65c3dbd%3A0x2b71acdecd45bab3!2sAv.+Agamenon+Magalh%C3%A3es%2C+1395+-+Maur%C3%ADcio+de+Nassau%2C+Caruaru+-+PE%2C+Brasil!5e0!3m2!1spt-BR!2sbr!4v1460994447256" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.6292010891857!2d-34.94817528458443!3d-8.037110582480494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197c1b0fe04f%3A0xc91e16b65efa65a5!2sJeep+-+Fiat+ITALIAN!5e0!3m2!1sen!2sbr!4v1493926934659" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+    </div> 
+    <div id="adresses"> 
+     <div class="row"> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="14" class="active "> <h2>Recife Imbiribeira</h2> <p> Av. Mal. Mascarenhas de Morais, 2156, <br> Imbiribeira – Recife/PE – CEP 51180-001<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="17" class=""> <h2>Caruaru</h2> <p> Av. Agamenon Magalhães, 1395, <br> Maurício de Nassau – Caruaru/PE – CEP 55014-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="16" class=""> <h2>Recife Caxangá</h2> <p> Av. Caxanga, 4617, <br> Caxangá – Recife/PE – CEP 50740-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="footer"> 
+     <div class="row"> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> IMBIRIBEIRA: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 17h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CARUARU: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 13h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CAXANGÁ: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 09h às 14h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/jeepitaliana/" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="https://www.instagram.com/jeepitaliana/" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-recife-imbiribeira"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2121-1100">(81) 2121-1100</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-mauricio-de-nassau"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2103-4000">(81) 2103-4000</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-bairro-caxanga"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 3454-1080">(81) 3454-1080</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container-fluid"> 
+    <div class="copyright-content"> 
+     <h2 class="brand-client"> <a href="/" style="background-image: url(//assets.autoforce.com.br/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png)">Italiana</a> </h2> 
+    </div> 
+    <div id="copyright"> 
+     <div class="row"> 
+      <p class="copyright">© Copyright 2017 - Italiana - Todos os direitos reservados. <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>.</p> 
+      <h2 class="developer-brand"> <a href="http://www.autoforce.com.br" target="_black" style="background-image: url(https://assets.autoforce.com.br/assets/logo_dark.png); background-size: contain;">AutoForce</a> </h2> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <div class="overlay"> 
+   <div class="loader"> 
+    <div class="loading-slide"> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+    </div> 
+   </div> 
+   <div class="dark-side"></div> 
+   <div id="privacy-policy" class="pop-up-info pop-up-big"> 
+    <div class="btn-close">
+     <i class="fa fa-times" aria-hidden="true"></i>
+    </div> 
+    <div class="pop-up-wrapper-content"> 
+     <div class="pop-up-wrapper-item"> 
+      <h4>Política de Privacidade</h4> 
+      <p>Nós estamos comprometidos em resguardar sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site – e respectivos serviços – e de que forma esses dados são manipulados e utilizados.</p> 
+      <p>Alertamos que se você não concorda com o conteúdo desta política, não é recomendável baixar nossos materiais nem utilizar quaisquer de nossos serviços.</p> 
+      <h4>Sobre a coleta de dados</h4> 
+      <p>Em nossos sites, as informações são coletadas das seguintes formas:</p> 
+      <p>Informações fornecidas por você – Coletamos informações de identificação pessoal – como nome, telefone, email, empresa em que trabalha e cargo – via preenchimento dos formulários para download de nossos conteúdos gratuitos. Eventualmente, a solicitação algumas informações podem ser feitas por meio de contato direto da Fiat - Imbiribeira - Recife com os usuários via email ou telefone.</p> 
+      <p>Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas.</p> 
+      <p>Histórico de contato – Aqui na Fiat - Imbiribeira - Recife armazenamos informações a respeito de todos os contatos já realizados com nossos usuários, como conteúdos baixados a partir de nossas páginas e interações via email.</p> 
+      <h4>Sobre o uso de suas Informações Pessoais</h4> 
+      <p>O presente termo permite que a Fiat - Imbiribeira - Recife use suas informações pessoais para diferentes finalidades.</p> 
+      <p>O email é utilizado para a operação de envio do material ou informação por você requisitada no preenchimento do formulário. Também pode ser usado para envio de Newsletters, sempre relacionadas a temas do Direito.</p> 
+      <p>Por fim, o email será utilizado ainda para comunicar o lançamento de novos materiais gratuitos ou de novos serviços da Fiat - Imbiribeira - Recife e parceiros. No entanto, o usuário pode cancelar a assinatura a qualquer momento.</p> 
+      <p>Os dados de download poderão ser divulgados como pesquisas e estatísticas, não sendo reveladas abertamente nenhuma informação pessoal, a menos que autorizada explicitamente.</p> 
+      <p>Funcionários da Fiat - Imbiribeira - Recife poderão eventualmente entrar em contato via email ou telefone para fazer pesquisas ou apresentar produtos e serviços.</p> 
+      <h4>Sobre o acesso às suas informações pessoais</h4> 
+      <p>Poderão ver suas informações pessoais apenas funcionários da Fiat - Imbiribeira - Recife. Eventualmente, caso a inserção de suas informações se dê em ações criadas em parcerias, os parceiros explicitamente identificados também terão acesso à informação. Nenhuma informação pessoal poderá ser divulgada </p> 
+      <p>A Fiat - Imbiribeira - Recife também se compromete a não vender, alugar ou repassar suas informações para terceiros. A única exceção está em casos em que essas informações forem exigidas judicialmente.</p> 
+      <p>Além disso, embora trabalhemos com boas práticas de proteção e segurança, nenhum serviço web possui 100% de garantia contra invasões e não podemos nos responsabilizar caso isso ocorra.</p> 
+      <h4>Sobre o compartilhamento de conteúdo nas redes sociais</h4> 
+      <p>Ao clicar nos botões de compartilhamento de conteúdo nas mídias sociais disponíveis em nossas páginas, o usuário estará publicando o conteúdo por meio de seu perfil na rede selecionada. A Fiat - Imbiribeira - Recife não têm acesso ao login e senha dos usuários nessas redes, nem publicará conteúdo em nome do usuário sem que ele realize esta ação.</p> 
+      <h4>Mudanças na Política de Privacidade</h4> 
+      <p>Essa Política de Privacidade pode passar por atualizações. Desta forma, recomendamos visitar periodicamente esta página para que você tenha conhecimento sobre as modificações.</p> 
+      <p>Antes de usar informações para outros fins que não os definidos nesta Política de Privacidade, solicitaremos sua autorização.</p> 
+      <h4>Contato com a Fiat - Imbiribeira - Recife para esclarecimento de dúvidas</h4> 
+      <p>Qualquer dúvida em relação à nossa política de privacidade pode ser esclarecida entrando em contato conosco através do email: <a href="mailto:contato@italiana.com.br">contato@italiana.com.br</a></p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="https://assets.autoforce.com.br/assets/super_portal-eea3ae4b165aad8371f69fca33ad819d861e09be3b7f0968b1428c478bbb54ef.js"></script> 
+  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=597f8dc55eb3920011c7cde6&amp;product=inline-share-buttons"></script>   
+ </body>
+</html>

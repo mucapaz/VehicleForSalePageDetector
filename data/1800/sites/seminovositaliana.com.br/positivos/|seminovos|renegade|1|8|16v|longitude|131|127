@@ -1,0 +1,1271 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"de6ebc3165","applicationID":"28865107","transactionName":"IFdaTUJaCVpRQRwDQhdXG0xDUAFpWVxXB1sQF0dRX0I=","queueTime":2,"applicationTime":189,"agent":""}</script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIGV1JSDBACXFlUAgAHUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="dns-prefetch" href="//seminovositaliana.com.br"> 
+  <link href="https://assets.autoforce.com.br" rel="preconnect" crossorigin> 
+  <title>Italiana Seminovos</title> 
+  <meta name="charset" content="utf-8"> 
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta property="og:url" content="http://www.seminovositaliana.com.br/seminovos"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="Italiana Seminovos"> 
+  <meta property="og:description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <meta property="og:image" content="//assets.autoforce.com.br/uploads/brand/logo_regular/14/avatar_fiat2.png"> 
+  <meta name="description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <link rel="shortcut icon" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="icon" type="image/png" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="apple-touch-icon" href="//assets.autoforce.com.br/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <meta name="csrf-param" content="authenticity_token"> 
+  <meta name="csrf-token" content="TchUY3AuGJ1lOYiNimyR9ztpCk4ZTyViP/Y+jglkJ8iYVK0kU6SbLL9X/4f3TdIhHC7hIA6xiRjISLASYTQawQ=="> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/super_landing_page/bootstrap.min-3c489ea49217d1731e0dc838b9453f2319c8b620361eccffa17df67f02ca63f5.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/super_landing_page/jquery-ui-a18bc04b3414017881f4e93a40353fff32fec1a923a8f5997d30c625477c74a7.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/auto/5-c8f93e90cee5e2039f36f2870ab061ce7c0ae26b5dc54bd2bd11a9b43790c54b.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.transitions-e2e6aa4b314724d4d8607e81b52f2f0388bab071b20a18d3ae7ae224e701553b.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.carousel-308aae2ad41a61c49a98db81cfe5ceac34512e5665b1cf47eb51bf45807c6f4c.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/owl-carousel/owl.theme-851ed1fc3d3ca0b14ecbfa9c05c5970be2a0727398e68af5c3b295a672bbdc0d.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/jquery.fancybox-1eb9b7426aa8bc0ee1b9abccd685d2e549f892499b073557580b0f65694a19d9.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/helpers/jquery.fancybox-buttons-e99bfc7258a802fbea0d2b07b214af7d769e895f71fe56ac15e40d6ff9e54196.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/fancybox/source/helpers/jquery.fancybox-thumbs-1351abea269ee44a6938c3cc7b40507cc2dee4e82a793f12d06df854245200b4.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/malihu-custom-scrollbar/jquery.mCustomScrollbar-fa9d59de2182b9e695ac0b81b88060a37efea22bc99ce2316b723e22efb1d64d.css"> 
+  <link rel="stylesheet" media="screen" href="https://assets.autoforce.com.br/assets/sumoselect/sumoselect-d3eccad262bfe1d6f72619d06c7e72a2b1464ee03d8c642d8173916c27f58817.css"> 
+  <script src="https://assets.autoforce.com.br/assets/auto/overall/_initializers-a9ca94443d4f94add715a969ca2405c6f80fb8130df47a0cc7b8f5bf2e0689ef.js"></script> 
+  <link rel="shortcut icon" type="image/png" href="http://legado.autoforce.com.br/mods/italiana/img/italiana-favicon.png"> 
+ </head> 
+ <body> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" defer async></script> 
+  <script>
+        function callConversion() {
+        }
+    </script> 
+  <header> 
+   <div id="nav_bar" class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-xs-8 col-sm-3"> 
+      <h2 class="brand-client"> <a style="background-image: url( //assets.autoforce.com.br/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png);" href="/">Italiana</a> </h2> 
+     </div> 
+     <div class="col-xs-4 col-sm-9"> 
+      <div id="phones-main" class="btn-dropdown-list phone-number-list"> 
+       <button type="button" class="btn btn-default menu-accordion-toggle"><span class="fa fa-phone icon"></span></button> 
+       <ul class="accordion"> 
+        <li> <a href="tel: 081 2121-1100"> Recife Imbiribeira <b>(81) 2121-1100</b> </a> </li> 
+        <li> <a href="tel: 081 2103-4000"> Caruaru <b>(81) 2103-4000</b> </a> </li> 
+        <li> <a href="tel: 081 3454-1080"> Recife Caxangá <b>(81) 3454-1080</b> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <section id="showcase"> 
+   <div class="container-fluid"> 
+    <header> 
+     <div class="pageview-products"> 
+      <div class="return-links pageview-crumb"> 
+       <div class="row"> 
+        <div class="col-xs-6 col-sm-6"> 
+         <ul> 
+          <li> <a href="/">Início</a> </li> 
+          <li> <a href="/seminovos">Seminovos</a> </li> 
+          <li> RENEGADE 1.8 16V Longitude </li> 
+         </ul> 
+        </div> 
+        <div class="col-xs-6 col-sm-6 wrapper-right"> 
+         <ul> 
+          <li> <a class="crump-come-back" href="/seminovos/resultado"> <i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar </a> </li> 
+          <li> <a href="/seminovos/resultado"> <i class="fa fa-search" aria-hidden="true"></i> Nova Busca </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+   </div> 
+  </section> 
+  <section id="pageview-product"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="content-central"> 
+      <div class="col-xs-12 col-md-8 product-view"> 
+       <h3>RENEGADE 1.8 16V Longitude - 2016</h3> 
+       <div class="container-box"> 
+        <div class="img"> 
+         <a class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE" href="//assets.autoforce.com.br/uploads/used_model/profile_image/19269/comprar-renegade-1-8-16v-longitude-131_2a509173c8.jpg"> 
+          <picture alt="RENEGADE 1.8 16V Longitude"> 
+           <source srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19269/model_main_comprar-renegade-1-8-16v-longitude-131_2a509173c8.jpg" media="(max-width: 970px)"> 
+           <source srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19269/model_middle_comprar-renegade-1-8-16v-longitude-131_2a509173c8.jpg" media="(max-width: 767px)"> 
+           <img srcset="//assets.autoforce.com.br/uploads/used_model/profile_image/19269/used_model_comprar-renegade-1-8-16v-longitude-131_2a509173c8.jpg"> 
+          </picture> </a> 
+        </div> 
+       </div> 
+       <div class="product-gallery"> 
+        <div id="owl-gallery-large"> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045148/main_comprar-renegade-1-8-16v-longitude-131_fc1a92fd7a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045148/thumb_large_comprar-renegade-1-8-16v-longitude-131_fc1a92fd7a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045146/main_comprar-renegade-1-8-16v-longitude-131_cff6f5388c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045146/thumb_large_comprar-renegade-1-8-16v-longitude-131_cff6f5388c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045144/main_comprar-renegade-1-8-16v-longitude-131_74d3ae0cf8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045144/thumb_large_comprar-renegade-1-8-16v-longitude-131_74d3ae0cf8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3045142/main_comprar-renegade-1-8-16v-longitude-131_c9220ff734.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3045142/thumb_large_comprar-renegade-1-8-16v-longitude-131_c9220ff734.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038940/main_comprar-renegade-1-8-16v-longitude-131_b426f37d6e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038940/thumb_large_comprar-renegade-1-8-16v-longitude-131_b426f37d6e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038937/main_comprar-renegade-1-8-16v-longitude-131_7c94df84e2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038937/thumb_large_comprar-renegade-1-8-16v-longitude-131_7c94df84e2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038934/main_comprar-renegade-1-8-16v-longitude-131_6258d19a68.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038934/thumb_large_comprar-renegade-1-8-16v-longitude-131_6258d19a68.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3038930/main_comprar-renegade-1-8-16v-longitude-131_6ba8cfd274.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3038930/thumb_large_comprar-renegade-1-8-16v-longitude-131_6ba8cfd274.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017794/main_comprar-renegade-1-8-16v-longitude-131_29c2dc8c5f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017794/thumb_large_comprar-renegade-1-8-16v-longitude-131_29c2dc8c5f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017792/main_comprar-renegade-1-8-16v-longitude-131_4f045e586f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017792/thumb_large_comprar-renegade-1-8-16v-longitude-131_4f045e586f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017790/main_comprar-renegade-1-8-16v-longitude-131_4624747d52.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017790/thumb_large_comprar-renegade-1-8-16v-longitude-131_4624747d52.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/3017789/main_comprar-renegade-1-8-16v-longitude-131_6600c7adb5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/3017789/thumb_large_comprar-renegade-1-8-16v-longitude-131_6600c7adb5.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994586/main_comprar-renegade-1-8-16v-longitude-131_7afb31a3d2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994586/thumb_large_comprar-renegade-1-8-16v-longitude-131_7afb31a3d2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994583/main_comprar-renegade-1-8-16v-longitude-131_5867af86c6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994583/thumb_large_comprar-renegade-1-8-16v-longitude-131_5867af86c6.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994581/main_comprar-renegade-1-8-16v-longitude-131_493fc5d764.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994581/thumb_large_comprar-renegade-1-8-16v-longitude-131_493fc5d764.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2994580/main_comprar-renegade-1-8-16v-longitude-131_67a70f018e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2994580/thumb_large_comprar-renegade-1-8-16v-longitude-131_67a70f018e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929377/main_comprar-renegade-1-8-16v-longitude-131_cb3b83c068.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929377/thumb_large_comprar-renegade-1-8-16v-longitude-131_cb3b83c068.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929375/main_comprar-renegade-1-8-16v-longitude-131_f5f6e9f91d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929375/thumb_large_comprar-renegade-1-8-16v-longitude-131_f5f6e9f91d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929373/main_comprar-renegade-1-8-16v-longitude-131_5ef32422bc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929373/thumb_large_comprar-renegade-1-8-16v-longitude-131_5ef32422bc.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2929372/main_comprar-renegade-1-8-16v-longitude-131_819fbcd735.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2929372/thumb_large_comprar-renegade-1-8-16v-longitude-131_819fbcd735.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906233/main_comprar-renegade-1-8-16v-longitude-131_281f65c3ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906233/thumb_large_comprar-renegade-1-8-16v-longitude-131_281f65c3ac.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906232/main_comprar-renegade-1-8-16v-longitude-131_0836b1e29c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906232/thumb_large_comprar-renegade-1-8-16v-longitude-131_0836b1e29c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906231/main_comprar-renegade-1-8-16v-longitude-131_dcab9547e2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906231/thumb_large_comprar-renegade-1-8-16v-longitude-131_dcab9547e2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2906229/main_comprar-renegade-1-8-16v-longitude-131_5dcc640891.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2906229/thumb_large_comprar-renegade-1-8-16v-longitude-131_5dcc640891.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890095/main_comprar-renegade-1-8-16v-longitude-131_ba8275416d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890095/thumb_large_comprar-renegade-1-8-16v-longitude-131_ba8275416d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890093/main_comprar-renegade-1-8-16v-longitude-131_8e63b98393.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890093/thumb_large_comprar-renegade-1-8-16v-longitude-131_8e63b98393.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890092/main_comprar-renegade-1-8-16v-longitude-131_f5142c365f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890092/thumb_large_comprar-renegade-1-8-16v-longitude-131_f5142c365f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2890090/main_comprar-renegade-1-8-16v-longitude-131_9cc4e58d84.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2890090/thumb_large_comprar-renegade-1-8-16v-longitude-131_9cc4e58d84.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884969/main_comprar-renegade-1-8-16v-longitude-131_d02457eb2a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884969/thumb_large_comprar-renegade-1-8-16v-longitude-131_d02457eb2a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884967/main_comprar-renegade-1-8-16v-longitude-131_9b6a0b7cc2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884967/thumb_large_comprar-renegade-1-8-16v-longitude-131_9b6a0b7cc2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884965/main_comprar-renegade-1-8-16v-longitude-131_7a49c60535.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884965/thumb_large_comprar-renegade-1-8-16v-longitude-131_7a49c60535.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2884963/main_comprar-renegade-1-8-16v-longitude-131_7a8b724cd7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2884963/thumb_large_comprar-renegade-1-8-16v-longitude-131_7a8b724cd7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870270/main_comprar-renegade-1-8-16v-longitude-131_ba5ec156eb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870270/thumb_large_comprar-renegade-1-8-16v-longitude-131_ba5ec156eb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870269/main_comprar-renegade-1-8-16v-longitude-131_789e7663a5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870269/thumb_large_comprar-renegade-1-8-16v-longitude-131_789e7663a5.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870268/main_comprar-renegade-1-8-16v-longitude-131_d1c7e3c037.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870268/thumb_large_comprar-renegade-1-8-16v-longitude-131_d1c7e3c037.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2870265/main_comprar-renegade-1-8-16v-longitude-131_04179518b4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2870265/thumb_large_comprar-renegade-1-8-16v-longitude-131_04179518b4.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864141/main_comprar-renegade-1-8-16v-longitude-131_2080958c14.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864141/thumb_large_comprar-renegade-1-8-16v-longitude-131_2080958c14.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864139/main_comprar-renegade-1-8-16v-longitude-131_dfbe6539e2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864139/thumb_large_comprar-renegade-1-8-16v-longitude-131_dfbe6539e2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864137/main_comprar-renegade-1-8-16v-longitude-131_eb74446ea7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864137/thumb_large_comprar-renegade-1-8-16v-longitude-131_eb74446ea7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2864135/main_comprar-renegade-1-8-16v-longitude-131_22fd7afed6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2864135/thumb_large_comprar-renegade-1-8-16v-longitude-131_22fd7afed6.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845464/main_comprar-renegade-1-8-16v-longitude-131_c4d0efd0df.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845464/thumb_large_comprar-renegade-1-8-16v-longitude-131_c4d0efd0df.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845462/main_comprar-renegade-1-8-16v-longitude-131_ec35c05fde.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845462/thumb_large_comprar-renegade-1-8-16v-longitude-131_ec35c05fde.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845461/main_comprar-renegade-1-8-16v-longitude-131_eab86e524d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845461/thumb_large_comprar-renegade-1-8-16v-longitude-131_eab86e524d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2845460/main_comprar-renegade-1-8-16v-longitude-131_0cb9f0b7b8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2845460/thumb_large_comprar-renegade-1-8-16v-longitude-131_0cb9f0b7b8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788168/main_comprar-renegade-1-8-16v-longitude-131_9cc6b4e10e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788168/thumb_large_comprar-renegade-1-8-16v-longitude-131_9cc6b4e10e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788166/main_comprar-renegade-1-8-16v-longitude-131_0cb20b998f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788166/thumb_large_comprar-renegade-1-8-16v-longitude-131_0cb20b998f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788164/main_comprar-renegade-1-8-16v-longitude-131_0f6c3849d3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788164/thumb_large_comprar-renegade-1-8-16v-longitude-131_0f6c3849d3.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2788163/main_comprar-renegade-1-8-16v-longitude-131_b029462f72.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2788163/thumb_large_comprar-renegade-1-8-16v-longitude-131_b029462f72.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782077/main_comprar-renegade-1-8-16v-longitude-131_22436c82f0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782077/thumb_large_comprar-renegade-1-8-16v-longitude-131_22436c82f0.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782075/main_comprar-renegade-1-8-16v-longitude-131_f88bd70df8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782075/thumb_large_comprar-renegade-1-8-16v-longitude-131_f88bd70df8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782074/main_comprar-renegade-1-8-16v-longitude-131_2be246a212.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782074/thumb_large_comprar-renegade-1-8-16v-longitude-131_2be246a212.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2782071/main_comprar-renegade-1-8-16v-longitude-131_5b4dcff781.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2782071/thumb_large_comprar-renegade-1-8-16v-longitude-131_5b4dcff781.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765122/main_comprar-renegade-1-8-16v-longitude-131_9d2b99be7a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765122/thumb_large_comprar-renegade-1-8-16v-longitude-131_9d2b99be7a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765120/main_comprar-renegade-1-8-16v-longitude-131_716034c545.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765120/thumb_large_comprar-renegade-1-8-16v-longitude-131_716034c545.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765118/main_comprar-renegade-1-8-16v-longitude-131_de34c912ea.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765118/thumb_large_comprar-renegade-1-8-16v-longitude-131_de34c912ea.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2765116/main_comprar-renegade-1-8-16v-longitude-131_dc2310ce63.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2765116/thumb_large_comprar-renegade-1-8-16v-longitude-131_dc2310ce63.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759990/main_comprar-renegade-1-8-16v-longitude-131_4841fadda4.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759990/thumb_large_comprar-renegade-1-8-16v-longitude-131_4841fadda4.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759988/main_comprar-renegade-1-8-16v-longitude-131_363e9049a0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759988/thumb_large_comprar-renegade-1-8-16v-longitude-131_363e9049a0.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759986/main_comprar-renegade-1-8-16v-longitude-131_6be4d9a080.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759986/thumb_large_comprar-renegade-1-8-16v-longitude-131_6be4d9a080.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2759984/main_comprar-renegade-1-8-16v-longitude-131_815c8ed96c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2759984/thumb_large_comprar-renegade-1-8-16v-longitude-131_815c8ed96c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735885/main_comprar-renegade-1-8-16v-longitude-131_9c00f6fdb3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735885/thumb_large_comprar-renegade-1-8-16v-longitude-131_9c00f6fdb3.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735883/main_comprar-renegade-1-8-16v-longitude-131_a4d0ae99c2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735883/thumb_large_comprar-renegade-1-8-16v-longitude-131_a4d0ae99c2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735881/main_comprar-renegade-1-8-16v-longitude-131_b5edb6777c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735881/thumb_large_comprar-renegade-1-8-16v-longitude-131_b5edb6777c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2735879/main_comprar-renegade-1-8-16v-longitude-131_55c245f08a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2735879/thumb_large_comprar-renegade-1-8-16v-longitude-131_55c245f08a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719341/main_comprar-renegade-1-8-16v-longitude-131_42cebced5c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719341/thumb_large_comprar-renegade-1-8-16v-longitude-131_42cebced5c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719340/main_comprar-renegade-1-8-16v-longitude-131_fcf5646d27.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719340/thumb_large_comprar-renegade-1-8-16v-longitude-131_fcf5646d27.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719338/main_comprar-renegade-1-8-16v-longitude-131_14761f6566.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719338/thumb_large_comprar-renegade-1-8-16v-longitude-131_14761f6566.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2719335/main_comprar-renegade-1-8-16v-longitude-131_d2beba7b84.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2719335/thumb_large_comprar-renegade-1-8-16v-longitude-131_d2beba7b84.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713087/main_comprar-renegade-1-8-16v-longitude-131_03160492b9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713087/thumb_large_comprar-renegade-1-8-16v-longitude-131_03160492b9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713084/main_comprar-renegade-1-8-16v-longitude-131_233213e884.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713084/thumb_large_comprar-renegade-1-8-16v-longitude-131_233213e884.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713082/main_comprar-renegade-1-8-16v-longitude-131_dd3a175581.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713082/thumb_large_comprar-renegade-1-8-16v-longitude-131_dd3a175581.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2713080/main_comprar-renegade-1-8-16v-longitude-131_28f3a4e1eb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2713080/thumb_large_comprar-renegade-1-8-16v-longitude-131_28f3a4e1eb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687442/main_comprar-renegade-1-8-16v-longitude-131_d8ba656a1c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687442/thumb_large_comprar-renegade-1-8-16v-longitude-131_d8ba656a1c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687440/main_comprar-renegade-1-8-16v-longitude-131_d29421d3f7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687440/thumb_large_comprar-renegade-1-8-16v-longitude-131_d29421d3f7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687439/main_comprar-renegade-1-8-16v-longitude-131_67d6fd8813.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687439/thumb_large_comprar-renegade-1-8-16v-longitude-131_67d6fd8813.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2687437/main_comprar-renegade-1-8-16v-longitude-131_01eacddf9b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2687437/thumb_large_comprar-renegade-1-8-16v-longitude-131_01eacddf9b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643637/main_comprar-renegade-1-8-16v-longitude-131_94a05464d5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643637/thumb_large_comprar-renegade-1-8-16v-longitude-131_94a05464d5.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643635/main_comprar-renegade-1-8-16v-longitude-131_1129ba9fbb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643635/thumb_large_comprar-renegade-1-8-16v-longitude-131_1129ba9fbb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643634/main_comprar-renegade-1-8-16v-longitude-131_c2caa18eed.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643634/thumb_large_comprar-renegade-1-8-16v-longitude-131_c2caa18eed.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2643633/main_comprar-renegade-1-8-16v-longitude-131_6f61cd832c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2643633/thumb_large_comprar-renegade-1-8-16v-longitude-131_6f61cd832c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642208/main_comprar-renegade-1-8-16v-longitude-131_dac04d8533.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642208/thumb_large_comprar-renegade-1-8-16v-longitude-131_dac04d8533.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642207/main_comprar-renegade-1-8-16v-longitude-131_5835615f55.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642207/thumb_large_comprar-renegade-1-8-16v-longitude-131_5835615f55.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642205/main_comprar-renegade-1-8-16v-longitude-131_1c9e09301c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642205/thumb_large_comprar-renegade-1-8-16v-longitude-131_1c9e09301c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2642203/main_comprar-renegade-1-8-16v-longitude-131_cc29ce6090.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2642203/thumb_large_comprar-renegade-1-8-16v-longitude-131_cc29ce6090.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620522/main_comprar-renegade-1-8-16v-longitude-131_f7b17e499e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620522/thumb_large_comprar-renegade-1-8-16v-longitude-131_f7b17e499e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620521/main_comprar-renegade-1-8-16v-longitude-131_6a0ada0cc3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620521/thumb_large_comprar-renegade-1-8-16v-longitude-131_6a0ada0cc3.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620519/main_comprar-renegade-1-8-16v-longitude-131_fb8d5c859c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620519/thumb_large_comprar-renegade-1-8-16v-longitude-131_fb8d5c859c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2620517/main_comprar-renegade-1-8-16v-longitude-131_696409b7e6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2620517/thumb_large_comprar-renegade-1-8-16v-longitude-131_696409b7e6.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617542/main_comprar-renegade-1-8-16v-longitude-131_4924c91dcc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617542/thumb_large_comprar-renegade-1-8-16v-longitude-131_4924c91dcc.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617541/main_comprar-renegade-1-8-16v-longitude-131_5d0c11893b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617541/thumb_large_comprar-renegade-1-8-16v-longitude-131_5d0c11893b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617540/main_comprar-renegade-1-8-16v-longitude-131_0c25998034.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617540/thumb_large_comprar-renegade-1-8-16v-longitude-131_0c25998034.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2617539/main_comprar-renegade-1-8-16v-longitude-131_830f021dc5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2617539/thumb_large_comprar-renegade-1-8-16v-longitude-131_830f021dc5.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592434/main_comprar-renegade-1-8-16v-longitude-131_4e27299301.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592434/thumb_large_comprar-renegade-1-8-16v-longitude-131_4e27299301.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592433/main_comprar-renegade-1-8-16v-longitude-131_32e4777c72.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592433/thumb_large_comprar-renegade-1-8-16v-longitude-131_32e4777c72.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592432/main_comprar-renegade-1-8-16v-longitude-131_07acc10857.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592432/thumb_large_comprar-renegade-1-8-16v-longitude-131_07acc10857.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2592431/main_comprar-renegade-1-8-16v-longitude-131_51980c69d2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2592431/thumb_large_comprar-renegade-1-8-16v-longitude-131_51980c69d2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574568/main_comprar-renegade-1-8-16v-longitude-131_6a1d3a90a1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574568/thumb_large_comprar-renegade-1-8-16v-longitude-131_6a1d3a90a1.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574567/main_comprar-renegade-1-8-16v-longitude-131_c61c4922dd.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574567/thumb_large_comprar-renegade-1-8-16v-longitude-131_c61c4922dd.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574565/main_comprar-renegade-1-8-16v-longitude-131_4da267232f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574565/thumb_large_comprar-renegade-1-8-16v-longitude-131_4da267232f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2574563/main_comprar-renegade-1-8-16v-longitude-131_62c1e279ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2574563/thumb_large_comprar-renegade-1-8-16v-longitude-131_62c1e279ac.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568519/main_comprar-renegade-1-8-16v-longitude-131_8253c3442d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568519/thumb_large_comprar-renegade-1-8-16v-longitude-131_8253c3442d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568517/main_comprar-renegade-1-8-16v-longitude-131_50ef32c9fe.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568517/thumb_large_comprar-renegade-1-8-16v-longitude-131_50ef32c9fe.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568515/main_comprar-renegade-1-8-16v-longitude-131_56149cae45.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568515/thumb_large_comprar-renegade-1-8-16v-longitude-131_56149cae45.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2568513/main_comprar-renegade-1-8-16v-longitude-131_ebebced6a1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2568513/thumb_large_comprar-renegade-1-8-16v-longitude-131_ebebced6a1.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549555/main_comprar-renegade-1-8-16v-longitude-131_9b0f36380c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549555/thumb_large_comprar-renegade-1-8-16v-longitude-131_9b0f36380c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549553/main_comprar-renegade-1-8-16v-longitude-131_e1b938b043.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549553/thumb_large_comprar-renegade-1-8-16v-longitude-131_e1b938b043.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549551/main_comprar-renegade-1-8-16v-longitude-131_c297971a61.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549551/thumb_large_comprar-renegade-1-8-16v-longitude-131_c297971a61.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2549549/main_comprar-renegade-1-8-16v-longitude-131_ffad42b62d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2549549/thumb_large_comprar-renegade-1-8-16v-longitude-131_ffad42b62d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542114/main_comprar-renegade-1-8-16v-longitude-131_db93be9b84.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542114/thumb_large_comprar-renegade-1-8-16v-longitude-131_db93be9b84.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542112/main_comprar-renegade-1-8-16v-longitude-131_55d56645df.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542112/thumb_large_comprar-renegade-1-8-16v-longitude-131_55d56645df.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542110/main_comprar-renegade-1-8-16v-longitude-131_fd1fbc935e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542110/thumb_large_comprar-renegade-1-8-16v-longitude-131_fd1fbc935e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2542108/main_comprar-renegade-1-8-16v-longitude-131_2512223adb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2542108/thumb_large_comprar-renegade-1-8-16v-longitude-131_2512223adb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524772/main_comprar-renegade-1-8-16v-longitude-131_7885b328ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524772/thumb_large_comprar-renegade-1-8-16v-longitude-131_7885b328ac.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524770/main_comprar-renegade-1-8-16v-longitude-131_d404751d3d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524770/thumb_large_comprar-renegade-1-8-16v-longitude-131_d404751d3d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524768/main_comprar-renegade-1-8-16v-longitude-131_f7878a3930.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524768/thumb_large_comprar-renegade-1-8-16v-longitude-131_f7878a3930.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2524766/main_comprar-renegade-1-8-16v-longitude-131_e5da2c1316.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2524766/thumb_large_comprar-renegade-1-8-16v-longitude-131_e5da2c1316.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519757/main_comprar-renegade-1-8-16v-longitude-131_e2e070af59.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519757/thumb_large_comprar-renegade-1-8-16v-longitude-131_e2e070af59.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519755/main_comprar-renegade-1-8-16v-longitude-131_e7d287e84b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519755/thumb_large_comprar-renegade-1-8-16v-longitude-131_e7d287e84b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519753/main_comprar-renegade-1-8-16v-longitude-131_6947d86489.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519753/thumb_large_comprar-renegade-1-8-16v-longitude-131_6947d86489.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2519751/main_comprar-renegade-1-8-16v-longitude-131_2b35624336.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2519751/thumb_large_comprar-renegade-1-8-16v-longitude-131_2b35624336.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459155/main_comprar-renegade-1-8-16v-longitude-131_e179281bf6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459155/thumb_large_comprar-renegade-1-8-16v-longitude-131_e179281bf6.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459154/main_comprar-renegade-1-8-16v-longitude-131_95150bb39e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459154/thumb_large_comprar-renegade-1-8-16v-longitude-131_95150bb39e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459152/main_comprar-renegade-1-8-16v-longitude-131_b101cdd30a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459152/thumb_large_comprar-renegade-1-8-16v-longitude-131_b101cdd30a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2459150/main_comprar-renegade-1-8-16v-longitude-131_2b2a389e60.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2459150/thumb_large_comprar-renegade-1-8-16v-longitude-131_2b2a389e60.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428808/main_comprar-renegade-1-8-16v-longitude-131_5d527268ff.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428808/thumb_large_comprar-renegade-1-8-16v-longitude-131_5d527268ff.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428807/main_comprar-renegade-1-8-16v-longitude-131_910fbc56fd.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428807/thumb_large_comprar-renegade-1-8-16v-longitude-131_910fbc56fd.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428806/main_comprar-renegade-1-8-16v-longitude-131_2869675e63.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428806/thumb_large_comprar-renegade-1-8-16v-longitude-131_2869675e63.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2428805/main_comprar-renegade-1-8-16v-longitude-131_bc6ceeb8e8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2428805/thumb_large_comprar-renegade-1-8-16v-longitude-131_bc6ceeb8e8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400799/main_comprar-renegade-1-8-16v-longitude-131_a49554ea00.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400799/thumb_large_comprar-renegade-1-8-16v-longitude-131_a49554ea00.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400798/main_comprar-renegade-1-8-16v-longitude-131_13f62fce92.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400798/thumb_large_comprar-renegade-1-8-16v-longitude-131_13f62fce92.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400797/main_comprar-renegade-1-8-16v-longitude-131_8c2074e7a8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400797/thumb_large_comprar-renegade-1-8-16v-longitude-131_8c2074e7a8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2400796/main_comprar-renegade-1-8-16v-longitude-131_fb84f577d7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2400796/thumb_large_comprar-renegade-1-8-16v-longitude-131_fb84f577d7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383181/main_comprar-renegade-1-8-16v-longitude-131_d5e3bdd236.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383181/thumb_large_comprar-renegade-1-8-16v-longitude-131_d5e3bdd236.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383179/main_comprar-renegade-1-8-16v-longitude-131_891502d5c7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383179/thumb_large_comprar-renegade-1-8-16v-longitude-131_891502d5c7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383178/main_comprar-renegade-1-8-16v-longitude-131_f2e4b11484.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383178/thumb_large_comprar-renegade-1-8-16v-longitude-131_f2e4b11484.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2383176/main_comprar-renegade-1-8-16v-longitude-131_89db51ea10.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2383176/thumb_large_comprar-renegade-1-8-16v-longitude-131_89db51ea10.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375228/main_comprar-renegade-1-8-16v-longitude-131_7ce97d9789.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375228/thumb_large_comprar-renegade-1-8-16v-longitude-131_7ce97d9789.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375226/main_comprar-renegade-1-8-16v-longitude-131_15827434a1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375226/thumb_large_comprar-renegade-1-8-16v-longitude-131_15827434a1.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375225/main_comprar-renegade-1-8-16v-longitude-131_06fd3c4271.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375225/thumb_large_comprar-renegade-1-8-16v-longitude-131_06fd3c4271.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2375223/main_comprar-renegade-1-8-16v-longitude-131_3ceb95f00c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2375223/thumb_large_comprar-renegade-1-8-16v-longitude-131_3ceb95f00c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2352158/main_comprar-renegade-1-8-16v-longitude-131_762987fbf5.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2352158/thumb_large_comprar-renegade-1-8-16v-longitude-131_762987fbf5.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2352156/main_comprar-renegade-1-8-16v-longitude-131_28e4f23982.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2352156/thumb_large_comprar-renegade-1-8-16v-longitude-131_28e4f23982.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2352154/main_comprar-renegade-1-8-16v-longitude-131_32d77bc96d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2352154/thumb_large_comprar-renegade-1-8-16v-longitude-131_32d77bc96d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2352153/main_comprar-renegade-1-8-16v-longitude-131_ab548b3c14.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2352153/thumb_large_comprar-renegade-1-8-16v-longitude-131_ab548b3c14.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2292752/main_comprar-renegade-1-8-16v-longitude-131_69ee402faa.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2292752/thumb_large_comprar-renegade-1-8-16v-longitude-131_69ee402faa.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2292750/main_comprar-renegade-1-8-16v-longitude-131_901dcc1f8b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2292750/thumb_large_comprar-renegade-1-8-16v-longitude-131_901dcc1f8b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2292749/main_comprar-renegade-1-8-16v-longitude-131_1740348a1d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2292749/thumb_large_comprar-renegade-1-8-16v-longitude-131_1740348a1d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2292748/main_comprar-renegade-1-8-16v-longitude-131_ae21fde173.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2292748/thumb_large_comprar-renegade-1-8-16v-longitude-131_ae21fde173.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2253298/main_comprar-renegade-1-8-16v-longitude-131_317f624819.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2253298/thumb_large_comprar-renegade-1-8-16v-longitude-131_317f624819.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2253296/main_comprar-renegade-1-8-16v-longitude-131_2735ec25fa.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2253296/thumb_large_comprar-renegade-1-8-16v-longitude-131_2735ec25fa.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2253294/main_comprar-renegade-1-8-16v-longitude-131_e23973d148.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2253294/thumb_large_comprar-renegade-1-8-16v-longitude-131_e23973d148.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2253292/main_comprar-renegade-1-8-16v-longitude-131_1966c1cba9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2253292/thumb_large_comprar-renegade-1-8-16v-longitude-131_1966c1cba9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2246027/main_comprar-renegade-1-8-16v-longitude-131_3c07edc72f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2246027/thumb_large_comprar-renegade-1-8-16v-longitude-131_3c07edc72f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2246026/main_comprar-renegade-1-8-16v-longitude-131_56fb6bb2f9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2246026/thumb_large_comprar-renegade-1-8-16v-longitude-131_56fb6bb2f9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2246024/main_comprar-renegade-1-8-16v-longitude-131_2572bc98f1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2246024/thumb_large_comprar-renegade-1-8-16v-longitude-131_2572bc98f1.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2246022/main_comprar-renegade-1-8-16v-longitude-131_f18ab22c58.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2246022/thumb_large_comprar-renegade-1-8-16v-longitude-131_f18ab22c58.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2218053/main_comprar-renegade-1-8-16v-longitude-131_933e519edc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2218053/thumb_large_comprar-renegade-1-8-16v-longitude-131_933e519edc.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2218051/main_comprar-renegade-1-8-16v-longitude-131_40cd2f8809.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2218051/thumb_large_comprar-renegade-1-8-16v-longitude-131_40cd2f8809.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2218049/main_comprar-renegade-1-8-16v-longitude-131_dd1e80aeb3.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2218049/thumb_large_comprar-renegade-1-8-16v-longitude-131_dd1e80aeb3.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2218047/main_comprar-renegade-1-8-16v-longitude-131_4ab7aaaebf.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2218047/thumb_large_comprar-renegade-1-8-16v-longitude-131_4ab7aaaebf.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2197688/main_comprar-renegade-1-8-16v-longitude-131_8e728ad32d.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2197688/thumb_large_comprar-renegade-1-8-16v-longitude-131_8e728ad32d.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2197686/main_comprar-renegade-1-8-16v-longitude-131_ef5483e1d9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2197686/thumb_large_comprar-renegade-1-8-16v-longitude-131_ef5483e1d9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2197682/main_comprar-renegade-1-8-16v-longitude-131_43dcc66ace.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2197682/thumb_large_comprar-renegade-1-8-16v-longitude-131_43dcc66ace.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2197681/main_comprar-renegade-1-8-16v-longitude-131_98c59ba5ea.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2197681/thumb_large_comprar-renegade-1-8-16v-longitude-131_98c59ba5ea.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2187886/main_comprar-renegade-1-8-16v-longitude-131_885c28d07e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2187886/thumb_large_comprar-renegade-1-8-16v-longitude-131_885c28d07e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2187885/main_comprar-renegade-1-8-16v-longitude-131_46f5c0fb8b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2187885/thumb_large_comprar-renegade-1-8-16v-longitude-131_46f5c0fb8b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2187884/main_comprar-renegade-1-8-16v-longitude-131_f2bc273eca.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2187884/thumb_large_comprar-renegade-1-8-16v-longitude-131_f2bc273eca.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2187883/main_comprar-renegade-1-8-16v-longitude-131_a22a957edb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2187883/thumb_large_comprar-renegade-1-8-16v-longitude-131_a22a957edb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2101007/main_comprar-renegade-1-8-16v-longitude-131_e5457a29f2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2101007/thumb_large_comprar-renegade-1-8-16v-longitude-131_e5457a29f2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2101004/main_comprar-renegade-1-8-16v-longitude-131_26b03279ba.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2101004/thumb_large_comprar-renegade-1-8-16v-longitude-131_26b03279ba.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2101003/main_comprar-renegade-1-8-16v-longitude-131_807f49b35f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2101003/thumb_large_comprar-renegade-1-8-16v-longitude-131_807f49b35f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2101000/main_comprar-renegade-1-8-16v-longitude-131_d439eadb43.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2101000/thumb_large_comprar-renegade-1-8-16v-longitude-131_d439eadb43.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2073925/main_comprar-renegade-1-8-16v-longitude-131_f7b303f0d7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2073925/thumb_large_comprar-renegade-1-8-16v-longitude-131_f7b303f0d7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2073923/main_comprar-renegade-1-8-16v-longitude-131_e0a62dd2c2.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2073923/thumb_large_comprar-renegade-1-8-16v-longitude-131_e0a62dd2c2.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2073921/main_comprar-renegade-1-8-16v-longitude-131_adbea5df01.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2073921/thumb_large_comprar-renegade-1-8-16v-longitude-131_adbea5df01.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2073920/main_comprar-renegade-1-8-16v-longitude-131_26f597a06e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2073920/thumb_large_comprar-renegade-1-8-16v-longitude-131_26f597a06e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2070591/main_comprar-renegade-1-8-16v-longitude-131_ab28f6d4ae.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2070591/thumb_large_comprar-renegade-1-8-16v-longitude-131_ab28f6d4ae.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2070589/main_comprar-renegade-1-8-16v-longitude-131_f507d96d85.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2070589/thumb_large_comprar-renegade-1-8-16v-longitude-131_f507d96d85.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2070587/main_comprar-renegade-1-8-16v-longitude-131_4878bc4b89.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2070587/thumb_large_comprar-renegade-1-8-16v-longitude-131_4878bc4b89.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2070585/main_comprar-renegade-1-8-16v-longitude-131_4d85669cfd.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2070585/thumb_large_comprar-renegade-1-8-16v-longitude-131_4d85669cfd.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2050561/main_comprar-renegade-1-8-16v-longitude-131_92e62206d6.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2050561/thumb_large_comprar-renegade-1-8-16v-longitude-131_92e62206d6.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2050559/main_comprar-renegade-1-8-16v-longitude-131_3a932e197f.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2050559/thumb_large_comprar-renegade-1-8-16v-longitude-131_3a932e197f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2050558/main_comprar-renegade-1-8-16v-longitude-131_e10ac3b0d0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2050558/thumb_large_comprar-renegade-1-8-16v-longitude-131_e10ac3b0d0.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2050556/main_comprar-renegade-1-8-16v-longitude-131_2938741601.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2050556/thumb_large_comprar-renegade-1-8-16v-longitude-131_2938741601.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2039524/main_comprar-renegade-1-8-16v-longitude-131_8850a61dc9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2039524/thumb_large_comprar-renegade-1-8-16v-longitude-131_8850a61dc9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2039523/main_comprar-renegade-1-8-16v-longitude-131_c217f20230.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2039523/thumb_large_comprar-renegade-1-8-16v-longitude-131_c217f20230.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2039521/main_comprar-renegade-1-8-16v-longitude-131_17e88f9f78.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2039521/thumb_large_comprar-renegade-1-8-16v-longitude-131_17e88f9f78.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2039520/main_comprar-renegade-1-8-16v-longitude-131_2eb0e290f9.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2039520/thumb_large_comprar-renegade-1-8-16v-longitude-131_2eb0e290f9.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2014903/main_comprar-renegade-1-8-16v-longitude-131_6abd96517b.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2014903/thumb_large_comprar-renegade-1-8-16v-longitude-131_6abd96517b.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2014902/main_comprar-renegade-1-8-16v-longitude-131_6caaae7a23.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2014902/thumb_large_comprar-renegade-1-8-16v-longitude-131_6caaae7a23.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2014900/main_comprar-renegade-1-8-16v-longitude-131_e6f4614fe1.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2014900/thumb_large_comprar-renegade-1-8-16v-longitude-131_e6f4614fe1.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2014898/main_comprar-renegade-1-8-16v-longitude-131_013daaeeba.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2014898/thumb_large_comprar-renegade-1-8-16v-longitude-131_013daaeeba.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2008357/main_comprar-renegade-1-8-16v-longitude-131_5d253d5676.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2008357/thumb_large_comprar-renegade-1-8-16v-longitude-131_5d253d5676.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2008354/main_comprar-renegade-1-8-16v-longitude-131_421a601a64.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2008354/thumb_large_comprar-renegade-1-8-16v-longitude-131_421a601a64.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2008352/main_comprar-renegade-1-8-16v-longitude-131_520e5a356e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2008352/thumb_large_comprar-renegade-1-8-16v-longitude-131_520e5a356e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/2008351/main_comprar-renegade-1-8-16v-longitude-131_38fc364fc8.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/2008351/thumb_large_comprar-renegade-1-8-16v-longitude-131_38fc364fc8.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1985607/main_comprar-renegade-1-8-16v-longitude-131_62f2552a19.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1985607/thumb_large_comprar-renegade-1-8-16v-longitude-131_62f2552a19.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1985606/main_comprar-renegade-1-8-16v-longitude-131_8158de4629.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1985606/thumb_large_comprar-renegade-1-8-16v-longitude-131_8158de4629.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1985604/main_comprar-renegade-1-8-16v-longitude-131_5feeba2ccb.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1985604/thumb_large_comprar-renegade-1-8-16v-longitude-131_5feeba2ccb.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1985603/main_comprar-renegade-1-8-16v-longitude-131_7d46d8bbd0.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1985603/thumb_large_comprar-renegade-1-8-16v-longitude-131_7d46d8bbd0.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1979115/main_comprar-renegade-1-8-16v-longitude-131_fadb70816c.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1979115/thumb_large_comprar-renegade-1-8-16v-longitude-131_fadb70816c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1979113/main_comprar-renegade-1-8-16v-longitude-131_7e7e0376ac.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1979113/thumb_large_comprar-renegade-1-8-16v-longitude-131_7e7e0376ac.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1979111/main_comprar-renegade-1-8-16v-longitude-131_b7b0f68695.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1979111/thumb_large_comprar-renegade-1-8-16v-longitude-131_b7b0f68695.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1979109/main_comprar-renegade-1-8-16v-longitude-131_d3a9b361fc.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1979109/thumb_large_comprar-renegade-1-8-16v-longitude-131_d3a9b361fc.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1921927/main_comprar-renegade-1-8-16v-longitude-131_ccf97935e7.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1921927/thumb_large_comprar-renegade-1-8-16v-longitude-131_ccf97935e7.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1921925/main_comprar-renegade-1-8-16v-longitude-131_68e531530e.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1921925/thumb_large_comprar-renegade-1-8-16v-longitude-131_68e531530e.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1921923/main_comprar-renegade-1-8-16v-longitude-131_be763728ef.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1921923/thumb_large_comprar-renegade-1-8-16v-longitude-131_be763728ef.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+         <div class="item"> 
+          <a href="//assets.autoforce.com.br/uploads/picture/image/1921921/main_comprar-renegade-1-8-16v-longitude-131_59a47c390a.jpg" class="gallery-thumb" rel="gallery-thumb" title="Jeep RENEGADE 2015/2016"> <img src="//assets.autoforce.com.br/uploads/picture/image/1921921/thumb_large_comprar-renegade-1-8-16v-longitude-131_59a47c390a.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="social-sharer"> 
+        <p>Gostou? Então compartilhe.</p> 
+        <div class="sharethis-inline-share-buttons"></div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-md-4 product-box-action"> 
+       <div class="container-box"> 
+        <div class="product-price"> 
+         <h6>por apenas</h6> 
+         <h5><b>R$ 72.980,00</b></h5> 
+        </div> 
+       </div> 
+       <div class="form-module"> 
+        <a href="#form-bait-6" class="btn-toggle active"><i class="entypo-paper-plane" aria-hidden="true"></i> ENVIAR PROPOSTA</a> 
+        <a href="#form-bait-1" class="btn-toggle "><i class="af-calculator" aria-hidden="true"></i> SOLICITAR COTAÇÃO</a> 
+        <div class="col-xs-12"> 
+         <div class="form-toggle active" id="form-bait-6"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> ENVIAR PROPOSTA </h4> 
+            <p>Vamos negociar? Envie já sua proposta e garanta as melhores condições.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="6hhblPkD22Z/H0ViZ5/9+NjzUGCniuwyWkF46TquEDw/hKLT2olY16VxMmgavr4u/7S7DrB0QEit//Z1Uv4tNQ=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-6-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-6-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-6-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label class="form-label js-hide-label" for="modal-test-drive-message">Mensagem</label> 
+               <textarea class="form-control" name="message" id="modal-test-drive-message" placeholder="Mensagem" required aria-required="true"></textarea> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-6" value="true" checked> 
+               <label for="mailing-6">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">ENVIAR PROPOSTA</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="RENEGADE 1.8 16V Longitude"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="6"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Jeep"> 
+              <input type="hidden" name="plate" value="PDX 0569"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> Proposta enviada com sucesso! </h4> 
+            <p>Vamos analisar a sua proposta e entraremos em contato o mais rápido possível para falarmos sobre uma negociação.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="form-toggle " id="form-bait-1"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> SOLICITAR COTAÇÃO </h4> 
+            <p>Cliente online tem condições especiais. Escolha uma parcela que cabe no seu bolso.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="cMZkxIcBB02dAlJtRDJ3o3lqlKbRy7lTObPiF4gneB+lWp2DpIuE/EdsJWc5EzR1Xi1/yMY1FSnODWyL4HdFFg=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-1-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-1-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-1-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label>Número de parcelas</label> 
+               <div class="input-checkbox-mini check-list"> 
+                <input type="radio" name="months" id="months-12" value="12" checked> 
+                <label for="months-12">12</label> 
+                <input type="radio" name="months" id="months-18" value="18"> 
+                <label for="months-18">18</label> 
+                <input type="radio" name="months" id="months-24" value="24"> 
+                <label for="months-24">24</label> 
+                <input type="radio" name="months" id="months-36" value="36"> 
+                <label for="months-36">36</label> 
+                <input type="radio" name="months" id="months-48" value="48"> 
+                <label for="months-48">48</label> 
+               </div> 
+              </div> 
+              <div class="form-group"> 
+               <label for="bait-input-value">Valor de entrada</label> 
+               <input type="tel" class="form-control input-money" name="input_value" placeholder="R$ 0,00" id="bait-input-value" autocomplete="off" required> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-1" value="true" checked> 
+               <label for="mailing-1">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">SOLICITAR COTAÇÃO</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="RENEGADE 1.8 16V Longitude"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="1"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Jeep"> 
+              <input type="hidden" name="plate" value="PDX 0569"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> Solicitação Realizada com Sucesso! </h4> 
+            <p>Vamos selecionar a melhor cotação para a sua necessidade. Logo mais um de nossos consultores entrará em contato.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="container-box"> 
+        <div class="product-store"> 
+         <h5>Fiat - Imbiribeira - Recife</h5> 
+         <h6>Av. Mal. Mascarenhas de Morais, 2156 - Imbiribeira - Recife-PE</h6> 
+         <a href="tel:081 2121-1100">(81) 2121-1100</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 product-specification"> 
+       <h6>Informações</h6> 
+       <div class="container-box"> 
+        <div class="info-list"> 
+         <ul> 
+          <li>Marca: <b>Jeep</b></li> 
+          <li>Modelo: <b>RENEGADE</b></li> 
+          <li>Versão: <b>1.8 16V Longitude</b></li> 
+          <li>Ano: <b>2015/2016</b></li> 
+          <li>Quilometragem: <b>7.891 Km</b></li> 
+          <li>Câmbio: <b>Automático</b></li> 
+          <li>Combustível: <b>Flex</b></li> 
+          <li>Portas: <b>4</b></li> 
+          <li>Cor: <b>Preto</b></li> 
+          <li>Placa: <b>PDX 0569</b></li> 
+         </ul> 
+        </div> 
+        <div class="tags"> 
+         <ul> 
+          <li>Vidros elétricos</li> 
+          <li>travas elétricas</li> 
+          <li>Rodas de liga leve</li> 
+          <li>Retrovisores elétricos</li> 
+          <li>freios ABS</li> 
+          <li>Direção Elétrica</li> 
+          <li>ar condicionado</li> 
+          <li>Air bag</li> 
+         </ul> 
+        </div> 
+        <div class="note"> 
+         <h6><b>Mais sobre o veículo:</b></h6> 
+         <p> PLACA: PDX-0569 </p> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12"> 
+       <div class="product-rule"> 
+        <p>*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 31/10/2017. Os preços poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="content-other-products"> 
+     <div class="row"> 
+      <div class="col-xs-12 content-other-similar-products"> 
+       <h6>VOCÊ TAMBÉM PODE GOSTAR DESSAS OFERTAS</h6> 
+       <div class="item-list"> 
+        <div class="product-carousel owl-carousel"> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/freemont-2-4-emotion-16v-131"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/19630/model_middle_comprar-freemont-2-4-emotion-16v-131_e022c827fd.jpg" alt="Fiat FREEMONT 2.4 Emotion 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>FREEMONT 2.4 Emotion 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 62.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/freemont-2-4-emotion-16v-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2015/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/21233/model_middle_comprar-renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58_40e8c51bf7.jpg" alt="Jeep RENEGADE 1.8 16V Sport"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Sport</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 63.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-sport-131-9d710e3f-b7c3-42a7-907b-4dcd7988af58">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2016/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/20975/model_middle_comprar-renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb_7d2ba5cb3f.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Longitude</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 72.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-longitude-131-4e1bdc05-ed30-4b41-84ce-29ffcfdc15cb">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2016/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/21750/model_middle_comprar-doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f_fa47ca0df5.jpg" alt="Fiat DOBLÒ 1.8 MPI Adventure 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>DOBLÒ 1.8 MPI Adventure 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 63.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/doblo-1-8-mpi-adventure-16v-131-f119e3cf-46b5-446a-828c-56c1c912256f">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/golf-1-4-tsi-highline-16v-131"> <img src="/assets/admin/model_middle_default.jpg" alt="Volkswagen GOLF 1.4 TSI Highline 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>GOLF 1.4 TSI Highline 16V</h3> 
+            <h6>Volkswagen</h6> 
+            <div class="content"> 
+             <h4><b>R$ 65.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/golf-1-4-tsi-highline-16v-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2015/2016</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/renegade-1-8-16v-longitude-2016-131"> <img src="//assets.autoforce.com.br/uploads/used_model/profile_image/20204/model_middle_comprar-renegade-1-8-16v-longitude-2016-131_74d2c8659c.jpg" alt="Jeep RENEGADE 1.8 16V Longitude"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>RENEGADE 1.8 16V Longitude</h3> 
+            <h6>Jeep</h6> 
+            <div class="content"> 
+             <h4><b>R$ 73.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/renegade-1-8-16v-longitude-2016-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container-fluid"> 
+    <div id="maps"> 
+     <div class="item active "> 
+      <iframe data-map="14" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.967601456451!2d-34.911515!3d-8.103131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb3a32468fba12f7!2sFiat+Italiana!5e0!3m2!1spt-BR!2sbr!4v1460494478309&quot;" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="17" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7896.683618748614!2d-35.976746!3d-8.268736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bdcc65c3dbd%3A0x2b71acdecd45bab3!2sAv.+Agamenon+Magalh%C3%A3es%2C+1395+-+Maur%C3%ADcio+de+Nassau%2C+Caruaru+-+PE%2C+Brasil!5e0!3m2!1spt-BR!2sbr!4v1460994447256" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.6292010891857!2d-34.94817528458443!3d-8.037110582480494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197c1b0fe04f%3A0xc91e16b65efa65a5!2sJeep+-+Fiat+ITALIAN!5e0!3m2!1sen!2sbr!4v1493926934659" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+    </div> 
+    <div id="adresses"> 
+     <div class="row"> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="14" class="active "> <h2>Recife Imbiribeira</h2> <p> Av. Mal. Mascarenhas de Morais, 2156, <br> Imbiribeira – Recife/PE – CEP 51180-001<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="17" class=""> <h2>Caruaru</h2> <p> Av. Agamenon Magalhães, 1395, <br> Maurício de Nassau – Caruaru/PE – CEP 55014-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="16" class=""> <h2>Recife Caxangá</h2> <p> Av. Caxanga, 4617, <br> Caxangá – Recife/PE – CEP 50740-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="footer"> 
+     <div class="row"> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> IMBIRIBEIRA: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 17h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CARUARU: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 13h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CAXANGÁ: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 09h às 14h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/jeepitaliana/" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="https://www.instagram.com/jeepitaliana/" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-recife-imbiribeira"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2121-1100">(81) 2121-1100</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-mauricio-de-nassau"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2103-4000">(81) 2103-4000</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-bairro-caxanga"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 3454-1080">(81) 3454-1080</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container-fluid"> 
+    <div class="copyright-content"> 
+     <h2 class="brand-client"> <a href="/" style="background-image: url(//assets.autoforce.com.br/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png)">Italiana</a> </h2> 
+    </div> 
+    <div id="copyright"> 
+     <div class="row"> 
+      <p class="copyright">© Copyright 2017 - Italiana - Todos os direitos reservados. <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>.</p> 
+      <h2 class="developer-brand"> <a href="http://www.autoforce.com.br" target="_black" style="background-image: url(https://assets.autoforce.com.br/assets/logo_dark.png); background-size: contain;">AutoForce</a> </h2> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <div class="overlay"> 
+   <div class="loader"> 
+    <div class="loading-slide"> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+    </div> 
+   </div> 
+   <div class="dark-side"></div> 
+   <div id="privacy-policy" class="pop-up-info pop-up-big"> 
+    <div class="btn-close">
+     <i class="fa fa-times" aria-hidden="true"></i>
+    </div> 
+    <div class="pop-up-wrapper-content"> 
+     <div class="pop-up-wrapper-item"> 
+      <h4>Política de Privacidade</h4> 
+      <p>Nós estamos comprometidos em resguardar sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site – e respectivos serviços – e de que forma esses dados são manipulados e utilizados.</p> 
+      <p>Alertamos que se você não concorda com o conteúdo desta política, não é recomendável baixar nossos materiais nem utilizar quaisquer de nossos serviços.</p> 
+      <h4>Sobre a coleta de dados</h4> 
+      <p>Em nossos sites, as informações são coletadas das seguintes formas:</p> 
+      <p>Informações fornecidas por você – Coletamos informações de identificação pessoal – como nome, telefone, email, empresa em que trabalha e cargo – via preenchimento dos formulários para download de nossos conteúdos gratuitos. Eventualmente, a solicitação algumas informações podem ser feitas por meio de contato direto da Fiat - Imbiribeira - Recife com os usuários via email ou telefone.</p> 
+      <p>Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas.</p> 
+      <p>Histórico de contato – Aqui na Fiat - Imbiribeira - Recife armazenamos informações a respeito de todos os contatos já realizados com nossos usuários, como conteúdos baixados a partir de nossas páginas e interações via email.</p> 
+      <h4>Sobre o uso de suas Informações Pessoais</h4> 
+      <p>O presente termo permite que a Fiat - Imbiribeira - Recife use suas informações pessoais para diferentes finalidades.</p> 
+      <p>O email é utilizado para a operação de envio do material ou informação por você requisitada no preenchimento do formulário. Também pode ser usado para envio de Newsletters, sempre relacionadas a temas do Direito.</p> 
+      <p>Por fim, o email será utilizado ainda para comunicar o lançamento de novos materiais gratuitos ou de novos serviços da Fiat - Imbiribeira - Recife e parceiros. No entanto, o usuário pode cancelar a assinatura a qualquer momento.</p> 
+      <p>Os dados de download poderão ser divulgados como pesquisas e estatísticas, não sendo reveladas abertamente nenhuma informação pessoal, a menos que autorizada explicitamente.</p> 
+      <p>Funcionários da Fiat - Imbiribeira - Recife poderão eventualmente entrar em contato via email ou telefone para fazer pesquisas ou apresentar produtos e serviços.</p> 
+      <h4>Sobre o acesso às suas informações pessoais</h4> 
+      <p>Poderão ver suas informações pessoais apenas funcionários da Fiat - Imbiribeira - Recife. Eventualmente, caso a inserção de suas informações se dê em ações criadas em parcerias, os parceiros explicitamente identificados também terão acesso à informação. Nenhuma informação pessoal poderá ser divulgada </p> 
+      <p>A Fiat - Imbiribeira - Recife também se compromete a não vender, alugar ou repassar suas informações para terceiros. A única exceção está em casos em que essas informações forem exigidas judicialmente.</p> 
+      <p>Além disso, embora trabalhemos com boas práticas de proteção e segurança, nenhum serviço web possui 100% de garantia contra invasões e não podemos nos responsabilizar caso isso ocorra.</p> 
+      <h4>Sobre o compartilhamento de conteúdo nas redes sociais</h4> 
+      <p>Ao clicar nos botões de compartilhamento de conteúdo nas mídias sociais disponíveis em nossas páginas, o usuário estará publicando o conteúdo por meio de seu perfil na rede selecionada. A Fiat - Imbiribeira - Recife não têm acesso ao login e senha dos usuários nessas redes, nem publicará conteúdo em nome do usuário sem que ele realize esta ação.</p> 
+      <h4>Mudanças na Política de Privacidade</h4> 
+      <p>Essa Política de Privacidade pode passar por atualizações. Desta forma, recomendamos visitar periodicamente esta página para que você tenha conhecimento sobre as modificações.</p> 
+      <p>Antes de usar informações para outros fins que não os definidos nesta Política de Privacidade, solicitaremos sua autorização.</p> 
+      <h4>Contato com a Fiat - Imbiribeira - Recife para esclarecimento de dúvidas</h4> 
+      <p>Qualquer dúvida em relação à nossa política de privacidade pode ser esclarecida entrando em contato conosco através do email: <a href="mailto:contato@italiana.com.br">contato@italiana.com.br</a></p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="https://assets.autoforce.com.br/assets/super_portal-eea3ae4b165aad8371f69fca33ad819d861e09be3b7f0968b1428c478bbb54ef.js"></script> 
+  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=597f8dc55eb3920011c7cde6&amp;product=inline-share-buttons"></script>   
+ </body>
+</html>

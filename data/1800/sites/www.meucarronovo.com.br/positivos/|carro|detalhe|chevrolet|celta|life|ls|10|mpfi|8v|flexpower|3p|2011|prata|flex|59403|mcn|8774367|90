@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <meta charset="UTF-8"> 
+  <!-- Oracle Maxymiser Script Start --> 
+  <script type="text/javascript" src="//service.maxymiser.net/api/us/bv.com.br/bf0b5d/mmapi.js"></script> 
+  <!-- Oracle Maxymiser Script End --> 
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.meucarronovo.com.br"]);
+  _paq.push(["setDomains", ["*.meucarronovo.com.br"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://meucarronovo.com.br/piwik//";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script> 
+  <noscript>
+   &lt;p&gt;&lt;img src="https://meucarronovo.com.br/piwik//piwik.php?idsite=1" style="border:0;" alt=""&gt;
+  </noscript> 
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+  <!--[if lt IE 9]>
+              <script src="shared/html5shiv.js"></script>
+              <script src="shared/respond.min.js"></script>
+            <![endif]--> 
+  <link rel="icon" href="https://d1x1xhcjqq6e69.cloudfront.net/images/favicon.png?201709271333" type="image/ico"> 
+  <title>Chevrolet Celta Life/ls 1.0 Mpfi 8v Flexpower 3p 2011 - Meu Carro Novo</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="keywords" content="comprar, financiar, usado,  chevrolet celta life/ls 1.0 mpfi 8v flexpower 3p,  chevrolet, celta life/ls 1.0 mpfi 8v flexpower 3p, 2010/2011, prata, recife, pe, meucarronovo, meu carro novo"> 
+  <meta name="description" content="Confira Chevrolet Celta Life/ls 1.0 Mpfi 8v Flexpower 3p 2011, tire suas dúvidas com o vendedor e agende uma visita!">
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/css/busca.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/colors.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/measures.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/texting.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/styles.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/bootstrap.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/assets/styles.css?201709271333" media="screen" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+    //<!--
+var veiculo = {
+        tipo: 'carro',
+        idAnunciante: 1021751,
+        idVeiculo: 8774367
+    }
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+googletag.cmd.push(function() {
+/** Superbanner zSuperior **/
+googletag.defineSlot('/107188768/avalie', [728, 90], 'div-gpt-ad-1413982557028-0').addService(googletag.pubads())
+.setTargeting('pos-avalie', ['superior'])
+.setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81');
+
+
+googletag.defineSlot('/107188768/detalhe_land_direita', [555, 120], 'div-gpt-ad-1413577602479-0').setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81').addService(googletag.pubads());
+googletag.defineSlot('/107188768/detalhe_land_esquerda', [555, 120], 'div-gpt-ad-1413577602479-1').setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81').addService(googletag.pubads());
+googletag.defineSlot('/107188768/detalhe_selo_inferior', [383, 90], 'div-gpt-ad-1413577602479-2').setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81').addService(googletag.pubads());
+googletag.defineSlot('/107188768/detalhe_selo_superior', [383, 90], 'div-gpt-ad-1413577602479-3').setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81').addService(googletag.pubads());
+googletag.defineSlot('/107188768/detalhe_SupBanner_inferior', [728, 90], 'div-gpt-ad-1413577602479-4').setTargeting('mic_regiao','pe-recife-e-regiao-ddd-81').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});    //-->
+</script> 
+  <script type="text/javascript">
+    //<!--
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1550805-28']);
+_gaq.push(['_setDomainName', 'meucarronovo.com.br']);
+_gaq.push(['_trackPageview']);
+
+_gaq.push(['seo._setAccount', 'UA-38074957-1']);
+_gaq.push(['seo._trackPageview']);
+
+_gaq.push(['predicta._setAccount', 'UA-1550805-1']);
+_gaq.push(['predicta._setDomainName', 'meucarronovo.com.br']);
+
+_gaq.push(['predicta._setCustomVar', 1, 'logado', 'nao', 2]);
+_gaq.push(['predicta._setCustomVar', 1, 'marca', 'CHEVROLET', 3]);
+_gaq.push(['predicta._setCustomVar', 2, 'modelo', 'CELTA LIFE/LS 1.0 MPFI 8V FLEXPOWER 3P', 3]);
+_gaq.push(['predicta._setCustomVar', 3, 'cidade', 'Recife', 3]);
+_gaq.push(['predicta._setCustomVar', 4, 'estado', 'PE', 3]);
+_gaq.push(['predicta._trackPageview', 'compra/detalhe-anuncio/pj/1021751/8774367']);
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();    //-->
+</script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/jquery-1-8-3.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/tween-max-1-10-3.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/bootstrap.min.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.mcnform.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/js.cookie.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/global.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery-ui-1.8.22.min.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.form.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/scripts.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/assets/scripts.js?201709271333"></script> 
+  <script src="//assets.adobedtm.com/c4314e15e9157fd1511b5794cee60dbdcef19d9b/satelliteLib-b8c6e725ab2231f482b44c8d77cd88aa481c7a75.js"></script> 
+  <base target="_top"> 
+ </head> 
+ <body> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNN4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNN4');</script>
+  <div class="container marg-t-30"> 
+   <div class="row"> 
+    <div class="col-lg-12"> 
+     <div class="main-menu"> 
+      <div class="col-lg-2"> 
+       <a href="https://www.meucarronovo.com.br"><h1 class="logo marg-t-7">MeuCarroNovo</h1></a> 
+      </div> 
+      <div class="col-lg-5"> 
+       <ul class="main-menu-items pt-sans-bold"> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/">Home</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/vender">Vender</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/avalie">Avaliar</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/blog">Revista</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/feirao">Hiper Saldão</a></li> 
+       </ul> 
+      </div> 
+      <div class="col-lg-2 padd-t-3"> 
+       <a class="btn pt-sans-bold txt-13 bg-bordo btn-financie trans-05s" href="https://www.meucarronovo.com.br/quer-financiar">Financie com a BV</a> 
+      </div> 
+      <div class="col-lg-3"> 
+       <form id="form-busca" method="GET" action="https://www.meucarronovo.com.br/buscar"> 
+        <span class="search-bar-icon"></span> 
+        <input type="hidden" value="organica" name="origem"> 
+        <input name="q" class="search-bar pull-left" type="text"> 
+        <a class="btn-search pt-sans-bold txt-13 bg-grey pull-left trans-05s" href="#" onclick="$('#form-busca').submit();">OK</a> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- breadcrumb --> 
+  <div class="container marg-t-20"> 
+   <div class="row"> 
+    <div class="col-lg-7"> 
+     <p class="tahoma txt-11 txt-gray"><img src="/2014/shared/img/header/home-icon.png"><span class="bold marg-l-10">Você está em:</span> <a itemprop="url" href="https://www.meucarronovo.com.br/compre"><span itemprop="title">Compre seu carro</span></a> &gt; <a itemprop="url" href="https://www.meucarronovo.com.br/buscar/q/CHEVROLET/uf/PE/ordem/patrocinio"><span itemprop="title">Chevrolet</span></a> &gt; <a itemprop="url" href="https://www.meucarronovo.com.br/buscar/q/CHEVROLET+CELTA+LIFE+LS+1.0+MPFI+8V+FLEXPOWER+3P/uf/PE/ordem/patrocinio"><span itemprop="title">Celta Life/ls 1.0 Mpfi 8v Flexpower 3p</span></a> &gt; <a itemprop="url" href="https://www.meucarronovo.com.br/buscar/q/CHEVROLET+CELTA+LIFE+LS+1.0+MPFI+8V+FLEXPOWER+3P/cidade/Recife/uf/PE/ordem/patrocinio"><span itemprop="title">Recife</span></a> &gt; <a itemprop="url" href="https://www.meucarronovo.com.br/buscar/q/CHEVROLET+CELTA+LIFE+LS+1.0+MPFI+8V+FLEXPOWER+3P/uf/PE/ordem/patrocinio"><span itemprop="title">PE</span></a> </p> 
+    </div> 
+    <div class="col-lg-5"> 
+     <ul class="breadcrumb-menu tahoma bold txt-11 txt-gray pull-right"> 
+      <li><a target="_top" href="https://ext.meucarronovo.com.br/loja/loginarearestrita">Central do anunciante <span class="txt-green">(login)</span></a></li> 
+      <!--<li>|</li>
+                <li><a href="https://www.meucarronovo.com.br/revendedores/" title="Acesso para Revendedores">Revendedores</a></li> --> 
+      <li>|</li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/fale-conosco" title="Fale Conosco">Fale conosco</a></li> 
+     </ul> 
+    </div> 
+    <div class="clearfix"></div> 
+    <div class="col-lg-12 padd-t-20">
+     <span class="solid-line"></span>
+    </div> 
+   </div> 
+  </div> 
+  <!-- FIM breadcrumb --> 
+  <!-- midia --> 
+  <div class="container marg-t-30"> 
+   <div class="row"> 
+    <div class="col-lg-12"> 
+     <span class=""> 
+      <div id="div-gpt-ad-1413982557028-0" style="width:728px; height:90px;" class="pull-left"> 
+       <script type="text/javascript">
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1413982557028-0');
+                        });
+                    </script> 
+      </div> </span> 
+     <!-- detalhe_selo_superior --> 
+     <div id="div-gpt-ad-1413577602479-3" style="width:383px; height:90px;" class="pull-right"> 
+      <script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display('div-gpt-ad-1413577602479-3');
+                    });
+                </script> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- FIM midia --> 
+   <!-- section --> 
+   <div class="container marg-t-30"> 
+    <div class="row"> 
+     <div class="col-lg-9"> 
+      <h2 class="pt-sans-bold txt-25">CHEVROLET CELTA LIFE/LS 1.0 MPFI 8V FLEXPOWER 3P 2010/2011</h2> 
+      <!-- <p class="tahoma txt-13 txt-gray marg-t-5">Anúncio publicado em 22/09/2017</p> --> 
+     </div> 
+     <div class="col-lg-1 h-10"> 
+      <a class="" href="https://www.meucarronovo.com.br/anunciante/auto-facil-1021751"> <img width="78" height="30" src="https://d1x1xhcjqq6e69.cloudfront.net/fotos/revendas/minibanner/pQjn1UW0vMyaK9.jpg?201709271333"> </a> 
+     </div> 
+     <div class="col-lg-2 txt-11 line-h-15"> 
+      <p class="bold">Auto Facil</p> 
+      <p>Avenida Marechal Mascarenhas De Morais, 4025 - Imbiribeira</p> 
+      <p>Recife - PE</p> 
+      <p> <span class="underline"> <a href="#" id="verTelefone">Ver Telefones </a> </span></p>
+      <div class="btFecharTel"></div> 
+      <div class="verTelefoneAberto displayNone"> 
+       <ul class="telefone" style="display:none"> 
+        <li>(81) 3202-0022</li>
+        <li>(81) 99292-4093</li> 
+       </ul> 
+      </div>  
+      <span class="underline"> <a href="https://www.meucarronovo.com.br/anunciante/auto-facil-1021751" onclick="script:_gaq.push(['predicta._trackEvent', 'detalhe-anuncio', 'ver-estoque', '1021751']);">Ver estoque da loja</a> </span> 
+      <p></p> 
+     </div> 
+    </div> 
+    <div class="row marg-t-30"> 
+     <div class="col-lg-6 imagens-anuncio"> 
+      <div class="padd-l-10 padd-r-10 padd-b-10"> 
+       <img class="bor-bordo-3" src="https://d1x1xhcjqq6e69.cloudfront.net/imagens-dinamicas/detalhe-veiculo-grande/fotos/r/1021751/v/8774367/2nuP3o1Ed8x.jpg?201709271333" id="foto-detalhe" width="535px" height="402px"> 
+      </div> 
+      <div class="w-25pc h-100 padd-10 pull-left detalhe-thumb">
+       <img class="bor-bordo-3" src="https://d1x1xhcjqq6e69.cloudfront.net/imagens-dinamicas/detalhe-veiculo-grande/fotos/r/1021751/v/8774367/2nuP3o1Ed8x.jpg?201709271333" width="119px" height="89px">
+      </div> 
+      <div class="w-25pc h-100 padd-10 pull-left detalhe-thumb">
+       <img src="https://d1x1xhcjqq6e69.cloudfront.net/imagens-dinamicas/detalhe-veiculo-grande/fotos/r/1021751/v/8774367/ByUYLBo2mAQ.jpg?201709271333" width="119px" height="89px">
+      </div> 
+      <div class="w-25pc h-100 padd-10 pull-left detalhe-thumb">
+       <img src="https://d1x1xhcjqq6e69.cloudfront.net/imagens-dinamicas/detalhe-veiculo-grande/fotos/r/1021751/v/8774367/YVcvkV3Lpmk.jpg?201709271333" width="119px" height="89px">
+      </div> 
+      <div class="clearfix"></div> 
+     </div> 
+     <div class="col-lg-3"> 
+      <div class="w-100pc txt-center padd-t-80 padd-b-20 round-15 bor-gray-1 bg-grey marg-t-35"> 
+       <p class="tahoma txt-18 txt-black">Preço médio: R$ 16.990,00</p> 
+      </div> 
+      <div class="w-100pc txt-center padd-t-20 padd-b-20 round-15 bor-bordo-1 bg-white marg-t-175n"> 
+       <p class="txt-12 txt-gray marg-t-10"></p> 
+       <p class="pt-sans-bold txt-36 txt-bordo">R$ 16.990,00</p> 
+       <p class="txt-12 txt-gray marg-t-10"></p> 
+      </div> 
+      <div class="clearfix"></div> 
+      <p class="marg-t-90 tahoma txt-13 txt-gray-mcn line-h-22"> <span class="bold">Ano:</span> 2010/2011<br> <span class="bold">Km:</span> 59.403 <br> <span class="bold">Cor:</span> PRATA<br> <span class="bold">Portas:</span> 2<br> <span class="bold">Combustível:</span> Flex<br> <span class="bold">Câmbio:</span> Manual<br> <span class="bold">Final da Placa:</span> 6<br> </p> 
+      <span class="dashed-line marg-t-15"></span> 
+      <h2 class="pt-sans-bold txt-23 txt-gray marg-t-15">Opcionais</h2> 
+      <p class="marg-t-10 tahoma txt-13 txt-gray-mcn line-h-18"> Alarme, Ar condicionado, Documentação em Dia</p> 
+      <div class="clearfix"></div> 
+      <span class="dashed-line marg-t-15"></span> 
+      <h2 class="pt-sans-bold txt-23 txt-gray marg-t-15">Observações do vendedor</h2> 
+      <p class="marg-t-10 tahoma txt-13 txt-gray-mcn line-h-18"> victor gomes consultor de vendas 81 99898-4919</p> 
+      <p></p> 
+      <div class="clearfix"></div> 
+     </div> 
+     <div class="col-lg-3"> 
+      <div class="w-262 h-737 bg-blue pos-abs zeh form-detalhe-sucesso"> 
+       <div class="w-100pc pos-rel padd-l-10 padd-r-10 marg-t-550"> 
+        <a class="pt-sans-bold txt-16 bg-gray btn-sucesso trans-05s marg-t-30" href="#"><img class="icone-sucesso trans-05s top-10 left-30" src="/2014/assets/img/icons/mesmo-modelo.png">Veja mais veículos</a> 
+       </div> 
+      </div> 
+      <div class="bg-card-lateral no-padd w-100pc marg-b-15"> 
+       <div class="w-100pc padd-l-10 padd-t-15 padd-b-15"> 
+        <p class="pt-sans-bold txt-36">Gostou?</p> 
+        <p class="pt-sans-regular txt-14">Entre em contato com o vendedor agora</p> 
+       </div> 
+       <div class="padd-15"> 
+        <form action="/veiculo/enviar-proposta/format/json" method="POST" name="form-enviar-proposta"> 
+         <input type="hidden" name="veiculo-id-token" value="EHDXiQgmf1v53mfIWAeTFQ5OrmtOTAGLEEhljOADGv4="> 
+         <input type="hidden" name="veic-cod" value="8774367"> 
+         <input type="hidden" name="tpve-cod" value="A"> 
+         <input type="hidden" name="parceiro" value=""> 
+         <input type="hidden" name="utm_source" value=""> 
+         <input type="hidden" name="utm_medium" value=""> 
+         <input type="hidden" name="utm_campaign" value=""> 
+         <label class="label-form marg-t-20">Seu nome *</label> 
+         <div class="pos-rel"> 
+          <input type="text" name="prop-nome" class="h-30 w-100pc input-form validarNull" placeholder="Digite seu nome"> 
+          <img class="form-error-icon marg-l-160 neo-tip-link-detalhe" src="/2014/assets/img/icons/x-red.png"> 
+         </div> 
+         <div class="neo-tip-ballon">
+          <p>Digite seu nome</p>
+         </div> 
+         <label class="label-form marg-t-20">Seu e-mail *</label> 
+         <div class="pos-rel"> 
+          <input type="text" name="prop-email" class="h-30 w-100pc input-form validarNull validarEmail" placeholder="Digite seu e-mail"> 
+          <img class="form-error-icon neo-tip-link-detalhe" src="/2014/assets/img/icons/x-red.png"> 
+         </div> 
+         <div class="neo-tip-ballon">
+          <p>Digite um e-mail válido</p>
+         </div> 
+         <label class="label-form marg-t-20">Telefone *</label> 
+         <div class="w-100pc"> 
+          <input type="text" name="prop-ddd" class="h-30 w-20pc pull-left input-form validarNull" placeholder="00"> 
+          <div class="pos-rel"> 
+           <input type="text" name="prop-telefone" class="h-30 w-75pc pull-right input-form validarNull" placeholder="00000-0000"> 
+           <img class="form-error-icon marg-l-160 neo-tip-link-detalhe" src="/2014/assets/img/icons/x-red.png"> 
+          </div> 
+          <div class="neo-tip-ballon">
+           <p>Digite um telefone válido</p>
+          </div> 
+         </div> 
+         <div class="clearfix"></div> 
+         <label class="label-form marg-t-20">Seu CPF <img class="neo-tip-link" src="/2014/assets/img/icons/interrog-amarelo.png">
+          <div class="neo-tip-ballon-yellow">
+           <p>Digite o seu CPF para receber ofertas exclusivas da BV Financeira</p>
+          </div></label> 
+         <div class="pos-rel"> 
+          <input type="text" name="prop-cpf" class="h-30 w-100pc input-form" placeholder="000.000.000-00"> 
+          <img class="form-error-icon neo-tip-link-detalhe" src="/2014/assets/img/icons/x-red.png"> 
+         </div> 
+         <div class="neo-tip-ballon">
+          <p>Digite um CPF válido</p>
+         </div> 
+         <label class="label-form marg-t-20">Mensagem *</label> 
+         <div class="pos-rel"> 
+          <textarea name="prop-mensagem" class="h-100 w-100pc input-form validarNull" placeholder="Digite sua mensagem para o vendedor"></textarea> 
+          <img class="form-error-icon neo-tip-link-detalhe" src="/2014/assets/img/icons/x-red.png"> 
+         </div> 
+         <div class="neo-tip-ballon">
+          <p>Digite uma mensagem</p>
+         </div> 
+         <p class="marg-t-10">(*) Campos obrigatórios</p> 
+         <input type="checkbox" name="veiculo-troca" value="1" id="checkboxG1" class="css-checkbox">
+         <label for="checkboxG1" class="css-label marg-t-15">Você tem veículo na troca?</label> 
+         <!-- <input type="checkbox" name="desejo-receber" value="1" id="checkboxG2" class="css-checkbox" /><label for="checkboxG2" class="css-label marg-t-5">Quero receber cópia deste contato por e-mail?</label>--> 
+         <div class="clearfix"></div> 
+         <div class="w-100pc pos-rel"> 
+          <a class="pt-sans-bold txt-16 bg-yellow btn-enviar-mensagem trans-05s marg-t-30 curs-pointer"><img class="icone-enviar-mensagem trans-05s" src="/2014/assets/img/icons/enviar-icon.png"> Enviar mensagem</a> 
+         </div> 
+        </form> 
+       </div> 
+      </div> 
+      <!-- ARROBA BANNER  --> 
+      <!--
+                <div class="publicidade">
+                    <div class="bannerDetalhe">
+                        <a href="https://seguro.meucarronovo.com.br/quer-financiar"><img src="https://www.meucarronovo.com.br/2014/shared/img/midia/banner-05.jpg"></a>
+                    </div>
+                </div>
+                 --> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- FIM section --> 
+   <!-- midia --> 
+   <div class="container marg-t-50"> 
+    <div class="row"> 
+     <!-- detalhe_land_esquerda --> 
+     <div id="div-gpt-ad-1413577602479-1" style="width:555px; height:120px; margin-top: -30px;" class="pull-left"> 
+      <script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display('div-gpt-ad-1413577602479-1');
+                    });
+                </script> 
+     </div> 
+     <!-- detalhe_land_direita --> 
+     <div id="div-gpt-ad-1413577602479-0" style="width:555px; height:120px; margin-top: -30px;" class="pull-right"> 
+      <script type="text/javascript">
+                    googletag.cmd.push(function () {
+                        googletag.display('div-gpt-ad-1413577602479-0');
+                    });
+                </script> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- FIM midia --> 
+   <!-- destaca --> 
+   <div class="container marg-t-40 padd-b-50"> 
+    <div class="row containerNoticias"> 
+     <div class="col-lg-12"> 
+      <h2 class="tahoma txt-36">Leia a Revista do <span class="bold txt-bordo">MeuCarroNovo</span></h2> 
+      <p class="tahoma txt-18 txt-gray marg-t-5">e fique por dentro das grandes notícias no universo automotivo</p> 
+     </div> 
+     <div class="col-lg-3 padd-t-40 revista" width="293" height="398"> 
+      <div class="tag-revista">
+       JEEP COMPASS
+      </div> 
+      <div class="bg-black">
+       <a href="https://www.meucarronovo.com.br/blog/peugeot-3008-dispara-sua-artilharia-francesa-sobre-o-jeep-compass.html"><img src="https://www.meucarronovo.com.br/blog/wp-content/uploads/2017/08/35838443-1160x670-1024x591.jpg" width="263" height="223" border="0"></a>
+      </div> 
+      <p class="legenda-revista">Peugeot 3008 dispara sua artilhar...<a href="https://www.meucarronovo.com.br/blog/peugeot-3008-dispara-sua-artilharia-francesa-sobre-o-jeep-compass.html"><span class="pull-right marg-t-20 txt-yellow">Leia +</span></a></p> 
+     </div> 
+     <div class="col-lg-3 padd-t-40 revista" width="293" height="398"> 
+      <div class="tag-revista">
+       CARROS QUE VALORIZARAM
+      </div> 
+      <div class="bg-black">
+       <a href="https://www.meucarronovo.com.br/blog/carros-que-melhoraram-muito-de-uma-geracao-para-outra.html"><img src="https://www.meucarronovo.com.br/blog/wp-content/uploads/2017/08/1503694585111-e1503943440223.jpg" width="263" height="223" border="0"></a>
+      </div> 
+      <p class="legenda-revista">Carros que melhoraram muito de um...<a href="https://www.meucarronovo.com.br/blog/carros-que-melhoraram-muito-de-uma-geracao-para-outra.html"><span class="pull-right marg-t-20 txt-yellow">Leia +</span></a></p> 
+     </div> 
+     <div class="col-lg-3 padd-t-40 revista" width="293" height="398"> 
+      <div class="tag-revista">
+       MARCEDES-BENZ
+      </div> 
+      <div class="bg-black">
+       <a href="https://www.meucarronovo.com.br/blog/mercedes-benz-gla-tem-mudancas-discretas.html"><img src="https://www.meucarronovo.com.br/blog/wp-content/uploads/2017/08/35988917-1160x773-1024x682.jpg" width="263" height="223" border="0"></a>
+      </div> 
+      <p class="legenda-revista">Mercedes-benz gla tem mudanças d...<a href="https://www.meucarronovo.com.br/blog/mercedes-benz-gla-tem-mudancas-discretas.html"><span class="pull-right marg-t-20 txt-yellow">Leia +</span></a></p> 
+     </div> 
+     <div class="col-lg-3 padd-t-40 revista" width="293" height="398"> 
+      <div class="tag-revista">
+       CHEVROLET EQUINOX
+      </div> 
+      <div class="bg-black">
+       <a href="https://www.meucarronovo.com.br/blog/chevrolet-equinox-tera-versao-de-topo-premier.html"><img src="https://www.meucarronovo.com.br/blog/wp-content/uploads/2017/08/2018-Chevrolet-Equinox-012-1160x774-1024x683.jpg" width="263" height="223" border="0"></a>
+      </div> 
+      <p class="legenda-revista">Chevrolet equinox terá versão d...<a href="https://www.meucarronovo.com.br/blog/chevrolet-equinox-tera-versao-de-topo-premier.html"><span class="pull-right marg-t-20 txt-yellow">Leia +</span></a></p> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- midia --> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-lg-12"> 
+      <span class="solid-line marg-t-50 marg-b-50"></span> 
+      <!-- detalhe_SupBanner_inferior --> 
+      <div id="div-gpt-ad-1413577602479-4" style="width:728px; height:90px;" class="pull-left"> 
+       <script type="text/javascript">
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1413577602479-4');
+                        });
+                    </script> 
+      </div> 
+      <!-- detalhe_selo_inferior --> 
+      <div id="div-gpt-ad-1413577602479-2" style="width:383px; height:90px;" class="pull-right"> 
+       <script type="text/javascript">
+                        googletag.cmd.push(function () {
+                            googletag.display('div-gpt-ad-1413577602479-2');
+                        });
+                    </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!-- FIM midia --> 
+  </div> 
+  <script type="text/javascript">
+  $('.btn-compra-segura').click(function(){
+      $(".modal.dicas-seguranca").show("slow");
+  });
+</script> 
+  <div class="modal dicas-seguranca"> 
+   <div class="pos-fix janela-modal-close round-5 padd-30"> 
+    <img class="modal-close curs-pointer" src="https://www.meucarronovo.com.br/assets/img/icons/modal-close.png"> 
+    <h1 class="txt-bordo txt-23 bold padd-b-10">Dicas de compra segura</h1> 
+    <div class="list-modal tahoma txt-14 txt-gray-mcn line-h-18"> 
+     <p> Veja abaixo algumas dicas para comprar o seu veículo usado com segurança e proteger os seus direitos: </p> 
+     <ul> 
+      <li> Suspeite de anúncios que estão com ofertas muito abaixo da média que não possuem nenhuma característica descrita ou que exigem depósitos antecipados ou pagamento em dinheiro. </li> 
+      <li> Solicite a placa e o renavam do veículo e contrate alguma empresa especialista para verificar o histórico veiculas. O Detran e o Denatran são fontes gratuitas que você mesmo pode utilizar. </li> 
+      <li> Confira se o vendedor não está utilizando fotos de lojas. Caso afirmativo, peça para que o encontro seja na loja da foto. Atente-se para as características descritas no anúncio e no veículo da foto. </li> 
+      <li> Ao agendar uma visita, certifique-se da segurança do local. </li> 
+      <li> Na visita, confira se os documentos do veículo solicitados anteriormente são os mesmos dos apresentados na visita. </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="bg-black h-100pc w-100pc pos-fix bg-modal"> 
+   </div> 
+  </div> 
+  <div class="bg-footer marg-t-50"> 
+   <div class="container"> 
+    <div class="row padd-t-20"> 
+     <div class="col-lg-1 txt-center padd-t-30"> 
+      <img class="pull-left" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/img/footer/logo-bv.png"> 
+     </div> 
+     <div class="col-lg-10 txt-center marg-t-29"> 
+      <a href="https://www.meucarronovo.com.br/institucional/quem-somos/"></a>
+      <p class="txt-12 bold txt-cc footerem-menu"><a href="https://www.meucarronovo.com.br/institucional/quem-somos/"><span class="txt-black">Quem Somos</span></a> | <a href="https://www.meucarronovo.com.br/institucional/fale-conosco"><span class="txt-black">Atendimento MCN</span></a> | <a target="_blank" href="https://www.bancovotorantim.com.br/web/site/pt/contato/canal_conduta.html"><span class="txt-black">Canal de Denúncias</span></a> | <a href="https://www.meucarronovo.com.br/publicidade/"><span class="txt-black">Publicidade</span></a> | <a href="/institucional/termos-e-condicoes/"><span class="txt-black">Termos e Condições</span></a> | <a href="http://www.bvfinanceira.com.br/site/bvf/para_voce/veiculo/"><span class="txt-black">Financie com a BV</span></a> | <a href="http://www.bvfinanceira.com.br/"><span class="txt-black">Outros produtos da BV</span></a></p> 
+      <p class="marg-t-10">Central de Relacionamento - <span class="txt-black bold">3003 1616</span> ou <span class="txt-black bold">0800 701 8600</span> | SAC - <span class="txt-black bold">0800 770 3335</span> | Deficientes Auditivos e de Fala - <span class="txt-black bold">0800 701 8661</span> | Ouvidoria - <span class="txt-black bold">0800 707 0083</span></p> 
+      <p class="marg-t-10">Canal de Denúncias - <span class="txt-black bold">0800 777 8374</span> e Caixa Postal - <span class="txt-black bold">79545 - CEP 04707-970</span></p> 
+      <p class="marg-t-10">Copyright © 2014 - MeuCarroNovo. Todos os direitos reservados</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.idTabs.min.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/detalhe-veiculo.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.maskedinput-1.3.min.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.validacpf.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/filtros_veiculo.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.price_format.1.5.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.ad-gallery.min.js?201709271333"></script> 
+  <script type="text/javascript">_satellite.pageBottom();</script>   
+ </body>
+</html>
