@@ -8,33 +8,36 @@ import org.jsoup.nodes.Element;
 
 public class PreProcessor {
 	public static void main(String[] args) throws Exception {
+		
+		String sites = "data/1800/sites";
+		String texts = "data/1800/texts";
+		
+		String[] ar = new File(sites).list();
+		
+	
+		for(int x=0;x<ar.length;x++) {
 
-		
-		String[] sites = new File("data/sites").list();
-		
-		String location = "texts_url_tittle";
-		
-		for(int x=0;x<sites.length;x++) {
-
-			System.out.println(sites[x]);
+			System.out.println(ar[x]);
 
 			
-			createTexts(location, sites[x], "positivos");
-			createTexts(location, sites[x], "negativos");	
+//			createTexts(sites, texts, ar[x], "positivos");
+			createTexts(sites, texts, ar[x], "negativos");	
 //			break;
 		}
 		
 	}
 
-	public static void createTexts(String location, String site, String type) throws Exception {
+	public static void createTexts(String sites, String texts, String site, String type) throws Exception {
 		
-		File posText = new File("data/" + location + "/" + site + "/" + type);
+		File posText = new File(texts + "/" + site + "/" + type);
 		posText.mkdirs();
 		
-		String[] posHtml = new File("data/sites/" + site + "/" + type).list(); 
+		String[] posHtml = new File(sites + "/" +  site + "/" + type).list(); 
+		
+		int done = 0;
 		
 		for(String s : posHtml) {
-			String v = fileToString(new File("data/sites/" + site + "/" + type + "/" + s ));
+			String v = fileToString(new File(sites + "/" + site + "/" + type + "/" + s ));
 		
 			Document doc = Jsoup.parse(v);
 		
@@ -44,15 +47,17 @@ public class PreProcessor {
 			System.out.println(s);
 			
 			// add features
-			text = Feature.addFEATURE_TITTLE(doc.title(), text);
-			
-			text = Feature.addFEATURE_URL(s, text);
-			
-			text = text.toLowerCase();
+//			text = Feature.addFEATURE_TITTLE(doc.title(), text);
+//			
+//			text = Feature.addFEATURE_URL(s, text);
+//			
+//			text = text.toLowerCase();
 			
 //			System.out.println(text);
 			
-			stringToFile(text,"data/" + location + "/" + site + "/" + type + "/" + s);		
+			stringToFile(text, texts + "/" + site + "/" + type + "/" + s);	
+			System.out.println("Done " + ++done + " " + texts + "/" + site + "/" + type + "/" + s);
+			
 		}
 		
 	}
