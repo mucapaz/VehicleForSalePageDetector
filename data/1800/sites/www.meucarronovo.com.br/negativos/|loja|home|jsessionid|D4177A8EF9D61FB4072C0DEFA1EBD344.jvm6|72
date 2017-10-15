@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt">
+ <head> 
+  <title>Seja bem vindo(a) à nossa loja virtual</title> 
+  <meta http-equiv="X-UA-Compatible" content="IE=10"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="robots" content="INDEX, FOLLOW"> 
+  <meta name="revisit-after" content="1 days"> 
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <link rel="shortcut icon" href="/loja/images/favico.ico?20170928135109"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/loja/styles/extranet-pj/bootstrap.css?20170928135109" rel="stylesheet"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/loja/styles/extranet-pj/bootstrap-responsive.css?20170928135109" rel="stylesheet"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/loja/styles/extranet-pj/estilos-pj.css?20170928135109" rel="stylesheet"> 
+  <!--
+           Agrupar tudo para producao
+           <link href="https://d1x1xhcjqq6e69.cloudfront.net/loja/styles/all.css?20170928135109" rel="stylesheet">
+            --> 
+  <link href="//fonts.googleapis.com/css?family=Roboto:100,700,400" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/jquery.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/jquery.validate.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/kk.validation.js?20170928135109"></script> 
+  <base href="https://ext.meucarronovo.com.br/loja/"> 
+  <script language="JavaScript" type="text/javascript">
+            
+
+
+
+            if (top.location != location) {
+                    top.location.href = document.location.href ;
+            }
+        </script> 
+  <script type="text/javascript">
+
+            // Set jquery validation messages
+            jQuery.validator.messages = {
+                    state: 'Campo obrigatório.',
+                    country: 'Campo obrigatório.',
+                    required: 'Campo obrigatório.',
+                    creditcard: 'Por favor entre um número de cartão de crédito válido',
+                    digits: 'Por favor digite somente dígitos',
+                    maxlength: jQuery.validator.format('Por favor não digite mais do que {0} caracteres.'),
+                    minlength: jQuery.validator.format('Por favor, digite pelo menos {0} caracteres.'),
+                    expirydate: 'Please specify a valid expiry date in the format MMYY.',
+                    email:  'E-mail inválido',
+                    url:    'Digite uma URL válida.',
+                    number: 'Por favor digite um número válido.',
+                    equalTo: 'As senhas não coincidem.',
+                    cpf: 'CPF Invalido.',
+                    cnpj: 'CNPJ Invalido.',
+                    postcode: 'Campo obrigatório.',
+                    transportadoraCliente: 'Campo obrigatório.',
+                    quantity: 'Campo obrigatório.',
+                    max: jQuery.validator.format('Quantidade máxima permitida: {0}'),
+                    selectRequired: 'Selecione uma opção.',
+                    validaCep: 'CEP inválido',
+                    requisitadoQuandoCampoEpreenchido: 'Campo obrigatorio!'
+            };
+
+            $('.validation-msg').hide();
+            $('.errorImg').hide();
+
+         </script> 
+  <!--INICIO HEADER DTM--> 
+  <script src="//assets.adobedtm.com/c4314e15e9157fd1511b5794cee60dbdcef19d9b/satelliteLib-b8c6e725ab2231f482b44c8d77cd88aa481c7a75.js"></script> 
+  <!--FIM HEADER DTM--> 
+ </head> 
+ <body> 
+  <!-- Define os atributos de breadcrumb no request para ser usado pelas paginas filhas --> 
+  <iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="0" src="site-header" onload="resizeIFrame(this, 20, 0)" style="display:none;"></iframe> 
+  <div id="container-principal" class="container containerbranco"> 
+   <div class="row"> 
+    <div class="span12"> 
+     <div id="breadcrumbs" class="breadcrumbs"> 
+      <div class="tarjinha">
+       Você está em:
+      </div> 
+      <span class="vermelho bold"> <span class="breadcrumb-separator"></span> <span class="breadcrumb-item">Venda seu veículo</span> </span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row"> 
+    <div class="span12"> 
+     <h1 class="vermelho bold ml-20 size-30">Vender seu veículo nunca foi tão fácil</h1> 
+    </div> 
+    <div class="messages span12"> 
+    </div> 
+   </div> 
+   <div class="row mt-20"> 
+    <input type="hidden" id="destino" value=""> 
+    <div class="span4"> 
+     <ul class="itenshome ml-20"> 
+      <li> <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconhomedinheiro.jpg" class="iconshome"> <p class="textoiconshome"> <span class="vermelho">5 milhões</span> de potenciais <span class="vermelho">compradores</span> buscam um veículo todo mês no<span class="vermelho">&nbsp;MeuCarroNovo</span> </p> </li> 
+      <li> <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconhomecalendario.jpg" class="iconshome"> <p class="textoiconshome"> Seu veículo fica em exposição 7 dias por semana e 24 horas por dia </p> </li> 
+      <li> <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconhomefoto.jpg" class="iconshome"> <p class="textoiconshome"> Você pode incluir até 12 fotos do seu veículo e ter muito mais chance de ser visto </p> </li> 
+      <li> <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconhomemeial.jpg" class="iconshome"> <p class="textoiconshome"> Receba as propostas de compra diretamente no seu email de forma rápida e segura </p> </li> 
+     </ul> 
+    </div> 
+    <div class="span4"> 
+     <div class="card centralizado"> 
+      <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconecard1.png"> 
+      <h2 class="azul size-23 mt-20">Anuncie seu veículo</h2> 
+      <p>Anunciar aqui é muito simples! O seu veículo fica exposto para milhares de interessados e você ainda conta com a modernidade do site MeuCarroNovo</p> 
+      <a id="btnModalCep" data-toggle="modal" class="btn btn-warning btn-large mt-20" role="button" href="#modalCidadeEstado" onclick="$('#destino').val('comprandopfpacote');"><span class="vermelho">Anuncie seu veículo</span></a> 
+     </div> 
+    </div> 
+    <div class="span4"> 
+     <div class="card centralizadot"> 
+      <img src="https://d1x1xhcjqq6e69.cloudfront.net/loja/imagens/icons/iconecard2.png"> 
+      <h2 class="azul size-23 mt-20">Anuncie seu estoque</h2> 
+      <p>Você é lojista? O MeuCarroNovo é o site ideal para você: moderno, simples e com todas as estatísticas para você gerir muito bem o seu negócio.</p> 
+      <a id="btnModalCidadeEstado" data-toggle="modal" class="btn btn-warning btn-large mt-20" role="button" href="#modalCidadeEstado" onclick="$('#destino').val('comprandopjpacote');"><span class="vermelho">Anuncie seu estoque</span></a> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="espaco"></div> 
+  </div> 
+  <iframe id="footer" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="100%" height="0" src="site-footer" onload="resizeIFrame(this, 70, 100)" style="display:none;"></iframe> 
+  <!-- MODAL CEP --> 
+  <div id="modalCep" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+   <button id="btnCloseCep" type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+   <div class="modal-body"> 
+    <div class="text-center modal-abraca"> 
+     <h1 class="vermelho bold size-23">Informe a sua localização</h1> 
+     <label id="lblCep" for="txtCep">Digite seu CEP</label> 
+     <div class="help-abraca"> 
+      <img id="cepErrorImg" data-toggle="tooltip" class="errorImg" src="imagens/exclam.png"> 
+      <input id="txtCep" type="text" class="input-medium marg-t-10 form-wid" placeholder="Ex. 00000-000"> 
+     </div> 
+     <br> 
+     <div id="messages" class="message"></div> 
+     <br> 
+     <div class="clearfix marg-t-10"></div> 
+     <a id="btnConsultarCep" href="javascript:void(0);" class="btn btn-warning"><span class="vermelho">Continuar</span></a> 
+     <div class="clearfix marg-t-10"></div> 
+     <a id="btnAbrirModalCidade" href="#modalCidadeEstado" onclick="prepareHideCepModal();" data-toggle="modal">ou escolha seu estado e cidade</a> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- MODAL CEP --> 
+  <!-- MODAL CIDADE --> 
+  <div id="modalCidadeEstado" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
+   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+   <div class="modal-body"> 
+    <div class="text-center modal-abraca"> 
+     <h1 class="vermelho bold size-23">Informe a sua localização</h1> 
+     <p>Os seus veículos serão expostos na cidade selecionada</p> 
+     <div class="col-left"> 
+      <label for="cmbEstados">Selecione um Estado</label> 
+      <select id="cmbEstados"> <option value="">Selecione</option> <option value="AC">Acre</option> <option value="AL">Alagoas</option> <option value="AP">Amapá</option> <option value="AM">Amazonas</option> <option value="BA">Bahia</option> <option value="CE">Ceará</option> <option value="DF">Distrito Federal</option> <option value="ES">Espírito Santo</option> <option value="GO">Goiás</option> <option value="MA">Maranhão</option> <option value="MT">Mato Grosso</option> <option value="MS">Mato Grosso do Sul</option> <option value="MG">Minas Gerais</option> <option value="PA">Pará</option> <option value="PB">Paraíba</option> <option value="PR">Paraná</option> <option value="PE">Pernambuco</option> <option value="PI">Piauí</option> <option value="RJ">Rio de Janeiro</option> <option value="RN">Rio Grande do Norte</option> <option value="RS">Rio Grande do Sul</option> <option value="RO">Rondônia</option> <option value="RR">Roraima</option> <option value="SC">Santa Catarina</option> <option value="SP">São Paulo</option> <option value="SE">Sergipe</option> <option value="TO">Tocantins</option> </select> 
+     </div> 
+     <div class="col-right"> 
+      <label for="cmbCidades">Selecione a Cidade</label> 
+      <select id="cmbCidades"> </select> 
+     </div> 
+     <div class="clearfix"></div> 
+     <div class="message" id="messages">
+      <span id="msgerro"></span>
+     </div> 
+     <div class="marg-t-10"></div> 
+     <a id="btnConsultarCidadePorUf" href="javascript:void(0);" class="btn btn-warning"><span class="vermelho">Continuar</span></a> 
+     <div class="clearfix marg-t-10"></div> 
+     <a id="btnConsultarPorCep" href="#modalCep" role="button" onclick="$('#modalCidadeEstado').modal('hide');" data-toggle="modal"></a>Ou digite o CEP 
+    </div> 
+   </div> 
+  </div> 
+  <!-- MODAL CIDADE --> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/bootstrap.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/jquery.mask.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-pj/mt-pj.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/extranet-comum/cartao.js?20170928135109"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/home.js?20170928135109"></script> 
+  <!-- habilitar all somente para producao
+        <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/loja/script/all.js?20170928135109"></script>
+         --> 
+  <div id="selenium" style="display: none;"> 
+   <input type="hidden" id="_viewId" value=""> 
+   <input type="hidden" id="_requestCount" value="894"> 
+  </div> 
+  <!--INICIO FOOTER DTM--> 
+  <script type="text/javascript">_satellite.pageBottom();</script> 
+  <!--FIM FOOTER DTM--> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"53101962","applicationTime":19,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"58f8833c15","transactionName":"YVBTYkRUWBFUUUNQV1gaYkJEQEIRdFFDUFdYGllZW1A=","agent":"","errorBeacon":"bam.nr-data.net"}</script>  
+ </body>
+</html>

@@ -1,0 +1,561 @@
+<!doctype html>
+<html>
+ <head> 
+  <title></title> 
+  <meta name="description" content=""> 
+  <meta charset="utf-8"> 
+  <meta name="siteinfo" content="robots.txt"> 
+  <meta name="revisit-after" content="1 weeks"> 
+  <meta name="robots" content="index,follow"> 
+  <meta name="language" content="pt-br"> 
+  <meta name="author" content="http://www.mixd.com.br"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="shortcut icon" href="/favicon.ico"> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> 
+  <link rel="canonical" href="http://carros-saopaulo-zc.temusados.com.br/particulares"> 
+  <link rel="index" title="" href="http://carros-saopaulo-zc.temusados.com.br/particulares"> 
+  <!--<frameset>
+<frame src="http://www.interiorcarro.com.br">
+</frameset>
+<noframes>Your browser does not support frames. Please click <a href="example.com"> here </a> to be redirected automatically </noframes> 
+<!-- This tag is required for old browsers. If browser does not support frames, end user will see a message indicated between <noframes>...</noframes> --> 
+  <!--[if IE]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create','UA-51639457-13','auto');
+ga('send','pageview');
+</script> 
+  <link href="/cache/css/css-cache-1463766974-31bd07ef206bd6654e265a3776af4191.css" rel="stylesheet" type="text/css"> 
+  <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>--> 
+  <!--<script type="text/javascript" src="/js/jquery.tools/jquery-1.6.4.min.js"></script>--> 
+  <script type="text/javascript" src="/js/jquery.tools/jquery-1.8.2.min.js"></script> 
+  <script type="text/javascript" src="/js/jquery.tools/jquery.tools.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.tools.gallery.js"></script> 
+  <script src="/js/jquery.tools/jquery.maskedinput-1.2.2.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.placeholder.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.tmpl.min.js"></script> 
+  <script src="/js/jquery.lazyload.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.maskMoney.js"></script> 
+  <script src="/js/jquery.tools/inicializa.js"></script> 
+  <script src="/js/jquery.openxtag.min.js"></script> 
+  <!--<script src="/js/opx_zones/rio-branco-openx-zones.js"></script>--> 
+  <script src="/js/opx_zones/carros-saopaulo-zc-openx-zones.js"></script> 
+  <script src="/js/opx_zones/global-openx-zones.js"></script> 
+  <!--script src="/js/jquery.tools/customInput.jquery.js"></script--> 
+  <script src="/js/AC_RunActiveContent.js"></script> 
+  <script type="text/javascript" src="http://ad.temusados.com.br/opx/www/delivery/spcjs.php?block=1"></script> 
+  <script src="https://www.google.com/recaptcha/api.js"></script> 
+ </head> 
+ <body> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-TR6C5M" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TR6C5M');</script> 
+  <!-- End Google Tag Manager --> 
+  <header> 
+   <div class="header-top"> 
+    <ul class="header-top-menu"> 
+     <li><a href="/" class="home">Carros Usados</a></li> 
+     <li><a href="/planos">Anuncie seu Veículo</a></li> 
+     <li><a href="/favoritos">Meus Carros Favoritos</a></li> 
+     <li><a href="/revendas">Revendas</a></li> 
+     <li><a href="/particulares">Particulares</a></li> 
+     <li><a href="/temusados">Quem Somos</a></li> 
+     <li><a href="/fale-conosco">Contato</a></li> 
+     <li><a href="/shopping">Produtos e Serviços</a></li> 
+     <li><a href="/login">Central do Cliente</a></li> 
+    </ul> 
+    <a href="/seja-um-franqueado" class="seja-um-franqueado">Seja um Franqueado</a> 
+   </div> 
+   <div class="wrapper clearfix"> 
+    <!-- logo --> 
+    <a href="http://carros-saopaulo-zc.temusados.com.br" title="Carros usados, seminovos e novos - Temusados" class="logo"><img src="/img/site/tem-usados.png" alt="Carros usados, seminovos e novos - Temusados"></a> 
+    <!-- regiao --> 
+    <form action="http://www.temusados.com.br/" method="" class="header-regiao-select"> 
+     <div></div> 
+     <div> 
+      <select name="" class="troca-regiao"> <option value="http://carros-riobranco.temusados.com.br/">AC - RIO BRANCO</option> <option value="http://carros-maceio.temusados.com.br/">AL - MACEIÓ</option> <option value="http://carros-manaus.temusados.com.br/">AM - MANAUS</option> <option value="http://carros-feiradesantana.temusados.com.br/">BA - FEIRA DE SANTANA</option> <option value="http://carros-salvador.temusados.com.br/">BA - SALVADOR</option> <option value="http://carros-fortaleza.temusados.com.br/">CE - FORTALEZA</option> <option value="http://carros-brasilia.temusados.com.br/">DF - BRASÍLIA</option> <option value="http://carros-vitoria.temusados.com.br/">ES - VITÓRIA</option> <option value="http://carros-goiania.temusados.com.br/">GO - GOIÂNIA</option> <option value="http://carros-imperatriz.temusados.com.br/">MA - IMPERATRIZ</option> <option value="http://carros-saoluis.temusados.com.br/">MA - SÃO LUIS</option> <option value="http://carros-araguari.temusados.com.br/">MG - ARAGUARI</option> <option value="http://carros-araxa.temusados.com.br/">MG - ARAXÁ</option> <option value="http://carros-belohorizonte.temusados.com.br/">MG - BELO HORIZONTE</option> <option value="http://carros-betim.temusados.com.br/">MG - BETIM</option> <option value="http://carros-parademinas.temusados.com.br/">MG - CENTRO OESTE</option> <option value="http://carros-contagem.temusados.com.br/">MG - CONTAGEM</option> <option value="http://carros-divinopolis.temusados.com.br/">MG - DIVINÓPOLIS</option> <option value="http://carros-formiga.temusados.com.br/">MG - FORMIGA</option> <option value="http://carros-itajuba.temusados.com.br/">MG - ITAJUBA</option> <option value="http://carros-ituiutaba.temusados.com.br/">MG - ITUIUTABA</option> <option value="http://carros-lavras.temusados.com.br/">MG - LAVRAS</option> <option value="http://carros-passos.temusados.com.br/">MG - PASSOS</option> <option value="http://carros-patosdeminas.temusados.com.br/">MG - PATOS DE MINAS</option> <option value="http://carros-pocosdecaldas.temusados.com.br/">MG - POÇOS DE CALDAS</option> <option value="http://carros-pousoalegre.temusados.com.br/">MG - POUSO ALEGRE</option> <option value="http://carros-uberaba.temusados.com.br/">MG - UBERABA</option> <option value="http://carros-uberlandia.temusados.com.br/">MG - UBERLÂNDIA</option> <option value="http://carros-varginha.temusados.com.br/">MG - VARGINHA</option> <option value="http://carros-manhuacu.temusados.com.br/">MG - ZONA DA MATA MINEIRA</option> <option value="http://carros-campogrande.temusados.com.br/">MS - CAMPO GRANDE</option> <option value="http://carros-cuiaba.temusados.com.br/">MT - CUIABA</option> <option value="http://carros-belem.temusados.com.br/">PA - BELÉM</option> <option value="http://carros-maraba.temusados.com.br/">PA - MARABÁ</option> <option value="http://carros-joaopessoa.temusados.com.br/">PB - JOÃO PESSOA</option> <option value="http://carros-petrolina.temusados.com.br/">PE - PETROLINA</option> <option value="http://carros-recife.temusados.com.br/">PE - RECIFE</option> <option value="http://carros-teresina.temusados.com.br/">PI - TERESINA</option> <option value="http://carros-curitiba.temusados.com.br/">PR - CURITIBA</option> <option value="http://carros-londrina.temusados.com.br/">PR - LONDRINA</option> <option value="http://carros-maringa.temusados.com.br/">PR - MARINGÁ</option> <option value="http://carros-cabofrio.temusados.com.br/">RJ - CABO FRIO</option> <option value="http://carros-duquedecaxias.temusados.com.br/">RJ - DUQUE DE CAXIAS</option> <option value="http://carros-macae.temusados.com.br/">RJ - MACAÉ</option> <option value="http://carros-niteroi.temusados.com.br/">RJ - NITERÓI</option> <option value="http://carros-novaiguacu.temusados.com.br/">RJ - NOVA IGUAÇU</option> <option value="http://carros-riodasostras.temusados.com.br/">RJ - RIO DAS OSTRAS</option> <option value="http://carros-riodejaneiro.temusados.com.br/">RJ - RIO DE JANEIRO</option> <option value="http://carros-natal.temusados.com.br/">RN - NATAL</option> <option value="http://carros-portovelho.temusados.com.br/">RO - PORTO VELHO</option> <option value="http://carros-canoas.temusados.com.br/">RS - CANOAS</option> <option value="http://carros-santoangelo.temusados.com.br/">RS - REGIÃO MISSÕES</option> <option value="http://carros-uruguaiana.temusados.com.br/">RS - URUGUAIANA</option> <option value="http://carros-florianopolis.temusados.com.br/">SC - FLORIANÓPOLIS</option> <option value="http://carros-aracaju.temusados.com.br/">SE - ARACAJU</option> <option value="http://carros-aracatuba.temusados.com.br/">SP - ARACATUBA</option> <option value="http://carros-limeira.temusados.com.br/">SP - ARARAS-S CARLOS-PIRASSUNUNGA</option> <option value="http://carros-santos.temusados.com.br/">SP - BAIXADA SANTISTA</option> <option value="http://carros-bauru.temusados.com.br/">SP - BAURU</option> <option value="http://carros-birigui.temusados.com.br/">SP - BIRIGUI</option> <option value="http://carros-campinas.temusados.com.br/">SP - CAMPINAS</option> <option value="http://carros-franca.temusados.com.br/">SP - FRANCA</option> <option value="http://carros-guarulhos.temusados.com.br/">SP - GUARULHOS</option> <option value="http://carros-indaiatuba.temusados.com.br/">SP - INDAIATUBA</option> <option value="http://carros-itu.temusados.com.br/">SP - ITU</option> <option value="http://carros-jundiai.temusados.com.br/">SP - JUNDIAI</option> <option value="http://carros-lins.temusados.com.br/">SP - LINS - PENAPOLIS</option> <option value="http://carros-marilia.temusados.com.br/">SP - MARÍLIA - OURINHOS</option> <option value="http://carros-osasco.temusados.com.br/">SP - OSASCO</option> <option value="http://carros-piracicaba.temusados.com.br/">SP - PIRACICABA</option> <option value="http://carros-presidenteprudente.temusados.com.br/">SP - PRES. PRUDENTE</option> <option value="http://carros-ribeiraopreto.temusados.com.br/">SP - RIBEIRÃO PRETO</option> <option value="http://carros-rioclaro.temusados.com.br/">SP - RIO CLARO-LIMEIRA-PIRACICABA</option> <option value="http://carros-riopreto.temusados.com.br/">SP - RIO PRETO</option> <option value="http://carros-saopaulo-zc.temusados.com.br/" selected>SP - SÃO PAULO</option> <option value="http://carros-sjriopreto.temusados.com.br/">SP - SJ. DO RIO PRETO</option> <option value="http://carros-sorocaba.temusados.com.br/">SP - SOROCABA</option> <option value="http://carros-taubate.temusados.com.br/">SP - TAUBATÉ</option> <option value="http://carros-palmas.temusados.com.br/">TO - PALMAS</option> </select> 
+     </div> 
+     <div> 
+      <button type="submit">Trocar</button> 
+     </div> 
+    </form> 
+    <!--banner full--> 
+    <div class="banner-full-topo"> 
+     <div class="opx-banner-8 banner-728x90" id="zone885"></div> 
+    </div> 
+   </div> 
+  </header> 
+  <section class="section"> 
+   <div class="wrap"> 
+    <div class="wrapper"> 
+     <!--menu esquerdo--> 
+     <div class="inc-busca hidden"></div> 
+     <aside class="menu-interno"> 
+      <div class="novaBusca track-event" data-event="Resultado Busca/Buscar/Nova Busca Internas"></div> 
+      <div class="menuInstitucional"> 
+       <span>Serviços</span> 
+       <ul class="institucional"> 
+        <li><a href="/noticias" title="Notícias de Carros">Notícias de Carros</a></li> 
+        <li><a href="/comparar-veiculos" title="Comparar Veículos">Comparar Veículos</a></li> 
+        <li><a href="/shopping" title="Shopping">Shopping</a></li> 
+       </ul> 
+       <span>Institucional</span> 
+       <ul class="institucional"> 
+        <li><a href="/fale-conosco" title="Fale Conosco">Fale Conosco</a></li> 
+        <li><a href="/temusados" title="Quem Somos">Quem Somos</a></li> 
+        <li><a href="/termos-uso" title="Termos de Uso">Termos de Uso</a></li> 
+        <!--<li><a href="/politica-privacidade" title="Política de Privacidade">Política de Privacidade</a></li>--> 
+        <li><a href="/cidades-atendidas" title="Cidades Atendidas">Cidades Atendidas</a></li> 
+        <!--<li><a href="/cod-defesa-consumidor" title="Cód. Defesa Consumidor">Cód. Defesa Consumidor</a></li>--> 
+       </ul> 
+       <!--servicos--> 
+       <aside class="servicos"> 
+        <span>Links</span> 
+        <ul> 
+         <li><a href="http://www.detran.rj.gov.br/" title="DETRAN RJ" target="_self" rel="nofollow">DETRAN RJ</a></li> 
+         <li><a href="http://www.fipe.org.br/web/index.asp?p=51&amp;aspx=/web/indices/veiculos/default.aspx" title="Tabela Fipe" target="_blank" rel="nofollow">Tabela Fipe</a></li> 
+         <li><a href="http://www.fipe.org.br/web/index.asp" title="Tabela FIPE" target="_blank" rel="nofollow">Tabela FIPE</a></li> 
+         <li><a href="http://www.ipva.fazenda.sp.gov.br/ipvanet/" title="IPVA - São Paulo" target="_blank" rel="nofollow">IPVA - São Paulo</a></li> 
+         <li><a href="www.facebook.com/temusados" title="No Facebook" target="_blank" rel="nofollow">No Facebook</a></li> 
+        </ul> 
+       </aside> 
+      </div> 
+     </aside> 
+     <section class="content interna institucional"> 
+      <!--header--> 
+      <header class="interna-header"> 
+       <!--titulos--> 
+       <hgroup> 
+        <h1>Destaques</h1> 
+       </hgroup> 
+       <!--breadcrumb--> 
+       <div class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+         Você está em » &nbsp; 
+        <!--<a href="/" itemprop="url" title="Temusados">
+                    	<span itemprop="title">Temusados</span>
+                    </a> >--> 
+        <a href="/destaques" title="Veículos em Destaque" itemprop="url"> <span itemprop="title">Destaques</span> </a> 
+       </div> 
+      </header> 
+      <!--block conteudo--> 
+      <section class="conteudo"> 
+       <section class="destaques"> 
+        <section class="resultadoBusca"> 
+         <!--conteudo--> 
+         <div class="ordenar">
+           Ordenar por: 
+          <input type="hidden" name="Ordenar_Link" class="revenda-ordenar-link" value="/destaques/?ordenar="> 
+          <select name="ordenar" class="revenda-ordenar"> <option value="destaque" class="revenda-ordenar option">Destaques</option> <option value="valor" class="revenda-ordenar option">Valor</option> <option value="ano" class="revenda-ordenar option">Ano</option> <option value="marca-modelo" class="revenda-ordenar option">Marca / Modelo</option> </select> 
+         </div> 
+        </section> 
+        <!--listagem--> 
+        <ul class="veiculos"> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/volkswagen/gol/2004/1174274" class="veiculo-detalhes" rel="/carro/volkswagen/gol/2004/1174274" title="GOL Preto 2004 - VOLKSWAGEN - Sorocaba cód.1174274"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_volkswagen-gol-preto-2004-201709054546.jpg" width="190" height="140" alt="GOL Preto 2004 - VOLKSWAGEN - Sorocaba cód.1174274"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/volkswagen/gol/2004/1174274" title="GOL Preto 2004 - VOLKSWAGEN - Sorocaba cód.1174274" class="veiculo-detalhes" rel="/carro/volkswagen/gol/2004/1174274">GOL 1.0 MI CITY 8V GASOLINA 2P MANUAL G.III</a></h2> 
+           <h3>Preto - 2004/2004 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 12.700
+           </div> 
+           <a href="#" class="add-favoritos" rel="1174274">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/chevrolet/corsa-sedan/2003/1174264" class="veiculo-detalhes" rel="/carro/chevrolet/corsa-sedan/2003/1174264" title="CORSA SEDAN Prata 2003 - CHEVROLET - Sorocaba cód.1174264"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_chevrolet-corsa-sedan-prata-2003-201709058601.jpg" width="190" height="140" alt="CORSA SEDAN Prata 2003 - CHEVROLET - Sorocaba cód.1174264"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/chevrolet/corsa-sedan/2003/1174264" title="CORSA SEDAN Prata 2003 - CHEVROLET - Sorocaba cód.1174264" class="veiculo-detalhes" rel="/carro/chevrolet/corsa-sedan/2003/1174264">CORSA SEDAN 1.0 MPFI CLASSIC SEDAN 8V GASOLINA 4P MANUAL</a></h2> 
+           <h3>Prata - 2003/2003 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 13.800
+           </div> 
+           <a href="#" class="add-favoritos" rel="1174264">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/renault/clio-hatch/2011/1163489" class="veiculo-detalhes" rel="/carro/renault/clio-hatch/2011/1163489" title="CLIO HATCH Prata 2011 - RENAULT - São Paulo cód.1163489"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_renault-clio-hatch-prata-2011-201708087567.jpg" width="190" height="140" alt="CLIO HATCH Prata 2011 - RENAULT - São Paulo cód.1163489"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/renault/clio-hatch/2011/1163489" title="CLIO HATCH Prata 2011 - RENAULT - São Paulo cód.1163489" class="veiculo-detalhes" rel="/carro/renault/clio-hatch/2011/1163489">CLIO HATCH 1.0 CAMPUS 16V FLEX 4P MANUAL</a></h2> 
+           <h3>Prata - 2010/2010 - Gasolina e álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 15.900
+           </div> 
+           <a href="#" class="add-favoritos" rel="1163489">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class="last"> 
+          <figure> 
+           <a href="/carro/chevrolet/celta/2006/1137685" class="veiculo-detalhes" rel="/carro/chevrolet/celta/2006/1137685" title="CELTA Vermelho 2006 - CHEVROLET - São Paulo cód.1137685"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_chevrolet-celta-vermelho-2006-201706054423.jpg" width="190" height="140" alt="CELTA Vermelho 2006 - CHEVROLET - São Paulo cód.1137685"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/chevrolet/celta/2006/1137685" title="CELTA Vermelho 2006 - CHEVROLET - São Paulo cód.1137685" class="veiculo-detalhes" rel="/carro/chevrolet/celta/2006/1137685">CELTA 1.0 MPFI SPIRIT 8V FLEX 4P MANUAL</a></h2> 
+           <h3>Vermelho - 2006/2006 - Gasolina e álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 16.500
+           </div> 
+           <a href="#" class="add-favoritos" rel="1137685">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/peugeot/307/2009/1177854" class="veiculo-detalhes" rel="/carro/peugeot/307/2009/1177854" title="307 Preto 2009 - PEUGEOT - São Paulo cód.1177854"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_peugeot-307-preto-2009-201709143949.jpg" width="190" height="140" alt="307 Preto 2009 - PEUGEOT - São Paulo cód.1177854"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/peugeot/307/2009/1177854" title="307 Preto 2009 - PEUGEOT - São Paulo cód.1177854" class="veiculo-detalhes" rel="/carro/peugeot/307/2009/1177854">307 1.6 PRESENCE PACK SEDAN 16V FLEX 4P MANUAL</a></h2> 
+           <h3>Preto - 2008/2008 - Gasolina e álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 18.900
+           </div> 
+           <a href="#" class="add-favoritos" rel="1177854">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/honda/civic/2012/1169956" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169956" title="CIVIC Prata 2012 - HONDA - Osasco cód.1169956"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_honda-civic-prata-2012-201708256124.jpg" width="190" height="140" alt="CIVIC Prata 2012 - HONDA - Osasco cód.1169956"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/honda/civic/2012/1169956" title="CIVIC Prata 2012 - HONDA - Osasco cód.1169956" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169956">CIVIC 1.8 LXL 16V FLEX 4P AUTOMÁTICO</a></h2> 
+           <h3>Prata - 2012/2012 - Gasolina e álcool</h3> 
+           <h4>Osasco</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 53.000
+           </div> 
+           <a href="#" class="add-favoritos" rel="1169956">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/ford/escort/1991/844124" class="veiculo-detalhes" rel="/carro/ford/escort/1991/844124" title="ESCORT Branco 1991 - FORD - São Paulo cód.844124"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_ford-escort-branco-1991-201602176029.jpg" width="190" height="140" alt="ESCORT Branco 1991 - FORD - São Paulo cód.844124"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/ford/escort/1991/844124" title="ESCORT Branco 1991 - FORD - São Paulo cód.844124" class="veiculo-detalhes" rel="/carro/ford/escort/1991/844124">ESCORT 1.8 XR3 CONVERSÍVEL 8V ÁLCOOL 2P MANUAL</a></h2> 
+           <h3>Branco - 1991/1991 - Álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 14.900
+           </div> 
+           <a href="#" class="add-favoritos" rel="844124">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class="last"> 
+          <figure> 
+           <a href="/carro/chevrolet/caravan/1979/1168936" class="veiculo-detalhes" rel="/carro/chevrolet/caravan/1979/1168936" title="CARAVAN Bege 1979 - CHEVROLET - Sorocaba cód.1168936"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_chevrolet-caravan-bege-1979-201708238634.jpg" width="190" height="140" alt="CARAVAN Bege 1979 - CHEVROLET - Sorocaba cód.1168936"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/chevrolet/caravan/1979/1168936" title="CARAVAN Bege 1979 - CHEVROLET - Sorocaba cód.1168936" class="veiculo-detalhes" rel="/carro/chevrolet/caravan/1979/1168936">CARAVAN 2.5 COMODORO 8V GASOLINA 2P MANUAL</a></h2> 
+           <h3>Bege - 1979/1979 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 17.000
+           </div> 
+           <a href="#" class="add-favoritos" rel="1168936">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/chevrolet/opala/1987/1109170" class="veiculo-detalhes" rel="/carro/chevrolet/opala/1987/1109170" title="OPALA Azul 1987 - CHEVROLET - Sorocaba cód.1109170"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_chevrolet-opala-azul-1987-201703249536.jpg" width="190" height="140" alt="OPALA Azul 1987 - CHEVROLET - Sorocaba cód.1109170"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/chevrolet/opala/1987/1109170" title="OPALA Azul 1987 - CHEVROLET - Sorocaba cód.1109170" class="veiculo-detalhes" rel="/carro/chevrolet/opala/1987/1109170">OPALA 4.1 DIPLOMATA 12V ÁLCOOL 4P AUTOMÁTICO</a></h2> 
+           <h3>Azul - 1986/1986 - Álcool</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 19.000
+           </div> 
+           <a href="#" class="add-favoritos" rel="1109170">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/ford/escort/1988/277597" class="veiculo-detalhes" rel="/carro/ford/escort/1988/277597" title="ESCORT Preto 1988 - FORD - Sorocaba cód.277597"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_ford-escort-preto-1988-201409172486.jpg" width="190" height="140" alt="ESCORT Preto 1988 - FORD - Sorocaba cód.277597"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/ford/escort/1988/277597" title="ESCORT Preto 1988 - FORD - Sorocaba cód.277597" class="veiculo-detalhes" rel="/carro/ford/escort/1988/277597">ESCORT 1.6 XR3 CONVERSÍVEL 8V ÁLCOOL 2P MANUAL</a></h2> 
+           <h3>Preto - 1987/1987 - Álcool</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 24.990
+           </div> 
+           <a href="#" class="add-favoritos" rel="277597">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/chevrolet/opala/1990/936663" class="veiculo-detalhes" rel="/carro/chevrolet/opala/1990/936663" title="OPALA Azul 1990 - CHEVROLET - Sorocaba cód.936663"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_chevrolet-opala-azul-1990-201606086200.jpg" width="190" height="140" alt="OPALA Azul 1990 - CHEVROLET - Sorocaba cód.936663"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/chevrolet/opala/1990/936663" title="OPALA Azul 1990 - CHEVROLET - Sorocaba cód.936663" class="veiculo-detalhes" rel="/carro/chevrolet/opala/1990/936663">OPALA 4.1 COMODORO SL/E 12V GASOLINA 4P MANUAL</a></h2> 
+           <h3>Azul - 1990/1990 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 26.990
+           </div> 
+           <a href="#" class="add-favoritos" rel="936663">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class="last"> 
+          <figure> 
+           <a href="/carro/jac/j2/2014/1178418" class="veiculo-detalhes" rel="/carro/jac/j2/2014/1178418" title="J2 Vermelho 2014 - JAC - Sorocaba cód.1178418"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_jac-j2-vermelho-2014-201709168709.jpg" width="190" height="140" alt="J2 Vermelho 2014 - JAC - Sorocaba cód.1178418"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/jac/j2/2014/1178418" title="J2 Vermelho 2014 - JAC - Sorocaba cód.1178418" class="veiculo-detalhes" rel="/carro/jac/j2/2014/1178418">J2 1.4 16V GASOLINA 4P MANUAL</a></h2> 
+           <h3>Vermelho - 2014/2014 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 27.900
+           </div> 
+           <a href="#" class="add-favoritos" rel="1178418">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/volkswagen/new-beetle/2008/850957" class="veiculo-detalhes" rel="/carro/volkswagen/new-beetle/2008/850957" title="NEW BEETLE Prata 2008 - VOLKSWAGEN - Sorocaba cód.850957"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_volkswagen-new-beetle-prata-2008-201602247552.jpg" width="190" height="140" alt="NEW BEETLE Prata 2008 - VOLKSWAGEN - Sorocaba cód.850957"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/volkswagen/new-beetle/2008/850957" title="NEW BEETLE Prata 2008 - VOLKSWAGEN - Sorocaba cód.850957" class="veiculo-detalhes" rel="/carro/volkswagen/new-beetle/2008/850957">NEW BEETLE 2.0 MI 8V GASOLINA 2P AUTOMÁTICO</a></h2> 
+           <h3>Prata - 2008/2008 - Gasolina</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 35.900
+           </div> 
+           <a href="#" class="add-favoritos" rel="850957">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/honda/civic/2012/1169844" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169844" title="CIVIC Prata 2012 - HONDA - São Paulo cód.1169844"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_honda-civic-prata-2012-201708245102.jpg" width="190" height="140" alt="CIVIC Prata 2012 - HONDA - São Paulo cód.1169844"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/honda/civic/2012/1169844" title="CIVIC Prata 2012 - HONDA - São Paulo cód.1169844" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169844">CIVIC 1.8 LXL 16V FLEX 4P AUTOMÁTICO</a></h2> 
+           <h3>Prata - 2012/2012 - Gasolina e álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 53.000
+           </div> 
+           <a href="#" class="add-favoritos" rel="1169844">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class=""> 
+          <figure> 
+           <a href="/carro/honda/civic/2012/1169949" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169949" title="CIVIC Prata 2012 - HONDA - São Paulo cód.1169949"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_honda-civic-prata-2012-201708256154.jpg" width="190" height="140" alt="CIVIC Prata 2012 - HONDA - São Paulo cód.1169949"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/honda/civic/2012/1169949" title="CIVIC Prata 2012 - HONDA - São Paulo cód.1169949" class="veiculo-detalhes" rel="/carro/honda/civic/2012/1169949">CIVIC 1.8 LXL 16V FLEX 4P AUTOMÁTICO</a></h2> 
+           <h3>Prata - 2012/2012 - Gasolina e álcool</h3> 
+           <h4>São Paulo</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 53.000
+           </div> 
+           <a href="#" class="add-favoritos" rel="1169949">Adicionar aos Favoritos</a> 
+          </section> </li> 
+         <li class="last"> 
+          <figure> 
+           <a href="/carro/fiat/strada/2016/1158851" class="veiculo-detalhes" rel="/carro/fiat/strada/2016/1158851" title="STRADA Vermelho 2016 - FIAT - Sorocaba cód.1158851"> <img class="lazy" src="/img/ph.gif" data-original="/cache/img/190/140/12/31/190_140_fiat-strada-vermelho-2016-201707272805.jpg" width="190" height="140" alt="STRADA Vermelho 2016 - FIAT - Sorocaba cód.1158851"> </a> 
+          </figure> 
+          <section> 
+           <h2><a href="/carro/fiat/strada/2016/1158851" title="STRADA Vermelho 2016 - FIAT - Sorocaba cód.1158851" class="veiculo-detalhes" rel="/carro/fiat/strada/2016/1158851">STRADA 1.8 MPI ADVENTURE CD 16V FLEX 3P MANUAL</a></h2> 
+           <h3>Vermelho - 2015/2015 - Gasolina e álcool</h3> 
+           <h4>Sorocaba</h4> 
+           <div class="valor">
+            <span>Valor:&nbsp; R$</span> 59.800
+           </div> 
+           <a href="#" class="add-favoritos" rel="1158851">Adicionar aos Favoritos</a> 
+          </section> </li> 
+        </ul> 
+        <div class="produto-banner-rodape"> 
+         <div class="banner-rodape-internas"> 
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+          <!-- Internas Extra - Rodape - 728x90 --> 
+          <ins class="adsbygoogle" style="display:inline-block;width:728px;height:90px" data-ad-client="ca-pub-9276687655313787" data-ad-slot="3550844081"></ins> 
+          <script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script> 
+         </div> 
+        </div> 
+        <div class="paginacaoCont"> 
+         <table cellspacing="0" cellpadding="0" border="0" align="center"> 
+          <tbody> 
+           <tr> 
+            <td>
+             <div class="paginacaoItem1"> 
+              <img hspace="0" height="23" width="23" border="0" align="top" alt="primeira" src="/img/seta-primeiro.gif">
+             </div></td> 
+            <td>
+             <div class="paginacaoItem1"> 
+              <img hspace="0" height="23" width="23" border="0" align="top" alt="anterior" src="/img/seta-anterior.gif">
+             </div></td>
+            <td>
+             <div class="paginacaoItem2_on">
+              1
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=2">2</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=3">3</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=4">4</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=5">5</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=6">6</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=7">7</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=8">8</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=9">9</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=10">10</a>
+             </div></td>
+            <td>
+             <div class="paginacaoItem2">
+              <a href="/particulares/?p=11">11</a>
+             </div></td> 
+            <td>
+             <div class="paginacaoItem1">
+              <a href="/particulares/?p=2"><img hspace="0" height="23" width="23" border="0" align="top" alt="próxima" src="/img/seta-proximo.gif"></a>
+             </div></td> 
+            <td>
+             <div class="paginacaoItem1">
+              <a href="/particulares/?p=15"><img hspace="0" height="23" width="23" border="0" align="top" alt="última" src="/img/seta-ultimo.gif"></a>
+             </div></td> 
+           </tr> 
+          </tbody> 
+         </table> 
+        </div> 
+       </section> 
+      </section> 
+     </section> 
+    </div> 
+    <div class="ad-shopping ad-buscar margin-top-135"> 
+     <header>
+       Shopping 
+     </header> 
+     <section> 
+      <ul> 
+      </ul> 
+     </section> 
+     <br>
+     <br> 
+     <header>
+       Publicidade 
+     </header> 
+     <section> 
+      <ul> 
+      </ul>  
+     </section>
+    </div> 
+   </div> 
+  </section> 
+  <div class="ad-right-1"> 
+   <div class="opx-banner-23 banner-180x90" id="zone2382"></div> 
+  </div> 
+  <div class="ad-right-2"> 
+   <div class="opx-banner-24 banner-180x90" id="zone2465"></div> 
+  </div> 
+  <div class="ad-right-2" style="margin-top:100px;"> 
+   <div class="opx-banner-25 banner-180x90" id="zone253"></div> 
+  </div> 
+  <footer> 
+   <div class="base-footer"> 
+    <ul class="base-footer-r1"> 
+     <li> <img src="/img/site/base-footer-logo.png" alt=""> </li> 
+     <li> O Temusados.com.br é o site de classificados de carros, motos e caminhões online. É um dos mais completos sites de veículos da internet brasileira, trazendo ofertas de carros, motos e caminhões. Aqui você encontra diversas opções para comprar ou vender seu veículo, além de encontrar serviços especializados para seu carro. </li> 
+    </ul> 
+    <ul class="base-footer-r2"> 
+     <li> 
+      <div> 
+       <span>Horário de atendimento</span> Segunda à Sexta - 09:00 às 17:00h 
+      </div> </li> 
+     <li> <span>Redes Sociais</span> 
+      <!-- AddThis Button BEGIN --> 
+      <div class="social"> 
+       <div>
+        <fb:like href="https://www.facebook.com/temusados" layout="button_count" show_faces="false" class="curtir"></fb:like>
+        <script src="http://connect.facebook.net/pt_BR/all.js#xfbml=1"></script>
+       </div> 
+       <div>
+        <g:plusone size="medium" href="http://temusados.com.br"></g:plusone>
+       </div> 
+       <div>
+        <a href="https://twitter.com/temusados" class="twitter-follow-button" data-show-count="false" data-lang="pt" data-show-screen-name="false">Seguir @temusados</a>
+       </div> 
+      </div> 
+      <!-- AddThis Button END --> <span>Compartilhe o Temusados nas redes sociais</span> </li> 
+     <li> <span>Formas de Pagamento</span> <img src="/img/site/base-footer-formas-de-pagamento.png" alt=""> <span>Utilizamos o PagSeguro para transações</span> </li> 
+    </ul> 
+    <div class="base-footer-r3">
+      O parceiro que anuncia nesta página é o único responsável pelas transações comerciais que realizar com usuários do site Temusados.com.br. 
+     <br> A comercialização do produto anunciado, bem como a garantia de sua legítima procedência, é de inteira responsabilidade do anunciante, não sendo o Temusados responsável por quaisquer danos diretos e/ou indiretos causados a terceiros, advindos da exibição dos anúncios em desacordo com o Código de Defesa do Consumidor e outras legislações aplicáveis ao comércio e/ou prestação de serviços, por parte do anunciante. 
+    </div> 
+    <ul class="base-footer-r4"> 
+     <li> TemUsados.com.br ® Todos os direitos reservados <span>
+       <!--|</span>  <a href="http://www.mixd.com.br">Desenvolvido por Mixd Internet</a>--> </span></li> 
+     <li> <span>Velocidade e álcool, combinação fatal.</span> </li> 
+    </ul> 
+   </div> 
+  </footer> 
+  <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script> 
+  <!--facebook--> 
+  <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=448575705189478";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> 
+  <!--twitter--> 
+  <script>!function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (!d.getElementById(id)) {
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }
+        }(document, "script", "twitter-wjs");</script> 
+  <!--google button--> 
+  <!-- Place this render call where appropriate --> 
+  <script type="text/javascript">
+        window.___gcfg = {lang: 'pt-BR'};
+
+        (function() {
+            var po = document.createElement('script');
+            po.type = 'text/javascript';
+            po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(po, s);
+        })();
+    </script>  
+ </body>
+</html>

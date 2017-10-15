@@ -1,0 +1,356 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <title>Barigui - Comprar Veículos Seminovos</title> 
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"> 
+  <base href="http://www.bariguiseminovos.com.br/"> 
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.bariguiseminovos.com.br/m/"> 
+  <meta name="description" content="Seminovos de qualidade e garantia de procedência é aqui. Fale com nossos vendedores em Curitiba, Blumenau, Itajai e Balneário Camboriú."> 
+  <meta name="keywords" content="Seminovos, Carros usados, Grupo Barigui, Curitiba, Campo Largo, São José dos Pinhais, Blumenau, Joinville, Florianópolis, Itajaí, Londrina, Maringá"> 
+  <meta name="robots" content="index, follow"> 
+  <!-- TODO: favicon
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	--> 
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.history.js"></script> 
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+  <script type="text/javascript" src="js/jcarousel.responsive.js"></script> 
+  <script type="text/javascript" src="js/comum.js"></script> 
+  <script type="text/javascript" src="js/app.js"></script> 
+  <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css"> 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css"> 
+  <link rel="stylesheet" type="text/css" href="css/barigui.css"> 
+  <script type="text/javascript" src="js/chat-barigui.js"></script> 
+  <script type="text/javascript" src="js/analytics-barigui.js"></script> 
+  <script type="text/javascript">
+		var modrewrite = true	</script> 
+ </head> 
+ <body> 
+  <div class="b-menu"> 
+   <div class="menu"> 
+    <ul> 
+     <li><a href="http://www.bariguiseminovos.com.br/institucional" title="Institucional">INSTITUCIONAL</a></li> 
+     <li><a href="http://institutobarigui.org.br/" target="blank" title="Instituto Barigui">INSTITUTO BARIGÜI</a></li> 
+     <li><a href="https://bariguicdt.elancers.net/frames/barigui/frame_geral.asp" target="blank" title="Trabalhe conosco">TRABALHE CONOSCO</a></li> 
+     <li><a href="http://www.bariguiseminovos.com.br/contato" title="contato">CONTATO</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <div class="b-topo"> 
+   <div class="topo"> 
+    <div class="logo"> 
+     <img src="imagens/logo-barigui.png" alt="Barigui" title="Barigui"> 
+     <!--img src="imagens/logo-seminovos.png" alt="Grupo Barigui" title="Grupo Barigui" /--> 
+    </div> 
+    <form name="f-buscar" id="f-buscar" method="post"> 
+     <div class="form-busca"> 
+      <input class="pesquisa" id="t-buscar" name="t-buscar" type="text"> 
+      <input type="submit" name="s-buscar" value="Buscar" class="bt-azul-buscar"> 
+     </div> 
+     <div class="regiao"> 
+      <div id="primary_nav_wrap"> 
+       <ul> 
+        <li><a href="javascript:void(0);" class="ordenar">Buscar em:</a> 
+         <ul> 
+          <li><a href="index/regiao/curitiba-e-regiao" title="Curitiba e Região">Curitiba e Região</a></li> 
+          <li><a href="index/regiao/florianopolis" title="Florianópolis">Florianópolis</a></li> 
+          <li><a href="index/regiao/guarapuava" title="Guarapuava">Guarapuava</a></li> 
+          <li><a href="index/regiao/itajai-e-blumenau" title="Itajaí e Blumenau">Itajaí e Blumenau</a></li> 
+          <li><a href="index/regiao/joinville" title="Joinville">Joinville</a></li> 
+          <li><a href="index/regiao/londrina-e-maringa" title="Londrina e Maringá">Londrina e Maringá</a></li> 
+          <li><a href="index/regiao/ponta-grossa" title="Ponta Grossa">Ponta Grossa</a></li> 
+         </ul> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </form> 
+   </div> 
+  </div> 
+  <div class="b-conteudo"> 
+   <div class="conteudo"> 
+    <div class="banners"> 
+     <a href="http://www.grupobarigui.com.br/bariguiseminovos/"><img src="http://www.bariguiseminovos.com.br/banners/BANNER-SITE-HIPERSHOW_SETEMBRO.JPG" width="1050px"></a> 
+    </div> 
+    <div class="topo-conteudo"> 
+     <h2 class="destaque">Destaques da semana</h2> 
+     <a href="veiculos/" class="todo-estoque" title="Ver todo estoque" id="todo-estoque">Ver todo o estoque</a> 
+    </div> 
+    <div class="jcarousel-wrapper"> 
+     <div class="jcarousel"> 
+      <ul> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/duster-tech-road-20-16v-at-hiflex-1473c08" title="DUSTER TECH ROAD 2.0 16V AT HIFLEX" class="carro"> <img alt="DUSTER TECH ROAD 2.0 16V AT HIFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_AYF9103-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/duster-tech-road-20-16v-at-hiflex-1473c08" title="DUSTER TECH ROAD 2.0 16V AT HIFLEX">DUSTER TECH ROAD 2.0 16V AT HIFLEX</a></p> 
+         <p class="info">2014</p> 
+         <p class="info">56.627km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$47.900</p> 
+          <a href="detalhe/usado/duster-tech-road-20-16v-at-hiflex-1473c08" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/palio-essence-16-16v-flex-263d8cc" title="PALIO ESSENCE 1.6 16V FLEX" class="carro"> <img alt="PALIO ESSENCE 1.6 16V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_QHX7434-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/palio-essence-16-16v-flex-263d8cc" title="PALIO ESSENCE 1.6 16V FLEX">PALIO ESSENCE 1.6 16V FLEX</a></p> 
+         <p class="info">2016</p> 
+         <p class="info">4.756km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$42.500</p> 
+          <a href="detalhe/usado/palio-essence-16-16v-flex-263d8cc" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/idea-essence-16-16v-dual-flex-2639644" title="IDEA ESSENCE 1.6 16V DUAL FLEX" class="carro"> <img alt="IDEA ESSENCE 1.6 16V DUAL FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_AWA7573-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/idea-essence-16-16v-dual-flex-2639644" title="IDEA ESSENCE 1.6 16V DUAL FLEX">IDEA ESSENCE 1.6 16V DUAL FLEX</a></p> 
+         <p class="info">2013</p> 
+         <p class="info">61.492km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$33.900</p> 
+          <a href="detalhe/usado/idea-essence-16-16v-dual-flex-2639644" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/versa-sl-16-16v-flexfuel-143d41e" title="VERSA SL 1.6 16V FLEXFUEL" class="carro"> <img alt="VERSA SL 1.6 16V FLEXFUEL" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_MKA4984-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/versa-sl-16-16v-flexfuel-143d41e" title="VERSA SL 1.6 16V FLEXFUEL">VERSA SL 1.6 16V FLEXFUEL</a></p> 
+         <p class="info">2013</p> 
+         <p class="info">68.039km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$31.500</p> 
+          <a href="detalhe/usado/versa-sl-16-16v-flexfuel-143d41e" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/hb20-comfort-plus-16-16v-flex-14d7ffc" title="HB20 COMFORT PLUS 1.6 16V FLEX" class="carro"> <img alt="HB20 COMFORT PLUS 1.6 16V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_AXK3952-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/hb20-comfort-plus-16-16v-flex-14d7ffc" title="HB20 COMFORT PLUS 1.6 16V FLEX">HB20 COMFORT PLUS 1.6 16V FLEX</a></p> 
+         <p class="info">2014</p> 
+         <p class="info">32.600km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$36.900</p> 
+          <a href="detalhe/usado/hb20-comfort-plus-16-16v-flex-14d7ffc" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/idea-attractive-14-8v-flex-147216a" title="IDEA ATTRACTIVE 1.4 8V FLEX" class="carro"> <img alt="IDEA ATTRACTIVE 1.4 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_MJT3340-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/idea-attractive-14-8v-flex-147216a" title="IDEA ATTRACTIVE 1.4 8V FLEX">IDEA ATTRACTIVE 1.4 8V FLEX</a></p> 
+         <p class="info">2014</p> 
+         <p class="info">77.234km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$30.900</p> 
+          <a href="detalhe/usado/idea-attractive-14-8v-flex-147216a" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/cobalt-ltz-14-8v-econoflex-14c7872" title="COBALT LTZ 1.4 8V ECONOFLEX" class="carro"> <img alt="COBALT LTZ 1.4 8V ECONOFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_MKZ3634-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/cobalt-ltz-14-8v-econoflex-14c7872" title="COBALT LTZ 1.4 8V ECONOFLEX">COBALT LTZ 1.4 8V ECONOFLEX</a></p> 
+         <p class="info">2014</p> 
+         <p class="info">94.138km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$34.900</p> 
+          <a href="detalhe/usado/cobalt-ltz-14-8v-econoflex-14c7872" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/logan-expression-nserie-16-8v-easyr-hipower-flex-14bd630" title="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V EASYR HIPOWER FLEX" class="carro"> <img alt="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V EASYR HIPOWER FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_PWJ9475-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/logan-expression-nserie-16-8v-easyr-hipower-flex-14bd630" title="LOGAN EXPRESSION NOVA SÉRIE 1.6 8V EASYR HIPOWER FLEX">LOGAN EXPRESSION NOVA SÉRIE 1.6 8V EASYR HIPOWER FLEX</a></p> 
+         <p class="info">2016</p> 
+         <p class="info">39.537km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$43.000</p> 
+          <a href="detalhe/usado/logan-expression-nserie-16-8v-easyr-hipower-flex-14bd630" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/versa-sl-16-16v-flexfuel-142cba2" title="VERSA SL 1.6 16V FLEXFUEL" class="carro"> <img alt="VERSA SL 1.6 16V FLEXFUEL" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_MJM0161-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/versa-sl-16-16v-flexfuel-142cba2" title="VERSA SL 1.6 16V FLEXFUEL">VERSA SL 1.6 16V FLEXFUEL</a></p> 
+         <p class="info">2012</p> 
+         <p class="info">87.492km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$29.900</p> 
+          <a href="detalhe/usado/versa-sl-16-16v-flexfuel-142cba2" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+       <li> 
+        <div class="lista-destaques"> 
+         <a href="detalhe/usado/duster-expression-16-16v-hiflex-14a4b28" title="DUSTER EXPRESSION 1.6 16V HIFLEX" class="carro"> <img alt="DUSTER EXPRESSION 1.6 16V HIFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_PUX7076-02.JPG" width="235px" class="crop"> </a> 
+         <p class="titulo"><a href="detalhe/usado/duster-expression-16-16v-hiflex-14a4b28" title="DUSTER EXPRESSION 1.6 16V HIFLEX">DUSTER EXPRESSION 1.6 16V HIFLEX</a></p> 
+         <p class="info">2015</p> 
+         <p class="info">73.589km</p> 
+         <div class="quebra"></div> 
+         <div class="seta-valor"> 
+          <img src="imagens/seta-valor.jpg"> 
+         </div> 
+         <div class="valor"> 
+          <p>R$50.614</p> 
+          <a href="detalhe/usado/duster-expression-16-16v-hiflex-14a4b28" title="Mais informações" class="bt-verde">Mais informações</a> 
+         </div> 
+        </div> </li> 
+      </ul> 
+     </div> 
+     <a href="#" class="jcarousel-control-prev">‹</a> 
+     <a href="#" class="jcarousel-control-next">›</a> 
+     <p class="jcarousel-pagination"></p> 
+    </div> 
+    <h2>Marcas</h2> 
+    <ul class="lista-marcas"> 
+     <li><a href="veiculos/marca/fiat" title="Fiat"><img src="imagens/logo-fiat.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/ford" title="Ford"><img src="imagens/logo-ford.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/volkswagen" title="Volkswagen"><img src="imagens/logo-volkswagen.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/renault" title="Renault"><img src="imagens/logo-renault.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/toyota" title="Toyota"><img src="imagens/logo-toyota.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/hyundai" title="Hyundai"><img src="imagens/logo-hyundai.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/nissan" title="Nissan"><img src="imagens/logo-nissan.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/kia" title="Kia"><img src="imagens/logo-kia.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/chevrolet" title="Chevrolet"><img src="imagens/logo-chevrolet.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/bmw" title="BMW"><img src="imagens/logo-bmw.jpg" width="80px;"></a></li> 
+     <li><a href="veiculos/marca/honda" title="Honda"><img src="imagens/logo-honda.jpg" width="80px;"></a></li> 
+    </ul> 
+    <h3>Ofertas para você</h3> 
+    <div class="lista-geral"> 
+     <div class="lista-ofertas"> 
+      <a href="detalhe/usado/sandero-stepway-nserie-16-8v-hiflex-146d108" title="SANDERO STEPWAY NOVA SÉRIE 1.6 8V HIFLEX" class="carro"> <img alt="SANDERO STEPWAY NOVA SÉRIE 1.6 8V HIFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_AXT2599-02.JPG" width="185px" class="crop2"> </a> 
+      <ul> 
+       <li><a href="detalhe/usado/sandero-stepway-nserie-16-8v-hiflex-146d108" title="SANDERO STEPWAY NOVA SÉRIE 1.6 8V HIFLEX">SANDERO STEPWAY NOVA SÉRIE 1.6 8V HIFLEX</a></li> 
+       <li>2014</li> 
+       <li>102.353km</li> 
+      </ul> 
+      <div class="seta-valor"> 
+       <img src="imagens/seta-valor.jpg"> 
+      </div> 
+      <div class="valor"> 
+       <p>R$35.000</p> 
+       <a href="detalhe/usado/sandero-stepway-nserie-16-8v-hiflex-146d108" title="Mais informações" class="bt-verde">Mais informações</a> 
+      </div> 
+     </div> 
+     <div class="lista-ofertas"> 
+      <a href="detalhe/usado/kangoo-express-16-16v-hiflex-140e3a2" title="KANGOO EXPRESS 1.6 16V HIFLEX" class="carro"> <img alt="KANGOO EXPRESS 1.6 16V HIFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_ATR9412-02.JPG" width="185px" class="crop2"> </a> 
+      <ul> 
+       <li><a href="detalhe/usado/kangoo-express-16-16v-hiflex-140e3a2" title="KANGOO EXPRESS 1.6 16V HIFLEX">KANGOO EXPRESS 1.6 16V HIFLEX</a></li> 
+       <li>2011</li> 
+       <li>106.219km</li> 
+      </ul> 
+      <div class="seta-valor"> 
+       <img src="imagens/seta-valor.jpg"> 
+      </div> 
+      <div class="valor"> 
+       <p>R$22.500</p> 
+       <a href="detalhe/usado/kangoo-express-16-16v-hiflex-140e3a2" title="Mais informações" class="bt-verde">Mais informações</a> 
+      </div> 
+     </div> 
+     <div class="lista-ofertas"> 
+      <a href="detalhe/usado/fox-g2-10-8v-flex-13fdbc6" title="FOX  G2 1.0 8V FLEX" class="carro"> <img alt="FOX  G2 1.0 8V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_MGZ4878-02.JPG" width="185px" class="crop2"> </a> 
+      <ul> 
+       <li><a href="detalhe/usado/fox-g2-10-8v-flex-13fdbc6" title="FOX  G2 1.0 8V FLEX">FOX G2 1.0 8V FLEX</a></li> 
+       <li>2011</li> 
+       <li>71.258km</li> 
+      </ul> 
+      <div class="seta-valor"> 
+       <img src="imagens/seta-valor.jpg"> 
+      </div> 
+      <div class="valor"> 
+       <p>R$25.675</p> 
+       <a href="detalhe/usado/fox-g2-10-8v-flex-13fdbc6" title="Mais informações" class="bt-verde">Mais informações</a> 
+      </div> 
+     </div> 
+     <div class="lista-ofertas"> 
+      <a href="detalhe/usado/palio-attractive-10-8v-evo-flex-1491482" title="PALIO ATTRACTIVE 1.0 8V EVO FLEX" class="carro"> <img alt="PALIO ATTRACTIVE 1.0 8V EVO FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_OKH2848-02.JPG" width="185px" class="crop2"> </a> 
+      <ul> 
+       <li><a href="detalhe/usado/palio-attractive-10-8v-evo-flex-1491482" title="PALIO ATTRACTIVE 1.0 8V EVO FLEX">PALIO ATTRACTIVE 1.0 8V EVO FLEX</a></li> 
+       <li>2015</li> 
+       <li>41.038km</li> 
+      </ul> 
+      <div class="seta-valor"> 
+       <img src="imagens/seta-valor.jpg"> 
+      </div> 
+      <div class="valor"> 
+       <p>R$29.900</p> 
+       <a href="detalhe/usado/palio-attractive-10-8v-evo-flex-1491482" title="Mais informações" class="bt-verde">Mais informações</a> 
+      </div> 
+     </div> 
+     <div class="lista-ofertas"> 
+      <a href="detalhe/usado/punto-evo-blackmotion-18-16v-flex-263574e" title="PUNTO EVO BLACKMOTION 1.8 16V FLEX" class="carro"> <img alt="PUNTO EVO BLACKMOTION 1.8 16V FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/600px_BAD9116-02.JPG" width="185px" class="crop2"> </a> 
+      <ul> 
+       <li><a href="detalhe/usado/punto-evo-blackmotion-18-16v-flex-263574e" title="PUNTO EVO BLACKMOTION 1.8 16V FLEX">PUNTO EVO BLACKMOTION 1.8 16V FLEX</a></li> 
+       <li>2016</li> 
+       <li>46.101km</li> 
+      </ul> 
+      <div class="seta-valor"> 
+       <img src="imagens/seta-valor.jpg"> 
+      </div> 
+      <div class="valor"> 
+       <p>R$51.000</p> 
+       <a href="detalhe/usado/punto-evo-blackmotion-18-16v-flex-263574e" title="Mais informações" class="bt-verde">Mais informações</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="quebra"></div> 
+    <!--
+			<h3>Mais vistos</h3>
+			<ul class="lista-marcas">
+							<li><a href="veiculos/busca/Fiat+Palio" title="Fiat Palio">Fiat Palio</a></li>
+							<li><a href="veiculos/busca/Renault+Sandero" title="Renault Sandero">Renault Sandero</a></li>
+							<li><a href="veiculos/busca/Hyundai+HB20" title="Hyundai HB20">Hyundai HB20</a></li>
+							<li><a href="veiculos/busca/Fiat+Uno+Evo" title="Fiat Uno Evo">Fiat Uno Evo</a></li>
+							<li><a href="veiculos/busca/Volkswagen+Fox" title="Volkswagen Fox">Volkswagen Fox</a></li>
+							<li><a href="veiculos/busca/Volkswagen+Gol" title="Volkswagen Gol">Volkswagen Gol</a></li>
+							<li><a href="veiculos/busca/Renault+Duster" title="Renault Duster">Renault Duster</a></li>
+							<li><a href="veiculos/busca/Ford+New+Ecosport" title="Ford New Ecosport">Ford New Ecosport</a></li>
+							<li><a href="veiculos/busca/Renault+Logan" title="Renault Logan">Renault Logan</a></li>
+							<li><a href="veiculos/busca/Chevrolet+Onix" title="Chevrolet Onix">Chevrolet Onix</a></li>
+							<li><a href="veiculos/busca/Toyota+Corolla" title="Toyota Corolla">Toyota Corolla</a></li>
+							<li><a href="veiculos/busca/Fiat+Siena" title="Fiat Siena">Fiat Siena</a></li>
+							<li><a href="veiculos/busca/Ford+Ka" title="Ford Ka">Ford Ka</a></li>
+							<li><a href="veiculos/busca/Fiat+Idea" title="Fiat Idea">Fiat Idea</a></li>
+							<li><a href="veiculos/busca/Renault+Clio" title="Renault Clio">Renault Clio</a></li>
+							<li><a href="veiculos/busca/Fiat+Grand+Siena" title="Fiat Grand Siena">Fiat Grand Siena</a></li>
+							<li><a href="veiculos/busca/Fiat+Bravo" title="Fiat Bravo">Fiat Bravo</a></li>
+							<li><a href="veiculos/busca/Hyundai+HB20S" title="Hyundai HB20S">Hyundai HB20S</a></li>
+						</ul>
+			--> 
+   </div> 
+  </div>   
+ </body>
+</html>

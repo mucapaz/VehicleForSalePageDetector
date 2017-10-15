@@ -1,0 +1,641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head> 
+  <title>Comprar Chevrolet Seminovos no Paraná e Santa Catarina | Barigui</title> 
+  <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8"> 
+  <base href="http://www.bariguiseminovos.com.br/"> 
+  <link rel="alternate" media="only screen and (max-width: 640px)" href="http://www.bariguiseminovos.com.br/m/veiculos/marca/chevrolet"> 
+  <meta name="description" content="Procurando Chevrolet Seminovos no Paraná e Santa Catarina? O Grupo Barigui possui mais de 1200 carros usados e seminovos para você. Fale com nossos consultores."> 
+  <meta name="keywords" content="Seminovos, Carros usados, Grupo Barigui, Curitiba, Campo Largo, São José dos Pinhais, Blumenau, Joinville, Florianópolis, Itajaí, Londrina, Maringá"> 
+  <meta name="robots" content="index, follow"> 
+  <!-- TODO: favicon
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	--> 
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script> 
+  <script type="text/javascript" src="js/jquery.history.js"></script> 
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script> 
+  <script type="text/javascript" src="js/jcarousel.responsive.js"></script> 
+  <script type="text/javascript" src="js/comum.js?v=1"></script> 
+  <script type="text/javascript" src="js/app.js?v=1"></script> 
+  <link rel="stylesheet" type="text/css" href="css/jcarousel.responsive.css"> 
+  <link rel="stylesheet" type="text/css" href="css/estilo.css?v=1"> 
+  <link rel="stylesheet" type="text/css" href="css/barigui.css?v=1"> 
+  <script type="text/javascript" src="js/chat-barigui.js"></script> 
+  <script type="text/javascript" src="js/analytics-barigui.js"></script> 
+  <script language="javascript">
+		var modrewrite = true	</script> 
+ </head> 
+ <body> 
+  <div class="b-menu"> 
+   <div class="menu"> 
+    <ul> 
+     <li><a href="http://www.bariguiseminovos.com.br/institucional" title="Institucional">INSTITUCIONAL</a></li> 
+     <li><a href="http://institutobarigui.org.br/" target="blank" title="Instituto Barigui">INSTITUTO BARIGÜI</a></li> 
+     <li><a href="https://bariguicdt.elancers.net/frames/barigui/frame_geral.asp" target="blank" title="Trabalhe conosco">TRABALHE CONOSCO</a></li> 
+     <li><a href="http://www.bariguiseminovos.com.br/contato" title="contato">CONTATO</a></li> 
+    </ul> 
+   </div> 
+  </div> 
+  <form name="f-buscar" id="f-buscar" method="post"> 
+   <div class="b-topo"> 
+    <div class="topo"> 
+     <div class="logo"> 
+      <a href="./"> <img src="imagens/logo-barigui.png" alt="Barigui" title="Barigui"> </a> 
+      <!--a href="./"><img src="imagens/logo-seminovos.png" alt="Grupo Barigui" title="Grupo Barigui" /></a--> 
+     </div> 
+     <div class="campo-busca"> 
+      <input class="pesquisa" id="t-buscar" name="t-buscar" type="text" value=""> 
+      <input type="submit" name="s-buscar" value="Buscar" class="bt-azul-buscar"> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="b-conteudo"> 
+    <div class="conteudo"> 
+     <div class="coluna1"> 
+      <h2>Refinar busca</h2> 
+      <h3>Região</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="curitiba-e-regiao/chevrolet" rel="follow"> Curitiba e Região</a> <span>(50)</span> </li> 
+        <li> <a href="florianopolis/chevrolet" rel="follow"> Florianópolis</a> <span>(7)</span> </li> 
+        <li> <a href="itajai-e-blumenau/chevrolet" rel="follow"> Itajaí e Blumenau</a> <span>(15)</span> </li> 
+        <li> <a href="joinville/chevrolet" rel="follow"> Joinville</a> <span>(13)</span> </li> 
+        <li> <a href="londrina-e-maringa/chevrolet" rel="follow"> Londrina e Maringá</a> <span>(6)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Marca</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <li> <p>Chevrolet <span>(91)</span></p> <a href="veiculos/" class="negativo"></a> </li> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet,fiat" rel="nofollow"> Fiat</a> <span>(214)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,renault" rel="nofollow"> Renault</a> <span>(142)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,volkswagen" rel="nofollow"> Volkswagen</a> <span>(120)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,ford" rel="nofollow"> Ford</a> <span>(96)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,hyundai" rel="nofollow"> Hyundai</a> <span>(91)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,nissan" rel="nofollow"> Nissan</a> <span>(83)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,toyota" rel="nofollow"> Toyota</a> <span>(49)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,peugeot" rel="nofollow"> Peugeot</a> <span>(43)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,citroen" rel="nofollow"> Citroen</a> <span>(27)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,kia" rel="nofollow"> Kia</a> <span>(19)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,bmw" rel="nofollow"> BMW</a> <span>(13)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,mitsubishi" rel="nofollow"> Mitsubishi</a> <span>(13)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,jeep" rel="nofollow"> Jeep</a> <span>(12)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,honda" rel="nofollow"> Honda</a> <span>(11)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,suzuki" rel="nofollow"> Suzuki</a> <span>(9)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,audi" rel="nofollow"> Audi</a> <span>(7)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,mercedes-benz" rel="nofollow"> Mercedes-Benz</a> <span>(7)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,lifan" rel="nofollow"> Lifan</a> <span>(5)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,jac" rel="nofollow"> JAC</a> <span>(5)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,land-rover" rel="nofollow"> Land Rover</a> <span>(4)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,mini" rel="nofollow"> Mini</a> <span>(2)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,chery" rel="nofollow"> Chery</a> <span>(2)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet,troller" rel="nofollow"> Troller</a> <span>(1)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Opcionais</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/ar-quente" rel="nofollow"> Ar quente</a> <span>(91)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/trava-eletrica" rel="nofollow"> Trava elétrica</a> <span>(85)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/direcao-hidraulica" rel="nofollow"> Direção hidráulica</a> <span>(84)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/airbag" rel="nofollow"> Air bag</a> <span>(81)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/vidro-eletrico" rel="nofollow"> Vidro elétrico</a> <span>(78)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/ar-condicionado" rel="nofollow"> Ar condicionado</a> <span>(77)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/alarme" rel="nofollow"> Alarme</a> <span>(55)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/abs" rel="nofollow"> ABS</a> <span>(53)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/cd-player" rel="nofollow"> CD player</a> <span>(41)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/rodas-esportivas" rel="nofollow"> Rodas de liga leve</a> <span>(34)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/automatico" rel="nofollow"> Câmbio automático</a> <span>(25)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/banco-couro" rel="nofollow"> Bancos de couro</a> <span>(18)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/teto-solar" rel="nofollow"> Teto solar</a> <span>(4)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/opcional/4x4" rel="nofollow"> Tração 4x4</a> <span>(1)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Valor</h3> 
+      <div class="caixa-filtro"> 
+       <span class="filtro-valor"> <input type="text" name="valor-acima" id="valor-acima" value=""> até <input type="text" name="valor-ate" id="valor-ate" value=""> <input type="submit" value="OK"> </span> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet/valor/entre-10001-20000" rel="nofollow"> Entre R$ 10.001 e 20.000</a> <span>(6)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/valor/entre-20001-30000" rel="nofollow"> Entre R$ 20.001 e 30.000</a> <span>(9)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/valor/entre-30001-50000" rel="nofollow"> Entre R$ 30.001 e 50.000</a> <span>(60)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/valor/entre-50001-70000" rel="nofollow"> Entre R$ 50.001 e 70.000</a> <span>(9)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/valor/entre-70001-90000" rel="nofollow"> Entre R$ 70.001 e 90.000</a> <span>(5)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/valor/acima-90000" rel="nofollow"> Acima de R$ 90.000</a> <span>(2)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Ano</h3> 
+      <div class="caixa-filtro"> 
+       <span class="filtro-valor"> <input type="text" name="ano-acima" id="ano-acima" value=""> até <input type="text" name="ano-ate" id="ano-ate" value=""> <input type="submit" value="OK"> </span> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet/ano/ate-1" rel="nofollow"> Até 1 ano</a> <span>(33)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/ano/entre-2-3" rel="nofollow"> Entre 2 e 3 anos</a> <span>(35)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/ano/acima-4" rel="nofollow"> Acima de 4 anos</a> <span>(23)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Cor</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet/cor/branco" rel="nofollow"> Branco</a> <span>(29)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/prata" rel="nofollow"> Prata</a> <span>(22)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/preto" rel="nofollow"> Preto</a> <span>(19)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/cinza" rel="nofollow"> Cinza</a> <span>(9)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/vermelho" rel="nofollow"> Vermelho</a> <span>(8)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/azul" rel="nofollow"> Azul</a> <span>(2)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/cor/bege" rel="nofollow"> Bege</a> <span>(2)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+      <h3>Foto</h3> 
+      <div class="caixa-filtro"> 
+       <ul class="limita-altura"> 
+        <!-- Primeiro os selecionados --> 
+        <!-- Depois os não os selecionados --> 
+        <li> <a href="veiculos/marca/chevrolet/foto/com" rel="nofollow"> Com foto</a> <span>(79)</span> </li> 
+        <li> <a href="veiculos/marca/chevrolet/foto/sem" rel="nofollow"> Sem foto</a> <span>(12)</span> </li> 
+       </ul> 
+       <div class="ver-mais-lista"> 
+        <img src="imagens/seta-mais.png"> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="coluna2"> 
+      <h3> Temos 91 Chevrolet Seminovos no Paraná e Santa Catarina </h3> 
+      <div class="filtros"> 
+       <div id="primary_nav_wrap"> 
+        <ul> 
+         <li><a href="javascript:void(0);" class="ordenar"> Ordenar por:</a> 
+          <ul> 
+           <li><a href="veiculos/marca/chevrolet/ordem/menor-valor" rel="nofollow">Menor valor</a></li> 
+           <li><a href="veiculos/marca/chevrolet/ordem/maior-valor" rel="nofollow">Maior valor</a></li> 
+           <li><a href="veiculos/marca/chevrolet/ordem/menor-ano" rel="nofollow">Menor ano</a></li> 
+           <li><a href="veiculos/marca/chevrolet/ordem/maior-ano" rel="nofollow">Maior ano</a></li> 
+           <li><a href="veiculos/marca/chevrolet/ordem/relevancia" rel="nofollow">Relevância</a></li> 
+          </ul> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca destaque-carro"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/captiva-sport-fwd-24-16v-ecotec-tip-2655b9c" title="CAPTIVA SPORT FWD 2.4 16V ECOTEC TIP" class="carro"> <img alt="CAPTIVA SPORT FWD 2.4 16V ECOTEC TIP" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BAY4774-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/captiva-sport-fwd-24-16v-ecotec-tip-2655b9c" title="CAPTIVA SPORT FWD 2.4 16V ECOTEC TIP">CAPTIVA SPORT FWD 2.4 16V ECOTEC TIP</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 19.144</li> 
+         <li>Cor: Cinza</li> 
+         <li>Gasolina</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$84.000</p> 
+        <a href="detalhe/usado/captiva-sport-fwd-24-16v-ecotec-tip-2655b9c" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca destaque-carro"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-2657670" title="COBALT LTZ 1.8 8V AT ECONOFLEX" class="carro"> <img alt="COBALT LTZ 1.8 8V AT ECONOFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BAS8468-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-2657670" title="COBALT LTZ 1.8 8V AT ECONOFLEX">COBALT LTZ 1.8 8V AT ECONOFLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2017</li> 
+         <li>KM: 20.616</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Nissan Barigui Seminovos</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$59.900</p> 
+        <a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-2657670" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/onix-effect-14-8v-spe4-flex-14de6a8" title="ONIX EFFECT 1.4 8V SPE/4 FLEX" class="carro"> <img alt="ONIX EFFECT 1.4 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_OKF5793-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/onix-effect-14-8v-spe4-flex-14de6a8" title="ONIX EFFECT 1.4 8V SPE/4 FLEX">ONIX EFFECT 1.4 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 39.317</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Vox São José</p> 
+         <p>Florianópolis</p> 
+         <p>São José / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$44.900</p> 
+        <a href="detalhe/usado/onix-effect-14-8v-spe4-flex-14de6a8" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/trailblazer-ltz-4x4-36-v6-at-2659164" title="TRAILBLAZER LTZ 4X4 3.6 V6 AT" class="carro"> <img alt="TRAILBLAZER LTZ 4X4 3.6 V6 AT" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MLZ9833-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/trailblazer-ltz-4x4-36-v6-at-2659164" title="TRAILBLAZER LTZ 4X4 3.6 V6 AT">TRAILBLAZER LTZ 4X4 3.6 V6 AT</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 57.800</li> 
+         <li>Cor: Branco</li> 
+         <li>Gasolina</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Itajaí</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Itajaí / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$85.990</p> 
+        <a href="detalhe/usado/trailblazer-ltz-4x4-36-v6-at-2659164" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd64c" title="ONIX LT 1.0 8V SPE/4 FLEX" class="carro"> <img alt="ONIX LT 1.0 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MMH0286-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd64c" title="ONIX LT 1.0 8V SPE/4 FLEX">ONIX LT 1.0 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 63.243</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Usados Carro Fácil</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$34.900</p> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd64c" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/spin-ltz-18-8v-at-econoflex-14df4e6" title="SPIN LTZ 1.8 8V AT ECONOFLEX" class="carro"> <img alt="SPIN LTZ 1.8 8V AT ECONOFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AOY0106-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/spin-ltz-18-8v-at-econoflex-14df4e6" title="SPIN LTZ 1.8 8V AT ECONOFLEX">SPIN LTZ 1.8 8V AT ECONOFLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 68.022</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Colombo</p> 
+         <p>Curitiba e Região</p> 
+         <p>Colombo / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$44.000</p> 
+        <a href="detalhe/usado/spin-ltz-18-8v-at-econoflex-14df4e6" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/cruze-ltz-14-turbo-at-flex-2659ac6" title="CRUZE LTZ 1.4 TURBO AT FLEX" class="carro"> <img alt="CRUZE LTZ 1.4 TURBO AT FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AVR0852-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/cruze-ltz-14-turbo-at-flex-2659ac6" title="CRUZE LTZ 1.4 TURBO AT FLEX">CRUZE LTZ 1.4 TURBO AT FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2017</li> 
+         <li>KM: 12.551</li> 
+         <li>Cor: Cinza</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$98.900</p> 
+        <a href="detalhe/usado/cruze-ltz-14-turbo-at-flex-2659ac6" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-2659956" title="PRISMA LT 1.0 8V SPE/4 FLEX" class="carro"> <img alt="PRISMA LT 1.0 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BAK8865-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-2659956" title="PRISMA LT 1.0 8V SPE/4 FLEX">PRISMA LT 1.0 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 25.333</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Portão</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$41.000</p> 
+        <a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-2659956" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-14dc83a" title="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER" class="carro"> <img alt="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MFU2924-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-14dc83a" title="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER">CLASSIC LS 1.0 VHC-E 8V FLEXPOWER</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 52.607</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Vox São José</p> 
+         <p>Florianópolis</p> 
+         <p>São José / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$22.900</p> 
+        <a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-14dc83a" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-265a246" title="PRISMA LT 1.0 8V SPE/4 FLEX" class="carro"> <img alt="PRISMA LT 1.0 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_BAR2243-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-265a246" title="PRISMA LT 1.0 8V SPE/4 FLEX">PRISMA LT 1.0 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 7.919</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$42.500</p> 
+        <a href="detalhe/usado/prisma-lt-10-8v-spe4-flex-265a246" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-26566c2" title="COBALT LTZ 1.8 8V AT ECONOFLEX" class="carro"> <img alt="COBALT LTZ 1.8 8V AT ECONOFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AZF4802-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-26566c2" title="COBALT LTZ 1.8 8V AT ECONOFLEX">COBALT LTZ 1.8 8V AT ECONOFLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 39.479</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$43.500</p> 
+        <a href="detalhe/usado/cobalt-ltz-18-8v-at-econoflex-26566c2" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd196" title="ONIX LT 1.0 8V SPE/4 FLEX" class="carro"> <img alt="ONIX LT 1.0 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PXZ4887-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd196" title="ONIX LT 1.0 8V SPE/4 FLEX">ONIX LT 1.0 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 29.013</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Center Marechal</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$36.500</p> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14dd196" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/tracker-ltz-fwd-18-16v-at-flexpower-14de698" title="TRACKER LTZ FWD 1.8 16V AT FLEXPOWER" class="carro"> <img alt="TRACKER LTZ FWD 1.8 16V AT FLEXPOWER" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AYH1164-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/tracker-ltz-fwd-18-16v-at-flexpower-14de698" title="TRACKER LTZ FWD 1.8 16V AT FLEXPOWER">TRACKER LTZ FWD 1.8 16V AT FLEXPOWER</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 49.395</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Center Marechal</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$64.000</p> 
+        <a href="detalhe/usado/tracker-ltz-fwd-18-16v-at-flexpower-14de698" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14db2b2" title="ONIX LT 1.0 8V SPE/4 FLEX" class="carro"> <img alt="ONIX LT 1.0 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PXZ6591-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14db2b2" title="ONIX LT 1.0 8V SPE/4 FLEX">ONIX LT 1.0 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 21.937</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Nix Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$38.900</p> 
+        <a href="detalhe/usado/onix-lt-10-8v-spe4-flex-14db2b2" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/onix-ltz-14-8v-spe4-flex-2656546" title="ONIX LTZ 1.4 8V SPE/4 FLEX" class="carro"> <img alt="ONIX LTZ 1.4 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AZQ9432-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/onix-ltz-14-8v-spe4-flex-2656546" title="ONIX LTZ 1.4 8V SPE/4 FLEX">ONIX LTZ 1.4 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 31.460</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Matriz</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$41.000</p> 
+        <a href="detalhe/usado/onix-ltz-14-8v-spe4-flex-2656546" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/prisma-lt-14-8v-spe4-at-flex-14db8e4" title="PRISMA LT 1.4 8V SPE/4 AT FLEX" class="carro"> <img alt="PRISMA LT 1.4 8V SPE/4 AT FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_FUJ8370-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/prisma-lt-14-8v-spe4-at-flex-14db8e4" title="PRISMA LT 1.4 8V SPE/4 AT FLEX">PRISMA LT 1.4 8V SPE/4 AT FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 60.406</li> 
+         <li>Cor: Preto</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Fórmula Maringá</p> 
+         <p>Londrina e Maringá</p> 
+         <p>Maringá / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$42.000</p> 
+        <a href="detalhe/usado/prisma-lt-14-8v-spe4-at-flex-14db8e4" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/spin-lt-18-8v-econoflex-26599a0" title="SPIN LT 1.8 8V ECONOFLEX" class="carro"> <img alt="SPIN LT 1.8 8V ECONOFLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_AYU3981-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/spin-lt-18-8v-econoflex-26599a0" title="SPIN LT 1.8 8V ECONOFLEX">SPIN LT 1.8 8V ECONOFLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2015</li> 
+         <li>KM: 28.802</li> 
+         <li>Cor: Azul</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Nissan Barigui Seminovos</p> 
+         <p>Curitiba e Região</p> 
+         <p>Curitiba / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$42.500</p> 
+        <a href="detalhe/usado/spin-lt-18-8v-econoflex-26599a0" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/prisma-lt-14-8v-spe4-flex-14dd164" title="PRISMA LT 1.4 8V SPE/4 FLEX" class="carro"> <img alt="PRISMA LT 1.4 8V SPE/4 FLEX" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_PXV3315-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/prisma-lt-14-8v-spe4-flex-14dd164" title="PRISMA LT 1.4 8V SPE/4 FLEX">PRISMA LT 1.4 8V SPE/4 FLEX</a></h2> 
+        <ul> 
+         <li>Ano: 2016</li> 
+         <li>KM: 30.090</li> 
+         <li>Cor: Cinza</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Fórmula Maringá</p> 
+         <p>Londrina e Maringá</p> 
+         <p>Maringá / PR</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$46.900</p> 
+        <a href="detalhe/usado/prisma-lt-14-8v-spe4-flex-14dd164" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/cruze-ecotec6-lt-18-16v-at-flexpower-14df7e0" title="CRUZE ECOTEC6 LT 1.8 16V AT FLEXPOWER" class="carro"> <img alt="CRUZE ECOTEC6 LT 1.8 16V AT FLEXPOWER" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MKB9180-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/cruze-ecotec6-lt-18-16v-at-flexpower-14df7e0" title="CRUZE ECOTEC6 LT 1.8 16V AT FLEXPOWER">CRUZE ECOTEC6 LT 1.8 16V AT FLEXPOWER</a></h2> 
+        <ul> 
+         <li>Ano: 2014</li> 
+         <li>KM: 38.373</li> 
+         <li>Cor: Branco</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Bari Seminovos</p> 
+         <p>Joinville</p> 
+         <p>Joinville / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$57.162</p> 
+        <a href="detalhe/usado/cruze-ecotec6-lt-18-16v-at-flexpower-14df7e0" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="box-carro-busca"> 
+       <div class="dados"> 
+        <a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-265744a" title="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER" class="carro"> <img alt="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER" src="http://www.grupobarigui.com.br/sgw3/images/modulos/veiculos_seminovos/161px_MHN2998-02.JPG" class="crop3"> </a> 
+        <h2><a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-265744a" title="CLASSIC LS 1.0 VHC-E 8V FLEXPOWER">CLASSIC LS 1.0 VHC-E 8V FLEXPOWER</a></h2> 
+        <ul> 
+         <li>Ano: 2011</li> 
+         <li>KM: 53.200</li> 
+         <li>Cor: Prata</li> 
+         <li>Flex</li> 
+        </ul> 
+        <div class="localizacao"> 
+         <p>Barigui Blumenau</p> 
+         <p>Itajaí e Blumenau</p> 
+         <p>Blumenau / SC</p> 
+        </div> 
+       </div> 
+       <div class="valor"> 
+        <p>R$17.000</p> 
+        <a href="detalhe/usado/classic-ls-10-vhce-8v-flexpower-265744a" title="Ver anúncio">Ver anúncio</a> 
+       </div> 
+      </div> 
+      <div class="quebra"></div> 
+      <ul class="paginacao"> 
+       <li> <a class="selecionado" href="veiculos/marca/chevrolet"> 1 </a> </li> 
+       <li> <a class="" href="veiculos/marca/chevrolet/pagina/2"> 2 </a> </li> 
+       <li> <a class="" href="veiculos/marca/chevrolet/pagina/3"> 3 </a> </li> 
+       <li> <a class="" href="veiculos/marca/chevrolet/pagina/4"> 4 </a> </li> 
+       <li> <a class="" href="veiculos/marca/chevrolet/pagina/5"> 5 </a> </li> 
+       <li> <a href="veiculos/marca/chevrolet/pagina/2"> Próxima </a> </li> 
+      </ul> 
+     </div> 
+     <div class="quebra"></div> 
+    </div> 
+   </div> 
+  </form>   
+ </body>
+</html>

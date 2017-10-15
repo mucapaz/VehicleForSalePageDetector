@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+ <head> 
+  <title>Você conhece o CompreBlindados?</title> 
+  <meta name="description" content="Somos um classificado de carros blindados com mais de 10 anos de experiência em divulgação de veículos online."> 
+  <meta name="keywords" content=""> 
+  <meta charset="utf-8"> 
+  <meta name="siteinfo" content="/robots.txt"> 
+  <meta name="revisit-after" content="1 weeks"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="language" content="pt-br"> 
+  <meta name="author" content="http://www.mixd.com.br"> 
+  <link rel="shortcut icon" href="/favicon.ico"> 
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> 
+  <link rel="canonical" href="http://www.compreblindados.com.br/compreblindados"> 
+  <link rel="index" title="Você conhece o CompreBlindados?" href="http://www.compreblindados.com.br/compreblindados"> 
+  <!--[if IE]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--> 
+  <link href="/css/reset.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/css3.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/layout.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/home.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/busca.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/buscaavancada.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/veiculo.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/interna.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/institucional.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/compreblindados.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/guiaautomotivo.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/faleconosco.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/cidadesatendidas.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/noticias.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/login.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/cadastro.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/comparar.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/revenda.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/anuncie.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/planos.css" rel="stylesheet" type="text/css"> 
+  <link href="/css/destaques.css" rel="stylesheet" type="text/css"> 
+  <link href="/js/jquery.tools/css/form-alert.css" rel="stylesheet" type="text/css"> 
+  <link href="/js/jquery.tools/css/modal-box.css" rel="stylesheet" type="text/css"> 
+  <link href="/js/jquery.tools/css/overlay-basic.css" rel="stylesheet" type="text/css"> 
+  <link href="/js/jquery.tools/css/overlay-gallery.css" rel="stylesheet" type="text/css"> 
+  <link href="/js/jquery.tools/css/paginacao.css" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script> 
+  <script>window.jQuery || document.write('<script src="/js/jquery.tools/jquery-1.6.4.min.js"><\/script>')</script> 
+  <script type="text/javascript" src="/js/jquery.tools/jquery.tools.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.tools.gallery.js"></script> 
+  <script src="/js/jquery.tools/jquery.maskedinput-1.2.2.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.placeholder.min.js"></script> 
+  <script src="/js/jquery.tools/jquery.tmpl.min.js"></script> 
+  <script src="/js/jquery.tools/inicializa.js"></script> 
+  <script src="/js/jquery.tools/site.js"></script> 
+  <script src="/js/jquery.tools/customInput.jquery.js"></script> 
+  <script src="/js/AC_RunActiveContent.js"></script> 
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4568327-2', 'compreblindados.com.br');
+  ga('send', 'pageview');
+
+</script> 
+ </head> 
+ <body> 
+  <section class="align"> 
+   <header> 
+    <section class="wrapper"> 
+     <a href="/" title="Carros Blindados" class="logo">Carros Blindados</a> 
+     <nav class="left"> 
+      <li><a href="/" title="Home">Home</a></li> 
+      <li><a href="/compreblindados" title="Quem Somos">Quem Somos</a></li> 
+      <li><a href="/planos" title="Anúncie seu Blindado">Anúncie seu Blindado</a></li> 
+     </nav> 
+     <nav class="right"> 
+      <li><a href="/noticias" title="Novidades">Novidades</a></li> 
+      <li><a href="/favoritos" title="Favoritos">Favoritos</a></li> 
+      <li><a href="/revendas" title="Revendas">Revendas</a></li> 
+      <li><a href="/fale-conosco" title="Contato">Contato</a></li> 
+     </nav> 
+     <div class="acesso-clientes">
+      <a href="/login" title="Central do Cliente"><span><img src="/img/site/icones/cadeado2.png" width="16" height="18"></span>Central do Cliente</a>
+     </div> 
+     <div class="inc-busca hidden"></div> 
+    </section> 
+   </header> 
+   <section class="content interna"> 
+    <!--menu esquerdo--> 
+    <aside class="menu-interno"> 
+     <div class="novaBusca"></div> 
+     <div class="menuInstitucional"> 
+      <span>Serviços</span> 
+      <ul class="menu-institucional"> 
+       <li><a href="/noticias" title="Notícias de Carros">Notícias de Carros</a></li> 
+       <li><a href="/buscar" title="Comparar Veículos">Comparar Veículos</a></li> 
+       <li><a href="/shopping" title="Shopping CompreBlindados">Shopping Blindados</a></li> 
+      </ul> 
+      <span>Institucional</span> 
+      <ul class="menu-institucional"> 
+       <li><a href="/fale-conosco" title="Fale Conosco">Fale Conosco</a></li> 
+       <li><a href="/compreblindados" title="Quem Somos">Quem Somos</a></li> 
+       <li><a href="/termos-uso" title="Termos de Uso">Termos de Uso</a></li> 
+       <!--<li><a href="/politica-privacidade" title="Política de Privacidade">Política de Privacidade</a></li>--> 
+       <!--<li><a href="/cod-defesa-consumidor" title="Cód. Defesa Consumidor">Cód. Defesa Consumidor</a></li>--> 
+      </ul> 
+      <!--servicos--> 
+      <aside class="servicos"> 
+       <span>Links</span> 
+       <ul> 
+       </ul> 
+      </aside> 
+     </div> 
+    </aside> 
+    <main> 
+     <section class="institucional"> 
+      <!--header--> 
+      <header> 
+       <!--titulos--> 
+       <hgroup> 
+        <h1>Quem é CompreBlindados?</h1> 
+       </hgroup> 
+       <!--breadcrumb--> 
+       <div class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+         Você está em » &nbsp; 
+        <a href="/Compreblindados" title="CompreBlindados" itemprop="url"> <span itemprop="title">CompreBlindados</span> </a> 
+       </div> 
+      </header> 
+      <!--block conteudo--> 
+      <section class="conteudo compreblindados"> 
+       <figure> 
+        <img src="/img/site/institucional/imagem-empresa.jpg" alt="CompreBlindados" width="340" height="152"> 
+        <figcaption>
+         Escritório em São Paulo / SP
+        </figcaption> 
+       </figure> 
+       <p> O portal <strong>CompreBlindados</strong>, surgiu para facilitar o dia a dia de quem vende e quem procura um veículo blindado, pois em um único lugar, reúne o maior número de veículos blindados do país. <br><br> <strong>CompreBlindados</strong> iniciou suas atividades em 2004 e conquistou em um pequeno espaço de tempo o posto de maior e mais confiável fonte de pesquisa para a compra e venda de veículos blindados em todo Brasil. <br><br> Investimos freqüentemente em tecnologia e segurança dos dados, preocupados com a sua privacidade e performance na navegação. <br><br> O <strong>CompreBlindados</strong> reúne em um só lugar interessados em comprar e vender veículos blindados, adquirir produtos e serviços, e encontrar informações e novidades sobre o segmento automotivo. <br><br> Possuímos políticas de melhoria constante, um controle de qualidade desenvolvido para oferecer aos nossos clientes o melhor serviço. <br><br> <strong>Faça um test-drive agora mesmo no melhor e mais completo site de veículos blindados do país.</strong> </p> 
+      </section> 
+     </section> 
+    </main> 
+   </section> 
+  </section> 
+  <footer> 
+   <div class="wrapper"> 
+    <img src="/img/site/layout/compre-blindados2.png" alt="Compre Blindados"> 
+    <a href="http://m.compreblindados.com.br" class="margin"><img src="/img/site/layout/compre-blindados-mobile.png" alt="Compre Blindados Mobile"></a> 
+    <img src="/img/site/layout/footer-formas-pagamento.png" alt="Formas de Pagamento"> 
+    <p> • O classificados de carros CompreBlindado não se responsabiliza por qualquer dano e/ou prejuízo que o usuário possa sofrer ao realizar uma negociação com outros usuários deste web site. <br> • O usuário concorda que as eventuais negociações que vier a fazer com outros usuários deste web site serão por sua conta e risco. <br> • Cabe ao usuário certificar-se da idoneidade do anunciante e da existência e estado de conservação do veículo que pretende comprar. <br> • As vendas e entregas dos carros e veículos anunciados a terceiros, usuários deste web site, são de inteira responsabilidade do anunciante. O classificado de carros CompreBlindado não realiza a intermediação das vendas, compras, trocas ou qualquer outro tipo de transação feita pelos usuários de seu web site. <br> • O classificado de carros CompreBlindado não se responsabiliza por quaisquer danos diretos e/ou indiretos causados a terceiros, advindos da exibição dos anúncios em desacordo com as Leis Criminal, Civil e em especial ao Código Brasileiro de Defesa do Consumidor, por parte do anunciante. <br> • O uso do site, implica na aceitação dos ¨<a href="/termos-uso" title="Termos de Uso">TERMOS DE USO</a>¨ </p> 
+    <div class="direitos">
+     © 2001 - 2017 Compre Blindados. Todos os direitos reservados.
+    </div> 
+    <div class="creditos">
+     Desenvolvido por 
+     <a href="http://www.mixd.com.br">Mixd Internet</a>
+    </div> 
+   </div> 
+  </footer>  
+ </body>
+</html>

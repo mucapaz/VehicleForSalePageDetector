@@ -1,0 +1,336 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="pt-BR" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="pt-BR" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="pt-BR" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="pt-BR" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]>-->
+<html>
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="description" content="Nacional Veículos"> 
+  <meta name="author" content="VMotors"> 
+  <meta name="keywords" content="nacional, zero-km, seminovos, Hyundai, BMW, Chevrolet, Honda, Toyota, Kia, Nissan, LandRover, Volkswagen, Peugeot, Fiat, Renault, Ford"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+  <!-- Scripts Fixos do Sistema --> 
+  <script type="text/javascript" src="/system/assets/js/fcymon_scripts.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/fancybox/jquery.fancybox.pack.js"></script> 
+  <script type="text/javascript" src="/system/assets/js/buscavmotors.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery-ui.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/scripts.js"></script> 
+  <!-- CSS's Fixos Externos --> 
+  <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css"> 
+  <!-- CSS's Fixos do Sistema --> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jquery-ui.css"> 
+  <link rel="stylesheet" type="text/css" href="/system/assets/css/jcymon_box.css"> 
+  <!-- CSS's Fixos do Template --> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/style.min.css" media="screen"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/js/fancybox/jquery.fancybox.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/mouseover.css"> 
+  <link rel="stylesheet" type="text/css" href="/templates/assets/css/flexslider.css" media="screen"> 
+  <!-- JS's --> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.flexslider.js"></script> 
+  <script type="text/javascript" src="/templates/assets/js/jquery.carouFredSel-5.5.0-packed.js"></script> 
+  <!-- Seta o Head Base --> 
+  <title>Nacional Veículos - Financiamento</title> 
+  <!-- Newsletter
+	================================================== --> 
+  <script>
+		function validaEmail(email) { var re = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*/; if (!re.test(email)) { return false; } return true; }
+
+		$(document).ready(function() {
+			if ($('#telefone_newsletter').length > 0) {
+				$("#telefone_newsletter").mask("(99) 9999-9999?9");
+			}
+
+			$('#btnNewsletter').click(function() {
+				$('#btnNewsletter').attr('disabled', true);
+
+				var server = "www.nacionalveiculos.com.br";
+				var script = "/index.php";
+
+				var email = "";
+				var nome = "";
+				var telefone = "";
+
+				if ($('#email_newsletter').length > 0) { email = $('#email_newsletter').val(); }
+				if ($('#nome_newsletter').length > 0) { nome = $('#nome_newsletter').val(); }
+				if ($('#telefone_newsletter').length > 0) { telefone = $('#telefone_newsletter').val(); }
+
+				if (validaEmail(email)) {
+					$.ajax({
+						url: 'http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v1/ajax/receba_newsletter.ajax.php',
+						dataType: "json",
+						data: {
+							nome: nome,
+							email: email,
+							telefone: telefone,
+							server: server,
+							script: script
+						},
+						type: "POST",
+						success: function(retorno) {
+							var retorno_positivo = "<p><label style='width:100% !important; text-align:center;'>Agradecemos pelo seu cadastro!</label></p>";
+							var retorno_negativo = "<p><label style='width:100% !important; text-align:center;'>Desculpe, ocorreu um erro. Tente novamente mais tarde</label></p>";
+
+							if (retorno.sucesso == "1") {
+								$('#div_newsletter').html(retorno_positivo);
+							} else {
+								$('#div_newsletter').html(retorno_negativo);
+							}
+						}
+					});
+				} else {
+					$('#btnNewsletter').removeAttr('disabled');
+					alert("Informe um email valido!");
+				}
+			});
+		});
+	</script> 
+  <!-- Fancybox
+	================================================== --> 
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$("a.iframe").fancybox({
+				type: 'iframe',
+				width: 560
+			});
+
+			$("a.mapaLoja").fancybox({
+				type: 'iframe',
+				height: 450,
+				width: 560
+			});
+		});
+	</script> 
+ </head> 
+ <body> 
+  <header id="header"> 
+   <div class="centraliza"> 
+    <h1 id="logoHeader"> <a href="/" title="Ir à página inicial"> <span>Nacional Veículos</span> </a> </h1> 
+    <section id="telefonesHeader"> 
+     <article class="telHeader lest"> 
+      <h2>NACIONAL GAMA</h2> 
+      <p>Quadra 32, Loja 20, Gama Leste – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3484-5055 </p> 
+     </article> 
+     <article class="telHeader samambaia"> 
+      <h2>NACIONAL SAMAMBAIA</h2> 
+      <p>QS 518, CONJ. 01, Loja 04, Samambaia Sul – Brasília - DF</p> 
+      <p class="tel"> <span>(61)</span> 3046-7070 </p> 
+     </article> 
+    </section> 
+   </div> 
+   <nav id="menuHeader"> 
+    <div class="centraliza"> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li class="semi_menu"><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+     </ul> 
+    </div> 
+   </nav> 
+  </header> 
+  <!-- Conteúdo Principal
+  ============================================================================== --> 
+  <section id="mainInternas"> 
+   <div class="centraliza"> 
+    <h1>Financiamento</h1> 
+    <div class="colEsq"> 
+     <img class="destaque" src="/templates/assets/img/destaqueFinanciamento.jpg" alt="Nacional - Financiamento"> 
+     <h2>Contamos com as melhores condições do mercado</h2> 
+     <p>Preencha o formulário abaixo e solicite uma cotação.</p> ﻿ 
+     <!-- Formulário --> 
+     <div class="formularios">
+      <div class="boxFormPrincipal">
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/recaptcha/js/recaptcha.js"></script> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/recaptcha/js/scripts.js"></script> 
+       <link rel="stylesheet" type="text/css" href="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/assets/css/forms_vmotors.css"> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/assets/js/price-format.js"></script> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/assets/js/maskedinput.js"></script> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/connectionviper/js/scripts_form.js"></script> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/Validacao.class.js"></script> 
+       <script type="text/javascript" src="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/connectionviper/js/forms_validacao.js"></script> 
+       <form id="formulario" name="frmFinanciamento" itemid="interna" method="post" onsubmit="return fncValidaFinanciamento(this);" action="http://www.vmotors.com.br/projetos/arquivos_essenciais/formularios_v2/index.php?form=financiamento.exe"> 
+        <input id="site_cliente" type="hidden" name="sf" value="816"> 
+        <input id="cliente" type="hidden" name="cliente" value="connectionviper"> 
+        <!-- PRIMEIRO BLOCO - INFOS PESSOAIS --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Dados pessoais</p> 
+         <p> <label class="lTitle">* Nome</label> <input id="nome" name="nome" type="text" size="40" maxlength="200"> </p> 
+         <p> <label class="lTitle">* Email</label> <input id="email" name="email" type="text" size="40" maxlength="200"> </p> 
+         <p> <label class="lTitle">* Data de nasc.</label> <input id="date-birth" type="text" name="date-birth" size="8" maxlength="10"> <label class="menorLabel">* Sexo</label> <label><input id="sexo" type="radio" name="sexo" value="Masculino" checked class="sld"> M</label> <label><input id="sexo" type="radio" name="sexo" value="Feminino"> F</label> </p> 
+         <p> <label class="lTitle">* Estado civil</label> <select id="estado-civil" name="estado-civil"> <option value="">selecione</option> <option value="Casado(a)">Casado(a)</option> <option value="Solteiro(a)">Solteiro(a)</option> <option value="Divorciado(a)">Divorciado(a)</option> <option value="Viuvo(a)">Viuvo(a)</option> <option value="outros">outros</option> </select> </p> 
+         <p> <label class="lTitle">* CPF</label> <input id="cpf" name="cpf" type="text" maxlength="14"> </p> 
+         <p> <label class="lTitle">* RG</label> <input id="rg" type="text" name="rg" size="10" maxlength="15"> <label class="lTitle">* Órgão emissor</label> <input id="orgao-emissor" name="orgao-emissor" type="text" size="6"> </p> 
+         <p> <label class="lTitle">* Data emissão</label> <input id="data-emissao" name="data-emissao" type="text" maxlength="10"> </p> 
+         <p> <label class="lTitle">* Nacionalidade</label> <input id="nacionalidade" name="nacionalidade" type="text"> </p> 
+         <p> <label class="lTitle">* Natural de</label> <input id="naturalidade" name="naturalidade" type="text"> <label class="menorLabel">* Estado</label> <select id="uf-naturalidade" name="uf-naturalidade" class="selectEstado"> <option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option selected value="DF">DF</option><option value="ES">ES</option><option value="RR">RR</option><option value="GO">GO</option><option value="MA">MA</option><option value="MT">MT</option><option value="MS">MS</option><option value="MG">MG</option><option value="PA">PA</option><option value="PB">PB</option><option value="PR">PR</option><option value="PE">PE</option><option value="PI">PI</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RS">RS</option><option value="RO">RO</option><option value="TO">TO</option><option value="SC">SC</option><option value="SP">SP</option><option value="SE">SE</option> </select> </p> 
+         <p> <label class="lTitle">Nome do pai</label> <input id="nomepai" name="nomepai" type="text" size="40" maxlength="200"> </p> 
+         <p> <label class="lTitle">Nome da mãe</label> <input id="nomemae" name="nomemae" type="text" size="40" maxlength="200"> </p> 
+        </fieldset> 
+        <!-- SEGUNDO BLOCO - INFOS RESIDENCIAIS --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Dados residenciais</p> 
+         <p> <label class="lTitle">* Endereço</label> <input id="endereco" name="endereco" type="text" size="25" maxlength="200"> <label class="menorLabel">* Nº</label> <input id="end-numero" type="text" name="end-numero" size="6"> </p> 
+         <p> <label class="lTitle">Compl.</label> <input id="compl" name="compl" type="text" size="8" maxlength="100"> <label class="menorLabel">* Bairro</label> <input id="bairro" name="bairro" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">* CEP</label> <input id="cep" name="cep" type="text" maxlength="9"> </p> 
+         <p> <label class="lTitle">* Cidade</label> <input id="cidade" name="cidade" type="text" maxlength="100"> <label class="menorLabel">* Estado</label> <select id="uf" name="uf"> <option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option selected value="DF">DF</option><option value="ES">ES</option><option value="RR">RR</option><option value="GO">GO</option><option value="MA">MA</option><option value="MT">MT</option><option value="MS">MS</option><option value="MG">MG</option><option value="PA">PA</option><option value="PB">PB</option><option value="PR">PR</option><option value="PE">PE</option><option value="PI">PI</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RS">RS</option><option value="RO">RO</option><option value="TO">TO</option><option value="SC">SC</option><option value="SP">SP</option><option value="SE">SE</option> </select> </p> 
+         <p> <label class="lTitle">* Tel</label> <input id="tel" type="text" name="tel" size="11" maxlength="14"> <label class="menorLabel">Cel</label> <input id="cel" type="text" name="cel" size="11" maxlength="14"> </p> 
+         <p> <label class="lTitle">Tipo de resid.</label> <input id="tipo-residencia" name="tipo-residencia" type="text" maxlength="100"> </p> 
+         <p> <label class="lTitle">Tempo de resid.</label> <input id="tempo-residencia" name="tempo-residencia" type="text" maxlength="100"> </p> 
+        </fieldset> 
+        <!-- TERCEIRO BLOCO - INFOS TRABALHISTAS --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Dados trabalhistas</p> 
+         <p> <label class="lTitle">Empresa</label> <input id="empresa" name="empresa" type="text" size="40" maxlength="200"> </p> 
+         <p> <label class="lTitle">CNPJ</label> <input id="cnpj" name="cnpj" type="text" maxlength="18"> </p> 
+         <p> <label class="lTitle">Tel</label> <input id="tel-empresa" name="tel-empresa" type="text" maxlength="14"> </p> 
+         <p> <label class="lTitle">Endereço</label> <input id="endereco-empresa" name="endereco-empresa" type="text" size="40" maxlength="200"> </p> 
+         <p> <label class="lTitle">Bairro</label> <input id="bairro-empresa" name="bairro-empresa" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">CEP</label> <input id="cep-empresa" name="cep-empresa" type="text" maxlength="9"> </p> 
+         <p> <label class="lTitle">Cidade</label> <input id="cidade-empresa" name="cidade-empresa" type="text" maxlength="200"> <label class="menorLabel">Estado</label> <select id="uf-empresa" name="uf-empresa"> <option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option selected value="DF">DF</option><option value="ES">ES</option><option value="RR">RR</option><option value="GO">GO</option><option value="MA">MA</option><option value="MT">MT</option><option value="MS">MS</option><option value="MG">MG</option><option value="PA">PA</option><option value="PB">PB</option><option value="PR">PR</option><option value="PE">PE</option><option value="PI">PI</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RS">RS</option><option value="RO">RO</option><option value="TO">TO</option><option value="SC">SC</option><option value="SP">SP</option><option value="SE">SE</option> </select> </p> 
+         <p> <label class="lTitle">Cargo</label> <input id="cargo-empresa" name="cargo-empresa" type="text" size="12" maxlength="200"> <label class="menorLabel">Setor</label> <input id="setor-empresa" name="setor-empresa" type="text" size="12" maxlength="200"> </p> 
+         <p> <label class="lTitle">Data admissão</label> <input id="data-admissao" name="data-admissao" type="text" maxlength="10"> </p> 
+         <p> <label class="lTitle">Salário</label> <input id="salario" name="salario" type="text"> </p> 
+         <p> <label class="lTitle">Outras rendas</label> <input id="rendas" name="rendas" type="text" maxlength="200"> </p> 
+        </fieldset> 
+        <!-- QUARTO BLOCO - REFERENCIAS BANCARIAS --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Fontes de referência bancárias</p> 
+         <p> <label class="lTitle">Banco</label> <input id="banco1" name="banco1" type="text" maxlength="200" size="12"> <label class="lTitle">Cliente desde</label> <input id="cliente-desde1" name="cliente-desde1" type="text" size="8" maxlength="10"> </p> 
+         <p> <label class="lTitle">Ag</label> <input id="ag1" name="ag1" type="text" size="12" maxlength="15"> <label class="lTitle">Conta</label> <input id="conta1" name="conta1" type="text" size="12" maxlength="15"> </p> 
+         <p> <label class="lTitle">Banco</label> <input id="banco2" name="banco2" type="text" size="12" maxlength="200"> <label class="lTitle">Cliente desde</label> <input id="cliente-desde2" name="cliente-desde2" type="text" size="8" maxlength="10"> </p> 
+         <p> <label class="lTitle">Ag</label> <input id="ag2" name="ag2" type="text" size="12" maxlength="15"> <label class="lTitle">Conta</label> <input id="conta2" name="conta2" type="text" size="12" maxlength="15"> </p> 
+        </fieldset> 
+        <!-- QUINTO BLOCO - REFERENCIAS PESSOAIS --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Fontes de referência pessoais</p> 
+         <p> <label class="lTitle">Nome 1</label> <input id="nome-ref-1" type="text" name="nome-ref-1" maxlength="200"> </p> 
+         <p> <label class="lTitle">Tel</label> <input id="tel-referencia-1" name="tel-referencia-1" maxlength="14" type="text"> </p> 
+         <p> <label class="lTitle">Endereço</label> <input id="end-ref-1" type="text" maxlength="200" name="end-ref-1"> </p> 
+         <p> <label class="lTitle">Nome 2</label> <input id="nome-ref-2" name="nome-ref-2" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">Tel</label> <input id="tel-referencia-2" maxlength="10" name="tel-referencia-2" type="text"> </p> 
+         <p> <label class="lTitle">Endereço</label> <input id="end-ref-2" name="end-ref-2" type="text" maxlength="200"> </p> 
+        </fieldset> 
+        <!-- SEXTO BLOCO - BENS MATERIAIS (Veículo) --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Bens materiais - Veículo</p> 
+         <p> <label class="lTitle">Marca</label> <input id="marcaveiculo" name="marcaveiculo" type="text" size="8" maxlength="200"> <label class="menorLabel">Modelo</label> <input id="modeloveiculo" name="modeloveiculo" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">Ref Cml/financ</label> <input id="refcml" name="refcml" type="text" maxlength="200"> <label class="menorLabel">Ano</label> <input id="anoveiculo" name="anoveiculo" type="text" size="8" maxlength="4"> </p> 
+         <p> <label class="lTitle">Renavam</label> <input id="renavam" name="renavam" type="text" maxlength="20"> </p> 
+         <p> <label class="lTitle">Chassi</label> <input id="chassi" name="chassi" maxlength="20" type="text"> </p> 
+         <p> <label class="lTitle">Placa</label> <input id="placaveiculo" name="placaveiculo" maxlength="7" type="text"> </p> 
+         <p> <label class="lTitle">Valor</label> <input id="valor-veiculo" name="valor-veiculo" type="text"> </p> 
+         <p> <label class="lTitle">Alienado</label> <label><input id="alienado" type="radio" name="alienado" value="Sim"> Sim</label> <label><input id="alienado" class="sld" type="radio" name="alienado" checked value="Não"> Não</label> </p> 
+        </fieldset> 
+        <!-- SÉTIMO BLOCO - BENS MATERIAIS (Imóvel) --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Bens materiais - Imóvel</p> 
+         <p> <label class="lTitle">Endereço</label> <input id="endereco-imovel" name="endereco-imovel" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">Cidade</label> <input id="cidade-imovel" name="cidade-imovel" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">Ref Cml/financ</label> <input id="refcml-imovel" name="refcml-imovel" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">Estado</label> <select id="uf-imovel" name="uf-imovel"> <option value="AC">AC</option><option value="AL">AL</option><option value="AP">AP</option><option value="AM">AM</option><option value="BA">BA</option><option value="CE">CE</option><option selected value="DF">DF</option><option value="ES">ES</option><option value="RR">RR</option><option value="GO">GO</option><option value="MA">MA</option><option value="MT">MT</option><option value="MS">MS</option><option value="MG">MG</option><option value="PA">PA</option><option value="PB">PB</option><option value="PR">PR</option><option value="PE">PE</option><option value="PI">PI</option><option value="RJ">RJ</option><option value="RN">RN</option><option value="RS">RS</option><option value="RO">RO</option><option value="TO">TO</option><option value="SC">SC</option><option value="SP">SP</option><option value="SE">SE</option> </select> </p> 
+         <p> <label class="lTitle">Valor</label> <input id="valor-imovel" name="valor-imovel" type="text"> </p> 
+         <p> <label class="lTitle">Alienado</label> <label><input id="alienado-imovel" type="radio" name="alienado-imovel" value="Sim"> Sim</label> <label><input id="alienado-imovel" class="sld" type="radio" name="alienado-imovel" checked value="Não"> Não</label> </p> 
+        </fieldset> 
+        <!-- OITAVO BLOCO - FORMAS DE FINANCIAMENTO --> 
+        <fieldset> 
+         <p class="TitBlocoForm">Formas de financiamento</p> 
+         <p> <label class="lTitle">* Marca</label> <input id="marca-finan" name="marca-finan" type="text" maxlength="200"> </p> 
+         <p> <label class="lTitle">* Modelo</label> <input id="modelo-finan" name="modelo-finan" type="text" maxlength="200"> <label class="menorLabel">* Ano</label> <input id="ano-finan" name="ano-finan" type="text" size="8" maxlength="4"> </p> 
+         <p> <label class="lTitle">* Cor</label> <input id="cor-finan" name="cor-finan" maxlength="200" type="text"> </p> 
+         <p> <label class="lTitle">* Preço/valor</label> <input id="preco-finan" name="preco-finan" type="text"> </p> 
+         <p> <label class="lTitle">Entrada</label> <input id="entrada-finan" name="entrada-finan" type="text"> <span class="observacao">*se houver</span></p> 
+         <p> <label class="lTitle">* Valor a financiar</label> <input id="valor-finan" name="valor-finan" type="text"> </p> 
+         <p> <label class="lTitle">* Parcelas</label> <label><input id="parcelas" type="radio" name="parcelas" value="6" checked class="sld"> +6</label> <label><input id="parcelas" type="radio" name="parcelas" value="12"> +12</label> <label><input id="parcelas" type="radio" name="parcelas" value="24"> +24</label> <label><input id="parcelas" type="radio" name="parcelas" value="36"> +36</label> <label><input id="parcelas" type="radio" name="parcelas" value="48"> +48</label> <label><input id="parcelas" type="radio" name="parcelas" value="60"> +60</label> <label><input id="parcelas" type="radio" name="parcelas" value="72"> +72</label> </p> 
+        </fieldset> 
+        <!-- NONA BLOCO - BOTÃO --> 
+        <fieldset> 
+         <p>&nbsp;</p> 
+         <p> <label class="lTitle">&nbsp;</label> <input type="submit" name="btnSubmeter" class="btn_send_form_large" value="Solicitar financiamento"> </p> 
+        </fieldset> 
+       </form> 
+       <script type="text/javascript">
+$(document).ready(function(){
+    $("input[name='cpf']").mask("999.999.999-99");
+    $("input[name='cep']").mask("99999-999");
+    $("input[name='date-birth']").mask("99/99/9999");
+    $("input[name='data-emissao']").mask("99/99/9999");
+    $("input[name='ano-finan']").mask("9999");
+    $("input[name='tel']").mask("(99)9999-9999");
+    $("input[name='cel']").mask("(99)99999-999?9");
+});
+</script>
+      </div>
+     </div> 
+    </div> 
+    <!--colEsq--> 
+    <div class="colDir"> 
+     <section id="sideLojas"> 
+      <article class="boxLoja"> 
+       <h2>NACIONAL LESTE</h2> 
+       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1917.3056394317518!2d-48.0542653!3d-16.0337385!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1431094679675" width="264" height="200" frameborder="0" style="border:0"></iframe> 
+       <p>Quadra 32, Loja 20 Leste Gama - Brasília - DF CEP: 72314-531</p> 
+      </article>
+      <!--boxLoja--> 
+      <br> 
+      <br> 
+      <article class="boxLoja"> 
+       <h2>NACIONAL SAMAMBAIA</h2> 
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3837.6077353322385!2d-48.0609692!3d-15.877201!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2d4010317b9f%3A0x99113fab2ce51bb7!2sAv.+Leste+Qs+518+Conjunto+1%2C+1+-+Samambaia%2C+Bras%C3%ADlia+-+DF!5e0!3m2!1spt-BR!2sbr!4v1431094711339" width="264" height="200" frameborder="0" style="border:0"></iframe> 
+       <p>Quadra 518, Loja 04, 4 Samambaia Sul - Brasília - DF CEP: 72460-320</p> 
+      </article>
+      <!--boxLoja--> 
+     </section> 
+     <!--boxSide--> 
+    </div> 
+    <!--colDir--> 
+    <div class="clearfloat"></div> 
+   </div>
+   <!--centraliza--> 
+  </section>
+  <!--mainInternas--> 
+  <footer id="footer"> 
+   <ul class="abaLateral"> 
+    <li> <a class="opcoes chat" href="javascript:void(window.open('http://nacionalveiculos.com.br/chat/chat.php','','width=590,height=610,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))"> Chat <span><br>Online</span> </a> </li> 
+    <li> <a class="opcoes whatsapp" href="#"> Whatsapp <span><br>(61) 9855-7191</span> <span><br>(61) 9 9851-5258</span> <span><br>(61) 9 9857-6842</span> </a> </li> 
+   </ul> 
+   <div class="centraliza"> 
+    <img src="/templates/assets/img/logoNacionalFooter.png" alt="Nacional Veículos" title="Nacional Veículos" class="logo_footer fleft"> 
+    <div class="menuFooter"> 
+     <h2>Mapa do site</h2> 
+     <ul> 
+      <li><a href="/">Home</a></li> 
+      <li><a href="/empresa">Empresa</a></li> 
+      <li><a href="/estoque">Seminovos</a></li> 
+      <li><a href="/contato">Contato</a></li> 
+      <li><a href="/avalie">Avalie seu usado</a></li> 
+      <li><a href="/localizacao">Localização</a></li> 
+      <li><a href="/financiamento">Financiamento</a></li> 
+     </ul> 
+    </div> 
+    <div class="menuFooterLinks"> 
+     <h2>links úteis</h2> 
+     <ul> 
+      <li><a href="http://www.fipe.org.br/web/index.asp?aspx=/web/indices/veiculos/introducao.aspx" target="_blank">FIPE</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">IPVA</a></li> 
+      <li><a href="http://www.detran.df.gov.br/" target="_blank">Detran</a></li> 
+      <li><a href="http://webservices.maplink2.com.br/santander/MontarTrajeto.aspx" target="_blank">Monte seu trajeto</a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div id="copyrights"> 
+    <div class="centraliza"> 
+     <p class="fleft">Nacional Veículos 2015 | Todos os direitos reservados.</p> 
+     <p class="fright"><a href="http://www.vmotors.com.br" title="Powered by VMotors" target="_blank">www.vmotors.com.br</a></p> 
+     <div class="clearfloat"></div> 
+    </div> 
+   </div> 
+  </footer>  
+ </body>
+</html>
