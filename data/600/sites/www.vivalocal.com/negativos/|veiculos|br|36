@@ -1,0 +1,2547 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <!-- Generated September 28, 2017, 11:03 pm on web33 -->
+  <title>Veículos usados , veículos semi novos  -Vivalocal</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwcCVFBWGwUFVFFVBAA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(19),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(20),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(p){"stack"in p&&(t(12),t(11),"addEventListener"in window&&t(6),s.xhrWrappable&&t(13),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){C++,M=y.hash,this[u]=b.now()}function o(){C--,y.hash!==M&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(9),x=t(10),E=t(8),O=t(6),R=t(12),P=t(7),T=t(13),S=t("ee"),N=S.get("tracer");t(14),b.features.spa=!0;var M,j=w[v],C=0;S.on(u,r),S.on(p,r),S.on(d,o),S.on(h,o),S.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),P.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),a(T,"send-xhr"+c),a(S,"xhr-resolved"),a(S,"xhr-done"),a(P,m+c),a(P,m+"-done"),E.on("pushState-end",i),E.on("replaceState-end",i),j("hashchange",i,!0),j("load",i,!0),j("popstate",function(){i(0,C>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(12),c=t(11),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(22)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(19);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(22)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){var r=t("ee").get("mutation"),o=t(22)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],10:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(22),a=t("ee").get("promise"),c=i(a),s=t(19),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],11:[function(t,e,n){var r=t("ee").get("raf"),o=t(22)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],12:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(22)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],13:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<b.length;t++)r([],b[t]);b.length&&(b=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t(22)(u),p=NREUM.o,h=p.XHR,l=p.MO,m=p.PR,v=p.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],b=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new h(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(h,g),g.prototype=h.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),l){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new l(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],14:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return l(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(15),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,p=t("id"),h=t(18),l=t(17),m=window.XMLHttpRequest;a.features.xhr=!0,t(13),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=l(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+p(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],15:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],16:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(19),c=t(20),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",h=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var l=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(h+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){l[e]=o(h+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],17:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],18:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],19:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],20:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],21:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],22:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(20),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),c=l(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[y[n]];return d&&d.push([b,n,r,a]),a}}function h(t,e){w[t]=l(t).concat(e)}function l(t){return w[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var w={},y={},b={on:h,emit:n,get:m,listeners:l,context:e,buffer:v,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var c="nr@context",s=t("gos"),f=t(19),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!x++){var t=g.info=NREUM.info,e=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+g.offset],null,"api");var n=p.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===p.readyState&&i()}function i(){s("mark",["domContent",a()+g.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-g.offset}var c=(new Date).getTime(),s=t("handle"),f=t(19),u=t("ee"),d=window,p=d.document,h="addEventListener",l="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var w=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1039.min.js"},b=m&&v&&v[h]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:c,now:a,origin:w,features:{},xhrWrappable:b};t(16),p[h]?(p[h]("DOMContentLoaded",i,!1),d[h]("load",r,!1)):(p[l]("onreadystatechange",o),d[l]("onload",r)),s("mark",["firstbyte",c],null,"api");var x=0,E=t(21)},{}]},{},["loader",2,14,5,3,4]);</script>
+  <meta name="description" content="Veículos usados  a venda com o VIVALOCAL  Brasil: mais de 400,000 CLASSIFICADOS GRÁTIS. Venda ou compre seu veículo semi novo com 2 cliques!">
+  <meta name="keywords" content="veiculos usados ,venda veiculos usados ,veiculos usados a venda ,venda veiculos ">
+  <meta name="robots" content="noodp">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+  <link rel="shortcut icon" href="http://media-sa.viva-images.com/vivastreet_mx/home/favicon.ico">
+  <link rel="canonical" href="http://www.vivalocal.com/veiculos/br">
+  <link rel="alternate" href="http://m.vivalocal.com/veiculos/br" media="handheld">
+  <link rel="next" href="http://www.vivalocal.com/veiculos/br/t+2">
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/prepend_b.js?cache=crMbO"></script>
+  <script src="http://www.vivalocal.com/script/captions.php?cache=crMbO"></script>
+  <link rel="stylesheet" type="text/css" href="http://static.viva-images.com/templates/viwii3/styles/summary_br_latam.css?cache=crMbO">
+ </head>
+ <body id="kiwii" page_mode="t" page_type="summary" class="summary_text ie6" style="background-position: top center;background-repeat:no-repeat;">
+  <a name="top" id="jump_top"></a>
+  <div class="kiwii-span-20 kiwii-center-hor vs-width-1000 kiwii-bg-xxxlighter-blue kiwii-padding-tiny">
+   <div class="kiwii-margin-top-xxsmall">
+    <div class="kiwii-position-relative " id="vs_header">
+     <div class="inner">
+      <a class="kiwii-float-left kiwii-logo" title="Classificados" alt="Classificados" href="http://www.vivalocal.com"></a>
+      <span class="" id="header-tag"><h1 class="kiwii-h1">Veiculos usados </h1></span>
+      <div class="kiwii-font-tiny kiwii-clear-left kiwii-padding-left-xxxsmall" id="vs_static_header">
+       <span style="letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;">Anúncios classificados grátis</span>
+      </div>
+      <div class="kiwii-clear-both"></div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-top">
+       <a href="http://post.vivalocal.com" id="vs_posting_button" class="kiwii-btn kiwii-btn-primary kiwii-btn-large orange gradient-button" onclick="_gaq.push(['_trackEvent', 'Post an Ad', 'summary_text', 'veiculos']);">
+        <div>
+         Inserir anúncio»
+        </div></a>
+      </div>
+      <div class="kiwii-position-absolute kiwii-position-right kiwii-position-bottom kiwii-layer-top kiwii-margin-bottom-xxxsmall">
+       <div class="vs-user-menu kiwii-no-link-decoration ">
+        <a href="http://www.vivalocal.com/account_classifieds.php" id="vs_account_menu_link" class="kiwii-no-link-decoration kiwii-font-weight-bold" rel="nofollow">Minha Conta</a>
+        <a id="vs_help_link" class="vivasafe kiwii-margin-left-xxsmall kiwii-no-link-decoration kiwii-font-weight-bold" href="http://www.vivalocal.com/s/help" rel="nofollow">Ajuda</a>
+       </div>
+      </div>
+      <div class="kiwii-breadcrumbs mmlightgrey mmchevron" id="vs_breadcrumbs">
+       <ul class="kiwii-h-list mmmenu">
+        <li class="mmfirst" level="0"></li>
+        <li class="hometab tab" level="1" style="cursor: pointer;"><a id="vs_bc_home_link" href="http://www.vivalocal.com" title="every_ads_country"></a><span class="kiwii-icon kiwii-icon-home"></span></li>
+        <li class="tab last" level="2"><span id="vs_bc_maincat_link" class="nolink">Veículos usados</span></li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div id="vs_content" class="clear kiwii-box-white"> 
+    <!-- rendering summary page --> 
+    <table class="kiwii-searchform searchform"> 
+     <tbody>
+      <tr> 
+       <td class="vs-searchbox-layout-left"> 
+        <form id="vs_searchform" action="http://search.vivalocal.com/veiculos/br" method="GET" class="jqtransform" name="vs-searchform"> 
+         <input type="hidden" name="lb" value="new"> 
+         <input type="hidden" name="search" value="1"> 
+         <!-- End Search by posted and order --> 
+         <input type="hidden" name="start_field" value="1"> 
+         <div class="vs-searchbox"> 
+          <table class="vs-searchbox-inputs"> 
+           <tbody>
+            <tr class="vs-search-generic-elements vs-search-specialization-elements"> 
+             <td class="keywords"> 
+              <div style="padding-bottom: 5px;"> 
+               <input type="text" name="keywords" id="vs_search_keywords" title="Marca, modelo, versão..." class="kiwii-input kiwii-input-large vs-search-keywords" value=""> 
+               <span class="kiwii-input-endcap append"> <label class="select-label checkbox-label"> <input type="checkbox" id="search_only_title" name="search_only_title" value="1"> Procurar no título </label> 
+                <div class="search-title clearfix"> 
+                 <div class="search-tooltip-content"> 
+                  <span></span> 
+                 </div> 
+                </div> </span> 
+               <div class="kiwii-float-right"> 
+                <select id="vs-cat-dropdown-1" name="cat_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block" autocomplete="off"><option class="" value="" title=""> Todas categorias </option><option class="kiwii-bg-xxlight-green" value="136" code="vehicules" selected title="http://search.vivalocal.com/veiculos"> -- Veículos usados -- </option><option class="" value="40" code="cars_trucks" title="http://search.vivalocal.com/auto-veiculo-usado"> Carros usados </option><option class="" value="41" code="bikes_motorcycles" title="http://search.vivalocal.com/motocicletas-usadas"> Motos usadas </option><option class="" value="56" code="trucks" title="http://search.vivalocal.com/vender-caminhao-usado"> Caminhões usados </option><option class="" value="242" code="busses" title="http://search.vivalocal.com/onibus-venda"> Ônibus usados </option><option class="" value="130" code="caravans_rv" title="http://search.vivalocal.com/motor-home-camping"> Motor home - Motor trailer </option><option class="" value="46" code="boats" title="http://search.vivalocal.com/yate-comprar-vender"> Lanchas - Barcos - Veleiros </option><option class="" value="240" code="boats_rental" title="http://search.vivalocal.com/aluguel-carros"> Aluguel carros - Barcos - Motos </option><option class="" value="239" code="vehicle_accessories" title="http://search.vivalocal.com/pecas-veiculos"> Acessórios e serviços </option><option class="kiwii-bg-xxlight-green" value="147" code="agriculture" title="http://search.vivalocal.com/agricultura-pecuaria"> -- Agronegócios -- </option><option class="" value="149" code="farm_animals" title="http://search.vivalocal.com/animais-pecuaria"> Animais do campo </option><option class="" value="148" code="animal_nutrition" title="http://search.vivalocal.com/animal-pecuaria"> Alimentação pecuária - Grãos </option><option class="" value="151" code="agro_supplies" title="http://search.vivalocal.com/insumos"> Produtos rurais </option><option class="" value="150" code="agro_machinery" title="http://search.vivalocal.com/equipamentos-rurais"> Maquinária agrícola </option><option class="" value="152" code="agro_services" title="http://search.vivalocal.com/produtos-agropecuarios"> Serviços agropecuários </option><option class="" value="241" code="agro_land" title="http://search.vivalocal.com/vender-fazendas"> Fazendas - Sitios à venda </option><option class="kiwii-bg-xxlight-green" value="142" code="pets" title="http://search.vivalocal.com/animais-estimacao"> -- Animais e acessórios -- </option><option class="" value="44" code="pet_sale" title="http://search.vivalocal.com/comprar-bichos-filhotes"> Animais estimação à venda </option><option class="" value="55" code="pet_adoption" title="http://search.vivalocal.com/adocao-animais"> Adoção animais de estimação </option><option class="" value="122" code="pet_services" title="http://search.vivalocal.com/oferta-servico-bicho"> Veterinários - Serviços - Acessórios </option><option class="kiwii-bg-xxlight-green" value="7" code="housing" title="http://search.vivalocal.com/compra-venda-aluguel"> -- Imóveis -- </option><option class="" value="93" code="housing_for_sale" title="http://search.vivalocal.com/comprar-imovel"> Apartamentos - Casas venda </option><option class="" value="91" code="housing_for_rent" title="http://search.vivalocal.com/alugar-casa-apartamento"> Alugar casas - Apartamentos </option><option class="" value="33" code="sublets_short_term" title="http://search.vivalocal.com/aluguel-temporada"> Aluguel temporada </option><option class="" value="249" code="new_developments" title="http://search.vivalocal.com/empreendimentos"> Empreendimentos imóveis </option><option class="" value="92" code="rooms_roommates" title="http://search.vivalocal.com/alugar-quarto-vaga"> Dividir apartamento - Quartos </option><option class="" value="118" code="land_for_sale" title="http://search.vivalocal.com/terrenos-venda"> Terrenos - Lotes </option><option class="" value="13" code="housing_exchange" title="http://search.vivalocal.com/trocar-imovel"> Troca de casas - Apartamentos </option><option class="" value="22" code="parking" title="http://search.vivalocal.com/alugar-vaga-garagem"> Estacionamentos - Garagens </option><option class="" value="155" foreign="yes" code="overseas_realestate" title="http://search.vivalocal.com/imoveis-exterior"> Imóveis exterior </option><option class="" value="15" code="real_estate" title="http://search.vivalocal.com/pontos-comerciais"> Imóveis comerciais </option><option class="kiwii-bg-xxlight-green" value="3" code="personals" title="http://search.vivalocal.com/namoro-amizade"> -- Relacionamento -- </option><option class="" value="39" code="missed-connections" title="http://search.vivalocal.com/fazer-amigo-encontrar"> Procurar Amigos </option><option class="" value="140" code="serious_relationships" title="http://search.vivalocal.com/relacoes-adultas"> Procurar Amor </option><option class="" value="153" code="gay_relationships" title="http://search.vivalocal.com/relacionamento"> Relações Gays - Lésbicas </option><option class="" value="132" code="open_minds" title="http://search.vivalocal.com/encontro-casual"> Encontros Casuais </option><option class="" value="133" code="adult_services" title="http://search.vivalocal.com/acompanhante-erotico"> Acompanhantes &amp; Massagem </option><option class="" value="248" code="gay_adult_services" title="http://search.vivalocal.com/acompanhantes-gays"> Acompanhantes Masculinos </option><option class="kiwii-bg-xxlight-green" value="6" code="services" title="http://search.vivalocal.com/procura-servicos"> -- Serviços -- </option><option class="" value="109" code="tickets_travel" title="http://search.vivalocal.com/viagem-turismo"> Serviços turismo - Agência turismo </option><option class="" value="107" code="translation" title="http://search.vivalocal.com/tradutores"> Traduções - Serviços de traduções </option><option class="" value="128" code="computer_services" title="http://search.vivalocal.com/computador"> Serviços de informática </option><option class="" value="89" code="computer" title="http://search.vivalocal.com/transporte-frete"> Mudanças - Frete </option><option class="" value="29" code="small_businesses" title="http://search.vivalocal.com/consultoria-assistencia"> Profissionais liberais </option><option class="" value="11" code="labor_moving" title="http://search.vivalocal.com/conserto-reforma"> Reparo - Conserto - Reforma </option><option class="" value="12" code="health_and_well_being" title="http://search.vivalocal.com/boa-forma"> Bem-Estar - Saúde - Beleza </option><option class="" value="134" code="classes_learning" title="http://search.vivalocal.com/astrologia-previsao"> Astrologia - Serv. espirituais </option><option class="" value="90" code="other_services" title="http://search.vivalocal.com/oferta-servicos"> Outros serviços </option><option class="kiwii-bg-xxlight-green" value="1" code="jobs" title="http://search.vivalocal.com/anuncios-vagas"> -- Empregos -- </option><option class="" value="137" code="job_offers" title="http://search.vivalocal.com/anuncios-empregos"> Ofertas de emprego </option><option class="" value="77" code="internships" title="http://search.vivalocal.com/estagios-trainee"> Estágios - Trainee </option><option class="" value="138" code="job_seekers" title="http://search.vivalocal.com/cadastre-cv"> Anunciar currículo - Procurar emprego </option><option class="" value="9" code="small_jobs" title="http://search.vivalocal.com/trabalho-temporario"> Trabalhos domésticos </option><option class="kiwii-bg-xxlight-green" value="4" code="community" title="http://search.vivalocal.com/anuncios-locais"> -- Comunidade -- </option><option class="" value="135" code="artists_musicians" title="http://search.vivalocal.com/cantores-ator-atriz"> Artistas - Músicos </option><option class="" value="26" code="restaurants_bars" title="http://search.vivalocal.com/casas-noturnas"> Guia restaurantes - Bares </option><option class="" value="145" code="recipes" title="http://search.vivalocal.com/receitas-cozinha"> Receitas culinárias </option><option class="" value="117" code="missing" title="http://search.vivalocal.com/contatos-perdidos"> Contatos perdidos </option><option class="" value="82" code="other_activities" title="http://search.vivalocal.com/atividades-livres-comunidade"> Atividades locais </option><option class="" value="5" code="events" title="http://search.vivalocal.com/noite-entretenimento"> Eventos </option><option class="kiwii-bg-xxlight-green" value="2" code="for_sale" title="http://search.vivalocal.com/compra-venda-usada"> -- Compra venda -- </option><option class="" value="244" code="for_sale_home" title="http://search.vivalocal.com/casa"> Artigos para casa </option><option class="" value="245" code="for_sale_leisure" title="http://search.vivalocal.com/lazer"> Lazer e entretenimento </option><option class="" value="246" code="for_sale_media" title="http://search.vivalocal.com/eletronicos"> Artigos eletrônicos </option><option class="" value="247" code="for_sale_fashion" title="http://search.vivalocal.com/moda"> Moda e acessórios </option><option class="" value="95" code="general" title="http://search.vivalocal.com/anuncios-compra-comprar"> Diversos </option><option class="kiwii-bg-xxlight-green" value="8" code="classes" title="http://search.vivalocal.com/treinamento"> -- Cursos -- </option><option class="" value="111" code="classes_language" title="http://search.vivalocal.com/cursos-lingua-estrangeira"> Cursos de idiomas </option><option class="" value="114" code="classes_computers" title="http://search.vivalocal.com/curso-informatica"> Cursos de informática </option><option class="" value="113" code="classes_professional_training" title="http://search.vivalocal.com/formacao-profissional"> Capacitação profissional </option><option class="" value="115" code="classes_private" title="http://search.vivalocal.com/professores-particulares"> Professores particulares </option><option class="" value="146" code="aerobics" title="http://search.vivalocal.com/lutas-esportes"> Aulas de ginástica </option><option class="" value="112" code="classes_music_theater" title="http://search.vivalocal.com/curso-teatro"> Aulas música - Teatro - Dança </option><option class="" value="37" code="classes_other" title="http://search.vivalocal.com/outros-aulas-cursos"> Outros cursos </option></select>
+                <select id="vs-cat-dropdown-2" name="cat_2" class="kiwii-dropdown-large kiwii-display-block" style="display:none;" autocomplete="off"><option class="" code="vehicle_accessories" value="" title="http://search.vivalocal.com/pecas-veiculos"> Todos os Tipos de Peças </option><option class="" code="vehicle_accessories" value="53" title="http://search.vivalocal.com/acessorios-servicos-carro"> Autopeças - Acessórios - Serviços </option><option class="" code="vehicle_accessories" value="227" title="http://search.vivalocal.com/pecas-motos"> Peças reposição motos </option><option class="" code="vehicle_accessories" value="237" title="http://search.vivalocal.com/acessorios-nauticos"> Peças reposição náuticos </option><option class="" code="vehicle_accessories" value="238" title="http://search.vivalocal.com/acessorios-motorhome"> Acessórios motorhome </option><option class="" code="vehicle_accessories" value="243" title="http://search.vivalocal.com/pecas-caminhoes"> Peças - Acessórios caminhões </option><option class="" code="overseas_realestate" value="" title="http://search.vivalocal.com/imoveis-exterior"> Todos os imóveis no exterior </option><option class="" code="overseas_realestate" value="156" foreign="yes" title="http://search.vivalocal.com/venda-exterior"> Casas venda exterior </option><option class="" code="overseas_realestate" value="157" foreign="yes" title="http://search.vivalocal.com/aluguel-internacionais"> Aluguel temporada exterior </option><option class="" code="overseas_realestate" value="158" foreign="yes" title="http://search.vivalocal.com/terrenos-exterior"> Terrenos venda exterior </option><option class="" code="real_estate" value="" title="http://search.vivalocal.com/pontos-comerciais"> Todos os imóveis </option><option class="" code="real_estate" value="28" title="http://search.vivalocal.com/comercial-sala-loja"> Venda imóveis comerciais </option><option class="" code="real_estate" value="144" title="http://search.vivalocal.com/loja-sala-comercial"> Aluguel imóveis comerciais </option><option class="" code="serious_relationships" value="" title="http://search.vivalocal.com/relacoes-adultas"> Relacionamentos Hétero </option><option class="" code="serious_relationships" value="32" title="http://search.vivalocal.com/procuro-namoro-paquera"> Mulher procura homem </option><option class="" code="serious_relationships" value="131" title="http://search.vivalocal.com/procurar-mulher-parceira"> Homem procura mulher </option><option class="" code="gay_relationships" value="" title="http://search.vivalocal.com/relacionamento"> Tipos de relacionamentos </option><option class="" code="gay_relationships" value="78" title="http://search.vivalocal.com/buscar-procurar-lesbica"> Mullher procura mulher </option><option class="" code="gay_relationships" value="38" title="http://search.vivalocal.com/procurar-gay"> Homem procura homem </option><option class="" code="small_jobs" value="" title="http://search.vivalocal.com/trabalho-temporario"> Todos os trabalhos domésticos </option><option class="" code="small_jobs" value="106" title="http://search.vivalocal.com/emprego-baba"> Babás </option><option class="" code="small_jobs" value="108" title="http://search.vivalocal.com/empregada-domestica"> Empregada doméstica - Diarista </option><option class="" code="small_jobs" value="14" title="http://search.vivalocal.com/enfermeiro-enfermeira"> Acompanhante idosos - Enfermeira </option><option class="" code="small_jobs" value="21" title="http://search.vivalocal.com/marketing-multinivel"> Trabalhar em casa </option><option class="" code="events" value="" title="http://search.vivalocal.com/noite-entretenimento"> Todos os eventos e festas </option><option class="" code="events" value="120" title="http://search.vivalocal.com/servicos-festa"> Serviços para eventos </option><option class="" code="for_sale_home" value="" title="http://search.vivalocal.com/casa"> Todos os itens para casa </option><option class="" code="for_sale_home" value="52" title="http://search.vivalocal.com/decoracao-moveis-usados"> Móveis - Camas - Cadeiras </option><option class="" code="for_sale_home" value="54" title="http://search.vivalocal.com/artigos-decoracao"> Decoração Casa </option><option class="" code="for_sale_home" value="48" title="http://search.vivalocal.com/segunda-mao"> Eletrodomésticos usados </option><option class="" code="for_sale_home" value="94" title="http://search.vivalocal.com/artigos-de-colecionador"> Artigos de coleção </option><option class="" code="for_sale_home" value="57" title="http://search.vivalocal.com/artigo-profissional-usado"> Equipamentos profissionais </option><option class="" code="for_sale_leisure" value="" title="http://search.vivalocal.com/lazer"> Todos os anúncios de lazer </option><option class="" code="for_sale_leisure" value="105" title="http://search.vivalocal.com/material-esporte"> Artigos esportivos - Bicicletas </option><option class="" code="for_sale_leisure" value="154" title="http://search.vivalocal.com/artesanato-manual"> Artesanato - Feito à mão </option><option class="" code="for_sale_leisure" value="124" title="http://search.vivalocal.com/presente"> Idéias para presentes </option><option class="" code="for_sale_leisure" value="104" title="http://search.vivalocal.com/musica-instrumento"> Instrumentos musicais </option><option class="" code="for_sale_leisure" value="121" title="http://search.vivalocal.com/banquete-comida"> Bebidas - Comidas </option><option class="" code="for_sale_media" value="" title="http://search.vivalocal.com/eletronicos"> Todos os eletrônicos </option><option class="" code="for_sale_media" value="43" title="http://search.vivalocal.com/artigos-informatica"> Notebooks - Computadores usados </option><option class="" code="for_sale_media" value="47" title="http://search.vivalocal.com/jogos-livros-usados"> DVD - Video Games - Livros - CD </option><option class="" code="for_sale_media" value="103" title="http://search.vivalocal.com/fotografia-eletronico-usado"> TV - Som - Fotografia </option><option class="" code="for_sale_media" value="51" title="http://search.vivalocal.com/ipod-mp3-acessorios-usados"> MP3 - Ipod - Celulares </option><option class="" code="for_sale_fashion" value="" title="http://search.vivalocal.com/moda"> Todos os anúncios </option><option class="" code="for_sale_fashion" value="42" title="http://search.vivalocal.com/vender-comprar-joias"> Antiguidades - Jóias </option><option class="" code="for_sale_fashion" value="49" title="http://search.vivalocal.com/artigos-para-bebe"> Brinquedos - Artigos infantis </option><option class="" code="for_sale_fashion" value="45" title="http://search.vivalocal.com/acessorios-usados"> Roupas e Acessórios </option><option class="" code="for_sale_fashion" value="129" title="http://search.vivalocal.com/comprar-produtos-beleza-saude"> Produtos Beleza - Saúde </option></select> 
+               </div> 
+              </div> 
+              <table class="elements ">
+               <colgroup>
+                <col width="33%">
+                <col width="33%">
+                <col width="33%">
+               </colgroup>
+               <tbody>
+                <tr>
+                 <td align="left"><label class="select-label" for="vs_searchform_price_min">Preço</label><select class="vs-jqtransform kiwii-margin-right-xxxsmall" id="vs_searchform_price_min" name="sp_common_price[start]" onchange=""><option value="">min</option><option value="0">0</option><option value="500">500</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="2500">2,500</option><option value="3000">3,000</option><option value="4000">4,000</option><option value="5000">5,000</option><option value="7500">7,500</option><option value="10000">10,000</option><option value="15000">15,000</option><option value="20000">20,000</option><option value="30000">30,000</option><option value="40000">40,000</option><option value="50000">50,000</option><option value="75000">75,000</option><option value="100000">100,000</option></select><select class="vs-jqtransform" id="vs_searchform_price_max" name="sp_common_price[end]" onchange=""><option value="">max</option><option value="500">500</option><option value="1000">1,000</option><option value="1500">1,500</option><option value="2000">2,000</option><option value="2500">2,500</option><option value="3000">3,000</option><option value="4000">4,000</option><option value="5000">5,000</option><option value="7500">7,500</option><option value="10000">10,000</option><option value="15000">15,000</option><option value="20000">20,000</option><option value="30000">30,000</option><option value="40000">40,000</option><option value="50000">50,000</option><option value="75000">75,000</option><option value="100000">100,000</option><option value="unlimited">Ilimitado</option></select></td>
+                 <td align="left"></td>
+                 <td align="left"></td>
+                </tr>
+                <tr>
+                 <td align="left" colspan="1">
+                  <div style="padding-bottom: 5px;">
+                   <input class="radio" id="offer" type="radio" name="offer_type" value="offer" checked>
+                   <label class="select-radio vs-offer-seek" for="offer">Oferecer</label>
+                   <input class="radio" id="seek" type="radio" name="offer_type" value="seek">
+                   <label class="select-radio vs-offer-seek" for="seek">Procurar</label>
+                  </div></td>
+                 <td align="left" colspan="1">
+                  <div style="padding: 0px 0px 2px 8px;">
+                   <label class="select-label checkbox-label"><input type="checkbox" name="image_total" value="1"> Com fotos</label>
+                  </div></td>
+                 <td align="left"></td>
+                </tr>
+               </tbody>
+               <tbody></tbody>
+              </table> </td> 
+             <td class="geosearch"> <select id="vs_geo_dropdown_1" class="kiwii-dropdown-large kiwii-margin kiwii-display-block vs-geo-dropdown"><option value="0">Todo Brasil</option><option value="2">Acre</option><option value="5">Alagoas</option><option value="8">Amapá</option><option value="11">Amazonas</option><option value="17">Bahia</option><option value="34">Ceará</option><option value="22">Distrito Federal</option><option value="28">Espírito Santo</option><option value="35">Goiás</option><option value="38">Maranhão</option><option value="41">Mato Grosso</option><option value="44">Mato Grosso do Sul</option><option value="47">Minas Gerais</option><option value="57">Pará</option><option value="60">Paraíba</option><option value="63">Paraná</option><option value="67">Pernambuco</option><option value="71">Piauí</option><option value="74">Rio de Janeiro - RJ</option><option value="113">Rio Grande do Norte</option><option value="116">Rio Grande do Sul</option><option value="125">Rondônia</option><option value="128">Roraima</option><option value="131">Santa Catarina</option><option value="138">São Paulo - SP</option><option value="192">Sergipe</option><option value="195">Tocantins</option></select><select id="vs_geo_dropdown_2" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_3" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_4" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><select id="vs_geo_dropdown_5" class="kiwii-dropdown-large vs-geo-dropdown kiwii-margin kiwii-display-block" style="display:none;"><option value="0"></option></select><input type="hidden" name="searchGeoId" id="vs_geo_id" value="0" autocomplete="off"> </td> 
+             <td class="submit"> 
+              <div class="vs-searchbox-submit"> 
+               <div class="vs-ads-with-pic"></div> 
+               <input class="kiwii-btn kiwii-btn-primary kiwii-btn-large ui-button ui-search-button1 ui-corner-all kiwii-span-2" type="submit" value="Procurar"> 
+              </div> 
+              <div class="searchform-email-alert" onclick="ALERT.openLightbox();"> 
+               <div class="kiwii-span-2"> 
+                <span class="tooltip tooltip-effect-1"> <span class="tooltip-item"> <span id="icoalert"></span> <span class="caption_alert">Criar um alerta</span> </span> 
+                 <div class="tooltip-content clearfix"> 
+                  <span class="tooltip-text">Economize tempo! Receba por e-mail todos os novos anúncios relacionados com sua busca.</span> 
+                 </div> </span> 
+               </div> 
+              </div> </td> 
+            </tr> 
+           </tbody>
+          </table> 
+          <div style="clear:both"></div> 
+         </div> 
+         <input type="hidden" name="end_field"> 
+        </form> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <!--DFP --> 
+    <script type="text/javascript">
+  (function() {
+    var useSSL = 'https:' == document.location.protocol;
+    var src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+  })();
+</script> 
+    <script type="text/javascript">
+googletag.cmd.push(function() {
+    googletag.defineOutOfPageSlot('/31586872/Desktop_Interstitial', 'div-gpt-ad-1470039326458-0').addService(googletag.pubads());
+    googletag.pubads().setTargeting('Country', ['br']).setTargeting('category', ['vehicules','', '']);
+    googletag.pubads().enableSyncRendering();
+    googletag.enableServices();
+  });
+</script> 
+    <!-- /31586872/Desktop_Interstitial --> 
+    <div id="div-gpt-ad-1470039326458-0"> 
+     <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1470039326458-0'); });
+</script> 
+    </div> 
+    <div class="kiwii-padding-top-xxxsmall"> 
+     <div class="vs-summary-300x250" id="vs-summary-300x250" style="float:right;width:300px;height:250px;margin-top:5px;position:relative;display:block;z-index:911;border-left:1px solid #ccc;padding-left:5px;"> 
+      <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - ATF */
+google_ad_slot = "3440836895";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script> 
+      <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+     </div> 
+    </div> 
+    <div style="width:68%;position:relative;display:block;z-index:111;"> 
+     <div id="vs-search-ad-top" style="padding-left:20px;"></div> 
+     <script src="https://www.google.com/adsense/search/async-ads.js" type="text/javascript"></script> 
+     <script type="text/javascript" charset="utf-8">
+if (136==0){var nocat= 'usados';var pageType= "geo_summary";}else{var nocat= '';var pageType= "summary";}
+var is_search = ( 0 ) ? 'search' : 'browse';
+var xhome = document.referrer;
+if (xhome !=='http://www.viva.com/'){
+new google.ads.search.Ads(
+	{"pubId": "w3-viva-br-" + is_search, 
+	 "query": "  Veículos usados   " + nocat, 
+	 "channel": "vehicules,,br,_br,vehicules_br", 
+	 "queryContext": "|Veículos usados", 
+	 "adtest": "off", 
+	 "hl": "pt", 
+	 "numRepeated" : "3", 
+	 "detailedAttribution" : false, 
+	 "adPage": "1", 
+	 "sellerRatings": false, 
+	 "siteLinks": false, 
+	 "linkTarget": "_blank", 
+	 "titleBold": true,
+	 "rolloverAdBackgroundColor": "#c2ebfc"
+	},
+	{"container": "vs-search-ad-top", 
+	 "maxTop": "4", 
+         "verticalSpacing" : "14",
+         "adLayout": "sellerFirst",
+	 "width": "98%", 
+	 "lines": "3", 
+	 "fontSizeTitle": "14px",
+	 "fontSizeAttribution" : 12,
+	 "fontSizeDescription": "12px", 
+	 "fontSizeDomainLink": "15px", 
+	 "colorTitleLink": "#114D97", 
+	 "colorText": "#575757", 
+	 "colorDomainLink": "#65b21c", 
+	 "colorBackground": "#FFFFFF", 
+	 "colorBorder": "#FFF", 
+	 "colorAdSeparator": "#CCC", 
+	 "rolloverLinkUnderline": true, 
+	 "rolloverLinkColor": "#114D97", 
+	 "adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", 
+	 "adIconWidth": 166, "adIconHeight": 50, 
+	 "adIconSpacingBefore": 16, 
+	 "adIconSpacingAfter": 16, 
+	 "adIconSpacingAbove": 2, 
+	 "adIconLocation": "ad-left"},
+	{"container": "vs-search-ad-bottom", "number": "4", "width": "98%", "lines": "3", "fontSizeTitle": "14px","fontSizeAttribution" : 12, "fontSizeDescription": "12px", "fontSizeDomainLink": "15px","adLayout": "sellerFirst", "colorTitleLink": "#114D97", "colorText": "#575757", "colorDomainLink": "#65b21c","verticalSpacing" : "14", "colorBackground": "#FFFFFF", "colorBorder": "#FFF", "colorAdSeparator": "#CCC", "rolloverLinkUnderline": true, "rolloverLinkColor": "#114D97", 
+	"adIconUrl": "http:\/\/afs.googleusercontent.com\/vivastreet\/AFS_large_IT.png", "adIconWidth": 166, "adIconHeight": 50, "adIconSpacingBefore": 16, "adIconSpacingAfter": 16, "adIconSpacingAbove": 2, "adIconLocation": "ad-left"});
+}
+</script> 
+     <script type="text/javascript" src="https://www.google.com/afsonline/show_afs_ads.js"></script> 
+     <div class="kiwii-clear-both"></div> 
+    </div> 
+    <style>.sponsor_style:hover{background-color:#FDECD9}a.sponsor_title:hover{text-decoration:underline}a.sponsor_title{text-decoration:none;color:#114D97;font-size:14px;font-weight:700;margin-top:-2px}.sponsor_desc{font-size:12px;margin-left:10px;font-weight:400;color:#575757}.sponsor_desc a{text-decoration:none;color:#575757}a.sponsor_url{text-decoration:none;font-weight:400;color:#aaa}a.sponsor_url:hover{text-decoration:underline;color:#114D97}.sp_img{float:left;width:160px;margin-right:23px;text-align:center}</style> 
+    <script type="text/javascript">
+evergreen = false;
+show_full_desc = false;
+</script> 
+    <a name="classifieds"></a> 
+    <div id="toolbar" class="kiwii-sort-bar summarytoolbar"> 
+     <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+      <tbody>
+       <tr class="sort"> 
+        <th class="selected toolbar_tab_selected" width="158" align="center"> <strong>12,261 Anúncios</strong> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1FC4434642C3484FC21F41C11FC04AC1CB4642C3484AC1" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Individual']);" class="vivasafe">Particular </span> </th> 
+        <th class="toolbar_tab_notselected hover" width="158" align="center"> <span code="45CBCBC02D1F1FCCCCCC19C446C44A484F424A4819424F4E1FC4434642C3484FC21F41C11FC0C14F4446C2C2464F494A48" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Professional']);" class="vivasafe">Profissional </span> </th> 
+        <th width="100" style="padding-left:80px;" align="right" class="toolbar_tab_notselected spec-field"> Ordenar: </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1FC4434642C3484FC21F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC04FC2CB434B144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'posted']);" class="vivasafe"> Últimos anúncios </span> </th> 
+        <th align="right" class="toolbar_tab_notselected spec-field spec-field-sortable-desc sortable hover"> <span code="45CBCBC02D1F1FC2434AC1424519C446C44A484F424A4819424F4E1FC4434642C3484FC21F41C12F48412E4943CC14C2434AC142452E2A14C24FC1CB2EC2C03F424F4E4E4F493FC0C1464243144FC14B43C12E4B14C2CB4AC1CB3F444643484B2E2A14C2434AC14245BC434FB64B2E201443494B3F444643484B2E2A" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'sp_common_price']);" class="vivasafe"> Preço </span> </th>  
+        <th align="right" width="250" class="toolbar_tab_notselected">&nbsp;</th> 
+        <th id="vs-listing" class="toolbar_tab_notselected view-selector hover view-selected" width="72" style="padding-right:2px;"> <a name="Text" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Listing']);" href="http://www.vivalocal.com/veiculos/br" class="toolbarbutton_on kiwii-icon kiwii-icon-list"> Classificados </a> </th> 
+        <th id="vs-gallery" class="toolbar_tab_notselected
+                    view-selector
+                    hover
+                    " width="72" style="padding-right:2px;"> <a name="Gallery" onclick="_gaq.push(['_trackEvent', 'Bar', 'Click', 'Gallery']);" href="http://www.vivalocal.com/veiculos/br/g" class="toolbarbutton_off kiwii-icon kiwii-icon-grid"> FOTOS </a> </th> 
+       </tr> 
+      </tbody>
+     </table> 
+    </div> 
+    <div class="kiwii-carousel-box"> 
+     <div class="kiwii-carousel-nav kiwii-carousel-nav-left"> 
+      <div class="kiwii-carousel-nav-disable"> 
+       <div id="prev"> 
+        <div class="kiwii-carousel-arrow-left kiwii-carousel-arrow-left-1"></div> 
+        <div class="kiwii-carousel-nav-disable"> 
+         <div class="kiwii-position-relative kiwii-width-full kiwii-height-full kiwii-carousel-nav-arrow"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="blocker_prev" class="kiwii-carousel-disable"></div> 
+     </div> 
+     <div class="ribbon-wrapper kiwii-position-absolute"> 
+      <a href="http://www.vivalocal.com/veiculos/br/g" class="kiwii-width-full kiwii-height-full kiwii-no-text-decoration"> 
+       <div class="ribbon-front kiwii-padding-hor-large"> 
+        <span class="kiwii-no-text-decoration ribbon-front-text kiwii-font-large kiwii-float-left kiwii-padding-top-xxxsmall kiwii-padding-right-xxsmall"> VIP </span> 
+       </div> </a> 
+      <div class="ribbon-edge-bottomleft"></div> 
+     </div> 
+     <div id="vs_carousel_box" class="kiwii-carousel-cladbox kiwii-width-full kiwii-height-full kiwii-position-absolute kiwii-border-none kiwii-float-left"> 
+      <div id="container" class="kiwii-carousel kiwii-carousel-empty"> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_153748947">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/auto-veiculo-usado/freguesia-do-o/golf-2010-oportunidade/153748947" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_153748947" src="http://media-sa.viva-images.com/vivastreet_br/clad/8a/8/153748947/vip/1.jpg?dt=867898be8d80d2900706af1d7ba7fadc" pic_num="1" pic_total="6">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              6
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Golf 2010 Oportunidade</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$34.500 | 67000 km | Particular...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_151653195">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/pecas-caminhoes/guaianases/defletor-de-ar--hr--kia-bongo-iveco--e-master/151653195" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_151653195" src="http://media-sa.viva-images.com/vivastreet_br/clad/83/4/151653195/vip/1.jpg?dt=0b1133c7fdd8a0f948c61bb6a3467d1d" pic_num="1" pic_total="8">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              8
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Defletor de ar Hr ,kia B...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$600 | Profissional | São...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_137021560">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/pecas-caminhoes/campinas/quebra-vento-de-ar-hr-/137021560" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_137021560" src="http://media-sa.viva-images.com/vivastreet_br/clad/ad/c/137021560/vip/1.jpg?dt=66755dc2fb1547a8ed95dd84639deaa3" pic_num="1" pic_total="6">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              6
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Quebra vento de ar HR F...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$600 | Profissional | Campinas</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_137021913">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/pecas-caminhoes/campinas/defletor-de-ar-hr-com-asas-laterais-/137021913" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_137021913" src="http://media-sa.viva-images.com/vivastreet_br/clad/45/0/137021913/vip/1.jpg?dt=d0d749974846c96f150f3100ba89e44d" pic_num="1" pic_total="8">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              8
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Defletor de ar Quebra ven...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$900 | Profissional | Campinas</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154072531">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/auto-veiculo-usado/jurere-internacional/suzuki-grand-vitara-2-0-16-v-4x2/154072531" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154072531" src="http://media-sa.viva-images.com/vivastreet_br/clad/9f/4/154072531/vip/1.jpg?dt=3099f846358cc17f1c38d4098dc19b3a" pic_num="1" pic_total="8">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              8
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Suzuki grand vitara 2012...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$39.700 | 114000 km |...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154012843">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/auto-veiculo-usado/jurere-internacional/sandero-1-6-stepway-16-v-flex-/154012843" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154012843" src="http://media-sa.viva-images.com/vivastreet_br/clad/0b/2/154012843/vip/1.jpg?dt=6b0f38985cc77180891f4c2e9bcabcf6" pic_num="1" pic_total="6">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              6
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Sandero 1.6 stepway 16 V...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$34.900 | 45000 km | Particular...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154075105">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/vender-caminhao-usado/capela-do-socorro/mb-710-bau-refrigerado---18-graus-ano-2010/154075105" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154075105" src="http://media-sa.viva-images.com/vivastreet_br/clad/d3/b/154075105/vip/1.jpg?dt=97a265e59b6b7435baa8db808f198e81" pic_num="1" pic_total="4">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              4
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">MB 710 BAU REFRIGERADO -...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$13.800 | 123000 km |...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_154076193">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/onibus-venda/butanta/micro-onibus-w-9-32-lugares-ano-2013/154076193" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_154076193" src="http://media-sa.viva-images.com/vivastreet_br/clad/13/5/154076193/vip/1.jpg?dt=a6ab38fb442c53fde322a0e2cc666257" pic_num="1" pic_total="3">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              3
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">MICRO ONIBUS W 9 32 LUGAR...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$16.800 | São Paulo - capital</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_153983207">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/vender-caminhao-usado/atibaia/mb--1620-truck-carroceria-ano-2012/153983207" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_153983207" src="http://media-sa.viva-images.com/vivastreet_br/clad/84/1/153983207/vip/1.jpg?dt=efdf0da4c3f5c42ea2e9c1747cdda2bf" pic_num="1" pic_total="3">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              3
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">MB 1620 TRUCK CARROCERIA...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$15.800 | 145900 km |...</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_153983623">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/onibus-venda/itaim-paulista/iveco-dally-35-s-14-refrigerada-ano-2013/153983623" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_153983623" src="http://media-sa.viva-images.com/vivastreet_br/clad/b7/8/153983623/vip/1.jpg?dt=0997767832fece236c9de83c2c47aac8" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">IVECO DALLY 35 S 14 REFRI...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$12.800 | São Paulo - capital</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_153985580">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/onibus-venda/alto-de-pinheiros/sprinter-lux-413-cdi--completa-ano-2011/153985580" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_153985580" src="http://media-sa.viva-images.com/vivastreet_br/clad/4a/8/153985580/vip/1.jpg?dt=9b740699de0559c118b55830c6c106b0" pic_num="1" pic_total="2">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              2
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">SPRINTER LUX 413 CDI COM...</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$14.800 | São Paulo - capital</p></span>
+          </div></a>
+        </div>
+       </div> 
+       <div class="kiwii-carousel-clad-box" id="vs_carousel_box_153748947">
+        <div class="kiwii-carousel-shadow-borders">
+         <a href="http://www.vivalocal.com/auto-veiculo-usado/freguesia-do-o/golf-2010-oportunidade/153748947" class="kiwii-vip-link kiwii-no-text-decoration">
+          <div class="kiwii-carousel-content-top kiwii-position-relative">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><img id="ad_img_153748947" src="http://media-sa.viva-images.com/vivastreet_br/clad/8a/8/153748947/vip/1.jpg?dt=867898be8d80d2900706af1d7ba7fadc" pic_num="1" pic_total="6">
+            <div class="photo-label-summary-carousel-not-verified" id="summary-carousel-not-verified">
+             <div>
+              <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+             </div>
+             <div class="photo-label-caption-not-verified">
+              6
+             </div>
+            </div></span>
+          </div>
+          <div class="kiwii-carousel-content-bottom">
+           <span class="kiwii-no-text-decoration kiwii-width-full kiwii-height-full"><span class="kiwii-font-weight-bold">Golf 2010 Oportunidade</span><br><p class="kiwii-padding-top-xxxsmall kiwii-font-xsmall">R$34.500 | 67000 km | Particular...</p></span>
+          </div></a>
+        </div>
+       </div> 
+      </div> 
+     </div> 
+     <div class="kiwii-carousel-nav kiwii-carousel-nav-right"> 
+      <div id="next"> 
+       <div class="kiwii-carousel-arrow-right kiwii-carousel-arrow-right-1"></div> 
+       <div class="kiwii-carousel-nav-disable"> 
+        <div class="kiwii-position-relative kiwii-width-full kiwii-height-full kiwii-carousel-nav-arrow"></div> 
+       </div> 
+      </div> 
+      <div id="blocker_next" class="kiwii-carousel-disable"></div> 
+     </div> 
+    </div> 
+    <script type="text/javascript">
+    var carousel_json = [{"id":154072531,"link_url":"http:\/\/www.vivalocal.com\/auto-veiculo-usado\/jurere-internacional\/suzuki-grand-vitara-2-0-16-v-4x2\/154072531","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/9f\/4\/154072531\/vip\/1.jpg?dt=3099f846358cc17f1c38d4098dc19b3a","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Suzuki grand vitara 2012 .4x2 - 2.0. 5P. 16V - Vinho Metalic","spec_line":"R$39.700 | 114000 km |...","image_total":8,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":154012843,"link_url":"http:\/\/www.vivalocal.com\/auto-veiculo-usado\/jurere-internacional\/sandero-1-6-stepway-16-v-flex-\/154012843","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/0b\/2\/154012843\/vip\/1.jpg?dt=6b0f38985cc77180891f4c2e9bcabcf6","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Sandero 1.6 stepway 16 V flex","spec_line":"R$34.900 | 45000 km | Particular...","image_total":6,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":154075105,"link_url":"http:\/\/www.vivalocal.com\/vender-caminhao-usado\/capela-do-socorro\/mb-710-bau-refrigerado---18-graus-ano-2010\/154075105","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/d3\/b\/154075105\/vip\/1.jpg?dt=97a265e59b6b7435baa8db808f198e81","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"MB 710 BAU REFRIGERADO - 18 graus ANO 2010","spec_line":"R$13.800 | 123000 km |...","image_total":4,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":154076193,"link_url":"http:\/\/www.vivalocal.com\/onibus-venda\/butanta\/micro-onibus-w-9-32-lugares-ano-2013\/154076193","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/13\/5\/154076193\/vip\/1.jpg?dt=a6ab38fb442c53fde322a0e2cc666257","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"MICRO ONIBUS W 9 32 LUGARES ANO 2013","spec_line":"R$16.800 | S\u00e3o Paulo - capital","image_total":3,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":153983207,"link_url":"http:\/\/www.vivalocal.com\/vender-caminhao-usado\/atibaia\/mb--1620-truck-carroceria-ano-2012\/153983207","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/84\/1\/153983207\/vip\/1.jpg?dt=efdf0da4c3f5c42ea2e9c1747cdda2bf","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"MB  1620 TRUCK CARROCERIA ANO 2012","spec_line":"R$15.800 | 145900 km |...","image_total":3,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":153983623,"link_url":"http:\/\/www.vivalocal.com\/onibus-venda\/itaim-paulista\/iveco-dally-35-s-14-refrigerada-ano-2013\/153983623","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/b7\/8\/153983623\/vip\/1.jpg?dt=0997767832fece236c9de83c2c47aac8","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"IVECO DALLY 35 S 14 REFRIGERADA ANO 2013","spec_line":"R$12.800 | S\u00e3o Paulo - capital","image_total":2,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":153985580,"link_url":"http:\/\/www.vivalocal.com\/onibus-venda\/alto-de-pinheiros\/sprinter-lux-413-cdi--completa-ano-2011\/153985580","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/4a\/8\/153985580\/vip\/1.jpg?dt=9b740699de0559c118b55830c6c106b0","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"SPRINTER LUX 413 CDI  COMPLETA ANO 2011","spec_line":"R$14.800 | S\u00e3o Paulo - capital","image_total":2,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":153748947,"link_url":"http:\/\/www.vivalocal.com\/auto-veiculo-usado\/freguesia-do-o\/golf-2010-oportunidade\/153748947","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/8a\/8\/153748947\/vip\/1.jpg?dt=867898be8d80d2900706af1d7ba7fadc","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Golf 2010 Oportunidade","spec_line":"R$34.500 | 67000 km | Particular...","image_total":6,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":151653195,"link_url":"http:\/\/www.vivalocal.com\/pecas-caminhoes\/guaianases\/defletor-de-ar--hr--kia-bongo-iveco--e-master\/151653195","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/83\/4\/151653195\/vip\/1.jpg?dt=0b1133c7fdd8a0f948c61bb6a3467d1d","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Defletor de ar  Hr ,kia Bongo,Iveco, e Master","spec_line":"R$600 | Profissional | S\u00e3o...","image_total":8,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":137021560,"link_url":"http:\/\/www.vivalocal.com\/pecas-caminhoes\/campinas\/quebra-vento-de-ar-hr-\/137021560","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/ad\/c\/137021560\/vip\/1.jpg?dt=66755dc2fb1547a8ed95dd84639deaa3","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Quebra vento de ar HR   FIBRAMATY","spec_line":"R$600 | Profissional | Campinas","image_total":6,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false},{"id":137021913,"link_url":"http:\/\/www.vivalocal.com\/pecas-caminhoes\/campinas\/defletor-de-ar-hr-com-asas-laterais-\/137021913","image_url":"http:\/\/media-sa.viva-images.com\/vivastreet_br\/clad\/45\/0\/137021913\/vip\/1.jpg?dt=d0d749974846c96f150f3100ba89e44d","pics_url":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","title":"Defletor de ar Quebra vento HR com casas laterais FIBRAMATY","spec_line":"R$900 | Profissional | Campinas","image_total":8,"new_photo_count":1,"photo_verified":false,"photo_verified_label":"\u2022 FOTO ORIGINAL","has_video":false}];
+    var carousel_options = {"item_type":"VIPClassified","item_selector":".kiwii-carousel-clad-box","max_width":3000,"right_offset":-1000,"paginated":true,"ajax_items_fully_loaded":true};
+            carousel_options.timing = {"auto_slide":20,"rotate_pic":20};
+    </script> 
+    <script type="text/javascript">
+            var carousel_params = {"params":{"start_field":1,"cat_1":"136","keywords":"","end_field":1},"use_geo":false,"sort":"display_priority DESC, reposted DESC","minimum_results_flag":false,"minimum_carousel_flag":false,"limit":35};
+      </script> 
+    <table id="classified_table" class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr> 
+       <td id="classified_cell"> 
+        <table class="vs-classified-table widget-off" border="0" cellspacing="0" cellpadding="0"> 
+         <tbody>
+          <tr class="classified row1 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154695212"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/scania-p-310-6x4-bitruck-leito-ano-14---graneleira-completa-/154695212"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/a1/4/154695212/vip/1.jpg?dt=3b1844fe3c858169458a9f4af47becc6" alt="Fotos para Scania P 310 6X4 bitruck leito ano 14 + graneleira completa "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/scania-p-310-6x4-bitruck-leito-ano-14---graneleira-completa-/154695212" id="vs-detail-link-1" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Scania P 310 6X4 bitruck leito ano 14 + graneleira completa </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$22.400
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>224 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Scania P 310 6X4 Bitruck Leito opticruiser ano 14 único dono completo apenas 224 mil km trabalhado original graneleira 9,80 Metros TODAS REVISÕES NA CONCESSIONÁRIA . Á VISTA CR$ 215 MIL OU CRÉDITO CR$ 220 MIL ENTRADA… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Caminhões usados Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154695212
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row2 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154699131"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/scania-r-440-6x4-highline-teto-alto-ano-14---bitrem-ano-12/154699131"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/5a/d/154699131/vip/1.jpg?dt=af1b7af2285d50ebfd7d69874b21101d" alt="Fotos para Scania R 440 6X4 highline teto alto ano 14 + bitrem ano 12"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/scania-r-440-6x4-highline-teto-alto-ano-14---bitrem-ano-12/154699131" id="vs-detail-link-2" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Scania R 440 6X4 highline teto alto ano 14 + bitrem ano 12</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$33.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>313 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Scania R 440 6X4 Highline Teto Alto Ano 14 Automático cavalo completo único dono com apenas 313 Mil KM trabalhados ORIGINAL + Bitrem Guerra 1,80 altura na tampa e 7,10 metros na roda disco raiada Ano 12 . TODAS REVISÕES… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154699131
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row3 kiwii-clad-row kiwii-clad-featured" id="vs_classified_149740291"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/volvo-fh-12-440-globetrotter-ishift-ano-11---graneleira--13/149740291"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/6c/0/149740291/vip/1.jpg?dt=c586ff6e85d660597e4e25a6919d76b8" alt="Fotos para volvo fh 12 460 globetrotter ishift ano 13 + graneleira 13"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/porto-alegre-norte/volvo-fh-12-440-globetrotter-ishift-ano-11---graneleira--13/149740291" id="vs-detail-link-3" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">volvo fh 12 460 globetrotter ishift ano 13 + graneleira 13</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$26.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>288 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Volvo FH 12 460 Globetrottter Ishift 6X2 truck Ano Teto Alto só cavalo único dono apenas 288 mil original + Graneleira Randon 3 eixos completa NA GARANTIA . Á VISTA CR$ 240 MIL OU CRÉDITO CR$ 245 MIL ENTRADA CR$ 26.800… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             149740291
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row4 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154421852"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/mairipora/mb-atego-2425-ano-2011-carroceria-graneleira-cinza/154421852"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/18/2/154421852/vip/1.jpg?dt=22958449a2678505fca5b1c05d2544f7" alt="Fotos para MB atego 2425 ano 2011 carroceria graneleira cinza"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                8
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/mairipora/mb-atego-2425-ano-2011-carroceria-graneleira-cinza/154421852" id="vs-detail-link-4" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">MB atego 2425 ano 2011 carroceria graneleira cinza</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$18.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>147000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              MB atego 2425 ano 2011 carroceria graneleira cinza perfeito estado de conservação pneus novos baixa km 2 dono nunca foi batido completo com cordas e lonas particular Quero - R$ 18.000,00 + parcelas de R$ 1.648,00 ao mês… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Caminhões usados Grande São Paulo - Mairiporã</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154421852
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row5 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154420795"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/cajamar/volks-17250-ano-2012-carroceria-branco-leito-bitruck/154420795"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/f3/7/154420795/vip/1.jpg?dt=8256980aba44a1cf74aace425fb60b32" alt="Fotos para Volks 17250 ano 2012 carroceria branco leito bitruck"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/cajamar/volks-17250-ano-2012-carroceria-branco-leito-bitruck/154420795" id="vs-detail-link-5" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Volks 17250 ano 2012 carroceria branco leito bitruck</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$17.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>129000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Volks 17250 ano 2012 carroceria branco leito bitruck ótimo estado de conservação pneus novos totalmente revisado na garantia baixa km 2dono completo particular Quero - R$ 17.500,00 + parcelas de R$ 1.600,00 ao mês Tratar… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Grande São Paulo - Cajamar</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154420795
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row6 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154420081"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/presidente-venceslau/f-4000-ano-2011-carroceria-azul-4x4/154420081"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/99/e/154420081/vip/1.jpg?dt=198440c075cadd9f15a0f5416ec0b625" alt="Fotos para F 4000 ano 2011 carroceria azul 4x4"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/presidente-venceslau/f-4000-ano-2011-carroceria-azul-4x4/154420081" id="vs-detail-link-6" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">F 4000 ano 2011 carroceria azul 4x4</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$17.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>110000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Presidente Venceslau
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              F 4000 ano 2011 carroceria azul 4x4 perfeito estado de conservação pneus novos totalmente revisado na garantia nunca foi batido com cordas e lonas particular Quero - R$ 17.000,00 + parcelas de R$ 1.079,00 Tratar - Telf (… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Caminhão usado Presidente Venceslau</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154420081
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row7 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154412117"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/cajamar/retroescavadeira-case-580n-ano-2010/154412117"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/c0/8/154412117/vip/1.jpg?dt=1765879ca72af73b90d869b173a6e77e" alt="Fotos para SCANIA 113 H 360 GRANELEIRA ANO 1998"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/cajamar/retroescavadeira-case-580n-ano-2010/154412117" id="vs-detail-link-7" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">SCANIA 113 H 360 GRANELEIRA ANO 1998</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$120.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>235000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Grande São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              SCANIA 113 H 360 GRANELEIRA ANO 1998 UNICO DONO TODA REVISADA NA GARANTIA BAIXA KM PRONTO PARA TRABALHAR NUNCA FOI BATIDA ENTRADA DE 16700,00 MAIS PARCELAS DE 1230,00 PARTICULAR ( NAO ACEITO TROCA) TRATAR (11) 97742-… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Caminhão usado Grande São Paulo - Cajamar</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154412117
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row8 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154411462"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/braganca-paulista/ford-cargo-815-carroceria-ano-2010/154411462"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/db/0/154411462/vip/1.jpg?dt=12f3bca554dbd52e4e9694fb2589f2f5" alt="Fotos para FORD CARGO 815 CARROCERIA ANO 2010"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/braganca-paulista/ford-cargo-815-carroceria-ano-2010/154411462" id="vs-detail-link-8" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">FORD CARGO 815 CARROCERIA ANO 2010</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$13.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>134000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Bragança Paulista
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              CARROCERIA BOM ESTADO PNEUS NOVOS TODO REVISADO BAIXO KM DOCUMENTOS OK NA COR AZUL PEGAR E TRABALHAR VISTA 90.000,00 OU ENTRADA 13.800 + PARCELAS 1.080 POR MÊS TRATAR (13) 99178-0265 VERONICA 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Caminhão Usado Bragança Paulista</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154411462
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row9 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154410579"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/alto-alegre-sao-paulo/volks-24280--ca-amba-ano-2011/154410579"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/fa/1/154410579/vip/1.jpg?dt=5cfbcd4f379dfd9161c765b78ac815ac" alt="Fotos para VOLKS 24280 CAÇAMBA ANO 2011"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/alto-alegre-sao-paulo/volks-24280--ca-amba-ano-2011/154410579" id="vs-detail-link-9" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">VOLKS 24280 CAÇAMBA ANO 2011</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$17.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>132000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Alto Alegre, São Paulo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              ÓTIMO ESTADO COM PNEUS NOVOS TODO REVISADO NA GARANTIA BAIX KM PEGAR E TRABALHAR DOCUMENTOS OK VISTA 150.000,00 OU ENTRADA 17.000+ PARCELAS 1.760 POR MÊS TRATAR (11) 95452-3867 DONA DUCE 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Alto Alegre, São Paulo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154410579
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row10 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154409883"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/cabreuva/vw-9150-ba---ano-2010/154409883"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/5c/1/154409883/vip/1.jpg?dt=894a70e8db3d63edf79ff8c6c8738c35" alt="Fotos para VW 9150 BAÚ ANO 2010"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/cabreuva/vw-9150-ba---ano-2010/154409883" id="vs-detail-link-10" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">VW 9150 BAÚ ANO 2010</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$16.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>189000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Cabreúva
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              PERFEITO ESTADO COM DOCUMNTOS OK BAIXO KM PEGAR E TRABALHAR PNEUS NOVOS E JÁ REVISADO NA GARANTIA VISTA 90.000 OU ENTRADA 16.000 + PARCELAS 1.085 POR MÊS TRATAR (11) 960215710 MARCILIO 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Cabreúva</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154409883
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row11 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154408474"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/cachoeirinha-sao-paulo/mb-1620-truck-carroceria-ano-2009/154408474"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/5a/2/154408474/vip/1.jpg?dt=85bd690eb562afddf401604e16fcd459" alt="Fotos para MB 1620 TRUCK CARROCERIA ANO 2009"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/cachoeirinha-sao-paulo/mb-1620-truck-carroceria-ano-2009/154408474" id="vs-detail-link-11" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">MB 1620 TRUCK CARROCERIA ANO 2009</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$15.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>154000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              MB 1620 TRUCK CARROCERIA ANO 2009 UNICO DONO BAIXA KM TODO REVISADO NA GARANTIA DOCUMENTOS OK TACOGRAFO DIGITAL ENTRADA DE 15800,00 MAIS PARCELAS DE 1080,00 PARTICULAR ( NAO ACEITO TROCA ) TRATAR 011 986108092 COM… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Caminhão Usado São Paulo - capital - Cachoeirinha, São Paulo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154408474
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row12 kiwii-clad-row kiwii-clad-featured" id="vs_classified_154407591"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/itaim-bibi/fiat-toro-1-8-completa--flex-ano-2016/154407591"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/e3/8/154407591/vip/1.jpg?dt=42db3720741c577c649505d85caf9e12" alt="Fotos para FIAT TORO 1.8 COMPLETA FLEX ANO 2016"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/itaim-bibi/fiat-toro-1-8-completa--flex-ano-2016/154407591" id="vs-detail-link-12" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">FIAT TORO 1.8 COMPLETA FLEX ANO 2016</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$16.800
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>34000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              FIAT TORO 1.8 TORO COMPLETA ANO 2016 NA GARANTIA DA CONCESSIONARIA BAIXA KM COMPUTADOR DE BORDO AR CONDICIONADO TRIO ELETRICOS AR BAGS UNICO DONO ENTRADA DE 16700,00 MAIS PARCELAS DE 930,00 POR MES TRATAR 0119602157… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros a venda São Paulo - capital - Itaim Bibi</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             154407591
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row13 kiwii-clad-row kiwii-clad-featured" id="vs_classified_153415795"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/jacarepagua/i-30-2010-autom-tico-/153415795"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/jacarepagua/i-30-2010-autom-tico-/153415795" id="vs-detail-link-13" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">I 30 2010 automático </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$29.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>100 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Rio de Janeiro
+              <br>capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              I30 completo de tudo. Automático, teto solar, sensor de estacionamento, banco de couro, retrovisor retrátil, teto solar, rodas de liga leve, direção elétrica,. Doc 2017 ok. Tel...21 987371111 carlos (zap) 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados Rio de Janeiro - capital - Jacarepaguá</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             153415795
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row14 kiwii-clad-row kiwii-clad-featured" id="vs_classified_152771321"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/yate-comprar-vender/vilhena/pist-o-yamaha/152771321"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/4e/8/152771321/vip/1.jpg?dt=610eabcad9ae395ebd13b04e73fe063f" alt="Fotos para PISTÃO YAMAHA 40HP"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/yate-comprar-vender/vilhena/pist-o-yamaha/152771321" id="vs-detail-link-14" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">PISTÃO YAMAHA 40HP</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$147
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>2017</span>
+             </div>
+             <div class="kiwii-clear-both">
+              <span>45 m</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Vilhena
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              PISTÃO COM ANÉIS TRAVAS E PINO YAMAHA 40 HP E TODA LINHA DE BIELAS,COROAS E PINHÃO 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Lancha usada Vilhena</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             152771321
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row15 kiwii-clad-row kiwii-clad-featured" id="vs_classified_152810611"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/adamantina/scania-g360-4x2-2013---2013/152810611"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/cd/9/152810611/vip/1.jpg?dt=66c9ceb0c2a99a8bb8944bb9da7601a5" alt="Fotos para Scania G360 4x2 2013 - 2013"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/adamantina/scania-g360-4x2-2013---2013/152810611" id="vs-detail-link-15" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Scania G360 4x2 2013 - 2013</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$40.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>170000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Adamantina
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Scania G360 4x2 2013 Direção : Hidráulica Controle de tração : 4x2 Transmissão : Automática Equipamento Sistema de freios Segurança 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Adamantina</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="featured kiwii-font-primary kiwii-font-weight-bold kiwii-text-align-right kiwii-padding-right-xxxsmall">
+             PREMIUM
+            </div> 
+            <div class="vs_md" style="display:none;">
+             152810611
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row16 kiwii-clad-row" id="vs_classified_155352282"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/boca-da-mata/toyota-corolla-ano-2008/155352282"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/fe/1/155352282/vip/1.jpg?dt=4a77dbf628812ee0e6d4ecbc7841324e" alt="Fotos para Toyota corolla Ano 2008"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/boca-da-mata/toyota-corolla-ano-2008/155352282" id="vs-detail-link-16" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Toyota corolla Ano 2008</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$17.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>48338 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Boca da Mata
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Toyota corolla Ano 2008 cor cinza Interior cor preta Ano 2008 quilometragem 48338 km Combustível: diesel Caixa de velocidades: automática Viagens 2,2 l efeito de 163 HP Número de camas 2 Número de portas 4 As emissões de… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados Boca da Mata</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 20:32</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155352282
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row17 kiwii-clad-row" id="vs_classified_155352174"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/outros-bairros-sp-capital/vw-fox-1-6---prata--2012-2013/155352174"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ef/a/155352174/vip/1.jpg?dt=542ca6c979219d317b804b014c1d7ce9" alt="Fotos para VW Fox 1.6 - Prata 1213"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                11
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/outros-bairros-sp-capital/vw-fox-1-6---prata--2012-2013/155352174" id="vs-detail-link-17" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">VW Fox 1.6 - Prata 1213</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$29.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>57000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Fox 1.6 Prata - 2013 - Veículo de não fumante, laudo cautelar aprovado, pneus em ótimo estado, nunca bateu, não é de leilão! Ar condicionado, trio elétrico, direção hidraulica, rádio com Bluetooth, DVD, USB... Interior … 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados São Paulo - capital - Outros bairros</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 20:30</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155352174
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr id="vs_advert_middle" class="vs-advertisement advertisement-middle-1"> 
+           <td colspan="8"> 
+            <!-- SummaryMiddle Start --> 
+            <div style="display:block;text-align:center;"> 
+             <script type="text/javascript"><!--
+google_ad_client = "ca-pub-1778014916682445";
+/* SM - BTF */
+google_ad_slot = "2196924935";
+google_ad_width = 970;
+google_ad_height = 90;
+//-->
+</script> 
+             <script type="text/javascript" src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+            </div> 
+            <!-- SummaryMiddle End --> </td> 
+          </tr> 
+          <tr class="classified row18 kiwii-clad-row" id="vs_classified_155348406"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/onibus-venda/cidade-industrial-de-curitiba/micro-onibus-busscar-vw-9150-c-d-4754-ano-2006/155348406"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/4f/f/155348406/vip/1.jpg?dt=1804a63adfaaefdd227cdf07fb860407" alt="Fotos para Micro onibus Busscar VW.9150 Cód.4754 ano 2006"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                7
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/onibus-venda/cidade-industrial-de-curitiba/micro-onibus-busscar-vw-9150-c-d-4754-ano-2006/155348406" id="vs-detail-link-18" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Micro onibus Busscar VW.9150 Cód.4754 ano 2006</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$90.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Motor novo MWM com ar de teto, som, cabinado com 27-lugares. WhatsApp - (41) 99804-0771-tim 3285-4859-fixo 98708-4701-claro Valmir 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Ônibus Usados Curitiba - Cidade Industrial de Curitiba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 19:09</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155348406
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row19 kiwii-clad-row" id="vs_classified_155347983"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/onibus-venda/cidade-industrial-de-curitiba/micro-onibus-comil-pi--vw-9150-c-d-4753-ano-2009/155347983"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8a/d/155347983/vip/1.jpg?dt=17b5f4783ebd81188f52d6b804e18ade" alt="Fotos para Micro onibus Comil Piá VW.9150 Cód.4753 ano 2009"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/onibus-venda/cidade-industrial-de-curitiba/micro-onibus-comil-pi--vw-9150-c-d-4753-ano-2009/155347983" id="vs-detail-link-19" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Micro onibus Comil Piá VW.9150 Cód.4753 ano 2009</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$110.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Curitiba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ar de teto com 28-lugares pega rodoviário acima de 2002 de preferencia motor dianteiro 42 ou 44-lugares. WhatsApp - (41) 99804-0771-tim 3285-4859-fixo 98708-4701-claro Valmir 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Ônibus Usados Venda Curitiba - Cidade Industrial de Curitiba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 19:02</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155347983
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row20 kiwii-clad-row" id="vs_classified_155339483"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/aricanduva/astra-cd-completo-vendo-ou-troco-por-menor-valor/155339483"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/b8/0/155339483/vip/1.jpg?dt=f21551b5c57ea6e649f3cabf7bdd7f2d" alt="Fotos para astra cd completo vendo ou troco por menor valor"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                12
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/aricanduva/astra-cd-completo-vendo-ou-troco-por-menor-valor/155339483" id="vs-detail-link-20" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">astra cd completo vendo ou troco por menor valor</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$17.500
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>156000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              (leia) valor final a vista 17.500. prefererencialmente venda mas também estudo trocas por carro ou moto num valor no máximo de ate 10 mil ou inferior a isso mais volta em dinheiro (se for na troca valor do carro vai na… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados São Paulo - capital - Aricanduva</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155339483
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row21 kiwii-clad-row" id="vs_classified_155337648"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/hyundai-hb20-1-0/155337648"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/hyundai-hb20-1-0/155337648" id="vs-detail-link-21" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Hyundai HB20 1.0</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$35.900
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>100 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              -- Reservamo-nos o direito de corrigir eventuais erros de valores e/ou descrições-- GARANTIA ESTENDIDA PELA GESTAUTO DO BRASIL DE 1 ANO DE MOTOR E CAIXA E MAIS OUTROS ITENS CONSULTE** KARSUL VEICULOS 14 ANOS DE SERIEDADE… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:16</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155337648
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row22 kiwii-clad-row" id="vs_classified_155337594"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/fiat-uno-vivace-1-0-/155337594"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/fiat-uno-vivace-1-0-/155337594" id="vs-detail-link-22" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Fiat Uno Vivace 1.0 </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$23.900
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>100 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              -- Reservamo-nos o direito de corrigir eventuais erros de valores e/ou descrições-- GARANTIA ESTENDIDA PELA GESTAUTO DO BRASIL DE 1 ANO DE MOTOR E CAIXA E MAIS OUTROS ITENS CONSULTE** KARSUL VEICULOS 14 ANOS DE SERIEDADE… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:15</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155337594
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row23 kiwii-clad-row" id="vs_classified_155337527"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/renault-sandero-stepway-1-6/155337527"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/f3/3/155337527/vip/1.jpg?dt=30c04df1e6ab15322f730d88a8dd6ac9" alt="Fotos para Renault Sandero Stepway 1.6"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                9
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/renault-sandero-stepway-1-6/155337527" id="vs-detail-link-23" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Renault Sandero Stepway 1.6</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$31.900
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>1000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              -- Reservamo-nos o direito de corrigir eventuais erros de valores e/ou descrições-- GARANTIA ESTENDIDA PELA GESTAUTO DO BRASIL DE 1 ANO DE MOTOR E CAIXA E MAIS OUTROS ITENS CONSULTE** KARSUL VEICULOS 14 ANOS DE SERIEDADE… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros semi novos Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:13</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155337527
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row24 kiwii-clad-row" id="vs_classified_155337447"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/gol-1-6-power-2003/155337447"> 
+             <div class="image-wrap classified-pic-empty">
+              <img class="vs-slide_img vs-slide_img--npic" src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/nopic.svg">
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/porto-alegre-norte/gol-1-6-power-2003/155337447" id="vs-detail-link-24" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Gol 1.6 Power 2003</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$11.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>1000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              GOL 1.6 POWER 2002/2003 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros semi novos Porto Alegre - POA - Porto Alegre Norte</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 16:11</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155337447
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row25 kiwii-clad-row" id="vs_classified_155336611"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/ourinhos/carreta-tanque-vanderleia-rodotecnica-2012-sem-pneus/155336611"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/8b/d/155336611/vip/1.jpg?dt=c87cc78136f5e834bce41366af193b69" alt="Fotos para CARRETA TANQUE VANDERLEIA RODOTECNICA 2012 SEM PNEUS"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                3
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/ourinhos/carreta-tanque-vanderleia-rodotecnica-2012-sem-pneus/155336611" id="vs-detail-link-25" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">CARRETA TANQUE VANDERLEIA RODOTECNICA 2012 SEM PNEUS</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$92.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>10 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Ourinhos
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              CARRETA TANQUE VANDERLEIA RODOTECNICA 2012 SEM PNEUS RODADO A DISCO SEM PNEUS BOTTON 45 .000 LTS MULT SETAS 41/42/43/44/ 45.000 LTS SOMENTE VENDA COD:()REI) 28/09/2017 LIGAR ANTES PARA VERIFICAR DISPONIBILIDADE FONES: T… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Venda Caminhão Usado Ourinhos</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:58</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155336611
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row26 kiwii-clad-row" id="vs_classified_155336395"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/pecas-caminhoes/sao-goncalo/sucatas-de-bateria-aluminui-cobre-moto-geladeira-compro-tudo/155336395"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/0d/5/155336395/vip/1.jpg?dt=77ffa17ed390455555fafe365fdbb87f" alt="Fotos para sucatas de bateria aluminui cobre moto geladeira compro tudo"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/pecas-caminhoes/sao-goncalo/sucatas-de-bateria-aluminui-cobre-moto-geladeira-compro-tudo/155336395" id="vs-detail-link-26" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">sucatas de bateria aluminui cobre moto geladeira compro tudo</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$40
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Gonçalo
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              trabalho na compra de material reciclados como bateria motor de geladeira cobre metal ar condicionado 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Acessórios Caminhões São Gonçalo</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:57</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155336395
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row27 kiwii-clad-row" id="vs_classified_155232607"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/motocicletas-usadas/pilar-do-sul/vendo-kavashaki-z1000/155232607"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/90/8/155232607/vip/1.jpg?dt=4016e82031d2dd1644baee88b86b6090" alt="Fotos para Vendo kavashaki z1000"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/motocicletas-usadas/pilar-do-sul/vendo-kavashaki-z1000/155232607" id="vs-detail-link-27" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Vendo kavashaki z1000</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$1.050
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>1000 CC</span>
+             </div>
+             <div class="kiwii-clear-both">
+              <span>2017</span>
+             </div>
+             <div class="kiwii-clear-both">
+              <span>1500 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Pilar do Sul
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo uma kavashaki z1000 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Motos a venda Pilar do Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155232607
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row28 kiwii-clad-row" id="vs_classified_155231434"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/pecas-caminhoes/sao-jose-dos-pinhais/festa-infantil-completa-50-pessoas/155231434"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/74/d/155231434/vip/1.jpg?dt=7c2bf7a7f5fff14ae67a84d9dcfc1079" alt="Fotos para Festa infantil completa 50 pessoas"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/pecas-caminhoes/sao-jose-dos-pinhais/festa-infantil-completa-50-pessoas/155231434" id="vs-detail-link-28" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Festa infantil completa 50 pessoas</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$269.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Profissional
+             </div>
+             <div class="kiwii-clear-both">
+              São José dos Pinhais
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Festa completa para 50 pessoas 2.690,00 com brinquedos e mesas de jogos salão completo espaço.com 3079 6028 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Peças Caminhões São José dos Pinhais</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155231434
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row29 kiwii-clad-row" id="vs_classified_155230734"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/motocicletas-usadas/uberaba/ol--sou-tha-s-carone-tenho-20-anos--/155230734"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/ed/f/155230734/vip/1.jpg?dt=104608f2264cdc35a4c304cb01b877e7" alt="Fotos para Olá sou Thaís Carone tenho 20 anos !"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/motocicletas-usadas/uberaba/ol--sou-tha-s-carone-tenho-20-anos--/155230734" id="vs-detail-link-29" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Olá sou Thaís Carone tenho 20 anos !</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$300
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>1 CC</span>
+             </div>
+             <div class="kiwii-clear-both">
+              <span>2017</span>
+             </div>
+             <div class="kiwii-clear-both">
+              <span>58 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Uberaba
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Ola meu nome e Thaís Carone tenho 29 anos sou nova em Uberaba! Dispostas a realizar todos seus desejos e suas fantasias.. Mulher bronzeada da pele macia muito cheirosa toda carinhosa bem safadinha na cama ! Liguei agora… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Motos usadas Uberaba</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:45</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155230734
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row30 kiwii-clad-row" id="vs_classified_155335514"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/onibus-venda/porto-alegre-sul/onibus-rodov--comil-campione---vw17210---ar-cond----46l---01/155335514"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/83/0/155335514/vip/1.jpg?dt=93e85f765a48b70ed184abb6d656526b" alt="Fotos para Onibus Rodov. Comil Campione VW17210 Ar Cond. 46L 01"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/onibus-venda/porto-alegre-sul/onibus-rodov--comil-campione---vw17210---ar-cond----46l---01/155335514" id="vs-detail-link-30" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Onibus Rodov. Comil Campione VW17210 Ar Cond. 46L 01</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$68.000
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Porto Alegre - POA
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Onibus Rodoviário Comil Campione / Volkswagen 17210 (Motor Dianteiro) / Ar Condicionado de Teto / 46 Lugares / Bancada Reclinável de Tecido / Banheiro / Geladeira / Bagageiro / Porta Pacote / Luz de Leitura 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Ônibus Usados Porto Alegre - POA - Porto Alegre Sul</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:44</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155335514
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row31 kiwii-clad-row" id="vs_classified_155334705"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/vila-velha/vw---volkswagen-parati-track---field-2007-2007---completa/155334705"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/6a/4/155334705/vip/1.jpg?dt=d98eb6f5ce938e2e77b3879decddede1" alt="Fotos para Vw - Volkswagen Parati Track &amp; Field 20072007 - Completa"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                7
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/vila-velha/vw---volkswagen-parati-track---field-2007-2007---completa/155334705" id="vs-detail-link-31" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">Vw - Volkswagen Parati Track &amp; Field 20072007 - Completa</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$20.900
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>145000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Vila Velha
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Parati track &amp; field 1.6 2007/2007 - completo Carro em excelente estado de conservação - todo revisado - 4 pneus novos - Bateria nova - Ar condicionado gelando muito - Tapete em gel - Som com DVD kenwood - Documentação 2… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros usados Vila Velha</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:34</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155334705
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row32 kiwii-clad-row" id="vs_classified_155334429"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/acessorios-servicos-carro/limeira/alto-falante-bravox-e-pot-ncia-corzuz/155334429"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/92/b/155334429/vip/1.jpg?dt=ae36fe1b2cb6ee5606d81f00dac03a74" alt="Fotos para ALTO FALANTE BRAVOX E POTÊNCIA CORZUZ"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                1
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/acessorios-servicos-carro/limeira/alto-falante-bravox-e-pot-ncia-corzuz/155334429" id="vs-detail-link-32" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">ALTO FALANTE BRAVOX E POTÊNCIA CORZUZ</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$220
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              Limeira
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Vendo 02 alto falantes Bravox BPL 800 - 8 polegadas - 180 watts e uma Potência Corzuz modelo SL 2900 - 460 watts 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Autopeças Limeira</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:31</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155334429
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row33 kiwii-clad-row" id="vs_classified_155334150"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/auto-veiculo-usado/taguatinga-distrito-federal/renalt-megqane-1-6-dynamique-completa-com-rodas-mais-dvd-/155334150"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/40/7/155334150/vip/1.jpg?dt=c6c901d1e5b7ba6bc13653725e99d29f" alt="Fotos para RENALT MEGQANE 1.6 DYNAMIQUE COMPLETA COM RODAS MAIS DVD "> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                6
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/auto-veiculo-usado/taguatinga-distrito-federal/renalt-megqane-1-6-dynamique-completa-com-rodas-mais-dvd-/155334150" id="vs-detail-link-33" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">RENALT MEGQANE 1.6 DYNAMIQUE COMPLETA COM RODAS MAIS DVD </a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$29.400
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>32123 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Concessionária
+             </div>
+             <div class="kiwii-clear-both">
+              Taguatinga, Distrito Federal
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              GARANTA SEU CARRO COM R$0,00 DE ENTRADA! Deseja comprar um carro, mas não sabe aonde ir ou acha que não é possível aprovar no seu nome? LEIA O ANUNCIO e ENTRE EM CONTATO. falar com consultor de vendas JOSE FRANCISCO (w… 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Carros a venda Taguatinga, Distrito Federal</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:27</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155334150
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row34 kiwii-clad-row" id="vs_classified_155333782"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/aluguel-carros/cidade-tiradentes/11969788918/155333782"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/5f/1/155333782/vip/1.jpg?dt=94cc24e4a4fabf509e6ac30f32d6b67c" alt="Fotos para 11969788918"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                2
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/aluguel-carros/cidade-tiradentes/11969788918/155333782" id="vs-detail-link-34" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">11969788918</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              Oi meu nome é Walter tem 26 anos estou procurando uma companheira cobra 150 hora 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span> Carros Aluguel São Paulo - capital - Cidade Tiradentes</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:23</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155333782
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+          <tr class="classified row35 kiwii-clad-row" id="vs_classified_155333716"> 
+           <td class="tab-placeholder"></td> 
+           <td class="photo"> <a class="classified-link" href="http://www.vivalocal.com/vender-caminhao-usado/ipiranga/iveco-stralis-480-2013/155333716"> 
+             <div class="image-wrap classified-pic"> 
+              <div class="kiwii-position-relative"> 
+               <img class="classified-pic kiwii-border-xxxlight-gray" original="http://media-sa.viva-images.com/vivastreet_br/clad/fa/a/155333716/vip/1.jpg?dt=74cbd6bdae7ad3265f3e92e72887f77b" alt="Fotos para IVECO STRALIS 480 2013"> 
+              </div> 
+              <div class="photo-label-summary-not-verified"> 
+               <div>
+                <img src="http://static.viva-images.com/bundle/crMbO/viwii3/images/global/camera.svg" class="icoCam">
+               </div> 
+               <div class="photo-label-caption">
+                5
+               </div> 
+              </div> 
+             </div> </a> </td> 
+           <td class="summary"> 
+            <div> 
+             <a href="http://www.vivalocal.com/vender-caminhao-usado/ipiranga/iveco-stralis-480-2013/155333716" id="vs-detail-link-35" class="kiwii-clear-none kiwii-font-medium vs-uline-hover classified-link">IVECO STRALIS 480 2013</a> 
+            </div> 
+            <div style="max-width:160px;" class="spec_line kiwii-clear-left"> 
+             <div class="price kiwii-font-primary kiwii-font-weight-bold kiwii-font-large">
+              R$10.600
+             </div>
+             <span>&nbsp;</span> 
+             <div class="kiwii-clear-both">
+              <span>234000 km</span>
+             </div>
+             <div class="kiwii-clear-both">
+              Particular
+             </div>
+             <div class="kiwii-clear-both">
+              São Paulo - capital
+             </div> 
+            </div> 
+            <div class="shortdescription">
+              IVECO STRALIS 480 6X4 TETO ALTO ANO 2013 AUTOMÁTICO AR-CONDICIONADO ÚNICO DONO BAIXA KM EXCELENTE ESTADO,CONSULTE-NOS, AS MELHORES CONDIÇÕES. 
+            </div> 
+            <div class="lnk">
+             Publicado em: 
+             <span>Caminhões usados São Paulo - capital - Ipiranga</span>
+            </div> </td> 
+           <td class="actions"> 
+            <div class="summary_geo"> 
+             <b>&nbsp; Hoje <br> 15:21</b> 
+             <br> 
+            </div> 
+            <div class="vs_md" style="display:none;">
+             155333716
+            </div> </td> 
+           <td class="tab-placeholder tab-right"></td> 
+          </tr> 
+         </tbody>
+        </table> </td> 
+       <td id="widget_cell"> 
+        <div id="widget_container"> 
+        </div> </td> 
+      </tr>
+     </tbody>
+    </table> 
+    <!-- SummaryBottom Slot--> 
+    <div id="vs-search-ad-bottom" style="padding-left:20px;"></div> 
+    <!-- SummaryBottom Slot--> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+     <tbody>
+      <tr class="kiwii-border-bottom-xlight-gray"> 
+       <td colspan="7"> </td> 
+      </tr> 
+     </tbody>
+    </table> 
+    <div class="kiwii-margin-top-small kiwii-margin-bottom-small"> 
+     <div class="kiwii-text-align-center kiwii-center-hor"> 
+      <div id="vs_instant_alert_signup"> 
+       <div>
+        ...e receba um e-mail com alertas sempre que um novo anúncio de seu interesse for publicado!
+       </div> 
+       <div class="vs-screen-1"> 
+        <input type="text" id="vs_instant_alert_email" value="Seu Email" default="Seu Email" class="kiwii-span-5 default"> 
+        <input type="button" id="vs_instant_alert_submit" class="kiwii-btn kiwii-btn-alert kiwii-btn-large kiwii-margin-xxxsmall" value="Criar um alerta"> 
+       </div> 
+      </div> 
+      <div class="vs-ia-error-line vs-screen-1" style="display:none;"></div> 
+      <div class="vs-ia-confirmation vs-screen-2" style="display:none;"> 
+       <div class="vs-ia-confirmation-message"></div> 
+       <a href="" class="vs-ia-confirmation-link"></a> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="kiwii-box kiwii-box-padding kiwii-box-dark-gray kiwii-box-footer"> 
+     <ul class="kiwii-h-list kiwii-text-align-center"> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block">
+         « Anterior 
+       </div> </li> 
+      <li> 
+       <div class="kiwii-btn kiwii-btn-large kiwii-display-inline-block kiwii-btn-alert kiwii-btn-selected">
+         1 
+       </div> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+2"> 2 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+3"> 3 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+4"> 4 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+5"> 5 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+6"> 6 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+7"> 7 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+8"> 8 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+9"> 9 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+10"> 10 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+20"> 20 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+30"> 30 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+40"> 40 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+50"> 50 </a> </li> 
+      <li> <a class="kiwii-btn kiwii-btn-large kiwii-display-inline-block" href="http://www.vivalocal.com/veiculos/br/t+2"> Próximo » </a> </li> 
+     </ul> 
+     <div class="kiwii-margin-top-small vs-related-links"> 
+      <div class="vs-related-links-search"> 
+      </div> 
+      <div class="vs-related-links-geo"> 
+      </div> 
+      <div style="clear: both;"></div> 
+      <div class="kiwii-margin-top-xsmall vs-related-links-bottom"> 
+      </div> 
+      <div style="clear: both;"></div> 
+     </div> 
+    </div> 
+    <!-- end rendering summary page --> 
+   </div>
+  </div>
+  <div class="kiwii-span-20 kiwii-center-hor">
+   <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+    <h3>Categorias</h3>
+    <ul class="catlist kiwii-h-list">
+     <li class="maincat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/auto-veiculo-usado/br">Carros usados</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/motocicletas-usadas/br">Motos usadas</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/vender-caminhao-usado/br">Caminhão usado</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/onibus-venda/br">Ônibus usados</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/motor-home-camping/br">Trailer usado</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/yate-comprar-vender/br">Lancha usada</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/aluguel-carros/br">Carros Aluguel</a>, </li>
+     <li class="subcat kiwii-padding-right-xxxsmall"><a class="noul" href="http://www.vivalocal.com/pecas-veiculos/br">Acessórios e serviços</a></li>
+    </ul>
+    <div style="clear:both;"></div>
+   </div>
+   <div class="kiwii-box-padding">
+    <ul class="kiwii-h-list level2">
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/belo-horizonte" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Belo Horizonte - BH</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/brasilia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Brasília - DF</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/campinas" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Campinas</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/curitiba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Curitiba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/fortaleza" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Fortaleza</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/goiania" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Goiânia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/joao-pessoa" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados João Pessoa</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/joinville" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Joinville</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/londrina" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Londrina</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/manaus" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Manaus</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/natal" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Natal</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/recife" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Recife</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/ribeirao-preto" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Ribeirão Preto</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/rio-de-janeiro" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Rio de Janeiro - RJ</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/rio-de-janeiro-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Rio de Janeiro - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/salvador" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Salvador</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/sao-jose-dos-campos" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados São José dos Campos</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/sao-paulo" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados São Paulo - SP</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/sao-paulo-capital" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados São Paulo - capital</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/sorocaba" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Sorocaba</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/uberlandia" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Uberlândia</a>, </li>
+     <li class="kiwii-padding-right-xxxsmall"><a href="http://www.vivalocal.com/veiculos/vila-velha" class="kiwii-xxxdark-gray kiwii-no-link-decoration kiwii-font-small">Veículos usados Vila Velha</a></li>
+    </ul>
+   </div>
+  </div>
+  <div class="kiwii-bg-white kiwii-border-top-light-gray kiwii-margin-top-large kiwii-clear-both">
+   <div class="kiwii-span-20 kiwii-center-hor">
+    <div id="vs_footer">
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear"></div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-white">
+      <div class="vs-footer-links">
+       <h3>Vivalocal</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/team" rel="nofollow"> Quem Somos </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact" rel="nofollow"> Fale Conosco </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.w3corporate.com" target="_blank" rel="nofollow"> Site Corporativo </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Ajuda/Informação</h3>
+       <ul class="kiwii-h-list">
+        <li><a href="http://www.vivalocal.com/s/help" rel="nofollow"> Como Funciona </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/legal" rel="nofollow"> Termos de Uso </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/affiliation" rel="nofollow"> Seja um Afiliado </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/contact?issue=advertising" rel="nofollow"> Publicidade no Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/warning" style="color:#cc0000;font-weight:bold;" rel="nofollow"> Centro de Segurança </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/how_to_feature_ad_2" rel="nofollow"> Anúncios Destacados </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/cookies" rel="nofollow"> Cookies do Vivalocal </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/policy" rel="nofollow"> Política de Privacidade </a><span class="kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a href="http://www.vivalocal.com/s/payment_info" rel="nofollow"> Informações de Pagamento </a></li>
+       </ul>
+      </div>
+      <div class="vs-footer-links kiwii-margin-top-xxsmall">
+       <h3>Links úteis</h3>
+       <ul class="kiwii-h-list">
+        <li> Inserir anúncio <span class="kiwii-margin-left-xxxsmall kiwii-margin-right-xxxsmall">|</span></li>
+        <li><a target="_blank" href="http://www.vivalocal.pt/veiculos/pt">Veículos usados</a></li>
+       </ul>
+      </div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div id="vs-seo-text"></div>
+     </div>
+     <div class="kiwii-box kiwii-box-padding kiwii-box-clear">
+      <div class="kiwii-font-tiny">
+       Copyright © 2017 Vivalocal - Part of W3 LTD
+      </div>
+      <div class="kiwii-font-tiny">
+       &nbsp;A maior parte das categorias no Vivalocal são gratuitas. No entanto, a fim de assegurar um serviço de qualidade e segurança, algumas categorias exigem uma taxa mínima para postar. Estas taxas vão aparecer claramente antes de você concluir o seu anúncio.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="vs_lb_disclaimer" class="vs-lightbox-content" style="display:none;">
+   <div id="vs_lb_disclaimer_content"></div>
+  </div>
+  <script type="text/javascript"></script>
+  <script type="text/javascript">
+                if( typeof current_data != 'undefined' ) {
+                        current_data.website_options = {"id":"13","domain":"vivalocal.com","name":"Vivastreet Brasil","template":"viwii3","country":"BR","status":"enable","homepage_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - vivalocal","homepage_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","homepage_keywords":"classificados #location#, an\u00fancios classificados Locais #location#, classificados gr\u00e1tis #location#, an\u00fancios #location#, an\u00fancios de venda #location#, classificados de carros #location#, classificados de im\u00f3veis, onde vender, empregos, an\u00fancios pes","homepage_h1":"Classificados #location# \/ An\u00fancios Gr\u00e1tis #location#","homepage_spec":"{\"footer_spec\":{\"text\":[{\"text\":\"O vivalocal Brasil \\u00e9 um site de Classificados Gr\\u00e1tis com mais de 1 000 000 an\\u00fancios e centenas de novos an\\u00fancios publicados diariamente. Aqui, mais gente procura e mais gente acha o que quer, todos os dias. \\r\"},{\"text\":\"Comprar e vender pelo vivalocal \\u00e9 muito r\\u00e1pido e totalmente gr\\u00e1tis. Quer mudar de casa, vender seu carro, achar um emprego ou at\\u00e9 um amor? Clique no mapa e comece a navegar agora!\"}],\"choices\":[],\"defaults\":{\"type1\":\"\",\"location\":\"\",\"display\":\"\"}}}","posting_title":"Publicar An\u00fancios Gr\u00e1tis . Publicar Classificados Gr\u00e1tis | vivalocal.com","posting_desc":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gratis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_keywords":"Publicar An\u00fancios Gr\u00e1tis #location#. Publicar Classificados Gr\u00e1tis #location#. Classificados GR\u00c1TIS. Publicar An\u00fancios #location#. Publicar Classificados Online #location#","posting_h1":"Publicar An\u00fancios Gr\u00e1tis  \/ Publicar Classificados Gr\u00e1tis ","nocat_title":"Classificados #location# - An\u00fancios Gr\u00e1tis #location# - Vivalocal","nocat_desc":"Classificados #location# | vivalocal | An\u00fancios #location# GR\u00c1TIS. Classificados de Im\u00f3veis #location#, Carros Usados #location#, Empregos #location#, e muito mais. ","nocat_keywords":"","nocat_h1":"An\u00fancios Classificados Gr\u00e1tis #location#","nocat_footer":"","specialzation_type_code":"mais-opcoes","all_results":"classificados","adsense_keywords":"#keyword# #location#","afs_keywords":"Classificados #location#","header_div":"<span style=\"letter-spacing:0.1em;padding-left:90px;top:-15px;font-size:8px;color:#adadad;position:relative;\">An\u00fancios classificados gr\u00e1tis<\/span>","posting_seo_footer":"Publique seus an\u00fancios gr\u00e1tis no vivalocal. \u00c9 F\u00e1cil, Seguro e Local. Aqui, mais pessoas procuram e mais pessoas acham. Publique agora em uma de nossas categorias e fa\u00e7a neg\u00f3cio rapidamente!","subtemplate":null};            current_data.country_options = {"id":"BR","label":"Brasil","default_language":"pt","timezone":"America\/Sao_Paulo","currency_code":"BRL"};            current_data.is_mobile = false;            current_data.is_search = false;            current_data.page = {"type":"summary","mode":"t"};            current_data.category = {"id":"136","parent":"0","meta_code":"vehicules","code":"veiculos","label":"Ve\u00edculos usados","premium_ads":"no","foreign_only":"block","depth":1,"main_meta_code":"vehicules","tree":[{"id":"136","parent":"0","meta_code":"vehicules","code":"veiculos","label":"Ve\u00edculos usados","premium_ads":"no","foreign_only":"block","depth":1,"main_meta_code":"vehicules"}],"search_keywords":"Marca, modelo, vers\u00e3o...","disclaimer":false};            current_data.url = {"protocol":"http","fulldomain":"www.vivalocal.com","path":"\/veiculos\/br","query":"","fulldomain_stack":["www","vivalocal","com"],"path_stack":["veiculos","br"],"query_array":[],"domain":"vivalocal.com","domain_stack":{"prefix":"","site":"vivalocal.com"},"subdomains":"www","subdomain_stack":["www"],"subdomain":"www","root":"http:\/\/www.vivalocal.com\/","pics":"http:\/\/static.viva-images.com\/bundle\/crMbO\/viwii3\/images","js":"http:\/\/static.viva-images.com\/templates\/viwii3\/scripts","css":"http:\/\/static.viva-images.com\/templates\/viwii3\/styles","ajax":"http:\/\/www.vivalocal.com\/ajax\/"};        }
+                if( typeof current_config != 'undefined' ) {
+                        current_config.geosearch_settings = {"free_text":false,"multi_drop":true,"drop_max":3,"country_drop":false,"search_type":"B","outer_code_search":"","always_radius":false,"max_geo_depth":3,"separate_main_locations":true};
+                    }
+            </script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/app_b.js?cache=crMbO"></script>
+  <script type="text/javascript" src="http://static.viva-images.com/bundle/crMbO/viwii3/scripts/compatibility_b.js?cache=crMbO"></script>
+  <script type="text/javascript">
+    if( typeof $J != 'undefined' ) {
+        $J(document).ready( function() {
+            if( typeof App != 'undefined' ) {
+                App.load();
+            }
+        });
+    }
+    else {
+        if( typeof App != 'undefined'  ) {
+            App.load();
+        }
+    }
+    </script>
+  <!-- adblock start-->
+  <script>var adblockUser="YES";</script>
+  <div id="adblocktest" style="display:none"></div>
+  <script type="text/javascript" src="http://media-eu.viva-images.com/global/advertising.js?nocache=22"></script>
+  <!-- adblock end-->
+  <!-- GTM start -->
+  <script>
+var dataLayer = [{
+"GAtoGTM":false,
+"pageCat":"summary",
+"geo_Summary":"",
+"geo1": "",
+"geo2": "",
+"geo3": "",
+"geo4": "",
+"geo5": "",
+"searchType" :  (0 ) ? 'search' : 'browse',
+"nbrResult" :"12260",
+"kw": "",
+"metaCategory":"vehicules",
+"labelCategory":"Veículos usados",
+"metaSubCategory":"",
+"labelSubCategory":"",
+"metaSubSubCategory":"",
+"labelSubSubCategory":"",
+"adblockUser": (adblockUser),
+"userId":( typeof App != 'undefined' && App !== null ) ? App.Session.data.user_id : 0,
+"userType":( typeof App != 'undefined' && App !== null ) ? App.Session.data.web_usertype : "",
+"userLogged":( ( typeof App != 'undefined' && App !== null ) && App.Session.data.logged_in ) ? 1 : 0
+}]
+</script>
+  <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M7ZFTZ');
+</script>
+  <!-- GTM end -->
+  <!-- fix overlay -->
+  <style>
+.ui-widget-overlay {
+background: #000000;
+opacity: .80;
+z-index:9999;
+position:fixed;
+width:100%;
+overflow: hidden;
+}
+.ui-dialog {
+position:fixed;
+top:30vh;
+}
+.kiwii-column-list li a{
+font-size:11px!important;
+}
+#sas-fixedDiv_3758685{width:230px;right:0;}
+</style>
+  <!-- remove frequency option email alert -->
+  <script>
+function update_alert_box_form_z(){var a=setInterval(function(){void 0!=document.getElementById("alert_frequency_summary")&&(document.getElementById("alert_frequency_summary").checked=!1,document.getElementById("alert_frequency_push").checked=!0,document.getElementById("alert_frequency_summary").parentElement.style.display="none",clearInterval(a))},500)}void 0!=document.getElementsByClassName("tooltip-item")[0]&&document.getElementsByClassName("tooltip-item")[0].setAttribute("onclick","update_alert_box_form_z();"),void 0!=document.getElementById("contact-alertbox")&&document.getElementById("contact-alertbox").setAttribute("onclick","update_alert_box_form_z();");
+</script>
+  <!-- remove frequency option email alert -->
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"cf5e25fd38","applicationID":"6500731","transactionName":"ZwZRZhEDWhdWUBAKDF5McEcQFlsJGEARDg5REUptFwdMEA==","queueTime":0,"applicationTime":418,"atts":"S0FSEFkZSRk=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+ </body>
+</html>

@@ -1,0 +1,734 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="pt-br" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#">
+ <head> 
+  <title>Notícias iCarros: Reportagens sobre carros e o mundo dos automóveis - iCarros</title> 
+  <meta name="description" content="Leia o que é destaque no mundo dos automóveis. Confira reportagens exclusivas sobre carros, montadoras, modelos e lançamentos - iCarros."> 
+  <meta name="keywords" content="revista, reportagem, reportagens, carro, carros, novidade, novidades, lançamento, lançamentos, montadora, montadoras, marca, marcas, motor, motores, modelo, modelos"> 
+  <meta property="fb:pages" content="115380525178756"> 
+  <link href="http://img2.icarros.com/wro/basedesktop.css?rv_=340" rel="stylesheet" type="text/css"> 
+  <!--[if lte IE 8]>
+            <link href="http://img2.icarros.com/comum/ie8.css?rv_=340" rel="stylesheet" type="text/css" />
+    <![endif]--> 
+  <script type="text/javascript" src="http://img1.icarros.com/wro/jquery.js?rv_=340"></script> 
+  <script type="text/javascript" src="http://img0.icarros.com/wro/base.js?rv_=340"></script> 
+  <script type="text/javascript">
+            $(window).on('load',function(){
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.src = "//cdn.optimizely.com/js/1387080510.js";
+                $("head").append(s);
+            });
+        </script> 
+  <script type="text/javascript" src="http://img0.icarros.com/comum/js/jquery-ui-1.9.2.min.js?rv_=340"></script> 
+  <link href="http://img0.icarros.com/wro/jquery.css?rv_=340" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">
+        var icc_requestedComponents = 'abas,slideshow'.split(",");
+        var icc_registeredComponents = jQuery.Callbacks( "memory" );
+        function iccAddComponentToInit(component,fn) {
+            if($.inArray(component, icc_requestedComponents)>-1) {
+                icc_registeredComponents.add(fn);
+            }
+        }
+        function initIccComponents() {
+            icc_registeredComponents.fire();
+        }
+        $(document).ready(function() {
+            initIccComponents();
+        });
+    </script> 
+  <script type="text/javascript" src="http://img2.icarros.com/wro/icccomponents.js?rv_=340"></script> 
+  <link href="http://img0.icarros.com/wro/icccomponents.css?rv_=340" rel="stylesheet" type="text/css"> 
+  <base href="http://www.icarros.com.br/noticias/index.jsp"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta property="og:site_name" content="iCarros"> 
+  <meta property="og:title" content="Notícias iCarros: Reportagens sobre carros e o mundo dos automóveis - iCarros"> 
+  <meta property="og:description" content="Leia o que é destaque no mundo dos automóveis. Confira reportagens exclusivas sobre carros, montadoras, modelos e lançamentos - iCarros."> 
+  <meta property="og:url" content="http://www.icarros.com.br/noticias/index.jsp"> 
+  <meta property="fb:admins" content="1501165404,100001365983863,541197193,1560164884,1351464986"> 
+  <meta property="og:image" content="http://www.icarros.com.br/comum/imagens/logo_icarros_compartilhar.jpg"> 
+  <link href="http://www.icarros.com.br/comum/imagens/logo_icarros_compartilhar.jpg" rel="image_src"> 
+  <link rel="canonical" href="http://www.icarros.com.br/noticias/index.jsp"> 
+  <script type="text/javascript" src="http://img0.icarros.com/app/js/json2.js?rv_=340"></script> 
+  <script type="text/javascript" src="http://img1.icarros.com/comum/js/jquery.jcarousel.min.js?rv_=340"></script> 
+  <link href="http://img0.icarros.com/wro/revista.css?rv_=340" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">
+            window.analyticsData = {"site":{"nome":"IC","ambiente":"LG"}, "rule":"pageload"}
+            var pageDatalayerPairs=[];
+            
+                    pageDatalayerPairs.push({'icUriPub' : '/revista'});
+                
+            var pageStatsData='';
+            var pageStatsBind='';
+            
+            $(document).ready(function(){
+                doLoginCheck("#infousuario");
+                $('input, textarea').placeholder();
+                $('body').on('click', function(){
+                    if($('#eScreen').length > 0){f_dialogClose();}
+                    if($('.ouibounce-modal').length > 0){$('.ouibounce-modal').hide()}
+                });
+                if($('.ouibounce-modal').length > 0){
+                    var obM = $('.ouibounce-modal');
+                    var ckN = obM.attr('icr-ckn');
+                    var ckE = obM.attr('icr-cke');
+                    $('.ouibounce-modal .modal').on('click',function(e){e.stopPropagation();});
+                    ouibounce(obM[0], {
+                        sitewide: true,
+                        cookieDomain : '.icarros.com.br',
+                        cookieExpire : (ckE > 0 ? parseInt(ckN) : 5),
+                        cookieName : ckN,
+                        delay: 200, //delay (ms) entre o cursor sair do viewport e o modal aparecer
+                        timer: 5000 //tempo (ms) depois do load que precisa passar para que o ouibounce seja ativado
+                    });
+                }
+                $("img.imglazy").lazy({
+                    threshold:0,
+                    visibleOnly: true,
+                    bind:"event"
+                });
+                $(".lazycontainer").hover( function() {
+                    var forDiv=$(this).attr('for');
+                    var searchInto=forDiv!=null ? $("#"+forDiv) : $(this);
+                    searchInto.find("img.imglazy").lazy({
+                        bind: "event",
+                        delay: 0
+                    });
+                });
+            });
+
+            </script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQQAV1VVChABUlFUBQcGVg=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+  <script src="//assets.adobedtm.com/8c717b434098baa16315c685ff81572aae207a9b/satelliteLib-cf3a133b8e7ca958b33f2752acdc9555df8d151e-staging.js"></script> 
+ </head> 
+ <body>
+  <div class="pagecontent"> 
+   <div class="sectionbackground "> 
+    <div class="sectionlimit "> 
+     <div class="clearfix">
+      &nbsp;
+     </div> 
+     <div class="clearfix"> 
+      <div id="ic-coluna-esq"> 
+       <div class="noticia_destaque"> 
+        <div id="ic-slideshow" class="icc_sld_show"> 
+         <div id="iccSlideshow_ic-slideshowImagens"> 
+          <a href="/noticias/geral/antes-e-depois:-veja-as-mudancas-do-polo-para-a-nova-geracao/23362.html"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" rel="Antes e depois: veja as mudanças do Polo para a nova geração" alt="Antes e depois: veja as mudanças do Polo para a nova geração" width="680" height="340"> </a> 
+          <a href="/noticias/testes-e-comparativos/chevrolet-prisma-joy-2018:-seguindo-os-passos-do-classic/23343.html"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" rel="Chevrolet Prisma Joy 2018: seguindo os passos do Classic" alt="Chevrolet Prisma Joy 2018: seguindo os passos do Classic" width="680" height="340"> </a> 
+          <a href="/noticias/testes-e-comparativos/vw-polo-msi:-como-anda-a-versao-de-entrada-com-motor-1.6-/23350.html"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" rel="VW Polo MSI: como anda a versão de entrada com motor 1.6?" alt="VW Polo MSI: como anda a versão de entrada com motor 1.6?" width="680" height="340"> </a> 
+          <a href="/noticias/lancamentos/novo-vw-polo-2018-tem-os-precos-revelados/23259.html"> <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEHAAAALAAAAAABAAEAAAICRAEAOw==" rel="Novo VW Polo 2018 tem os preços revelados" alt="Novo VW Polo 2018 tem os preços revelados" width="680" height="340"> </a> 
+         </div> 
+         <div id="iccSlideshow_ic-slideshowNavigation"></div> 
+        </div> 
+        <script type="text/javascript">
+    $(document).ready(function() {
+
+        /* verificar a necessidade, pois por enquando só sera aplicado na revista (noticias) */
+        var arrayImgs = new Array();
+        
+            arrayImgs[0] = 'http://img1.icarros.com/dbimg/imgnoticia/7/23362_1';
+        
+            arrayImgs[1] = 'http://img1.icarros.com/dbimg/imgnoticia/7/23343_1';
+        
+            arrayImgs[2] = 'http://img1.icarros.com/dbimg/imgnoticia/7/23350_1';
+        
+            arrayImgs[3] = 'http://img1.icarros.com/dbimg/imgnoticia/7/23259_1';
+        
+
+        var viewportWidth = $(window).width();
+        var width = 680, height = 340;
+
+        if((typeof viewportWidth != 'undefined') && viewportWidth<=480){
+
+            width = 450;
+            height = 240;
+
+            for(var i=0; i<arrayImgs.length; i++){
+                arrayImgs[i] = updateQueryStringParameter(arrayImgs[i], 'tipo', '11');
+            }
+        }
+
+        $('#iccSlideshow_ic-slideshowImagens img').each(function (i) {
+            $(this).attr('width', width);
+            $(this).attr('height', height);
+            $(this).attr('src', arrayImgs[i]);
+        });
+
+        $("#ic-slideshow").iccSlideshow({
+            
+            
+            
+            
+            onSlideChange : ''
+        });
+    });
+</script>
+       </div> 
+       <div class="ic-videos-home"> 
+        <div class="ic-destaque-video esquerda"> 
+         <a href="/videos/manutencao-e-servicos/sabe-quais-equipamentos-desvalorizam-seu-carro-/23364.html" title="Sabe quais equipamentos desvalorizam seu carro?"> <img class="esquerda imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/6/23364_1" alt="Sabe quais equipamentos desvalorizam seu carro?"> <h3>Sabe quais equipamentos desvalorizam seu carro?</h3> </a> 
+        </div> 
+        <div class="ic-box-videos-container direita"> 
+         <a href="/videos/lancamentos/primeiro-contato:-veja-como-ficou-o-vw-polo-2018-highline/23344.html" title="Primeiro contato: veja como ficou o VW Polo 2018 Highline"> 
+          <div class="box-video-link primeiro"> 
+           <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23344_2" alt="Primeiro contato: veja como ficou o VW Polo 2018 Highline"> 
+           <h3>Primeiro contato: veja como ficou o VW Polo 2018 Highline</h3> 
+          </div> </a> 
+        </div> 
+        <div class="ic-box-videos-container direita"> 
+         <a href="/videos/testes-e-comparativos/primeiro-contato:-nissan-kicks-s-cvt/23318.html" title="Primeiro contato: Nissan Kicks S CVT"> 
+          <div class="box-video-link"> 
+           <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/3/23318_1" alt="Primeiro contato: Nissan Kicks S CVT"> 
+           <h3>Primeiro contato: Nissan Kicks S CVT</h3> 
+          </div> </a> 
+        </div> 
+        <div class="ic-box-videos-container direita"> 
+         <a href="/videos/testes-e-comparativos/primeiro-contato:-jac-t40/23293.html" title="Primeiro contato: JAC T40"> 
+          <div class="box-video-link ultimo"> 
+           <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23293_1" alt="Primeiro contato: JAC T40"> 
+           <h3>Primeiro contato: JAC T40</h3> 
+          </div> </a> 
+        </div> 
+        <a class="link-todos" href="/noticias/videos.jsp">ver todos os vídeos</a> 
+       </div> 
+       <div class="ic-conteudo clearfix"> 
+        <!-- outras noticias --> 
+        <div class="ic-boxes-editoria esquerda"> 
+         <div class="ic-box-chamada esquerda"> 
+          <a href="/noticias/geral/veja-como-ficara-o-renault-sandero-2018-reestilizado/23372.html" title="Veja como ficará o Renault Sandero 2018 reestilizado"> <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/5/23372_1" alt="Veja como ficará o Renault Sandero 2018 reestilizado"> <h3>Veja como ficará o Renault Sandero 2018 reestilizado</h3> <p>Além das mudanças visuais, Sandero e Logan adotarão câmbio automático CVT combinado ao motor 1.6 SCe </p> </a> 
+         </div> 
+         <div class="ic-box-chamada direita"> 
+          <a href="/noticias/lancamentos/s10-tera-edicao-especial-dos-100-anos-das-picapes-chevrolet/23371.html" title="S10 terá edição especial dos 100 anos das picapes Chevrolet"> <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/5/23371_1" alt="S10 terá edição especial dos 100 anos das picapes Chevrolet"> <h3>S10 terá edição especial dos 100 anos das picapes Chevrolet</h3> <p>Série limitada terá novos detalhes revelados em breve e faz parte de um conjunto de ações da GM pelo mundo </p> </a> 
+         </div> 
+        </div> 
+        <div class="ic-boxes-editoria esquerda"> 
+         <div class="ic-box-chamada esquerda"> 
+          <a href="/noticias/geral/teto-solar-e-um-dos-itens-que-o-polo-2018-nao-tem-no-brasil/23370.html" title="Teto solar é um dos itens que o Polo 2018 não tem no Brasil"> <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/5/23370_1" alt="Teto solar é um dos itens que o Polo 2018 não tem no Brasil"> <h3>Teto solar é um dos itens que o Polo 2018 não tem no Brasil</h3> <p>Feito por aqui, o hatch deixa de oferecer mais opções de câmbio e até mesmo itens de segurança</p> </a> 
+         </div> 
+         <div class="ic-box-chamada direita"> 
+          <a href="/noticias/geral/pre-venda-do-polo-2018-ja-tem-500-unidades-reservadas/23369.html" title="Pré-venda do Polo 2018 já tem 500 unidades reservadas"> <img class="imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/5/23369_1" alt="Pré-venda do Polo 2018 já tem 500 unidades reservadas"> <h3>Pré-venda do Polo 2018 já tem 500 unidades reservadas</h3> <p>Com entrega para novembro, só três versões do hatch estão disponíveis agora. A Highline poderá ser reservada em outubro</p> </a> 
+         </div> 
+        </div> 
+        <div> 
+         <div class="box-informe-publicitario"> 
+          <div class="box_cinza fundo_cinza ic-box-chamada"> 
+           <a href="/noticias/informe-publicitario/suzuki-s-cross:-aventureiro-com-algo-a-mais/23331.html" title="Suzuki S-Cross: aventureiro com algo a mais"> <img class="esquerda imglazy" src="http://img1.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/5/23331_1" alt="Suzuki S-Cross: aventureiro com algo a mais"> 
+            <div> 
+             <span class="txt_informe">Informe Publicitário</span> 
+             <h3>Suzuki S-Cross: aventureiro com algo a mais</h3> 
+             <span class="txt">Renovado por dentro e por fora, o crossover tem tudo que você precisa para o dia a dia e para curtir os finais de semana</span> 
+            </div> </a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div id="ic-coluna-dir"> 
+       <!-- Abas : Lista de Notícias --> 
+       <div class="newtab"> 
+        <div class="clearfix cross"> 
+         <div class="clearfix tab-container"> 
+          <ul class="clearfix tab tab-square"> 
+           <li class="tab-titulo tab-titulo-ativo primeiro" for="tab-1">Últimas notícias</li> 
+           <li class="tab-titulo" for="tab-2">Lançamentos</li> 
+          </ul> 
+          <div id="tab-1" class="clearfix tab-conteudo tab-conteudo-redondo tab-conteudo-ativo"> 
+           <ul> 
+            <li class="primeiro"> <a href="/noticias/geral/73-do-preco-da-gasolina-e-imposto-e-margem-de-lucro/23368.html" title="73% do preço da gasolina é imposto e margem de lucro" data-tracking="iccUltimasNoticias:Click:73% do preço da gasolina é imposto e margem de lucro"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23368_1" alt="73% do preço da gasolina é imposto e margem de lucro"> 73% do preço da gasolina é imposto e margem de lucro
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/geral/toyota-yaris-sedan:-conheca-o-mini-corolla/23367.html" title="Toyota Yaris Sedan: conheça o mini Corolla" data-tracking="iccUltimasNoticias:Click:Toyota Yaris Sedan conheça o mini Corolla"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/3/23367_1" alt="Toyota Yaris Sedan: conheça o mini Corolla"> Toyota Yaris Sedan: conheça o mini Corolla
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/top-10/hilux-vende-mais-que-hb20-e-corolla-na-america-latina/23366.html" title="Hilux vende mais que HB20 e Corolla na América Latina" data-tracking="iccUltimasNoticias:Click:Hilux vende mais que HB20 e Corolla na América Latina"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/3/23366_1" alt="Hilux vende mais que HB20 e Corolla na América Latina"> Hilux vende mais que HB20 e Corolla na América Latina
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/geral/conheca-os-concorrentes-do-virtus,-seda-derivado-do-polo/23365.html" title="Conheça os concorrentes do Virtus, sedã derivado do Polo" data-tracking="iccUltimasNoticias:Click:Conheça os concorrentes do Virtus, sedã derivado do Polo"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23365_1" alt="Conheça os concorrentes do Virtus, sedã derivado do Polo"> Conheça os concorrentes do Virtus, sedã derivado do Polo
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/lancamentos/aqui-em-2018,-vw-golf-reestilizado-chega-a-argentina/23357.html" title="Aqui em 2018, VW Golf reestilizado chega à Argentina" data-tracking="iccUltimasNoticias:Click:Aqui em 2018, VW Golf reestilizado chega à Argentina"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/3/23357_1" alt="Aqui em 2018, VW Golf reestilizado chega à Argentina"> Aqui em 2018, VW Golf reestilizado chega à Argentina
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li class="ultimo"> <a href="/videos/manutencao-e-servicos/sabe-quais-equipamentos-desvalorizam-seu-carro-/23364.html" title="Sabe quais equipamentos desvalorizam seu carro?" data-tracking="iccUltimasNoticias:Click:Sabe quais equipamentos desvalorizam seu carro?"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/3/23364_1" alt="Sabe quais equipamentos desvalorizam seu carro?"> Sabe quais equipamentos desvalorizam seu carro?
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+           </ul> 
+           <div class="icc-view-all">
+            <a href="/noticias/arquivo.jsp">ver todas</a>
+           </div> 
+          </div> 
+          <div id="tab-2" class="clearfix tab-conteudo tab-conteudo-redondo"> 
+           <ul> 
+            <li class="primeiro"> <a href="/noticias/lancamentos/aqui-em-2018,-vw-golf-reestilizado-chega-a-argentina/23357.html" title="Aqui em 2018, VW Golf reestilizado chega à Argentina" data-tracking="iccUltimasNoticias:Click:Aqui em 2018, VW Golf reestilizado chega à Argentina"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img2.icarros.com/dbimg/imgnoticia/3/23357_1" alt="Aqui em 2018, VW Golf reestilizado chega à Argentina"> Aqui em 2018, VW Golf reestilizado chega à Argentina
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/lancamentos/nova-geracao-do-lexus-ls-chega-ao-brasil-em-2018/23359.html" title="Nova geração do Lexus LS chega ao Brasil em 2018" data-tracking="iccUltimasNoticias:Click:Nova geração do Lexus LS chega ao Brasil em 2018"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23359_1" alt="Nova geração do Lexus LS chega ao Brasil em 2018"> Nova geração do Lexus LS chega ao Brasil em 2018
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/lancamentos/chevrolet-corvette-z06-pode-ser-importado-por-r$-699-mil/23358.html" title="Chevrolet Corvette Z06 pode ser importado por R$ 699 mil" data-tracking="iccUltimasNoticias:Click:Chevrolet Corvette Z06 pode ser importado por R$ 699 mil"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/3/23358_1" alt="Chevrolet Corvette Z06 pode ser importado por R$ 699 mil"> Chevrolet Corvette Z06 pode ser importado por R$ 699 mil
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/lancamentos/vw-polo-2018-chega-a-r$-75.940-com-todos-os-opcionais/23356.html" title="VW Polo 2018 chega a R$ 75.940 com todos os opcionais" data-tracking="iccUltimasNoticias:Click:VW Polo 2018 chega a R$ 75.940 com todos os opcionais"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23356_1" alt="VW Polo 2018 chega a R$ 75.940 com todos os opcionais"> VW Polo 2018 chega a R$ 75.940 com todos os opcionais
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li> <a href="/noticias/lancamentos/kawasaki-z900-2018-chega-ao-brasil-e-tem-preco-definido/23355.html" title="Kawasaki Z900 2018 chega ao Brasil e tem preço definido" data-tracking="iccUltimasNoticias:Click:Kawasaki Z900 2018 chega ao Brasil e tem preço definido"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img0.icarros.com/dbimg/imgnoticia/3/23355_1" alt="Kawasaki Z900 2018 chega ao Brasil e tem preço definido"> Kawasaki Z900 2018 chega ao Brasil e tem preço definido
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+            <li class="ultimo"> <a href="/noticias/lancamentos/novo-citroen-jumpy-chega-ao-brasil-em-outubro-por-r$-79.990/23341.html" title="Novo Citroën Jumpy chega ao Brasil em outubro por R$ 79.990" data-tracking="iccUltimasNoticias:Click:Novo Citroën Jumpy chega ao Brasil em outubro por R$ 79.990"> <img class="thumb imglazy" src="https://static.icarros.com/comum/baseimg/blank.gif" data-src="http://img1.icarros.com/dbimg/imgnoticia/3/23341_1" alt="Novo Citroën Jumpy chega ao Brasil em outubro por R$ 79.990"> Novo Citroën Jumpy chega ao Brasil em outubro por R$ 79.990
+              <div class="clearer">
+               &nbsp;
+              </div></a> </li> 
+           </ul> 
+           <div class="icc-view-all">
+            <a href="/noticias/arquivo.jsp?id=27">ver todas</a>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+    $(document).ready(function(){
+        $('.tab-container').icarrosToggleTabs({
+            onChange : function(){$("img.imglazy").lazy({
+                threshold:0,
+                visibleOnly: true,
+                bind:"event"
+            });}
+        });
+    });
+</script> 
+       <script type="text/javascript">addLoadEvent('registerTrackingEvents()');</script>
+       <div class="ic-noticia-pub" style="margin: 30px 0;"> 
+        <p>publicidade</p> 
+        <div id="div-publicidade-square"></div> 
+       </div> 
+       <div class="clearfix cross"> 
+        <ul class="listavertical"> 
+         <li id="b_of_cross_seguro" class="filtro cross cross_seguro"> 
+          <div class="titulo-cross"> 
+           <span class="titulo-texto">Seguro automóvel</span> 
+          </div> 
+          <div class="texto-cross"> 
+           <p>Veja o resultado na hora e compare os preços e benefícios sem sair de casa.</p> 
+           <div class="esquerda icone-logo-seguros icone-logo-portoseguro"></div> 
+           <div class="esquerda icone-logo-itau icone-logo-itau-filtro-cross"></div> 
+           <div class="esquerda icone-logo-seguros icone-logo-azul"></div> 
+           <a href="https://wwws.portoseguro.com.br/vendaonline/automovel/home.ns?utm_source=icarros&amp;utm_medium=parceiro&amp;utm_campaign=automovel-ongoing-mc-br-compra-conversao-botao_de_cotacao&amp;utm_content=txt-na-na-na&amp;ref=icarros_R40241" target="_blank" class="icr-btn icr-btn-m icr-btn-redondo icr-btn-branco" onclick="_gaq.push(['_trackEvent', 'Revista', 'Home', 'porto_seguro']);">cotar seguro</a> 
+          </div> </li> 
+        </ul> 
+       </div> 
+       <div class="share_box"> 
+        <div id="pgRedesSociais0" class="socialplugins clearfix"> 
+         <!-- Facebook --> 
+         <div id="fb-root"></div> 
+         <script type="text/javascript">
+                addLoadEvent(function() {(function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'))});
+            </script> 
+         <div id="pxBoxShare0" class="default_share_box"> 
+          <ul class="listavertical"> 
+           <li class="primeiro"> 
+            <fb:like-box id="likebox" href="http://www.facebook.com/icarros" colorscheme="light" width="298" height="185" show_faces="true" header="false" stream="false" show_border="false" /> </li> 
+           <li>
+            <g:plusone annotation="inline" width="250" href="http://www.icarros.com.br" /></li> 
+           <li><a href="https://twitter.com/iCarros" class="twitter-follow-button" lang="pt">Seguir @iCarros</a></li> 
+           <li id="pgNewsletter0" class="newsletter"> <a href="http://www.icarros.com.br/myicarros/newsletter.jsf?endo_id=947" class="newsletter-button"><i></i>Cadastre-se</a> e receba as matérias por e-mail. </li> 
+          </ul> 
+         </div> 
+         <!-- Google Plus --> 
+         <script type="text/javascript">
+            window.___gcfg = {lang: 'pt-BR'};
+
+            addLoadEvent(function() {(function() {
+                var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+            })()});
+        </script> 
+         <!-- Twitter --> 
+         <script type="text/javascript">
+            addLoadEvent(function() {!function(d,s,id){
+                var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);
+                    js.id=id;
+                    js.src=p+'://platform.twitter.com/widgets.js';
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }(document, 'script', 'twitter-wjs')});
+        </script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+        $(document).ready(function(){
+            initMenu(0, 'http://img0.icarros.com/dbimg/imgnoticia/5/');
+            
+        });
+        $(window).on('load resize', function(){initHamburguer();});
+       </script> 
+   <div class="menuresponsivo menuCARRO"> 
+    <div id="mRev" class="desktoponly"> 
+     <div class="centered"> 
+      <div class="esquerda"> 
+       <ul class="listahorizontal"> 
+        <li class="primeiro"><a href="/adminpj/indexfaces.jsf" rel="nofollow" title="Portal Revenda">Portal Revenda</a></li> 
+        <li class=""><a href="/adminpj/estoque.jsf" rel="nofollow" title="Estoque">Estoque</a></li> 
+        <li class=""><a href="/adminpj/propostas.jsf" rel="nofollow" title="Propostas">Propostas</a></li> 
+        <li class="ultimo"><a href="/adminpj/relatorio.jsf" rel="nofollow" title="Relatórios">Relatórios</a></li> 
+       </ul> 
+      </div> 
+      <div class="direita"> 
+       <a href="/adminpj/indexfaces.jsf" rel="nofollow" title="Portal Revenda">entrar</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="menuHeader" class="menutopo" style=""> 
+     <div class="centered"> 
+      <a href="/principal/index.jsp" title="iCarros"><span class="icones icone-logo-icarros"></span></a> 
+      <div class="hamburguer phoneonly"> 
+       <span class="icones icone-hamburguer" data-status="closed"></span> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="menunav "> 
+     <ul id="menuprincipal" class="clearfix " style=""> 
+      <li class="lazycontainer primeiro selected"> <a class="item-principal" href="/comprar" title="Comprar">Comprar</a> 
+       <div class="clearfix desktoponly menu-secundario"> 
+        <ul class="clearfix desktoponly listavertical"> 
+         <li><a href="/comprar/usados" class="linkmenu" title="Carros usados e seminovos">Carros usados e seminovos</a></li> 
+         <li><a href="/consultor-compra/recomendamos.jsf" class="linkmenu" title="Carro recomendado">Consultor de compra</a></li> 
+         <li><a rel="nofollow" href="/myicarros/anunciossalvos.jsf" class="linkmenu" title="Meus anúncios gravados">Meus anúncios gravados</a></li> 
+         <li><a href="/opiniao-carros/indexfaces.jsf" class="linkmenu" title="Opinião do dono">Opinião do dono</a></li> 
+        </ul> 
+        <div class="menu-cross comprar desktoponly "> 
+         <div class="clearfix"> 
+          <ul class="clearfix listahorizontal diretorio"> 
+           <li class="primeiro"> <a href="/comprar/honda/civic?reg=city" title="Comprar Honda&nbsp;Civic"> <img class="imglazy" data-src="http://img0.icarros.com/dbimg/imgmodelo/1/231_18.png" alt="Civic"> <p>Civic</p> </a> </li> 
+           <li class=""> <a href="/comprar/toyota/corolla?reg=city" title="Comprar Toyota&nbsp;Corolla"> <img class="imglazy" data-src="http://img0.icarros.com/dbimg/imgmodelo/1/468_7.png" alt="Corolla"> <p>Corolla</p> </a> </li> 
+           <li class=""> <a href="/comprar/volkswagen/gol?reg=city" title="Comprar Volkswagen&nbsp;Gol"> <img class="imglazy" data-src="http://img0.icarros.com/dbimg/imgmodelo/1/480_12.png" alt="Gol"> <p>Gol</p> </a> </li> 
+           <li class=""> <a href="/comprar/fiat/palio?reg=city" title="Comprar Fiat&nbsp;Palio"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/214_5.png" alt="Palio"> <p>Palio</p> </a> </li> 
+           <li class=""> <a href="/comprar/chevrolet/celta?reg=city" title="Comprar Chevrolet&nbsp;Celta"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/130_12.png" alt="Celta"> <p>Celta</p> </a> </li> 
+           <li class=""> <a href="/comprar/ford/ecosport?reg=city" title="Comprar Ford&nbsp;EcoSport"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/607_10.png" alt="EcoSport"> <p>EcoSport</p> </a> </li> 
+           <li class=""> <a href="/comprar/chevrolet/onix?reg=city" title="Comprar Chevrolet&nbsp;Onix"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/2428_2.png" alt="Onix"> <p>Onix</p> </a> </li> 
+           <li class="ultimo"> <a href="/comprar/chevrolet/prisma?reg=city" title="Comprar Chevrolet&nbsp;Prisma"> <img class="imglazy" data-src="http://img2.icarros.com/dbimg/imgmodelo/1/902_12.png" alt="Prisma"> <p>Prisma</p> </a> </li> 
+          </ul> 
+          <ul class="clearfix listahorizontal cross-links"> 
+           <li class="primeiro"><span>Principais Cidades:</span></li> 
+           <li class=""> <a href="/comprar/niteroi-rj" title="Ofertas de carros usados e novos em Niterói"> <span class="">Niterói</span> </a> </li> 
+           <li class=""> <a href="/comprar/campo-grande-ms" title="Ofertas de carros usados e novos em Campo Grande"> <span class="">Campo Grande</span> </a> </li> 
+           <li class=""> <a href="/comprar/sao-jose-do-rio-preto-sp" title="Ofertas de carros usados e novos em São José do Rio Preto"> <span class="">São José do Rio Preto</span> </a> </li> 
+           <li class=""> <a href="/comprar/blumenau-sc" title="Ofertas de carros usados e novos em Blumenau"> <span class="">Blumenau</span> </a> </li> 
+           <li class=""> <a href="/comprar/sao-jose-dos-campos-sp" title="Ofertas de carros usados e novos em São José dos Campos"> <span class="">São José dos Campos</span> </a> </li> 
+           <li class=""> <a href="/comprar/maringa-pr" title="Ofertas de carros usados e novos em Maringá"> <span class="">Maringá</span> </a> </li> 
+           <li class=""> <a href="/comprar/guarulhos-sp" title="Ofertas de carros usados e novos em Guarulhos"> <span class="">Guarulhos</span> </a> </li> 
+           <li class=""> <a href="/comprar/uberlandia-mg" title="Ofertas de carros usados e novos em Uberlândia"> <span class="">Uberlândia</span> </a> </li> 
+           <li class=""> <a href="/comprar/santo-andre-sp" title="Ofertas de carros usados e novos em Santo André"> <span class="">Santo André</span> </a> </li> 
+           <li class=""> <a href="/comprar/jundiai-sp" title="Ofertas de carros usados e novos em Jundiaí"> <span class="">Jundiaí</span> </a> </li> 
+           <li class=""> <a href="/comprar/londrina-pr" title="Ofertas de carros usados e novos em Londrina"> <span class="">Londrina</span> </a> </li> 
+           <li class=""> <a href="/comprar/sorocaba-sp" title="Ofertas de carros usados e novos em Sorocaba"> <span class="">Sorocaba</span> </a> </li> 
+           <li class=""> <a href="/comprar/sao-paulo-sp" title="Ofertas de carros usados e novos em São Paulo"> <span class="destaque">São Paulo</span> </a> </li> 
+           <li class=""> <a href="/comprar/fortaleza-ce" title="Ofertas de carros usados e novos em Fortaleza"> <span class="">Fortaleza</span> </a> </li> 
+           <li class="ultimo"> <a href="/comprar/ribeirao-preto-sp" title="Ofertas de carros usados e novos em Ribeirão Preto"> <span class="">Ribeirão Preto</span> </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="lazycontainer"> <a class="item-principal" href="/vender/indexfaces.jsf?endo_id=73&amp;reiniciar=true" title="Venda seu&nbsp;carro">Vender</a> 
+       <div class="clearfix desktoponly menu-secundario"> 
+        <ul class="clearfix desktoponly listavertical"> 
+         <li class="primeiro"><a href="/vender/indexfaces.jsf?endo_id=73&amp;reiniciar=true" title="Anuncie seu&nbsp;carro">Anuncie seu&nbsp;carro</a></li> 
+         <li class="ultimo"><a href="/myicarros/indexfaces.jsf#gerenciar_anuncio_0" title="Gerenciar anúncio">Gerenciar anúncio</a></li> 
+        </ul> 
+        <div class="menu-cross vender desktoponly banner-background"> 
+         <div class="banner_destaque"> 
+          <div class="esquerda info_destaque_vender"> 
+           <p class="txt14-align-left">Anuncie para mais de <span class="negrito">8 milhões</span> de pessoas e venda rápido.</p> 
+          </div> 
+          <div class="clearfix itau"> 
+           <div class="direita icr-btn-vender-inferior"> 
+            <a href="/vender/indexfaces.jsf?endo_id=1230&amp;reiniciar=true"> <button type="button" class="icr-btn icr-btn-m icr-btn-redondo icr-btn-laranja" title="Venda seu&nbsp;carro">Quero vender</button> </a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="lazycontainer"><a class="item-principal" href="/catalogo/index.jsp" title="Catálogo 0km">Catálogo 0km</a> 
+       <div class="clearfix desktoponly menu-secundario"> 
+        <ul class="clearfix desktoponly listavertical"> 
+         <li><a href="/catalogo/index.jsp" class="linkmenu" title="Pesquise 0km">Pesquise 0km</a></li> 
+         <li><a href="/catalogo/compare.jsp" class="linkmenu" title="Compare 0km">Compare 0km</a></li> 
+         <li><a href="/opiniao-carros/indexfaces.jsf" class="linkmenu" title="Opinião do dono">Opinião do dono</a></li> 
+        </ul> 
+        <div class="menu-cross comparar desktoponly"> 
+         <div class="clearfix"> 
+          <ul class="clearfix listahorizontal diretorio"> 
+           <li class="primeiro"> <a href="/hyundai/hb20" title="Hyundai&nbsp;HB20"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/2398_10.png" alt="HB20"> <p>HB20</p> </a> </li> 
+           <li class=""> <a href="/toyota/corolla" title="Toyota&nbsp;Corolla"> <img class="imglazy" data-src="http://img0.icarros.com/dbimg/imgmodelo/1/468_7.png" alt="Corolla"> <p>Corolla</p> </a> </li> 
+           <li class=""> <a href="/chevrolet/onix" title="Chevrolet&nbsp;Onix"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/2428_2.png" alt="Onix"> <p>Onix</p> </a> </li> 
+           <li class=""> <a href="/fiat/palio" title="Fiat&nbsp;Palio"> <img class="imglazy" data-src="http://img1.icarros.com/dbimg/imgmodelo/1/214_5.png" alt="Palio"> <p>Palio</p> </a> </li> 
+           <li class=""> <a href="/volkswagen/gol" title="Volkswagen&nbsp;Gol"> <img class="imglazy" data-src="http://img0.icarros.com/dbimg/imgmodelo/1/480_12.png" alt="Gol"> <p>Gol</p> </a> </li> 
+           <li class="ultimo"> <a href="/honda/hr-v" title="Honda&nbsp;HR-V"> <img class="imglazy" data-src="http://img2.icarros.com/dbimg/imgmodelo/1/2627_1.png" alt="HR-V"> <p>HR-V</p> </a> </li> 
+          </ul> 
+          <ul class="clearfix listahorizontal cross-links"> 
+           <li class="primeiro"><span>Categorias:</span></li> 
+           <li class=""> <a href="/seda">Sedã</a> </li> 
+           <li class=""> <a href="/hatch">Hatch</a> </li> 
+           <li class=""> <a href="/conversivel-cupe">Conversível/Cupê</a> </li> 
+           <li class=""> <a href="/van">Van</a> </li> 
+           <li class=""> <a href="/wagon-perua">Wagon/Perua</a> </li> 
+           <li class=""> <a href="/utilitario-esportivo">Utilitário Esportivo</a> </li> 
+           <li class=""> <a href="/picapes">Picapes</a> </li> 
+           <li class="ultimo"> <a href="/monovolume">Monovolume</a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li><a class="item-principal" href="/tabela-fipe/index.jsp" title="tabela FIPE" style="text-transform:none;">Tabela FIPE</a></li> 
+      <li><a class="item-principal" href="/financiamento/indexfaces.jsf" title="Financiamento">Financiamento</a> 
+       <div class="clearfix desktoponly menu-secundario"> 
+        <ul class="clearfix desktoponly listavertical"> 
+         <li><a href="/financiamento/indexfaces.jsf" class="linkmenu" title="Financiamento">Financiamento</a></li> 
+         <li><a href="https://institucional.portoseguro.com.br/conteudo/seguros/seguro-de-veiculos/seguro-de-automovel/cotacao-portoseguro/index.html?utm_campaign=MID_lds_autoporto&amp;utm_source=mc_icarros&amp;utm_medium=cpc&amp;utm_content=link_cotacao&amp;ref=icarros_40086&amp;abrangencia=geral" class="linkmenu" title="Seguro" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Seguro</a></li> 
+        </ul> 
+        <div class="menu-cross financiamento desktoponly"> 
+         <div class="banner_destaque" style="background:url('http://img1.icarros.com/comum/menu/financiamento/img_financiamento_1.jpg') no-repeat;"> 
+          <p><a href="/financiamento/indexfaces.jsf" title="Simule o financiamento e veja o valor da parcela do seu próximo carro."><strong>Simule o financiamento</strong> e veja o valor da parcela do seu próximo carro.</a></p> 
+          <div class="direita"> 
+           <button type="button" class="icr-btn icr-btn-m icr-btn-redondo icr-btn-laranja" onclick="window.location.href='/financiamento/indexfaces.jsf'" title="Quero financiar">quero financiar</button> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li id="menuRevista" class=""> <a class="item-principal" href="/noticias/index.jsp" title="Noticias">Notícias</a> 
+       <div class="clearfix desktoponly menu-secundario"> 
+        <ul class="clearfix desktoponly listavertical"> 
+         <li class="primeiro"><a href="/noticias/index.jsp" title="Home">Home</a></li> 
+         <li><a href="/editorias/geral/32.html" title="Geral">Geral</a></li> 
+         <li><a href="/editorias/lancamentos/27.html" title="Lançamentos">Lançamentos</a></li> 
+         <li><a href="/editorias/manutencao-e-servicos/50.html" title="Manutenção e Serviços">Manutenção e Serviços</a></li> 
+         <li><a href="/editorias/saloes/31.html" title="Salões">Salões</a></li> 
+         <li><a href="/editorias/testes-e-comparativos/28.html" title="Testes e Comparativos">Testes e Comparativos</a></li> 
+         <li><a href="/editorias/top-10/58.html" title="Top 10">Top 10</a></li> 
+         <li><a href="/editorias/tudo-sobre/59.html" title="Tudo Sobre">Tudo Sobre</a></li> 
+         <li style="padding-right:10px;"><a href="/noticias/videos.jsp" title="Vídeos">Vídeos</a></li> 
+        </ul> 
+        <div class="menu-cross revista desktoponly"> 
+         <img class="imglazy loading" data-src="http://img1.icarros.com/comum/baseimg/ajax-loader.gif" width="32" height="32"> 
+        </div> 
+       </div> </li> 
+      <li class="outros_segmentos small desktoponly"> <a href="javascript:void(0);" title="+ Sites">+ sites</a> 
+       <div class="menu-secundario"> 
+        <ul class="listavertical"> 
+         <li class=""> <a href="http://motos.icarros.com.br" title="iMotos"> <span class="icones icone-logo-imotos" title="iMotos"></span> </a> </li> 
+         <li class="ultimo"> <a href="http://caminhoes.icarros.com.br" title="iCaminhões"> <span class="icones icone-logo-icaminhoes" title="iCaminhões"></span> </a> </li> 
+        </ul> 
+       </div> </li> 
+      <li class="small portalrevenda desktoponly"><a href="/portalrevenda/indexfaces.jsf">Portal revenda</a></li> 
+      <li class="unlogged" style="padding-right:0;"> 
+       <div class="div_linkapp"> 
+        <a class="menu_linkapps" href="/principal/mobile.jsp"><span class="icones icone_menu icone-ic_smartphone"></span>App</a> 
+        <div class="clearfix desktoponly menu-secundario"> 
+         <ul class="clearfix desktoponly listavertical"> 
+          <li><a href="/principal/mobile.jsp" class="linkmenu" title="Conheça o App" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Conheça o App</a></li> 
+         </ul> 
+         <div class="menu-cross download_app desktoponly"> 
+          <div class="banner_destaque" style="background:url('http://img2.icarros.com/comum/menu/app/img_menu_app.jpg') no-repeat;"> 
+           <p><a href="/principal/mobile.jsp">&nbsp;</a></p> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="small unlogged ultimo">
+       <div id="unloggeduser">
+        <a class="bnt_login" href="/login">login</a>
+       </div></li> 
+      <li id="menuloggedd" style="display:none;"> 
+       <div class="div_linkapp">
+        <a class="menu_linkapps" href="/principal/mobile.jsp"><span class="icones icone_menu icone-ic_smartphone"></span>App</a> 
+        <div class="clearfix desktoponly menu-secundario"> 
+         <ul class="clearfix desktoponly listavertical"> 
+          <li><a href="/principal/mobile.jsp" class="linkmenu" title="Conheça o App" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Menu', 'porto_seguro']);" target="_blank" rel="nofollow">Conheça o App</a></li> 
+         </ul> 
+         <div class="menu-cross download_app desktoponly"> 
+          <div class="banner_destaque" style="background:url('http://img2.icarros.com/comum/menu/app/img_menu_app.jpg') no-repeat;"> 
+           <p><a href="/principal/mobile.jsp">&nbsp;</a></p> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li id="menulogged" class="ultimo" style="display:none;"> 
+       <div class="infousuario"> 
+        <span class="name"></span> 
+        <span class="icones icone-down"></span> 
+        <div class="clearfix desktoponly menu-secundario"> 
+         <div class="infos"> 
+          <span class="name"></span> 
+          <span class="email" style="color:#444; padding:0 10px;"></span> 
+         </div> 
+         <div id="loggeduser"> 
+          <ul class="clearfix listavertical"> 
+           <li class="portalrevenda linkusuario" style="display:none;"><a href="/adminpj/indexfaces.jsf"><span class="icones icone-ic_car_dealer icone_menu"></span>Portal Revenda</a></li> 
+           <li class="linkusuario"><a href="/myicarros/indexfaces.jsf"><span class="icones icone-ic_person icone_menu_meuicarros"></span>Meu iCarros</a></li> 
+           <li class="linkusuario"><a href="https://icarros.zendesk.com/hc/pt-br" target="_blank"><span class="icones icone-ic_mail icone_menu_meuicarros"></span>Fale Conosco</a></li> 
+           <li class="linkusuario"><a href="/logout"><span class="icones icone-ic_logout icone_menu"></span>Logout</a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> </li> 
+     </ul> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.icr-phone-mask').mask(SPMaskPhoneBehavior, spOptions);
+
+        reSendSMS('');
+    });
+
+</script> 
+   <div class="sectionbackground "> 
+    <div class="sectionlimit "> 
+     <div id="superbanner-rodapesite" class="publicidade"> 
+      <div id="div-publicidade-superbanner-rodape" style="display: none;"> 
+       <p>publicidade</p> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer tema_icarros"> 
+    <div class="clearfix social-apps box_sms_apps"> 
+     <div class="rodape_container"> 
+      <ul class="listahorizontal card_input"> 
+       <li class="info_download" style="margin: 0"> 
+        <div class="input_sms_text"> 
+         <p class="titulo_snd_sms"><strong>Baixe nosso aplicativo</strong></p> 
+         <br> Informe o número do seu celular e receba o link por SMS 
+        </div> </li> 
+       <li id="sender" class="input_sms_phone_box"> <input type="text" class="icr-input icr-phone-mask input_sms_phone" id="phonesmsapp" name="phonesms" onkeydown="bloqueiaEnter(event);" placeholder="(__) _____-____"> 
+        <div id="awarrmsg"> 
+         <p class="input_msg_required">Por favor, digite o número do celular!</p> 
+        </div> </li> 
+       <li id="bntsender" class="lnk_sender"> <a id="snd_sms" href="javascript:sendSMS('');" class="icr-btn icr-btn-redondo icr-btn-m icr-btn-laranja bnt_sms_sender">enviar</a> </li> 
+       <li id="sendermsg"> 
+        <div class="msg_success"> 
+         <p class="msg_text"><strong>SMS enviado com sucesso!</strong></p> 
+         <p class="icon_success"><span class="icones icone-opc-disponivel icone_disponivel"></span></p> 
+         <p class="lnk_resender"> <a href="javascript:reSendSMS('');" class="lnk_reenviar">enviar novamente</a> </p> 
+        </div> </li> 
+       <li class="sms_ios"> <a class="apps" href="http://itunes.apple.com/br/app/icarros/id453523774?mt=8" title="Baixe o aplicativo iCarros para o iPhone" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'IOS']);"><img class="imglazy" data-src="http://img2.icarros.com/principal/imagens/mobile/botao_appstore.png"></a> </li> 
+       <li class="sms_android"> <a class="apps" href="https://play.google.com/store/apps/details?id=br.com.icarros.androidapp&amp;referrer=utm_source%3DSite%26utm_medium%3DRodapeDesktop" title="Baixe o aplicativo iCarros para Android" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Android']);"><img class="imglazy" data-src="http://img1.icarros.com/principal/imagens/mobile/botao_googleplay.png"></a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+    <div id="rodapecontainer" class="rodape_container"> 
+     <div class="clearfix menu_footer"> 
+      <ul class="clearfix listavertical"> 
+       <li class="primeiro"> <h6>Comprar:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"><a href="/comprar/usados" title="Carros usados e seminovos">Carros usados e seminovos</a></li> 
+         <li><a href="/consultor-compra/recomendamos.jsf" title="Consultor de compra">Consultor de compra</a></li> 
+         <li class=""><a href="/myicarros/anunciossalvos.jsf" title="Meus anúncios gravados">Meus anúncios gravados</a></li> 
+         <li class="ultimo"><a href="/opiniao-carros/indexfaces.jsf" title="Opinião do dono">Opinião do dono</a></li> 
+        </ul> </li> 
+       <li> <h6>Vender:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"><a href="/vender/indexfaces.jsf" title="Anuncie seu&nbsp;carro">Anuncie seu&nbsp;carro</a></li> 
+         <li><a href="/vender/indexfaces.jsf#planosPrecos" title="Planos e preços">Planos e preços</a></li> 
+         <li><a href="/myicarros/indexfaces.jsf" title="Gerenciar anúncio">Gerenciar anúncio</a></li> 
+         <li class="ultimo"><a href="/tabela-fipe/index.jsp" title="Tabela FIPE">Tabela FIPE</a></li> 
+        </ul> </li> 
+       <li> <h6>Catálogo 0km:</h6> 
+        <ul class="listahorizontal"> 
+         <li><a href="/catalogo/index.jsp" title="Catálogo 0km">Catálogo 0km</a></li> 
+         <li class="ultimo"><a href="/catalogo/compare.jsp" title="Compare lado a lado">Compare lado a lado</a></li> 
+        </ul> </li> 
+       <li> <h6>Financeiro:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"><a href="/financiamento/indexfaces.jsf" title="Simular financiamento">Simular financiamento</a></li> 
+         <li class="ultimo"><a href="https://institucional.portoseguro.com.br/conteudo/seguros/seguro-de-veiculos/seguro-de-automovel/cotacao-portoseguro/index.html?utm_campaign=MID_lds_autoporto&amp;utm_source=mc_icarros&amp;utm_medium=cpc&amp;utm_content=link_cotacao&amp;ref=icarros_40086&amp;abrangencia=geral" title="Seguros" onclick="_gaq.push(['_trackEvent', 'Financiamento', 'Rodapé', 'porto_seguro']);" target="_blank" rel="nofollow">Seguros</a></li> 
+        </ul> </li> 
+       <li> <h6>Notícias:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"> <a href="/editorias/geral/32.html" title="Geral">Geral</a> </li> 
+         <li class=""> <a href="/editorias/lancamentos/27.html" title="Lançamentos">Lançamentos</a> </li> 
+         <li class=""> <a href="/editorias/manutencao-e-servicos/50.html" title="Manutenção e Serviços">Manutenção e Serviços</a> </li> 
+         <li class=""> <a href="/editorias/saloes/31.html" title="Salões">Salões</a> </li> 
+         <li class=""> <a href="/editorias/testes-e-comparativos/28.html" title="Testes e Comparativos">Testes e Comparativos</a> </li> 
+         <li class=""> <a href="/editorias/top-10/58.html" title="Top 10">Top 10</a> </li> 
+         <li class=""> <a href="/editorias/tudo-sobre/59.html" title="Tudo Sobre">Tudo Sobre</a> </li> 
+         <li class="ultimo"><a href="/noticias/videos.jsp" title="Vídeos">Vídeos</a></li> 
+        </ul> </li> 
+       <li> <h6>Revendas:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"><a href="/portalrevenda/indexfaces.jsf" title="Portal Revendas">Portal Revendas</a></li> 
+         <li><a href="/adminpj/aplicativosmobile.jsf" title="Aplicativos Revendas">Aplicativos Revendas</a></li> 
+         <li><a href="/portalrevenda/produtos.jsf" title="Produtos">Produtos</a></li> 
+         <li class="ultimo"><a href="/portalrevenda/adesao.jsf" title="Adesão online">Adesão online</a></li> 
+        </ul> </li> 
+       <li class="ultimo"> <h6>Institucional:</h6> 
+        <ul class="listahorizontal"> 
+         <li class="primeiro"><a href="https://icarros.zendesk.com/hc/pt-br" target="_blank" title="Fale conosco">Fale conosco</a></li> 
+         <li><a href="/principal/politica.jsp" title="Política de privacidade">Política de privacidade</a></li> 
+         <li><a href="javascript:termo();" title="Termos de uso">Termos de uso</a></li> 
+         <li><a href="javascript:publicidade();" title="Publicidade">Publicidade</a></li> 
+         <li class="ultimo"><a href="/principal/expediente.jsp" title="Expediente">Expediente</a></li> 
+        </ul> </li> 
+      </ul> 
+     </div> 
+     <div class="clearfix termos redes_sociais"> 
+      <a href="http://www.facebook.com/pages/ICarros/115380525178756" title="Facebook" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Facebook']);"><span class="icones icone-facebook"></span></a> 
+      <a href="http://www.youtube.com/user/iCarrosVideos" title="Youtube" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Youtube']);"><span class="icones icone-youtube"></span></a> 
+      <a href="http://plus.google.com/118319067601955033795" title="Google+" rel="nofollow" target="_blank" onclick="_gaq.push(['_trackEvent', 'Rodapé', 'Social/Apps', 'Google Plus']);"><span class="icones icone-google"></span></a> 
+     </div> 
+     <div class="clearfix termos"> 
+      <p>A iCarros Ltda. e o presente site não atuam como intermediadores na negociação entre os usuários, seja com relação à compra, troca ou qualquer outro tipo de operação. O usuário reconhece como sendo de sua exclusiva responsabilidade os riscos assumidos nas negociações que vier a efetuar com outros usuários do site. A responsabilidade pela veracidade/autenticidade das informações veiculadas nos anúncios deste site, bem como pelas vendas e/ou entregas de produtos, é exclusiva do anunciante, não podendo o usuário responsabilizar o site ou a iCarros Ltda. por danos diretos ou indiretos causados a si ou a terceiros. <strong>Estoque e preços estão sujeitos a conferência e confirmação pelo anunciante.</strong></p> 
+      <p>As opiniões dos usuários não refletem necessariamente a opinião da iCarros. Este espaço é destinado a comentários ou críticas construtivas. Os autores de comentários ofensivos são civil e criminalmente responsáveis por conteúdos que violem a lei ou produzam lesão a direitos de terceiros e/ou da iCarros Ltda. É facultado à iCarros excluir opiniões que julgar contrárias aos princípios éticos deste site. As informações encontradas na aba "Catálogo 0km", como dados do veículo, acessórios e preço, são meramente sugestivas, com base em levantamentos periódicos de pesquisa e, devido à movimentação diária, podem não refletir a situação atual. O preço efetivamente praticado e os demais dados do veículo deverão ser confirmados na concessionária.</p> 
+      <p>Sobre as informações de modelos: Direitos Autorais JATO Dynamics Limited, 1990 - 2008. Todos os direitos reservados. JATO assegura em providenciar uma informação precisa e abrangente. Não obstante, a JATO não garante a totalidade dos dados. Solicitamos atenção no uso das informações fornecidas. O uso deste website implica na aceitação pelo usuário/empresa dos Termos e Condições da JATO Dynamics Limited.</p> 
+     </div> 
+     <div class="clearfix termos"> 
+      <p>iCarros Ltda: Rua Tabapuã, 422 1º Andar - Itaim Bibi - São Paulo/SP - CEP 04533-001 - CNPJ: 03.991.201/0001-96</p> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="sectionbackground footer-empresa sbDestaque"> 
+    <div class="sectionlimit "> 
+     <div class="esquerda"> 
+      <span class="icones icone-logo-icarros"></span> 
+     </div> 
+     <div class="direita"> 
+      <span class="empresa-itau"></span> 
+     </div> 
+    </div> 
+   </div> 
+   <script type="text/javascript">
+    var __ictracking;
+    try {
+        __ictracking = new ICTracking();
+        __ictracking.doCreate();
+    } catch(e) {}
+</script> 
+  </div> 
+  <script type="text/javascript">_satellite.pageBottom();</script> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"cbaf611537","agent":"","beacon":"bam.nr-data.net","applicationTime":4,"applicationID":"16062610","transactionName":"ZwNRYxZWD0ZZBRVZCl5JZkUNGA9aTA8CWQRDSVpZAFIZG1IVEQ==","queueTime":0}</script> 
+ </body>
+</html>

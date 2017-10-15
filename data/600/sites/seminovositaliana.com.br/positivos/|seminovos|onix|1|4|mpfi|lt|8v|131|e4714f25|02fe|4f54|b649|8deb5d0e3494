@@ -1,0 +1,636 @@
+<!doctype html>
+<html>
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"de6ebc3165","applicationID":"28865107","transactionName":"IFdaTUJaCVpRQRwDQhdXG0xDUAFpWVxXB1sQF0dRX0I=","queueTime":7,"applicationTime":83,"agent":""}</script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQIGV1JSDBACXFlUAgAHUQ=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <link rel="dns-prefetch" href="//seminovositaliana.com.br"> 
+  <link href="//d1k8nhm9a4p2l6.cloudfront.net" rel="preconnect" crossorigin> 
+  <title>Italiana Seminovos</title> 
+  <meta name="charset" content="utf-8"> 
+  <meta name="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <meta name="viewport" content="width=device-width"> 
+  <meta property="og:url" content="http://seminovositaliana.com.br/"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:title" content="Italiana Seminovos"> 
+  <meta property="og:description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <meta property="og:image" content="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/logo_regular/14/avatar_fiat2.png"> 
+  <meta name="description" content="Os Melhores Seminovos de Recife-PE, Caruaru-PE e Recife-PE com o padrão de qualidade Italiana. Clique Aqui e Confira!"> 
+  <link rel="shortcut icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="icon" type="image/png" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <link rel="apple-touch-icon" href="//d1k8nhm9a4p2l6.cloudfront.net/uploads/brand/favicon/14/favicon_favicon.png"> 
+  <meta name="csrf-param" content="authenticity_token"> 
+  <meta name="csrf-token" content="zueH98P4GMe8lmXgYnEwBEoYfnc7fBa1uoWw5BfnI7sYaB4fU+az+gZ+lkU/M9xD2ypSTJa1X1OZUlayL0/+yw=="> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/bootstrap.min-3c489ea49217d1731e0dc838b9453f2319c8b620361eccffa17df67f02ca63f5.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_landing_page/jquery-ui-a18bc04b3414017881f4e93a40353fff32fec1a923a8f5997d30c625477c74a7.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/5-6b4dc707e531ef30884ad0a05bfa2edbf4997ece1d1a59fe928a416246f8f2dc.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.transitions-e2e6aa4b314724d4d8607e81b52f2f0388bab071b20a18d3ae7ae224e701553b.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.carousel-1a47c54f3ce5470b0c78ce9fd08e2d66d99771e20e9c4417d17a48617fc0f8b5.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/owl-carousel/owl.theme-376246452f3cb59fbe1a7005abcfaca37db88861498243fe9cf8af6db9846771.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/jquery.fancybox-fc4f6fd32a7a3adf567072fda6112469f74359da428ae88cf08b3b5263ebb0a3.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-buttons-ea512150cfccd70afefd5faa6d8b435881d9c010d89ec65f18b915eb20d93a49.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/fancybox/source/helpers/jquery.fancybox-thumbs-1351abea269ee44a6938c3cc7b40507cc2dee4e82a793f12d06df854245200b4.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/malihu-custom-scrollbar/jquery.mCustomScrollbar-fa9d59de2182b9e695ac0b81b88060a37efea22bc99ce2316b723e22efb1d64d.css"> 
+  <link rel="stylesheet" media="screen" href="//d1k8nhm9a4p2l6.cloudfront.net/assets/sumoselect/sumoselect-d3eccad262bfe1d6f72619d06c7e72a2b1464ee03d8c642d8173916c27f58817.css"> 
+  <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/auto/overall/_initializers-a9ca94443d4f94add715a969ca2405c6f80fb8130df47a0cc7b8f5bf2e0689ef.js"></script> 
+  <link rel="shortcut icon" type="image/png" href="http://legado.autoforce.com.br/mods/italiana/img/italiana-favicon.png"> 
+ </head> 
+ <body> 
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js" charset="utf-8" defer async></script> 
+  <script>
+        function callConversion() {
+        }
+    </script> 
+  <header> 
+   <div id="nav_bar" class="container-fluid"> 
+    <div class="row"> 
+     <div class="col-xs-8 col-sm-3"> 
+      <h2 class="brand-client"> <a style="background-image: url( //d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png);" href="/">Italiana</a> </h2> 
+     </div> 
+     <div class="col-xs-4 col-sm-9"> 
+      <div id="phones-main" class="btn-dropdown-list phone-number-list"> 
+       <button type="button" class="btn btn-default menu-accordion-toggle"><span class="fa fa-phone icon"></span></button> 
+       <ul class="accordion"> 
+        <li> <a href="tel: 081 2121-1100"> Recife Imbiribeira <b>(81) 2121-1100</b> </a> </li> 
+        <li> <a href="tel: 081 2103-4000"> Caruaru <b>(81) 2103-4000</b> </a> </li> 
+        <li> <a href="tel: 081 3454-1080"> Recife Caxangá <b>(81) 3454-1080</b> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <section id="showcase"> 
+   <div class="container-fluid"> 
+    <header> 
+     <div class="pageview-products"> 
+      <div class="return-links pageview-crumb"> 
+       <div class="row"> 
+        <div class="col-xs-6 col-sm-6"> 
+         <ul> 
+          <li> <a href="/">Início</a> </li> 
+          <li> <a href="/seminovos">Seminovos</a> </li> 
+          <li> ONIX 1.4 MPFI LT 8V </li> 
+         </ul> 
+        </div> 
+        <div class="col-xs-6 col-sm-6 wrapper-right"> 
+         <ul> 
+          <li> <a class="crump-come-back" href="/seminovos/resultado"> <i class="fa fa-angle-double-left" aria-hidden="true"></i> Voltar </a> </li> 
+          <li> <a href="/seminovos/resultado"> <i class="fa fa-search" aria-hidden="true"></i> Nova Busca </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </header> 
+   </div> 
+  </section> 
+  <section id="pageview-product"> 
+   <div class="container-fluid"> 
+    <div class="row"> 
+     <div class="content-central"> 
+      <div class="col-xs-12 col-md-8 product-view"> 
+       <h3>ONIX 1.4 MPFI LT 8V - 2014</h3> 
+       <div class="container-box"> 
+        <div class="img"> 
+         <a href="/assets/admin/model_main_default.jpg" class="gallery-thumb" rel="gallery-thumb" title="Chevrolet ONIX"> <img src="/assets/admin/model_main_default.jpg" alt="Chevrolet ONIX 1.4 MPFI LT 8V"> </a> 
+        </div> 
+       </div> 
+       <div class="social-sharer"> 
+        <p>Gostou? Então compartilhe.</p> 
+        <div class="sharethis-inline-share-buttons"></div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-md-4 product-box-action"> 
+       <div class="container-box"> 
+        <div class="product-price"> 
+         <h6>por apenas</h6> 
+         <h5><b>R$ 34.480,00</b></h5> 
+        </div> 
+       </div> 
+       <div class="form-module"> 
+        <a href="#form-bait-6" class="btn-toggle active"><i class="entypo-paper-plane" aria-hidden="true"></i> ENVIAR PROPOSTA</a> 
+        <a href="#form-bait-1" class="btn-toggle "><i class="af-calculator" aria-hidden="true"></i> SOLICITAR COTAÇÃO</a> 
+        <div class="col-xs-12"> 
+         <div class="form-toggle active" id="form-bait-6"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> ENVIAR PROPOSTA </h4> 
+            <p>Vamos negociar? Envie já sua proposta e garanta as melhores condições.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="xj9LIpZw6ZKL8bAJwWldSpdAvKlDEZgfPpBnZAKml/LZwioTXEZSB3ym5rdyfKb0zqQFJFxm4I+l8UEoK5Lxaw=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-6-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-6-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-6-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label class="form-label js-hide-label" for="modal-test-drive-message">Mensagem</label> 
+               <textarea class="form-control" name="message" id="modal-test-drive-message" placeholder="Mensagem" required aria-required="true"></textarea> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-6" value="true" checked> 
+               <label for="mailing-6">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">ENVIAR PROPOSTA</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="ONIX 1.4 MPFI LT 8V"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="6"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Chevrolet"> 
+              <input type="hidden" name="plate" value="OYZ 4193"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="entypo-paper-plane"></i> Proposta enviada com sucesso! </h4> 
+            <p>Vamos analisar a sua proposta e entraremos em contato o mais rápido possível para falarmos sobre uma negociação.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="form-toggle " id="form-bait-1"> 
+          <div class="container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> SOLICITAR COTAÇÃO </h4> 
+            <p>Cliente online tem condições especiais. Escolha uma parcela que cabe no seu bolso.</p> 
+           </header> 
+           <div class="content-form"> 
+            <div class="row"> 
+             <form class="active" action="/auto/send_conversion/new" accept-charset="UTF-8" data-remote="true" method="post">
+              <input type="hidden" name="authenticity_token" value="fc+iTqgHi0iE5EUKZnGb4V50rCJU2Faaho/T6cVn3zxiMsN/YjEw3XOzE7TVZGBfB5AVr0uvLgod7vWl7FO5pQ=="> 
+              <div class="form-group"> 
+               <input type="text" class="input-name" name="name" id="form-1-name" placeholder="Nome"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="email" class="input-emal" name="email" id="form-1-email" placeholder="Email"> 
+              </div> 
+              <div class="form-group"> 
+               <input type="tel" class="input-phone" name="phone" placeholder="Telefone/Whatsapp" id="form-1-phone"> 
+              </div> 
+              <div class="form-group"> 
+               <label>Número de parcelas</label> 
+               <div class="input-checkbox-mini check-list"> 
+                <input type="radio" name="months" id="months-12" value="12" checked> 
+                <label for="months-12">12</label> 
+                <input type="radio" name="months" id="months-18" value="18"> 
+                <label for="months-18">18</label> 
+                <input type="radio" name="months" id="months-24" value="24"> 
+                <label for="months-24">24</label> 
+                <input type="radio" name="months" id="months-36" value="36"> 
+                <label for="months-36">36</label> 
+                <input type="radio" name="months" id="months-48" value="48"> 
+                <label for="months-48">48</label> 
+               </div> 
+              </div> 
+              <div class="form-group"> 
+               <label for="bait-input-value">Valor de entrada</label> 
+               <input type="tel" class="form-control input-money" name="input_value" placeholder="R$ 0,00" id="bait-input-value" autocomplete="off" required> 
+              </div> 
+              <div class="form-group"> 
+               <input type="checkbox" name="mailing" id="mailing-1" value="true" checked> 
+               <label for="mailing-1">Desejo receber novidades por e-mail.</label> 
+              </div> 
+              <div class="form-group"> 
+               <button type="submit" class="btn btn-default">SOLICITAR COTAÇÃO</button> 
+              </div> 
+              <input type="hidden" name="utmz" value=""> 
+              <input type="hidden" name="product" value="ONIX 1.4 MPFI LT 8V"> 
+              <input type="hidden" name="origin" value="1b796f89-572b-4819-aae4-18b617543db0"> 
+              <input type="hidden" name="channel" value="Site"> 
+              <input type="hidden" name="bait" value="1"> 
+              <input type="hidden" name="unit" value="recife-imbiribeira"> 
+              <input type="hidden" name="category" value="UsedModel"> 
+              <input type="hidden" name="brand" value="Chevrolet"> 
+              <input type="hidden" name="plate" value="OYZ 4193"> 
+             </form> 
+            </div> 
+           </div> 
+           <footer> 
+            <div class="row"> 
+             <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a> 
+            </div> 
+           </footer> 
+          </div> 
+          <div class="result-container-form"> 
+           <header> 
+            <h4> <i class="af-calculator"></i> Solicitação Realizada com Sucesso! </h4> 
+            <p>Vamos selecionar a melhor cotação para a sua necessidade. Logo mais um de nossos consultores entrará em contato.</p> 
+           </header> 
+           <div class="button-wrapper close-form"> 
+            <button> 
+             <div class="fill"></div> 
+             <div class="fa fa-check"></div> </button> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="container-box"> 
+        <div class="product-store"> 
+         <h5>Imbiribeira</h5> 
+         <h6>Av. Mal. Mascarenhas de Morais, 2156 - Imbiribeira - Recife-PE</h6> 
+         <a href="tel:081 2121-1100">(81) 2121-1100</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 product-specification"> 
+       <h6>Informações</h6> 
+       <div class="container-box"> 
+        <div class="info-list"> 
+         <ul> 
+          <li>Marca: <b>Chevrolet</b></li> 
+          <li>Modelo: <b>ONIX</b></li> 
+          <li>Versão: <b>1.4 MPFI LT 8V</b></li> 
+          <li>Ano: <b>2014/2014</b></li> 
+          <li>Quilometragem: <b>62.954 Km</b></li> 
+          <li>Câmbio: <b>Manual</b></li> 
+          <li>Combustível: <b>Flex</b></li> 
+          <li>Portas: <b>4</b></li> 
+          <li>Cor: <b>Preto</b></li> 
+          <li>Placa: <b>OYZ 4193</b></li> 
+         </ul> 
+        </div> 
+        <div class="tags"> 
+         <ul> 
+          <li>Vidros elétricos</li> 
+          <li>travas elétricas</li> 
+          <li>freios ABS</li> 
+          <li>direção hidráulica</li> 
+          <li>ar condicionado</li> 
+          <li>Air bag</li> 
+         </ul> 
+        </div> 
+        <div class="note"> 
+         <h6><b>Mais sobre o veículo:</b></h6> 
+         <p> PLACA: OYZ-4193 </p> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12"> 
+       <div class="product-rule"> 
+        <p>*Imagens meramente ilustrativas. Alguns itens apresentados poderão não estar disponíveis nas versões. Preços sugeridos e válidos até 30/09/2017. Os preços poderão ser modificados sem aviso prévio. Consulte e confirme todas as informações com um de nossos vendedores.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="content-other-products"> 
+     <div class="row"> 
+      <div class="col-xs-12 content-other-similar-products"> 
+       <h6>VOCÊ TAMBÉM PODE GOSTAR DESSAS OFERTAS</h6> 
+       <div class="item-list"> 
+        <div class="product-carousel owl-carousel"> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2014/2015</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/uno-1-0-evo-attractive-8v-131"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/20422/model_middle_comprar-uno-1-0-evo-attractive-8v-131_55c12acf22.jpg" alt="Fiat UNO 1.0 EVO Attractive 8V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>UNO 1.0 EVO Attractive 8V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 29.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/uno-1-0-evo-attractive-8v-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2014/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/idea-1-8-mpi-adventure-16v-2014-131"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/20140/model_middle_comprar-idea-1-8-mpi-adventure-16v-2014-131_73f0a1e532.jpg" alt="Fiat IDEA 1.8 MPI Adventure 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>IDEA 1.8 MPI Adventure 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 39.480,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/idea-1-8-mpi-adventure-16v-2014-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2014/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/palio-1-4-mpi-attractive-8v-131-bc896f44-04e6-4086-87e5-5d16dfbd15cb"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/19568/model_middle_comprar-palio-1-4-mpi-attractive-8v-131-bc896f44-04e6-4086-87e5-5d16dfbd15cb_9051746116.jpg" alt="Fiat PALIO 1.4 MPI Attractive 8V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>PALIO 1.4 MPI Attractive 8V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 31.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/palio-1-4-mpi-attractive-8v-131-bc896f44-04e6-4086-87e5-5d16dfbd15cb">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/palio-1-6-mpi-essence-16v-2014-131"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/20562/model_middle_comprar-palio-1-6-mpi-essence-16v-2014-131_daa0c79569.jpg" alt="Fiat PALIO 1.6 MPI Essence 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>PALIO 1.6 MPI Essence 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 33.480,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/palio-1-6-mpi-essence-16v-2014-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/palio-1-4-mpi-attractive-8v-2014-131"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/18584/model_middle_comprar-palio-1-4-mpi-attractive-8v-2014-131_d7e4cb6dc1.jpg" alt="Fiat PALIO 1.4 MPI Attractive 8V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>PALIO 1.4 MPI Attractive 8V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 31.980,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/palio-1-4-mpi-attractive-8v-2014-131">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+         <div class="item"> 
+          <div class="container"> 
+           <header> 
+            <div class="tags"> 
+             <ul> 
+              <li>2013/2014</li> 
+             </ul> 
+            </div> 
+            <div class="img"> 
+             <a href="/seminovos/punto-1-6-essence-16v-131-941ff330-53f7-4994-90f1-6c42a4aff621"> <img src="//d1k8nhm9a4p2l6.cloudfront.net/uploads/used_model/profile_image/20506/model_middle_comprar-punto-1-6-essence-16v-131-941ff330-53f7-4994-90f1-6c42a4aff621_aa137fa0bb.jpg" alt="Fiat PUNTO 1.6 Essence 16V"> </a> 
+            </div> 
+           </header> 
+           <footer> 
+            <h3>PUNTO 1.6 Essence 16V</h3> 
+            <h6>Fiat</h6> 
+            <div class="content"> 
+             <h4><b>R$ 35.480,00</b></h4> 
+            </div> 
+            <div class="action"> 
+             <a class="btn btn-default" href="/seminovos/punto-1-6-essence-16v-131-941ff330-53f7-4994-90f1-6c42a4aff621">Quero essa oferta</a> 
+            </div> 
+           </footer> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </section> 
+  <footer> 
+   <div class="container-fluid"> 
+    <div id="maps"> 
+     <div class="item active "> 
+      <iframe data-map="14" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7899.967601456451!2d-34.911515!3d-8.103131!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeb3a32468fba12f7!2sFiat+Italiana!5e0!3m2!1spt-BR!2sbr!4v1460494478309&quot;" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="17" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7896.683618748614!2d-35.976746!3d-8.268736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a98bdcc65c3dbd%3A0x2b71acdecd45bab3!2sAv.+Agamenon+Magalh%C3%A3es%2C+1395+-+Maur%C3%ADcio+de+Nassau%2C+Caruaru+-+PE%2C+Brasil!5e0!3m2!1spt-BR!2sbr!4v1460994447256" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+     <div class="item "> 
+      <iframe data-map="16" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.6292010891857!2d-34.94817528458443!3d-8.037110582480494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab197c1b0fe04f%3A0xc91e16b65efa65a5!2sJeep+-+Fiat+ITALIAN!5e0!3m2!1sen!2sbr!4v1493926934659" frameborder="0" style="border:0" allowfullscreen></iframe> 
+     </div> 
+    </div> 
+    <div id="adresses"> 
+     <div class="row"> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="14" class="active "> <h2>Recife Imbiribeira</h2> <p> Av. Mal. Mascarenhas de Morais, 2156, <br> Imbiribeira – Recife/PE – CEP 51180-001<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="17" class=""> <h2>Caruaru</h2> <p> Av. Agamenon Magalhães, 1395, <br> Maurício de Nassau – Caruaru/PE – CEP 55014-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+      <div class="item col-xs-12 col-sm-4"> 
+       <address data-map="16" class=""> <h2>Recife Caxangá</h2> <p> Av. Caxanga, 4617, <br> Caxangá – Recife/PE – CEP 50740-000<br> </p> <span class="pin top"></span> <span class="pin bottom"></span> </address> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="footer"> 
+     <div class="row"> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> IMBIRIBEIRA: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 17h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CARUARU: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 13h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/FiatItaliana" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="http://instagram.com/fiatitaliana" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+           <li><a href="https://www.youtube.com/user/fiatitaliana" class="social-midia-youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16"> 
+         <h5>Horários de Funcionamento</h5> 
+         <div class="schedules"> 
+          <ul> 
+           <li> <span>ITALIANA</span> CAXANGÁ: </li> 
+           <li> <span>Showroom:</span> Segunda a Sexta das 08h às 18h. Sábado das 09h às 14h </li> 
+           <li> <span>Oficina:</span> Segunda a Sexta das 08h às 18h. Sábado das 08h às 12h </li> 
+          </ul> 
+         </div> 
+         <h5>Siga-nos</h5> 
+         <div class="social-midia"> 
+          <ul> 
+           <li><a href="https://www.facebook.com/jeepitaliana/" class="social-midia-facebook" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+           <li><a href="https://www.instagram.com/jeepitaliana/" class="social-midia-instagram" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="col-xs-12 col-sm-6"> 
+       <div class="item active "> 
+        <div data-map="14" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-recife-imbiribeira"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2121-1100">(81) 2121-1100</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="17" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-mauricio-de-nassau"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 2103-4000">(81) 2103-4000</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <div class="item "> 
+        <div data-map="16" class="phones"> 
+         <h5>Ligue Agora</h5> 
+         <ul data-footer-info="#map-bairro-caxanga"> 
+          <li> <span>Central de Atendimento</span> <a href="tel: 081 3454-1080">(81) 3454-1080</a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container-fluid"> 
+    <div class="copyright-content"> 
+     <h2 class="brand-client"> <a href="/" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/uploads/site/logo/131/logo_logo_Fiat_italiana_4a46511220.png)">Italiana</a> </h2> 
+    </div> 
+    <div id="copyright"> 
+     <div class="row"> 
+      <p class="copyright">© Copyright 2017 - Italiana - Todos os direitos reservados. <a href="#privacy-policy" class="call-pop-up">Politica de privacidade</a>.</p> 
+      <h2 class="developer-brand"> <a href="http://www.autoforce.com.br" target="_black" style="background-image: url(//d1k8nhm9a4p2l6.cloudfront.net/assets/logo_dark.png); background-size: contain;">AutoForce</a> </h2> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <div class="overlay"> 
+   <div class="loader"> 
+    <div class="loading-slide"> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+     <div class="slide"></div> 
+    </div> 
+   </div> 
+   <div class="dark-side"></div> 
+   <div id="privacy-policy" class="pop-up-info pop-up-big"> 
+    <div class="btn-close">
+     <i class="fa fa-times" aria-hidden="true"></i>
+    </div> 
+    <div class="pop-up-wrapper-content"> 
+     <div class="pop-up-wrapper-item"> 
+      <h4>Política de Privacidade</h4> 
+      <p>Nós estamos comprometidos em resguardar sua privacidade. O intuito deste documento é esclarecer quais informações são coletadas dos usuários de nosso site – e respectivos serviços – e de que forma esses dados são manipulados e utilizados.</p> 
+      <p>Alertamos que se você não concorda com o conteúdo desta política, não é recomendável baixar nossos materiais nem utilizar quaisquer de nossos serviços.</p> 
+      <h4>Sobre a coleta de dados</h4> 
+      <p>Em nossos sites, as informações são coletadas das seguintes formas:</p> 
+      <p>Informações fornecidas por você – Coletamos informações de identificação pessoal – como nome, telefone, email, empresa em que trabalha e cargo – via preenchimento dos formulários para download de nossos conteúdos gratuitos. Eventualmente, a solicitação algumas informações podem ser feitas por meio de contato direto da Imbiribeira com os usuários via email ou telefone.</p> 
+      <p>Informações de navegação no site – Quando você visita nosso site, é inserido um ‘cookie’ no seu navegador por meio do software Google Analytics, para identificar quantas vezes você retorna ao nosso endereço. São coletadas, anonimamente, informações, como endereço IP, localização geográfica, fonte de referência, tipo de navegador, duração da visita e páginas visitadas.</p> 
+      <p>Histórico de contato – Aqui na Imbiribeira armazenamos informações a respeito de todos os contatos já realizados com nossos usuários, como conteúdos baixados a partir de nossas páginas e interações via email.</p> 
+      <h4>Sobre o uso de suas Informações Pessoais</h4> 
+      <p>O presente termo permite que a Imbiribeira use suas informações pessoais para diferentes finalidades.</p> 
+      <p>O email é utilizado para a operação de envio do material ou informação por você requisitada no preenchimento do formulário. Também pode ser usado para envio de Newsletters, sempre relacionadas a temas do Direito.</p> 
+      <p>Por fim, o email será utilizado ainda para comunicar o lançamento de novos materiais gratuitos ou de novos serviços da Imbiribeira e parceiros. No entanto, o usuário pode cancelar a assinatura a qualquer momento.</p> 
+      <p>Os dados de download poderão ser divulgados como pesquisas e estatísticas, não sendo reveladas abertamente nenhuma informação pessoal, a menos que autorizada explicitamente.</p> 
+      <p>Funcionários da Imbiribeira poderão eventualmente entrar em contato via email ou telefone para fazer pesquisas ou apresentar produtos e serviços.</p> 
+      <h4>Sobre o acesso às suas informações pessoais</h4> 
+      <p>Poderão ver suas informações pessoais apenas funcionários da Imbiribeira. Eventualmente, caso a inserção de suas informações se dê em ações criadas em parcerias, os parceiros explicitamente identificados também terão acesso à informação. Nenhuma informação pessoal poderá ser divulgada </p> 
+      <p>A Imbiribeira também se compromete a não vender, alugar ou repassar suas informações para terceiros. A única exceção está em casos em que essas informações forem exigidas judicialmente.</p> 
+      <p>Além disso, embora trabalhemos com boas práticas de proteção e segurança, nenhum serviço web possui 100% de garantia contra invasões e não podemos nos responsabilizar caso isso ocorra.</p> 
+      <h4>Sobre o compartilhamento de conteúdo nas redes sociais</h4> 
+      <p>Ao clicar nos botões de compartilhamento de conteúdo nas mídias sociais disponíveis em nossas páginas, o usuário estará publicando o conteúdo por meio de seu perfil na rede selecionada. A Imbiribeira não têm acesso ao login e senha dos usuários nessas redes, nem publicará conteúdo em nome do usuário sem que ele realize esta ação.</p> 
+      <h4>Mudanças na Política de Privacidade</h4> 
+      <p>Essa Política de Privacidade pode passar por atualizações. Desta forma, recomendamos visitar periodicamente esta página para que você tenha conhecimento sobre as modificações.</p> 
+      <p>Antes de usar informações para outros fins que não os definidos nesta Política de Privacidade, solicitaremos sua autorização.</p> 
+      <h4>Contato com a Imbiribeira para esclarecimento de dúvidas</h4> 
+      <p>Qualquer dúvida em relação à nossa política de privacidade pode ser esclarecida entrando em contato conosco através do email: <a href="mailto:contato@italiana.com.br">contato@italiana.com.br</a></p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="//d1k8nhm9a4p2l6.cloudfront.net/assets/super_portal-eea3ae4b165aad8371f69fca33ad819d861e09be3b7f0968b1428c478bbb54ef.js"></script> 
+  <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=597f8dc55eb3920011c7cde6&amp;product=inline-share-buttons"></script>   
+ </body>
+</html>

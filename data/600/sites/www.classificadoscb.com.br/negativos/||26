@@ -1,0 +1,986 @@
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <title>Classificados do Correio Braziliense</title> 
+  <link rel="shortcut icon" type="image/x-icon" href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/favicon.ico"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/144x144.png" rel="apple-touch-icon" sizes="144x144"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/114x114.png" rel="apple-touch-icon" sizes="114x114"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/72x72.png" rel="apple-touch-icon" sizes="72x72"> 
+  <link href="http://imgs.classificadoscb.com.br/cb/assets/imgs/icon/57x57.png" rel="apple-touch-icon" sizes="57x57"> 
+  <link rel="stylesheet" href="http://www.classificadoscb.com.br/novo/static/cb/assets/css/compiled/app.css"> 
+  <script>
+        // Base script pj
+        var dimension2Value = '';
+        var locals = {
+            defineSlot: "/6887/portal-correioweb/Classificados-do-cb/capa",
+            idConcatSlot:"div-gpt-ad-1425063238301-",
+            estado : "",
+            site: "classificadoscb",
+            base_dir_dfp: "/6887/portal-correioweb/Classificados-do-cb/"
+        };
+    </script> 
+  <script>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +'//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	</script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/analytics.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/publicidade.js"></script> 
+ </head> 
+ <body> 
+  <nav class="nav nav-left" tab-index="-1"> 
+   <button type="button" class="close__button js-nav-close">Fechar</button> 
+   <ul class="user-list js-div_usuario_logado support-nav" style="display:none;"> 
+    <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+     <div class="app-data-user-desc"> 
+      <span class="name js-nome_usuario_logado"></span> 
+      <span class="email js-email_usuario_logado"></span> 
+     </div> </li> 
+    <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+    <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+    <li> <a href="/loja?acao=minha" title="Minha loja" class="import js-import-anuncio"><span>Importar anúncio</span></a> </li> 
+    <li><a href="/loja" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+    <li> <a href="/login/logout" title="" class="exit"><span>Sair</span></a> </li> 
+   </ul> 
+   <ul class="user-list support-nav js-div_usuario_deslogado"> 
+    <li><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="signup" title="Cadastrar">Cadastrar</a></li> 
+    <li><a href="#login-now" data-toggle="modal" data-target="#login-now" class="login" title="Entrar">Entrar</a></li> 
+    <li><a href="/loja	" class="shop">Lojas</a></li> 
+    <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+   </ul> 
+   <ul class="main__nav"> 
+    <li><a href="/" class="home">Página inicial</a> </li> 
+    <li><a href="/quem-somos" class="quem-somos">Quem Somos</a> </li> 
+    <li><a href="/perguntas-mais-frequentes" class="questions">Dúvidas Frequentes</a> </li> 
+    <li><a href="/fale-conosco" class="contact">Fale conosco</a> </li> 
+    <li><a href="/termos-de-servicos" class="terms-services">Termos de Serviço</a> </li> 
+    <li><a href="/politica-de-privacidade" class="privacity">Política de Privacidade</a> </li> 
+   </ul> 
+  </nav> 
+  <div class="site-overlay" tab-index="-1"></div> 
+  <header class="app-header js-header"> 
+   <div class="container-fluid"> 
+    <div class="row app-header-row"> 
+     <div class="app-header-first-part"> 
+      <button class="btn__navigation js-menu-btn"> <span></span> <span></span> <span></span> </button> 
+      <a href="/" title="Classificados"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-white.png" alt="" class="app-header-brand-white" style="max-width:140px"> <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/logo/app-logo-color.png" alt="" class="app-header-brand-color" style="max-width:140px"> </a> 
+     </div> 
+     <nav class="app-header-last-part"> 
+      <ul class="list-inline pull-right app-menu"> 
+       <li class="hidden-xs"> 
+        <!--
+						<a href="" class="open-search" title="Abrir busca"><span>Abrir busca</span></a>
+						--> 
+        <form class="js-search-form" action=""> 
+         <input id="inpBusca" type="text" class="search-full-small js-inpBusca" placeholder="O que você está procurando?"> 
+         <span class="search-full-icon"></span> 
+         <button class="js-btnBusca" type="button" style="height:1px;width:1px;background:transparent;border:0;"></button> 
+        </form> </li> 
+       <li><a href="/anunciar" class="app-btn-no-fill"><span class="hidden-xs">QUERO </span> ANUNCIAR</a></li> 
+       <li class="hidden-xs"> <a href="#" class="help-you"><span>AJUDA</span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li><a href="/quem-somos" class="about" title=""><span>Sobre</span></a></li> 
+         <li><a href="/perguntas-mais-frequentes" class="freq-questions" title=""><span>Dúvidas Frequentes</span></a></li> 
+         <li><a href="/fale-conosco" class="contact-us" title=""><span>Fale conosco</span></a></li> 
+         <li><a href="/termos-de-servicos" class="service-term" title=""><span>Termos de serviço</span></a></li> 
+         <li><a href="/politica-de-privacidade" class="priv-politican" title=""><span>Política de Privacidade</span></a></li> 
+        </ul> </li> 
+       <li class="hidden-xs"> <a href="/planos" title="Seja premium" class="be-premium"><span>PREMIUM</span></a> </li> 
+       <li class="hidden-xs"><a href="/loja" class="shops"><span>LOJAS</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" class="register"><span>CADASTRE-SE</span></a></li> 
+       <li class="hidden-xs hidden-is-logged"><a href="#login-now" data-toggle="modal" data-target="#login-now" class="enter"><span>ENTRAR</span></a></li> 
+       <li class="show-is-logged support-nav hidden-xs"> <a href="javascript:void(0)"><span class="js-img_usuario_logado app-data-user-image"></span></a> 
+        <ul class="list-unstyled app-menu-sub"> 
+         <li class="app-data-user-wrapper-menu-header"> <span class="js-img_usuario_logado app-data-user-image big"></span> 
+          <div class="app-data-user-desc"> 
+           <span class="name js-nome_usuario_logado"></span> 
+           <span class="email js-email_usuario_logado"></span> 
+          </div> </li> 
+         <li> <a href="/meus-anuncios" title="Meus anúncios" class="sale"><span>Meus anúncios</span></a> </li> 
+         <li> <a href="/editar-perfil" title="Editar perfil" class="edit"><span>Editar perfil</span></a> </li> 
+         <li> <a href="/loja?acao=minha" title="Minha loja" class="shop"><span>Minha loja</span></a> </li> 
+         <li> <a href="/planos" title="Seja premium" class="premium"><span>Seja Premium</span></a> </li> 
+         <li> <a href="/login/logout" title="Sair" class="exit"><span>Sair</span></a> </li> 
+        </ul> </li> 
+      </ul> 
+     </nav> 
+    </div> 
+   </div> 
+  </header> 
+  <section class="search-full js-search-full"> 
+   <div class="search__bx store-header-bg" style="background-image:url('http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/png/bg-ccb-main.png')"> 
+    <div class="container"> 
+     <h1 class="title"> Explore produtos e serviços. <span>Compre e venda no maior Classificados de Brasília.</span> </h1> 
+     <form action="" class="master__search js-search-form"> 
+      <input type="text" class="master__search__text js-inpBusca" placeholder="O que você está procurando?"> 
+      <button type="submit" class="master__search__submit js-btnBusca"><span><span class="hidden-sxs">Pesquisar</span></span></button> 
+     </form> 
+     <!-- <a href="" title="" class="search-full-patromage">Confira as ofertas imperdíveis da Brasil Incorporações</a> --> 
+    </div> 
+   </div> 
+  </section> 
+  <section class="container"> 
+   <div class="row"> 
+    <div class="col-xs-12">
+     <div class="ads"> 
+      <div class="ads__wrapper"> 
+       <div id="publicidade-rasgado-1"> 
+        <script type="text/javascript">
+				var indexformats = window.indexformats || 0;
+				googletag.cmd.push(function() {
+					slotdfp['publicidade-rasgado-1'] = googletag.defineSlot(locals.base_dir_dfp,[728,90],'publicidade-rasgado-1').
+						setSafeFrameConfig({sandbox: (screen.width < 480)}).
+						setTargeting('pos',[(++indexformats).toString()]).
+						setTargeting('identificador','publicidade-rasgado-1').
+						defineSizeMapping( googletag.sizeMapping().
+							addSize([0, 0],   [300,100]).
+							addSize([340, 0], [[320,100],[300,100]]).
+							addSize([488, 0], [[468, 60],[300,100]]).
+							addSize([748, 0], [728, 90]).
+							addSize([992, 0], [[728,90],[970,90],[970,250],[980,250]]).build() ).
+						addService(googletag.pubads());
+					googletag.pubads().collapseEmptyDivs(true);
+					googletag.enableServices();
+				});
+				googletag.cmd.push(function() { googletag.display('publicidade-rasgado-1')});
+			</script> 
+       </div> 
+      </div> 
+     </div>
+    </div> 
+   </div> 
+  </section> 
+  <section class="container gutter-m-15-t g-mobile"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="filter__area"> 
+      <div class="row"> 
+       <div class="col-sm-12 nav-category__content"> 
+        <button type="button" class="filter__category js-open-category" data-target="#js-sidebar-categorias" data-change=".product__area"> Todas as categorias </button> 
+        <section class="sidebar__categories sidebar" id="js-sidebar-categorias"> 
+         <h2 class="sidebar--title">Categorias</h2> 
+         <hr> 
+         <ul class="categories__list" id="js-ul-categorias"> 
+         </ul> 
+        </section> 
+       </div> 
+      </div> 
+     </div> 
+     <section class="edit__filters"> 
+      <button class="edit__filters--button js-btn-edit-filters">Editar Filtros</button> 
+      <i class="icons-arrow_down"></i> 
+      <select name="" id="" class="edit__filters--select js-sort-ad"> <option value="">Ordenar por...</option> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </section> 
+     <section class="row search__property sidebar" id="js-sidebar-filtros" style="display: none;"> 
+      <a href="#" class="js-arrow-back sidebar--back"> <i class="icons-back_arrow_black"></i> Todas as categorias </a> 
+      <hr> 
+      <h3 class="sidebar--category_title" id="js-nome-categoria"></h3> 
+      <form action="" id="js-form-filter"> 
+       <!-- 		<div class="location__filters js-location-filters">
+	<div class="location__filters--title">
+		<p>Filtros de Localização</p>
+		<span></span>
+	</div>
+	<ul class="location__filters--list js-list-filters">
+		<li data-attribute="aa" data-value="aa">aa</li>
+	</ul>
+</div> --> 
+       <div id="js-div-filtros"></div> 
+      </form> 
+      <button class="edit__filters--button-fixed js-apply-filters">Aplicar filtros</button> 
+     </section> 
+     <!-- TEMPLATES FILTROS --> 
+     <script type="text/x-tmpl" id="tmpl-widget-categoria">
+	{% for (var prop in o.valores) { %}
+		<li class="categories__list--item">
+			<a href="{%=o.url_base%}/anuncio/{%=o.valores[prop].valor%}/">{%=o.valores[prop].name%}</a>
+		</li>
+	{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input">
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="min" data-attribute="area" id="js-area-min" placeholder="m²">
+	</div>
+	<div class="half">
+		<label for="">{%=o.titulo%}</label>
+		<input type="text" class="js-input-filter" data-number="max" data-attribute="area" id="js-area-max" placeholder="m²">
+	</div>
+</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-input-double">
+{% if (Array.isArray(o) && o.length == 2) { %}
+<div class="group__input" data-attribute="area">
+	<div class="half">
+		<label for="">{%=o[0].titulo%}</label>
+		<input type="text" class="js-input-filter {% if (o[0].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+			data-number="{%=o[0].template.datanumber%}"
+			data-attribute="{%=o[0].template.attribute%}"
+			id="{%=o[0].template.id%}"
+			placeholder="{%=o[0].template.placeholder%}"
+		>
+	</div>
+	{% if (o.length == 2) { %}
+		<div class="half">
+			<label for="">{%=o[1].titulo%}</label>
+			<input type="text" class="js-input-filter {% if (o[1].template.attribute.indexOf('preco') >= 0) { %}preco-mask{% } %}"
+				data-number="{%=o[1].template.datanumber%}"
+				data-attribute="{%=o[1].template.attribute%}"
+				id="{%=o[1].template.id%}"
+				placeholder="{%=o[1].template.placeholder%}"
+			>
+		</div>
+	{% } %}
+</div>
+{% } %}
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link">
+	<div class="active">
+		<label for="">{%=o.titulo%}</label>
+		<select data-placeholder="{%=o.titulo%}" data-attribute="{%=o.nome%}" id="atributte-{%=o.nome%}" class="chosen-select js-link-filter"
+			{% if(o.hasOwnProperty('disabled')) { %}disabled{% } %}
+			{% if(o.nome in {'cidade': 1, 'situacao_veiculo': 1, 'caracteristicas': 1, 'fabricante': 1, 'modelo_base': 1}) { %}
+				multiple
+			{% } %} tabindex="4"
+		>
+
+		<option value="">Selecione</option>
+
+		{% if(o.hasOwnProperty('pivot')) { %}
+			{% for (var prop in o.valores) { %}
+				<optgroup label="{%=o.valores[prop].name%}">
+					{% for (var prop_filho in o.valores[prop].valor) { %}
+						<option value="{%=o.valores[prop].valor[prop_filho].valor%}">{%=o.valores[prop].valor[prop_filho].name%}</option>
+					{% } %}
+				</optgroup>
+			{% } %}
+		{% } else { %}
+			{% for (var prop in o.valores) { %}
+				<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+			{% } %}
+		{% } %}
+		</select>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-link-aberto">
+	<div class="active">
+		<label style="font-size: 14px; font-weight: bold;">
+			{%=o.titulo%}
+		</label>
+		<ul class="most__searched js-check-filter" data-attribute="{%=o.nome%}" style="height: auto; margin-bottom: 15px;">
+			{% for (var prop in o.valores) %}
+				<li class="most__searched--item"
+					data-value="{%=o.valores[prop].valor%}"
+					data-html="{%=o.valores[prop].name%}"
+					style="color: #003e76; cursor: pointer;"
+				>
+					{%=o.valores[prop].name%}&nbsp;<span class="count" style="color: black;">({%=o.valores[prop].total%})</span>
+				</li>
+			{% %}
+		</ul>
+	</div>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-select">
+	<label for="attribute_{%=o.nome%}">{%=o.titulo%}</label>
+	<i class="icons-arrow_down"></i>
+	<select
+		name="attribute_{%=o.nome%}"
+		id="attribute_{%=o.nome%}"
+		data-attribute="{%=o.nome%}"
+		class="js-select-filter"
+	>
+		<option value="">{%=o.titulo%}</option>
+		{% for (var prop in o.valores) %}
+			<option value="{%=o.valores[prop].valor%}">{%=o.valores[prop].name%}</option>
+		{% %}
+	</select>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-selectline">
+	<ul class="buy_or_rent js-check-filter" id="js-negociacao" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) { %}
+			<li class="buy_or_rent--item js-buy-rent" data-value="{%=o.valores[prop].valor%}">
+				<a href="">{%=o.valores[prop].name%}</a>
+			</li>
+		{% } %}
+	</ul>
+</script> 
+     <script type="text/x-tmpl" id="tmpl-widget-ul">
+	<label for=""><b>{%=o.titulo%}</b></label>
+	<ul class="choice__group js-check-filter" data-attribute="{%=o.nome%}">
+		{% for (var prop in o.valores) %}
+			<li class="choice__group--item" data-value="{%=o.valores[prop].valor%}">
+				<button type="button">{%=o.valores[prop].name%}</button>
+			</li>
+		{% %}
+	</ul>
+</script> 
+    </div> 
+    <div class="col-md-9"> 
+     <div class="classifieds__sort"> 
+      <p class="classifieds__sort--imoveis"><span class="js-breadcrumb"></span> <span class="js-total-hits"></span></p> 
+      <i class="icons-arrow_down"></i> 
+      <select class="classifieds__sort--options js-sort-ad" name="" id=""> <option value="mais-recentes">Mais recentes</option> <option value="maior-preco">Maior Preço</option> <option value="menor-preco">Menor Preço</option> </select> 
+     </div> 
+     <div id="js-div-list-anuncios"> 
+     </div> 
+     <div id="js-loading" style="padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <img src="http://www.classificadoscb.com.br/novo/static/cb/assets/imgs/loading2.gif" width="50"> 
+      <span style="font-size: 20px;position: relative;top: -18px;">Carregando...</span> 
+     </div> 
+     <div id="js-sem-anuncio" style="display: none; padding-left: 37%; margin-bottom: 20px; margin-top: 20px;"> 
+      <span style="font-size: 20px;">Nenhum anúncio encontrado.</span> 
+     </div> 
+     <div class="row"> 
+      <div class="paginations__bx cf" style="display: none;"> 
+       <a class="prev js-prev-page"> Anterior </a> 
+       <a class="next js-next-page"> Próximo </a> 
+       <div class="pagination__area cf"> 
+        <span>Página</span> 
+        <input id="js-current-page" type="text" value=""> 
+        <span>de <span class="js-total-page"></span></span> 
+        <a id="btn-paginacao" href="javascript:;" class="btn btn__primary js-goto-page" data-num-page="" data-max-page="" data-limit="20"> Ir </a> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="row hidden-xs"> 
+    <!-- inc_preciso_vender.html : begin --> 
+    <div class="sell__more"> 
+     <h2>Preciso vender</h2> 
+     <ul class="sell__categories cf"> 
+      <li> <a class="category category--imoveis--big" href="http://www.classificadoscb.com.br/anunciar/dados/imoveis"> <span>Imóveis</span> </a> </li> 
+      <li> <a class="category category--veiculos--big" href="http://www.classificadoscb.com.br/anunciar/dados/veiculos"> <span>Veículos</span> </a> </li> 
+      <li> <a class="category category--celulares-e-tablets--big" href="http://www.classificadoscb.com.br/anunciar/dados/celulares-e-tablets"> <span>Celulares e Tablets</span> </a> </li> 
+      <li> <a class="category category--eletronicos-e-informatica--big" href="http://www.classificadoscb.com.br/anunciar/dados/eletronicos-e-informatica"> <span>Eletrônicos e Informática</span> </a> </li> 
+      <li> <a class="category category--bebes-e-criancas--big" href="http://www.classificadoscb.com.br/anunciar/dados/bebes-e-criancas"> <span>Bebês e Crianças</span> </a> </li> 
+      <li> <a class="category category--esportes--big" href="http://www.classificadoscb.com.br/anunciar/dados/esportes"> <span>Esportes</span> </a> </li> 
+      <li> <a class="category category--musica-arte-e-cultura--big" href="http://www.classificadoscb.com.br/anunciar/dados/musica-arte-e-cultura"> <span>Música, Arte e Cultura</span> </a> </li> 
+      <li> <a class="category category--pet--big" href="http://www.classificadoscb.com.br/anunciar/dados/pet"> <span>Pet</span> </a> </li> 
+      <li> <a class="category category--comercio-e-negocios--big" href="http://www.classificadoscb.com.br/anunciar/dados/comercio-e-negocios"> <span>Comércio e Negócios</span> </a> </li> 
+      <li> <a class="category category--turismo-e-lazer--big" href="http://www.classificadoscb.com.br/anunciar/dados/turismo-e-lazer"> <span>Turismo e Lazer</span> </a> </li> 
+      <li> <a class="category category--moda-e-beleza--big" href="http://www.classificadoscb.com.br/anunciar/dados/moda-e-beleza"> <span>Moda e Beleza</span> </a> </li> 
+      <li> <a class="category category--para-sua-casa--big" href="http://www.classificadoscb.com.br/anunciar/dados/para-sua-casa"> <span>Para sua casa</span> </a> </li> 
+      <li> <a class="category category--servicos-profissionais--big" href="http://www.classificadoscb.com.br/anunciar/dados/servicos-profissionais"> <span>Serviços profissionais</span> </a> </li> 
+      <li> <a class="category category--empregos-e-formacao-profissional--big" href="http://www.classificadoscb.com.br/anunciar/dados/empregos-e-formacao-profissional"> <span>Empregos e Formação Profissional</span> </a> </li> 
+      <li> <a class="category category--festas-e-eventos--big" href="http://www.classificadoscb.com.br/anunciar/dados/festas-e-eventos"> <span>Festas e eventos</span> </a> </li> 
+      <li> <a class="category category--agricultura-e-pecuaria--big" href="http://www.classificadoscb.com.br/anunciar/dados/agricultura-e-pecuaria"> <span>Agricultura e Pecuária</span> </a> </li> 
+     </ul> 
+    </div> 
+    <section class="container project-feature"> 
+     <h2>No Classificados CB você encontra o que procura</h2> 
+     <div class="row"> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/celulares-e-tablets/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/celulares_e_tablet.jpg" alt=""> <h4> <span>Celulares e Tablets</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/celulares-e-tablets?subcategoria=celulares-e-smartphones&amp;secao=apple-(iphone)" title="Iphone em Brasília"> <strong>Iphone</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/celulares-e-tablets?subcategoria=celulares-e-smartphones&amp;secao=samsung" title="Samsung em Brasília"> <strong>Samsung</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/celulares-e-tablets?secao=motorola&amp;subcategoria=celulares-e-smartphones" title="Motorola em Brasília"> <strong>Motorola</strong> em Brasília </a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/veiculos/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/veiculos.jpg" alt=""> <h4> <span>Veículos</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/veiculos/" title="Automóveis em Brasília"> <strong>Automóveis</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/veiculos?subcategoria=carro" title="Carros em Brasília"> <strong>Carros</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/veiculos?subcategoria=moto" title="Motos em Brasília"> <strong>Motos</strong> em Brasília</a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/imoveis/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/imoveis.jpg" alt=""> <h4> <span>Imóveis</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/imoveis?secao=lancamentos" title="Lançamentos em Brasília"> <strong>Lançamentos</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/imoveis?secao=compra-e-venda&amp;subcategoria=residenciais&amp;tipo_imovel=apartamento" title="Apartamentos em Brasília"> <strong>Apartamentos</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/imoveis?secao=compra-e-venda&amp;subcategoria=residenciais&amp;tipo_imovel=casa" title="casas em Brasília"> <strong>casas</strong> em Brasília </a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/turismo-e-lazer/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/turismo_e_lazer.jpg" alt=""> <h4> <span>Turismo e lazer</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/turismo-e-lazer?subcategoria=viagem" title="Viagem em Brasília"> <strong>Viagem</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/turismo-e-lazer?subcategoria=outros-(turismo-e-lazer)" title="Turismo em Brasília"> <strong>Turismo</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/turismo-e-lazer?subcategoria=pousadas-hoteis-e-hostels" title="Hotéis em Brasília"> <strong>Hotéis</strong> em Brasília </a> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/eletronicos-e-informatica/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/informatica_e_eletronicos.jpg" alt=""> <h4> <span>Informática e Eletrônicos</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/eletronicos-e-informatica?secao=notebooks-e-netbooks&amp;subcategoria=computadores-e-acessorios" title="Notebook em Brasília"> <strong>Notebook</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/eletronicos-e-informatica?subcategoria=video-games-consoles" title="Games em Brasília"> <strong>Games</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/eletronicos-e-informatica?secao=impressoras-e-suprimentos&amp;subcategoria=computadores-e-acessorios" title="Impressoras em Brasília"> <strong>Impressoras</strong> em Brasília </a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/para-sua-casa/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/eletrodomesticos_e_utensilios.jpg" alt=""> <h4> <span>Eletrodomésticos e Utensílios</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/para-sua-casa/por,moveis" title="Movéis em Brasília"> <strong>Movéis</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/para-sua-casa/por,piscina" title="Piscinas em Brasília"> <strong>Piscinas</strong> em Brasília</a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/para-sua-casa/por,condicionado" title="Ar condicionado em Brasília"> <strong>Ar condicionado</strong> em Brasília</a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/servicos-profissionais/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/servicos_profissionais.jpg" alt=""> <h4> <span>Serviços profissionais</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/servicos-profissionais?secao=medico&amp;subcategoria=saude" title="Médicos em Brasília"> <strong>Médicos</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/servicos-profissionais?secao=odontologia&amp;subcategoria=saude" title="Dentistas em Brasília"> <strong>Dentistas</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/servicos-profissionais?subcategoria=advocacia" title="Advogados em Brasília"> <strong>Advogados</strong> em Brasília </a> 
+       </div> 
+      </div> 
+      <div class="project-feature__itens"> 
+       <div class="project-feature__itens__cat"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/empregos-e-formacao-profissional/"> <img src="http://imgs.classificadoscb.com.br/cb/assets/imgs/project-feature/empregos_e_formacao_profissional.jpg" alt=""> <h4> <span>Empregos e formação profissional</span> em Brasília </h4> </a> 
+       </div> 
+       <div class="project-feature__itens__box"> 
+        <a href="http://www.classificadoscb.com.br/anuncio/empregos-e-formacao-profissional?subcategoria=procura-por-emprego" title="Empregos em Brasília"> <strong>Empregos</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/empregos-e-formacao-profissional?subcategoria=cursos" title="Cursos em Brasília"> <strong>Cursos</strong> em Brasília </a> 
+        <a href="http://www.classificadoscb.com.br/anuncio/empregos-e-formacao-profissional?subcategoria=concursos" title="Concursos em Brasília"> <strong>Concursos</strong> em Brasília </a> 
+       </div> 
+      </div> 
+     </div> 
+    </section> 
+    <!-- inc_preciso_vender.html : end --> 
+   </div> 
+  </section> 
+  <footer role="contentinfo" class="footer"> 
+   <div class="footer__p"> 
+    <div class="container"> 
+     <div class="nav__support"> 
+      <ul class="list-inline cf"> 
+       <li class="logged-user hidden-xs"><a href="#login-now" data-toggle="modal" data-target="#login-now" title="Login">Login</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="logged-user hidden-xs"><a href="#register-now javascript:fbq('track', 'CompleteRegistration');" data-toggle="modal" data-target="#register-now" title="Cadastre-se">Cadastre-se</a></li> 
+       <li class="logged-user hidden-xs">|</li> 
+       <li class="hidden-xs hidden-sm"><a href="http://www.cbdigital.com.br/" title="CB Digital">CB Digital</a></li> 
+       <li class="hidden-xs hidden-sm">|</li> 
+       <li class="hidden-xs"><a href="http://clubedoassinante.correiobraziliense.com.br/" title="Clube do Assinante">Clube do Assinante</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="https://www2.correiobraziliense.com.br/seguro/digital/assine.php" title="Assine Já">Assine Já</a></li> 
+       <li class="hidden-xs">|</li> 
+       <li class="hidden-xs"><a href="/fale-conosco" title="Fale conosco">Fale conosco</a></li> 
+       <li class="pull-right"> 
+        <ul class="list-inline pull-right"> 
+         <li> <a href="http://www.fb.com/correiobraziliense" class="facebook" target="blank" title="Facebook"></a> </li> 
+         <li> <a href="http://www.twitter.com/cbonlinedf" class="twitter" target="blank" title="Twitter"></a> </li> 
+         <!--
+								<li><a href="" class="rss" target="blank" title="RSS"></a></li>
+								--> 
+        </ul> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__s"> 
+    <div class="container margin-top-20  padding-bottom-20"> 
+     <a href="#" title="Expandir Rodapé" class="footer__contentshowhide center-block hidden-md hidden-lg margin-top-15 margin-bottom-25" id="show_hide_footer_mobile"> Abrir menu </a> 
+     <div id="sh_in_tablet_phone" class="hidden-xs hidden-sm"> 
+      <div class="row"> 
+       <div class="col-xs-6 col-sm-3 col-md-2 col-sm-offset-2 col-md-offset-0"> 
+        <ul class="list-unstyled"> 
+         <li> JORNAIS </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/" target="blank" title="Correio Braziliense"> Correio Braziliense </a> </li> 
+         <li> <a href="javascript:void(0)" target="blank" title="Aqui DF"> Aqui DF </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> TELEVISÃO </li> 
+         <li> <a href="http://www.correioweb.com.br/tvbrasilia" target="blank" title="TV Brasília"> TV Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> RÁDIO </li> 
+         <li> <a href="http://www.clube.fm/" target="blank" title="Clube FM"> Clube FM </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> PORTAIS E SITES </li> 
+         <li> <a href="http://www.correioweb.com.br/" target="blank" title="CorreioWeb"> CorreioWeb </a> </li> 
+         <li> <a href="http://www.correiobraziliense.vrum.com.br/" target="blank" title="Vrum"> Vrum </a> </li> 
+         <li> <a href="http://www.correiobraziliense.lugarcerto.com.br/" target="blank" title="Lugar Certo"> Lugar Certo </a> </li> 
+         <li> <a href="http://concursos.correioweb.com.br/" target="blank" title="Concursos"> Concursos </a> </li> 
+         <li> <a href="http://www.df.superesportes.com.br/" target="blank" title="Superesportes"> Superesportes </a> </li> 
+         <li> <a href="http://www.divirtasemais.com.br/" target="blank" title="Divirta-semais"> Divirta-semais </a> </li> 
+         <li> <a href="http://www.correiobraziliense.com.br/euestudante" target="blank" title="Eu, estudante"> Eu, estudante </a> </li> 
+        </ul> 
+       </div> 
+       <div class="col-xs-6 col-sm-3 col-md-2"> 
+        <ul class="list-unstyled"> 
+         <li> REVISTAS </li> 
+         <li> <a href="http://www.encontrobrasilia.com.br/" target="blank" title="Encontro Brasília"> Encontro Brasília </a> </li> 
+        </ul> 
+        <ul class="list-unstyled"> 
+         <li> OUTRAS EMPRESAS </li> 
+         <li> <a href="http://www.facbrasil.org.br/" target="blank" title="Fundação Assis Chateaubriand"> Fundação Assis Chateaubriand </a> </li> 
+         <li> <a href="http://www.dapress.com.br/" target="blank" title="D.A Press"> D.A Press </a> </li> 
+         <li> <a href="http://www.dalogistica.com.br/" target="blank" title="DALog"> DALog </a> </li> 
+        </ul> 
+       </div> 
+       <a href="http://www.diariosassociados.com.br" target="_blank" title="Diários Associados"> <i class="spr __lgg pull-right  hidden-sm hidden-xs"></i> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer__t padding-top-10 padding-bottom-10"> 
+    <div class="container"> 
+     <p class="margin-bottom-0">© Classificados CB 2000 - <span class="year"></span>. todos os direitos reservados.</p> 
+    </div> 
+   </div> 
+  </footer> 
+  <!-- TEMPLATES --> 
+  <script type="text/x-tmpl" id="tmpl-anuncio">
+<div class="classifieds__list">
+	<div class="classifieds__list--item"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1)  { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" alt="" title="" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 150)%}
+						{% if (o.descricao.length > 150) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <script type="text/x-tmpl" id="tmpl-anuncio-destaque">
+<div class="classifieds__list">
+	<div class="classifieds__list--item classified__highlited"
+		data-atributo-id="{%=o.id%}"
+		data-atributo-anunciolink="{%=o.link_detalhe%}"
+		data-atributo-lojalink="{%=o.link_loja%}"
+	>
+		<div class="image__list"
+		data-images='[
+			{% for (var i=0; i<o.fotos_formatadas.length; i++) { %}
+				"{%=o.fotos_formatadas[i]%}"
+				{% if (i < o.fotos_formatadas.length-1) { %},{% } %}
+			{% } %}]'></div>
+
+			{% if (o.preco_fmt) { %}
+				<div class="classified__images first price" data-current="0">
+				<a href="{%=o.link_detalhe%}" class="classified__images--price">
+					{%=o.preco_fmt%}
+				</a>
+			{% } else { %}
+				<div class="classified__images first" data-current="0">
+			{% } %}
+			{% if (o.fotos_formatadas.length > 1)  { %}
+				<button class="prev-img prev" disabled="disabled"><i class="icons-arrow_back"></i></button>
+				<button class="next-img next"><i class="icons-arrow"></i></button>
+			{% } %}
+		</div>
+		{% if (o.publicar_contato == '1') { %}
+			{% if (o.dono_tipo == 'Revenda') { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					<div class="owner__shop">
+						{% if (o.dono_image != '') { %}
+							<img src="{%=o.dono_image %}">
+						{% } else { %}
+							<div class="owner__name">{%=o.dono_nome%}</div>
+						{% } %}
+					</div>
+				</a>
+			{% } else { %}
+				<a href="{%=o.link_loja%}" class="classified__content--owner">
+					{% if (o.dono_image) { %}
+						<div class="owner__photo" style="background-image: url('{%=o.dono_image %}');"></div>
+					{% } %}
+					<div class="owner__name">{%=o.dono_nome%}</div>
+				</a>
+			{% } %}
+		{% } %}
+		<a href="{%=o.link_detalhe%}">
+			<div class="classified__content">
+				<span class="classified__content--highlighted">Anúncio destaque</span>
+				<span class="classified__content--title">{%=o.titulo%}</span>
+				{% if (o.categoria_slug == 'imoveis') { %}
+					<span class="classified__content--location">
+						<i class="icons-icon-info-small-grey"></i>
+						{% if (o.secao == 'Compra e Venda') { %}
+							Im&oacute;vel à venda
+						{% } else if (o.secao == 'Aluguel') { %}
+							Im&oacute;vel para alugar
+						{% } else if (o.secao == 'Lançamento')  { %}
+							Im&oacute;vel Novo
+						{% } %}
+					</span>
+				{% } %}
+				{% if (o.bairro && o.cidade) { %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.bairro %}, {%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } else if (o.cidade){ %}
+					<span class="classified__content--location">
+						<i class="icons-pin"></i>
+						{%=o.cidade%}, {%=o.estado%}
+					</span>
+				{% } %}
+
+				<span class="classified__content--date" data-datareal="{%=o.data_insercao_h%}">
+					Publicado em&nbsp;{%=o.data_insercao%}
+				</span>
+				<span class="classified__content--description hidden-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 80)%}
+						{% if (o.descricao.length > 80) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				<span class="classified__content--description visible-xs">
+					{% if (o.descricao) { %}
+						{%=o.descricao.slice(0, 70)%}
+						{% if (o.descricao.length > 70) { %}
+							...
+						{% } %}
+					{% } else { %}
+						Sem descrição
+					{% } %}
+				</span>
+				{% if (o.mini_descricao.length > 0){ %}
+					<div class="classified__content--footer">
+				{% } else{ %}
+					<div class="classified__content--footer mod">
+				{% } %}
+					<button class="btn__details hidden-xs">Ver detalhes</button>
+					<button class="btn__contact" style="right: calc(50% - 60px);">Entrar em contato</button>
+					{% if (o.mini_descricao.length > 0){ %}
+						<div class="summary__details">
+							{% for (var i=0; i<o.mini_descricao.length; i++) { %}
+								<span>
+									{%=o.mini_descricao[i].valor%}
+									&nbsp;
+									{%=o.mini_descricao[i].nome%}
+								</span>
+							{% } %}
+						</div>
+					{% } %}
+				</div>
+			</div>
+		</a>
+	</div>
+</div>
+</script> 
+  <div class="modal fade" id="contact-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Contate o anunciante</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="#" id="form-proposta-1"> 
+       <input type="hidden" id="anuncio_id"> 
+       <input type="hidden" id="anuncio_titulo"> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="mensagem"> <span>Mensagem*:</span> <textarea name="" required id="proposta-mensagem-1" rows="5"></textarea> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-nome-1"> <span>Nome*:</span> <input type="text" required id="proposta-nome-1" placeholder="Digite o seu nome"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-email-1"> <span>Email*:</span> <input type="email" required id="proposta-email-1" placeholder="Digite o seu e-mail"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for="proposta-telefone-1"> <span>Telefone:</span> <input type="text" class="js-numberPhone" id="proposta-telefone-1" placeholder="Digite o seu telefone"> </label> 
+        </fieldset> 
+       </div> 
+       <div class="row"> 
+        <fieldset class="col-sm-12"> 
+         <label for=""> <button type="submit" class="btn btn__secondary submit js-submit-contato">Enviar mensagem</button> </label> 
+        </fieldset> 
+       </div> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="login-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Acesse sua conta</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/login/login_proc" method="post" class="js-login"> 
+       <fieldset> 
+        <label for="#"> <span>E-mail</span> <input type="text" class="js-login-email" name="email_login" placeholder="Digite o seu e-mail" tabindex="1" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="#" class="cf"> <span>Senha</span> <a href="#" class="lose-password" data-toggle="modal" tabindex="4" data-target="#lose-senha">Esqueci a minha senha</a> <input type="password" class="js-login-pass" name="senha_login" placeholder="Digite a sua senha" tabindex="2" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" tabindex="3" value="Entrar"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="lose-senha" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h4 class="modal-title" id="myModalLabel">Esqueci a minha senha</h4> 
+      <p class="modal-subtitle">Digite o endereço de e-mail abaixo e nós enviaremos um link para que você possa criar uma nova senha</p> 
+     </div> 
+     <div class="modal-body"> 
+      <iframe name="login-iframe" width="370" height="160" frameborder="0" src="http://centrallogins.uai.com.br/index.php?acao=esquecisenha"> &lt;script&gt;console.log('funfo');&lt;/script&gt; </iframe> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="modal fade" id="register-now" tabindex="-1" role="dialog" aria-hidden="true"> 
+   <div class="modal-dialog"> 
+    <div class="modal-content"> 
+     <div class="modal-header cf"> 
+      <button type="button" class="close" data-dismiss="modal">Close</button> 
+      <h3 class="modal-title">Cadastre-se agora</h3> 
+     </div> 
+     <div class="modal-body"> 
+      <form action="/cadastro/cadastro_proc" method="post"> 
+       <fieldset> 
+        <label for="nome"> <span>Nome</span> <input name="nome" id="nome" type="text" placeholder="Digite o seu nome" tabindex="4" required> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="email"> <span>E-mail</span> <input name="email" id="email" type="text" placeholder="Digite o seu e-mail" tabindex="5" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"> </label> 
+       </fieldset> 
+       <fieldset> 
+        <label for="senha" class="cf"> <span>Senha</span> <input name="senha" id="senha" type="password" placeholder="Digite a sua senha" tabindex="6" required> </label> 
+       </fieldset> 
+       <p>Ao criar uma conta, estou automaticamente aceitando os <a href="/termos-de-servicos">Termos e serviços</a> e a <a href="/politica-de-privacidade">Política de Privacidade</a> do Classificados</p> 
+       <fieldset> 
+        <input type="submit" class="btn btn__primary" value="Entrar" tabindex="7"> 
+       </fieldset> 
+      </form> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery-3.2.1.min.js"></script> 
+  <script src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/bootstrap.min.js"></script> 
+  <script>
+
+	jQuery(document).ready(function() {
+		DesenhaFiltros.init(
+			{"filter_apply": {"estado": [{"valor_fmt": "DF", "valor": "df", "widget": null}]}, "filter_show": [{"titulo": "Categoria", "widget": "categoria", "ordem": 1, "nome": "categoria", "valores": [{"name": "Im\u00f3veis", "total": 15157, "valor": "imoveis"}, {"name": "Ve\u00edculos", "total": 3434, "valor": "veiculos"}, {"name": "Empregos e Forma\u00e7\u00e3o Profissional", "total": 599, "valor": "empregos-e-formacao-profissional"}, {"name": "Servi\u00e7os Profissionais", "total": 280, "valor": "servicos-profissionais"}, {"name": "Adulto", "total": 264, "valor": "adulto"}, {"name": "Eletr\u00f4nicos e Inform\u00e1tica", "total": 145, "valor": "eletronicos-e-informatica"}, {"name": "Com\u00e9rcio e Neg\u00f3cios", "total": 125, "valor": "comercio-e-negocios"}, {"name": "Turismo e Lazer", "total": 63, "valor": "turismo-e-lazer"}, {"name": "Para Sua Casa", "total": 61, "valor": "para-sua-casa"}, {"name": "Moda e Beleza", "total": 45, "valor": "moda-e-beleza"}, {"name": "Diversos", "total": 38, "valor": "diversos"}, {"name": "Festas e Eventos", "total": 19, "valor": "festas-e-eventos"}, {"name": "Agricultura e Pecu\u00e1ria", "total": 15, "valor": "agricultura-e-pecuaria"}, {"name": "Celulares e Tablets", "total": 15, "valor": "celulares-e-tablets"}, {"name": "Esportes", "total": 15, "valor": "esportes"}, {"name": "Pet", "total": 14, "valor": "pet"}, {"name": "M\u00fasica, Arte e Cultura", "total": 11, "valor": "musica-arte-e-cultura"}, {"name": "Beb\u00eas e Crian\u00e7as", "total": 6, "valor": "bebes-e-criancas"}]}], "results": [{"id": "340600838", "telefones": "6132027733#6181380661", "imgs": ["/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294043", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294040", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294050", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294015", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294020", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294006", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294030", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294011", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294048", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294045", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294026", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294035", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294053", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294057", "/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294063"], "grupo": "Residenciais", "secao": "Compra e Venda", "tipo_imovel": "Casa", "area_construida": 360, "contato": "Apollo Imoveis", "relevancia": 1119999, "estado_cidade": "Bras\u00edlia/Plano Piloto - DF", "exibe_endereco": 2, "dono_nome": "Apollo Imoveis", "banheiro": 7, "dono_email": "apolloimoveis1990@gmail.com", "descricao": "SOBRADO COM 03 PISOS DE FRENTE PARA A W3 SUL. \nNO T\u00c9RREO POSSUI GARAGEM PARA 2 CARROS, UMA SUITE, LAVABO, COZINHA AMERICANA, SALA E QUINTAL.\nno 1\u00ba piso possui quatro quartos, sendo 3 suites e banheiro. \nno 2\u00ba piso possui duas sacada sendo uma aberta e outra fechada, uma suite com closet, dep\u00f3sito e banheiro.\n \n 0.86885200", "data_update": "2017-09-28T02:05:03Z", "dono_endereco": "SEPS 712/912 Conjunto B Bloco 1 Loja 9", "bairro": "Asa Sul", "preco": 1200000.0, "quarto": 6, "categoria": "Im\u00f3veis", "categoria_slug": "imoveis", "qtd_imgs": 15, "estado": "DF", "dono_tipo": "Revenda", "publicar_preco": 1, "data_expiracao": "2200-01-01T01:00:00Z", "dono_image": "http://imgs.patio.vrum.com.br/static/img/logomarca/anunciante_10000159957.jpg", "titulo": "Casa, 6 Quartos", "dono_id": "ppc_coa_10000159957", "cep": "70331707", "cidade": "Bras\u00edlia/Plano Piloto", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "destaque": 1, "estado_cidade_bairro": "Asa Sul, Bras\u00edlia/Plano Piloto - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294043_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294040_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294050_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294015_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294020_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294006_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294030_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294011_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294048_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294045_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294026_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294035_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294053_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294057_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/8/f/e/8fed97fb1878afc0c2be591744c40df8/340600838_168294063_n.jpg"], "preco_fmt": "R$ 1.200.000,00", "publicar_contato": "1", "mini_descricao": [{"nome": "m\u00b2", "valor": 360}, {"nome": "Quartos", "valor": 6}, {"nome": "Banheiros", "valor": 7}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/340600838/", "link_loja": "http://classificadoscb.com.br/loja/r10000159957/", "data_insercao_h": "28/09/2017"}, {"id": "341005329", "telefones": "6135733003", "imgs": ["/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719994", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719993", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720006", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719995", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720022", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720023", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720024", "/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720025"], "grupo": "Residenciais", "secao": "Compra e Venda", "cidade": "Taguatinga", "contato": "Edilson Souza de Ara\u00fajo", "relevancia": 1199600, "estado_cidade": "Taguatinga - DF", "exibe_endereco": 2, "dono_nome": "Edilson Souza de Ara\u00fajo", "preco": 495000.0, "sub_categoria": "Residenciais", "dono_email": "edilson.central@terra.com.br", "descricao": "QUASE DE GRA\u00c7A! QNM 36 Linda 4qts 1 su\u00edte aceita financiamento 99981-5008 c3209", "data_update": "2017-09-27T17:55:15Z", "bairro": "Taguatinga Norte", "quarto": 4, "categoria": "Im\u00f3veis", "categoria_slug": "imoveis", "qtd_imgs": 8, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-10-02T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/937cdb42e28ddfacd43c28e271913231?s=40&d=mm", "titulo": "Casa, 4 Quartos", "dono_id": "ppc_usu_32494720", "tipo_imovel": "Casa", "data_insercao": "28 de setembro", "publicar_contato": "1", "estado_cidade_bairro": "Taguatinga Norte, Taguatinga - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719994_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719993_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720006_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169719995_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720022_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720023_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720024_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/2/2/0/220c16bc5e474411c1676b84e410cf4f/341005329_169720025_n.jpg"], "preco_fmt": "R$ 495.000,00", "mini_descricao": [{"nome": "Quartos", "valor": 4}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/341005329/", "link_loja": "http://classificadoscb.com.br/loja/u32494720/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341030679", "telefones": "06181636496", "imgs": ["/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723188", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723189", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723190", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723192", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723195", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723196", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723198", "/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723199"], "relevancia": 1999999, "contato": "Jose Trindade de Souza", "dono_image": "http://www.gravatar.com/avatar/2939fd8443420b1016dea0c85e71cd10?s=40&d=mm", "dono_nome": "Jose Trindade de Souza", "dono_email": "trindadecorretordeimoveis@gmail.com", "descricao": "RENDA EXTRA - Ganhe 40% de desconto em lojas, supermercados e R$3,00 p/ pessoa cadastrada. Pe\u00e7a seu cart\u00e3o - https://goo.gl/brvZkc", "data_update": "2017-09-28T00:17:02Z", "publicar_contato": "1", "categoria": "Empregos e Forma\u00e7\u00e3o Profissional", "categoria_slug": "empregos e formacao profissional", "qtd_imgs": 8, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-10-02T23:59:00Z", "titulo": "Renda Extra - Ganhe 40% de Desconto", "dono_id": "ppc_usu_3181498", "data_insercao": "28 de setembro", "sub_categoria": "Oferta de Emprego", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723188_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723189_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723190_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723192_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723195_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723196_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723198_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/1/d/91df360390abefa54aec04c7235a53bc/341030679_169723199_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/empregos-e-formacao-profissional/341030679/", "link_loja": "http://classificadoscb.com.br/loja/u3181498/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "282084719", "imgs": ["/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165012", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165014", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165007", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165002", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165003", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165013", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165006", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165001", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165009", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165004", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165005", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165011", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165008", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165000", "/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165010"], "caracteristicas_condominio": ["Biciclet\u00e1rio", "Despensa", "Energia solar", "Estacionamento p. visitas", "Interfone", "Playground", "Sal\u00e3o de festa", "\u00c1rea verde"], "caracteristicas_imovel": ["Arm\u00e1rio de cozinha", "Arm\u00e1rio embutido", "Banheiro independente", "Depend\u00eancia de empregada", "Energia solar", "Garagem coberta", "Garagem independente", "Lavabo", "Quarto de empregada", "Varanda", "Vista definitiva", "\u00c1rea privativa"], "caracteristicas_seguranca": ["Bloqueio de elevador", "Circuito interno de TV", "Guarita na portaria", "Porteiro 24 horas"], "telefones": "61981221437", "caracteristicas": ["\u00c1rea privativa", "Arm\u00e1rio de cozinha", "Arm\u00e1rio embutido", "Banheiro independente", "Depend\u00eancia de empregada", "Energia solar", "Garagem coberta", "Garagem independente", "Lavabo", "Quarto de empregada", "Varanda", "Vista definitiva", "Bloqueio de elevador", "Circuito interno de TV", "Guarita na portaria", "Porteiro 24 horas", "\u00c1rea verde", "Biciclet\u00e1rio", "Despensa", "Energia solar", "Estacionamento p. visitas", "Interfone", "Playground", "Sal\u00e3o de festa"], "vaga_garagem": 2, "secao": "Compra e Venda", "dono_email": "viviane_carmo@hotmail.com", "preco_condominio": 1770.0, "bairro": "Sudoeste", "publicar_preco": 1, "categoria": "Im\u00f3veis", "titulo": "Apartamento, 4 Quartos, 2 Vagas, 2 Suites", "data_insercao": "28 de setembro", "publicar_contato": "1", "grupo": "Residenciais", "iptu": 4000.0, "area_construida": 318, "relevancia": 1199400, "estado_cidade": "Bras\u00edlia/Plano Piloto - DF", "exibe_endereco": 2, "banheiro": 4, "suite": 2, "elevador": 6, "unidade_andar": 6, "preco": 1990000.0, "data_expiracao": "2017-11-27T23:59:00Z", "tipo_imovel": "Apartamento", "sub_categoria": "Residenciais", "contato": "Maria Vieira", "dono_image": "http://www.gravatar.com/avatar/cf792fc9461ce3270d8de3cfafce0747?s=40&d=mm", "dono_nome": "Viviane Carmo", "data_update": "2017-09-28T16:33:03Z", "quarto": 4, "idade_imovel": "Entre 16 e 20 anos", "categoria_slug": "imoveis", "qtd_imgs": 15, "closet": 1, "andar": 6, "sala": 1, "descricao": "VDO AP SQSW 504 BL A 1\u00ba AND ORIGINAL, 213M2 PRIV. VAZADO, 2 SUITES, 2 QTOS, SALA GIGANTE, COZ, AREA SV, DCE, LAVABO, VARANDAS AMPLAS, 2 VGS SOLTAS COM ARMARIOS, VISTA LINDA, EXC PADRAO CONSTRUT. PARTIC. AC IMOVEL SUDOESTE. DOC OK.", "estado": "DF", "dono_tipo": "Anunciante", "dono_id": "ppc_usu_188227", "cidade": "Bras\u00edlia/Plano Piloto", "estado_cidade_bairro": "Sudoeste, Bras\u00edlia/Plano Piloto - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165012_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165014_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165007_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165002_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165003_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165013_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165006_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165001_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165009_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165004_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165005_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165011_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165008_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165000_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/3/c/5/3c56e2c14cc525f21bc58f1df6c3838b/282084719_159165010_n.jpg"], "preco_fmt": "R$ 1.990.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 318}, {"nome": "Quartos", "valor": 4}, {"nome": "Banheiros", "valor": 4}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/282084719/", "link_loja": "http://classificadoscb.com.br/loja/u188227/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341040114", "telefones": "6199848#6181265575", "imgs": ["/classificados/d/a/a/daadb050ada4c4437b99ccb898ab051e/341040114_169746015", "/classificados/d/a/a/daadb050ada4c4437b99ccb898ab051e/341040114_169746016"], "relevancia": 1199999, "contato": "Marine", "dono_image": "http://www.gravatar.com/avatar/4d4e9c0d6823dd04b350ee52aa6b0114?s=40&d=mm", "dono_nome": "Marine", "dono_email": "manuelacarvalhosm@gmail.com", "descricao": "Ol\u00e1! Para voc\u00ea que n\u00e3o tenha o App Uber ou tenha prefer\u00eancia por Mulher, ofere\u00e7o meu servi\u00e7o de qualidade e conforto para voc\u00ea.\r\nPara todo o Df.\r\nObrigada!\r\nContato whatsapp logo abaixo!", "data_update": "2017-09-28T14:07:03Z", "publicar_contato": "1", "preco": 0.01, "publicar_preco": 1, "categoria": "Servi\u00e7os Profissionais", "categoria_slug": "servicos profissionais", "qtd_imgs": 2, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "titulo": "Viajem Uber", "dono_id": "ppc_usu_26309720", "data_insercao": "28 de setembro", "sub_categoria": "Outros (servi\u00e7os Profissionais)", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/d/a/a/daadb050ada4c4437b99ccb898ab051e/341040114_169746015_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/d/a/a/daadb050ada4c4437b99ccb898ab051e/341040114_169746016_n.jpg"], "preco_fmt": "R$ 0,01", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/servicos-profissionais/341040114/", "link_loja": "http://classificadoscb.com.br/loja/u26309720/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "168399737", "telefones": "6141033646", "imgs": ["/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778052", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778051", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778053", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778056", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778057", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778058", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778054", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778055", "/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778059"], "vaga_garagem": 2, "secao": "Compra e Venda", "tipo_imovel": "Casa", "sala": 1, "area_construida": 112, "cidade": "Riacho Fundo", "contato": "Maicon Gomes", "relevancia": 1199999, "estado_cidade": "Riacho Fundo - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 1, "dono_email": "queromeuimoveldf@gmail.com", "descricao": "VENDE SE \u00d3TIMA CASA NO RIACHO FUNDO 2 COM 02 QUARTOS , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O\n    *GARAGEM COBERTA PARA 02 CARROS!!!*\n    *N\u00c3O FINANCIA* *MUITO BARATO!!!*\n      LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n      MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n      ENTRE: WWW.QUEROMINHACASA.COM", "data_update": "2017-09-28T14:59:03Z", "bairro": "Riacho Fundo II", "categoria": "Im\u00f3veis", "preco": 150000.0, "quarto": 2, "idade_imovel": "Entre 6 e 10 anos", "categoria_slug": "imoveis", "qtd_imgs": 9, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "", "dono_id": "ppc_usu_165484805", "titulo": "Casa, 2 Quartos, 2 Vagas", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Riacho Fundo II, Riacho Fundo - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778052_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778051_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778053_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778056_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778057_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778058_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778054_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778055_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/f/7/9f7bb71ec76d4f2863ddb0bcf1dcde71/168399737_151778059_n.jpg"], "preco_fmt": "R$ 150.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 112}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiro", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/168399737/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "167949719", "telefones": "6141033646", "imgs": ["/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707571", "/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707574", "/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707572", "/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707570", "/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707573"], "vaga_garagem": 2, "secao": "Compra e Venda", "tipo_imovel": "Casa", "sala": 1, "area_construida": 180, "cidade": "Samambaia", "contato": "Maicon Gomes ", "relevancia": 1199999, "estado_cidade": "Samambaia - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 1, "dono_email": "queromeuimoveldf@gmail.com", "descricao": "VENDE SE LOTE DE 180MTS COM 04 RESIDENCIAS SENDO 02 COM 02 QUARTOS , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O E OUTRAS 02 DE 01 QUARTO , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O\n   *GARAGEM COBERTA PARA 02 CARROS!!!*\n   *PERTO DE PARADA DE \u00d4NIBUS!!!*\n   *TODAS ALUGADAS COM RENDA DE R$ 1.800.00 MENSAIS!!!*\n    *N\u00c3O FINANCIA* *MUITO BARATO!!!*\n      LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n      MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n      ENTRE: WWW.QUEROMINHACASA.COM", "data_update": "2017-09-28T14:58:02Z", "bairro": "Samambaia Norte", "categoria": "Im\u00f3veis", "preco": 180000.0, "quarto": 2, "idade_imovel": "Entre 11 e 15 anos", "categoria_slug": "imoveis", "qtd_imgs": 5, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "", "dono_id": "ppc_usu_165484805", "titulo": "Casa, 2 Quartos, 2 Vagas", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Samambaia Norte, Samambaia - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707571_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707574_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707572_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707570_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/5/c/3/5c3e96cec16e586cd070f2e36aa40bf1/167949719_151707573_n.jpg"], "preco_fmt": "R$ 180.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 180}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiro", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/167949719/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "167894719", "telefones": "6141033646", "imgs": ["/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702523", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702517", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702518", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702520", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702522", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702519", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702524", "/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702516"], "vaga_garagem": 1, "secao": "Compra e Venda", "tipo_imovel": "Casa", "sala": 1, "area_construida": 80, "cidade": "Riacho Fundo", "contato": "Maicon Gomes ", "relevancia": 1199999, "estado_cidade": "Riacho Fundo - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 2, "dono_email": "queromeuimoveldf@gmail.com", "suite": 1, "descricao": "VENDE SE LINDO SOBRADO AO LADO DA AVENIDA COMERCIAL NO CENTRO COM 02 QUARTOS SENDO UMA SUITE , SALA , COZINHA , BANHEIRO SOCIAL E \u00c1REA DE SERVI\u00c7O\n  *GARAGEM COBERTA!!!*\n  *EXCELENTE LOCAL NO CENTRO!!!*\n  *N\u00c3O FINANCIA* *MUITO BARATO!!!*\n    LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n    MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n    ENTRE: WWW.QUEROMINHACASA.COM", "data_update": "2017-09-28T14:58:02Z", "bairro": "Riacho Fundo II", "categoria": "Im\u00f3veis", "preco": 180000.0, "quarto": 2, "idade_imovel": "Entre 6 e 10 anos", "categoria_slug": "imoveis", "qtd_imgs": 8, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "", "dono_id": "ppc_usu_165484805", "titulo": "Casa, 2 Quartos, 1 Vaga, 1 Suite", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Riacho Fundo II, Riacho Fundo - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702523_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702517_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702518_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702520_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702522_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702519_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702524_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/0/6/1/061f4a647f98b15a629f2c7158459ae3/167894719_151702516_n.jpg"], "preco_fmt": "R$ 180.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 80}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiros", "valor": 2}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/167894719/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "174099719", "telefones": "6141033646", "imgs": ["/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542163", "/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542162", "/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542165", "/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542164", "/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542161", "/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542160"], "vaga_garagem": 2, "secao": "Compra e Venda", "tipo_imovel": "Casa", "sala": 1, "area_construida": 112, "cidade": "Riacho Fundo", "contato": "Maicon Gomes", "relevancia": 1199999, "estado_cidade": "Riacho Fundo - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 1, "dono_email": "queromeuimoveldf@gmail.com", "descricao": "VENDE SE LOTE NO RIACHO FUNDO 2 COM CASA DE 02 QUARTOS , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O\n    *GARAGEM PARA 02 CARROS!!!*\n    *EXCELENTE LOCAL NO CENTRO!!!*\n    *N\u00c3O FINANCIA* *MUITO BARATO!!!*\n      LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n      MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n      ENTRE: WWW.QUEROMINHACASA.COM", "data_update": "2017-09-28T14:57:03Z", "bairro": "Riacho Fundo II", "categoria": "Im\u00f3veis", "preco": 130000.0, "quarto": 2, "idade_imovel": "Entre 6 e 10 anos", "categoria_slug": "imoveis", "qtd_imgs": 6, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "", "dono_id": "ppc_usu_165484805", "titulo": "Casa, 2 Quartos, 2 Vagas", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Riacho Fundo II, Riacho Fundo - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542163_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542162_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542165_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542164_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542161_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/f/b/3/fb3ce1a209556fa3d5371c39702e0c22/174099719_152542160_n.jpg"], "preco_fmt": "R$ 130.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 112}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiro", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/174099719/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "168444726", "telefones": "6141033646", "imgs": ["/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783011", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783008", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783007", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783009", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783006", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783010", "/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783005"], "vaga_garagem": 2, "secao": "Compra e Venda", "tipo_imovel": "Casa", "sala": 1, "area_construida": 112, "cidade": "Riacho Fundo", "contato": "Maicon Gomes", "relevancia": 1199999, "estado_cidade": "Riacho Fundo - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 1, "dono_email": "queromeuimoveldf@gmail.com", "descricao": "VENDE SE LOTE COM DUAS RESIDENCIAS SENDO UMA COM 02 QUARTOS , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O E OUTRA DE 01 QUARTO , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O\n     *N\u00c3O FINANCIA* *MUITO BARATO!!!*\n       LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n       MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n       ENTRE: WWW.QUEROMINHACASA.COM", "data_update": "2017-09-28T15:01:03Z", "bairro": "Riacho Fundo II", "categoria": "Im\u00f3veis", "preco": 150000.0, "quarto": 2, "idade_imovel": "Entre 6 e 10 anos", "categoria_slug": "imoveis", "qtd_imgs": 7, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "", "dono_id": "ppc_usu_165484805", "titulo": "Casa, 2 Quartos, 2 Vagas", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Riacho Fundo II, Riacho Fundo - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783011_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783008_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783007_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783009_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783006_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783010_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/9/5/4/9548498b7b864fb3ea831fc65710f1dd/168444726_151783005_n.jpg"], "preco_fmt": "R$ 150.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 112}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiro", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/168444726/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "288514736", "telefones": "6141033646", "imgs": ["/lugarcerto/4/f/1/4f1081686185a81b49f74ce6e3bfa952/288514736_160084700"], "grupo": "Residenciais", "secao": "Compra e Venda", "tipo_imovel": "Casa", "publicar_contato": "1", "contato": "Maicon Gomes", "relevancia": 1999600, "estado_cidade": "Riacho Fundo - DF", "exibe_endereco": 2, "dono_nome": "Maicon Gomes", "dono_email": "queromeuimoveldf@gmail.com", "descricao": "MAICON GOMES  Casas na laje a partir de R$ 100.000!!! c21288 acesse j\u00e1 www.minhacasanodf.com", "data_update": "2017-09-28T15:03:02Z", "bairro": "Riacho Fundo", "quarto": 1, "categoria": "Im\u00f3veis", "categoria_slug": "imoveis", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/b9f22026a37b9bb947671238ffb4b3f4?s=40&d=mm", "titulo": "Casa, 1 Quarto", "dono_id": "ppc_usu_165484805", "cidade": "Riacho Fundo", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "estado_cidade_bairro": "Riacho Fundo, Riacho Fundo - DF", "preco": 0, "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/4/f/1/4f1081686185a81b49f74ce6e3bfa952/288514736_160084700_n.jpg"], "preco_fmt": null, "mini_descricao": [{"nome": "Quarto", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/288514736/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341030258", "telefones": "6191527424", "imgs": ["/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747826", "/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747829", "/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747830", "/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747846", "/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747849"], "grupo": "Residenciais", "secao": "Aluguel", "tipo_imovel": "Apartamento", "publicar_contato": "1", "contato": "Elaine Callak", "relevancia": 1199600, "estado_cidade": "\u00c1guas Claras - DF", "exibe_endereco": 2, "dono_nome": "Elaine Callak", "dono_email": "emtcallak@hotmail.com", "descricao": "R 04 norte, 10 andar, semi mobilado, nascente, garagem, lazer completo. Tratar 99152-7424", "data_update": "2017-09-28T17:11:05Z", "bairro": "\u00c1guas Claras", "preco": 900.0, "quarto": 1, "categoria": "Im\u00f3veis", "categoria_slug": "imoveis", "qtd_imgs": 5, "estado": "DF", "dono_tipo": "Anunciante", "publicar_preco": 1, "data_expiracao": "2017-10-14T23:59:00Z", "dono_image": "http://www.gravatar.com/avatar/6e9ee4dca2ec272926c0fc7e5c2aca74?s=40&d=mm", "titulo": "Apartamento, 1 Quarto", "dono_id": "ppc_usu_137050", "cidade": "\u00c1guas Claras", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "estado_cidade_bairro": "\u00c1guas Claras, \u00c1guas Claras - DF", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747826_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747829_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747830_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747846_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/1/f/d/1fdb9f132b90f8b0aae949c3fbb87451/341030258_169747849_n.jpg"], "preco_fmt": "R$ 900,00", "mini_descricao": [{"nome": "Quarto", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/341030258/", "link_loja": "http://classificadoscb.com.br/loja/u137050/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341039852", "telefones": "6181379160#6182449771", "imgs": ["/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744422", "/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744440", "/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744445"], "relevancia": 1999999, "contato": "Ivo Carlos Cruz Bezerra", "dono_image": "http://www.gravatar.com/avatar/1bb586a1df77ecc3920dbafbf2385e8e?s=40&d=mm", "dono_nome": "Ivo Carlos Cruz Bezerra", "dono_email": "ivocarloscruz@gmail.com", "descricao": "E se voc\u00ea puder ter um painel confeccionado com material reciclado, com todas as imagens da foto,com fundo em azul,vermelho ou amarelo de cada imagem,\u00e0 sua escolha? Ou ent\u00e3o potes confeccionados com papeis usados e bandejas de revistas\r\ncom uma das imagens do painel? Contate 81379160(whatsapp).Painel a 100 reais,potes por 10 e bandejas a 30", "data_update": "2017-09-28T08:46:07Z", "sub_categoria": "Decora\u00e7\u00e3o", "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 3, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "titulo": "Painel Decorativo e Outros Produtos Artesanais", "dono_id": "ppc_usu_3069531", "data_insercao": "28 de setembro", "publicar_contato": "1", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744422_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744440_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/1/1/5/11510a59d4e178020d8ad7fe8ebbe212/341039852_169744445_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341039852/", "link_loja": "http://classificadoscb.com.br/loja/u3069531/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"conteudo": "anu", "id": "341039981", "portal": "vrum", "imgs": ["/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745141", "/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745142", "/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745143", "/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745144", "/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745145"], "telefones": "6132343196#61991937682", "caracteristicas": ["Piloto Autom\u00e1tico", "Protetor de motor e c\u00e1rter", "Computador de bordo", "Vidro El\u00e9trico", "Rodas de liga leve", "Desemba\u00e7ador Traseiro", "CD Player", "R\u00e1dio AM\\FM", "Alarme", "Freios ABS", "Alarme \u00e1 dist\u00e2ncia", "Insulfilme", "Airbags", "Pneu reserva 0Km", "Farol de Neblina", "Ar condicionado", "Dire\u00e7\u00e3o Hidr\u00e1ulica", "Travamento portas", "Ar quente", "Espelhos el\u00e9tricos", "Trava el\u00e9trica", "Bancos de Couro"], "data_insercao": "28 de setembro", "categoria_veiculo": "Sedan", "situacao_veiculo": "Usado", "motor": "3.3", "img_legendas": ".#.#.#.#.", "texto_busca": "341039981 Ve\u00edculos Carro Hyundai Azera Gls 3.3 V6 24v 4p Aut. Sedan 2011 Gasolina 015069-0 DF Bras\u00edlia/Plano Piloto RICARDO PADOVAN", "contato": "Ricardo Padovan", "ano_fabricacao": 2010, "relevancia": 1199600, "estado_cidade": "Bras\u00edlia/Plano Piloto - DF", "exibe_endereco": 2, "dono_nome": "", "combustivel": "Gasolina", "ano_modelo": 2011, "versao": "Azera Gls 3.3 V6 24v 4p Aut.", "fabricante": "Hyundai", "search": "341039981 veiculos carro hyundai azera gls 3 3 v6 24v 4p aut sedan 2011 gasolina 015069 0 df brasilia plano piloto ricardo padovan", "descricao": "Chave reserva\nCarro Revisado\nDocumenta\u00e7\u00e3o ok\nEstepe Novo\nIpva Pago\nManual\nNenhuma batida\nParece novo\nPneus Novos\n", "porta": 4, "kilometragem": 85000, "codigo_fipe": "015069-0", "preco": 42000.0, "publicar_preco": 1, "cor": "Preto", "categoria": "Ve\u00edculos", "caracteristicas_tn": "Piloto Autom\u00e1tico#Protetor de motor e c\u00e1rter#Computador de bordo#Vidro El\u00e9trico#Rodas de liga leve#Desemba\u00e7ador Traseiro#CD Player#R\u00e1dio AM\\FM#Alarme#Freios ABS#Alarme \u00e1 dist\u00e2ncia#Insulfilme#Airbags#Pneu reserva 0Km#Farol de Neblina#Ar condicionado#Dire\u00e7\u00e3o Hidr\u00e1ulica#Travamento portas#Ar quente#Espelhos el\u00e9tricos#Trava el\u00e9trica#Bancos de Couro", "qtd_imgs": 5, "placa": "JIJ7270", "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-10-12T23:59:00Z", "dono_image": "", "transmissao": "Autom\u00e1tico", "titulo": "Hyundai Azera Gls 3.3 V6 24v 4p Aut.", "categoria_slug": "veiculos", "version": 39, "dono_id": "ppc_usu_196918", "data_update": "2017-09-28T11:05:02Z", "cidade": "Bras\u00edlia/Plano Piloto", "modelo_base": "Azera", "dono_email": "padovan.ricardo@gmail.com", "sub_categoria": "Carro", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745141_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745142_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745143_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745144_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/9/6/3/963ccdd429ef30b0932c860c80d99677/341039981_169745145_n.jpg"], "preco_fmt": "R$ 42.000,00", "mini_descricao": [{"nome": "KM", "valor": 85000}, {"nome": "Portas", "valor": 4}, {"nome": "", "valor": "2010/2011"}], "link_detalhe": "http://classificadoscb.com.br/anuncio/veiculos/341039981/", "link_loja": "http://classificadoscb.com.br/loja/u196918/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341040009", "telefones": "61983832613#6183197047", "imgs": ["/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745235", "/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745234", "/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745236"], "relevancia": 1999999, "contato": "Gl\u00bfio", "dono_image": "", "dono_nome": "", "dono_email": "glaucionunesde@gmail.com", "descricao": "Pe\u00e7a seu or\u00e7amento\r\n61 98383-2613\r\nWhatsapp\r\n\r\nConcertinas\r\nCercas El\u00e9tricas\r\nAlarmes\r\nMotores para Port\u00f5es autom\u00e1ticos\r\n\r\n61 98383-2613\r\nWhatsapp", "data_update": "2017-09-28T11:33:03Z", "publicar_contato": 0, "preco": 0.0, "categoria": "Para Sua Casa", "categoria_slug": "para sua casa", "qtd_imgs": 3, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "titulo": "Proteja Seu Im\u00f3vel - Concertinas, Cercas \u00c9letricas, Alarmes", "dono_id": "ppc_usu_3092396", "data_insercao": "28 de setembro", "sub_categoria": "Servi\u00e7os (para Sua Casa)", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745235_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745234_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/8/8/3/883f565c22a4a497e2e5538e22a98dba/341040009_169745236_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/para-sua-casa/341040009/", "link_loja": "http://classificadoscb.com.br/loja/u3092396/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"conteudo": "anu", "id": "341030149", "portal": "vrum", "telefones": "61981035129", "imgs": ["/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745311", "/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745312", "/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745313", "/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745314", "/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745315"], "caracteristicas": ["Vidro El\u00e9trico", "Rodas de liga leve", "CD Player", "Toca-fitas", "Alarme", "Airbag (S\u00f3 motorista)", "Freios ABS", "Alarme \u00e1 dist\u00e2ncia", "Ar condicionado", "Dire\u00e7\u00e3o Hidr\u00e1ulica", "Travamento portas", "Ar quente", "Trava el\u00e9trica", "Bancos de Couro", "Limpador traseiro"], "data_insercao": "28 de setembro", "motor": "1.5", "img_legendas": ".#.#.#.#.", "texto_busca": "341030149 Ve\u00edculos Carro Honda Fit 2010 Flex DF Bras\u00edlia/Plano Piloto MARIA DAS MERC\u00bf DA SILVA CARVALHO", "contato": "Maria das Merc\u00bf da Silva Carvalho", "ano_fabricacao": 2010, "relevancia": 1199600, "estado_cidade": "Bras\u00edlia/Plano Piloto - DF", "exibe_endereco": 2, "dono_nome": "", "combustivel": "Flex", "ano_modelo": 2010, "versao": "Fit", "fabricante": "Honda", "search": "341030149 veiculos carro honda fit 2010 flex df brasilia plano piloto maria das merc da silva carvalho", "descricao": "FIT 10/10 EXL preto autom compl + couro 2\u00aa dona R$31mil 98301-5129", "porta": 4, "kilometragem": 130000, "modelo_base": "Fit", "preco": 29000.0, "publicar_preco": 1, "cor": "Preto", "categoria": "Ve\u00edculos", "situacao_veiculo": "Usado", "caracteristicas_tn": "Vidro El\u00e9trico#Rodas de liga leve#CD Player#Toca-fitas#Alarme#Airbag (S\u00f3 motorista)#Freios ABS#Alarme \u00e1 dist\u00e2ncia#Ar condicionado#Dire\u00e7\u00e3o Hidr\u00e1ulica#Travamento portas#Ar quente#Trava el\u00e9trica#Bancos de Couro#Limpador traseiro", "qtd_imgs": 5, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-10-02T23:59:00Z", "dono_image": "", "transmissao": "Autom\u00e1tico", "titulo": "Honda Fit", "categoria_slug": "veiculos", "version": 39, "dono_id": "ppc_usu_196644", "data_update": "2017-09-28T11:45:03Z", "cidade": "Bras\u00edlia/Plano Piloto", "dono_email": "mercescarvalho@hotmail.com", "sub_categoria": "Carro", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745311_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745312_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745313_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745314_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/4/f/4/4f468064bee779731af3495f28d67c58/341030149_169745315_n.jpg"], "preco_fmt": "R$ 29.000,00", "mini_descricao": [{"nome": "KM", "valor": 130000}, {"nome": "Portas", "valor": 4}, {"nome": "", "valor": "2010/2010"}], "link_detalhe": "http://classificadoscb.com.br/anuncio/veiculos/341030149/", "link_loja": "http://classificadoscb.com.br/loja/u196644/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341040002", "telefones": "61983832613#6183197047", "imgs": ["/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745198", "/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745196", "/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745197", "/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745199"], "relevancia": 1999999, "contato": "Gl\u00bfio", "dono_image": "", "dono_nome": "", "dono_email": "nunesnunesdf@gmail.com", "descricao": "Resid\u00eancial, Predial e Comercial\r\nCasas. Apartamentos, Lojas, Pontos Comercias, Salas, Cl\u00ednicas...\r\n\r\nPe\u00e7a Seu Or\u00e7amento\r\n61 9 8383-2613\r\nWhatsapp\r\n\r\nEmpresa especializada em constru\u00e7\u00e3o, pinturas e reformas em geral com refer\u00eancia em todo o Distrito Federal.\r\n\r\nMais de 12 Anos de Tradi\u00e7\u00e3o.\r\n\r\nAcabamentos em geral m\u00e1rmore, granitos, pisos, reformas de banheiros e cozinhas, porcelanatos, grafiatos, texturas, verniz, coloca\u00e7\u00e3o de pastilhas, decora\u00e7\u00e3o em gesso.\r\n\r\nFazemos or\u00e7amentos sem compromisso.\r\n\r\nNossa equipe \u00e9 treinada para atender o cliente com responsabilidade, atingindo suas expectativas de tornar o seu ambiente residencial ou comercial em um lugar mais agrad\u00e1vel.\r\n\r\n61 98383-2613\r\nWhatsapp ", "data_update": "2017-09-28T11:45:03Z", "sub_categoria": "Engenharia", "preco": 0.0, "categoria": "Servi\u00e7os Profissionais", "categoria_slug": "servicos profissionais", "qtd_imgs": 4, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "titulo": "Constru\u00e7\u00f5es, Reformas, Acabamentos ", "dono_id": "ppc_usu_3092396", "data_insercao": "28 de setembro", "publicar_contato": 0, "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745198_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745196_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745197_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/classificados/9/8/a/98a0412e2b3b01113c3aab1cc94e98f4/341040002_169745199_n.jpg"], "preco_fmt": null, "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/servicos-profissionais/341040002/", "link_loja": "http://classificadoscb.com.br/loja/u3092396/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"conteudo": "anu", "id": "341040017", "portal": "vrum", "imgs": ["/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745349", "/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745317", "/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745350", "/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745318", "/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745347", "/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745348"], "telefones": "61981255552#6141010770", "caracteristicas": ["Protetor de motor e c\u00e1rter", "Vidro El\u00e9trico", "Desemba\u00e7ador Traseiro", "CD Player MP3", "Alarme", "Freios ABS", "Airbags", "Pneu reserva 0Km", "Ar condicionado", "Dire\u00e7\u00e3o Hidr\u00e1ulica", "Travamento portas", "Ar quente", "Trava el\u00e9trica", "Limpador traseiro"], "data_insercao": "28 de setembro", "version": 39, "categoria_veiculo": "Hatchback", "situacao_veiculo": "Usado", "motor": "1.0", "preco_parcela": 521.0, "img_legendas": ".#.#.#.#.#.", "texto_busca": "341040017 Ve\u00edculos Carro Chevrolet Onix Hatch Lt 1.0 8v Flexpower 5p Mec. Hatchback 2015 Flex 004424-5 DF Taguatinga william  almeida dos santos", "contato": "William  Almeida dos Santos", "ano_fabricacao": 2014, "relevancia": 1199800, "estado_cidade": "Taguatinga - DF", "exibe_endereco": 2, "dono_nome": "", "combustivel": "Flex", "versao": "Onix Hatch Lt 1.0 8v Flexpower 5p Mec.", "fabricante": "Chevrolet", "search": "341040017 veiculos carro chevrolet onix hatch lt 1 0 8v flexpower 5p mec hatchback 2015 flex 004424 5 df taguatinga william almeida dos santos", "descricao": "Sem Entrada \ndividimos a 1a parcela em ate 3x no cart\u00e3o de credito 2a parcela s\u00f3 para 60 dias.*\ndireto com a fabrica. \nconsulte tabela com outros planos do Prisma,Cobalt,Cruze,Spin, S10...", "porta": 5, "preco": 34000.0, "publicar_preco": 1, "cor": "Branco", "categoria": "Ve\u00edculos", "caracteristicas_tn": "Protetor de motor e c\u00e1rter#Vidro El\u00e9trico#Desemba\u00e7ador Traseiro#CD Player MP3#Alarme#Freios ABS#Airbags#Pneu reserva 0Km#Ar condicionado#Dire\u00e7\u00e3o Hidr\u00e1ulica#Travamento portas#Ar quente#Trava el\u00e9trica#Limpador traseiro", "qtd_imgs": 6, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-10-04T23:59:00Z", "dono_image": "", "transmissao": "Manual", "titulo": "Chevrolet Onix Hatch Lt 1.0 8v Flexpower 5p Mec.", "categoria_slug": "veiculos", "dono_id": "ppc_usu_2984049", "data_update": "2017-09-28T12:00:03Z", "cidade": "Taguatinga", "modelo_base": "Onix", "dono_email": "williamcnvolks@gmail.com", "sub_categoria": "Carro", "ano_modelo": 2015, "codigo_fipe": "004424-5", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745349_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745317_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745350_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745318_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745347_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/c/b/2/cb212dd9888f88f8553f36ef7c6eecec/341040017_169745348_n.jpg"], "preco_fmt": "R$ 34.000,00", "mini_descricao": [{"nome": "Portas", "valor": 5}, {"nome": "", "valor": "2014/2015"}], "link_detalhe": "http://classificadoscb.com.br/anuncio/veiculos/341040017/", "link_loja": "http://classificadoscb.com.br/loja/u2984049/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341040055", "telefones": "6141010770#6181255552", "imgs": ["/classificados/5/0/b/50bbe11e48c787f6f38fb9e42c84862e/341040055_169745599"], "relevancia": 1199999, "contato": "William  Almeida dos Santos", "dono_image": "", "dono_nome": "", "dono_email": "williamcnvolks@gmail.com", "descricao": "cr\u00e9ditos a partir  de 25 mil com parcelas a partir de  450,55\r\n william 61 9 8125-5552 (whatssapp)\r\nEnd: CBS 02 TAGUATINGA SUL \r\nCEP: 72015-901\r\nEMAIL: williamcnvolks@gmail.com", "data_update": "2017-09-28T12:57:03Z", "publicar_contato": 0, "preco": 25000.0, "publicar_preco": 1, "categoria": "Com\u00e9rcio e Neg\u00f3cios", "categoria_slug": "comercio e negocios", "qtd_imgs": 1, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-11-27T23:59:00Z", "titulo": "Carta de Credito Para Carro, Moto Caminh\u00e3o  Sem Entrada", "dono_id": "ppc_usu_2984049", "data_insercao": "28 de setembro", "sub_categoria": "Assessoria de Cr\u00e9dito, Dinheiro e Finan\u00e7as", "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/classificados/5/0/b/50bbe11e48c787f6f38fb9e42c84862e/341040055_169745599_n.jpg"], "preco_fmt": "R$ 25.000,00", "mini_descricao": [], "link_detalhe": "http://classificadoscb.com.br/anuncio/comercio-e-negocios/341040055/", "link_loja": "http://classificadoscb.com.br/loja/u2984049/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"id": "341040162", "caracteristicas_seguranca": ["Guarita na portaria"], "imgs": ["/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746377", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746372", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746378", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746375", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746371", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746373", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746374", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746376", "/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746370"], "caracteristicas": ["Guarita na portaria", "Interfone"], "caracteristicas_condominio": ["Interfone"], "vaga_garagem": 1, "secao": "Compra e Venda", "cidade": "Samambaia", "sala": 1, "area_construida": 47, "categoria": "Im\u00f3veis", "contato": "Maicon Gomes", "relevancia": 1199999, "estado_cidade": "Samambaia - DF", "exibe_endereco": 2, "dono_nome": "", "banheiro": 1, "dono_email": "queromeuimoveldf@gmail.com", "descricao": "VENDE SE \u00c1GIO DE LINDO APARTAMENTO NA QN 402 DE SAMAMBAIA NORTE COM 02 QUARTOS , SALA , COZINHA , BANHEIRO E \u00c1REA DE SERVI\u00c7O\n  *APARTAMENTO COM VAGA DE GARAGEM COBERTA!!!*\n  *EXCELENTE LOCAL NO CENTRO DE SAMAMBAIA!!!*\n  *SALDO DEVEDOR: R$ 113.900.00 , PRESTA\u00c7\u00c3O: R$ 600.00 , COND\u00d3MINIO: R$ 200.00*\n    LIGUE AGORA: 4103-3646 , 99244-1618 , 99858-1618 , 98446-1045\n    MAICON GOMES CORRETOR DE IM\u00d3VEIS CRECI: 21288\n   ENTRE EM NOSSO SITE:\n   WWW.MINHACASANODF.COM", "tipo_imovel": "Apartamento", "preco_condominio": 200.0, "bairro": "Samambaia Norte", "idade_imovel": "Entre 1 e 5 anos", "data_update": "2017-09-28T15:25:03Z", "unidade_andar": 4, "preco": 95000.0, "quarto": 2, "estado": "DF", "qtd_imgs": 9, "data_expiracao": "2017-10-12T23:59:00Z", "dono_tipo": "Anunciante", "publicar_preco": 1, "elevador": 2, "dono_image": "", "categoria_slug": "imoveis", "dono_id": "ppc_usu_165484805", "titulo": "Apartamento, 2 Quartos, 1 Vaga", "data_insercao": "28 de setembro", "sub_categoria": "Residenciais", "grupo": "Residenciais", "estado_cidade_bairro": "Samambaia Norte, Samambaia - DF", "andar": 6, "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746377_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746372_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746378_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746375_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746371_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746373_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746374_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746376_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/lugarcerto/b/8/a/b8a4e7033f33c4a3693d78125c1568d6/341040162_169746370_n.jpg"], "preco_fmt": "R$ 95.000,00", "mini_descricao": [{"nome": "m\u00b2", "valor": 47}, {"nome": "Quartos", "valor": 2}, {"nome": "Banheiro", "valor": 1}], "link_detalhe": "http://classificadoscb.com.br/anuncio/imoveis/341040162/", "link_loja": "http://classificadoscb.com.br/loja/u165484805/", "data_insercao_h": "28/09/2017", "destaque": 0}, {"conteudo": "anu", "id": "341040175", "portal": "vrum", "imgs": ["/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746571", "/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746572", "/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746573", "/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746570"], "telefones": "6138779993#61992293687", "caracteristicas": ["Bagageiro", "Partida El\u00e9trica", "Alarme", "Escapamento Esportivo"], "data_insercao": "28 de setembro", "categoria_veiculo": "Custom/Chopper", "situacao_veiculo": "Usado", "motor": "4 Tempos", "img_legendas": ".#.#.#.", "texto_busca": "341040175 Ve\u00edculos Moto Harley-davidson Street Bob Fxdb Custom/Chopper 2016 Gasolina 810074-8 DF Bras\u00edlia/Plano Piloto ALEXANDRE TOSTES SALIN E SOUZA", "contato": "Alexandre Tostes Salin e Souza", "ano_fabricacao": 2015, "relevancia": 1199800, "estado_cidade": "Bras\u00edlia/Plano Piloto - DF", "exibe_endereco": 2, "dono_nome": "", "combustivel": "Gasolina", "versao": "Street Bob Fxdb", "fabricante": "Harley-davidson", "search": "341040175 veiculos moto harley davidson street bob fxdb custom chopper 2016 gasolina 810074 8 df brasilia plano piloto alexandre tostes salin e souza", "descricao": "Ve\u00edculo com d\u00edvida\n\u00danico dono\n", "data_update": "2017-09-28T15:45:03Z", "kilometragem": 24600, "codigo_fipe": "810074-8", "preco": 42000.0, "publicar_preco": 1, "cor": "Preto", "categoria": "Ve\u00edculos", "caracteristicas_tn": "Bagageiro#Partida El\u00e9trica#Alarme#Escapamento Esportivo", "qtd_imgs": 4, "estado": "DF", "dono_tipo": "Anunciante", "data_expiracao": "2017-10-04T23:59:00Z", "dono_image": "", "titulo": "Harley-davidson Street Bob Fxdb", "categoria_slug": "veiculos", "version": 39, "dono_id": "ppc_usu_196937", "cidade": "Bras\u00edlia/Plano Piloto", "modelo_base": "Street", "dono_email": "alexandretostes77@gmail.com", "sub_categoria": "Moto", "ano_modelo": 2016, "fotos_formatadas": ["http://imgs.classificadoscb.com.br/anuncio/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746571_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746572_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746573_n.jpg", "http://imgs.classificadoscb.com.br/anuncio/vrum/0/4/f/04ff3a7d0b423145d5516697acfa016c/341040175_169746570_n.jpg"], "preco_fmt": "R$ 42.000,00", "mini_descricao": [{"nome": "KM", "valor": 24600}, {"nome": "", "valor": "2015/2016"}], "link_detalhe": "http://classificadoscb.com.br/anuncio/veiculos/341040175/", "link_loja": "http://classificadoscb.com.br/loja/u196937/", "data_insercao_h": "28/09/2017", "destaque": 0}], "page_info": {"total_hits": "20.306", "total_pages": 54, "current_page": 1, "hits_page": 21, "limit": 20, "offset": 0, "orderby": "mais-recentes", "breadcrumb": "Todos os an\u00fancios "}},
+			"http://www.classificadoscb.com.br",
+			"http://www.classificadoscb.com.br/app/enviar_proposta_anuncio"
+		);
+
+		jQuery( window ).resize(function(e) {
+			DesenhaFiltros.modifica_estado_itens(e);
+    });
+	});
+
+	function formata_descricao(descricao) {
+		if (descricao.length > 150) {
+			return descricao.slice(0, 150) + " ...";
+		} else {
+			return descricao
+		}
+	}
+
+	var list;
+	var current;
+	var dimension2Value = '';
+
+	// Verifying buttons status
+	function verifyButtons(e) {
+		if (current <= 0) {
+			e.parent().find('.prev-img').attr("disabled", "disabled");
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().addClass('first');
+		}else if((current + 1) >= list.length){
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", "disabled");
+			e.parent().addClass('last');
+		}else{
+			e.parent().find('.prev-img').attr("disabled", false);
+			e.parent().find('.next-img').attr("disabled", false);
+			e.parent().removeClass('first');
+			e.parent().removeClass('last');
+		}
+	}
+
+	// Changing image
+	function changeImage(e) {
+		current = e.parent().data('current');
+		if (e.hasClass('next-img')) {
+			current++;
+			e.parent().data('current', current);
+		} else {
+			current--;
+			e.parent().data('current', current);
+		}
+		list = e.parent().siblings('.image__list').data('images');
+		if (typeof(list[current]) !== 'undefined') {
+			e.parent().css("background-image", "url("+list[current]+")");
+			e.parent().fadeIn(300);
+		}
+	}
+</script> 
+  <!-- SCRIPTS --> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.cookie.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/modernizr.2.6.2.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/moment-with-locales.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/tmpl.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/header-fix.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/nav-master.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/components/menu-category.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/hammer-time.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/jquery.hammer.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/tab-sidebar.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/components/send-filters.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/chosen.jquery.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/dev.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/cb/assets/js/vendor/echo.min.js"></script> 
+  <script type="text/javascript" src="http://www.classificadoscb.com.br/novo/static/base/assets/js/vendor/jquery.mask.min.js"></script>  
+ </body>
+</html>

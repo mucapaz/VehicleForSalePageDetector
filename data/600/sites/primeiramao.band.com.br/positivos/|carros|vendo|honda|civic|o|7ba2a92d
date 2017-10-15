@@ -1,0 +1,1014 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=IE8"> 
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"e4a47941cc","applicationID":"3671674","transactionName":"d10NQxRWWQlUS0wBDlVBEF4AUFABHlgHEU1HWgxA","queueTime":0,"applicationTime":337,"agent":""}</script> 
+  <script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgEGUlZSGwAGU1BUAAU="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,s.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,s.now()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(15)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(15)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(15)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,w,"fn-",c)}function i(t){g.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(15)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,y="readystatechange",w=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(y,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,x),x.prototype=p.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===y||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=a.now()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var c=0;c<d;c++)e.addEventListener(u[c],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,e){u[e]=o(l+e,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(p+"tracer",[f.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(p+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],15:[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(f){l([f,"",[r,a,o],c])}u(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],c),d}finally{u(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<e.length;s++)c=e[s],a=t[c],r(a)||(t[c]=n(a,f?c+o:o,i,c))}function u(n,r,o){if(!s||e){var i=s;s=!0;try{t.emit(n,r,o,e)}catch(a){l([a,n,r,o])}s=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){l([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function l(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?s(t,c,i):i()}function n(n,r,o,i){if(!l.aborted||i){t&&t(n,r,o);for(var a=e(o),c=h(n),s=c.length,f=0;f<s;f++)c[f].apply(a,r);var d=u[w[n]];return d&&d.push([g,n,r,a]),a}}function p(t,e){y[t]=h(t).concat(e)}function h(t){return y[t]||[]}function m(t){return d[t]=d[t]||o(n)}function v(t,e){f(t,function(t,n){e=e||"feature",w[n]=e,e in u||(u[e]=[])})}var y={},w={},g={on:p,emit:n,get:m,listeners:h,context:e,buffer:v,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var c="nr@context",s=t("gos"),f=t(12),u={},d={},l=e.exports=o();l.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!b++){var t=x.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(w,function(e,n){t[e]||(t[e]=n)}),s("mark",["onload",a()+x.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){s("mark",["domContent",a()+x.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(c=Math.max((new Date).getTime(),c))-x.offset}var c=(new Date).getTime(),s=t("handle"),f=t(12),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,v=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,w={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&v&&v[p]&&!/CriOS/.test(navigator.userAgent),x=e.exports={offset:c,now:a,origin:y,features:{},xhrWrappable:g};t(9),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),s("mark",["firstbyte",c],null,"api");var b=0,E=t(14)},{}]},{},["loader",2,7]);</script> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"> 
+  <meta name="robots" content="index, follow"> 
+  <title>Vendo Honda Civic | Primeiramão</title> 
+  <meta name="description" content="Vendo Honda Civic 2006, unico dono, motor 1.7 130 cv, direção  hidráulica, ar condicionado quente e frio, rodas de liga leve, bancos de couro, som cd player MP3 com entrada auxiliar e disqueteira embutida para 06 CD's, cambio mecânico. Carro bem cuidado com todas as revisões na concessionária, inclusive a ultima revisão.
+Aceito troca por carros mais novos, civic, I30, Corolla a partir de 2010. "> 
+  <meta name="keywords" content="carros,"> 
+  <meta name="environment" content="production"> 
+  <meta content="authenticity_token" name="csrf-param"> 
+  <meta content="/QxjXdli61VTfRQIcnkpwGwK0cR36B8eie2T40Xyjzw=" name="csrf-token"> 
+  <base href="/" target="_self"> 
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
+  <link rel="assets" href="//static0.primeiramao.com.br"> 
+  <link rel="api" href="//primeiramao.band.com.br/v2/"> 
+  <link rel="canonical" href="/carros/vendo-honda-civic/o/7ba2a92d"> 
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"> 
+  <link href="http://static2.primeiramao.com.br/assets/offer-a47921c20de6a2ff577fb59ae05f9df4.css" media="screen" rel="stylesheet"> 
+  <script defer src="http://static0.primeiramao.com.br/assets/vendor/modernizr-97d7fc87605db108613fae89f07c653c.js"></script> 
+  <meta name="gaid" content="UA-2301513-1"> 
+  <script defer>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+</script> 
+  <!-- Google Tag Manager --> 
+  <noscript>
+   &lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-M2B28W" height="0" width="0" style="display:none;visibility:hidden"&gt;
+  </noscript> 
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M2B28W');
+</script> 
+  <!-- End Google Tag Manager --> 
+  <script type="text/javascript" defer>
+
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function () {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script> 
+  <script type="text/javascript" defer>
+    googletag.cmd.push(function() {
+        var superMapping = googletag.sizeMapping().
+                addSize([320, 400], [[320, 50], [300, 50]]). // Accepts both common mobile banner formats
+                addSize([320, 700], [320, 50]).              // Same width as mapping above, more available height
+                addSize([750, 200], [468, 60]).              // Landscape tablet
+                addSize([1000, 200], [[728, 315], [728, 90]])
+                .build();
+
+        googletag.defineSlot('/3981815/super', [728, 90], 'div-gpt-ad-super').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky', [120, 600], 'div-gpt-ad-sky').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo', [120, 600], 'div-gpt-ad-sky-left').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml', [300, 250], 'div-gpt-ad-dhtml').addService(googletag.pubads());
+
+        /*para campinas e santos*/
+        googletag.defineSlot('/3981815/super-Campinas', [728, 90], 'div-gpt-ad-super-Campinas').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky-Campinas', [120, 600], 'div-gpt-ad-sky-Campinas').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo-Campinas', [120, 600], 'div-gpt-ad-sky-left-Campinas').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml-Campinas', [300, 250], 'div-gpt-ad-dhtml-Campinas').addService(googletag.pubads());
+
+        googletag.defineSlot('/3981815/super-Santos', [728, 90], 'div-gpt-ad-super-Santos').defineSizeMapping(superMapping).addService(googletag.pubads());
+        googletag.defineSlot('/3981815/sky-Santos', [120, 600], 'div-gpt-ad-sky-Santos').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/Sky_Esquerdo-Santos', [120, 600], 'div-gpt-ad-sky-left-Santos').addService(googletag.pubads());
+        googletag.defineSlot('/3981815/dhtml-Santos', [300, 250], 'div-gpt-ad-dhtml-Santos').addService(googletag.pubads());
+
+            googletag.pubads().setTargeting("page", "ad_details");
+    googletag.pubads().setTargeting("categories", "carros");
+
+
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+    });
+</script> 
+ </head> 
+ <body class="antialiased"> 
+  <div class="contain-to-grid sticky"> 
+   <nav class="top-bar" data-topbar data-index> 
+    <ul class="title-area"> 
+     <li class="name"> <h1 class="hide">Vendo Honda Civic | Primeiramão</h1> <span class="logo-pm"><a href="/"><img alt="Vendo Honda Civic | Primeiramão" src="http://static0.primeiramao.com.br/assets/logo-831b3fb5e141db88b2c76c4fbe9333e8.png"></a></span> </li> 
+     <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li> 
+    </ul> 
+    <section class="top-bar-section"> 
+     <ul class="right"> 
+      <li class="category-car border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/carros" target="_blank"> <i class="category-icon"></i> <span>Carros</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/fiorino/categoria/Carros" target="_blank">fiorino</a></li> 
+          <li><a href="/b/santana/categoria/Carros" target="_blank">santana</a></li> 
+          <li><a href="/b/corsa/categoria/Carros" target="_blank">corsa</a></li> 
+          <li><a href="/b/honda/categoria/Carros" target="_blank">honda</a></li> 
+          <li><a href="/b/civic/categoria/Carros" target="_blank">civic</a></li> 
+          <li><a href="/b/gol/categoria/Carros" target="_blank">gol</a></li> 
+          <li><a href="/b/uno/categoria/Carros" target="_blank">uno</a></li> 
+          <li><a href="/b/saveiro/categoria/Carros" target="_blank">saveiro</a></li> 
+          <li><a href="/b/palio/categoria/Carros" target="_blank">palio</a></li> 
+          <li><a href="/b/chevrolet/categoria/Carros" target="_blank">chevrolet</a></li> 
+          <li><a href="/b/fiat/categoria/Carros" target="_blank">fiat</a></li> 
+          <li><a href="/b/ford/categoria/Carros" target="_blank">ford</a></li> 
+          <li><a href="/b/volkswagen/categoria/Carros" target="_blank">volkswagen</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-car"> 
+           <a id="fd12f7e5" href="/carros/gol-g-5-1-ponto-6-completo/o/fd12f7e5" class="showcase-offer category-border" data-offer-code="fd12f7e5" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="         " src="http://static1.primeiramao.com.br/uploads/classifieds/photos/b0/3bd2/d241d30b25a70cda65d632afd4c34c908bd/1854906/thumb_95cc2304a9f6decb70fed6a73dc354029e91c408.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 6
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Gol G 5 - 1.6 completo ( muito barato ) ipva e dpvat pago </h5> 
+            <div class="price category-bg">
+              R$ 18.900,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+              <li><p>Quilometros <strong>117000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/david100">David</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-car"> 
+           <a id="2235c085" href="/carros/grand-livina-barra-2010/o/2235c085" class="showcase-offer category-border" data-offer-code="2235c085" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="  " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/7d/61fe/feb03e8f73203dee881ae0e06f67dd4f915/942193/thumb_0d81370cd406c13ee965859bb0c35c5fd32126f7.jpg"> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Grand Livina/2010</h5> 
+            <div class="price category-bg">
+              R$ 102.000,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2010</strong></p></li> 
+              <li><p>Quilometros <strong>76000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/veti">Ivete</a> há quase 3 anos 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-home border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/imoveis" target="_blank"> <i class="category-icon"></i> <span>Imóveis</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/apartamento/categoria/Imóveis" target="_blank">apartamento</a></li> 
+          <li><a href="/b/casa/categoria/Imóveis" target="_blank">casa</a></li> 
+          <li><a href="/b/compra/categoria/Imóveis" target="_blank">compra</a></li> 
+          <li><a href="/b/venda/categoria/Imóveis" target="_blank">venda</a></li> 
+          <li><a href="/b/aluguel/categoria/Imóveis" target="_blank">aluguel</a></li> 
+          <li><a href="/b/temporada/categoria/Imóveis" target="_blank">temporada</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-"> 
+           <a id="426eedcc" href="/sitio-chacara-e-fazenda/chacara-em-aruja-bairro-dos-canjicas-1/o/426eedcc" class="showcase-offer category-border" data-offer-code="426eedcc" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/a6/f0cf/cfeafc5d3b84c65c97c15886218a8e1b8d4/2353667/thumb_688048528ae48e6fe4abb257a24417a1ca35171e.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 7
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label secondary">DESTAQUE</span> 
+             </div> 
+            </figure> <h5>CHÁCARA EM ARUJÁ - BAIRRO DOS CANJICAS</h5> 
+            <div class="price category-bg">
+              R$ 2.000.000,00 
+            </div> 
+            <div class="specs">
+              CHACARÁ EM ARUJÁ CASA SEDE C/ 4 SUÍTES, UMA COM BANHEIRA; + 3 DORMITÓRIOS; SALA DE JANTAR CONJUGADA SALA DE ESTAR COM LAREIRA; + COZIN... 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/ce6560e38a2f95c4540e6c26ece1dce81501679521">APARICIO</a> há quase 2 meses 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-"> 
+           <a id="e19789b7" href="/casa/bertioga-alugo-casa-temporada/o/e19789b7" class="showcase-offer category-border" data-offer-code="e19789b7" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/10/282e/2ec13452e884d9d4c53ea7baf81f1039b5f/2356363/thumb_33fbff0848e61907a31c0a24488fab7cb8b75977.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 7
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label secondary">DESTAQUE</span> 
+             </div> 
+            </figure> <h5>BERTIOGA - ALUGO CASA TEMPORADA</h5> 
+            <div class="price category-bg">
+              R$ 0,00 
+            </div> 
+            <div class="specs">
+              4 dorms, piscina, 4 vagas, a 500m da praia, acomoda ate 15 pessoas. Valor a combinar. (11)2594-6065 (11)98221-3080 Tratar com Natir 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/lludovici">Primeiramão</a> há quase 1 mês 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-truck border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/caminhoes" target="_blank"> <i class="category-icon"></i> <span>Caminhões</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/ford/categoria/Caminhões" target="_blank">ford</a></li> 
+          <li><a href="/b/iveco/categoria/Caminhões" target="_blank">iveco</a></li> 
+          <li><a href="/b/mercedes/categoria/Caminhões" target="_blank">mercedes</a></li> 
+          <li><a href="/b/scania/categoria/Caminhões" target="_blank">scania</a></li> 
+          <li><a href="/b/volkswagen/categoria/Caminhões" target="_blank">volkswagen</a></li> 
+          <li><a href="/b/volvo/categoria/Caminhões" target="_blank">volvo</a></li> 
+          <li><a href="/b/MB/categoria/Caminhões" target="_blank">MB</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-truck"> 
+           <a id="2d6f55a5" href="/caminhoes/guincho-plataforma-1/o/2d6f55a5" class="showcase-offer category-border" data-offer-code="2d6f55a5" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt=" " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/e5/4e41/414bce1620969726d58176c7a6aa6c12ed4/1835651/thumb_bba409511e5abc7f1ab3707012c542d889ce9fca.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 8
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Guincho plataforma</h5> 
+            <div class="price category-bg">
+              R$ 85.000,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2009</strong></p></li> 
+              <li><p>Quilometros <strong>20</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/711cc9a4b9fcdba7d32524352b9a13241454867583">Márcio</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-truck"> 
+           <a id="d8c4ea29" href="/caminhoes/volks-17250-carroceria-bitruck-ano-2012/o/d8c4ea29" class="showcase-offer category-border" data-offer-code="d8c4ea29" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="     " src="http://static0.primeiramao.com.br/uploads/classifieds/photos/28/7f26/2633cc50538af106f8ae3df8cdaee03a0a6/2359091/thumb_84623db1c6d3d593ee0e2db9576d35a33867ce83.jpg"> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>VOLKS 17250 CARROCERIA BITRUCK ANO 2012 </h5> 
+            <div class="price category-bg">
+              R$ 17.500,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+              <li><p>Quilometros <strong>129000</strong></p></li> 
+             </ul> 
+            </div> 
+            <div class="seller-logo"> 
+             <img alt="SINDESCAR REPRESENTACOES COMERCIAIS LTDA" src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y"> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/parceiro/sindescar">SINDESCAR REPRESENTACOES COMERCIAIS LTDA</a> há 28 dias 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-motocycle border bg-hover icon-hover has-panel"> <a class="category-bg-hover" href="/categoria/motos" target="_blank"> <i class="category-icon"></i> <span>Motos</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-6 columns options"> 
+         <ul> 
+          <li><a href="/b/dafra/categoria/Motos" target="_blank">dafra</a></li> 
+          <li><a href="/b/honda/categoria/Motos" target="_blank">honda</a></li> 
+          <li><a href="/b/suzuki/categoria/Motos" target="_blank">suzuki</a></li> 
+          <li><a href="/b/yamaha/categoria/Motos" target="_blank">yamaha</a></li> 
+          <li><a href="/b/CG 125/categoria/Motos" target="_blank">CG 125</a></li> 
+         </ul> 
+        </div> 
+        <div class="large-6 columns top-bar-panel-extension category-bg"> 
+         <div class="row showcase showcase-card"> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+           <a id="f0e6d3e3" href="/motos/kawasaki-vulcan-900-custom/o/f0e6d3e3" class="showcase-offer category-border" data-offer-code="f0e6d3e3" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/3f/13c5/c5706f6a7aa67e78662105fa895ca49661c/1795941/thumb_49a643fe7bb846eed59837c4b500b489de28f522.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 3
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>Kawasaki Vulcan 900 Custom</h5> 
+            <div class="price category-bg">
+              R$ 24.300,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2011</strong></p></li> 
+              <li><p>Quilometros <strong>12500</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/318f14ae2bbf101972efe38a3c702da01452369060">Natan</a> há mais de 1 ano 
+           </div> 
+          </div> 
+          <div rel="offer" class="small-12 medium-4 large-12 columns end category-motocycle"> 
+           <a id="b05eb0a1" href="/motos/xre-300-12-barra-12/o/b05eb0a1" class="showcase-offer category-border" data-offer-code="b05eb0a1" ng-click="showDetails(this)"> 
+            <figure class="category-border"> 
+             <img alt="   " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/8f/b35c/5c31ad6953fe1543d20f664fa84cb8c0872/2354957/thumb_6c6513b95f1c4eb6bb2704882f65cd9e1452b675.jpg"> 
+             <figcaption>
+              <i class="fi-photo"></i> 2
+             </figcaption> 
+             <div class="labels show-for-medium-up"> 
+              <span class="label">PREMIUM</span> 
+             </div> 
+            </figure> <h5>XRE-300 12/12 </h5> 
+            <div class="price category-bg">
+              R$ 10.500,00 
+            </div> 
+            <div class="specs"> 
+             <ul class="specs inline-list"> 
+              <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+              <li><p>Quilometros <strong>14000</strong></p></li> 
+             </ul> 
+            </div> </a> 
+           <div class="showcase-owner">
+             por 
+            <a href="/anunciante/lludovici">Primeiramão</a> há quase 2 meses 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> </li> 
+      <li class="category-more border bg-hover icon-hover has-panel"> <a href="javascript:void(0);" class="category-bg-hover"> <i class="category-icon"></i> <span>Categorias</span> </a> 
+       <div class="row top-bar-panel category-border"> 
+        <div class="large-12 columns options"> 
+         <ul> 
+          <li><a href="/categoria/escritorio-comercio-e-industria" target="_blank">Escritório, Comércio e Indústria</a></li> 
+          <li><a href="/categoria/mix" target="_blank">Mix</a></li> 
+          <li><a href="/categoria/empregos-e-servicos" target="_blank">Empregos e Serviços</a></li> 
+          <li><a href="/categoria/informatica" target="_blank">Informática</a></li> 
+          <li><a href="/categoria/moda-esportes-e-lazer" target="_blank">Moda, Esportes e Lazer</a></li> 
+          <li><a href="/categoria/casa-jardim-e-decoracao" target="_blank">Casa, jardim e decoração</a></li> 
+          <li><a href="/categoria/eletrodomesticos" target="_blank">Eletrodomésticos</a></li> 
+          <li><a href="/categoria/pet-e-acessorios" target="_blank">Pet e acessórios</a></li> 
+          <li><a href="/categoria/agronegocio" target="_blank">Agronegócio</a></li> 
+          <li><a href="/categoria/acessorios-outros" target="_blank">Acessórios e outros</a></li> 
+          <li><a href="/categoria/som-imagem-e-hobbies" target="_blank">Som, Imagem e Hobbies</a></li> 
+          <li><a href="/categoria/negocios-e-oportunidades" target="_blank">Oportunidades de Negócio</a></li> 
+          <li><a href="/categoria/eletronicos-e-telefonia" target="_blank">Eletrônicos e telefonia</a></li> 
+         </ul> 
+        </div> 
+       </div> </li> 
+      <li class="category-support border bg-hover icon-hover show-for-large-up hide-for-touch"> <a href="javascript:openChat()" class="category-bg-hover" rel="nofollow"> <i class="category-icon"></i> <span>Atendimento</span> </a> </li> 
+      <li class="divider"></li> 
+      <li class="profile" ng-controller="UserBarController"> <a href="/login" rel="nofollow">login</a> </li> 
+     </ul> 
+    </section> 
+    <!-- end cache --> 
+   </nav> 
+  </div> 
+  <div id="alerts" class="alerts"> 
+   <div class="row"></div> 
+  </div> 
+  <div class="page"> 
+   <script src="https://apis.google.com/js/platform.js" async defer>{lang: 'pt-BR'}</script> 
+   <div class="offers-content" data-code="7ba2a92d" data-category="carros" ng-controller="OfferController as offer"> 
+    <article id="7ba2a92d" class="offer row published category-car" itemscope itemtype="http://schema.org/Product"> 
+     <header class="contain-to-grid sticky"> 
+      <div class="top-bar"> 
+       <div class="small-12 medium-8 columns"> 
+        <h2 itemprop="name"> Vendo Honda Civic<br> </h2> 
+       </div> 
+       <div class="small-12 medium-4 columns medium-text-right"> 
+        <div class="price" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
+         <span itemprop="price">R$ 23.000,00</span> 
+         <meta itemprop="priceCurrency" content="BRL"> 
+         <meta itemprop="sku" content="7ba2a92d"> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row show-for-medium-up"> 
+       <div class="medium-8 columns"> 
+        <ul class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#"> 
+         <li typeof="v:Breadcrumb"> <a href="/categoria/carros" property="v:title" rel="v:url">Carros</a> </li> 
+         <li typeof="v:Breadcrumb" class="current"> <a class="has-tip" data-tooltip="true" href="/carros/vendo-honda-civic/o/7ba2a92d" property="v:title" rel="v:url" title="Código do anúncio">#7ba2a92d</a> </li> 
+        </ul> 
+       </div> 
+       <div class="medium-4 columns offer-share"> 
+        <button class="back tiny radius success hide" ng-click="offer.backToSearch()"><i class="fi-arrow-left"></i> Voltar para a busca</button> 
+        <button class="favorite tiny radius hide" ng-click="offer.toggleFavorite()"><i class="pm-icon iconFavoritos"></i> <span>Adicionar aos favoritos</span></button> 
+        <a href="https://twitter.com/share" data-url="/o/7ba2a92d" class="twitter-share-button" data-via="primeiramao" data-lang="pt" data-count="none" data-dnt="true">Tweetar</a> 
+        <div class="fb-share-button" data-href="/o/7ba2a92d" data-type="button"></div> 
+        <div class="g-plus" data-action="share" data-annotation="none"></div> 
+       </div> 
+      </div> 
+     </header> 
+     <a id="enviar-proposta"></a> 
+     <div class="content"> 
+      <section class="row"> 
+       <div class="small-12 medium-8 columns text-center"> 
+        <div class="photos"> 
+         <div class="main-photo"> 
+          <img alt="  " data-original="/uploads/classifieds/photos/64/38/cc9f/9f6f1b37fd8ad9b2836e1a47ffe6e5166c9/528682/IMG_4540.jpg" itemprop="image" src="http://static3.primeiramao.com.br/uploads/classifieds/photos/64/38/cc9f/9f6f1b37fd8ad9b2836e1a47ffe6e5166c9/528682/big_IMG_4540.jpg"> 
+          <div class="main-photo-label">
+           Clique para ampliar
+          </div> 
+         </div> 
+         <nav class="photo-nav show-for-medium-up"> 
+          <ul class="inline-list"> 
+           <li id="528682"> <a class="th" href="/uploads/classifieds/photos/64/38/cc9f/9f6f1b37fd8ad9b2836e1a47ffe6e5166c9/528682/big_IMG_4540.jpg" data-original="/uploads/classifieds/photos/64/38/cc9f/9f6f1b37fd8ad9b2836e1a47ffe6e5166c9/528682/big_IMG_4540.jpg"> <img alt="false" height="80" src="http://static2.primeiramao.com.br/uploads/classifieds/photos/64/38/cc9f/9f6f1b37fd8ad9b2836e1a47ffe6e5166c9/528682/thumb_IMG_4540.jpg" width="80"> </a> </li> 
+           <li id="528683"> <a class="th" href="/uploads/classifieds/photos/64/6e/6f4c/4c6c7e18814b1f9e9c645a32668c2413eb6/528683/big_IMG_4541.jpg" data-original="/uploads/classifieds/photos/64/6e/6f4c/4c6c7e18814b1f9e9c645a32668c2413eb6/528683/big_IMG_4541.jpg"> <img alt="false" height="80" src="http://static2.primeiramao.com.br/uploads/classifieds/photos/64/6e/6f4c/4c6c7e18814b1f9e9c645a32668c2413eb6/528683/thumb_IMG_4541.jpg" width="80"> </a> </li> 
+           <li id="528684"> <a class="th" href="/uploads/classifieds/photos/64/0d/12cc/cce9029202d4b82b974d5d197b0df5d6978/528684/big_IMG_4542.JPG" data-original="/uploads/classifieds/photos/64/0d/12cc/cce9029202d4b82b974d5d197b0df5d6978/528684/big_IMG_4542.JPG"> <img alt="false" height="80" src="http://static1.primeiramao.com.br/uploads/classifieds/photos/64/0d/12cc/cce9029202d4b82b974d5d197b0df5d6978/528684/thumb_IMG_4542.JPG" width="80"> </a> </li> 
+           <li id="528685"> <a class="th" href="/uploads/classifieds/photos/64/6a/3d5c/5c7025750a849335fc1009218e2c8e5b6fb/528685/big_IMG_5071.JPG" data-original="/uploads/classifieds/photos/64/6a/3d5c/5c7025750a849335fc1009218e2c8e5b6fb/528685/big_IMG_5071.JPG"> <img alt="false" height="80" src="http://static1.primeiramao.com.br/uploads/classifieds/photos/64/6a/3d5c/5c7025750a849335fc1009218e2c8e5b6fb/528685/thumb_IMG_5071.JPG" width="80"> </a> </li> 
+           <li id="528686"> <a class="th" href="/uploads/classifieds/photos/64/d1/d545/455455e15aba6e0c1e8ab1e0fe50f1c33ae/528686/big_IMG_5072.JPG" data-original="/uploads/classifieds/photos/64/d1/d545/455455e15aba6e0c1e8ab1e0fe50f1c33ae/528686/big_IMG_5072.JPG"> <img alt="false" height="80" src="http://static2.primeiramao.com.br/uploads/classifieds/photos/64/d1/d545/455455e15aba6e0c1e8ab1e0fe50f1c33ae/528686/thumb_IMG_5072.JPG" width="80"> </a> </li> 
+           <li id="528687"> <a class="th" href="/uploads/classifieds/photos/64/ae/6001/01878e3c9d78c397fcb563611b5ac667c3a/528687/big_IMG_5073.jpg" data-original="/uploads/classifieds/photos/64/ae/6001/01878e3c9d78c397fcb563611b5ac667c3a/528687/big_IMG_5073.jpg"> <img alt="false" height="80" src="http://static1.primeiramao.com.br/uploads/classifieds/photos/64/ae/6001/01878e3c9d78c397fcb563611b5ac667c3a/528687/thumb_IMG_5073.jpg" width="80"> </a> </li> 
+           <li id="528688"> <a class="th" href="/uploads/classifieds/photos/64/d2/5576/76165974ec863328b3c1fb26b3299b4f087/528688/big_IMG_5074.JPG" data-original="/uploads/classifieds/photos/64/d2/5576/76165974ec863328b3c1fb26b3299b4f087/528688/big_IMG_5074.JPG"> <img alt="false" height="80" src="http://static3.primeiramao.com.br/uploads/classifieds/photos/64/d2/5576/76165974ec863328b3c1fb26b3299b4f087/528688/thumb_IMG_5074.JPG" width="80"> </a> </li> 
+           <li id="528689"> <a class="th" href="/uploads/classifieds/photos/64/bc/d425/25ccdedbb2ae0d6965e758adbbc967c703f/528689/big_IMG_5075.JPG" data-original="/uploads/classifieds/photos/64/bc/d425/25ccdedbb2ae0d6965e758adbbc967c703f/528689/big_IMG_5075.JPG"> <img alt="false" height="80" src="http://static0.primeiramao.com.br/uploads/classifieds/photos/64/bc/d425/25ccdedbb2ae0d6965e758adbbc967c703f/528689/thumb_IMG_5075.JPG" width="80"> </a> </li> 
+          </ul> 
+         </nav> 
+        </div> 
+       </div> 
+       <div class="small-12 medium-4 columns"> 
+        <div class="row"> 
+         <div class="small-12 columns"> 
+          <div class="seller"> 
+           <a href="/anunciante/larcanjo"><img alt="Leandro Arcanjo de Melo" src="http://www.gravatar.com/avatar/00000000000000000000000000000000?d=mm&amp;f=y"></a> 
+           <h3> <a href="/anunciante/larcanjo"> <span>Leandro Arcanjo de Melo</span> </a> <p class="city"> São Paulo / São Paulo </p> </h3> 
+           <hr> 
+           <ul class="inline-list"> 
+            <li> <p> Anúncios <strong>1</strong> </p> </li> 
+            <li> <p> Telefone <strong class="phone-number"><a href="javascript:void(0)" rel="nofollow" ng-click="offer.showNumber('3742-5387 )11(')">ver número</a></strong> </p> </li> 
+           </ul> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="row show-for-medium-up"> 
+         <div class="proposal"> 
+          <h5 class="medium-12 columns"><i class="pm-icon iconEnviarPorposta"></i> Enviar Proposta</h5> 
+          <div class="medium-12 columns" data-code="216611" data-category="carros" ng-controller="SendProposalController as proposal"> 
+           <form name="fproposal" id="form-proposal" ng-hide="sending_lock" ng-submit="send()" novalidate> 
+            <div class="medium-12 columns"> 
+             <input name="name" ng-model="alert.name" type="text" required placeholder="nome"> 
+            </div> 
+            <div class="medium-12 columns"> 
+             <input name="email" ng-model="alert.email" type="email" required placeholder="email pra contato"> 
+            </div> 
+            <div class="medium-12 columns"> 
+             <input name="phone" ng-model="alert.phone" type="text" required placeholder="telefone de contato" mask-input="(99) 9999-9999?9"> 
+            </div> 
+            <div class="medium-12 columns"> 
+             <textarea name="message" ng-model="alert.message" ng-init="alert.message = 'Olá, gostaria de receber mais informações deste carro que encontrei no Primeiramão.'"></textarea> 
+            </div> 
+            <div class="text-right"> 
+             <button id="proposal-send-btn" type="submit" ng-disabled="!fproposal.$valid" class="alert tiny">Enviar</button> 
+            </div> 
+           </form> 
+           <div id="proposal-sending" ng-show="sending_lock"> 
+            <span ng-bind="sending_message" class="{{sending_class}}"></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </section> 
+      <div class="section-advertise expansible-advertise"> 
+       <div id="div-gpt-ad-super expansible-advertise"> 
+        <script type="text/javascript">
+                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-super'); });
+                    </script> 
+       </div> 
+      </div> 
+      <hr> 
+      <section class="row"> 
+       <div class="small-12 medium-12 columns"> 
+        <h5><strong>Especificações</strong></h5> 
+        <ul class="specs row inline-list"> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconMarca"></i> <p> Marca <strong>Honda</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconModelo"></i> <p> Modelo <strong>Civic</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconVersao"></i> <p> Versão <strong>Civic Sedan EX 1.7 16v 130cv Mec. 4p</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconAnoModelo"></i> <p> Ano Modelo <strong>2006</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconAnoDeFabricacao"></i> <p> Ano de Fabricação <strong>2006</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconQuantidadeDePortas"></i> <p> Quantidade de Portas <strong>4</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconQuilometros"></i> <p> Quilômetros <strong>120000</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconUsadoBarraNovo"></i> <p> Usado/Novo <strong>Usado</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconProprietario"></i> <p> Proprietário <strong>Particular</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconCor"></i> <p> Cor <strong>Preto</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconPlaca"></i> <p> Final de placa <strong>5</strong> </p> </li> 
+         <li class="small-6 medium-3 columns end"> <i class="pm-icon iconCombustivel"></i> <p> Combustível <strong>Gasolina</strong> </p> </li> 
+        </ul> 
+       </div> 
+       <hr> 
+       <div class="small-12 medium-8 columns"> 
+        <h5><strong>Descrição do Anúncio</strong></h5> 
+        <div class="description" itemprop="description"> 
+         <p>Vendo Honda Civic 2006, unico dono, motor 1.7 130 cv, direção hidráulica, ar condicionado quente e frio, rodas de liga leve, bancos de couro, som cd player MP3 com entrada auxiliar e disqueteira embutida para 06 CD's, cambio mecânico. Carro bem cuidado com todas as revisões na concessionária, inclusive a ultima revisão. <br>Aceito troca por carros mais novos, civic, I30, Corolla a partir de 2010. </p> 
+        </div> 
+        <h5><strong>Localização</strong></h5> 
+        <p>Avenida Nossa Senhora do Sabará - de 3937 ao fim - lado ímpar, Vila Emir, São Paulo, São Paulo</p> 
+        <div class="map" gmap data-control="offer.map" data-with-marker="true" data-format="ad" data-map-center="-23.693649,-46.675967" data-model="offer.coordinate"></div> 
+       </div> 
+       <div class="medium-4 columns"> 
+        <h5><strong>Características Gerais</strong></h5> 
+        <ul class="characteristics"> 
+         <li>airbag motorista</li> 
+         <li>airbag passageiro</li> 
+         <li>alarme</li> 
+         <li>ar-condicionado</li> 
+         <li>ar-quente</li> 
+         <li>direção hidráulica</li> 
+         <li>travas elétricas</li> 
+         <li>volante com regulagem de altura</li> 
+         <li>cd player com MP3</li> 
+         <li>rádio FM/AM</li> 
+         <li>Integração iPhone/iPod</li> 
+         <li>Bancos com ajuste de altura</li> 
+         <li>Bancos de couro</li> 
+         <li>desemb. traseiro</li> 
+         <li>vidros elétricos dianteiros e traseiros</li> 
+         <li>rodas de liga leve</li> 
+        </ul> 
+       </div> 
+      </section> 
+     </div> 
+    </article> 
+    <div class="row more-offers show-for-medium-up"> 
+     <h4 class="medium-12 columns"><strong>Mais Ofertas</strong></h4> 
+     <div class="showcase showcase-card row"> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="98378eaf" href="/carros/honda-civic-lxr-2016-barra-2016-cinza/o/98378eaf" class="showcase-offer category-border" data-offer-code="98378eaf" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="     " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/a1/8728/284c541bc29ccf24c2441ca4f7bfc129299/2355385/thumb_2e0fae6c587ccc74ee3f21911f7a40343cca859e.jpg"> 
+         <figcaption>
+          <i class="fi-photo"></i> 9
+         </figcaption> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda Civic LXR 2016/2016 - Cinza</h5> 
+        <div class="price category-bg">
+          R$ 73.000,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2016</strong></p></li> 
+          <li><p>Quilometros <strong>11</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/2077b940b70bc8e1eec964f6943fc8ad1502668364">Wellington</a> há quase 2 meses 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="f10d6c21" href="/carros/honda-civic-lxl-1-ponto-8-2012/o/f10d6c21" class="showcase-offer category-border" data-offer-code="f10d6c21" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="    " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda Civic LXL 1.8 2012</h5> 
+        <div class="price category-bg">
+          R$ 45.500,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2012</strong></p></li> 
+          <li><p>Quilometros <strong>103700</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/alecolombo">Alexandre</a> há 10 dias 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="1782aa27" href="/carros/honda-civic-conservadissimo-particular/o/1782aa27" class="showcase-offer category-border" data-offer-code="1782aa27" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="   " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda Civic, conservadíssimo - Particular</h5> 
+        <div class="price category-bg">
+          R$ 21.500,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2005</strong></p></li> 
+          <li><p>Quilometros <strong>142000</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/2db3c2925c7ed09f3ea181138cf86bd31502917821">Antonio</a> há quase 1 mês 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="a6140a9f" href="/carros/honda-civic-exr-automatico-2014-com-teto-solar-sem-detalhes-oferta/o/a6140a9f" class="showcase-offer category-border" data-offer-code="a6140a9f" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="        " src="http://static2.primeiramao.com.br/uploads/classifieds/photos/f6/d313/1379f584f9df277318cd43d5c93578186e0/2356779/thumb_f8d58797fce4302fb3aac3a235295b8c3f462102.jpg"> 
+         <figcaption>
+          <i class="fi-photo"></i> 5
+         </figcaption> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>honda civic exr automatico 2014 com teto solar sem detalhes(oferta)</h5> 
+        <div class="price category-bg">
+          R$ 59.900,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2014</strong></p></li> 
+          <li><p>Quilometros <strong>108700</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/1fc0300e0dc6fc84a4fa0c899fbf1ef01503004062">PORTAL</a> há quase 1 mês 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="aabddbf0" href="/carros/honda-civic-lxs-2014-barra-2014-1-ponto-8-automatico-completo-branco/o/aabddbf0" class="showcase-offer category-border" data-offer-code="aabddbf0" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="        " src="http://static3.primeiramao.com.br/uploads/classifieds/photos/1a/3921/211dde305d4108f228fabfede61b8276be5/2360854/thumb_aebe1adb3379a08ef94871085879b11789240215.jpg"> 
+         <figcaption>
+          <i class="fi-photo"></i> 8
+         </figcaption> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>HONDA CIVIC LXS 2014/2014 1.8 AUTOMÁTICO COMPLETO BRANCO</h5> 
+        <div class="price category-bg">
+          R$ 53.200,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2014</strong></p></li> 
+          <li><p>Quilometros <strong>79000</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/df60744cb03a89e991ce50e3116fecdb1505163315">Alexandre</a> há 17 dias 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="ea870338" href="/carros/honda-civic-lxs-1-ponto-8/o/ea870338" class="showcase-offer category-border" data-offer-code="ea870338" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="   " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>HONDA CIVIC LXS 1.8</h5> 
+        <div class="price category-bg">
+          R$ 53.500,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2014</strong></p></li> 
+          <li><p>Quilometros <strong>62078</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/68e9c6e16abdb71f3fae9e64348576fd1502566091">Caroline</a> há quase 2 meses 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="ce87de38" href="/carros/civic-lxr-2015/o/ce87de38" class="showcase-offer category-border" data-offer-code="ce87de38" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="  " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Civic lxr 2015</h5> 
+        <div class="price category-bg">
+          R$ 62.500,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2015</strong></p></li> 
+          <li><p>Quilometros <strong>33500</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/51057b488d99f521c340e5d53653b2c81502824875">Alexsandro</a> há quase 1 mês 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="829beb6c" href="/carros/honda-fit-2/o/829beb6c" class="showcase-offer category-border" data-offer-code="829beb6c" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt=" " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda FIT </h5> 
+        <div class="price category-bg">
+          R$ 41.000,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2013</strong></p></li> 
+          <li><p>Quilometros <strong>57392</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/e0991155c06c80162a42fcc777160fe91501771502">Eduardo</a> há quase 2 meses 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="0f655886" href="/carros/honda-civic-2002/o/0f655886" class="showcase-offer category-border" data-offer-code="0f655886" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="  " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda civic 2002 </h5> 
+        <div class="price category-bg">
+          R$ 15.300,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2002</strong></p></li> 
+          <li><p>Quilometros <strong>1</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/50458e966fb09e17675d804d6e2c246f1503542532">Dilson</a> há quase 1 mês 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="72aea9cd" href="/carros/honda-civic-2005-automatico-2005/o/72aea9cd" class="showcase-offer category-border" data-offer-code="72aea9cd" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="    " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda Civic 2005 automático - 2005 </h5> 
+        <div class="price category-bg">
+          R$ 18.700,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2005</strong></p></li> 
+          <li><p>Quilometros <strong>144500</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/c6a458b132ae7676f3283341263d04c71503332552">Schuler</a> há quase 1 mês 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="a760651b" href="/carros/honda-civic-lxs-2008-barra-preto-mecanico-unico-dono-2008/o/a760651b" class="showcase-offer category-border" data-offer-code="a760651b" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="        " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda Civic LXS 2008/ Preto Mecânico Único Dono - 2008 </h5> 
+        <div class="price category-bg">
+          R$ 34.000,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2008</strong></p></li> 
+          <li><p>Quilometros <strong>110</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/20dcbd3faaff4019e4080f3898f536701502115259">Antonio</a> há quase 2 meses 
+       </div> 
+      </div> 
+      <div rel="offer" class="small-12 medium-4 large-3 columns end category-car"> 
+       <a id="3f987fad" href="/carros/honda-civic-lxs-ano-2012-barra-2013-cor-cinza-4-portas-em-otimo-estado-unico-dono-carro-de-garagem/o/3f987fad" class="showcase-offer category-border" data-offer-code="3f987fad" ng-click="showDetails(this)"> 
+        <figure class="category-border"> 
+         <img alt="                " src="http://static2.primeiramao.com.br/assets/fallback/ad/thumb_default-c4fc3aaf5aadb52227ff6681773befa8.jpg"> 
+         <div class="labels show-for-medium-up"> 
+         </div> 
+        </figure> <h5>Honda CIVIC LXS 1.8, ano 2012/2013, cor Cinza, 4 portas em ótimo estado, único dono, carro de garagem.</h5> 
+        <div class="price category-bg">
+          R$ 48.000,00 
+        </div> 
+        <div class="specs"> 
+         <ul class="specs inline-list"> 
+          <li><p>Ano/Modelo <strong>2013</strong></p></li> 
+          <li><p>Quilometros <strong>50935</strong></p></li> 
+         </ul> 
+        </div> </a> 
+       <div class="showcase-owner">
+         por 
+        <a href="/anunciante/d24c78ecf1861a51172c98e71d95118b1505945136">Thiago</a> há 8 dias 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="big-photo" class="reveal-modal" data-reveal> 
+     <div class="photo">
+      <img src="">
+     </div> 
+     <a class="prev" href="javascript:void(0);" ng-click="offer.zoomPrevPhoto()"><i class="fi-arrow-left"></i></a> 
+     <a class="next" href="javascript:void(0);" ng-click="offer.zoomNextPhoto()"><i class="fi-arrow-right"></i></a> 
+     <a class="close-reveal-modal">×</a> 
+    </div> 
+   </div> 
+  </div> 
+  <footer> 
+   <div class="row show-for-medium-up"> 
+    <div class="medium-4 columns"> 
+     <h5>Classificados</h5> 
+     <ul class="half"> 
+      <li><a href="/categoria/escritorio-comercio-e-industria">Escritório, Comércio e Indústria</a></li> 
+      <li><a href="/categoria/mix">Mix</a></li> 
+      <li><a href="/categoria/empregos-e-servicos">Empregos e Serviços</a></li> 
+      <li><a href="/categoria/informatica">Informática</a></li> 
+      <li><a href="/categoria/moda-esportes-e-lazer">Moda, Esportes e Lazer</a></li> 
+      <li><a href="/categoria/casa-jardim-e-decoracao">Casa, jardim e decoração</a></li> 
+      <li><a href="/categoria/eletrodomesticos">Eletrodomésticos</a></li> 
+      <li><a href="/categoria/pet-e-acessorios">Pet e acessórios</a></li> 
+      <li><a href="/categoria/agronegocio">Agronegócio</a></li> 
+      <li><a href="/categoria/acessorios-outros">Acessórios e outros</a></li> 
+      <li><a href="/categoria/som-imagem-e-hobbies">Som, Imagem e Hobbies</a></li> 
+      <li><a href="/categoria/negocios-e-oportunidades">Oportunidades de Negócio</a></li> 
+      <li><a href="/categoria/eletronicos-e-telefonia">Eletrônicos e telefonia</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-2 columns"> 
+     <h5>Usuário</h5> 
+     <ul> 
+      <li><a href="/anunciar">Quero anunciar</a></li> 
+      <li><a href="/login">Cadastre-se</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-2 columns"> 
+     <h5>Sobre</h5> 
+     <ul> 
+      <li><a href="/quem-somos">Quem Somos</a></li> 
+      <li><a href="/termos-de-uso">Regulamento</a></li> 
+      <li><a href="http://mediakit.primeiramao.com.br/" target="_blank">Mídia Kit</a></li> 
+      <li><a href="http://primeiramao.com.br/paginadigital" target="_blank">Versão Digital</a></li> 
+     </ul> 
+    </div> 
+    <div class="medium-4 columns"> 
+     <h5>Anúncie</h5> 
+     <div class="contact-phone"> 
+      <h6>Para você</h6> 
+      <span>(11) 3896-7900</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="copyright"> 
+    <div class="row"> 
+     <div class="small-12 medium-9 columns"> 
+      <p>©1995-2015 Primeiramão. Todos os direitos reservados.</p> 
+     </div> 
+     <div class="medium-3 columns text-center show-for-medium-up"> 
+      <a class="powered" href="http://www.codecraft63.com/?utm_source=primeiramao&amp;utm_medium=logo&amp;utm_content=client&amp;utm_campaign=powered"> <img alt="Powered" src="http://www.codecraft63.com/powered/codecraft.png"> </a> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script id="user_menu.html" type="text/ng-template"><a href="/minha-conta" rel="nofollow">
+    <img ng-src="{{ profile.avatar.square }}" class="avatar" />
+    <span>{{ profile.name }}</span>
+</a>
+
+<ul class="dropdown hide-for-medium-up">
+    <li><label>{{ profile.name }}</label></li>
+    <li><a href="/minha-conta" rel="nofollow">Meu Primeiramão</a></a></li>
+    <li>
+        <a href="/minha-conta/alertas" rel="nofollow">
+            Mensagens
+</a>    </li>
+    <li class="divider"></li>
+    <li><a data-method="delete" href="/logout" rel="nofollow">Sair</a></a></li>
+</ul>
+</script> 
+  <script id="user_bar.html" type="text/ng-template"><nav class="user-bar show-for-medium-up">
+    <div class="row">
+        <div class="large-4 columns show-for-large-up left">
+            <h6>Olá <em>{{ profile.public_name }}</em><span ng-show="profile.messages.unread > 0">, <small>você tem <strong>{{ profile.messages.unread }}</strong> mensagens</small></span></h6>
+        </div>
+        <div class="small-12 large-8 columns">
+            <ul class="right">
+                <li><a href="/minha-conta" rel="nofollow">Editar meu perfil</a></li>
+                <li ng-show="profile.resales.length >= 1" data-dropdown="profile-resales-dropdown" data-options="is_hover:true"><a href="/minha-conta#resale" rel="nofollow">Minhas revendas</a></li>
+                <li><a href="/minha-conta/anuncios" rel="nofollow">Meus anúncios</a></li>
+                <li><a href="/minha-conta/favoritos" rel="nofollow">Meus favoritos</a></li>
+                <li class="divider"></li>
+                <li><a data-method="delete" href="/logout" rel="nofollow">Sair</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="profile-resales-dropdown" data-dropdown-content class="f-dropdown small">
+        <a ng-repeat="resale in profile.resales" ng-href="{{ resale.url }}">
+            <div class="row">
+                <div class="small-3 columns">
+                    <img ng-src="{{ resale.logo }}" alt="{{ resale.name }}">
+                </div>
+                <div class="small-9 columns">
+                    {{ resale.name }}
+                </div>
+            </div>
+        </a>
+    </div>
+</nav>
+</script> 
+  <script id="offer-nav.html" type="text/ng-template"><div class="offer-nav">
+    <div class="prev" ng-if="nav.prev !== undefined">
+        <a href="{{ nav.prev.url }}" class="icon"></a>
+        <a class="card" href="{{ nav.prev.url }}">
+            <img ng-src="{{ nav.prev.photos[0].thumb }}">
+            <h6>{{ nav.prev.title }}</h6>
+            <span class="price">{{ nav.prev.price | currency }}</span>
+        </a>
+    </div>
+    <div class="next" ng-if="nav.next !== undefined">
+        <a class="card" href="{{ nav.next.url }}">
+            <img src="{{ nav.next.photos[0].thumb }}">
+            <h6>{{ nav.next.title }}</h6>
+            <span class="price">{{ nav.next.price | currency }}</span>
+        </a>
+        <a ng-href="{{ nav.next.url }}" class="icon"></a>
+    </div>
+</div>
+</script> 
+  <script src="http://static1.primeiramao.com.br/assets/vendors-04fbf9b11fdc7d745e8f46e52966a53d.js"></script> 
+  <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBFxgP-CPqrqZ8b0tBunmAtuHEGRxALHyE&amp;sensor=true&amp;libraries=drawing"></script> 
+  <script src="http://static2.primeiramao.com.br/assets/offer-8f7ed8d2b48adcdc60bb88dd735fefd9.js"></script> 
+  <div id="fb-root"></div> 
+  <script defer>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=556743601056920&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script> 
+  <script defer>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+  <script type="text/javascript">
+        var url = escape(location.href), title = escape(document.title);
+
+        function openChatWindow_373089(url,name,width,height,centralized,params){
+            var position="";
+            if(params==null){params="";} else {params=","+params;}
+            if(centralized!=false){
+                var top=(screen.height/2)-(height/2), left=(screen.width/2)-(width/2);
+                position="top="+top+",left="+left;
+            }
+            params=position+",width="+width+",height="+height+params;
+            return window.open(url,name,params);
+        }
+        function openChat() {
+            //openChatWindow_318224('http://www.linkws.com/chat/whois.jsp?talkerID=13909&userProductID=318224&origin=' + escape(location.href) + '&title=' + escape(document.title), "chatWindow_318224", 510, 380, true, "scrollbars=yes,resizable=yes");
+            openChatWindow_373089('http://www.linkws.com/chat/whois.jsp?userProductID=373089&origin=' + escape(location.href) + '&title=' + escape(document.title), "chatWindow_373089", 510, 380, true, "scrollbars=yes,resizable=yes");
+        }
+//        document.write('<img style=\"display:none\" height=0 width=0 border=0 src="http://www.linkws.com/webservices/chat/chatLinkImg.jsp?userProductID=318224&imageIndex=0&url='+url+'&title='+title+'&origin='+escape(document.referrer)+'">');
+    </script> 
+  <script type="text/javascript">
+      (function() {
+      var hm = document.createElement('script'); hm.type ='text/javascript'; hm.async = true;
+      hm.src = ('++u-heatmap-it+log-js').replace(/[+]/g,'/').replace(/-/g,'.');
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(hm, s);
+      })();
+    </script> 
+  <!-- script solicitado pela band --> 
+  <script>
+       var Config = window.config || {}
+
+       Config.Metricas = {
+         'parceiro'       : 'Bandparceiro-PrimeiraMao',
+         'canal'          : '',
+         'subcanal'       : ''
+       }; 
+
+       <!-- Google Tag Manager -->
+       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+       '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+       })(window,document,'script','dataLayer','GTM-CCNR');
+       <!-- End Google Tag Manager -->
+    </script>   
+ </body>
+</html>

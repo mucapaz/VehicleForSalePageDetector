@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-br">
+ <head> 
+  <meta charset="UTF-8"> 
+  <!-- Oracle Maxymiser Script Start --> 
+  <script type="text/javascript" src="//service.maxymiser.net/api/us/bv.com.br/bf0b5d/mmapi.js"></script> 
+  <!-- Oracle Maxymiser Script End --> 
+  <link href="//fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+  _paq.push(["setCookieDomain", "*.meucarronovo.com.br"]);
+  _paq.push(["setDomains", ["*.meucarronovo.com.br"]]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://meucarronovo.com.br/piwik//";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script> 
+  <noscript>
+   &lt;p&gt;&lt;img src="https://meucarronovo.com.br/piwik//piwik.php?idsite=1" style="border:0;" alt=""&gt;
+  </noscript> 
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries --> 
+  <!--[if lt IE 9]>
+              <script src="shared/html5shiv.js"></script>
+              <script src="shared/respond.min.js"></script>
+            <![endif]--> 
+  <link rel="icon" href="https://d1x1xhcjqq6e69.cloudfront.net/images/favicon.png?201709271333" type="image/ico"> 
+  <title></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/css/institucional.css" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/colors.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/measures.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/texting.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/styles.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/bootstrap.css?201709271333" media="screen" rel="stylesheet" type="text/css"> 
+  <link href="https://d1x1xhcjqq6e69.cloudfront.net/2014/assets/styles.css?201709271333" media="screen" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+    //<!--
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1550805-28']);
+_gaq.push(['_setDomainName', 'meucarronovo.com.br']);
+_gaq.push(['_trackPageview']);
+
+_gaq.push(['seo._setAccount', 'UA-38074957-1']);
+_gaq.push(['seo._trackPageview']);
+
+_gaq.push(['predicta._setAccount', 'UA-1550805-1']);
+_gaq.push(['predicta._setDomainName', 'meucarronovo.com.br']);
+
+_gaq.push(['predicta._setCustomVar', 1, 'logado', 'nao', 2]);
+_gaq.push(['predicta._trackPageview']);
+
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();    //-->
+</script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/jquery-1-8-3.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/tween-max-1-10-3.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/plugins/bootstrap.min.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.mcnform.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/js.cookie.js?201709271333"></script> 
+  <script type="text/javascript" src="https://d1x1xhcjqq6e69.cloudfront.net/js/global.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery-ui-1.8.22.min.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/js/jquery.form.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/scripts.js?201709271333"></script> 
+  <script type="text/javascript" 0="defer" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/assets/scripts.js?201709271333"></script> 
+  <script src="//assets.adobedtm.com/c4314e15e9157fd1511b5794cee60dbdcef19d9b/satelliteLib-b8c6e725ab2231f482b44c8d77cd88aa481c7a75.js"></script> 
+  <base target="_top"> 
+ </head> 
+ <body> 
+  <noscript>
+   <iframe src="//www.googletagmanager.com/ns.html?id=GTM-KNN4" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript> 
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNN4');</script>
+  <div class="container marg-t-30"> 
+   <div class="row"> 
+    <div class="col-lg-12"> 
+     <div class="main-menu"> 
+      <div class="col-lg-2"> 
+       <a href="https://www.meucarronovo.com.br"><h1 class="logo marg-t-7">MeuCarroNovo</h1></a> 
+      </div> 
+      <div class="col-lg-5"> 
+       <ul class="main-menu-items pt-sans-bold"> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/">Home</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/vender">Vender</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/avalie">Avaliar</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/blog">Revista</a></li> 
+        <li><a class="trans-05s" href="https://www.meucarronovo.com.br/feirao">Hiper Saldão</a></li> 
+       </ul> 
+      </div> 
+      <div class="col-lg-2 padd-t-3"> 
+       <a class="btn pt-sans-bold txt-13 bg-bordo btn-financie trans-05s" href="https://www.meucarronovo.com.br/quer-financiar">Financie com a BV</a> 
+      </div> 
+      <div class="col-lg-3"> 
+       <form id="form-busca" method="GET" action="https://www.meucarronovo.com.br/buscar"> 
+        <span class="search-bar-icon"></span> 
+        <input type="hidden" value="organica" name="origem"> 
+        <input name="q" class="search-bar pull-left" type="text"> 
+        <a class="btn-search pt-sans-bold txt-13 bg-grey pull-left trans-05s" href="#" onclick="$('#form-busca').submit();">OK</a> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- breadcrumb --> 
+  <div class="container marg-t-20"> 
+   <div class="row"> 
+    <div class="col-lg-7"> 
+     <p class="tahoma txt-11 txt-gray"><img src="/2014/shared/img/header/home-icon.png"><span class="bold marg-l-10">Você está em:</span> <a itemprop="url" href="https://www.meucarronovo.com.br/comprar-veiculo"><span itemprop="title">Compre seu veículo</span></a> &gt; <a itemprop="url" href="https://www.meucarronovo.com.br/busca"><span itemprop="title">Resultado de busca</span></a> &gt; <span itemprop="title">Detalhe do veículo</span> </p> 
+    </div> 
+    <div class="col-lg-5"> 
+     <ul class="breadcrumb-menu tahoma bold txt-11 txt-gray pull-right"> 
+      <li><a target="_top" href="https://ext.meucarronovo.com.br/loja/loginarearestrita">Central do anunciante <span class="txt-green">(login)</span></a></li> 
+      <!--<li>|</li>
+                <li><a href="https://www.meucarronovo.com.br/revendedores/" title="Acesso para Revendedores">Revendedores</a></li> --> 
+      <li>|</li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/fale-conosco" title="Fale Conosco">Fale conosco</a></li> 
+     </ul> 
+    </div> 
+    <div class="clearfix"></div> 
+    <div class="col-lg-12 padd-t-20">
+     <span class="solid-line"></span>
+    </div> 
+   </div> 
+  </div> 
+  <!-- FIM breadcrumb --> 
+  <div class="grid_24 marginBottom10px"> 
+   <div class="boxPadrao"> 
+    <div class="grid_24"> 
+     <h2 class="mensagemErro"><span class="font_amarelo">Ops...</span> <br> Sua página não foi encontrada <span class="bordo">:-(</span></h2> 
+     <h3>Página não disponível. Navegue nas páginas abaixo ou <a href="https://www.meucarronovo.com.br/busca-avancada" title="Clique aqui" class="bordo">Faça uma busca aqui.</a></h3> 
+     <br clear="all"> 
+    </div> 
+    <div class="grid_5 push_1"> 
+     <h3 class="vermelhoEscuro">Compre</h3> 
+     <hr> 
+     <ul> 
+      <li><a href="https://www.meucarronovo.com.br/compre/" title="Comprar carro">» Comprar carro</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/compre/" title="Comprar moto">» Comprar moto</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/compre/" title="Comprar caminhão">» Comprar caminhão</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/busca-por-loja/" title="Busca por loja e concessionárias">» Busca por loja e concessionárias</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/busca-avancada/" title="Busca Avançada">» Busca avançada</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/compre/faca-seu-pedido/" title="Faça seu pedido">» Faça seu pedido</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/favoritos/" title="Favoritos">» Favoritos</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/compre/dicasdecompra/" title="Dicas de Compra">» Dicas de compra</a></li> 
+     </ul> 
+    </div> 
+    <div class="grid_5 push_1"> 
+     <h3 class="vermelhoEscuro">Venda</h3> 
+     <hr> 
+     <ul> 
+      <li><a href="https://www.meucarronovo.com.br/venda/" title="Anunciar carro">» Anunciar carro</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/venda/" title="Anunciar moto">» Anunciar moto</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/venda/" title="Anunciar caminhão">» Anunciar caminhão</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/minha-conta/" title="Minha conta">» Minha conta</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/venda/anunciar-loja" title="Loja e Concessionárias">» Lojas e concessionárias</a></li> 
+      <li><a href="#" title="Dicas de venda">» Dicas de venda</a></li> 
+     </ul> 
+    </div> 
+    <div class="grid_5 push_1"> 
+     <h3 class="vermelhoEscuro">Avaliação</h3> 
+     <hr> 
+     <ul> 
+      <li><a href="https://www.meucarronovo.com.br/avalie/" title="Avaliar carro">» Avaliar carro</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/avalie/" title="Avaliar moto">» Avaliar moto</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/avalie/" title="Avaliar caminhão">» Avaliar caminhão</a></li> 
+     </ul> 
+     <h3 class="vermelhoEscuro">Notícias</h3> 
+     <hr> 
+     <ul> 
+      <li><a href="https://www.meucarronovo.com.br/blog/category/lancamentos-novidades" title="Lançamentos &amp; Novidades">» Lançamentos &amp; novidades</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/blog/category/testes" title="Testes">» Testes</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/blog/category/motos" title="Motos">» Motos</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/blog/category/caminhoes" title="Caminhões">» Caminhões</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/blog/category/colunistas" title="Colunistas">» Colunistas</a></li> 
+     </ul> 
+    </div> 
+    <div class="grid_5 push_1"> 
+     <h3 class="vermelhoEscuro">Institucional</h3> 
+     <hr> 
+     <ul> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/quem-somos/" title="Quem Somos">» Quem somos</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/duvidas-frequentes/" title="Dúvidas Frequentes">» Dúvidas freqüentes</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/fale-conosco/" title="Fale Conosco">» Fale conosco</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/publicidade/anuncie/" title="Publicidade">» Publicidade</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/termos-de-uso/" title="Termo de Uso">» Termo de uso</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/politica-de-privacidade/" title="Política de Privacidade">» Política de privacidade</a></li> 
+      <li><a href="https://www.meucarronovo.com.br/institucional/codigo-de-defesa-do-consumidor/" title="Cód. Defesa do consumidor">» Cód. defesa do consumidor</a></li> 
+     </ul> 
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+  </div>
+  <div class="bg-footer marg-t-50"> 
+   <div class="container"> 
+    <div class="row padd-t-20"> 
+     <div class="col-lg-1 txt-center padd-t-30"> 
+      <img class="pull-left" src="https://d1x1xhcjqq6e69.cloudfront.net/2014/shared/img/footer/logo-bv.png"> 
+     </div> 
+     <div class="col-lg-10 txt-center marg-t-29"> 
+      <a href="https://www.meucarronovo.com.br/institucional/quem-somos/"></a>
+      <p class="txt-12 bold txt-cc footerem-menu"><a href="https://www.meucarronovo.com.br/institucional/quem-somos/"><span class="txt-black">Quem Somos</span></a> | <a href="https://www.meucarronovo.com.br/institucional/fale-conosco"><span class="txt-black">Atendimento MCN</span></a> | <a target="_blank" href="https://www.bancovotorantim.com.br/web/site/pt/contato/canal_conduta.html"><span class="txt-black">Canal de Denúncias</span></a> | <a href="https://www.meucarronovo.com.br/publicidade/"><span class="txt-black">Publicidade</span></a> | <a href="/institucional/termos-e-condicoes/"><span class="txt-black">Termos e Condições</span></a> | <a href="http://www.bvfinanceira.com.br/site/bvf/para_voce/veiculo/"><span class="txt-black">Financie com a BV</span></a> | <a href="http://www.bvfinanceira.com.br/"><span class="txt-black">Outros produtos da BV</span></a></p> 
+      <p class="marg-t-10">Central de Relacionamento - <span class="txt-black bold">3003 1616</span> ou <span class="txt-black bold">0800 701 8600</span> | SAC - <span class="txt-black bold">0800 770 3335</span> | Deficientes Auditivos e de Fala - <span class="txt-black bold">0800 701 8661</span> | Ouvidoria - <span class="txt-black bold">0800 707 0083</span></p> 
+      <p class="marg-t-10">Canal de Denúncias - <span class="txt-black bold">0800 777 8374</span> e Caixa Postal - <span class="txt-black bold">79545 - CEP 04707-970</span></p> 
+      <p class="marg-t-10">Copyright © 2014 - MeuCarroNovo. Todos os direitos reservados</p> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript">_satellite.pageBottom();</script>   
+ </body>
+</html>
