@@ -16,8 +16,8 @@ public class ARFFCreator {
 
 		if(i == 0) {
 
-			String instancesPath = "/home/pringles/Desktop/TextCategorisation/data/" + "/train80_test20_url_tittle/train";
-			String destinationPath = "data/arff/train80_url_tittle.arff";
+			String instancesPath = "data/1800/train80_test20_url_tittle/train";
+			String destinationPath = "data/1800/arff/train80_url_tittle.arff";
 			
 			createFromDir(instancesPath, destinationPath);
 
@@ -25,27 +25,30 @@ public class ARFFCreator {
 			/*
 			 * Create from model
 			 */
-			
-			String oldARFF = "data/arff/train80_url_tittle.arff";
-			String instancesPath = "data/train80_test20_url_tittle/test/";
-			String newARFF = "data/arff/test20_url_tittle.arff";
+
+			String oldARFF = "data/1800/arff/train80_infogain_url_tittle.arff";
+			String instancesPath = "data/1800/train80_test20_url_tittle/test/";
+			String newARFF = "data/1800/arff/test20_infogain_url_tittle.arff";
 			createFromModel(oldARFF, instancesPath, newARFF);
+			
+			
+			
 		}else if(i == 2){
 			/*
 			 * Create arff with tf-idf from model
 			 */
 			
-			String oldARFF = "data/arff/train80_url_tittle.arff";
+			String oldARFF = "data/1800/arff/train80_infogain_url_tittle.arff";
 			
-			TfIdf tfIdf = new TfIdf("data/documents_tfidf_url_tittle");		
+			TfIdf tfIdf = new TfIdf("data/1800/documents_tf_idf_url_tittle");		
 			
 			
-			String trainIntancesPath = "data/train80_test20_url_tittle/train/";
-			String newTrainARFF = "data/arff/train80_url_tittle_tfidf.arff";
+			String trainIntancesPath = "data/1800/train80_test20_url_tittle/train/";
+			String newTrainARFF = "data/1800/arff/train80_infogain_url_tittle_tfidf.arff";
 			createFromModel(oldARFF, trainIntancesPath, newTrainARFF, tfIdf);
 
-			String testInstancesPath = "data/train80_test20_url_tittle/test/";
-			String newTestARFF = "data/arff/test20_url_tittle_tfidf.arff";			
+			String testInstancesPath = "data/1800/train80_test20_url_tittle/test/";
+			String newTestARFF = "data/1800/arff/test20_infogain_url_tittle_tfidf.arff";			
 			createFromModel(oldARFF, testInstancesPath, newTestARFF, tfIdf);
 		}
 		
