@@ -1,5 +1,7 @@
 download latest autoweka at http://www.cs.ubc.ca/labs/beta/Projects/autoweka/
 
+Send files to remote
+pscp -r local_folder USER@location:remote_folder
 
 run and save result to file
 java -cp ./autoweka.jar weka.classifiers.meta.AutoWEKAClassifier -t data/train80_infogain_url_tittle_tfidf.arff -T data/test20_infogain_url_tittle_tfidf.arff -timeLimit 15 -memLimit 1024 > result/test20_infogain_url_tittle_tfidf 2>&1 &
