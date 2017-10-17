@@ -5,8 +5,12 @@ pscp -r local_folder USER@location:remote_folder
 
 run and save result to file
 java -cp ./autoweka.jar weka.classifiers.meta.AutoWEKAClassifier -t arff/train80_infogain_url_tittle_tfidf.arff -T arff/test20_infogain_url_tittle_tfidf.arff -timeLimit 1440 -parallelRuns 5 -memLimit 40000 > result/result_infogain_url_tittle_tfidf 2>&1 &
+
 run and display result
 java -cp ./autoweka.jar weka.classifiers.meta.AutoWEKAClassifier -t arff/train80_infogain_url_tittle_tfidf.arff -T arff/test20_infogain_url_tittle_tfidf.arff -timeLimit 1440 -parallelRuns 5 -memLimit 40000
+
+see all running processes
+top
 
 General options:
 
