@@ -39,7 +39,49 @@ Weighted Avg.    0,628    0,372    0,657      0,628    0,609      0,284    0,669
    a   b   <-- classified as
  152  28 |   a = negativo
  106  74 |   b = positivo
-               
+_________________________________________________________________________-
+BayesNet
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+
+Time taken to build model: 5.91 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.61 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         249               69.1667 %
+Incorrectly Classified Instances       111               30.8333 %
+Kappa statistic                          0.3833
+Mean absolute error                      0.307 
+Root mean squared error                  0.5515
+Relative absolute error                 61.4033 %
+Root relative squared error            110.1695 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,711    0,328    0,684      0,711    0,698      0,384    0,851     0,830     negativo
+                 0,672    0,289    0,699      0,672    0,686      0,384    0,830     0,770     positivo
+Weighted Avg.    0,692    0,308    0,692      0,692    0,692      0,384    0,841     0,800     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 128  52 |   a = negativo
+  59 121 |   b = positivo
+
+
+
 ____________________________________________________________________________________________________________
 
 SVM
@@ -87,7 +129,7 @@ Weighted Avg.    0,667    0,333    0,716      0,667    0,646      0,379    0,667
 
 ____________________________________________________________________________________________________________
 
-logistic
+SimpleLogistic
 
 
 Time taken to build model: 72.38 seconds
@@ -247,3 +289,456 @@ Weighted Avg.    0,672    0,328    0,802      0,672    0,633      0,456    0,859
  180   0 |   a = negativo
  118  62 |   b = positivo
 
+_____________________________________________________________________________________________________________________
+
+randomforest
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 6.8 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.19 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         291               80.8333 %
+Incorrectly Classified Instances        69               19.1667 %
+Kappa statistic                          0.6167
+Mean absolute error                      0.3294
+Root mean squared error                  0.3696
+Relative absolute error                 65.8778 %
+Root relative squared error             73.8221 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,994    0,378    0,725      0,994    0,838      0,664    0,968     0,957     negativo
+                 0,622    0,006    0,991      0,622    0,765      0,664    0,968     0,971     positivo
+Weighted Avg.    0,808    0,192    0,858      0,808    0,801      0,664    0,968     0,964     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 179   1 |   a = negativo
+  68 112 |   b = positivo
+
+________________________________________
+
+SGD
+
+Scheme:       weka.classifiers.functions.SGD -F 0 -L 0.01 -R 1.0E-4 -E 500 -C 0.001 -S 1
+Time taken to build model: 7.08 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.14 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         271               75.2778 %
+Incorrectly Classified Instances        89               24.7222 %
+Kappa statistic                          0.5056
+Mean absolute error                      0.2472
+Root mean squared error                  0.4972
+Relative absolute error                 49.4444 %
+Root relative squared error             99.322  %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,922    0,417    0,689      0,922    0,789      0,537    0,753     0,674     negativo
+                 0,583    0,078    0,882      0,583    0,702      0,537    0,753     0,723     positivo
+Weighted Avg.    0,753    0,247    0,786      0,753    0,745      0,537    0,753     0,699     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 166  14 |   a = negativo
+  75 105 |   b = positivo
+
+_______________________________________________-
+
+DecisionTable
+
+=== Run information ===
+
+Scheme:       weka.classifiers.rules.DecisionTable -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5"
+Relation:     _home_pringles_Desktop_TextCategorisation_data_1800_train80_test20_url_tittle_train-weka.filters.unsupervised.
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Decision Table:
+
+Number of training instances: 1376
+Number of Rules : 185
+Non matches covered by Majority class.
+  Best first.
+  Start set: no attributes
+  Search direction: forward
+  Stale search after 5 node expansions
+  Total number of subsets evaluated: 164268
+  Merit of best subset found:   96.73 
+Evaluation (for feature selection): CV (leave one out) 
+Feature set: 7,68,137,142,151,155,159,195,524,736,1423,3027,3541,4464,4659,5805,7833
+
+Time taken to build model: 484.07 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.21 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         275               76.3889 %
+Incorrectly Classified Instances        85               23.6111 %
+Kappa statistic                          0.5278
+Mean absolute error                      0.3293
+Root mean squared error                  0.4639
+Relative absolute error                 65.8625 %
+Root relative squared error             92.6647 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,861    0,333    0,721      0,861    0,785      0,538    0,807     0,735     negativo
+                 0,667    0,139    0,828      0,667    0,738      0,538    0,807     0,803     positivo
+Weighted Avg.    0,764    0,236    0,774      0,764    0,762      0,538    0,807     0,769     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 155  25 |   a = negativo
+  60 120 |   b = positivo
+
+______________________________________
+LogitBoost
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+
+LogitBoost
+
+=== Summary ===
+
+Correctly Classified Instances         280               77.7778 %
+Incorrectly Classified Instances        80               22.2222 %
+Kappa statistic                          0.5556
+Mean absolute error                      0.2623
+Root mean squared error                  0.3911
+Relative absolute error                 52.4673 %
+Root relative squared error             78.1201 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,722    0,167    0,813      0,722    0,765      0,559    0,874     0,875     negativo
+                 0,833    0,278    0,750      0,833    0,789      0,559    0,874     0,877     positivo
+Weighted Avg.    0,778    0,222    0,781      0,778    0,777      0,559    0,874     0,876     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 130  50 |   a = negativo
+  30 150 |   b = positivo
+
+___________________________________________________
+REPTree
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+
+REPTree
+============
+
+ordenar < 0.86
+|   km < 3.35
+|   |   enviar < 0.24
+|   |   |   cor < 0.38
+|   |   |   |   erros < 0.85 : negativo (101/1) [45/3]
+|   |   |   |   erros >= 0.85
+|   |   |   |   |   anúncio < 1.4 : negativo (11/0) [1/0]
+|   |   |   |   |   anúncio >= 1.4 : positivo (13/0) [4/0]
+|   |   |   cor >= 0.38
+|   |   |   |   todos < 0.14 : positivo (48/0) [35/0]
+|   |   |   |   todos >= 0.14
+|   |   |   |   |   vendedor < 0.74 : negativo (9/0) [6/0]
+|   |   |   |   |   vendedor >= 0.74 : positivo (3/0) [1/0]
+|   |   enviar >= 0.24
+|   |   |   mas < 1.36
+|   |   |   |   << < 1.95
+|   |   |   |   |   url#loja < 1.87
+|   |   |   |   |   |   cursos < 1.41 : positivo (397/7) [191/9]
+|   |   |   |   |   |   cursos >= 1.41
+|   |   |   |   |   |   |   modelo < 0.38 : negativo (13/0) [5/0]
+|   |   |   |   |   |   |   modelo >= 0.38 : positivo (22/0) [8/0]
+|   |   |   |   |   url#loja >= 1.87 : negativo (7/0) [6/0]
+|   |   |   |   << >= 1.95 : negativo (11/0) [7/0]
+|   |   |   mas >= 1.36 : negativo (22/1) [11/2]
+|   km >= 3.35 : negativo (100/0) [54/2]
+ordenar >= 0.86 : negativo (160/3) [85/4]
+
+Size of the tree : 27
+
+Time taken to build model: 14.63 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.07 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         305               84.7222 %
+Incorrectly Classified Instances        55               15.2778 %
+Kappa statistic                          0.6944
+Mean absolute error                      0.1691
+Root mean squared error                  0.3781
+Relative absolute error                 33.8221 %
+Root relative squared error             75.5228 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,906    0,211    0,811      0,906    0,856      0,699    0,845     0,809     negativo
+                 0,789    0,094    0,893      0,789    0,838      0,699    0,845     0,835     positivo
+Weighted Avg.    0,847    0,153    0,852      0,847    0,847      0,699    0,845     0,822     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 163  17 |   a = negativo
+  38 142 |   b = positivo
+
+
+___________________________________________
+J48
+
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ordenar <= 0
+|   km <= 3.040985
+|   |   tempo <= 0
+|   |   |   marcas <= 4.21167
+|   |   |   |   40 <= 0
+|   |   |   |   |   automatizado <= 0
+|   |   |   |   |   |   enviar <= 0
+|   |   |   |   |   |   |   cor <= 0
+|   |   |   |   |   |   |   |   compartilhar <= 1.635949
+|   |   |   |   |   |   |   |   |   url#manual <= 0
+|   |   |   |   |   |   |   |   |   |   “ficha <= 0: negativo (91.0)
+|   |   |   |   |   |   |   |   |   |   “ficha > 0
+|   |   |   |   |   |   |   |   |   |   |   voltar <= 0: negativo (3.0)
+|   |   |   |   |   |   |   |   |   |   |   voltar > 0: positivo (2.0)
+|   |   |   |   |   |   |   |   |   url#manual > 0: positivo (8.0)
+|   |   |   |   |   |   |   |   compartilhar > 1.635949: positivo (11.0)
+|   |   |   |   |   |   |   cor > 0
+|   |   |   |   |   |   |   |   todos <= 0: positivo (80.0)
+|   |   |   |   |   |   |   |   todos > 0
+|   |   |   |   |   |   |   |   |   voltar <= 0: negativo (4.0)
+|   |   |   |   |   |   |   |   |   voltar > 0: positivo (4.0)
+|   |   |   |   |   |   enviar > 0
+|   |   |   |   |   |   |   google <= 1.979912
+|   |   |   |   |   |   |   |   do <= 0.068004
+|   |   |   |   |   |   |   |   |   km <= 0: negativo (11.0)
+|   |   |   |   |   |   |   |   |   km > 0: positivo (33.0)
+|   |   |   |   |   |   |   |   do > 0.068004
+|   |   |   |   |   |   |   |   |   500 <= 0: positivo (499.0/4.0)
+|   |   |   |   |   |   |   |   |   500 > 0
+|   |   |   |   |   |   |   |   |   |   tittle#e <= 0: positivo (40.0/1.0)
+|   |   |   |   |   |   |   |   |   |   tittle#e > 0: negativo (3.0)
+|   |   |   |   |   |   |   google > 1.979912
+|   |   |   |   |   |   |   |   modelo <= 0: negativo (16.0)
+|   |   |   |   |   |   |   |   modelo > 0: positivo (30.0)
+|   |   |   |   |   automatizado > 0
+|   |   |   |   |   |   automático <= 0: positivo (8.0)
+|   |   |   |   |   |   automático > 0: negativo (21.0)
+|   |   |   |   40 > 0
+|   |   |   |   |   limpador <= 0: negativo (24.0)
+|   |   |   |   |   limpador > 0: positivo (3.0)
+|   |   |   marcas > 4.21167: negativo (35.0)
+|   |   tempo > 0: negativo (51.0)
+|   km > 3.040985
+|   |   url#veiculo <= 0: negativo (146.0)
+|   |   url#veiculo > 0
+|   |   |   « <= 0: positivo (2.0)
+|   |   |   « > 0: negativo (6.0)
+ordenar > 0
+|   doblo <= 0: negativo (232.0/2.0)
+|   doblo > 0
+|   |   url#4p <= 0: negativo (8.0)
+|   |   url#4p > 0: positivo (5.0)
+
+Number of Leaves  :   27
+
+Size of the tree :  53
+
+
+Time taken to build model: 24.42 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.15 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         310               86.1111 %
+Incorrectly Classified Instances        50               13.8889 %
+Kappa statistic                          0.7222
+Mean absolute error                      0.1434
+Root mean squared error                  0.372 
+Relative absolute error                 28.6858 %
+Root relative squared error             74.3146 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,850    0,128    0,869      0,850    0,860      0,722    0,815     0,781     negativo
+                 0,872    0,150    0,853      0,872    0,863      0,722    0,815     0,773     positivo
+Weighted Avg.    0,861    0,139    0,861      0,861    0,861      0,722    0,815     0,777     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 153  27 |   a = negativo
+  23 157 |   b = positivo
+
+________________________________________________-
+
+IBk: knn
+
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Instances:    360
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.76 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         283               78.6111 %
+Incorrectly Classified Instances        77               21.3889 %
+Kappa statistic                          0.5722
+Mean absolute error                      0.2154
+Root mean squared error                  0.4612
+Relative absolute error                 43.0878 %
+Root relative squared error             92.242  %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,572    0,000    1,000      0,572    0,728      0,633    0,793     0,790     negativo
+                 1,000    0,428    0,700      1,000    0,824      0,633    0,793     0,710     positivo
+Weighted Avg.    0,786    0,214    0,850      0,786    0,776      0,633    0,793     0,750     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 103  77 |   a = negativo
+   0 180 |   b = positivo
+
+
+_____________________________________________________________________
+
+
+Stacking: metaClassifier-> naivebayes.    classifiers: j48, naivebayes, reptree, adaboostm1
+
+Scheme:       weka.classifiers.meta.Stacking -X 10 -M "weka.classifiers.bayes.NaiveBayes " -S 1 -num-slots 1 -B "weka.classifiers.trees.J48 -C 0.25 -M 2" -B "weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0" -B "weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1" -B "weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump"
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Stacking
+
+Base classifiers
+
+J48 pruned tree
+
+Time taken to build model: 749.27 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.21 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         300               83.3333 %
+Incorrectly Classified Instances        60               16.6667 %
+Kappa statistic                          0.6667
+Mean absolute error                      0.1671
+Root mean squared error                  0.4075
+Relative absolute error                 33.4217 %
+Root relative squared error             81.4052 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,967    0,300    0,763      0,967    0,853      0,692    0,906     0,846     negativo
+                 0,700    0,033    0,955      0,700    0,808      0,692    0,971     0,976     positivo
+Weighted Avg.    0,833    0,167    0,859      0,833    0,830      0,692    0,938     0,911     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 174   6 |   a = negativo
+  54 126 |   b = positivo
+
+________________________________________________________________________________________-

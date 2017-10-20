@@ -1,0 +1,43 @@
+Naive Bayes -> probabilistic classifiers
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+
+SVM ->  logistic regression
+Scheme:       weka.classifiers.functions.LibSVM -S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.001 -P 0.1 -model 
+
+SimpleLogistic -> logistic regression
+
+BayesNet -> probabilistic classifiers
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+
+ADABoostM1 -> ensemble: bagging
+Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+
+Autoweka 15 time
+Scheme:       weka.classifiers.meta.AutoWEKAClassifier -seed 123 -timeLimit 15 -memLimit 1024 -nBestConfigs 1 -metric errorRate -
+
+randomforest -> ensemble: random decision forests
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+
+SGD -> linear regression
+Scheme:       weka.classifiers.functions.SGD -F 0 -L 0.01 -R 1.0E-4 -E 500 -C 0.001 -S 1
+
+DecisionTable -> decision table majority classifier
+Scheme:       weka.classifiers.rules.DecisionTable -X 1 -S "weka.attributeSelection.BestFirst -D 1 -N 5"
+
+LogitBoost -> additive logistic regression
+Scheme:       weka.classifiers.meta.LogitBoost -P 100 -L -1.7976931348623157E308 -H 1.0 -Z 3.0 -O 1 -E 1 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+
+REPTree -> decision tree 
+Scheme:       weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+
+J48 -> decision tree 
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+
+IBk -> KNN
+Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+
+
+
+USAR STACKING COM
+knn + linear regression + decision tree + svm + logistic regression?
+knn é mt ruim, será q uso msm?
