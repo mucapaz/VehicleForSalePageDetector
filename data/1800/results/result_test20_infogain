@@ -1001,3 +1001,158 @@ Weighted Avg.    0,547    0,453    0,594      0,547    0,483      0,133    0,789
  162  18 |   a = negativo
  145  35 |   b = positivo
 
+______________________________________________________________________________________________
+
+
+______________________________________________________________________________________________
+
+______________________________________________________________________________________________
+
+
+______________________________________________________________________________________________
+
+
+
+______________________________________________________________________________________________
+
+
+
+
+______________________________________________________________________________________________
+Stacking 7 árvores meta: naive bayes
+
+Scheme:       weka.classifiers.meta.Stacking -X 10 -M "weka.classifiers.bayes.NaiveBayes " -S 1 -num-slots 1 -B "weka.classifiers.trees.DecisionStump " -B "weka.classifiers.trees.HoeffdingTree -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0" -B "weka.classifiers.trees.J48 -C 0.25 -M 2" -B "weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0" -B "weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1" -B "weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1" -B "weka.classifiers.trees.REPTree -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0"
+
+Instances:    1376
+Attributes:   7290
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Stacking
+
+Meta classifier
+
+Naive Bayes Classifier
+
+                                                     Class
+Attribute                                         negativo positivo
+                                                    (0.48)   (0.52)
+====================================================================
+weka.classifiers.trees.DecisionStump-1:negativo
+  mean                                               0.6142   0.3524
+  std. dev.                                          0.3064   0.0665
+  weight sum                                            654      722
+  precision                                          0.0356   0.0356
+
+weka.classifiers.trees.DecisionStump-1:positivo
+  mean                                               0.3891   0.6553
+  std. dev.                                          0.3119   0.0679
+  weight sum                                            654      722
+  precision                                          0.0356   0.0356
+
+weka.classifiers.trees.HoeffdingTree-2:negativo
+  mean                                               0.9985   0.6233
+  std. dev.                                          0.1667   0.4846
+  weight sum                                            654      722
+  precision                                               1        1
+
+weka.classifiers.trees.HoeffdingTree-2:positivo
+  mean                                               0.0015   0.3767
+  std. dev.                                          0.1667   0.4846
+  weight sum                                            654      722
+  precision                                               1        1
+
+weka.classifiers.trees.J48-3:negativo
+  mean                                               0.9755   0.0108
+  std. dev.                                           0.149   0.1002
+  weight sum                                            654      722
+  precision                                          0.0263   0.0263
+
+weka.classifiers.trees.J48-3:positivo
+  mean                                               0.0245   0.9892
+  std. dev.                                           0.149   0.1002
+  weight sum                                            654      722
+  precision                                          0.0263   0.0263
+
+weka.classifiers.trees.LMT-4:negativo
+  mean                                               0.9724    0.017
+  std. dev.                                          0.0967   0.0883
+  weight sum                                            654      722
+  precision                                          0.0008   0.0008
+
+weka.classifiers.trees.LMT-4:positivo
+  mean                                               0.0276    0.983
+  std. dev.                                          0.0967   0.0883
+  weight sum                                            654      722
+  precision                                          0.0008   0.0008
+
+weka.classifiers.trees.RandomForest-5:negativo
+  mean                                               0.9078   0.0512
+  std. dev.                                          0.1107   0.0787
+  weight sum                                            654      722
+  precision                                          0.0122   0.0122
+
+weka.classifiers.trees.RandomForest-5:positivo
+  mean                                               0.0922   0.9488
+  std. dev.                                          0.1107   0.0787
+  weight sum                                            654      722
+  precision                                          0.0122   0.0122
+
+weka.classifiers.trees.RandomTree-6:negativo
+  mean                                                0.922   0.0443
+  std. dev.                                          0.2681   0.2058
+  weight sum                                            654      722
+  precision                                               1        1
+
+weka.classifiers.trees.RandomTree-6:positivo
+  mean                                                0.078   0.9557
+  std. dev.                                          0.2681   0.2058
+  weight sum                                            654      722
+  precision                                               1        1
+
+weka.classifiers.trees.REPTree-7:negativo
+  mean                                               0.9564    0.033
+  std. dev.                                          0.1577   0.1384
+  weight sum                                            654      722
+  precision                                          0.0175   0.0175
+
+weka.classifiers.trees.REPTree-7:positivo
+  mean                                               0.0436    0.967
+  std. dev.                                          0.1577   0.1384
+  weight sum                                            654      722
+  precision                                          0.0175   0.0175
+
+
+
+Time taken to build model: 2593.11 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 1.29 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         250               69.4444 %
+Incorrectly Classified Instances       110               30.5556 %
+Kappa statistic                          0.3889
+Mean absolute error                      0.3056
+Root mean squared error                  0.5528
+Relative absolute error                 61.1111 %
+Root relative squared error            110.4198 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,867    0,478    0,645      0,867    0,739      0,414    0,715     0,643     negativo
+                 0,522    0,133    0,797      0,522    0,631      0,414    0,829     0,784     positivo
+Weighted Avg.    0,694    0,306    0,721      0,694    0,685      0,414    0,772     0,713     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 156  24 |   a = negativo
+  86  94 |   b = positivo
+
