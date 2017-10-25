@@ -11,6 +11,7 @@ Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.s
 
 ADABoostM1 -> ensemble: bagging
 Scheme:       weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 10 -W weka.classifiers.trees.DecisionStump
+10,20,30,40,50,200 iterations
 
 Autoweka 15 time
 Scheme:       weka.classifiers.meta.AutoWEKAClassifier -seed 123 -timeLimit 15 -memLimit 1024 -nBestConfigs 1 -metric errorRate -
@@ -36,8 +37,19 @@ Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
 IBk -> KNN
 Scheme:       weka.classifiers.lazy.IBk -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
 
+Bagging
+Scheme:       weka.classifiers.meta.Bagging -P 100 -S 1 -num-slots 1 -I 30 -W weka.classifiers.trees.REPTree -- -M 2 -V 0.001 -N 3 -S 1 -L -1 -I 0.0
+10,20,30 iterations
+
+Stacking
+7 árvores, meta = naive bayes
+
+DecisionStump
+
+Hoeffding Tree
+
+Lmt
+
+RandomTree
 
 
-USAR STACKING COM
-knn + linear regression + decision tree + svm + logistic regression?
-knn é mt ruim, será q uso msm?
