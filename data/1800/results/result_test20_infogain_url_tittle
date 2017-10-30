@@ -1106,15 +1106,182 @@ Weighted Avg.    0,553    0,447    0,609      0,553    0,487      0,151    0,778
 ________________________________________________________________________________________-
 DecisionStump
 
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.DecisionStump 
+
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Decision Stump
+
+
+Time taken to build model: 3.3 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.15 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         180               50      %
+Incorrectly Classified Instances       180               50      %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.5139
+Relative absolute error                100      %
+Root relative squared error            102.6642 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    1,000    0,500      1,000    0,667      0,000    0,500     0,500     negativo
+                 0,000    0,000    0,000      0,000    0,000      0,000    0,500     0,500     positivo
+Weighted Avg.    0,500    0,500    0,250      0,500    0,333      0,000    0,500     0,500     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 180   0 |   a = negativo
+ 180   0 |   b = positivo
 ________________________________________________________________________________________-
 Hoeffding Tree
+
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.HoeffdingTree -L 2 -S 1 -E 1.0E-7 -H 0.05 -M 0.01 -G 200.0 -N 0.0
+
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+positivo (723,000) NB1 NB adaptive1
+
+Time taken to build model: 7.72 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 1.2 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         225               62.5    %
+Incorrectly Classified Instances       135               37.5    %
+Kappa statistic                          0.25  
+Mean absolute error                      0.375 
+Root mean squared error                  0.6124
+Relative absolute error                 75      %
+Root relative squared error            122.3256 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    0,750    0,571      1,000    0,727      0,378    0,625     0,571     negativo
+                 0,250    0,000    1,000      0,250    0,400      0,378    0,625     0,625     positivo
+Weighted Avg.    0,625    0,375    0,786      0,625    0,564      0,378    0,625     0,598     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 180   0 |   a = negativo
+ 135  45 |   b = positivo
 
 
 ________________________________________________________________________________________-
 LMT
 
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.LMT -I -1 -M 15 -W 0.0
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.25 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         264               73.3333 %
+Incorrectly Classified Instances        96               26.6667 %
+Kappa statistic                          0.4667
+Mean absolute error                      0.2672
+Root mean squared error                  0.5007
+Relative absolute error                 53.4402 %
+Root relative squared error            100.0222 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,628    0,161    0,796      0,628    0,702      0,477    0,711     0,789     negativo
+                 0,839    0,372    0,693      0,839    0,759      0,477    0,711     0,587     positivo
+Weighted Avg.    0,733    0,267    0,744      0,733    0,730      0,477    0,711     0,688     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 113  67 |   a = negativo
+  29 151 |   b = positivo
 ________________________________________________________________________________________-
 RandomTree
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+
+Instances:    1376
+Attributes:   7833
+              [list of attributes omitted]
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 7.09 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.15 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         269               74.7222 %
+Incorrectly Classified Instances        91               25.2778 %
+Kappa statistic                          0.4944
+Mean absolute error                      0.37  
+Root mean squared error                  0.4047
+Relative absolute error                 74.0056 %
+Root relative squared error             80.8437 %
+Total Number of Instances              360     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,961    0,467    0,673      0,961    0,792      0,547    0,911     0,918     negativo
+                 0,533    0,039    0,932      0,533    0,678      0,547    0,911     0,907     positivo
+Weighted Avg.    0,747    0,253    0,803      0,747    0,735      0,547    0,911     0,913     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 173   7 |   a = negativo
+  84  96 |   b = positivo
+
+
+
+
 
 
 ________________________________________________________________________________________-
