@@ -8,6 +8,8 @@ import java.util.Map;
 public class TfIdf {
 
 	List<String> docs;
+	Map<Integer, Map<String, Integer>> mapDoc;
+	
 	Map<String, Double> mapIdf;	
 	
 	public TfIdf(String docsPath) throws Exception {
@@ -19,8 +21,32 @@ public class TfIdf {
 		
 		System.out.println(docsPath);
 		
+		
+		mapDoc = new HashMap<Integer, Map<String, Integer> >();
+		
 		for(int i =0;i<files.length;i++) {
-			docs.add(fileToString(files[i]));
+			String doc = fileToString(files[i]);
+			
+			HashMap<String, Integer> hash = new HashMap<String, Integer>();
+			
+			docs.add(doc);
+			
+			String[] terms = doc.split(" ");
+			
+			for(String t : terms) {
+				
+				hash.put(t, 1);
+				
+//				if(hash.containsKey(t)) {
+//					hash.put(t, hash.get(t) + 1);
+//				}else {
+//					hash.put(t, 1);
+//				}
+				
+			}
+			
+			
+			mapDoc.put(i, hash);
 		}
 		
 	}
@@ -41,17 +67,25 @@ public class TfIdf {
 	private double idf(String term) {
 		double n = 0.0;
 		
-		for(String doc : docs) {
+		
+		for(int x=0;x<docs.size();x++) {
 			
-			String[] terms = doc.split(" ");
-			
-			for(String t : terms) {
-				if(t.equals(term)) {
-					n++;
-					break;
-				}
+			if(mapDoc.get(x).containsKey(term)) {
+				n++;
 			}
 		}
+		
+//		for(String doc : docs) {
+//			
+//			String[] terms = doc.split(" ");
+//			
+//			for(String t : terms) {
+//				if(t.equals(term)) {
+//					n++;
+//					break;
+//				}
+//			}
+//		}
 	
 		return Math.log(docs.size()/n);
 	}
